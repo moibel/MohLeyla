@@ -1,30 +1,20 @@
-# MohLeyla
+# MohLeyla v4 — GitHub / Netlify update
 
-A responsive Indonesian-language learning web app for Modern Standard Arabic, everyday Saudi Arabic, English, and Indonesian. Includes 50 lessons, 200 phrases, and 200 interactive multiple-choice questions, speech synthesis, bookmarks, and local progress.
+## Deploy
+Upload **all files from this folder** to the root of `moibel/MohLeyla`, replacing old files. Netlify builds automatically with `npm run build` and publishes `dist`. Do not upload ZIP directly.
 
-## Run locally
+## Included
+- Four courses: Arabic MSA, Saudi Arabic, English, Indonesian. 50 lessons / 200 items / 200 quizzes.
+- UI locale selector (Indonesian, English, Arabic), RTL for Arabic.
+- Localized core vocabulary and quiz prompts. Some longer authored lesson descriptions and example translations remain Indonesian; these are retained instead of inventing inaccurate translations.
+- Arabic audio: device speech voices preferred; optional Google Translate TTS web fallback if no Arabic voice exists (requires internet; third-party endpoint may block or change).
+- Same localStorage key as previous releases, so saved progress is retained on same origin/browser.
+- Logo, responsive UI, PWA manifest.
 
-Requires Node.js 18+.
+## Testing
+1. Check UI languages and RTL.
+2. Test audio on actual devices (Arabic especially).
+3. Complete a lesson and refresh; verify progress.
+4. Run `npm install && npm run build` locally or confirm Netlify deploy status.
 
-```bash
-npm install
-npm run dev
-```
-
-## Deploy to Netlify
-
-**Recommended (Git repository):** push the project to GitHub, import it into Netlify, use build command `npm run build` and publish directory `dist` (already configured in `netlify.toml`).
-
-**Manual drag-and-drop:** run `npm install && npm run build` locally, then drag the **dist folder** into Netlify's manual deploy page. Do **not** drag the source ZIP directly into Netlify's manual deploy area.
-
-## Features and limitations
-
-- Progress and saved vocabulary are stored in localStorage on the current browser/device, not synced across devices.
-- Audio uses the browser's built-in Web Speech API. Voice availability, especially Arabic, varies by browser/OS. For reliable Saudi dialect pronunciation, recorded native audio is recommended for a future release.
-- Saudi colloquial transliterations are approximate learner guides; the pronunciation engine may read them in standard Arabic.
-- No authentication, backend, AI tutor, speech scoring, or offline caching in this release. The manifest enables install-like browser experiences where supported, but this is not a fully offline PWA.
-- Learning content is editable in `src/data.js`.
-
-## Indonesian learning track
-
-The Indonesian track uses English glosses as prompts, Indonesian answers, examples and Indonesian TTS (`id-ID`). The app UI remains Indonesian.
+**Note:** Browser TTS availability depends on OS/browser; external Arabic audio fallback is not a guaranteed production audio service. For guaranteed pronunciation, ship licensed audio assets or integrate a paid TTS service via a secure server-side endpoint.
