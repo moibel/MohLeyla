@@ -1,0 +1,2784 @@
+[
+  {
+    "id": "en-23",
+    "track": "en",
+    "level": "intermediate",
+    "order": 21,
+    "topic": "transport-city",
+    "icon": "🚌",
+    "title": {
+      "ar": "المواصلات وأماكن المدينة",
+      "en": "Transportation and city places",
+      "id": "Transportasi dan tempat di kota"
+    },
+    "description": {
+      "ar": "تعلّم كيف تتنقل في المدينة وتتحدث عن وسائل المواصلات.",
+      "en": "Learn to get around a city and talk about public transport.",
+      "id": "Belajar berkeliling kota dan membicarakan transportasi umum."
+    },
+    "objectives": [
+      {
+        "ar": "أستطيع أن أقول كيف أذهب إلى العمل بالحافلة أو القطار.",
+        "en": "I can say how I get to work by bus or train.",
+        "id": "Saya bisa mengatakan bagaimana saya pergi kerja naik bus atau kereta."
+      },
+      {
+        "ar": "أستطيع أن أسأل عن المحطات والتذاكر.",
+        "en": "I can ask about stations, stops and tickets.",
+        "id": "Saya bisa bertanya tentang stasiun, halte, dan tiket."
+      },
+      {
+        "ar": "أستطيع أن أصف الازدحام وأماكن المدينة الشائعة.",
+        "en": "I can describe traffic and common places in a city.",
+        "id": "Saya bisa menggambarkan kemacetan dan tempat umum di kota."
+      }
+    ],
+    "intro": {
+      "ar": "في هذا الدرس ستتعلم عبارات تحتاجها كل يوم في المدينة: ركوب الحافلة، والسؤال عن المحطة، وشراء التذكرة. هذه العبارات مفيدة جدًا عند السفر أو العيش في بلد ناطق بالإنجليزية.",
+      "en": "In this lesson you will learn phrases you need every day in a city: taking the bus, asking about the station and buying a ticket. They are very useful when you travel or live in an English-speaking country.",
+      "id": "Dalam pelajaran ini Anda akan belajar ungkapan yang dibutuhkan setiap hari di kota: naik bus, bertanya soal stasiun, dan membeli tiket. Sangat berguna saat bepergian atau tinggal di negara berbahasa Inggris."
+    },
+    "culture": {
+      "ar": "في المدن الإنجليزية يستخدم الناس بطاقات إلكترونية للحافلات والمترو، ومن المعتاد قول \"Excuse me\" عند المرور بين الناس. في بريطانيا تقول \"return ticket\" وفي أمريكا \"round-trip ticket\" لتذكرة الذهاب والعودة.",
+      "en": "In English-speaking cities people often pay with a card or app, and it is normal to say \"Excuse me\" when you pass someone. In Britain a ticket there and back is a \"return\", in the US it is a \"round-trip\".",
+      "id": "Di kota berbahasa Inggris orang sering membayar dengan kartu atau aplikasi, dan wajar mengatakan \"Excuse me\" saat melewati orang. Di Inggris tiket pulang-pergi disebut \"return\", di Amerika \"round-trip\"."
+    },
+    "grammar": {
+      "title": {
+        "ar": "استخدام take وby مع المواصلات",
+        "en": "Using take and by with transport",
+        "id": "Memakai take dan by untuk transportasi"
+      },
+      "body": {
+        "ar": "نقول \"take the bus\" أو \"go by bus\" بنفس المعنى تقريبًا. لاحظ أننا نستخدم the مع take (take the train) ولا نستخدم أداة التعريف مع by (by train). ونسأل عن المدة بـ \"How long does it take?\".",
+        "en": "We say \"take the bus\" or \"go by bus\" with almost the same meaning. Notice that take uses the (take the train) but by does not (by train). To ask about time, use \"How long does it take?\".",
+        "id": "Kita bisa mengatakan \"take the bus\" atau \"go by bus\" dengan arti hampir sama. Perhatikan: take memakai the (take the train), sedangkan by tidak (by train). Untuk menanyakan lama perjalanan: \"How long does it take?\"."
+      }
+    },
+    "items": [
+      {
+        "id": "en23n1",
+        "target": "take the bus",
+        "translit": "tayk thuh BUS",
+        "tr": {
+          "ar": "أركب الحافلة",
+          "en": "to travel using the public bus",
+          "id": "naik bus"
+        },
+        "example": {
+          "target": "I take the bus to work every day.",
+          "translit": "eye tayk thuh BUS too WURK EV-ree DAY",
+          "tr": {
+            "ar": "أركب الحافلة إلى العمل كل يوم.",
+            "en": "I take the bus to work every day.",
+            "id": "Saya naik bus ke tempat kerja setiap hari."
+          }
+        },
+        "hint": {
+          "ar": "يمكن أيضًا قول \"go by bus\".",
+          "en": "You can also say \"go by bus\".",
+          "id": "Bisa juga mengatakan \"go by bus\"."
+        }
+      },
+      {
+        "id": "en23n2",
+        "target": "train station",
+        "translit": "TRAYN STAY-shun",
+        "tr": {
+          "ar": "محطة القطار",
+          "en": "the place where trains stop for passengers",
+          "id": "stasiun kereta"
+        },
+        "example": {
+          "target": "The train station is next to the park.",
+          "translit": "thuh TRAYN STAY-shun iz NEKST too thuh PARK",
+          "tr": {
+            "ar": "محطة القطار بجانب الحديقة.",
+            "en": "The train station is next to the park.",
+            "id": "Stasiun kereta ada di sebelah taman."
+          }
+        }
+      },
+      {
+        "id": "en23n3",
+        "target": "bus stop",
+        "translit": "BUS stop",
+        "tr": {
+          "ar": "موقف الحافلة",
+          "en": "a place on the street where a bus stops",
+          "id": "halte bus"
+        },
+        "example": {
+          "target": "Where is the nearest bus stop?",
+          "translit": "WAIR iz thuh NEER-ist BUS stop",
+          "tr": {
+            "ar": "أين أقرب موقف حافلات؟",
+            "en": "Where is the nearest bus stop?",
+            "id": "Di mana halte bus terdekat?"
+          }
+        }
+      },
+      {
+        "id": "en23n4",
+        "target": "traffic jam",
+        "translit": "TRAF-ik JAM",
+        "tr": {
+          "ar": "ازدحام مروري",
+          "en": "a long line of cars that cannot move quickly",
+          "id": "kemacetan lalu lintas"
+        },
+        "example": {
+          "target": "We were late because of a traffic jam.",
+          "translit": "wee wur LAYT bi-KUZ uv uh TRAF-ik JAM",
+          "tr": {
+            "ar": "تأخرنا بسبب ازدحام مروري.",
+            "en": "We were late because of a traffic jam.",
+            "id": "Kami terlambat karena macet."
+          }
+        },
+        "hint": {
+          "ar": "نقول \"stuck in a traffic jam\".",
+          "en": "You often hear \"stuck in a traffic jam\".",
+          "id": "Sering dipakai: \"stuck in a traffic jam\"."
+        }
+      },
+      {
+        "id": "en23n5",
+        "target": "one-way ticket",
+        "translit": "WUN-way TIK-it",
+        "tr": {
+          "ar": "تذكرة ذهاب فقط",
+          "en": "a ticket for going to a place but not coming back",
+          "id": "tiket sekali jalan"
+        },
+        "example": {
+          "target": "I would like a one-way ticket to Manchester.",
+          "translit": "eye wud LYK uh WUN-way TIK-it too MAN-ches-ter",
+          "tr": {
+            "ar": "أريد تذكرة ذهاب فقط إلى مانشستر.",
+            "en": "I would like a one-way ticket to Manchester.",
+            "id": "Saya mau tiket sekali jalan ke Manchester."
+          }
+        }
+      },
+      {
+        "id": "en23n6",
+        "target": "post office",
+        "translit": "POHST OF-is",
+        "tr": {
+          "ar": "مكتب البريد",
+          "en": "a place where you send letters and parcels",
+          "id": "kantor pos"
+        },
+        "example": {
+          "target": "I need to go to the post office after lunch.",
+          "translit": "eye NEED too GOH too thuh POHST OF-is AF-ter LUNCH",
+          "tr": {
+            "ar": "أحتاج إلى الذهاب إلى مكتب البريد بعد الغداء.",
+            "en": "I need to go to the post office after lunch.",
+            "id": "Saya perlu pergi ke kantor pos setelah makan siang."
+          }
+        }
+      }
+    ],
+    "cloze": [
+      {
+        "sentence": "I usually ___ the bus to work.",
+        "answer": "take",
+        "wrong": [
+          "make",
+          "wear"
+        ],
+        "tr": {
+          "ar": "أركب الحافلة عادةً إلى العمل.",
+          "en": "I usually take the bus to work.",
+          "id": "Saya biasanya naik bus ke tempat kerja."
+        },
+        "why": {
+          "ar": "نقول \"take the bus\" لركوب الحافلة. make وwear لا تناسبان المعنى.",
+          "en": "We say \"take the bus\" for travelling by bus. Make and wear do not fit the meaning.",
+          "id": "Kita mengatakan \"take the bus\" untuk naik bus. Make dan wear tidak cocok artinya."
+        }
+      },
+      {
+        "sentence": "We were late because we were stuck in a ___.",
+        "answer": "traffic jam",
+        "wrong": [
+          "post office",
+          "one-way ticket"
+        ],
+        "tr": {
+          "ar": "تأخرنا لأننا علقنا في ازدحام مروري.",
+          "en": "We were late because we were stuck in a traffic jam.",
+          "id": "Kami terlambat karena terjebak macet."
+        },
+        "why": {
+          "ar": "الازدحام هو ما يجعلنا نتأخر. مكتب البريد والتذكرة لا يسببان التأخير بهذه الطريقة.",
+          "en": "A traffic jam is what makes people late on the road. A post office or a ticket does not cause that.",
+          "id": "Kemacetan membuat orang terlambat di jalan. Kantor pos atau tiket tidak menyebabkan hal itu."
+        }
+      }
+    ],
+    "conversation": {
+      "context": {
+        "ar": "سائح يسأل موظفًا في الشارع عن محطة القطار.",
+        "en": "A tourist asks a local in the street about the train station.",
+        "id": "Seorang turis bertanya kepada warga di jalan tentang stasiun kereta."
+      },
+      "turns": [
+        {
+          "who": "A",
+          "target": "Excuse me, how do I get to the train station?",
+          "tr": {
+            "ar": "المعذرة، كيف أصل إلى محطة القطار؟",
+            "en": "Excuse me, how do I get to the train station?",
+            "id": "Permisi, bagaimana cara ke stasiun kereta?"
+          }
+        },
+        {
+          "who": "B",
+          "target": "Take the number 12 bus from that bus stop.",
+          "tr": {
+            "ar": "اركب الحافلة رقم 12 من ذلك الموقف.",
+            "en": "Take the number 12 bus from that bus stop.",
+            "id": "Naik bus nomor 12 dari halte itu."
+          }
+        },
+        {
+          "who": "A",
+          "target": "How long does it take?",
+          "tr": {
+            "ar": "كم تستغرق الرحلة؟",
+            "en": "How long does it take?",
+            "id": "Berapa lama perjalanannya?"
+          }
+        },
+        {
+          "who": "B",
+          "target": "About fifteen minutes.",
+          "tr": {
+            "ar": "حوالي خمس عشرة دقيقة.",
+            "en": "About fifteen minutes.",
+            "id": "Sekitar lima belas menit."
+          }
+        }
+      ],
+      "gap": 1,
+      "wrong": [
+        "I take the train to work every day.",
+        "The post office is closed on Sunday."
+      ],
+      "why": {
+        "ar": "الجواب الصحيح يشرح الطريق مباشرة بعد السؤال. الجوابان الآخران جمل صحيحة لكنهما لا يجيبان عن سؤال كيفية الوصول.",
+        "en": "The correct reply gives directions, which is what the question asks for. The other two are good sentences but do not answer how to get there.",
+        "id": "Jawaban yang benar memberi petunjuk arah sesuai pertanyaan. Dua lainnya kalimat yang benar tetapi tidak menjawab cara menuju ke sana."
+      }
+    },
+    "summary": {
+      "ar": "تعلّمت عبارات المواصلات مثل take the bus وone-way ticket وأماكن المدينة. تذكّر الفرق بين take the bus وby bus.",
+      "en": "You learned transport phrases like take the bus and one-way ticket, plus city places. Remember the difference between take the bus and by bus.",
+      "id": "Anda belajar ungkapan transportasi seperti take the bus dan one-way ticket, serta tempat di kota. Ingat perbedaan take the bus dan by bus."
+    }
+  },
+  {
+    "id": "en-10",
+    "track": "en",
+    "level": "intermediate",
+    "order": 22,
+    "topic": "health-safety",
+    "icon": "🏥",
+    "title": {
+      "ar": "الصحة والسلامة",
+      "en": "Health and safety",
+      "id": "Kesehatan dan keselamatan"
+    },
+    "description": {
+      "ar": "تعلّم كيف تطلب المساعدة وتصف مشكلة صحية بالإنجليزية.",
+      "en": "Learn to ask for help and describe a health problem in English.",
+      "id": "Belajar meminta bantuan dan menjelaskan masalah kesehatan dalam bahasa Inggris."
+    },
+    "objectives": [
+      {
+        "ar": "أستطيع أن أقول إنني مريض وأين الألم.",
+        "en": "I can say that I am sick and where it hurts.",
+        "id": "Saya bisa mengatakan bahwa saya sakit dan di mana yang sakit."
+      },
+      {
+        "ar": "أستطيع أن أطلب طبيبًا أو مساعدة.",
+        "en": "I can ask for a doctor or for help.",
+        "id": "Saya bisa meminta dokter atau bantuan."
+      },
+      {
+        "ar": "أستطيع أن أتصرف في حالة طارئة.",
+        "en": "I can act in an emergency.",
+        "id": "Saya bisa bertindak dalam keadaan darurat."
+      }
+    ],
+    "intro": {
+      "ar": "في الحالات الصحية تحتاج إلى جمل قصيرة وواضحة. سنتعلم كيف تقول أنك مريض، وتطلب الطبيب، وتستنجد بمن حولك عند الخطر.",
+      "en": "When your health is at risk you need short, clear sentences. You will learn how to say you are sick, ask for a doctor and call for help in danger.",
+      "id": "Saat kesehatan terganggu, Anda butuh kalimat singkat dan jelas. Anda akan belajar mengatakan bahwa Anda sakit, meminta dokter, dan memanggil bantuan saat bahaya."
+    },
+    "culture": {
+      "ar": "رقم الطوارئ في بريطانيا 999 وفي أمريكا 911 وفي أوروبا 112. عند الاتصال قل أولًا ما الحالة (\"This is an emergency\") ثم أين أنت، وتحدّث ببطء.",
+      "en": "The emergency number is 999 in the UK, 911 in the US and 112 in much of Europe. When you call, say what is happening first, then where you are, and speak slowly.",
+      "id": "Nomor darurat adalah 999 di Inggris, 911 di Amerika, dan 112 di banyak negara Eropa. Saat menelepon, sebutkan dulu apa yang terjadi, lalu lokasi Anda, dan bicara pelan-pelan."
+    },
+    "grammar": {
+      "title": {
+        "ar": "الأمر المهذب وعبارة have للألم",
+        "en": "Polite commands and \"have\" for pain",
+        "id": "Perintah sopan dan have untuk rasa sakit"
+      },
+      "body": {
+        "ar": "للشكوى من الألم نستخدم have: \"I have a headache\". وللطلب نضيف please إلى الأمر: \"Please help me\". أما \"I am sick\" فتعني أنك مريض بوجه عام.",
+        "en": "To describe pain we use have: \"I have a headache\". For requests we add please to a command: \"Please help me\". \"I am sick\" says you are ill in general.",
+        "id": "Untuk menyatakan sakit di bagian tubuh kita memakai have: \"I have a headache\". Untuk permintaan, tambahkan please pada kalimat perintah: \"Please help me\". \"I am sick\" berarti Anda sakit secara umum."
+      }
+    },
+    "items": [
+      {
+        "id": "enx101",
+        "target": "I am sick",
+        "translit": "eye am SIK",
+        "tr": {
+          "ar": "أنا مريض",
+          "en": "I do not feel well; I am ill",
+          "id": "Saya sakit"
+        },
+        "example": {
+          "target": "I am sick today.",
+          "translit": "eye am SIK tuh-DAY",
+          "tr": {
+            "ar": "أنا مريض اليوم.",
+            "en": "I am sick today.",
+            "id": "Saya sakit hari ini."
+          }
+        },
+        "hint": {
+          "ar": "في الإنجليزية البريطانية sick قد تعني أيضًا \"أشعر بالغثيان\".",
+          "en": "In British English, \"sick\" can also mean \"about to vomit\".",
+          "id": "Dalam bahasa Inggris Inggris, \"sick\" bisa juga berarti mual."
+        }
+      },
+      {
+        "id": "enx102",
+        "target": "Doctor",
+        "translit": "DOK-ter",
+        "tr": {
+          "ar": "طبيب",
+          "en": "a person who treats sick people",
+          "id": "Dokter"
+        },
+        "example": {
+          "target": "I need a doctor.",
+          "translit": "eye NEED uh DOK-ter",
+          "tr": {
+            "ar": "أحتاج إلى طبيب.",
+            "en": "I need a doctor.",
+            "id": "Saya membutuhkan dokter."
+          }
+        }
+      },
+      {
+        "id": "enx103",
+        "target": "Please help me",
+        "translit": "pleez HELP mee",
+        "tr": {
+          "ar": "من فضلك ساعدني",
+          "en": "a polite way to ask someone to give you help",
+          "id": "Tolong bantu saya"
+        },
+        "example": {
+          "target": "Please help me now.",
+          "translit": "pleez HELP mee NOW",
+          "tr": {
+            "ar": "من فضلك ساعدني الآن.",
+            "en": "Please help me now.",
+            "id": "Tolong bantu saya sekarang."
+          }
+        }
+      },
+      {
+        "id": "enx104",
+        "target": "Emergency",
+        "translit": "i-MER-jen-see",
+        "tr": {
+          "ar": "حالة طارئة",
+          "en": "a sudden dangerous situation that needs fast action",
+          "id": "Darurat"
+        },
+        "example": {
+          "target": "This is an emergency.",
+          "translit": "THIS iz an i-MER-jen-see",
+          "tr": {
+            "ar": "هذه حالة طارئة.",
+            "en": "This is an emergency.",
+            "id": "Ini keadaan darurat."
+          }
+        }
+      },
+      {
+        "id": "enx105",
+        "target": "I have a headache",
+        "translit": "eye HAV uh HED-ayk",
+        "tr": {
+          "ar": "عندي صداع",
+          "en": "my head hurts",
+          "id": "Kepala saya sakit"
+        },
+        "example": {
+          "target": "I have a headache and I want to lie down.",
+          "translit": "eye HAV uh HED-ayk and eye WONT too LY DOWN",
+          "tr": {
+            "ar": "عندي صداع وأريد أن أستلقي.",
+            "en": "I have a headache and I want to lie down.",
+            "id": "Kepala saya sakit dan saya ingin berbaring."
+          }
+        },
+        "hint": {
+          "ar": "نفس النمط: a stomachache, a toothache, a sore throat.",
+          "en": "Same pattern: a stomachache, a toothache, a sore throat.",
+          "id": "Pola sama: a stomachache, a toothache, a sore throat."
+        }
+      },
+      {
+        "id": "enx106",
+        "target": "Call an ambulance",
+        "translit": "KAWL an AM-byuh-luns",
+        "tr": {
+          "ar": "اتصل بالإسعاف",
+          "en": "phone for a vehicle that takes sick people to hospital",
+          "id": "Panggil ambulans"
+        },
+        "example": {
+          "target": "Quick, call an ambulance! He is not breathing.",
+          "translit": "KWIK KAWL an AM-byuh-luns hee iz NOT BREE-dhing",
+          "tr": {
+            "ar": "بسرعة، اتصل بالإسعاف! إنه لا يتنفس.",
+            "en": "Quick, call an ambulance! He is not breathing.",
+            "id": "Cepat, panggil ambulans! Dia tidak bernapas."
+          }
+        }
+      }
+    ],
+    "cloze": [
+      {
+        "sentence": "I need to see a ___ because my stomach hurts.",
+        "answer": "doctor",
+        "wrong": [
+          "teacher",
+          "driver"
+        ],
+        "tr": {
+          "ar": "أحتاج إلى زيارة طبيب لأن معدتي تؤلمني.",
+          "en": "I need to see a doctor because my stomach hurts.",
+          "id": "Saya perlu ke dokter karena perut saya sakit."
+        },
+        "why": {
+          "ar": "الطبيب هو من يعالج الألم. المعلم والسائق لا يعالجان المرضى.",
+          "en": "A doctor treats pain. A teacher or a driver does not treat patients.",
+          "id": "Dokter mengobati rasa sakit. Guru atau sopir tidak mengobati pasien."
+        }
+      },
+      {
+        "sentence": "Please call an ___! He cannot breathe.",
+        "answer": "ambulance",
+        "wrong": [
+          "umbrella",
+          "exit"
+        ],
+        "tr": {
+          "ar": "من فضلك اتصل بالإسعاف! إنه لا يستطيع التنفس.",
+          "en": "Please call an ambulance! He cannot breathe.",
+          "id": "Tolong panggil ambulans! Dia tidak bisa bernapas."
+        },
+        "why": {
+          "ar": "الإسعاف مناسب للخطر. المظلة والمخرج لا يُستدعيان لإنقاذ شخص.",
+          "en": "An ambulance fits a medical danger. You do not call an umbrella or an exit to help a person.",
+          "id": "Ambulans cocok untuk bahaya medis. Payung atau pintu keluar tidak dipanggil untuk menolong orang."
+        }
+      }
+    ],
+    "conversation": {
+      "context": {
+        "ar": "مريض يتصل بعيادة لأنه يشعر بتوعك.",
+        "en": "A patient calls a clinic because he feels unwell.",
+        "id": "Seorang pasien menelepon klinik karena merasa tidak enak badan."
+      },
+      "turns": [
+        {
+          "who": "A",
+          "target": "Good morning. How can I help you?",
+          "tr": {
+            "ar": "صباح الخير. كيف أستطيع مساعدتك؟",
+            "en": "Good morning. How can I help you?",
+            "id": "Selamat pagi. Ada yang bisa saya bantu?"
+          }
+        },
+        {
+          "who": "B",
+          "target": "I am sick. I have a headache and a fever.",
+          "tr": {
+            "ar": "أنا مريض. عندي صداع وحمّى.",
+            "en": "I am sick. I have a headache and a fever.",
+            "id": "Saya sakit. Kepala saya sakit dan saya demam."
+          }
+        },
+        {
+          "who": "A",
+          "target": "I am sorry to hear that. Can you come at ten?",
+          "tr": {
+            "ar": "يؤسفني سماع ذلك. هل تستطيع القدوم في العاشرة؟",
+            "en": "I am sorry to hear that. Can you come at ten?",
+            "id": "Saya turut prihatin. Bisakah Anda datang jam sepuluh?"
+          }
+        }
+      ],
+      "gap": 1,
+      "wrong": [
+        "I am fine, thank you. I like the doctor.",
+        "The emergency number is 999."
+      ],
+      "why": {
+        "ar": "السؤال هو كيف يمكن المساعدة، والجواب الصحيح يشرح المشكلة الصحية. الجوابان الآخران لا يصفان مشكلة.",
+        "en": "The question asks how to help, so the right reply describes the health problem. The other two do not describe a problem.",
+        "id": "Pertanyaannya apa yang bisa dibantu, jadi jawaban yang benar menjelaskan masalah kesehatan. Dua lainnya tidak menjelaskan masalah."
+      }
+    },
+    "summary": {
+      "ar": "تعلّمت أن تقول I am sick وI have a headache وكيف تطلب الطبيب أو الإسعاف. استخدم please لتكون مهذبًا وواضحًا.",
+      "en": "You learned to say I am sick and I have a headache, and how to ask for a doctor or an ambulance. Use please to stay polite and clear.",
+      "id": "Anda belajar mengatakan I am sick dan I have a headache, serta meminta dokter atau ambulans. Gunakan please agar sopan dan jelas."
+    }
+  },
+  {
+    "id": "en-24",
+    "track": "en",
+    "level": "intermediate",
+    "order": 23,
+    "topic": "work-jobs",
+    "icon": "💼",
+    "title": {
+      "ar": "العمل والوظائف",
+      "en": "Work and jobs",
+      "id": "Pekerjaan dan profesi"
+    },
+    "description": {
+      "ar": "تحدّث عن وظيفتك وزملائك وجدول عملك.",
+      "en": "Talk about your job, your colleagues and your work schedule.",
+      "id": "Bicara tentang pekerjaan, rekan kerja, dan jadwal kerja Anda."
+    },
+    "objectives": [
+      {
+        "ar": "أستطيع أن أقول ماذا أعمل وأين.",
+        "en": "I can say what I do and where I work.",
+        "id": "Saya bisa mengatakan apa pekerjaan saya dan di mana saya bekerja."
+      },
+      {
+        "ar": "أستطيع أن أصف مسؤولياتي وجدولي.",
+        "en": "I can describe my duties and schedule.",
+        "id": "Saya bisa menjelaskan tugas dan jadwal saya."
+      },
+      {
+        "ar": "أستطيع أن أبدأ حديثًا مهنيًا بسيطًا.",
+        "en": "I can start a simple conversation about work.",
+        "id": "Saya bisa memulai percakapan sederhana tentang pekerjaan."
+      }
+    ],
+    "intro": {
+      "ar": "السؤال \"What do you do?\" من أكثر الأسئلة شيوعًا عند التعرف على أحد. ستتعلم هنا كيف تجيب بثقة وتصف عملك وزملاءك.",
+      "en": "\"What do you do?\" is one of the most common questions when you meet someone. Here you will learn to answer with confidence and describe your work and colleagues.",
+      "id": "\"What do you do?\" adalah salah satu pertanyaan paling umum saat berkenalan. Di sini Anda belajar menjawab dengan percaya diri dan menjelaskan pekerjaan serta rekan kerja Anda."
+    },
+    "culture": {
+      "ar": "في الثقافة الإنجليزية يسأل الناس عن العمل في بداية التعارف، وهو ليس سؤالًا شخصيًا مزعجًا. يحب الناس الإجابات القصيرة مثل \"I'm a nurse\" ثم يضيفون تفصيلًا واحدًا.",
+      "en": "In English-speaking cultures people often ask about work early on, and it is not rude. Short answers like \"I'm a nurse\" followed by one detail are normal.",
+      "id": "Dalam budaya berbahasa Inggris, bertanya soal pekerjaan di awal perkenalan itu wajar dan tidak kasar. Jawaban singkat seperti \"I'm a nurse\" lalu satu detail tambahan sudah cukup."
+    },
+    "grammar": {
+      "title": {
+        "ar": "work as وwork for وwork at",
+        "en": "work as / for / at",
+        "id": "work as / for / at"
+      },
+      "body": {
+        "ar": "نستخدم \"work as\" للمهنة (work as a nurse)، و\"work for\" للشركة (work for Google)، و\"work at\" للمكان (work at a bank). نستخدم المضارع البسيط للحديث عن العمل المعتاد.",
+        "en": "Use \"work as\" for the job (work as a nurse), \"work for\" for the company (work for Google) and \"work at\" for the place (work at a bank). Use the present simple for regular work.",
+        "id": "Gunakan \"work as\" untuk profesi (work as a nurse), \"work for\" untuk perusahaan (work for Google), dan \"work at\" untuk tempat (work at a bank). Pakai present simple untuk pekerjaan rutin."
+      }
+    },
+    "items": [
+      {
+        "id": "en24n1",
+        "target": "I work as an accountant",
+        "translit": "eye WURK az un uh-KOWN-tunt",
+        "tr": {
+          "ar": "أعمل محاسبًا",
+          "en": "my job is accountant",
+          "id": "pekerjaan saya akuntan"
+        },
+        "example": {
+          "target": "I work as an accountant in a small company.",
+          "translit": "eye WURK az un uh-KOWN-tunt in uh SMAWL KUM-puh-nee",
+          "tr": {
+            "ar": "أعمل محاسبًا في شركة صغيرة.",
+            "en": "I work as an accountant in a small company.",
+            "id": "Saya bekerja sebagai akuntan di perusahaan kecil."
+          }
+        },
+        "hint": {
+          "ar": "استخدم an قبل كلمة تبدأ بصوت متحرك.",
+          "en": "Use \"an\" before a vowel sound.",
+          "id": "Pakai \"an\" sebelum bunyi vokal."
+        }
+      },
+      {
+        "id": "en24n2",
+        "target": "colleague",
+        "translit": "KOL-eeg",
+        "tr": {
+          "ar": "زميل عمل",
+          "en": "a person you work with",
+          "id": "rekan kerja"
+        },
+        "example": {
+          "target": "My colleagues are very friendly.",
+          "translit": "my KOL-eegz ar VER-ee FREND-lee",
+          "tr": {
+            "ar": "زملائي في العمل ودودون جدًا.",
+            "en": "My colleagues are very friendly.",
+            "id": "Rekan-rekan kerja saya sangat ramah."
+          }
+        }
+      },
+      {
+        "id": "en24n3",
+        "target": "full-time job",
+        "translit": "FUL-tym JOB",
+        "tr": {
+          "ar": "وظيفة بدوام كامل",
+          "en": "a job where you work the whole normal week",
+          "id": "pekerjaan penuh waktu"
+        },
+        "example": {
+          "target": "She has a full-time job at a bank.",
+          "translit": "shee HAZ uh FUL-tym JOB at uh BANGK",
+          "tr": {
+            "ar": "لديها وظيفة بدوام كامل في بنك.",
+            "en": "She has a full-time job at a bank.",
+            "id": "Dia punya pekerjaan penuh waktu di bank."
+          }
+        }
+      },
+      {
+        "id": "en24n4",
+        "target": "be in charge of",
+        "translit": "bee in CHARJ uv",
+        "tr": {
+          "ar": "مسؤول عن",
+          "en": "to be the person who manages something",
+          "id": "bertanggung jawab atas"
+        },
+        "example": {
+          "target": "I am in charge of the sales team.",
+          "translit": "eye am in CHARJ uv thuh SAYLZ TEEM",
+          "tr": {
+            "ar": "أنا مسؤول عن فريق المبيعات.",
+            "en": "I am in charge of the sales team.",
+            "id": "Saya bertanggung jawab atas tim penjualan."
+          }
+        }
+      },
+      {
+        "id": "en24n5",
+        "target": "day off",
+        "translit": "DAY OF",
+        "tr": {
+          "ar": "يوم إجازة",
+          "en": "a day when you do not have to work",
+          "id": "hari libur kerja"
+        },
+        "example": {
+          "target": "Friday is my day off.",
+          "translit": "FRY-day iz my DAY OF",
+          "tr": {
+            "ar": "الجمعة هو يوم إجازتي.",
+            "en": "Friday is my day off.",
+            "id": "Jumat adalah hari libur saya."
+          }
+        }
+      },
+      {
+        "id": "en24n6",
+        "target": "meeting",
+        "translit": "MEE-ting",
+        "tr": {
+          "ar": "اجتماع",
+          "en": "a time when people get together to talk about work",
+          "id": "rapat"
+        },
+        "example": {
+          "target": "We have a meeting at ten o'clock.",
+          "translit": "wee HAV uh MEE-ting at TEN uh-KLOK",
+          "tr": {
+            "ar": "لدينا اجتماع في العاشرة.",
+            "en": "We have a meeting at ten o'clock.",
+            "id": "Kami ada rapat jam sepuluh."
+          }
+        }
+      }
+    ],
+    "cloze": [
+      {
+        "sentence": "She works ___ a teacher at a primary school.",
+        "answer": "as",
+        "wrong": [
+          "at",
+          "of"
+        ],
+        "tr": {
+          "ar": "تعمل معلمة في مدرسة ابتدائية.",
+          "en": "She works as a teacher at a primary school.",
+          "id": "Dia bekerja sebagai guru di sekolah dasar."
+        },
+        "why": {
+          "ar": "\"works as\" تُستخدم قبل المهنة. at وof لا تعطيان معنى المهنة.",
+          "en": "\"Works as\" introduces the job. At and of do not show the job role.",
+          "id": "\"Works as\" dipakai sebelum nama profesi. At dan of tidak menyatakan profesi."
+        }
+      },
+      {
+        "sentence": "I am tired. Tomorrow is my day ___.",
+        "answer": "off",
+        "wrong": [
+          "out",
+          "away"
+        ],
+        "tr": {
+          "ar": "أنا متعب. غدًا يوم إجازتي.",
+          "en": "I am tired. Tomorrow is my day off.",
+          "id": "Saya lelah. Besok hari libur saya."
+        },
+        "why": {
+          "ar": "التعبير الثابت هو \"day off\". \"day out\" تعني نزهة، و\"day away\" ليست شائعة بهذا المعنى.",
+          "en": "The fixed phrase is \"day off\". \"Day out\" means a trip and \"day away\" is not used this way.",
+          "id": "Ungkapan tetapnya \"day off\". \"Day out\" berarti jalan-jalan dan \"day away\" tidak dipakai begitu."
+        }
+      }
+    ],
+    "conversation": {
+      "context": {
+        "ar": "شخصان يتعارفان في حفلة.",
+        "en": "Two people are getting to know each other at a party.",
+        "id": "Dua orang berkenalan di sebuah pesta."
+      },
+      "turns": [
+        {
+          "who": "A",
+          "target": "So, what do you do?",
+          "tr": {
+            "ar": "إذًا، ماذا تعمل؟",
+            "en": "So, what do you do?",
+            "id": "Jadi, Anda bekerja sebagai apa?"
+          }
+        },
+        {
+          "who": "B",
+          "target": "I work as a nurse at a children's hospital.",
+          "tr": {
+            "ar": "أعمل ممرضة في مستشفى أطفال.",
+            "en": "I work as a nurse at a children's hospital.",
+            "id": "Saya bekerja sebagai perawat di rumah sakit anak."
+          }
+        },
+        {
+          "who": "A",
+          "target": "That sounds interesting. Do you like it?",
+          "tr": {
+            "ar": "يبدو ذلك ممتعًا. هل تحبينه؟",
+            "en": "That sounds interesting. Do you like it?",
+            "id": "Kedengarannya menarik. Apakah Anda suka?"
+          }
+        },
+        {
+          "who": "B",
+          "target": "Yes, I do. My colleagues are great.",
+          "tr": {
+            "ar": "نعم. زملائي رائعون.",
+            "en": "Yes, I do. My colleagues are great.",
+            "id": "Ya, suka. Rekan kerja saya hebat."
+          }
+        }
+      ],
+      "gap": 1,
+      "wrong": [
+        "I live near the hospital.",
+        "My day off is Friday."
+      ],
+      "why": {
+        "ar": "السؤال عن المهنة، والجواب الصحيح يذكر المهنة ومكان العمل. الجوابان الآخران جمل صحيحة لكنها لا تجيب عن السؤال.",
+        "en": "The question asks about your job, so the right reply gives job and workplace. The other replies are correct sentences but do not answer it.",
+        "id": "Pertanyaannya tentang pekerjaan, jadi jawaban benar menyebut profesi dan tempat kerja. Dua lainnya kalimat benar tetapi tidak menjawab."
+      }
+    },
+    "summary": {
+      "ar": "تعلّمت أن تقول I work as وتصف زملاءك وجدولك. تذكّر as للمهنة وfor للشركة.",
+      "en": "You learned to say I work as and to describe colleagues and schedule. Remember as for the job and for for the company.",
+      "id": "Anda belajar mengatakan I work as dan menjelaskan rekan kerja serta jadwal. Ingat as untuk profesi dan for untuk perusahaan."
+    }
+  },
+  {
+    "id": "en-25",
+    "track": "en",
+    "level": "intermediate",
+    "order": 24,
+    "topic": "past-simple",
+    "icon": "⏪",
+    "title": {
+      "ar": "الماضي البسيط",
+      "en": "Past simple",
+      "id": "Past simple (bentuk lampau)"
+    },
+    "description": {
+      "ar": "تحدّث عمّا حدث أمس أو في العطلة باستخدام الماضي البسيط.",
+      "en": "Talk about yesterday and last weekend using the past simple.",
+      "id": "Bicara tentang kemarin dan akhir pekan lalu memakai past simple."
+    },
+    "objectives": [
+      {
+        "ar": "أستطيع استخدام الأفعال المنتظمة مثل visited وworked.",
+        "en": "I can use regular verbs like visited and worked.",
+        "id": "Saya bisa memakai kata kerja beraturan seperti visited dan worked."
+      },
+      {
+        "ar": "أستطيع استخدام أفعال شاذة شائعة مثل went وbought وate.",
+        "en": "I can use common irregular verbs like went, bought and ate.",
+        "id": "Saya bisa memakai kata kerja tak beraturan seperti went, bought, dan ate."
+      },
+      {
+        "ar": "أستطيع تكوين النفي والسؤال بـ didn't وDid.",
+        "en": "I can make negatives and questions with didn't and Did.",
+        "id": "Saya bisa membuat kalimat negatif dan tanya dengan didn't dan Did."
+      }
+    ],
+    "intro": {
+      "ar": "نستخدم الماضي البسيط للأحداث المنتهية في وقت محدد مثل yesterday وlast week. هو أول زمن ماضٍ يحتاجه كل متعلم.",
+      "en": "We use the past simple for finished events at a definite time, like yesterday or last week. It is the first past tense every learner needs.",
+      "id": "Past simple dipakai untuk kejadian yang sudah selesai pada waktu tertentu, seperti yesterday atau last week. Ini bentuk lampau pertama yang dibutuhkan setiap pelajar."
+    },
+    "culture": {
+      "ar": "عندما يسألك زملاؤك \"How was your weekend?\" يتوقعون جوابًا بالماضي: \"We went to the beach\". إتقان الماضي يجعل حديثك اليومي طبيعيًا.",
+      "en": "When colleagues ask \"How was your weekend?\" they expect a past answer: \"We went to the beach\". Mastering the past makes your daily small talk natural.",
+      "id": "Saat rekan bertanya \"How was your weekend?\", mereka mengharapkan jawaban lampau: \"We went to the beach\". Menguasai bentuk lampau membuat obrolan sehari-hari terdengar alami."
+    },
+    "grammar": {
+      "title": {
+        "ar": "الماضي: منتظم وشاذ",
+        "en": "Past simple: regular and irregular",
+        "id": "Past simple: beraturan dan tak beraturan"
+      },
+      "body": {
+        "ar": "الأفعال المنتظمة تأخذ -ed (visit - visited). والشاذة تتغير: go - went, buy - bought, eat - ate, see - saw. في النفي والسؤال نستخدم didn't / Did مع الفعل الأصلي: \"I didn't go\", \"Did you see it?\". ونستخدم ago مثل two days ago.",
+        "en": "Regular verbs add -ed (visit - visited). Irregular verbs change: go - went, buy - bought, eat - ate, see - saw. In negatives and questions use didn't / Did with the base verb: \"I didn't go\", \"Did you see it?\". Use ago, as in two days ago.",
+        "id": "Kata kerja beraturan ditambah -ed (visit - visited). Yang tak beraturan berubah: go - went, buy - bought, eat - ate, see - saw. Untuk negatif dan tanya pakai didn't / Did dengan kata kerja dasar: \"I didn't go\", \"Did you see it?\". Gunakan ago, misalnya two days ago."
+      }
+    },
+    "items": [
+      {
+        "id": "en25n1",
+        "target": "I visited",
+        "translit": "eye VIZ-i-tid",
+        "tr": {
+          "ar": "زرت",
+          "en": "I went to see a person or place",
+          "id": "saya mengunjungi"
+        },
+        "example": {
+          "target": "I visited my aunt last weekend.",
+          "translit": "eye VIZ-i-tid my ANT LAST WEEK-end",
+          "tr": {
+            "ar": "زرت عمتي في نهاية الأسبوع الماضي.",
+            "en": "I visited my aunt last weekend.",
+            "id": "Saya mengunjungi bibi saya akhir pekan lalu."
+          }
+        },
+        "hint": {
+          "ar": "النطق: -ed بعد t/d تنطق id.",
+          "en": "After t or d, -ed sounds like \"id\".",
+          "id": "Setelah t atau d, -ed dibaca \"id\"."
+        }
+      },
+      {
+        "id": "en25n2",
+        "target": "We went to",
+        "translit": "wee WENT too",
+        "tr": {
+          "ar": "ذهبنا إلى",
+          "en": "past of \"go\": we travelled to",
+          "id": "kami pergi ke"
+        },
+        "example": {
+          "target": "We went to the beach on Friday.",
+          "translit": "wee WENT too thuh BEECH on FRY-day",
+          "tr": {
+            "ar": "ذهبنا إلى الشاطئ يوم الجمعة.",
+            "en": "We went to the beach on Friday.",
+            "id": "Kami pergi ke pantai hari Jumat."
+          }
+        },
+        "hint": {
+          "ar": "went هو ماضي go الشاذ.",
+          "en": "\"Went\" is the irregular past of go.",
+          "id": "\"Went\" adalah bentuk lampau tak beraturan dari go."
+        }
+      },
+      {
+        "id": "en25n3",
+        "target": "She bought",
+        "translit": "shee BAWT",
+        "tr": {
+          "ar": "اشترت",
+          "en": "past of \"buy\": she paid for something",
+          "id": "dia membeli"
+        },
+        "example": {
+          "target": "She bought a new phone yesterday.",
+          "translit": "shee BAWT uh NOO FOHN YES-ter-day",
+          "tr": {
+            "ar": "اشترت هاتفًا جديدًا أمس.",
+            "en": "She bought a new phone yesterday.",
+            "id": "Dia membeli ponsel baru kemarin."
+          }
+        }
+      },
+      {
+        "id": "en25n4",
+        "target": "I didn't go",
+        "translit": "eye DID-unt GOH",
+        "tr": {
+          "ar": "لم أذهب",
+          "en": "I did not go",
+          "id": "saya tidak pergi"
+        },
+        "example": {
+          "target": "I didn't go to work because I was sick.",
+          "translit": "eye DID-unt GOH too WURK bi-KUZ eye wuz SIK",
+          "tr": {
+            "ar": "لم أذهب إلى العمل لأنني كنت مريضًا.",
+            "en": "I didn't go to work because I was sick.",
+            "id": "Saya tidak masuk kerja karena sakit."
+          }
+        },
+        "hint": {
+          "ar": "بعد didn't نستخدم الفعل الأصلي: go وليس went.",
+          "en": "After didn't use the base verb: go, not went.",
+          "id": "Setelah didn't pakai kata kerja dasar: go, bukan went."
+        }
+      },
+      {
+        "id": "en25n5",
+        "target": "Did you see",
+        "translit": "did yoo SEE",
+        "tr": {
+          "ar": "هل رأيت",
+          "en": "a question about whether you saw something",
+          "id": "apakah kamu melihat"
+        },
+        "example": {
+          "target": "Did you see the match last night?",
+          "translit": "did yoo SEE thuh MACH LAST NYT",
+          "tr": {
+            "ar": "هل شاهدت المباراة ليلة أمس؟",
+            "en": "Did you see the match last night?",
+            "id": "Apakah kamu menonton pertandingan tadi malam?"
+          }
+        }
+      },
+      {
+        "id": "en25n6",
+        "target": "He ate",
+        "translit": "hee ET",
+        "tr": {
+          "ar": "أكل",
+          "en": "past of \"eat\": he had food",
+          "id": "dia makan"
+        },
+        "example": {
+          "target": "He ate rice for lunch two hours ago.",
+          "translit": "hee ET RYS fer LUNCH too OW-erz uh-GOH",
+          "tr": {
+            "ar": "أكل الأرز على الغداء قبل ساعتين.",
+            "en": "He ate rice for lunch two hours ago.",
+            "id": "Dia makan nasi untuk makan siang dua jam yang lalu."
+          }
+        },
+        "hint": {
+          "ar": "ate تنطق مثل et في الإنجليزية البريطانية وeit في الأمريكية.",
+          "en": "\"Ate\" sounds like \"et\" in British English and \"ate\" in some US speech.",
+          "id": "\"Ate\" dibaca \"et\" di Inggris dan sering \"eit\" di Amerika."
+        }
+      }
+    ],
+    "cloze": [
+      {
+        "sentence": "Yesterday I ___ to the market.",
+        "answer": "went",
+        "wrong": [
+          "go",
+          "going"
+        ],
+        "tr": {
+          "ar": "أمس ذهبت إلى السوق.",
+          "en": "Yesterday I went to the market.",
+          "id": "Kemarin saya pergi ke pasar."
+        },
+        "why": {
+          "ar": "yesterday تتطلب الماضي، وماضي go هو went. go وgoing ليسا ماضيًا.",
+          "en": "Yesterday needs the past, and the past of go is went. Go and going are not past forms.",
+          "id": "Yesterday membutuhkan bentuk lampau, dan lampau go adalah went. Go dan going bukan bentuk lampau."
+        }
+      },
+      {
+        "sentence": "She ___ come to class on Monday because she was ill.",
+        "answer": "didn't",
+        "wrong": [
+          "doesn't",
+          "isn't"
+        ],
+        "tr": {
+          "ar": "لم تأتِ إلى الصف يوم الاثنين لأنها كانت مريضة.",
+          "en": "She didn't come to class on Monday because she was ill.",
+          "id": "Dia tidak datang ke kelas hari Senin karena sakit."
+        },
+        "why": {
+          "ar": "الجملة في الماضي، لذا didn't مع الفعل الأصلي come. doesn't للمضارع وisn't لا تُستخدم مع come.",
+          "en": "The sentence is in the past, so didn't + base verb come. Doesn't is present and isn't does not work with come.",
+          "id": "Kalimat ini lampau, jadi didn't + kata kerja dasar come. Doesn't untuk sekarang dan isn't tidak cocok dengan come."
+        }
+      }
+    ],
+    "conversation": {
+      "context": {
+        "ar": "زميلان يتحدثان صباح الاثنين.",
+        "en": "Two coworkers chat on Monday morning.",
+        "id": "Dua rekan kerja mengobrol pada Senin pagi."
+      },
+      "turns": [
+        {
+          "who": "A",
+          "target": "Hi Sara! How was your weekend?",
+          "tr": {
+            "ar": "مرحبًا سارة! كيف كانت عطلتك؟",
+            "en": "Hi Sara! How was your weekend?",
+            "id": "Hai Sara! Bagaimana akhir pekanmu?"
+          }
+        },
+        {
+          "who": "B",
+          "target": "It was great! We went to the beach.",
+          "tr": {
+            "ar": "كانت رائعة! ذهبنا إلى الشاطئ.",
+            "en": "It was great! We went to the beach.",
+            "id": "Seru sekali! Kami pergi ke pantai."
+          }
+        },
+        {
+          "who": "A",
+          "target": "Nice! Did you swim?",
+          "tr": {
+            "ar": "جميل! هل سبحتم؟",
+            "en": "Nice! Did you swim?",
+            "id": "Bagus! Apakah kalian berenang?"
+          }
+        },
+        {
+          "who": "B",
+          "target": "Yes, we did, and we ate fish for lunch.",
+          "tr": {
+            "ar": "نعم، وأكلنا السمك على الغداء.",
+            "en": "Yes, we did, and we ate fish for lunch.",
+            "id": "Ya, dan kami makan ikan untuk makan siang."
+          }
+        }
+      ],
+      "gap": 1,
+      "wrong": [
+        "It is great. I go to the beach every day.",
+        "I'm fine, thanks. And you?"
+      ],
+      "why": {
+        "ar": "السؤال عن عطلة انتهت، فالجواب بالماضي. الجواب الثاني من المضارع، والثالث يجيب عن \"How are you?\".",
+        "en": "The question is about a weekend that is over, so the answer is past. The second option is present and the third answers \"How are you?\".",
+        "id": "Pertanyaan tentang akhir pekan yang sudah lewat, jadi jawabannya lampau. Pilihan kedua bentuk sekarang dan ketiga menjawab \"How are you?\"."
+      }
+    },
+    "summary": {
+      "ar": "تعلّمت الماضي البسيط للأفعال المنتظمة والشاذة مثل went وbought وate. استخدم didn't وDid مع الفعل الأصلي.",
+      "en": "You learned the past simple with regular and irregular verbs like went, bought and ate. Use didn't and Did with the base verb.",
+      "id": "Anda belajar past simple dengan kata kerja beraturan dan tak beraturan seperti went, bought, dan ate. Pakai didn't dan Did dengan kata kerja dasar."
+    }
+  },
+  {
+    "id": "en-26",
+    "track": "en",
+    "level": "intermediate",
+    "order": 25,
+    "topic": "future-plans",
+    "icon": "📅",
+    "title": {
+      "ar": "خطط المستقبل: going to وwill",
+      "en": "Future plans: going to / will",
+      "id": "Rencana masa depan: going to / will"
+    },
+    "description": {
+      "ar": "تحدّث عن خططك وتوقعاتك ووعودك المستقبلية.",
+      "en": "Talk about your plans, predictions and promises for the future.",
+      "id": "Bicara tentang rencana, prediksi, dan janji untuk masa depan."
+    },
+    "objectives": [
+      {
+        "ar": "أستطيع أن أقول خططي باستخدام going to.",
+        "en": "I can say my plans with going to.",
+        "id": "Saya bisa menyatakan rencana dengan going to."
+      },
+      {
+        "ar": "أستطيع أن أعرض مساعدة أو أعد بشيء باستخدام will.",
+        "en": "I can offer help or make a promise with will.",
+        "id": "Saya bisa menawarkan bantuan atau berjanji dengan will."
+      },
+      {
+        "ar": "أستطيع أن أتنبأ بما سيحدث.",
+        "en": "I can predict what will happen.",
+        "id": "Saya bisa memprediksi apa yang akan terjadi."
+      }
+    ],
+    "intro": {
+      "ar": "هناك طريقتان شائعتان للحديث عن المستقبل: going to للخطط والتوقعات المبنية على دليل، وwill للقرارات اللحظية والوعود. سنتدرب على الاثنتين.",
+      "en": "There are two common ways to talk about the future: going to for plans and predictions with evidence, and will for quick decisions and promises. We will practise both.",
+      "id": "Ada dua cara umum membicarakan masa depan: going to untuk rencana dan prediksi berdasar bukti, will untuk keputusan spontan dan janji. Kita akan melatih keduanya."
+    },
+    "culture": {
+      "ar": "في الحياة اليومية يقول الناس \"I'm going to...\" عند الحديث عن عطلة أو عمل، و\"I'll...\" عندما يعرضون المساعدة فجأة. استخدام الصيغة الصحيحة يجعل كلامك أقرب إلى كلام أهل اللغة.",
+      "en": "In daily life people say \"I'm going to...\" about holidays or work, and \"I'll...\" when they suddenly offer help. Choosing the right form makes you sound more natural.",
+      "id": "Dalam kehidupan sehari-hari orang berkata \"I'm going to...\" tentang liburan atau pekerjaan, dan \"I'll...\" saat tiba-tiba menawarkan bantuan. Memilih bentuk yang tepat membuat bicara Anda lebih alami."
+    },
+    "grammar": {
+      "title": {
+        "ar": "going to مقابل will",
+        "en": "going to vs will",
+        "id": "going to dan will"
+      },
+      "body": {
+        "ar": "نستخدم am/is/are going to + فعل للخطط المقررة وللتوقع عندما نرى دليلًا (\"Look at the clouds. It's going to rain\"). ونستخدم will + فعل للقرارات الفورية وللوعد والرأي (\"I'll help you\", \"I think she will like it\"). النفي: won't.",
+        "en": "Use am/is/are going to + verb for decided plans and for predictions when you see evidence (\"Look at the clouds. It's going to rain\"). Use will + verb for quick decisions, promises and opinions (\"I'll help you\", \"I think she will like it\"). Negative: won't.",
+        "id": "Pakai am/is/are going to + kata kerja untuk rencana yang sudah diputuskan dan prediksi berdasar bukti (\"Look at the clouds. It's going to rain\"). Pakai will + kata kerja untuk keputusan spontan, janji, dan pendapat (\"I'll help you\", \"I think she will like it\"). Negatif: won't."
+      }
+    },
+    "items": [
+      {
+        "id": "en26n1",
+        "target": "I'm going to",
+        "translit": "eye-m GOH-ing too",
+        "tr": {
+          "ar": "سوف أ... (خطة)",
+          "en": "a way to say what you have decided to do",
+          "id": "saya akan (rencana)"
+        },
+        "example": {
+          "target": "I'm going to study tonight.",
+          "translit": "eye-m GOH-ing too STUD-ee tuh-NYT",
+          "tr": {
+            "ar": "سأدرس الليلة.",
+            "en": "I'm going to study tonight.",
+            "id": "Saya akan belajar malam ini."
+          }
+        },
+        "hint": {
+          "ar": "في الكلام السريع تُسمع \"gonna\".",
+          "en": "In fast speech you hear \"gonna\".",
+          "id": "Dalam ucapan cepat terdengar \"gonna\"."
+        }
+      },
+      {
+        "id": "en26n2",
+        "target": "I'll help you",
+        "translit": "eye-l HELP yoo",
+        "tr": {
+          "ar": "سأساعدك",
+          "en": "a quick offer to give help",
+          "id": "akan saya bantu"
+        },
+        "example": {
+          "target": "That bag looks heavy. I'll help you.",
+          "translit": "THAT BAG LUKS HEV-ee eye-l HELP yoo",
+          "tr": {
+            "ar": "تلك الحقيبة تبدو ثقيلة. سأساعدك.",
+            "en": "That bag looks heavy. I'll help you.",
+            "id": "Tas itu kelihatan berat. Saya bantu."
+          }
+        }
+      },
+      {
+        "id": "en26n3",
+        "target": "It's going to rain",
+        "translit": "its GOH-ing too RAYN",
+        "tr": {
+          "ar": "ستمطر",
+          "en": "rain is about to come, and I can see signs",
+          "id": "akan hujan"
+        },
+        "example": {
+          "target": "Look at those clouds. It's going to rain.",
+          "translit": "LUK at THOHZ KLOWDZ its GOH-ing too RAYN",
+          "tr": {
+            "ar": "انظر إلى تلك الغيوم. ستمطر.",
+            "en": "Look at those clouds. It's going to rain.",
+            "id": "Lihat awan itu. Akan hujan."
+          }
+        }
+      },
+      {
+        "id": "en26n4",
+        "target": "I think she will",
+        "translit": "eye THINGK shee WIL",
+        "tr": {
+          "ar": "أظن أنها ستـ...",
+          "en": "an opinion about the future",
+          "id": "saya kira dia akan"
+        },
+        "example": {
+          "target": "I think she will like the gift.",
+          "translit": "eye THINGK shee WIL LYK thuh GIFT",
+          "tr": {
+            "ar": "أظن أنها ستحب الهدية.",
+            "en": "I think she will like the gift.",
+            "id": "Saya kira dia akan suka hadiahnya."
+          }
+        }
+      },
+      {
+        "id": "en26n5",
+        "target": "Are you going to",
+        "translit": "ar yoo GOH-ing too",
+        "tr": {
+          "ar": "هل ستـ...؟",
+          "en": "a question about someone's plan",
+          "id": "apakah kamu akan"
+        },
+        "example": {
+          "target": "Are you going to come to the party?",
+          "translit": "ar yoo GOH-ing too KUM too thuh PAR-tee",
+          "tr": {
+            "ar": "هل ستأتي إلى الحفلة؟",
+            "en": "Are you going to come to the party?",
+            "id": "Apakah kamu akan datang ke pesta?"
+          }
+        }
+      },
+      {
+        "id": "en26n6",
+        "target": "I won't be late",
+        "translit": "eye WOHNT bee LAYT",
+        "tr": {
+          "ar": "لن أتأخر",
+          "en": "a promise that you will arrive on time",
+          "id": "saya tidak akan terlambat"
+        },
+        "example": {
+          "target": "Don't worry, I won't be late.",
+          "translit": "DOHNT WUR-ee eye WOHNT bee LAYT",
+          "tr": {
+            "ar": "لا تقلق، لن أتأخر.",
+            "en": "Don't worry, I won't be late.",
+            "id": "Jangan khawatir, saya tidak akan terlambat."
+          }
+        }
+      }
+    ],
+    "cloze": [
+      {
+        "sentence": "We have bought the tickets. We ___ fly to Jakarta next week.",
+        "answer": "are going to",
+        "wrong": [
+          "is going to",
+          "will to"
+        ],
+        "tr": {
+          "ar": "اشترينا التذاكر. سنسافر إلى جاكرتا الأسبوع القادم.",
+          "en": "We have bought the tickets. We are going to fly to Jakarta next week.",
+          "id": "Kami sudah membeli tiket. Kami akan terbang ke Jakarta minggu depan."
+        },
+        "why": {
+          "ar": "خطة مقررة مع we تتطلب are going to. is لا تناسب we، وwill to خطأ نحوي.",
+          "en": "A decided plan with we needs are going to. Is does not agree with we and \"will to\" is incorrect.",
+          "id": "Rencana yang sudah diputuskan dengan we memakai are going to. Is tidak cocok dengan we dan \"will to\" salah."
+        }
+      },
+      {
+        "sentence": "The phone is ringing. I ___ answer it.",
+        "answer": "will",
+        "wrong": [
+          "going to",
+          "did"
+        ],
+        "tr": {
+          "ar": "الهاتف يرن. سأرد عليه.",
+          "en": "The phone is ringing. I will answer it.",
+          "id": "Telepon berdering. Saya akan mengangkatnya."
+        },
+        "why": {
+          "ar": "قرار لحظي يتطلب will. \"going to\" بدون am غير صحيحة، وdid للماضي.",
+          "en": "A sudden decision needs will. \"Going to\" without am is wrong and did is past.",
+          "id": "Keputusan spontan memakai will. \"Going to\" tanpa am salah dan did untuk lampau."
+        }
+      }
+    ],
+    "conversation": {
+      "context": {
+        "ar": "صديقان يتحدثان عن عطلة نهاية الأسبوع.",
+        "en": "Two friends talk about the weekend.",
+        "id": "Dua teman mengobrol tentang akhir pekan."
+      },
+      "turns": [
+        {
+          "who": "A",
+          "target": "What are you going to do this weekend?",
+          "tr": {
+            "ar": "ماذا ستفعل في نهاية هذا الأسبوع؟",
+            "en": "What are you going to do this weekend?",
+            "id": "Kamu akan melakukan apa akhir pekan ini?"
+          }
+        },
+        {
+          "who": "B",
+          "target": "I'm going to visit my parents. What about you?",
+          "tr": {
+            "ar": "سأزور والديّ. وماذا عنك؟",
+            "en": "I'm going to visit my parents. What about you?",
+            "id": "Saya akan mengunjungi orang tua. Kalau kamu?"
+          }
+        },
+        {
+          "who": "A",
+          "target": "I don't have any plans yet.",
+          "tr": {
+            "ar": "ليس لدي أي خطط بعد.",
+            "en": "I don't have any plans yet.",
+            "id": "Saya belum punya rencana."
+          }
+        },
+        {
+          "who": "B",
+          "target": "Maybe you will come with us!",
+          "tr": {
+            "ar": "ربما تأتي معنا!",
+            "en": "Maybe you will come with us!",
+            "id": "Mungkin kamu ikut dengan kami!"
+          }
+        }
+      ],
+      "gap": 1,
+      "wrong": [
+        "I visited my parents yesterday.",
+        "It's very nice, thank you."
+      ],
+      "why": {
+        "ar": "السؤال عن خطة مستقبلية، فالجواب الصحيح يستخدم I'm going to. الجواب الأول ماضٍ والثاني لا يجيب عن السؤال.",
+        "en": "The question is about a future plan, so the right reply uses I'm going to. The first option is past and the second does not answer.",
+        "id": "Pertanyaannya tentang rencana, jadi jawaban benar memakai I'm going to. Pilihan pertama lampau dan kedua tidak menjawab."
+      }
+    },
+    "summary": {
+      "ar": "تعلّمت أن going to للخطط والتوقعات بدليل، وwill للقرارات اللحظية والوعود. النفي مع will هو won't.",
+      "en": "You learned that going to is for plans and predictions with evidence, and will for quick decisions and promises. The negative of will is won't.",
+      "id": "Anda belajar bahwa going to untuk rencana dan prediksi berdasar bukti, dan will untuk keputusan spontan dan janji. Negatif will adalah won't."
+    }
+  },
+  {
+    "id": "en-27",
+    "track": "en",
+    "level": "intermediate",
+    "order": 26,
+    "topic": "modal-verbs",
+    "icon": "🙋",
+    "title": {
+      "ar": "الأفعال الناقصة",
+      "en": "Modal verbs: can, could, should, must, would like",
+      "id": "Kata kerja modal: can, could, should, must, would like"
+    },
+    "description": {
+      "ar": "استخدم الأفعال الناقصة لتطلب وتنصح وتعبّر عن الواجب.",
+      "en": "Use modal verbs to ask, advise and talk about obligation.",
+      "id": "Gunakan kata kerja modal untuk meminta, menyarankan, dan menyatakan kewajiban."
+    },
+    "objectives": [
+      {
+        "ar": "أستطيع أن أطلب شيئًا بأدب بـ Can وCould.",
+        "en": "I can make polite requests with Can and Could.",
+        "id": "Saya bisa meminta dengan sopan memakai Can dan Could."
+      },
+      {
+        "ar": "أستطيع أن أقدم نصيحة بـ should وأقول الواجب بـ must.",
+        "en": "I can give advice with should and say rules with must.",
+        "id": "Saya bisa memberi saran dengan should dan menyatakan aturan dengan must."
+      },
+      {
+        "ar": "أستطيع أن أطلب بـ I'd like وأفرّق بين must وdon't have to.",
+        "en": "I can order with I'd like and tell must from don't have to.",
+        "id": "Saya bisa memesan dengan I'd like dan membedakan must dari don't have to."
+      }
+    ],
+    "intro": {
+      "ar": "الأفعال الناقصة تأتي قبل الفعل الأصلي ولا تأخذ s ولا to بعدها. ستتعلم الأكثر استعمالًا في الحياة اليومية.",
+      "en": "Modal verbs come before the base verb and take no -s and no \"to\" after them. You will learn the ones used most in daily life.",
+      "id": "Kata kerja modal berada sebelum kata kerja dasar, tanpa -s dan tanpa \"to\" sesudahnya. Anda akan belajar yang paling sering dipakai sehari-hari."
+    },
+    "culture": {
+      "ar": "في المطاعم والمتاجر يفضّل الناس \"Could you...?\" و\"I'd like...\" لأنها أكثر أدبًا من الطلب المباشر. قول \"I want a coffee\" مباشرةً قد يبدو فظًّا.",
+      "en": "In restaurants and shops people prefer \"Could you...?\" and \"I'd like...\", which are more polite than direct requests. Saying \"I want a coffee\" can sound rude.",
+      "id": "Di restoran dan toko orang lebih suka \"Could you...?\" dan \"I'd like...\", karena lebih sopan daripada permintaan langsung. Mengatakan \"I want a coffee\" bisa terdengar kasar."
+    },
+    "grammar": {
+      "title": {
+        "ar": "الأفعال الناقصة المهمة",
+        "en": "Key modal verbs",
+        "id": "Kata kerja modal penting"
+      },
+      "body": {
+        "ar": "can للقدرة والإذن، وcould للطلب المهذب، وshould للنصيحة، وmust للواجب القوي، وwould like للرغبة المهذبة. انتبه: \"You must\" تعني واجبًا، لكن \"You don't have to\" تعني أنه ليس مطلوبًا.",
+        "en": "Can is for ability and permission, could for polite requests, should for advice, must for strong obligation, and would like for polite wishes. Careful: \"You must\" is an obligation, but \"You don't have to\" means it is not necessary.",
+        "id": "Can untuk kemampuan dan izin, could untuk permintaan sopan, should untuk saran, must untuk kewajiban kuat, dan would like untuk keinginan sopan. Hati-hati: \"You must\" berarti wajib, tetapi \"You don't have to\" berarti tidak perlu."
+      }
+    },
+    "items": [
+      {
+        "id": "en27n1",
+        "target": "Can I",
+        "translit": "KAN eye",
+        "tr": {
+          "ar": "هل يمكنني؟",
+          "en": "a way to ask for permission",
+          "id": "bolehkah saya"
+        },
+        "example": {
+          "target": "Can I use your phone?",
+          "translit": "KAN eye YOOZ yor FOHN",
+          "tr": {
+            "ar": "هل يمكنني استخدام هاتفك؟",
+            "en": "Can I use your phone?",
+            "id": "Bolehkah saya memakai ponselmu?"
+          }
+        }
+      },
+      {
+        "id": "en27n2",
+        "target": "Could you",
+        "translit": "KUD yoo",
+        "tr": {
+          "ar": "هل تستطيع أن؟",
+          "en": "a polite way to ask someone to do something",
+          "id": "bisakah Anda"
+        },
+        "example": {
+          "target": "Could you open the window, please?",
+          "translit": "KUD yoo OH-pun thuh WIN-doh PLEEZ",
+          "tr": {
+            "ar": "هل تستطيع أن تفتح النافذة من فضلك؟",
+            "en": "Could you open the window, please?",
+            "id": "Bisakah Anda membuka jendela?"
+          }
+        },
+        "hint": {
+          "ar": "أكثر أدبًا من Can you.",
+          "en": "More polite than \"Can you\".",
+          "id": "Lebih sopan daripada \"Can you\"."
+        }
+      },
+      {
+        "id": "en27n3",
+        "target": "You should",
+        "translit": "yoo SHUD",
+        "tr": {
+          "ar": "يجب عليك / من الأفضل أن",
+          "en": "a way to give advice",
+          "id": "sebaiknya Anda"
+        },
+        "example": {
+          "target": "You should drink more water.",
+          "translit": "yoo SHUD DRINGK MOR WAW-ter",
+          "tr": {
+            "ar": "عليك أن تشرب مزيدًا من الماء.",
+            "en": "You should drink more water.",
+            "id": "Sebaiknya Anda minum lebih banyak air."
+          }
+        }
+      },
+      {
+        "id": "en27n4",
+        "target": "You must",
+        "translit": "yoo MUST",
+        "tr": {
+          "ar": "يجب أن",
+          "en": "a strong rule: it is necessary",
+          "id": "Anda harus"
+        },
+        "example": {
+          "target": "You must wear a seat belt in the car.",
+          "translit": "yoo MUST WAIR uh SEET belt in thuh KAR",
+          "tr": {
+            "ar": "يجب أن تضع حزام الأمان في السيارة.",
+            "en": "You must wear a seat belt in the car.",
+            "id": "Anda harus memakai sabuk pengaman di mobil."
+          }
+        }
+      },
+      {
+        "id": "en27n5",
+        "target": "I would like",
+        "translit": "eye wud LYK",
+        "tr": {
+          "ar": "أودّ",
+          "en": "a polite way to say what you want",
+          "id": "saya ingin"
+        },
+        "example": {
+          "target": "I'd like a cup of tea, please.",
+          "translit": "eyd LYK uh KUP uv TEE PLEEZ",
+          "tr": {
+            "ar": "أودّ فنجان شاي من فضلك.",
+            "en": "I'd like a cup of tea, please.",
+            "id": "Saya mau secangkir teh."
+          }
+        },
+        "hint": {
+          "ar": "الصيغة المختصرة I'd like شائعة جدًا.",
+          "en": "The short form I'd like is very common.",
+          "id": "Bentuk singkat I'd like sangat umum."
+        }
+      },
+      {
+        "id": "en27n6",
+        "target": "You don't have to",
+        "translit": "yoo DOHNT HAV too",
+        "tr": {
+          "ar": "ليس عليك أن",
+          "en": "it is not necessary for you",
+          "id": "Anda tidak perlu"
+        },
+        "example": {
+          "target": "You don't have to come early.",
+          "translit": "yoo DOHNT HAV too KUM UR-lee",
+          "tr": {
+            "ar": "ليس عليك أن تأتي مبكرًا.",
+            "en": "You don't have to come early.",
+            "id": "Anda tidak perlu datang awal."
+          }
+        },
+        "hint": {
+          "ar": "لا تخلط مع mustn't التي تعني ممنوع.",
+          "en": "Do not confuse with mustn't, which means forbidden.",
+          "id": "Jangan tertukar dengan mustn't yang berarti dilarang."
+        }
+      }
+    ],
+    "cloze": [
+      {
+        "sentence": "It is very cold. You ___ wear a warm coat.",
+        "answer": "should",
+        "wrong": [
+          "to",
+          "does"
+        ],
+        "tr": {
+          "ar": "الجو بارد جدًا. من الأفضل أن ترتدي معطفًا دافئًا.",
+          "en": "It is very cold. You should wear a warm coat.",
+          "id": "Udara sangat dingin. Sebaiknya Anda memakai mantel hangat."
+        },
+        "why": {
+          "ar": "should تعطي نصيحة وتأتي قبل الفعل الأصلي. to وdoes لا تصحان هنا.",
+          "en": "Should gives advice and comes before the base verb. To and does are wrong here.",
+          "id": "Should memberi saran dan diikuti kata kerja dasar. To dan does salah di sini."
+        }
+      },
+      {
+        "sentence": "___ you pass the salt, please?",
+        "answer": "Could",
+        "wrong": [
+          "Must",
+          "Would like"
+        ],
+        "tr": {
+          "ar": "هل تستطيع أن تمرر الملح من فضلك؟",
+          "en": "Could you pass the salt, please?",
+          "id": "Bisakah Anda mengoper garamnya?"
+        },
+        "why": {
+          "ar": "Could you طلب مهذب. Must أمر قوي، وWould like لا تأتي بهذا الشكل مع you.",
+          "en": "\"Could you\" is a polite request. Must is a strong order, and \"Would like you pass\" is wrong.",
+          "id": "\"Could you\" adalah permintaan sopan. Must terlalu keras dan \"Would like you pass\" salah."
+        }
+      }
+    ],
+    "conversation": {
+      "context": {
+        "ar": "زبون يطلب الطعام في مطعم.",
+        "en": "A customer orders food in a restaurant.",
+        "id": "Pelanggan memesan makanan di restoran."
+      },
+      "turns": [
+        {
+          "who": "A",
+          "target": "Are you ready to order?",
+          "tr": {
+            "ar": "هل أنت جاهز للطلب؟",
+            "en": "Are you ready to order?",
+            "id": "Apakah Anda siap memesan?"
+          }
+        },
+        {
+          "who": "B",
+          "target": "Yes. I'd like the grilled chicken, please.",
+          "tr": {
+            "ar": "نعم. أودّ الدجاج المشوي من فضلك.",
+            "en": "Yes. I'd like the grilled chicken, please.",
+            "id": "Ya. Saya mau ayam panggang."
+          }
+        },
+        {
+          "who": "A",
+          "target": "Would you like something to drink?",
+          "tr": {
+            "ar": "هل تودّ شيئًا للشرب؟",
+            "en": "Would you like something to drink?",
+            "id": "Mau minum apa?"
+          }
+        },
+        {
+          "who": "B",
+          "target": "Just water, please.",
+          "tr": {
+            "ar": "ماء فقط من فضلك.",
+            "en": "Just water, please.",
+            "id": "Air putih saja."
+          }
+        }
+      ],
+      "gap": 1,
+      "wrong": [
+        "No, I don't have to order.",
+        "Yes, you must order now."
+      ],
+      "why": {
+        "ar": "السؤال هل أنت جاهز، والجواب الصحيح يطلب الطعام بأدب بـ I'd like. الجوابان الآخران لا يناسبان موقف الزبون.",
+        "en": "The question asks if you are ready, so the right reply orders politely with I'd like. The others do not suit a customer.",
+        "id": "Pertanyaannya apakah siap, jadi jawaban benar memesan dengan sopan memakai I'd like. Dua lainnya tidak cocok untuk pelanggan."
+      }
+    },
+    "summary": {
+      "ar": "تعلّمت can وcould وshould وmust وwould like. تذكّر الفرق بين must وdon't have to.",
+      "en": "You learned can, could, should, must and would like. Remember the difference between must and don't have to.",
+      "id": "Anda belajar can, could, should, must, dan would like. Ingat perbedaan must dan don't have to."
+    }
+  },
+  {
+    "id": "en-28",
+    "track": "en",
+    "level": "intermediate",
+    "order": 27,
+    "topic": "phone-email",
+    "icon": "📞",
+    "title": {
+      "ar": "المكالمات والبريد والرسائل",
+      "en": "Phone calls, emails and messages",
+      "id": "Telepon, email, dan pesan"
+    },
+    "description": {
+      "ar": "تعلّم عبارات المكالمات والرسائل والبريد الإلكتروني المهذبة.",
+      "en": "Learn polite phrases for phone calls, emails and messages.",
+      "id": "Pelajari ungkapan sopan untuk telepon, email, dan pesan."
+    },
+    "objectives": [
+      {
+        "ar": "أستطيع أن أبدأ مكالمة وأطلب الانتظار أو ترك رسالة.",
+        "en": "I can start a call and ask someone to hold or leave a message.",
+        "id": "Saya bisa memulai telepon dan meminta menunggu atau meninggalkan pesan."
+      },
+      {
+        "ar": "أستطيع أن أشرح سبب الاتصال.",
+        "en": "I can explain why I am calling.",
+        "id": "Saya bisa menjelaskan alasan menelepon."
+      },
+      {
+        "ar": "أستطيع أن أكتب بريدًا مهذبًا وأنهيه بشكل صحيح.",
+        "en": "I can write a polite email and end it properly.",
+        "id": "Saya bisa menulis email sopan dan menutupnya dengan benar."
+      }
+    ],
+    "intro": {
+      "ar": "المحادثة الهاتفية والبريد لهما عباراتهما الخاصة، وهي مختلفة عن الكلام وجهًا لوجه. ستتعلم عبارات جاهزة تناسب العمل والحياة اليومية.",
+      "en": "Phone calls and emails have their own phrases, different from face-to-face talk. You will learn ready-made phrases for work and daily life.",
+      "id": "Telepon dan email punya ungkapan tersendiri yang berbeda dari percakapan tatap muka. Anda akan belajar ungkapan siap pakai untuk pekerjaan dan kehidupan sehari-hari."
+    },
+    "culture": {
+      "ar": "في الهاتف تعرّف بنفسك بقول \"This is Anna\" وليس \"I am Anna\". وفي البريد الرسمي تبدأ بـ Dear وتنهي بـ Best regards، أما مع الأصدقاء فتكفي Hi وThanks.",
+      "en": "On the phone you introduce yourself with \"This is Anna\", not \"I am Anna\". In formal emails you start with Dear and end with Best regards; with friends Hi and Thanks are enough.",
+      "id": "Di telepon Anda memperkenalkan diri dengan \"This is Anna\", bukan \"I am Anna\". Di email resmi mulai dengan Dear dan akhiri dengan Best regards; dengan teman cukup Hi dan Thanks."
+    },
+    "grammar": {
+      "title": {
+        "ar": "الرسمي وغير الرسمي",
+        "en": "Formal and informal",
+        "id": "Formal dan informal"
+      },
+      "body": {
+        "ar": "للاتصال نقول \"I'm calling about...\" وللكتابة \"I'm writing to ask about...\". ونعد بالاتصال لاحقًا بـ will: \"I'll call you back\". في الرسائل الرسمية نتجنب الاختصارات ونستخدم may وcould للطلب.",
+        "en": "On the phone say \"I'm calling about...\"; in writing say \"I'm writing to ask about...\". Promise a later call with will: \"I'll call you back\". In formal messages avoid short forms and use may and could for requests.",
+        "id": "Di telepon katakan \"I'm calling about...\"; dalam tulisan \"I'm writing to ask about...\". Berjanji menelepon lagi dengan will: \"I'll call you back\". Dalam pesan resmi hindari bentuk singkat dan pakai may dan could untuk permintaan."
+      }
+    },
+    "items": [
+      {
+        "id": "en28n1",
+        "target": "Hold on, please",
+        "translit": "HOHLD ON PLEEZ",
+        "tr": {
+          "ar": "انتظر لحظة من فضلك",
+          "en": "wait on the line for a moment",
+          "id": "mohon tunggu sebentar"
+        },
+        "example": {
+          "target": "Hold on, please. I'll get him.",
+          "translit": "HOHLD ON PLEEZ eye-l GET him",
+          "tr": {
+            "ar": "انتظر لحظة من فضلك. سأناديه.",
+            "en": "Hold on, please. I'll get him.",
+            "id": "Mohon tunggu. Saya panggilkan dia."
+          }
+        }
+      },
+      {
+        "id": "en28n2",
+        "target": "Can I take a message?",
+        "translit": "kan eye TAYK uh MES-ij",
+        "tr": {
+          "ar": "هل أترك له رسالة؟",
+          "en": "a polite way to offer to write what a caller says",
+          "id": "boleh saya sampaikan pesan?"
+        },
+        "example": {
+          "target": "He isn't here. Can I take a message?",
+          "translit": "hee IZ-unt HEER kan eye TAYK uh MES-ij",
+          "tr": {
+            "ar": "إنه ليس هنا. هل أسجّل رسالة له؟",
+            "en": "He isn't here. Can I take a message?",
+            "id": "Dia tidak ada. Boleh saya catat pesannya?"
+          }
+        }
+      },
+      {
+        "id": "en28n3",
+        "target": "I'm calling about",
+        "translit": "eye-m KAWL-ing uh-BOWT",
+        "tr": {
+          "ar": "أتصل بخصوص",
+          "en": "the reason why you are phoning",
+          "id": "saya menelepon soal"
+        },
+        "example": {
+          "target": "I'm calling about the apartment for rent.",
+          "translit": "eye-m KAWL-ing uh-BOWT thee uh-PART-ment fer RENT",
+          "tr": {
+            "ar": "أتصل بخصوص الشقة المعروضة للإيجار.",
+            "en": "I'm calling about the apartment for rent.",
+            "id": "Saya menelepon soal apartemen yang disewakan."
+          }
+        }
+      },
+      {
+        "id": "en28n4",
+        "target": "I'll call you back",
+        "translit": "eye-l KAWL yoo BAK",
+        "tr": {
+          "ar": "سأعاود الاتصال بك",
+          "en": "I will phone you again later",
+          "id": "nanti saya telepon balik"
+        },
+        "example": {
+          "target": "I'm driving now. I'll call you back later.",
+          "translit": "eye-m DRY-ving NOW eye-l KAWL yoo BAK LAY-ter",
+          "tr": {
+            "ar": "أنا أقود الآن. سأعاود الاتصال بك لاحقًا.",
+            "en": "I'm driving now. I'll call you back later.",
+            "id": "Saya sedang menyetir. Nanti saya telepon balik."
+          }
+        }
+      },
+      {
+        "id": "en28n5",
+        "target": "Best regards",
+        "translit": "BEST ri-GARDZ",
+        "tr": {
+          "ar": "مع أطيب التحيات",
+          "en": "a polite way to end a formal email",
+          "id": "salam hormat"
+        },
+        "example": {
+          "target": "Thank you for your help. Best regards, Sara",
+          "translit": "thangk yoo fer yor HELP BEST ri-GARDZ SAR-uh",
+          "tr": {
+            "ar": "شكرًا لمساعدتك. مع أطيب التحيات، سارة",
+            "en": "Thank you for your help. Best regards, Sara",
+            "id": "Terima kasih atas bantuan Anda. Salam hormat, Sara"
+          }
+        }
+      },
+      {
+        "id": "en28n6",
+        "target": "Please find attached",
+        "translit": "pleez FYND uh-TACHT",
+        "tr": {
+          "ar": "تجدون مرفقًا",
+          "en": "a formal way to say a file is in the email",
+          "id": "terlampir"
+        },
+        "example": {
+          "target": "Please find attached the report for May.",
+          "translit": "pleez FYND uh-TACHT thuh ri-PORT fer MAY",
+          "tr": {
+            "ar": "تجدون مرفقًا تقرير شهر مايو.",
+            "en": "Please find attached the report for May.",
+            "id": "Terlampir laporan bulan Mei."
+          }
+        },
+        "hint": {
+          "ar": "عبارة رسمية تُستخدم في بريد العمل.",
+          "en": "A formal phrase used in work emails.",
+          "id": "Ungkapan resmi untuk email kerja."
+        }
+      }
+    ],
+    "cloze": [
+      {
+        "sentence": "Hello, this is Anna. ___ I speak to Mr. Lee, please?",
+        "answer": "May",
+        "wrong": [
+          "Must",
+          "Did"
+        ],
+        "tr": {
+          "ar": "مرحبًا، معك آنا. هل أستطيع التحدث إلى السيد لي من فضلك؟",
+          "en": "Hello, this is Anna. May I speak to Mr. Lee, please?",
+          "id": "Halo, ini Anna. Boleh saya bicara dengan Pak Lee?"
+        },
+        "why": {
+          "ar": "May I طلب رسمي ومهذب للإذن. Must وDid لا تناسبان هذا السؤال.",
+          "en": "\"May I\" is a formal, polite request for permission. Must and Did do not fit this question.",
+          "id": "\"May I\" adalah permintaan izin yang formal dan sopan. Must dan Did tidak cocok."
+        }
+      },
+      {
+        "sentence": "I am sorry, he isn't here. Can I take a ___?",
+        "answer": "message",
+        "wrong": [
+          "photo",
+          "ticket"
+        ],
+        "tr": {
+          "ar": "آسف، إنه ليس هنا. هل أسجّل له رسالة؟",
+          "en": "I am sorry, he isn't here. Can I take a message?",
+          "id": "Maaf, dia tidak ada. Boleh saya catat pesan?"
+        },
+        "why": {
+          "ar": "نقول \"take a message\" عندما يكون الشخص غائبًا. الصورة والتذكرة لا يناسبان.",
+          "en": "We say \"take a message\" when someone is not available. A photo or ticket does not fit.",
+          "id": "Kita mengatakan \"take a message\" saat orang itu tidak ada. Foto atau tiket tidak cocok."
+        }
+      }
+    ],
+    "conversation": {
+      "context": {
+        "ar": "شخص يتصل بعيادة طبيب ليحجز موعدًا.",
+        "en": "A person phones a doctor's office to book an appointment.",
+        "id": "Seseorang menelepon klinik dokter untuk membuat janji."
+      },
+      "turns": [
+        {
+          "who": "A",
+          "target": "Good morning, Dr. Hana's office. How can I help you?",
+          "tr": {
+            "ar": "صباح الخير، عيادة الدكتورة هنا. كيف أساعدك؟",
+            "en": "Good morning, Dr. Hana's office. How can I help you?",
+            "id": "Selamat pagi, klinik Dr. Hana. Ada yang bisa saya bantu?"
+          }
+        },
+        {
+          "who": "B",
+          "target": "Hello, I'm calling about an appointment for tomorrow.",
+          "tr": {
+            "ar": "مرحبًا، أتصل بخصوص موعد لغدٍ.",
+            "en": "Hello, I'm calling about an appointment for tomorrow.",
+            "id": "Halo, saya menelepon soal janji untuk besok."
+          }
+        },
+        {
+          "who": "A",
+          "target": "Of course. Could you hold on a moment?",
+          "tr": {
+            "ar": "بالتأكيد. هل تستطيع الانتظار لحظة؟",
+            "en": "Of course. Could you hold on a moment?",
+            "id": "Tentu. Bisakah Anda menunggu sebentar?"
+          }
+        },
+        {
+          "who": "B",
+          "target": "Sure, no problem.",
+          "tr": {
+            "ar": "بالتأكيد، لا مشكلة.",
+            "en": "Sure, no problem.",
+            "id": "Tentu, tidak masalah."
+          }
+        }
+      ],
+      "gap": 1,
+      "wrong": [
+        "I'm writing about my appointment.",
+        "I called the office yesterday."
+      ],
+      "why": {
+        "ar": "الجواب الصحيح يذكر سبب الاتصال بالصيغة المناسبة للهاتف. \"I'm writing\" للرسائل لا للمكالمات، والجواب الثالث لا يجيب عن السؤال.",
+        "en": "The right reply gives the reason for calling in phone language. \"I'm writing\" is for messages, not calls, and the third does not answer.",
+        "id": "Jawaban benar menyebut alasan menelepon dengan bahasa telepon. \"I'm writing\" untuk pesan, bukan telepon, dan pilihan ketiga tidak menjawab."
+      }
+    },
+    "summary": {
+      "ar": "تعلّمت عبارات الهاتف مثل Hold on وI'm calling about، وعبارات البريد مثل Best regards وPlease find attached.",
+      "en": "You learned phone phrases such as Hold on and I'm calling about, and email phrases such as Best regards and Please find attached.",
+      "id": "Anda belajar ungkapan telepon seperti Hold on dan I'm calling about, serta ungkapan email seperti Best regards dan Please find attached."
+    }
+  },
+  {
+    "id": "en-14",
+    "track": "en",
+    "level": "intermediate",
+    "order": 28,
+    "topic": "polite-conversations",
+    "icon": "💬",
+    "title": {
+      "ar": "المحادثات المهذبة",
+      "en": "Polite conversations",
+      "id": "Percakapan sopan"
+    },
+    "description": {
+      "ar": "تعلّم أن تعتذر وتطلب وتشكر بأدب كما يفعل الناطقون بالإنجليزية.",
+      "en": "Learn to apologise, request and thank politely like native speakers.",
+      "id": "Belajar meminta maaf, meminta, dan berterima kasih dengan sopan seperti penutur asli."
+    },
+    "objectives": [
+      {
+        "ar": "أستطيع أن أعتذر وألفت الانتباه بأدب.",
+        "en": "I can apologise and get attention politely.",
+        "id": "Saya bisa meminta maaf dan menarik perhatian dengan sopan."
+      },
+      {
+        "ar": "أستطيع أن أطلب من أحد أن يكرر أو يفعل شيئًا.",
+        "en": "I can ask someone to repeat or do something.",
+        "id": "Saya bisa meminta seseorang mengulang atau melakukan sesuatu."
+      },
+      {
+        "ar": "أستطيع أن أرد على الشكر بشكل طبيعي.",
+        "en": "I can reply to thanks naturally.",
+        "id": "Saya bisa membalas ucapan terima kasih dengan alami."
+      }
+    ],
+    "intro": {
+      "ar": "الإنجليزية تعتمد كثيرًا على كلمات الأدب مثل sorry وexcuse me وplease. ستتعلم متى تستخدم كل واحدة وكيف تطلب بأسلوب لطيف.",
+      "en": "English relies a lot on politeness words like sorry, excuse me and please. You will learn when to use each and how to make requests gently.",
+      "id": "Bahasa Inggris banyak memakai kata sopan seperti sorry, excuse me, dan please. Anda akan belajar kapan memakai masing-masing dan cara meminta dengan halus."
+    },
+    "culture": {
+      "ar": "في بريطانيا وأمريكا يقول الناس \"sorry\" حتى عندما يصطدم أحد بهم. وتُستخدم \"Excuse me\" قبل المقاطعة أو المرور، و\"Pardon?\" أو \"Could you repeat that?\" عندما لا تفهم.",
+      "en": "In Britain and America people say \"sorry\" even when someone bumps into them. \"Excuse me\" is used before interrupting or passing, and \"Pardon?\" or \"Could you repeat that?\" when you did not understand.",
+      "id": "Di Inggris dan Amerika orang bilang \"sorry\" bahkan saat ditabrak orang lain. \"Excuse me\" dipakai sebelum menyela atau lewat, dan \"Pardon?\" atau \"Could you repeat that?\" saat tidak mengerti."
+    },
+    "grammar": {
+      "title": {
+        "ar": "الطلب المهذب",
+        "en": "Polite requests",
+        "id": "Permintaan sopan"
+      },
+      "body": {
+        "ar": "بعد Could you وWould you mind نستخدم فعلًا: \"Could you repeat that?\" و\"Would you mind closing the door?\" (لاحظ -ing بعد mind). ونردّ على الشكر بـ \"You're welcome\" أو \"No problem\".",
+        "en": "After Could you we use a base verb: \"Could you repeat that?\" and after \"Would you mind\" we use -ing: \"Would you mind closing the door?\". We answer thanks with \"You're welcome\" or \"No problem\".",
+        "id": "Setelah Could you dipakai kata kerja dasar: \"Could you repeat that?\" dan setelah \"Would you mind\" dipakai -ing: \"Would you mind closing the door?\". Terima kasih dibalas dengan \"You're welcome\" atau \"No problem\"."
+      }
+    },
+    "items": [
+      {
+        "id": "enx141",
+        "target": "Sorry",
+        "translit": "SOR-ee",
+        "tr": {
+          "ar": "آسف",
+          "en": "a word you say when you make a mistake",
+          "id": "Maaf"
+        },
+        "example": {
+          "target": "I am sorry.",
+          "translit": "eye am SOR-ee",
+          "tr": {
+            "ar": "أنا آسف.",
+            "en": "I am sorry.",
+            "id": "Saya minta maaf."
+          }
+        }
+      },
+      {
+        "id": "enx142",
+        "target": "Excuse me",
+        "translit": "ik-SKYOOZ mee",
+        "tr": {
+          "ar": "المعذرة",
+          "en": "a polite way to get someone's attention",
+          "id": "Permisi"
+        },
+        "example": {
+          "target": "Excuse me, where is the exit?",
+          "translit": "ik-SKYOOZ mee WAIR iz thee EG-zit",
+          "tr": {
+            "ar": "المعذرة، أين المخرج؟",
+            "en": "Excuse me, where is the exit?",
+            "id": "Permisi, di mana pintu keluar?"
+          }
+        }
+      },
+      {
+        "id": "enx143",
+        "target": "You are welcome",
+        "translit": "yoo ar WEL-kum",
+        "tr": {
+          "ar": "على الرحب والسعة",
+          "en": "what you say when someone thanks you",
+          "id": "Sama-sama"
+        },
+        "example": {
+          "target": "You are welcome!",
+          "translit": "yoo ar WEL-kum",
+          "tr": {
+            "ar": "على الرحب والسعة!",
+            "en": "You are welcome!",
+            "id": "Sama-sama!"
+          }
+        },
+        "hint": {
+          "ar": "الصيغة المختصرة You're welcome.",
+          "en": "The short form is You're welcome.",
+          "id": "Bentuk singkat: You're welcome."
+        }
+      },
+      {
+        "id": "enx144",
+        "target": "Could you repeat that?",
+        "translit": "kud yoo ri-PEET that",
+        "tr": {
+          "ar": "هل تستطيع أن تكرر ذلك؟",
+          "en": "please say it one more time",
+          "id": "Bisa tolong ulangi?"
+        },
+        "example": {
+          "target": "Could you repeat that, please?",
+          "translit": "kud yoo ri-PEET that PLEEZ",
+          "tr": {
+            "ar": "هل تستطيع أن تكرر ذلك من فضلك؟",
+            "en": "Could you repeat that, please?",
+            "id": "Bisakah Anda mengulanginya?"
+          }
+        }
+      },
+      {
+        "id": "enx145",
+        "target": "Would you mind...?",
+        "translit": "wud yoo MYND",
+        "tr": {
+          "ar": "هل تمانع أن؟",
+          "en": "a very polite way to ask a favour",
+          "id": "apakah Anda keberatan"
+        },
+        "example": {
+          "target": "Would you mind closing the window?",
+          "translit": "wud yoo MYND KLOH-zing thuh WIN-doh",
+          "tr": {
+            "ar": "هل تمانع أن تغلق النافذة؟",
+            "en": "Would you mind closing the window?",
+            "id": "Apakah Anda keberatan menutup jendela?"
+          }
+        },
+        "hint": {
+          "ar": "الجواب بالموافقة: \"Not at all\".",
+          "en": "To agree, say \"Not at all\".",
+          "id": "Untuk setuju, katakan \"Not at all\"."
+        }
+      },
+      {
+        "id": "enx146",
+        "target": "I'm sorry to bother you",
+        "translit": "eye-m SOR-ee too BOTH-er yoo",
+        "tr": {
+          "ar": "آسف على الإزعاج",
+          "en": "a polite way to start asking a stranger for help",
+          "id": "maaf mengganggu"
+        },
+        "example": {
+          "target": "I'm sorry to bother you, but is this seat taken?",
+          "translit": "eye-m SOR-ee too BOTH-er yoo but IZ this SEET TAY-kun",
+          "tr": {
+            "ar": "آسف على الإزعاج، لكن هل هذا المقعد محجوز؟",
+            "en": "I'm sorry to bother you, but is this seat taken?",
+            "id": "Maaf mengganggu, apakah kursi ini sudah ditempati?"
+          }
+        }
+      }
+    ],
+    "cloze": [
+      {
+        "sentence": "Would you mind ___ the window? It is cold.",
+        "answer": "closing",
+        "wrong": [
+          "close",
+          "to close"
+        ],
+        "tr": {
+          "ar": "هل تمانع أن تغلق النافذة؟ الجو بارد.",
+          "en": "Would you mind closing the window? It is cold.",
+          "id": "Apakah Anda keberatan menutup jendela? Dingin."
+        },
+        "why": {
+          "ar": "بعد Would you mind نستخدم الفعل مع -ing. close وto close خطأ هنا.",
+          "en": "After \"Would you mind\" we use the -ing form. Close and to close are wrong here.",
+          "id": "Setelah \"Would you mind\" dipakai bentuk -ing. Close dan to close salah di sini."
+        }
+      },
+      {
+        "sentence": "\"Thank you for your help.\" \"You're ___.\"",
+        "answer": "welcome",
+        "wrong": [
+          "sorry",
+          "please"
+        ],
+        "tr": {
+          "ar": "\"شكرًا على مساعدتك.\" \"على الرحب والسعة.\"",
+          "en": "\"Thank you for your help.\" \"You're welcome.\"",
+          "id": "\"Terima kasih atas bantuannya.\" \"Sama-sama.\""
+        },
+        "why": {
+          "ar": "الرد على الشكر هو You're welcome. sorry للاعتذار وplease للطلب.",
+          "en": "You answer thanks with You're welcome. Sorry is for apologies and please is for requests.",
+          "id": "Balasan terima kasih adalah You're welcome. Sorry untuk minta maaf dan please untuk meminta."
+        }
+      }
+    ],
+    "conversation": {
+      "context": {
+        "ar": "راكب في الحافلة يسأل شخصًا عن المقعد.",
+        "en": "A passenger on a bus asks a stranger about a seat.",
+        "id": "Seorang penumpang bus bertanya kepada orang asing tentang kursi."
+      },
+      "turns": [
+        {
+          "who": "A",
+          "target": "Excuse me, is this seat taken?",
+          "tr": {
+            "ar": "المعذرة، هل هذا المقعد محجوز؟",
+            "en": "Excuse me, is this seat taken?",
+            "id": "Permisi, apakah kursi ini ada orangnya?"
+          }
+        },
+        {
+          "who": "B",
+          "target": "No, please go ahead.",
+          "tr": {
+            "ar": "لا، تفضل.",
+            "en": "No, please go ahead.",
+            "id": "Tidak, silakan."
+          }
+        },
+        {
+          "who": "A",
+          "target": "Thank you so much.",
+          "tr": {
+            "ar": "شكرًا جزيلًا.",
+            "en": "Thank you so much.",
+            "id": "Terima kasih banyak."
+          }
+        },
+        {
+          "who": "B",
+          "target": "You're welcome.",
+          "tr": {
+            "ar": "على الرحب والسعة.",
+            "en": "You're welcome.",
+            "id": "Sama-sama."
+          }
+        }
+      ],
+      "gap": 1,
+      "wrong": [
+        "Yes, you're welcome.",
+        "No, I'm sorry I did."
+      ],
+      "why": {
+        "ar": "السؤال عن المقعد، فالجواب الصحيح يقول إنه فارغ ويدعو إلى الجلوس. الجوابان الآخران لا يناسبان السؤال.",
+        "en": "The question is about the seat, so the right reply says it is free and invites the person to sit. The others do not fit.",
+        "id": "Pertanyaannya tentang kursi, jadi jawaban benar mengatakan kosong dan mempersilakan duduk. Dua lainnya tidak cocok."
+      }
+    },
+    "summary": {
+      "ar": "تعلّمت sorry وexcuse me وCould you وWould you mind والرد على الشكر. الأدب في الإنجليزية يعني كلمات صغيرة كثيرة.",
+      "en": "You learned sorry, excuse me, Could you, Would you mind and how to answer thanks. Politeness in English means many small words.",
+      "id": "Anda belajar sorry, excuse me, Could you, Would you mind, dan cara membalas terima kasih. Sopan santun bahasa Inggris berarti banyak kata kecil."
+    }
+  },
+  {
+    "id": "en-29",
+    "track": "en",
+    "level": "intermediate",
+    "order": 29,
+    "topic": "phrasal-verbs-idioms",
+    "icon": "🧩",
+    "title": {
+      "ar": "أفعال مركبة وتعابير شائعة",
+      "en": "Everyday phrasal verbs and idioms",
+      "id": "Phrasal verb dan idiom sehari-hari"
+    },
+    "description": {
+      "ar": "تعلّم أفعالًا مركبة وتعابير يستخدمها الناطقون كل يوم.",
+      "en": "Learn phrasal verbs and idioms that native speakers use every day.",
+      "id": "Pelajari phrasal verb dan idiom yang dipakai penutur asli setiap hari."
+    },
+    "objectives": [
+      {
+        "ar": "أستطيع فهم أفعال مركبة شائعة مثل give up وfind out.",
+        "en": "I can understand common phrasal verbs like give up and find out.",
+        "id": "Saya bisa memahami phrasal verb umum seperti give up dan find out."
+      },
+      {
+        "ar": "أستطيع استخدام look forward to وget along with بشكل صحيح.",
+        "en": "I can use look forward to and get along with correctly.",
+        "id": "Saya bisa memakai look forward to dan get along with dengan benar."
+      },
+      {
+        "ar": "أستطيع استخدام تعبير شائع مثل a piece of cake.",
+        "en": "I can use a common idiom like a piece of cake.",
+        "id": "Saya bisa memakai idiom umum seperti a piece of cake."
+      }
+    ],
+    "intro": {
+      "ar": "الفعل المركب هو فعل مع حرف جر أو ظرف، ويتغير معناه عن الفعل وحده. اخترنا هنا الأكثر استعمالًا فقط، لأنك ستسمعها في كل مكان.",
+      "en": "A phrasal verb is a verb plus a small word, and its meaning changes from the verb alone. We chose only the most common ones here, because you will hear them everywhere.",
+      "id": "Phrasal verb adalah kata kerja ditambah kata kecil, dan artinya berbeda dari kata kerja sendirian. Di sini hanya dipilih yang paling umum karena sering terdengar di mana-mana."
+    },
+    "culture": {
+      "ar": "الناطقون يفضلون \"find out\" على \"discover\" و\"give up\" على \"quit\" في الكلام اليومي. أما التعابير مثل \"a piece of cake\" فلا تُفهم حرفيًا، بل تعني \"سهل جدًا\".",
+      "en": "Native speakers prefer \"find out\" to \"discover\" and \"give up\" to \"abandon\" in daily talk. Idioms like \"a piece of cake\" are not literal; it means \"very easy\".",
+      "id": "Penutur asli lebih suka \"find out\" daripada \"discover\" dan \"give up\" daripada \"abandon\" dalam percakapan. Idiom seperti \"a piece of cake\" tidak berarti harfiah; artinya \"sangat mudah\"."
+    },
+    "grammar": {
+      "title": {
+        "ar": "الأفعال المركبة والتعابير",
+        "en": "Phrasal verbs and idioms",
+        "id": "Phrasal verb dan idiom"
+      },
+      "body": {
+        "ar": "لا تترجم الأفعال المركبة كلمة بكلمة؛ احفظها كوحدة. بعض الأفعال تتبعها كلمة to أو with ثابتة: look forward to + اسم أو -ing، get along with + شخص. التعبير الاصطلاحي يُحفظ كما هو.",
+        "en": "Do not translate phrasal verbs word by word; learn them as a unit. Some need a fixed word: look forward to + noun or -ing, get along with + person. An idiom is learned exactly as it is.",
+        "id": "Jangan menerjemahkan phrasal verb kata demi kata; hafalkan sebagai satu kesatuan. Beberapa memakai kata tetap: look forward to + kata benda atau -ing, get along with + orang. Idiom dihafal apa adanya."
+      }
+    },
+    "items": [
+      {
+        "id": "en29n1",
+        "target": "give up",
+        "translit": "GIV UP",
+        "tr": {
+          "ar": "يستسلم / يتوقف عن المحاولة",
+          "en": "to stop trying",
+          "id": "menyerah"
+        },
+        "example": {
+          "target": "Don't give up. You are improving every day.",
+          "translit": "DOHNT GIV UP yoo ar im-PROOV-ing EV-ree DAY",
+          "tr": {
+            "ar": "لا تستسلم. أنت تتحسن كل يوم.",
+            "en": "Don't give up. You are improving every day.",
+            "id": "Jangan menyerah. Kamu membaik setiap hari."
+          }
+        }
+      },
+      {
+        "id": "en29n2",
+        "target": "look forward to",
+        "translit": "LUK FOR-werd too",
+        "tr": {
+          "ar": "يتطلع إلى",
+          "en": "to feel happy about something that will happen",
+          "id": "menantikan"
+        },
+        "example": {
+          "target": "I'm looking forward to the holiday.",
+          "translit": "eye-m LUK-ing FOR-werd too thuh HOL-i-day",
+          "tr": {
+            "ar": "أتطلع إلى العطلة.",
+            "en": "I'm looking forward to the holiday.",
+            "id": "Saya menantikan liburan itu."
+          }
+        },
+        "hint": {
+          "ar": "بعد to نستخدم اسمًا أو فعلًا بـ -ing.",
+          "en": "After \"to\" use a noun or the -ing form.",
+          "id": "Setelah \"to\" pakai kata benda atau bentuk -ing."
+        }
+      },
+      {
+        "id": "en29n3",
+        "target": "find out",
+        "translit": "FYND OWT",
+        "tr": {
+          "ar": "يكتشف / يعرف",
+          "en": "to learn a fact or information",
+          "id": "mencari tahu"
+        },
+        "example": {
+          "target": "I need to find out what time it starts.",
+          "translit": "eye NEED too FYND OWT WUT TYM it STARTS",
+          "tr": {
+            "ar": "أحتاج إلى معرفة موعد البدء.",
+            "en": "I need to find out what time it starts.",
+            "id": "Saya perlu mencari tahu jam berapa dimulainya."
+          }
+        }
+      },
+      {
+        "id": "en29n4",
+        "target": "get along with",
+        "translit": "GET uh-LONG with",
+        "tr": {
+          "ar": "ينسجم مع",
+          "en": "to have a friendly relationship with someone",
+          "id": "akur dengan"
+        },
+        "example": {
+          "target": "I get along well with my neighbours.",
+          "translit": "eye GET uh-LONG WEL with my NAY-berz",
+          "tr": {
+            "ar": "أنسجم جيدًا مع جيراني.",
+            "en": "I get along well with my neighbours.",
+            "id": "Saya akur dengan tetangga saya."
+          }
+        }
+      },
+      {
+        "id": "en29n5",
+        "target": "run out of",
+        "translit": "RUN OWT uv",
+        "tr": {
+          "ar": "ينفد منه",
+          "en": "to have none left",
+          "id": "kehabisan"
+        },
+        "example": {
+          "target": "We ran out of milk, so I went to the shop.",
+          "translit": "wee RAN OWT uv MILK soh eye WENT too thuh SHOP",
+          "tr": {
+            "ar": "نفد منا الحليب فذهبت إلى المتجر.",
+            "en": "We ran out of milk, so I went to the shop.",
+            "id": "Kami kehabisan susu, jadi saya pergi ke toko."
+          }
+        }
+      },
+      {
+        "id": "en29n6",
+        "target": "a piece of cake",
+        "translit": "uh PEES uv KAYK",
+        "tr": {
+          "ar": "سهل جدًا",
+          "en": "an idiom meaning very easy",
+          "id": "sangat mudah"
+        },
+        "example": {
+          "target": "The test was a piece of cake.",
+          "translit": "thuh TEST wuz uh PEES uv KAYK",
+          "tr": {
+            "ar": "كان الاختبار سهلًا جدًا.",
+            "en": "The test was a piece of cake.",
+            "id": "Ujiannya mudah sekali."
+          }
+        },
+        "hint": {
+          "ar": "تعبير اصطلاحي ولا يتعلق بالكعك فعلًا.",
+          "en": "It is an idiom and not really about cake.",
+          "id": "Ini idiom dan tidak benar-benar tentang kue."
+        }
+      }
+    ],
+    "cloze": [
+      {
+        "sentence": "We ran ___ of milk, so I went to the shop.",
+        "answer": "out",
+        "wrong": [
+          "off",
+          "up"
+        ],
+        "tr": {
+          "ar": "نفد منا الحليب فذهبت إلى المتجر.",
+          "en": "We ran out of milk, so I went to the shop.",
+          "id": "Kami kehabisan susu, jadi saya pergi ke toko."
+        },
+        "why": {
+          "ar": "التعبير الثابت هو run out of. run off of وrun up of ليسا صحيحين بهذا المعنى.",
+          "en": "The fixed phrase is run out of. \"Run off of\" and \"run up of\" are not correct in this meaning.",
+          "id": "Ungkapan tetapnya run out of. \"Run off of\" dan \"run up of\" tidak benar dengan arti ini."
+        }
+      },
+      {
+        "sentence": "I'm looking forward ___ seeing you.",
+        "answer": "to",
+        "wrong": [
+          "for",
+          "at"
+        ],
+        "tr": {
+          "ar": "أتطلع إلى رؤيتك.",
+          "en": "I'm looking forward to seeing you.",
+          "id": "Saya menantikan bertemu denganmu."
+        },
+        "why": {
+          "ar": "look forward تأتي دائمًا مع to. for وat غير صحيحتين.",
+          "en": "Look forward is always followed by to. For and at are wrong.",
+          "id": "Look forward selalu diikuti to. For dan at salah."
+        }
+      }
+    ],
+    "conversation": {
+      "context": {
+        "ar": "زميلان يتحدثان عن امتحان.",
+        "en": "Two classmates talk about an exam.",
+        "id": "Dua teman sekelas mengobrol tentang ujian."
+      },
+      "turns": [
+        {
+          "who": "A",
+          "target": "How was your exam?",
+          "tr": {
+            "ar": "كيف كان امتحانك؟",
+            "en": "How was your exam?",
+            "id": "Bagaimana ujianmu?"
+          }
+        },
+        {
+          "who": "B",
+          "target": "It was a piece of cake! I finished early.",
+          "tr": {
+            "ar": "كان سهلًا جدًا! أنهيته مبكرًا.",
+            "en": "It was a piece of cake! I finished early.",
+            "id": "Mudah sekali! Saya selesai lebih awal."
+          }
+        },
+        {
+          "who": "A",
+          "target": "That's great news. Let's celebrate!",
+          "tr": {
+            "ar": "هذا خبر رائع. لنحتفل!",
+            "en": "That's great news. Let's celebrate!",
+            "id": "Kabar bagus. Ayo kita rayakan!"
+          }
+        }
+      ],
+      "gap": 1,
+      "wrong": [
+        "I get along with my teacher.",
+        "I'm going to take it tomorrow."
+      ],
+      "why": {
+        "ar": "السؤال عن نتيجة امتحان انتهى، والجواب الصحيح يصفه بتعبير شائع. الجوابان الآخران لا يصفان الامتحان.",
+        "en": "The question is about an exam that is over, and the right reply describes it with a common idiom. The others do not describe the exam.",
+        "id": "Pertanyaannya tentang ujian yang sudah selesai, dan jawaban benar menggambarkannya dengan idiom umum. Dua lainnya tidak menggambarkan ujian."
+      }
+    },
+    "summary": {
+      "ar": "تعلّمت give up وfind out وlook forward to وget along with وrun out of وa piece of cake. احفظ كل فعل مركب كوحدة واحدة.",
+      "en": "You learned give up, find out, look forward to, get along with, run out of and a piece of cake. Learn each phrasal verb as one unit.",
+      "id": "Anda belajar give up, find out, look forward to, get along with, run out of, dan a piece of cake. Hafalkan setiap phrasal verb sebagai satu kesatuan."
+    }
+  },
+  {
+    "id": "en-30",
+    "track": "en",
+    "level": "intermediate",
+    "order": 30,
+    "topic": "practical-capstone",
+    "icon": "🏨",
+    "title": {
+      "ar": "محادثات عملية: فندق وطبيب ومقابلة عمل",
+      "en": "Practical conversations: hotel, doctor, job interview",
+      "id": "Percakapan praktis: hotel, dokter, wawancara kerja"
+    },
+    "description": {
+      "ar": "طبّق كل ما تعلّمته في ثلاثة مواقف حقيقية: الفندق والطبيب والمقابلة.",
+      "en": "Use everything you learned in three real situations: hotel, doctor and interview.",
+      "id": "Terapkan semua yang Anda pelajari dalam tiga situasi nyata: hotel, dokter, dan wawancara."
+    },
+    "objectives": [
+      {
+        "ar": "أستطيع أن أسجّل دخولي في فندق وأسأل عن مواعيده.",
+        "en": "I can check in at a hotel and ask about times.",
+        "id": "Saya bisa check-in di hotel dan menanyakan jam-jamnya."
+      },
+      {
+        "ar": "أستطيع أن أصف أعراضي وأفهم تعليمات الدواء.",
+        "en": "I can describe symptoms and understand medicine instructions.",
+        "id": "Saya bisa menjelaskan gejala dan memahami petunjuk obat."
+      },
+      {
+        "ar": "أستطيع أن أجيب عن أسئلة بسيطة في مقابلة عمل.",
+        "en": "I can answer simple questions in a job interview.",
+        "id": "Saya bisa menjawab pertanyaan sederhana dalam wawancara kerja."
+      }
+    ],
+    "intro": {
+      "ar": "هذا درس ختامي يجمع الماضي والمستقبل والأفعال الناقصة والعبارات المهذبة. كل جملة هنا ستسمعها فعلًا في فندق أو عيادة أو مكتب.",
+      "en": "This is a capstone lesson that brings together the past, the future, modals and polite phrases. You will really hear every sentence here in a hotel, a clinic or an office.",
+      "id": "Ini pelajaran penutup yang menggabungkan bentuk lampau, masa depan, modal, dan ungkapan sopan. Setiap kalimat di sini benar-benar akan Anda dengar di hotel, klinik, atau kantor."
+    },
+    "culture": {
+      "ar": "في الفندق تُسأل عن اسمك وبطاقة هويتك، وفي العيادة يسألك الطبيب منذ متى تشعر بالألم، وفي المقابلة يبدأ المحاور غالبًا بـ \"Tell me about yourself\". الإجابات القصيرة والواضحة هي الأفضل في كل المواقف.",
+      "en": "At a hotel you are asked for your name and ID, at a clinic the doctor asks how long you have felt ill, and in an interview the interviewer often starts with \"Tell me about yourself\". Short, clear answers work best in all three.",
+      "id": "Di hotel Anda ditanya nama dan identitas, di klinik dokter menanyakan sudah berapa lama Anda sakit, dan di wawancara pewawancara sering membuka dengan \"Tell me about yourself\". Jawaban singkat dan jelas paling baik di ketiganya."
+    },
+    "grammar": {
+      "title": {
+        "ar": "اختيار العبارة المناسبة للموقف",
+        "en": "Choosing the right phrase for the situation",
+        "id": "Memilih ungkapan yang tepat untuk situasi"
+      },
+      "body": {
+        "ar": "استخدم I have a... للأعراض، وI'd like... للطلب المهذب، وI have experience in... في المقابلة. في الجمل عن الماضي استخدم الماضي البسيط: \"I worked in a hotel for three years\".",
+        "en": "Use I have a... for symptoms, I'd like... for polite requests and I have experience in... in interviews. For past experience use the past simple: \"I worked in a hotel for three years\".",
+        "id": "Gunakan I have a... untuk gejala, I'd like... untuk permintaan sopan, dan I have experience in... dalam wawancara. Untuk pengalaman lampau pakai past simple: \"I worked in a hotel for three years\"."
+      }
+    },
+    "items": [
+      {
+        "id": "en30n1",
+        "target": "I have a reservation",
+        "translit": "eye HAV uh rez-er-VAY-shun",
+        "tr": {
+          "ar": "لدي حجز",
+          "en": "I booked a room before arriving",
+          "id": "saya sudah punya reservasi"
+        },
+        "example": {
+          "target": "Hello, I have a reservation under the name Khan.",
+          "translit": "heh-LOH eye HAV uh rez-er-VAY-shun UN-der thuh NAYM KAHN",
+          "tr": {
+            "ar": "مرحبًا، لدي حجز باسم خان.",
+            "en": "Hello, I have a reservation under the name Khan.",
+            "id": "Halo, saya punya reservasi atas nama Khan."
+          }
+        }
+      },
+      {
+        "id": "en30n2",
+        "target": "What time is check-out?",
+        "translit": "wut TYM iz CHEK-owt",
+        "tr": {
+          "ar": "متى موعد المغادرة؟",
+          "en": "asking when you must leave the hotel room",
+          "id": "jam berapa check-out?"
+        },
+        "example": {
+          "target": "What time is check-out? I have a flight at noon.",
+          "translit": "wut TYM iz CHEK-owt eye HAV uh FLYT at NOON",
+          "tr": {
+            "ar": "متى موعد المغادرة؟ لدي رحلة عند الظهر.",
+            "en": "What time is check-out? I have a flight at noon.",
+            "id": "Jam berapa check-out? Saya ada penerbangan siang."
+          }
+        }
+      },
+      {
+        "id": "en30n3",
+        "target": "I have a sore throat",
+        "translit": "eye HAV uh SOR throht",
+        "tr": {
+          "ar": "عندي ألم في الحلق",
+          "en": "my throat hurts",
+          "id": "tenggorokan saya sakit"
+        },
+        "example": {
+          "target": "I have a sore throat and a cough.",
+          "translit": "eye HAV uh SOR throht and uh KOF",
+          "tr": {
+            "ar": "عندي ألم في الحلق وسعال.",
+            "en": "I have a sore throat and a cough.",
+            "id": "Tenggorokan saya sakit dan saya batuk."
+          }
+        }
+      },
+      {
+        "id": "en30n4",
+        "target": "twice a day",
+        "translit": "TWYS uh DAY",
+        "tr": {
+          "ar": "مرتين في اليوم",
+          "en": "two times every day",
+          "id": "dua kali sehari"
+        },
+        "example": {
+          "target": "Take one tablet twice a day after meals.",
+          "translit": "tayk WUN TAB-lit TWYS uh DAY AF-ter MEELZ",
+          "tr": {
+            "ar": "خذ قرصًا واحدًا مرتين في اليوم بعد الوجبات.",
+            "en": "Take one tablet twice a day after meals.",
+            "id": "Minum satu tablet dua kali sehari setelah makan."
+          }
+        }
+      },
+      {
+        "id": "en30n5",
+        "target": "Tell me about yourself",
+        "translit": "TEL mee uh-BOWT yor-SELF",
+        "tr": {
+          "ar": "حدّثني عن نفسك",
+          "en": "a common interview opening question",
+          "id": "ceritakan tentang diri Anda"
+        },
+        "example": {
+          "target": "Thank you for coming. Tell me about yourself.",
+          "translit": "thangk yoo fer KUM-ing TEL mee uh-BOWT yor-SELF",
+          "tr": {
+            "ar": "شكرًا لحضورك. حدّثني عن نفسك.",
+            "en": "Thank you for coming. Tell me about yourself.",
+            "id": "Terima kasih sudah datang. Ceritakan tentang diri Anda."
+          }
+        }
+      },
+      {
+        "id": "en30n6",
+        "target": "I have experience in",
+        "translit": "eye HAV ik-SPEER-ee-uns in",
+        "tr": {
+          "ar": "لدي خبرة في",
+          "en": "I have worked in a field before",
+          "id": "saya berpengalaman di bidang"
+        },
+        "example": {
+          "target": "I have three years of experience in customer service.",
+          "translit": "eye HAV THREE YEERZ uv ik-SPEER-ee-uns in KUS-tuh-mer SUR-vis",
+          "tr": {
+            "ar": "لدي ثلاث سنوات من الخبرة في خدمة العملاء.",
+            "en": "I have three years of experience in customer service.",
+            "id": "Saya punya tiga tahun pengalaman di layanan pelanggan."
+          }
+        }
+      }
+    ],
+    "cloze": [
+      {
+        "sentence": "Excuse me, what time is ___? I need to leave at noon.",
+        "answer": "check-out",
+        "wrong": [
+          "check-in",
+          "reception"
+        ],
+        "tr": {
+          "ar": "المعذرة، متى موعد المغادرة؟ أحتاج إلى الرحيل عند الظهر.",
+          "en": "Excuse me, what time is check-out? I need to leave at noon.",
+          "id": "Permisi, jam berapa check-out? Saya harus pergi siang hari."
+        },
+        "why": {
+          "ar": "الشخص يريد المغادرة، فيسأل عن check-out. check-in للوصول وreception مكان لا وقت.",
+          "en": "The person wants to leave, so he asks about check-out. Check-in is for arrival and reception is a place, not a time.",
+          "id": "Orang itu ingin pergi, jadi bertanya check-out. Check-in untuk kedatangan dan reception adalah tempat, bukan waktu."
+        }
+      },
+      {
+        "sentence": "Take this medicine ___ a day, after meals.",
+        "answer": "twice",
+        "wrong": [
+          "second",
+          "ago"
+        ],
+        "tr": {
+          "ar": "خذ هذا الدواء مرتين في اليوم بعد الوجبات.",
+          "en": "Take this medicine twice a day, after meals.",
+          "id": "Minum obat ini dua kali sehari setelah makan."
+        },
+        "why": {
+          "ar": "\"twice a day\" تعني مرتين في اليوم. second وago لا تعبران عن عدد المرات.",
+          "en": "\"Twice a day\" means two times daily. Second and ago do not express how often.",
+          "id": "\"Twice a day\" berarti dua kali sehari. Second dan ago tidak menyatakan frekuensi."
+        }
+      }
+    ],
+    "conversation": {
+      "context": {
+        "ar": "مقابلة عمل في فندق.",
+        "en": "A job interview at a hotel.",
+        "id": "Wawancara kerja di sebuah hotel."
+      },
+      "turns": [
+        {
+          "who": "A",
+          "target": "Thank you for coming. Tell me about yourself.",
+          "tr": {
+            "ar": "شكرًا لحضورك. حدّثني عن نفسك.",
+            "en": "Thank you for coming. Tell me about yourself.",
+            "id": "Terima kasih sudah datang. Ceritakan tentang diri Anda."
+          }
+        },
+        {
+          "who": "B",
+          "target": "I'm a receptionist. I have three years of experience in a hotel.",
+          "tr": {
+            "ar": "أنا موظفة استقبال. لدي ثلاث سنوات من الخبرة في فندق.",
+            "en": "I'm a receptionist. I have three years of experience in a hotel.",
+            "id": "Saya resepsionis. Saya punya tiga tahun pengalaman di hotel."
+          }
+        },
+        {
+          "who": "A",
+          "target": "Why would you like to work here?",
+          "tr": {
+            "ar": "لماذا تودين العمل هنا؟",
+            "en": "Why would you like to work here?",
+            "id": "Mengapa Anda ingin bekerja di sini?"
+          }
+        },
+        {
+          "who": "B",
+          "target": "I enjoy helping guests, and I get along well with people.",
+          "tr": {
+            "ar": "أستمتع بمساعدة الضيوف، وأنسجم جيدًا مع الناس.",
+            "en": "I enjoy helping guests, and I get along well with people.",
+            "id": "Saya senang membantu tamu dan akur dengan banyak orang."
+          }
+        }
+      ],
+      "gap": 1,
+      "wrong": [
+        "I will see the doctor tomorrow.",
+        "I'd like a double room, please."
+      ],
+      "why": {
+        "ar": "المحاور يطلب تعريفًا بالنفس، والجواب الصحيح يذكر المهنة والخبرة. الجوابان الآخران من موقف مختلف (عيادة وفندق).",
+        "en": "The interviewer asks for an introduction, so the right reply gives job and experience. The other two belong to different situations (clinic and hotel).",
+        "id": "Pewawancara meminta perkenalan diri, jadi jawaban benar menyebut profesi dan pengalaman. Dua lainnya dari situasi lain (klinik dan hotel)."
+      }
+    },
+    "summary": {
+      "ar": "أنهيت المستوى المتوسط بمواقف حقيقية في الفندق والعيادة والمقابلة. استمر في ممارسة هذه الجمل مع الأشخاص من حولك.",
+      "en": "You finished the intermediate level with real hotel, clinic and interview situations. Keep practising these sentences with people around you.",
+      "id": "Anda menyelesaikan level menengah dengan situasi nyata di hotel, klinik, dan wawancara. Terus latih kalimat ini dengan orang di sekitar Anda."
+    }
+  }
+]

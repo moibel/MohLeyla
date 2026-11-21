@@ -1,0 +1,2967 @@
+[
+  {
+    "id": "sa-12",
+    "track": "sa",
+    "level": "beginner",
+    "order": 1,
+    "topic": "pronunciation",
+    "icon": "🗣️",
+    "title": {
+      "ar": "كيف تبدو اللهجة السعودية؟",
+      "en": "How Saudi Speech Sounds",
+      "id": "Bunyi Bahasa Arab Saudi"
+    },
+    "description": {
+      "ar": "أهم الفروق في النطق بين اللهجة السعودية والفصحى مع كلمات حقيقية.",
+      "en": "The key sound differences between Saudi speech and Modern Standard Arabic, taught through real words.",
+      "id": "Perbedaan bunyi utama antara bahasa Arab Saudi dan Arab Baku, lewat kata-kata nyata."
+    },
+    "objectives": [
+      {
+        "ar": "أستطيع أن ألاحظ أن القاف تُنطق غالبًا «g» في كلمات مثل gahwa وgilt.",
+        "en": "I can recognise that the letter qaf is usually pronounced \"g\" in words like gahwa and gilt.",
+        "id": "Saya bisa mengenali bahwa huruf qaf biasanya diucapkan \"g\" pada kata seperti gahwa dan gilt."
+      },
+      {
+        "ar": "أستطيع أن أفهم لماذا تضيع بعض الحركات القصيرة وتتحول \"ay\" إلى \"ē\" في كلمات مثل bēt وthlātha.",
+        "en": "I can understand why some short vowels disappear and \"ay\" becomes \"ē\" in words like bēt and thlātha.",
+        "id": "Saya bisa memahami mengapa sebagian vokal pendek hilang dan \"ay\" menjadi \"ē\" pada kata seperti bēt dan thlātha."
+      },
+      {
+        "ar": "أستطيع أن أميّز نطق الجيم والكاف المؤنثة (-ich) عند بعض المتحدثين.",
+        "en": "I can tell how jim and the feminine \"-ich\" ending (the \"ch\" sound) are said by some speakers.",
+        "id": "Saya bisa membedakan pengucapan jim dan akhiran perempuan \"-ich\" (bunyi \"ch\") pada sebagian penutur."
+      }
+    ],
+    "intro": {
+      "ar": "اللهجة السعودية ليست الفصحى بحروف مختلفة، بل لها نظام صوتي خاص. في هذا الدرس نتعلم ست كلمات حقيقية، وكل كلمة تكشف ميزة في النطق. اسمع الكلمة ثم قارنها بالفصحى المذكورة في المعنى العربي.",
+      "en": "Saudi speech is not Modern Standard Arabic with a few new words: it has its own sound system. In this lesson you learn six real words, and each one shows a pronunciation feature. Listen to the word, then compare it with the MSA form given in the Arabic meaning.",
+      "id": "Bahasa Arab Saudi bukan Arab Baku dengan beberapa kata baru, tetapi punya sistem bunyi sendiri. Di pelajaran ini kamu belajar enam kata nyata, dan setiap kata memperlihatkan satu ciri pengucapan. Dengarkan katanya, lalu bandingkan dengan bentuk Arab Baku di makna bahasa Arabnya."
+    },
+    "culture": {
+      "ar": "اللهجات داخل السعودية متنوعة: النجدية في الوسط، والحجازية في الغرب، واللهجة الشرقية والجنوبية. هذا الدرس يتخذ النجدية مرجعًا ويذكر الفروق المعروفة. يعتزّ السعوديون بلهجتهم، ويقدّرون كثيرًا الأجنبي الذي يحاول أن يتكلمها، حتى لو أخطأ.",
+      "en": "Saudi Arabia has several regional varieties: Najdi in the centre, Hijazi in the west, plus Eastern and Southern speech. This course uses Najdi as the reference and mentions well-known differences. Saudis are proud of their dialect and warmly appreciate a foreigner who tries to speak it, even with mistakes.",
+      "id": "Arab Saudi punya beberapa ragam daerah: Najdi di tengah, Hijazi di barat, serta ragam timur dan selatan. Kursus ini memakai Najdi sebagai rujukan dan menyebut perbedaan yang terkenal. Orang Saudi bangga dengan dialeknya dan sangat menghargai orang asing yang mencoba berbicara dengannya, meski salah."
+    },
+    "grammar": {
+      "title": {
+        "ar": "ثلاث قواعد صوتية",
+        "en": "Three sound rules",
+        "id": "Tiga kaidah bunyi"
+      },
+      "body": {
+        "ar": "أولًا: القاف تُنطق «g» في الكلام اليومي (قهوة gahwa)، لكن كلمات الفصحى مثل «القرآن» تحتفظ بالقاف. ثانيًا: تسقط الحركات القصيرة غير المشدّدة (ثلاثة thlātha، قلتُ gilt). ثالثًا: «ay» تصير غالبًا «ē» (بيت bēt). والحروف ث وذ تبقى كما هي، وهذا يفرّق السعودي عن المصري والشامي.",
+        "en": "First: the letter qaf is said \"g\" in everyday speech (gahwa), while religious or formal words such as Quran keep the real q. Second: unstressed short vowels often drop (thlātha, gilt). Third: \"ay\" often becomes \"ē\" (bēt). The letters th and dh stay as they are, which sets Saudi apart from Egyptian and Levantine speech.",
+        "id": "Pertama: huruf qaf diucapkan \"g\" dalam ucapan sehari-hari (gahwa), sedangkan kata resmi atau agama seperti Quran tetap memakai q. Kedua: vokal pendek yang tidak ditekan sering hilang (thlātha, gilt). Ketiga: \"ay\" sering menjadi \"ē\" (bēt). Bunyi th dan dh tetap, yang membedakan Saudi dari Mesir dan Syam."
+      }
+    },
+    "items": [
+      {
+        "id": "sa12n1",
+        "target": "قهوة",
+        "translit": "gahwa",
+        "tr": {
+          "ar": "القهوة؛ تُنطق في الفصحى «قَهْوَة» بقاف فصيحة",
+          "en": "coffee",
+          "id": "kopi"
+        },
+        "example": {
+          "target": "أبغى فنجال قهوة لو سمحت",
+          "translit": "abghā finjāl gahwa law samaḥt",
+          "tr": {
+            "ar": "أريد فنجان قهوة من فضلك",
+            "en": "I would like a cup of coffee, please",
+            "id": "Saya mau secangkir kopi, tolong"
+          }
+        },
+        "hint": {
+          "ar": "القاف تُكتب كما في الفصحى لكن تُقرأ «g» في اللهجة، فنقول gahwa لا qahwa.",
+          "en": "The letter is written as in MSA but read as \"g\": say gahwa, not qahwa.",
+          "id": "Hurufnya ditulis seperti Arab Baku tetapi dibaca \"g\": ucapkan gahwa, bukan qahwa."
+        }
+      },
+      {
+        "id": "sa12n2",
+        "target": "قلت لك",
+        "translit": "gilt lak",
+        "tr": {
+          "ar": "قلتُ لك",
+          "en": "I told you",
+          "id": "Sudah kubilang padamu"
+        },
+        "example": {
+          "target": "قلت لك ما أدري",
+          "translit": "gilt lak mā adri",
+          "tr": {
+            "ar": "قلتُ لك إنني لا أعرف",
+            "en": "I told you I do not know",
+            "id": "Sudah kubilang aku tidak tahu"
+          }
+        },
+        "hint": {
+          "ar": "في الفصحى qultu، وفي اللهجة gilt: القاف g، والحركة القصيرة الأخيرة تسقط. لمن تخاطبه امرأة: قلت لج gilt lich عند بعضهم.",
+          "en": "MSA says qultu; Saudi says gilt: q becomes g and the final short vowel drops. To a woman some speakers say gilt lich.",
+          "id": "Arab Baku: qultu; Saudi: gilt. Huruf q menjadi g dan vokal pendek akhir hilang. Kepada perempuan sebagian penutur berkata gilt lich."
+        }
+      },
+      {
+        "id": "sa12n3",
+        "target": "جيت",
+        "translit": "jīt",
+        "tr": {
+          "ar": "جئتُ",
+          "en": "I came",
+          "id": "Aku sudah datang"
+        },
+        "example": {
+          "target": "جيت أمس بدري",
+          "translit": "jīt ams badri",
+          "tr": {
+            "ar": "جئتُ أمس مبكرًا",
+            "en": "I came early yesterday",
+            "id": "Aku datang lebih awal kemarin"
+          }
+        },
+        "hint": {
+          "ar": "الجيم \"j\" في نجد والحجاز، لكن في الشرقية والخليج تُسمع غالبًا \"y\" (yīt). والهمزة في جئت اختفت.",
+          "en": "Jim is \"j\" in Najd and Hijaz, but Eastern and Gulf speakers often say \"y\" (yīt). The hamza of MSA ji'tu has also disappeared.",
+          "id": "Jim berbunyi \"j\" di Najd dan Hijaz, tetapi penutur Timur dan Teluk sering berkata \"y\" (yīt). Hamzah pada ji'tu juga menghilang."
+        }
+      },
+      {
+        "id": "sa12n4",
+        "target": "شلونج؟",
+        "translit": "shlōnich?",
+        "tr": {
+          "ar": "كيف حالكِ؟ (للمرأة)",
+          "en": "How are you? (to a woman)",
+          "id": "Apa kabar? (kepada perempuan)"
+        },
+        "example": {
+          "target": "شلونج اليوم؟",
+          "translit": "shlōnich al-yōm?",
+          "tr": {
+            "ar": "كيف حالكِ اليوم؟",
+            "en": "How are you today? (to a woman)",
+            "id": "Apa kabarmu hari ini? (kepada perempuan)"
+          }
+        },
+        "hint": {
+          "ar": "للرجل: شلونك shlōnak. عند كثير من أهل نجد والخليج تصير كاف المؤنثة «ch» أو «ts»، ولذلك تُسمع -ich. أهل الحجاز يقولون «كيفك؟».",
+          "en": "To a man: shlōnak. Many Najdi and Gulf speakers turn the feminine \"k\" into \"ch\", so you hear -ich. Hijazis would say \"kīfik?\" instead.",
+          "id": "Kepada laki-laki: shlōnak. Banyak penutur Najd dan Teluk mengubah \"k\" perempuan menjadi \"ch\", sehingga terdengar -ich. Orang Hijaz akan berkata \"kīfik?\"."
+        }
+      },
+      {
+        "id": "sa12n5",
+        "target": "ثلاثة",
+        "translit": "thlātha",
+        "tr": {
+          "ar": "ثلاثة (فصحى: thalātha)",
+          "en": "three",
+          "id": "tiga"
+        },
+        "example": {
+          "target": "عندنا ثلاثة ضيوف اليوم",
+          "translit": "ʿindanā thlātha ḍyūf al-yōm",
+          "tr": {
+            "ar": "لدينا ثلاثة ضيوف اليوم",
+            "en": "We have three guests today",
+            "id": "Kami punya tiga tamu hari ini"
+          }
+        },
+        "hint": {
+          "ar": "الثاء تبقى \"th\"، لكن الفتحة الأولى تسقط: thlātha لا thalātha. كذلك ضيوف تصير ḍyūf.",
+          "en": "The \"th\" stays, but the first short vowel drops: thlātha, not thalātha. Likewise ḍuyūf becomes ḍyūf.",
+          "id": "\"th\" tetap, tetapi vokal pendek pertama hilang: thlātha, bukan thalātha. Begitu juga ḍuyūf menjadi ḍyūf."
+        }
+      },
+      {
+        "id": "sa12n6",
+        "target": "بيت",
+        "translit": "bēt",
+        "tr": {
+          "ar": "بيت (فصحى: bayt)",
+          "en": "house, home",
+          "id": "rumah"
+        },
+        "example": {
+          "target": "بيتنا قريب من هنا",
+          "translit": "bētnā garīb min hna",
+          "tr": {
+            "ar": "بيتنا قريب من هنا",
+            "en": "Our house is close to here",
+            "id": "Rumah kami dekat dari sini"
+          }
+        },
+        "hint": {
+          "ar": "«ay» تصير «ē» عند كثير من النجديين: bēt، وين wēn. في الحجاز يبقى bayt. لاحظ أيضًا قريب garīb وهنا hna.",
+          "en": "\"ay\" becomes \"ē\" for many Najdis: bēt, wēn. In Hijaz it stays bayt. Notice also garīb (q as g) and hna.",
+          "id": "\"ay\" menjadi \"ē\" bagi banyak orang Najd: bēt, wēn. Di Hijaz tetap bayt. Perhatikan juga garīb (q jadi g) dan hna."
+        }
+      }
+    ],
+    "cloze": [
+      {
+        "sentence": "أبغى فنجال ___ لو سمحت",
+        "answer": "قهوة",
+        "wrong": [
+          "كتاب",
+          "مفتاح"
+        ],
+        "tr": {
+          "ar": "أريد فنجان قهوة من فضلك.",
+          "en": "I would like a cup of coffee, please.",
+          "id": "Saya mau secangkir kopi, tolong."
+        },
+        "why": {
+          "ar": "نقول فنجال قهوة (تُقرأ gahwa)؛ الكتاب والمفتاح لا يُشربان.",
+          "en": "A cup holds coffee (read gahwa); you cannot drink a book or a key.",
+          "id": "Cangkir berisi kopi (dibaca gahwa); buku dan kunci tidak bisa diminum."
+        }
+      },
+      {
+        "sentence": "أنا ___ لك ثلاث مرات",
+        "answer": "قلت",
+        "wrong": [
+          "قال",
+          "قلتوا"
+        ],
+        "tr": {
+          "ar": "قلتُ لك ثلاث مرات.",
+          "en": "I told you three times.",
+          "id": "Sudah tiga kali kubilang padamu."
+        },
+        "why": {
+          "ar": "مع «أنا» نستعمل قلت gilt؛ قال للغائب وقلتوا لجماعة المخاطبين.",
+          "en": "With \"I\" we use gilt; \"gāl\" is for he and \"giltu\" is for you all.",
+          "id": "Dengan \"aku\" dipakai gilt; \"gāl\" untuk dia dan \"giltu\" untuk kalian."
+        }
+      }
+    ],
+    "conversation": {
+      "context": {
+        "ar": "صديقان يلتقيان في مقهى بعد غياب قصير.",
+        "en": "Two friends meet at a cafe after a short absence.",
+        "id": "Dua teman bertemu di kafe setelah tidak berjumpa sebentar."
+      },
+      "turns": [
+        {
+          "who": "A",
+          "target": "هلا والله، شلونك؟ متى جيت؟",
+          "tr": {
+            "ar": "أهلًا، كيف حالك؟ متى جئت؟",
+            "en": "Hello, how are you? When did you come?",
+            "id": "Halo, apa kabar? Kapan kamu datang?"
+          }
+        },
+        {
+          "who": "B",
+          "target": "جيت أمس بدري",
+          "tr": {
+            "ar": "جئتُ أمس مبكرًا",
+            "en": "I came early yesterday",
+            "id": "Aku datang kemarin pagi-pagi"
+          }
+        },
+        {
+          "who": "A",
+          "target": "حيّاك الله، البيت بيتك",
+          "tr": {
+            "ar": "أهلًا بك، البيت بيتك",
+            "en": "Welcome, my home is yours",
+            "id": "Selamat datang, anggap rumah sendiri"
+          }
+        }
+      ],
+      "gap": 1,
+      "wrong": [
+        "قلت لك ثلاث مرات",
+        "بكم هذا لو سمحت؟"
+      ],
+      "why": {
+        "ar": "السؤال «متى جيت؟» يُجاب بـ«جيت أمس بدري». والجملتان الأخريان لا علاقة لهما بالسؤال.",
+        "en": "The question \"when did you come?\" is answered with \"jīt ams badri\". The other two replies have nothing to do with the question.",
+        "id": "Pertanyaan \"kapan kamu datang?\" dijawab \"jīt ams badri\". Dua jawaban lain tidak berkaitan dengan pertanyaan."
+      }
+    },
+    "summary": {
+      "ar": "تعلمنا أن القاف غالبًا g، وأن الحركات القصيرة تسقط، وأن ay تصير ē. كما سمعنا الفرق بين j وy، وأن كاف المؤنث قد تصير ch.",
+      "en": "You learned that qaf is mostly \"g\", short vowels drop and \"ay\" turns into \"ē\". You also met the j/y difference and the feminine \"ch\" ending.",
+      "id": "Kamu belajar bahwa qaf kebanyakan \"g\", vokal pendek hilang dan \"ay\" menjadi \"ē\". Kamu juga mengenal perbedaan j/y dan akhiran perempuan \"ch\"."
+    }
+  },
+  {
+    "id": "sa-01",
+    "track": "sa",
+    "level": "beginner",
+    "order": 2,
+    "topic": "greetings",
+    "icon": "👋",
+    "title": {
+      "ar": "تحيات سعودية يومية",
+      "en": "Everyday Saudi Greetings",
+      "id": "Sapaan Sehari-hari Saudi"
+    },
+    "description": {
+      "ar": "عبارات التحية والسؤال عن الحال الأكثر استعمالًا في السعودية.",
+      "en": "The most common ways to greet people and ask how they are in Saudi Arabia.",
+      "id": "Ungkapan sapaan dan menanyakan kabar yang paling umum di Arab Saudi."
+    },
+    "objectives": [
+      {
+        "ar": "أستطيع أن ألقي السلام وأردّ عليه.",
+        "en": "I can say the Islamic greeting and answer it.",
+        "id": "Saya bisa mengucapkan salam dan menjawabnya."
+      },
+      {
+        "ar": "أستطيع أن أسأل «وش أخبارك؟» وأجيب «تمام».",
+        "en": "I can ask \"wesh akhbārak?\" and answer \"tamām\".",
+        "id": "Saya bisa bertanya \"wesh akhbārak?\" dan menjawab \"tamām\"."
+      },
+      {
+        "ar": "أستطيع أن أحيّي في المساء وأطمئن الآخرين بـ«ما عليه».",
+        "en": "I can greet in the evening and reassure people with \"mā ʿalayh\".",
+        "id": "Saya bisa menyapa di malam hari dan menenangkan orang dengan \"mā ʿalayh\"."
+      }
+    ],
+    "intro": {
+      "ar": "السعوديون يبدؤون كل حديث تقريبًا بالسلام ثم سؤال طويل عن الحال. في هذا الدرس تتعلم أهم عبارات التحية بصيغتها الدارجة. لاحظ أن «وش» تحلّ محل «ماذا»، وأن «الحين» تعني «الآن».",
+      "en": "Saudis start almost every conversation with the greeting followed by a few questions about how you are. This lesson gives you the key greetings in everyday form. Notice that \"wesh\" replaces MSA \"mādhā\" and \"al-ḥīn\" means \"now\".",
+      "id": "Orang Saudi hampir selalu membuka percakapan dengan salam lalu beberapa pertanyaan kabar. Pelajaran ini memberi sapaan utama dalam bentuk sehari-hari. Perhatikan bahwa \"wesh\" menggantikan \"mādhā\" dan \"al-ḥīn\" berarti \"sekarang\"."
+    },
+    "culture": {
+      "ar": "يبدأ المسلم بـ«السلام عليكم» ويرد الآخر «وعليكم السلام ورحمة الله». المصافحة شائعة بين الرجال، وغالبًا مع تقبيل الأنف أو الخد بين الأقارب. لا تمدّ يدك لامرأة إلا إذا بدأت هي. السؤال عن الأهل والصحة مجاملة لا تُعدّ تدخلًا.",
+      "en": "A Muslim opens with \"as-salāmu ʿalaykum\" and the other replies \"wa ʿalaykum as-salām wa raḥmatullāh\". Men often shake hands, and relatives may kiss noses or cheeks. Do not offer your hand to a woman unless she offers first. Asking about health and family is a courtesy, not an intrusion.",
+      "id": "Seorang Muslim membuka dengan \"as-salāmu ʿalaykum\" dan lawan bicara menjawab \"wa ʿalaykum as-salām wa raḥmatullāh\". Laki-laki biasa berjabat tangan, dan kerabat bisa mencium hidung atau pipi. Jangan mengulurkan tangan kepada perempuan kecuali ia yang memulai. Menanyakan kesehatan dan keluarga adalah basa-basi sopan, bukan ikut campur."
+    },
+    "grammar": {
+      "title": {
+        "ar": "وش بدل ماذا والحين بدل الآن",
+        "en": "\"Wesh\" for \"what\", \"al-ḥīn\" for \"now\"",
+        "id": "\"Wesh\" untuk \"apa\", \"al-ḥīn\" untuk \"sekarang\""
+      },
+      "body": {
+        "ar": "في الفصحى نقول «كيف حالك؟ ماذا تريد؟ الآن». أما في اللهجة فنقول «وش أخبارك؟» و«الحين». ولا تتغير «وش» مع المذكر والمؤنث، لكن ضمير المخاطب يتغير: أخبارك للرجل، وأخبارج (أو أخبارك) للمرأة.",
+        "en": "MSA says \"kayfa ḥāluk? mādhā turīd? al-ān\". Saudi says \"wesh akhbārak?\" and \"al-ḥīn\". \"Wesh\" never changes for gender, but the \"you\" ending does: akhbārak to a man, akhbārich (or akhbārik) to a woman.",
+        "id": "Arab Baku berkata \"kayfa ḥāluk? mādhā turīd? al-ān\". Saudi berkata \"wesh akhbārak?\" dan \"al-ḥīn\". \"Wesh\" tidak berubah menurut jenis kelamin, tetapi akhiran \"kamu\" berubah: akhbārak untuk laki-laki, akhbārich (atau akhbārik) untuk perempuan."
+      }
+    },
+    "items": [
+      {
+        "id": "s1",
+        "target": "وش أخبارك؟",
+        "translit": "wesh akhbārak?",
+        "tr": {
+          "ar": "كيف حالك؟ (غير رسمي)",
+          "en": "How are you? (informal)",
+          "id": "Apa kabar? (tidak formal)"
+        },
+        "example": {
+          "target": "هلا، وش أخبارك؟",
+          "translit": "hala, wesh akhbārak?",
+          "tr": {
+            "ar": "أهلًا، كيف حالك؟",
+            "en": "Hi, how are you?",
+            "id": "Hai, apa kabar?"
+          }
+        },
+        "hint": {
+          "ar": "للرجل: وش أخبارك؟ وللمرأة: وش أخبارج؟ (أو أخبارك). مناسبة للأصدقاء والزملاء.",
+          "en": "To a man: wesh akhbārak? To a woman: wesh akhbārich? (or akhbārik). Fine for friends and colleagues.",
+          "id": "Untuk laki-laki: wesh akhbārak? Untuk perempuan: wesh akhbārich? (atau akhbārik). Cocok untuk teman dan rekan kerja."
+        }
+      },
+      {
+        "id": "s2",
+        "target": "تمام",
+        "translit": "tamām",
+        "tr": {
+          "ar": "بخير / حسنًا",
+          "en": "Fine / OK",
+          "id": "Baik / oke"
+        },
+        "example": {
+          "target": "أنا تمام، الحمد لله",
+          "translit": "anā tamām, al-ḥamdulillāh",
+          "tr": {
+            "ar": "أنا بخير، والحمد لله",
+            "en": "I am fine, thank God",
+            "id": "Saya baik, syukurlah"
+          }
+        },
+        "hint": {
+          "ar": "تُستعمل جوابًا للسؤال عن الحال، وتأتي غالبًا مع «الحمد لله». تصلح للجميع.",
+          "en": "Used to answer \"how are you?\", usually with \"al-ḥamdulillāh\". Suitable for everyone.",
+          "id": "Dipakai untuk menjawab \"apa kabar?\", biasanya bersama \"al-ḥamdulillāh\". Cocok untuk semua orang."
+        }
+      },
+      {
+        "id": "s3",
+        "target": "الحين",
+        "translit": "al-ḥīn",
+        "tr": {
+          "ar": "الآن",
+          "en": "now",
+          "id": "sekarang"
+        },
+        "example": {
+          "target": "تعال الحين",
+          "translit": "taʿāl al-ḥīn",
+          "tr": {
+            "ar": "تعال الآن",
+            "en": "Come now",
+            "id": "Datanglah sekarang"
+          }
+        },
+        "hint": {
+          "ar": "كلمة لهجية خالصة: لا تقل «الآن» في الحديث اليومي إلا في موقف رسمي. تعال للرجل، وتعالي للمرأة.",
+          "en": "A purely dialect word: \"al-ān\" sounds formal in daily talk. Taʿāl is to a man, taʿālī to a woman.",
+          "id": "Kata khas dialek: \"al-ān\" terdengar formal dalam percakapan sehari-hari. Taʿāl untuk laki-laki, taʿālī untuk perempuan."
+        }
+      },
+      {
+        "id": "s4",
+        "target": "ما عليه",
+        "translit": "mā ʿalayh",
+        "tr": {
+          "ar": "لا بأس / لا يهم",
+          "en": "No problem / never mind",
+          "id": "Tidak apa-apa"
+        },
+        "example": {
+          "target": "ما عليه، عادي",
+          "translit": "mā ʿalayh, ʿādī",
+          "tr": {
+            "ar": "لا بأس، الأمر عادي",
+            "en": "No problem, it is fine",
+            "id": "Tidak apa-apa, biasa saja"
+          }
+        },
+        "hint": {
+          "ar": "تقولها حين يعتذر أحد أو يتأخر. تُسمع أيضًا «ما عليك» أو «ولا يهمك».",
+          "en": "Say it when someone apologises or is late. You also hear \"mā ʿalēk\" and \"wala yhimmak\".",
+          "id": "Diucapkan ketika seseorang meminta maaf atau terlambat. Terdengar juga \"mā ʿalēk\" dan \"wala yhimmak\"."
+        }
+      },
+      {
+        "id": "sa01n1",
+        "target": "السلام عليكم",
+        "translit": "as-salāmu ʿalaykum",
+        "tr": {
+          "ar": "تحية الإسلام: سلامٌ عليكم",
+          "en": "peace be upon you (greeting)",
+          "id": "salam sejahtera (sapaan)"
+        },
+        "example": {
+          "target": "السلام عليكم، شلونك؟",
+          "translit": "as-salāmu ʿalaykum, shlōnak?",
+          "tr": {
+            "ar": "السلام عليكم، كيف حالك؟",
+            "en": "Peace be upon you, how are you?",
+            "id": "Assalamualaikum, apa kabar?"
+          }
+        },
+        "hint": {
+          "ar": "الرد: وعليكم السلام ورحمة الله. تُقال في أي وقت وللجميع، وهي أفضل بداية للحديث مع غريب.",
+          "en": "Reply: wa ʿalaykum as-salām wa raḥmatullāh. Said at any time to anyone; the best way to open with a stranger.",
+          "id": "Jawaban: wa ʿalaykum as-salām wa raḥmatullāh. Diucapkan kapan saja kepada siapa saja; pembuka terbaik untuk orang asing."
+        }
+      },
+      {
+        "id": "sa01n2",
+        "target": "مساك الله بالخير",
+        "translit": "massāk allāh bi-l-khēr",
+        "tr": {
+          "ar": "مساء الخير",
+          "en": "good evening",
+          "id": "selamat sore / malam"
+        },
+        "example": {
+          "target": "مساك الله بالخير يا أبو محمد",
+          "translit": "massāk allāh bi-l-khēr yā abu muḥammad",
+          "tr": {
+            "ar": "مساء الخير يا أبا محمد",
+            "en": "Good evening, Abu Mohammed",
+            "id": "Selamat malam, Abu Muhammad"
+          }
+        },
+        "hint": {
+          "ar": "للمرأة: مساج الله بالخير. الرد: مساك الله بالنور. وفي الصباح: صباح الخير، والرد صباح النور.",
+          "en": "To a woman: massāch allāh bi-l-khēr. Reply: massāk allāh bi-n-nūr. In the morning: ṣabāḥ al-khēr, reply ṣabāḥ an-nūr.",
+          "id": "Untuk perempuan: massāch allāh bi-l-khēr. Jawaban: massāk allāh bi-n-nūr. Pagi hari: ṣabāḥ al-khēr, jawabannya ṣabāḥ an-nūr."
+        }
+      }
+    ],
+    "cloze": [
+      {
+        "sentence": "وش أخبارك؟ ___، الحمد لله",
+        "answer": "تمام",
+        "wrong": [
+          "الحين",
+          "وين"
+        ],
+        "tr": {
+          "ar": "كيف حالك؟ بخير، والحمد لله.",
+          "en": "How are you? Fine, thank God.",
+          "id": "Apa kabar? Baik, syukurlah."
+        },
+        "why": {
+          "ar": "«تمام» هو الجواب الطبيعي؛ «الحين» تعني الآن و«وين» تعني أين.",
+          "en": "\"Tamām\" is the natural answer; \"al-ḥīn\" means now and \"wēn\" means where.",
+          "id": "\"Tamām\" adalah jawaban yang wajar; \"al-ḥīn\" berarti sekarang dan \"wēn\" berarti di mana."
+        }
+      },
+      {
+        "sentence": "مساك الله ___",
+        "answer": "بالخير",
+        "wrong": [
+          "بكرة",
+          "شوي"
+        ],
+        "tr": {
+          "ar": "مساء الخير.",
+          "en": "Good evening.",
+          "id": "Selamat malam."
+        },
+        "why": {
+          "ar": "التحية الثابتة «مساك الله بالخير»؛ بكرة وشوي ظرفان لا يصلحان هنا.",
+          "en": "The fixed greeting is \"massāk allāh bi-l-khēr\"; \"bukra\" and \"shwai\" are adverbs that do not fit here.",
+          "id": "Sapaan tetapnya \"massāk allāh bi-l-khēr\"; \"bukra\" dan \"shwai\" adalah keterangan yang tidak cocok di sini."
+        }
+      }
+    ],
+    "conversation": {
+      "context": {
+        "ar": "رجلان يلتقيان أمام المسجد.",
+        "en": "Two men meet in front of the mosque.",
+        "id": "Dua laki-laki bertemu di depan masjid."
+      },
+      "turns": [
+        {
+          "who": "A",
+          "target": "السلام عليكم",
+          "tr": {
+            "ar": "السلام عليكم",
+            "en": "Peace be upon you",
+            "id": "Assalamualaikum"
+          }
+        },
+        {
+          "who": "B",
+          "target": "وعليكم السلام ورحمة الله، وش أخبارك؟",
+          "tr": {
+            "ar": "وعليكم السلام ورحمة الله، كيف حالك؟",
+            "en": "And upon you peace and God's mercy, how are you?",
+            "id": "Wa alaikum salam warahmatullah, apa kabar?"
+          }
+        },
+        {
+          "who": "A",
+          "target": "تمام الحمد لله، الله يسلمك",
+          "tr": {
+            "ar": "بخير والحمد لله، سلّمك الله",
+            "en": "Fine, thank God, God keep you well",
+            "id": "Baik, syukurlah, semoga Allah menjagamu"
+          }
+        }
+      ],
+      "gap": 1,
+      "wrong": [
+        "وين المفتاح؟",
+        "ما أدري"
+      ],
+      "why": {
+        "ar": "نردّ على السلام بـ«وعليكم السلام» ثم نسأل عن الحال. السؤالان الآخران لا يردّان على التحية.",
+        "en": "We answer the greeting with \"wa ʿalaykum as-salām\" and then ask how they are. The other two replies do not respond to a greeting.",
+        "id": "Salam dijawab dengan \"wa ʿalaykum as-salām\" lalu menanyakan kabar. Dua jawaban lain tidak menanggapi salam."
+      }
+    },
+    "summary": {
+      "ar": "تعلمت السلام، وسؤال الحال «وش أخبارك؟»، وجوابه «تمام». وعرفت «الحين» و«ما عليه» و«مساك الله بالخير».",
+      "en": "You learned the greeting, \"wesh akhbārak?\" and its answer \"tamām\", plus \"al-ḥīn\", \"mā ʿalayh\" and the evening greeting.",
+      "id": "Kamu belajar salam, \"wesh akhbārak?\" dan jawabannya \"tamām\", serta \"al-ḥīn\", \"mā ʿalayh\" dan sapaan malam."
+    }
+  },
+  {
+    "id": "sa-13",
+    "track": "sa",
+    "level": "beginner",
+    "order": 3,
+    "topic": "hospitality",
+    "icon": "☕",
+    "title": {
+      "ar": "الترحيب والضيافة",
+      "en": "Welcome and Hospitality",
+      "id": "Sambutan dan Keramahan Tamu"
+    },
+    "description": {
+      "ar": "عبارات استقبال الضيف وآداب المجلس السعودي.",
+      "en": "How to welcome a guest and behave politely in a Saudi majlis.",
+      "id": "Cara menyambut tamu dan beradab di majelis Saudi."
+    },
+    "objectives": [
+      {
+        "ar": "أستطيع أن أستقبل ضيفًا بـ«هلا والله» و«حيّاك الله».",
+        "en": "I can welcome a guest with \"hala wallāh\" and \"ḥayyāk allāh\".",
+        "id": "Saya bisa menyambut tamu dengan \"hala wallāh\" dan \"ḥayyāk allāh\"."
+      },
+      {
+        "ar": "أستطيع أن أدعو الضيف للجلوس بـ«تفضّل» و«البيت بيتك».",
+        "en": "I can invite a guest to sit with \"tfaḍḍal\" and \"al-bēt bētak\".",
+        "id": "Saya bisa mempersilakan tamu duduk dengan \"tfaḍḍal\" dan \"al-bēt bētak\"."
+      },
+      {
+        "ar": "أستطيع أن أرحّب بالمضيف وأقبل طلبًا بـ«أبشر».",
+        "en": "I can thank a host and accept a request with \"abshir\".",
+        "id": "Saya bisa berterima kasih kepada tuan rumah dan menerima permintaan dengan \"abshir\"."
+      }
+    ],
+    "intro": {
+      "ar": "الضيافة من أعظم القيم عند السعوديين، وللضيف عبارات استقبال كثيرة. هنا تتعلم العبارات التي ستسمعها أول ما تدخل أي بيت أو مجلس، وكيف ترد عليها.",
+      "en": "Hospitality is one of the most important Saudi values and there are many set phrases for greeting a guest. Here you learn the phrases you will hear the moment you enter a home or majlis, and how to answer them.",
+      "id": "Keramahan tamu adalah salah satu nilai terpenting orang Saudi dan ada banyak ungkapan baku untuk menyambut tamu. Di sini kamu belajar ungkapan yang akan kamu dengar begitu masuk rumah atau majelis, dan cara menjawabnya."
+    },
+    "culture": {
+      "ar": "في المجلس تُقدَّم القهوة العربية بالفنجال الصغير مع التمر، وتبدأ بالأكبر أو بالضيف. يُمسَك الفنجال باليمنى، وإذا اكتفيت هززت الفنجال قليلًا قبل أن تعيده. لا يُعدّ رفض القهوة الأولى لطيفًا، فاقبلها ولو بقليل. اخلع حذاءك إن رأيت أن الناس خلعوا أحذيتهم.",
+      "en": "In a majlis Arabic coffee is served in small cups with dates, starting with the guest of honour or the eldest. Hold the cup in your right hand, and when you have had enough, shake the cup gently before handing it back. Refusing the first cup is not polite, so accept at least a little. Take off your shoes if others have.",
+      "id": "Di majelis, kopi Arab disajikan dalam cangkir kecil dengan kurma, dimulai dari tamu kehormatan atau yang tertua. Pegang cangkir dengan tangan kanan, dan bila sudah cukup, goyangkan cangkir perlahan sebelum mengembalikannya. Menolak cangkir pertama kurang sopan, jadi terimalah sedikit. Lepas sepatu jika yang lain melepasnya."
+    },
+    "grammar": {
+      "title": {
+        "ar": "فعل الأمر المهذّب",
+        "en": "The polite invitation",
+        "id": "Ajakan yang sopan"
+      },
+      "body": {
+        "ar": "«تفضّل» للرجل و«تفضّلي» للمرأة و«تفضّلوا» للجماعة. في الفصحى نقول «تفضّل» أيضًا، لكن اللهجة تحذف الحركات فتُسمع tfaḍḍal. ويُجاب على «حيّاك الله» بـ«الله يحيّيك»، وعلى «تفضّل» بـ«الله يعافيك».",
+        "en": "\"Tfaḍḍal\" is for a man, \"tfaḍḍalī\" for a woman and \"tfaḍḍalu\" for a group. MSA uses the same verb, but speech drops vowels so you hear tfaḍḍal. Answer \"ḥayyāk allāh\" with \"allāh yḥayyīk\".",
+        "id": "\"Tfaḍḍal\" untuk laki-laki, \"tfaḍḍalī\" untuk perempuan dan \"tfaḍḍalu\" untuk kelompok. Arab Baku memakai kata kerja yang sama, tetapi dalam ujaran vokalnya hilang sehingga terdengar tfaḍḍal. Jawab \"ḥayyāk allāh\" dengan \"allāh yḥayyīk\"."
+      }
+    },
+    "items": [
+      {
+        "id": "sa13n1",
+        "target": "هلا والله",
+        "translit": "hala wallāh",
+        "tr": {
+          "ar": "أهلًا وسهلًا",
+          "en": "welcome, hello there",
+          "id": "selamat datang"
+        },
+        "example": {
+          "target": "هلا والله، شرّفتنا",
+          "translit": "hala wallāh, sharraftanā",
+          "tr": {
+            "ar": "أهلًا وسهلًا، شرّفتنا",
+            "en": "Welcome, you honour us",
+            "id": "Selamat datang, kami merasa terhormat"
+          }
+        },
+        "hint": {
+          "ar": "تحية دافئة للأصدقاء والضيوف. الصيغ المشابهة: يا هلا، هلا فيك، هلا بالغالي.",
+          "en": "A warm greeting for friends and guests. Variants: yā hala, hala fīk, hala bi-l-ghālī.",
+          "id": "Sapaan hangat untuk teman dan tamu. Variasi: yā hala, hala fīk, hala bi-l-ghālī."
+        }
+      },
+      {
+        "id": "sa13n2",
+        "target": "حيّاك الله",
+        "translit": "ḥayyāk allāh",
+        "tr": {
+          "ar": "حيّاك الله؛ أهلًا بك",
+          "en": "may God welcome you",
+          "id": "semoga Allah menyambutmu"
+        },
+        "example": {
+          "target": "حيّاك الله، ادخل",
+          "translit": "ḥayyāk allāh, udkhul",
+          "tr": {
+            "ar": "حيّاك الله، تفضّل بالدخول",
+            "en": "Welcome, please come in",
+            "id": "Selamat datang, silakan masuk"
+          }
+        },
+        "hint": {
+          "ar": "للمرأة: حيّاج الله. الجواب: الله يحيّيك. أكثر رسمية قليلًا من «هلا والله».",
+          "en": "To a woman: ḥayyāch allāh. Reply: allāh yḥayyīk. Slightly more formal than \"hala wallāh\".",
+          "id": "Kepada perempuan: ḥayyāch allāh. Jawaban: allāh yḥayyīk. Sedikit lebih formal daripada \"hala wallāh\"."
+        }
+      },
+      {
+        "id": "sa13n3",
+        "target": "تفضّل",
+        "translit": "tfaḍḍal",
+        "tr": {
+          "ar": "تفضّل؛ تعالَ واجلس",
+          "en": "please, go ahead / sit down",
+          "id": "silakan"
+        },
+        "example": {
+          "target": "تفضّل اجلس، الحين تجي القهوة",
+          "translit": "tfaḍḍal ijlis, al-ḥīn tijī l-gahwa",
+          "tr": {
+            "ar": "تفضّل بالجلوس، ستأتي القهوة الآن",
+            "en": "Please sit, the coffee is coming now",
+            "id": "Silakan duduk, kopinya segera datang"
+          }
+        },
+        "hint": {
+          "ar": "للمرأة تفضّلي وللجماعة تفضّلوا. تُستعمل عند تقديم القهوة والطعام والمقعد.",
+          "en": "To a woman tfaḍḍalī, to a group tfaḍḍalu. Used when offering coffee, food or a seat.",
+          "id": "Untuk perempuan tfaḍḍalī, untuk kelompok tfaḍḍalu. Dipakai saat menawarkan kopi, makanan atau tempat duduk."
+        }
+      },
+      {
+        "id": "sa13n4",
+        "target": "نوّرت",
+        "translit": "nawwart",
+        "tr": {
+          "ar": "شرّفتَ؛ أضأتَ المكان",
+          "en": "you light up the place (welcome)",
+          "id": "kehadiranmu menerangi tempat ini"
+        },
+        "example": {
+          "target": "نوّرت البيت يا خالد",
+          "translit": "nawwart al-bēt yā khālid",
+          "tr": {
+            "ar": "أنرتَ البيت يا خالد",
+            "en": "You light up the house, Khalid",
+            "id": "Kamu menerangi rumah ini, Khalid"
+          }
+        },
+        "hint": {
+          "ar": "للمرأة: نوّرتي. وهي مجاملة تقولها للضيف عند وصوله. الرد: الله ينوّرك.",
+          "en": "To a woman: nawwartī. A compliment to a guest on arrival. Reply: allāh ynawwirak.",
+          "id": "Untuk perempuan: nawwartī. Pujian untuk tamu saat tiba. Jawaban: allāh ynawwirak."
+        }
+      },
+      {
+        "id": "sa13n5",
+        "target": "البيت بيتك",
+        "translit": "al-bēt bētak",
+        "tr": {
+          "ar": "اعتبر المكان بيتك؛ تصرّف براحة",
+          "en": "make yourself at home",
+          "id": "anggap saja rumah sendiri"
+        },
+        "example": {
+          "target": "اجلس، البيت بيتك",
+          "translit": "ijlis, al-bēt bētak",
+          "tr": {
+            "ar": "اجلس، البيت بيتك",
+            "en": "Sit down, make yourself at home",
+            "id": "Duduklah, anggap rumah sendiri"
+          }
+        },
+        "hint": {
+          "ar": "للمرأة: البيت بيتج. ويقولها المضيف ليُشعر الضيف بالراحة؛ لا تُؤخذ حرفيًا.",
+          "en": "To a woman: al-bēt bētich. A host says it to put a guest at ease; it is not meant literally.",
+          "id": "Kepada perempuan: al-bēt bētich. Tuan rumah mengucapkannya agar tamu nyaman; tidak dimaksudkan secara harfiah."
+        }
+      },
+      {
+        "id": "sa13n6",
+        "target": "أبشر",
+        "translit": "abshir",
+        "tr": {
+          "ar": "سأفعل ذلك بكل سرور",
+          "en": "consider it done",
+          "id": "siap, akan dikerjakan"
+        },
+        "example": {
+          "target": "أبشر، من عيوني",
+          "translit": "abshir, min ʿyūnī",
+          "tr": {
+            "ar": "حاضر، بكل سرور",
+            "en": "Consider it done, with pleasure",
+            "id": "Siap, dengan senang hati"
+          }
+        },
+        "hint": {
+          "ar": "تُقال لقبول طلب، وكأنك تقول «أبشر بما يسرّك». «من عيوني» تقوّيها. للمرأة تُقال كما هي.",
+          "en": "Said when accepting a request, as if saying \"be glad of the good news\". \"Min ʿyūnī\" strengthens it. Same form for women.",
+          "id": "Diucapkan saat menerima permintaan, seakan berkata \"bergembiralah\". \"Min ʿyūnī\" menguatkannya. Bentuknya sama untuk perempuan."
+        }
+      }
+    ],
+    "cloze": [
+      {
+        "sentence": "___ الله، تفضّل اجلس",
+        "answer": "حيّاك",
+        "wrong": [
+          "شكرًا",
+          "وين"
+        ],
+        "tr": {
+          "ar": "أهلًا بك، تفضّل بالجلوس.",
+          "en": "Welcome, please sit down.",
+          "id": "Selamat datang, silakan duduk."
+        },
+        "why": {
+          "ar": "«حيّاك الله» عبارة ترحيب تناسب بداية الجملة؛ «شكرًا» و«وين» لا يناسبان استقبال ضيف.",
+          "en": "\"Ḥayyāk allāh\" is a welcome phrase that fits here; \"thanks\" and \"where\" do not fit greeting a guest.",
+          "id": "\"Ḥayyāk allāh\" adalah ungkapan sambutan yang cocok; \"terima kasih\" dan \"di mana\" tidak cocok untuk menyambut tamu."
+        }
+      },
+      {
+        "sentence": "نوّرت ___ يا خالد",
+        "answer": "البيت",
+        "wrong": [
+          "القهوة",
+          "أمس"
+        ],
+        "tr": {
+          "ar": "أنرتَ البيت يا خالد.",
+          "en": "You light up the house, Khalid.",
+          "id": "Kamu menerangi rumah ini, Khalid."
+        },
+        "why": {
+          "ar": "نقول «نوّرت البيت» أو «نوّرت المكان»؛ القهوة وأمس لا تُنوَّر.",
+          "en": "We say \"nawwart al-bēt\" or \"nawwart al-makān\"; coffee and \"yesterday\" cannot be lit up.",
+          "id": "Dikatakan \"nawwart al-bēt\" atau \"nawwart al-makān\"; kopi dan \"kemarin\" tidak bisa diterangi."
+        }
+      }
+    ],
+    "conversation": {
+      "context": {
+        "ar": "ضيف يصل إلى بيت صديقه في المساء.",
+        "en": "A guest arrives at his friend's house in the evening.",
+        "id": "Seorang tamu tiba di rumah temannya pada malam hari."
+      },
+      "turns": [
+        {
+          "who": "A",
+          "target": "يا هلا والله! حيّاك الله",
+          "tr": {
+            "ar": "أهلًا وسهلًا! حيّاك الله",
+            "en": "Welcome, welcome! May God welcome you",
+            "id": "Selamat datang! Semoga Allah menyambutmu"
+          }
+        },
+        {
+          "who": "B",
+          "target": "الله يحيّيك، نوّرت",
+          "tr": {
+            "ar": "حيّاك الله، شرّفتنا",
+            "en": "And you, thank you for having me",
+            "id": "Terima kasih atas sambutannya"
+          }
+        },
+        {
+          "who": "A",
+          "target": "تفضّل، البيت بيتك",
+          "tr": {
+            "ar": "تفضّل، البيت بيتك",
+            "en": "Come in, make yourself at home",
+            "id": "Silakan masuk, anggap rumah sendiri"
+          }
+        }
+      ],
+      "gap": 1,
+      "wrong": [
+        "مع السلامة",
+        "أبغى هذا لو سمحت"
+      ],
+      "why": {
+        "ar": "الردّ الطبيعي على «حيّاك الله» هو «الله يحيّيك». «مع السلامة» تُقال عند الوداع، والثانية طلب شراء.",
+        "en": "The natural reply to \"ḥayyāk allāh\" is \"allāh yḥayyīk\". \"Goodbye\" is for leaving and the other is a shopping request.",
+        "id": "Jawaban wajar untuk \"ḥayyāk allāh\" adalah \"allāh yḥayyīk\". \"Selamat tinggal\" untuk berpisah dan satunya lagi permintaan belanja."
+      }
+    },
+    "summary": {
+      "ar": "تعلمت استقبال الضيف بـ«هلا والله» و«حيّاك الله»، ودعوته بـ«تفضّل» و«البيت بيتك». وعرفت كيف تقبل الطلب بـ«أبشر».",
+      "en": "You learned to welcome a guest with \"hala wallāh\" and \"ḥayyāk allāh\", invite him with \"tfaḍḍal\" and \"al-bēt bētak\", and accept a request with \"abshir\".",
+      "id": "Kamu belajar menyambut tamu dengan \"hala wallāh\" dan \"ḥayyāk allāh\", mempersilakannya dengan \"tfaḍḍal\" dan \"al-bēt bētak\", serta menerima permintaan dengan \"abshir\"."
+    }
+  },
+  {
+    "id": "sa-02",
+    "track": "sa",
+    "level": "beginner",
+    "order": 4,
+    "topic": "practical-conversation",
+    "icon": "💬",
+    "title": {
+      "ar": "محادثة عملية",
+      "en": "Practical Conversation",
+      "id": "Percakapan Praktis"
+    },
+    "description": {
+      "ar": "أسئلة وأجوبة قصيرة تحتاجها في أي حديث يومي.",
+      "en": "Short questions and answers you need in any daily conversation.",
+      "id": "Pertanyaan dan jawaban singkat yang diperlukan dalam percakapan harian."
+    },
+    "objectives": [
+      {
+        "ar": "أستطيع أن أسأل «وش تبغى؟» و«وين؟».",
+        "en": "I can ask \"wesh tibghā?\" and \"wēn?\".",
+        "id": "Saya bisa bertanya \"wesh tibghā?\" dan \"wēn?\"."
+      },
+      {
+        "ar": "أستطيع أن أقول «ما أدري» و«ما فهمت» عندما لا أعرف.",
+        "en": "I can say \"mā adri\" and \"mā fhimt\" when I do not know or understand.",
+        "id": "Saya bisa mengatakan \"mā adri\" dan \"mā fhimt\" ketika tidak tahu atau tidak paham."
+      },
+      {
+        "ar": "أستطيع أن أطلب شيئًا بأدب بـ«لو سمحت» وأطلب الانتظار بـ«شوي».",
+        "en": "I can ask politely with \"law samaḥt\" and ask someone to wait with \"shwai\".",
+        "id": "Saya bisa meminta dengan sopan memakai \"law samaḥt\" dan meminta menunggu dengan \"shwai\"."
+      }
+    ],
+    "intro": {
+      "ar": "هذه عبارات قصيرة تحلّ كثيرًا من المواقف: السؤال عن مكان، أو عن رغبة، أو الاعتراف بعدم المعرفة. تلاحظ أن اللهجة تستعمل «تبغى» بدل «تريد»، و«أدري» بدل «أعرف».",
+      "en": "These short phrases cover many situations: asking where something is, what someone wants, or admitting you do not know. Notice that Saudi uses \"tibghā\" for \"want\" and \"adri\" for \"know\".",
+      "id": "Ungkapan pendek ini menolong di banyak situasi: menanyakan tempat, keinginan, atau mengaku tidak tahu. Perhatikan bahwa Saudi memakai \"tibghā\" untuk \"mau\" dan \"adri\" untuk \"tahu\"."
+    },
+    "culture": {
+      "ar": "الأدب في الطلب مهم: يضيف السعوديون «لو سمحت» أو «الله يعافيك» لتليين الطلب. وقول «ما أدري» صادقًا أفضل من إجابة مخمَّنة. وحين تطلب الانتظار فقول «شوي» مع ابتسامة يكفي.",
+      "en": "Politeness in requests matters: Saudis add \"law samaḥt\" or \"allāh yʿāfīk\" to soften them. An honest \"mā adri\" is better than a guess. When you ask someone to wait, a smile and \"shwai\" is enough.",
+      "id": "Kesopanan saat meminta itu penting: orang Saudi menambahkan \"law samaḥt\" atau \"allāh yʿāfīk\" agar permintaan lebih halus. \"Mā adri\" yang jujur lebih baik daripada menebak. Saat meminta orang menunggu, senyum dan \"shwai\" sudah cukup."
+    },
+    "grammar": {
+      "title": {
+        "ar": "تبغى وأدري",
+        "en": "\"Tibghā\" and \"adri\"",
+        "id": "\"Tibghā\" dan \"adri\""
+      },
+      "body": {
+        "ar": "«تبغى» من «بغى»: أبغى، تبغى (للمذكر)، تبغين (للمؤنث)، يبغى. بدل «أريد/تريد» في الفصحى. و«أدري» بدل «أعرف»: ما أدري، ما تدري. لاحظ النفي بـ«ما» قبل الفعل مباشرة.",
+        "en": "\"Tibghā\" comes from \"bagha\": abghā, tibghā (to a man), tibghēn (to a woman), yibghā. It replaces MSA \"turīd\". \"Adri\" replaces \"aʿrif\": mā adri, mā tdri. Negation is \"mā\" right before the verb.",
+        "id": "\"Tibghā\" berasal dari \"bagha\": abghā, tibghā (untuk laki-laki), tibghēn (untuk perempuan), yibghā. Menggantikan \"turīd\" Arab Baku. \"Adri\" menggantikan \"aʿrif\": mā adri, mā tdri. Penyangkalan memakai \"mā\" tepat sebelum kata kerja."
+      }
+    },
+    "items": [
+      {
+        "id": "s5",
+        "target": "وش تبغى؟",
+        "translit": "wesh tibghā?",
+        "tr": {
+          "ar": "ماذا تريد؟ (للمذكر)",
+          "en": "What do you want? (to a man)",
+          "id": "Kamu mau apa? (kepada laki-laki)"
+        },
+        "example": {
+          "target": "وش تبغى تشرب؟",
+          "translit": "wesh tibghā tishrab?",
+          "tr": {
+            "ar": "ماذا تريد أن تشرب؟",
+            "en": "What would you like to drink?",
+            "id": "Kamu mau minum apa?"
+          }
+        },
+        "hint": {
+          "ar": "للمرأة: وش تبغين؟ وللجماعة: وش تبغون؟ في الحجاز تسمع «وش تبي؟» أو «إيش تبغى؟».",
+          "en": "To a woman: wesh tibghēn? To a group: wesh tibghūn? In Hijaz you also hear \"tibbī\" or \"ēsh tibghā?\".",
+          "id": "Kepada perempuan: wesh tibghēn? Kepada kelompok: wesh tibghūn? Di Hijaz juga terdengar \"tibbī\" atau \"ēsh tibghā?\"."
+        }
+      },
+      {
+        "id": "s6",
+        "target": "ما أدري",
+        "translit": "mā adri",
+        "tr": {
+          "ar": "لا أعرف",
+          "en": "I do not know",
+          "id": "Saya tidak tahu"
+        },
+        "example": {
+          "target": "والله ما أدري",
+          "translit": "wallāh mā adri",
+          "tr": {
+            "ar": "والله لا أعرف",
+            "en": "I honestly do not know",
+            "id": "Sungguh saya tidak tahu"
+          }
+        },
+        "hint": {
+          "ar": "تُقال لكل الناس. «والله» هنا لتأكيد الصدق، لا قسمًا ثقيلًا.",
+          "en": "Said to everyone. \"Wallāh\" here just stresses honesty; it is not a heavy oath.",
+          "id": "Dipakai kepada siapa saja. \"Wallāh\" di sini hanya menekankan kejujuran, bukan sumpah berat."
+        }
+      },
+      {
+        "id": "s7",
+        "target": "شوي",
+        "translit": "shwai",
+        "tr": {
+          "ar": "قليلًا / لحظة",
+          "en": "a little / a moment",
+          "id": "sedikit / sebentar"
+        },
+        "example": {
+          "target": "اصبر شوي",
+          "translit": "iṣbir shwai",
+          "tr": {
+            "ar": "انتظر قليلًا",
+            "en": "Wait a moment",
+            "id": "Tunggu sebentar"
+          }
+        },
+        "hint": {
+          "ar": "للمرأة: اصبري شوي. «شوي» تعني أيضًا «قليلًا»: أبغى شوي سكر.",
+          "en": "To a woman: iṣbirī shwai. \"Shwai\" also means \"a little\": abghā shwai sukkar.",
+          "id": "Kepada perempuan: iṣbirī shwai. \"Shwai\" juga berarti \"sedikit\": abghā shwai sukkar."
+        }
+      },
+      {
+        "id": "s8",
+        "target": "وين؟",
+        "translit": "wēn?",
+        "tr": {
+          "ar": "أين؟",
+          "en": "Where?",
+          "id": "Di mana?"
+        },
+        "example": {
+          "target": "وين المفتاح؟",
+          "translit": "wēn al-muftāḥ?",
+          "tr": {
+            "ar": "أين المفتاح؟",
+            "en": "Where is the key?",
+            "id": "Di mana kuncinya?"
+          }
+        },
+        "hint": {
+          "ar": "قل «وين» وليس «أين» في الحديث العادي. للاتجاه: وين رايح؟ أي إلى أين تذهب؟",
+          "en": "Say \"wēn\", not \"ayna\", in normal speech. For direction: wēn rāyiḥ? (where are you going?).",
+          "id": "Ucapkan \"wēn\", bukan \"ayna\", dalam percakapan biasa. Untuk arah: wēn rāyiḥ? (mau ke mana?)."
+        }
+      },
+      {
+        "id": "sa02n1",
+        "target": "لو سمحت",
+        "translit": "law samaḥt",
+        "tr": {
+          "ar": "من فضلك",
+          "en": "excuse me / please",
+          "id": "permisi / tolong"
+        },
+        "example": {
+          "target": "لو سمحت، وين المطعم؟",
+          "translit": "law samaḥt, wēn al-maṭʿam?",
+          "tr": {
+            "ar": "من فضلك، أين المطعم؟",
+            "en": "Excuse me, where is the restaurant?",
+            "id": "Permisi, di mana restorannya?"
+          }
+        },
+        "hint": {
+          "ar": "للمرأة: لو سمحتي. تُستعمل لجذب انتباه غريب أو لطلب مهذب.",
+          "en": "To a woman: law samaḥtī. Used to get a stranger's attention or to make a polite request.",
+          "id": "Kepada perempuan: law samaḥtī. Dipakai untuk menarik perhatian orang asing atau meminta dengan sopan."
+        }
+      },
+      {
+        "id": "sa02n2",
+        "target": "ما فهمت",
+        "translit": "mā fhimt",
+        "tr": {
+          "ar": "لم أفهم",
+          "en": "I did not understand",
+          "id": "Saya tidak mengerti"
+        },
+        "example": {
+          "target": "ما فهمت، عيد لو سمحت",
+          "translit": "mā fhimt, ʿayyid law samaḥt",
+          "tr": {
+            "ar": "لم أفهم، أعد من فضلك",
+            "en": "I did not understand, please repeat",
+            "id": "Saya tidak mengerti, tolong ulangi"
+          }
+        },
+        "hint": {
+          "ar": "للمرأة المتكلمة تقول أيضًا «ما فهمت». «عيد» تعني أعد (للمذكر)، وللمؤنث «عيدي».",
+          "en": "A woman says the same \"mā fhimt\". \"ʿayyid\" means repeat (to a man); to a woman, \"ʿayyidī\".",
+          "id": "Perempuan juga berkata \"mā fhimt\". \"ʿayyid\" berarti ulangi (kepada laki-laki); kepada perempuan \"ʿayyidī\"."
+        }
+      }
+    ],
+    "cloze": [
+      {
+        "sentence": "___ المفتاح؟",
+        "answer": "وين",
+        "wrong": [
+          "شوي",
+          "ما أدري"
+        ],
+        "tr": {
+          "ar": "أين المفتاح؟",
+          "en": "Where is the key?",
+          "id": "Di mana kuncinya?"
+        },
+        "why": {
+          "ar": "نسأل عن المكان بـ«وين»؛ «شوي» تعني قليلًا و«ما أدري» جواب لا سؤال.",
+          "en": "We ask about place with \"wēn\"; \"shwai\" means a little and \"mā adri\" is an answer, not a question.",
+          "id": "Tempat ditanyakan dengan \"wēn\"; \"shwai\" berarti sedikit dan \"mā adri\" adalah jawaban, bukan pertanyaan."
+        }
+      },
+      {
+        "sentence": "اصبر ___، الحين أجي",
+        "answer": "شوي",
+        "wrong": [
+          "وين",
+          "أمس"
+        ],
+        "tr": {
+          "ar": "انتظر قليلًا، سآتي الآن.",
+          "en": "Wait a moment, I am coming now.",
+          "id": "Tunggu sebentar, saya datang sekarang."
+        },
+        "why": {
+          "ar": "«اصبر شوي» عبارة ثابتة للانتظار القصير؛ «وين» و«أمس» لا يصلحان بعد الأمر.",
+          "en": "\"Iṣbir shwai\" is the set phrase for a short wait; \"wēn\" and \"yesterday\" do not fit after an imperative.",
+          "id": "\"Iṣbir shwai\" adalah ungkapan tetap untuk menunggu sebentar; \"wēn\" dan \"kemarin\" tidak cocok setelah perintah."
+        }
+      }
+    ],
+    "conversation": {
+      "context": {
+        "ar": "صديقان يبحثان عن مفتاح السيارة قبل الخروج.",
+        "en": "Two friends look for the car key before going out.",
+        "id": "Dua teman mencari kunci mobil sebelum keluar."
+      },
+      "turns": [
+        {
+          "who": "A",
+          "target": "وين المفتاح؟",
+          "tr": {
+            "ar": "أين المفتاح؟",
+            "en": "Where is the key?",
+            "id": "Di mana kuncinya?"
+          }
+        },
+        {
+          "who": "B",
+          "target": "والله ما أدري",
+          "tr": {
+            "ar": "والله لا أعرف",
+            "en": "I honestly do not know",
+            "id": "Sungguh saya tidak tahu"
+          }
+        },
+        {
+          "who": "A",
+          "target": "طيب اصبر شوي، أدوّر عليه",
+          "tr": {
+            "ar": "حسنًا انتظر، سأبحث عنه",
+            "en": "OK wait, I will look for it",
+            "id": "Baik tunggu, saya cari dulu"
+          }
+        }
+      ],
+      "gap": 1,
+      "wrong": [
+        "وين المطعم؟",
+        "تمام الحمد لله"
+      ],
+      "why": {
+        "ar": "السؤال عن المفتاح يُجاب بـ«ما أدري». «وين المطعم؟» سؤال جديد و«تمام الحمد لله» جواب عن الحال.",
+        "en": "The question about the key is answered by \"mā adri\". \"Where is the restaurant?\" is a new question and \"fine, thank God\" answers a how-are-you.",
+        "id": "Pertanyaan soal kunci dijawab \"mā adri\". \"Di mana restoran?\" adalah pertanyaan baru dan \"baik, syukurlah\" menjawab pertanyaan kabar."
+      }
+    },
+    "summary": {
+      "ar": "تعلمت «وش تبغى؟» و«وين؟» و«ما أدري» و«شوي». وأضفت «لو سمحت» و«ما فهمت» لتطلب بأدب وتوضّح.",
+      "en": "You learned \"wesh tibghā?\", \"wēn?\", \"mā adri\" and \"shwai\", and added \"law samaḥt\" and \"mā fhimt\" for polite requests and clarification.",
+      "id": "Kamu belajar \"wesh tibghā?\", \"wēn?\", \"mā adri\" dan \"shwai\", serta menambah \"law samaḥt\" dan \"mā fhimt\" untuk meminta dengan sopan dan meminta penjelasan."
+    }
+  },
+  {
+    "id": "sa-14",
+    "track": "sa",
+    "level": "beginner",
+    "order": 5,
+    "topic": "introductions",
+    "icon": "🤝",
+    "title": {
+      "ar": "التعارف",
+      "en": "Introductions",
+      "id": "Perkenalan"
+    },
+    "description": {
+      "ar": "كيف تسأل عن الاسم والبلد وتعرّف بنفسك بأسلوب سعودي.",
+      "en": "How to ask someone's name and origin and introduce yourself in a Saudi way.",
+      "id": "Cara menanyakan nama dan asal serta memperkenalkan diri ala Saudi."
+    },
+    "objectives": [
+      {
+        "ar": "أستطيع أن أسأل «وش اسمك؟» وأقول «اسمي ...».",
+        "en": "I can ask \"wesh ismak?\" and say \"ismi ...\".",
+        "id": "Saya bisa bertanya \"wesh ismak?\" dan mengatakan \"ismi ...\"."
+      },
+      {
+        "ar": "أستطيع أن أسأل «من وين أنت؟» وأجيب «أنا من ...».",
+        "en": "I can ask \"min wēn inta?\" and answer \"anā min ...\".",
+        "id": "Saya bisa bertanya \"min wēn inta?\" dan menjawab \"anā min ...\"."
+      },
+      {
+        "ar": "أستطيع أن أقول «تشرّفنا» وأذكر أنها زيارتي الأولى.",
+        "en": "I can say \"tsharrafnā\" and mention it is my first visit.",
+        "id": "Saya bisa mengatakan \"tsharrafnā\" dan menyebut bahwa ini kunjungan pertama saya."
+      }
+    ],
+    "intro": {
+      "ar": "بعد السلام يأتي التعارف: الاسم، والبلد، والمدينة. السعوديون يهتمون بمعرفة من أي مدينة أنت، لأن الأصل والقبيلة جزء من التعريف. هذه الجمل بسيطة وتكفي لأول لقاء.",
+      "en": "After the greeting comes the introduction: name, country, city. Saudis care about where you are from, because origin and family are part of identity. These simple sentences are enough for a first meeting.",
+      "id": "Setelah salam datang perkenalan: nama, negara, kota. Orang Saudi peduli dari mana asalmu, karena asal dan keluarga bagian dari identitas. Kalimat sederhana ini cukup untuk pertemuan pertama."
+    },
+    "culture": {
+      "ar": "قد يسألك السعودي عن اسمك واسم أبيك، ولا يُعدّ هذا تطفلًا. الكنية مثل «أبو محمد» (أبو + اسم الابن الأكبر) شائعة جدًا ومحببة. إذا قلت إنك من بلد مثل إندونيسيا فأنت مرحَّب بك أكثر، فكثير من السعوديين زاروا مكة والتقوا بالإندونيسيين.",
+      "en": "A Saudi may ask for your name and your father's name, which is not nosy. Nicknames like \"Abu Mohammed\" (father of the eldest son) are common and affectionate. Many Saudis have met Indonesian pilgrims, so naming your country usually draws a warm reaction.",
+      "id": "Orang Saudi mungkin menanyakan namamu dan nama ayahmu, dan itu bukan usil. Julukan seperti \"Abu Muhammad\" (ayah dari anak sulung) umum dan akrab. Banyak orang Saudi pernah bertemu jemaah Indonesia, jadi menyebut negaramu biasanya disambut hangat."
+    },
+    "grammar": {
+      "title": {
+        "ar": "من وين أنت؟",
+        "en": "\"Min wēn inta?\"",
+        "id": "\"Min wēn inta?\""
+      },
+      "body": {
+        "ar": "في الفصحى: «من أين أنت؟». في اللهجة: «من وين إنت؟» للمذكر، و«من وين إنتي؟» للمؤنث. ويمكن حذف الضمير: «من وين؟» فقط. ولا نستعمل فعل الكينونة، فنقول «أنا من الرياض» بدون «أكون».",
+        "en": "MSA says \"min ayna anta?\". Saudi says \"min wēn inta?\" to a man and \"min wēn inti?\" to a woman. The pronoun can drop: just \"min wēn?\". There is no verb \"to be\": \"anā min ar-riyāḍ\" literally \"I from Riyadh\".",
+        "id": "Arab Baku: \"min ayna anta?\". Saudi: \"min wēn inta?\" untuk laki-laki dan \"min wēn inti?\" untuk perempuan. Kata ganti boleh dihilangkan: cukup \"min wēn?\". Tidak ada kata kerja \"adalah\": \"anā min ar-riyāḍ\" secara harfiah \"aku dari Riyadh\"."
+      }
+    },
+    "items": [
+      {
+        "id": "sa14n1",
+        "target": "وش اسمك؟",
+        "translit": "wesh ismak?",
+        "tr": {
+          "ar": "ما اسمك؟ (للمذكر)",
+          "en": "What is your name? (to a man)",
+          "id": "Siapa namamu? (kepada laki-laki)"
+        },
+        "example": {
+          "target": "السلام عليكم، وش اسمك؟",
+          "translit": "as-salāmu ʿalaykum, wesh ismak?",
+          "tr": {
+            "ar": "السلام عليكم، ما اسمك؟",
+            "en": "Peace be upon you, what is your name?",
+            "id": "Assalamualaikum, siapa namamu?"
+          }
+        },
+        "hint": {
+          "ar": "للمرأة: وش اسمج؟ ويُفضَّل بعد السلام لا قبله.",
+          "en": "To a woman: wesh ismich? Ask after the greeting, not before.",
+          "id": "Kepada perempuan: wesh ismich? Tanyakan setelah salam, bukan sebelumnya."
+        }
+      },
+      {
+        "id": "sa14n2",
+        "target": "اسمي يوسف",
+        "translit": "ismi yūsuf",
+        "tr": {
+          "ar": "أُدعى يوسف (الفصحى: اسمي يوسف)",
+          "en": "my name is Yusuf",
+          "id": "namaku Yusuf"
+        },
+        "example": {
+          "target": "اسمي يوسف، وإنت؟",
+          "translit": "ismi yūsuf, w-inta?",
+          "tr": {
+            "ar": "اسمي يوسف، وأنت؟",
+            "en": "My name is Yusuf, and you?",
+            "id": "Namaku Yusuf, dan kamu?"
+          }
+        },
+        "hint": {
+          "ar": "استبدل يوسف باسمك. «وإنت؟» للرجل و«وإنتي؟» للمرأة.",
+          "en": "Replace Yusuf with your name. \"W-inta?\" to a man, \"w-inti?\" to a woman.",
+          "id": "Ganti Yusuf dengan namamu. \"W-inta?\" kepada laki-laki, \"w-inti?\" kepada perempuan."
+        }
+      },
+      {
+        "id": "sa14n3",
+        "target": "من وين أنت؟",
+        "translit": "min wēn inta?",
+        "tr": {
+          "ar": "من أين أنت؟",
+          "en": "Where are you from? (to a man)",
+          "id": "Kamu berasal dari mana? (kepada laki-laki)"
+        },
+        "example": {
+          "target": "من وين أنت يا أخوي؟",
+          "translit": "min wēn inta yā akhūy?",
+          "tr": {
+            "ar": "من أين أنت يا أخي؟",
+            "en": "Where are you from, brother?",
+            "id": "Kamu dari mana, saudaraku?"
+          }
+        },
+        "hint": {
+          "ar": "للمرأة: من وين إنتي؟ وفي الحجاز: «إنت منين؟».",
+          "en": "To a woman: min wēn inti? In Hijaz: \"inta minēn?\".",
+          "id": "Kepada perempuan: min wēn inti? Di Hijaz: \"inta minēn?\"."
+        }
+      },
+      {
+        "id": "sa14n4",
+        "target": "أنا من الرياض",
+        "translit": "anā min ar-riyāḍ",
+        "tr": {
+          "ar": "أنا من مدينة الرياض",
+          "en": "I am from Riyadh",
+          "id": "Saya dari Riyadh"
+        },
+        "example": {
+          "target": "أنا من الرياض، وساكن في جدة",
+          "translit": "anā min ar-riyāḍ, w-sākin fī jidda",
+          "tr": {
+            "ar": "أنا من الرياض وأسكن في جدة",
+            "en": "I am from Riyadh and live in Jeddah",
+            "id": "Saya dari Riyadh dan tinggal di Jeddah"
+          }
+        },
+        "hint": {
+          "ar": "غيّر الرياض باسم مدينتك أو بلدك. المرأة تقول «ساكنة». لاحظ أننا نقول «من» فقط.",
+          "en": "Swap Riyadh for your city or country. A woman says \"sākna\". Note we just say \"min\" with no extra word.",
+          "id": "Ganti Riyadh dengan kota atau negaramu. Perempuan berkata \"sākna\". Cukup \"min\" tanpa kata tambahan."
+        }
+      },
+      {
+        "id": "sa14n5",
+        "target": "تشرّفنا",
+        "translit": "tsharrafnā",
+        "tr": {
+          "ar": "شرفنا بمعرفتك",
+          "en": "pleased to meet you",
+          "id": "senang berkenalan"
+        },
+        "example": {
+          "target": "تشرّفنا يا أبو محمد",
+          "translit": "tsharrafnā yā abu muḥammad",
+          "tr": {
+            "ar": "شرّفنا بمعرفتك يا أبا محمد",
+            "en": "Pleased to meet you, Abu Mohammed",
+            "id": "Senang berkenalan, Abu Muhammad"
+          }
+        },
+        "hint": {
+          "ar": "الرد: الشرف لي. تُقال بعد التعارف مباشرة، وفي المقابلات الرسمية.",
+          "en": "Reply: ash-sharaf lī. Said right after introductions and in formal meetings.",
+          "id": "Jawaban: ash-sharaf lī. Diucapkan setelah perkenalan dan di pertemuan formal."
+        }
+      },
+      {
+        "id": "sa14n6",
+        "target": "أول مرة أجي السعودية",
+        "translit": "awwal marra ajī s-suʿūdiyya",
+        "tr": {
+          "ar": "هذه أول مرة أزور السعودية",
+          "en": "it is my first time in Saudi Arabia",
+          "id": "ini pertama kalinya saya ke Arab Saudi"
+        },
+        "example": {
+          "target": "أول مرة أجي السعودية، والجو حلو",
+          "translit": "awwal marra ajī s-suʿūdiyya, w-al-jaww ḥilw",
+          "tr": {
+            "ar": "هذه أول مرة آتي إلى السعودية والجو جميل",
+            "en": "My first time in Saudi Arabia, and the weather is nice",
+            "id": "Pertama kali ke Arab Saudi, dan cuacanya bagus"
+          }
+        },
+        "hint": {
+          "ar": "«أجي» تعني آتي (فعل مضارع من جاء). يرحّب السعودي فورًا: حيّاك الله وهلا بك.",
+          "en": "\"Ajī\" means \"I come\". A Saudi will usually welcome you at once: \"ḥayyāk allāh\".",
+          "id": "\"Ajī\" berarti \"aku datang\". Orang Saudi biasanya langsung menyambut: \"ḥayyāk allāh\"."
+        }
+      }
+    ],
+    "cloze": [
+      {
+        "sentence": "___ اسمك؟",
+        "answer": "وش",
+        "wrong": [
+          "وين",
+          "متى"
+        ],
+        "tr": {
+          "ar": "ما اسمك؟",
+          "en": "What is your name?",
+          "id": "Siapa namamu?"
+        },
+        "why": {
+          "ar": "نسأل عن الاسم بـ«وش»؛ «وين» للمكان و«متى» للوقت.",
+          "en": "We ask about a name with \"wesh\"; \"wēn\" is for place and \"mitā\" for time.",
+          "id": "Nama ditanyakan dengan \"wesh\"; \"wēn\" untuk tempat dan \"mitā\" untuk waktu."
+        }
+      },
+      {
+        "sentence": "من وين ___؟",
+        "answer": "أنت",
+        "wrong": [
+          "اسمك",
+          "الحين"
+        ],
+        "tr": {
+          "ar": "من أين أنت؟",
+          "en": "Where are you from?",
+          "id": "Kamu berasal dari mana?"
+        },
+        "why": {
+          "ar": "بعد «من وين» يأتي ضمير المخاطب؛ «اسمك» و«الحين» لا تكوّن سؤالًا مفهومًا.",
+          "en": "After \"min wēn\" comes the pronoun \"you\"; \"ismak\" and \"al-ḥīn\" do not make a sensible question.",
+          "id": "Setelah \"min wēn\" datang kata ganti \"kamu\"; \"ismak\" dan \"al-ḥīn\" tidak membentuk pertanyaan yang masuk akal."
+        }
+      }
+    ],
+    "conversation": {
+      "context": {
+        "ar": "رجلان يتعارفان في مناسبة عائلية.",
+        "en": "Two men get to know each other at a family gathering.",
+        "id": "Dua laki-laki berkenalan di acara keluarga."
+      },
+      "turns": [
+        {
+          "who": "A",
+          "target": "السلام عليكم، وش اسمك؟",
+          "tr": {
+            "ar": "السلام عليكم، ما اسمك؟",
+            "en": "Peace be upon you, what is your name?",
+            "id": "Assalamualaikum, siapa namamu?"
+          }
+        },
+        {
+          "who": "B",
+          "target": "وعليكم السلام، اسمي يوسف، وإنت؟",
+          "tr": {
+            "ar": "وعليكم السلام، اسمي يوسف وأنت؟",
+            "en": "Peace be upon you, my name is Yusuf, and you?",
+            "id": "Wa alaikum salam, namaku Yusuf, dan kamu?"
+          }
+        },
+        {
+          "who": "A",
+          "target": "اسمي سلمان، تشرّفنا",
+          "tr": {
+            "ar": "اسمي سلمان، شرفنا بمعرفتك",
+            "en": "My name is Salman, pleased to meet you",
+            "id": "Namaku Salman, senang berkenalan"
+          }
+        }
+      ],
+      "gap": 1,
+      "wrong": [
+        "أنا من الرياض",
+        "بكم هذا؟"
+      ],
+      "why": {
+        "ar": "السؤال عن الاسم يُجاب بذكر الاسم. «أنا من الرياض» يجيب عن سؤال آخر، و«بكم هذا؟» لا علاقة له.",
+        "en": "A question about a name is answered with a name. \"I am from Riyadh\" answers a different question and \"how much is this?\" is unrelated.",
+        "id": "Pertanyaan nama dijawab dengan nama. \"Saya dari Riyadh\" menjawab pertanyaan lain dan \"berapa harganya?\" tidak berkaitan."
+      }
+    },
+    "summary": {
+      "ar": "تعلمت أن تسأل عن الاسم والبلد: «وش اسمك؟» و«من وين أنت؟». وتعرّف بنفسك بـ«اسمي» و«أنا من»، وتختم بـ«تشرّفنا».",
+      "en": "You learned to ask for a name and origin with \"wesh ismak?\" and \"min wēn inta?\", to introduce yourself with \"ismi\" and \"anā min\", and to close with \"tsharrafnā\".",
+      "id": "Kamu belajar menanyakan nama dan asal dengan \"wesh ismak?\" dan \"min wēn inta?\", memperkenalkan diri dengan \"ismi\" dan \"anā min\", dan menutup dengan \"tsharrafnā\"."
+    }
+  },
+  {
+    "id": "sa-15",
+    "track": "sa",
+    "level": "beginner",
+    "order": 6,
+    "topic": "pronouns-demonstratives",
+    "icon": "👉",
+    "title": {
+      "ar": "الضمائر وأسماء الإشارة",
+      "en": "Pronouns and \"This / That\"",
+      "id": "Kata Ganti dan \"Ini / Itu\""
+    },
+    "description": {
+      "ar": "أنا، إنت، إحنا، هذا، هذي، ذاك: الأدوات الأساسية للجمل البسيطة.",
+      "en": "I, you, we, this, this (f.), that: the basic tools for simple sentences.",
+      "id": "Aku, kamu, kami, ini, ini (f.), itu: alat dasar untuk kalimat sederhana."
+    },
+    "objectives": [
+      {
+        "ar": "أستطيع أن أستعمل أنا وإنت وإحنا في جمل كاملة.",
+        "en": "I can use anā, inta and iḥnā in full sentences.",
+        "id": "Saya bisa memakai anā, inta dan iḥnā dalam kalimat lengkap."
+      },
+      {
+        "ar": "أستطيع أن أميّز بين هذا للمذكر وهذي للمؤنث.",
+        "en": "I can tell hādha (masculine) from hādhi (feminine).",
+        "id": "Saya bisa membedakan hādha (maskulin) dari hādhi (feminin)."
+      },
+      {
+        "ar": "أستطيع أن أشير إلى شيء بعيد بـ«ذاك».",
+        "en": "I can point to something far away with \"dhāk\".",
+        "id": "Saya bisa menunjuk sesuatu yang jauh dengan \"dhāk\"."
+      }
+    ],
+    "intro": {
+      "ar": "الجملة السعودية البسيطة تقوم على ضمير واسم إشارة بلا فعل: «أنا من جدة»، «هذا بيتي». نتعلم هنا الضمائر الأساسية، ونلاحظ الفرق مع الفصحى: «هذي» بدل «هذه»، و«إحنا» بدل «نحن».",
+      "en": "A simple Saudi sentence is often just a pronoun or \"this\" with no verb: \"anā min jidda\", \"hādha bētī\". Here you learn the core pronouns and see the contrast with MSA: \"hādhi\" instead of \"hādhihi\" and \"iḥnā\" instead of \"naḥnu\".",
+      "id": "Kalimat Saudi sederhana sering hanya kata ganti atau \"ini\" tanpa kata kerja: \"anā min jidda\", \"hādha bētī\". Di sini kamu belajar kata ganti inti dan melihat kontrasnya dengan Arab Baku: \"hādhi\" bukan \"hādhihi\" dan \"iḥnā\" bukan \"naḥnu\"."
+    },
+    "culture": {
+      "ar": "يُشار بالإصبع في ثقافات كثيرة، لكن في السعودية قد يُعدّ توجيه إصبع نحو شخص تصرفًا فظًّا، فاستعمل يدك مفتوحة أو أومئ برأسك. وعند التعريف بالناس يُقال «هذا أخوي» بدل ذكر الاسم أولًا، وهي طريقة محببة.",
+      "en": "Pointing at a person with one finger can be rude, so use an open hand or a nod. When introducing someone you often say \"this is my brother\" before the name, which sounds warm and natural.",
+      "id": "Menunjuk seseorang dengan satu jari bisa dianggap kasar, jadi pakai tangan terbuka atau anggukan. Saat memperkenalkan seseorang biasanya berkata \"ini saudaraku\" sebelum nama, yang terdengar hangat dan wajar."
+    },
+    "grammar": {
+      "title": {
+        "ar": "أنا إنت إحنا وهذا هذي",
+        "en": "Pronouns and demonstratives",
+        "id": "Kata ganti dan penunjuk"
+      },
+      "body": {
+        "ar": "الضمائر: أنا، إنت (للمذكر)، إنتي (للمؤنث)، هو، هي، إحنا، إنتو، هم. وأسماء الإشارة: هذا (مذكر قريب)، هذي (مؤنث قريب)، ذاك/ذيك (بعيد). وتتغير الإشارة بحسب جنس الاسم: هذا قلم، هذي شنطة. الفصحى تقول «هذه» و«نحن» و«أنتَ».",
+        "en": "Pronouns: anā, inta (to a man), inti (to a woman), huwwa, hiyya, iḥnā, intu, hum. Demonstratives: hādha (near, masculine), hādhi (near, feminine), dhāk/dhīk (far). The demonstrative follows the noun's gender: hādha qalam, hādhi shanṭa. MSA says \"hādhihi\", \"naḥnu\" and \"anta\".",
+        "id": "Kata ganti: anā, inta (laki-laki), inti (perempuan), huwwa, hiyya, iḥnā, intu, hum. Penunjuk: hādha (dekat, maskulin), hādhi (dekat, feminin), dhāk/dhīk (jauh). Penunjuk mengikuti jenis kata benda: hādha qalam, hādhi shanṭa. Arab Baku berkata \"hādhihi\", \"naḥnu\" dan \"anta\"."
+      }
+    },
+    "items": [
+      {
+        "id": "sa15n1",
+        "target": "أنا",
+        "translit": "anā",
+        "tr": {
+          "ar": "ضمير المتكلم المفرد (الفصحى: أنا)",
+          "en": "I, me",
+          "id": "saya, aku"
+        },
+        "example": {
+          "target": "أنا من جدة وإنت؟",
+          "translit": "anā min jidda w-inta?",
+          "tr": {
+            "ar": "أنا من جدة وأنت؟",
+            "en": "I am from Jeddah, and you?",
+            "id": "Saya dari Jeddah, dan kamu?"
+          }
+        },
+        "hint": {
+          "ar": "تُقال للمذكر والمؤنث بلا تغيير. وفي بعض الأماكن تُسمع «أنا» بإطالة الألف الأخيرة.",
+          "en": "Same for men and women. In some places the last vowel is stretched.",
+          "id": "Sama untuk laki-laki dan perempuan. Di beberapa tempat vokal akhirnya dipanjangkan."
+        }
+      },
+      {
+        "id": "sa15n2",
+        "target": "إنت",
+        "translit": "inta",
+        "tr": {
+          "ar": "أنتَ (للمذكر)",
+          "en": "you (to a man)",
+          "id": "kamu (laki-laki)"
+        },
+        "example": {
+          "target": "إنت وين ساكن؟",
+          "translit": "inta wēn sākin?",
+          "tr": {
+            "ar": "أين تسكن؟",
+            "en": "Where do you live?",
+            "id": "Kamu tinggal di mana?"
+          }
+        },
+        "hint": {
+          "ar": "للمرأة: إنتي. وللجماعة: إنتو. لاحظ أن الهمزة تتحول إلى حركة قصيرة قبل الضمير.",
+          "en": "To a woman: inti. To a group: intu. The \"a\" of MSA \"anta\" shortens to \"i\".",
+          "id": "Kepada perempuan: inti. Kepada kelompok: intu. Vokal \"a\" pada \"anta\" Arab Baku menjadi \"i\"."
+        }
+      },
+      {
+        "id": "sa15n3",
+        "target": "إحنا",
+        "translit": "iḥnā",
+        "tr": {
+          "ar": "نحن",
+          "en": "we, us",
+          "id": "kami / kita"
+        },
+        "example": {
+          "target": "إحنا أصدقاء من زمان",
+          "translit": "iḥnā aṣdiqāʾ min zamān",
+          "tr": {
+            "ar": "نحن أصدقاء منذ زمن",
+            "en": "We have been friends for a long time",
+            "id": "Kami berteman sudah lama"
+          }
+        },
+        "hint": {
+          "ar": "«إحنا» في نجد، وفي بعض المناطق «نحن». «من زمان» يعني منذ مدة طويلة.",
+          "en": "\"Iḥnā\" is common in Najd; some regions say \"niḥin\". \"Min zamān\" means a long time ago.",
+          "id": "\"Iḥnā\" umum di Najd; sebagian daerah berkata \"niḥin\". \"Min zamān\" berarti sejak lama."
+        }
+      },
+      {
+        "id": "sa15n4",
+        "target": "هذا",
+        "translit": "hādha",
+        "tr": {
+          "ar": "هذا (للمذكر القريب)",
+          "en": "this (masculine, near)",
+          "id": "ini (maskulin, dekat)"
+        },
+        "example": {
+          "target": "هذا أخوي أحمد",
+          "translit": "hādha akhūy aḥmad",
+          "tr": {
+            "ar": "هذا أخي أحمد",
+            "en": "This is my brother Ahmad",
+            "id": "Ini saudaraku Ahmad"
+          }
+        },
+        "hint": {
+          "ar": "تأتي قبل المذكر: هذا كتاب. وللمؤنث نستعمل «هذي». لاحظ أخوي = أخي.",
+          "en": "Used with masculine nouns: hādha kitāb. Feminine uses \"hādhi\". Note akhūy = my brother.",
+          "id": "Dipakai dengan kata benda maskulin: hādha kitāb. Feminin memakai \"hādhi\". Perhatikan akhūy = saudaraku."
+        }
+      },
+      {
+        "id": "sa15n5",
+        "target": "هذي",
+        "translit": "hādhi",
+        "tr": {
+          "ar": "هذه (للمؤنث القريب)",
+          "en": "this (feminine, near)",
+          "id": "ini (feminin, dekat)"
+        },
+        "example": {
+          "target": "هذي أختي نورة",
+          "translit": "hādhi ukhtī nūra",
+          "tr": {
+            "ar": "هذه أختي نورة",
+            "en": "This is my sister Noura",
+            "id": "Ini saudariku Noura"
+          }
+        },
+        "hint": {
+          "ar": "في الفصحى «هذه»، وفي اللهجة «هذي». تُستعمل لكل مؤنث: هذي سيارة، هذي مدينة.",
+          "en": "MSA \"hādhihi\", Saudi \"hādhi\". Used for all feminine nouns: hādhi sayyāra, hādhi madīna.",
+          "id": "Arab Baku \"hādhihi\", Saudi \"hādhi\". Dipakai untuk semua kata benda feminin: hādhi sayyāra, hādhi madīna."
+        }
+      },
+      {
+        "id": "sa15n6",
+        "target": "ذاك",
+        "translit": "dhāk",
+        "tr": {
+          "ar": "ذلك (للمذكر البعيد)",
+          "en": "that (masculine, far)",
+          "id": "itu (maskulin, jauh)"
+        },
+        "example": {
+          "target": "ذاك بيتنا، هناك",
+          "translit": "dhāk bētnā, hnāk",
+          "tr": {
+            "ar": "ذلك بيتنا هناك",
+            "en": "That is our house, over there",
+            "id": "Itu rumah kami, di sana"
+          }
+        },
+        "hint": {
+          "ar": "للمؤنث: ذيك. وللجماعة: هذولا (هؤلاء). لاحظ هناك hnāk.",
+          "en": "Feminine: dhīk. Plural: hadhōla (these). Note hnāk (there).",
+          "id": "Feminin: dhīk. Jamak: hadhōla (mereka ini). Perhatikan hnāk (di sana)."
+        }
+      }
+    ],
+    "cloze": [
+      {
+        "sentence": "___ من الرياض، وإنت؟",
+        "answer": "أنا",
+        "wrong": [
+          "هذي",
+          "ذاك"
+        ],
+        "tr": {
+          "ar": "أنا من الرياض وأنت؟",
+          "en": "I am from Riyadh, and you?",
+          "id": "Saya dari Riyadh, dan kamu?"
+        },
+        "why": {
+          "ar": "نبدأ بضمير المتكلم «أنا»؛ «هذي» و«ذاك» أسماء إشارة لا تدل على المتكلم.",
+          "en": "We start with the \"I\" pronoun; \"hādhi\" and \"dhāk\" are demonstratives and do not refer to the speaker.",
+          "id": "Kita mulai dengan kata ganti \"aku\"; \"hādhi\" dan \"dhāk\" adalah penunjuk dan tidak merujuk pada pembicara."
+        }
+      },
+      {
+        "sentence": "هذا قلم، وهذي ___",
+        "answer": "شنطة",
+        "wrong": [
+          "كتاب",
+          "مفتاح"
+        ],
+        "tr": {
+          "ar": "هذا قلم، وهذه حقيبة.",
+          "en": "This is a pen, and this is a bag.",
+          "id": "Ini pulpen, dan ini tas."
+        },
+        "why": {
+          "ar": "«هذي» للمؤنث، و«شنطة» مؤنث؛ كتاب ومفتاح مذكران.",
+          "en": "\"Hādhi\" is feminine and \"shanṭa\" is feminine; \"kitāb\" and \"muftāḥ\" are masculine.",
+          "id": "\"Hādhi\" feminin dan \"shanṭa\" feminin; \"kitāb\" dan \"muftāḥ\" maskulin."
+        }
+      }
+    ],
+    "conversation": {
+      "context": {
+        "ar": "في حفلة عائلية، يسأل شخصٌ عن رجل.",
+        "en": "At a family party, someone asks who a man is.",
+        "id": "Di acara keluarga, seseorang menanyakan siapa seorang laki-laki."
+      },
+      "turns": [
+        {
+          "who": "A",
+          "target": "من هذا الرجل؟",
+          "tr": {
+            "ar": "من هذا الرجل؟",
+            "en": "Who is this man?",
+            "id": "Siapa laki-laki ini?"
+          }
+        },
+        {
+          "who": "B",
+          "target": "هذا أخوي أحمد",
+          "tr": {
+            "ar": "هذا أخي أحمد",
+            "en": "This is my brother Ahmad",
+            "id": "Ini saudaraku Ahmad"
+          }
+        },
+        {
+          "who": "A",
+          "target": "وهذي؟",
+          "tr": {
+            "ar": "وهذه؟",
+            "en": "And this one?",
+            "id": "Dan yang ini?"
+          }
+        },
+        {
+          "who": "B",
+          "target": "هذي أختي نورة",
+          "tr": {
+            "ar": "هذه أختي نورة",
+            "en": "This is my sister Noura",
+            "id": "Ini saudariku Noura"
+          }
+        }
+      ],
+      "gap": 1,
+      "wrong": [
+        "هذي أختي نورة",
+        "إنت من الرياض؟"
+      ],
+      "why": {
+        "ar": "السؤال عن رجل يُجاب بـ«هذا». الرد بـ«هذي» خطأ في الجنس، والثاني سؤال لا إجابة.",
+        "en": "A question about a man is answered with \"hādha\". \"Hādhi\" is the wrong gender and the other reply is a question, not an answer.",
+        "id": "Pertanyaan tentang laki-laki dijawab dengan \"hādha\". \"Hādhi\" salah jenis dan jawaban lain adalah pertanyaan, bukan jawaban."
+      }
+    },
+    "summary": {
+      "ar": "تعلمت الضمائر أنا وإنت وإحنا، وأسماء الإشارة هذا وهذي وذاك. تذكر أن «هذي» بدل «هذه» وأن الإشارة تتبع جنس الاسم.",
+      "en": "You learned the pronouns anā, inta and iḥnā and the demonstratives hādha, hādhi and dhāk. Remember \"hādhi\" replaces MSA \"hādhihi\" and the demonstrative follows gender.",
+      "id": "Kamu belajar kata ganti anā, inta dan iḥnā serta penunjuk hādha, hādhi dan dhāk. Ingat \"hādhi\" menggantikan \"hādhihi\" dan penunjuk mengikuti jenis kelamin."
+    }
+  },
+  {
+    "id": "sa-04",
+    "track": "sa",
+    "level": "beginner",
+    "order": 7,
+    "topic": "market",
+    "icon": "🛍️",
+    "title": {
+      "ar": "في السوق",
+      "en": "At the Market",
+      "id": "Di Pasar"
+    },
+    "description": {
+      "ar": "السؤال عن السعر والمساومة بأدب في الأسواق السعودية.",
+      "en": "Asking prices and bargaining politely in Saudi shops and souks.",
+      "id": "Menanyakan harga dan menawar dengan sopan di toko dan pasar Saudi."
+    },
+    "objectives": [
+      {
+        "ar": "أستطيع أن أسأل «بكم هذا؟» وأفهم «غالي» و«رخيص».",
+        "en": "I can ask \"bikam hādha?\" and understand \"ghālī\" and \"rakhīṣ\".",
+        "id": "Saya bisa bertanya \"bikam hādha?\" dan memahami \"ghālī\" dan \"rakhīṣ\"."
+      },
+      {
+        "ar": "أستطيع أن أقول «أبغى هذا» عند اختيار سلعة.",
+        "en": "I can say \"abghā hādha\" when choosing an item.",
+        "id": "Saya bisa mengatakan \"abghā hādha\" saat memilih barang."
+      },
+      {
+        "ar": "أستطيع أن أطلب سعرًا أقل وأنهي الصفقة بـ«خلاص».",
+        "en": "I can ask for a lower price and close the deal with \"khalāṣ\".",
+        "id": "Saya bisa meminta harga lebih murah dan menutup transaksi dengan \"khalāṣ\"."
+      }
+    ],
+    "intro": {
+      "ar": "في الأسواق التقليدية يمكنك السؤال عن السعر والمفاصلة بأدب، أما في المراكز التجارية فالأسعار ثابتة غالبًا. هنا تتعلم عبارات التسوّق الأساسية وكيف تنهي الصفقة.",
+      "en": "In traditional souks you may ask the price and bargain politely, while in malls prices are usually fixed. Here you learn the basic shopping phrases and how to close a deal.",
+      "id": "Di pasar tradisional kamu boleh menanyakan harga dan menawar dengan sopan, sedangkan di mal harga biasanya tetap. Di sini kamu belajar ungkapan belanja dasar dan cara menutup transaksi."
+    },
+    "culture": {
+      "ar": "يرحّب البائع غالبًا بـ«تفضّل» أو «حيّاك الله». المساومة مقبولة في الأسواق الشعبية والذهب والعطور، لكن بلطف وبدون إلحاح. وإذا قلت «خلاص» بعد الاتفاق فالصفقة تمّت. تذكر أن الدفع ببطاقة مدى منتشر، لكن بعض الأسواق الصغيرة تفضّل النقد.",
+      "en": "The seller usually greets with \"tfaḍḍal\" or \"ḥayyāk allāh\". Bargaining is accepted in traditional markets, gold and perfume shops, but gently and without pressure. Saying \"khalāṣ\" after agreeing closes the deal. Cards (mada) are widely accepted, though some small shops prefer cash.",
+      "id": "Penjual biasanya menyapa dengan \"tfaḍḍal\" atau \"ḥayyāk allāh\". Menawar diterima di pasar tradisional, toko emas dan parfum, tetapi dengan lembut dan tanpa memaksa. Mengatakan \"khalāṣ\" setelah sepakat berarti transaksi selesai. Kartu (mada) diterima luas, meski beberapa toko kecil lebih suka tunai."
+    },
+    "grammar": {
+      "title": {
+        "ar": "بكم وكذا",
+        "en": "\"Bikam\" and \"kidhā\"",
+        "id": "\"Bikam\" dan \"kidhā\""
+      },
+      "body": {
+        "ar": "«بكم» تعني «بكم ثمنه؟» وتُستعمل مع اسم الإشارة: بكم هذا؟ و«من كذا» تعني «من هذا القدر»: أرخص من كذا. المقارنة تأتي بصيغة «أفعل» مثل «أرخص» و«أغلى».",
+        "en": "\"Bikam\" means \"for how much?\" and goes with a demonstrative: bikam hādha? \"Min kidhā\" means \"than this\": arkhaṣ min kidhā. Comparatives use the \"afʿal\" pattern: arkhaṣ (cheaper), aghla (more expensive).",
+        "id": "\"Bikam\" berarti \"berapa harganya?\" dan dipakai dengan penunjuk: bikam hādha? \"Min kidhā\" berarti \"daripada ini\": arkhaṣ min kidhā. Perbandingan memakai pola \"afʿal\": arkhaṣ (lebih murah), aghla (lebih mahal)."
+      }
+    },
+    "items": [
+      {
+        "id": "sax041",
+        "target": "بكم هذا؟",
+        "translit": "bikam hādha?",
+        "tr": {
+          "ar": "بكم هذا؟ / ما سعر هذا؟",
+          "en": "How much is this?",
+          "id": "Berapa harganya?"
+        },
+        "example": {
+          "target": "بكم هذا القميص؟",
+          "translit": "bikam hādha l-gamīṣ?",
+          "tr": {
+            "ar": "بكم هذا القميص؟",
+            "en": "How much is this shirt?",
+            "id": "Berapa harga kemeja ini?"
+          }
+        },
+        "hint": {
+          "ar": "للمؤنث: بكم هذي؟ ويُقال أيضًا «كم سعره؟». القميص هنا gamīṣ بقاف g.",
+          "en": "For feminine items: bikam hādhi? Also \"kam siʿrah?\". Note gamīṣ with the dialect \"g\".",
+          "id": "Untuk benda feminin: bikam hādhi? Juga \"kam siʿrah?\". Perhatikan gamīṣ dengan \"g\" dialek."
+        }
+      },
+      {
+        "id": "sax042",
+        "target": "غالي",
+        "translit": "ghālī",
+        "tr": {
+          "ar": "غالٍ",
+          "en": "expensive",
+          "id": "mahal"
+        },
+        "example": {
+          "target": "هذا غالي",
+          "translit": "hādha ghālī",
+          "tr": {
+            "ar": "هذا غالٍ",
+            "en": "This is expensive",
+            "id": "Ini mahal"
+          }
+        },
+        "hint": {
+          "ar": "للمؤنث: غالية. ويُقال «غالي مرّة» للتأكيد. لا تقلها بحدّة أمام البائع.",
+          "en": "Feminine: ghāliya. \"Ghālī marra\" means very expensive. Do not say it harshly to the seller.",
+          "id": "Feminin: ghāliya. \"Ghālī marra\" berarti sangat mahal. Jangan diucapkan dengan kasar kepada penjual."
+        }
+      },
+      {
+        "id": "sax043",
+        "target": "رخيص",
+        "translit": "rakhīṣ",
+        "tr": {
+          "ar": "قليل الثمن",
+          "en": "cheap",
+          "id": "murah"
+        },
+        "example": {
+          "target": "هذا رخيص",
+          "translit": "hādha rakhīṣ",
+          "tr": {
+            "ar": "هذا رخيص",
+            "en": "This is cheap",
+            "id": "Ini murah"
+          }
+        },
+        "hint": {
+          "ar": "للمؤنث: رخيصة. «رخيص» قد توحي بقلة الجودة، فقل «سعره حلو» لمدح السعر.",
+          "en": "\"Rakhīṣ\" can suggest low quality; say \"siʿrah ḥilw\" to compliment a price.",
+          "id": "\"Rakhīṣ\" bisa terkesan kualitas rendah; ucapkan \"siʿrah ḥilw\" untuk memuji harga."
+        }
+      },
+      {
+        "id": "sax044",
+        "target": "أبغى هذا",
+        "translit": "abghā hādha",
+        "tr": {
+          "ar": "أريد هذا",
+          "en": "I want this",
+          "id": "Saya mau ini"
+        },
+        "example": {
+          "target": "أبغى هذا لو سمحت",
+          "translit": "abghā hādha law samaḥt",
+          "tr": {
+            "ar": "أريد هذا من فضلك",
+            "en": "I want this one, please",
+            "id": "Saya mau ini, tolong"
+          }
+        },
+        "hint": {
+          "ar": "المرأة تقول أبغى كذلك. للمؤنث نقول أبغى هذي. وأضف «لو سمحت» دائمًا.",
+          "en": "A woman says the same \"abghā\". For feminine items: abghā hādhi. Always add \"law samaḥt\".",
+          "id": "Perempuan juga berkata \"abghā\". Untuk benda feminin: abghā hādhi. Selalu tambahkan \"law samaḥt\"."
+        }
+      },
+      {
+        "id": "sa04n1",
+        "target": "عندك أرخص من كذا؟",
+        "translit": "ʿindak arkhaṣ min kidhā?",
+        "tr": {
+          "ar": "هل عندك أرخص من هذا؟",
+          "en": "Do you have anything cheaper than this?",
+          "id": "Ada yang lebih murah dari ini?"
+        },
+        "example": {
+          "target": "غالي، عندك أرخص من كذا؟",
+          "translit": "ghālī, ʿindak arkhaṣ min kidhā?",
+          "tr": {
+            "ar": "إنه غالٍ، هل عندك أرخص من هذا؟",
+            "en": "It is expensive, do you have anything cheaper?",
+            "id": "Mahal, ada yang lebih murah dari ini?"
+          }
+        },
+        "hint": {
+          "ar": "للبائعة: عندج أرخص؟ وهي طريقة مهذبة للمساومة بدل أن تقول «نزّل السعر».",
+          "en": "To a female seller: ʿindich arkhaṣ? A polite way to bargain, rather than \"lower the price\".",
+          "id": "Kepada penjual perempuan: ʿindich arkhaṣ? Cara sopan menawar daripada \"turunkan harga\"."
+        }
+      },
+      {
+        "id": "sa04n2",
+        "target": "خلاص آخذه",
+        "translit": "khalāṣ ākhudh-ah",
+        "tr": {
+          "ar": "حسنًا، سآخذه",
+          "en": "OK, I will take it",
+          "id": "Baik, saya ambil"
+        },
+        "example": {
+          "target": "خلاص آخذه، كم الحساب؟",
+          "translit": "khalāṣ ākhudh-ah, kam al-ḥisāb?",
+          "tr": {
+            "ar": "حسنًا سآخذه، كم المجموع؟",
+            "en": "OK I will take it, how much is the total?",
+            "id": "Baik saya ambil, berapa totalnya?"
+          }
+        },
+        "hint": {
+          "ar": "«خلاص» تعني «انتهى الأمر» وتُستعمل لإنهاء النقاش. للمؤنث: آخذها.",
+          "en": "\"Khalāṣ\" means \"that is settled\". For a feminine item: ākhudhhā.",
+          "id": "\"Khalāṣ\" berarti \"sudah beres\". Untuk benda feminin: ākhudhhā."
+        }
+      }
+    ],
+    "cloze": [
+      {
+        "sentence": "___ هذا القميص؟",
+        "answer": "بكم",
+        "wrong": [
+          "خلاص",
+          "شوي"
+        ],
+        "tr": {
+          "ar": "بكم هذا القميص؟",
+          "en": "How much is this shirt?",
+          "id": "Berapa harga kemeja ini?"
+        },
+        "why": {
+          "ar": "«بكم» سؤال عن السعر؛ «خلاص» لإنهاء الصفقة و«شوي» تعني قليلًا.",
+          "en": "\"Bikam\" asks the price; \"khalāṣ\" closes a deal and \"shwai\" means a little.",
+          "id": "\"Bikam\" menanyakan harga; \"khalāṣ\" menutup transaksi dan \"shwai\" berarti sedikit."
+        }
+      },
+      {
+        "sentence": "هذا ___ مرّة، ما أقدر",
+        "answer": "غالي",
+        "wrong": [
+          "رخيص",
+          "خلاص"
+        ],
+        "tr": {
+          "ar": "هذا غالٍ جدًا، لا أستطيع.",
+          "en": "This is very expensive, I cannot afford it.",
+          "id": "Ini mahal sekali, saya tidak sanggup."
+        },
+        "why": {
+          "ar": "إذا لم أستطع الشراء فالسبب أنه غالي؛ «رخيص» تناقض المعنى.",
+          "en": "If I cannot buy it, it is because it is expensive; \"cheap\" contradicts the meaning.",
+          "id": "Jika saya tidak sanggup membeli, penyebabnya mahal; \"murah\" bertentangan dengan makna."
+        }
+      }
+    ],
+    "conversation": {
+      "context": {
+        "ar": "زبون يسأل بائعًا عن قميص.",
+        "en": "A customer asks a shopkeeper about a shirt.",
+        "id": "Seorang pelanggan menanyakan kemeja kepada penjual."
+      },
+      "turns": [
+        {
+          "who": "A",
+          "target": "هلا والله، تفضّل",
+          "tr": {
+            "ar": "أهلًا بك، تفضّل",
+            "en": "Welcome, come in",
+            "id": "Selamat datang, silakan"
+          }
+        },
+        {
+          "who": "B",
+          "target": "بكم هذا لو سمحت؟",
+          "tr": {
+            "ar": "بكم هذا من فضلك؟",
+            "en": "How much is this, please?",
+            "id": "Berapa harganya, tolong?"
+          }
+        },
+        {
+          "who": "A",
+          "target": "بخمسين ريال",
+          "tr": {
+            "ar": "بخمسين ريالًا",
+            "en": "Fifty riyals",
+            "id": "Lima puluh riyal"
+          }
+        },
+        {
+          "who": "B",
+          "target": "غالي، عندك أرخص من كذا؟",
+          "tr": {
+            "ar": "إنه غالٍ، هل عندك أرخص؟",
+            "en": "Expensive, do you have anything cheaper?",
+            "id": "Mahal, ada yang lebih murah?"
+          }
+        }
+      ],
+      "gap": 1,
+      "wrong": [
+        "وين المطعم؟",
+        "أمس جيت بدري"
+      ],
+      "why": {
+        "ar": "بعد ترحيب البائع يسأل الزبون عن السعر. السؤالان الآخران لا علاقة لهما بالتسوّق.",
+        "en": "After the seller's welcome the customer asks the price. The other two replies have nothing to do with shopping.",
+        "id": "Setelah sambutan penjual, pelanggan menanyakan harga. Dua jawaban lain tidak berkaitan dengan belanja."
+      }
+    },
+    "summary": {
+      "ar": "تعلمت أن أسأل عن السعر بـ«بكم هذا؟» وأصف السلعة بـ«غالي» و«رخيص». وتعلمت طلب سعر أقل وإنهاء الصفقة بـ«خلاص».",
+      "en": "You learned to ask the price with \"bikam hādha?\", describe it with \"ghālī\" and \"rakhīṣ\", ask for something cheaper and close the deal with \"khalāṣ\".",
+      "id": "Kamu belajar menanyakan harga dengan \"bikam hādha?\", menggambarkannya dengan \"ghālī\" dan \"rakhīṣ\", meminta yang lebih murah dan menutup transaksi dengan \"khalāṣ\"."
+    }
+  },
+  {
+    "id": "sa-16",
+    "track": "sa",
+    "level": "beginner",
+    "order": 8,
+    "topic": "numbers-prices",
+    "icon": "💰",
+    "title": {
+      "ar": "الأرقام والريالات والأسعار",
+      "en": "Numbers, Riyals and Prices",
+      "id": "Angka, Riyal dan Harga"
+    },
+    "description": {
+      "ar": "الأعداد الأساسية والريال والهللة وكيف تدفع وتسأل عن الحساب.",
+      "en": "Basic numbers, the riyal and halala, and how to pay and ask for the bill.",
+      "id": "Angka dasar, riyal dan halala, serta cara membayar dan menanyakan tagihan."
+    },
+    "objectives": [
+      {
+        "ar": "أستطيع أن أقول أسعارًا مثل عشرة ريال وخمسين ريال ومية ريال.",
+        "en": "I can say prices such as ten, fifty and a hundred riyals.",
+        "id": "Saya bisa menyebut harga seperti sepuluh, lima puluh dan seratus riyal."
+      },
+      {
+        "ar": "أستطيع أن أعرف الهللة وأن الريال مئة هللة.",
+        "en": "I can recognise the halala, one hundredth of a riyal.",
+        "id": "Saya bisa mengenali halala, seperseratus riyal."
+      },
+      {
+        "ar": "أستطيع أن أسأل «كم الحساب؟» و«عندك فكّة؟».",
+        "en": "I can ask \"kam al-ḥisāb?\" and \"ʿindak fakka?\".",
+        "id": "Saya bisa bertanya \"kam al-ḥisāb?\" dan \"ʿindak fakka?\"."
+      }
+    ],
+    "intro": {
+      "ar": "عملة السعودية الريال، وكل ريال يساوي مئة هللة. الأعداد من واحد إلى عشرة: واحد، اثنين، ثلاثة، أربعة، خمسة، ستة، سبعة، ثمانية، تسعة، عشرة. ونتعلم هنا الأعداد المستعملة في الأسعار.",
+      "en": "The Saudi currency is the riyal, and each riyal is 100 halalas. Numbers one to ten: wāḥid, ithnēn, thlātha, arbaʿa, khamsa, sitta, sabʿa, thmāniya, tisʿa, ʿashara. Here we learn the numbers used in prices.",
+      "id": "Mata uang Saudi adalah riyal, dan satu riyal sama dengan 100 halala. Angka satu sampai sepuluh: wāḥid, ithnēn, thlātha, arbaʿa, khamsa, sitta, sabʿa, thmāniya, tisʿa, ʿashara. Di sini kita belajar angka yang dipakai untuk harga."
+    },
+    "culture": {
+      "ar": "تُسمع الأسعار بأرقام مختصرة، فيقول الناس «خمسة وعشرين» بدل ريالات. وعند الدفع يطلب الكاشير أحيانًا «فكّة» أي نقودًا صغيرة. تُستعمل بطاقة مدى وApple Pay بكثرة، لكن بعض المحلات الصغيرة تفضّل النقد. لا يُتوقع بقشيش كبير في المطاعم.",
+      "en": "People often drop the word \"riyal\" and just say \"khamsa w-ʿishrīn\". At the till the cashier may ask for \"fakka\" (small change). Mada cards and Apple Pay are widely used but small shops may prefer cash. Large tips are not expected in restaurants.",
+      "id": "Orang sering menghilangkan kata \"riyal\" dan cukup berkata \"khamsa w-ʿishrīn\". Di kasir, kasir mungkin meminta \"fakka\" (uang kecil). Kartu mada dan Apple Pay banyak dipakai tetapi toko kecil kadang memilih tunai. Tip besar tidak diharapkan di restoran."
+    },
+    "grammar": {
+      "title": {
+        "ar": "الأعداد مع الريال",
+        "en": "Numbers with \"riyāl\"",
+        "id": "Angka dengan \"riyāl\""
+      },
+      "body": {
+        "ar": "بعد العشرات (عشرين، ثلاثين، خمسين) نستعمل «ريال» مفردًا: خمسين ريال. ومع المئة نقول «مية» (وفي الفصحى مئة). والعدد المركب: «خمسة وعشرين» (خمسة + و + عشرين). وللوحدات الصغيرة نقول هللة: خمسين هللة.",
+        "en": "After tens (twenty, thirty, fifty) \"riyāl\" stays singular: khamsīn riyāl. The hundred is \"mīya\" (MSA mi'a). Compound numbers: khamsa w-ʿishrīn (five and twenty). Small units are halala: khamsīn halala.",
+        "id": "Setelah puluhan (dua puluh, tiga puluh, lima puluh) \"riyāl\" tetap tunggal: khamsīn riyāl. Seratus adalah \"mīya\" (Arab Baku mi'a). Angka majemuk: khamsa w-ʿishrīn (lima dan dua puluh). Satuan kecil adalah halala: khamsīn halala."
+      }
+    },
+    "items": [
+      {
+        "id": "sa16n1",
+        "target": "عشرة ريال",
+        "translit": "ʿashara riyāl",
+        "tr": {
+          "ar": "عشرة ريالات",
+          "en": "ten riyals",
+          "id": "sepuluh riyal"
+        },
+        "example": {
+          "target": "القهوة بعشرة ريال",
+          "translit": "al-gahwa bi-ʿashara riyāl",
+          "tr": {
+            "ar": "القهوة بعشرة ريالات",
+            "en": "The coffee is ten riyals",
+            "id": "Kopinya sepuluh riyal"
+          }
+        },
+        "hint": {
+          "ar": "في الفصحى «عشرة ريالات» بالجمع، لكن اللهجة تقول ريال بالمفرد غالبًا بعد العدد.",
+          "en": "MSA uses the plural \"ʿasharat riyālāt\"; Saudi usually keeps \"riyāl\" singular after the number.",
+          "id": "Arab Baku memakai jamak \"ʿasharat riyālāt\"; Saudi biasanya tetap \"riyāl\" tunggal setelah angka."
+        }
+      },
+      {
+        "id": "sa16n2",
+        "target": "خمسين ريال",
+        "translit": "khamsīn riyāl",
+        "tr": {
+          "ar": "خمسون ريالًا",
+          "en": "fifty riyals",
+          "id": "lima puluh riyal"
+        },
+        "example": {
+          "target": "الغداء بخمسين ريال",
+          "translit": "al-ghadā bi-khamsīn riyāl",
+          "tr": {
+            "ar": "الغداء بخمسين ريالًا",
+            "en": "Lunch is fifty riyals",
+            "id": "Makan siang lima puluh riyal"
+          }
+        },
+        "hint": {
+          "ar": "الأعداد العشرية تنتهي بـ -īn دائمًا في الكلام، لا فرق بين الرفع والنصب.",
+          "en": "Tens always end in -īn in speech, with no case distinction.",
+          "id": "Puluhan selalu berakhir -īn dalam ucapan, tanpa pembedaan kasus."
+        }
+      },
+      {
+        "id": "sa16n3",
+        "target": "مية ريال",
+        "translit": "mīya riyāl",
+        "tr": {
+          "ar": "مئة ريال",
+          "en": "one hundred riyals",
+          "id": "seratus riyal"
+        },
+        "example": {
+          "target": "عطني مية ريال بنزين",
+          "translit": "ʿaṭnī mīya riyāl banzīn",
+          "tr": {
+            "ar": "أعطني بمئة ريال بنزينًا",
+            "en": "Give me a hundred riyals of petrol",
+            "id": "Beri saya bensin seratus riyal"
+          }
+        },
+        "hint": {
+          "ar": "«مية» لا تُنطق «مئة»؛ وللمرأة تقول عطيني. عبارة تُسمع كثيرًا في محطات البنزين.",
+          "en": "\"Mīya\", never \"mi'a\". To a woman: ʿaṭīnī. A very common phrase at petrol stations.",
+          "id": "\"Mīya\", bukan \"mi'a\". Kepada perempuan: ʿaṭīnī. Frasa yang sangat umum di SPBU."
+        }
+      },
+      {
+        "id": "sa16n4",
+        "target": "هللة",
+        "translit": "halala",
+        "tr": {
+          "ar": "هللة (واحد من مئة من الريال)",
+          "en": "halala (1/100 riyal)",
+          "id": "halala (1/100 riyal)"
+        },
+        "example": {
+          "target": "الباقي خمسين هللة",
+          "translit": "al-bāgī khamsīn halala",
+          "tr": {
+            "ar": "الباقي خمسون هللة",
+            "en": "The change is fifty halalas",
+            "id": "Kembaliannya lima puluh halala"
+          }
+        },
+        "hint": {
+          "ar": "خمسين هللة تعني نصف ريال. «الباقي» تعني الباقي من الدفع (قاف g).",
+          "en": "Fifty halalas is half a riyal. \"Al-bāgī\" is the change owed (q as g).",
+          "id": "Lima puluh halala sama dengan setengah riyal. \"Al-bāgī\" adalah kembalian (q jadi g)."
+        }
+      },
+      {
+        "id": "sa16n5",
+        "target": "كم الحساب؟",
+        "translit": "kam al-ḥisāb?",
+        "tr": {
+          "ar": "كم المبلغ المطلوب؟",
+          "en": "How much is the bill?",
+          "id": "Berapa tagihannya?"
+        },
+        "example": {
+          "target": "لو سمحت، كم الحساب؟",
+          "translit": "law samaḥt, kam al-ḥisāb?",
+          "tr": {
+            "ar": "من فضلك، كم الحساب؟",
+            "en": "Excuse me, how much is the bill?",
+            "id": "Permisi, berapa tagihannya?"
+          }
+        },
+        "hint": {
+          "ar": "تقولها للكاشير أو للنادل. يمكن أيضًا «الحساب لو سمحت» لطلب الفاتورة.",
+          "en": "Say it to the cashier or waiter. Also \"al-ḥisāb law samaḥt\" to ask for the bill.",
+          "id": "Diucapkan kepada kasir atau pelayan. Juga \"al-ḥisāb law samaḥt\" untuk meminta tagihan."
+        }
+      },
+      {
+        "id": "sa16n6",
+        "target": "عندك فكّة؟",
+        "translit": "ʿindak fakka?",
+        "tr": {
+          "ar": "هل عندك نقود صغيرة؟",
+          "en": "Do you have small change?",
+          "id": "Punya uang kecil?"
+        },
+        "example": {
+          "target": "عندك فكّة؟ أبغى أدفع بخمسين",
+          "translit": "ʿindak fakka? abghā adfaʿ bi-khamsīn",
+          "tr": {
+            "ar": "هل عندك فكّة؟ أريد الدفع بخمسين",
+            "en": "Do you have change? I want to pay with fifty",
+            "id": "Punya uang kecil? Saya mau bayar dengan lima puluh"
+          }
+        },
+        "hint": {
+          "ar": "للمرأة: عندج فكّة؟ «فكّة» تعني نقودًا معدنية أو فئات صغيرة.",
+          "en": "To a woman: ʿindich fakka? \"Fakka\" means coins or small notes.",
+          "id": "Kepada perempuan: ʿindich fakka? \"Fakka\" berarti koin atau lembaran kecil."
+        }
+      }
+    ],
+    "cloze": [
+      {
+        "sentence": "عندك ___؟ أبغى أدفع بخمسين",
+        "answer": "فكّة",
+        "wrong": [
+          "وين",
+          "غالي"
+        ],
+        "tr": {
+          "ar": "هل عندك فكّة؟ أريد الدفع بخمسين.",
+          "en": "Do you have change? I want to pay with fifty.",
+          "id": "Punya uang kecil? Saya mau bayar dengan lima puluh."
+        },
+        "why": {
+          "ar": "عندما أدفع ببنكنوت كبير أطلب الفكّة؛ «وين» و«غالي» لا يناسبان بعد «عندك».",
+          "en": "When paying with a large note I ask for change; \"wēn\" and \"ghālī\" do not fit after \"ʿindak\".",
+          "id": "Saat membayar dengan uang besar saya meminta uang kecil; \"wēn\" dan \"ghālī\" tidak cocok setelah \"ʿindak\"."
+        }
+      },
+      {
+        "sentence": "الحساب ثلاثين ___",
+        "answer": "ريال",
+        "wrong": [
+          "شوي",
+          "هذا"
+        ],
+        "tr": {
+          "ar": "الحساب ثلاثون ريالًا.",
+          "en": "The bill is thirty riyals.",
+          "id": "Tagihannya tiga puluh riyal."
+        },
+        "why": {
+          "ar": "بعد العدد يأتي المعدود «ريال»؛ «شوي» و«هذا» لا يُعدّان.",
+          "en": "After the number comes the counted unit \"riyāl\"; \"shwai\" and \"hādha\" are not units.",
+          "id": "Setelah angka datang satuan \"riyāl\"; \"shwai\" dan \"hādha\" bukan satuan."
+        }
+      }
+    ],
+    "conversation": {
+      "context": {
+        "ar": "في كافيه، تدفع وتسأل عن الحساب.",
+        "en": "At a cafe, paying and asking about the bill.",
+        "id": "Di kafe, membayar dan menanyakan tagihan."
+      },
+      "turns": [
+        {
+          "who": "A",
+          "target": "كم الحساب لو سمحت؟",
+          "tr": {
+            "ar": "كم الحساب من فضلك؟",
+            "en": "How much is the bill, please?",
+            "id": "Berapa tagihannya, tolong?"
+          }
+        },
+        {
+          "who": "B",
+          "target": "الحساب خمسة وعشرين ريال",
+          "tr": {
+            "ar": "الحساب خمسة وعشرون ريالًا",
+            "en": "The bill is twenty-five riyals",
+            "id": "Tagihannya dua puluh lima riyal"
+          }
+        },
+        {
+          "who": "A",
+          "target": "تفضّل، مية ريال",
+          "tr": {
+            "ar": "تفضّل، مئة ريال",
+            "en": "Here you are, a hundred riyals",
+            "id": "Ini, seratus riyal"
+          }
+        },
+        {
+          "who": "B",
+          "target": "عندك فكّة؟",
+          "tr": {
+            "ar": "هل عندك فكّة؟",
+            "en": "Do you have change?",
+            "id": "Punya uang kecil?"
+          }
+        }
+      ],
+      "gap": 1,
+      "wrong": [
+        "وين الحمام؟",
+        "تمام الحمد لله"
+      ],
+      "why": {
+        "ar": "«كم الحساب؟» يُجاب بذكر المبلغ. الجوابان الآخران يخصان مواضيع أخرى.",
+        "en": "\"How much is the bill?\" is answered with the amount. The other replies belong to other topics.",
+        "id": "\"Berapa tagihannya?\" dijawab dengan jumlah. Dua jawaban lain berkaitan dengan topik lain."
+      }
+    },
+    "summary": {
+      "ar": "تعلمت عشرة ريال وخمسين ريال ومية ريال، وأن الهللة جزء من مئة من الريال. وتستطيع أن تسأل «كم الحساب؟» و«عندك فكّة؟».",
+      "en": "You learned ten, fifty and a hundred riyals, and that the halala is a hundredth of a riyal. You can now ask \"kam al-ḥisāb?\" and \"ʿindak fakka?\".",
+      "id": "Kamu belajar sepuluh, lima puluh dan seratus riyal, dan bahwa halala adalah seperseratus riyal. Kini kamu bisa bertanya \"kam al-ḥisāb?\" dan \"ʿindak fakka?\"."
+    }
+  },
+  {
+    "id": "sa-05",
+    "track": "sa",
+    "level": "beginner",
+    "order": 9,
+    "topic": "time-appointments",
+    "icon": "⏰",
+    "title": {
+      "ar": "الوقت والمواعيد",
+      "en": "Time and Appointments",
+      "id": "Waktu dan Janji"
+    },
+    "description": {
+      "ar": "كلمات الوقت الأساسية وكيف تحدد موعدًا بسيطًا.",
+      "en": "Basic time words and how to set up a simple appointment.",
+      "id": "Kata waktu dasar dan cara membuat janji sederhana."
+    },
+    "objectives": [
+      {
+        "ar": "أستطيع أن أقول بكرة وأمس وبعدين.",
+        "en": "I can say bukra, ams and baʿdēn.",
+        "id": "Saya bisa mengatakan bukra, ams dan baʿdēn."
+      },
+      {
+        "ar": "أستطيع أن أسأل «الساعة كم؟».",
+        "en": "I can ask \"is-sāʿa kam?\" (what time is it?).",
+        "id": "Saya bisa bertanya \"is-sāʿa kam?\" (jam berapa?)."
+      },
+      {
+        "ar": "أستطيع أن أتفق على موعد: «نتقابل الساعة خمسة».",
+        "en": "I can fix a meeting: \"nitgābal is-sāʿa khamsa\".",
+        "id": "Saya bisa menyepakati janji: \"nitgābal is-sāʿa khamsa\"."
+      }
+    ],
+    "intro": {
+      "ar": "الوقت في الثقافة السعودية مرن بعض الشيء، لكن المواعيد الرسمية والعمل تحتاج دقة. نتعلم هنا كلمات الوقت وأسئلة الساعة، وهي تساعدك على ترتيب لقاء مع صديق أو زميل.",
+      "en": "Time in Saudi culture is a bit flexible socially, but work and official appointments need punctuality. Here you learn time words and clock questions to arrange a meeting with a friend or colleague.",
+      "id": "Waktu dalam budaya Saudi agak fleksibel dalam pergaulan, tetapi kerja dan janji resmi membutuhkan ketepatan. Di sini kamu belajar kata waktu dan pertanyaan jam untuk mengatur pertemuan dengan teman atau rekan."
+    },
+    "culture": {
+      "ar": "كثيرًا ما يُحدَّد الموعد بالنسبة للصلاة: «بعد العصر» أو «بعد المغرب». واللقاءات الاجتماعية قد تبدأ متأخرة، فالتأخر ربع ساعة غير مستغرب، لكن في العمل يُنتظر منك الالتزام. «إن شاء الله» تُقال دائمًا مع الوعد بمعنى الأمل لا الرفض.",
+      "en": "Meetings are often fixed relative to prayer: \"after ʿaṣr\" or \"after Maghrib\". Social gatherings may start late, but at work punctuality is expected. \"In shā allāh\" with a promise expresses hope; it is not a polite refusal.",
+      "id": "Pertemuan sering ditentukan relatif terhadap salat: \"setelah ʿaṣr\" atau \"setelah Maghrib\". Acara sosial bisa mulai terlambat, tetapi di kantor ketepatan diharapkan. \"In shā allāh\" bersama janji menyatakan harapan; bukan penolakan halus."
+    },
+    "grammar": {
+      "title": {
+        "ar": "كلمات الوقت",
+        "en": "Time words",
+        "id": "Kata waktu"
+      },
+      "body": {
+        "ar": "«بكرة» بدل «غدًا»، و«الحين» بدل «الآن»، و«بعدين» بدل «لاحقًا»، و«أمس» كما هي. ونسأل «الساعة كم؟» بدل «كم الساعة؟». ونقول الساعة خمسة للساعة الخامسة، من غير تغيير الجنس.",
+        "en": "\"Bukra\" for MSA \"ghadan\", \"al-ḥīn\" for \"al-ān\", \"baʿdēn\" for \"laḥiqan\"; \"ams\" stays the same. We ask \"is-sāʿa kam?\" and say \"is-sāʿa khamsa\" for five o'clock, without gender changes.",
+        "id": "\"Bukra\" untuk Arab Baku \"ghadan\", \"al-ḥīn\" untuk \"al-ān\", \"baʿdēn\" untuk \"laḥiqan\"; \"ams\" tetap sama. Kita bertanya \"is-sāʿa kam?\" dan berkata \"is-sāʿa khamsa\" untuk jam lima, tanpa perubahan jenis."
+      }
+    },
+    "items": [
+      {
+        "id": "sax051",
+        "target": "بكرة",
+        "translit": "bukra",
+        "tr": {
+          "ar": "غدًا",
+          "en": "tomorrow",
+          "id": "besok"
+        },
+        "example": {
+          "target": "أشوفك بكرة",
+          "translit": "ashūfak bukra",
+          "tr": {
+            "ar": "أراك غدًا",
+            "en": "See you tomorrow",
+            "id": "Sampai ketemu besok"
+          }
+        },
+        "hint": {
+          "ar": "للمرأة: أشوفج بكرة. وتُسمع bukrah بنهاية هاء خفيفة.",
+          "en": "To a woman: ashūfich bukra. Often pronounced with a light final h.",
+          "id": "Kepada perempuan: ashūfich bukra. Sering diucapkan dengan h ringan di akhir."
+        }
+      },
+      {
+        "id": "sax052",
+        "target": "أمس",
+        "translit": "ams",
+        "tr": {
+          "ar": "اليوم الذي قبل اليوم",
+          "en": "yesterday",
+          "id": "kemarin"
+        },
+        "example": {
+          "target": "جيت أمس",
+          "translit": "jīt ams",
+          "tr": {
+            "ar": "جئتُ أمس",
+            "en": "I came yesterday",
+            "id": "Saya datang kemarin"
+          }
+        },
+        "hint": {
+          "ar": "تُنطق ams كما في الفصحى. «أول أمس» تعني قبل أمس.",
+          "en": "Pronounced ams as in MSA. \"Awwal ams\" means the day before yesterday.",
+          "id": "Dibaca ams seperti Arab Baku. \"Awwal ams\" berarti kemarin lusa."
+        }
+      },
+      {
+        "id": "sax053",
+        "target": "بعدين",
+        "translit": "baʿdēn",
+        "tr": {
+          "ar": "فيما بعد",
+          "en": "later",
+          "id": "nanti"
+        },
+        "example": {
+          "target": "نتكلم بعدين",
+          "translit": "nitkallam baʿdēn",
+          "tr": {
+            "ar": "نتحدث لاحقًا",
+            "en": "We will talk later",
+            "id": "Kita bicara nanti"
+          }
+        },
+        "hint": {
+          "ar": "نهاية -ēn مقابل ay الفصحى (baʿdayn). تُستعمل لتأجيل الأمر بلطف.",
+          "en": "The -ēn ending mirrors the MSA \"ay\". Used to postpone something politely.",
+          "id": "Akhiran -ēn setara \"ay\" Arab Baku. Dipakai untuk menunda sesuatu dengan sopan."
+        }
+      },
+      {
+        "id": "sax054",
+        "target": "بسرعة",
+        "translit": "bisurʿa",
+        "tr": {
+          "ar": "على عجل؛ دون إبطاء",
+          "en": "quickly",
+          "id": "cepat"
+        },
+        "example": {
+          "target": "تعال بسرعة",
+          "translit": "taʿāl bisurʿa",
+          "tr": {
+            "ar": "تعال بسرعة",
+            "en": "Come quickly",
+            "id": "Datanglah cepat"
+          }
+        },
+        "hint": {
+          "ar": "للمرأة: تعالي بسرعة. وفي الحديث الودي تُسمع «بسرعة بسرعة» للإلحاح.",
+          "en": "To a woman: taʿālī bisurʿa. Friends repeat it for urgency.",
+          "id": "Kepada perempuan: taʿālī bisurʿa. Teman sering mengulanginya untuk mendesak."
+        }
+      },
+      {
+        "id": "sa05n1",
+        "target": "الساعة كم؟",
+        "translit": "is-sāʿa kam?",
+        "tr": {
+          "ar": "كم الساعة؟",
+          "en": "What time is it?",
+          "id": "Jam berapa sekarang?"
+        },
+        "example": {
+          "target": "لو سمحت، الساعة كم؟",
+          "translit": "law samaḥt, is-sāʿa kam?",
+          "tr": {
+            "ar": "من فضلك، كم الساعة؟",
+            "en": "Excuse me, what time is it?",
+            "id": "Permisi, jam berapa sekarang?"
+          }
+        },
+        "hint": {
+          "ar": "تُستعمل أيضًا لسؤال «في أي ساعة؟»: الاجتماع الساعة كم؟ والجواب الساعة ثمانية.",
+          "en": "Also asks \"at what time?\": the meeting is what time? Answer: is-sāʿa thmāniya.",
+          "id": "Juga menanyakan \"jam berapa?\": pertemuannya jam berapa? Jawab: is-sāʿa thmāniya."
+        }
+      },
+      {
+        "id": "sa05n2",
+        "target": "نتقابل الساعة خمسة",
+        "translit": "nitgābal is-sāʿa khamsa",
+        "tr": {
+          "ar": "نلتقي في الخامسة",
+          "en": "let us meet at five",
+          "id": "mari bertemu jam lima"
+        },
+        "example": {
+          "target": "نتقابل الساعة خمسة العصر",
+          "translit": "nitgābal is-sāʿa khamsa l-ʿaṣr",
+          "tr": {
+            "ar": "نلتقي الخامسة عصرًا",
+            "en": "Let us meet at five in the afternoon",
+            "id": "Mari bertemu jam lima sore"
+          }
+        },
+        "hint": {
+          "ar": "«العصر» تحدد وقت العصر. وقد تقول «الساعة خمسة ونص» أي الخامسة والنصف.",
+          "en": "\"Al-ʿaṣr\" marks the afternoon. You can say \"khamsa w-niṣṣ\" for half past five.",
+          "id": "\"Al-ʿaṣr\" menandai waktu sore. Bisa berkata \"khamsa w-niṣṣ\" untuk setengah enam."
+        }
+      }
+    ],
+    "cloze": [
+      {
+        "sentence": "أشوفك ___",
+        "answer": "بكرة",
+        "wrong": [
+          "أمس",
+          "جيت"
+        ],
+        "tr": {
+          "ar": "أراك غدًا.",
+          "en": "See you tomorrow.",
+          "id": "Sampai ketemu besok."
+        },
+        "why": {
+          "ar": "«أشوفك» مضارع للمستقبل فيناسبه «بكرة»؛ «أمس» ماضٍ و«جيت» فعل لا ظرف.",
+          "en": "\"Ashūfak\" is present/future so \"bukra\" fits; \"ams\" is past and \"jīt\" is a verb, not an adverb.",
+          "id": "\"Ashūfak\" bentuk sekarang/akan datang sehingga \"bukra\" cocok; \"ams\" lampau dan \"jīt\" kata kerja, bukan keterangan."
+        }
+      },
+      {
+        "sentence": "نتكلم ___، أنا مشغول الحين",
+        "answer": "بعدين",
+        "wrong": [
+          "أمس",
+          "وين"
+        ],
+        "tr": {
+          "ar": "نتحدث لاحقًا، أنا مشغول الآن.",
+          "en": "We will talk later, I am busy now.",
+          "id": "Kita bicara nanti, saya sibuk sekarang."
+        },
+        "why": {
+          "ar": "أنا مشغول الآن لذلك نؤجل: «بعدين»؛ «أمس» ماضٍ و«وين» سؤال عن المكان.",
+          "en": "I am busy now so we postpone: \"baʿdēn\"; \"ams\" is past and \"wēn\" asks about place.",
+          "id": "Saya sibuk sekarang jadi ditunda: \"baʿdēn\"; \"ams\" lampau dan \"wēn\" menanyakan tempat."
+        }
+      }
+    ],
+    "conversation": {
+      "context": {
+        "ar": "صديقان يرتبان لقاءً.",
+        "en": "Two friends arrange to meet.",
+        "id": "Dua teman mengatur pertemuan."
+      },
+      "turns": [
+        {
+          "who": "A",
+          "target": "نتقابل بكرة؟",
+          "tr": {
+            "ar": "هل نلتقي غدًا؟",
+            "en": "Shall we meet tomorrow?",
+            "id": "Mau bertemu besok?"
+          }
+        },
+        {
+          "who": "B",
+          "target": "إن شاء الله، الساعة كم؟",
+          "tr": {
+            "ar": "إن شاء الله، في أي ساعة؟",
+            "en": "God willing, what time?",
+            "id": "Insya Allah, jam berapa?"
+          }
+        },
+        {
+          "who": "A",
+          "target": "الساعة خمسة العصر",
+          "tr": {
+            "ar": "الخامسة عصرًا",
+            "en": "Five in the afternoon",
+            "id": "Jam lima sore"
+          }
+        },
+        {
+          "who": "B",
+          "target": "تمام، أشوفك بكرة",
+          "tr": {
+            "ar": "حسنًا، أراك غدًا",
+            "en": "OK, see you tomorrow",
+            "id": "Oke, sampai ketemu besok"
+          }
+        }
+      ],
+      "gap": 1,
+      "wrong": [
+        "أمس جيت بدري",
+        "بكم هذا؟"
+      ],
+      "why": {
+        "ar": "اقتراح اللقاء يُجاب بالقبول ثم السؤال عن الوقت. الجوابان الآخران لا علاقة لهما بالموضوع.",
+        "en": "A meeting suggestion is answered with acceptance and a question about time. The other replies are unrelated.",
+        "id": "Usulan bertemu dijawab dengan persetujuan lalu pertanyaan waktu. Dua jawaban lain tidak berkaitan."
+      }
+    },
+    "summary": {
+      "ar": "تعلمت بكرة وأمس وبعدين وبسرعة، وسؤال «الساعة كم؟». والآن تستطيع أن تتفق على لقاء بسيط.",
+      "en": "You learned bukra, ams, baʿdēn and bisurʿa, plus the question \"is-sāʿa kam?\". You can now arrange a simple meeting.",
+      "id": "Kamu belajar bukra, ams, baʿdēn dan bisurʿa, serta pertanyaan \"is-sāʿa kam?\". Kini kamu bisa mengatur pertemuan sederhana."
+    }
+  },
+  {
+    "id": "sa-17",
+    "track": "sa",
+    "level": "beginner",
+    "order": 10,
+    "topic": "days-daily-rhythm",
+    "icon": "📅",
+    "title": {
+      "ar": "أيام الأسبوع وإيقاع اليوم",
+      "en": "Days of the Week and the Daily Rhythm",
+      "id": "Hari dalam Seminggu dan Ritme Harian"
+    },
+    "description": {
+      "ar": "كيف يتحدث السعوديون عن الأيام والدوام ومواعيد الصلاة في الحياة اليومية.",
+      "en": "How Saudis talk about the days, work hours and prayer times in daily life.",
+      "id": "Cara orang Saudi berbicara tentang hari, jam kerja dan waktu salat dalam kehidupan sehari-hari."
+    },
+    "objectives": [
+      {
+        "ar": "أستطيع أن أسمّي أيام الأسبوع وأقول «اليوم الخميس».",
+        "en": "I can name the days and say \"al-yōm al-khamīs\".",
+        "id": "Saya bisa menyebut nama hari dan mengatakan \"al-yōm al-khamīs\"."
+      },
+      {
+        "ar": "أستطيع أن أتحدث عن الدوام وعن نهاية الأسبوع «الويكند».",
+        "en": "I can talk about work hours (ad-dawām) and the weekend.",
+        "id": "Saya bisa berbicara tentang jam kerja (ad-dawām) dan akhir pekan."
+      },
+      {
+        "ar": "أستطيع أن أحدد وقتًا بالنسبة للصلاة مثل «بعد صلاة العصر».",
+        "en": "I can give a time relative to prayer, such as \"baʿd ṣalāt al-ʿaṣr\".",
+        "id": "Saya bisa menyebut waktu relatif terhadap salat, misalnya \"baʿd ṣalāt al-ʿaṣr\"."
+      }
+    ],
+    "intro": {
+      "ar": "أسبوع العمل في السعودية من الأحد إلى الخميس، وعطلة نهاية الأسبوع الجمعة والسبت. ويرتبط إيقاع اليوم بأوقات الصلوات الخمس: الفجر والظهر والعصر والمغرب والعشاء، فيقول الناس «بعد المغرب» أكثر مما يقولون الساعة.",
+      "en": "The Saudi work week runs Sunday to Thursday, with Friday and Saturday as the weekend. The daily rhythm follows the five prayer times: fajr, ẓuhr, ʿaṣr, maghrib, ʿishāʾ, so people say \"after maghrib\" more often than a clock time.",
+      "id": "Pekan kerja Saudi berjalan dari Minggu sampai Kamis, dengan Jumat dan Sabtu sebagai akhir pekan. Ritme harian mengikuti lima waktu salat: subuh, zuhur, asar, magrib, isya, sehingga orang lebih sering berkata \"setelah magrib\" daripada jam tertentu."
+    },
+    "culture": {
+      "ar": "يوم الجمعة يوم صلاة الجماعة الكبرى، وتُغلق كثير من المحلات في وقتها. كما تُغلق المحلات لفترة قصيرة أثناء كل صلاة، فخطّط لمشترياتك. ورمضان يغيّر ساعات الدوام والحياة الليلية. هذا الدرس يتحدث عن الإيقاع الاجتماعي فقط، وأي سؤال ديني تفصيلي يُحال لأهله.",
+      "en": "Friday is the day of the main congregational prayer, and many shops close around it. Shops also close briefly at each prayer, so plan your shopping. Ramadan changes work hours and nightlife. This lesson covers only the social rhythm; detailed religious questions are best left to scholars.",
+      "id": "Jumat adalah hari salat berjamaah utama, dan banyak toko tutup sekitar waktunya. Toko juga tutup sebentar saat tiap salat, jadi rencanakan belanjamu. Ramadan mengubah jam kerja dan kehidupan malam. Pelajaran ini hanya membahas ritme sosial; pertanyaan agama yang rinci sebaiknya ditanyakan kepada yang ahli."
+    },
+    "grammar": {
+      "title": {
+        "ar": "من ... لين ...",
+        "en": "\"From ... until ...\"",
+        "id": "\"Dari ... sampai ...\""
+      },
+      "body": {
+        "ar": "«لين» تعني «حتى» وهي من اللهجة: من الأحد لين الخميس. وفي الفصحى «من الأحد إلى الخميس». وأسماء الأيام تتبع الفصحى مع بعض تخفيف: الأحد، الاثنين (إثنين)، الثلاثاء، الأربعاء، الخميس، الجمعة، السبت. ونقول «اليوم الخميس» بدون فعل.",
+        "en": "\"Līn\" means \"until\" and is dialectal: min al-aḥad līn al-khamīs. MSA says \"ilā\". Day names follow MSA with light reductions: al-aḥad, al-ithnēn, ath-thalāthāʾ, al-arbaʿāʾ, al-khamīs, al-jumʿa, as-sabt. We say \"al-yōm al-khamīs\" with no verb.",
+        "id": "\"Līn\" berarti \"sampai\" dan khas dialek: min al-aḥad līn al-khamīs. Arab Baku berkata \"ilā\". Nama hari mengikuti Arab Baku dengan pengurangan ringan: al-aḥad, al-ithnēn, ath-thalāthāʾ, al-arbaʿāʾ, al-khamīs, al-jumʿa, as-sabt. Kita berkata \"al-yōm al-khamīs\" tanpa kata kerja."
+      }
+    },
+    "items": [
+      {
+        "id": "sa17n1",
+        "target": "اليوم الخميس",
+        "translit": "al-yōm al-khamīs",
+        "tr": {
+          "ar": "اليوم هو الخميس",
+          "en": "today is Thursday",
+          "id": "hari ini Kamis"
+        },
+        "example": {
+          "target": "اليوم الخميس، بكرة إجازة",
+          "translit": "al-yōm al-khamīs, bukra ijāza",
+          "tr": {
+            "ar": "اليوم الخميس وغدًا إجازة",
+            "en": "Today is Thursday, tomorrow is off",
+            "id": "Hari ini Kamis, besok libur"
+          }
+        },
+        "hint": {
+          "ar": "استبدل الخميس بأي يوم: الأحد، الجمعة، السبت. لاحظ «اليوم» بمعنى today وyōm.",
+          "en": "Swap Thursday for any day: Sunday, Friday, Saturday. Note \"al-yōm\" is both \"day\" and \"today\".",
+          "id": "Ganti Kamis dengan hari lain: Minggu, Jumat, Sabtu. Perhatikan \"al-yōm\" berarti \"hari ini\"."
+        }
+      },
+      {
+        "id": "sa17n2",
+        "target": "الويكند",
+        "translit": "al-wīkend",
+        "tr": {
+          "ar": "عطلة نهاية الأسبوع",
+          "en": "the weekend",
+          "id": "akhir pekan"
+        },
+        "example": {
+          "target": "الويكند نطلع البر",
+          "translit": "al-wīkend niṭlaʿ al-barr",
+          "tr": {
+            "ar": "في عطلة نهاية الأسبوع نخرج إلى البر",
+            "en": "At the weekend we go out to the desert",
+            "id": "Di akhir pekan kami pergi ke gurun"
+          }
+        },
+        "hint": {
+          "ar": "كلمة مستعارة من الإنجليزية تُستعمل كثيرًا؛ «نطلع البر» عبارة سعودية للخروج إلى الصحراء.",
+          "en": "A loanword from English, used often; \"niṭlaʿ al-barr\" is a Saudi phrase for going out to the desert.",
+          "id": "Kata serapan dari Inggris yang sering dipakai; \"niṭlaʿ al-barr\" adalah ungkapan Saudi untuk pergi ke gurun."
+        }
+      },
+      {
+        "id": "sa17n3",
+        "target": "بعد صلاة العصر",
+        "translit": "baʿd ṣalāt al-ʿaṣr",
+        "tr": {
+          "ar": "عقب أداء صلاة العصر",
+          "en": "after the afternoon prayer",
+          "id": "setelah salat asar"
+        },
+        "example": {
+          "target": "نتقابل بعد صلاة العصر",
+          "translit": "nitgābal baʿd ṣalāt al-ʿaṣr",
+          "tr": {
+            "ar": "نلتقي بعد صلاة العصر",
+            "en": "Let us meet after the afternoon prayer",
+            "id": "Mari bertemu setelah salat asar"
+          }
+        },
+        "hint": {
+          "ar": "وقت عملي مفهوم لدى الجميع. بدائل: بعد المغرب، بعد العشاء، قبل الظهر.",
+          "en": "A practical time reference everyone understands. Alternatives: baʿd al-maghrib, baʿd al-ʿishāʾ, gabl aẓ-ẓuhr.",
+          "id": "Acuan waktu praktis yang dimengerti semua orang. Alternatif: baʿd al-maghrib, baʿd al-ʿishāʾ, gabl aẓ-ẓuhr."
+        }
+      },
+      {
+        "id": "sa17n4",
+        "target": "الدوام",
+        "translit": "ad-dawām",
+        "tr": {
+          "ar": "ساعات العمل / الدراسة",
+          "en": "work or school hours",
+          "id": "jam kerja atau sekolah"
+        },
+        "example": {
+          "target": "الدوام من الثمانية الصبح",
+          "translit": "ad-dawām min ath-thmāniya aṣ-ṣubḥ",
+          "tr": {
+            "ar": "الدوام من الثامنة صباحًا",
+            "en": "Work starts at eight in the morning",
+            "id": "Jam kerja mulai pukul delapan pagi"
+          }
+        },
+        "hint": {
+          "ar": "«الدوام» تستعمل للعمل والمدرسة. ويقال «رحت الدوام» أي ذهبت للعمل.",
+          "en": "\"Ad-dawām\" covers work and school. \"Riḥt ad-dawām\" means I went to work.",
+          "id": "\"Ad-dawām\" mencakup kerja dan sekolah. \"Riḥt ad-dawām\" berarti saya pergi bekerja."
+        }
+      },
+      {
+        "id": "sa17n5",
+        "target": "بدري",
+        "translit": "badri",
+        "tr": {
+          "ar": "مبكرًا",
+          "en": "early",
+          "id": "awal / pagi-pagi"
+        },
+        "example": {
+          "target": "قمت بدري اليوم",
+          "translit": "gumt badri al-yōm",
+          "tr": {
+            "ar": "استيقظتُ مبكرًا اليوم",
+            "en": "I woke up early today",
+            "id": "Saya bangun pagi-pagi hari ini"
+          }
+        },
+        "hint": {
+          "ar": "ضدها «متأخر». ولاحظ gumt بقاف g. «بدري» قد تعني «مبكرًا جدًا» في بعض السياقات.",
+          "en": "The opposite is \"mitʾakhkhir\" (late). Note gumt with g. \"Badri\" can mean \"very early\" in some contexts.",
+          "id": "Lawannya \"mitʾakhkhir\" (terlambat). Perhatikan gumt dengan g. \"Badri\" bisa berarti \"sangat awal\" dalam beberapa konteks."
+        }
+      },
+      {
+        "id": "sa17n6",
+        "target": "من الأحد لين الخميس",
+        "translit": "min al-aḥad līn al-khamīs",
+        "tr": {
+          "ar": "من الأحد إلى الخميس",
+          "en": "from Sunday to Thursday",
+          "id": "dari Minggu sampai Kamis"
+        },
+        "example": {
+          "target": "الدوام من الأحد لين الخميس",
+          "translit": "ad-dawām min al-aḥad līn al-khamīs",
+          "tr": {
+            "ar": "الدوام من الأحد إلى الخميس",
+            "en": "Work runs from Sunday to Thursday",
+            "id": "Jam kerja dari Minggu sampai Kamis"
+          }
+        },
+        "hint": {
+          "ar": "«لين» تعني «حتى» وتُسمع في كل السعودية تقريبًا. وفي الحجاز تُسمع أيضًا «لحد».",
+          "en": "\"Līn\" means \"until\" and is heard almost everywhere in Saudi Arabia. In Hijaz you may hear \"laḥadd\" too.",
+          "id": "\"Līn\" berarti \"sampai\" dan terdengar hampir di seluruh Saudi. Di Hijaz juga terdengar \"laḥadd\"."
+        }
+      }
+    ],
+    "cloze": [
+      {
+        "sentence": "الدوام من الأحد ___ الخميس",
+        "answer": "لين",
+        "wrong": [
+          "بدري",
+          "هذا"
+        ],
+        "tr": {
+          "ar": "الدوام من الأحد إلى الخميس.",
+          "en": "Work runs from Sunday to Thursday.",
+          "id": "Jam kerja dari Minggu sampai Kamis."
+        },
+        "why": {
+          "ar": "«لين» أداة غاية بمعنى «حتى»؛ «بدري» و«هذا» لا يربطان يومين.",
+          "en": "\"Līn\" marks the end point (until); \"badri\" and \"hādha\" cannot link two days.",
+          "id": "\"Līn\" menandai batas akhir (sampai); \"badri\" dan \"hādha\" tidak bisa menghubungkan dua hari."
+        }
+      },
+      {
+        "sentence": "نتقابل بعد صلاة ___ الساعة أربعة",
+        "answer": "العصر",
+        "wrong": [
+          "الخميس",
+          "بكرة"
+        ],
+        "tr": {
+          "ar": "نلتقي بعد صلاة العصر الساعة الرابعة.",
+          "en": "Let us meet after the afternoon prayer, at four.",
+          "id": "Mari bertemu setelah salat asar, jam empat."
+        },
+        "why": {
+          "ar": "الصلاة اسم لها وقت مثل العصر؛ الخميس وبكرة يومان لا صلاتان.",
+          "en": "A prayer has a named time like ʿaṣr; Thursday and tomorrow are days, not prayers.",
+          "id": "Salat punya waktu bernama seperti ʿaṣr; Kamis dan besok adalah hari, bukan salat."
+        }
+      }
+    ],
+    "conversation": {
+      "context": {
+        "ar": "صديقان يتحدثان عن عطلة نهاية الأسبوع.",
+        "en": "Two friends talk about their weekend.",
+        "id": "Dua teman membicarakan akhir pekan mereka."
+      },
+      "turns": [
+        {
+          "who": "A",
+          "target": "وش تسوي الويكند؟",
+          "tr": {
+            "ar": "ماذا ستفعل في عطلة نهاية الأسبوع؟",
+            "en": "What are you doing at the weekend?",
+            "id": "Kamu mau apa di akhir pekan?"
+          }
+        },
+        {
+          "who": "B",
+          "target": "نطلع البر، تبغى تجي معنا؟",
+          "tr": {
+            "ar": "سنخرج إلى البر، هل تريد أن تأتي معنا؟",
+            "en": "We are going out to the desert, do you want to come with us?",
+            "id": "Kami pergi ke gurun, mau ikut?"
+          }
+        },
+        {
+          "who": "A",
+          "target": "أكيد! متى؟",
+          "tr": {
+            "ar": "بالتأكيد! متى؟",
+            "en": "Sure! When?",
+            "id": "Tentu! Kapan?"
+          }
+        },
+        {
+          "who": "B",
+          "target": "الجمعة بعد صلاة العصر",
+          "tr": {
+            "ar": "الجمعة بعد صلاة العصر",
+            "en": "Friday after the afternoon prayer",
+            "id": "Jumat setelah salat asar"
+          }
+        }
+      ],
+      "gap": 1,
+      "wrong": [
+        "الدوام الساعة ثمانية",
+        "بكم هذا؟"
+      ],
+      "why": {
+        "ar": "السؤال عن خطة الويكند يُجاب بذكر خطة. الدوام والسعر لا يجيبان عن السؤال.",
+        "en": "A question about weekend plans is answered with a plan. Work hours and a price do not answer it.",
+        "id": "Pertanyaan tentang rencana akhir pekan dijawab dengan rencana. Jam kerja dan harga tidak menjawabnya."
+      }
+    },
+    "summary": {
+      "ar": "تعلمت أيام الأسبوع وكلمة الدوام والويكند، وكيف تحدد موعدًا بعد الصلاة. وتعرّفت على «لين» بمعنى حتى.",
+      "en": "You learned the days, \"ad-dawām\" and \"al-wīkend\", how to fix a time after prayer, and the dialect word \"līn\" for \"until\".",
+      "id": "Kamu belajar nama hari, \"ad-dawām\" dan \"al-wīkend\", cara menentukan waktu setelah salat, serta kata dialek \"līn\" untuk \"sampai\"."
+    }
+  }
+]

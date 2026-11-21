@@ -1,0 +1,2839 @@
+[
+ {
+  "id": "ar-04",
+  "track": "ar",
+  "level": "elementary",
+  "order": 11,
+  "topic": "home",
+  "icon": "🏠",
+  "title": {
+   "ar": "فِي الْبَيْتِ",
+   "en": "At home",
+   "id": "Di rumah"
+  },
+  "description": {
+   "ar": "مُفْرَدَاتُ الْبَيْتِ وَسُؤَالُ «أَيْنَ؟» عَنِ الْأَمَاكِنِ.",
+   "en": "Everyday household words and asking where things are with ayna.",
+   "id": "Kosakata rumah sehari-hari dan bertanya letak benda dengan ayna."
+  },
+  "objectives": [
+   {
+    "ar": "أَسْتَطِيعُ تَسْمِيَةَ أَشْيَاءَ وَغُرَفٍ فِي الْبَيْتِ.",
+    "en": "I can name common things and rooms in a house.",
+    "id": "Saya bisa menyebut benda dan ruangan di rumah."
+   },
+   {
+    "ar": "أَسْتَطِيعُ أَنْ أَسْأَلَ: أَيْنَ الْحَمَّامُ؟",
+    "en": "I can ask where the bathroom is.",
+    "id": "Saya bisa bertanya di mana kamar mandi."
+   },
+   {
+    "ar": "أَسْتَطِيعُ وَصْفَ شَيْءٍ بِجُمْلَةٍ اسْمِيَّةٍ قَصِيرَةٍ مِثْلَ: الْمَطْبَخُ نَظِيفٌ.",
+    "en": "I can describe something with a short nominal sentence such as the kitchen is clean.",
+    "id": "Saya bisa mendeskripsikan sesuatu dengan kalimat nominal pendek seperti dapurnya bersih."
+   }
+  ],
+  "intro": {
+   "ar": "عِنْدَمَا تَزُورُ بَيْتًا عَرَبِيًّا سَتَحْتَاجُ إِلَى كَلِمَاتٍ بَسِيطَةٍ: مَاءٌ، بَابٌ، مَطْبَخٌ، حَمَّامٌ. سَنَتَعَلَّمُهَا مَعَ عِبَارَاتٍ مُهَذَّبَةٍ تَسْتَعْمِلُهَا مَعَ الْمُضِيفِ.",
+   "en": "When you visit an Arab home you need a few simple words: water, door, kitchen, bathroom. You will learn them together with the polite phrases you use with your host.",
+   "id": "Saat berkunjung ke rumah orang Arab, Anda butuh beberapa kata sederhana: air, pintu, dapur, kamar mandi. Anda akan mempelajarinya bersama ungkapan sopan untuk tuan rumah."
+  },
+  "culture": {
+   "ar": "الضِّيَافَةُ مُهِمَّةٌ جِدًّا فِي الْعَالَمِ الْعَرَبِيِّ، وَأَوَّلُ مَا يُقَدِّمُهُ الْمُضِيفُ غَالِبًا هُوَ الْمَاءُ أَوِ الشَّايُ أَوِ الْقَهْوَةُ. وَمِنَ الْأَدَبِ أَنْ تَسْأَلَ بِلُطْفٍ عَنِ الْحَمَّامِ وَأَنْ تَقُولَ مِنْ فَضْلِكَ. وَفِي كَثِيرٍ مِنَ الْبُيُوتِ يَخْلَعُ الضَّيْفُ حِذَاءَهُ عِنْدَ الْبَابِ.",
+   "en": "Hospitality is very important in the Arab world, and the first thing a host offers is usually water, tea or coffee. It is polite to ask about the bathroom gently and to say min faḍlik (please). In many homes guests take their shoes off at the door.",
+   "id": "Keramahtamahan sangat penting di dunia Arab, dan tuan rumah biasanya lebih dulu menyuguhkan air, teh, atau kopi. Sopan jika bertanya tentang kamar mandi dengan lembut dan mengucap min faḍlik (tolong). Di banyak rumah tamu melepas sepatu di pintu."
+  },
+  "grammar": {
+   "title": {
+    "ar": "الْجُمْلَةُ الِاسْمِيَّةُ وَ«أَيْنَ»",
+    "en": "The nominal sentence and ayna",
+    "id": "Kalimat nominal dan ayna"
+   },
+   "body": {
+    "ar": "لَا نَقُولُ «يَكُونُ» فِي الْمُضَارِعِ: نَقُولُ الْمَطْبَخُ نَظِيفٌ أَيْ الْمُبْتَدَأُ ثُمَّ الْخَبَرُ بِلَا فِعْلٍ. وَنَسْأَلُ عَنِ الْمَكَانِ بِـ«أَيْنَ» ثُمَّ الِاسْمِ: أَيْنَ الْبَابُ؟ وَنَجِدُ حَرْفَ الْجَرِّ «فِي» لِلْمَكَانِ: الْمَاءُ فِي الْمَطْبَخِ.",
+    "en": "Arabic has no word for is in the present: you say al-maṭbakhu naẓīf, the subject followed by its description, with no verb. To ask for a place use ayna followed by the noun: ayna l-bāb? The preposition fī (in) shows location: al-māʾu fī l-maṭbakh.",
+    "id": "Bahasa Arab tidak memakai kata kerja 'adalah' pada kalimat sekarang: katakan al-maṭbakhu naẓīf, yaitu subjek lalu sifatnya tanpa kata kerja. Untuk bertanya tempat pakai ayna lalu kata benda: ayna l-bāb? Preposisi fī (di) menunjukkan tempat: al-māʾu fī l-maṭbakh."
+   }
+  },
+  "items": [
+   {
+    "id": "a13",
+    "target": "مَاءٌ",
+    "translit": "māʾun",
+    "tr": {
+     "ar": "سَائِلٌ شَفَّافٌ نَشْرَبُهُ",
+     "en": "water",
+     "id": "air"
+    },
+    "example": {
+     "target": "أُرِيدُ مَاءً مِنْ فَضْلِكَ",
+     "translit": "urīdu māʾan min faḍlika",
+     "tr": {
+      "ar": "أُرِيدُ شُرْبَ الْمَاءِ، مِنْ فَضْلِكَ",
+      "en": "I would like water, please",
+      "id": "Saya ingin air, tolong"
+     }
+    }
+   },
+   {
+    "id": "a14",
+    "target": "بَابٌ",
+    "translit": "bābun",
+    "tr": {
+     "ar": "مَدْخَلُ الْغُرْفَةِ أَوِ الْبَيْتِ",
+     "en": "door",
+     "id": "pintu"
+    },
+    "example": {
+     "target": "اِفْتَحِ الْبَابَ مِنْ فَضْلِكَ",
+     "translit": "iftaḥi l-bāba min faḍlika",
+     "tr": {
+      "ar": "اُطْلُبْ فَتْحَ الْبَابِ بِلُطْفٍ",
+      "en": "Please open the door",
+      "id": "Tolong buka pintunya"
+     }
+    },
+    "hint": {
+     "ar": "هَذِهِ صِيغَةُ أَمْرٍ لِمُخَاطَبٍ مُذَكَّرٍ.",
+     "en": "This is a command form addressed to one man; for a woman say iftaḥi l-bāb with a long ī on iftaḥī.",
+     "id": "Ini bentuk perintah kepada satu laki-laki; untuk perempuan katakan iftaḥī l-bāb."
+    }
+   },
+   {
+    "id": "a15",
+    "target": "مَطْبَخٌ",
+    "translit": "maṭbakhun",
+    "tr": {
+     "ar": "غُرْفَةٌ نَطْبُخُ فِيهَا الطَّعَامَ",
+     "en": "kitchen",
+     "id": "dapur"
+    },
+    "example": {
+     "target": "الْمَطْبَخُ نَظِيفٌ",
+     "translit": "al-maṭbakhu naẓīfun",
+     "tr": {
+      "ar": "لَيْسَ فِي الْمَطْبَخِ غُبَارٌ",
+      "en": "The kitchen is clean",
+      "id": "Dapurnya bersih"
+     }
+    }
+   },
+   {
+    "id": "a16",
+    "target": "أَيْنَ الْحَمَّامُ؟",
+    "translit": "ayna l-ḥammām?",
+    "tr": {
+     "ar": "سُؤَالٌ عَنْ مَكَانِ دَوْرَةِ الْمِيَاهِ",
+     "en": "Where is the bathroom?",
+     "id": "Di mana kamar mandi?"
+    },
+    "example": {
+     "target": "مِنْ فَضْلِكَ، أَيْنَ الْحَمَّامُ؟",
+     "translit": "min faḍlika, ayna l-ḥammām?",
+     "tr": {
+      "ar": "عَفْوًا، أَيْنَ دَوْرَةُ الْمِيَاهِ؟",
+      "en": "Excuse me, where is the bathroom?",
+      "id": "Permisi, di mana kamar mandi?"
+     }
+    },
+    "hint": {
+     "ar": "فِي بَعْضِ الْبُلْدَانِ يُقَالُ أَيْضًا دَوْرَةُ الْمِيَاهِ أَوِ الْمِرْحَاضُ.",
+     "en": "In some countries people also say dawrat al-miyāh (restroom) or mirḥāḍ; ḥammām is the safe everyday choice.",
+     "id": "Di beberapa negara juga dipakai dawrat al-miyāh (toilet); ḥammām adalah pilihan aman sehari-hari."
+    }
+   },
+   {
+    "id": "ar04n5",
+    "target": "نَافِذَةٌ",
+    "translit": "nāfidhatun",
+    "tr": {
+     "ar": "فَتْحَةٌ فِي الْجِدَارِ يَدْخُلُ مِنْهَا الضَّوْءُ",
+     "en": "window",
+     "id": "jendela"
+    },
+    "example": {
+     "target": "النَّافِذَةُ كَبِيرَةٌ فِي الْغُرْفَةِ",
+     "translit": "an-nāfidhatu kabīratun fī l-ghurfa",
+     "tr": {
+      "ar": "فِي الْغُرْفَةِ نَافِذَةٌ وَاسِعَةٌ",
+      "en": "The window in the room is big",
+      "id": "Jendela di kamar itu besar"
+     }
+    },
+    "hint": {
+     "ar": "نَافِذَةٌ مُؤَنَّثَةٌ، لِذَلِكَ الصِّفَةُ كَبِيرَةٌ.",
+     "en": "Nāfidha is feminine, so the adjective is kabīra, with the feminine ending.",
+     "id": "Nāfidha berjenis feminin, jadi sifatnya kabīra dengan akhiran feminin."
+    }
+   },
+   {
+    "id": "ar04n6",
+    "target": "سَرِيرٌ",
+    "translit": "sarīrun",
+    "tr": {
+     "ar": "قِطْعَةُ أَثَاثٍ نَنَامُ عَلَيْهَا",
+     "en": "bed",
+     "id": "tempat tidur"
+    },
+    "example": {
+     "target": "السَّرِيرُ فِي غُرْفَةِ النَّوْمِ",
+     "translit": "as-sarīru fī ghurfati n-nawm",
+     "tr": {
+      "ar": "نَنَامُ عَلَى السَّرِيرِ فِي الْغُرْفَةِ",
+      "en": "The bed is in the bedroom",
+      "id": "Tempat tidur ada di kamar tidur"
+     }
+    }
+   }
+  ],
+  "cloze": [
+   {
+    "sentence": "مِنْ فَضْلِكَ، ___ الْحَمَّامُ؟",
+    "answer": "أَيْنَ",
+    "wrong": [
+     "مَتَى",
+     "كَمْ"
+    ],
+    "tr": {
+     "ar": "مِنْ فَضْلِكَ، أَيْنَ الْحَمَّامُ؟",
+     "en": "Excuse me, where is the bathroom?",
+     "id": "Permisi, di mana kamar mandi?"
+    },
+    "why": {
+     "ar": "نَسْأَلُ عَنِ الْمَكَانِ بِـ«أَيْنَ»؛ أَمَّا مَتَى فَلِلزَّمَانِ وَكَمْ لِلْعَدَدِ.",
+     "en": "We ask about a place with ayna; matā is for time and kam is for quantity, so they make no sense here.",
+     "id": "Untuk tempat dipakai ayna; matā untuk waktu dan kam untuk jumlah sehingga tidak cocok di sini."
+    }
+   },
+   {
+    "sentence": "أَنَا أَنَامُ عَلَى ___",
+    "answer": "السَّرِيرِ",
+    "wrong": [
+     "الْبَابِ",
+     "الْمَطْبَخِ"
+    ],
+    "tr": {
+     "ar": "أَنَا أَنَامُ عَلَى السَّرِيرِ",
+     "en": "I sleep on the bed",
+     "id": "Saya tidur di tempat tidur"
+    },
+    "why": {
+     "ar": "النَّوْمُ يَكُونُ عَلَى السَّرِيرِ؛ لَا نَنَامُ عَلَى الْبَابِ وَلَا عَلَى الْمَطْبَخِ.",
+     "en": "Sleeping happens on the bed (as-sarīr); you do not sleep on a door or a kitchen.",
+     "id": "Tidur dilakukan di atas tempat tidur (as-sarīr); orang tidak tidur di atas pintu atau dapur."
+    }
+   }
+  ],
+  "conversation": {
+   "context": {
+    "ar": "زَائِرٌ فِي بَيْتِ صَدِيقٍ يَسْأَلُ عَنِ الْحَمَّامِ.",
+    "en": "A guest in a friend's house asks about the bathroom.",
+    "id": "Seorang tamu di rumah teman bertanya tentang kamar mandi."
+   },
+   "turns": [
+    {
+     "who": "A",
+     "target": "مِنْ فَضْلِكَ، أَيْنَ الْحَمَّامُ؟",
+     "tr": {
+      "ar": "مِنْ فَضْلِكَ، أَيْنَ الْحَمَّامُ؟",
+      "en": "Excuse me, where is the bathroom?",
+      "id": "Permisi, di mana kamar mandi?"
+     }
+    },
+    {
+     "who": "B",
+     "target": "هُوَ بِجَانِبِ الْمَطْبَخِ.",
+     "tr": {
+      "ar": "هُوَ بِجَانِبِ الْمَطْبَخِ.",
+      "en": "It is next to the kitchen.",
+      "id": "Ada di sebelah dapur."
+     }
+    },
+    {
+     "who": "A",
+     "target": "شُكْرًا لَكَ!",
+     "tr": {
+      "ar": "شُكْرًا لَكَ!",
+      "en": "Thank you!",
+      "id": "Terima kasih!"
+     }
+    }
+   ],
+   "gap": 1,
+   "wrong": [
+    "أَنَا طَالِبٌ جَدِيدٌ.",
+    "الْمَاءُ لَذِيذٌ جِدًّا."
+   ],
+   "why": {
+    "ar": "الْمُضِيفُ يُجِيبُ عَنِ الْمَكَانِ: بِجَانِبِ الْمَطْبَخِ. الْجَوَابَانِ الْآخَرَانِ صَحِيحَانِ نَحْوِيًّا لَكِنَّهُمَا لَا يُجِيبَانِ عَنِ السُّؤَالِ «أَيْنَ؟».",
+    "en": "The host answers with a place: next to the kitchen. The other replies are grammatical but do not answer a where question.",
+    "id": "Tuan rumah menjawab dengan tempat: di sebelah dapur. Dua jawaban lain benar secara tata bahasa tetapi tidak menjawab pertanyaan 'di mana'."
+   }
+  },
+  "summary": {
+   "ar": "تَعَلَّمْتَ كَلِمَاتٍ مِنَ الْبَيْتِ مِثْلَ مَاءٍ وَبَابٍ وَمَطْبَخٍ وَنَافِذَةٍ وَسَرِيرٍ. وَتَعَلَّمْتَ كَيْفَ تَسْأَلُ: أَيْنَ الْحَمَّامُ؟",
+   "en": "You learned household words such as water, door, kitchen, window and bed. You also learned how to ask: where is the bathroom?",
+   "id": "Anda telah belajar kata-kata rumah seperti air, pintu, dapur, jendela, dan tempat tidur. Anda juga tahu cara bertanya: di mana kamar mandi?"
+  }
+ },
+ {
+  "id": "ar-18",
+  "track": "ar",
+  "level": "elementary",
+  "order": 12,
+  "topic": "this-that",
+  "icon": "📚",
+  "title": {
+   "ar": "أَشْيَاءُ حَوْلِي: هَذَا وَذَلِكَ",
+   "en": "Things around me: this and that",
+   "id": "Benda di sekitarku: ini dan itu"
+  },
+  "description": {
+   "ar": "أَسْمَاءُ الْإِشَارَةِ هَذَا وَهَذِهِ وَذَلِكَ وَتِلْكَ مَعَ أَدَوَاتِ الصَّفِّ وَأَلْ التَّعْرِيفِ.",
+   "en": "The demonstratives hādhā, hādhihi, dhālika and tilka with classroom objects, plus the definite article al-.",
+   "id": "Kata tunjuk hādhā, hādhihi, dhālika, tilka dengan benda di kelas, serta artikel tentu al-."
+  },
+  "objectives": [
+   {
+    "ar": "أَسْتَطِيعُ أَنْ أَقُولَ: هَذَا قَلَمٌ وَهَذِهِ حَقِيبَةٌ.",
+    "en": "I can say: this is a pen and this is a bag.",
+    "id": "Saya bisa mengatakan: ini pulpen dan ini tas."
+   },
+   {
+    "ar": "أَسْتَطِيعُ أَنْ أُفَرِّقَ بَيْنَ الْقَرِيبِ (هَذَا) وَالْبَعِيدِ (ذَلِكَ).",
+    "en": "I can tell near (this) from far (that).",
+    "id": "Saya bisa membedakan dekat (ini) dan jauh (itu)."
+   },
+   {
+    "ar": "أَسْتَطِيعُ اسْتِعْمَالَ أَدَاةِ التَّعْرِيفِ «الـ» فِي جُمْلَةٍ مِثْلَ: الْكِتَابُ عَلَى الطَّاوِلَةِ.",
+    "en": "I can use the definite article in a sentence like: the book is on the table.",
+    "id": "Saya bisa memakai artikel tentu dalam kalimat seperti: bukunya di atas meja."
+   }
+  ],
+  "intro": {
+   "ar": "فِي الصَّفِّ نُشِيرُ إِلَى الْأَشْيَاءِ كَثِيرًا: هَذَا قَلَمٌ، تِلْكَ سَبُّورَةٌ. سَتَتَعَلَّمُ أَرْبَعَ كَلِمَاتٍ لِلْإِشَارَةِ، وَكَيْفَ تَخْتَارُ بَيْنَهَا بِحَسَبِ الْقُرْبِ وَالْجِنْسِ.",
+   "en": "In a classroom we point at things all the time: this is a pen, that is a board. You will learn four pointing words and how to choose between them by distance and gender.",
+   "id": "Di kelas kita sering menunjuk benda: ini pulpen, itu papan tulis. Anda akan belajar empat kata tunjuk dan cara memilihnya menurut jarak dan jenis."
+  },
+  "culture": {
+   "ar": "الْعَرَبُ يَسْأَلُونَ «مَا هَذَا؟» عِنْدَمَا يَرَوْنَ شَيْئًا جَدِيدًا، وَهَذَا سُؤَالٌ مُفِيدٌ جِدًّا لِلْمُتَعَلِّمِ: أَشِرْ إِلَى أَيِّ شَيْءٍ وَاسْأَلْ. وَفِي الْأَسْوَاقِ وَالْمَدَارِسِ تُسْمَعُ هَذِهِ الْكَلِمَاتُ كُلَّ يَوْمٍ.",
+   "en": "Arabic speakers ask mā hādhā? when they see something new, and it is a very useful question for a learner: point at anything and ask. These words are heard every day in markets and schools.",
+   "id": "Orang Arab bertanya mā hādhā? ketika melihat sesuatu yang baru, dan ini pertanyaan yang sangat berguna bagi pelajar: tunjuk apa saja lalu tanyakan. Kata-kata ini terdengar setiap hari di pasar dan sekolah."
+  },
+  "grammar": {
+   "title": {
+    "ar": "أَسْمَاءُ الْإِشَارَةِ وَأَلْ التَّعْرِيفِ",
+    "en": "Demonstratives and the definite article",
+    "id": "Kata tunjuk dan artikel tentu"
+   },
+   "body": {
+    "ar": "هَذَا لِلْمُذَكَّرِ الْقَرِيبِ وَهَذِهِ لِلْمُؤَنَّثِ الْقَرِيبِ، وَذَلِكَ وَتِلْكَ لِلْبَعِيدِ. هَذَا كِتَابٌ جُمْلَةٌ كَامِلَةٌ (هَذَا هُوَ كِتَابٌ)، أَمَّا هَذَا الْكِتَابُ فَعِبَارَةٌ تَحْتَاجُ إِلَى خَبَرٍ. وَ«الـ» تُعَرِّفُ الِاسْمَ وَتَحْذِفُ التَّنْوِينَ، وَقَبْلَ الْحُرُوفِ الشَّمْسِيَّةِ يُنْطَقُ اللَّامُ مِثْلَ الْحَرْفِ التَّالِي: الطَّاوِلَةِ.",
+    "en": "Hādhā is near masculine, hādhihi near feminine, dhālika and tilka are the far forms. Hādhā kitāb is a full sentence (this is a book), while hādhā l-kitāb (this book) is only a phrase and needs a predicate. The article al- makes a noun definite and removes the tanwīn; before sun letters the l is not pronounced but doubles the next letter: aṭ-ṭāwila.",
+    "id": "Hādhā untuk maskulin dekat, hādhihi untuk feminin dekat, dhālika dan tilka untuk yang jauh. Hādhā kitāb adalah kalimat utuh (ini buku), sedangkan hādhā l-kitāb (buku ini) baru frasa dan butuh predikat. Artikel al- membuat kata benda tentu dan menghilangkan tanwīn; sebelum huruf syamsiyah bunyi l hilang dan huruf berikutnya digandakan: aṭ-ṭāwila."
+   }
+  },
+  "items": [
+   {
+    "id": "ar18n1",
+    "target": "هَذَا قَلَمٌ",
+    "translit": "hādhā qalam",
+    "tr": {
+     "ar": "إِشَارَةٌ إِلَى قَلَمٍ قَرِيبٍ",
+     "en": "This is a pen",
+     "id": "Ini pulpen"
+    },
+    "example": {
+     "target": "هَذَا الْقَلَمُ أَزْرَقُ",
+     "translit": "hādhā l-qalamu azraq",
+     "tr": {
+      "ar": "الْقَلَمُ الْقَرِيبُ لَوْنُهُ أَزْرَقُ",
+      "en": "This pen is blue",
+      "id": "Pulpen ini berwarna biru"
+     }
+    },
+    "hint": {
+     "ar": "قَلَمٌ مُذَكَّرٌ فَنَقُولُ هَذَا.",
+     "en": "Qalam is masculine, so we use hādhā.",
+     "id": "Qalam maskulin, jadi dipakai hādhā."
+    }
+   },
+   {
+    "id": "ar18n2",
+    "target": "هَذِهِ حَقِيبَةٌ",
+    "translit": "hādhihi ḥaqība",
+    "tr": {
+     "ar": "إِشَارَةٌ إِلَى حَقِيبَةٍ قَرِيبَةٍ",
+     "en": "This is a bag",
+     "id": "Ini tas"
+    },
+    "example": {
+     "target": "هَذِهِ الْحَقِيبَةُ ثَقِيلَةٌ",
+     "translit": "hādhihi l-ḥaqībatu thaqīla",
+     "tr": {
+      "ar": "الْحَقِيبَةُ الَّتِي أَمَامِي ثَقِيلَةٌ",
+      "en": "This bag is heavy",
+      "id": "Tas ini berat"
+     }
+    },
+    "hint": {
+     "ar": "حَقِيبَةٌ مُؤَنَّثَةٌ فَنَقُولُ هَذِهِ.",
+     "en": "Ḥaqība is feminine, so we use hādhihi.",
+     "id": "Ḥaqība feminin, jadi dipakai hādhihi."
+    }
+   },
+   {
+    "id": "ar18n3",
+    "target": "ذَلِكَ مَكْتَبٌ",
+    "translit": "dhālika maktab",
+    "tr": {
+     "ar": "إِشَارَةٌ إِلَى مَكْتَبٍ بَعِيدٍ",
+     "en": "That is a desk",
+     "id": "Itu meja tulis"
+    },
+    "example": {
+     "target": "ذَلِكَ الْمَكْتَبُ كَبِيرٌ",
+     "translit": "dhālika l-maktabu kabīr",
+     "tr": {
+      "ar": "الْمَكْتَبُ الْبَعِيدُ كَبِيرٌ",
+      "en": "That desk is big",
+      "id": "Meja tulis itu besar"
+     }
+    }
+   },
+   {
+    "id": "ar18n4",
+    "target": "تِلْكَ سَيَّارَةٌ",
+    "translit": "tilka sayyāra",
+    "tr": {
+     "ar": "إِشَارَةٌ إِلَى سَيَّارَةٍ بَعِيدَةٍ",
+     "en": "That is a car",
+     "id": "Itu mobil"
+    },
+    "example": {
+     "target": "تِلْكَ السَّيَّارَةُ جَدِيدَةٌ",
+     "translit": "tilka s-sayyāratu jadīda",
+     "tr": {
+      "ar": "السَّيَّارَةُ الْبَعِيدَةُ جَدِيدَةٌ",
+      "en": "That car is new",
+      "id": "Mobil itu baru"
+     }
+    }
+   },
+   {
+    "id": "ar18n5",
+    "target": "مَا هَذَا؟",
+    "translit": "mā hādhā?",
+    "tr": {
+     "ar": "سُؤَالٌ عَنِ اسْمِ شَيْءٍ قَرِيبٍ",
+     "en": "What is this?",
+     "id": "Apa ini?"
+    },
+    "example": {
+     "target": "مَا هَذَا؟ هَذَا كِتَابٌ.",
+     "translit": "mā hādhā? hādhā kitāb.",
+     "tr": {
+      "ar": "سَأَلَ الطَّالِبُ عَنِ الشَّيْءِ فَأَجَابَ الْمُعَلِّمُ",
+      "en": "What is this? This is a book.",
+      "id": "Apa ini? Ini buku."
+     }
+    },
+    "hint": {
+     "ar": "لِلْمُؤَنَّثِ نَقُولُ مَا هَذِهِ؟",
+     "en": "For a feminine thing say mā hādhihi?",
+     "id": "Untuk benda feminin katakan mā hādhihi?"
+    }
+   },
+   {
+    "id": "ar18n6",
+    "target": "الْكِتَابُ عَلَى الطَّاوِلَةِ",
+    "translit": "al-kitābu ʿalā ṭ-ṭāwila",
+    "tr": {
+     "ar": "الْكِتَابُ فَوْقَ سَطْحِ الطَّاوِلَةِ",
+     "en": "The book is on the table",
+     "id": "Bukunya ada di atas meja"
+    },
+    "example": {
+     "target": "الْمِفْتَاحُ عَلَى الْكُرْسِيِّ",
+     "translit": "al-miftāḥu ʿalā l-kursī",
+     "tr": {
+      "ar": "الْمِفْتَاحُ فَوْقَ الْكُرْسِيِّ",
+      "en": "The key is on the chair",
+      "id": "Kuncinya ada di atas kursi"
+     }
+    },
+    "hint": {
+     "ar": "عَلَى تَعْنِي فَوْقَ، وَبَعْدَهَا الِاسْمُ الْمَجْرُورُ.",
+     "en": "ʿalā means on, and the noun after it takes the genitive ending -i.",
+     "id": "ʿAlā berarti di atas, dan kata benda sesudahnya berakhiran genitif -i."
+    }
+   }
+  ],
+  "cloze": [
+   {
+    "sentence": "___ حَقِيبَةٌ صَغِيرَةٌ",
+    "answer": "هَذِهِ",
+    "wrong": [
+     "هَذَا",
+     "ذَلِكَ"
+    ],
+    "tr": {
+     "ar": "هَذِهِ حَقِيبَةٌ صَغِيرَةٌ",
+     "en": "This is a small bag",
+     "id": "Ini tas kecil"
+    },
+    "why": {
+     "ar": "حَقِيبَةٌ مُؤَنَّثَةٌ؛ هَذَا وَذَلِكَ لِلْمُذَكَّرِ.",
+     "en": "Ḥaqība is feminine; hādhā and dhālika are masculine.",
+     "id": "Ḥaqība feminin; hādhā dan dhālika untuk maskulin."
+    }
+   },
+   {
+    "sentence": "___ الْكِتَابُ جَدِيدٌ",
+    "answer": "هَذَا",
+    "wrong": [
+     "هَذِهِ",
+     "تِلْكَ"
+    ],
+    "tr": {
+     "ar": "هَذَا الْكِتَابُ جَدِيدٌ",
+     "en": "This book is new",
+     "id": "Buku ini baru"
+    },
+    "why": {
+     "ar": "كِتَابٌ مُذَكَّرٌ؛ هَذِهِ وَتِلْكَ لِلْمُؤَنَّثِ.",
+     "en": "Kitāb is masculine; hādhihi and tilka are feminine.",
+     "id": "Kitāb maskulin; hādhihi dan tilka untuk feminin."
+    }
+   }
+  ],
+  "conversation": {
+   "context": {
+    "ar": "فِي الصَّفِّ، طَالِبٌ يَسْأَلُ الْمُعَلِّمَ عَنْ أَشْيَاءَ.",
+    "en": "In class, a student asks the teacher about objects.",
+    "id": "Di kelas, seorang siswa bertanya kepada guru tentang benda-benda."
+   },
+   "turns": [
+    {
+     "who": "A",
+     "target": "مَا هَذَا؟",
+     "tr": {
+      "ar": "مَا هَذَا؟",
+      "en": "What is this?",
+      "id": "Apa ini?"
+     }
+    },
+    {
+     "who": "B",
+     "target": "هَذَا كِتَابٌ.",
+     "tr": {
+      "ar": "هَذَا كِتَابٌ.",
+      "en": "This is a book.",
+      "id": "Ini buku."
+     }
+    },
+    {
+     "who": "A",
+     "target": "وَمَا تِلْكَ؟",
+     "tr": {
+      "ar": "وَمَا تِلْكَ؟",
+      "en": "And what is that?",
+      "id": "Dan apa itu?"
+     }
+    },
+    {
+     "who": "B",
+     "target": "تِلْكَ حَقِيبَةٌ.",
+     "tr": {
+      "ar": "تِلْكَ حَقِيبَةٌ.",
+      "en": "That is a bag.",
+      "id": "Itu tas."
+     }
+    }
+   ],
+   "gap": 1,
+   "wrong": [
+    "أَنَا بِخَيْرٍ، شُكْرًا.",
+    "نَعَمْ، أَنَا طَالِبٌ."
+   ],
+   "why": {
+    "ar": "السُّؤَالُ مَا هَذَا؟ يُجَابُ بِاسْمِ الشَّيْءِ: هَذَا كِتَابٌ. الْجَوَابَانِ الْآخَرَانِ لِلسُّؤَالِ عَنِ الْحَالِ أَوِ الْهُوِيَّةِ.",
+    "en": "The question mā hādhā? is answered with the name of the thing: this is a book. The other replies answer a how-are-you or an are-you question.",
+    "id": "Pertanyaan mā hādhā? dijawab dengan nama benda: ini buku. Dua jawaban lain cocok untuk pertanyaan kabar atau jati diri."
+   }
+  },
+  "summary": {
+   "ar": "تَعَلَّمْتَ هَذَا وَهَذِهِ لِلْقَرِيبِ وَذَلِكَ وَتِلْكَ لِلْبَعِيدِ. وَتَعَلَّمْتَ أَنَّ «الـ» تُعَرِّفُ الِاسْمَ.",
+   "en": "You learned hādhā and hādhihi for near things and dhālika and tilka for far ones. You also learned that al- makes a noun definite.",
+   "id": "Anda belajar hādhā dan hādhihi untuk yang dekat serta dhālika dan tilka untuk yang jauh. Anda juga tahu bahwa al- membuat kata benda menjadi tentu."
+  }
+ },
+ {
+  "id": "ar-05",
+  "track": "ar",
+  "level": "elementary",
+  "order": 13,
+  "topic": "shopping-food",
+  "icon": "🛒",
+  "title": {
+   "ar": "التَّسَوُّقُ وَالطَّعَامُ",
+   "en": "Shopping and food",
+   "id": "Belanja dan makanan"
+  },
+  "description": {
+   "ar": "طَلَبُ الطَّعَامِ وَالسُّؤَالُ عَنِ السِّعْرِ بِعِبَارَاتٍ مُهَذَّبَةٍ.",
+   "en": "Asking for food and prices with polite phrases.",
+   "id": "Memesan makanan dan menanyakan harga dengan ungkapan sopan."
+  },
+  "objectives": [
+   {
+    "ar": "أَسْتَطِيعُ أَنْ أَسْأَلَ عَنِ السِّعْرِ: كَمِ السِّعْرُ؟",
+    "en": "I can ask the price: kami s-siʿr?",
+    "id": "Saya bisa menanyakan harga: kami s-siʿr?"
+   },
+   {
+    "ar": "أَسْتَطِيعُ أَنْ أَطْلُبَ شَيْئًا بِقَوْلِي: أُرِيدُ ... مِنْ فَضْلِكَ.",
+    "en": "I can ask for something with urīdu ... min faḍlik.",
+    "id": "Saya bisa meminta sesuatu dengan urīdu ... min faḍlik."
+   },
+   {
+    "ar": "أَسْتَطِيعُ أَنْ أَصِفَ الطَّعَامَ وَالسِّعْرَ: لَذِيذٌ، غَالٍ.",
+    "en": "I can describe food and prices: delicious, expensive.",
+    "id": "Saya bisa mendeskripsikan makanan dan harga: lezat, mahal."
+   }
+  ],
+  "intro": {
+   "ar": "فِي الْمَحَلِّ أَوِ السُّوقِ تَحْتَاجُ إِلَى ثَلَاثَةِ أَشْيَاءَ: أَنْ تَطْلُبَ، وَأَنْ تَسْأَلَ عَنِ السِّعْرِ، وَأَنْ تَكُونَ مُهَذَّبًا. هَذَا الدَّرْسُ يُعْطِيكَ الْعِبَارَاتِ الْأَسَاسِيَّةَ لِذَلِكَ.",
+   "en": "In a shop or market you need three things: to ask for what you want, to ask the price, and to be polite. This lesson gives you the basic phrases for all three.",
+   "id": "Di toko atau pasar Anda butuh tiga hal: meminta barang, menanyakan harga, dan bersikap sopan. Pelajaran ini memberi ungkapan dasarnya."
+  },
+  "culture": {
+   "ar": "فِي الْأَسْوَاقِ التَّقْلِيدِيَّةِ يُمْكِنُ التَّفَاوُضُ عَلَى السِّعْرِ بِابْتِسَامَةٍ وَلُطْفٍ، أَمَّا فِي الْمَحَلَّاتِ الْكَبِيرَةِ فَالْأَسْعَارُ ثَابِتَةٌ. وَتُسْمَعُ فِي الْأَسْوَاقِ الشَّفَهِيَّةِ عِبَارَةٌ مِثْلَ بِكَمْ هَذَا؟ لَكِنَّ الْفُصْحَى تَقُولُ كَمْ سِعْرُهُ؟",
+   "en": "In traditional markets you can bargain with a smile and good manners, while in large shops prices are fixed. In spoken Arabic you will often hear bikam hādhā?, but standard Arabic says kam siʿruhu?",
+   "id": "Di pasar tradisional Anda boleh menawar dengan senyum dan sopan, sedangkan di toko besar harga sudah pasti. Dalam bahasa lisan sering terdengar bikam hādhā?, sedangkan bahasa baku berkata kam siʿruhu?"
+  },
+  "grammar": {
+   "title": {
+    "ar": "أُرِيدُ + اسْمٌ مَنْصُوبٌ",
+    "en": "Urīdu + an accusative noun",
+    "id": "Urīdu + kata benda akusatif"
+   },
+   "body": {
+    "ar": "بَعْدَ الْفِعْلِ أُرِيدُ يَأْتِي الْمَفْعُولُ بِهِ مَنْصُوبًا، وَعَلَامَتُهُ فِي الِاسْمِ النَّكِرَةِ تَنْوِينُ الْفَتْحِ: أُرِيدُ خُبْزًا. وَالسُّؤَالُ عَنِ السِّعْرِ يَكُونُ بِـ«كَمِ السِّعْرُ؟»؛ وَالصِّفَةُ تُطَابِقُ الِاسْمَ فِي الْجِنْسِ: الْعَصِيرُ لَذِيذٌ، الْقَهْوَةُ لَذِيذَةٌ.",
+    "en": "After urīdu (I want) the object is accusative; for an indefinite noun the sign is the -an tanwīn: urīdu khubzan. The price question is kami s-siʿr? Adjectives agree in gender: al-ʿaṣīru ladhīdh (masculine), al-qahwatu ladhīdha (feminine).",
+    "id": "Setelah urīdu (saya mau) objek berbentuk akusatif; untuk kata benda tak tentu tandanya tanwīn -an: urīdu khubzan. Tanya harga dengan kami s-siʿr? Sifat sesuai jenis: al-ʿaṣīru ladhīdh (maskulin), al-qahwatu ladhīdha (feminin)."
+   }
+  },
+  "items": [
+   {
+    "id": "a17",
+    "target": "كَمِ السِّعْرُ؟",
+    "translit": "kami s-siʿr?",
+    "tr": {
+     "ar": "سُؤَالٌ عَنْ ثَمَنِ السِّلْعَةِ",
+     "en": "How much is it?",
+     "id": "Berapa harganya?"
+    },
+    "example": {
+     "target": "كَمْ سِعْرُ هَذَا؟",
+     "translit": "kam siʿru hādhā?",
+     "tr": {
+      "ar": "مَا ثَمَنُ هَذَا الشَّيْءِ؟",
+      "en": "How much is this?",
+      "id": "Berapa harga ini?"
+     }
+    }
+   },
+   {
+    "id": "a18",
+    "target": "أُرِيدُ خُبْزًا",
+    "translit": "urīdu khubzan",
+    "tr": {
+     "ar": "أَطْلُبُ الْخُبْزَ",
+     "en": "I want bread",
+     "id": "Saya ingin roti"
+    },
+    "example": {
+     "target": "أُرِيدُ خُبْزًا وَمَاءً",
+     "translit": "urīdu khubzan wa-māʾan",
+     "tr": {
+      "ar": "أَطْلُبُ الْخُبْزَ وَالْمَاءَ",
+      "en": "I want bread and water",
+      "id": "Saya ingin roti dan air"
+     }
+    }
+   },
+   {
+    "id": "a19",
+    "target": "لَذِيذٌ",
+    "translit": "ladhīdhun",
+    "tr": {
+     "ar": "طَعْمُهُ طَيِّبٌ جِدًّا",
+     "en": "delicious",
+     "id": "enak"
+    },
+    "example": {
+     "target": "الطَّعَامُ لَذِيذٌ",
+     "translit": "aṭ-ṭaʿāmu ladhīdh",
+     "tr": {
+      "ar": "هَذَا الْأَكْلُ طَيِّبُ الطَّعْمِ",
+      "en": "The food is delicious",
+      "id": "Makanannya enak"
+     }
+    },
+    "hint": {
+     "ar": "لِلْمُؤَنَّثِ لَذِيذَةٌ.",
+     "en": "For a feminine noun use ladhīdha.",
+     "id": "Untuk kata benda feminin pakai ladhīdha."
+    }
+   },
+   {
+    "id": "a20",
+    "target": "مِنْ فَضْلِكَ",
+    "translit": "min faḍlika",
+    "tr": {
+     "ar": "عِبَارَةُ أَدَبٍ عِنْدَ الطَّلَبِ",
+     "en": "please",
+     "id": "tolong"
+    },
+    "example": {
+     "target": "سَاعِدْنِي مِنْ فَضْلِكَ",
+     "translit": "sāʿidnī min faḍlika",
+     "tr": {
+      "ar": "أَطْلُبُ مِنْكَ الْمُسَاعَدَةَ بِأَدَبٍ",
+      "en": "Please help me",
+      "id": "Tolong bantu saya"
+     }
+    },
+    "hint": {
+     "ar": "لِلْمُخَاطَبَةِ قُلْ مِنْ فَضْلِكِ.",
+     "en": "To a woman say min faḍliki.",
+     "id": "Kepada perempuan katakan min faḍliki."
+    }
+   },
+   {
+    "id": "ar05n5",
+    "target": "غَالٍ",
+    "translit": "ghālin",
+    "tr": {
+     "ar": "سِعْرُهُ مُرْتَفِعٌ",
+     "en": "expensive",
+     "id": "mahal"
+    },
+    "example": {
+     "target": "هَذَا غَالٍ جِدًّا",
+     "translit": "hādhā ghālin jiddan",
+     "tr": {
+      "ar": "هَذَا الثَّمَنُ مُرْتَفِعٌ كَثِيرًا",
+      "en": "This is very expensive",
+      "id": "Ini mahal sekali"
+     }
+    },
+    "hint": {
+     "ar": "عَكْسُهُ رَخِيصٌ.",
+     "en": "The opposite is rakhīṣ (cheap).",
+     "id": "Lawannya rakhīṣ (murah)."
+    }
+   },
+   {
+    "id": "ar05n6",
+    "target": "تُفَّاحٌ",
+    "translit": "tuffāḥun",
+    "tr": {
+     "ar": "فَاكِهَةٌ حَمْرَاءُ أَوْ خَضْرَاءُ",
+     "en": "apples",
+     "id": "apel"
+    },
+    "example": {
+     "target": "التُّفَّاحُ طَازَجٌ وَرَخِيصٌ",
+     "translit": "at-tuffāḥu ṭāzajun wa-rakhīṣ",
+     "tr": {
+      "ar": "هَذَا التُّفَّاحُ جَدِيدٌ وَثَمَنُهُ قَلِيلٌ",
+      "en": "The apples are fresh and cheap",
+      "id": "Apelnya segar dan murah"
+     }
+    },
+    "hint": {
+     "ar": "تُفَّاحٌ اسْمُ جِنْسٍ؛ وَاحِدَتُهُ تُفَّاحَةٌ.",
+     "en": "Tuffāḥ is a collective noun; one apple is tuffāḥa.",
+     "id": "Tuffāḥ adalah nomina kolektif; satu apel adalah tuffāḥa."
+    }
+   }
+  ],
+  "cloze": [
+   {
+    "sentence": "أُرِيدُ ___ مِنْ فَضْلِكَ",
+    "answer": "خُبْزًا",
+    "wrong": [
+     "خُبْزٌ",
+     "خُبْزٍ"
+    ],
+    "tr": {
+     "ar": "أُرِيدُ خُبْزًا مِنْ فَضْلِكَ",
+     "en": "I want bread, please",
+     "id": "Saya ingin roti, tolong"
+    },
+    "why": {
+     "ar": "بَعْدَ أُرِيدُ نَسْتَعْمِلُ الْمَنْصُوبَ بِتَنْوِينِ الْفَتْحِ؛ الضَّمُّ وَالْكَسْرُ لَا يُنَاسِبَانِ.",
+     "en": "After urīdu we need the accusative -an ending; the -un and -in endings are wrong here.",
+     "id": "Setelah urīdu dipakai akusatif dengan -an; akhiran -un dan -in tidak cocok."
+    }
+   },
+   {
+    "sentence": "الْعَصِيرُ ___ جِدًّا",
+    "answer": "لَذِيذٌ",
+    "wrong": [
+     "لَذِيذَةٌ",
+     "لَذِيذًا"
+    ],
+    "tr": {
+     "ar": "الْعَصِيرُ لَذِيذٌ جِدًّا",
+     "en": "The juice is very delicious",
+     "id": "Jusnya sangat enak"
+    },
+    "why": {
+     "ar": "عَصِيرٌ مُذَكَّرٌ فَالْخَبَرُ لَذِيذٌ بِلَا تَاءِ تَأْنِيثٍ وَبِالرَّفْعِ.",
+     "en": "ʿAṣīr is masculine, so the predicate is ladhīdh with no feminine ending and in the nominative.",
+     "id": "ʿAṣīr maskulin, jadi predikatnya ladhīdh tanpa akhiran feminin dan berharakat nominatif."
+    }
+   }
+  ],
+  "conversation": {
+   "context": {
+    "ar": "زَبُونٌ يَشْتَرِي خُبْزًا مِنْ مَخْبَزٍ.",
+    "en": "A customer buys bread at a bakery.",
+    "id": "Seorang pembeli membeli roti di toko roti."
+   },
+   "turns": [
+    {
+     "who": "A",
+     "target": "أُرِيدُ خُبْزًا مِنْ فَضْلِكَ.",
+     "tr": {
+      "ar": "أُرِيدُ خُبْزًا مِنْ فَضْلِكَ.",
+      "en": "I want bread, please.",
+      "id": "Saya ingin roti, tolong."
+     }
+    },
+    {
+     "who": "B",
+     "target": "تَفَضَّلْ، هَذَا الْخُبْزُ.",
+     "tr": {
+      "ar": "تَفَضَّلْ، هَذَا الْخُبْزُ.",
+      "en": "Here you are, this is the bread.",
+      "id": "Silakan, ini rotinya."
+     }
+    },
+    {
+     "who": "A",
+     "target": "كَمِ السِّعْرُ؟",
+     "tr": {
+      "ar": "كَمِ السِّعْرُ؟",
+      "en": "How much is it?",
+      "id": "Berapa harganya?"
+     }
+    },
+    {
+     "who": "B",
+     "target": "خَمْسَةُ دَرَاهِمَ.",
+     "tr": {
+      "ar": "خَمْسَةُ دَرَاهِمَ.",
+      "en": "Five dirhams.",
+      "id": "Lima dirham."
+     }
+    }
+   ],
+   "gap": 1,
+   "wrong": [
+    "أَيْنَ الْحَمَّامُ؟",
+    "الْيَوْمَ يَوْمُ الْجُمُعَةِ."
+   ],
+   "why": {
+    "ar": "الْبَائِعُ يُقَدِّمُ الطَّلَبَ بِقَوْلِهِ تَفَضَّلْ. أَمَّا السُّؤَالُ عَنِ الْحَمَّامِ أَوِ الْيَوْمِ فَلَا يُنَاسِبُ طَلَبَ الْخُبْزِ.",
+    "en": "The seller hands over the order with tafaḍḍal (here you are). A question about the bathroom or a statement about the day does not respond to a request for bread.",
+    "id": "Penjual menyerahkan pesanan dengan tafaḍḍal (silakan). Pertanyaan tentang kamar mandi atau hari tidak menanggapi permintaan roti."
+   }
+  },
+  "summary": {
+   "ar": "تَعَلَّمْتَ أَنْ تَطْلُبَ بِأُرِيدُ وَأَنْ تَسْأَلَ عَنِ السِّعْرِ بِكَمْ. وَتَعَلَّمْتَ كَلِمَاتٍ مِثْلَ لَذِيذٌ وَغَالٍ.",
+   "en": "You learned to ask with urīdu and to ask the price with kam. You also learned words like ladhīdh and ghālin.",
+   "id": "Anda belajar meminta dengan urīdu dan menanyakan harga dengan kam. Anda juga belajar kata seperti ladhīdh dan ghālin."
+  }
+ },
+ {
+  "id": "ar-19",
+  "track": "ar",
+  "level": "elementary",
+  "order": 14,
+  "topic": "restaurant",
+  "icon": "🍽️",
+  "title": {
+   "ar": "فِي الْمَطْعَمِ أَوِ الْمَقْهَى",
+   "en": "At a restaurant or cafe",
+   "id": "Di restoran atau kafe"
+  },
+  "description": {
+   "ar": "طَلَبُ الْمَشْرُوبَاتِ وَالْوَجَبَاتِ وَالْحِسَابِ بِأَدَبٍ.",
+   "en": "Ordering drinks, meals and the bill politely.",
+   "id": "Memesan minuman, makanan, dan menanyakan tagihan dengan sopan."
+  },
+  "objectives": [
+   {
+    "ar": "أَسْتَطِيعُ أَنْ أَطْلُبَ الْقَائِمَةَ وَمَشْرُوبًا.",
+    "en": "I can ask for the menu and a drink.",
+    "id": "Saya bisa meminta menu dan minuman."
+   },
+   {
+    "ar": "أَسْتَطِيعُ أَنْ أَفْهَمَ سُؤَالَ النَّادِلِ: مَاذَا تُرِيدُ؟",
+    "en": "I can understand the waiter's question: what would you like?",
+    "id": "Saya bisa memahami pertanyaan pelayan: mau pesan apa?"
+   },
+   {
+    "ar": "أَسْتَطِيعُ أَنْ أَطْلُبَ الْحِسَابَ.",
+    "en": "I can ask for the bill.",
+    "id": "Saya bisa meminta tagihan."
+   }
+  ],
+  "intro": {
+   "ar": "الْمَطْعَمُ وَالْمَقْهَى مَكَانَانِ مُمْتِعَانِ لِتَطْبِيقِ مَا تَعَلَّمْتَ. سَتَتَعَلَّمُ عِبَارَاتِ النَّادِلِ وَعِبَارَاتِ الزَّبُونِ، وَكَيْفَ تُخَاطِبُ رَجُلًا أَوِ امْرَأَةً.",
+   "en": "Restaurants and cafes are perfect places to practise. You will learn what the waiter says and what the customer says, and how to address a man or a woman.",
+   "id": "Restoran dan kafe adalah tempat yang bagus untuk berlatih. Anda akan belajar ucapan pelayan dan pembeli, serta cara menyapa laki-laki atau perempuan."
+  },
+  "culture": {
+   "ar": "الْقَهْوَةُ الْعَرَبِيَّةُ وَالشَّايُ جُزْءٌ مِنَ الضِّيَافَةِ، وَكَثِيرًا مَا يَقُولُ النَّاسُ قَبْلَ الْأَكْلِ بِالْهَنَاءِ وَالشِّفَاءِ، أَيْ نَتَمَنَّى لَكَ طَعَامًا هَنِيئًا. وَفِي بَعْضِ الْبُلْدَانِ يَكُونُ الْإِكْرَامِيَّةُ (الْبَقْشِيشُ) عَادَةً مَقْبُولَةً.",
+   "en": "Arabic coffee and tea are part of hospitality, and before eating people often say bil-hanāʾ wa-sh-shifāʾ, a wish for a good meal. In some countries a tip (baqshīsh) is a normal custom.",
+   "id": "Kopi Arab dan teh adalah bagian dari keramahan, dan sebelum makan orang sering berkata bil-hanāʾ wa-sh-shifāʾ, doa agar makannya nikmat. Di beberapa negara memberi tip (baqshīsh) sudah lazim."
+  },
+  "grammar": {
+   "title": {
+    "ar": "مُخَاطَبَةُ الْمُذَكَّرِ وَالْمُؤَنَّثِ",
+    "en": "Addressing a man or a woman",
+    "id": "Menyapa laki-laki atau perempuan"
+   },
+   "body": {
+    "ar": "الْفِعْلُ تُرِيدُ لِلْمُذَكَّرِ وَتُرِيدِينَ لِلْمُؤَنَّثِ، وَأُرِيدُ لِلْمُتَكَلِّمِ. وَنَسْتَعْمِلُ أُرِيدُ مَعَ اسْمٍ مَنْصُوبٍ: أُرِيدُ قَهْوَةً. وَفِي عِبَارَةِ قَائِمَةِ الطَّعَامِ نَرَى الْإِضَافَةَ: قَائِمَةُ + الطَّعَامِ، أَيِ الِاسْمُ الْأَوَّلُ بِلَا أَلْ وَالثَّانِي مَجْرُورٌ.",
+    "en": "The verb is turīdu to a man, turīdīna to a woman and urīdu for I. We use urīdu with an accusative noun: urīdu qahwatan. In qāʾimatu ṭ-ṭaʿām (the menu) you see an iḍāfa: the first noun has no al- and the second is genitive.",
+    "id": "Kata kerjanya turīdu untuk laki-laki, turīdīna untuk perempuan, dan urīdu untuk saya. Urīdu diikuti kata benda akusatif: urīdu qahwatan. Pada qāʾimatu ṭ-ṭaʿām (daftar menu) terlihat iḍāfa: kata pertama tanpa al- dan kata kedua genitif."
+   }
+  },
+  "items": [
+   {
+    "id": "ar19n1",
+    "target": "قَائِمَةُ الطَّعَامِ",
+    "translit": "qāʾimatu ṭ-ṭaʿām",
+    "tr": {
+     "ar": "وَرَقَةٌ فِيهَا أَسْمَاءُ الْأَطْعِمَةِ وَالْمَشْرُوبَاتِ",
+     "en": "the menu",
+     "id": "daftar menu"
+    },
+    "example": {
+     "target": "مِنْ فَضْلِكَ، أُرِيدُ قَائِمَةَ الطَّعَامِ",
+     "translit": "min faḍlika, urīdu qāʾimata ṭ-ṭaʿām",
+     "tr": {
+      "ar": "أَطْلُبُ الْقَائِمَةَ بِأَدَبٍ",
+      "en": "Please, I would like the menu",
+      "id": "Tolong, saya mau lihat menunya"
+     }
+    },
+    "hint": {
+     "ar": "بَعْدَ أُرِيدُ تُنْصَبُ قَائِمَةَ.",
+     "en": "After urīdu the first word takes the accusative: qāʾimata.",
+     "id": "Setelah urīdu kata pertama berakusatif: qāʾimata."
+    }
+   },
+   {
+    "id": "ar19n2",
+    "target": "أُرِيدُ قَهْوَةً",
+    "translit": "urīdu qahwatan",
+    "tr": {
+     "ar": "أَطْلُبُ مَشْرُوبًا سَاخِنًا",
+     "en": "I would like coffee",
+     "id": "Saya mau kopi"
+    },
+    "example": {
+     "target": "أُرِيدُ قَهْوَةً بِلَا سُكَّرٍ",
+     "translit": "urīdu qahwatan bi-lā sukkar",
+     "tr": {
+      "ar": "أَطْلُبُ الْقَهْوَةَ بِدُونِ سُكَّرٍ",
+      "en": "I would like coffee without sugar",
+      "id": "Saya mau kopi tanpa gula"
+     }
+    }
+   },
+   {
+    "id": "ar19n3",
+    "target": "كَأْسُ عَصِيرٍ",
+    "translit": "kaʾsu ʿaṣīr",
+    "tr": {
+     "ar": "كُوبٌ فِيهِ عَصِيرٌ",
+     "en": "a glass of juice",
+     "id": "segelas jus"
+    },
+    "example": {
+     "target": "أَشْرَبُ كَأْسَ عَصِيرٍ كُلَّ صَبَاحٍ",
+     "translit": "ashrabu kaʾsa ʿaṣīrin kulla ṣabāḥ",
+     "tr": {
+      "ar": "أَشْرَبُ الْعَصِيرَ كُلَّ يَوْمٍ صَبَاحًا",
+      "en": "I drink a glass of juice every morning",
+      "id": "Saya minum segelas jus setiap pagi"
+     }
+    }
+   },
+   {
+    "id": "ar19n4",
+    "target": "مَاذَا تُرِيدُ؟",
+    "translit": "mādhā turīdu?",
+    "tr": {
+     "ar": "سُؤَالٌ يَطْرَحُهُ النَّادِلُ عَلَى رَجُلٍ",
+     "en": "What would you like?",
+     "id": "Anda mau apa?"
+    },
+    "example": {
+     "target": "مَاذَا تُرِيدِينَ يَا سَارَةُ؟",
+     "translit": "mādhā turīdīna yā sāra?",
+     "tr": {
+      "ar": "سُؤَالٌ مُوَجَّهٌ إِلَى امْرَأَةٍ",
+      "en": "What would you like, Sara?",
+      "id": "Kamu mau apa, Sara?"
+     }
+    },
+    "hint": {
+     "ar": "لِلْمَرْأَةِ نَقُولُ تُرِيدِينَ.",
+     "en": "To a woman say turīdīna.",
+     "id": "Kepada perempuan katakan turīdīna."
+    }
+   },
+   {
+    "id": "ar19n5",
+    "target": "تَفَضَّلْ",
+    "translit": "tafaḍḍal",
+    "tr": {
+     "ar": "عِبَارَةٌ تُقَالُ عِنْدَ تَقْدِيمِ شَيْءٍ",
+     "en": "here you are",
+     "id": "silakan"
+    },
+    "example": {
+     "target": "تَفَضَّلْ، هَذِهِ قَهْوَتُكَ",
+     "translit": "tafaḍḍal, hādhihi qahwatuka",
+     "tr": {
+      "ar": "خُذْ قَهْوَتَكَ مِنْ فَضْلِكَ",
+      "en": "Here you are, this is your coffee",
+      "id": "Silakan, ini kopi Anda"
+     }
+    },
+    "hint": {
+     "ar": "لِلْمَرْأَةِ تَفَضَّلِي.",
+     "en": "To a woman say tafaḍḍalī.",
+     "id": "Kepada perempuan katakan tafaḍḍalī."
+    }
+   },
+   {
+    "id": "ar19n6",
+    "target": "الْحِسَابُ مِنْ فَضْلِكَ",
+    "translit": "al-ḥisābu min faḍlika",
+    "tr": {
+     "ar": "أَطْلُبُ فَاتُورَةَ الْمَطْعَمِ",
+     "en": "The bill, please",
+     "id": "Tolong tagihannya"
+    },
+    "example": {
+     "target": "الْحِسَابُ ثَلَاثُونَ دِرْهَمًا",
+     "translit": "al-ḥisābu thalāthūna dirhaman",
+     "tr": {
+      "ar": "ثَمَنُ الْوَجْبَةِ ثَلَاثُونَ دِرْهَمًا",
+      "en": "The bill is thirty dirhams",
+      "id": "Tagihannya tiga puluh dirham"
+     }
+    }
+   }
+  ],
+  "cloze": [
+   {
+    "sentence": "مِنْ فَضْلِكَ، أُرِيدُ ___ الطَّعَامِ",
+    "answer": "قَائِمَةَ",
+    "wrong": [
+     "كَأْسَ",
+     "سَرِيرَ"
+    ],
+    "tr": {
+     "ar": "مِنْ فَضْلِكَ، أُرِيدُ قَائِمَةَ الطَّعَامِ",
+     "en": "Please, I would like the menu",
+     "id": "Tolong, saya mau menunya"
+    },
+    "why": {
+     "ar": "قَائِمَةُ الطَّعَامِ هِيَ الْمَنْيُو؛ وَكَأْسُ الطَّعَامِ وَسَرِيرُ الطَّعَامِ لَا مَعْنَى لَهُمَا.",
+     "en": "Qāʾimat aṭ-ṭaʿām is the menu; kaʾs aṭ-ṭaʿām or sarīr aṭ-ṭaʿām make no sense.",
+     "id": "Qāʾimat aṭ-ṭaʿām adalah menu; kaʾs aṭ-ṭaʿām atau sarīr aṭ-ṭaʿām tidak bermakna."
+    }
+   },
+   {
+    "sentence": "مَاذَا ___ يَا سَارَةُ؟",
+    "answer": "تُرِيدِينَ",
+    "wrong": [
+     "تُرِيدُ",
+     "أُرِيدُ"
+    ],
+    "tr": {
+     "ar": "مَاذَا تُرِيدِينَ يَا سَارَةُ؟",
+     "en": "What would you like, Sara?",
+     "id": "Kamu mau apa, Sara?"
+    },
+    "why": {
+     "ar": "سَارَةُ امْرَأَةٌ فَنَقُولُ تُرِيدِينَ؛ تُرِيدُ لِلرَّجُلِ وَأُرِيدُ لِلْمُتَكَلِّمِ.",
+     "en": "Sara is a woman, so we say turīdīna; turīdu is for a man and urīdu is for I.",
+     "id": "Sara perempuan, jadi dipakai turīdīna; turīdu untuk laki-laki dan urīdu untuk 'saya'."
+    }
+   }
+  ],
+  "conversation": {
+   "context": {
+    "ar": "فِي مَقْهًى، النَّادِلُ يَسْتَقْبِلُ زَبُونًا.",
+    "en": "In a cafe, the waiter welcomes a customer.",
+    "id": "Di kafe, pelayan menyambut seorang pelanggan."
+   },
+   "turns": [
+    {
+     "who": "A",
+     "target": "مَرْحَبًا بِكَ، مَاذَا تُرِيدُ؟",
+     "tr": {
+      "ar": "مَرْحَبًا بِكَ، مَاذَا تُرِيدُ؟",
+      "en": "Welcome, what would you like?",
+      "id": "Selamat datang, Anda mau apa?"
+     }
+    },
+    {
+     "who": "B",
+     "target": "أُرِيدُ قَهْوَةً مِنْ فَضْلِكَ.",
+     "tr": {
+      "ar": "أُرِيدُ قَهْوَةً مِنْ فَضْلِكَ.",
+      "en": "I would like coffee, please.",
+      "id": "Saya mau kopi, tolong."
+     }
+    },
+    {
+     "who": "A",
+     "target": "تَفَضَّلْ، هَذِهِ قَهْوَتُكَ.",
+     "tr": {
+      "ar": "تَفَضَّلْ، هَذِهِ قَهْوَتُكَ.",
+      "en": "Here you are, this is your coffee.",
+      "id": "Silakan, ini kopi Anda."
+     }
+    },
+    {
+     "who": "B",
+     "target": "شُكْرًا جَزِيلًا.",
+     "tr": {
+      "ar": "شُكْرًا جَزِيلًا.",
+      "en": "Thank you very much.",
+      "id": "Terima kasih banyak."
+     }
+    }
+   ],
+   "gap": 1,
+   "wrong": [
+    "أَنَا بِخَيْرٍ، وَأَنْتَ؟",
+    "هَذَا مَكْتَبٌ كَبِيرٌ."
+   ],
+   "why": {
+    "ar": "الزَّبُونُ يُجِيبُ عَنْ مَاذَا تُرِيدُ؟ بِطَلَبٍ وَاضِحٍ. الْجَوَابَانِ الْآخَرَانِ لَا عَلَاقَةَ لَهُمَا بِالطَّلَبِ.",
+    "en": "The customer answers what would you like? with a clear order. The other two replies have nothing to do with ordering.",
+    "id": "Pelanggan menjawab 'mau apa?' dengan pesanan yang jelas. Dua jawaban lain tidak berhubungan dengan memesan."
+   }
+  },
+  "summary": {
+   "ar": "تَعَلَّمْتَ كَيْفَ تَطْلُبُ الْقَائِمَةَ وَالْمَشْرُوبَاتِ وَالْحِسَابَ. وَتَعَلَّمْتَ الْفَرْقَ بَيْنَ تُرِيدُ وَتُرِيدِينَ.",
+   "en": "You learned to ask for the menu, drinks and the bill. You also learned the difference between turīdu and turīdīna.",
+   "id": "Anda belajar meminta menu, minuman, dan tagihan. Anda juga tahu beda turīdu dan turīdīna."
+  }
+ },
+ {
+  "id": "ar-07",
+  "track": "ar",
+  "level": "elementary",
+  "order": 15,
+  "topic": "days-schedule",
+  "icon": "📅",
+  "title": {
+   "ar": "الْأَيَّامُ وَالْجَدْوَلُ",
+   "en": "Days and schedule",
+   "id": "Hari dan jadwal"
+  },
+  "description": {
+   "ar": "أَيَّامُ الْأُسْبُوعِ وَأَوْقَاتُ الْيَوْمِ لِلْكَلَامِ عَنِ الْجَدْوَلِ.",
+   "en": "Days of the week and parts of the day for talking about your schedule.",
+   "id": "Nama hari dan bagian hari untuk membicarakan jadwal."
+  },
+  "objectives": [
+   {
+    "ar": "أَسْتَطِيعُ أَنْ أَذْكُرَ أَيَّامَ الْأُسْبُوعِ.",
+    "en": "I can name the days of the week.",
+    "id": "Saya bisa menyebut nama hari dalam seminggu."
+   },
+   {
+    "ar": "أَسْتَطِيعُ أَنْ أَقُولَ مَا أَفْعَلُهُ فِي الصَّبَاحِ وَفِي اللَّيْلِ.",
+    "en": "I can say what I do in the morning and at night.",
+    "id": "Saya bisa mengatakan apa yang saya lakukan pagi dan malam."
+   },
+   {
+    "ar": "أَسْتَطِيعُ أَنْ أَسْأَلَ: مَا الْيَوْمُ؟",
+    "en": "I can ask: what day is it?",
+    "id": "Saya bisa bertanya: hari apa ini?"
+   }
+  ],
+  "intro": {
+   "ar": "الْأُسْبُوعُ الْعَرَبِيُّ يَبْدَأُ فِي أَغْلَبِ الْبُلْدَانِ يَوْمَ السَّبْتِ أَوِ الْأَحَدِ. سَتَتَعَلَّمُ أَسْمَاءَ الْأَيَّامِ وَأَجْزَاءَ الْيَوْمِ، وَسَتَبْنِي جُمَلًا عَنْ جَدْوَلِكَ.",
+   "en": "The Arab week begins on Saturday or Sunday in most countries. You will learn the days and parts of the day and build sentences about your schedule.",
+   "id": "Pekan di dunia Arab dimulai hari Sabtu atau Minggu di sebagian besar negara. Anda akan belajar nama hari dan bagian hari, lalu membuat kalimat tentang jadwal Anda."
+  },
+  "culture": {
+   "ar": "يَوْمُ الْجُمُعَةِ يَوْمٌ مُمَيَّزٌ لِلْمُسْلِمِينَ، وَهُوَ عُطْلَةٌ رَسْمِيَّةٌ فِي كَثِيرٍ مِنَ الْبُلْدَانِ الْعَرَبِيَّةِ. وَتَخْتَلِفُ نِهَايَةُ الْأُسْبُوعِ: فِي بَعْضِ الْبُلْدَانِ الْجُمُعَةُ وَالسَّبْتُ، وَفِي أُخْرَى السَّبْتُ وَالْأَحَدُ.",
+   "en": "Friday is a special day for Muslims and an official day off in many Arab countries. The weekend varies: in some countries it is Friday and Saturday, in others Saturday and Sunday.",
+   "id": "Hari Jumat adalah hari istimewa bagi umat Islam dan hari libur resmi di banyak negara Arab. Akhir pekan berbeda-beda: di sebagian negara Jumat dan Sabtu, di negara lain Sabtu dan Minggu."
+  },
+  "grammar": {
+   "title": {
+    "ar": "فِي + الصَّبَاحِ وَيَوْمُ + الْيَوْمِ",
+    "en": "Fī + time of day and yawm + day",
+    "id": "Fī + bagian hari dan yawm + nama hari"
+   },
+   "body": {
+    "ar": "لِلْكَلَامِ عَنْ جُزْءٍ مِنَ الْيَوْمِ نَقُولُ فِي الصَّبَاحِ، فِي اللَّيْلِ؛ وَالِاسْمُ بَعْدَ فِي مَجْرُورٌ. وَنَقُولُ يَوْمُ الْجُمُعَةِ أَيْ يَوْمُ + الْجُمُعَةِ فِي إِضَافَةٍ. أَسْمَاءُ الْأَيَّامِ: السَّبْتُ، الْأَحَدُ، الِاثْنَيْنِ، الثُّلَاثَاءُ، الْأَرْبِعَاءُ، الْخَمِيسُ، الْجُمُعَةُ.",
+    "en": "To talk about a part of the day say fī ṣ-ṣabāḥ, fī l-layl; the noun after fī is genitive. For a day say yawmu l-jumuʿa (Friday), an iḍāfa of yawm + the day name. The days: as-sabt, al-aḥad, al-ithnayn, ath-thulāthāʾ, al-arbiʿāʾ, al-khamīs, al-jumuʿa.",
+    "id": "Untuk bagian hari katakan fī ṣ-ṣabāḥ, fī l-layl; kata benda setelah fī berakhiran genitif. Untuk hari katakan yawmu l-jumuʿa (hari Jumat), iḍāfa dari yawm + nama hari. Nama hari: as-sabt, al-aḥad, al-ithnayn, ath-thulāthāʾ, al-arbiʿāʾ, al-khamīs, al-jumuʿa."
+   }
+  },
+  "items": [
+   {
+    "id": "arx071",
+    "target": "الِاثْنَيْنِ",
+    "translit": "al-ithnayn",
+    "tr": {
+     "ar": "ثَانِي أَيَّامِ الْأُسْبُوعِ بَعْدَ الْأَحَدِ",
+     "en": "Monday",
+     "id": "Senin"
+    },
+    "example": {
+     "target": "الْيَوْمُ يَوْمُ الِاثْنَيْنِ",
+     "translit": "al-yawmu yawmu l-ithnayn",
+     "tr": {
+      "ar": "هَذَا الْيَوْمُ هُوَ الِاثْنَانِ",
+      "en": "Today is Monday",
+      "id": "Hari ini hari Senin"
+     }
+    }
+   },
+   {
+    "id": "arx072",
+    "target": "الْجُمُعَةُ",
+    "translit": "al-jumuʿa",
+    "tr": {
+     "ar": "يَوْمٌ يَأْتِي بَعْدَ الْخَمِيسِ",
+     "en": "Friday",
+     "id": "Jumat"
+    },
+    "example": {
+     "target": "غَدًا يَوْمُ الْجُمُعَةِ",
+     "translit": "ghadan yawmu l-jumuʿa",
+     "tr": {
+      "ar": "الْيَوْمُ التَّالِي هُوَ الْجُمُعَةُ",
+      "en": "Tomorrow is Friday",
+      "id": "Besok hari Jumat"
+     }
+    }
+   },
+   {
+    "id": "arx073",
+    "target": "صَبَاحٌ",
+    "translit": "ṣabāḥun",
+    "tr": {
+     "ar": "أَوَّلُ الْيَوْمِ بَعْدَ اللَّيْلِ",
+     "en": "morning",
+     "id": "pagi"
+    },
+    "example": {
+     "target": "أَدْرُسُ فِي الصَّبَاحِ",
+     "translit": "adrusu fī ṣ-ṣabāḥ",
+     "tr": {
+      "ar": "أَقْضِي أَوَّلَ الْيَوْمِ فِي الدِّرَاسَةِ",
+      "en": "I study in the morning",
+      "id": "Saya belajar pada pagi hari"
+     }
+    },
+    "hint": {
+     "ar": "تَحِيَّةُ الصَّبَاحِ: صَبَاحُ الْخَيْرِ.",
+     "en": "The morning greeting is ṣabāḥ al-khayr.",
+     "id": "Salam pagi: ṣabāḥ al-khayr."
+    }
+   },
+   {
+    "id": "arx074",
+    "target": "لَيْلٌ",
+    "translit": "laylun",
+    "tr": {
+     "ar": "الْوَقْتُ الَّذِي تَغِيبُ فِيهِ الشَّمْسُ",
+     "en": "night",
+     "id": "malam"
+    },
+    "example": {
+     "target": "أَعُودُ فِي اللَّيْلِ",
+     "translit": "aʿūdu fī l-layl",
+     "tr": {
+      "ar": "أَرْجِعُ إِلَى الْبَيْتِ مَسَاءً",
+      "en": "I come home at night",
+      "id": "Saya pulang pada malam hari"
+     }
+    }
+   },
+   {
+    "id": "ar07n5",
+    "target": "أُسْبُوعٌ",
+    "translit": "usbūʿun",
+    "tr": {
+     "ar": "سَبْعَةُ أَيَّامٍ",
+     "en": "week",
+     "id": "pekan"
+    },
+    "example": {
+     "target": "فِي الْأُسْبُوعِ سَبْعَةُ أَيَّامٍ",
+     "translit": "fī l-usbūʿi sabʿatu ayyām",
+     "tr": {
+      "ar": "كُلُّ أُسْبُوعٍ يَحْتَوِي عَلَى سَبْعَةِ أَيَّامٍ",
+      "en": "There are seven days in a week",
+      "id": "Dalam seminggu ada tujuh hari"
+     }
+    }
+   },
+   {
+    "id": "ar07n6",
+    "target": "عُطْلَةٌ",
+    "translit": "ʿuṭlatun",
+    "tr": {
+     "ar": "يَوْمٌ نَرْتَاحُ فِيهِ مِنَ الْعَمَلِ",
+     "en": "day off / holiday",
+     "id": "hari libur"
+    },
+    "example": {
+     "target": "الْجُمُعَةُ عُطْلَةٌ فِي كَثِيرٍ مِنَ الْبُلْدَانِ",
+     "translit": "al-jumuʿatu ʿuṭlatun fī kathīrin mina l-buldān",
+     "tr": {
+      "ar": "لَا يَعْمَلُ النَّاسُ يَوْمَ الْجُمُعَةِ فِي بُلْدَانٍ كَثِيرَةٍ",
+      "en": "Friday is a day off in many countries",
+      "id": "Jumat adalah hari libur di banyak negara"
+     }
+    }
+   }
+  ],
+  "cloze": [
+   {
+    "sentence": "بَعْدَ الْخَمِيسِ يَأْتِي يَوْمُ ___",
+    "answer": "الْجُمُعَةِ",
+    "wrong": [
+     "الْأَرْبِعَاءِ",
+     "الثُّلَاثَاءِ"
+    ],
+    "tr": {
+     "ar": "بَعْدَ الْخَمِيسِ يَأْتِي يَوْمُ الْجُمُعَةِ",
+     "en": "After Thursday comes Friday",
+     "id": "Setelah Kamis datang hari Jumat"
+    },
+    "why": {
+     "ar": "الْجُمُعَةُ تَأْتِي بَعْدَ الْخَمِيسِ؛ أَمَّا الْأَرْبِعَاءُ وَالثُّلَاثَاءُ فَقَبْلَهُ.",
+     "en": "Friday follows Thursday; Wednesday and Tuesday come before it.",
+     "id": "Jumat datang sesudah Kamis; Rabu dan Selasa datang sebelumnya."
+    }
+   },
+   {
+    "sentence": "أَدْرُسُ ___ الصَّبَاحِ وَأَنَامُ فِي اللَّيْلِ",
+    "answer": "فِي",
+    "wrong": [
+     "إِلَى",
+     "أَيْنَ"
+    ],
+    "tr": {
+     "ar": "أَدْرُسُ فِي الصَّبَاحِ وَأَنَامُ فِي اللَّيْلِ",
+     "en": "I study in the morning and sleep at night",
+     "id": "Saya belajar pada pagi hari dan tidur pada malam hari"
+    },
+    "why": {
+     "ar": "نَسْتَعْمِلُ فِي لِلْوَقْتِ؛ إِلَى تَعْنِي نَحْوَ مَكَانٍ، وَأَيْنَ أَدَاةُ سُؤَالٍ.",
+     "en": "We use fī for time of day; ilā means toward a place and ayna is a question word.",
+     "id": "Untuk waktu dipakai fī; ilā berarti ke arah tempat dan ayna kata tanya."
+    }
+   }
+  ],
+  "conversation": {
+   "context": {
+    "ar": "طَالِبَانِ يَتَكَلَّمَانِ عَنِ الْجَدْوَلِ.",
+    "en": "Two students talk about the schedule.",
+    "id": "Dua siswa membicarakan jadwal."
+   },
+   "turns": [
+    {
+     "who": "A",
+     "target": "مَا الْيَوْمُ؟",
+     "tr": {
+      "ar": "مَا الْيَوْمُ؟",
+      "en": "What day is today?",
+      "id": "Hari apa sekarang?"
+     }
+    },
+    {
+     "who": "B",
+     "target": "الْيَوْمُ يَوْمُ الْخَمِيسِ.",
+     "tr": {
+      "ar": "الْيَوْمُ يَوْمُ الْخَمِيسِ.",
+      "en": "Today is Thursday.",
+      "id": "Hari ini hari Kamis."
+     }
+    },
+    {
+     "who": "A",
+     "target": "إِذَنْ غَدًا يَوْمُ الْجُمُعَةِ، عُطْلَةٌ!",
+     "tr": {
+      "ar": "إِذَنْ غَدًا يَوْمُ الْجُمُعَةِ، عُطْلَةٌ!",
+      "en": "So tomorrow is Friday, a day off!",
+      "id": "Jadi besok hari Jumat, libur!"
+     }
+    },
+    {
+     "who": "B",
+     "target": "نَعَمْ، غَدًا عُطْلَةٌ.",
+     "tr": {
+      "ar": "نَعَمْ، غَدًا عُطْلَةٌ.",
+      "en": "Yes, tomorrow is a day off.",
+      "id": "Ya, besok libur."
+     }
+    }
+   ],
+   "gap": 1,
+   "wrong": [
+    "أَنَا فِي الْبَيْتِ.",
+    "اِسْمِي أَحْمَدُ."
+   ],
+   "why": {
+    "ar": "السُّؤَالُ مَا الْيَوْمُ؟ يُجَابُ بِاسْمِ يَوْمٍ. الْجَوَابَانِ الْآخَرَانِ يُجِيبَانِ عَنْ مَكَانٍ وَعَنِ الِاسْمِ.",
+    "en": "The question what day is it? is answered with a day name. The other replies answer where and what is your name.",
+    "id": "Pertanyaan 'hari apa?' dijawab dengan nama hari. Dua jawaban lain menjawab 'di mana' dan 'siapa namamu'."
+   }
+  },
+  "summary": {
+   "ar": "تَعَلَّمْتَ أَيَّامَ الْأُسْبُوعِ وَأَوْقَاتَ الْيَوْمِ. وَتَعَلَّمْتَ أَنْ تَسْأَلَ: مَا الْيَوْمُ؟",
+   "en": "You learned the days of the week and parts of the day. You also learned to ask: what day is it?",
+   "id": "Anda belajar nama hari dan bagian hari. Anda juga belajar bertanya: hari apa ini?"
+  }
+ },
+ {
+  "id": "ar-20",
+  "track": "ar",
+  "level": "elementary",
+  "order": 16,
+  "topic": "months-weather",
+  "icon": "🌦️",
+  "title": {
+   "ar": "الشُّهُورُ وَالْفُصُولُ وَالطَّقْسُ",
+   "en": "Months, seasons and weather",
+   "id": "Bulan, musim, dan cuaca"
+  },
+  "description": {
+   "ar": "فُصُولُ السَّنَةِ وَالشُّهُورُ وَالْكَلَامُ عَنِ الْجَوِّ.",
+   "en": "The seasons, the months and how to talk about the weather.",
+   "id": "Musim, bulan, dan cara membicarakan cuaca."
+  },
+  "objectives": [
+   {
+    "ar": "أَسْتَطِيعُ أَنْ أُسَمِّيَ الْفُصُولَ الْأَرْبَعَةَ.",
+    "en": "I can name the four seasons.",
+    "id": "Saya bisa menyebut empat musim."
+   },
+   {
+    "ar": "أَسْتَطِيعُ أَنْ أَصِفَ الْجَوَّ: حَارٌّ، بَارِدٌ، جَمِيلٌ.",
+    "en": "I can describe the weather: hot, cold, nice.",
+    "id": "Saya bisa menggambarkan cuaca: panas, dingin, bagus."
+   },
+   {
+    "ar": "أَسْتَطِيعُ أَنْ أَقُولَ نَحْنُ فِي شَهْرِ مَارِسَ.",
+    "en": "I can say we are in the month of March.",
+    "id": "Saya bisa mengatakan sekarang bulan Maret."
+   }
+  ],
+  "intro": {
+   "ar": "الْحَدِيثُ عَنِ الطَّقْسِ بِدَايَةٌ مُمْتَازَةٌ لِأَيِّ مُحَادَثَةٍ. سَتَتَعَلَّمُ الْفُصُولَ وَكَلِمَاتِ الْجَوِّ وَكَيْفَ تَذْكُرُ الشَّهْرَ.",
+   "en": "Talking about the weather is a perfect conversation starter. You will learn the seasons, weather words and how to name the month.",
+   "id": "Membicarakan cuaca adalah pembuka percakapan yang sangat baik. Anda akan belajar musim, kata-kata cuaca, dan cara menyebut bulan."
+  },
+  "culture": {
+   "ar": "فِي الْخَلِيجِ وَالصَّحْرَاءِ يَكُونُ الصَّيْفُ حَارًّا جِدًّا، وَفِي الشَّامِ وَالْمَغْرِبِ يَأْتِي الشِّتَاءُ بِالْمَطَرِ وَأَحْيَانًا بِالثَّلْجِ. وَلِلشُّهُورِ أَسْمَاءٌ مُتَعَدِّدَةٌ: يَنَايِرُ وَفِبْرَايِرُ وَمَارِسُ فِي مِصْرَ وَالْخَلِيجِ، وَكَانُونُ الثَّانِي وَشُبَاطُ وَآذَارُ فِي الشَّامِ وَالْعِرَاقِ. وَهُنَاكَ أَيْضًا الشُّهُورُ الْهِجْرِيَّةُ مِثْلَ رَمَضَانَ.",
+   "en": "In the Gulf and the desert summer is very hot, while in the Levant and North Africa winter brings rain and sometimes snow. Months have different names: yanāyir, fibrāyir and māris in Egypt and the Gulf, but kānūn ath-thānī, shubāṭ and ādhār in the Levant and Iraq. There are also the Hijri months such as Ramadan.",
+   "id": "Di Teluk dan gurun musim panas sangat panas, sedangkan di Syam dan Afrika Utara musim dingin membawa hujan dan kadang salju. Nama bulan beragam: yanāyir, fibrāyir, dan māris di Mesir dan Teluk, tetapi kānūn ath-thānī, shubāṭ, dan ādhār di Syam dan Irak. Ada juga bulan Hijriah seperti Ramadan."
+  },
+  "grammar": {
+   "title": {
+    "ar": "وَصْفُ الْجَوِّ وَالشَّهْرِ",
+    "en": "Describing weather and months",
+    "id": "Menggambarkan cuaca dan bulan"
+   },
+   "body": {
+    "ar": "نَصِفُ الْجَوَّ بِجُمْلَةٍ اسْمِيَّةٍ: الْجَوُّ حَارٌّ؛ فَالْجَوُّ مُذَكَّرٌ وَالصِّفَةُ مُذَكَّرَةٌ. وَنَقُولُ فِي الصَّيْفِ لِلْفَصْلِ، وَفِي شَهْرِ مَارِسَ لِلشَّهْرِ: شَهْرِ + اسْمُ الشَّهْرِ إِضَافَةٌ. الْفُصُولُ: الشِّتَاءُ، الرَّبِيعُ، الصَّيْفُ، الْخَرِيفُ.",
+    "en": "We describe weather with a nominal sentence: al-jawwu ḥārr; jaw is masculine, so the adjective is masculine. We say fī ṣ-ṣayf for a season and fī shahri māris for a month: shahr + month name is an iḍāfa. The seasons: ash-shitāʾ, ar-rabīʿ, aṣ-ṣayf, al-kharīf.",
+    "id": "Cuaca digambarkan dengan kalimat nominal: al-jawwu ḥārr; jaw maskulin sehingga sifatnya maskulin. Untuk musim dipakai fī ṣ-ṣayf dan untuk bulan fī shahri māris: shahr + nama bulan adalah iḍāfa. Musimnya: ash-shitāʾ, ar-rabīʿ, aṣ-ṣayf, al-kharīf."
+   }
+  },
+  "items": [
+   {
+    "id": "ar20n1",
+    "target": "الشِّتَاءُ",
+    "translit": "ash-shitāʾ",
+    "tr": {
+     "ar": "أَبْرَدُ فُصُولِ السَّنَةِ",
+     "en": "winter",
+     "id": "musim dingin"
+    },
+    "example": {
+     "target": "الشِّتَاءُ بَارِدٌ فِي الْجِبَالِ",
+     "translit": "ash-shitāʾu bāridun fī l-jibāl",
+     "tr": {
+      "ar": "تَنْخَفِضُ الْحَرَارَةُ فِي الْجِبَالِ شِتَاءً",
+      "en": "Winter is cold in the mountains",
+      "id": "Musim dingin itu dingin di pegunungan"
+     }
+    }
+   },
+   {
+    "id": "ar20n2",
+    "target": "الصَّيْفُ",
+    "translit": "aṣ-ṣayf",
+    "tr": {
+     "ar": "أَحَرُّ فُصُولِ السَّنَةِ",
+     "en": "summer",
+     "id": "musim panas"
+    },
+    "example": {
+     "target": "الصَّيْفُ حَارٌّ جِدًّا فِي الْخَلِيجِ",
+     "translit": "aṣ-ṣayfu ḥārrun jiddan fī l-khalīj",
+     "tr": {
+      "ar": "تَرْتَفِعُ الْحَرَارَةُ كَثِيرًا فِي الْخَلِيجِ",
+      "en": "Summer is very hot in the Gulf",
+      "id": "Musim panas sangat panas di Teluk"
+     }
+    }
+   },
+   {
+    "id": "ar20n3",
+    "target": "الرَّبِيعُ",
+    "translit": "ar-rabīʿ",
+    "tr": {
+     "ar": "فَصْلٌ جَمِيلٌ تَنْمُو فِيهِ الْأَزْهَارُ",
+     "en": "spring",
+     "id": "musim semi"
+    },
+    "example": {
+     "target": "الرَّبِيعُ فَصْلٌ جَمِيلٌ",
+     "translit": "ar-rabīʿu faṣlun jamīl",
+     "tr": {
+      "ar": "تَتَفَتَّحُ الْأَزْهَارُ فِي هَذَا الْفَصْلِ",
+      "en": "Spring is a beautiful season",
+      "id": "Musim semi adalah musim yang indah"
+     }
+    },
+    "hint": {
+     "ar": "فَصْلٌ تَعْنِي أَحَدَ أَوْقَاتِ السَّنَةِ الْأَرْبَعَةِ.",
+     "en": "Faṣl means season.",
+     "id": "Faṣl berarti musim."
+    }
+   },
+   {
+    "id": "ar20n4",
+    "target": "الْجَوُّ حَارٌّ",
+    "translit": "al-jawwu ḥārr",
+    "tr": {
+     "ar": "الْحَرَارَةُ مُرْتَفِعَةٌ الْيَوْمَ",
+     "en": "The weather is hot",
+     "id": "Cuacanya panas"
+    },
+    "example": {
+     "target": "الْجَوُّ حَارٌّ، أُرِيدُ كَأْسَ مَاءٍ بَارِدٍ",
+     "translit": "al-jawwu ḥārr, urīdu kaʾsa māʾin bārid",
+     "tr": {
+      "ar": "الْحَرَارَةُ عَالِيَةٌ فَأَطْلُبُ مَاءً بَارِدًا",
+      "en": "It's hot, I would like a glass of cold water",
+      "id": "Panas, saya mau segelas air dingin"
+     }
+    },
+    "hint": {
+     "ar": "لِلْبُرُودَةِ بَارِدٌ وَلِلْجَمَالِ جَمِيلٌ.",
+     "en": "For cold say bārid, for nice say jamīl.",
+     "id": "Untuk dingin katakan bārid, untuk bagus katakan jamīl."
+    }
+   },
+   {
+    "id": "ar20n5",
+    "target": "الْمَطَرُ",
+    "translit": "al-maṭar",
+    "tr": {
+     "ar": "مَاءٌ يَنْزِلُ مِنَ السَّمَاءِ",
+     "en": "rain",
+     "id": "hujan"
+    },
+    "example": {
+     "target": "الْمَطَرُ كَثِيرٌ فِي الشِّتَاءِ",
+     "translit": "al-maṭaru kathīrun fī sh-shitāʾ",
+     "tr": {
+      "ar": "يَنْزِلُ الْمَطَرُ كَثِيرًا شِتَاءً",
+      "en": "There is a lot of rain in winter",
+      "id": "Hujan banyak turun pada musim dingin"
+     }
+    },
+    "hint": {
+     "ar": "تُمْطِرُ السَّمَاءُ يَعْنِي: تَنْزِلُ الْأَمْطَارُ.",
+     "en": "Tumṭiru s-samāʾ means it is raining.",
+     "id": "Tumṭiru s-samāʾ berarti hujan turun."
+    }
+   },
+   {
+    "id": "ar20n6",
+    "target": "شَهْرُ مَارِسَ",
+    "translit": "shahru māris",
+    "tr": {
+     "ar": "الشَّهْرُ الثَّالِثُ مِنَ السَّنَةِ",
+     "en": "the month of March",
+     "id": "bulan Maret"
+    },
+    "example": {
+     "target": "نَحْنُ الْآنَ فِي شَهْرِ مَارِسَ",
+     "translit": "naḥnu l-āna fī shahri māris",
+     "tr": {
+      "ar": "نَتَكَلَّمُ عَنِ الشَّهْرِ الَّذِي نَعِيشُ فِيهِ",
+      "en": "We are now in March",
+      "id": "Sekarang kita ada di bulan Maret"
+     }
+    }
+   }
+  ],
+  "cloze": [
+   {
+    "sentence": "فِي ___ الْجَوُّ بَارِدٌ وَالْمَطَرُ كَثِيرٌ",
+    "answer": "الشِّتَاءِ",
+    "wrong": [
+     "الصَّيْفِ",
+     "الْمَطْبَخِ"
+    ],
+    "tr": {
+     "ar": "فِي الشِّتَاءِ الْجَوُّ بَارِدٌ وَالْمَطَرُ كَثِيرٌ",
+     "en": "In winter the weather is cold and there is a lot of rain",
+     "id": "Pada musim dingin cuaca dingin dan hujan banyak"
+    },
+    "why": {
+     "ar": "الْبَرْدُ وَالْمَطَرُ يَرْتَبِطَانِ بِالشِّتَاءِ؛ الصَّيْفُ حَارٌّ وَالْمَطْبَخُ لَيْسَ فَصْلًا.",
+     "en": "Cold and rain belong to winter; summer is hot and a kitchen is not a season.",
+     "id": "Dingin dan hujan identik dengan musim dingin; musim panas itu panas dan dapur bukan musim."
+    }
+   },
+   {
+    "sentence": "الْجَوُّ ___ فِي الصَّيْفِ",
+    "answer": "حَارٌّ",
+    "wrong": [
+     "حَارَّةٌ",
+     "مَطَرٌ"
+    ],
+    "tr": {
+     "ar": "الْجَوُّ حَارٌّ فِي الصَّيْفِ",
+     "en": "The weather is hot in summer",
+     "id": "Cuaca panas pada musim panas"
+    },
+    "why": {
+     "ar": "الْجَوُّ مُذَكَّرٌ فَيَكُونُ الْخَبَرُ حَارٌّ؛ حَارَّةٌ لِلْمُؤَنَّثِ وَمَطَرٌ اسْمٌ لَا صِفَةٌ.",
+     "en": "Jaw is masculine, so the predicate is ḥārr; ḥārra is feminine and maṭar is a noun, not an adjective.",
+     "id": "Jaw maskulin, jadi predikatnya ḥārr; ḥārra feminin dan maṭar adalah kata benda, bukan sifat."
+    }
+   }
+  ],
+  "conversation": {
+   "context": {
+    "ar": "صَدِيقَانِ يَتَحَدَّثَانِ عَنِ الطَّقْسِ فِي الشِّتَاءِ.",
+    "en": "Two friends chat about the winter weather.",
+    "id": "Dua teman mengobrol tentang cuaca musim dingin."
+   },
+   "turns": [
+    {
+     "who": "A",
+     "target": "كَيْفَ الْجَوُّ الْيَوْمَ؟",
+     "tr": {
+      "ar": "كَيْفَ الْجَوُّ الْيَوْمَ؟",
+      "en": "How is the weather today?",
+      "id": "Bagaimana cuaca hari ini?"
+     }
+    },
+    {
+     "who": "B",
+     "target": "الْجَوُّ بَارِدٌ وَالسَّمَاءُ تُمْطِرُ.",
+     "tr": {
+      "ar": "الْجَوُّ بَارِدٌ وَالسَّمَاءُ تُمْطِرُ.",
+      "en": "It's cold and it's raining.",
+      "id": "Cuacanya dingin dan hujan turun."
+     }
+    },
+    {
+     "who": "A",
+     "target": "أُحِبُّ الشِّتَاءَ!",
+     "tr": {
+      "ar": "أُحِبُّ الشِّتَاءَ!",
+      "en": "I love winter!",
+      "id": "Saya suka musim dingin!"
+     }
+    }
+   ],
+   "gap": 1,
+   "wrong": [
+    "الْيَوْمُ يَوْمُ السَّبْتِ.",
+    "أُرِيدُ كَأْسَ عَصِيرٍ."
+   ],
+   "why": {
+    "ar": "السُّؤَالُ كَيْفَ الْجَوُّ؟ يُجَابُ بِوَصْفِ الطَّقْسِ. الْجَوَابَانِ الْآخَرَانِ عَنْ يَوْمٍ وَعَنْ طَلَبٍ.",
+    "en": "The question how is the weather? is answered by describing the weather. The other two answer a day question and an order.",
+    "id": "Pertanyaan 'bagaimana cuaca?' dijawab dengan deskripsi cuaca. Dua jawaban lain menjawab pertanyaan hari dan sebuah pesanan."
+   }
+  },
+  "summary": {
+   "ar": "تَعَلَّمْتَ الْفُصُولَ وَكَلِمَاتٍ مِثْلَ حَارٌّ وَبَارِدٌ وَمَطَرٌ. وَتَعَلَّمْتَ أَنْ تَذْكُرَ الشَّهْرَ بِعِبَارَةِ شَهْرُ مَارِسَ.",
+   "en": "You learned the seasons and words like hot, cold and rain. You also learned to name a month with shahr plus the month.",
+   "id": "Anda belajar nama musim dan kata seperti panas, dingin, dan hujan. Anda juga belajar menyebut bulan dengan shahr plus nama bulan."
+  }
+ },
+ {
+  "id": "ar-11",
+  "track": "ar",
+  "level": "elementary",
+  "order": 17,
+  "topic": "key-questions",
+  "icon": "❔",
+  "title": {
+   "ar": "أَسْئِلَةٌ مُهِمَّةٌ",
+   "en": "Key questions",
+   "id": "Pertanyaan penting"
+  },
+  "description": {
+   "ar": "أَدَوَاتُ الِاسْتِفْهَامِ الْأَسَاسِيَّةُ: لِمَاذَا، مَتَى، كَيْفَ، كَمْ، مَنْ، مَاذَا.",
+   "en": "The basic question words: why, when, how, how many, who, what.",
+   "id": "Kata tanya dasar: mengapa, kapan, bagaimana, berapa, siapa, apa."
+  },
+  "objectives": [
+   {
+    "ar": "أَسْتَطِيعُ أَنْ أَسْأَلَ عَنِ الْوَقْتِ وَالسَّبَبِ وَالْعَدَدِ.",
+    "en": "I can ask about time, reason and number.",
+    "id": "Saya bisa bertanya tentang waktu, alasan, dan jumlah."
+   },
+   {
+    "ar": "أَسْتَطِيعُ أَنْ أَسْأَلَ عَنِ الشَّخْصِ وَالشَّيْءِ بِـ مَنْ وَمَاذَا.",
+    "en": "I can ask about a person and a thing with man and mādhā.",
+    "id": "Saya bisa bertanya tentang orang dan benda dengan man dan mādhā."
+   },
+   {
+    "ar": "أَسْتَطِيعُ أَنْ أَضَعَ أَدَاةَ السُّؤَالِ فِي أَوَّلِ الْجُمْلَةِ.",
+    "en": "I can put the question word at the start of the sentence.",
+    "id": "Saya bisa menaruh kata tanya di awal kalimat."
+   }
+  ],
+  "intro": {
+   "ar": "الْأَسْئِلَةُ هِيَ مِفْتَاحُ أَيِّ مُحَادَثَةٍ. بِسِتِّ كَلِمَاتٍ فَقَطْ تَسْتَطِيعُ أَنْ تَسْأَلَ عَنْ أَغْلَبِ مَا تُرِيدُ مَعْرِفَتَهُ.",
+   "en": "Questions are the key to any conversation. With just six words you can ask about most of what you want to know.",
+   "id": "Pertanyaan adalah kunci setiap percakapan. Dengan hanya enam kata Anda bisa menanyakan hampir semua yang ingin diketahui."
+  },
+  "culture": {
+   "ar": "فِي الْمَدْرَسَةِ وَالْعَمَلِ وَالسَّفَرِ يَسْأَلُ الْعَرَبُ كَثِيرًا عَنْ حَالِكَ وَعَنْ أَهْلِكَ وَعَنْ بَلَدِكَ. وَلَا تَتَرَدَّدْ فِي أَنْ تَسْأَلَ أَنْتَ أَيْضًا؛ فَالسُّؤَالُ دَلِيلُ اهْتِمَامٍ وَيُقَرِّبُ بَيْنَ النَّاسِ. وَتُسْمَعُ فِي اللَّهْجَاتِ إِيشْ وَلِيشْ وَإِمْتَى، لَكِنَّ الْفُصْحَى تَقُولُ مَاذَا وَلِمَاذَا وَمَتَى.",
+   "en": "At school, at work and when travelling, Arabs often ask about how you are, your family and your country. Do not hesitate to ask too; questions show interest and bring people closer. In dialects you hear ēsh, lēsh and imta, but standard Arabic says mādhā, limādhā and matā.",
+   "id": "Di sekolah, kantor, dan saat bepergian orang Arab sering menanyakan kabar, keluarga, dan negara Anda. Jangan ragu bertanya juga; pertanyaan menunjukkan perhatian dan mendekatkan orang. Dalam dialek terdengar ēsh, lēsh, dan imta, tetapi bahasa baku memakai mādhā, limādhā, dan matā."
+  },
+  "grammar": {
+   "title": {
+    "ar": "كَلِمَةُ السُّؤَالِ أَوَّلًا",
+    "en": "The question word comes first",
+    "id": "Kata tanya di awal"
+   },
+   "body": {
+    "ar": "تَأْتِي أَدَاةُ الِاسْتِفْهَامِ فِي أَوَّلِ الْجُمْلَةِ ثُمَّ الْفِعْلُ أَوِ الِاسْمُ: مَتَى تَبْدَأُ؟ وَبَعْدَ كَمْ يَأْتِي اسْمٌ مُفْرَدٌ مَنْصُوبٌ: كَمْ كِتَابًا؟ وَلِلسُّؤَالِ بِنَعَمْ أَوْ لَا نَضَعُ هَلْ فِي أَوَّلِ الْجُمْلَةِ: هَلْ أَنْتَ طَالِبٌ؟",
+    "en": "The question word comes first, followed by the verb or noun: matā tabdaʾu? After kam an indefinite singular noun follows in the accusative: kam kitāban? For yes-or-no questions put hal at the beginning: hal anta ṭālib?",
+    "id": "Kata tanya berada di awal kalimat, lalu kata kerja atau kata benda: matā tabdaʾu? Setelah kam datang kata benda tunggal tak tentu berakusatif: kam kitāban? Untuk pertanyaan ya atau tidak taruh hal di awal: hal anta ṭālib?"
+   }
+  },
+  "items": [
+   {
+    "id": "arx111",
+    "target": "لِمَاذَا؟",
+    "translit": "limādhā?",
+    "tr": {
+     "ar": "سُؤَالٌ عَنِ السَّبَبِ",
+     "en": "Why?",
+     "id": "Mengapa?"
+    },
+    "example": {
+     "target": "لِمَاذَا أَنْتَ هُنَا؟",
+     "translit": "limādhā anta hunā?",
+     "tr": {
+      "ar": "مَا سَبَبُ وُجُودِكَ فِي هَذَا الْمَكَانِ؟",
+      "en": "Why are you here?",
+      "id": "Mengapa kamu di sini?"
+     }
+    },
+    "hint": {
+     "ar": "يُجَابُ عَنْهُ بِلِأَنَّ.",
+     "en": "It is answered with li-anna (because).",
+     "id": "Dijawab dengan li-anna (karena)."
+    }
+   },
+   {
+    "id": "arx112",
+    "target": "مَتَى؟",
+    "translit": "matā?",
+    "tr": {
+     "ar": "سُؤَالٌ عَنِ الْوَقْتِ",
+     "en": "When?",
+     "id": "Kapan?"
+    },
+    "example": {
+     "target": "مَتَى تَبْدَأُ الدِّرَاسَةَ؟",
+     "translit": "matā tabdaʾu d-dirāsa?",
+     "tr": {
+      "ar": "فِي أَيِّ وَقْتٍ تَبْدَأُ الدِّرَاسَةَ؟",
+      "en": "When do you start studying?",
+      "id": "Kapan kamu mulai belajar?"
+     }
+    }
+   },
+   {
+    "id": "arx113",
+    "target": "كَيْفَ؟",
+    "translit": "kayfa?",
+    "tr": {
+     "ar": "سُؤَالٌ عَنِ الْحَالِ أَوِ الطَّرِيقَةِ",
+     "en": "How?",
+     "id": "Bagaimana?"
+    },
+    "example": {
+     "target": "كَيْفَ حَالُكَ؟",
+     "translit": "kayfa ḥāluka?",
+     "tr": {
+      "ar": "مَا حَالُكَ الْيَوْمَ؟",
+      "en": "How are you?",
+      "id": "Apa kabar?"
+     }
+    },
+    "hint": {
+     "ar": "لِلْمَرْأَةِ كَيْفَ حَالُكِ؟",
+     "en": "To a woman say kayfa ḥāluki?",
+     "id": "Kepada perempuan katakan kayfa ḥāluki?"
+    }
+   },
+   {
+    "id": "arx114",
+    "target": "كَمْ؟",
+    "translit": "kam?",
+    "tr": {
+     "ar": "سُؤَالٌ عَنِ الْعَدَدِ",
+     "en": "How many? / how much?",
+     "id": "Berapa?"
+    },
+    "example": {
+     "target": "كَمْ كِتَابًا عِنْدَكَ؟",
+     "translit": "kam kitāban ʿindaka?",
+     "tr": {
+      "ar": "مَا عَدَدُ الْكُتُبِ الَّتِي تَمْلِكُهَا؟",
+      "en": "How many books do you have?",
+      "id": "Berapa buku yang kamu punya?"
+     }
+    },
+    "hint": {
+     "ar": "بَعْدَ كَمْ يَأْتِي الِاسْمُ مَنْصُوبًا مُفْرَدًا.",
+     "en": "After kam the noun is singular and accusative.",
+     "id": "Setelah kam kata benda tunggal dan berakusatif."
+    }
+   },
+   {
+    "id": "ar11n5",
+    "target": "مَنْ؟",
+    "translit": "man?",
+    "tr": {
+     "ar": "سُؤَالٌ عَنِ الشَّخْصِ",
+     "en": "Who?",
+     "id": "Siapa?"
+    },
+    "example": {
+     "target": "مَنْ هَذَا الرَّجُلُ؟",
+     "translit": "man hādhā r-rajul?",
+     "tr": {
+      "ar": "أُرِيدُ أَنْ أَعْرِفَ اسْمَ هَذَا الشَّخْصِ",
+      "en": "Who is this man?",
+      "id": "Siapa laki-laki ini?"
+     }
+    }
+   },
+   {
+    "id": "ar11n6",
+    "target": "مَاذَا؟",
+    "translit": "mādhā?",
+    "tr": {
+     "ar": "سُؤَالٌ عَنِ الشَّيْءِ",
+     "en": "What?",
+     "id": "Apa?"
+    },
+    "example": {
+     "target": "مَاذَا تَأْكُلُ فِي الصَّبَاحِ؟",
+     "translit": "mādhā taʾkulu fī ṣ-ṣabāḥ?",
+     "tr": {
+      "ar": "مَا الطَّعَامُ الَّذِي تَأْكُلُهُ صَبَاحًا؟",
+      "en": "What do you eat in the morning?",
+      "id": "Apa yang kamu makan di pagi hari?"
+     }
+    }
+   }
+  ],
+  "cloze": [
+   {
+    "sentence": "___ كِتَابًا عِنْدَكَ؟",
+    "answer": "كَمْ",
+    "wrong": [
+     "مَنْ",
+     "مَتَى"
+    ],
+    "tr": {
+     "ar": "كَمْ كِتَابًا عِنْدَكَ؟",
+     "en": "How many books do you have?",
+     "id": "Berapa buku yang kamu punya?"
+    },
+    "why": {
+     "ar": "نَسْأَلُ عَنِ الْعَدَدِ بِكَمْ؛ مَنْ لِلشَّخْصِ وَمَتَى لِلْوَقْتِ.",
+     "en": "We ask about number with kam; man is for a person and matā for time.",
+     "id": "Untuk jumlah dipakai kam; man untuk orang dan matā untuk waktu."
+    }
+   },
+   {
+    "sentence": "___ يَبْدَأُ الدَّرْسُ؟ غَدًا فِي الصَّبَاحِ",
+    "answer": "مَتَى",
+    "wrong": [
+     "مَنْ",
+     "كَمْ"
+    ],
+    "tr": {
+     "ar": "مَتَى يَبْدَأُ الدَّرْسُ؟ غَدًا فِي الصَّبَاحِ",
+     "en": "When does the lesson start? Tomorrow morning",
+     "id": "Kapan pelajaran dimulai? Besok pagi"
+    },
+    "why": {
+     "ar": "الْجَوَابُ غَدًا فِي الصَّبَاحِ وَقْتٌ، فَالسُّؤَالُ مَتَى.",
+     "en": "The answer tomorrow morning is a time, so the question word is matā.",
+     "id": "Jawaban 'besok pagi' adalah waktu, jadi kata tanyanya matā."
+    }
+   }
+  ],
+  "conversation": {
+   "context": {
+    "ar": "طَالِبٌ جَدِيدٌ يَسْأَلُ زَمِيلَهُ عَنِ الدَّرْسِ.",
+    "en": "A new student asks a classmate about the class.",
+    "id": "Seorang siswa baru bertanya kepada teman sekelas tentang pelajaran."
+   },
+   "turns": [
+    {
+     "who": "A",
+     "target": "مَتَى يَبْدَأُ الدَّرْسُ؟",
+     "tr": {
+      "ar": "مَتَى يَبْدَأُ الدَّرْسُ؟",
+      "en": "When does the class start?",
+      "id": "Kapan pelajaran dimulai?"
+     }
+    },
+    {
+     "who": "B",
+     "target": "غَدًا فِي الصَّبَاحِ.",
+     "tr": {
+      "ar": "غَدًا فِي الصَّبَاحِ.",
+      "en": "Tomorrow morning.",
+      "id": "Besok pagi."
+     }
+    },
+    {
+     "who": "A",
+     "target": "وَمَنْ مُعَلِّمُنَا؟",
+     "tr": {
+      "ar": "وَمَنْ مُعَلِّمُنَا؟",
+      "en": "And who is our teacher?",
+      "id": "Dan siapa guru kita?"
+     }
+    },
+    {
+     "who": "B",
+     "target": "مُعَلِّمُنَا الْأُسْتَاذُ خَالِدٌ.",
+     "tr": {
+      "ar": "مُعَلِّمُنَا الْأُسْتَاذُ خَالِدٌ.",
+      "en": "Our teacher is Mr Khalid.",
+      "id": "Guru kita Pak Khalid."
+     }
+    }
+   ],
+   "gap": 1,
+   "wrong": [
+    "أَنَا بِخَيْرٍ، شُكْرًا.",
+    "الْكِتَابُ عَلَى الطَّاوِلَةِ."
+   ],
+   "why": {
+    "ar": "مَتَى تُجَابُ بِوَقْتٍ: غَدًا فِي الصَّبَاحِ. الْجَوَابَانِ الْآخَرَانِ يُنَاسِبَانِ سُؤَالَ الْحَالِ وَسُؤَالَ الْمَكَانِ.",
+    "en": "Matā is answered with a time: tomorrow morning. The other replies suit how-are-you and where questions.",
+    "id": "Matā dijawab dengan waktu: besok pagi. Dua jawaban lain cocok untuk pertanyaan kabar dan tempat."
+   }
+  },
+  "summary": {
+   "ar": "تَعَلَّمْتَ سِتَّ أَدَوَاتِ اسْتِفْهَامٍ: لِمَاذَا، مَتَى، كَيْفَ، كَمْ، مَنْ، مَاذَا. وَتَذَكَّرْ أَنَّهَا تَأْتِي فِي أَوَّلِ الْجُمْلَةِ.",
+   "en": "You learned six question words: limādhā, matā, kayfa, kam, man, mādhā. Remember that they come at the start of the sentence.",
+   "id": "Anda belajar enam kata tanya: limādhā, matā, kayfa, kam, man, mādhā. Ingat bahwa mereka berada di awal kalimat."
+  }
+ },
+ {
+  "id": "ar-10",
+  "track": "ar",
+  "level": "elementary",
+  "order": 18,
+  "topic": "daily-verbs",
+  "icon": "🏃",
+  "title": {
+   "ar": "أَفْعَالٌ يَوْمِيَّةٌ",
+   "en": "Daily verbs",
+   "id": "Kata kerja sehari-hari"
+  },
+  "description": {
+   "ar": "الْفِعْلُ الْمُضَارِعُ مَعَ أَنَا وَأَنْتَ وَهُوَ.",
+   "en": "The present tense with I, you (m.) and he.",
+   "id": "Kala kini dengan saya, kamu (laki-laki), dan dia (laki-laki)."
+  },
+  "objectives": [
+   {
+    "ar": "أَسْتَطِيعُ أَنْ أَقُولَ مَا أَفْعَلُهُ: أَنَا آكُلُ وَأَنَا أَشْرَبُ.",
+    "en": "I can say what I do: I eat, I drink.",
+    "id": "Saya bisa mengatakan apa yang saya lakukan: saya makan, saya minum."
+   },
+   {
+    "ar": "أَسْتَطِيعُ أَنْ أُغَيِّرَ الضَّمِيرَ: أَنَا أَشْرَبُ، أَنْتَ تَشْرَبُ، هُوَ يَشْرَبُ.",
+    "en": "I can change the pronoun: I drink, you drink, he drinks.",
+    "id": "Saya bisa mengganti pronomina: saya minum, kamu minum, dia minum."
+   },
+   {
+    "ar": "أَسْتَطِيعُ أَنْ أَسْأَلَ: مَاذَا تَفْعَلُ؟",
+    "en": "I can ask: what are you doing?",
+    "id": "Saya bisa bertanya: kamu sedang apa?"
+   }
+  ],
+  "intro": {
+   "ar": "لِتَتَحَدَّثَ عَنْ حَيَاتِكَ تَحْتَاجُ إِلَى أَفْعَالٍ مِثْلَ آكُلُ وَأَشْرَبُ وَأَذْهَبُ. فِي هَذَا الدَّرْسِ تَرَى كَيْفَ يَتَغَيَّرُ أَوَّلُ الْفِعْلِ بِحَسَبِ مَنْ يَفْعَلُ.",
+   "en": "To talk about your life you need verbs such as I eat, I drink and I go. In this lesson you will see how the beginning of the verb changes depending on who does the action.",
+   "id": "Untuk membicarakan hidup Anda perlu kata kerja seperti saya makan, saya minum, dan saya pergi. Pada pelajaran ini Anda akan melihat bagaimana awal kata kerja berubah menurut pelakunya."
+  },
+  "culture": {
+   "ar": "الْفِعْلُ الْمُضَارِعُ يَدُلُّ عَلَى مَا يَحْدُثُ الْآنَ أَوْ كُلَّ يَوْمٍ. وَالْعَرَبُ يَقُولُونَ مَثَلًا: أَنَا أَشْرَبُ الشَّايَ كُلَّ صَبَاحٍ، فَيَعْرِفُ السَّامِعُ أَنَّهَا عَادَةٌ. وَالْأَفْعَالُ الْعَرَبِيَّةُ مَبْنِيَّةٌ عَلَى جَذْرٍ مِنْ ثَلَاثَةِ حُرُوفٍ، فَإِذَا عَرَفْتَ الْجَذْرَ سَهُلَ عَلَيْكَ فَهْمُ الْكَلِمَاتِ.",
+   "en": "The present tense describes what is happening now or every day. Arabs say for example: I drink tea every morning, and the listener understands it is a habit. Arabic verbs are built on a three-letter root, so once you know the root it is easier to understand related words.",
+   "id": "Kala kini menyatakan apa yang terjadi sekarang atau setiap hari. Orang Arab misalnya berkata: saya minum teh setiap pagi, dan pendengar paham itu kebiasaan. Kata kerja Arab dibangun dari akar tiga huruf, jadi bila Anda tahu akarnya, memahami kata-kata turunannya lebih mudah."
+  },
+  "grammar": {
+   "title": {
+    "ar": "بَادِئَاتُ الْمُضَارِعِ",
+    "en": "Present-tense prefixes",
+    "id": "Awalan kala kini"
+   },
+   "body": {
+    "ar": "نُضِيفُ حَرْفًا فِي أَوَّلِ الْجَذْرِ: لِـ أَنَا هَمْزَةٌ (أَشْرَبُ)، لِـ أَنْتَ تَاءٌ (تَشْرَبُ)، لِـ هُوَ يَاءٌ (يَشْرَبُ)، وَتَنْتَهِي الْأَفْعَالُ هُنَا بِالضَّمَّةِ. لِلْمُخَاطَبَةِ نَقُولُ أَنْتِ تَشْرَبِينَ، وَلِلْغَائِبَةِ هِيَ تَشْرَبُ.",
+    "en": "We add a letter before the root: ʾa- for I (ashrab), ta- for you (tashrab), ya- for he (yashrab); the verb ends in -u. To a woman say anti tashrabīn, and for she say hiya tashrab.",
+    "id": "Kita menambah huruf di awal akar: ʾa- untuk saya (ashrab), ta- untuk kamu (tashrab), ya- untuk dia (yashrab); kata kerja berakhir dengan -u. Untuk perempuan katakan anti tashrabīn, dan untuk dia perempuan hiya tashrab."
+   }
+  },
+  "items": [
+   {
+    "id": "arx101",
+    "target": "أَنَا آكُلُ",
+    "translit": "anā ākul",
+    "tr": {
+     "ar": "أَتَنَاوَلُ الطَّعَامَ",
+     "en": "I eat",
+     "id": "Saya makan"
+    },
+    "example": {
+     "target": "أَنَا آكُلُ الْأَرُزَّ",
+     "translit": "anā ākulu l-aruzz",
+     "tr": {
+      "ar": "أَتَنَاوَلُ الْأَرُزَّ عَلَى الْغَدَاءِ",
+      "en": "I eat rice",
+      "id": "Saya makan nasi"
+     }
+    }
+   },
+   {
+    "id": "arx102",
+    "target": "أَنَا أَشْرَبُ",
+    "translit": "anā ashrab",
+    "tr": {
+     "ar": "أَتَنَاوَلُ سَائِلًا",
+     "en": "I drink",
+     "id": "Saya minum"
+    },
+    "example": {
+     "target": "أَنَا أَشْرَبُ الْمَاءَ",
+     "translit": "anā ashrabu l-māʾ",
+     "tr": {
+      "ar": "أَتَنَاوَلُ الْمَاءَ لِأَنَّنِي عَطْشَانُ",
+      "en": "I drink water",
+      "id": "Saya minum air"
+     }
+    }
+   },
+   {
+    "id": "arx103",
+    "target": "أَنَا أَتَعَلَّمُ",
+    "translit": "anā ataʿallam",
+    "tr": {
+     "ar": "أَدْرُسُ شَيْئًا جَدِيدًا",
+     "en": "I learn",
+     "id": "Saya belajar"
+    },
+    "example": {
+     "target": "أَنَا أَتَعَلَّمُ الْعَرَبِيَّةَ",
+     "translit": "anā ataʿallamu l-ʿarabiyya",
+     "tr": {
+      "ar": "أَدْرُسُ اللُّغَةَ الْعَرَبِيَّةَ",
+      "en": "I am learning Arabic",
+      "id": "Saya belajar bahasa Arab"
+     }
+    }
+   },
+   {
+    "id": "arx104",
+    "target": "أَنَا أَذْهَبُ",
+    "translit": "anā adhhab",
+    "tr": {
+     "ar": "أَنْتَقِلُ إِلَى مَكَانٍ",
+     "en": "I go",
+     "id": "Saya pergi"
+    },
+    "example": {
+     "target": "أَنَا أَذْهَبُ إِلَى الْبَيْتِ",
+     "translit": "anā adhhabu ilā l-bayt",
+     "tr": {
+      "ar": "أَعُودُ إِلَى مَنْزِلِي",
+      "en": "I am going home",
+      "id": "Saya pergi ke rumah"
+     }
+    },
+    "hint": {
+     "ar": "إِلَى تُفِيدُ الِاتِّجَاهَ وَبَعْدَهَا اسْمٌ مَجْرُورٌ.",
+     "en": "Ilā means to and takes the genitive after it.",
+     "id": "Ilā berarti ke dan diikuti genitif."
+    }
+   },
+   {
+    "id": "ar10n5",
+    "target": "أَنْتَ تَقْرَأُ",
+    "translit": "anta taqraʾ",
+    "tr": {
+     "ar": "أَنْتَ تُطَالِعُ نَصًّا",
+     "en": "you (m.) read",
+     "id": "kamu (laki-laki) membaca"
+    },
+    "example": {
+     "target": "أَنْتَ تَقْرَأُ كِتَابًا جَدِيدًا",
+     "translit": "anta taqraʾu kitāban jadīdan",
+     "tr": {
+      "ar": "تُطَالِعُ كِتَابًا حَدِيثًا",
+      "en": "You are reading a new book",
+      "id": "Kamu sedang membaca buku baru"
+     }
+    },
+    "hint": {
+     "ar": "لِلْمَرْأَةِ أَنْتِ تَقْرَئِينَ.",
+     "en": "To a woman say anti taqraʾīn.",
+     "id": "Kepada perempuan katakan anti taqraʾīn."
+    }
+   },
+   {
+    "id": "ar10n6",
+    "target": "هُوَ يَعْمَلُ",
+    "translit": "huwa yaʿmal",
+    "tr": {
+     "ar": "هُوَ يَقُومُ بِعَمَلِهِ",
+     "en": "he works",
+     "id": "dia (laki-laki) bekerja"
+    },
+    "example": {
+     "target": "هُوَ يَعْمَلُ فِي مَدْرَسَةٍ",
+     "translit": "huwa yaʿmalu fī madrasa",
+     "tr": {
+      "ar": "وَظِيفَتُهُ فِي مَدْرَسَةٍ",
+      "en": "He works at a school",
+      "id": "Dia bekerja di sebuah sekolah"
+     }
+    },
+    "hint": {
+     "ar": "لِلْمُؤَنَّثَةِ هِيَ تَعْمَلُ.",
+     "en": "For she say hiya taʿmal.",
+     "id": "Untuk dia perempuan katakan hiya taʿmal."
+    }
+   }
+  ],
+  "cloze": [
+   {
+    "sentence": "أَنْتَ ___ الْقَهْوَةَ",
+    "answer": "تَشْرَبُ",
+    "wrong": [
+     "أَشْرَبُ",
+     "يَشْرَبُ"
+    ],
+    "tr": {
+     "ar": "أَنْتَ تَشْرَبُ الْقَهْوَةَ",
+     "en": "You drink coffee",
+     "id": "Kamu minum kopi"
+    },
+    "why": {
+     "ar": "أَنْتَ تُنَاسِبُهُ التَّاءُ؛ الْهَمْزَةُ لِأَنَا وَالْيَاءُ لِهُوَ.",
+     "en": "Anta takes the prefix ta-; the hamza is for I and ya- is for he.",
+     "id": "Anta memakai awalan ta-; hamzah untuk saya dan ya- untuk dia."
+    }
+   },
+   {
+    "sentence": "هُوَ ___ فِي شَرِكَةٍ",
+    "answer": "يَعْمَلُ",
+    "wrong": [
+     "أَعْمَلُ",
+     "تَعْمَلُ"
+    ],
+    "tr": {
+     "ar": "هُوَ يَعْمَلُ فِي شَرِكَةٍ",
+     "en": "He works in a company",
+     "id": "Dia bekerja di sebuah perusahaan"
+    },
+    "why": {
+     "ar": "هُوَ يَأْخُذُ الْيَاءَ؛ أَعْمَلُ لِأَنَا وَتَعْمَلُ لِأَنْتَ.",
+     "en": "Huwa takes ya-; aʿmal is for I and taʿmal is for you.",
+     "id": "Huwa memakai ya-; aʿmal untuk saya dan taʿmal untuk kamu."
+    }
+   }
+  ],
+  "conversation": {
+   "context": {
+    "ar": "صَدِيقَانِ يَتَحَدَّثَانِ عَلَى الْهَاتِفِ.",
+    "en": "Two friends talk on the phone.",
+    "id": "Dua teman berbincang lewat telepon."
+   },
+   "turns": [
+    {
+     "who": "A",
+     "target": "مَاذَا تَفْعَلُ الْآنَ؟",
+     "tr": {
+      "ar": "مَاذَا تَفْعَلُ الْآنَ؟",
+      "en": "What are you doing now?",
+      "id": "Kamu sedang apa sekarang?"
+     }
+    },
+    {
+     "who": "B",
+     "target": "أَنَا أَقْرَأُ كِتَابًا.",
+     "tr": {
+      "ar": "أَنَا أَقْرَأُ كِتَابًا.",
+      "en": "I am reading a book.",
+      "id": "Saya sedang membaca buku."
+     }
+    },
+    {
+     "who": "A",
+     "target": "جَيِّدٌ! وَأَخُوكَ، مَاذَا يَفْعَلُ؟",
+     "tr": {
+      "ar": "جَيِّدٌ! وَأَخُوكَ، مَاذَا يَفْعَلُ؟",
+      "en": "Good! And your brother, what is he doing?",
+      "id": "Bagus! Dan kakakmu, dia sedang apa?"
+     }
+    },
+    {
+     "who": "B",
+     "target": "هُوَ يَشْرَبُ الشَّايَ.",
+     "tr": {
+      "ar": "هُوَ يَشْرَبُ الشَّايَ.",
+      "en": "He is drinking tea.",
+      "id": "Dia sedang minum teh."
+     }
+    }
+   ],
+   "gap": 1,
+   "wrong": [
+    "أَنْتَ تَقْرَأُ كِتَابًا.",
+    "هُوَ يَقْرَأُ كِتَابًا."
+   ],
+   "why": {
+    "ar": "الْمُتَكَلِّمُ يَتَحَدَّثُ عَنْ نَفْسِهِ فَيَقُولُ أَنَا أَقْرَأُ بِالْهَمْزَةِ. أَنْتَ تَقْرَأُ وَهُوَ يَقْرَأُ لَا يَصْلُحَانِ لِأَنَّهُمَا لِشَخْصٍ آخَرَ.",
+    "en": "The speaker talks about himself, so he says anā aqraʾ with the hamza prefix. You read and he reads do not fit because they refer to someone else.",
+    "id": "Pembicara berbicara tentang dirinya, jadi ia berkata anā aqraʾ dengan awalan hamzah. 'Kamu membaca' dan 'dia membaca' tidak cocok karena merujuk orang lain."
+   }
+  },
+  "summary": {
+   "ar": "تَعَلَّمْتَ بَادِئَاتِ الْمُضَارِعِ: أَ لِـ أَنَا، تَ لِـ أَنْتَ، يَ لِـ هُوَ. وَتَعَلَّمْتَ أَفْعَالًا مِثْلَ آكُلُ وَأَشْرَبُ وَأَذْهَبُ.",
+   "en": "You learned the present prefixes: a- for I, ta- for you, ya- for he. You also learned verbs like eat, drink and go.",
+   "id": "Anda belajar awalan kala kini: a- untuk saya, ta- untuk kamu, ya- untuk dia. Anda juga belajar kata kerja seperti makan, minum, dan pergi."
+  }
+ },
+ {
+  "id": "ar-21",
+  "track": "ar",
+  "level": "elementary",
+  "order": 19,
+  "topic": "routine-time",
+  "icon": "⏰",
+  "title": {
+   "ar": "الرُّوتِينُ الْيَوْمِيُّ وَالسَّاعَةُ",
+   "en": "Daily routine and telling the time",
+   "id": "Rutinitas harian dan jam"
+  },
+  "description": {
+   "ar": "قَوْلُ السَّاعَةِ وَوَصْفُ أَحْدَاثِ الْيَوْمِ.",
+   "en": "Telling the time and describing the events of your day.",
+   "id": "Menyebut jam dan menggambarkan kegiatan sehari-hari."
+  },
+  "objectives": [
+   {
+    "ar": "أَسْتَطِيعُ أَنْ أَسْأَلَ: مَا السَّاعَةُ؟ وَأَنْ أُجِيبَ.",
+    "en": "I can ask what time it is and answer.",
+    "id": "Saya bisa bertanya jam berapa dan menjawabnya."
+   },
+   {
+    "ar": "أَسْتَطِيعُ أَنْ أَقُولَ وَالنِّصْفُ وَإِلَّا رُبْعًا.",
+    "en": "I can say half past and quarter to.",
+    "id": "Saya bisa mengatakan setengah dan kurang seperempat."
+   },
+   {
+    "ar": "أَسْتَطِيعُ أَنْ أَصِفَ عَمَلَيْنِ مِنْ رُوتِينِي: أَسْتَيْقِظُ وَأَتَنَاوَلُ الْفُطُورَ.",
+    "en": "I can describe two routine actions: I wake up and I have breakfast.",
+    "id": "Saya bisa menggambarkan dua kegiatan rutin: saya bangun dan saya sarapan."
+   }
+  ],
+  "intro": {
+   "ar": "فِي الْحَيَاةِ الْيَوْمِيَّةِ نَحْتَاجُ إِلَى السَّاعَةِ لِلْمَوَاعِيدِ وَالْمَوَاصَلَاتِ. سَتَتَعَلَّمُ أَرْقَامَ السَّاعَةِ (وَهِيَ أَعْدَادٌ تَرْتِيبِيَّةٌ) وَأَفْعَالَ الرُّوتِينِ.",
+   "en": "In daily life we need the time for appointments and transport. You will learn the numbers used for clock hours (they are ordinal numbers) and routine verbs.",
+   "id": "Dalam kehidupan sehari-hari kita butuh jam untuk janji dan transportasi. Anda akan belajar angka jam (berupa bilangan tingkat) dan kata kerja rutinitas."
+  },
+  "culture": {
+   "ar": "تَبْدَأُ كَثِيرٌ مِنَ الْأَعْمَالِ فِي الْعَالَمِ الْعَرَبِيِّ مُبَكِّرًا، وَيَكُونُ الْغَدَاءُ الْوَجْبَةَ الرَّئِيسِيَّةَ فِي أَوَاخِرِ النَّهَارِ، وَالْعَشَاءُ مُتَأَخِّرًا عِنْدَ بَعْضِ الْأُسَرِ. وَيُحَدِّدُ الْأَذَانُ أَوْقَاتَ الصَّلَاةِ فَيَرْتَبِطُ بِهِ جَدْوَلُ يَوْمِ كَثِيرِينَ.",
+   "en": "Many jobs in the Arab world begin early, lunch is often the main meal in the afternoon and dinner is late in some families. The call to prayer marks the prayer times, and many people organise their day around it.",
+   "id": "Banyak pekerjaan di dunia Arab dimulai pagi-pagi, makan siang sering menjadi makan utama pada sore hari, dan makan malam larut pada sebagian keluarga. Azan menandai waktu salat, dan banyak orang mengatur harinya mengikutinya."
+  },
+  "grammar": {
+   "title": {
+    "ar": "السَّاعَةُ بِالْأَعْدَادِ التَّرْتِيبِيَّةِ",
+    "en": "The hour uses ordinal numbers",
+    "id": "Jam memakai bilangan tingkat"
+   },
+   "body": {
+    "ar": "كَلِمَةُ السَّاعَةِ مُؤَنَّثَةٌ فَنَسْتَعْمِلُ الْعَدَدَ التَّرْتِيبِيَّ الْمُؤَنَّثَ: الْأُولَى، الثَّانِيَةُ، الثَّالِثَةُ، الرَّابِعَةُ، الْخَامِسَةُ، السَّادِسَةُ، السَّابِعَةُ، الثَّامِنَةُ، التَّاسِعَةُ، الْعَاشِرَةُ. نُضِيفُ وَالنِّصْفُ لِنِصْفِ السَّاعَةِ وَوَالرُّبْعُ لِرُبْعِهَا، وَإِلَّا رُبْعًا قَبْلَ السَّاعَةِ بِرُبْعٍ.",
+    "en": "The word sāʿa is feminine, so the ordinal is feminine: al-ūlā, ath-thāniya, ath-thālitha, ar-rābiʿa, al-khāmisa, as-sādisa, as-sābiʿa, ath-thāmina, at-tāsiʿa, al-ʿāshira. Add wa-n-niṣf for half past, wa-r-rubʿ for quarter past, and illā rubʿan for quarter to.",
+    "id": "Kata sāʿa feminin, jadi bilangan tingkatnya feminin: al-ūlā, ath-thāniya, ath-thālitha, ar-rābiʿa, al-khāmisa, as-sādisa, as-sābiʿa, ath-thāmina, at-tāsiʿa, al-ʿāshira. Tambahkan wa-n-niṣf untuk setengah, wa-r-rubʿ untuk lewat seperempat, dan illā rubʿan untuk kurang seperempat."
+   }
+  },
+  "items": [
+   {
+    "id": "ar21n1",
+    "target": "مَا السَّاعَةُ؟",
+    "translit": "mā s-sāʿa?",
+    "tr": {
+     "ar": "سُؤَالٌ عَنِ الْوَقْتِ الْآنَ",
+     "en": "What time is it?",
+     "id": "Jam berapa sekarang?"
+    },
+    "example": {
+     "target": "عَفْوًا، مَا السَّاعَةُ الْآنَ؟",
+     "translit": "ʿafwan, mā s-sāʿatu l-ān?",
+     "tr": {
+      "ar": "لَوْ سَمَحْتَ، كَمِ الْوَقْتُ؟",
+      "en": "Excuse me, what time is it now?",
+      "id": "Permisi, jam berapa sekarang?"
+     }
+    }
+   },
+   {
+    "id": "ar21n2",
+    "target": "السَّاعَةُ الثَّامِنَةُ",
+    "translit": "as-sāʿatu th-thāmina",
+    "tr": {
+     "ar": "الْوَقْتُ ثَمَانِي سَاعَاتٍ",
+     "en": "It is eight o'clock",
+     "id": "Pukul delapan"
+    },
+    "example": {
+     "target": "أَسْتَيْقِظُ فِي السَّاعَةِ السَّابِعَةِ",
+     "translit": "astayqiẓu fī s-sāʿati s-sābiʿa",
+     "tr": {
+      "ar": "يَبْدَأُ يَوْمِي عِنْدَ السَّابِعَةِ",
+      "en": "I wake up at seven o'clock",
+      "id": "Saya bangun pukul tujuh"
+     }
+    },
+    "hint": {
+     "ar": "بَعْدَ فِي يَكُونُ الْعَدَدُ مَجْرُورًا.",
+     "en": "After fī the words take the genitive: as-sāʿati s-sābiʿa.",
+     "id": "Setelah fī katanya berharakat genitif: as-sāʿati s-sābiʿa."
+    }
+   },
+   {
+    "id": "ar21n3",
+    "target": "التَّاسِعَةُ وَالنِّصْفُ",
+    "translit": "at-tāsiʿatu wa-n-niṣf",
+    "tr": {
+     "ar": "الْوَقْتُ تِسْعُ سَاعَاتٍ وَنِصْفٌ",
+     "en": "half past nine",
+     "id": "pukul sembilan setengah"
+    },
+    "example": {
+     "target": "أَتَنَاوَلُ الْغَدَاءَ فِي الثَّانِيَةِ وَالنِّصْفِ",
+     "translit": "atanāwalu l-ghadāʾa fī th-thāniyati wa-n-niṣf",
+     "tr": {
+      "ar": "أَأْكُلُ وَجْبَةَ النَّهَارِ بَعْدَ الظُّهْرِ",
+      "en": "I have lunch at half past two",
+      "id": "Saya makan siang pukul dua setengah"
+     }
+    }
+   },
+   {
+    "id": "ar21n4",
+    "target": "الْخَامِسَةُ إِلَّا رُبْعًا",
+    "translit": "al-khāmisatu illā rubʿan",
+    "tr": {
+     "ar": "قَبْلَ الْخَامِسَةِ بِخَمْسَ عَشْرَةَ دَقِيقَةً",
+     "en": "quarter to five",
+     "id": "pukul lima kurang seperempat"
+    },
+    "example": {
+     "target": "أَنَامُ فِي الْعَاشِرَةِ إِلَّا رُبْعًا",
+     "translit": "anāmu fī l-ʿāshirati illā rubʿan",
+     "tr": {
+      "ar": "أَذْهَبُ إِلَى النَّوْمِ قَبْلَ الْعَاشِرَةِ بِرُبْعِ سَاعَةٍ",
+      "en": "I go to sleep at quarter to ten",
+      "id": "Saya tidur pukul sepuluh kurang seperempat"
+     }
+    },
+    "hint": {
+     "ar": "وَبَعْدَ إِلَّا يَأْتِي رُبْعًا مَنْصُوبًا.",
+     "en": "After illā the word rubʿan is accusative.",
+     "id": "Setelah illā kata rubʿan berakusatif."
+    }
+   },
+   {
+    "id": "ar21n5",
+    "target": "أَسْتَيْقِظُ",
+    "translit": "astayqiẓu",
+    "tr": {
+     "ar": "أَتْرُكُ النَّوْمَ",
+     "en": "I wake up",
+     "id": "Saya bangun"
+    },
+    "example": {
+     "target": "أَسْتَيْقِظُ مُبَكِّرًا كُلَّ يَوْمٍ",
+     "translit": "astayqiẓu mubakkiran kulla yawm",
+     "tr": {
+      "ar": "أَنْهَضُ مِنَ النَّوْمِ فِي وَقْتٍ مُبَكِّرٍ",
+      "en": "I wake up early every day",
+      "id": "Saya bangun pagi-pagi setiap hari"
+     }
+    }
+   },
+   {
+    "id": "ar21n6",
+    "target": "أَتَنَاوَلُ الْفُطُورَ",
+    "translit": "atanāwalu l-futūr",
+    "tr": {
+     "ar": "آكُلُ وَجْبَةَ الصَّبَاحِ",
+     "en": "I have breakfast",
+     "id": "Saya sarapan"
+    },
+    "example": {
+     "target": "أَتَنَاوَلُ الْفُطُورَ مَعَ الْعَائِلَةِ",
+     "translit": "atanāwalu l-futūra maʿa l-ʿāʾila",
+     "tr": {
+      "ar": "آكُلُ مَعَ أَهْلِي فِي الصَّبَاحِ",
+      "en": "I have breakfast with the family",
+      "id": "Saya sarapan bersama keluarga"
+     }
+    }
+   }
+  ],
+  "cloze": [
+   {
+    "sentence": "أَسْتَيْقِظُ فِي السَّاعَةِ ___",
+    "answer": "السَّابِعَةِ",
+    "wrong": [
+     "السَّابِعِ",
+     "الْبَيْتِ"
+    ],
+    "tr": {
+     "ar": "أَسْتَيْقِظُ فِي السَّاعَةِ السَّابِعَةِ",
+     "en": "I wake up at seven o'clock",
+     "id": "Saya bangun pukul tujuh"
+    },
+    "why": {
+     "ar": "السَّاعَةُ مُؤَنَّثَةٌ فَيَلْزَمُ السَّابِعَةُ؛ السَّابِعِ مُذَكَّرٌ وَالْبَيْتُ لَيْسَ عَدَدًا.",
+     "en": "Sāʿa is feminine so we need as-sābiʿa; as-sābiʿ is masculine and al-bayt is not a number.",
+     "id": "Sāʿa feminin sehingga diperlukan as-sābiʿa; as-sābiʿ maskulin dan al-bayt bukan angka."
+    }
+   },
+   {
+    "sentence": "أَتَنَاوَلُ ___ فِي الصَّبَاحِ",
+    "answer": "الْفُطُورَ",
+    "wrong": [
+     "الْعَشَاءَ",
+     "النَّوْمَ"
+    ],
+    "tr": {
+     "ar": "أَتَنَاوَلُ الْفُطُورَ فِي الصَّبَاحِ",
+     "en": "I have breakfast in the morning",
+     "id": "Saya sarapan pada pagi hari"
+    },
+    "why": {
+     "ar": "وَجْبَةُ الصَّبَاحِ هِيَ الْفُطُورُ؛ الْعَشَاءُ لِلَّيْلِ وَالنَّوْمُ لَيْسَ طَعَامًا.",
+     "en": "The morning meal is al-futūr; dinner is for the evening and sleep is not food.",
+     "id": "Makan pagi adalah al-futūr; makan malam untuk malam hari dan tidur bukan makanan."
+    }
+   }
+  ],
+  "conversation": {
+   "context": {
+    "ar": "رَجُلٌ يَسْأَلُ شَخْصًا فِي الشَّارِعِ عَنِ الْوَقْتِ.",
+    "en": "A man asks someone in the street for the time.",
+    "id": "Seorang pria menanyakan waktu kepada orang di jalan."
+   },
+   "turns": [
+    {
+     "who": "A",
+     "target": "عَفْوًا، مَا السَّاعَةُ الْآنَ؟",
+     "tr": {
+      "ar": "عَفْوًا، مَا السَّاعَةُ الْآنَ؟",
+      "en": "Excuse me, what time is it now?",
+      "id": "Permisi, jam berapa sekarang?"
+     }
+    },
+    {
+     "who": "B",
+     "target": "السَّاعَةُ الثَّامِنَةُ وَالنِّصْفُ.",
+     "tr": {
+      "ar": "السَّاعَةُ الثَّامِنَةُ وَالنِّصْفُ.",
+      "en": "It is half past eight.",
+      "id": "Pukul delapan setengah."
+     }
+    },
+    {
+     "who": "A",
+     "target": "شُكْرًا لَكَ، أَنَا مُتَأَخِّرٌ!",
+     "tr": {
+      "ar": "شُكْرًا لَكَ، أَنَا مُتَأَخِّرٌ!",
+      "en": "Thank you, I am late!",
+      "id": "Terima kasih, saya terlambat!"
+     }
+    },
+    {
+     "who": "B",
+     "target": "عَفْوًا، مَعَ السَّلَامَةِ.",
+     "tr": {
+      "ar": "عَفْوًا، مَعَ السَّلَامَةِ.",
+      "en": "You're welcome, goodbye.",
+      "id": "Sama-sama, selamat jalan."
+     }
+    }
+   ],
+   "gap": 1,
+   "wrong": [
+    "الْيَوْمُ يَوْمُ الْأَحَدِ.",
+    "أَنَا أَشْرَبُ الْقَهْوَةَ."
+   ],
+   "why": {
+    "ar": "الْجَوَابُ الصَّحِيحُ يَذْكُرُ السَّاعَةَ. الْجَوَابَانِ الْآخَرَانِ يُجِيبَانِ عَنْ أَيِّ يَوْمٍ وَعَنْ نَشَاطٍ.",
+    "en": "The right reply states the time. The other replies answer what day it is and what someone is doing.",
+    "id": "Jawaban yang benar menyebut jam. Dua jawaban lain menjawab hari apa dan sedang apa."
+   }
+  },
+  "summary": {
+   "ar": "تَعَلَّمْتَ أَنْ تَسْأَلَ عَنِ السَّاعَةِ وَأَنْ تَقُولَ وَالنِّصْفُ وَإِلَّا رُبْعًا. وَتَعَلَّمْتَ أَفْعَالًا مِنَ الرُّوتِينِ الْيَوْمِيِّ.",
+   "en": "You learned to ask for the time and to say half past and quarter to. You also learned verbs from the daily routine.",
+   "id": "Anda belajar menanyakan jam dan mengatakan setengah dan kurang seperempat. Anda juga belajar kata kerja rutinitas harian."
+  }
+ },
+ {
+  "id": "ar-22",
+  "track": "ar",
+  "level": "elementary",
+  "order": 20,
+  "topic": "possession",
+  "icon": "🔑",
+  "title": {
+   "ar": "الْمِلْكِيَّةُ: عِنْدِي وَالْإِضَافَةُ",
+   "en": "Possession: ʿindī and the iḍāfa",
+   "id": "Kepemilikan: ʿindī dan iḍāfa"
+  },
+  "description": {
+   "ar": "التَّعْبِيرُ عَمَّا نَمْلِكُهُ بِعِنْدَ وَلَدَى وَالْإِضَافَةِ.",
+   "en": "Expressing what we have with ʿinda, lada and the iḍāfa construction.",
+   "id": "Menyatakan apa yang kita miliki dengan ʿinda, lada, dan konstruksi iḍāfa."
+  },
+  "objectives": [
+   {
+    "ar": "أَسْتَطِيعُ أَنْ أَقُولَ: عِنْدِي كِتَابٌ.",
+    "en": "I can say: I have a book.",
+    "id": "Saya bisa mengatakan: saya punya buku."
+   },
+   {
+    "ar": "أَسْتَطِيعُ أَنْ أَسْأَلَ: هَلْ عِنْدَكَ قَلَمٌ؟",
+    "en": "I can ask: do you have a pen?",
+    "id": "Saya bisa bertanya: apakah kamu punya pulpen?"
+   },
+   {
+    "ar": "أَسْتَطِيعُ أَنْ أَقُولَ كِتَابُ الطَّالِبِ لِلْمِلْكِيَّةِ.",
+    "en": "I can say the student's book for ownership.",
+    "id": "Saya bisa mengatakan kitābu ṭ-ṭālib untuk kepemilikan."
+   }
+  ],
+  "intro": {
+   "ar": "لَيْسَ فِي الْعَرَبِيَّةِ فِعْلٌ بِمَعْنَى يَمْلِكُ فِي الْمُضَارِعِ؛ بَلْ نَقُولُ عِنْدِي أَيْ عِنْدَ + يَاءُ الْمُتَكَلِّمِ. وَلِلْمِلْكِيَّةِ بَيْنَ اسْمَيْنِ نَسْتَعْمِلُ الْإِضَافَةَ: بَيْتُ الْمُعَلِّمِ.",
+   "en": "Arabic has no verb meaning to have in the present; instead we say ʿindī, literally at me. To show ownership between two nouns we use the iḍāfa: baytu l-muʿallim, the teacher's house.",
+   "id": "Bahasa Arab tidak punya kata kerja 'memiliki' pada kala kini; sebagai gantinya dikatakan ʿindī, secara harfiah 'di sisiku'. Untuk kepemilikan antara dua kata benda dipakai iḍāfa: baytu l-muʿallim, rumah guru."
+  },
+  "culture": {
+   "ar": "عِنْدَ وَلَدَى كِلَاهُمَا يُسْتَعْمَلُ، لَكِنَّ لَدَى أَكْثَرُ رَسْمِيَّةً وَتُسْمَعُ فِي الْمُرَاسَلَاتِ وَالْأَخْبَارِ: لَدَيْنَا مَوْعِدٌ. أَمَّا فِي الْحَيَاةِ الْيَوْمِيَّةِ فَعِنْدِي أَشْهَرُ. وَالْإِضَافَةُ أَسَاسِيَّةٌ فِي الْعَرَبِيَّةِ لِأَنَّهَا تَبْنِي أَسْمَاءَ كَثِيرَةً مِثْلَ مَدِينَةِ الْقَاهِرَةِ وَكُرَةِ الْقَدَمِ.",
+   "en": "Both ʿinda and lada are used, but lada is more formal and appears in letters and news: ladaynā mawʿid (we have an appointment). In daily life ʿindī is more common. The iḍāfa is fundamental in Arabic because it builds many names such as madīnat al-Qāhira and kurat al-qadam.",
+   "id": "ʿInda dan lada sama-sama dipakai, tetapi lada lebih resmi dan muncul di surat dan berita: ladaynā mawʿid (kami punya janji). Dalam keseharian ʿindī lebih umum. Iḍāfa sangat mendasar karena membentuk banyak nama seperti madīnat al-Qāhira dan kurat al-qadam."
+  },
+  "grammar": {
+   "title": {
+    "ar": "عِنْدَ + ضَمِيرٌ، وَالْإِضَافَةُ",
+    "en": "ʿInda + pronoun, and the iḍāfa",
+    "id": "ʿInda + pronomina, dan iḍāfa"
+   },
+   "body": {
+    "ar": "عِنْدِي، عِنْدَكَ (لِلْمُذَكَّرِ)، عِنْدَكِ (لِلْمُؤَنَّثِ)، عِنْدَهُ، عِنْدَهَا. وَفِي الْإِضَافَةِ الِاسْمُ الْأَوَّلُ لَا يَأْخُذُ أَلْ وَلَا تَنْوِينًا، وَالِاسْمُ الثَّانِي يُجَرُّ: كِتَابُ الطَّالِبِ. فَلَا نَقُولُ الْكِتَابُ الطَّالِبِ.",
+    "en": "ʿindī (my), ʿindaka (you, m.), ʿindaki (you, f.), ʿindahu (he), ʿindahā (she). In an iḍāfa the first noun takes neither al- nor tanwīn, and the second noun is genitive: kitābu ṭ-ṭālib. We do not say al-kitābu ṭ-ṭālib.",
+    "id": "ʿIndī (saya), ʿindaka (kamu laki-laki), ʿindaki (kamu perempuan), ʿindahu (dia laki-laki), ʿindahā (dia perempuan). Dalam iḍāfa kata pertama tidak memakai al- maupun tanwīn, dan kata kedua berharakat genitif: kitābu ṭ-ṭālib. Tidak dikatakan al-kitābu ṭ-ṭālib."
+   }
+  },
+  "items": [
+   {
+    "id": "ar22n1",
+    "target": "عِنْدِي كِتَابٌ",
+    "translit": "ʿindī kitāb",
+    "tr": {
+     "ar": "أَمْلِكُ كِتَابًا",
+     "en": "I have a book",
+     "id": "Saya punya buku"
+    },
+    "example": {
+     "target": "عِنْدِي أَخٌ وَأُخْتٌ",
+     "translit": "ʿindī akhun wa-ukht",
+     "tr": {
+      "ar": "لَدَيَّ أَخٌ وَاحِدٌ وَأُخْتٌ وَاحِدَةٌ",
+      "en": "I have a brother and a sister",
+      "id": "Saya punya satu kakak laki-laki dan satu saudari"
+     }
+    }
+   },
+   {
+    "id": "ar22n2",
+    "target": "هَلْ عِنْدَكَ قَلَمٌ؟",
+    "translit": "hal ʿindaka qalam?",
+    "tr": {
+     "ar": "سُؤَالٌ لِرَجُلٍ عَمَّا يَمْلِكُ",
+     "en": "Do you (m.) have a pen?",
+     "id": "Apakah kamu (laki-laki) punya pulpen?"
+    },
+    "example": {
+     "target": "هَلْ عِنْدَكِ وَقْتٌ يَا مَرْيَمُ؟",
+     "translit": "hal ʿindaki waqt yā maryam?",
+     "tr": {
+      "ar": "سُؤَالٌ لِامْرَأَةٍ عَنِ الْوَقْتِ",
+      "en": "Do you have time, Maryam?",
+      "id": "Apakah kamu punya waktu, Maryam?"
+     }
+    },
+    "hint": {
+     "ar": "لِلْمَرْأَةِ نَقُولُ عِنْدَكِ بِكَسْرِ الْكَافِ.",
+     "en": "To a woman use ʿindaki with a kasra on the k.",
+     "id": "Kepada perempuan pakai ʿindaki dengan kasrah pada k."
+    }
+   },
+   {
+    "id": "ar22n3",
+    "target": "لَدَيْهِ سَيَّارَةٌ",
+    "translit": "ladayhi sayyāra",
+    "tr": {
+     "ar": "هُوَ يَمْلِكُ سَيَّارَةً",
+     "en": "He has a car",
+     "id": "Dia punya mobil"
+    },
+    "example": {
+     "target": "لَدَيْهَا أُخْتٌ فِي الْقَاهِرَةِ",
+     "translit": "ladayhā ukhtun fī l-Qāhira",
+     "tr": {
+      "ar": "لَهَا أُخْتٌ تَعِيشُ فِي الْقَاهِرَةِ",
+      "en": "She has a sister in Cairo",
+      "id": "Dia (perempuan) punya saudari di Kairo"
+     }
+    },
+    "hint": {
+     "ar": "لَدَى أَرْسَمُ مِنْ عِنْدَ وَتَرْبِطُ بِالْكِتَابَةِ.",
+     "en": "Lada is more formal than ʿinda and is common in writing.",
+     "id": "Lada lebih resmi daripada ʿinda dan umum dalam tulisan."
+    }
+   },
+   {
+    "id": "ar22n4",
+    "target": "كِتَابُ الطَّالِبِ",
+    "translit": "kitābu ṭ-ṭālib",
+    "tr": {
+     "ar": "الْكِتَابُ الَّذِي يَمْلِكُهُ الطَّالِبُ",
+     "en": "the student's book",
+     "id": "buku siswa"
+    },
+    "example": {
+     "target": "هَذَا كِتَابُ الطَّالِبِ",
+     "translit": "hādhā kitābu ṭ-ṭālib",
+     "tr": {
+      "ar": "أُشِيرُ إِلَى كِتَابٍ يَخُصُّ الطَّالِبَ",
+      "en": "This is the student's book",
+      "id": "Ini buku siswa itu"
+     }
+    },
+    "hint": {
+     "ar": "كِتَابُ بِلَا أَلْ لِأَنَّهُ الْأَوَّلُ فِي الْإِضَافَةِ.",
+     "en": "Kitāb has no al- because it is the first word of the iḍāfa.",
+     "id": "Kitāb tanpa al- karena kata pertama dalam iḍāfa."
+    }
+   },
+   {
+    "id": "ar22n5",
+    "target": "بَيْتُ الْمُعَلِّمِ",
+    "translit": "baytu l-muʿallim",
+    "tr": {
+     "ar": "الْبَيْتُ الَّذِي يَسْكُنُهُ الْمُعَلِّمُ",
+     "en": "the teacher's house",
+     "id": "rumah guru"
+    },
+    "example": {
+     "target": "بَيْتُ الْمُعَلِّمِ قَرِيبٌ مِنَ الْمَدْرَسَةِ",
+     "translit": "baytu l-muʿallimi qarībun mina l-madrasa",
+     "tr": {
+      "ar": "لَا يَبْعُدُ مَنْزِلُهُ عَنِ الْمَدْرَسَةِ",
+      "en": "The teacher's house is near the school",
+      "id": "Rumah guru dekat dengan sekolah"
+     }
+    }
+   },
+   {
+    "id": "ar22n6",
+    "target": "مِفْتَاحُ السَّيَّارَةِ",
+    "translit": "miftāḥu s-sayyāra",
+    "tr": {
+     "ar": "أَدَاةٌ نَفْتَحُ بِهَا السَّيَّارَةَ",
+     "en": "the car key",
+     "id": "kunci mobil"
+    },
+    "example": {
+     "target": "مِفْتَاحُ السَّيَّارَةِ عَلَى الطَّاوِلَةِ فِي الْمَطْبَخِ",
+     "translit": "miftāḥu s-sayyārati ʿalā ṭ-ṭāwilati fī l-maṭbakh",
+     "tr": {
+      "ar": "تَرَكْتُ الْمِفْتَاحَ فَوْقَ طَاوِلَةِ الْمَطْبَخِ",
+      "en": "The car key is on the table in the kitchen",
+      "id": "Kunci mobil ada di atas meja di dapur"
+     }
+    }
+   }
+  ],
+  "cloze": [
+   {
+    "sentence": "هَذَا ___ الطَّالِبِ",
+    "answer": "كِتَابُ",
+    "wrong": [
+     "الْكِتَابُ",
+     "كِتَابٌ"
+    ],
+    "tr": {
+     "ar": "هَذَا كِتَابُ الطَّالِبِ",
+     "en": "This is the student's book",
+     "id": "Ini buku siswa itu"
+    },
+    "why": {
+     "ar": "الِاسْمُ الْأَوَّلُ فِي الْإِضَافَةِ لَا يَأْخُذُ أَلْ وَلَا تَنْوِينًا.",
+     "en": "The first noun of an iḍāfa takes neither al- nor tanwīn.",
+     "id": "Kata pertama iḍāfa tidak memakai al- dan tanwīn."
+    }
+   },
+   {
+    "sentence": "هَلْ ___ سَيَّارَةٌ يَا خَالِدُ؟",
+    "answer": "عِنْدَكَ",
+    "wrong": [
+     "عِنْدِي",
+     "عِنْدَكِ"
+    ],
+    "tr": {
+     "ar": "هَلْ عِنْدَكَ سَيَّارَةٌ يَا خَالِدُ؟",
+     "en": "Do you have a car, Khalid?",
+     "id": "Apakah kamu punya mobil, Khalid?"
+    },
+    "why": {
+     "ar": "خَالِدٌ رَجُلٌ يُخَاطَبُ فَنَقُولُ عِنْدَكَ؛ عِنْدِي لِلْمُتَكَلِّمِ وَعِنْدَكِ لِلْمَرْأَةِ.",
+     "en": "Khalid is a man being addressed, so ʿindaka; ʿindī is for I and ʿindaki is for a woman.",
+     "id": "Khalid laki-laki yang diajak bicara, jadi ʿindaka; ʿindī untuk saya dan ʿindaki untuk perempuan."
+    }
+   }
+  ],
+  "conversation": {
+   "context": {
+    "ar": "فِي الصَّفِّ، طَالِبٌ يَطْلُبُ قَلَمًا مِنْ زَمِيلِهِ.",
+    "en": "In class, a student asks a classmate for a pen.",
+    "id": "Di kelas, seorang siswa meminjam pulpen dari temannya."
+   },
+   "turns": [
+    {
+     "who": "A",
+     "target": "هَلْ عِنْدَكَ قَلَمٌ؟",
+     "tr": {
+      "ar": "هَلْ عِنْدَكَ قَلَمٌ؟",
+      "en": "Do you have a pen?",
+      "id": "Apakah kamu punya pulpen?"
+     }
+    },
+    {
+     "who": "B",
+     "target": "نَعَمْ، عِنْدِي قَلَمٌ. تَفَضَّلْ.",
+     "tr": {
+      "ar": "نَعَمْ، عِنْدِي قَلَمٌ. تَفَضَّلْ.",
+      "en": "Yes, I have a pen. Here you are.",
+      "id": "Ya, saya punya pulpen. Silakan."
+     }
+    },
+    {
+     "who": "A",
+     "target": "شُكْرًا جَزِيلًا!",
+     "tr": {
+      "ar": "شُكْرًا جَزِيلًا!",
+      "en": "Thank you very much!",
+      "id": "Terima kasih banyak!"
+     }
+    },
+    {
+     "who": "B",
+     "target": "عَفْوًا.",
+     "tr": {
+      "ar": "عَفْوًا.",
+      "en": "You're welcome.",
+      "id": "Sama-sama."
+     }
+    }
+   ],
+   "gap": 1,
+   "wrong": [
+    "نَعَمْ، عِنْدَكَ قَلَمٌ.",
+    "نَعَمْ، أَنْتَ طَالِبٌ."
+   ],
+   "why": {
+    "ar": "الْمُجِيبُ يَتَحَدَّثُ عَنْ نَفْسِهِ فَيَقُولُ عِنْدِي. عِنْدَكَ تَعْنِي أَنَّكَ تَمْلِكُ، وَأَنْتَ طَالِبٌ لَا يُجِيبُ عَنِ السُّؤَالِ.",
+    "en": "The respondent speaks about himself, so he says ʿindī. ʿIndaka means you have and you are a student does not answer the question.",
+    "id": "Penjawab berbicara tentang dirinya, jadi ia berkata ʿindī. ʿIndaka berarti 'kamu punya' dan 'kamu siswa' tidak menjawab pertanyaan."
+   }
+  },
+  "summary": {
+   "ar": "تَعَلَّمْتَ أَنْ تَقُولَ عِنْدِي وَعِنْدَكَ وَلَدَيْهِ لِلْمِلْكِيَّةِ. وَتَعَلَّمْتَ الْإِضَافَةَ مِثْلَ كِتَابِ الطَّالِبِ.",
+   "en": "You learned ʿindī, ʿindaka and ladayhi for ownership. You also learned the iḍāfa as in kitāb aṭ-ṭālib.",
+   "id": "Anda belajar ʿindī, ʿindaka, dan ladayhi untuk kepemilikan. Anda juga belajar iḍāfa seperti kitāb aṭ-ṭālib."
+  }
+ }
+]

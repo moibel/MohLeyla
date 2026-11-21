@@ -1,0 +1,2857 @@
+[
+ {
+  "id": "id-05",
+  "track": "id",
+  "level": "elementary",
+  "order": 11,
+  "topic": "food-shopping",
+  "icon": "🍚",
+  "title": {
+   "ar": "الطعام والتسوق",
+   "en": "Food and shopping",
+   "id": "Makanan dan belanja"
+  },
+  "description": {
+   "ar": "تعلم أن تسأل عن الأسعار وتطلب الطعام وتتفاوض في السوق.",
+   "en": "Learn to ask prices, talk about food and bargain politely at a market.",
+   "id": "Belajar menanyakan harga, membicarakan makanan, dan menawar dengan sopan di pasar."
+  },
+  "objectives": [
+   {
+    "ar": "أستطيع أن أسأل عن سعر شيء ما.",
+    "en": "I can ask how much something costs.",
+    "id": "Saya dapat menanyakan harga sesuatu."
+   },
+   {
+    "ar": "أستطيع أن أقول إن الطعام لذيذ.",
+    "en": "I can say that food is delicious.",
+    "id": "Saya dapat mengatakan bahwa makanan itu enak."
+   },
+   {
+    "ar": "أستطيع أن أطلب تخفيض السعر بأدب.",
+    "en": "I can politely ask for a lower price.",
+    "id": "Saya dapat meminta harga yang lebih murah dengan sopan."
+   }
+  ],
+  "intro": {
+   "ar": "في إندونيسيا يدور الطعام حول الأرز (nasi) والخبز والفواكه. سنتعلم كلمات الطعام الأساسية وعبارات الشراء اليومية.",
+   "en": "Food in Indonesia revolves around rice (nasi), bread and fruit. You will learn core food words and the phrases you need to buy things every day.",
+   "id": "Makanan Indonesia berpusat pada nasi, roti, dan buah. Kamu akan belajar kata makanan dasar dan kalimat yang dipakai saat membeli sesuatu setiap hari."
+  },
+  "culture": {
+   "ar": "في الأسواق التقليدية والأكشاك الصغيرة يُتوقع أن تتفاوض على السعر، أما في المتاجر الكبرى فالأسعار ثابتة. خاطب البائع بـ Bu للسيدة وPak للرجل، وابتسم؛ فالأدب يجلب سعرًا أفضل.",
+   "en": "In traditional markets and at small stalls bargaining is expected, while supermarkets have fixed prices. Call the seller Bu (woman) or Pak (man) and smile; politeness often gets a better price.",
+   "id": "Di pasar tradisional dan warung kecil, tawar-menawar itu biasa, sedangkan di supermarket harganya tetap. Panggil penjual Bu atau Pak dan tersenyumlah; sikap sopan sering membuat harga lebih murah."
+  },
+  "grammar": {
+   "title": {
+    "ar": "-nya و mau",
+    "en": "-nya and mau",
+    "id": "-nya dan mau"
+   },
+   "body": {
+    "ar": "اللاحقة -nya تعني غالبًا «هذا/ذاك المعروف»: harga ثمن، harganya ثمنه. وmau تعني «أريد» وتأتي قبل الاسم أو الفعل: Saya mau roti، Saya mau beli roti. وتأتي كلمة الاستفهام Berapa في أول الجملة.",
+    "en": "The ending -nya often means 'the' something already known: harga = price, harganya = the price (of it). Mau means 'want' and goes before a noun or verb: Saya mau roti, Saya mau beli roti. The question word berapa (how much) comes first.",
+    "id": "Akhiran -nya sering berarti 'yang sudah diketahui': harga, harganya = harga barang itu. Mau berarti 'ingin' dan dipakai sebelum kata benda atau kata kerja: Saya mau roti, Saya mau beli roti. Kata tanya berapa diletakkan di depan."
+   }
+  },
+  "items": [
+   {
+    "id": "idx051",
+    "target": "Nasi",
+    "translit": "na-si",
+    "tr": {
+     "ar": "الأرز المطبوخ",
+     "en": "Rice",
+     "id": "beras yang sudah dimasak"
+    },
+    "example": {
+     "target": "Saya makan nasi.",
+     "translit": "sa-ya ma-kan na-si",
+     "tr": {
+      "ar": "أنا آكل الأرز.",
+      "en": "I eat rice.",
+      "id": "Saya menyantap nasi putih."
+     }
+    }
+   },
+   {
+    "id": "idx052",
+    "target": "Roti",
+    "translit": "ro-ti",
+    "tr": {
+     "ar": "الخبز",
+     "en": "Bread",
+     "id": "makanan dari tepung yang dipanggang"
+    },
+    "example": {
+     "target": "Saya mau roti.",
+     "translit": "sa-ya ma-u ro-ti",
+     "tr": {
+      "ar": "أريد خبزًا.",
+      "en": "I want bread.",
+      "id": "Aku ingin roti."
+     }
+    }
+   },
+   {
+    "id": "idx053",
+    "target": "Berapa harganya?",
+    "translit": "bə-ra-pa har-ga-nya",
+    "tr": {
+     "ar": "كم سعره؟",
+     "en": "How much is it?",
+     "id": "menanyakan uang yang harus dibayar untuk barang"
+    },
+    "example": {
+     "target": "Berapa harganya, Bu?",
+     "translit": "bə-ra-pa har-ga-nya bu",
+     "tr": {
+      "ar": "كم سعره يا سيدتي؟",
+      "en": "How much is it, ma'am?",
+      "id": "Berapa uang yang harus saya bayar, Bu?"
+     }
+    },
+    "hint": {
+     "ar": "صيغة مهذبة تصلح للجميع؛ أضف Bu أو Pak للاحترام.",
+     "en": "Polite and neutral; add Bu or Pak to be respectful.",
+     "id": "Sopan dan netral; tambahkan Bu atau Pak agar lebih hormat."
+    }
+   },
+   {
+    "id": "idx054",
+    "target": "Enak",
+    "translit": "e-nak",
+    "tr": {
+     "ar": "لذيذ",
+     "en": "Delicious",
+     "id": "sedap dan lezat di lidah"
+    },
+    "example": {
+     "target": "Makanan ini enak.",
+     "translit": "ma-ka-nan i-ni e-nak",
+     "tr": {
+      "ar": "هذا الطعام لذيذ.",
+      "en": "This food is delicious.",
+      "id": "Hidangan ini sedap sekali."
+     }
+    }
+   },
+   {
+    "id": "id05n5",
+    "target": "Boleh kurang?",
+    "translit": "bo-leh ku-rang",
+    "tr": {
+     "ar": "هل يمكن تخفيض السعر؟",
+     "en": "Can you lower the price?",
+     "id": "bolehkah harganya diturunkan?"
+    },
+    "example": {
+     "target": "Mahal sekali. Boleh kurang, Pak?",
+     "translit": "ma-hal sə-ka-li bo-leh ku-rang pak",
+     "tr": {
+      "ar": "غالٍ جدًا. هل يمكن تخفيض السعر يا سيد؟",
+      "en": "It is very expensive. Can you go lower, sir?",
+      "id": "Harganya tinggi sekali. Bisakah dikurangi, Pak?"
+     }
+    },
+    "hint": {
+     "ar": "للمساومة في الأسواق فقط وبنبرة ودودة، وليس في المتاجر ذات الأسعار الثابتة.",
+     "en": "For bargaining at markets only, in a friendly tone; not in shops with fixed prices.",
+     "id": "Untuk menawar di pasar saja, dengan nada ramah; bukan di toko berharga pas."
+    }
+   },
+   {
+    "id": "id05n6",
+    "target": "Kembalian",
+    "translit": "kəm-ba-li-an",
+    "tr": {
+     "ar": "الباقي (الفكة)",
+     "en": "Change (money returned)",
+     "id": "uang sisa setelah membayar"
+    },
+    "example": {
+     "target": "Ini kembaliannya, Bu.",
+     "translit": "i-ni kəm-ba-li-an-nya bu",
+     "tr": {
+      "ar": "هذا هو الباقي يا سيدتي.",
+      "en": "Here is your change, ma'am.",
+      "id": "Ini uang sisanya, Bu."
+     }
+    },
+    "hint": {
+     "ar": "كلمة شائعة عند الدفع؛ يقول الكاشير: Ini kembaliannya.",
+     "en": "Common at the till; the cashier says Ini kembaliannya.",
+     "id": "Umum dipakai di kasir; kasir berkata Ini kembaliannya."
+    }
+   }
+  ],
+  "cloze": [
+   {
+    "sentence": "Saya lapar, jadi saya mau makan ___.",
+    "answer": "nasi",
+    "wrong": [
+     "kemarin",
+     "mahal"
+    ],
+    "tr": {
+     "ar": "أنا جائع، لذلك أريد أن آكل الأرز.",
+     "en": "I am hungry, so I want to eat rice.",
+     "id": "Saya lapar, jadi saya ingin makan nasi."
+    },
+    "why": {
+     "ar": "الفعل makan يحتاج إلى اسم طعام، أما kemarin (أمس) وmahal (غالٍ) فلا يؤكلان.",
+     "en": "The verb makan needs a food noun; kemarin (yesterday) and mahal (expensive) cannot be eaten.",
+     "id": "Kata makan perlu kata benda makanan; kemarin dan mahal bukan makanan."
+    }
+   },
+   {
+    "sentence": "Makanan ini ___ sekali!",
+    "answer": "enak",
+    "wrong": [
+     "kembalian",
+     "harganya"
+    ],
+    "tr": {
+     "ar": "هذا الطعام لذيذ جدًا!",
+     "en": "This food is really delicious!",
+     "id": "Makanan ini sedap sekali!"
+    },
+    "why": {
+     "ar": "sekali بعد صفة تفيد «جدًا»، وenak صفة؛ أما kembalian وharganya فاسمان.",
+     "en": "Sekali after an adjective means 'very'; enak is an adjective, while kembalian and harganya are nouns.",
+     "id": "Sekali setelah kata sifat berarti 'sangat'; enak kata sifat, sedangkan kembalian dan harganya kata benda."
+    }
+   }
+  ],
+  "conversation": {
+   "context": {
+    "ar": "في سوق تقليدي: زبون يشتري المانجو من البائعة.",
+    "en": "At a traditional market: a customer buys mangoes from the seller.",
+    "id": "Di pasar tradisional: seorang pembeli membeli mangga dari penjual."
+   },
+   "turns": [
+    {
+     "who": "A",
+     "target": "Permisi, Bu. Berapa harga mangga ini?",
+     "tr": {
+      "ar": "لو سمحتِ يا سيدتي، كم سعر هذا المانجو؟",
+      "en": "Excuse me, ma'am. How much are these mangoes?",
+      "id": "Permisi, Bu. Berapa harga mangga ini?"
+     }
+    },
+    {
+     "who": "B",
+     "target": "Dua puluh ribu sekilo, Pak.",
+     "tr": {
+      "ar": "عشرون ألفًا للكيلو يا سيد.",
+      "en": "Twenty thousand a kilo, sir.",
+      "id": "Dua puluh ribu sekilo, Pak."
+     }
+    },
+    {
+     "who": "A",
+     "target": "Boleh kurang, Bu?",
+     "tr": {
+      "ar": "هل يمكن تخفيض السعر يا سيدتي؟",
+      "en": "Can you lower it, ma'am?",
+      "id": "Boleh kurang, Bu?"
+     }
+    },
+    {
+     "who": "B",
+     "target": "Boleh. Tujuh belas ribu, ya.",
+     "tr": {
+      "ar": "نعم. سبعة عشر ألفًا إذن.",
+      "en": "Okay. Seventeen thousand, then.",
+      "id": "Boleh. Tujuh belas ribu, ya."
+     }
+    }
+   ],
+   "gap": 2,
+   "wrong": [
+    "Mangga ini enak sekali, Bu.",
+    "Selamat pagi, apa kabar?"
+   ],
+   "why": {
+    "ar": "بعد أن سمع الزبون السعر يطلب تخفيضًا، وBoleh kurang? هي العبارة المناسبة. أما «المانجو لذيذ» فلا تطلب شيئًا، وأما التحية فلا علاقة لها بالسعر؛ والبائعة ردّت لاحقًا بسعر أقل.",
+    "en": "After hearing the price the customer asks for a discount, and Boleh kurang? is the right phrase. 'This mango is delicious' asks for nothing and the greeting is unrelated; the seller's next line gives a lower price.",
+    "id": "Setelah mendengar harga, pembeli meminta diskon, dan Boleh kurang? adalah ungkapan yang tepat. 'Mangga enak' tidak meminta apa-apa dan salam tidak berkaitan dengan harga; penjual lalu memberi harga lebih rendah."
+   }
+  },
+  "summary": {
+   "ar": "لقد تعلمت كلمات nasi وroti وenak، وسؤال Berapa harganya؟ وطلب التخفيض Boleh kurang؟",
+   "en": "You learned nasi, roti and enak, the question Berapa harganya? and the bargaining phrase Boleh kurang?",
+   "id": "Kamu sudah belajar nasi, roti, enak, pertanyaan Berapa harganya?, dan ungkapan tawar Boleh kurang?"
+  }
+ },
+ {
+  "id": "id-18",
+  "track": "id",
+  "level": "elementary",
+  "order": 12,
+  "topic": "restaurant-warung",
+  "icon": "🍜",
+  "title": {
+   "ar": "في المطعم أو الوارونغ",
+   "en": "At a restaurant or warung",
+   "id": "Di restoran atau warung"
+  },
+  "description": {
+   "ar": "اطلب الطعام والشراب وادفع الحساب في مطعم إندونيسي.",
+   "en": "Order food and drinks and pay the bill at an Indonesian eatery.",
+   "id": "Memesan makanan dan minuman serta membayar tagihan di tempat makan Indonesia."
+  },
+  "objectives": [
+   {
+    "ar": "أستطيع أن أطلب طبقًا ومشروبًا.",
+    "en": "I can order a dish and a drink.",
+    "id": "Saya dapat memesan makanan dan minuman."
+   },
+   {
+    "ar": "أستطيع أن أطلب الطعام غير حار أو للأخذ معي.",
+    "en": "I can ask for food that is not spicy or to take away.",
+    "id": "Saya dapat meminta makanan tidak pedas atau dibungkus."
+   },
+   {
+    "ar": "أستطيع أن أطلب الحساب.",
+    "en": "I can ask for the bill.",
+    "id": "Saya dapat meminta tagihan."
+   }
+  ],
+  "intro": {
+   "ar": "الوارونغ (warung) مطعم صغير شعبي، وفيه تُطلب الأطباق بجمل قصيرة ومهذبة. سنتعلم ما يقوله النادل وما ترد به.",
+   "en": "A warung is a small, casual eatery where orders are short and polite. You will learn what the waiter says and how to answer.",
+   "id": "Warung adalah tempat makan kecil yang sederhana; pesanan diucapkan dengan kalimat pendek dan sopan. Kamu akan belajar kalimat pelayan dan jawabanmu."
+  },
+  "culture": {
+   "ar": "كثير من الأطباق حارة بسبب السمبل (sambal)، فلا تتردد في قول Tidak pedas. وعادةً تدفع عند الخروج عند الصندوق وليس على الطاولة، ويُنادى النادل بـ Mas أو Mbak.",
+   "en": "Many dishes are spicy because of sambal, so do not hesitate to say Tidak pedas. You usually pay at the cashier on your way out rather than at the table, and you call staff Mas (man) or Mbak (woman).",
+   "id": "Banyak makanan pedas karena sambal, jadi jangan ragu berkata Tidak pedas. Biasanya kita membayar di kasir saat keluar, bukan di meja, dan memanggil pelayan dengan Mas atau Mbak."
+  },
+  "grammar": {
+   "title": {
+    "ar": "العدد قبل الاسم و«minta»",
+    "en": "Number before the noun, and minta",
+    "id": "Angka sebelum kata benda dan minta"
+   },
+   "body": {
+    "ar": "في الطلب نضع العدد قبل الاسم: satu es teh manis (شاي مثلج واحد)، dua porsi nasi goreng. وكلمة minta (أرجو أن تعطيني) تجعل الطلب مهذبًا: Minta bonnya. وكلمة ya في آخر الجملة تلطّف الطلب.",
+    "en": "When ordering, the number comes before the noun: satu es teh manis (one iced sweet tea), dua porsi nasi goreng. The word minta (could I have) makes a request polite: Minta bonnya. A final ya softens the request.",
+    "id": "Saat memesan, angka diletakkan sebelum kata benda: satu es teh manis, dua porsi nasi goreng. Kata minta membuat permintaan sopan: Minta bonnya. Kata ya di akhir kalimat melunakkan permintaan."
+   }
+  },
+  "items": [
+   {
+    "id": "id18n1",
+    "target": "Mau pesan apa?",
+    "translit": "ma-u pə-san a-pa",
+    "tr": {
+     "ar": "ماذا تريد أن تطلب؟",
+     "en": "What would you like to order?",
+     "id": "apa yang ingin Anda makan atau minum?"
+    },
+    "example": {
+     "target": "Selamat siang, mau pesan apa?",
+     "translit": "sə-la-mat si-ang ma-u pə-san a-pa",
+     "tr": {
+      "ar": "مساء الخير، ماذا تريد أن تطلب؟",
+      "en": "Good afternoon, what would you like to order?",
+      "id": "Selamat siang, Anda ingin memesan apa?"
+     }
+    },
+    "hint": {
+     "ar": "يقولها النادل؛ وهي مهذبة. وبين الأصدقاء: Pesan apa?",
+     "en": "Said by the waiter; polite. Among friends: Pesan apa?",
+     "id": "Diucapkan pelayan; sopan. Antarteman: Pesan apa?"
+    }
+   },
+   {
+    "id": "id18n2",
+    "target": "Saya pesan nasi goreng.",
+    "translit": "sa-ya pə-san na-si go-reng",
+    "tr": {
+     "ar": "أطلب أرز مقليًا.",
+     "en": "I will have the fried rice.",
+     "id": "saya ingin makan nasi goreng"
+    },
+    "example": {
+     "target": "Saya pesan nasi goreng dan sate ayam.",
+     "translit": "sa-ya pə-san na-si go-reng dan sa-te a-yam",
+     "tr": {
+      "ar": "أطلب أرزًا مقليًا وسيخ دجاج.",
+      "en": "I will have fried rice and chicken satay.",
+      "id": "Saya ingin nasi goreng dan sate ayam."
+     }
+    }
+   },
+   {
+    "id": "id18n3",
+    "target": "Tidak pedas, ya.",
+    "translit": "ti-dak pə-das ya",
+    "tr": {
+     "ar": "من دون حرارة (فلفل) من فضلك.",
+     "en": "Not spicy, please.",
+     "id": "jangan diberi cabai"
+    },
+    "example": {
+     "target": "Mi gorengnya tidak pedas, ya.",
+     "translit": "mi go-reng-nya ti-dak pə-das ya",
+     "tr": {
+      "ar": "المعكرونة المقلية من دون فلفل من فضلك.",
+      "en": "The fried noodles not spicy, please.",
+      "id": "Mi gorengnya jangan pakai cabai, ya."
+     }
+    },
+    "hint": {
+     "ar": "كلمة ya تجعل الطلب لطيفًا؛ ويمكن قول Sedikit pedas للحار قليلًا.",
+     "en": "The word ya makes it a gentle request; you can also say Sedikit pedas for a little spice.",
+     "id": "Kata ya membuatnya terdengar ramah; bisa juga Sedikit pedas jika ingin pedas ringan."
+    }
+   },
+   {
+    "id": "id18n4",
+    "target": "Satu es teh manis.",
+    "translit": "sa-tu es teh ma-nis",
+    "tr": {
+     "ar": "شاي مثلج محلى واحد.",
+     "en": "One iced sweet tea.",
+     "id": "segelas teh dingin yang diberi gula"
+    },
+    "example": {
+     "target": "Satu es teh manis dan dua air putih.",
+     "translit": "sa-tu es teh ma-nis dan du-a a-ir pu-tih",
+     "tr": {
+      "ar": "شاي مثلج محلى واحد وماءان.",
+      "en": "One iced sweet tea and two waters.",
+      "id": "Segelas teh manis dingin dan dua gelas air putih."
+     }
+    }
+   },
+   {
+    "id": "id18n5",
+    "target": "Dibungkus, ya.",
+    "translit": "di-bung-kus ya",
+    "tr": {
+     "ar": "للأخذ معي من فضلك.",
+     "en": "To take away, please.",
+     "id": "tidak dimakan di sini, tetapi dibawa pulang"
+    },
+    "example": {
+     "target": "Nasinya dibungkus, ya, Mbak.",
+     "translit": "na-si-nya di-bung-kus ya mbak",
+     "tr": {
+      "ar": "الأرز للأخذ معي من فضلك يا آنسة.",
+      "en": "The rice to take away, please, miss.",
+      "id": "Nasinya dibawa pulang saja, ya, Mbak."
+     }
+    },
+    "hint": {
+     "ar": "صيغة مبنية للمجهول تُستعمل في الطلب؛ والمقابل: Makan di sini (آكل هنا).",
+     "en": "A passive form used in requests; the opposite is Makan di sini (eat here).",
+     "id": "Bentuk pasif untuk permintaan; kebalikannya Makan di sini."
+    }
+   },
+   {
+    "id": "id18n6",
+    "target": "Minta bonnya.",
+    "translit": "min-ta bon-nya",
+    "tr": {
+     "ar": "أرجو إحضار الفاتورة.",
+     "en": "Could I have the bill?",
+     "id": "tolong berikan catatan harga yang harus dibayar"
+    },
+    "example": {
+     "target": "Mas, minta bonnya, saya mau bayar.",
+     "translit": "mas min-ta bon-nya sa-ya ma-u ba-yar",
+     "tr": {
+      "ar": "يا سيد، أرجو الفاتورة، أريد أن أدفع.",
+      "en": "Excuse me, could I have the bill? I would like to pay.",
+      "id": "Mas, tolong bawakan tagihannya, saya mau membayar."
+     }
+    },
+    "hint": {
+     "ar": "يمكن أيضًا قول Bayar di mana؟ (أين أدفع؟) في الأماكن التي يُدفع فيها عند الصندوق.",
+     "en": "You can also ask Bayar di mana? (where do I pay?) in places that use a cashier.",
+     "id": "Bisa juga bertanya Bayar di mana? di tempat yang memakai kasir."
+    }
+   }
+  ],
+  "cloze": [
+   {
+    "sentence": "Saya ___ nasi goreng dan es teh.",
+    "answer": "pesan",
+    "wrong": [
+     "pedas",
+     "kemarin"
+    ],
+    "tr": {
+     "ar": "أطلب أرزًا مقليًا وشايًا مثلجًا.",
+     "en": "I order fried rice and iced tea.",
+     "id": "Saya memesan nasi goreng dan es teh."
+    },
+    "why": {
+     "ar": "pesan فعل بمعنى «يطلب» ويناسب الجملة؛ أما pedas (حار) وkemarin (أمس) فلا يصلحان فعلًا بعد Saya.",
+     "en": "Pesan is the verb 'order'; pedas (spicy) and kemarin (yesterday) cannot work as the verb after Saya.",
+     "id": "Pesan adalah kata kerja 'memesan'; pedas dan kemarin tidak bisa menjadi kata kerja setelah Saya."
+    }
+   },
+   {
+    "sentence": "Mbak, minta ___, saya mau bayar.",
+    "answer": "bonnya",
+    "wrong": [
+     "pedas",
+     "kemarin"
+    ],
+    "tr": {
+     "ar": "يا آنسة، أرجو الفاتورة، أريد أن أدفع.",
+     "en": "Miss, could I have the bill, I would like to pay.",
+     "id": "Mbak, tolong tagihannya, saya mau membayar."
+    },
+    "why": {
+     "ar": "لأنك تريد الدفع تطلب الفاتورة bonnya؛ ولا معنى لطلب «حار» أو «أمس».",
+     "en": "Because you want to pay you ask for the bill (bonnya); asking for 'spicy' or 'yesterday' makes no sense.",
+     "id": "Karena ingin membayar, kamu meminta bonnya; meminta 'pedas' atau 'kemarin' tidak masuk akal."
+    }
+   }
+  ],
+  "conversation": {
+   "context": {
+    "ar": "في وارونغ وقت الغداء: زبون يطلب من النادل.",
+    "en": "At a warung at lunchtime: a customer orders from the waiter.",
+    "id": "Di warung saat makan siang: seorang pelanggan memesan kepada pelayan."
+   },
+   "turns": [
+    {
+     "who": "A",
+     "target": "Selamat siang. Mau pesan apa?",
+     "tr": {
+      "ar": "مساء الخير. ماذا تريد أن تطلب؟",
+      "en": "Good afternoon. What would you like to order?",
+      "id": "Selamat siang. Mau pesan apa?"
+     }
+    },
+    {
+     "who": "B",
+     "target": "Saya pesan nasi goreng, tidak pedas, ya.",
+     "tr": {
+      "ar": "أطلب أرزًا مقليًا من دون فلفل.",
+      "en": "I will have fried rice, not spicy, please.",
+      "id": "Saya pesan nasi goreng, tidak pedas, ya."
+     }
+    },
+    {
+     "who": "A",
+     "target": "Baik. Minumnya apa?",
+     "tr": {
+      "ar": "حسنًا. وماذا تشرب؟",
+      "en": "Okay. And to drink?",
+      "id": "Baik. Minumnya apa?"
+     }
+    },
+    {
+     "who": "B",
+     "target": "Satu es teh manis.",
+     "tr": {
+      "ar": "شاي مثلج محلى واحد.",
+      "en": "One iced sweet tea.",
+      "id": "Satu es teh manis."
+     }
+    }
+   ],
+   "gap": 1,
+   "wrong": [
+    "Terima kasih, sampai jumpa.",
+    "Saya belajar bahasa Indonesia."
+   ],
+   "why": {
+    "ar": "النادل سأل ماذا تريد أن تطلب، فالرد الصحيح هو الطلب نفسه. أما «شكرًا إلى اللقاء» و«أدرس الإندونيسية» فجملتان صحيحتان لكنهما لا تجيبان عن السؤال.",
+    "en": "The waiter asked what you want, so the right reply is the order itself. 'Thanks, see you' and 'I study Indonesian' are correct sentences but do not answer the question.",
+    "id": "Pelayan bertanya apa yang ingin dipesan, jadi jawaban yang tepat adalah pesanannya. 'Terima kasih, sampai jumpa' dan 'Saya belajar bahasa Indonesia' benar tetapi tidak menjawab pertanyaan."
+   }
+  },
+  "summary": {
+   "ar": "تعلمت أن أطلب الطعام والشراب بالعدد قبل الاسم، وأن أقول Tidak pedas وDibungkus.",
+   "en": "You learned to order food and drinks with the number before the noun and to say Tidak pedas and Dibungkus.",
+   "id": "Kamu belajar memesan makanan dan minuman dengan angka sebelum kata benda dan berkata Tidak pedas dan Dibungkus."
+  }
+ },
+ {
+  "id": "id-07",
+  "track": "id",
+  "level": "elementary",
+  "order": 13,
+  "topic": "everyday-questions",
+  "icon": "❔",
+  "title": {
+   "ar": "أسئلة يومية",
+   "en": "Everyday questions",
+   "id": "Pertanyaan sehari-hari"
+  },
+  "description": {
+   "ar": "اسأل عن الأشخاص والأماكن والأوقات والأسباب بكلمات الاستفهام الأساسية.",
+   "en": "Ask about people, places, times and reasons with the basic question words.",
+   "id": "Menanyakan orang, tempat, waktu, dan alasan dengan kata tanya dasar."
+  },
+  "objectives": [
+   {
+    "ar": "أستطيع أن أسأل «ما» و«من» و«أين».",
+    "en": "I can ask what, who and where.",
+    "id": "Saya dapat bertanya apa, siapa, dan di mana."
+   },
+   {
+    "ar": "أستطيع أن أسأل «متى» و«لماذا».",
+    "en": "I can ask when and why.",
+    "id": "Saya dapat bertanya kapan dan mengapa."
+   },
+   {
+    "ar": "أستطيع أن أسأل «كيف» للحصول على طريقة.",
+    "en": "I can ask how to do something.",
+    "id": "Saya dapat bertanya bagaimana melakukan sesuatu."
+   }
+  ],
+  "intro": {
+   "ar": "كلمات الاستفهام مفتاح المحادثة، وهي في الإندونيسية بسيطة وثابتة لا تتغير. سنتدرب عليها بأسئلة تُطرح كل يوم.",
+   "en": "Question words are the key to conversation, and in Indonesian they are simple and never change form. You will practise them with questions people ask every day.",
+   "id": "Kata tanya adalah kunci percakapan, dan dalam bahasa Indonesia bentuknya sederhana serta tidak berubah. Kamu akan berlatih dengan pertanyaan yang diajukan setiap hari."
+  },
+  "culture": {
+   "ar": "الإندونيسيون ودودون ويسألون كثيرًا عند التعارف: «أين تسكن؟» و«هل أنت متزوج؟» وهذا فضول ودّي وليس تطفلًا. وتجيب بإيجاز وابتسامة.",
+   "en": "Indonesians are friendly and ask many questions when meeting: 'Where do you live?' 'Are you married?' This is warm curiosity, not rudeness. Answer briefly and with a smile.",
+   "id": "Orang Indonesia ramah dan sering bertanya saat berkenalan: 'Tinggal di mana?' 'Sudah menikah?' Ini rasa ingin tahu yang hangat, bukan tidak sopan. Jawablah singkat sambil tersenyum."
+  },
+  "grammar": {
+   "title": {
+    "ar": "مكان كلمة الاستفهام",
+    "en": "Where the question word goes",
+    "id": "Posisi kata tanya"
+   },
+   "body": {
+    "ar": "لا تتغير ترتيب الكلمات في السؤال: تضع كلمة الاستفهام أول الجملة (Di mana rumahmu؟) أو في آخرها في الكلام العفوي (Rumahmu di mana؟). وللسؤال بنعم أو لا تكفي نبرة الصوت أو الكلمة apakah في الكتابة الرسمية.",
+    "en": "Word order does not change in questions: the question word goes at the start (Di mana rumahmu?) or, in casual speech, at the end (Rumahmu di mana?). For yes/no questions, rising intonation is enough, or apakah in formal writing.",
+    "id": "Urutan kata tidak berubah dalam pertanyaan: kata tanya diletakkan di awal (Di mana rumahmu?) atau, dalam percakapan santai, di akhir (Rumahmu di mana?). Untuk pertanyaan ya atau tidak cukup intonasi naik, atau apakah dalam tulisan resmi."
+   }
+  },
+  "items": [
+   {
+    "id": "idx071",
+    "target": "Apa?",
+    "translit": "a-pa",
+    "tr": {
+     "ar": "ماذا؟ / ما؟",
+     "en": "What?",
+     "id": "kata tanya untuk benda atau hal"
+    },
+    "example": {
+     "target": "Apa ini?",
+     "translit": "a-pa i-ni",
+     "tr": {
+      "ar": "ما هذا؟",
+      "en": "What is this?",
+      "id": "Benda apakah ini?"
+     }
+    }
+   },
+   {
+    "id": "idx072",
+    "target": "Di mana?",
+    "translit": "di ma-na",
+    "tr": {
+     "ar": "أين؟",
+     "en": "Where?",
+     "id": "kata tanya untuk tempat"
+    },
+    "example": {
+     "target": "Di mana rumahmu?",
+     "translit": "di ma-na ru-mah-mu",
+     "tr": {
+      "ar": "أين بيتك؟",
+      "en": "Where is your house?",
+      "id": "Rumahmu berada di tempat mana?"
+     }
+    }
+   },
+   {
+    "id": "idx073",
+    "target": "Kapan?",
+    "translit": "ka-pan",
+    "tr": {
+     "ar": "متى؟",
+     "en": "When?",
+     "id": "kata tanya untuk waktu"
+    },
+    "example": {
+     "target": "Kapan kamu datang?",
+     "translit": "ka-pan ka-mu da-tang",
+     "tr": {
+      "ar": "متى ستأتي؟",
+      "en": "When are you coming?",
+      "id": "Pada waktu apa kamu datang?"
+     }
+    }
+   },
+   {
+    "id": "idx074",
+    "target": "Mengapa?",
+    "translit": "mə-nga-pa",
+    "tr": {
+     "ar": "لماذا؟",
+     "en": "Why?",
+     "id": "kata tanya untuk sebab"
+    },
+    "example": {
+     "target": "Mengapa kamu sedih?",
+     "translit": "mə-nga-pa ka-mu sə-dih",
+     "tr": {
+      "ar": "لماذا أنت حزين؟",
+      "en": "Why are you sad?",
+      "id": "Apa sebabnya kamu sedih?"
+     }
+    },
+    "hint": {
+     "ar": "Mengapa رسمية؛ وفي الكلام اليومي يقال Kenapa.",
+     "en": "Mengapa is formal; in daily speech people say Kenapa.",
+     "id": "Mengapa bersifat formal; dalam percakapan sehari-hari orang berkata Kenapa."
+    }
+   },
+   {
+    "id": "id07n5",
+    "target": "Siapa?",
+    "translit": "si-a-pa",
+    "tr": {
+     "ar": "من؟",
+     "en": "Who?",
+     "id": "kata tanya untuk orang"
+    },
+    "example": {
+     "target": "Siapa namamu?",
+     "translit": "si-a-pa na-ma-mu",
+     "tr": {
+      "ar": "ما اسمك؟",
+      "en": "What is your name?",
+      "id": "Namamu apa? (siapa nama kamu)"
+     }
+    },
+    "hint": {
+     "ar": "للأشخاص فقط؛ وبصيغة مهذبة: Nama Anda siapa؟",
+     "en": "For people only; polite version: Nama Anda siapa?",
+     "id": "Hanya untuk orang; versi sopan: Nama Anda siapa?"
+    }
+   },
+   {
+    "id": "id07n6",
+    "target": "Bagaimana?",
+    "translit": "ba-gai-ma-na",
+    "tr": {
+     "ar": "كيف؟",
+     "en": "How?",
+     "id": "kata tanya untuk cara atau keadaan"
+    },
+    "example": {
+     "target": "Bagaimana cara ke stasiun?",
+     "translit": "ba-gai-ma-na ca-ra kə sta-si-un",
+     "tr": {
+      "ar": "كيف أصل إلى المحطة؟",
+      "en": "How do I get to the station?",
+      "id": "Lewat mana jalan menuju stasiun?"
+     }
+    },
+    "hint": {
+     "ar": "في الكلام العفوي تقصَّر إلى Gimana.",
+     "en": "In casual speech it is shortened to Gimana.",
+     "id": "Dalam percakapan santai disingkat Gimana."
+    }
+   }
+  ],
+  "cloze": [
+   {
+    "sentence": "___ namamu? Nama saya Dewi.",
+    "answer": "Siapa",
+    "wrong": [
+     "Kapan",
+     "Di mana"
+    ],
+    "tr": {
+     "ar": "ما اسمك؟ اسمي ديوي.",
+     "en": "What is your name? My name is Dewi.",
+     "id": "Siapa namamu? Namaku Dewi."
+    },
+    "why": {
+     "ar": "الجواب اسم شخص، فالسؤال بـ Siapa؛ أما Kapan فللوقت وDi mana للمكان.",
+     "en": "The answer is a person's name, so we ask Siapa; Kapan is for time and Di mana for place.",
+     "id": "Jawabannya nama orang, jadi kita bertanya Siapa; Kapan untuk waktu dan Di mana untuk tempat."
+    }
+   },
+   {
+    "sentence": "Rumahmu ___? Di Bandung.",
+    "answer": "di mana",
+    "wrong": [
+     "kapan",
+     "siapa"
+    ],
+    "tr": {
+     "ar": "أين بيتك؟ في باندونغ.",
+     "en": "Where is your house? In Bandung.",
+     "id": "Rumahmu di mana? Di Bandung."
+    },
+    "why": {
+     "ar": "الجواب مكان (Di Bandung) فنسأل Di mana؛ ولا يناسب kapan وlا siapa.",
+     "en": "The answer is a place (Di Bandung), so we ask Di mana; kapan and siapa do not fit.",
+     "id": "Jawabannya tempat (Di Bandung), jadi kita bertanya Di mana; kapan dan siapa tidak cocok."
+    }
+   }
+  ],
+  "conversation": {
+   "context": {
+    "ar": "في حفلة: شخصان يتعارفان.",
+    "en": "At a party: two people get to know each other.",
+    "id": "Di sebuah pesta: dua orang berkenalan."
+   },
+   "turns": [
+    {
+     "who": "A",
+     "target": "Hai, saya Budi. Siapa namamu?",
+     "tr": {
+      "ar": "مرحبًا، أنا بودي. ما اسمك؟",
+      "en": "Hi, I am Budi. What is your name?",
+      "id": "Hai, saya Budi. Siapa namamu?"
+     }
+    },
+    {
+     "who": "B",
+     "target": "Nama saya Sarah.",
+     "tr": {
+      "ar": "اسمي سارة.",
+      "en": "My name is Sarah.",
+      "id": "Nama saya Sarah."
+     }
+    },
+    {
+     "who": "A",
+     "target": "Senang bertemu, Sarah. Kamu tinggal di mana?",
+     "tr": {
+      "ar": "سررت بلقائك يا سارة. أين تسكنين؟",
+      "en": "Nice to meet you, Sarah. Where do you live?",
+      "id": "Senang bertemu, Sarah. Kamu tinggal di mana?"
+     }
+    },
+    {
+     "who": "B",
+     "target": "Saya tinggal di Jakarta.",
+     "tr": {
+      "ar": "أسكن في جاكرتا.",
+      "en": "I live in Jakarta.",
+      "id": "Saya tinggal di Jakarta."
+     }
+    }
+   ],
+   "gap": 3,
+   "wrong": [
+    "Saya tinggal besok.",
+    "Saya berumur dua puluh tahun."
+   ],
+   "why": {
+    "ar": "سُئلت أين تسكن، فالجواب مكان: Saya tinggal di Jakarta. أما «أسكن غدًا» فغير منطقية، وأما العمر فجواب عن سؤال آخر.",
+    "en": "You were asked where you live, so the answer is a place: Saya tinggal di Jakarta. 'I live tomorrow' makes no sense, and giving your age answers a different question.",
+    "id": "Kamu ditanya tinggal di mana, jadi jawabannya tempat: Saya tinggal di Jakarta. 'Saya tinggal besok' tidak masuk akal, dan menyebut umur menjawab pertanyaan lain."
+   }
+  },
+  "summary": {
+   "ar": "تعلمت ستّ كلمات استفهام: apa وdi mana وkapan وmengapa وsiapa وbagaimana، وأنها تأتي أول الجملة أو آخرها.",
+   "en": "You learned six question words: apa, di mana, kapan, mengapa, siapa and bagaimana, placed at the start or end of the sentence.",
+   "id": "Kamu belajar enam kata tanya: apa, di mana, kapan, mengapa, siapa, dan bagaimana, yang diletakkan di awal atau akhir kalimat."
+  }
+ },
+ {
+  "id": "id-19",
+  "track": "id",
+  "level": "elementary",
+  "order": 14,
+  "topic": "days-months-dates",
+  "icon": "📅",
+  "title": {
+   "ar": "الأيام والشهور والتواريخ",
+   "en": "Days, months and dates",
+   "id": "Hari, bulan, dan tanggal"
+  },
+  "description": {
+   "ar": "تحدث عن أيام الأسبوع وشهور السنة وتواريخ المواعيد.",
+   "en": "Talk about days of the week, months of the year and appointment dates.",
+   "id": "Membicarakan hari dalam seminggu, bulan dalam setahun, dan tanggal janji."
+  },
+  "objectives": [
+   {
+    "ar": "أستطيع أن أقول أيام الأسبوع وأسأل «أي يوم اليوم؟».",
+    "en": "I can name the days and ask what day it is.",
+    "id": "Saya dapat menyebut nama hari dan menanyakan hari apa sekarang."
+   },
+   {
+    "ar": "أستطيع أن أذكر شهرًا وأسأل عن التاريخ.",
+    "en": "I can name a month and ask for the date.",
+    "id": "Saya dapat menyebut bulan dan menanyakan tanggal."
+   },
+   {
+    "ar": "أستطيع أن أستعمل besok وlusa وkemarin.",
+    "en": "I can use besok, lusa and kemarin.",
+    "id": "Saya dapat memakai besok, lusa, dan kemarin."
+   }
+  ],
+  "intro": {
+   "ar": "تحتاج لتحديد المواعيد إلى أسماء الأيام والشهور. وهي سهلة لأن أسماء الشهور قريبة من الإنجليزية، وأسماء الأيام مستعارة في معظمها من العربية.",
+   "en": "You need days and months to make plans. They are easy: month names are close to English, and most day names are borrowed from Arabic.",
+   "id": "Kamu butuh nama hari dan bulan untuk membuat janji. Keduanya mudah: nama bulan mirip bahasa Inggris, dan sebagian besar nama hari berasal dari bahasa Arab."
+  },
+  "culture": {
+   "ar": "اليوم الوطني 17 Agustus (استقلال إندونيسيا) يحتفل به الجميع بالمسابقات والأعلام. وأيام العمل من Senin إلى Jumat، وتُسمّى العطلة الأسبوعية akhir pekan.",
+   "en": "National Day on 17 Agustus (Independence Day) is celebrated everywhere with contests and flags. The working week is Senin to Jumat, and the weekend is called akhir pekan.",
+   "id": "Hari Kemerdekaan 17 Agustus dirayakan di mana-mana dengan lomba dan bendera. Hari kerja adalah Senin sampai Jumat, dan akhir minggu disebut akhir pekan."
+  },
+  "grammar": {
+   "title": {
+    "ar": "ترتيب التاريخ وأسماء الأيام",
+    "en": "Date order and day names",
+    "id": "Urutan tanggal dan nama hari"
+   },
+   "body": {
+    "ar": "الأيام: Senin الإثنين، Selasa الثلاثاء، Rabu الأربعاء، Kamis الخميس، Jumat الجمعة، Sabtu السبت، Minggu الأحد، وتسبقها كلمة hari. والتاريخ يُكتب اليوم ثم الشهر ثم السنة: tanggal 17 Agustus 2026. والشهور تُسبق بكلمة bulan.",
+    "en": "Days: Senin Monday, Selasa Tuesday, Rabu Wednesday, Kamis Thursday, Jumat Friday, Sabtu Saturday, Minggu Sunday, introduced by hari. Dates go day, month, year: tanggal 17 Agustus 2026. Months are introduced with bulan.",
+    "id": "Hari: Senin, Selasa, Rabu, Kamis, Jumat, Sabtu, Minggu, didahului kata hari. Tanggal ditulis hari-bulan-tahun: tanggal 17 Agustus 2026. Nama bulan didahului kata bulan."
+   }
+  },
+  "items": [
+   {
+    "id": "id19n1",
+    "target": "Hari Senin",
+    "translit": "ha-ri sə-nin",
+    "tr": {
+     "ar": "يوم الإثنين",
+     "en": "Monday",
+     "id": "hari pertama kerja dalam seminggu"
+    },
+    "example": {
+     "target": "Hari Senin saya mulai bekerja.",
+     "translit": "ha-ri sə-nin sa-ya mu-la-i bə-kər-ja",
+     "tr": {
+      "ar": "يوم الإثنين أبدأ العمل.",
+      "en": "On Monday I start work.",
+      "id": "Pada hari Senin saya mulai masuk kerja."
+     }
+    }
+   },
+   {
+    "id": "id19n2",
+    "target": "Hari ini hari apa?",
+    "translit": "ha-ri i-ni ha-ri a-pa",
+    "tr": {
+     "ar": "أي يوم اليوم؟",
+     "en": "What day is it today?",
+     "id": "menanyakan nama hari sekarang"
+    },
+    "example": {
+     "target": "Hari ini hari apa? Hari Kamis.",
+     "translit": "ha-ri i-ni ha-ri a-pa ha-ri ka-mis",
+     "tr": {
+      "ar": "أي يوم اليوم؟ يوم الخميس.",
+      "en": "What day is it today? Thursday.",
+      "id": "Sekarang hari apa? Hari Kamis."
+     }
+    }
+   },
+   {
+    "id": "id19n3",
+    "target": "Akhir pekan",
+    "translit": "a-khir pə-kan",
+    "tr": {
+     "ar": "عطلة نهاية الأسبوع",
+     "en": "Weekend",
+     "id": "hari Sabtu dan Minggu"
+    },
+    "example": {
+     "target": "Akhir pekan ini kami ke pantai.",
+     "translit": "a-khir pə-kan i-ni ka-mi kə pan-tai",
+     "tr": {
+      "ar": "في عطلة نهاية هذا الأسبوع نذهب إلى الشاطئ.",
+      "en": "This weekend we are going to the beach.",
+      "id": "Sabtu dan Minggu ini kami pergi ke pantai."
+     }
+    }
+   },
+   {
+    "id": "id19n4",
+    "target": "Bulan Agustus",
+    "translit": "bu-lan a-gus-tus",
+    "tr": {
+     "ar": "شهر أغسطس",
+     "en": "August",
+     "id": "bulan kedelapan dalam setahun"
+    },
+    "example": {
+     "target": "Bulan Agustus ada banyak lomba.",
+     "translit": "bu-lan a-gus-tus a-da ba-nyak lom-ba",
+     "tr": {
+      "ar": "في شهر أغسطس توجد مسابقات كثيرة.",
+      "en": "In August there are many contests.",
+      "id": "Pada bulan kedelapan banyak diadakan lomba."
+     }
+    }
+   },
+   {
+    "id": "id19n5",
+    "target": "Tanggal berapa?",
+    "translit": "tang-gal bə-ra-pa",
+    "tr": {
+     "ar": "كم التاريخ؟",
+     "en": "What is the date?",
+     "id": "menanyakan angka hari dalam bulan"
+    },
+    "example": {
+     "target": "Hari ini tanggal berapa? Tanggal lima belas.",
+     "translit": "ha-ri i-ni tang-gal bə-ra-pa tang-gal li-ma bə-las",
+     "tr": {
+      "ar": "كم تاريخ اليوم؟ الخامس عشر.",
+      "en": "What is the date today? The fifteenth.",
+      "id": "Sekarang tanggal berapa? Tanggal lima belas."
+     }
+    }
+   },
+   {
+    "id": "id19n6",
+    "target": "Besok",
+    "translit": "bə-sok",
+    "tr": {
+     "ar": "غدًا",
+     "en": "Tomorrow",
+     "id": "hari setelah hari ini"
+    },
+    "example": {
+     "target": "Besok kantor libur.",
+     "translit": "bə-sok kan-tor li-bur",
+     "tr": {
+      "ar": "غدًا المكتب في عطلة.",
+      "en": "Tomorrow the office is closed.",
+      "id": "Esok hari kantor tidak buka."
+     }
+    },
+    "hint": {
+     "ar": "والكلمات القريبة: kemarin أمس، lusa بعد غد.",
+     "en": "Related words: kemarin yesterday, lusa the day after tomorrow.",
+     "id": "Kata lain: kemarin hari sebelum ini, lusa dua hari lagi."
+    }
+   }
+  ],
+  "cloze": [
+   {
+    "sentence": "Hari ini hari Rabu, besok hari ___.",
+    "answer": "Kamis",
+    "wrong": [
+     "Mei",
+     "tanggal"
+    ],
+    "tr": {
+     "ar": "اليوم الأربعاء وغدًا الخميس.",
+     "en": "Today is Wednesday, tomorrow is Thursday.",
+     "id": "Hari ini Rabu, besok Kamis."
+    },
+    "why": {
+     "ar": "بعد Rabu يأتي Kamis؛ أما Mei فشهر وtanggal كلمة للتاريخ وليسا يومًا.",
+     "en": "Kamis follows Rabu; Mei is a month and tanggal means date, neither is a day.",
+     "id": "Setelah Rabu datang Kamis; Mei adalah bulan dan tanggal bukan nama hari."
+    }
+   },
+   {
+    "sentence": "Ulang tahun saya tanggal sepuluh ___.",
+    "answer": "Mei",
+    "wrong": [
+     "Selasa",
+     "kemarin"
+    ],
+    "tr": {
+     "ar": "عيد ميلادي في العاشر من مايو.",
+     "en": "My birthday is on the tenth of May.",
+     "id": "Ulang tahun saya tanggal sepuluh Mei."
+    },
+    "why": {
+     "ar": "بعد التاريخ يأتي اسم الشهر Mei؛ أما Selasa يوم وkemarin ظرف زمن.",
+     "en": "After the date comes the month name Mei; Selasa is a day and kemarin is a time word.",
+     "id": "Setelah tanggal datang nama bulan Mei; Selasa adalah hari dan kemarin adalah kata waktu."
+    }
+   }
+  ],
+  "conversation": {
+   "context": {
+    "ar": "في المكتب: زميلان يتحدثان عن موعد.",
+    "en": "In the office: two colleagues talk about an appointment.",
+    "id": "Di kantor: dua rekan membicarakan sebuah janji."
+   },
+   "turns": [
+    {
+     "who": "A",
+     "target": "Permisi, hari ini hari apa, ya?",
+     "tr": {
+      "ar": "لو سمحت، أي يوم اليوم؟",
+      "en": "Excuse me, what day is it today?",
+      "id": "Permisi, hari ini hari apa, ya?"
+     }
+    },
+    {
+     "who": "B",
+     "target": "Hari ini hari Kamis.",
+     "tr": {
+      "ar": "اليوم يوم الخميس.",
+      "en": "Today is Thursday.",
+      "id": "Hari ini hari Kamis."
+     }
+    },
+    {
+     "who": "A",
+     "target": "Oh, terima kasih. Tanggal berapa?",
+     "tr": {
+      "ar": "آه، شكرًا. كم التاريخ؟",
+      "en": "Oh, thank you. What is the date?",
+      "id": "Oh, terima kasih. Tanggal berapa?"
+     }
+    },
+    {
+     "who": "B",
+     "target": "Tanggal lima belas Oktober.",
+     "tr": {
+      "ar": "الخامس عشر من أكتوبر.",
+      "en": "The fifteenth of October.",
+      "id": "Tanggal lima belas Oktober."
+     }
+    }
+   ],
+   "gap": 1,
+   "wrong": [
+    "Bulan Mei.",
+    "Saya makan nasi goreng."
+   ],
+   "why": {
+    "ar": "السؤال عن اسم اليوم، فالجواب Hari Kamis. أما «شهر مايو» فلا يجيب عن اليوم، وأما أكل الأرز فلا علاقة له.",
+    "en": "The question is about the day name, so the answer is Hari Kamis. 'May' does not name a day and eating rice is unrelated.",
+    "id": "Pertanyaannya tentang nama hari, jadi jawabannya Hari Kamis. 'Bulan Mei' bukan nama hari dan makan nasi goreng tidak berkaitan."
+   }
+  },
+  "summary": {
+   "ar": "تعلمت أيام الأسبوع وبعض الشهور وطريقة السؤال: Hari apa؟ وTanggal berapa؟",
+   "en": "You learned the days, some months, and the questions Hari apa? and Tanggal berapa?",
+   "id": "Kamu belajar nama hari, beberapa bulan, dan pertanyaan Hari apa? serta Tanggal berapa?"
+  }
+ },
+ {
+  "id": "id-09",
+  "track": "id",
+  "level": "elementary",
+  "order": 15,
+  "topic": "daily-activities",
+  "icon": "📚",
+  "title": {
+   "ar": "الأنشطة اليومية",
+   "en": "Daily activities",
+   "id": "Kegiatan harian"
+  },
+  "description": {
+   "ar": "تحدث عن روتينك اليومي بجمل قصيرة: آكل وأشرب وأدرس وأعمل.",
+   "en": "Describe your daily routine in short sentences: eat, drink, study, work.",
+   "id": "Menceritakan kegiatan harian dengan kalimat pendek: makan, minum, belajar, bekerja."
+  },
+  "objectives": [
+   {
+    "ar": "أستطيع أن أقول ما أفعله خلال اليوم.",
+    "en": "I can say what I do during the day.",
+    "id": "Saya dapat mengatakan apa yang saya lakukan sepanjang hari."
+   },
+   {
+    "ar": "أستطيع أن أضيف الوقت مثل jam enam.",
+    "en": "I can add a time such as jam enam.",
+    "id": "Saya dapat menambahkan waktu seperti jam enam."
+   },
+   {
+    "ar": "أستطيع أن أفرق بين الأفعال العارية والأفعال ذات ber-.",
+    "en": "I can tell bare verbs from ber- verbs.",
+    "id": "Saya dapat membedakan kata kerja dasar dan kata kerja ber-."
+   }
+  ],
+  "intro": {
+   "ar": "الجملة الإندونيسية بسيطة: الفاعل ثم الفعل ثم المفعول. وهنا تتعلم الأفعال الأكثر استعمالًا في الروتين اليومي.",
+   "en": "Indonesian sentences are simple: subject, then verb, then object. Here you learn the verbs used most in daily routines.",
+   "id": "Kalimat bahasa Indonesia sederhana: subjek, kata kerja, lalu objek. Di sini kamu belajar kata kerja yang paling sering dipakai dalam kegiatan harian."
+  },
+  "culture": {
+   "ar": "يبدأ اليوم في إندونيسيا مبكرًا؛ فكثيرون يستيقظون قبل الفجر ويبدأ العمل والمدارس قرابة السابعة. وسؤال شائع بين الأصدقاء: Sudah makan? أي هل أكلت؟",
+   "en": "The day starts early in Indonesia; many people wake before dawn and work and school begin around seven. A common friendly question is Sudah makan? (Have you eaten?).",
+   "id": "Hari di Indonesia dimulai pagi; banyak orang bangun sebelum subuh dan kerja serta sekolah mulai sekitar jam tujuh. Pertanyaan ramah yang umum adalah Sudah makan?"
+  },
+  "grammar": {
+   "title": {
+    "ar": "الفعل والزمن",
+    "en": "Verbs and time words",
+    "id": "Kata kerja dan keterangan waktu"
+   },
+   "body": {
+    "ar": "الأفعال لا تتغير بحسب الزمن ولا الفاعل: Saya makan تعني أنا آكل أو أكلت. نضيف كلمة زمن مثل hari ini أو jam enam. وبعض الأفعال تبدأ بـ ber- مثل belajar وbekerja، وبعضها بلا بادئة مثل makan وminum.",
+    "en": "Verbs do not change for tense or person: Saya makan means I eat or I ate. Add a time word like hari ini or jam enam. Some verbs start with ber- (belajar, bekerja) and others have no prefix (makan, minum).",
+    "id": "Kata kerja tidak berubah menurut waktu atau orang: Saya makan berarti saya makan atau saya telah makan. Tambahkan keterangan waktu seperti hari ini atau jam enam. Sebagian kata kerja berawalan ber- (belajar, bekerja), sebagian tanpa awalan (makan, minum)."
+   }
+  },
+  "items": [
+   {
+    "id": "idx091",
+    "target": "Saya makan",
+    "translit": "sa-ya ma-kan",
+    "tr": {
+     "ar": "أنا آكل",
+     "en": "I eat",
+     "id": "saya menyantap makanan"
+    },
+    "example": {
+     "target": "Saya makan pagi.",
+     "translit": "sa-ya ma-kan pa-gi",
+     "tr": {
+      "ar": "أتناول الفطور.",
+      "en": "I eat breakfast.",
+      "id": "Saya sarapan."
+     }
+    },
+    "hint": {
+     "ar": "Makan pagi أو sarapan؛ والثانية أكثر شيوعًا.",
+     "en": "Makan pagi or sarapan; the latter is more common.",
+     "id": "Makan pagi atau sarapan; yang kedua lebih umum."
+    }
+   },
+   {
+    "id": "idx092",
+    "target": "Saya minum",
+    "translit": "sa-ya mi-num",
+    "tr": {
+     "ar": "أنا أشرب",
+     "en": "I drink",
+     "id": "saya meneguk cairan"
+    },
+    "example": {
+     "target": "Saya minum air.",
+     "translit": "sa-ya mi-num a-ir",
+     "tr": {
+      "ar": "أشرب الماء.",
+      "en": "I drink water.",
+      "id": "Saya meneguk air putih."
+     }
+    }
+   },
+   {
+    "id": "idx093",
+    "target": "Saya belajar",
+    "translit": "sa-ya bə-la-jar",
+    "tr": {
+     "ar": "أنا أدرس",
+     "en": "I study",
+     "id": "saya menuntut ilmu"
+    },
+    "example": {
+     "target": "Saya belajar bahasa Indonesia.",
+     "translit": "sa-ya bə-la-jar ba-ha-sa in-do-nə-si-a",
+     "tr": {
+      "ar": "أدرس اللغة الإندونيسية.",
+      "en": "I study Indonesian.",
+      "id": "Saya mempelajari bahasa Indonesia."
+     }
+    }
+   },
+   {
+    "id": "idx094",
+    "target": "Saya bekerja",
+    "translit": "sa-ya bə-kər-ja",
+    "tr": {
+     "ar": "أنا أعمل",
+     "en": "I work",
+     "id": "saya mengerjakan tugas atau pekerjaan"
+    },
+    "example": {
+     "target": "Saya bekerja hari ini.",
+     "translit": "sa-ya bə-kər-ja ha-ri i-ni",
+     "tr": {
+      "ar": "أعمل اليوم.",
+      "en": "I work today.",
+      "id": "Hari ini saya masuk kerja."
+     }
+    }
+   },
+   {
+    "id": "id09n5",
+    "target": "Saya mandi",
+    "translit": "sa-ya man-di",
+    "tr": {
+     "ar": "أنا أستحم",
+     "en": "I take a shower",
+     "id": "saya membersihkan badan dengan air"
+    },
+    "example": {
+     "target": "Saya mandi jam enam pagi.",
+     "translit": "sa-ya man-di jam ə-nam pa-gi",
+     "tr": {
+      "ar": "أستحم في السادسة صباحًا.",
+      "en": "I shower at six in the morning.",
+      "id": "Saya membersihkan badan pukul enam pagi."
+     }
+    }
+   },
+   {
+    "id": "id09n6",
+    "target": "Saya pulang",
+    "translit": "sa-ya pu-lang",
+    "tr": {
+     "ar": "أنا أعود إلى البيت",
+     "en": "I go home",
+     "id": "saya kembali ke rumah"
+    },
+    "example": {
+     "target": "Saya pulang kerja jam lima.",
+     "translit": "sa-ya pu-lang kər-ja jam li-ma",
+     "tr": {
+      "ar": "أعود من العمل في الخامسة.",
+      "en": "I go home from work at five.",
+      "id": "Saya kembali ke rumah pukul lima sore."
+     }
+    }
+   }
+  ],
+  "cloze": [
+   {
+    "sentence": "Setiap pagi saya ___ kopi.",
+    "answer": "minum",
+    "wrong": [
+     "belajar",
+     "pulang"
+    ],
+    "tr": {
+     "ar": "كل صباح أشرب القهوة.",
+     "en": "Every morning I drink coffee.",
+     "id": "Setiap pagi saya minum kopi."
+    },
+    "why": {
+     "ar": "القهوة تُشرب، فالفعل minum؛ أما belajar (يدرس) وpulang (يعود) فلا يأخذان kopi مفعولًا.",
+     "en": "Coffee is drunk, so the verb is minum; belajar (study) and pulang (go home) cannot take kopi as an object.",
+     "id": "Kopi diminum, jadi kata kerjanya minum; belajar dan pulang tidak bisa diikuti kopi sebagai objek."
+    }
+   },
+   {
+    "sentence": "Saya ___ di kantor dari jam sembilan.",
+    "answer": "bekerja",
+    "wrong": [
+     "minum",
+     "mandi"
+    ],
+    "tr": {
+     "ar": "أعمل في المكتب من الساعة التاسعة.",
+     "en": "I work at the office from nine o'clock.",
+     "id": "Saya bekerja di kantor dari jam sembilan."
+    },
+    "why": {
+     "ar": "المكتب مكان العمل فيناسبه bekerja؛ أما minum وmandi فلا يرتبطان به بهذا المعنى.",
+     "en": "An office is where you work, so bekerja fits; minum and mandi do not suit this meaning.",
+     "id": "Kantor adalah tempat bekerja, jadi bekerja cocok; minum dan mandi tidak sesuai di sini."
+    }
+   }
+  ],
+  "conversation": {
+   "context": {
+    "ar": "بين صديقين: أحدهما يسأل عن بداية اليوم.",
+    "en": "Two friends: one asks about the start of the day.",
+    "id": "Dua teman: satu bertanya tentang awal hari."
+   },
+   "turns": [
+    {
+     "who": "A",
+     "target": "Kamu bangun jam berapa?",
+     "tr": {
+      "ar": "في أي ساعة تستيقظ؟",
+      "en": "What time do you wake up?",
+      "id": "Kamu bangun jam berapa?"
+     }
+    },
+    {
+     "who": "B",
+     "target": "Saya bangun jam enam, lalu mandi.",
+     "tr": {
+      "ar": "أستيقظ في السادسة ثم أستحم.",
+      "en": "I wake up at six, then shower.",
+      "id": "Saya bangun jam enam, lalu mandi."
+     }
+    },
+    {
+     "who": "A",
+     "target": "Setelah itu?",
+     "tr": {
+      "ar": "وبعد ذلك؟",
+      "en": "And after that?",
+      "id": "Setelah itu?"
+     }
+    },
+    {
+     "who": "B",
+     "target": "Saya sarapan dan pergi bekerja.",
+     "tr": {
+      "ar": "أتناول الفطور وأذهب إلى العمل.",
+      "en": "I have breakfast and go to work.",
+      "id": "Saya sarapan dan pergi bekerja."
+     }
+    }
+   ],
+   "gap": 1,
+   "wrong": [
+    "Saya pulang kemarin sore.",
+    "Di rumah saya."
+   ],
+   "why": {
+    "ar": "السؤال عن الساعة، فيُجاب بساعة: jam enam. أما «عدت أمس» و«في بيتي» فلا تذكران وقت الاستيقاظ.",
+    "en": "The question asks for a time, so you answer with a time: jam enam. 'I went home yesterday' and 'At my house' do not give a wake-up time.",
+    "id": "Pertanyaannya tentang jam, jadi dijawab dengan jam: jam enam. 'Saya pulang kemarin sore' dan 'Di rumah saya' tidak menyebut waktu bangun."
+   }
+  },
+  "summary": {
+   "ar": "تعلمت جمل الروتين: makan وminum وbelajar وbekerja وmandi وpulang، وأضفت الوقت مثل jam enam.",
+   "en": "You learned routine sentences with makan, minum, belajar, bekerja, mandi and pulang, plus times like jam enam.",
+   "id": "Kamu belajar kalimat kegiatan dengan makan, minum, belajar, bekerja, mandi, pulang, serta waktu seperti jam enam."
+  }
+ },
+ {
+  "id": "id-20",
+  "track": "id",
+  "level": "elementary",
+  "order": 16,
+  "topic": "verbs-affixes",
+  "icon": "🧩",
+  "title": {
+   "ar": "الأفعال والبوادئ: me- وber- و-kan و-i",
+   "en": "Verbs and affixes: me-, ber-, -kan, -i",
+   "id": "Kata kerja dan imbuhan: me-, ber-, -kan, -i"
+  },
+  "description": {
+   "ar": "تعرّف بلطف على أهم الأبنية الفعلية في الإندونيسية.",
+   "en": "A gentle first look at the most important verb forms in Indonesian.",
+   "id": "Pengenalan ringan tentang bentuk kata kerja terpenting dalam bahasa Indonesia."
+  },
+  "objectives": [
+   {
+    "ar": "أستطيع أن أتعرف على بادئة me- في الفعل.",
+    "en": "I can recognise the me- prefix on a verb.",
+    "id": "Saya dapat mengenali awalan me- pada kata kerja."
+   },
+   {
+    "ar": "أستطيع أن أفرق بين me- وber-.",
+    "en": "I can tell me- verbs from ber- verbs.",
+    "id": "Saya dapat membedakan kata kerja me- dan ber-."
+   },
+   {
+    "ar": "أستطيع أن أفهم معنى -kan و-i بشكل عام.",
+    "en": "I can roughly understand what -kan and -i add.",
+    "id": "Saya dapat memahami secara umum makna -kan dan -i."
+   }
+  ],
+  "intro": {
+   "ar": "تُبنى الأفعال الإندونيسية غالبًا من جذر كلمة مع بادئة أو لاحقة. فإذا عرفت الجذر baca (قراءة) استطعت فهم membaca وdibaca. هذا الدرس مقدمة بسيطة لا تحتاج إلى حفظ القواعد كلها.",
+   "en": "Indonesian verbs are often built from a root with a prefix or suffix. If you know the root baca (reading) you can understand membaca and dibaca. This lesson is a simple introduction; you do not need to memorise every rule.",
+   "id": "Kata kerja bahasa Indonesia sering dibentuk dari kata dasar dengan awalan atau akhiran. Jika kamu tahu kata dasar baca, kamu dapat memahami membaca dan dibaca. Pelajaran ini hanya pengenalan sederhana; kamu tidak perlu menghafal semua aturan."
+  },
+  "culture": {
+   "ar": "في الكتب والأخبار والكلام الرسمي تظهر الصيغة الكاملة membaca، أما في الحديث اليومي فيقول الناس غالبًا Saya baca buku بإسقاط me-. والنوعان صحيحان، لكن الصيغة الكاملة أنسب للكتابة.",
+   "en": "Books, news and formal speech use the full form membaca, while in daily talk people often say Saya baca buku, dropping me-. Both are fine, but the full form suits writing better.",
+   "id": "Buku, berita, dan ragam resmi memakai bentuk lengkap membaca, sedangkan dalam percakapan sehari-hari orang sering berkata Saya baca buku tanpa me-. Keduanya benar, tetapi bentuk lengkap lebih cocok untuk tulisan."
+  },
+  "grammar": {
+   "title": {
+    "ar": "me- وber- و-kan و-i",
+    "en": "me-, ber-, -kan, -i",
+    "id": "me-, ber-, -kan, -i"
+   },
+   "body": {
+    "ar": "me- تصنع فعلًا متعديًا: baca → membaca، tulis → menulis، وتتغير (mem-, men-, meng-) بحسب أول حرف. وber- تصنع فعلًا لازمًا يدل على حالة أو فعل: jalan → berjalan، bicara → berbicara. واللاحقة -kan تعني «من أجل/يجعل»: membelikan، واللاحقة -i تعني «إلى/على»: mengunjungi.",
+    "en": "me- makes an active transitive verb: baca → membaca, tulis → menulis, with mem-, men-, meng- depending on the first sound. ber- makes an intransitive verb of state or action: jalan → berjalan, bicara → berbicara. -kan often means 'for/cause': membelikan; -i often means 'to/at': mengunjungi.",
+    "id": "me- membentuk kata kerja transitif aktif: baca → membaca, tulis → menulis, dengan mem-, men-, meng- sesuai bunyi awal. ber- membentuk kata kerja intransitif untuk keadaan atau tindakan: jalan → berjalan, bicara → berbicara. Akhiran -kan sering berarti 'untuk/menyebabkan': membelikan; -i sering berarti 'kepada/pada': mengunjungi."
+   }
+  },
+  "items": [
+   {
+    "id": "id20n1",
+    "target": "membaca",
+    "translit": "məm-ba-ca",
+    "tr": {
+     "ar": "يقرأ",
+     "en": "to read",
+     "id": "melihat tulisan dan memahaminya"
+    },
+    "example": {
+     "target": "Saya suka membaca buku.",
+     "translit": "sa-ya su-ka məm-ba-ca bu-ku",
+     "tr": {
+      "ar": "أحب قراءة الكتب.",
+      "en": "I like reading books.",
+      "id": "Saya senang menikmati buku."
+     }
+    },
+    "hint": {
+     "ar": "الجذر baca؛ وفي الكلام العفوي: Saya baca buku.",
+     "en": "Root baca; in casual speech: Saya baca buku.",
+     "id": "Kata dasarnya baca; dalam percakapan santai: Saya baca buku."
+    }
+   },
+   {
+    "id": "id20n2",
+    "target": "menulis",
+    "translit": "mə-nu-lis",
+    "tr": {
+     "ar": "يكتب",
+     "en": "to write",
+     "id": "membuat huruf atau kalimat di kertas"
+    },
+    "example": {
+     "target": "Dia menulis surat untuk ibunya.",
+     "translit": "di-a mə-nu-lis su-rat un-tuk i-bu-nya",
+     "tr": {
+      "ar": "هي تكتب رسالة لأمها.",
+      "en": "She is writing a letter to her mother.",
+      "id": "Dia membuat surat bagi ibunya."
+     }
+    },
+    "hint": {
+     "ar": "الجذر tulis + me-؛ لاحظ أن t يسقط بعد me-.",
+     "en": "Root tulis + me-; note that t drops after me-.",
+     "id": "Kata dasar tulis + me-; perhatikan t luluh setelah me-."
+    }
+   },
+   {
+    "id": "id20n3",
+    "target": "berjalan",
+    "translit": "bər-ja-lan",
+    "tr": {
+     "ar": "يمشي",
+     "en": "to walk",
+     "id": "bergerak dengan kaki"
+    },
+    "example": {
+     "target": "Kami berjalan di taman setiap sore.",
+     "translit": "ka-mi bər-ja-lan di ta-man sə-ti-ap so-rə",
+     "tr": {
+      "ar": "نمشي في الحديقة كل مساء.",
+      "en": "We walk in the park every afternoon.",
+      "id": "Kami melangkah di taman tiap sore."
+     }
+    },
+    "hint": {
+     "ar": "ber- + jalan؛ لاحظ أن r في ber- تُنطق بوضوح.",
+     "en": "ber- + jalan; the r in ber- is clearly pronounced.",
+     "id": "ber- + jalan; bunyi r pada ber- terdengar jelas."
+    }
+   },
+   {
+    "id": "id20n4",
+    "target": "berbicara",
+    "translit": "bər-bi-ca-ra",
+    "tr": {
+     "ar": "يتحدث",
+     "en": "to speak",
+     "id": "mengucapkan kata-kata"
+    },
+    "example": {
+     "target": "Dia berbicara bahasa Inggris dengan lancar.",
+     "translit": "di-a bər-bi-ca-ra ba-ha-sa ing-gris də-ngan lan-car",
+     "tr": {
+      "ar": "هو يتحدث الإنجليزية بطلاقة.",
+      "en": "He speaks English fluently.",
+      "id": "Dia fasih mengucapkan bahasa Inggris."
+     }
+    },
+    "hint": {
+     "ar": "أكثر رسمية من ngomong العفوية.",
+     "en": "More formal than the casual ngomong.",
+     "id": "Lebih formal daripada ngomong yang santai."
+    }
+   },
+   {
+    "id": "id20n5",
+    "target": "membelikan",
+    "translit": "məm-bə-li-kan",
+    "tr": {
+     "ar": "يشتري لـ (شخص)",
+     "en": "to buy something for someone",
+     "id": "membeli barang untuk orang lain"
+    },
+    "example": {
+     "target": "Ibu membelikan saya buku baru.",
+     "translit": "i-bu məm-bə-li-kan sa-ya bu-ku ba-ru",
+     "tr": {
+      "ar": "اشترت لي أمي كتابًا جديدًا.",
+      "en": "Mother bought me a new book.",
+      "id": "Ibu membeli buku baru untuk saya."
+     }
+    },
+    "hint": {
+     "ar": "الفرق: membeli يشتري لنفسه، وmembelikan يشتري لغيره.",
+     "en": "Difference: membeli = buy for yourself, membelikan = buy for another.",
+     "id": "Beda: membeli untuk diri sendiri, membelikan untuk orang lain."
+    }
+   },
+   {
+    "id": "id20n6",
+    "target": "mengunjungi",
+    "translit": "mə-ngun-ju-ngi",
+    "tr": {
+     "ar": "يزور",
+     "en": "to visit",
+     "id": "pergi menemui seseorang atau tempat"
+    },
+    "example": {
+     "target": "Saya mengunjungi nenek setiap liburan.",
+     "translit": "sa-ya mə-ngun-ju-ngi nə-nək sə-ti-ap li-bur-an",
+     "tr": {
+      "ar": "أزور جدتي في كل عطلة.",
+      "en": "I visit my grandmother every holiday.",
+      "id": "Saya pergi menemui nenek tiap libur."
+     }
+    },
+    "hint": {
+     "ar": "-i هنا تجعل المكان أو الشخص مفعولًا مباشرًا بلا حرف جر.",
+     "en": "Here -i makes the person or place a direct object, with no preposition.",
+     "id": "-i di sini menjadikan orang atau tempat sebagai objek langsung tanpa kata depan."
+    }
+   }
+  ],
+  "cloze": [
+   {
+    "sentence": "Saya ___ nenek di Bandung setiap liburan.",
+    "answer": "mengunjungi",
+    "wrong": [
+     "berjalan",
+     "berbicara"
+    ],
+    "tr": {
+     "ar": "أزور جدتي في باندونغ كل عطلة.",
+     "en": "I visit my grandmother in Bandung every holiday.",
+     "id": "Saya mengunjungi nenek di Bandung setiap liburan."
+    },
+    "why": {
+     "ar": "نحتاج فعلًا متعديًا يأخذ nenek مفعولًا مباشرًا، وهو mengunjungi؛ أما berjalan وberbicara فلازمان.",
+     "en": "We need a transitive verb that takes nenek directly, which is mengunjungi; berjalan and berbicara are intransitive.",
+     "id": "Kita perlu kata kerja transitif yang langsung diikuti nenek, yaitu mengunjungi; berjalan dan berbicara intransitif."
+    }
+   },
+   {
+    "sentence": "Kami ___ di taman setiap sore.",
+    "answer": "berjalan",
+    "wrong": [
+     "membelikan",
+     "mengunjungi"
+    ],
+    "tr": {
+     "ar": "نمشي في الحديقة كل مساء.",
+     "en": "We walk in the park every afternoon.",
+     "id": "Kami berjalan di taman setiap sore."
+    },
+    "why": {
+     "ar": "الجملة لا مفعول مباشر فيها، فنحتاج فعلًا لازمًا بـ ber-: berjalan؛ أما membelikan وmengunjungi فتحتاجان إلى مفعول.",
+     "en": "There is no direct object, so we need a ber- intransitive verb: berjalan; membelikan and mengunjungi require an object.",
+     "id": "Tidak ada objek langsung, jadi kita perlu kata kerja intransitif ber-: berjalan; membelikan dan mengunjungi memerlukan objek."
+    }
+   }
+  ],
+  "conversation": {
+   "context": {
+    "ar": "بين صديقين: أحدهما يسأل عن عطلة نهاية الأسبوع الماضية.",
+    "en": "Two friends: one asks about last weekend.",
+    "id": "Dua teman: satu bertanya tentang akhir pekan lalu."
+   },
+   "turns": [
+    {
+     "who": "A",
+     "target": "Kemarin kamu ke mana?",
+     "tr": {
+      "ar": "أين ذهبتَ أمس؟",
+      "en": "Where did you go yesterday?",
+      "id": "Kemarin kamu ke mana?"
+     }
+    },
+    {
+     "who": "B",
+     "target": "Saya mengunjungi nenek di Bandung.",
+     "tr": {
+      "ar": "زرت جدتي في باندونغ.",
+      "en": "I visited my grandmother in Bandung.",
+      "id": "Saya mengunjungi nenek di Bandung."
+     }
+    },
+    {
+     "who": "A",
+     "target": "Naik apa ke sana?",
+     "tr": {
+      "ar": "بماذا ذهبت إلى هناك؟",
+      "en": "How did you get there?",
+      "id": "Naik apa ke sana?"
+     }
+    },
+    {
+     "who": "B",
+     "target": "Naik kereta.",
+     "tr": {
+      "ar": "بالقطار.",
+      "en": "By train.",
+      "id": "Naik kereta."
+     }
+    }
+   ],
+   "gap": 1,
+   "wrong": [
+    "Saya membelikan kamu buku besok.",
+    "Besok saya bekerja di kantor."
+   ],
+   "why": {
+    "ar": "السؤال عن المكان الذي ذهبت إليه أمس، فالجواب الطبيعي زيارة: mengunjungi nenek. والردان الآخران يتحدثان عن المستقبل ولا يجيبان.",
+    "en": "The question is where you went yesterday, so the natural answer is a visit: mengunjungi nenek. The other two talk about tomorrow and do not answer.",
+    "id": "Pertanyaannya ke mana kamu pergi kemarin, jadi jawaban wajar adalah kunjungan: mengunjungi nenek. Dua jawaban lain membicarakan besok dan tidak menjawab."
+   }
+  },
+  "summary": {
+   "ar": "تعرفت على me- (membaca) وber- (berjalan) و-kan (membelikan) و-i (mengunjungi)، ولاحظت أن الكلام العفوي يسقط me- أحيانًا.",
+   "en": "You met me- (membaca), ber- (berjalan), -kan (membelikan) and -i (mengunjungi), and noticed that casual speech sometimes drops me-.",
+   "id": "Kamu mengenal me- (membaca), ber- (berjalan), -kan (membelikan), dan -i (mengunjungi), dan melihat bahwa percakapan santai kadang menghilangkan me-."
+  }
+ },
+ {
+  "id": "id-10",
+  "track": "id",
+  "level": "elementary",
+  "order": 17,
+  "topic": "politeness",
+  "icon": "🤝",
+  "title": {
+   "ar": "الأدب واللباقة",
+   "en": "Politeness",
+   "id": "Sopan santun"
+  },
+  "description": {
+   "ar": "استعمل عبارات الأدب اليومية: من فضلك وعذرًا وشكرًا وتفضل.",
+   "en": "Use everyday polite phrases: please, sorry, thank you, go ahead.",
+   "id": "Memakai ungkapan sopan sehari-hari: tolong, maaf, terima kasih, silakan."
+  },
+  "objectives": [
+   {
+    "ar": "أستطيع أن أطلب شيئًا بأدب.",
+    "en": "I can ask for something politely.",
+    "id": "Saya dapat meminta sesuatu dengan sopan."
+   },
+   {
+    "ar": "أستطيع أن أعتذر وأطلب المرور.",
+    "en": "I can apologise and ask to pass.",
+    "id": "Saya dapat meminta maaf dan meminta jalan."
+   },
+   {
+    "ar": "أستطيع أن أشكر وأرد على الشكر.",
+    "en": "I can thank someone and reply to thanks.",
+    "id": "Saya dapat berterima kasih dan membalas ucapan terima kasih."
+   }
+  ],
+  "intro": {
+   "ar": "الأدب مهم جدًا في الثقافة الإندونيسية، وبكلمات قليلة تترك انطباعًا طيبًا. هنا ست عبارات تستعملها كل يوم.",
+   "en": "Politeness matters a great deal in Indonesian culture, and a few words leave a good impression. Here are six phrases you will use every day.",
+   "id": "Kesopanan sangat penting dalam budaya Indonesia, dan beberapa kata saja memberi kesan baik. Berikut enam ungkapan yang dipakai setiap hari."
+  },
+  "culture": {
+   "ar": "يُنصح بالإشارة بالإبهام لا بالسبابة، وبالأخذ والإعطاء باليد اليمنى. وتُقال Permisi عند المرور أمام الناس، وTolong عند طلب المساعدة، وتُقال Silakan لدعوة أحد للدخول أو الجلوس.",
+   "en": "It is polite to point with your thumb rather than the index finger and to give and take with your right hand. Say Permisi when passing in front of people, Tolong when asking for help, and Silakan to invite someone to enter or sit.",
+   "id": "Sebaiknya menunjuk dengan ibu jari, bukan telunjuk, dan memberi atau menerima dengan tangan kanan. Ucapkan Permisi saat lewat di depan orang, Tolong saat meminta bantuan, dan Silakan untuk mempersilakan orang masuk atau duduk."
+  },
+  "grammar": {
+   "title": {
+    "ar": "طلب مهذب بـ tolong وboleh وbisa",
+    "en": "Polite requests with tolong, boleh, bisa",
+    "id": "Permintaan sopan dengan tolong, boleh, bisa"
+   },
+   "body": {
+    "ar": "Tolong + فعل = من فضلك: Tolong buka pintunya. وBoleh saya ...؟ تعني «هل يمكنني؟» وهي أدب للاستئذان. وBisa ...؟ تعني «هل تستطيع؟». أضف Pak أو Bu وكلمة ya لمزيد من اللطف.",
+    "en": "Tolong + verb = please: Tolong buka pintunya. Boleh saya ...? means 'may I?' and asks permission. Bisa ...? means 'can you?'. Add Pak or Bu and the word ya for extra softness.",
+    "id": "Tolong + kata kerja = mohon: Tolong buka pintunya. Boleh saya ...? berarti 'bolehkah saya?' untuk meminta izin. Bisa ...? berarti 'dapatkah kamu?'. Tambahkan Pak atau Bu dan kata ya agar lebih lembut."
+   }
+  },
+  "items": [
+   {
+    "id": "idx101",
+    "target": "Tolong",
+    "translit": "to-long",
+    "tr": {
+     "ar": "من فضلك / ساعدني",
+     "en": "Please / help",
+     "id": "kata untuk meminta bantuan dengan sopan"
+    },
+    "example": {
+     "target": "Tolong buka pintunya.",
+     "translit": "to-long bu-ka pin-tu-nya",
+     "tr": {
+      "ar": "من فضلك افتح الباب.",
+      "en": "Please open the door.",
+      "id": "Mohon bukakan pintunya."
+     }
+    },
+    "hint": {
+     "ar": "تأتي قبل الفعل في الطلب، وتُقال وحدها Tolong! عند الخطر.",
+     "en": "Comes before the verb in a request; said alone, Tolong! means help.",
+     "id": "Diletakkan sebelum kata kerja dalam permintaan; diucapkan sendiri, Tolong! berarti minta pertolongan."
+    }
+   },
+   {
+    "id": "idx102",
+    "target": "Maaf",
+    "translit": "ma-af",
+    "tr": {
+     "ar": "آسف",
+     "en": "Sorry",
+     "id": "ungkapan menyesal atas kesalahan"
+    },
+    "example": {
+     "target": "Maaf, saya terlambat.",
+     "translit": "ma-af sa-ya tər-lam-bat",
+     "tr": {
+      "ar": "آسف، تأخرت.",
+      "en": "Sorry, I am late.",
+      "id": "Mohon ampun, saya datang lewat waktu."
+     }
+    }
+   },
+   {
+    "id": "idx103",
+    "target": "Permisi",
+    "translit": "pər-mi-si",
+    "tr": {
+     "ar": "عن إذنك / لو سمحت",
+     "en": "Excuse me",
+     "id": "ungkapan sopan sebelum lewat atau bertanya"
+    },
+    "example": {
+     "target": "Permisi, boleh lewat?",
+     "translit": "pər-mi-si bo-leh lə-wat",
+     "tr": {
+      "ar": "عن إذنك، هل يمكنني المرور؟",
+      "en": "Excuse me, may I pass?",
+      "id": "Mohon izin, bolehkah saya melintas?"
+     }
+    },
+    "hint": {
+     "ar": "تُقال قبل التحدث إلى غريب أو المرور أمامه؛ وهي رسمية ومناسبة للجميع.",
+     "en": "Said before speaking to a stranger or passing in front of someone; formal and suitable for everyone.",
+     "id": "Diucapkan sebelum berbicara pada orang asing atau lewat di depan seseorang; formal dan cocok untuk semua."
+    }
+   },
+   {
+    "id": "idx104",
+    "target": "Sama-sama",
+    "translit": "sa-ma sa-ma",
+    "tr": {
+     "ar": "على الرحب والسعة",
+     "en": "You are welcome",
+     "id": "jawaban atas ucapan terima kasih"
+    },
+    "example": {
+     "target": "Sama-sama, senang membantu.",
+     "translit": "sa-ma sa-ma sə-nang məm-ban-tu",
+     "tr": {
+      "ar": "على الرحب والسعة، يسرّني أن أساعد.",
+      "en": "You are welcome, happy to help.",
+      "id": "Kembali, saya senang menolong."
+     }
+    }
+   },
+   {
+    "id": "id10n5",
+    "target": "Terima kasih banyak.",
+    "translit": "tə-ri-ma ka-sih ba-nyak",
+    "tr": {
+     "ar": "شكرًا جزيلًا.",
+     "en": "Thank you very much.",
+     "id": "terima kasih yang sangat besar"
+    },
+    "example": {
+     "target": "Terima kasih banyak atas bantuannya.",
+     "translit": "tə-ri-ma ka-sih ba-nyak a-tas ban-tu-an-nya",
+     "tr": {
+      "ar": "شكرًا جزيلًا على مساعدتك.",
+      "en": "Thank you very much for your help.",
+      "id": "Terima kasih sebesar-besarnya atas pertolongannya."
+     }
+    },
+    "hint": {
+     "ar": "يمكن الاكتفاء بـ Makasih في الكلام العفوي.",
+     "en": "Makasih is enough in casual speech.",
+     "id": "Dalam percakapan santai cukup Makasih."
+    }
+   },
+   {
+    "id": "id10n6",
+    "target": "Silakan",
+    "translit": "si-la-kan",
+    "tr": {
+     "ar": "تفضل",
+     "en": "Please, go ahead",
+     "id": "persilakan seseorang melakukan sesuatu"
+    },
+    "example": {
+     "target": "Silakan duduk, Pak.",
+     "translit": "si-la-kan du-duk pak",
+     "tr": {
+      "ar": "تفضل بالجلوس يا سيد.",
+      "en": "Please have a seat, sir.",
+      "id": "Mari duduk, Pak."
+     }
+    },
+    "hint": {
+     "ar": "تُقال للضيف أو الزبون؛ وليست طلبًا منك بل دعوة للآخر.",
+     "en": "Said to a guest or customer; it is an invitation to the other person, not a request for yourself.",
+     "id": "Diucapkan kepada tamu atau pelanggan; ini undangan bagi orang lain, bukan permintaan untuk diri sendiri."
+    }
+   }
+  ],
+  "cloze": [
+   {
+    "sentence": "___, saya terlambat. Macet sekali.",
+    "answer": "Maaf",
+    "wrong": [
+     "Silakan",
+     "Sama-sama"
+    ],
+    "tr": {
+     "ar": "آسف، تأخرت. الزحام شديد.",
+     "en": "Sorry, I am late. The traffic is terrible.",
+     "id": "Maaf, saya terlambat. Macet sekali."
+    },
+    "why": {
+     "ar": "التأخر يستدعي الاعتذار Maaf؛ أما Silakan فدعوة وSama-sama جواب على الشكر.",
+     "en": "Being late calls for an apology, Maaf; Silakan is an invitation and Sama-sama answers thanks.",
+     "id": "Terlambat membutuhkan permintaan maaf, Maaf; Silakan adalah undangan dan Sama-sama jawaban atas terima kasih."
+    }
+   },
+   {
+    "sentence": "___ duduk, Pak.",
+    "answer": "Silakan",
+    "wrong": [
+     "Maaf",
+     "Sama-sama"
+    ],
+    "tr": {
+     "ar": "تفضل بالجلوس يا سيد.",
+     "en": "Please have a seat, sir.",
+     "id": "Silakan duduk, Pak."
+    },
+    "why": {
+     "ar": "ندعو الضيف للجلوس بـ Silakan؛ ولا تناسب Maaf (آسف) ولا Sama-sama هنا.",
+     "en": "We invite a guest to sit with Silakan; Maaf (sorry) and Sama-sama do not fit.",
+     "id": "Kita mempersilakan tamu duduk dengan Silakan; Maaf dan Sama-sama tidak cocok."
+    }
+   }
+  ],
+  "conversation": {
+   "context": {
+    "ar": "في مكتب: موظف يطلب الإذن بالدخول.",
+    "en": "At an office: an employee asks permission to enter.",
+    "id": "Di kantor: seorang karyawan meminta izin masuk."
+   },
+   "turns": [
+    {
+     "who": "A",
+     "target": "Permisi, Pak. Boleh saya masuk?",
+     "tr": {
+      "ar": "عن إذنك يا سيد. هل يمكنني الدخول؟",
+      "en": "Excuse me, sir. May I come in?",
+      "id": "Permisi, Pak. Boleh saya masuk?"
+     }
+    },
+    {
+     "who": "B",
+     "target": "Silakan masuk.",
+     "tr": {
+      "ar": "تفضل بالدخول.",
+      "en": "Please come in.",
+      "id": "Silakan masuk."
+     }
+    },
+    {
+     "who": "A",
+     "target": "Terima kasih banyak, Pak.",
+     "tr": {
+      "ar": "شكرًا جزيلًا يا سيد.",
+      "en": "Thank you very much, sir.",
+      "id": "Terima kasih banyak, Pak."
+     }
+    },
+    {
+     "who": "B",
+     "target": "Sama-sama.",
+     "tr": {
+      "ar": "على الرحب والسعة.",
+      "en": "You are welcome.",
+      "id": "Sama-sama."
+     }
+    }
+   ],
+   "gap": 3,
+   "wrong": [
+    "Maaf, saya terlambat.",
+    "Tolong buka pintunya."
+   ],
+   "why": {
+    "ar": "بعد الشكر يكون الرد Sama-sama. أما الاعتذار عن التأخر فلا مكان له هنا، وطلب فتح الباب لا يرد على الشكر.",
+    "en": "After thanks the reply is Sama-sama. An apology for being late does not fit, and asking to open the door does not answer thanks.",
+    "id": "Setelah ucapan terima kasih, balasannya Sama-sama. Permintaan maaf karena terlambat tidak cocok, dan meminta dibukakan pintu tidak membalas terima kasih."
+   }
+  },
+  "summary": {
+   "ar": "تعلمت tolong وmaaf وpermisi وsama-sama وterima kasih banyak وsilakan، وكيف تجعل الطلب لطيفًا بـ boleh وya.",
+   "en": "You learned tolong, maaf, permisi, sama-sama, terima kasih banyak and silakan, and how to soften requests with boleh and ya.",
+   "id": "Kamu belajar tolong, maaf, permisi, sama-sama, terima kasih banyak, dan silakan, serta cara melunakkan permintaan dengan boleh dan ya."
+  }
+ },
+ {
+  "id": "id-12",
+  "track": "id",
+  "level": "elementary",
+  "order": 18,
+  "topic": "simple-conversations",
+  "icon": "💬",
+  "title": {
+   "ar": "محادثات بسيطة",
+   "en": "Simple conversations",
+   "id": "Percakapan sederhana"
+  },
+  "description": {
+   "ar": "أجرِ محادثة قصيرة: تحية وسؤال عن الحال وطلب إعادة الكلام وتوديع.",
+   "en": "Hold a short chat: greet, ask how someone is, ask for repetition, and say goodbye.",
+   "id": "Melakukan percakapan singkat: menyapa, menanyakan kabar, meminta pengulangan, dan berpamitan."
+  },
+  "objectives": [
+   {
+    "ar": "أستطيع أن أسأل «كيف حالك؟» وأجيب.",
+    "en": "I can ask and answer 'how are you?'.",
+    "id": "Saya dapat menanyakan dan menjawab 'apa kabar?'."
+   },
+   {
+    "ar": "أستطيع أن أقول إنني لم أفهم وأطلب الإعادة.",
+    "en": "I can say I did not understand and ask for repetition.",
+    "id": "Saya dapat mengatakan tidak mengerti dan meminta pengulangan."
+   },
+   {
+    "ar": "أستطيع أن أودّع بلطف.",
+    "en": "I can say goodbye politely.",
+    "id": "Saya dapat berpamitan dengan sopan."
+   }
+  ],
+  "intro": {
+   "ar": "لن تتحدث بطلاقة في البداية، ولا بأس. المهم أن تعرف عبارات تنقذ الموقف عندما لا تفهم: Maaf، saya tidak mengerti.",
+   "en": "You will not be fluent at first, and that is fine. What matters is knowing phrases that rescue you when you do not understand: Maaf, saya tidak mengerti.",
+   "id": "Pada awalnya kamu belum lancar, dan itu tidak apa-apa. Yang penting kamu tahu ungkapan penyelamat saat tidak mengerti: Maaf, saya tidak mengerti."
+  },
+  "culture": {
+   "ar": "الإندونيسيون يشجعون المتعلمين الأجانب ويفرحون بأي محاولة. لا تخجل من قول Saya masih belajar؛ ففي الغالب سيتحدثون ببطء ويساعدونك. وللكبار استعمل Anda أو Bapak/Ibu.",
+   "en": "Indonesians encourage foreign learners and appreciate any attempt. Do not be shy to say Saya masih belajar; people will usually speak slowly and help. With elders use Anda or Bapak/Ibu.",
+   "id": "Orang Indonesia mendukung pelajar asing dan menghargai setiap usaha. Jangan malu berkata Saya masih belajar; biasanya mereka berbicara pelan dan membantu. Kepada orang yang lebih tua pakai Anda atau Bapak/Ibu."
+  },
+  "grammar": {
+   "title": {
+    "ar": "bisa وmasih وكلمة الرد",
+    "en": "bisa, masih and reply words",
+    "id": "bisa, masih, dan kata jawaban"
+   },
+   "body": {
+    "ar": "Bisa + فعل تعني القدرة أو طلبًا لطيفًا: Bisa ulangi؟ (هل يمكنك أن تعيد؟). وmasih تعني «لا يزال»: Saya masih belajar. وفي ردّ Apa kabar؟ نقول Baik أو Baik-baik saja ثم نسأل: Kamu؟ أو Anda sendiri؟",
+    "en": "Bisa + verb means ability or a polite request: Bisa ulangi? (Can you repeat?). Masih means 'still': Saya masih belajar. To answer Apa kabar? say Baik or Baik-baik saja, then ask back: Kamu? or Anda sendiri?",
+    "id": "Bisa + kata kerja berarti kemampuan atau permintaan sopan: Bisa ulangi? Masih berarti 'sedang tetap': Saya masih belajar. Untuk menjawab Apa kabar? katakan Baik atau Baik-baik saja, lalu tanya balik: Kamu? atau Anda sendiri?"
+   }
+  },
+  "items": [
+   {
+    "id": "idx121",
+    "target": "Apa kabar?",
+    "translit": "a-pa ka-bar",
+    "tr": {
+     "ar": "كيف حالك؟",
+     "en": "How are you?",
+     "id": "menanyakan keadaan seseorang"
+    },
+    "example": {
+     "target": "Halo, apa kabar?",
+     "translit": "ha-lo a-pa ka-bar",
+     "tr": {
+      "ar": "مرحبًا، كيف حالك؟",
+      "en": "Hello, how are you?",
+      "id": "Halo, bagaimana keadaanmu?"
+     }
+    },
+    "hint": {
+     "ar": "عامة ومناسبة للجميع؛ وفي العفوي: Gimana kabarnya؟",
+     "en": "General and suitable for all; casual: Gimana kabarnya?",
+     "id": "Umum dan cocok untuk semua; santai: Gimana kabarnya?"
+    }
+   },
+   {
+    "id": "idx122",
+    "target": "Saya baik-baik saja",
+    "translit": "sa-ya ba-ik ba-ik sa-ja",
+    "tr": {
+     "ar": "أنا بخير",
+     "en": "I am fine",
+     "id": "keadaan saya baik"
+    },
+    "example": {
+     "target": "Saya baik-baik saja, terima kasih.",
+     "translit": "sa-ya ba-ik ba-ik sa-ja tə-ri-ma ka-sih",
+     "tr": {
+      "ar": "أنا بخير، شكرًا.",
+      "en": "I am fine, thank you.",
+      "id": "Keadaan saya baik, terima kasih."
+     }
+    }
+   },
+   {
+    "id": "idx123",
+    "target": "Saya tidak mengerti",
+    "translit": "sa-ya ti-dak mə-ngər-ti",
+    "tr": {
+     "ar": "لا أفهم",
+     "en": "I do not understand",
+     "id": "saya belum paham maksudnya"
+    },
+    "example": {
+     "target": "Maaf, saya tidak mengerti.",
+     "translit": "ma-af sa-ya ti-dak mə-ngər-ti",
+     "tr": {
+      "ar": "آسف، لا أفهم.",
+      "en": "Sorry, I do not understand.",
+      "id": "Mohon maaf, saya belum paham."
+     }
+    }
+   },
+   {
+    "id": "idx124",
+    "target": "Sampai jumpa",
+    "translit": "sam-pai jum-pa",
+    "tr": {
+     "ar": "إلى اللقاء",
+     "en": "See you later",
+     "id": "ungkapan perpisahan"
+    },
+    "example": {
+     "target": "Sampai jumpa besok!",
+     "translit": "sam-pai jum-pa bə-sok",
+     "tr": {
+      "ar": "إلى اللقاء غدًا!",
+      "en": "See you tomorrow!",
+      "id": "Sampai bertemu lagi besok!"
+     }
+    }
+   },
+   {
+    "id": "id12n5",
+    "target": "Bisa ulangi?",
+    "translit": "bi-sa u-la-ngi",
+    "tr": {
+     "ar": "هل يمكنك أن تعيد؟",
+     "en": "Can you repeat that?",
+     "id": "bolehkah dikatakan sekali lagi?"
+    },
+    "example": {
+     "target": "Maaf, bisa ulangi, Pak?",
+     "translit": "ma-af bi-sa u-la-ngi pak",
+     "tr": {
+      "ar": "آسف، هل يمكنك أن تعيد يا سيد؟",
+      "en": "Sorry, could you repeat that, sir?",
+      "id": "Mohon maaf, bisakah Bapak mengatakannya lagi?"
+     }
+    },
+    "hint": {
+     "ar": "مهذبة؛ ويمكن إضافة pelan-pelan أي ببطء.",
+     "en": "Polite; you can add pelan-pelan, meaning slowly.",
+     "id": "Sopan; boleh ditambah pelan-pelan."
+    }
+   },
+   {
+    "id": "id12n6",
+    "target": "Saya masih belajar.",
+    "translit": "sa-ya ma-sih bə-la-jar",
+    "tr": {
+     "ar": "ما زلت أتعلم.",
+     "en": "I am still learning.",
+     "id": "saya belum mahir"
+    },
+    "example": {
+     "target": "Saya masih belajar bahasa Indonesia.",
+     "translit": "sa-ya ma-sih bə-la-jar ba-ha-sa in-do-nə-si-a",
+     "tr": {
+      "ar": "ما زلت أتعلم اللغة الإندونيسية.",
+      "en": "I am still learning Indonesian.",
+      "id": "Saya belum mahir berbahasa Indonesia."
+     }
+    }
+   }
+  ],
+  "cloze": [
+   {
+    "sentence": "Maaf, saya tidak ___. Bisa ulangi?",
+    "answer": "mengerti",
+    "wrong": [
+     "kabar",
+     "jumpa"
+    ],
+    "tr": {
+     "ar": "آسف، لا أفهم. هل يمكنك أن تعيد؟",
+     "en": "Sorry, I do not understand. Can you repeat?",
+     "id": "Maaf, saya tidak mengerti. Bisa ulangi?"
+    },
+    "why": {
+     "ar": "الجملة تطلب الإعادة لأنك لم تفهم، فالفعل mengerti؛ أما kabar وjumpa فاسمان لا يُنفيان بهذه الطريقة هنا.",
+     "en": "You ask for repetition because you did not understand, so the verb is mengerti; kabar and jumpa do not fit after tidak here.",
+     "id": "Kamu meminta pengulangan karena tidak paham, jadi kata kerjanya mengerti; kabar dan jumpa tidak cocok setelah tidak di sini."
+    }
+   },
+   {
+    "sentence": "Sampai ___ besok!",
+    "answer": "jumpa",
+    "wrong": [
+     "baik",
+     "mengerti"
+    ],
+    "tr": {
+     "ar": "إلى اللقاء غدًا!",
+     "en": "See you tomorrow!",
+     "id": "Sampai jumpa besok!"
+    },
+    "why": {
+     "ar": "العبارة الثابتة للتوديع هي Sampai jumpa؛ ولا يقال Sampai baik ولا Sampai mengerti.",
+     "en": "The fixed goodbye phrase is Sampai jumpa; Sampai baik and Sampai mengerti are not used.",
+     "id": "Ungkapan tetap untuk berpamitan adalah Sampai jumpa; Sampai baik dan Sampai mengerti tidak dipakai."
+    }
+   }
+  ],
+  "conversation": {
+   "context": {
+    "ar": "في الشارع: رجلان يتبادلان التحية.",
+    "en": "On the street: two men exchange greetings.",
+    "id": "Di jalan: dua orang bertukar sapaan."
+   },
+   "turns": [
+    {
+     "who": "A",
+     "target": "Selamat sore, Pak. Apa kabar?",
+     "tr": {
+      "ar": "مساء الخير يا سيد. كيف حالك؟",
+      "en": "Good afternoon, sir. How are you?",
+      "id": "Selamat sore, Pak. Apa kabar?"
+     }
+    },
+    {
+     "who": "B",
+     "target": "Baik, terima kasih. Anda sendiri?",
+     "tr": {
+      "ar": "بخير، شكرًا. وأنت؟",
+      "en": "Fine, thank you. And you?",
+      "id": "Baik, terima kasih. Anda sendiri?"
+     }
+    },
+    {
+     "who": "A",
+     "target": "Saya baik-baik saja juga, terima kasih.",
+     "tr": {
+      "ar": "أنا أيضًا بخير، شكرًا.",
+      "en": "I am fine too, thank you.",
+      "id": "Saya juga baik-baik saja, terima kasih."
+     }
+    },
+    {
+     "who": "B",
+     "target": "Sampai jumpa, ya.",
+     "tr": {
+      "ar": "إلى اللقاء إذن.",
+      "en": "See you, then.",
+      "id": "Sampai jumpa, ya."
+     }
+    }
+   ],
+   "gap": 2,
+   "wrong": [
+    "Saya tidak mengerti, maaf.",
+    "Selamat pagi, sampai jumpa."
+   ],
+   "why": {
+    "ar": "سأله «وأنت؟» فيجيب عن حاله: Saya baik-baik saja juga. أما «لا أفهم» فغير مناسبة، والتحية الصباحية لا تناسب المساء ولا تجيب.",
+    "en": "He asked 'and you?', so you answer about your own state: Saya baik-baik saja juga. 'I do not understand' is off, and a morning greeting neither fits the evening nor answers.",
+    "id": "Dia bertanya 'Anda sendiri?', jadi kamu menjawab keadaanmu: Saya juga baik-baik saja. 'Saya tidak mengerti' tidak cocok, dan salam pagi tidak sesuai sore serta tidak menjawab."
+   }
+  },
+  "summary": {
+   "ar": "لديك الآن عبارات الاستمرار في المحادثة: Apa kabar وBaik-baik saja وBisa ulangi وSampai jumpa.",
+   "en": "You now have phrases to keep a conversation going: Apa kabar, Baik-baik saja, Bisa ulangi and Sampai jumpa.",
+   "id": "Sekarang kamu punya ungkapan untuk melanjutkan percakapan: Apa kabar, Baik-baik saja, Bisa ulangi, dan Sampai jumpa."
+  }
+ },
+ {
+  "id": "id-06",
+  "track": "id",
+  "level": "elementary",
+  "order": 19,
+  "topic": "travel",
+  "icon": "🚍",
+  "title": {
+   "ar": "السفر",
+   "en": "Travel",
+   "id": "Perjalanan"
+  },
+  "description": {
+   "ar": "تنقل في المطار وتذاكر السفر والاتجاهات باستعمال di وke وdari.",
+   "en": "Get around airports, tickets and directions using di, ke and dari.",
+   "id": "Bepergian di bandara, membeli tiket, dan menanyakan arah dengan di, ke, dan dari."
+  },
+  "objectives": [
+   {
+    "ar": "أستطيع أن أقول إلى أين أذهب ومن أين أتيت.",
+    "en": "I can say where I am going and where I come from.",
+    "id": "Saya dapat mengatakan ke mana saya pergi dan dari mana saya datang."
+   },
+   {
+    "ar": "أستطيع أن أشتري تذكرة.",
+    "en": "I can buy a ticket.",
+    "id": "Saya dapat membeli tiket."
+   },
+   {
+    "ar": "أستطيع أن أفهم الاتجاهات: يسار ويمين ومستقيم.",
+    "en": "I can follow directions: left, right and straight.",
+    "id": "Saya dapat memahami arah: kiri, kanan, dan lurus."
+   }
+  ],
+  "intro": {
+   "ar": "السفر في إندونيسيا أرخبيلي، فتتنقل بين الجزر بالطائرة أو القارب. وكلمات المكان الثلاث di وke وdari أهم ما تحتاجه.",
+   "en": "Travel in Indonesia is archipelagic, so you hop between islands by plane or boat. The three location words di, ke and dari are what you need most.",
+   "id": "Perjalanan di Indonesia bersifat kepulauan, jadi kamu berpindah pulau dengan pesawat atau kapal. Tiga kata tempat di, ke, dan dari adalah yang paling kamu butuhkan."
+  },
+  "culture": {
+   "ar": "في المطارات والمحطات يسأل الناس Mau ke mana؟ أي إلى أين؟ وجواب سهل: Ke Bali. وعند الاتجاهات يقول السائق أو المارة Belok kiri، Belok kanan، Terus lurus.",
+   "en": "In airports and stations people ask Mau ke mana? (Where to?). An easy answer: Ke Bali. For directions drivers and passers-by say Belok kiri, Belok kanan, Terus lurus.",
+   "id": "Di bandara dan stasiun orang bertanya Mau ke mana? Jawaban mudah: Ke Bali. Untuk arah, sopir atau pejalan kaki berkata Belok kiri, Belok kanan, Terus lurus."
+  },
+  "grammar": {
+   "title": {
+    "ar": "di وke وdari",
+    "en": "di, ke, dari",
+    "id": "di, ke, dari"
+   },
+   "body": {
+    "ar": "di تعني «في/عند» ثابتًا: di Jakarta. وke تعني «إلى» حركة نحو: ke bandara. وdari تعني «من» حركة منه أو أصلًا: dari Bali. وتُكتب di وke منفصلتين مع الأماكن، ومتصلتين مع الأفعال مثل dibaca.",
+    "en": "di means 'at/in' (static): di Jakarta. ke means 'to' (movement towards): ke bandara. dari means 'from': dari Bali. Write di and ke separately with places, but attached to verbs as in dibaca.",
+    "id": "di berarti 'berada di' (tetap): di Jakarta. ke berarti 'menuju': ke bandara. dari berarti 'asal': dari Bali. Tulis di dan ke terpisah untuk tempat, tetapi menyatu dengan kata kerja seperti dibaca."
+   }
+  },
+  "items": [
+   {
+    "id": "idx061",
+    "target": "Bandara",
+    "translit": "ban-da-ra",
+    "tr": {
+     "ar": "المطار",
+     "en": "Airport",
+     "id": "tempat pesawat naik dan turun"
+    },
+    "example": {
+     "target": "Saya pergi ke bandara.",
+     "translit": "sa-ya pər-gi kə ban-da-ra",
+     "tr": {
+      "ar": "أذهب إلى المطار.",
+      "en": "I am going to the airport.",
+      "id": "Saya menuju bandara."
+     }
+    }
+   },
+   {
+    "id": "idx062",
+    "target": "Mobil",
+    "translit": "mo-bil",
+    "tr": {
+     "ar": "السيارة",
+     "en": "Car",
+     "id": "kendaraan roda empat"
+    },
+    "example": {
+     "target": "Mobil itu baru.",
+     "translit": "mo-bil i-tu ba-ru",
+     "tr": {
+      "ar": "تلك السيارة جديدة.",
+      "en": "That car is new.",
+      "id": "Kendaraan itu baru dibeli."
+     }
+    }
+   },
+   {
+    "id": "idx063",
+    "target": "Kiri",
+    "translit": "ki-ri",
+    "tr": {
+     "ar": "اليسار",
+     "en": "Left",
+     "id": "arah berlawanan dengan kanan"
+    },
+    "example": {
+     "target": "Belok kiri di sini.",
+     "translit": "bə-lok ki-ri di si-ni",
+     "tr": {
+      "ar": "انعطف يسارًا هنا.",
+      "en": "Turn left here.",
+      "id": "Putar ke arah kiri di tempat ini."
+     }
+    }
+   },
+   {
+    "id": "idx064",
+    "target": "Kanan",
+    "translit": "ka-nan",
+    "tr": {
+     "ar": "اليمين",
+     "en": "Right",
+     "id": "arah berlawanan dengan kiri"
+    },
+    "example": {
+     "target": "Belok kanan di sana.",
+     "translit": "bə-lok ka-nan di sa-na",
+     "tr": {
+      "ar": "انعطف يمينًا هناك.",
+      "en": "Turn right there.",
+      "id": "Putar ke arah kanan di tempat itu."
+     }
+    }
+   },
+   {
+    "id": "id06n5",
+    "target": "Tiket",
+    "translit": "ti-kət",
+    "tr": {
+     "ar": "التذكرة",
+     "en": "Ticket",
+     "id": "kertas atau kode untuk naik kendaraan"
+    },
+    "example": {
+     "target": "Saya mau beli tiket ke Surabaya.",
+     "translit": "sa-ya ma-u bə-li ti-kət kə su-ra-ba-ya",
+     "tr": {
+      "ar": "أريد شراء تذكرة إلى سورابايا.",
+      "en": "I want to buy a ticket to Surabaya.",
+      "id": "Saya ingin membeli karcis menuju Surabaya."
+     }
+    },
+    "hint": {
+     "ar": "وتُكتب أيضًا karcis في اللغة الأقدم، لكن tiket هي الأشهر.",
+     "en": "Karcis also exists, but tiket is the most common.",
+     "id": "Ada juga karcis, tetapi tiket paling umum."
+    }
+   },
+   {
+    "id": "id06n6",
+    "target": "Lurus",
+    "translit": "lu-rus",
+    "tr": {
+     "ar": "مستقيم",
+     "en": "Straight",
+     "id": "tidak berbelok"
+    },
+    "example": {
+     "target": "Terus lurus, lalu belok kiri.",
+     "translit": "tə-rus lu-rus la-lu bə-lok ki-ri",
+     "tr": {
+      "ar": "استمر مستقيمًا ثم انعطف يسارًا.",
+      "en": "Keep going straight, then turn left.",
+      "id": "Jangan berbelok, lalu putar ke kiri."
+     }
+    }
+   }
+  ],
+  "cloze": [
+   {
+    "sentence": "Pesawat saya mendarat ___ bandara Denpasar.",
+    "answer": "di",
+    "wrong": [
+     "ke",
+     "dari"
+    ],
+    "tr": {
+     "ar": "هبطت طائرتي في مطار دنباسار.",
+     "en": "My plane landed at Denpasar airport.",
+     "id": "Pesawat saya mendarat di bandara Denpasar."
+    },
+    "why": {
+     "ar": "الهبوط يحدث في مكان ثابت فنستعمل di؛ ولا يقال mendarat ke ولا mendarat dari بهذا المعنى.",
+     "en": "Landing happens at a fixed place, so we use di; mendarat ke and mendarat dari do not work in this sense.",
+     "id": "Mendarat terjadi di tempat tertentu, jadi dipakai di; mendarat ke dan mendarat dari tidak sesuai dalam arti ini."
+    }
+   },
+   {
+    "sentence": "Belok ___ di lampu merah.",
+    "answer": "kiri",
+    "wrong": [
+     "tiket",
+     "bandara"
+    ],
+    "tr": {
+     "ar": "انعطف يسارًا عند الإشارة الحمراء.",
+     "en": "Turn left at the red light.",
+     "id": "Belok kiri di lampu merah."
+    },
+    "why": {
+     "ar": "الفعل belok يأخذ اتجاهًا مثل kiri؛ أما tiket وbandara فاسمان لا يدلان على اتجاه.",
+     "en": "The verb belok takes a direction like kiri; tiket and bandara are nouns, not directions.",
+     "id": "Kata belok diikuti arah seperti kiri; tiket dan bandara adalah kata benda, bukan arah."
+    }
+   }
+  ],
+  "conversation": {
+   "context": {
+    "ar": "في شباك التذاكر: مسافر يشتري تذكرة.",
+    "en": "At the ticket counter: a traveller buys a ticket.",
+    "id": "Di loket tiket: seorang penumpang membeli tiket."
+   },
+   "turns": [
+    {
+     "who": "A",
+     "target": "Selamat pagi. Saya mau beli tiket ke Surabaya.",
+     "tr": {
+      "ar": "صباح الخير. أريد شراء تذكرة إلى سورابايا.",
+      "en": "Good morning. I want to buy a ticket to Surabaya.",
+      "id": "Selamat pagi. Saya mau beli tiket ke Surabaya."
+     }
+    },
+    {
+     "who": "B",
+     "target": "Mau berangkat jam berapa?",
+     "tr": {
+      "ar": "في أي ساعة تريد السفر؟",
+      "en": "What time do you want to leave?",
+      "id": "Mau berangkat jam berapa?"
+     }
+    },
+    {
+     "who": "A",
+     "target": "Jam sepuluh pagi, ya.",
+     "tr": {
+      "ar": "في العاشرة صباحًا من فضلك.",
+      "en": "At ten in the morning, please.",
+      "id": "Jam sepuluh pagi, ya."
+     }
+    },
+    {
+     "who": "B",
+     "target": "Baik, masih ada.",
+     "tr": {
+      "ar": "حسنًا، ما زالت متوفرة.",
+      "en": "Okay, there are still seats.",
+      "id": "Baik, masih ada."
+     }
+    }
+   ],
+   "gap": 2,
+   "wrong": [
+    "Terima kasih, saya sudah makan.",
+    "Belok kanan di sana."
+   ],
+   "why": {
+    "ar": "البائع سأل عن ساعة المغادرة، فالجواب ساعة: Jam sepuluh pagi. أما «شكرًا، أكلت» و«انعطف يمينًا» فلا علاقة لهما بالسؤال.",
+    "en": "The seller asked about departure time, so you give a time: Jam sepuluh pagi. 'Thanks, I have eaten' and 'Turn right' have nothing to do with the question.",
+    "id": "Penjual bertanya jam berangkat, jadi jawabannya jam: Jam sepuluh pagi. 'Terima kasih, saya sudah makan' dan 'Belok kanan' tidak berkaitan."
+   }
+  },
+  "summary": {
+   "ar": "تعلمت bandara وtiket وkiri وkanan وlurus، وفرّقت بين di وke وdari.",
+   "en": "You learned bandara, tiket, kiri, kanan and lurus, and distinguished di, ke and dari.",
+   "id": "Kamu belajar bandara, tiket, kiri, kanan, dan lurus, serta membedakan di, ke, dan dari."
+  }
+ },
+ {
+  "id": "id-21",
+  "track": "id",
+  "level": "elementary",
+  "order": 20,
+  "topic": "transportation",
+  "icon": "🛵",
+  "title": {
+   "ar": "المواصلات: أوجيك وأنغكوت وقطار وحافلة",
+   "en": "Transportation: ojek, angkot, train, bus, ride apps",
+   "id": "Transportasi: ojek, angkot, kereta, bus, aplikasi ojek online"
+  },
+  "description": {
+   "ar": "اركب وسائل النقل المحلية واتفق على الأجرة ومحطة النزول.",
+   "en": "Ride local transport, agree on the fare and say where to get off.",
+   "id": "Naik transportasi lokal, menyepakati ongkos, dan menyebut tempat turun."
+  },
+  "objectives": [
+   {
+    "ar": "أستطيع أن أسمي وسائل النقل الرئيسية.",
+    "en": "I can name the main kinds of transport.",
+    "id": "Saya dapat menyebut jenis transportasi utama."
+   },
+   {
+    "ar": "أستطيع أن أسأل عن الأجرة وأحدد وجهتي.",
+    "en": "I can ask the fare and state my destination.",
+    "id": "Saya dapat menanyakan ongkos dan menyebut tujuan."
+   },
+   {
+    "ar": "أستطيع أن أطلب من السائق التوقف.",
+    "en": "I can ask the driver to stop.",
+    "id": "Saya dapat meminta sopir berhenti."
+   }
+  ],
+  "intro": {
+   "ar": "في المدن الإندونيسية تتنوع وسائل النقل: دراجة نارية أجرة (ojek)، وحافلة صغيرة (angkot)، وقطار، وحافلة، وتطبيقات الطلب. وهنا تتعلم ما تقوله لكل منها.",
+   "en": "Indonesian cities offer many ways to travel: motorbike taxi (ojek), minibus (angkot), train, bus and ride apps. Here you learn what to say for each.",
+   "id": "Kota-kota Indonesia punya banyak cara bepergian: ojek, angkot, kereta, bus, dan aplikasi ojek online. Di sini kamu belajar apa yang diucapkan untuk masing-masing."
+  },
+  "culture": {
+   "ar": "تطبيقات مثل Gojek وGrab شائعة جدًا وتحدد السعر مسبقًا، أما ojek التقليدي وangkot فتتفق على السعر قبل الركوب أو تدفعه ثمنًا ثابتًا. وللنزول من angkot تقول Kiri, Pak! أي توقف على اليسار.",
+   "en": "Apps like Gojek and Grab are very common and fix the price in advance; with traditional ojek you agree the fare before riding, and angkot has a standard fare. To get off an angkot you say Kiri, Pak! (stop on the left).",
+   "id": "Aplikasi seperti Gojek dan Grab sangat umum dan menetapkan harga di awal; untuk ojek biasa kamu menyepakati ongkos sebelum naik, dan angkot punya tarif standar. Untuk turun dari angkot, katakan Kiri, Pak!"
+  },
+  "grammar": {
+   "title": {
+    "ar": "naik وturun والمكان",
+    "en": "naik, turun and place",
+    "id": "naik, turun, dan tempat"
+   },
+   "body": {
+    "ar": "naik تعني «يركب» وturun «ينزل»: Saya naik kereta، Saya turun di sini. ولا نقول «أركب في» بل naik مباشرة قبل وسيلة النقل. ونذكر الوجهة بـ ke: Ke stasiun, Pak. وعند الاتفاق على الثمن نسأل Berapa ongkosnya؟",
+    "en": "naik means 'ride/get on' and turun 'get off': Saya naik kereta, Saya turun di sini. Place naik directly before the vehicle. State the destination with ke: Ke stasiun, Pak. To settle the fare ask Berapa ongkosnya?",
+    "id": "naik berarti 'menumpang/naik' dan turun 'keluar dari kendaraan': Saya naik kereta, Saya turun di sini. Letakkan naik langsung sebelum kendaraan. Sebut tujuan dengan ke: Ke stasiun, Pak. Untuk ongkos tanyakan Berapa ongkosnya?"
+   }
+  },
+  "items": [
+   {
+    "id": "id21n1",
+    "target": "ojek",
+    "translit": "o-jɛk",
+    "tr": {
+     "ar": "دراجة نارية أجرة",
+     "en": "motorbike taxi",
+     "id": "sepeda motor yang mengantar penumpang"
+    },
+    "example": {
+     "target": "Saya naik ojek ke kantor.",
+     "translit": "sa-ya na-ik o-jɛk kə kan-tor",
+     "tr": {
+      "ar": "أركب دراجة نارية أجرة إلى المكتب.",
+      "en": "I take a motorbike taxi to the office.",
+      "id": "Saya diantar sepeda motor sewaan ke kantor."
+     }
+    }
+   },
+   {
+    "id": "id21n2",
+    "target": "angkot",
+    "translit": "ang-kot",
+    "tr": {
+     "ar": "حافلة صغيرة",
+     "en": "minibus",
+     "id": "mobil kecil untuk banyak penumpang"
+    },
+    "example": {
+     "target": "Angkot ini lewat pasar.",
+     "translit": "ang-kot i-ni lə-wat pa-sar",
+     "tr": {
+      "ar": "هذه الحافلة الصغيرة تمر بالسوق.",
+      "en": "This minibus passes the market.",
+      "id": "Mobil umum kecil ini melewati pasar."
+     }
+    },
+    "hint": {
+     "ar": "اختصار angkutan kota؛ مسارها ثابت وسعرها زهيد.",
+     "en": "Short for angkutan kota; fixed route and cheap fare.",
+     "id": "Singkatan angkutan kota; rutenya tetap dan tarifnya murah."
+    }
+   },
+   {
+    "id": "id21n3",
+    "target": "kereta",
+    "translit": "kə-rɛ-ta",
+    "tr": {
+     "ar": "القطار",
+     "en": "train",
+     "id": "kendaraan panjang yang berjalan di rel"
+    },
+    "example": {
+     "target": "Kereta ke Bandung berangkat jam delapan.",
+     "translit": "kə-rɛ-ta kə ban-dung bə-rang-kat jam də-la-pan",
+     "tr": {
+      "ar": "قطار باندونغ ينطلق في الثامنة.",
+      "en": "The train to Bandung leaves at eight.",
+      "id": "Kereta api menuju Bandung jalan pukul delapan."
+     }
+    },
+    "hint": {
+     "ar": "الاسم الكامل kereta api؛ والقصير شائع.",
+     "en": "Full name kereta api; the short form is common.",
+     "id": "Nama lengkapnya kereta api; bentuk pendeknya umum."
+    }
+   },
+   {
+    "id": "id21n4",
+    "target": "bus",
+    "translit": "bus",
+    "tr": {
+     "ar": "الحافلة",
+     "en": "bus",
+     "id": "kendaraan besar untuk banyak orang"
+    },
+    "example": {
+     "target": "Bus ini ke terminal, kan?",
+     "translit": "bus i-ni kə tər-mi-nal kan",
+     "tr": {
+      "ar": "هذه الحافلة تذهب إلى المحطة، أليس كذلك؟",
+      "en": "This bus goes to the terminal, right?",
+      "id": "Bus ini menuju terminal, bukan?"
+     }
+    }
+   },
+   {
+    "id": "id21n5",
+    "target": "Berapa ongkosnya?",
+    "translit": "bə-ra-pa ong-kos-nya",
+    "tr": {
+     "ar": "كم الأجرة؟",
+     "en": "How much is the fare?",
+     "id": "menanyakan uang untuk naik kendaraan"
+    },
+    "example": {
+     "target": "Ke stasiun, berapa ongkosnya, Pak?",
+     "translit": "kə sta-si-un bə-ra-pa ong-kos-nya pak",
+     "tr": {
+      "ar": "إلى المحطة، كم الأجرة يا سيد؟",
+      "en": "To the station, how much is the fare, sir?",
+      "id": "Untuk menuju stasiun, berapa biayanya, Pak?"
+     }
+    },
+    "hint": {
+     "ar": "اسأل قبل الركوب عند ojek أو taksi بلا عداد.",
+     "en": "Ask before riding with an ojek or a taxi without a meter.",
+     "id": "Tanyakan sebelum naik ojek atau taksi tanpa argo."
+    }
+   },
+   {
+    "id": "id21n6",
+    "target": "Turun di sini.",
+    "translit": "tu-run di si-ni",
+    "tr": {
+     "ar": "سأنزل هنا.",
+     "en": "I will get off here.",
+     "id": "saya mau berhenti dan keluar di tempat ini"
+    },
+    "example": {
+     "target": "Pak, turun di sini, ya.",
+     "translit": "pak tu-run di si-ni ya",
+     "tr": {
+      "ar": "يا سيد، سأنزل هنا من فضلك.",
+      "en": "Sir, I will get off here, please.",
+      "id": "Pak, saya berhenti di tempat ini, ya."
+     }
+    },
+    "hint": {
+     "ar": "في angkot يقال أيضًا Kiri, Pak!",
+     "en": "In an angkot you can also say Kiri, Pak!",
+     "id": "Di angkot juga bisa berkata Kiri, Pak!"
+    }
+   }
+  ],
+  "cloze": [
+   {
+    "sentence": "Setiap pagi saya ___ kereta ke kantor.",
+    "answer": "naik",
+    "wrong": [
+     "turun",
+     "pulang"
+    ],
+    "tr": {
+     "ar": "كل صباح أركب القطار إلى المكتب.",
+     "en": "Every morning I take the train to the office.",
+     "id": "Setiap pagi saya naik kereta ke kantor."
+    },
+    "why": {
+     "ar": "نقول naik kereta لركوب القطار؛ أما turun فعكسه وpulang لا يأخذ kereta مفعولًا.",
+     "en": "We say naik kereta for taking the train; turun is its opposite and pulang does not take kereta here.",
+     "id": "Kita berkata naik kereta untuk menumpang kereta; turun kebalikannya dan pulang tidak diikuti kereta di sini."
+    }
+   },
+   {
+    "sentence": "Pak, ___ di sini, ya.",
+    "answer": "turun",
+    "wrong": [
+     "naik",
+     "makan"
+    ],
+    "tr": {
+     "ar": "يا سيد، سأنزل هنا من فضلك.",
+     "en": "Sir, I will get off here, please.",
+     "id": "Pak, turun di sini, ya."
+    },
+    "why": {
+     "ar": "نطلب من السائق التوقف لننزل، فالفعل turun؛ أما naik فللركوب وmakan فللأكل.",
+     "en": "We ask the driver to stop so we can get off, so the verb is turun; naik is for getting on and makan is for eating.",
+     "id": "Kita meminta sopir berhenti untuk turun, jadi kata kerjanya turun; naik untuk menumpang dan makan untuk makan."
+    }
+   }
+  ],
+  "conversation": {
+   "context": {
+    "ar": "أمام المحطة: راكب يتفاهم مع سائق أوجيك.",
+    "en": "In front of the station: a passenger talks with an ojek driver.",
+    "id": "Di depan stasiun: seorang penumpang berbicara dengan tukang ojek."
+   },
+   "turns": [
+    {
+     "who": "A",
+     "target": "Ojek, Pak? Mau ke mana?",
+     "tr": {
+      "ar": "أوجيك يا سيد؟ إلى أين؟",
+      "en": "Ojek, sir? Where to?",
+      "id": "Ojek, Pak? Mau ke mana?"
+     }
+    },
+    {
+     "who": "B",
+     "target": "Ke Jalan Merdeka, Pak. Berapa ongkosnya?",
+     "tr": {
+      "ar": "إلى شارع ميرديكا. كم الأجرة؟",
+      "en": "To Jalan Merdeka. How much is the fare?",
+      "id": "Ke Jalan Merdeka, Pak. Berapa ongkosnya?"
+     }
+    },
+    {
+     "who": "A",
+     "target": "Lima belas ribu, ya.",
+     "tr": {
+      "ar": "خمسة عشر ألفًا.",
+      "en": "Fifteen thousand.",
+      "id": "Lima belas ribu, ya."
+     }
+    },
+    {
+     "who": "B",
+     "target": "Boleh. Ayo berangkat.",
+     "tr": {
+      "ar": "موافق. هيا ننطلق.",
+      "en": "Okay. Let's go.",
+      "id": "Boleh. Ayo berangkat."
+     }
+    }
+   ],
+   "gap": 1,
+   "wrong": [
+    "Saya naik kereta kemarin.",
+    "Ongkosnya enak sekali."
+   ],
+   "why": {
+    "ar": "السائق سأل إلى أين، فتجيب بالوجهة بـ Ke ... وتسأل عن الأجرة. أما الردان الآخران فلا يذكران وجهة.",
+    "en": "The driver asked where to, so you answer with a destination using Ke ... and ask about the fare. The other two give no destination.",
+    "id": "Sopir bertanya tujuan, jadi kamu menjawab dengan tujuan memakai Ke ... dan menanyakan ongkos. Dua jawaban lain tidak menyebut tujuan."
+   }
+  },
+  "summary": {
+   "ar": "تعلمت ojek وangkot وkereta وbus، وكيف تسأل عن الأجرة وتقول Turun di sini.",
+   "en": "You learned ojek, angkot, kereta and bus, and how to ask the fare and say Turun di sini.",
+   "id": "Kamu belajar ojek, angkot, kereta, dan bus, serta cara menanyakan ongkos dan berkata Turun di sini."
+  }
+ }
+]

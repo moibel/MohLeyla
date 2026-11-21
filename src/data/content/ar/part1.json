@@ -1,0 +1,2974 @@
+[
+ {
+  "id": "ar-14",
+  "track": "ar",
+  "level": "beginner",
+  "order": 1,
+  "topic": "letters-1",
+  "icon": "🔤",
+  "title": {
+   "ar": "الحروف العربية (١): الأسماء والأصوات",
+   "en": "Arabic letters I: names and sounds",
+   "id": "Huruf Arab (1): nama dan bunyi"
+  },
+  "description": {
+   "ar": "تَعَرَّفْ على أول مجموعة من الحروف العربية ونطقها مع كلمات حقيقية.",
+   "en": "Meet the first group of Arabic letters and their sounds, each with a real word.",
+   "id": "Kenali kelompok pertama huruf Arab dan bunyinya, masing-masing dengan kata nyata."
+  },
+  "objectives": [
+   {
+    "ar": "أستطيع أن أنطق الحروف ا ب ت ث ج ح خ د ذ ر ز.",
+    "en": "I can pronounce the letters alif bā' tā' thā' jīm ḥā' khā' dāl dhāl rā' zayn.",
+    "id": "Saya bisa melafalkan huruf alif bā' tā' thā' jīm ḥā' khā' dāl dhāl rā' zayn."
+   },
+   {
+    "ar": "أستطيع أن أميّز بين الحروف المتشابهة في الشكل بالنقاط.",
+    "en": "I can tell look-alike letters apart by their dots.",
+    "id": "Saya bisa membedakan huruf yang mirip bentuknya lewat titiknya."
+   },
+   {
+    "ar": "أستطيع أن أقرأ كلمات قصيرة تبدأ بهذه الحروف.",
+    "en": "I can read short words that begin with these letters.",
+    "id": "Saya bisa membaca kata pendek yang diawali huruf-huruf ini."
+   }
+  ],
+  "intro": {
+   "ar": "تُكتب العربية من اليمين إلى اليسار، وفيها ثمانية وعشرون حرفًا. سنبدأ بأحد عشر حرفًا ونتعلّم اسم كل حرف وصوته وكلمة تبدأ به.",
+   "en": "Arabic is written from right to left and has 28 letters. We start with eleven of them and learn each letter's name, its sound and a word that begins with it.",
+   "id": "Bahasa Arab ditulis dari kanan ke kiri dan memiliki 28 huruf. Kita mulai dengan sebelas huruf dan mempelajari nama, bunyi, serta satu kata yang diawali tiap huruf."
+  },
+  "culture": {
+   "ar": "الحرف الأول «أَلِف» يبدأ به اسم «اللهِ» ومعظم الأسماء العربية القديمة، وترتيب الحروف الأبجدي (أ ب ت ث) يُستخدم في القواميس وقوائم الأسماء في المدارس العربية.",
+   "en": "The first letter, alif, begins many everyday words, and the alphabetical order (alif, bā', tā', thā') is used in dictionaries and school name lists across the Arab world.",
+   "id": "Huruf pertama, alif, mengawali banyak kata sehari-hari, dan urutan abjad (alif, bā', tā', tsā') dipakai di kamus dan daftar nama sekolah di dunia Arab."
+  },
+  "grammar": {
+   "title": {
+    "ar": "النقاط والأشكال",
+    "en": "Dots and shapes",
+    "id": "Titik dan bentuk"
+   },
+   "body": {
+    "ar": "كثير من الحروف يتشابه في الشكل ويختلف في النقاط: ب (نقطة تحت) ت (نقطتان فوق) ث (ثلاث فوق)، وكذلك ج (نقطة تحت) ح (بلا نقطة) خ (نقطة فوق). الحرف يتغيّر شكله قليلًا حسب موضعه في الكلمة.",
+    "en": "Many letters share one shape and differ only by dots: bā' (one dot below), tā' (two above), thā' (three above), and likewise jīm (one below), ḥā' (none), khā' (one above). A letter's shape also changes a little depending on its position in the word.",
+    "id": "Banyak huruf punya bentuk dasar sama dan hanya beda titik: bā' (satu titik di bawah), tā' (dua di atas), thā' (tiga di atas), demikian juga jīm (satu di bawah), ḥā' (tanpa titik), khā' (satu di atas). Bentuk huruf juga sedikit berubah menurut posisinya dalam kata."
+   }
+  },
+  "items": [
+   {
+    "id": "ar14n1",
+    "target": "أَسَد",
+    "translit": "asad",
+    "tr": {
+     "ar": "الحرف «أَلِف» (ا): صوت الفتحة الطويلة أو همزة",
+     "en": "Letter alif: the long 'a' sound or a hamza",
+     "id": "Huruf alif: bunyi 'a' panjang atau hamzah"
+    },
+    "example": {
+     "target": "الأَسَدُ حَيَوَانٌ قَوِيٌّ.",
+     "translit": "al-asadu ḥayawānun qawiyyun.",
+     "tr": {
+      "ar": "الأسد من الحيوانات القوية.",
+      "en": "The lion is a strong animal.",
+      "id": "Singa adalah hewan yang kuat."
+     }
+    },
+    "hint": {
+     "ar": "في أول الكلمة يُكتب ا مع همزة (أ) ويُنطق «أ» قصيرة. في وسط الكلمة (باب) يُنطق «آ» طويلة. لا يتصل بما بعده.",
+     "en": "At the start of a word it is written with a hamza and sounds a short 'a'. Inside a word (as in bāb) it is a long 'ā'. It never joins the next letter.",
+     "id": "Di awal kata ditulis dengan hamzah dan berbunyi 'a' pendek. Di tengah kata (seperti bāb) menjadi 'ā' panjang. Tidak bersambung ke huruf berikutnya."
+    }
+   },
+   {
+    "id": "ar14n2",
+    "target": "بَاب",
+    "translit": "bāb",
+    "tr": {
+     "ar": "الحرف «بَاء» (ب): كلمة تعني مدخل البيت",
+     "en": "Letter bā': a word for the entrance of a house",
+     "id": "Huruf bā': kata untuk pintu masuk rumah"
+    },
+    "example": {
+     "target": "الْبَابُ مَفْتُوحٌ.",
+     "translit": "al-bābu maftūḥun.",
+     "tr": {
+      "ar": "الباب غير مغلق.",
+      "en": "The door is open.",
+      "id": "Pintunya terbuka."
+     }
+    },
+    "hint": {
+     "ar": "ب مثل b في الإنجليزية، ونقطتها تحتها.",
+     "en": "bā' sounds like English b, with one dot below it.",
+     "id": "bā' berbunyi seperti b, dengan satu titik di bawahnya."
+    }
+   },
+   {
+    "id": "ar14n3",
+    "target": "تُفَّاح",
+    "translit": "tuffāḥ",
+    "tr": {
+     "ar": "الحرفان «تَاء» (ت) و«ثَاء» (ث): تاء في ثمرة معروفة",
+     "en": "Letters tā' and thā': tā' as in a familiar fruit",
+     "id": "Huruf tā' dan tsā': tā' pada nama buah yang dikenal"
+    },
+    "example": {
+     "target": "آكُلُ تُفَّاحَةً كُلَّ صَبَاحٍ.",
+     "translit": "ākulu tuffāḥatan kulla ṣabāḥin.",
+     "tr": {
+      "ar": "أتناول تفاحة في كل صباح.",
+      "en": "I eat an apple every morning.",
+      "id": "Saya makan sebuah apel setiap pagi."
+     }
+    },
+    "hint": {
+     "ar": "ت مثل t. أما ث فتُنطق كـ th في think، مثل كلمة ثَوْب (ثوب).",
+     "en": "tā' is like t. thā' is like the th in 'think', as in thawb (garment).",
+     "id": "tā' seperti t. Adapun thā' berbunyi seperti th pada 'think', misalnya thawb (jubah/pakaian)."
+    }
+   },
+   {
+    "id": "ar14n4",
+    "target": "جَمَل",
+    "translit": "jamal",
+    "tr": {
+     "ar": "الحرف «جِيم» (ج): حيوان الصحراء",
+     "en": "Letter jīm: the desert animal",
+     "id": "Huruf jīm: hewan padang pasir"
+    },
+    "example": {
+     "target": "الْجَمَلُ يَعِيشُ فِي الصَّحْرَاءِ.",
+     "translit": "al-jamalu yaʿīshu fī aṣ-ṣaḥrāʾi.",
+     "tr": {
+      "ar": "الجمل يسكن في الصحراء.",
+      "en": "The camel lives in the desert.",
+      "id": "Unta hidup di padang pasir."
+     }
+    },
+    "hint": {
+     "ar": "ج مثل j. ثم تعلّم الحرفين المشابهين له: ح (حَلِيب) وخ (خُبْز).",
+     "en": "jīm sounds like j. Its two look-alikes are ḥā' (as in ḥalīb, milk) and khā' (as in khubz, bread).",
+     "id": "jīm seperti j. Dua huruf yang mirip bentuknya: ḥā' (ḥalīb, susu) dan khā' (khubz, roti)."
+    }
+   },
+   {
+    "id": "ar14n5",
+    "target": "حَلِيب",
+    "translit": "ḥalīb",
+    "tr": {
+     "ar": "الحرف «حَاء» (ح): كلمة تعني مشروبًا أبيض",
+     "en": "Letter ḥā': a word for a white drink",
+     "id": "Huruf ḥā': kata untuk minuman putih"
+    },
+    "example": {
+     "target": "أَشْرَبُ الْحَلِيبَ فِي الصَّبَاحِ.",
+     "translit": "ashrabu al-ḥalība fī aṣ-ṣabāḥi.",
+     "tr": {
+      "ar": "أتناول الحليب في الصباح.",
+      "en": "I drink milk in the morning.",
+      "id": "Saya minum susu di pagi hari."
+     }
+    },
+    "hint": {
+     "ar": "ح نَفَس مهموس من الحلق، كأنك تتنفّس على زجاج. وخ (خُبْز) تشبه صوت الغرغرة الخفيفة.",
+     "en": "ḥā' is a breathy sound from the throat, like fogging a glass. khā' (khubz, bread) is a rough sound like clearing your throat softly.",
+     "id": "ḥā' adalah bunyi hembusan dari tenggorokan, seperti menghembus kaca. khā' (khubz, roti) seperti bunyi berdeham lembut."
+    }
+   },
+   {
+    "id": "ar14n6",
+    "target": "دَرْس",
+    "translit": "dars",
+    "tr": {
+     "ar": "الحرفان «دَال» (د) و«ذَال» (ذ): دال في كلمة عن التعلّم",
+     "en": "Letters dāl and dhāl: dāl in a word about learning",
+     "id": "Huruf dāl dan dzāl: dāl pada kata tentang belajar"
+    },
+    "example": {
+     "target": "الدَّرْسُ الْيَوْمَ سَهْلٌ.",
+     "translit": "ad-darsu al-yawma sahlun.",
+     "tr": {
+      "ar": "درس اليوم ليس صعبًا.",
+      "en": "Today's lesson is easy.",
+      "id": "Pelajaran hari ini mudah."
+     }
+    },
+    "hint": {
+     "ar": "د مثل d. أما ذ فتُنطق كـ th في this، مثل ذَهَب (ذهب). ثم الحرفان ر (رَجُل) وز (زَيْتُون) يشبهان بعضهما والفرق نقطة فوق الزاي.",
+     "en": "dāl is like d. dhāl is like the th in 'this', as in dhahab (gold). Then rā' (rajul, man) and zayn (zaytūn, olive) look alike; zayn has a dot above.",
+     "id": "dāl seperti d. Adapun dhāl seperti th pada 'this', misalnya dzahab (emas). Lalu rā' (rajul, pria) dan zayn (zaytūn, zaitun) mirip; zayn bertitik di atas."
+    }
+   }
+  ],
+  "cloze": [
+   {
+    "sentence": "كَلِمَةُ ___ تَبْدَأُ بِحَرْفِ الْبَاءِ.",
+    "answer": "بَابٌ",
+    "wrong": [
+     "جَمَلٌ",
+     "حَلِيبٌ"
+    ],
+    "tr": {
+     "ar": "كلمة «باب» تبدأ بحرف الباء.",
+     "en": "The word 'door' begins with the letter bā'.",
+     "id": "Kata 'pintu' diawali huruf bā'."
+    },
+    "why": {
+     "ar": "«بَابٌ» تبدأ بالباء، أما «جَمَلٌ» فبالجيم و«حَلِيبٌ» بالحاء.",
+     "en": "'Bāb' starts with bā'; 'jamal' starts with jīm and 'ḥalīb' with ḥā'.",
+     "id": "'Bāb' diawali bā'; 'jamal' diawali jīm dan 'ḥalīb' diawali ḥā'."
+    }
+   },
+   {
+    "sentence": "نُقْطَةٌ وَاحِدَةٌ تَحْتَ الْحَرْفِ فِي ___.",
+    "answer": "بَاءٍ",
+    "wrong": [
+     "حَاءٍ",
+     "تَاءٍ"
+    ],
+    "tr": {
+     "ar": "نقطة واحدة تحت الحرف في الباء.",
+     "en": "One dot below the letter, in bā'.",
+     "id": "Satu titik di bawah huruf, pada bā'."
+    },
+    "why": {
+     "ar": "الباء نقطتها تحتها، والحاء بلا نقطة، والتاء نقطتاها فوقها.",
+     "en": "Bā' has its dot below; ḥā' has no dot; tā' has two dots above.",
+     "id": "Bā' bertitik di bawah; ḥā' tanpa titik; tā' dua titik di atas."
+    }
+   }
+  ],
+  "conversation": {
+   "context": {
+    "ar": "في الصف: المعلمة تسأل الطالب عن حرف.",
+    "en": "In class: the teacher asks a student about a letter.",
+    "id": "Di kelas: guru bertanya kepada murid tentang sebuah huruf."
+   },
+   "turns": [
+    {
+     "who": "A",
+     "target": "مَا هَذَا الْحَرْفُ؟ بَاءٌ أَمْ تَاءٌ؟",
+     "tr": {
+      "ar": "ما هذا الحرف؟ باء أم تاء؟",
+      "en": "What is this letter? Bā' or tā'?",
+      "id": "Huruf apa ini? Bā' atau tā'?"
+     }
+    },
+    {
+     "who": "B",
+     "target": "هَذَا حَرْفُ الْبَاءِ، نُقْطَتُهُ تَحْتَهُ.",
+     "tr": {
+      "ar": "هذا حرف الباء ونقطته أسفله.",
+      "en": "This is bā'; its dot is below.",
+      "id": "Ini huruf bā', titiknya di bawah."
+     }
+    },
+    {
+     "who": "A",
+     "target": "أَحْسَنْتَ!",
+     "tr": {
+      "ar": "أصبت، ممتاز!",
+      "en": "Well done!",
+      "id": "Bagus sekali!"
+     }
+    }
+   ],
+   "gap": 1,
+   "wrong": [
+    "شُكْرًا، أَنَا بِخَيْرٍ.",
+    "هَذَا بَابٌ كَبِيرٌ."
+   ],
+   "why": {
+    "ar": "الجواب الصحيح يحدد الحرف ويصف نقطته. «أنا بخير» جواب عن سؤال عن الحال، و«هذا باب كبير» يتحدث عن شيء آخر.",
+    "en": "The right reply names the letter and describes its dot. 'I'm fine' answers a question about well-being, and 'This is a big door' talks about something else.",
+    "id": "Jawaban yang tepat menyebut huruf dan titiknya. 'Saya baik' menjawab pertanyaan kabar, dan 'Ini pintu besar' membicarakan hal lain."
+   }
+  },
+  "summary": {
+   "ar": "تعلّمنا أسماء الحروف من الألف إلى الزاي وأصواتها وكلمة لكل مجموعة. انتبه إلى النقاط فهي تفرّق بين الحروف المتشابهة.",
+   "en": "You learned the letters from alif to zayn with their sounds and a word for each group. Watch the dots: they separate look-alike letters.",
+   "id": "Kamu mempelajari huruf dari alif sampai zay beserta bunyi dan satu kata untuk tiap kelompok. Perhatikan titiknya: itulah pembeda huruf yang mirip."
+  }
+ },
+ {
+  "id": "ar-15",
+  "track": "ar",
+  "level": "beginner",
+  "order": 2,
+  "topic": "letters-2",
+  "icon": "✍️",
+  "title": {
+   "ar": "الحروف العربية (٢) والحركات",
+   "en": "Arabic letters II and short vowels",
+   "id": "Huruf Arab (2) dan harakat"
+  },
+  "description": {
+   "ar": "أكمل الحروف العربية وتعلّم الحركات القصيرة والتنوين والسكون.",
+   "en": "Finish the alphabet and learn short vowels, tanwīn and sukūn.",
+   "id": "Selesaikan abjad dan pelajari harakat pendek, tanwin, dan sukun."
+  },
+  "objectives": [
+   {
+    "ar": "أستطيع أن أنطق الحروف من س إلى ي.",
+    "en": "I can pronounce the letters from sīn to yā'.",
+    "id": "Saya bisa melafalkan huruf dari sīn sampai yā'."
+   },
+   {
+    "ar": "أستطيع أن أميّز الحروف المفخّمة ص ض ط ظ وحروف الحلق ع غ.",
+    "en": "I can distinguish the emphatic letters ṣād ḍād ṭā' ẓā' and the throat letters ʿayn ghayn.",
+    "id": "Saya bisa membedakan huruf tebal ṣād ḍād ṭā' ẓā' dan huruf tenggorokan ʿayn ghayn."
+   },
+   {
+    "ar": "أستطيع أن أقرأ الفتحة والكسرة والضمة والتنوين والسكون.",
+    "en": "I can read fatḥa, kasra, ḍamma, tanwīn and sukūn.",
+    "id": "Saya bisa membaca fatḥah, kasrah, ḍammah, tanwin, dan sukun."
+   }
+  ],
+  "intro": {
+   "ar": "بقي لنا سبعة عشر حرفًا، منها أصوات لا توجد في لغتك مثل ع وق وص. ثم نتعلّم الحركات: علامات صغيرة تُكتب فوق الحرف أو تحته وتحدد النطق.",
+   "en": "Seventeen letters remain, some with sounds your language may lack, like ʿayn, qāf and ṣād. Then we learn the vowel marks: small signs above or below a letter that fix the pronunciation.",
+   "id": "Tersisa tujuh belas huruf, beberapa berbunyi yang mungkin belum ada di bahasamu seperti ʿayn, qāf, dan ṣād. Lalu kita belajar harakat: tanda kecil di atas atau bawah huruf yang menentukan bunyinya."
+  },
+  "culture": {
+   "ar": "الكتب والصحف تُكتب عادة بلا حركات، لكن كتب الأطفال والقرآن وكتب تعليم اللغة تُكتب بالحركات الكاملة. لهذا نتعلّمها منذ البداية.",
+   "en": "Newspapers and most books are written without vowel marks, but children's books, the Qur'an and language textbooks are fully vowelled. That is why we learn them from the start.",
+   "id": "Koran dan kebanyakan buku ditulis tanpa harakat, tetapi buku anak-anak, Al-Qur'an, dan buku pelajaran bahasa ditulis dengan harakat penuh. Karena itu kita mempelajarinya sejak awal."
+  },
+  "grammar": {
+   "title": {
+    "ar": "الحركات الثلاث",
+    "en": "The three short vowels",
+    "id": "Tiga harakat pendek"
+   },
+   "body": {
+    "ar": "الفتحة (بَ) صوتها a، والكسرة (بِ) صوتها i، والضمة (بُ) صوتها u. التنوين صوت n في آخر الاسم (كِتَابٌ، كِتَابًا، كِتَابٍ)، والسكون (ـْ) يعني أن الحرف بلا حركة، كما في مَكْتَب.",
+    "en": "The fatḥa sounds 'a', the kasra 'i' and the ḍamma 'u'. Tanwīn adds an 'n' sound at the end of a noun (kitābun, kitāban, kitābin), and the sukūn means the letter carries no vowel, as in maktab.",
+    "id": "Fatḥah berbunyi a, kasrah berbunyi i, dan ḍammah berbunyi u. Tanwin menambah bunyi n di akhir kata benda (kitābun, kitāban, kitābin), dan sukun berarti huruf tanpa vokal, seperti pada maktab."
+   }
+  },
+  "items": [
+   {
+    "id": "ar15n1",
+    "target": "سَمَك",
+    "translit": "samak",
+    "tr": {
+     "ar": "الحرفان «سِين» (س) و«شِين» (ش): سين في اسم حيوان بحري",
+     "en": "Letters sīn and shīn: sīn in a sea animal's name",
+     "id": "Huruf sīn dan syīn: sīn pada nama hewan laut"
+    },
+    "example": {
+     "target": "نَأْكُلُ السَّمَكَ يَوْمَ الْجُمُعَةِ.",
+     "translit": "naʾkulu as-samaka yawma al-jumuʿati.",
+     "tr": {
+      "ar": "نتناول السمك يوم الجمعة.",
+      "en": "We eat fish on Fridays.",
+      "id": "Kami makan ikan pada hari Jumat."
+     }
+    },
+    "hint": {
+     "ar": "س مثل s، وش مثل sh، وبينهما ثلاث نقاط فوق الشين، مثل شَمْس (شمس).",
+     "en": "sīn is like s and shīn like sh; shīn has three dots above, as in shams (sun).",
+     "id": "sīn seperti s dan shīn seperti sy; shīn punya tiga titik di atas, seperti pada syams (matahari)."
+    }
+   },
+   {
+    "id": "ar15n2",
+    "target": "صَبَاح",
+    "translit": "ṣabāḥ",
+    "tr": {
+     "ar": "الحروف المفخّمة ص ض ط ظ: صاد في كلمة عن بداية اليوم",
+     "en": "The emphatic letters ṣād ḍād ṭā' ẓā': ṣād in a word for the start of the day",
+     "id": "Huruf tebal ṣād ḍād ṭā' ẓā': ṣād pada kata untuk awal hari"
+    },
+    "example": {
+     "target": "صَبَاحُ الْخَيْرِ يَا أَصْدِقَائِي.",
+     "translit": "ṣabāḥu al-khayri yā aṣdiqāʾī.",
+     "tr": {
+      "ar": "تحية الصباح لأصدقائي.",
+      "en": "Good morning, my friends.",
+      "id": "Selamat pagi, teman-temanku."
+     }
+    },
+    "hint": {
+     "ar": "هذه الحروف الأربعة تُنطق بلسان مرتفع وصوت ثقيل: ص (ṣ) ض (ḍ) ط (ṭ) ظ (ẓ). قارن س (سَمَك) بـ ص (صَبَاح): الثانية أثقل. وفي الكلمات: ضَيْف (ضيف)، طَالِب (طالب)، ظُهْر (ظهر).",
+     "en": "These four are said with the tongue raised and a heavy sound: ṣād (ṣ), ḍād (ḍ), ṭā' (ṭ), ẓā' (ẓ). Compare sīn (samak) with ṣād (ṣabāḥ): the second is heavier. Examples: ḍayf (guest), ṭālib (student), ẓuhr (noon).",
+     "id": "Keempat huruf ini diucapkan dengan lidah terangkat dan bunyi tebal: ṣād (ṣ), ḍād (ḍ), ṭā' (ṭ), ẓā' (ẓ). Bandingkan sīn (samak) dengan ṣād (ṣabāḥ): yang kedua lebih tebal. Contoh: ḍayf (tamu), ṭālib (siswa), ẓuhr (tengah hari)."
+    }
+   },
+   {
+    "id": "ar15n3",
+    "target": "عَيْن",
+    "translit": "ʿayn",
+    "tr": {
+     "ar": "الحرفان «عَيْن» (ع) و«غَيْن» (غ): عين اسم عضو في الوجه",
+     "en": "Letters ʿayn and ghayn: ʿayn names a part of the face",
+     "id": "Huruf ʿayn dan ghayn: ʿayn adalah nama anggota wajah"
+    },
+    "example": {
+     "target": "عَيْنَايَ تُؤْلِمَانِي.",
+     "translit": "ʿaynāya tuʾlimānī.",
+     "tr": {
+      "ar": "عيناي تؤلمانني.",
+      "en": "My eyes hurt.",
+      "id": "Mataku sakit."
+     }
+    },
+    "hint": {
+     "ar": "ع صوت يخرج من وسط الحلق بشدّة وليس له مقابل في الإنجليزية، وغ كصوت الغرغرة الخفيفة، مثل غَدًا (غدًا).",
+     "en": "ʿayn is squeezed from the middle of the throat and has no English equivalent; ghayn is a soft gargling sound, as in ghadan (tomorrow).",
+     "id": "ʿayn keluar dari tengah tenggorokan dengan tekanan dan tidak ada padanannya dalam bahasa Indonesia; ghayn seperti bunyi berkumur halus, seperti pada ghadan (besok)."
+    }
+   },
+   {
+    "id": "ar15n4",
+    "target": "كِتَاب",
+    "translit": "kitāb",
+    "tr": {
+     "ar": "الحروف «فَاء» (ف) و«قَاف» (ق) و«كَاف» (ك): كاف في كلمة عن القراءة",
+     "en": "Letters fā', qāf, kāf: kāf in a word about reading",
+     "id": "Huruf fā', qāf, kāf: kāf pada kata tentang membaca"
+    },
+    "example": {
+     "target": "هَذَا كِتَابٌ مُفِيدٌ.",
+     "translit": "hādhā kitābun mufīdun.",
+     "tr": {
+      "ar": "هذا كتاب نافع.",
+      "en": "This is a useful book.",
+      "id": "Ini buku yang bermanfaat."
+     }
+    },
+    "hint": {
+     "ar": "ف مثل f (نقطة فوق)، وق صوت k عميق من الحلق (نقطتان فوق)، مثل قَلَم (قلم)، وك مثل k العادية.",
+     "en": "fā' is like f (one dot above); qāf is a deep k from the back of the throat (two dots above), as in qalam (pen); kāf is the ordinary k.",
+     "id": "fā' seperti f (satu titik di atas); qāf adalah k dalam dari pangkal tenggorokan (dua titik di atas), seperti pada qalam (pena); kāf adalah k biasa."
+    }
+   },
+   {
+    "id": "ar15n5",
+    "target": "لَيْل",
+    "translit": "layl",
+    "tr": {
+     "ar": "الحروف «لَام» (ل) و«مِيم» (م) و«نُون» (ن): لام في كلمة عكس النهار",
+     "en": "Letters lām, mīm, nūn: lām in the opposite of day",
+     "id": "Huruf lām, mīm, nūn: lām pada kata lawan siang"
+    },
+    "example": {
+     "target": "اللَّيْلُ هَادِئٌ فِي الْقَرْيَةِ.",
+     "translit": "al-laylu hādiʾun fī al-qaryati.",
+     "tr": {
+      "ar": "الليل ساكن في القرية.",
+      "en": "The night is quiet in the village.",
+      "id": "Malam itu sunyi di desa."
+     }
+    },
+    "hint": {
+     "ar": "م مثل m، ون مثل n (نقطة فوقها)، مثل مَاء (ماء) ونُور (نور).",
+     "en": "mīm is like m; nūn is like n, with a dot above, as in māʾ (water) and nūr (light).",
+     "id": "mīm seperti m; nūn seperti n, dengan titik di atas, seperti pada māʾ (air) dan nūr (cahaya)."
+    }
+   },
+   {
+    "id": "ar15n6",
+    "target": "وَرْدَة",
+    "translit": "wardah",
+    "tr": {
+     "ar": "الحروف «هَاء» (هـ) و«وَاو» (و) و«يَاء» (ي): واو في اسم زهرة",
+     "en": "Letters hā', wāw, yā': wāw in a flower's name",
+     "id": "Huruf hā', wāw, yā': wāw pada nama bunga"
+    },
+    "example": {
+     "target": "الْوَرْدَةُ حَمْرَاءُ وَجَمِيلَةٌ.",
+     "translit": "al-wardatu ḥamrāʾu wa-jamīlatun.",
+     "tr": {
+      "ar": "الوردة حمراء وجميلة.",
+      "en": "The rose is red and beautiful.",
+      "id": "Mawar itu merah dan cantik."
+     }
+    },
+    "hint": {
+     "ar": "و وي حرفان قد يكونان صامتين (w، y) أو حرفي مدّ (ū، ī)، ومن ذلك يَوْم (يوم) وهُوَ (هو). والهاء تُنطق h خفيفة.",
+     "en": "wāw and yā' can be consonants (w, y) or long-vowel letters (ū, ī), as in yawm (day) and huwa (he). hā' is a light h.",
+     "id": "wāw dan yā' bisa menjadi konsonan (w, y) atau huruf vokal panjang (ū, ī), seperti pada yawm (hari) dan huwa (dia). hā' adalah h ringan."
+    }
+   },
+   {
+    "id": "ar15n7",
+    "target": "بَ بِ بُ",
+    "translit": "ba bi bu",
+    "tr": {
+     "ar": "الحركات الثلاث: فتحة وكسرة وضمة",
+     "en": "The three short vowels: fatḥa, kasra, ḍamma",
+     "id": "Tiga harakat pendek: fatḥah, kasrah, ḍammah"
+    },
+    "example": {
+     "target": "كَتَبَ الْوَلَدُ الدَّرْسَ.",
+     "translit": "kataba al-waladu ad-darsa.",
+     "tr": {
+      "ar": "كتب الصبي الدرس.",
+      "en": "The boy wrote the lesson.",
+      "id": "Anak laki-laki itu menulis pelajaran."
+     }
+    },
+    "hint": {
+     "ar": "الفتحة فوق الحرف (a)، والكسرة تحته (i)، والضمة فوقه (u). وإذا طالت الحركة بعدها ا أو ي أو و صارت ā وī وū.",
+     "en": "Fatḥa goes above the letter (a), kasra below (i), ḍamma above (u). Followed by alif, yā' or wāw, they become long ā, ī, ū.",
+     "id": "Fatḥah di atas huruf (a), kasrah di bawah (i), ḍammah di atas (u). Jika diikuti alif, yā', atau wāw, menjadi panjang ā, ī, ū."
+    }
+   },
+   {
+    "id": "ar15n8",
+    "target": "مَكْتَبٌ",
+    "translit": "maktabun",
+    "tr": {
+     "ar": "التنوين والسكون: مكتب (طاولة العمل) يجمع الاثنين",
+     "en": "Tanwīn and sukūn: 'desk' shows both",
+     "id": "Tanwin dan sukun: 'meja tulis' memuat keduanya"
+    },
+    "example": {
+     "target": "عَلَى الْمَكْتَبِ كِتَابٌ.",
+     "translit": "ʿalā al-maktabi kitābun.",
+     "tr": {
+      "ar": "يوجد كتاب فوق المكتب.",
+      "en": "There is a book on the desk.",
+      "id": "Ada sebuah buku di atas meja."
+     }
+    },
+    "hint": {
+     "ar": "في مَكْتَبٌ: السكون فوق الكاف يعني أنك تنطق ك بلا حركة (mak-ta-bun)، والضمتان في آخره تنوين الرفع ويُنطق un. وهناك أيضًا الشدّة (ـّ) التي تضاعف الحرف مثل مُعَلِّم.",
+     "en": "In maktabun the sukūn over kāf means no vowel after k (mak-ta-bun), and the double ḍamma at the end is tanwīn read as 'un'. There is also the shadda, which doubles a letter, as in muʿallim.",
+     "id": "Pada maktabun, sukun di atas kāf berarti k tanpa vokal (mak-ta-bun), dan dua ḍammah di akhir adalah tanwin yang dibaca 'un'. Ada juga syiddah yang menggandakan huruf, seperti pada muʿallim."
+    }
+   }
+  ],
+  "cloze": [
+   {
+    "sentence": "نُقْطَتَانِ فَوْقَ الْحَرْفِ فِي ___.",
+    "answer": "قَافٍ",
+    "wrong": [
+     "كَافٍ",
+     "لَامٍ"
+    ],
+    "tr": {
+     "ar": "نقطتان فوق الحرف في القاف.",
+     "en": "Two dots above the letter, in qāf.",
+     "id": "Dua titik di atas huruf, pada qāf."
+    },
+    "why": {
+     "ar": "القاف لها نقطتان فوقها، أما الكاف واللام فبلا نقاط.",
+     "en": "Qāf has two dots above; kāf and lām have none.",
+     "id": "Qāf bertitik dua di atas; kāf dan lām tanpa titik."
+    }
+   },
+   {
+    "sentence": "يُكْتَبُ ___ فَوْقَ الْحَرْفِ لِيُنْطَقَ «a».",
+    "answer": "فَتْحَةٌ",
+    "wrong": [
+     "كَسْرَةٌ",
+     "سُكُونٌ"
+    ],
+    "tr": {
+     "ar": "تُكتب الفتحة فوق الحرف لينطق a.",
+     "en": "A fatḥa is written above the letter to give the 'a' sound.",
+     "id": "Fatḥah ditulis di atas huruf agar berbunyi a."
+    },
+    "why": {
+     "ar": "الفتحة فوق الحرف وتعطي a. الكسرة تحت الحرف وتعطي i، والسكون يعني بلا حركة.",
+     "en": "The fatḥa sits above the letter and gives 'a'. The kasra goes below and gives 'i'; the sukūn means no vowel.",
+     "id": "Fatḥah berada di atas huruf dan berbunyi a. Kasrah di bawah dan berbunyi i; sukun berarti tanpa vokal."
+    }
+   }
+  ],
+  "conversation": {
+   "context": {
+    "ar": "في الصف: الطالب يقرأ كلمة بصوت عالٍ.",
+    "en": "In class: a student reads a word aloud.",
+    "id": "Di kelas: seorang murid membaca sebuah kata dengan lantang."
+   },
+   "turns": [
+    {
+     "who": "A",
+     "target": "كَيْفَ تَقْرَأُ هَذِهِ الْكَلِمَةَ: كِتَابٌ؟",
+     "tr": {
+      "ar": "كيف تقرأ هذه الكلمة: كتاب؟",
+      "en": "How do you read this word: kitābun?",
+      "id": "Bagaimana membaca kata ini: kitābun?"
+     }
+    },
+    {
+     "who": "B",
+     "target": "أَقْرَأُهَا «كِتَابٌ»، وَالنُّونُ فِي آخِرِهَا تَنْوِينٌ.",
+     "tr": {
+      "ar": "أقرؤها «كتابٌ» والنون في آخرها تنوين.",
+      "en": "I read it 'kitābun'; the n at the end is tanwīn.",
+      "id": "Saya membacanya 'kitābun'; n di akhir adalah tanwin."
+     }
+    },
+    {
+     "who": "A",
+     "target": "نَعَمْ، قِرَاءَةٌ صَحِيحَةٌ!",
+     "tr": {
+      "ar": "نعم، قراءة سليمة!",
+      "en": "Yes, a correct reading!",
+      "id": "Ya, bacaan yang benar!"
+     }
+    }
+   ],
+   "gap": 1,
+   "wrong": [
+    "أَنَا مِنْ إِنْدُونِيسِيَا.",
+    "غَدًا سَأَذْهَبُ إِلَى الْمَدْرَسَةِ."
+   ],
+   "why": {
+    "ar": "الجواب الصحيح يقرأ الكلمة ويشرح التنوين. الجوابان الآخران لا علاقة لهما بسؤال القراءة.",
+    "en": "The right answer reads the word and explains the tanwīn. The other two have nothing to do with the reading question.",
+    "id": "Jawaban benar membaca kata dan menjelaskan tanwin. Dua lainnya tidak berkaitan dengan pertanyaan membaca."
+   }
+  },
+  "summary": {
+   "ar": "أنهينا الحروف العربية الثمانية والعشرين وتعلّمنا الحركات والتنوين والسكون والشدّة. مع الممارسة ستقرأ الكلمات بسرعة.",
+   "en": "You have now seen all 28 letters and learned the vowel marks, tanwīn, sukūn and shadda. With practice you will read words quickly.",
+   "id": "Kamu kini telah mengenal 28 huruf serta harakat, tanwin, sukun, dan syiddah. Dengan latihan kamu akan membaca kata dengan cepat."
+  }
+ },
+ {
+  "id": "ar-01",
+  "track": "ar",
+  "level": "beginner",
+  "order": 3,
+  "topic": "greetings",
+  "icon": "👋",
+  "title": {
+   "ar": "التحيات",
+   "en": "Greetings",
+   "id": "Salam dan sapaan"
+  },
+  "description": {
+   "ar": "ابدأ المحادثة بتحيات عربية مهذبة ومناسبة للوقت.",
+   "en": "Start a conversation with polite Arabic greetings suited to the moment.",
+   "id": "Mulai percakapan dengan sapaan Arab yang sopan dan sesuai waktu."
+  },
+  "objectives": [
+   {
+    "ar": "أستطيع أن ألقي التحية وأردّ عليها.",
+    "en": "I can greet someone and answer a greeting.",
+    "id": "Saya bisa menyapa dan membalas sapaan."
+   },
+   {
+    "ar": "أستطيع أن أسأل «كيف حالك؟» وأفرّق بين المذكر والمؤنث.",
+    "en": "I can ask 'how are you?' and tell masculine from feminine.",
+    "id": "Saya bisa bertanya 'apa kabar?' dan membedakan maskulin dan feminin."
+   },
+   {
+    "ar": "أستطيع أن أشكر وأودّع بأدب.",
+    "en": "I can say thank you and goodbye politely.",
+    "id": "Saya bisa berterima kasih dan berpamitan dengan sopan."
+   }
+  ],
+  "intro": {
+   "ar": "التحية أول ما يقوله العرب عند اللقاء، ولا تبدأ محادثة جادة بدونها. في هذا الدرس ستتعلم ست عبارات ستستعملها كل يوم.",
+   "en": "Greeting is the first thing Arabs do on meeting, and no real conversation starts without it. In this lesson you learn six expressions you will use every day.",
+   "id": "Menyapa adalah hal pertama yang dilakukan orang Arab saat bertemu, dan percakapan serius tak dimulai tanpanya. Dalam pelajaran ini kamu belajar enam ungkapan yang dipakai setiap hari."
+  },
+  "culture": {
+   "ar": "تحية الإسلام «السلام عليكم» تُقال في كل بلد عربي لكل الناس تقريبًا، ويُردّ عليها «وعليكم السلام». أما «مرحبًا» و«أهلًا» فهما أخف وتناسبان كل المواقف. وتُقال تحية الصباح والمساء حسب الوقت.",
+   "en": "The greeting 'as-salāmu ʿalaykum' is heard in every Arab country and answered 'wa ʿalaykumu as-salām'. 'Marḥaban' and 'ahlan' are lighter and fit almost any situation. Morning and evening greetings are used according to the time of day.",
+   "id": "Salam 'as-salāmu ʿalaykum' terdengar di setiap negara Arab dan dijawab 'wa ʿalaykumu as-salām'. 'Marḥaban' dan 'ahlan' lebih ringan dan cocok untuk hampir semua situasi. Sapaan pagi dan sore dipakai sesuai waktu."
+  },
+  "grammar": {
+   "title": {
+    "ar": "المخاطَب المذكر والمؤنث",
+    "en": "Speaking to a man or a woman",
+    "id": "Berbicara kepada pria atau wanita"
+   },
+   "body": {
+    "ar": "الكاف في «حالُكَ» تدل على مخاطب مذكر، وتصير كسرة للمؤنث: «كَيْفَ حَالُكِ؟». والجواب «بِخَيْرٍ» يصلح للجنسين.",
+    "en": "The ending -ka in 'ḥāluka' addresses a man; for a woman it becomes -ki: 'kayfa ḥāluki?'. The answer 'bikhayr' works for both.",
+    "id": "Akhiran -ka pada 'ḥāluka' untuk pria; untuk wanita menjadi -ki: 'kayfa ḥāluki?'. Jawaban 'bikhayr' berlaku untuk keduanya."
+   }
+  },
+  "items": [
+   {
+    "id": "a1",
+    "target": "مَرْحَبًا",
+    "translit": "marḥaban",
+    "tr": {
+     "ar": "تحية خفيفة تعني أهلًا",
+     "en": "A light greeting meaning 'welcome, hello'",
+     "id": "Sapaan ringan yang berarti halo"
+    },
+    "example": {
+     "target": "مَرْحَبًا، كَيْفَ حَالُكَ؟",
+     "translit": "marḥaban, kayfa ḥāluka?",
+     "tr": {
+      "ar": "أهلًا، كيف حالك؟",
+      "en": "Hello, how are you?",
+      "id": "Halo, apa kabar?"
+     }
+    },
+    "hint": {
+     "ar": "تناسب كل الأوقات والأشخاص.",
+     "en": "Fits any time and any person.",
+     "id": "Cocok untuk setiap waktu dan orang."
+    }
+   },
+   {
+    "id": "a2",
+    "target": "صَبَاحُ الْخَيْرِ",
+    "translit": "ṣabāḥu al-khayr",
+    "tr": {
+     "ar": "تحية تُقال في أول النهار",
+     "en": "A greeting said early in the day",
+     "id": "Sapaan di awal hari"
+    },
+    "example": {
+     "target": "صَبَاحُ الْخَيْرِ يَا لَيْلَى.",
+     "translit": "ṣabāḥu al-khayri yā laylā.",
+     "tr": {
+      "ar": "أتمنى لك صباحًا سعيدًا يا ليلى.",
+      "en": "Good morning, Layla.",
+      "id": "Selamat pagi, Leyla."
+     }
+    },
+    "hint": {
+     "ar": "الردّ المعتاد: «صَبَاحُ النُّورِ». وفي المساء: «مَسَاءُ الْخَيْرِ».",
+     "en": "The usual reply: 'ṣabāḥu an-nūr'. In the evening: 'masāʾu al-khayr'.",
+     "id": "Balasan lazim: 'ṣabāḥu an-nūr'. Di sore hari: 'masāʾu al-khayr'."
+    }
+   },
+   {
+    "id": "a3",
+    "target": "شُكْرًا",
+    "translit": "shukran",
+    "tr": {
+     "ar": "كلمة تُقال لمن قدّم لك معروفًا",
+     "en": "A word said to someone who did you a favour",
+     "id": "Kata untuk orang yang telah menolongmu"
+    },
+    "example": {
+     "target": "شُكْرًا عَلَى الْمُسَاعَدَةِ.",
+     "translit": "shukran ʿalā al-musāʿadati.",
+     "tr": {
+      "ar": "أشكرك على عونك.",
+      "en": "Thank you for the help.",
+      "id": "Terima kasih atas bantuannya."
+     }
+    },
+    "hint": {
+     "ar": "الأكمل: «شُكْرًا جَزِيلًا» أي شكرًا جزيلًا.",
+     "en": "More emphatic: 'shukran jazīlan' (thank you very much).",
+     "id": "Lebih kuat: 'shukran jazīlan' (terima kasih banyak)."
+    }
+   },
+   {
+    "id": "a4",
+    "target": "إِلَى اللِّقَاءِ",
+    "translit": "ilā al-liqāʾ",
+    "tr": {
+     "ar": "عبارة تُقال عند الوداع مع أمل اللقاء ثانية",
+     "en": "A farewell that hopes to meet again",
+     "id": "Ungkapan perpisahan yang berharap bertemu lagi"
+    },
+    "example": {
+     "target": "إِلَى اللِّقَاءِ غَدًا.",
+     "translit": "ilā al-liqāʾi ghadan.",
+     "tr": {
+      "ar": "إلى أن نلتقي غدًا.",
+      "en": "See you tomorrow.",
+      "id": "Sampai jumpa besok."
+     }
+    },
+    "hint": {
+     "ar": "وهناك أيضًا «مَعَ السَّلَامَةِ» أي في أمان الله.",
+     "en": "Also common: 'maʿa as-salāmah' (go safely).",
+     "id": "Juga umum: 'maʿa as-salāmah' (selamat jalan)."
+    }
+   },
+   {
+    "id": "ar01n5",
+    "target": "السَّلَامُ عَلَيْكُمْ",
+    "translit": "as-salāmu ʿalaykum",
+    "tr": {
+     "ar": "تحية الإسلام ومعناها: السلامة لكم",
+     "en": "The Islamic greeting, meaning 'peace be upon you'",
+     "id": "Salam khas Islam yang berarti 'semoga kesejahteraan atasmu'"
+    },
+    "example": {
+     "target": "السَّلَامُ عَلَيْكُمْ يَا أَصْدِقَائِي.",
+     "translit": "as-salāmu ʿalaykum yā aṣdiqāʾī.",
+     "tr": {
+      "ar": "تحية لأصدقائي.",
+      "en": "Peace be upon you, my friends.",
+      "id": "Assalamualaikum, teman-temanku."
+     }
+    },
+    "hint": {
+     "ar": "الردّ: وَعَلَيْكُمُ السَّلَامُ. تُقال لمن تعرفه ولمن لا تعرفه.",
+     "en": "Reply: wa ʿalaykumu as-salām. Said to people you know and strangers alike.",
+     "id": "Balasan: wa ʿalaykumu as-salām. Diucapkan kepada orang yang dikenal maupun tidak."
+    }
+   },
+   {
+    "id": "ar01n6",
+    "target": "كَيْفَ حَالُكَ؟",
+    "translit": "kayfa ḥāluk?",
+    "tr": {
+     "ar": "سؤال عن صحة المخاطب وأحواله",
+     "en": "A question about someone's well-being",
+     "id": "Pertanyaan tentang kabar lawan bicara"
+    },
+    "example": {
+     "target": "كَيْفَ حَالُكِ يَا أُمِّي؟",
+     "translit": "kayfa ḥāluki yā ummī?",
+     "tr": {
+      "ar": "هل أنتِ بخير يا أمي؟",
+      "en": "How are you, Mom?",
+      "id": "Apa kabar, Ibu?"
+     }
+    },
+    "hint": {
+     "ar": "للرجل: حَالُكَ. للمرأة: حَالُكِ. الجواب: بِخَيْرٍ، الْحَمْدُ لِلَّهِ.",
+     "en": "To a man: ḥāluka; to a woman: ḥāluki. Answer: bikhayr, al-ḥamdu lillāh.",
+     "id": "Untuk pria: ḥāluka; untuk wanita: ḥāluki. Jawab: bikhayr, al-ḥamdu lillāh."
+    }
+   }
+  ],
+  "cloze": [
+   {
+    "sentence": "___ ، كَيْفَ حَالُكَ؟",
+    "answer": "مَرْحَبًا",
+    "wrong": [
+     "شُكْرًا",
+     "غَدًا"
+    ],
+    "tr": {
+     "ar": "مرحبًا، كيف حالك؟",
+     "en": "Hello, how are you?",
+     "id": "Halo, apa kabar?"
+    },
+    "why": {
+     "ar": "مرحبًا تحية تفتح الكلام. شكرًا لا تناسب بداية السؤال، وغدًا ظرف زمان.",
+     "en": "'Marḥaban' opens a chat. 'Shukran' does not fit before a question and 'ghadan' is a time word.",
+     "id": "'Marḥaban' membuka percakapan. 'Shukran' tidak cocok di awal pertanyaan dan 'ghadan' adalah kata waktu."
+    }
+   },
+   {
+    "sentence": "نَقُولُ ___ فِي آخِرِ اللِّقَاءِ.",
+    "answer": "إِلَى اللِّقَاءِ",
+    "wrong": [
+     "صَبَاحُ الْخَيْرِ",
+     "كَيْفَ حَالُكَ؟"
+    ],
+    "tr": {
+     "ar": "نقول إلى اللقاء في نهاية اللقاء.",
+     "en": "We say 'see you' at the end of a meeting.",
+     "id": "Kita mengucapkan 'sampai jumpa' di akhir pertemuan."
+    },
+    "why": {
+     "ar": "إلى اللقاء وداع. أما صباح الخير فتحية افتتاح، وكيف حالك سؤال يُطرح في البداية.",
+     "en": "'Ilā al-liqāʾ' is a farewell; 'ṣabāḥ al-khayr' is an opening greeting and 'how are you' is asked at the start.",
+     "id": "'Ilā al-liqāʾ' adalah perpisahan; 'ṣabāḥ al-khayr' adalah sapaan pembuka dan 'apa kabar' ditanyakan di awal."
+    }
+   }
+  ],
+  "conversation": {
+   "context": {
+    "ar": "صباح في الجامعة: ليلى تلتقي زميلها أحمد.",
+    "en": "Morning at university: Layla meets her classmate Ahmad.",
+    "id": "Pagi di kampus: Leyla bertemu teman sekelasnya, Ahmad."
+   },
+   "turns": [
+    {
+     "who": "A",
+     "target": "صَبَاحُ الْخَيْرِ يَا أَحْمَدُ!",
+     "tr": {
+      "ar": "تحية الصباح يا أحمد!",
+      "en": "Good morning, Ahmad!",
+      "id": "Selamat pagi, Ahmad!"
+     }
+    },
+    {
+     "who": "B",
+     "target": "صَبَاحُ النُّورِ يَا لَيْلَى. كَيْفَ حَالُكِ؟",
+     "tr": {
+      "ar": "رد التحية، ثم سؤال عن حالها.",
+      "en": "Good morning, Layla. How are you?",
+      "id": "Selamat pagi, Leyla. Apa kabar?"
+     }
+    },
+    {
+     "who": "A",
+     "target": "بِخَيْرٍ، شُكْرًا.",
+     "tr": {
+      "ar": "أنا بخير، أشكرك.",
+      "en": "Fine, thank you.",
+      "id": "Baik, terima kasih."
+     }
+    }
+   ],
+   "gap": 1,
+   "wrong": [
+    "إِلَى اللِّقَاءِ يَا لَيْلَى.",
+    "شُكْرًا جَزِيلًا يَا لَيْلَى."
+   ],
+   "why": {
+    "ar": "بعد تحية الصباح يُرَدّ بتحية مماثلة. الوداع أو الشكر لا يناسبان بداية اللقاء.",
+    "en": "A morning greeting is returned with a matching greeting. A goodbye or thanks does not suit the start of a meeting.",
+    "id": "Sapaan pagi dibalas dengan sapaan serupa. Perpisahan atau terima kasih tidak cocok di awal pertemuan."
+   }
+  },
+  "summary": {
+   "ar": "تعلّمت التحية والرد والسؤال عن الحال والشكر والوداع. تذكّر الفرق بين «حالك» للرجل و«حالكِ» للمرأة.",
+   "en": "You learned greeting, replying, asking how someone is, thanking and saying goodbye. Remember -ka for a man and -ki for a woman.",
+   "id": "Kamu belajar menyapa, membalas, menanyakan kabar, berterima kasih, dan berpamitan. Ingat -ka untuk pria dan -ki untuk wanita."
+  }
+ },
+ {
+  "id": "ar-02",
+  "track": "ar",
+  "level": "beginner",
+  "order": 4,
+  "topic": "introductions",
+  "icon": "🪪",
+  "title": {
+   "ar": "التعريف بالنفس",
+   "en": "Introducing yourself",
+   "id": "Perkenalan diri"
+  },
+  "description": {
+   "ar": "قل اسمك وبلدك وحالك واسأل غيرك بأدب.",
+   "en": "Say your name, country and well-being, and ask others politely.",
+   "id": "Sebutkan nama, asal, dan kabarmu, lalu tanyakan hal yang sama dengan sopan."
+  },
+  "objectives": [
+   {
+    "ar": "أستطيع أن أقول اسمي وأسأل عن اسم الآخر.",
+    "en": "I can say my name and ask someone's name.",
+    "id": "Saya bisa menyebut nama dan menanyakan nama orang lain."
+   },
+   {
+    "ar": "أستطيع أن أقول من أي بلد أنا وأسأل «من أين أنت؟».",
+    "en": "I can say where I am from and ask 'where are you from?'.",
+    "id": "Saya bisa mengatakan asal saya dan bertanya 'dari mana kamu?'."
+   },
+   {
+    "ar": "أستطيع أن أُعبّر عن سروري بالتعرف.",
+    "en": "I can say I am pleased to meet someone.",
+    "id": "Saya bisa menyatakan senang berkenalan."
+   }
+  ],
+  "intro": {
+   "ar": "بعد التحية يأتي التعارف. الجمل هنا قصيرة جدًا لأن العربية لا تحتاج فعل «يكون» في الحاضر: «أنا من إندونيسيا» جملة كاملة.",
+   "en": "After the greeting comes the introduction. These sentences are very short because Arabic needs no 'to be' verb in the present: 'anā min indūnīsiyā' is a full sentence.",
+   "id": "Setelah sapaan datang perkenalan. Kalimatnya sangat pendek karena bahasa Arab tak butuh kata kerja 'adalah' di masa kini: 'anā min indūnīsiyā' sudah kalimat lengkap."
+  },
+  "culture": {
+   "ar": "العرب يحبون التعارف والسؤال عن البلد والأسرة، وهو دليل اهتمام لا تدخّل. وغالبًا يرد المخاطب بـ«تَشَرَّفْنَا» أو «أهلًا بك» ويصافح بيده.",
+   "en": "Arabs enjoy getting acquainted and asking about your country and family; it shows interest, not nosiness. The reply is often 'tasharrafnā' or 'ahlan bik', usually with a handshake.",
+   "id": "Orang Arab suka berkenalan dan menanyakan negara serta keluarga; itu tanda perhatian, bukan usil. Balasannya sering 'tasharrafnā' atau 'ahlan bik', biasanya disertai jabat tangan."
+  },
+  "grammar": {
+   "title": {
+    "ar": "الإضافة إلى ياء المتكلم",
+    "en": "Adding 'my' with -ī",
+    "id": "Menambah 'milikku' dengan -ī"
+   },
+   "body": {
+    "ar": "نضيف ياء المتكلم إلى الاسم لنقول «ملكي»: اسم ← اِسْمِي، وللمخاطب نضيف الكاف: اِسْمُكَ (لك يا رجل) واِسْمُكِ (لكِ يا امرأة). وحرف «مِن» يعني «من/من بلد».",
+    "en": "Add -ī to a noun for 'my': ism → ismī; for 'your' add -ka (to a man) or -ki (to a woman): ismuka, ismuki. The word 'min' means 'from'.",
+    "id": "Tambahkan -ī pada kata benda untuk 'milikku': ism → ismī; untuk 'milikmu' tambahkan -ka (pria) atau -ki (wanita): ismuka, ismuki. Kata 'min' berarti 'dari'."
+   }
+  },
+  "items": [
+   {
+    "id": "a5",
+    "target": "اِسْمِي لَيْلَى",
+    "translit": "ismī laylā",
+    "tr": {
+     "ar": "جملة أُعرّف بها نفسي بالاسم",
+     "en": "A phrase for giving my name",
+     "id": "Kalimat untuk menyebut nama sendiri"
+    },
+    "example": {
+     "target": "اِسْمِي لَيْلَى، وَأَنَا طَالِبَةٌ.",
+     "translit": "ismī laylā, wa-anā ṭālibatun.",
+     "tr": {
+      "ar": "أنا ليلى، وأدرس في الجامعة.",
+      "en": "My name is Layla, and I am a student.",
+      "id": "Nama saya Leyla dan saya seorang mahasiswi."
+     }
+    },
+    "hint": {
+     "ar": "يمكن أيضًا: أَنَا لَيْلَى.",
+     "en": "You can also say: anā laylā.",
+     "id": "Bisa juga: anā laylā."
+    }
+   },
+   {
+    "id": "a6",
+    "target": "مَا اسْمُكَ؟",
+    "translit": "mā ismuk?",
+    "tr": {
+     "ar": "سؤال عن اسم المخاطب",
+     "en": "A question about the listener's name",
+     "id": "Pertanyaan tentang nama lawan bicara"
+    },
+    "example": {
+     "target": "مَرْحَبًا، مَا اسْمُكِ؟",
+     "translit": "marḥaban, mā ismuki?",
+     "tr": {
+      "ar": "أهلًا، هل لي أن أعرف اسمكِ؟",
+      "en": "Hello, what is your name?",
+      "id": "Halo, siapa namamu?"
+     }
+    },
+    "hint": {
+     "ar": "للرجل: اسْمُكَ. للمرأة: اسْمُكِ.",
+     "en": "To a man: ismuka; to a woman: ismuki.",
+     "id": "Untuk pria: ismuka; untuk wanita: ismuki."
+    }
+   },
+   {
+    "id": "a7",
+    "target": "أَنَا مِنْ إِنْدُونِيسِيَا",
+    "translit": "anā min indūnīsiyā",
+    "tr": {
+     "ar": "أخبر عن بلدي أو مدينتي",
+     "en": "Tells my country or city",
+     "id": "Menyatakan negara atau kota asal saya"
+    },
+    "example": {
+     "target": "أَنَا مِنْ جَاكَرْتَا فِي إِنْدُونِيسِيَا.",
+     "translit": "anā min jākartā fī indūnīsiyā.",
+     "tr": {
+      "ar": "أسكن في جاكرتا بإندونيسيا.",
+      "en": "I am from Jakarta, in Indonesia.",
+      "id": "Saya dari Jakarta, Indonesia."
+     }
+    },
+    "hint": {
+     "ar": "اسأل: مِنْ أَيْنَ أَنْتَ؟ (لرجل) أو مِنْ أَيْنَ أَنْتِ؟ (لامرأة).",
+     "en": "Ask: min ayna anta? (man) or min ayna anti? (woman).",
+     "id": "Tanya: min ayna anta? (pria) atau min ayna anti? (wanita)."
+    }
+   },
+   {
+    "id": "a8",
+    "target": "أَنَا بِخَيْرٍ",
+    "translit": "anā bikhayr",
+    "tr": {
+     "ar": "أخبر أن حالي جيدة",
+     "en": "Says that I am well",
+     "id": "Menyatakan bahwa saya baik-baik saja"
+    },
+    "example": {
+     "target": "الْحَمْدُ لِلَّهِ، أَنَا بِخَيْرٍ.",
+     "translit": "al-ḥamdu lillāh, anā bikhayr.",
+     "tr": {
+      "ar": "أشكر الله، حالي حسنة.",
+      "en": "Praise God, I am fine.",
+      "id": "Syukurlah, saya baik-baik saja."
+     }
+    },
+    "hint": {
+     "ar": "«الحمد لله» تُضاف عادة بعد الجواب.",
+     "en": "'Al-ḥamdu lillāh' is usually added.",
+     "id": "'Al-ḥamdu lillāh' biasanya ditambahkan."
+    }
+   },
+   {
+    "id": "ar02n5",
+    "target": "تَشَرَّفْتُ بِمَعْرِفَتِكَ",
+    "translit": "tasharraftu bi-maʿrifatika",
+    "tr": {
+     "ar": "عبارة تدل على السرور بلقاء شخص",
+     "en": "A phrase showing pleasure at meeting someone",
+     "id": "Ungkapan senang bertemu seseorang"
+    },
+    "example": {
+     "target": "تَشَرَّفْتُ بِمَعْرِفَتِكَ يَا أُسْتَاذُ.",
+     "translit": "tasharraftu bi-maʿrifatika yā ustādh.",
+     "tr": {
+      "ar": "سعدت بلقائك أيها الأستاذ.",
+      "en": "Pleased to meet you, sir.",
+      "id": "Senang berkenalan dengan Anda, Pak."
+     }
+    },
+    "hint": {
+     "ar": "للمرأة: بِمَعْرِفَتِكِ. والاختصار الودي: تَشَرَّفْنَا.",
+     "en": "To a woman: bi-maʿrifatiki. Friendly short form: tasharrafnā.",
+     "id": "Untuk wanita: bi-maʿrifatiki. Bentuk ringkas: tasharrafnā."
+    }
+   },
+   {
+    "id": "ar02n6",
+    "target": "مِنْ أَيْنَ أَنْتَ؟",
+    "translit": "min ayna anta?",
+    "tr": {
+     "ar": "سؤال عن البلد الذي ينتمي إليه المخاطب",
+     "en": "A question about where someone comes from",
+     "id": "Pertanyaan tentang asal lawan bicara"
+    },
+    "example": {
+     "target": "مِنْ أَيْنَ أَنْتِ يَا سَارَةُ؟",
+     "translit": "min ayna anti yā sārah?",
+     "tr": {
+      "ar": "من أي بلد أنتِ يا سارة؟",
+      "en": "Where are you from, Sarah?",
+      "id": "Kamu dari mana, Sarah?"
+     }
+    },
+    "hint": {
+     "ar": "للرجل: أَنْتَ، وللمرأة: أَنْتِ.",
+     "en": "Man: anta; woman: anti.",
+     "id": "Pria: anta; wanita: anti."
+    }
+   }
+  ],
+  "cloze": [
+   {
+    "sentence": "أَنَا ___ إِنْدُونِيسِيَا.",
+    "answer": "مِنْ",
+    "wrong": [
+     "فِي",
+     "عَلَى"
+    ],
+    "tr": {
+     "ar": "أنا من إندونيسيا.",
+     "en": "I am from Indonesia.",
+     "id": "Saya dari Indonesia."
+    },
+    "why": {
+     "ar": "«من» تدل على الأصل. «في» للمكان و«على» لا تناسب هنا.",
+     "en": "'Min' gives origin; 'fī' marks place and 'ʿalā' does not fit.",
+     "id": "'Min' menunjukkan asal; 'fī' untuk tempat dan 'ʿalā' tidak cocok."
+    }
+   },
+   {
+    "sentence": "مَا ___ ؟ اِسْمِي لَيْلَى.",
+    "answer": "اسْمُكَ",
+    "wrong": [
+     "حَالُكَ",
+     "بَلَدُكَ"
+    ],
+    "tr": {
+     "ar": "ما اسمك؟ اسمي ليلى.",
+     "en": "What is your name? My name is Layla.",
+     "id": "Siapa namamu? Namaku Leyla."
+    },
+    "why": {
+     "ar": "الجواب «اسمي ليلى» يدل على السؤال عن الاسم، لا الحال ولا البلد.",
+     "en": "The answer 'my name is Layla' shows the question was about the name, not the state or country.",
+     "id": "Jawaban 'namaku Leyla' menunjukkan pertanyaannya tentang nama, bukan kabar atau negara."
+    }
+   }
+  ],
+  "conversation": {
+   "context": {
+    "ar": "لقاء أول في مقهى بين ليلى ويوسف.",
+    "en": "A first meeting in a cafe between Layla and Yusuf.",
+    "id": "Pertemuan pertama di kafe antara Leyla dan Yusuf."
+   },
+   "turns": [
+    {
+     "who": "A",
+     "target": "مَرْحَبًا، مَا اسْمُكَ؟",
+     "tr": {
+      "ar": "مرحبًا، ما اسمك؟",
+      "en": "Hello, what is your name?",
+      "id": "Halo, siapa namamu?"
+     }
+    },
+    {
+     "who": "B",
+     "target": "اِسْمِي يُوسُفُ. وَمَا اسْمُكِ أَنْتِ؟",
+     "tr": {
+      "ar": "اسمي يوسف، وما اسمك؟",
+      "en": "My name is Yusuf. And yours?",
+      "id": "Namaku Yusuf. Dan namamu?"
+     }
+    },
+    {
+     "who": "A",
+     "target": "اِسْمِي لَيْلَى. تَشَرَّفْتُ بِمَعْرِفَتِكَ.",
+     "tr": {
+      "ar": "اسمي ليلى، سعدت بلقائك.",
+      "en": "My name is Layla. Pleased to meet you.",
+      "id": "Namaku Leyla. Senang berkenalan."
+     }
+    }
+   ],
+   "gap": 1,
+   "wrong": [
+    "أَنَا بِخَيْرٍ، شُكْرًا.",
+    "إِلَى اللِّقَاءِ."
+   ],
+   "why": {
+    "ar": "بعد السؤال عن الاسم يُعطى الاسم. «أنا بخير» يجيب عن الحال، و«إلى اللقاء» وداع.",
+    "en": "After 'what is your name' you give a name. 'I am fine' answers a well-being question and 'see you' is a goodbye.",
+    "id": "Setelah ditanya nama, sebutkan nama. 'Saya baik' menjawab kabar dan 'sampai jumpa' adalah perpisahan."
+   }
+  },
+  "summary": {
+   "ar": "تعلّمت أن تقول اسمك وأصلك وحالك وأن تسأل عن ذلك بأدب. انتبه للكاف والياء مع المذكر والمؤنث.",
+   "en": "You can now state your name, origin and condition and ask politely. Watch -ka/-ki endings for gender.",
+   "id": "Kamu kini bisa menyebut nama, asal, dan kabar serta bertanya dengan sopan. Perhatikan akhiran -ka/-ki menurut jenis kelamin."
+  }
+ },
+ {
+  "id": "ar-16",
+  "track": "ar",
+  "level": "beginner",
+  "order": 5,
+  "topic": "pronouns",
+  "icon": "🧍",
+  "title": {
+   "ar": "الضمائر والجملة الاسمية",
+   "en": "Pronouns and the nominal sentence",
+   "id": "Kata ganti dan kalimat nominal"
+  },
+  "description": {
+   "ar": "استخدم ضمائر الرفع لتكوين جمل اسمية بسيطة مع المذكر والمؤنث.",
+   "en": "Use subject pronouns to build simple nominal sentences with masculine and feminine.",
+   "id": "Gunakan kata ganti subjek untuk membuat kalimat nominal sederhana dengan maskulin dan feminin."
+  },
+  "objectives": [
+   {
+    "ar": "أستطيع أن أقول أنا وأنتَ وأنتِ وهو وهي ونحن بشكل صحيح.",
+    "en": "I can use anā, anta, anti, huwa, hiya and naḥnu correctly.",
+    "id": "Saya bisa memakai anā, anta, anti, huwa, hiya, dan naḥnu dengan benar."
+   },
+   {
+    "ar": "أستطيع أن أكوّن جملة مثل «هو طالب» بلا فعل.",
+    "en": "I can make a sentence like 'he is a student' without a verb.",
+    "id": "Saya bisa membuat kalimat seperti 'dia seorang siswa' tanpa kata kerja."
+   },
+   {
+    "ar": "أستطيع أن أضيف التاء المربوطة للمؤنث في المهن.",
+    "en": "I can add tā' marbūṭa to make professions feminine.",
+    "id": "Saya bisa menambah tā' marbūṭah untuk menjadikan profesi feminin."
+   }
+  ],
+  "intro": {
+   "ar": "في العربية لا نقول «هو يكون طالب»، بل «هو طالب». والمهنة تتغير في المؤنث بإضافة تاء مربوطة (ـة). ستتعلم الآن الضمائر الأساسية.",
+   "en": "Arabic does not say 'he is a student' with a verb; it says simply 'huwa ṭālib'. Professions turn feminine by adding tā' marbūṭa. Now meet the core pronouns.",
+   "id": "Dalam bahasa Arab tidak ada kata kerja 'adalah': cukup 'huwa ṭālib'. Profesi menjadi feminin dengan menambah tā' marbūṭah. Sekarang kenali kata ganti dasarnya."
+  },
+  "culture": {
+   "ar": "في المدارس والمكاتب العربية يعرّف الناس أنفسهم بالمهنة كثيرًا: «أنا مهندس» و«هي طبيبة». وللجمع تُستخدم أنتم وهم، وكذلك يميّز العرب بين مخاطبة الرجل والمرأة في كل جملة.",
+   "en": "In Arab schools and offices people often introduce themselves by profession: 'I am an engineer', 'she is a doctor'. Arabs also mark masculine and feminine in every sentence addressed to a person.",
+   "id": "Di sekolah dan kantor Arab orang sering memperkenalkan diri lewat profesi: 'saya insinyur', 'dia dokter'. Orang Arab juga membedakan pria dan wanita pada hampir setiap kalimat."
+  },
+  "grammar": {
+   "title": {
+    "ar": "الجملة الاسمية",
+    "en": "The nominal sentence",
+    "id": "Kalimat nominal"
+   },
+   "body": {
+    "ar": "تتكوّن من مبتدأ وخبر بلا فعل: أَنَا طَالِبٌ (I am a student). الضمائر: أنا، أنتَ (لمذكر)، أنتِ (لمؤنث)، هو، هي، نحن. الخبر النكرة ينتهي عادة بتنوين الضم: طَالِبٌ، وللمؤنث نضيف ـة: طَالِبَةٌ.",
+    "en": "It has a subject and a predicate with no verb: anā ṭālibun. Pronouns: anā, anta (m), anti (f), huwa, hiya, naḥnu. The indefinite predicate usually ends in tanwīn -un; the feminine adds -a: ṭālibatun.",
+    "id": "Terdiri dari subjek dan predikat tanpa kata kerja: anā ṭālibun. Kata ganti: anā, anta (pria), anti (wanita), huwa, hiya, naḥnu. Predikat tak tentu biasanya berakhir tanwin -un; feminin menambah -a: ṭālibatun."
+   }
+  },
+  "items": [
+   {
+    "id": "ar16n1",
+    "target": "أَنَا طَالِبٌ",
+    "translit": "anā ṭālibun",
+    "tr": {
+     "ar": "جملة اسمية تعني: أدرس في مدرسة أو جامعة",
+     "en": "A nominal sentence meaning 'I study at school or university'",
+     "id": "Kalimat nominal yang berarti 'saya belajar di sekolah atau kampus'"
+    },
+    "example": {
+     "target": "أَنَا طَالِبٌ فِي الْجَامِعَةِ.",
+     "translit": "anā ṭālibun fī al-jāmiʿati.",
+     "tr": {
+      "ar": "أدرس في الجامعة.",
+      "en": "I am a university student.",
+      "id": "Saya mahasiswa."
+     }
+    },
+    "hint": {
+     "ar": "للمرأة تقول: أَنَا طَالِبَةٌ.",
+     "en": "A woman says: anā ṭālibatun.",
+     "id": "Wanita berkata: anā ṭālibatun."
+    }
+   },
+   {
+    "id": "ar16n2",
+    "target": "أَنْتَ مُعَلِّمٌ",
+    "translit": "anta muʿallimun",
+    "tr": {
+     "ar": "جملة موجهة إلى رجل وتعني أنه يعلّم",
+     "en": "Said to a man: 'you teach'",
+     "id": "Ditujukan kepada pria: 'kamu seorang pengajar'"
+    },
+    "example": {
+     "target": "أَنْتَ مُعَلِّمٌ مَاهِرٌ.",
+     "translit": "anta muʿallimun māhirun.",
+     "tr": {
+      "ar": "أنت معلم ماهر.",
+      "en": "You are a skilled teacher.",
+      "id": "Kamu guru yang terampil."
+     }
+    },
+    "hint": {
+     "ar": "«أنتَ» بفتح التاء للمذكر فقط.",
+     "en": "'Anta' with fatḥa is for a man only.",
+     "id": "'Anta' dengan fatḥah hanya untuk pria."
+    }
+   },
+   {
+    "id": "ar16n3",
+    "target": "أَنْتِ مُعَلِّمَةٌ",
+    "translit": "anti muʿallimatun",
+    "tr": {
+     "ar": "جملة موجهة إلى امرأة وتعني أنها تعلّم",
+     "en": "Said to a woman: 'you teach'",
+     "id": "Ditujukan kepada wanita: 'kamu seorang pengajar'"
+    },
+    "example": {
+     "target": "أَنْتِ مُعَلِّمَةٌ رَائِعَةٌ.",
+     "translit": "anti muʿallimatun rāʾiʿatun.",
+     "tr": {
+      "ar": "أنتِ معلمة ممتازة.",
+      "en": "You are a wonderful teacher.",
+      "id": "Kamu guru yang hebat."
+     }
+    },
+    "hint": {
+     "ar": "الكسرة على التاء تميّز المؤنث، والتاء المربوطة على الخبر.",
+     "en": "The kasra on the tā' marks feminine, and tā' marbūṭa on the predicate.",
+     "id": "Kasrah pada tā' menandai feminin, dan tā' marbūṭah pada predikat."
+    }
+   },
+   {
+    "id": "ar16n4",
+    "target": "هُوَ مُهَنْدِسٌ",
+    "translit": "huwa muhandisun",
+    "tr": {
+     "ar": "جملة عن رجل غائب مهنته الهندسة",
+     "en": "About an absent man who is an engineer",
+     "id": "Tentang seorang pria yang berprofesi insinyur"
+    },
+    "example": {
+     "target": "هُوَ مُهَنْدِسٌ فِي شَرِكَةٍ كَبِيرَةٍ.",
+     "translit": "huwa muhandisun fī sharikatin kabīratin.",
+     "tr": {
+      "ar": "يعمل مهندسًا في شركة كبيرة.",
+      "en": "He is an engineer in a big company.",
+      "id": "Dia insinyur di perusahaan besar."
+     }
+    }
+   },
+   {
+    "id": "ar16n5",
+    "target": "هِيَ طَبِيبَةٌ",
+    "translit": "hiya ṭabībatun",
+    "tr": {
+     "ar": "جملة عن امرأة غائبة مهنتها الطب",
+     "en": "About an absent woman who is a doctor",
+     "id": "Tentang seorang wanita yang berprofesi dokter"
+    },
+    "example": {
+     "target": "هِيَ طَبِيبَةٌ فِي الْمُسْتَشْفَى.",
+     "translit": "hiya ṭabībatun fī al-mustashfā.",
+     "tr": {
+      "ar": "تعمل طبيبة في المستشفى.",
+      "en": "She is a doctor at the hospital.",
+      "id": "Dia dokter di rumah sakit."
+     }
+    },
+    "hint": {
+     "ar": "هو ← هي، طبيب ← طبيبة.",
+     "en": "huwa → hiya, ṭabīb → ṭabībah.",
+     "id": "huwa → hiya, ṭabīb → ṭabībah."
+    }
+   },
+   {
+    "id": "ar16n6",
+    "target": "نَحْنُ أَصْدِقَاءُ",
+    "translit": "naḥnu aṣdiqāʾu",
+    "tr": {
+     "ar": "جملة نخبر بها عن صداقتنا نحن وغيرنا",
+     "en": "A sentence saying we are friends",
+     "id": "Kalimat yang menyatakan kami berteman"
+    },
+    "example": {
+     "target": "نَحْنُ أَصْدِقَاءُ مُنْذُ سَنَوَاتٍ.",
+     "translit": "naḥnu aṣdiqāʾu mundhu sanawātin.",
+     "tr": {
+      "ar": "صداقتنا قديمة منذ سنوات.",
+      "en": "We have been friends for years.",
+      "id": "Kami berteman sejak bertahun-tahun."
+     }
+    },
+    "hint": {
+     "ar": "«أصدقاء» جمع «صديق»، ويُستخدم للمذكر وللمجموعة المختلطة.",
+     "en": "'Aṣdiqāʾ' is the plural of 'ṣadīq' and covers men or mixed groups.",
+     "id": "'Aṣdiqāʾ' adalah jamak dari 'ṣadīq' dan dipakai untuk pria atau kelompok campuran."
+    }
+   }
+  ],
+  "cloze": [
+   {
+    "sentence": "هِيَ ___.",
+    "answer": "طَبِيبَةٌ",
+    "wrong": [
+     "طَبِيبٌ",
+     "مُهَنْدِسٌ"
+    ],
+    "tr": {
+     "ar": "هي طبيبة.",
+     "en": "She is a doctor.",
+     "id": "Dia seorang dokter."
+    },
+    "why": {
+     "ar": "«هي» مؤنث فيناسبه «طبيبةٌ». أما «طبيبٌ» و«مهندسٌ» فمذكّران.",
+     "en": "'Hiya' is feminine, so 'ṭabībatun' fits; 'ṭabībun' and 'muhandisun' are masculine.",
+     "id": "'Hiya' feminin sehingga 'ṭabībatun' cocok; 'ṭabībun' dan 'muhandisun' maskulin."
+    }
+   },
+   {
+    "sentence": "___ طَالِبٌ فِي الْجَامِعَةِ.",
+    "answer": "هُوَ",
+    "wrong": [
+     "أَنْتِ",
+     "نَحْنُ"
+    ],
+    "tr": {
+     "ar": "هو طالب في الجامعة.",
+     "en": "He is a student at the university.",
+     "id": "Dia mahasiswa di kampus."
+    },
+    "why": {
+     "ar": "«طالبٌ» مفرد مذكر غائب فيناسبه «هو». «أنتِ» للمؤنث و«نحن» للجمع.",
+     "en": "'Ṭālibun' is singular masculine third person, so 'huwa'. 'Anti' is feminine and 'naḥnu' plural.",
+     "id": "'Ṭālibun' tunggal maskulin orang ketiga, jadi 'huwa'. 'Anti' feminin dan 'naḥnu' jamak."
+    }
+   }
+  ],
+  "conversation": {
+   "context": {
+    "ar": "في الجامعة: ليلى تعرّف صديقها بمعلمتها.",
+    "en": "At university: Layla introduces her friend to her teacher.",
+    "id": "Di kampus: Leyla memperkenalkan temannya kepada gurunya."
+   },
+   "turns": [
+    {
+     "who": "A",
+     "target": "مَنْ هَذِهِ؟",
+     "tr": {
+      "ar": "من هذه المرأة؟",
+      "en": "Who is this?",
+      "id": "Siapa ini?"
+     }
+    },
+    {
+     "who": "B",
+     "target": "هِيَ مُعَلِّمَتِي، وَهِيَ طَبِيبَةٌ أَيْضًا.",
+     "tr": {
+      "ar": "هي معلمتي وتعمل طبيبة أيضًا.",
+      "en": "She is my teacher, and she is also a doctor.",
+      "id": "Dia guruku, dan juga seorang dokter."
+     }
+    },
+    {
+     "who": "A",
+     "target": "تَشَرَّفْتُ بِمَعْرِفَتِكِ.",
+     "tr": {
+      "ar": "سعدت بلقائك.",
+      "en": "Pleased to meet you.",
+      "id": "Senang berkenalan."
+     }
+    }
+   ],
+   "gap": 1,
+   "wrong": [
+    "هُوَ مُهَنْدِسٌ كَبِيرٌ.",
+    "نَحْنُ أَصْدِقَاءُ."
+   ],
+   "why": {
+    "ar": "السؤال عن امرأة، فالجواب بـ«هي». الجوابان الآخران يتحدثان عن رجل أو عن جماعة.",
+    "en": "The question is about a woman, so the answer uses 'hiya'. The other two speak of a man or a group.",
+    "id": "Pertanyaannya tentang wanita sehingga jawabannya memakai 'hiya'. Dua lainnya membicarakan pria atau kelompok."
+   }
+  },
+  "summary": {
+   "ar": "تعلّمت الضمائر أنا وأنتَ وأنتِ وهو وهي ونحن، وتكوين الجملة الاسمية، وإضافة التاء المربوطة للمؤنث.",
+   "en": "You learned anā, anta, anti, huwa, hiya and naḥnu, how to build a nominal sentence and how to add tā' marbūṭa for the feminine.",
+   "id": "Kamu mempelajari anā, anta, anti, huwa, hiya, dan naḥnu, cara membuat kalimat nominal, dan menambah tā' marbūṭah untuk feminin."
+  }
+ },
+ {
+  "id": "ar-03",
+  "track": "ar",
+  "level": "beginner",
+  "order": 6,
+  "topic": "numbers-time",
+  "icon": "🔢",
+  "title": {
+   "ar": "الأعداد والوقت",
+   "en": "Numbers and time",
+   "id": "Angka dan waktu"
+  },
+  "description": {
+   "ar": "عُدّ من ١ إلى ١٠ وتكلّم عن اليوم وغد وأمس.",
+   "en": "Count from 1 to 10 and talk about today, tomorrow and yesterday.",
+   "id": "Berhitung 1-10 dan berbicara tentang hari ini, besok, dan kemarin."
+  },
+  "objectives": [
+   {
+    "ar": "أستطيع أن أعدّ من واحد إلى عشرة.",
+    "en": "I can count from one to ten.",
+    "id": "Saya bisa berhitung dari satu sampai sepuluh."
+   },
+   {
+    "ar": "أستطيع أن أقول اليوم وغدًا وأمس.",
+    "en": "I can say today, tomorrow and yesterday.",
+    "id": "Saya bisa mengatakan hari ini, besok, dan kemarin."
+   },
+   {
+    "ar": "أستطيع أن أُدخل العدد في جملة قصيرة.",
+    "en": "I can use a number in a short sentence.",
+    "id": "Saya bisa memakai angka dalam kalimat pendek."
+   }
+  ],
+  "intro": {
+   "ar": "الأعداد العربية تُستعمل كل يوم في الشراء والمواعيد. وكلمات الزمن «اليوم» و«غدًا» و«أمس» أساسية لأي خطة.",
+   "en": "Numbers matter every day for buying and appointments. Time words like 'today', 'tomorrow' and 'yesterday' are essential for any plan.",
+   "id": "Angka dipakai setiap hari untuk berbelanja dan membuat janji. Kata waktu seperti 'hari ini', 'besok', dan 'kemarin' penting untuk rencana apa pun."
+  },
+  "culture": {
+   "ar": "في الحياة العربية تُكتب الأرقام بالشكل الهندي (١ ٢ ٣) في المشرق وبالشكل الغربي (1 2 3) في المغرب العربي. ومن المفيد أن تتعرف على الشكلين.",
+   "en": "In the Arab world, Eastern Arabic numerals are used in the Mashriq and Western numerals (1 2 3) in the Maghreb. It helps to recognise both.",
+   "id": "Di dunia Arab, angka Arab Timur dipakai di Masyriq dan angka Latin (1 2 3) di Maghribi. Sebaiknya kenali keduanya."
+  },
+  "grammar": {
+   "title": {
+    "ar": "العدد والمعدود (١ و٢)",
+    "en": "Number and noun (1 and 2)",
+    "id": "Bilangan dan benda (1 dan 2)"
+   },
+   "body": {
+    "ar": "العددان ١ و٢ يأتيان بعد الاسم ويطابقانه: كِتَابٌ وَاحِدٌ، قَلَمَانِ اثْنَانِ (مثنى). ومن ٣ إلى ١٠ يأتي العدد قبل جمع الاسم ويخالفه في الجنس: ثَلَاثَةُ كُتُبٍ (كتاب مذكر ← ثلاثة).",
+    "en": "1 and 2 come after the noun and agree with it: kitābun wāḥidun, qalamāni ithnāni (dual). From 3 to 10 the number precedes a plural noun and takes the opposite gender: thalāthatu kutubin (masculine noun ← -a number).",
+    "id": "1 dan 2 datang setelah kata benda dan sesuai dengannya: kitābun wāḥidun, qalamāni ithnāni (dual). Dari 3 sampai 10 bilangan mendahului kata benda jamak dan berlawanan jenis: thalāthatu kutubin (benda maskulin ← bilangan berakhiran -ah)."
+   }
+  },
+  "items": [
+   {
+    "id": "a9",
+    "target": "وَاحِدٌ",
+    "translit": "wāḥid",
+    "tr": {
+     "ar": "العدد الذي بعد الصفر",
+     "en": "The number after zero",
+     "id": "Bilangan setelah nol"
+    },
+    "example": {
+     "target": "عِنْدِي كِتَابٌ وَاحِدٌ.",
+     "translit": "ʿindī kitābun wāḥidun.",
+     "tr": {
+      "ar": "أملك كتابًا واحدًا فقط.",
+      "en": "I have one book.",
+      "id": "Saya punya satu buku."
+     }
+    },
+    "hint": {
+     "ar": "للمؤنث: وَاحِدَةٌ (سَيَّارَةٌ وَاحِدَةٌ).",
+     "en": "Feminine: wāḥidatun (sayyāratun wāḥidatun).",
+     "id": "Feminin: wāḥidatun (sayyāratun wāḥidatun)."
+    }
+   },
+   {
+    "id": "a10",
+    "target": "اِثْنَانِ",
+    "translit": "ithnān",
+    "tr": {
+     "ar": "العدد بعد الواحد",
+     "en": "The number after one",
+     "id": "Bilangan setelah satu"
+    },
+    "example": {
+     "target": "عِنْدِي قَلَمَانِ اثْنَانِ.",
+     "translit": "ʿindī qalamāni ithnāni.",
+     "tr": {
+      "ar": "أملك قلمين.",
+      "en": "I have two pens.",
+      "id": "Saya punya dua pena."
+     }
+    },
+    "hint": {
+     "ar": "للمؤنث: اِثْنَتَانِ. والمثنى في الحالة العادية ينتهي بـ ـَانِ.",
+     "en": "Feminine: ithnatān. The dual noun ends in -āni.",
+     "id": "Feminin: ithnatān. Bentuk dual berakhiran -āni."
+    }
+   },
+   {
+    "id": "a11",
+    "target": "الْيَوْمَ",
+    "translit": "al-yawma",
+    "tr": {
+     "ar": "الزمن الذي نعيشه الآن",
+     "en": "The time we are living now",
+     "id": "Waktu yang sedang kita jalani"
+    },
+    "example": {
+     "target": "الْيَوْمَ يَوْمُ السَّبْتِ.",
+     "translit": "al-yawma yawmu as-sabti.",
+     "tr": {
+      "ar": "هذا اليوم هو السبت.",
+      "en": "Today is Saturday.",
+      "id": "Hari ini hari Sabtu."
+     }
+    },
+    "hint": {
+     "ar": "وَمِنْ كَلِمَاتِ الزَّمَنِ: أَمْسِ (yesterday).",
+     "en": "Also: amsi (yesterday).",
+     "id": "Juga: amsi (kemarin)."
+    }
+   },
+   {
+    "id": "a12",
+    "target": "غَدًا",
+    "translit": "ghadan",
+    "tr": {
+     "ar": "اليوم الذي بعد اليوم",
+     "en": "The day after today",
+     "id": "Hari setelah hari ini"
+    },
+    "example": {
+     "target": "سَأَذْهَبُ غَدًا إِلَى السُّوقِ.",
+     "translit": "sa-adhhabu ghadan ilā as-sūqi.",
+     "tr": {
+      "ar": "سأقصد السوق في الغد.",
+      "en": "I will go to the market tomorrow.",
+      "id": "Saya akan pergi ke pasar besok."
+     }
+    },
+    "hint": {
+     "ar": "ويُسمَّى «بُكْرَةً» في بعض اللهجات.",
+     "en": "In some dialects it is called 'bukra'.",
+     "id": "Di beberapa dialek disebut 'bukra'."
+    }
+   },
+   {
+    "id": "ar03n5",
+    "target": "ثَلَاثَةٌ",
+    "translit": "thalāthatun",
+    "tr": {
+     "ar": "العدد بعد الاثنين، وبعده أربعة",
+     "en": "The number after two; four follows",
+     "id": "Bilangan setelah dua; setelah ini empat"
+    },
+    "example": {
+     "target": "فِي الصَّفِّ ثَلَاثَةُ طُلَّابٍ.",
+     "translit": "fī aṣ-ṣaffi thalāthatu ṭullābin.",
+     "tr": {
+      "ar": "يوجد ثلاثة طلاب في الصف.",
+      "en": "There are three students in the class.",
+      "id": "Ada tiga siswa di kelas."
+     }
+    },
+    "hint": {
+     "ar": "الأعداد: ٤ أَرْبَعَةٌ، ٥ خَمْسَةٌ، ٦ سِتَّةٌ، ٧ سَبْعَةٌ، ٨ ثَمَانِيَةٌ، ٩ تِسْعَةٌ، ١٠ عَشَرَةٌ.",
+     "en": "4 arbaʿa, 5 khamsa, 6 sitta, 7 sabʿa, 8 thamāniya, 9 tisʿa, 10 ʿashara.",
+     "id": "4 arbaʿa, 5 khamsa, 6 sitta, 7 sabʿa, 8 thamāniya, 9 tisʿa, 10 ʿashara."
+    }
+   },
+   {
+    "id": "ar03n6",
+    "target": "أَمْسِ",
+    "translit": "amsi",
+    "tr": {
+     "ar": "اليوم الذي قبل اليوم",
+     "en": "The day before today",
+     "id": "Hari sebelum hari ini"
+    },
+    "example": {
+     "target": "أَمْسِ كَانَ الطَّقْسُ جَمِيلًا.",
+     "translit": "amsi kāna aṭ-ṭaqsu jamīlan.",
+     "tr": {
+      "ar": "كان الجو لطيفًا في اليوم الماضي.",
+      "en": "Yesterday the weather was nice.",
+      "id": "Kemarin cuacanya bagus."
+     }
+    },
+    "hint": {
+     "ar": "آخرها كسرة ثابتة في أغلب الاستعمال: أَمْسِ.",
+     "en": "It usually ends in a fixed kasra: amsi.",
+     "id": "Biasanya berakhiran kasrah tetap: amsi."
+    }
+   }
+  ],
+  "cloze": [
+   {
+    "sentence": "عِنْدِي ___ قَلَمَانِ.",
+    "answer": "اثْنَانِ",
+    "wrong": [
+     "وَاحِدٌ",
+     "ثَلَاثَةٌ"
+    ],
+    "tr": {
+     "ar": "عندي قلمان اثنان.",
+     "en": "I have two pens.",
+     "id": "Saya punya dua pena."
+    },
+    "why": {
+     "ar": "«قلمان» مثنى فيلزمه «اثنان». «واحد» و«ثلاثة» لا يوافقان المثنى.",
+     "en": "'Qalamān' is dual, so it takes 'ithnān'; 'wāḥid' and 'thalātha' do not match a dual.",
+     "id": "'Qalamān' dual sehingga memakai 'ithnān'; 'wāḥid' dan 'thalātha' tidak cocok dengan dual."
+    }
+   },
+   {
+    "sentence": "سَنَذْهَبُ إِلَى السُّوقِ ___.",
+    "answer": "غَدًا",
+    "wrong": [
+     "أَمْسِ",
+     "الْآنَ"
+    ],
+    "tr": {
+     "ar": "سنذهب إلى السوق غدًا.",
+     "en": "We will go to the market tomorrow.",
+     "id": "Kita akan pergi ke pasar besok."
+    },
+    "why": {
+     "ar": "«سنذهب» للمستقبل فيناسبها «غدًا». «أمس» ماضٍ، و«الآن» لا يناسب «سـ».",
+     "en": "'Sanadhhabu' is future so 'ghadan' fits; 'amsi' is past and 'al-ān' clashes with 'sa-'.",
+     "id": "'Sanadhhabu' masa depan sehingga 'ghadan' cocok; 'amsi' masa lalu dan 'al-ān' tidak cocok dengan 'sa-'."
+    }
+   }
+  ],
+  "conversation": {
+   "context": {
+    "ar": "في الحصة: المعلم يسأل عن عدد الكتب والموعد.",
+    "en": "In class: the teacher asks about books and the date.",
+    "id": "Di kelas: guru bertanya tentang jumlah buku dan waktu."
+   },
+   "turns": [
+    {
+     "who": "A",
+     "target": "كَمْ كِتَابًا عِنْدَكَ؟",
+     "tr": {
+      "ar": "ما عدد كتبك؟",
+      "en": "How many books do you have?",
+      "id": "Berapa buku yang kamu punya?"
+     }
+    },
+    {
+     "who": "B",
+     "target": "عِنْدِي ثَلَاثَةُ كُتُبٍ.",
+     "tr": {
+      "ar": "لدي ثلاثة كتب.",
+      "en": "I have three books.",
+      "id": "Saya punya tiga buku."
+     }
+    },
+    {
+     "who": "A",
+     "target": "جَيِّدٌ، نَلْتَقِي غَدًا.",
+     "tr": {
+      "ar": "حسن، نلتقي في الغد.",
+      "en": "Good, we meet tomorrow.",
+      "id": "Bagus, kita bertemu besok."
+     }
+    }
+   ],
+   "gap": 1,
+   "wrong": [
+    "الْيَوْمَ يَوْمُ السَّبْتِ.",
+    "أَمْسِ ذَهَبْتُ إِلَى السُّوقِ."
+   ],
+   "why": {
+    "ar": "السؤال «كم؟» يطلب عددًا. الجوابان الآخران عن اليوم والأمس لا يذكران عددًا.",
+    "en": "'Kam' asks for a number; the other replies talk about the day or yesterday and give no number.",
+    "id": "'Kam' meminta jumlah; dua jawaban lain berbicara tentang hari atau kemarin tanpa jumlah."
+   }
+  },
+  "summary": {
+   "ar": "تعلّمت الأعداد ١-١٠ وكلمات الزمن اليوم وغدًا وأمس، وكيف يتغير العدد مع المثنى والجمع.",
+   "en": "You learned 1-10 and the time words today, tomorrow and yesterday, plus how the number behaves with duals and plurals.",
+   "id": "Kamu belajar angka 1-10 dan kata waktu hari ini, besok, kemarin, serta perilaku angka dengan dual dan jamak."
+  }
+ },
+ {
+  "id": "ar-17",
+  "track": "ar",
+  "level": "beginner",
+  "order": 7,
+  "topic": "numbers-11-100",
+  "icon": "💯",
+  "title": {
+   "ar": "الأعداد من ١١ إلى ١٠٠",
+   "en": "Numbers 11-100",
+   "id": "Angka 11-100"
+  },
+  "description": {
+   "ar": "عُدّ حتى المئة وتعلّم قول الأسعار والعدّ مع المعدود.",
+   "en": "Count to 100 and learn to say prices and count things.",
+   "id": "Berhitung sampai seratus dan belajar menyebut harga serta menghitung benda."
+  },
+  "objectives": [
+   {
+    "ar": "أستطيع أن أعدّ من ١١ إلى ١٩ وأقول العقود (٢٠، ٣٠ ... ١٠٠).",
+    "en": "I can count 11-19 and say the tens up to 100.",
+    "id": "Saya bisa berhitung 11-19 dan menyebut puluhan sampai 100."
+   },
+   {
+    "ar": "أستطيع أن أسأل عن السعر بـ«بكم؟».",
+    "en": "I can ask the price with 'bikam?'.",
+    "id": "Saya bisa menanyakan harga dengan 'bikam?'."
+   },
+   {
+    "ar": "أستطيع أن أضع الاسم بعد العدد بصيغة المفرد المنصوب.",
+    "en": "I can put the noun after the number in the singular accusative.",
+    "id": "Saya bisa menaruh kata benda setelah angka dalam bentuk tunggal mansub."
+   }
+  ],
+  "intro": {
+   "ar": "في الأسواق العربية تحتاج الأعداد الكبيرة للمساومة والدفع. العدد بين ١١ و١٩ مركّب من كلمتين، والعقود تنتهي بـ«ون».",
+   "en": "In Arab markets you need larger numbers for bargaining and paying. 11-19 are made of two words, and the tens end in -ūn.",
+   "id": "Di pasar Arab kamu butuh angka besar untuk menawar dan membayar. 11-19 terdiri dari dua kata, dan puluhan berakhiran -ūn."
+  },
+  "culture": {
+   "ar": "في المشرق يُسأل عن الثمن بـ«بِكَمْ؟» أو «كَمْ سِعْرُهُ؟». ويتفاوض الناس في السوق: «غَالٍ!» ثم يتفقان. وتختلف العملات: ريال، دينار، درهم، جنيه.",
+   "en": "In the Levant and Gulf you ask the price with 'bikam?' or 'kam siʿruhu?'. In markets people bargain ('ghālin!' - too expensive) and agree. Currencies vary: riyal, dinar, dirham, pound.",
+   "id": "Di Timur Tengah harga ditanyakan dengan 'bikam?' atau 'kam siʿruhu?'. Di pasar orang menawar ('ghālin!' - mahal) lalu sepakat. Mata uang beragam: riyal, dinar, dirham, pound."
+  },
+  "grammar": {
+   "title": {
+    "ar": "المعدود بعد ١١-٩٩",
+    "en": "The noun after 11-99",
+    "id": "Kata benda setelah 11-99"
+   },
+   "body": {
+    "ar": "بعد الأعداد من ١١ إلى ٩٩ يأتي المعدود مفردًا منصوبًا بتنوين الفتح: خَمْسَةَ عَشَرَ كِتَابًا، عِشْرُونَ رِيَالًا. و«مِئَةٌ» يليها مفرد مجرور: مِئَةُ دِرْهَمٍ.",
+    "en": "After 11-99 the counted noun is singular and accusative with tanwīn -an: khamsata ʿashara kitāban, ʿishrūna riyālan. 'Miʾa' is followed by a singular genitive: miʾatu dirhamin.",
+    "id": "Setelah 11-99 benda yang dihitung berbentuk tunggal mansub bertanwin -an: khamsata ʿashara kitāban, ʿishrūna riyālan. 'Miʾa' diikuti tunggal majrur: miʾatu dirhamin."
+   }
+  },
+  "items": [
+   {
+    "id": "ar17n1",
+    "target": "أَحَدَ عَشَرَ",
+    "translit": "aḥada ʿashara",
+    "tr": {
+     "ar": "العدد الذي بعد عشرة",
+     "en": "The number after ten",
+     "id": "Bilangan setelah sepuluh"
+    },
+    "example": {
+     "target": "عُمْرُهُ أَحَدَ عَشَرَ عَامًا.",
+     "translit": "ʿumruhu aḥada ʿashara ʿāman.",
+     "tr": {
+      "ar": "بلغ من العمر إحدى عشرة سنة تقريبًا.",
+      "en": "He is eleven years old.",
+      "id": "Umurnya sebelas tahun."
+     }
+    },
+    "hint": {
+     "ar": "للمؤنث: إِحْدَى عَشْرَةَ. ثم ١٢: اِثْنَا عَشَرَ.",
+     "en": "Feminine: iḥdā ʿashrata. 12 is ithnā ʿashara.",
+     "id": "Feminin: iḥdā ʿashrata. 12 adalah ithnā ʿashara."
+    }
+   },
+   {
+    "id": "ar17n2",
+    "target": "خَمْسَةَ عَشَرَ",
+    "translit": "khamsata ʿashara",
+    "tr": {
+     "ar": "العدد بين أربعة عشر وستة عشر",
+     "en": "The number between fourteen and sixteen",
+     "id": "Bilangan di antara empat belas dan enam belas"
+    },
+    "example": {
+     "target": "فِي الصَّفِّ خَمْسَةَ عَشَرَ طَالِبًا.",
+     "translit": "fī aṣ-ṣaffi khamsata ʿashara ṭāliban.",
+     "tr": {
+      "ar": "يضم الفصل خمسة عشر طالبًا.",
+      "en": "There are fifteen students in the class.",
+      "id": "Ada lima belas siswa di kelas."
+     }
+    },
+    "hint": {
+     "ar": "المركّب من ١١ إلى ١٩ يبقى مفتوح الجزأين (ما عدا ١٢).",
+     "en": "Compounds 11-19 keep both parts with fatḥa (except 12).",
+     "id": "Bilangan 11-19 tetap berharakat fatḥah di kedua bagian (kecuali 12)."
+    }
+   },
+   {
+    "id": "ar17n3",
+    "target": "عِشْرُونَ",
+    "translit": "ʿishrūn",
+    "tr": {
+     "ar": "العدد بعد التاسع عشر",
+     "en": "The number after nineteen",
+     "id": "Bilangan setelah sembilan belas"
+    },
+    "example": {
+     "target": "اِشْتَرَيْتُ الْقَمِيصَ بِعِشْرِينَ رِيَالًا.",
+     "translit": "ishtaraytu al-qamīṣa bi-ʿishrīna riyālan.",
+     "tr": {
+      "ar": "دفعت عشرين ريالًا ثمنًا للقميص.",
+      "en": "I bought the shirt for twenty riyals.",
+      "id": "Saya membeli baju itu seharga dua puluh riyal."
+     }
+    },
+    "hint": {
+     "ar": "بعد حرف الجر يصير «عِشْرِينَ». وبقية العقود: ثَلَاثُونَ، أَرْبَعُونَ.",
+     "en": "After a preposition it becomes ʿishrīn. Others: thalāthūn, arbaʿūn.",
+     "id": "Setelah preposisi menjadi ʿishrīn. Lainnya: thalāthūn, arbaʿūn."
+    }
+   },
+   {
+    "id": "ar17n4",
+    "target": "خَمْسُونَ",
+    "translit": "khamsūn",
+    "tr": {
+     "ar": "عدد يساوي نصف المئة",
+     "en": "A number equal to half a hundred",
+     "id": "Bilangan yang setengah dari seratus"
+    },
+    "example": {
+     "target": "لِلْغُرْفَةِ خَمْسُونَ دِينَارًا.",
+     "translit": "lil-ghurfati khamsūna dīnāran.",
+     "tr": {
+      "ar": "سعر الغرفة خمسون دينارًا.",
+      "en": "The room costs fifty dinars.",
+      "id": "Kamar itu seharga lima puluh dinar."
+     }
+    },
+    "hint": {
+     "ar": "ثم: سِتُّونَ، سَبْعُونَ، ثَمَانُونَ، تِسْعُونَ.",
+     "en": "Then: sittūn, sabʿūn, thamānūn, tisʿūn.",
+     "id": "Lalu: sittūn, sabʿūn, thamānūn, tisʿūn."
+    }
+   },
+   {
+    "id": "ar17n5",
+    "target": "مِئَةٌ",
+    "translit": "miʾatun",
+    "tr": {
+     "ar": "العدد الذي يساوي عشر عشرات",
+     "en": "The number equal to ten tens",
+     "id": "Bilangan sepuluh kali sepuluh"
+    },
+    "example": {
+     "target": "مِئَةُ دِرْهَمٍ تَكْفِينِي لِلسُّوقِ.",
+     "translit": "miʾatu dirhamin takfīnī lis-sūqi.",
+     "tr": {
+      "ar": "مبلغ مئة درهم يكفيني لأسواق اليوم.",
+      "en": "One hundred dirhams is enough for me at the market.",
+      "id": "Seratus dirham cukup bagiku untuk ke pasar."
+     }
+    },
+    "hint": {
+     "ar": "تُكتب أحيانًا «مائة» لكن تُنطق miʾa.",
+     "en": "Sometimes spelled 'māʾa' but read miʾa.",
+     "id": "Kadang ditulis 'māʾa' tetapi dibaca miʾa."
+    }
+   },
+   {
+    "id": "ar17n6",
+    "target": "بِكَمْ هَذَا؟",
+    "translit": "bikam hādhā?",
+    "tr": {
+     "ar": "سؤال عن ثمن شيء",
+     "en": "A question about the price of something",
+     "id": "Pertanyaan tentang harga suatu barang"
+    },
+    "example": {
+     "target": "بِكَمْ هَذَا الْقَمِيصُ يَا سَيِّدِي؟",
+     "translit": "bikam hādhā al-qamīṣu yā sayyidī?",
+     "tr": {
+      "ar": "كم يبلغ ثمن هذا القميص أيها السيد؟",
+      "en": "How much is this shirt, sir?",
+      "id": "Berapa harga baju ini, Pak?"
+     }
+    },
+    "hint": {
+     "ar": "يُقال أيضًا: كَمْ سِعْرُهُ؟ أي كم ثمنه.",
+     "en": "Also: kam siʿruhu? (how much is its price).",
+     "id": "Juga: kam siʿruhu? (berapa harganya)."
+    }
+   }
+  ],
+  "cloze": [
+   {
+    "sentence": "عِنْدِي ___ كِتَابًا.",
+    "answer": "خَمْسَةَ عَشَرَ",
+    "wrong": [
+     "ثَلَاثَةُ",
+     "مِئَةُ"
+    ],
+    "tr": {
+     "ar": "عندي خمسة عشر كتابًا.",
+     "en": "I have fifteen books.",
+     "id": "Saya punya lima belas buku."
+    },
+    "why": {
+     "ar": "المعدود «كتابًا» مفرد منصوب، وهذا لا يكون إلا بعد الأعداد ١١-٩٩. أما ثلاثة فيليها جمع مجرور، ومئة يليها مفرد مجرور.",
+     "en": "The singular accusative 'kitāban' only follows 11-99. Three takes a genitive plural and 100 a genitive singular.",
+     "id": "Kata benda tunggal mansub 'kitāban' hanya mengikuti 11-99. Tiga diikuti jamak majrur dan seratus diikuti tunggal majrur."
+    }
+   },
+   {
+    "sentence": "___ هَذَا الْقَمِيصُ؟",
+    "answer": "بِكَمْ",
+    "wrong": [
+     "أَيْنَ",
+     "مَنْ"
+    ],
+    "tr": {
+     "ar": "بكم هذا القميص؟",
+     "en": "How much is this shirt?",
+     "id": "Berapa harga baju ini?"
+    },
+    "why": {
+     "ar": "السؤال عن الثمن يكون بـ«بكم». «أين» للمكان و«من» للشخص.",
+     "en": "Asking the price uses 'bikam'. 'Ayna' is for place and 'man' for a person.",
+     "id": "Menanyakan harga memakai 'bikam'. 'Ayna' untuk tempat dan 'man' untuk orang."
+    }
+   }
+  ],
+  "conversation": {
+   "context": {
+    "ar": "في سوق: زبون يسأل البائع عن ثمن قميص.",
+    "en": "In a market: a customer asks the seller the price of a shirt.",
+    "id": "Di pasar: pembeli menanyakan harga baju kepada penjual."
+   },
+   "turns": [
+    {
+     "who": "A",
+     "target": "بِكَمْ هَذَا الْقَمِيصُ؟",
+     "tr": {
+      "ar": "ما ثمن هذا القميص؟",
+      "en": "How much is this shirt?",
+      "id": "Berapa harga baju ini?"
+     }
+    },
+    {
+     "who": "B",
+     "target": "بِخَمْسِينَ رِيَالًا فَقَطْ.",
+     "tr": {
+      "ar": "ثمنه خمسون ريالًا فقط.",
+      "en": "Only fifty riyals.",
+      "id": "Hanya lima puluh riyal."
+     }
+    },
+    {
+     "who": "A",
+     "target": "غَالٍ قَلِيلًا. أُعْطِيكَ أَرْبَعِينَ.",
+     "tr": {
+      "ar": "هذا مرتفع قليلًا، سأدفع أربعين.",
+      "en": "A bit expensive. I will give you forty.",
+      "id": "Agak mahal. Saya beri empat puluh."
+     }
+    }
+   ],
+   "gap": 1,
+   "wrong": [
+    "أَنَا مِنْ إِنْدُونِيسِيَا.",
+    "الْيَوْمَ يَوْمُ السَّبْتِ."
+   ],
+   "why": {
+    "ar": "المطلوب جواب يذكر الثمن. الجوابان الآخران لا علاقة لهما بالسعر.",
+    "en": "The answer must state a price; the others have nothing to do with price.",
+    "id": "Jawaban harus menyebut harga; dua lainnya tak berkaitan dengan harga."
+   }
+  },
+  "summary": {
+   "ar": "تعلّمت الأعداد المركبة والعقود والمئة وصيغة المعدود، وعبارة السؤال عن الثمن.",
+   "en": "You learned compound numbers, the tens and 100, how to put the counted noun, and how to ask a price.",
+   "id": "Kamu belajar angka majemuk, puluhan, seratus, cara menaruh benda yang dihitung, dan menanyakan harga."
+  }
+ },
+ {
+  "id": "ar-06",
+  "track": "ar",
+  "level": "beginner",
+  "order": 8,
+  "topic": "family",
+  "icon": "👨‍👩‍👧",
+  "title": {
+   "ar": "الأسرة",
+   "en": "Family",
+   "id": "Keluarga"
+  },
+  "description": {
+   "ar": "سمِّ أفراد أسرتك وعرّف بهم بجمل قصيرة.",
+   "en": "Name your family members and introduce them in short sentences.",
+   "id": "Sebutkan anggota keluargamu dan perkenalkan mereka dengan kalimat pendek."
+  },
+  "objectives": [
+   {
+    "ar": "أستطيع أن أسمّي الأم والأب والأخ والأخت.",
+    "en": "I can name mother, father, brother and sister.",
+    "id": "Saya bisa menyebut ibu, ayah, kakak/adik laki-laki dan perempuan."
+   },
+   {
+    "ar": "أستطيع أن أقول «هذه أمي» و«هذا أبي».",
+    "en": "I can say 'this is my mother' and 'this is my father'.",
+    "id": "Saya bisa mengatakan 'ini ibuku' dan 'ini ayahku'."
+   },
+   {
+    "ar": "أستطيع أن أضيف ياء المتكلم إلى أسماء القرابة.",
+    "en": "I can add the 'my' ending to kinship words.",
+    "id": "Saya bisa menambahkan akhiran 'milikku' pada kata kekerabatan."
+   }
+  ],
+  "intro": {
+   "ar": "الأسرة محور المجتمع العربي، ومعرفة أسماء القرابة تساعدك على الحديث عن نفسك. سنتعلم ستة أسماء مع الضمير «هذا/هذه».",
+   "en": "The family is central to Arab society, and kinship words let you talk about yourself. We learn six terms with 'hādhā/hādhihi' (this).",
+   "id": "Keluarga adalah pusat masyarakat Arab, dan kata kekerabatan membantumu bercerita tentang diri. Kita belajar enam istilah dengan 'hādhā/hādhihi' (ini)."
+  },
+  "culture": {
+   "ar": "العائلات العربية غالبًا كبيرة ويعيش الأجداد قريبًا من الأبناء، ولذلك يُسأل الغريب بأدب «كيف أهلك؟». ويُنادى الأب «يا أبي» والأم «يا أمي».",
+   "en": "Arab families are often large and grandparents live close by, so you are politely asked 'how is your family?'. People say 'yā abī' to a father and 'yā ummī' to a mother.",
+   "id": "Keluarga Arab sering besar dan kakek-nenek tinggal dekat, sehingga orang menanyakan 'bagaimana keluargamu?'. Orang memanggil 'yā abī' untuk ayah dan 'yā ummī' untuk ibu."
+  },
+  "grammar": {
+   "title": {
+    "ar": "هذا وهذه مع ياء المتكلم",
+    "en": "Hādhā / hādhihi and my",
+    "id": "Hādhā / hādhihi dan milikku"
+   },
+   "body": {
+    "ar": "هَذَا للمذكر (أَبِي)، هَذِهِ للمؤنث (أُمِّي). نضيف ـِي لـ«ملكي»: أُمٌّ ← أُمِّي، أَخٌ ← أَخِي، أُخْتٌ ← أُخْتِي. وفي «أَبٌ» يصير أَبِي (الباء بكسرة).",
+    "en": "Hādhā is masculine (abī), hādhihi feminine (ummī). Add -ī for 'my': umm → ummī, akh → akhī, ukht → ukhtī; 'ab' becomes abī.",
+    "id": "Hādhā untuk maskulin (abī), hādhihi feminin (ummī). Tambah -ī untuk 'milikku': umm → ummī, akh → akhī, ukht → ukhtī; 'ab' menjadi abī."
+   }
+  },
+  "items": [
+   {
+    "id": "arx061",
+    "target": "أُمٌّ",
+    "translit": "umm",
+    "tr": {
+     "ar": "والدتي، المرأة التي ولدتني",
+     "en": "The woman who gave birth to me",
+     "id": "Wanita yang melahirkan saya"
+    },
+    "example": {
+     "target": "هَذِهِ أُمِّي.",
+     "translit": "hādhihi ummī.",
+     "tr": {
+      "ar": "هذه المرأة هي والدتي.",
+      "en": "This is my mother.",
+      "id": "Ini ibuku."
+     }
+    },
+    "hint": {
+     "ar": "للمناداة: يَا أُمِّي. وللمدلّلة: «أُمِّي الْحَبِيبَةُ».",
+     "en": "To call her: yā ummī. Affectionate: 'ummī al-ḥabība'.",
+     "id": "Untuk memanggil: yā ummī. Penuh kasih: 'ummī al-ḥabība'."
+    }
+   },
+   {
+    "id": "arx062",
+    "target": "أَبٌ",
+    "translit": "ab",
+    "tr": {
+     "ar": "والدي، الرجل الذي له أولاد",
+     "en": "My father, a man with children",
+     "id": "Ayah saya, pria yang memiliki anak"
+    },
+    "example": {
+     "target": "هَذَا أَبِي.",
+     "translit": "hādhā abī.",
+     "tr": {
+      "ar": "هذا الرجل هو والدي.",
+      "en": "This is my father.",
+      "id": "Ini ayahku."
+     }
+    },
+    "hint": {
+     "ar": "أَبِي، وفي الجمع: آبَاءٌ.",
+     "en": "Abī 'my father'; plural: ābāʾ.",
+     "id": "Abī 'ayahku'; jamak: ābāʾ."
+    }
+   },
+   {
+    "id": "arx063",
+    "target": "أُخْتٌ",
+    "translit": "ukht",
+    "tr": {
+     "ar": "بنت من أبي وأمي",
+     "en": "A girl with the same parents as me",
+     "id": "Anak perempuan dari orang tua yang sama"
+    },
+    "example": {
+     "target": "هَذِهِ أُخْتِي الصَّغِيرَةُ.",
+     "translit": "hādhihi ukhtī aṣ-ṣaghīratu.",
+     "tr": {
+      "ar": "هذه شقيقتي الأصغر مني.",
+      "en": "This is my little sister.",
+      "id": "Ini adik perempuanku."
+     }
+    },
+    "hint": {
+     "ar": "كلمة مؤنثة فيلزمها «هذه».",
+     "en": "A feminine word, so use 'hādhihi'.",
+     "id": "Kata feminin, jadi pakai 'hādhihi'."
+    }
+   },
+   {
+    "id": "arx064",
+    "target": "طِفْلٌ",
+    "translit": "ṭifl",
+    "tr": {
+     "ar": "ولد صغير في السن",
+     "en": "A young child",
+     "id": "Anak yang masih kecil"
+    },
+    "example": {
+     "target": "هَذَا طِفْلٌ صَغِيرٌ.",
+     "translit": "hādhā ṭiflun ṣaghīrun.",
+     "tr": {
+      "ar": "هذا ولد قليل العمر.",
+      "en": "This is a small child.",
+      "id": "Ini anak kecil."
+     }
+    },
+    "hint": {
+     "ar": "للمؤنث: طِفْلَةٌ. الجمع: أَطْفَالٌ.",
+     "en": "Feminine: ṭiflah; plural: aṭfāl.",
+     "id": "Feminin: ṭiflah; jamak: aṭfāl."
+    }
+   },
+   {
+    "id": "ar06n5",
+    "target": "أَخٌ",
+    "translit": "akh",
+    "tr": {
+     "ar": "ابن من أبي وأمي",
+     "en": "A boy with the same parents as me",
+     "id": "Anak laki-laki dari orang tua yang sama"
+    },
+    "example": {
+     "target": "أَخِي يَدْرُسُ فِي الْجَامِعَةِ.",
+     "translit": "akhī yadrusu fī al-jāmiʿati.",
+     "tr": {
+      "ar": "شقيقي طالب جامعي.",
+      "en": "My brother studies at university.",
+      "id": "Kakakku kuliah."
+     }
+    },
+    "hint": {
+     "ar": "الجمع: إِخْوَةٌ أو إِخْوَانٌ.",
+     "en": "Plural: ikhwah or ikhwān.",
+     "id": "Jamak: ikhwah atau ikhwān."
+    }
+   },
+   {
+    "id": "ar06n6",
+    "target": "جَدَّةٌ",
+    "translit": "jaddah",
+    "tr": {
+     "ar": "أم أبي أو أم أمي",
+     "en": "My father's or mother's mother",
+     "id": "Ibu dari ayah atau ibu saya"
+    },
+    "example": {
+     "target": "جَدَّتِي تَسْكُنُ فِي الْقَرْيَةِ.",
+     "translit": "jaddatī taskunu fī al-qaryati.",
+     "tr": {
+      "ar": "أم أبي تعيش في القرية.",
+      "en": "My grandmother lives in the village.",
+      "id": "Nenekku tinggal di desa."
+     }
+    },
+    "hint": {
+     "ar": "للجد: جَدٌّ، وللمتحدث: جَدِّي.",
+     "en": "Grandfather: jadd; 'my grandfather': jaddī.",
+     "id": "Kakek: jadd; 'kakekku': jaddī."
+    }
+   }
+  ],
+  "cloze": [
+   {
+    "sentence": "___ أُمِّي.",
+    "answer": "هَذِهِ",
+    "wrong": [
+     "هَذَا",
+     "ذَلِكَ"
+    ],
+    "tr": {
+     "ar": "هذه أمي.",
+     "en": "This is my mother.",
+     "id": "Ini ibuku."
+    },
+    "why": {
+     "ar": "«أمي» مؤنث فيناسبه «هذه». «هذا» للمذكر، و«ذلك» للبعيد.",
+     "en": "'Ummī' is feminine, so 'hādhihi'. 'Hādhā' is masculine and 'dhālika' means 'that (far)'.",
+     "id": "'Ummī' feminin sehingga 'hādhihi'. 'Hādhā' maskulin dan 'dhālika' berarti 'itu (jauh)'."
+    }
+   },
+   {
+    "sentence": "هَذَا ___ ، وَاسْمُهُ مُحَمَّدٌ.",
+    "answer": "أَخِي",
+    "wrong": [
+     "أُخْتِي",
+     "أُمِّي"
+    ],
+    "tr": {
+     "ar": "هذا أخي واسمه محمد.",
+     "en": "This is my brother and his name is Muhammad.",
+     "id": "Ini kakakku dan namanya Muhammad."
+    },
+    "why": {
+     "ar": "اسم «محمد» مذكر و«هذا» للمذكر، فنقول «أخي». أختي وأمي مؤنثتان.",
+     "en": "The name Muhammad is masculine and 'hādhā' is masculine, so 'akhī'; sister and mother are feminine.",
+     "id": "Nama Muhammad maskulin dan 'hādhā' maskulin, jadi 'akhī'; kakak/adik perempuan dan ibu feminin."
+    }
+   }
+  ],
+  "conversation": {
+   "context": {
+    "ar": "في البيت: ليلى تعرض صورة أسرتها.",
+    "en": "At home: Layla shows a family photo.",
+    "id": "Di rumah: Leyla menunjukkan foto keluarganya."
+   },
+   "turns": [
+    {
+     "who": "A",
+     "target": "مَنْ هَذَا فِي الصُّورَةِ؟",
+     "tr": {
+      "ar": "من هذا الرجل؟",
+      "en": "Who is this in the picture?",
+      "id": "Siapa ini di foto?"
+     }
+    },
+    {
+     "who": "B",
+     "target": "هَذَا أَبِي، وَهَذِهِ أُمِّي.",
+     "tr": {
+      "ar": "هذا والدي وهذه والدتي.",
+      "en": "This is my father and this is my mother.",
+      "id": "Ini ayahku dan ini ibuku."
+     }
+    },
+    {
+     "who": "A",
+     "target": "مَا شَاءَ اللَّهُ، أُسْرَةٌ جَمِيلَةٌ!",
+     "tr": {
+      "ar": "ما أجمل أسرتك!",
+      "en": "Wonderful, a beautiful family!",
+      "id": "Masya Allah, keluarga yang indah!"
+     }
+    }
+   ],
+   "gap": 1,
+   "wrong": [
+    "هَذَا الْقَلَمُ أَزْرَقُ.",
+    "اِسْمِي لَيْلَى."
+   ],
+   "why": {
+    "ar": "السؤال عن أشخاص في صورة، فالجواب يذكر قرابتهم. الجوابان الآخران عن قلم واسم.",
+    "en": "The question is about people in a photo, so the answer names relatives. The others are about a pen and a name.",
+    "id": "Pertanyaan tentang orang di foto sehingga jawabannya menyebut kerabat. Dua lainnya tentang pena dan nama."
+   }
+  },
+  "summary": {
+   "ar": "تعلّمت أسماء القرابة الأساسية وكيف تقول «هذا أبي» و«هذه أمي». تذكر أن الياء تدل على ملكيتك.",
+   "en": "You learned the key kinship words and how to say 'this is my father/mother'. Remember the -ī ending means 'my'.",
+   "id": "Kamu belajar kata kekerabatan utama dan cara berkata 'ini ayahku/ibuku'. Ingat akhiran -ī berarti 'milikku'."
+  }
+ },
+ {
+  "id": "ar-12",
+  "track": "ar",
+  "level": "beginner",
+  "order": 9,
+  "topic": "colors-descriptions",
+  "icon": "🎨",
+  "title": {
+   "ar": "الألوان والصفات",
+   "en": "Colors and descriptions",
+   "id": "Warna dan sifat"
+  },
+  "description": {
+   "ar": "صف الأشياء بالألوان والصفات مع مطابقة المذكر والمؤنث.",
+   "en": "Describe things with colors and adjectives, matching masculine and feminine.",
+   "id": "Gambarkan benda dengan warna dan sifat serta sesuaikan maskulin dan feminin."
+  },
+  "objectives": [
+   {
+    "ar": "أستطيع أن أقول أحمر وأزرق وأبيض.",
+    "en": "I can say red, blue and white.",
+    "id": "Saya bisa menyebut merah, biru, dan putih."
+   },
+   {
+    "ar": "أستطيع أن أصف الحجم بكبير وصغير.",
+    "en": "I can describe size with big and small.",
+    "id": "Saya bisa menggambarkan ukuran dengan besar dan kecil."
+   },
+   {
+    "ar": "أستطيع أن أطابق الصفة مع الاسم في الجنس.",
+    "en": "I can make the adjective agree with the noun in gender.",
+    "id": "Saya bisa menyesuaikan kata sifat dengan kata benda dalam jenis."
+   }
+  ],
+  "intro": {
+   "ar": "في العربية تأتي الصفة بعد الاسم وتطابقه في الجنس والتعريف. الألوان على وزن «أفعل» للمذكر و«فعلاء» للمؤنث.",
+   "en": "In Arabic the adjective follows the noun and agrees in gender and definiteness. Colors follow the pattern 'afʿal' (masculine) and 'faʿlāʾ' (feminine).",
+   "id": "Dalam bahasa Arab kata sifat mengikuti kata benda dan sesuai dalam jenis serta ketentuan. Warna berpola 'afʿal' (maskulin) dan 'faʿlāʾ' (feminin)."
+  },
+  "culture": {
+   "ar": "الألوان لها دلالات ثقافية: الأخضر لون الإسلام والجنة، والأبيض السلام، والأسود للأناقة. وتُقال العبارات في وصف الملابس والسيارات والبيوت يوميًا.",
+   "en": "Colors carry cultural meaning: green for Islam and paradise, white for peace, black for elegance. These words describe clothes, cars and houses every day.",
+   "id": "Warna memiliki makna budaya: hijau untuk Islam dan surga, putih untuk kedamaian, hitam untuk keanggunan. Kata-kata ini dipakai sehari-hari untuk pakaian, mobil, dan rumah."
+  },
+  "grammar": {
+   "title": {
+    "ar": "مطابقة الصفة",
+    "en": "Adjective agreement",
+    "id": "Kesesuaian kata sifat"
+   },
+   "body": {
+    "ar": "بَيْتٌ كَبِيرٌ (مذكر) / سَيَّارَةٌ كَبِيرَةٌ (مؤنث). في الألوان: قَلَمٌ أَحْمَرُ / وَرْدَةٌ حَمْرَاءُ، بَابٌ أَبْيَضُ / سَيَّارَةٌ بَيْضَاءُ. وإذا عُرّف الاسم عُرّفت الصفة: الْبَيْتُ الْكَبِيرُ.",
+    "en": "baytun kabīrun (m) / sayyāratun kabīratun (f). Colors: qalamun aḥmaru / wardatun ḥamrāʾu; bābun abyaḍu / sayyāratun bayḍāʾu. When the noun is definite so is the adjective: al-baytu al-kabīru.",
+    "id": "baytun kabīrun (m) / sayyāratun kabīratun (f). Warna: qalamun aḥmaru / wardatun ḥamrāʾu; bābun abyaḍu / sayyāratun bayḍāʾu. Jika kata benda tentu, sifat juga tentu: al-baytu al-kabīru."
+   }
+  },
+  "items": [
+   {
+    "id": "arx121",
+    "target": "أَحْمَرُ",
+    "translit": "aḥmar",
+    "tr": {
+     "ar": "لون التفاح والدم",
+     "en": "The colour of apples and blood",
+     "id": "Warna apel dan darah"
+    },
+    "example": {
+     "target": "الْقَلَمُ أَحْمَرُ.",
+     "translit": "al-qalamu aḥmaru.",
+     "tr": {
+      "ar": "لون هذا القلم أحمر.",
+      "en": "The pen is red.",
+      "id": "Pena itu merah."
+     }
+    },
+    "hint": {
+     "ar": "للمؤنث: حَمْرَاءُ (وَرْدَةٌ حَمْرَاءُ).",
+     "en": "Feminine: ḥamrāʾ (wardatun ḥamrāʾ).",
+     "id": "Feminin: ḥamrāʾ (wardatun ḥamrāʾ)."
+    }
+   },
+   {
+    "id": "arx122",
+    "target": "أَزْرَقُ",
+    "translit": "azraq",
+    "tr": {
+     "ar": "لون السماء والبحر",
+     "en": "The colour of sky and sea",
+     "id": "Warna langit dan laut"
+    },
+    "example": {
+     "target": "الْبَابُ أَزْرَقُ.",
+     "translit": "al-bābu azraqu.",
+     "tr": {
+      "ar": "لون الباب أزرق.",
+      "en": "The door is blue.",
+      "id": "Pintu itu biru."
+     }
+    },
+    "hint": {
+     "ar": "للمؤنث: زَرْقَاءُ (عَيْنٌ زَرْقَاءُ).",
+     "en": "Feminine: zarqāʾ (ʿaynun zarqāʾ).",
+     "id": "Feminin: zarqāʾ (ʿaynun zarqāʾ)."
+    }
+   },
+   {
+    "id": "arx123",
+    "target": "كَبِيرٌ",
+    "translit": "kabīr",
+    "tr": {
+     "ar": "عكس صغير، ذو حجم أكبر",
+     "en": "The opposite of small; of larger size",
+     "id": "Lawan dari kecil; berukuran lebih besar"
+    },
+    "example": {
+     "target": "الْبَيْتُ كَبِيرٌ.",
+     "translit": "al-baytu kabīrun.",
+     "tr": {
+      "ar": "حجم البيت واسع.",
+      "en": "The house is big.",
+      "id": "Rumah itu besar."
+     }
+    },
+    "hint": {
+     "ar": "للمؤنث: كَبِيرَةٌ.",
+     "en": "Feminine: kabīrah.",
+     "id": "Feminin: kabīrah."
+    }
+   },
+   {
+    "id": "arx124",
+    "target": "صَغِيرٌ",
+    "translit": "ṣaghīr",
+    "tr": {
+     "ar": "عكس كبير، ذو حجم أقل",
+     "en": "The opposite of big; of smaller size",
+     "id": "Lawan dari besar; berukuran lebih kecil"
+    },
+    "example": {
+     "target": "الْكِتَابُ صَغِيرٌ.",
+     "translit": "al-kitābu ṣaghīrun.",
+     "tr": {
+      "ar": "هذا الكتاب محدود الحجم.",
+      "en": "The book is small.",
+      "id": "Buku itu kecil."
+     }
+    },
+    "hint": {
+     "ar": "للمؤنث: صَغِيرَةٌ.",
+     "en": "Feminine: ṣaghīrah.",
+     "id": "Feminin: ṣaghīrah."
+    }
+   },
+   {
+    "id": "ar12n5",
+    "target": "أَبْيَضُ",
+    "translit": "abyaḍ",
+    "tr": {
+     "ar": "لون الحليب والثلج",
+     "en": "The colour of milk and snow",
+     "id": "Warna susu dan salju"
+    },
+    "example": {
+     "target": "السَّيَّارَةُ بَيْضَاءُ وَجَدِيدَةٌ.",
+     "translit": "as-sayyāratu bayḍāʾu wa-jadīdatun.",
+     "tr": {
+      "ar": "هذه المركبة لونها أبيض وهي حديثة.",
+      "en": "The car is white and new.",
+      "id": "Mobil itu putih dan baru."
+     }
+    },
+    "hint": {
+     "ar": "للمؤنث: بَيْضَاءُ. وفي المذكر: ثَوْبٌ أَبْيَضُ.",
+     "en": "Feminine: bayḍāʾ. Masculine: thawbun abyaḍu.",
+     "id": "Feminin: bayḍāʾ. Maskulin: thawbun abyaḍu."
+    }
+   },
+   {
+    "id": "ar12n6",
+    "target": "جَمِيلٌ",
+    "translit": "jamīl",
+    "tr": {
+     "ar": "ذو منظر حسن",
+     "en": "Pleasant to look at",
+     "id": "Indah dipandang"
+    },
+    "example": {
+     "target": "الْمَدِينَةُ جَمِيلَةٌ جِدًّا.",
+     "translit": "al-madīnatu jamīlatun jiddan.",
+     "tr": {
+      "ar": "هذه المدينة حسنة المنظر.",
+      "en": "The city is very beautiful.",
+      "id": "Kota itu sangat indah."
+     }
+    },
+    "hint": {
+     "ar": "للمؤنث: جَمِيلَةٌ. وللتأكيد نضيف جِدًّا.",
+     "en": "Feminine: jamīlah. Add jiddan for 'very'.",
+     "id": "Feminin: jamīlah. Tambah jiddan untuk 'sangat'."
+    }
+   }
+  ],
+  "cloze": [
+   {
+    "sentence": "هَذِهِ وَرْدَةٌ ___.",
+    "answer": "حَمْرَاءُ",
+    "wrong": [
+     "أَحْمَرُ",
+     "كَبِيرٌ"
+    ],
+    "tr": {
+     "ar": "هذه وردة حمراء.",
+     "en": "This is a red rose.",
+     "id": "Ini mawar merah."
+    },
+    "why": {
+     "ar": "«وردة» مؤنث فيلزمها «حمراء». «أحمر» مذكر، و«كبير» مذكر أيضًا.",
+     "en": "'Wardah' is feminine, so 'ḥamrāʾ'. 'Aḥmar' and 'kabīr' are masculine.",
+     "id": "'Wardah' feminin sehingga 'ḥamrāʾ'. 'Aḥmar' dan 'kabīr' maskulin."
+    }
+   },
+   {
+    "sentence": "الْبَيْتُ ___ وَالْكِتَابُ صَغِيرٌ.",
+    "answer": "كَبِيرٌ",
+    "wrong": [
+     "كَبِيرَةٌ",
+     "حَمْرَاءُ"
+    ],
+    "tr": {
+     "ar": "البيت كبير والكتاب صغير.",
+     "en": "The house is big and the book is small.",
+     "id": "Rumah itu besar dan buku itu kecil."
+    },
+    "why": {
+     "ar": "«البيت» مذكر والخبر ضد «صغير» هو «كبيرٌ». «كبيرة» مؤنث و«حمراء» لا يقابل الصغير.",
+     "en": "'Bayt' is masculine and the opposite of 'ṣaghīr' is 'kabīr'; 'kabīra' is feminine and 'ḥamrāʾ' is not an antonym.",
+     "id": "'Bayt' maskulin dan lawan 'ṣaghīr' adalah 'kabīr'; 'kabīrah' feminin dan 'ḥamrāʾ' bukan lawan kata."
+    }
+   }
+  ],
+  "conversation": {
+   "context": {
+    "ar": "في متجر: ليلى تصف السيارة التي تريدها.",
+    "en": "In a shop: Layla describes the car she wants.",
+    "id": "Di toko: Leyla menggambarkan mobil yang ia inginkan."
+   },
+   "turns": [
+    {
+     "who": "A",
+     "target": "مَا لَوْنُ السَّيَّارَةِ؟",
+     "tr": {
+      "ar": "بأي لون السيارة؟",
+      "en": "What colour is the car?",
+      "id": "Apa warna mobilnya?"
+     }
+    },
+    {
+     "who": "B",
+     "target": "هِيَ بَيْضَاءُ وَجَدِيدَةٌ.",
+     "tr": {
+      "ar": "لونها أبيض وهي حديثة.",
+      "en": "It is white and new.",
+      "id": "Mobil itu putih dan baru."
+     }
+    },
+    {
+     "who": "A",
+     "target": "جَمِيلَةٌ! أُرِيدُهَا.",
+     "tr": {
+      "ar": "رائعة، سأشتريها.",
+      "en": "Beautiful! I want it.",
+      "id": "Cantik! Saya mau."
+     }
+    },
+    {
+     "who": "B",
+     "target": "تَفَضَّلِي.",
+     "tr": {
+      "ar": "تفضلي.",
+      "en": "Here you are.",
+      "id": "Silakan."
+     }
+    }
+   ],
+   "gap": 1,
+   "wrong": [
+    "هُوَ أَبْيَضُ وَجَدِيدٌ.",
+    "لَوْنُهَا خَمْسَةُ دَنَانِيرَ."
+   ],
+   "why": {
+    "ar": "«السيارة» مؤنثة فنقول «هي بيضاء». «هو أبيض» مذكر، والثالث لا يصف لونًا.",
+    "en": "'Sayyāra' is feminine, so 'hiya bayḍāʾ'. 'Huwa abyaḍ' is masculine and the third reply gives no colour.",
+    "id": "'Sayyāra' feminin sehingga 'hiya bayḍāʾ'. 'Huwa abyaḍ' maskulin dan jawaban ketiga tidak menyebut warna."
+   }
+  },
+  "summary": {
+   "ar": "تعلّمت ألوانًا وصفات وطابقتها مع المذكر والمؤنث. تذكّر أن الصفة تتبع الاسم في الجنس والتعريف.",
+   "en": "You learned colours and adjectives and matched them with masculine and feminine nouns. The adjective follows the noun in gender and definiteness.",
+   "id": "Kamu mempelajari warna dan sifat serta menyesuaikannya dengan benda maskulin dan feminin. Sifat mengikuti benda dalam jenis dan ketentuan."
+  }
+ },
+ {
+  "id": "ar-13",
+  "track": "ar",
+  "level": "beginner",
+  "order": 10,
+  "topic": "polite-phrases",
+  "icon": "🤝",
+  "title": {
+   "ar": "عبارات المجاملة",
+   "en": "Polite phrases",
+   "id": "Kalimat sopan"
+  },
+  "description": {
+   "ar": "استعمل عبارات الاعتذار والطلب والترحيب بأدب.",
+   "en": "Use phrases for apologising, requesting and welcoming politely.",
+   "id": "Gunakan ungkapan untuk meminta maaf, memohon, dan menyambut dengan sopan."
+  },
+  "objectives": [
+   {
+    "ar": "أستطيع أن أعتذر وأطلب بلطف.",
+    "en": "I can apologise and ask kindly.",
+    "id": "Saya bisa meminta maaf dan memohon dengan santun."
+   },
+   {
+    "ar": "أستطيع أن أرد على الشكر.",
+    "en": "I can answer thanks.",
+    "id": "Saya bisa membalas ucapan terima kasih."
+   },
+   {
+    "ar": "أستطيع أن أرحّب بالضيف.",
+    "en": "I can welcome a guest.",
+    "id": "Saya bisa menyambut tamu."
+   }
+  ],
+  "intro": {
+   "ar": "الأدب جزء كبير من الثقافة العربية. هذه عبارات قصيرة تُقال كل يوم في الشارع والبيت والعمل.",
+   "en": "Courtesy is a big part of Arab culture. These short phrases are said daily in the street, at home and at work.",
+   "id": "Kesopanan adalah bagian besar budaya Arab. Ungkapan pendek ini dipakai setiap hari di jalan, rumah, dan kantor."
+  },
+  "culture": {
+   "ar": "الضيافة في العالم العربي مقدسة: يُستقبل الضيف بـ«أهلًا وسهلًا» ويُقدَّم له القهوة والتمر. ويُرَدّ على «شكرًا» بـ«عفوًا» أو «على الرحب والسعة».",
+   "en": "Hospitality is sacred in the Arab world: a guest is welcomed with 'ahlan wa-sahlan' and offered coffee and dates. 'Shukran' is answered with 'ʿafwan' or 'ʿalā ar-raḥb wa-s-saʿa'.",
+   "id": "Keramahan tamu sangat dijunjung di dunia Arab: tamu disambut 'ahlan wa-sahlan' dan disuguhi kopi dan kurma. 'Shukran' dijawab 'ʿafwan' atau 'ʿalā ar-raḥb wa-s-saʿa'."
+  },
+  "grammar": {
+   "title": {
+    "ar": "الأمر المهذّب",
+    "en": "Polite requests",
+    "id": "Permintaan sopan"
+   },
+   "body": {
+    "ar": "نلطّف الطلب بـ«مِنْ فَضْلِكَ» (للرجل) و«مِنْ فَضْلِكِ» (للمرأة) أو «لَوْ سَمَحْتَ/سَمَحْتِ». وفعل الأمر «تَفَضَّلْ» يعني «تفضل خذ» ويصير «تَفَضَّلِي» للمؤنث.",
+    "en": "Soften a request with 'min faḍlika' (man) / 'min faḍliki' (woman) or 'law samaḥta/samaḥti'. 'Tafaḍḍal' means 'please, go ahead / here you are' and becomes 'tafaḍḍalī' for a woman.",
+    "id": "Lembutkan permintaan dengan 'min faḍlika' (pria) / 'min faḍliki' (wanita) atau 'law samaḥta/samaḥti'. 'Tafaḍḍal' berarti 'silakan / ini untukmu' dan menjadi 'tafaḍḍalī' untuk wanita."
+   }
+  },
+  "items": [
+   {
+    "id": "arx131",
+    "target": "عُذْرًا",
+    "translit": "ʿudhran",
+    "tr": {
+     "ar": "كلمة اعتذار قصيرة",
+     "en": "A short word of apology",
+     "id": "Kata permintaan maaf singkat"
+    },
+    "example": {
+     "target": "عُذْرًا عَلَى التَّأْخِيرِ.",
+     "translit": "ʿudhran ʿalā at-taʾkhīri.",
+     "tr": {
+      "ar": "آسف لأني تأخرت.",
+      "en": "Sorry for being late.",
+      "id": "Maaf atas keterlambatan."
+     }
+    },
+    "hint": {
+     "ar": "وللاعتذار الكبير: أَنَا آسِفٌ (للرجل) / آسِفَةٌ (للمرأة).",
+     "en": "For a bigger apology: anā āsifun (m) / āsifatun (f).",
+     "id": "Untuk permintaan maaf besar: anā āsifun (pria) / āsifatun (wanita)."
+    }
+   },
+   {
+    "id": "arx132",
+    "target": "لَوْ سَمَحْتَ",
+    "translit": "law samaḥta",
+    "tr": {
+     "ar": "عبارة تُقال لجذب انتباه شخص بلطف",
+     "en": "A phrase to politely get someone's attention",
+     "id": "Ungkapan untuk menarik perhatian dengan santun"
+    },
+    "example": {
+     "target": "لَوْ سَمَحْتَ، أَيْنَ الْبَابُ؟",
+     "translit": "law samaḥta, ayna al-bābu?",
+     "tr": {
+      "ar": "أرجو أن تخبرني أين الباب.",
+      "en": "Excuse me, where is the door?",
+      "id": "Permisi, di mana pintunya?"
+     }
+    },
+    "hint": {
+     "ar": "للمرأة: لَوْ سَمَحْتِ.",
+     "en": "To a woman: law samaḥti.",
+     "id": "Untuk wanita: law samaḥti."
+    }
+   },
+   {
+    "id": "arx133",
+    "target": "عَلَى الرَّحْبِ وَالسَّعَةِ",
+    "translit": "ʿalā ar-raḥbi wa-s-saʿah",
+    "tr": {
+     "ar": "جواب كريم على الشكر معناه: لا شكر على واجب",
+     "en": "A generous reply to thanks, meaning 'my pleasure'",
+     "id": "Balasan ramah atas terima kasih, berarti 'dengan senang hati'"
+    },
+    "example": {
+     "target": "شُكْرًا، عَلَى الرَّحْبِ وَالسَّعَةِ.",
+     "translit": "shukran, ʿalā ar-raḥbi wa-s-saʿati.",
+     "tr": {
+      "ar": "أشكرك، الأمر ميسّر.",
+      "en": "Thanks - my pleasure.",
+      "id": "Terima kasih - dengan senang hati."
+     }
+    },
+    "hint": {
+     "ar": "أقصر منه: عَفْوًا.",
+     "en": "Shorter: ʿafwan.",
+     "id": "Lebih singkat: ʿafwan."
+    }
+   },
+   {
+    "id": "arx134",
+    "target": "أَهْلًا وَسَهْلًا",
+    "translit": "ahlan wa-sahlan",
+    "tr": {
+     "ar": "ترحيب بمن يصل أو يزور",
+     "en": "A welcome to someone arriving or visiting",
+     "id": "Sambutan untuk orang yang datang atau berkunjung"
+    },
+    "example": {
+     "target": "أَهْلًا وَسَهْلًا بِكَ فِي بَيْتِنَا.",
+     "translit": "ahlan wa-sahlan bika fī baytinā.",
+     "tr": {
+      "ar": "نرحب بك في دارنا.",
+      "en": "Welcome to our home.",
+      "id": "Selamat datang di rumah kami."
+     }
+    },
+    "hint": {
+     "ar": "الرد: أَهْلًا بِكَ، أَهْلًا فِيكَ.",
+     "en": "Reply: ahlan bika / ahlan fīk.",
+     "id": "Balasan: ahlan bika / ahlan fīk."
+    }
+   },
+   {
+    "id": "ar13n5",
+    "target": "مِنْ فَضْلِكَ",
+    "translit": "min faḍlika",
+    "tr": {
+     "ar": "عبارة تأتي بمعنى 'أرجو'",
+     "en": "A phrase meaning 'please'",
+     "id": "Ungkapan yang berarti 'tolong'"
+    },
+    "example": {
+     "target": "مِنْ فَضْلِكَ، أُرِيدُ كُوبَ مَاءٍ.",
+     "translit": "min faḍlika, urīdu kūba māʾin.",
+     "tr": {
+      "ar": "أرجو أن تعطيني كوب ماء.",
+      "en": "Please, I would like a glass of water.",
+      "id": "Tolong, saya mau segelas air."
+     }
+    },
+    "hint": {
+     "ar": "للمرأة: مِنْ فَضْلِكِ. وهي أقوى قليلًا من «لو سمحت».",
+     "en": "To a woman: min faḍliki. Slightly more formal than 'law samaḥta'.",
+     "id": "Untuk wanita: min faḍliki. Sedikit lebih formal dari 'law samaḥta'."
+    }
+   },
+   {
+    "id": "ar13n6",
+    "target": "تَفَضَّلْ",
+    "translit": "tafaḍḍal",
+    "tr": {
+     "ar": "كلمة تقال عند تقديم شيء أو دعوة للدخول",
+     "en": "Said when offering something or inviting someone in",
+     "id": "Diucapkan saat menyodorkan sesuatu atau mempersilakan masuk"
+    },
+    "example": {
+     "target": "تَفَضَّلْ، الْقَهْوَةُ جَاهِزَةٌ.",
+     "translit": "tafaḍḍal, al-qahwatu jāhizatun.",
+     "tr": {
+      "ar": "اجلس واشرب، القهوة معدّة.",
+      "en": "Please, the coffee is ready.",
+      "id": "Silakan, kopinya sudah siap."
+     }
+    },
+    "hint": {
+     "ar": "للمرأة: تَفَضَّلِي. وللجماعة: تَفَضَّلُوا.",
+     "en": "Woman: tafaḍḍalī; group: tafaḍḍalū.",
+     "id": "Wanita: tafaḍḍalī; kelompok: tafaḍḍalū."
+    }
+   }
+  ],
+  "cloze": [
+   {
+    "sentence": "___ عَلَى التَّأْخِيرِ.",
+    "answer": "عُذْرًا",
+    "wrong": [
+     "شُكْرًا",
+     "أَهْلًا"
+    ],
+    "tr": {
+     "ar": "عذرًا على التأخير.",
+     "en": "Sorry for the delay.",
+     "id": "Maaf atas keterlambatan."
+    },
+    "why": {
+     "ar": "للتأخير نعتذر بـ«عذرًا». «شكرًا» للشكر، و«أهلًا» للترحيب.",
+     "en": "For lateness we apologise with 'ʿudhran'; 'shukran' thanks and 'ahlan' welcomes.",
+     "id": "Untuk keterlambatan kita meminta maaf dengan 'ʿudhran'; 'shukran' berterima kasih dan 'ahlan' menyambut."
+    }
+   },
+   {
+    "sentence": "شُكْرًا. - ___ .",
+    "answer": "عَلَى الرَّحْبِ وَالسَّعَةِ",
+    "wrong": [
+     "لَوْ سَمَحْتَ",
+     "عُذْرًا"
+    ],
+    "tr": {
+     "ar": "شكرًا. - على الرحب والسعة.",
+     "en": "Thanks. - My pleasure.",
+     "id": "Terima kasih. - Sama-sama."
+    },
+    "why": {
+     "ar": "الجواب المناسب للشكر هو «على الرحب والسعة». «لو سمحت» طلب و«عذرًا» اعتذار.",
+     "en": "The fitting answer to thanks is 'ʿalā ar-raḥb wa-s-saʿa'. 'Law samaḥta' is a request and 'ʿudhran' an apology.",
+     "id": "Jawaban pas untuk terima kasih adalah 'ʿalā ar-raḥb wa-s-saʿa'. 'Law samaḥta' adalah permintaan dan 'ʿudhran' permintaan maaf."
+    }
+   }
+  ],
+  "conversation": {
+   "context": {
+    "ar": "في بيت عربي: ضيف يصل إلى بيت أصدقائه.",
+    "en": "In an Arab home: a guest arrives at friends' house.",
+    "id": "Di rumah orang Arab: seorang tamu tiba di rumah temannya."
+   },
+   "turns": [
+    {
+     "who": "A",
+     "target": "أَهْلًا وَسَهْلًا، تَفَضَّلْ.",
+     "tr": {
+      "ar": "مرحبًا بك، ادخل.",
+      "en": "Welcome, please come in.",
+      "id": "Selamat datang, silakan masuk."
+     }
+    },
+    {
+     "who": "B",
+     "target": "شُكْرًا جَزِيلًا.",
+     "tr": {
+      "ar": "أشكرك كثيرًا.",
+      "en": "Thank you very much.",
+      "id": "Terima kasih banyak."
+     }
+    },
+    {
+     "who": "A",
+     "target": "عَلَى الرَّحْبِ وَالسَّعَةِ.",
+     "tr": {
+      "ar": "لا شكر على واجب.",
+      "en": "My pleasure.",
+      "id": "Dengan senang hati."
+     }
+    }
+   ],
+   "gap": 1,
+   "wrong": [
+    "عُذْرًا، أَنَا آسِفٌ.",
+    "إِلَى اللِّقَاءِ."
+   ],
+   "why": {
+    "ar": "بعد الترحيب يشكر الضيف. الاعتذار والوداع لا يناسبان هذا الموقف.",
+    "en": "After a welcome the guest thanks the host; an apology or goodbye does not suit this moment.",
+    "id": "Setelah disambut tamu berterima kasih; permintaan maaf atau perpisahan tidak cocok di sini."
+   }
+  },
+  "summary": {
+   "ar": "تعلّمت عبارات الاعتذار والطلب والترحيب والرد على الشكر. تذكّر أن «تفضّل» و«من فضلك» يتغيران مع المخاطب.",
+   "en": "You learned phrases for apologising, requesting, welcoming and answering thanks. Remember 'tafaḍḍal' and 'min faḍlika' change with the addressee.",
+   "id": "Kamu mempelajari ungkapan minta maaf, memohon, menyambut, dan membalas terima kasih. Ingat 'tafaḍḍal' dan 'min faḍlika' berubah menurut lawan bicara."
+  }
+ }
+]

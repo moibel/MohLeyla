@@ -1,0 +1,110 @@
+import { Link } from 'react-router-dom';
+import { useTranslation } from 'react-i18next';
+import { ArrowRight, ArrowLeft, Flame, Target, Brain } from 'lucide-react';
+import { Button, Ring, ProgressBar, Logo } from '../components/ui.jsx';
+import LessonCard from '../components/LessonCard.jsx';
+import { TRACKS, TRACK_META, lessonsOfTrack } from '../data/content.js';
+import { useProgress } from '../app/ProgressContext.jsx';
+import { nextLessonOf, useDerived } from '../features/progress/selectors.js';
+
+export default function Home() {
+  const { t, i18n } = useTranslation();
+  const { state } = useProgress();
+  const d = useDerived();
+  const rtl = i18n.dir() === 'rtl';
+  const Arrow = rtl ? ArrowLeft : ArrowRight;
+  const goal = state.settings.goal;
+  const hasStarted = state.xp > 0 || d.completedCount > 0;
+  const focusTrack = state.settings.lastTrack || 'ar';
+  const next = nextLessonOf(state, focusTrack) || TRACKS.map((k) => nextLessonOf(state, k)).find(Boolean);
+  const pct = Math.min(100, Math.round((d.todayXp / goal) * 100));
+
+  return (
+    <div className="page home">
+      <section className="hero" aria-labelledby="hero-title">
+        <div className="hero-copy">
+          <span className="eyebrow">{t('home.welcome')}</span>
+          <h1 id="hero-title">{t('home.heroTitleA')} <em>{t('home.heroTitleB')}</em></h1>
+          <p>{t('home.heroText')}</p>
+          <div className="hero-actions">
+            <Button variant="light" size="lg" to={next ? `/lesson/${next.id}` : '/learn'} iconEnd={<Arrow size={20} aria-hidden="true" />}>
+              {hasStarted ? t('home.continueLearning') : t('home.startLearning')}
+            </Button>
+          </div>
+          {next && hasStarted && <p className="hero-next">{t('home.continueFrom', { lesson: next.title[i18n.language] })}</p>}
+        </div>
+        <div className="hero-art" aria-hidden="true">
+          <div className="hero-mark"><Logo compact size={150} onDark /></div>
+          <span className="bubble b1" lang="ar" dir="rtl">مَرْحَبًا</span>
+          <span className="bubble b2" lang="en">Hello</span>
+          <span className="bubble b3" lang="id">Halo</span>
+          <span className="bubble b4" lang="ar" dir="rtl">هَلا</span>
+        </div>
+      </section>
+
+      <section className="stat-row" aria-label={t('home.stats')}>
+        <div className="card stat-card">
+          <Ring value={pct} size={84} stroke={9} label={t('home.goalProgress', { xp: d.todayXp, goal })}>
+            <Target size={22} aria-hidden="true" />
+          </Ring>
+          <div>
+            <h2 className="h-sm">{t('home.todayGoal')}</h2>
+            <p className="muted">{d.todayXp >= goal ? t('home.goalReached') : t('home.goalProgress', { xp: d.todayXp, goal })}</p>
+          </div>
+        </div>
+        <div className="card stat-card">
+          <span className="stat-badge warm"><Flame size={30} aria-hidden="true" /></span>
+          <div>
+            <h2 className="h-sm">{t('home.streak')}</h2>
+            <p className="big-num">{t('common.days', { count: d.streak })}</p>
+          </div>
+        </div>
+        <div className="card stat-card">
+          <span className="stat-badge cool"><Brain size={30} aria-hidden="true" /></span>
+          <div>
+            <h2 className="h-sm">{t('home.reviewTitle')}</h2>
+            <p className="muted">{d.dueCount > 0 ? t('home.reviewDue', { count: d.dueCount }) : t('home.reviewNone')}</p>
+            {d.dueCount > 0 && <Link className="link-strong" to="/review">{t('home.reviewCta')}</Link>}
+          </div>
+        </div>
+      </section>
+
+      <section aria-labelledby="tracks-h">
+        <div className="section-head">
+          <h2 id="tracks-h">{t('home.chooseTrack')}</h2>
+          <p className="muted">{t('home.chooseTrackSub')}</p>
+        </div>
+        <div className="track-grid">
+          {TRACKS.map((k) => {
+            const list = lessonsOfTrack(k);
+            const done = list.filter((l) => state.completed[l.id]).length;
+            return (
+              <Link key={k} to={`/learn?track=${k}`} className="track-card" style={{ '--tile': TRACK_META[k].color }} onClick={() => undefined}>
+                <span className="track-glyph" aria-hidden="true" lang={k === 'ar' || k === 'sa' ? 'ar' : 'en'}>{TRACK_META[k].glyph}</span>
+                <h3>{t(`tracks.${k}.name`)}</h3>
+                <p>{t(`tracks.${k}.desc`)}</p>
+                <ProgressBar value={done} max={list.length || 1} label={t(`tracks.${k}.name`)} />
+                <span className="track-foot">{t('home.trackProgress', { done, total: list.length })}<span className="go"><Arrow size={18} aria-hidden="true" /></span></span>
+              </Link>
+            );
+          })}
+        </div>
+      </section>
+
+      <section aria-labelledby="start-h">
+        <div className="section-head">
+          <div>
+            <h2 id="start-h">{t('home.startHere')}</h2>
+            <p className="muted">{t('home.startHereSub')}</p>
+          </div>
+          <Link className="link-strong" to="/learn">{t('common.seeAll')}</Link>
+        </div>
+        <div className="lesson-grid">
+          {TRACKS.map((k) => nextLessonOf(state, k)).filter(Boolean).map((m) => (
+            <LessonCard key={m.id} meta={m} completed={false} recommended={m.id === next?.id} />
+          ))}
+        </div>
+      </section>
+    </div>
+  );
+}

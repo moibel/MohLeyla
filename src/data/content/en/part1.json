@@ -1,0 +1,2970 @@
+[
+  {
+    "id": "en-15",
+    "track": "en",
+    "level": "beginner",
+    "order": 1,
+    "topic": "alphabet-sounds",
+    "icon": "🔤",
+    "title": {
+      "ar": "الأبجدية الإنجليزية والأصوات الأساسية",
+      "en": "The English Alphabet and Key Sounds",
+      "id": "Alfabet Inggris dan Bunyi Penting"
+    },
+    "description": {
+      "ar": "تعلّم أصوات الإنجليزية الأصعب من خلال كلمات حقيقية.",
+      "en": "Learn the trickiest English sounds through real words.",
+      "id": "Pelajari bunyi bahasa Inggris yang tersulit lewat kata-kata nyata."
+    },
+    "objectives": [
+      {
+        "ar": "أستطيع نطق أحرف العلة الخمسة وأعرف أن لها أكثر من صوت.",
+        "en": "I can say the five vowel letters and know they have more than one sound.",
+        "id": "Saya bisa mengucapkan lima huruf vokal dan tahu bahwa bunyinya lebih dari satu."
+      },
+      {
+        "ar": "أستطيع التفريق بين الأصوات المتقاربة مثل B/P وV/F وR/L.",
+        "en": "I can tell similar sounds apart, such as B/P, V/F and R/L.",
+        "id": "Saya bisa membedakan bunyi yang mirip, seperti B/P, V/F, dan R/L."
+      },
+      {
+        "ar": "أستطيع نطق th وsh وch والحروف الصامتة في الكلمات الشائعة.",
+        "en": "I can say th, sh, ch and notice silent letters in common words.",
+        "id": "Saya bisa mengucapkan th, sh, ch dan mengenali huruf yang tidak dibunyikan dalam kata umum."
+      }
+    ],
+    "intro": {
+      "ar": "في الإنجليزية الحروف 26 فقط، لكن الأصوات تقارب 44، ولذلك لا تتطابق الكتابة دائمًا مع النطق. في هذا الدرس نربط كل مجموعة أصوات بكلمة حقيقية تتذكرها. استمع أولًا ثم كرّر بصوت عالٍ.",
+      "en": "English has only 26 letters but about 44 sounds, so spelling and pronunciation do not always match. In this lesson each sound group is tied to a real keyword you can remember. Listen first, then repeat out loud.",
+      "id": "Bahasa Inggris hanya punya 26 huruf, tetapi sekitar 44 bunyi, sehingga tulisan dan ucapan tidak selalu sama. Di pelajaran ini setiap kelompok bunyi dikaitkan dengan kata nyata yang mudah diingat. Dengarkan dulu, lalu ulangi dengan suara keras."
+    },
+    "culture": {
+      "ar": "عند التعريف باسمك عبر الهاتف أو في فندق أو مطار يُطلب منك غالبًا تهجئته حرفًا حرفًا (How do you spell that?). معرفة أسماء الحروف تنقذك في هذه المواقف، وكذلك تفيد في قراءة البريد الإلكتروني أو رقم الحجز بصوت عالٍ.",
+      "en": "On the phone, at a hotel desk or at an airport you are often asked to spell your name letter by letter (How do you spell that?). Knowing the letter names saves you in these moments, and also helps when reading out an email address or booking code.",
+      "id": "Lewat telepon, di meja hotel, atau di bandara, Anda sering diminta mengeja nama huruf demi huruf (How do you spell that?). Mengenal nama huruf sangat membantu, termasuk saat membacakan alamat email atau kode pemesanan."
+    },
+    "grammar": {
+      "title": {
+        "ar": "الكتابة ليست النطق",
+        "en": "Spelling is not pronunciation",
+        "id": "Tulisan bukan ucapan"
+      },
+      "body": {
+        "ar": "الحرف الواحد قد يعطي أصواتًا مختلفة: c في cat (ك) وفي city (س)، وth تُنطق بلا صوت في think وبصوت في this. تذكّر أيضًا أن الحروف الصامتة موجودة في الكتابة فقط، مثل k في knee وw في write. تعلّم كل كلمة مع نطقها، لا مع كتابتها وحدها.",
+        "en": "One letter can make different sounds: c is /k/ in cat but /s/ in city, and th is voiceless in think but voiced in this. Some letters are silent, like k in knee and w in write. Always learn a word together with its sound, not its spelling alone.",
+        "id": "Satu huruf bisa punya bunyi berbeda: c dibaca /k/ di cat tetapi /s/ di city, dan th tak bersuara di think tetapi bersuara di this. Ada juga huruf yang tidak dibunyikan, seperti k di knee dan w di write. Selalu pelajari kata bersama bunyinya, bukan hanya tulisannya."
+      }
+    },
+    "items": [
+      {
+        "id": "en15n1",
+        "target": "Vowels: A E I O U",
+        "translit": "AY  EE  EYE  OH  YOO",
+        "tr": {
+          "ar": "حروف العلة الخمسة: A وE وI وO وU",
+          "en": "the five vowel letters, each with a long and a short sound",
+          "id": "lima huruf vokal: A, E, I, O, U"
+        },
+        "example": {
+          "target": "The word \"cat\" has one vowel.",
+          "translit": "thuh WERD KAT haz wun VOW-ul",
+          "tr": {
+            "ar": "كلمة cat فيها حرف علة واحد.",
+            "en": "The word \"cat\" has one vowel.",
+            "id": "Kata \"cat\" hanya punya satu huruf vokal."
+          }
+        },
+        "hint": {
+          "ar": "لكل حرف علة صوت طويل (name: A = ay) وصوت قصير (cat). الإنجليزية فيها أصوات علة أكثر من العربية، فاستمع جيدًا.",
+          "en": "Each vowel has a long sound (its name, A = ay) and a short sound (cat). English has many more vowel sounds than Arabic, so listen carefully.",
+          "id": "Setiap vokal punya bunyi panjang (nama hurufnya, A = ay) dan bunyi pendek (cat). Bahasa Inggris punya lebih banyak bunyi vokal daripada bahasa Indonesia, jadi dengarkan baik-baik."
+        }
+      },
+      {
+        "id": "en15n2",
+        "target": "B and V: boat, van",
+        "translit": "BOHT / VAN",
+        "tr": {
+          "ar": "B صوت شفوي انفجاري وV صوت أسناني احتكاكي",
+          "en": "B uses both lips; V uses the top teeth on the lower lip",
+          "id": "B memakai kedua bibir; V memakai gigi atas pada bibir bawah"
+        },
+        "example": {
+          "target": "The van is very big.",
+          "translit": "thuh VAN iz VEH-ree BIG",
+          "tr": {
+            "ar": "السيارة الكبيرة (van) كبيرة جدًا.",
+            "en": "The van is very big.",
+            "id": "Mobil van itu sangat besar."
+          }
+        },
+        "hint": {
+          "ar": "العربية الفصحى لا فيها V، فيُنطق غالبًا B أو F. ضع أسنانك العليا على الشفة السفلى واجعل الصوت مجهورًا. وفي الإندونيسية أيضًا يشيع نطق V مثل F أو P.",
+          "en": "Arabic has no V, so it often turns into B or F. Put your top teeth on your lower lip and add voice (hum). Indonesian speakers often say V like F or P, so check your teeth.",
+          "id": "Dalam bahasa Arab tidak ada V, sehingga sering menjadi B atau F. Letakkan gigi atas pada bibir bawah dan beri suara (bergetar). Penutur Indonesia sering membaca V seperti F atau P, jadi periksa posisi gigi."
+        }
+      },
+      {
+        "id": "en15n3",
+        "target": "P and F: pen, fan",
+        "translit": "PEN / FAN",
+        "tr": {
+          "ar": "P صوت شفوي بلا جهر مع نفخة هواء، وF احتكاكي بين الأسنان والشفة",
+          "en": "P is a lip pop with a puff of air; F is air through teeth and lip",
+          "id": "P adalah letupan bibir dengan hembusan udara; F adalah udara lewat gigi dan bibir"
+        },
+        "example": {
+          "target": "Fifty people like the pink pen.",
+          "translit": "FIF-tee PEE-pul laik thuh PINGK PEN",
+          "tr": {
+            "ar": "خمسون شخصًا يحبون القلم الوردي.",
+            "en": "Fifty people like the pink pen.",
+            "id": "Lima puluh orang menyukai pena merah muda itu."
+          }
+        },
+        "hint": {
+          "ar": "العرب ينطقون P غالبًا كـ B (ben بدل pen). أمسك ورقة أمام فمك: يجب أن تتحرك عند نطق P. أما الإندونيسيون فتتشابه عندهم P لكن بلا نفخة، فأضف نفخة هواء.",
+          "en": "Arabic speakers often say P as B (ben for pen). Hold a paper in front of your mouth: it should move on P. Indonesian P has no puff of air, so add a little breath in English.",
+          "id": "Penutur Arab sering mengucapkan P menjadi B (ben untuk pen). Pegang kertas di depan mulut: kertas harus bergerak saat mengucapkan P. P bahasa Indonesia tanpa hembusan udara, jadi tambahkan sedikit napas."
+        }
+      },
+      {
+        "id": "en15n4",
+        "target": "TH: think, this",
+        "translit": "THINGK / THIS",
+        "tr": {
+          "ar": "صوت بين الأسنان: بلا جهر في think وبجهر في this",
+          "en": "a sound made with the tongue between the teeth, voiceless in think and voiced in this",
+          "id": "bunyi dengan lidah di antara gigi, tak bersuara di think dan bersuara di this"
+        },
+        "example": {
+          "target": "Thank you for this gift.",
+          "translit": "THANGK yoo for THIS gift",
+          "tr": {
+            "ar": "شكرًا لك على هذه الهدية.",
+            "en": "Thank you for this gift.",
+            "id": "Terima kasih untuk hadiah ini."
+          }
+        },
+        "hint": {
+          "ar": "العربية فيها ث وذ، فهذا الصوت سهل لكم: think مثل ث وthis مثل ذ. الإندونيسيون ينطقونها غالبًا t أو d أو s، فأخرجوا طرف اللسان بين الأسنان.",
+          "en": "Arabic has ث and ذ, so this is easy for you: think is like ث and this is like ذ. Indonesian speakers often say t, d or s, so stick the tip of your tongue out between your teeth.",
+          "id": "Dalam bahasa Arab ada huruf ث dan ذ, jadi mudah: think seperti ث dan this seperti ذ. Penutur Indonesia sering mengucapkan t, d, atau s; julurkan ujung lidah di antara gigi."
+        }
+      },
+      {
+        "id": "en15n5",
+        "target": "R and L: right, light",
+        "translit": "RAIT / LAIT",
+        "tr": {
+          "ar": "R لسانها مرتدّ ولا يلمس سقف الفم، وL طرف اللسان يلمس خلف الأسنان",
+          "en": "R: tongue curled back, not touching; L: tongue tip touches behind the top teeth",
+          "id": "R: lidah melengkung ke belakang tanpa menyentuh; L: ujung lidah menyentuh belakang gigi atas"
+        },
+        "example": {
+          "target": "Turn right at the light.",
+          "translit": "TERN RAIT at thuh LAIT",
+          "tr": {
+            "ar": "انعطف يمينًا عند الإشارة.",
+            "en": "Turn right at the light.",
+            "id": "Belok kanan di lampu lalu lintas."
+          }
+        },
+        "hint": {
+          "ar": "R الإنجليزية ليست مثل R المرددة في العربية والإندونيسية؛ لا تهزّ اللسان. فكّر في شفتين مستديرتين قليلًا. تدرّب على right/light وread/lead.",
+          "en": "English R is not the rolled R of Arabic or Indonesian; do not trill. Round your lips slightly. Practice right/light and read/lead.",
+          "id": "R bahasa Inggris bukan R bergetar seperti bahasa Arab atau Indonesia; jangan digetarkan. Bulatkan sedikit bibir. Latihan: right/light dan read/lead."
+        }
+      },
+      {
+        "id": "en15n6",
+        "target": "SH and CH: ship, chair",
+        "translit": "SHIP / CHAIR",
+        "tr": {
+          "ar": "sh مثل ش، وch مثل تش في \"تشاي\"",
+          "en": "sh is a soft hushing sound; ch is a quick t + sh",
+          "id": "sh seperti bunyi mendesis \"sy\"; ch seperti t + sy yang cepat"
+        },
+        "example": {
+          "target": "She sits on the chair.",
+          "translit": "SHEE sits on thuh CHAIR",
+          "tr": {
+            "ar": "هي تجلس على الكرسي.",
+            "en": "She sits on the chair.",
+            "id": "Dia duduk di kursi."
+          }
+        },
+        "hint": {
+          "ar": "العرب غالبًا يخلطون بين ch وsh لأن الفصحى ليس فيها تش. ابدأ ch بلمس اللسان لسقف الفم ثم أطلقه. والإندونيسيون يكتبون sy لكن الإنجليزية تكتب sh.",
+          "en": "Arabic speakers often mix up ch and sh because Standard Arabic has no ch. Start ch by touching the roof of your mouth, then release. Indonesians write this sound as sy, but English spells it sh.",
+          "id": "Penutur Arab sering mencampur ch dan sh karena bahasa Arab baku tidak punya ch. Mulai ch dengan menyentuh langit-langit mulut lalu lepaskan. Orang Indonesia menulis bunyi ini sy, tetapi bahasa Inggris mengejanya sh."
+        }
+      },
+      {
+        "id": "en15n7",
+        "target": "C and G: cat, city, gym",
+        "translit": "KAT / SIT-ee / JIM",
+        "tr": {
+          "ar": "c وg قد يكونان صلبين أو ناعمين بحسب الحرف الذي بعدهما",
+          "en": "c and g can be hard or soft depending on the next letter",
+          "id": "c dan g bisa keras atau lembut tergantung huruf sesudahnya"
+        },
+        "example": {
+          "target": "I see a cat in the city.",
+          "translit": "AI SEE uh KAT in thuh SIT-ee",
+          "tr": {
+            "ar": "أرى قطة في المدينة.",
+            "en": "I see a cat in the city.",
+            "id": "Saya melihat seekor kucing di kota."
+          }
+        },
+        "hint": {
+          "ar": "قبل a وo وu يكون c مثل ك وg مثل g في go. وقبل e وi وy يكون c مثل س وg غالبًا مثل ج (gym).",
+          "en": "Before a, o, u, c sounds like k and g like go. Before e, i, y, c sounds like s and g often like j (gym).",
+          "id": "Sebelum a, o, u, c dibaca k dan g seperti pada go. Sebelum e, i, y, c dibaca s dan g sering dibaca j (gym)."
+        }
+      },
+      {
+        "id": "en15n8",
+        "target": "Silent letters: knee, write, hour",
+        "translit": "NEE / RAIT / OW-er",
+        "tr": {
+          "ar": "حروف تُكتب ولا تُنطق: k في knee وw في write وh في hour",
+          "en": "letters you see but do not hear: k in knee, w in write, h in hour",
+          "id": "huruf yang tertulis tetapi tidak dibunyikan: k di knee, w di write, h di hour"
+        },
+        "example": {
+          "target": "Write your name here, please.",
+          "translit": "RAIT yor NAYM HEER pleez",
+          "tr": {
+            "ar": "اكتب اسمك هنا من فضلك.",
+            "en": "Write your name here, please.",
+            "id": "Tolong tulis nama Anda di sini."
+          }
+        },
+        "hint": {
+          "ar": "لا تنطق الحرف الصامت أبدًا: knee تبدأ بـ n، وwrite تبدأ بـ r. وفي hour الـ h صامتة لذلك نقول an hour.",
+          "en": "Never pronounce the silent letter: knee starts with n and write starts with r. In hour the h is silent, so we say an hour.",
+          "id": "Jangan membunyikan huruf yang diam: knee diawali n dan write diawali r. Di hour huruf h tidak dibunyikan, jadi kita bilang an hour."
+        }
+      }
+    ],
+    "cloze": [
+      {
+        "sentence": "The word \"think\" starts with the sound ___.",
+        "answer": "th",
+        "wrong": [
+          "s",
+          "t"
+        ],
+        "tr": {
+          "ar": "كلمة think تبدأ بصوت th.",
+          "en": "The word \"think\" starts with the sound th.",
+          "id": "Kata \"think\" diawali bunyi th."
+        },
+        "why": {
+          "ar": "think تبدأ بـ th بين الأسنان (مثل ث). النطق بـ s أو t يغيّر الكلمة أو يجعلها غير مفهومة.",
+          "en": "Think begins with th, made between the teeth. Saying s or t changes the word or makes it hard to understand.",
+          "id": "Think diawali th, dibuat di antara gigi. Mengucapkan s atau t mengubah kata atau membuatnya sulit dipahami."
+        }
+      },
+      {
+        "sentence": "The word \"van\" begins with ___, not B.",
+        "answer": "V",
+        "wrong": [
+          "P",
+          "M"
+        ],
+        "tr": {
+          "ar": "كلمة van تبدأ بحرف V وليس B.",
+          "en": "The word \"van\" begins with V, not B.",
+          "id": "Kata \"van\" diawali V, bukan B."
+        },
+        "why": {
+          "ar": "van تبدأ بـ V (أسنان على الشفة). P وM صوتان شفويان لا يستعملان الأسنان، فلا يناسبان.",
+          "en": "Van begins with V, made with teeth on the lip. P and M are lip-only sounds and do not fit.",
+          "id": "Van diawali V, dibuat dengan gigi pada bibir. P dan M hanya memakai bibir sehingga tidak cocok."
+        }
+      }
+    ],
+    "conversation": {
+      "context": {
+        "ar": "عند مكتب الاستقبال في فندق: يُطلب من الضيف تهجئة اسمه.",
+        "en": "At a hotel front desk: the guest is asked to spell their name.",
+        "id": "Di meja resepsionis hotel: tamu diminta mengeja namanya."
+      },
+      "turns": [
+        {
+          "who": "A",
+          "target": "Sorry, how do you spell your name?",
+          "tr": {
+            "ar": "عذرًا، كيف تهجّئ اسمك؟",
+            "en": "Sorry, how do you spell your name?",
+            "id": "Maaf, bagaimana Anda mengeja nama Anda?"
+          }
+        },
+        {
+          "who": "B",
+          "target": "L-E-Y-L-A.",
+          "tr": {
+            "ar": "حروفه: L-E-Y-L-A.",
+            "en": "L-E-Y-L-A.",
+            "id": "Hurufnya: L-E-Y-L-A."
+          }
+        },
+        {
+          "who": "A",
+          "target": "Thank you. Is it LAY-la?",
+          "tr": {
+            "ar": "شكرًا. هل تُنطق ليلى (LAY-la)؟",
+            "en": "Thank you. Is it LAY-la?",
+            "id": "Terima kasih. Apakah dibaca LAY-la?"
+          }
+        }
+      ],
+      "gap": 1,
+      "wrong": [
+        "It starts at nine o'clock.",
+        "I have a big green bag."
+      ],
+      "why": {
+        "ar": "السؤال عن التهجئة يُجاب عنه بذكر الحروف واحدًا واحدًا. الإجابتان الأخريان صحيحتان نحويًا لكنهما لا علاقة لهما بالسؤال.",
+        "en": "A spelling question is answered by saying the letters one by one. The other replies are grammatical but have nothing to do with the question.",
+        "id": "Pertanyaan tentang ejaan dijawab dengan menyebut huruf satu per satu. Dua jawaban lain benar secara tata bahasa tetapi tidak berkaitan dengan pertanyaan."
+      }
+    },
+    "summary": {
+      "ar": "تعرّفت على أصوات الإنجليزية الصعبة مثل th وv وp وr وعلى الحروف الصامتة. تذكّر أن الحرف الواحد قد يحمل عدة أصوات، وكرّر الكلمات المفتاحية كل يوم.",
+      "en": "You met the trickiest English sounds (th, v, p, r) and the idea of silent letters. Remember that one letter can have several sounds, and repeat the keywords every day.",
+      "id": "Anda mengenal bunyi tersulit bahasa Inggris (th, v, p, r) dan huruf yang tidak dibunyikan. Ingat bahwa satu huruf bisa punya beberapa bunyi, dan ulangi kata kunci setiap hari."
+    }
+  },
+  {
+    "id": "en-01",
+    "track": "en",
+    "level": "beginner",
+    "order": 2,
+    "topic": "greetings",
+    "icon": "👋",
+    "title": {
+      "ar": "التحيات",
+      "en": "Greetings",
+      "id": "Salam dan sapaan"
+    },
+    "description": {
+      "ar": "تعلّم التحيات الأساسية لبدء المحادثة وإنهائها بلطف.",
+      "en": "Learn the basic greetings to start and end a conversation politely.",
+      "id": "Pelajari sapaan dasar untuk memulai dan mengakhiri percakapan dengan sopan."
+    },
+    "objectives": [
+      {
+        "ar": "أستطيع إلقاء التحية حسب وقت اليوم.",
+        "en": "I can greet people according to the time of day.",
+        "id": "Saya bisa menyapa orang sesuai waktu dalam sehari."
+      },
+      {
+        "ar": "أستطيع شكر الآخرين وسؤالهم عن حالهم.",
+        "en": "I can thank people and ask how they are.",
+        "id": "Saya bisa berterima kasih dan menanyakan kabar orang."
+      },
+      {
+        "ar": "أستطيع توديع الآخرين بعبارة طبيعية.",
+        "en": "I can say goodbye in a natural way.",
+        "id": "Saya bisa berpamitan dengan ungkapan yang wajar."
+      }
+    ],
+    "intro": {
+      "ar": "التحية هي أول ما يسمعه الناس منك، لذلك تعلّمها جيدًا. في الإنجليزية نغيّر التحية بحسب الوقت من اليوم. ستتعلم ست عبارات تستعملها كل يوم.",
+      "en": "A greeting is the first thing people hear from you, so it is worth getting right. In English we change the greeting with the time of day. You will learn six phrases you can use every day.",
+      "id": "Sapaan adalah hal pertama yang didengar orang dari Anda, jadi penting untuk menguasainya. Dalam bahasa Inggris sapaan berubah menurut waktu. Anda akan belajar enam ungkapan yang bisa dipakai setiap hari."
+    },
+    "culture": {
+      "ar": "الناطقون بالإنجليزية يبتسمون وينظرون في العين عند التحية. How are you? غالبًا سؤال مجاملة ويُجاب عنه بسرعة: Fine, thanks. And you? ولا يتوقع المتحدث عادةً شرحًا طويلًا لحالتك. في بريطانيا يُقال أحيانًا Cheers بمعنى شكرًا.",
+      "en": "English speakers usually smile and make eye contact when greeting. How are you? is mostly a polite opener and gets a quick answer: Fine, thanks. And you? The speaker rarely expects a long story. In Britain people also say Cheers to mean thanks.",
+      "id": "Penutur bahasa Inggris biasanya tersenyum dan menatap mata saat menyapa. How are you? lebih sering basa-basi dan dijawab singkat: Fine, thanks. And you? Penanya jarang mengharapkan cerita panjang. Di Inggris orang juga mengucapkan Cheers yang berarti terima kasih."
+    },
+    "grammar": {
+      "title": {
+        "ar": "التحية حسب الوقت",
+        "en": "Greetings by time of day",
+        "id": "Sapaan menurut waktu"
+      },
+      "body": {
+        "ar": "نقول Good morning قبل الظهر، وGood afternoon بعد الظهر، وGood evening في المساء. أما Good night فهي للوداع قبل النوم فقط، وليست تحية عند اللقاء. وفي الأحاديث غير الرسمية يكفي Hi أو Hey.",
+        "en": "Use Good morning before noon, Good afternoon after noon and Good evening in the evening. Good night is only a goodbye before sleep, never a greeting when you meet someone. In casual talk, Hi or Hey is enough.",
+        "id": "Gunakan Good morning sebelum siang, Good afternoon setelah siang, dan Good evening pada malam hari. Good night hanya untuk berpamitan sebelum tidur, bukan sapaan saat bertemu. Dalam percakapan santai, Hi atau Hey sudah cukup."
+      }
+    },
+    "items": [
+      {
+        "id": "e1",
+        "target": "Hello",
+        "translit": "heh-LOH",
+        "tr": {
+          "ar": "مرحبًا",
+          "en": "a friendly word to greet someone at any time",
+          "id": "Halo"
+        },
+        "example": {
+          "target": "Hello, how are you?",
+          "translit": "heh-LOH, how ar YOO",
+          "tr": {
+            "ar": "مرحبًا، كيف حالك؟",
+            "en": "Hello, how are you?",
+            "id": "Halo, apa kabar?"
+          }
+        },
+        "hint": {
+          "ar": "تُستعمل في كل المواقف. وفي المحادثات الودية يمكن قول Hi. وفي الهاتف نقول Hello أيضًا عند الرد.",
+          "en": "Works in every situation. Among friends you can say Hi. It is also how you answer the phone.",
+          "id": "Cocok untuk semua situasi. Di antara teman bisa memakai Hi. Juga dipakai saat menjawab telepon."
+        }
+      },
+      {
+        "id": "e2",
+        "target": "Good morning",
+        "translit": "gud MOR-ning",
+        "tr": {
+          "ar": "صباح الخير",
+          "en": "a polite greeting used before noon",
+          "id": "Selamat pagi"
+        },
+        "example": {
+          "target": "Good morning, Leyla!",
+          "translit": "gud MOR-ning, LAY-la",
+          "tr": {
+            "ar": "صباح الخير يا ليلى!",
+            "en": "Good morning, Leyla!",
+            "id": "Selamat pagi, Leyla!"
+          }
+        },
+        "hint": {
+          "ar": "انتبه: good تُنطق gud بصوت قصير وليست good مثل غود طويلة. والـ ing تنتهي بـ ng أنفية خفيفة دون نطق g قوية.",
+          "en": "Keep good short: gud, not a long \"goood\". The ending -ing is a soft nasal ng; do not add a hard g.",
+          "id": "Ucapkan good pendek: gud, bukan \"guud\" panjang. Akhiran -ing adalah ng sengau yang ringan; jangan menambah g keras."
+        }
+      },
+      {
+        "id": "e3",
+        "target": "Thank you",
+        "translit": "THANGK yoo",
+        "tr": {
+          "ar": "شكرًا لك",
+          "en": "words you say when someone helps or gives you something",
+          "id": "Terima kasih"
+        },
+        "example": {
+          "target": "Thank you for your help.",
+          "translit": "THANGK yoo for yor HELP",
+          "tr": {
+            "ar": "شكرًا لك على مساعدتك.",
+            "en": "Thank you for your help.",
+            "id": "Terima kasih atas bantuanmu."
+          }
+        },
+        "hint": {
+          "ar": "th هنا بلا جهر مثل ث. وللتأكيد قل Thank you very much أو Thanks a lot. والرد المعتاد: You are welcome.",
+          "en": "Here th is voiceless, like Arabic ث. To say more, use Thank you very much or Thanks a lot. The usual reply is You are welcome.",
+          "id": "Di sini th tak bersuara, seperti huruf ث dalam bahasa Arab. Untuk lebih sopan: Thank you very much atau Thanks a lot. Balasan umumnya: You are welcome."
+        }
+      },
+      {
+        "id": "e4",
+        "target": "See you later",
+        "translit": "SEE yoo LAY-ter",
+        "tr": {
+          "ar": "أراك لاحقًا",
+          "en": "a casual way to say goodbye when you will meet again soon",
+          "id": "Sampai jumpa"
+        },
+        "example": {
+          "target": "See you later!",
+          "translit": "SEE yoo LAY-ter",
+          "tr": {
+            "ar": "أراك لاحقًا!",
+            "en": "See you later!",
+            "id": "Sampai jumpa!"
+          }
+        },
+        "hint": {
+          "ar": "عبارة وديّة. في الأمريكية قد تُسمع t كأنها d (LAY-der). وهناك أيضًا See you tomorrow وBye.",
+          "en": "A friendly phrase. In American English the t can sound like a quick d (LAY-der). Others: See you tomorrow, Bye.",
+          "id": "Ungkapan akrab. Dalam bahasa Inggris Amerika bunyi t bisa terdengar seperti d cepat (LAY-der). Lainnya: See you tomorrow, Bye."
+        }
+      },
+      {
+        "id": "en01n5",
+        "target": "How are you?",
+        "translit": "how ar YOO",
+        "tr": {
+          "ar": "كيف حالك؟",
+          "en": "a question asking about someone's health or mood",
+          "id": "Apa kabar?"
+        },
+        "example": {
+          "target": "How are you today?",
+          "translit": "how ar YOO tuh-DAY",
+          "tr": {
+            "ar": "كيف حالك اليوم؟",
+            "en": "How are you today?",
+            "id": "Apa kabarmu hari ini?"
+          }
+        },
+        "hint": {
+          "ar": "الرد المعتاد: I am fine, thank you. And you? في الإنجليزية الأمريكية يقول البعض How are you doing? وفي البريطانية You alright?",
+          "en": "The usual reply is I am fine, thank you. And you? Americans may say How are you doing?, and in Britain you may hear You alright?",
+          "id": "Jawaban umum: I am fine, thank you. And you? Orang Amerika kadang bilang How are you doing?, dan di Inggris Anda bisa mendengar You alright?"
+        }
+      },
+      {
+        "id": "en01n6",
+        "target": "Good night",
+        "translit": "gud NAIT",
+        "tr": {
+          "ar": "تصبح على خير",
+          "en": "a goodbye you say to someone before they sleep",
+          "id": "Selamat malam (sebelum tidur)"
+        },
+        "example": {
+          "target": "Good night, Mom. See you in the morning.",
+          "translit": "gud NAIT, MAHM. SEE yoo in thuh MOR-ning",
+          "tr": {
+            "ar": "تصبحين على خير يا أمي. أراك في الصباح.",
+            "en": "Good night, Mom. See you in the morning.",
+            "id": "Selamat malam, Bu. Sampai jumpa besok pagi."
+          }
+        },
+        "hint": {
+          "ar": "مهم: لا تقل Good night عند اللقاء في المساء بل Good evening. والـ gh في night صامتة.",
+          "en": "Important: do not say Good night when you arrive in the evening; say Good evening. The gh in night is silent.",
+          "id": "Penting: jangan bilang Good night saat bertemu pada malam hari; katakan Good evening. Huruf gh di night tidak dibunyikan."
+        }
+      }
+    ],
+    "cloze": [
+      {
+        "sentence": "___ morning! How are you today?",
+        "answer": "Good",
+        "wrong": [
+          "Thank",
+          "See"
+        ],
+        "tr": {
+          "ar": "صباح الخير! كيف حالك اليوم؟",
+          "en": "Good morning! How are you today?",
+          "id": "Selamat pagi! Apa kabarmu hari ini?"
+        },
+        "why": {
+          "ar": "Good morning هي التحية الصحيحة. Thank وSee لا تكوّنان تحية مع morning.",
+          "en": "Good morning is the correct greeting. Thank and See do not form a greeting with morning.",
+          "id": "Good morning adalah sapaan yang benar. Thank dan See tidak membentuk sapaan dengan morning."
+        }
+      },
+      {
+        "sentence": "Thank you ___ your help.",
+        "answer": "for",
+        "wrong": [
+          "at",
+          "of"
+        ],
+        "tr": {
+          "ar": "شكرًا على مساعدتك.",
+          "en": "Thank you for your help.",
+          "id": "Terima kasih atas bantuanmu."
+        },
+        "why": {
+          "ar": "نقول thank you for + الشيء. حرفا الجر at وof لا يناسبان هذا التعبير.",
+          "en": "We say thank you for + the thing. The prepositions at and of do not fit this phrase.",
+          "id": "Kita bilang thank you for + hal yang dibantu. Preposisi at dan of tidak cocok dengan ungkapan ini."
+        }
+      }
+    ],
+    "conversation": {
+      "context": {
+        "ar": "صباح يوم في مكتب: زميلان يلتقيان عند القهوة.",
+        "en": "Morning at the office: two coworkers meet by the coffee machine.",
+        "id": "Pagi hari di kantor: dua rekan kerja bertemu di dekat mesin kopi."
+      },
+      "turns": [
+        {
+          "who": "A",
+          "target": "Good morning, Sam!",
+          "tr": {
+            "ar": "صباح الخير يا سام!",
+            "en": "Good morning, Sam!",
+            "id": "Selamat pagi, Sam!"
+          }
+        },
+        {
+          "who": "B",
+          "target": "Good morning! How are you?",
+          "tr": {
+            "ar": "صباح النور! كيف حالك؟",
+            "en": "Good morning! How are you?",
+            "id": "Selamat pagi! Apa kabar?"
+          }
+        },
+        {
+          "who": "A",
+          "target": "I am fine, thank you. And you?",
+          "tr": {
+            "ar": "أنا بخير، شكرًا. وأنت؟",
+            "en": "I am fine, thank you. And you?",
+            "id": "Saya baik, terima kasih. Dan Anda?"
+          }
+        }
+      ],
+      "gap": 1,
+      "wrong": [
+        "Good night!",
+        "See you later!"
+      ],
+      "why": {
+        "ar": "ردًّا على Good morning نقول Good morning مع سؤال How are you؟. Good night وSee you later عبارتا وداع ولا تناسبان بداية اللقاء.",
+        "en": "The natural reply to Good morning is Good morning, often with How are you? Good night and See you later are goodbyes and do not fit the start of a meeting.",
+        "id": "Balasan wajar untuk Good morning adalah Good morning, sering disertai How are you? Good night dan See you later adalah perpisahan dan tidak cocok untuk awal pertemuan."
+      }
+    },
+    "summary": {
+      "ar": "تعلمت ست عبارات للتحية والشكر والوداع. تذكّر ربط التحية بوقت اليوم.",
+      "en": "You learned six phrases for greeting, thanking and parting. Remember to match the greeting to the time of day.",
+      "id": "Anda mempelajari enam ungkapan untuk menyapa, berterima kasih, dan berpisah. Ingat untuk menyesuaikan sapaan dengan waktu."
+    }
+  },
+  {
+    "id": "en-02",
+    "track": "en",
+    "level": "beginner",
+    "order": 3,
+    "topic": "introductions",
+    "icon": "🙋",
+    "title": {
+      "ar": "التعريف بنفسك",
+      "en": "Introducing Yourself",
+      "id": "Memperkenalkan Diri"
+    },
+    "description": {
+      "ar": "قل اسمك وبلدك واسأل الآخرين بأدب عن أسمائهم.",
+      "en": "Say your name and country and politely ask for other people's names.",
+      "id": "Sebutkan nama dan asal Anda dan tanyakan nama orang lain dengan sopan."
+    },
+    "objectives": [
+      {
+        "ar": "أستطيع قول اسمي وبلدي.",
+        "en": "I can say my name and where I am from.",
+        "id": "Saya bisa menyebutkan nama dan asal saya."
+      },
+      {
+        "ar": "أستطيع سؤال الآخرين عن أسمائهم وبلدانهم.",
+        "en": "I can ask other people their name and country.",
+        "id": "Saya bisa menanyakan nama dan asal orang lain."
+      },
+      {
+        "ar": "أستطيع التعبير عن سرورٍ بلقاء شخص ما.",
+        "en": "I can say I am happy to meet someone.",
+        "id": "Saya bisa mengatakan senang bertemu seseorang."
+      }
+    ],
+    "intro": {
+      "ar": "عند لقاء شخص جديد تتبع المحادثة نمطًا معروفًا: الاسم ثم المكان ثم الحال. في هذا الدرس تتعلم الجمل الجاهزة لذلك. تدرّب عليها بصوت عالٍ مع اسمك أنت.",
+      "en": "When you meet someone new, the chat follows a familiar pattern: name, place, then how you are. This lesson gives you the ready-made sentences for it. Practise them out loud with your own name.",
+      "id": "Saat bertemu orang baru, percakapan biasanya berurutan: nama, asal, lalu kabar. Pelajaran ini memberi kalimat siap pakai untuk itu. Latihlah dengan suara keras memakai nama Anda sendiri."
+    },
+    "culture": {
+      "ar": "في الدول الناطقة بالإنجليزية يصافح الناس باليد في المواقف الرسمية، ويكفي أحيانًا ابتسامة وHi في المواقف العادية. يُنادى الناس غالبًا بالاسم الأول حتى في العمل، لكن مع كبار السن أو في المقابلات استعمل Mr. أو Ms. وانتظر أن يُطلب منك الاسم الأول.",
+      "en": "In English-speaking countries people shake hands in formal situations, while a smile and Hi is often enough in casual ones. People are usually called by their first name, even at work, but with older people or in interviews use Mr. or Ms. until invited to use the first name.",
+      "id": "Di negara berbahasa Inggris orang berjabat tangan dalam situasi resmi, sedangkan senyum dan Hi sering cukup dalam situasi santai. Orang biasanya dipanggil dengan nama depan, bahkan di tempat kerja, tetapi untuk orang yang lebih tua atau saat wawancara pakai Mr. atau Ms. sampai diminta memakai nama depan."
+    },
+    "grammar": {
+      "title": {
+        "ar": "عبارتا My name is وI am from",
+        "en": "My name is... / I am from...",
+        "id": "My name is... / I am from..."
+      },
+      "body": {
+        "ar": "استعمل my name is لاسمك وI am from (أو I'm from) لبلدك. للسؤال: What is your name? وWhere are you from? لاحظ أن الفعل is/am يظهر دائمًا في الإنجليزية، فلا نقول \"My name Leyla\". وتبدأ الأسماء والبلدان بحرف كبير.",
+        "en": "Use my name is for your name and I am from (or I'm from) for your country. To ask: What is your name? and Where are you from? Notice that is/am always appears in English, so we never say \"My name Leyla\". Names and countries start with a capital letter.",
+        "id": "Pakai my name is untuk nama dan I am from (atau I'm from) untuk asal. Untuk bertanya: What is your name? dan Where are you from? Perhatikan bahwa is/am selalu muncul dalam bahasa Inggris, jadi tidak bisa \"My name Leyla\". Nama dan negara diawali huruf kapital."
+      }
+    },
+    "items": [
+      {
+        "id": "e5",
+        "target": "My name is Leyla",
+        "translit": "mai NAYM iz LAY-la",
+        "tr": {
+          "ar": "اسمي ليلى",
+          "en": "a sentence you use to tell someone your name",
+          "id": "Nama saya Leyla"
+        },
+        "example": {
+          "target": "My name is Leyla. Nice to meet you.",
+          "translit": "mai NAYM iz LAY-la. NAIS tuh MEET yoo",
+          "tr": {
+            "ar": "اسمي ليلى. تشرفت بمعرفتك.",
+            "en": "My name is Leyla. Nice to meet you.",
+            "id": "Nama saya Leyla. Senang bertemu denganmu."
+          }
+        },
+        "hint": {
+          "ar": "في المحادثة العادية نقول I'm Leyla أيضًا. تذكّر أن my تنتهي بصوت ai مثل \"ماي\".",
+          "en": "In casual speech you can also say I'm Leyla. Remember my ends in the sound ai, like \"my\".",
+          "id": "Dalam percakapan santai bisa juga I'm Leyla. Ingat my berakhir dengan bunyi ai, seperti \"mai\"."
+        }
+      },
+      {
+        "id": "e6",
+        "target": "I am from Indonesia",
+        "translit": "ai am from in-doh-NEE-zhuh",
+        "tr": {
+          "ar": "أنا من إندونيسيا",
+          "en": "a sentence that says your country of origin",
+          "id": "Saya dari Indonesia"
+        },
+        "example": {
+          "target": "I am from Egypt.",
+          "translit": "ai am from EE-jipt",
+          "tr": {
+            "ar": "أنا من مصر.",
+            "en": "I am from Egypt.",
+            "id": "Saya dari Mesir."
+          }
+        },
+        "hint": {
+          "ar": "استبدل البلد ببلدك. وللمدينة: I am from Jakarta. الصوت zh في Indonesia مثل ج الفرنسية أو \"جاك\".",
+          "en": "Replace the country with yours. For a city: I am from Jakarta. The zh in Indonesia is like the s in \"measure\".",
+          "id": "Ganti negaranya dengan negara Anda. Untuk kota: I am from Jakarta. Bunyi zh di Indonesia seperti s pada \"measure\"."
+        }
+      },
+      {
+        "id": "e7",
+        "target": "What is your name?",
+        "translit": "wuht iz YOR naym",
+        "tr": {
+          "ar": "ما اسمك؟",
+          "en": "a question you ask to learn someone's name",
+          "id": "Siapa namamu?"
+        },
+        "example": {
+          "target": "Hello, what is your name?",
+          "translit": "heh-LOH, wuht iz YOR NAYM",
+          "tr": {
+            "ar": "مرحبًا، ما اسمك؟",
+            "en": "Hello, what is your name?",
+            "id": "Halo, siapa namamu?"
+          }
+        },
+        "hint": {
+          "ar": "يمكن قول What's your name? بشكل مختصر. وللأدب اضف Excuse me قبلها. انتبه إلى أن wh تُنطق w.",
+          "en": "The short form What's your name? is common. Add Excuse me first to sound more polite. Note that wh is pronounced w.",
+          "id": "Bentuk singkat What's your name? umum dipakai. Tambahkan Excuse me di depan agar lebih sopan. Perhatikan wh dibaca w."
+        }
+      },
+      {
+        "id": "e8",
+        "target": "I am fine",
+        "translit": "ai am FAIN",
+        "tr": {
+          "ar": "أنا بخير",
+          "en": "a short answer to How are you?",
+          "id": "Saya baik-baik saja"
+        },
+        "example": {
+          "target": "I am fine, thank you.",
+          "translit": "ai am FAIN, THANGK yoo",
+          "tr": {
+            "ar": "أنا بخير، شكرًا.",
+            "en": "I am fine, thank you.",
+            "id": "Saya baik, terima kasih."
+          }
+        },
+        "hint": {
+          "ar": "أخف منها وأكثر شيوعًا: I'm good أو I'm fine. ونضيف غالبًا And you? لنُبقي الحوار مستمرًا.",
+          "en": "Lighter and very common: I'm good or I'm fine. We often add And you? to keep the chat going.",
+          "id": "Lebih santai dan umum: I'm good atau I'm fine. Biasanya ditambah And you? agar percakapan berlanjut."
+        }
+      },
+      {
+        "id": "en02n5",
+        "target": "Nice to meet you",
+        "translit": "NAIS tuh MEET yoo",
+        "tr": {
+          "ar": "تشرفت بمعرفتك",
+          "en": "what you say the first time you meet someone",
+          "id": "Senang bertemu denganmu"
+        },
+        "example": {
+          "target": "Nice to meet you, Sara.",
+          "translit": "NAIS tuh MEET yoo, SAR-uh",
+          "tr": {
+            "ar": "تشرفت بمعرفتك يا سارة.",
+            "en": "Nice to meet you, Sara.",
+            "id": "Senang bertemu denganmu, Sara."
+          }
+        },
+        "hint": {
+          "ar": "يرد الطرف الآخر Nice to meet you too. وفي المواقف الرسمية جدًا: Pleased to meet you. تُقال فقط عند اللقاء الأول.",
+          "en": "The other person replies Nice to meet you too. In very formal situations: Pleased to meet you. Use it only at a first meeting.",
+          "id": "Lawan bicara menjawab Nice to meet you too. Dalam situasi sangat resmi: Pleased to meet you. Hanya dipakai saat pertama bertemu."
+        }
+      },
+      {
+        "id": "en02n6",
+        "target": "Where are you from?",
+        "translit": "wair ar yoo FRUM",
+        "tr": {
+          "ar": "من أين أنت؟",
+          "en": "a question about someone's home country or city",
+          "id": "Kamu berasal dari mana?"
+        },
+        "example": {
+          "target": "Where are you from?",
+          "translit": "wair ar yoo FRUM",
+          "tr": {
+            "ar": "من أين أنت؟",
+            "en": "Where are you from?",
+            "id": "Kamu berasal dari mana?"
+          }
+        },
+        "hint": {
+          "ar": "انتبه إلى النغمة: ترتفع قليلًا ثم تنخفض في نهاية السؤال بكلمة wh-. ولا تُنطق from مثل \"فروم\" بل بصوت u قصير.",
+          "en": "Notice the intonation: wh- questions usually fall at the end. Say from with a short u, not \"froam\".",
+          "id": "Perhatikan intonasi: pertanyaan wh- biasanya turun di akhir. Ucapkan from dengan u pendek, bukan \"froum\"."
+        }
+      }
+    ],
+    "cloze": [
+      {
+        "sentence": "My name ___ Leyla.",
+        "answer": "is",
+        "wrong": [
+          "are",
+          "am"
+        ],
+        "tr": {
+          "ar": "اسمي ليلى.",
+          "en": "My name is Leyla.",
+          "id": "Nama saya Leyla."
+        },
+        "why": {
+          "ar": "الفاعل name مفرد غائب، فنستعمل is. am للمتكلم I وare للجمع.",
+          "en": "The subject name is singular, so we use is. Am goes with I and are with plural subjects.",
+          "id": "Subjek name tunggal, jadi dipakai is. Am untuk I dan are untuk subjek jamak."
+        }
+      },
+      {
+        "sentence": "Where are you ___?",
+        "answer": "from",
+        "wrong": [
+          "to",
+          "in"
+        ],
+        "tr": {
+          "ar": "من أين أنت؟",
+          "en": "Where are you from?",
+          "id": "Kamu berasal dari mana?"
+        },
+        "why": {
+          "ar": "سؤال الأصل يستعمل from. to وin تعبّران عن الاتجاه والمكان الحالي.",
+          "en": "Asking about origin takes from. To and in express direction or current place.",
+          "id": "Pertanyaan asal memakai from. To dan in menunjukkan arah atau tempat saat ini."
+        }
+      }
+    ],
+    "conversation": {
+      "context": {
+        "ar": "في حفلة: يلتقي شخصان للمرة الأولى.",
+        "en": "At a party: two people meet for the first time.",
+        "id": "Di sebuah pesta: dua orang bertemu untuk pertama kali."
+      },
+      "turns": [
+        {
+          "who": "A",
+          "target": "Hi! I am Mia. What is your name?",
+          "tr": {
+            "ar": "مرحبًا! أنا ميا. ما اسمك؟",
+            "en": "Hi! I am Mia. What is your name?",
+            "id": "Hai! Saya Mia. Siapa namamu?"
+          }
+        },
+        {
+          "who": "B",
+          "target": "My name is Leyla. Nice to meet you.",
+          "tr": {
+            "ar": "اسمي ليلى. تشرفت بمعرفتك.",
+            "en": "My name is Leyla. Nice to meet you.",
+            "id": "Nama saya Leyla. Senang bertemu denganmu."
+          }
+        },
+        {
+          "who": "A",
+          "target": "Nice to meet you too. Where are you from?",
+          "tr": {
+            "ar": "وأنا أيضًا. من أين أنت؟",
+            "en": "Nice to meet you too. Where are you from?",
+            "id": "Saya juga. Kamu berasal dari mana?"
+          }
+        }
+      ],
+      "gap": 1,
+      "wrong": [
+        "I am fine, thank you.",
+        "See you later!"
+      ],
+      "why": {
+        "ar": "السؤال عن الاسم يُجاب بالاسم ثم عبارة اللطف. I am fine إجابة عن كيف حالك، وSee you later وداع.",
+        "en": "A question about your name is answered with your name, plus a polite phrase. I am fine answers How are you?, and See you later is a goodbye.",
+        "id": "Pertanyaan nama dijawab dengan nama, ditambah ungkapan sopan. I am fine menjawab How are you?, dan See you later adalah perpisahan."
+      }
+    },
+    "summary": {
+      "ar": "تعلمت كيف تذكر اسمك وبلدك وتسأل الآخرين عن ذلك. أضف Nice to meet you لتبدو ودودًا.",
+      "en": "You learned to give your name and country and to ask others. Add Nice to meet you to sound friendly.",
+      "id": "Anda belajar menyebut nama dan asal serta menanyakannya pada orang lain. Tambahkan Nice to meet you agar terdengar ramah."
+    }
+  },
+  {
+    "id": "en-16",
+    "track": "en",
+    "level": "beginner",
+    "order": 4,
+    "topic": "pronouns-to-be",
+    "icon": "🧑",
+    "title": {
+      "ar": "الضمائر والفعل to be",
+      "en": "Subject Pronouns and \"To Be\"",
+      "id": "Kata Ganti Subjek dan \"To Be\""
+    },
+    "description": {
+      "ar": "تعلّم I am وhe is وthey are وكيف تبني جملًا بسيطة.",
+      "en": "Learn I am, he is, they are and how to build simple sentences.",
+      "id": "Pelajari I am, he is, they are dan cara menyusun kalimat sederhana."
+    },
+    "objectives": [
+      {
+        "ar": "أستطيع استعمال الضمائر I وyou وhe وshe وit وwe وthey.",
+        "en": "I can use the pronouns I, you, he, she, it, we and they.",
+        "id": "Saya bisa memakai kata ganti I, you, he, she, it, we, dan they."
+      },
+      {
+        "ar": "أستطيع اختيار am أو is أو are الصحيح.",
+        "en": "I can choose the correct am, is or are.",
+        "id": "Saya bisa memilih am, is, atau are yang benar."
+      },
+      {
+        "ar": "أستطيع تكوين جمل بسيطة عن نفسي وعن الآخرين.",
+        "en": "I can make simple sentences about myself and others.",
+        "id": "Saya bisa membuat kalimat sederhana tentang diri sendiri dan orang lain."
+      }
+    ],
+    "intro": {
+      "ar": "الفعل to be هو أهم فعل في الإنجليزية. العربية والإندونيسية قد تحذفانه في الجملة الاسمية (مثل: أنا طالب)، أما الإنجليزية فتحتاجه دائمًا. تعلّم الضمائر وصيغها معه أولًا.",
+      "en": "The verb to be is the most important verb in English. Arabic and Indonesian can leave it out (Indonesian: Saya siswa, literally \"I student\"), but English always needs it. Learn the pronouns with their forms first.",
+      "id": "Kata kerja to be adalah kata kerja terpenting dalam bahasa Inggris. Bahasa Arab dan Indonesia boleh menghilangkannya (Saya siswa), tetapi bahasa Inggris selalu membutuhkannya. Pelajari dulu kata ganti dan bentuknya."
+    },
+    "culture": {
+      "ar": "في الكلام اليومي نختصر هذه الصيغ: I'm وyou're وhe's وwe're وthey're. ستسمعها في الأفلام والمحادثات أكثر مما تسمع الصيغ الكاملة. أما في الكتابة الرسمية فتُكتب كاملة غالبًا.",
+      "en": "In everyday speech we shorten these forms: I'm, you're, he's, we're, they're. You will hear them in films and conversations far more than the full forms. In formal writing the full forms are more common.",
+      "id": "Dalam percakapan sehari-hari bentuk ini dipendekkan: I'm, you're, he's, we're, they're. Anda akan lebih sering mendengarnya di film dan percakapan daripada bentuk lengkap. Dalam tulisan resmi bentuk lengkap lebih umum."
+    },
+    "grammar": {
+      "title": {
+        "ar": "صيغ am وis وare",
+        "en": "am / is / are",
+        "id": "am / is / are"
+      },
+      "body": {
+        "ar": "I مع am، وhe وshe وit مع is، وyou وwe وthey مع are. للنفي أضف not (I am not)، وللسؤال اقلب الترتيب (Are you ready?). لا يوجد في الإنجليزية مذكر ومؤنث للـ you، فهي لكل المخاطبين، مفرد أو جمع.",
+        "en": "Use am with I, is with he, she, it and are with you, we, they. For the negative add not (I am not); for questions swap the order (Are you ready?). English has one you for everybody: masculine, feminine, singular or plural.",
+        "id": "Pakai am dengan I, is dengan he, she, it, dan are dengan you, we, they. Untuk negatif tambahkan not (I am not); untuk pertanyaan balik urutannya (Are you ready?). Bahasa Inggris hanya punya satu you untuk semua orang: laki-laki, perempuan, tunggal maupun jamak."
+      }
+    },
+    "items": [
+      {
+        "id": "en16n1",
+        "target": "I am",
+        "translit": "ai AM",
+        "tr": {
+          "ar": "أنا (أكون)",
+          "en": "the form of \"be\" used with I",
+          "id": "Saya (adalah)"
+        },
+        "example": {
+          "target": "I am a student.",
+          "translit": "ai am uh STOO-dent",
+          "tr": {
+            "ar": "أنا طالب.",
+            "en": "I am a student.",
+            "id": "Saya seorang pelajar."
+          }
+        },
+        "hint": {
+          "ar": "الصيغة المختصرة I'm. ولا نستعمل I is أبدًا. وكلمة I تُكتب دائمًا بحرف كبير.",
+          "en": "The short form is I'm. Never say I is. The word I is always written with a capital letter.",
+          "id": "Bentuk singkatnya I'm. Jangan pernah bilang I is. Kata I selalu ditulis dengan huruf kapital."
+        }
+      },
+      {
+        "id": "en16n2",
+        "target": "You are",
+        "translit": "yoo AR",
+        "tr": {
+          "ar": "أنت / أنتم (تكون)",
+          "en": "\"be\" used with you, one person or many",
+          "id": "Kamu / Anda / kalian (adalah)"
+        },
+        "example": {
+          "target": "You are very kind.",
+          "translit": "yoo ar VEH-ree KAIND",
+          "tr": {
+            "ar": "أنت لطيف جدًا.",
+            "en": "You are very kind.",
+            "id": "Kamu sangat baik hati."
+          }
+        },
+        "hint": {
+          "ar": "you تعني أنتَ وأنتِ وأنتم جميعًا. المختصر you're تُنطق مثل your. ولا يوجد فرق بين الرسمي وغير الرسمي.",
+          "en": "You means you (masculine), you (feminine) and you all. The short form you're sounds like your. There is no formal/informal you.",
+          "id": "You berarti kamu, Anda, dan kalian sekaligus. Bentuk singkat you're dibaca seperti your. Tidak ada you formal dan informal."
+        }
+      },
+      {
+        "id": "en16n3",
+        "target": "He is / She is",
+        "translit": "HEE iz / SHEE iz",
+        "tr": {
+          "ar": "هو يكون / هي تكون",
+          "en": "\"be\" used with one man or one woman",
+          "id": "Dia (laki-laki / perempuan) adalah"
+        },
+        "example": {
+          "target": "She is a doctor, and he is a teacher.",
+          "translit": "SHEE iz uh DOK-ter, and HEE iz uh TEE-cher",
+          "tr": {
+            "ar": "هي طبيبة وهو معلم.",
+            "en": "She is a doctor, and he is a teacher.",
+            "id": "Dia seorang dokter, dan dia seorang guru."
+          }
+        },
+        "hint": {
+          "ar": "he للمذكر وshe للمؤنث، والاختصار he's وshe's. في الإندونيسية dia لا يفرّق بين الجنسين، فانتبه لاختيار he أو she.",
+          "en": "He is masculine and she is feminine; short forms he's and she's. Indonesian dia does not show gender, so choose he or she carefully.",
+          "id": "He untuk laki-laki dan she untuk perempuan; bentuk singkat he's dan she's. Dalam bahasa Indonesia dia tidak membedakan jenis kelamin, jadi pilih he atau she dengan teliti."
+        }
+      },
+      {
+        "id": "en16n4",
+        "target": "It is",
+        "translit": "it IZ",
+        "tr": {
+          "ar": "إنه / إنها (لغير العاقل)",
+          "en": "\"be\" used with a thing, animal or idea",
+          "id": "Itu / ia (benda atau hewan) adalah"
+        },
+        "example": {
+          "target": "It is cold today.",
+          "translit": "it iz KOHLD tuh-DAY",
+          "tr": {
+            "ar": "الجو بارد اليوم.",
+            "en": "It is cold today.",
+            "id": "Hari ini dingin."
+          }
+        },
+        "hint": {
+          "ar": "it لغير الإنسان، وتُستعمل أيضًا للطقس والوقت: It is cold. It is nine o'clock. المختصر it's.",
+          "en": "It is for things and animals, and also for weather and time: It is cold. It is nine o'clock. Short form: it's.",
+          "id": "It untuk benda dan hewan, juga untuk cuaca dan waktu: It is cold. It is nine o'clock. Bentuk singkat: it's."
+        }
+      },
+      {
+        "id": "en16n5",
+        "target": "We are",
+        "translit": "wee AR",
+        "tr": {
+          "ar": "نحن (نكون)",
+          "en": "\"be\" used when you include yourself with others",
+          "id": "Kami / Kita (adalah)"
+        },
+        "example": {
+          "target": "We are friends.",
+          "translit": "wee ar FRENDZ",
+          "tr": {
+            "ar": "نحن أصدقاء.",
+            "en": "We are friends.",
+            "id": "Kami berteman."
+          }
+        },
+        "hint": {
+          "ar": "ليس في الإنجليزية we بمعنى \"نحن بدونك\" و\"نحن معك\"، كلاهما we. الاختصار we're. لاحظ أن friends بصيغة الجمع بعد are.",
+          "en": "English has one we, with or without the listener (Indonesian kami/kita). Short form: we're. Notice friends is plural after are.",
+          "id": "Bahasa Inggris hanya punya satu we, baik termasuk lawan bicara maupun tidak (kami/kita). Bentuk singkat: we're. Perhatikan friends berbentuk jamak setelah are."
+        }
+      },
+      {
+        "id": "en16n6",
+        "target": "They are",
+        "translit": "thay AR",
+        "tr": {
+          "ar": "هم / هن (يكونون)",
+          "en": "\"be\" used with more than one person or thing",
+          "id": "Mereka (adalah)"
+        },
+        "example": {
+          "target": "They are at home now.",
+          "translit": "thay ar at HOHM now",
+          "tr": {
+            "ar": "هم في البيت الآن.",
+            "en": "They are at home now.",
+            "id": "Mereka ada di rumah sekarang."
+          }
+        },
+        "hint": {
+          "ar": "they للمذكر والمؤنث وغير العاقل. th هنا مجهورة مثل ذ. الاختصار they're تُنطق مثل there.",
+          "en": "They covers men, women and things. Here th is voiced, like Arabic ذ. The short form they're sounds like there.",
+          "id": "They untuk laki-laki, perempuan, dan benda. Di sini th bersuara, seperti huruf ذ dalam bahasa Arab. Bentuk singkat they're dibaca seperti there."
+        }
+      }
+    ],
+    "cloze": [
+      {
+        "sentence": "She ___ a teacher.",
+        "answer": "is",
+        "wrong": [
+          "am",
+          "are"
+        ],
+        "tr": {
+          "ar": "هي معلمة.",
+          "en": "She is a teacher.",
+          "id": "Dia seorang guru."
+        },
+        "why": {
+          "ar": "الفاعل she مفرد غائب فنستعمل is. am مع I وare مع you/we/they.",
+          "en": "She is a singular third-person subject, so we use is. Am goes with I and are with you/we/they.",
+          "id": "She adalah orang ketiga tunggal sehingga dipakai is. Am untuk I dan are untuk you/we/they."
+        }
+      },
+      {
+        "sentence": "They ___ from Indonesia.",
+        "answer": "are",
+        "wrong": [
+          "is",
+          "am"
+        ],
+        "tr": {
+          "ar": "هم من إندونيسيا.",
+          "en": "They are from Indonesia.",
+          "id": "Mereka berasal dari Indonesia."
+        },
+        "why": {
+          "ar": "they جمع فنستعمل are. is للمفرد الغائب وam للمتكلم I فقط.",
+          "en": "They is plural, so we use are. Is is for singular he/she/it and am only for I.",
+          "id": "They jamak sehingga dipakai are. Is untuk he/she/it tunggal dan am hanya untuk I."
+        }
+      }
+    ],
+    "conversation": {
+      "context": {
+        "ar": "في المدرسة: صديقان يتحدثان عن زميلة جديدة.",
+        "en": "At school: two friends talk about a new classmate.",
+        "id": "Di sekolah: dua teman membicarakan teman sekelas baru."
+      },
+      "turns": [
+        {
+          "who": "A",
+          "target": "Is Leyla your sister?",
+          "tr": {
+            "ar": "هل ليلى أختك؟",
+            "en": "Is Leyla your sister?",
+            "id": "Apakah Leyla saudara perempuanmu?"
+          }
+        },
+        {
+          "who": "B",
+          "target": "Yes, she is.",
+          "tr": {
+            "ar": "نعم، هي كذلك.",
+            "en": "Yes, she is.",
+            "id": "Ya, dia saudaraku."
+          }
+        },
+        {
+          "who": "A",
+          "target": "And are your parents here too?",
+          "tr": {
+            "ar": "وهل والداك هنا أيضًا؟",
+            "en": "And are your parents here too?",
+            "id": "Dan apakah orang tuamu juga di sini?"
+          }
+        }
+      ],
+      "gap": 1,
+      "wrong": [
+        "Yes, they are.",
+        "Yes, I am."
+      ],
+      "why": {
+        "ar": "السؤال Is Leyla...؟ عن مفرد مؤنث فيُجاب Yes, she is. They are للجمع وI am للمتكلم، فلا يناسبان.",
+        "en": "The question Is Leyla...? is about one woman, so the answer is Yes, she is. They are is plural and I am is first person; neither fits.",
+        "id": "Pertanyaan Is Leyla...? tentang satu perempuan, jadi jawabannya Yes, she is. They are jamak dan I am orang pertama; keduanya tidak cocok."
+      }
+    },
+    "summary": {
+      "ar": "عرفت الضمائر السبعة وصيغ am وis وare. تذكّر أن الإنجليزية تحتاج فعل to be في كل جملة اسمية.",
+      "en": "You know the seven pronouns and the forms am, is and are. Remember that English needs the verb to be in every such sentence.",
+      "id": "Anda mengenal tujuh kata ganti dan bentuk am, is, dan are. Ingat bahwa bahasa Inggris membutuhkan to be dalam setiap kalimat seperti itu."
+    }
+  },
+  {
+    "id": "en-03",
+    "track": "en",
+    "level": "beginner",
+    "order": 5,
+    "topic": "numbers-time",
+    "icon": "⏰",
+    "title": {
+      "ar": "الأرقام والوقت",
+      "en": "Numbers and Time",
+      "id": "Angka dan Waktu"
+    },
+    "description": {
+      "ar": "الأرقام من 1 إلى 10 وكلمات اليوم الأساسية.",
+      "en": "Numbers 1 to 10 and the basic words for today and tomorrow.",
+      "id": "Angka 1 sampai 10 dan kata dasar untuk hari ini dan besok."
+    },
+    "objectives": [
+      {
+        "ar": "أستطيع العدّ من 1 إلى 10.",
+        "en": "I can count from one to ten.",
+        "id": "Saya bisa berhitung dari satu sampai sepuluh."
+      },
+      {
+        "ar": "أستطيع قول today وtomorrow وyesterday.",
+        "en": "I can say today, tomorrow and yesterday.",
+        "id": "Saya bisa mengucapkan today, tomorrow, dan yesterday."
+      },
+      {
+        "ar": "أستطيع سؤال What time is it؟.",
+        "en": "I can ask What time is it?",
+        "id": "Saya bisa menanyakan What time is it?"
+      }
+    ],
+    "intro": {
+      "ar": "الأرقام تظهر في كل مكان: الأعمار وأرقام الهاتف والأسعار. نبدأ بالأرقام الصغيرة مع كلمات الزمن. الأرقام 3 إلى 9 هي: three وfour وfive وsix وseven وeight وnine.",
+      "en": "Numbers show up everywhere: ages, phone numbers, prices. We start with the small numbers and the words for time. The numbers 3 to 9 are: three, four, five, six, seven, eight, nine.",
+      "id": "Angka muncul di mana-mana: usia, nomor telepon, harga. Kita mulai dari angka kecil dan kata waktu. Angka 3 sampai 9 adalah: three, four, five, six, seven, eight, nine."
+    },
+    "culture": {
+      "ar": "الأمريكيون يقرؤون رقم الهاتف رقمًا رقمًا، ويُنطق 0 غالبًا oh. وفي المواعيد يقال What time is it? أو Do you have the time? والإجابة بصيغة It's ... وقد يُستعمل نظام 12 ساعة مع a.m. وp.m.",
+      "en": "Americans read phone numbers digit by digit, and 0 is often said as oh. To ask the time people say What time is it? or Do you have the time? and the answer starts It's... The 12-hour clock with a.m. and p.m. is normal.",
+      "id": "Orang Amerika membaca nomor telepon angka demi angka, dan 0 sering dibaca oh. Untuk menanyakan jam orang bilang What time is it? atau Do you have the time? dan jawabannya diawali It's... Jam 12 dengan a.m. dan p.m. lazim dipakai."
+    },
+    "grammar": {
+      "title": {
+        "ar": "أرقام + اسم جمع",
+        "en": "Numbers + plural nouns",
+        "id": "Angka + kata benda jamak"
+      },
+      "body": {
+        "ar": "بعد one نستعمل المفرد (one book) وبعد أي رقم آخر نستعمل الجمع بإضافة s (two books). في الإندونيسية لا نغيّر الاسم (dua buku)، أما في الإنجليزية فالجمع ضروري.",
+        "en": "After one use the singular (one book); after any other number use the plural with -s (two books). Indonesian does not change the noun (dua buku), but English must show the plural.",
+        "id": "Setelah one pakai bentuk tunggal (one book); setelah angka lain pakai jamak dengan -s (two books). Bahasa Indonesia tidak mengubah kata benda (dua buku), tetapi bahasa Inggris harus menunjukkan jamak."
+      }
+    },
+    "items": [
+      {
+        "id": "e9",
+        "target": "One",
+        "translit": "WUN",
+        "tr": {
+          "ar": "واحد",
+          "en": "the number 1",
+          "id": "Satu"
+        },
+        "example": {
+          "target": "I have one book.",
+          "translit": "ai hav WUN buk",
+          "tr": {
+            "ar": "عندي كتاب واحد.",
+            "en": "I have one book.",
+            "id": "Saya punya satu buku."
+          }
+        },
+        "hint": {
+          "ar": "تُكتب one وتُنطق wun، لا \"أون\". الصوت الأول w وليس o.",
+          "en": "It is written one but said wun, not \"own\". The first sound is w, not o.",
+          "id": "Ditulis one tetapi dibaca wun, bukan \"on\". Bunyi pertama adalah w, bukan o."
+        }
+      },
+      {
+        "id": "e10",
+        "target": "Two",
+        "translit": "TOO",
+        "tr": {
+          "ar": "اثنان",
+          "en": "the number 2",
+          "id": "Dua"
+        },
+        "example": {
+          "target": "I have two pens.",
+          "translit": "ai hav TOO penz",
+          "tr": {
+            "ar": "عندي قلمان.",
+            "en": "I have two pens.",
+            "id": "Saya punya dua pena."
+          }
+        },
+        "hint": {
+          "ar": "w في two صامتة. وانتبه لجمع الاسم بعد two: pens.",
+          "en": "The w in two is silent. Notice the plural noun after two: pens.",
+          "id": "Huruf w di two tidak dibunyikan. Perhatikan kata benda jamak setelah two: pens."
+        }
+      },
+      {
+        "id": "en03n3",
+        "target": "Ten",
+        "translit": "TEN",
+        "tr": {
+          "ar": "عشرة",
+          "en": "the number 10",
+          "id": "Sepuluh"
+        },
+        "example": {
+          "target": "There are ten students in the room.",
+          "translit": "thair ar TEN STOO-dents in thuh ROOM",
+          "tr": {
+            "ar": "هناك عشرة طلاب في الغرفة.",
+            "en": "There are ten students in the room.",
+            "id": "Ada sepuluh pelajar di ruangan itu."
+          }
+        },
+        "hint": {
+          "ar": "تذكّر أن ten تنتهي بـ n واضحة، وعند التمييز مع teen انتبه إلى النبرة (انظر الدرس القادم).",
+          "en": "Ten ends in a clear n; the difference from -teen numbers is stress (see the next lesson).",
+          "id": "Ten berakhir dengan n yang jelas; bedanya dengan angka -teen ada pada tekanan (lihat pelajaran berikutnya)."
+        }
+      },
+      {
+        "id": "e11",
+        "target": "Today",
+        "translit": "tuh-DAY",
+        "tr": {
+          "ar": "اليوم",
+          "en": "the present day",
+          "id": "Hari ini"
+        },
+        "example": {
+          "target": "Today is Saturday.",
+          "translit": "tuh-DAY iz SAT-er-day",
+          "tr": {
+            "ar": "اليوم هو السبت.",
+            "en": "Today is Saturday.",
+            "id": "Hari ini hari Sabtu."
+          }
+        },
+        "hint": {
+          "ar": "النبرة على المقطع الثاني. وأضدادها: yesterday أمس، وtomorrow غدًا. وtonight تعني هذا المساء.",
+          "en": "Stress falls on the second syllable. Related words: yesterday and tomorrow. Tonight means this evening.",
+          "id": "Tekanan pada suku kata kedua. Kata terkait: yesterday (kemarin) dan tomorrow (besok). Tonight berarti malam ini."
+        }
+      },
+      {
+        "id": "e12",
+        "target": "Tomorrow",
+        "translit": "tuh-MOR-oh",
+        "tr": {
+          "ar": "غدًا",
+          "en": "the day after today",
+          "id": "Besok"
+        },
+        "example": {
+          "target": "See you tomorrow.",
+          "translit": "SEE yoo tuh-MOR-oh",
+          "tr": {
+            "ar": "أراك غدًا.",
+            "en": "See you tomorrow.",
+            "id": "Sampai jumpa besok."
+          }
+        },
+        "hint": {
+          "ar": "النبرة على MOR. في البريطانية الصوت الأخير أقرب إلى oh/ou. وتُكتب بحرف m ومعها r واحدة في الوسط.",
+          "en": "Stress is on MOR. Note the spelling: one m, then two r letters (tomorrow).",
+          "id": "Tekanan pada MOR. Perhatikan ejaan: satu m lalu dua huruf r (tomorrow)."
+        }
+      },
+      {
+        "id": "en03n6",
+        "target": "What time is it?",
+        "translit": "wuht TAIM iz it",
+        "tr": {
+          "ar": "كم الساعة؟",
+          "en": "a question you ask to find out the clock time",
+          "id": "Jam berapa sekarang?"
+        },
+        "example": {
+          "target": "What time is it? It is half past three.",
+          "translit": "wuht TAIM iz it? it iz HAF past THREE",
+          "tr": {
+            "ar": "كم الساعة؟ إنها الثالثة والنصف.",
+            "en": "What time is it? It is half past three.",
+            "id": "Jam berapa sekarang? Sekarang jam setengah empat."
+          }
+        },
+        "hint": {
+          "ar": "يمكن قول Do you have the time? بأدب. وأجب بـ It's ten o'clock. عند الساعة التامة نضيف o'clock.",
+          "en": "You can also politely ask Do you have the time? Answer It's ten o'clock. On the hour add o'clock.",
+          "id": "Anda juga bisa bertanya sopan Do you have the time? Jawab It's ten o'clock. Untuk jam pas tambahkan o'clock."
+        }
+      }
+    ],
+    "cloze": [
+      {
+        "sentence": "I have two ___.",
+        "answer": "pens",
+        "wrong": [
+          "pen",
+          "a pen"
+        ],
+        "tr": {
+          "ar": "عندي قلمان.",
+          "en": "I have two pens.",
+          "id": "Saya punya dua pena."
+        },
+        "why": {
+          "ar": "بعد two نستعمل الاسم الجمع pens. المفرد pen وa pen لا يصحان مع رقم أكبر من واحد.",
+          "en": "After two we use the plural pens. The singular pen and a pen do not work with a number higher than one.",
+          "id": "Setelah two dipakai bentuk jamak pens. Bentuk tunggal pen dan a pen tidak cocok dengan angka lebih dari satu."
+        }
+      },
+      {
+        "sentence": "___ is Saturday.",
+        "answer": "Today",
+        "wrong": [
+          "Tomorrow",
+          "Ten"
+        ],
+        "tr": {
+          "ar": "اليوم هو السبت.",
+          "en": "Today is Saturday.",
+          "id": "Hari ini hari Sabtu."
+        },
+        "why": {
+          "ar": "المعنى يتطلب كلمة زمن تشير إلى اليوم الحالي، وهي Today. Ten رقم وليس زمنًا. Tomorrow تغيّر المعنى لكن الجملة تعني اليوم.",
+          "en": "The meaning needs a time word for the present day: Today. Ten is a number, not a day word, and Tomorrow changes the meaning.",
+          "id": "Maknanya membutuhkan kata waktu untuk hari ini: Today. Ten adalah angka, bukan kata hari, dan Tomorrow mengubah makna."
+        }
+      }
+    ],
+    "conversation": {
+      "context": {
+        "ar": "في محطة القطار: مسافر يسأل عن الوقت.",
+        "en": "At a train station: a traveler asks the time.",
+        "id": "Di stasiun kereta: seorang pelancong menanyakan jam."
+      },
+      "turns": [
+        {
+          "who": "A",
+          "target": "Excuse me, what time is it?",
+          "tr": {
+            "ar": "عفوًا، كم الساعة؟",
+            "en": "Excuse me, what time is it?",
+            "id": "Permisi, jam berapa sekarang?"
+          }
+        },
+        {
+          "who": "B",
+          "target": "It is ten o'clock.",
+          "tr": {
+            "ar": "إنها العاشرة تمامًا.",
+            "en": "It is ten o'clock.",
+            "id": "Sekarang jam sepuluh tepat."
+          }
+        },
+        {
+          "who": "A",
+          "target": "Thank you very much!",
+          "tr": {
+            "ar": "شكرًا جزيلًا!",
+            "en": "Thank you very much!",
+            "id": "Terima kasih banyak!"
+          }
+        }
+      ],
+      "gap": 1,
+      "wrong": [
+        "It is Saturday.",
+        "I have two pens."
+      ],
+      "why": {
+        "ar": "سؤال الوقت يُجاب بالساعة. It is Saturday يخبر عن اليوم، وI have two pens ليس له علاقة.",
+        "en": "A question about clock time is answered with a time. It is Saturday gives the day, and I have two pens is unrelated.",
+        "id": "Pertanyaan jam dijawab dengan jam. It is Saturday menyebut hari, dan I have two pens tidak berkaitan."
+      }
+    },
+    "summary": {
+      "ar": "عددت حتى عشرة وتعلمت today وtomorrow وسؤال الوقت. تذكر جمع الاسم بعد الأرقام.",
+      "en": "You counted to ten and learned today, tomorrow and how to ask the time. Remember the plural noun after numbers.",
+      "id": "Anda berhitung sampai sepuluh dan belajar today, tomorrow, serta cara menanyakan jam. Ingat bentuk jamak setelah angka."
+    }
+  },
+  {
+    "id": "en-17",
+    "track": "en",
+    "level": "beginner",
+    "order": 6,
+    "topic": "numbers-prices-time",
+    "icon": "💵",
+    "title": {
+      "ar": "الأرقام من 11 إلى 100 والأسعار والساعة",
+      "en": "Numbers 11-100, Prices and Telling the Time",
+      "id": "Angka 11-100, Harga, dan Menyebut Jam"
+    },
+    "description": {
+      "ar": "تعلّم الأرقام الأكبر وكيف تسأل عن السعر وتقول الساعة.",
+      "en": "Learn bigger numbers, how to say prices and how to tell the time.",
+      "id": "Pelajari angka yang lebih besar, cara menyebut harga, dan cara menyebut jam."
+    },
+    "objectives": [
+      {
+        "ar": "أستطيع التفريق بين thirteen وthirty في النطق.",
+        "en": "I can hear and say the difference between thirteen and thirty.",
+        "id": "Saya bisa membedakan dan mengucapkan thirteen dan thirty."
+      },
+      {
+        "ar": "أستطيع قول سعر شيء بالدولار.",
+        "en": "I can say the price of something in dollars.",
+        "id": "Saya bisa menyebutkan harga sesuatu dalam dolar."
+      },
+      {
+        "ar": "أستطيع قول الساعة مثل half past seven وa quarter past two.",
+        "en": "I can say the time, such as half past seven and a quarter past two.",
+        "id": "Saya bisa menyebut jam, seperti half past seven dan a quarter past two."
+      }
+    ],
+    "intro": {
+      "ar": "الأرقام من 13 إلى 19 تنتهي بـ teen، ومن 20 إلى 90 تنتهي بـ ty. الفرق في النبرة: thirTEEN مقابل THIRty. هذا الخطأ شائع ويسبب أخطاء في الأسعار، لذلك تدرّب عليه كثيرًا.",
+      "en": "Numbers 13 to 19 end in -teen and 20 to 90 end in -ty. The difference is stress: thirTEEN vs THIRty. This mix-up is common and causes mistakes with prices, so practise it a lot.",
+      "id": "Angka 13 sampai 19 berakhiran -teen dan 20 sampai 90 berakhiran -ty. Bedanya ada pada tekanan: thirTEEN lawan THIRty. Kesalahan ini umum dan menyebabkan salah harga, jadi latihlah sering-sering."
+    },
+    "culture": {
+      "ar": "في المتاجر الأمريكية السعر المكتوب غالبًا لا يشمل الضريبة (tax) فيُضاف عند الدفع. يُقال 4.50 four fifty أو four dollars and fifty cents. وفي الساعة يستعمل الناس half past وquarter past، وفي بريطانيا يُسمع أيضًا quarter to.",
+      "en": "In US shops the marked price usually does not include tax, which is added at the till. We say 4.50 as four fifty or four dollars and fifty cents. For time, people say half past and quarter past, and in Britain also quarter to.",
+      "id": "Di toko Amerika harga yang tertera biasanya belum termasuk pajak (tax) yang ditambahkan saat membayar. 4,50 dibaca four fifty atau four dollars and fifty cents. Untuk jam orang memakai half past dan quarter past, dan di Inggris juga quarter to."
+    },
+    "grammar": {
+      "title": {
+        "ar": "-teen أم -ty؟",
+        "en": "-teen or -ty?",
+        "id": "-teen atau -ty?"
+      },
+      "body": {
+        "ar": "في -teen النبرة على المقطع الأخير (fourTEEN) ويُنطق t واضحًا. في -ty النبرة على المقطع الأول (FORty) ويكون t خفيفًا. بعد العشرين نربط بشرطة: twenty-one، ثم thirty-five. والمئة: one hundred أو a hundred.",
+        "en": "In -teen the stress is on the last syllable (fourTEEN) and the t is clear. In -ty the stress is on the first syllable (FORty) and the t is light. After twenty we join with a hyphen: twenty-one, thirty-five. 100 is one hundred or a hundred.",
+        "id": "Pada -teen tekanan di suku kata terakhir (fourTEEN) dan t jelas. Pada -ty tekanan di suku kata pertama (FORty) dan t ringan. Setelah twenty kita sambung dengan tanda hubung: twenty-one, thirty-five. Seratus: one hundred atau a hundred."
+      }
+    },
+    "items": [
+      {
+        "id": "en17n1",
+        "target": "Thirteen / thirty",
+        "translit": "thur-TEEN / THUR-tee",
+        "tr": {
+          "ar": "ثلاثة عشر / ثلاثون",
+          "en": "13 and 30, two numbers that sound alike but stress differs",
+          "id": "Tiga belas / tiga puluh"
+        },
+        "example": {
+          "target": "The ticket is thirteen dollars, not thirty.",
+          "translit": "thuh TIK-it iz thur-TEEN DOL-erz, not THUR-tee",
+          "tr": {
+            "ar": "التذكرة بثلاثة عشر دولارًا وليس ثلاثين.",
+            "en": "The ticket is thirteen dollars, not thirty.",
+            "id": "Tiketnya tiga belas dolar, bukan tiga puluh."
+          }
+        },
+        "hint": {
+          "ar": "في thirteen تنتهي الكلمة بصوت ee طويل وواضح. تدرّب على الأزواج fourteen/forty وfifteen/fifty. انتبه أيضًا إلى th في أول الكلمة.",
+          "en": "Thirteen ends in a long, clear ee. Practise the pairs fourteen/forty and fifteen/fifty. Watch the th at the start too.",
+          "id": "Thirteen berakhir dengan ee panjang dan jelas. Latih pasangan fourteen/forty dan fifteen/fifty. Perhatikan juga th di awal kata."
+        }
+      },
+      {
+        "id": "en17n2",
+        "target": "Twenty-one",
+        "translit": "TWEN-tee WUN",
+        "tr": {
+          "ar": "واحد وعشرون",
+          "en": "the number 21",
+          "id": "Dua puluh satu"
+        },
+        "example": {
+          "target": "My sister is twenty-one years old.",
+          "translit": "mai SIS-ter iz TWEN-tee WUN yeerz OHLD",
+          "tr": {
+            "ar": "عمر أختي واحد وعشرون عامًا.",
+            "en": "My sister is twenty-one years old.",
+            "id": "Kakak perempuan saya berumur dua puluh satu tahun."
+          }
+        },
+        "hint": {
+          "ar": "الأمريكيون ينطقون t في twenty خفيفة أو تكاد تختفي (TWEN-ee). والأرقام المركبة تُكتب بشرطة.",
+          "en": "In American English the t in twenty is light or nearly silent (TWEN-ee). Compound numbers are written with a hyphen.",
+          "id": "Orang Amerika mengucapkan t di twenty sangat ringan atau hampir hilang (TWEN-ee). Angka majemuk ditulis dengan tanda hubung."
+        }
+      },
+      {
+        "id": "en17n3",
+        "target": "One hundred",
+        "translit": "wun HUN-drid",
+        "tr": {
+          "ar": "مئة",
+          "en": "the number 100",
+          "id": "Seratus"
+        },
+        "example": {
+          "target": "There are one hundred people at the party.",
+          "translit": "thair ar wun HUN-drid PEE-pul at thuh PAR-tee",
+          "tr": {
+            "ar": "يوجد مئة شخص في الحفلة.",
+            "en": "There are one hundred people at the party.",
+            "id": "Ada seratus orang di pesta itu."
+          }
+        },
+        "hint": {
+          "ar": "لا نضيف s لـ hundred بعد رقم: two hundred وليس two hundreds. h في أول الكلمة تُنطق بنفَس خفيف.",
+          "en": "Do not add -s to hundred after a number: two hundred, not two hundreds. The h at the start is a light breath.",
+          "id": "Jangan menambah -s pada hundred setelah angka: two hundred, bukan two hundreds. Huruf h di awal adalah hembusan napas ringan."
+        }
+      },
+      {
+        "id": "en17n4",
+        "target": "It costs fifty dollars.",
+        "translit": "it KOSTS FIF-tee DOL-erz",
+        "tr": {
+          "ar": "سعره خمسون دولارًا",
+          "en": "a sentence for saying what something costs",
+          "id": "Harganya lima puluh dolar"
+        },
+        "example": {
+          "target": "This jacket costs sixty-five dollars.",
+          "translit": "this JAK-it KOSTS SIK-stee-faiv DOL-erz",
+          "tr": {
+            "ar": "هذه السترة سعرها خمسة وستون دولارًا.",
+            "en": "This jacket costs sixty-five dollars.",
+            "id": "Jaket ini harganya enam puluh lima dolar."
+          }
+        },
+        "hint": {
+          "ar": "للجمل القصيرة نقول It's fifty dollars. ونقول dollars جمعًا بعد أي رقم غير واحد، وone dollar للواحد. والسنت cents.",
+          "en": "For short answers say It's fifty dollars. Use dollars with any number except one (one dollar); the small coin is cents.",
+          "id": "Untuk jawaban singkat: It's fifty dollars. Pakai dollars untuk semua angka kecuali satu (one dollar); uang receh disebut cents."
+        }
+      },
+      {
+        "id": "en17n5",
+        "target": "It's a quarter past two.",
+        "translit": "its uh KWOR-ter past TOO",
+        "tr": {
+          "ar": "الثانية وربع",
+          "en": "2:15 in speech",
+          "id": "Jam dua lewat lima belas menit"
+        },
+        "example": {
+          "target": "The class starts at a quarter past two.",
+          "translit": "thuh KLAS starts at uh KWOR-ter past TOO",
+          "tr": {
+            "ar": "يبدأ الدرس في الثانية والربع.",
+            "en": "The class starts at a quarter past two.",
+            "id": "Kelas dimulai pukul dua lewat seperempat."
+          }
+        },
+        "hint": {
+          "ar": "في الأمريكية يُقال أيضًا a quarter after two. والصيغة الرقمية: It's two fifteen. وquarter تعني ربع.",
+          "en": "Americans also say a quarter after two. The digital style is It's two fifteen. Quarter means one fourth.",
+          "id": "Orang Amerika juga bilang a quarter after two. Gaya digital: It's two fifteen. Quarter berarti seperempat."
+        }
+      },
+      {
+        "id": "en17n6",
+        "target": "It's half past seven.",
+        "translit": "its HAF past SEV-en",
+        "tr": {
+          "ar": "السابعة والنصف",
+          "en": "7:30 in speech",
+          "id": "Jam tujuh lewat tiga puluh (setengah delapan)"
+        },
+        "example": {
+          "target": "I wake up at half past seven.",
+          "translit": "ai WAYK up at HAF past SEV-en",
+          "tr": {
+            "ar": "أستيقظ في السابعة والنصف.",
+            "en": "I wake up at half past seven.",
+            "id": "Saya bangun pukul tujuh lewat tiga puluh."
+          }
+        },
+        "hint": {
+          "ar": "انتبه: half past seven تعني 7:30 وليس 6:30. وفي الإندونيسية \"setengah tujuh\" تعني 6:30 فلا تخلط بينهما. ويُقال أيضًا seven thirty.",
+          "en": "Careful: half past seven is 7:30, not 6:30. In Indonesian \"setengah tujuh\" means 6:30, so do not mix them up. You can also say seven thirty.",
+          "id": "Hati-hati: half past seven berarti 7:30, bukan 6:30. Dalam bahasa Indonesia \"setengah tujuh\" berarti 6:30, jadi jangan tertukar. Bisa juga dikatakan seven thirty."
+        }
+      }
+    ],
+    "cloze": [
+      {
+        "sentence": "It is half ___ seven.",
+        "answer": "past",
+        "wrong": [
+          "for",
+          "at"
+        ],
+        "tr": {
+          "ar": "الساعة السابعة والنصف.",
+          "en": "It is half past seven.",
+          "id": "Sekarang jam tujuh lewat tiga puluh."
+        },
+        "why": {
+          "ar": "التعبير الثابت هو half past + الساعة. for وat لا تُستعملان في هذا التعبير.",
+          "en": "The fixed phrase is half past + hour. For and at are not used in this phrase.",
+          "id": "Ungkapan tetapnya half past + jam. For dan at tidak dipakai dalam ungkapan ini."
+        }
+      },
+      {
+        "sentence": "Thirty is 30, and ___ is 13.",
+        "answer": "thirteen",
+        "wrong": [
+          "fifty",
+          "twenty"
+        ],
+        "tr": {
+          "ar": "ثلاثون هي 30 وثلاثة عشر هي 13.",
+          "en": "Thirty is 30, and thirteen is 13.",
+          "id": "Thirty adalah 30, dan thirteen adalah 13."
+        },
+        "why": {
+          "ar": "الرقم 13 هو thirteen. fifty (50) وtwenty (20) رقمان مختلفان تمامًا.",
+          "en": "The number 13 is thirteen. Fifty (50) and twenty (20) are completely different numbers.",
+          "id": "Angka 13 adalah thirteen. Fifty (50) dan twenty (20) adalah angka yang sama sekali berbeda."
+        }
+      }
+    ],
+    "conversation": {
+      "context": {
+        "ar": "في متجر ملابس: زبون يسأل عن سعر قميص.",
+        "en": "In a clothing store: a customer asks about the price of a shirt.",
+        "id": "Di toko pakaian: pembeli menanyakan harga kemeja."
+      },
+      "turns": [
+        {
+          "who": "A",
+          "target": "Excuse me, how much is this shirt?",
+          "tr": {
+            "ar": "عفوًا، كم سعر هذا القميص؟",
+            "en": "Excuse me, how much is this shirt?",
+            "id": "Permisi, berapa harga kemeja ini?"
+          }
+        },
+        {
+          "who": "B",
+          "target": "It is twenty-five dollars.",
+          "tr": {
+            "ar": "سعره خمسة وعشرون دولارًا.",
+            "en": "It is twenty-five dollars.",
+            "id": "Harganya dua puluh lima dolar."
+          }
+        },
+        {
+          "who": "A",
+          "target": "OK, I will take it.",
+          "tr": {
+            "ar": "حسنًا، سآخذه.",
+            "en": "OK, I will take it.",
+            "id": "Baik, saya ambil."
+          }
+        }
+      ],
+      "gap": 1,
+      "wrong": [
+        "It is half past nine.",
+        "It is a red shirt."
+      ],
+      "why": {
+        "ar": "سؤال How much يُجاب بسعر. الإجابة الأولى عن الوقت والثانية عن اللون، وكلتاهما لا تجيبان عن السؤال.",
+        "en": "How much is answered with a price. The first wrong reply is about time and the second about colour; neither answers the question.",
+        "id": "Pertanyaan How much dijawab dengan harga. Jawaban salah pertama tentang waktu dan kedua tentang warna; keduanya tidak menjawab pertanyaan."
+      }
+    },
+    "summary": {
+      "ar": "تدربت على الأرقام الكبيرة وعلى الفرق بين -teen و-ty، وتعلمت قول السعر والساعة.",
+      "en": "You practised bigger numbers, the -teen/-ty difference, and how to say prices and the time.",
+      "id": "Anda berlatih angka besar, perbedaan -teen/-ty, serta cara menyebut harga dan jam."
+    }
+  },
+  {
+    "id": "en-07",
+    "track": "en",
+    "level": "beginner",
+    "order": 7,
+    "topic": "family",
+    "icon": "👪",
+    "title": {
+      "ar": "العائلة",
+      "en": "Family",
+      "id": "Keluarga"
+    },
+    "description": {
+      "ar": "تعلّم كلمات أفراد العائلة والأصدقاء المقرّبين.",
+      "en": "Learn the words for family members and close friends.",
+      "id": "Pelajari kata-kata untuk anggota keluarga dan teman dekat."
+    },
+    "objectives": [
+      {
+        "ar": "أستطيع تسمية أفراد عائلتي المقرّبين.",
+        "en": "I can name my close family members.",
+        "id": "Saya bisa menyebut anggota keluarga dekat saya."
+      },
+      {
+        "ar": "أستطيع استعمال my وhis وher مع كلمات العائلة.",
+        "en": "I can use my, his and her with family words.",
+        "id": "Saya bisa memakai my, his, dan her dengan kata keluarga."
+      },
+      {
+        "ar": "أستطيع وصف شخص من عائلتي بجملة بسيطة.",
+        "en": "I can describe a family member in a simple sentence.",
+        "id": "Saya bisa mendeskripsikan anggota keluarga dengan kalimat sederhana."
+      }
+    ],
+    "intro": {
+      "ar": "الحديث عن العائلة موضوع يتكرر في كل لقاء جديد. ستتعلم الكلمات الأساسية مع جمل تستعملها فعلًا. لاحظ أن الإنجليزية لا تفرّق بين أخ أكبر وأصغر ولا بين أبي الأب وأبي الأم.",
+      "en": "Talking about family comes up in almost every new conversation. You will learn the key words with sentences you can really use. Notice that English does not distinguish older and younger brothers, or paternal and maternal grandparents.",
+      "id": "Membicarakan keluarga muncul hampir di setiap percakapan baru. Anda akan belajar kata kunci dengan kalimat yang benar-benar bisa dipakai. Perhatikan bahwa bahasa Inggris tidak membedakan kakak dan adik, atau kakek dari pihak ayah dan ibu."
+    },
+    "culture": {
+      "ar": "في البلدان الناطقة بالإنجليزية يقول الأطفال Mom أو Mum (في بريطانيا) وDad. كلمة friend تُستعمل بحرية، أما family فتعني غالبًا العائلة الصغيرة (الأب والأم والأبناء). ويستعمل الناس uncle وaunt للأعمام والأخوال والعمّات والخالات كلهم.",
+      "en": "Children in English-speaking countries say Mom (Mum in Britain) and Dad. Friend is used freely, while family often means the close family (parents and children). Uncle and aunt cover all uncles and aunts, on either side.",
+      "id": "Anak-anak di negara berbahasa Inggris memanggil Mom (Mum di Inggris) dan Dad. Kata friend dipakai dengan leluasa, sedangkan family sering berarti keluarga inti (orang tua dan anak). Uncle dan aunt mencakup semua paman dan bibi dari kedua pihak."
+    },
+    "grammar": {
+      "title": {
+        "ar": "صفات الملكية my / your / his / her",
+        "en": "Possessives my / your / his / her",
+        "id": "Kata milik my / your / his / her"
+      },
+      "body": {
+        "ar": "نضع my وyour وhis وher قبل الاسم: my mother وhis sister. وhis للمذكر وher للمؤنث بحسب المالك لا بحسب المملوك. تذكّر أن الأسماء لا تحمل ياء الملكية: لا نقول \"mother my\".",
+        "en": "Put my, your, his, her before the noun: my mother, his sister. His is for a male owner and her for a female owner, so it depends on the owner, not the thing owned. We never say \"mother my\".",
+        "id": "Letakkan my, your, his, her sebelum kata benda: my mother, his sister. His untuk pemilik laki-laki dan her untuk pemilik perempuan; ini ditentukan pemilik, bukan benda. Kita tidak bilang \"mother my\"."
+      }
+    },
+    "items": [
+      {
+        "id": "enx071",
+        "target": "Mother",
+        "translit": "MUH-ther",
+        "tr": {
+          "ar": "أم",
+          "en": "a female parent",
+          "id": "Ibu"
+        },
+        "example": {
+          "target": "My mother is kind.",
+          "translit": "mai MUH-ther iz KAIND",
+          "tr": {
+            "ar": "أمي طيبة.",
+            "en": "My mother is kind.",
+            "id": "Ibu saya baik."
+          }
+        },
+        "hint": {
+          "ar": "th هنا مجهورة مثل ذ، وo تُنطق كأنها u (muh). في الحديث العادي نقول Mom (أمريكا) أو Mum (بريطانيا).",
+          "en": "Here th is voiced like ذ and the o sounds like u. In everyday speech say Mom (US) or Mum (UK).",
+          "id": "Di sini th bersuara seperti ذ dan o dibaca seperti u. Sehari-hari orang bilang Mom (AS) atau Mum (Inggris)."
+        }
+      },
+      {
+        "id": "enx072",
+        "target": "Father",
+        "translit": "FAH-ther",
+        "tr": {
+          "ar": "أب",
+          "en": "a male parent",
+          "id": "Ayah"
+        },
+        "example": {
+          "target": "My father is at home.",
+          "translit": "mai FAH-ther iz at HOHM",
+          "tr": {
+            "ar": "أبي في البيت.",
+            "en": "My father is at home.",
+            "id": "Ayah saya ada di rumah."
+          }
+        },
+        "hint": {
+          "ar": "الصوت الأول طويل مثل آ. في الحديث العادي نقول Dad. ولا تُنطق الحرفان th مثل t.",
+          "en": "The first vowel is long, like ah. In everyday speech say Dad. Do not pronounce th as t.",
+          "id": "Vokal pertama panjang seperti ah. Sehari-hari orang bilang Dad. Jangan mengucapkan th sebagai t."
+        }
+      },
+      {
+        "id": "enx073",
+        "target": "Sister",
+        "translit": "SIS-ter",
+        "tr": {
+          "ar": "أخت",
+          "en": "a girl or woman with the same parents",
+          "id": "Saudara perempuan"
+        },
+        "example": {
+          "target": "My sister is here.",
+          "translit": "mai SIS-ter iz HEER",
+          "tr": {
+            "ar": "أختي هنا.",
+            "en": "My sister is here.",
+            "id": "Saudara perempuan saya ada di sini."
+          }
+        },
+        "hint": {
+          "ar": "للتحديد: older sister أخت كبرى وyounger sister أخت صغرى. في الإندونيسية تقابل kakak/adik perempuan.",
+          "en": "To be specific: older sister, younger sister. In Indonesian these are kakak/adik perempuan.",
+          "id": "Untuk lebih spesifik: older sister dan younger sister. Dalam bahasa Indonesia ini kakak/adik perempuan."
+        }
+      },
+      {
+        "id": "enx074",
+        "target": "Friend",
+        "translit": "FREND",
+        "tr": {
+          "ar": "صديق",
+          "en": "a person you like and know well",
+          "id": "Teman"
+        },
+        "example": {
+          "target": "She is my friend.",
+          "translit": "SHEE iz mai FREND",
+          "tr": {
+            "ar": "هي صديقتي.",
+            "en": "She is my friend.",
+            "id": "Dia teman saya."
+          }
+        },
+        "hint": {
+          "ar": "لا ننطق i في friend. والجمع friends. أما best friend فهو أقرب صديق. وboyfriend/girlfriend تعني علاقة عاطفية.",
+          "en": "The i in friend is silent. The plural is friends. Best friend is a very close one. Boyfriend/girlfriend means a romantic partner.",
+          "id": "Huruf i di friend tidak dibunyikan. Bentuk jamaknya friends. Best friend adalah sahabat. Boyfriend/girlfriend berarti pasangan romantis."
+        }
+      },
+      {
+        "id": "en07n5",
+        "target": "Brother",
+        "translit": "BRUH-ther",
+        "tr": {
+          "ar": "أخ",
+          "en": "a boy or man with the same parents",
+          "id": "Saudara laki-laki"
+        },
+        "example": {
+          "target": "His brother is a student.",
+          "translit": "hiz BRUH-ther iz uh STOO-dent",
+          "tr": {
+            "ar": "أخوه طالب.",
+            "en": "His brother is a student.",
+            "id": "Saudara laki-lakinya seorang pelajar."
+          }
+        },
+        "hint": {
+          "ar": "bro اختصار شائع بين الأصدقاء. كذلك older brother وyounger brother للتحديد.",
+          "en": "Bro is a common casual form among friends. Older brother and younger brother are used to be specific.",
+          "id": "Bro adalah bentuk santai antarteman. Older brother dan younger brother dipakai untuk lebih jelas."
+        }
+      },
+      {
+        "id": "en07n6",
+        "target": "Parents",
+        "translit": "PAIR-ents",
+        "tr": {
+          "ar": "الوالدان",
+          "en": "mother and father together",
+          "id": "Orang tua"
+        },
+        "example": {
+          "target": "My parents live in Cairo.",
+          "translit": "mai PAIR-ents liv in KAI-roh",
+          "tr": {
+            "ar": "والداي يعيشان في القاهرة.",
+            "en": "My parents live in Cairo.",
+            "id": "Orang tua saya tinggal di Kairo."
+          }
+        },
+        "hint": {
+          "ar": "parents تعني الأب والأم معًا، وليست \"الأقارب\". والأقارب هي relatives. والنبرة على المقطع الأول.",
+          "en": "Parents means mother and father, not \"relatives\". Relatives is the word for extended family. Stress the first syllable.",
+          "id": "Parents berarti ayah dan ibu, bukan \"kerabat\". Kerabat adalah relatives. Tekankan suku kata pertama."
+        }
+      }
+    ],
+    "cloze": [
+      {
+        "sentence": "___ sister is a doctor.",
+        "answer": "Her",
+        "wrong": [
+          "His",
+          "My"
+        ],
+        "tr": {
+          "ar": "أختها طبيبة.",
+          "en": "Her sister is a doctor.",
+          "id": "Saudara perempuannya seorang dokter."
+        },
+        "why": {
+          "ar": "نتحدث عن امرأة (she)، فنستعمل her. his لرجل وmy للمتكلم، ولا يناسبان هنا.",
+          "en": "We are talking about a woman, so we use her. His is for a man and my is for the speaker, so they do not fit.",
+          "id": "Kita membicarakan seorang perempuan, jadi dipakai her. His untuk laki-laki dan my untuk pembicara, sehingga tidak cocok."
+        }
+      },
+      {
+        "sentence": "My mother and father are my ___.",
+        "answer": "parents",
+        "wrong": [
+          "friend",
+          "brother"
+        ],
+        "tr": {
+          "ar": "أمي وأبي هما والداي.",
+          "en": "My mother and father are my parents.",
+          "id": "Ibu dan ayah saya adalah orang tua saya."
+        },
+        "why": {
+          "ar": "الأم والأب معًا يُسميان parents. friend وbrother مفردان ولا يعنيان الوالدين.",
+          "en": "Mother and father together are called parents. Friend and brother are singular and do not mean parents.",
+          "id": "Ibu dan ayah bersama disebut parents. Friend dan brother tunggal dan tidak berarti orang tua."
+        }
+      }
+    ],
+    "conversation": {
+      "context": {
+        "ar": "في الاستراحة: زميلان يتحدثان عن عائلتيهما.",
+        "en": "On a break: two coworkers talk about their families.",
+        "id": "Saat istirahat: dua rekan kerja membicarakan keluarga mereka."
+      },
+      "turns": [
+        {
+          "who": "A",
+          "target": "Do you have a brother?",
+          "tr": {
+            "ar": "هل لديك أخ؟",
+            "en": "Do you have a brother?",
+            "id": "Apakah kamu punya saudara laki-laki?"
+          }
+        },
+        {
+          "who": "B",
+          "target": "Yes, I do. My brother is a student.",
+          "tr": {
+            "ar": "نعم، لدي أخ. أخي طالب.",
+            "en": "Yes, I do. My brother is a student.",
+            "id": "Ya, punya. Saudara laki-laki saya seorang pelajar."
+          }
+        },
+        {
+          "who": "A",
+          "target": "That is nice. Is he older than you?",
+          "tr": {
+            "ar": "جميل. هل هو أكبر منك؟",
+            "en": "That is nice. Is he older than you?",
+            "id": "Bagus. Apakah dia lebih tua darimu?"
+          }
+        }
+      ],
+      "gap": 1,
+      "wrong": [
+        "Yes, she is.",
+        "No, I am a doctor."
+      ],
+      "why": {
+        "ar": "السؤال Do you have...؟ يُجاب بـ Yes, I do ثم معلومة. Yes, she is لا يناسب Do، وI am a doctor لا يخص الأخ.",
+        "en": "Do you have...? is answered with Yes, I do plus information. Yes, she is does not match Do, and I am a doctor does not talk about a brother.",
+        "id": "Pertanyaan Do you have...? dijawab Yes, I do beserta informasi. Yes, she is tidak cocok dengan Do, dan I am a doctor tidak membahas saudara laki-laki."
+      }
+    },
+    "summary": {
+      "ar": "تعلمت كلمات العائلة الأساسية والصديق وصفات الملكية my وhis وher.",
+      "en": "You learned the basic family words, friend, and the possessives my, his and her.",
+      "id": "Anda mempelajari kata keluarga dasar, friend, dan kata milik my, his, dan her."
+    }
+  },
+  {
+    "id": "en-13",
+    "track": "en",
+    "level": "beginner",
+    "order": 8,
+    "topic": "colors-descriptions",
+    "icon": "🌈",
+    "title": {
+      "ar": "الألوان والأوصاف",
+      "en": "Colors and Descriptions",
+      "id": "Warna dan Deskripsi"
+    },
+    "description": {
+      "ar": "صف الأشياء بالألوان والأحجام وتعلّم ترتيب الصفة قبل الاسم.",
+      "en": "Describe things by colour and size and learn adjective-before-noun order.",
+      "id": "Deskripsikan benda dengan warna dan ukuran dan pelajari urutan sifat sebelum kata benda."
+    },
+    "objectives": [
+      {
+        "ar": "أستطيع قول ألوان شائعة وأحجام.",
+        "en": "I can say common colours and sizes.",
+        "id": "Saya bisa menyebutkan warna dan ukuran umum."
+      },
+      {
+        "ar": "أستطيع وضع الصفة قبل الاسم (a red bag).",
+        "en": "I can put the adjective before the noun (a red bag).",
+        "id": "Saya bisa menaruh kata sifat sebelum kata benda (a red bag)."
+      },
+      {
+        "ar": "أستطيع وصف شيء بصفتين.",
+        "en": "I can describe something with two adjectives.",
+        "id": "Saya bisa mendeskripsikan sesuatu dengan dua kata sifat."
+      }
+    ],
+    "intro": {
+      "ar": "في الإنجليزية الصفة تأتي قبل الاسم، وهذا عكس العربية والإندونيسية. لذلك نقول a red bag وليس \"a bag red\". والصفة لا تتغير بحسب الجنس أو العدد.",
+      "en": "In English the adjective comes before the noun, the opposite of Arabic and Indonesian. So we say a red bag, never \"a bag red\". The adjective also does not change for gender or number.",
+      "id": "Dalam bahasa Inggris kata sifat datang sebelum kata benda, kebalikan dari bahasa Arab dan Indonesia. Jadi kita bilang a red bag, bukan \"a bag red\". Kata sifat juga tidak berubah menurut jenis atau jumlah."
+    },
+    "culture": {
+      "ar": "يسأل الناس What colour is it? (What color في الأمريكية) عند التسوق أو وصف شيء مفقود. وفي المطار تُوصف الحقائب غالبًا بـ a big black suitcase. استعمال الصفات الصحيحة يساعدك كثيرًا عند البحث عن مفقودات.",
+      "en": "People ask What colour is it? (What color in American spelling) when shopping or describing a lost item. At airports bags are often described as a big black suitcase. Using the right adjectives helps a lot when you report lost things.",
+      "id": "Orang bertanya What colour is it? (What color dalam ejaan Amerika) saat berbelanja atau menggambarkan barang hilang. Di bandara koper sering dideskripsikan sebagai a big black suitcase. Memakai kata sifat yang tepat sangat membantu saat melaporkan barang hilang."
+    },
+    "grammar": {
+      "title": {
+        "ar": "ترتيب الصفة",
+        "en": "Adjective order",
+        "id": "Urutan kata sifat"
+      },
+      "body": {
+        "ar": "الصفة قبل الاسم ولا تتغير: a red bag وtwo red bags. عند الجمع بين صفتين نضع الحجم قبل اللون: a big red bag. وبعد الفعل to be تأتي الصفة وحدها: The bag is red.",
+        "en": "The adjective goes before the noun and never changes: a red bag, two red bags. With two adjectives, size comes before colour: a big red bag. After the verb to be the adjective stands alone: The bag is red.",
+        "id": "Kata sifat ada sebelum kata benda dan tidak berubah: a red bag, two red bags. Dengan dua kata sifat, ukuran sebelum warna: a big red bag. Setelah to be, kata sifat berdiri sendiri: The bag is red."
+      }
+    },
+    "items": [
+      {
+        "id": "enx131",
+        "target": "Red",
+        "translit": "RED",
+        "tr": {
+          "ar": "أحمر",
+          "en": "the colour of blood or a tomato",
+          "id": "Merah"
+        },
+        "example": {
+          "target": "The bag is red.",
+          "translit": "thuh BAG iz RED",
+          "tr": {
+            "ar": "الحقيبة حمراء.",
+            "en": "The bag is red.",
+            "id": "Tasnya merah."
+          }
+        },
+        "hint": {
+          "ar": "d الأخيرة تُنطق خفيفة. ولا تمدّ الصوت e، فهو قصير. وفي هذا السياق نقول a red car.",
+          "en": "The final d is light, and the e is short. Use it before a noun too: a red car.",
+          "id": "Huruf d terakhir diucapkan ringan, dan e pendek. Bisa dipakai sebelum kata benda: a red car."
+        }
+      },
+      {
+        "id": "enx132",
+        "target": "Blue",
+        "translit": "BLOO",
+        "tr": {
+          "ar": "أزرق",
+          "en": "the colour of the sky or the sea",
+          "id": "Biru"
+        },
+        "example": {
+          "target": "The sky is blue.",
+          "translit": "thuh SKAI iz BLOO",
+          "tr": {
+            "ar": "السماء زرقاء.",
+            "en": "The sky is blue.",
+            "id": "Langitnya biru."
+          }
+        },
+        "hint": {
+          "ar": "تُكتب ue وتُنطق oo. وقد تعني feeling blue أنك حزين. وتجنّب نطقها \"بلو\" بصوت قصير.",
+          "en": "Written ue but pronounced oo. Feeling blue also means feeling sad. Avoid a short vowel.",
+          "id": "Ditulis ue tetapi dibaca oo. Feeling blue juga berarti merasa sedih. Hindari vokal pendek."
+        }
+      },
+      {
+        "id": "enx133",
+        "target": "Big",
+        "translit": "BIG",
+        "tr": {
+          "ar": "كبير",
+          "en": "large in size",
+          "id": "Besar"
+        },
+        "example": {
+          "target": "The room is big.",
+          "translit": "thuh ROOM iz BIG",
+          "tr": {
+            "ar": "الغرفة كبيرة.",
+            "en": "The room is big.",
+            "id": "Ruangannya besar."
+          }
+        },
+        "hint": {
+          "ar": "i قصيرة (bɪg) وليست مثل bee. وفي الأدب نقول large. والضد small أو little.",
+          "en": "The i is short (not \"beeg\"). Large is a slightly more formal synonym. The opposite is small or little.",
+          "id": "Huruf i pendek (bukan \"biig\"). Large adalah sinonim yang sedikit lebih formal. Lawannya small atau little."
+        }
+      },
+      {
+        "id": "enx134",
+        "target": "Small",
+        "translit": "SMAWL",
+        "tr": {
+          "ar": "صغير",
+          "en": "not large in size",
+          "id": "Kecil"
+        },
+        "example": {
+          "target": "The cup is small.",
+          "translit": "thuh KUP iz SMAWL",
+          "tr": {
+            "ar": "الفنجان صغير.",
+            "en": "The cup is small.",
+            "id": "Cangkirnya kecil."
+          }
+        },
+        "hint": {
+          "ar": "تُنطق a في small مثل \"أو\". وليس smal. تدرّب: small، ball، wall.",
+          "en": "The a in small sounds like aw. Practise small, ball, wall.",
+          "id": "Huruf a di small dibaca seperti aw. Latihan: small, ball, wall."
+        }
+      },
+      {
+        "id": "en13n5",
+        "target": "Green",
+        "translit": "GREEN",
+        "tr": {
+          "ar": "أخضر",
+          "en": "the colour of grass",
+          "id": "Hijau"
+        },
+        "example": {
+          "target": "She has a big green bag.",
+          "translit": "SHEE haz uh BIG GREEN bag",
+          "tr": {
+            "ar": "معها حقيبة خضراء كبيرة.",
+            "en": "She has a big green bag.",
+            "id": "Dia punya tas hijau besar."
+          }
+        },
+        "hint": {
+          "ar": "لاحظ ترتيب الصفات: الحجم (big) ثم اللون (green). ونقول a green bag وليس \"a bag green\".",
+          "en": "Notice the order: size (big) then colour (green). We say a green bag, not \"a bag green\".",
+          "id": "Perhatikan urutan: ukuran (big) lalu warna (green). Kita bilang a green bag, bukan \"a bag green\"."
+        }
+      },
+      {
+        "id": "en13n6",
+        "target": "Beautiful",
+        "translit": "BYOO-tuh-ful",
+        "tr": {
+          "ar": "جميل",
+          "en": "very nice to look at",
+          "id": "Indah / cantik"
+        },
+        "example": {
+          "target": "The garden is beautiful in spring.",
+          "translit": "thuh GAR-den iz BYOO-tuh-ful in SPRING",
+          "tr": {
+            "ar": "الحديقة جميلة في الربيع.",
+            "en": "The garden is beautiful in spring.",
+            "id": "Tamannya indah pada musim semi."
+          }
+        },
+        "hint": {
+          "ar": "كلمة طويلة بثلاثة مقاطع والنبرة على الأول. والأمريكيون ينطقون t بين صوتين كـ d خفيفة. ويمكن أن تصف الأماكن والأشخاص.",
+          "en": "A three-syllable word stressed on the first syllable. Americans may pronounce the middle t like a quick d. It can describe places and people.",
+          "id": "Kata tiga suku kata dengan tekanan di yang pertama. Orang Amerika bisa mengucapkan t tengah seperti d cepat. Bisa untuk tempat maupun orang."
+        }
+      }
+    ],
+    "cloze": [
+      {
+        "sentence": "She has a ___ bag.",
+        "answer": "red",
+        "wrong": [
+          "redly",
+          "reds"
+        ],
+        "tr": {
+          "ar": "معها حقيبة حمراء.",
+          "en": "She has a red bag.",
+          "id": "Dia punya tas merah."
+        },
+        "why": {
+          "ar": "الصفة red لا تأخذ لاحقة قبل الاسم. redly غير موجودة وreds صيغة جمع لا تناسب.",
+          "en": "The adjective red takes no ending before a noun. Redly does not exist and reds is a plural form that does not fit.",
+          "id": "Kata sifat red tidak mendapat akhiran sebelum kata benda. Redly tidak ada dan reds bentuk jamak yang tidak cocok."
+        }
+      },
+      {
+        "sentence": "I have a big ___ car.",
+        "answer": "blue",
+        "wrong": [
+          "car",
+          "bluely"
+        ],
+        "tr": {
+          "ar": "عندي سيارة زرقاء كبيرة.",
+          "en": "I have a big blue car.",
+          "id": "Saya punya mobil biru besar."
+        },
+        "why": {
+          "ar": "نحتاج صفة لونية قبل car. car تكرار للاسم وbluely غير صحيحة.",
+          "en": "We need a colour adjective before car. Car repeats the noun and bluely is not correct.",
+          "id": "Kita butuh kata sifat warna sebelum car. Car mengulang kata benda dan bluely tidak benar."
+        }
+      }
+    ],
+    "conversation": {
+      "context": {
+        "ar": "في مكتب المفقودات بالمطار: مسافرة تصف حقيبتها.",
+        "en": "At an airport lost-property desk: a traveler describes her bag.",
+        "id": "Di kantor barang hilang bandara: seorang penumpang mendeskripsikan tasnya."
+      },
+      "turns": [
+        {
+          "who": "A",
+          "target": "Can you describe your bag?",
+          "tr": {
+            "ar": "هل يمكنك وصف حقيبتك؟",
+            "en": "Can you describe your bag?",
+            "id": "Bisakah Anda mendeskripsikan tas Anda?"
+          }
+        },
+        {
+          "who": "B",
+          "target": "It is a big blue bag.",
+          "tr": {
+            "ar": "إنها حقيبة زرقاء كبيرة.",
+            "en": "It is a big blue bag.",
+            "id": "Ini tas biru yang besar."
+          }
+        },
+        {
+          "who": "A",
+          "target": "Thank you. Is it new or old?",
+          "tr": {
+            "ar": "شكرًا. هل هي جديدة أم قديمة؟",
+            "en": "Thank you. Is it new or old?",
+            "id": "Terima kasih. Apakah baru atau lama?"
+          }
+        }
+      ],
+      "gap": 1,
+      "wrong": [
+        "It is Saturday.",
+        "I am from Egypt."
+      ],
+      "why": {
+        "ar": "السؤال عن وصف الحقيبة يُجاب بصفات: big وblue. الإجابتان الأخريان عن اليوم والبلد.",
+        "en": "A question about describing the bag needs adjectives: big and blue. The other replies talk about the day and the country.",
+        "id": "Pertanyaan tentang deskripsi tas dijawab dengan kata sifat: big dan blue. Dua jawaban lain tentang hari dan negara."
+      }
+    },
+    "summary": {
+      "ar": "تعلمت أن الصفة قبل الاسم، وأن الحجم يسبق اللون، وأن الصفة لا تتغير.",
+      "en": "You learned that the adjective goes before the noun, size comes before colour, and the adjective never changes.",
+      "id": "Anda belajar bahwa kata sifat ada sebelum kata benda, ukuran mendahului warna, dan kata sifat tidak berubah."
+    }
+  },
+  {
+    "id": "en-04",
+    "track": "en",
+    "level": "beginner",
+    "order": 9,
+    "topic": "at-home",
+    "icon": "🏡",
+    "title": {
+      "ar": "في البيت",
+      "en": "At Home",
+      "id": "Di Rumah"
+    },
+    "description": {
+      "ar": "كلمات وجمل عن الأشياء والغرف في البيت.",
+      "en": "Words and sentences for things and rooms at home.",
+      "id": "Kata dan kalimat tentang benda dan ruangan di rumah."
+    },
+    "objectives": [
+      {
+        "ar": "أستطيع تسمية غرف وأشياء في البيت.",
+        "en": "I can name rooms and things at home.",
+        "id": "Saya bisa menyebut ruangan dan benda di rumah."
+      },
+      {
+        "ar": "أستطيع سؤال Where is the bathroom؟.",
+        "en": "I can ask Where is the bathroom?",
+        "id": "Saya bisa menanyakan Where is the bathroom?"
+      },
+      {
+        "ar": "أستطيع طلب شيء بأدب باستعمال please.",
+        "en": "I can politely ask for something with please.",
+        "id": "Saya bisa meminta sesuatu dengan sopan memakai please."
+      }
+    ],
+    "intro": {
+      "ar": "عندما تزور بيتًا أو تسكن مع أسرة ناطقة بالإنجليزية ستحتاج هذه الكلمات يوميًا. ستتعلم أسماء الأشياء وطلب الإذن وسؤال المكان. وكلها قصيرة وسهلة التكرار.",
+      "en": "When you visit a home or live with an English-speaking family you will need these words every day. You will learn names of things, how to ask permission and how to ask where something is. They are all short and easy to repeat.",
+      "id": "Saat berkunjung ke rumah atau tinggal bersama keluarga berbahasa Inggris, Anda membutuhkan kata-kata ini setiap hari. Anda akan belajar nama benda, cara meminta izin, dan cara menanyakan tempat. Semuanya pendek dan mudah diulang."
+    },
+    "culture": {
+      "ar": "عند الزيارة يسأل الضيف الأدب أولًا: Can I have some water, please? وللحمّام تُستعمل كلمات مختلفة: bathroom في أمريكا، وtoilet أو loo في بريطانيا. وrestroom مناسبة في الأماكن العامة. ويُستحسن خلع الحذاء إذا طُلب منك ذلك.",
+      "en": "Guests are expected to ask politely: Can I have some water, please? For the toilet, words differ: bathroom in America, toilet or loo in Britain. Restroom is polite in public places. Take your shoes off if you are asked to.",
+      "id": "Tamu diharapkan meminta dengan sopan: Can I have some water, please? Untuk toilet, kata berbeda: bathroom di Amerika, toilet atau loo di Inggris. Restroom sopan di tempat umum. Lepas sepatu jika diminta."
+    },
+    "grammar": {
+      "title": {
+        "ar": "Can I...? و Please",
+        "en": "Can I...? and Please",
+        "id": "Can I...? dan Please"
+      },
+      "body": {
+        "ar": "للطلب بأدب نستعمل Can I have...? أو Could I have...? ونضيف please في النهاية. للسؤال عن المكان: Where is + الاسم المفرد، وWhere are + الجمع. وللأوامر اللطيفة: Please close the door.",
+        "en": "To ask politely use Can I have...? or Could I have...? and add please. To ask where something is use Where is + singular noun, Where are + plural. For polite commands: Please close the door.",
+        "id": "Untuk meminta dengan sopan pakai Can I have...? atau Could I have...? dan tambahkan please. Untuk menanyakan tempat: Where is + kata benda tunggal, Where are + jamak. Untuk perintah sopan: Please close the door."
+      }
+    },
+    "items": [
+      {
+        "id": "e13",
+        "target": "Water",
+        "translit": "WAW-ter",
+        "tr": {
+          "ar": "ماء",
+          "en": "the clear drink we need every day",
+          "id": "Air"
+        },
+        "example": {
+          "target": "Can I have some water?",
+          "translit": "kan ai hav sum WAW-ter",
+          "tr": {
+            "ar": "هل يمكنني الحصول على بعض الماء؟",
+            "en": "Can I have some water?",
+            "id": "Boleh saya minta air?"
+          }
+        },
+        "hint": {
+          "ar": "في الأمريكية t تُنطق مثل d خفيفة (WAW-der). وفي البريطانية t واضحة. المقطع الأول يشبه \"وُو\".",
+          "en": "In American English the t is like a quick d (WAW-der); in British English the t is clear.",
+          "id": "Dalam bahasa Inggris Amerika t seperti d cepat (WAW-der); dalam bahasa Inggris Inggris t jelas."
+        }
+      },
+      {
+        "id": "e14",
+        "target": "Door",
+        "translit": "DOR",
+        "tr": {
+          "ar": "باب",
+          "en": "what you open to enter a room",
+          "id": "Pintu"
+        },
+        "example": {
+          "target": "Please close the door.",
+          "translit": "pleez KLOHZ thuh DOR",
+          "tr": {
+            "ar": "من فضلك أغلق الباب.",
+            "en": "Please close the door.",
+            "id": "Tolong tutup pintunya."
+          }
+        },
+        "hint": {
+          "ar": "تُنطق مثل dor بصوت طويل، وr الأخيرة تُسمع في الأمريكية. وopen the door تعني افتح الباب.",
+          "en": "Say it with a long vowel and an r; American English pronounces the final r. Open the door means open it.",
+          "id": "Ucapkan dengan vokal panjang dan r; bahasa Inggris Amerika membunyikan r di akhir. Open the door berarti buka pintu."
+        }
+      },
+      {
+        "id": "e15",
+        "target": "Kitchen",
+        "translit": "KICH-en",
+        "tr": {
+          "ar": "مطبخ",
+          "en": "the room where we cook",
+          "id": "Dapur"
+        },
+        "example": {
+          "target": "The kitchen is clean.",
+          "translit": "thuh KICH-en iz KLEEN",
+          "tr": {
+            "ar": "المطبخ نظيف.",
+            "en": "The kitchen is clean.",
+            "id": "Dapurnya bersih."
+          }
+        },
+        "hint": {
+          "ar": "ch مثل تش في \"كتشب\". المقطع الثاني قصير بلا نبرة. وبالمثل: bedroom وliving room.",
+          "en": "Ch as in cheese. The second syllable is short and unstressed. Related rooms: bedroom, living room.",
+          "id": "Ch seperti pada cheese. Suku kata kedua pendek tanpa tekanan. Ruangan lain: bedroom, living room."
+        }
+      },
+      {
+        "id": "e16",
+        "target": "Where is the bathroom?",
+        "translit": "wair iz thuh BATH-room",
+        "tr": {
+          "ar": "أين الحمّام؟",
+          "en": "a polite question to find the toilet",
+          "id": "Di mana kamar mandi?"
+        },
+        "example": {
+          "target": "Excuse me, where is the bathroom?",
+          "translit": "ik-SKYOOS mee, wair iz thuh BATH-room",
+          "tr": {
+            "ar": "عفوًا، أين الحمّام؟",
+            "en": "Excuse me, where is the bathroom?",
+            "id": "Permisi, di mana kamar mandi?"
+          }
+        },
+        "hint": {
+          "ar": "bathroom تُنطق th صوتًا بلا جهر في bath. في الأماكن العامة قد تسمع restroom أو toilet.",
+          "en": "The th in bath is voiceless. In public places you may hear restroom or toilet.",
+          "id": "Th di bath tak bersuara. Di tempat umum Anda mungkin mendengar restroom atau toilet."
+        }
+      },
+      {
+        "id": "en04n5",
+        "target": "Bedroom",
+        "translit": "BED-room",
+        "tr": {
+          "ar": "غرفة النوم",
+          "en": "the room where you sleep",
+          "id": "Kamar tidur"
+        },
+        "example": {
+          "target": "My bedroom is on the second floor.",
+          "translit": "mai BED-room iz on thuh SEK-und FLOR",
+          "tr": {
+            "ar": "غرفة نومي في الطابق الثاني.",
+            "en": "My bedroom is on the second floor.",
+            "id": "Kamar tidur saya ada di lantai dua."
+          }
+        },
+        "hint": {
+          "ar": "كلمة مركبة: bed + room والنبرة على الأول. في الأمريكية الطابق الأرضي first floor، وفي البريطانية ground floor.",
+          "en": "A compound word: bed + room, stressed on the first part. In American English the ground level is the first floor; in British English it is the ground floor.",
+          "id": "Kata majemuk: bed + room dengan tekanan di bagian pertama. Dalam bahasa Inggris Amerika lantai dasar adalah first floor; dalam bahasa Inggris Inggris ground floor."
+        }
+      },
+      {
+        "id": "en04n6",
+        "target": "Please open the window.",
+        "translit": "pleez OH-pen thuh WIN-doh",
+        "tr": {
+          "ar": "من فضلك افتح النافذة",
+          "en": "a polite request about the window",
+          "id": "Tolong buka jendelanya"
+        },
+        "example": {
+          "target": "It is hot. Please open the window.",
+          "translit": "it iz HOT. pleez OH-pen thuh WIN-doh",
+          "tr": {
+            "ar": "الجو حار. من فضلك افتح النافذة.",
+            "en": "It is hot. Please open the window.",
+            "id": "Panas. Tolong buka jendelanya."
+          }
+        },
+        "hint": {
+          "ar": "please تجعل الطلب مهذبًا. ويمكنك أيضًا قول Could you open the window? w صوت شفوي خفيف.",
+          "en": "Please makes a request polite. You can also say Could you open the window? The w is a light rounded-lip sound.",
+          "id": "Please membuat permintaan sopan. Anda juga bisa bilang Could you open the window? W adalah bunyi bibir membulat yang ringan."
+        }
+      }
+    ],
+    "cloze": [
+      {
+        "sentence": "Excuse me, where ___ the bathroom?",
+        "answer": "is",
+        "wrong": [
+          "are",
+          "am"
+        ],
+        "tr": {
+          "ar": "عفوًا، أين الحمّام؟",
+          "en": "Excuse me, where is the bathroom?",
+          "id": "Permisi, di mana kamar mandi?"
+        },
+        "why": {
+          "ar": "bathroom مفرد فنستعمل is. are للجمع وam مع I.",
+          "en": "Bathroom is singular, so we use is. Are is for plural and am goes with I.",
+          "id": "Bathroom tunggal sehingga dipakai is. Are untuk jamak dan am untuk I."
+        }
+      },
+      {
+        "sentence": "Please close the ___.",
+        "answer": "door",
+        "wrong": [
+          "water",
+          "kitchen"
+        ],
+        "tr": {
+          "ar": "من فضلك أغلق الباب.",
+          "en": "Please close the door.",
+          "id": "Tolong tutup pintunya."
+        },
+        "why": {
+          "ar": "الشيء الذي يُغلق هو الباب door. لا نغلق water ولا kitchen بهذا المعنى.",
+          "en": "The thing you close is a door. We do not close water or a kitchen in this sense.",
+          "id": "Benda yang ditutup adalah door. Kita tidak menutup water atau kitchen dalam arti ini."
+        }
+      }
+    ],
+    "conversation": {
+      "context": {
+        "ar": "في بيت صديق: ضيف يطلب شيئًا ويسأل عن الحمّام.",
+        "en": "At a friend's home: a guest asks for something and asks about the bathroom.",
+        "id": "Di rumah teman: seorang tamu meminta sesuatu dan menanyakan kamar mandi."
+      },
+      "turns": [
+        {
+          "who": "A",
+          "target": "Would you like some water?",
+          "tr": {
+            "ar": "هل تريد بعض الماء؟",
+            "en": "Would you like some water?",
+            "id": "Apakah Anda mau air?"
+          }
+        },
+        {
+          "who": "B",
+          "target": "Yes, please. And where is the bathroom?",
+          "tr": {
+            "ar": "نعم من فضلك. وأين الحمّام؟",
+            "en": "Yes, please. And where is the bathroom?",
+            "id": "Ya, tolong. Dan di mana kamar mandi?"
+          }
+        },
+        {
+          "who": "A",
+          "target": "It is next to the kitchen.",
+          "tr": {
+            "ar": "بجانب المطبخ.",
+            "en": "It is next to the kitchen.",
+            "id": "Di sebelah dapur."
+          }
+        }
+      ],
+      "gap": 1,
+      "wrong": [
+        "The door is red.",
+        "I am a student."
+      ],
+      "why": {
+        "ar": "الضيف يقبل العرض بـ Yes, please ثم يسأل سؤالًا. الإجابتان الأخريان جملتان صحيحتان لكنهما لا تجيبان عرض الماء.",
+        "en": "The guest accepts the offer with Yes, please and then asks a question. The other replies are correct sentences but do not answer the offer of water.",
+        "id": "Tamu menerima tawaran dengan Yes, please lalu bertanya. Dua jawaban lain adalah kalimat benar tetapi tidak menjawab tawaran air."
+      }
+    },
+    "summary": {
+      "ar": "تعلمت أسماء أشياء في البيت وطريقة الطلب بأدب وسؤال المكان.",
+      "en": "You learned names for things at home, how to ask politely and how to ask where something is.",
+      "id": "Anda mempelajari nama benda di rumah, cara meminta dengan sopan, dan cara menanyakan tempat."
+    }
+  },
+  {
+    "id": "en-18",
+    "track": "en",
+    "level": "beginner",
+    "order": 10,
+    "topic": "articles-demonstratives-plurals",
+    "icon": "📦",
+    "title": {
+      "ar": "الأشياء من حولي: a/an/the وthis/that وصيغ الجمع",
+      "en": "Things Around Me: a/an/the, this/that, Plurals",
+      "id": "Benda di Sekitarku: a/an/the, this/that, Jamak"
+    },
+    "description": {
+      "ar": "تعلّم أدوات التعريف والإشارة وكيف تجمع الأسماء.",
+      "en": "Learn articles, demonstratives and how to make nouns plural.",
+      "id": "Pelajari artikel, kata tunjuk, dan cara membentuk kata benda jamak."
+    },
+    "objectives": [
+      {
+        "ar": "أستطيع اختيار a أو an أو the.",
+        "en": "I can choose a, an or the.",
+        "id": "Saya bisa memilih a, an, atau the."
+      },
+      {
+        "ar": "أستطيع استعمال this وthat وthese وthose.",
+        "en": "I can use this, that, these and those.",
+        "id": "Saya bisa memakai this, that, these, dan those."
+      },
+      {
+        "ar": "أستطيع تكوين صيغة الجمع العادية وبعض الشاذة.",
+        "en": "I can form regular plurals and a few irregular ones.",
+        "id": "Saya bisa membentuk jamak biasa dan beberapa yang tidak beraturan."
+      }
+    ],
+    "intro": {
+      "ar": "الإنجليزية تحتاج أداة (a أو an أو the) قبل معظم الأسماء المفردة. هذه الأدوات لا توجد بالطريقة نفسها في الإندونيسية، وفي العربية يوجد فقط أداة التعريف. ستتعلم أيضًا كلمات الإشارة وجمع الأسماء.",
+      "en": "English needs an article (a, an or the) before most singular nouns. Indonesian has no such words, and Arabic only has the definite article. You will also learn pointing words and noun plurals.",
+      "id": "Bahasa Inggris membutuhkan artikel (a, an, atau the) sebelum sebagian besar kata benda tunggal. Bahasa Indonesia tidak punya kata seperti itu, dan bahasa Arab hanya punya artikel takrif. Anda juga akan belajar kata tunjuk dan jamak."
+    },
+    "culture": {
+      "ar": "في المتاجر والمنازل نستعمل this وthat بكثرة: What is this? Is that your bag? وللإشارة إلى مجموعة: These are my shoes. وفي المحادثة نشير بالإصبع أو باليد وهذا مقبول. وعند تعلّم الأسماء الجديدة حاول دائمًا حفظها مع a أو an.",
+      "en": "In shops and homes we use this and that constantly: What is this? Is that your bag? For groups: These are my shoes. Pointing with your hand while you speak is normal. When you learn a new noun, try to remember it with a or an.",
+      "id": "Di toko dan rumah kita sering memakai this dan that: What is this? Is that your bag? Untuk kelompok: These are my shoes. Menunjuk dengan tangan sambil berbicara itu wajar. Saat belajar kata benda baru, usahakan menghafalnya bersama a atau an."
+    },
+    "grammar": {
+      "title": {
+        "ar": "a / an / the و this / that",
+        "en": "a / an / the and this / that",
+        "id": "a / an / the dan this / that"
+      },
+      "body": {
+        "ar": "نستعمل a قبل صوت ساكن (a book) وan قبل صوت علة (an apple، an hour). ونستعمل the لشيء معروف لكليكما. للإشارة: this/these للقريب وthat/those للبعيد. الجمع العادي بإضافة s أو es، وبعض الجموع شاذة مثل child/children.",
+        "en": "Use a before a consonant sound (a book) and an before a vowel sound (an apple, an hour). Use the for something both of you know. To point: this/these for near, that/those for far. Regular plurals add -s or -es, and a few are irregular, such as child/children.",
+        "id": "Pakai a sebelum bunyi konsonan (a book) dan an sebelum bunyi vokal (an apple, an hour). Pakai the untuk sesuatu yang sudah diketahui kedua pihak. Untuk menunjuk: this/these untuk dekat, that/those untuk jauh. Jamak biasa menambah -s atau -es, dan sebagian tidak beraturan, seperti child/children."
+      }
+    },
+    "items": [
+      {
+        "id": "en18n1",
+        "target": "a book, an apple",
+        "translit": "uh BUK, an AP-ul",
+        "tr": {
+          "ar": "كتاب (واحد)، تفاحة (واحدة)",
+          "en": "a and an mean \"one\" and are used before singular nouns",
+          "id": "sebuah buku, sebuah apel"
+        },
+        "example": {
+          "target": "I read a book and eat an apple every day.",
+          "translit": "ai RED uh BUK and EET an AP-ul EV-ree DAY",
+          "tr": {
+            "ar": "أقرأ كتابًا وآكل تفاحة كل يوم.",
+            "en": "I read a book and eat an apple every day.",
+            "id": "Saya membaca sebuah buku dan makan sebuah apel setiap hari."
+          }
+        },
+        "hint": {
+          "ar": "القاعدة للصوت لا للحرف: an hour (h صامتة) وa university (تبدأ بصوت y). واحذف الأداة مع الجمع: books.",
+          "en": "The rule is about sound, not spelling: an hour (silent h) but a university (starts with a y sound). Drop the article in plurals: books.",
+          "id": "Aturannya berdasar bunyi, bukan ejaan: an hour (h tak dibunyikan) tetapi a university (diawali bunyi y). Hilangkan artikel pada jamak: books."
+        }
+      },
+      {
+        "id": "en18n2",
+        "target": "the",
+        "translit": "thuh / thee",
+        "tr": {
+          "ar": "أداة تعريف: الـ",
+          "en": "the word for a specific thing both people know",
+          "id": "kata untuk benda tertentu yang sudah diketahui kedua pihak"
+        },
+        "example": {
+          "target": "The book on the table is mine.",
+          "translit": "thuh BUK on thuh TAY-bul iz MAIN",
+          "tr": {
+            "ar": "الكتاب الذي على الطاولة لي.",
+            "en": "The book on the table is mine.",
+            "id": "Buku yang ada di meja itu milik saya."
+          }
+        },
+        "hint": {
+          "ar": "تُنطق thuh قبل الساكن وthee قبل العلة (the apple). وth مجهورة مثل ذ. وهي تقابل أل التعريف لكنها لا تتغير مع الجنس أو العدد.",
+          "en": "Say thuh before a consonant and thee before a vowel (the apple). Th is voiced, like ذ. It is like Arabic al- but never changes for gender or number.",
+          "id": "Ucapkan thuh sebelum konsonan dan thee sebelum vokal (the apple). Th bersuara seperti ذ. Mirip artikel al- bahasa Arab tetapi tidak berubah menurut jenis atau jumlah."
+        }
+      },
+      {
+        "id": "en18n3",
+        "target": "this / these",
+        "translit": "THIS / THEEZ",
+        "tr": {
+          "ar": "هذا / هذه",
+          "en": "pointing words for things that are near you",
+          "id": "ini"
+        },
+        "example": {
+          "target": "This is my pen. These are my keys.",
+          "translit": "THIS iz mai PEN. THEEZ ar mai KEEZ",
+          "tr": {
+            "ar": "هذا قلمي. وهذه مفاتيحي.",
+            "en": "This is my pen. These are my keys.",
+            "id": "Ini penaku. Ini kunci-kunciku."
+          }
+        },
+        "hint": {
+          "ar": "this بصوت i قصير، وthese بصوت ee طويل. الفرق بينهما مهم لأنه يفرّق المفرد عن الجمع. تدرب على this/these.",
+          "en": "This has a short i, these has a long ee. The difference matters because it marks singular versus plural. Practise this/these.",
+          "id": "This memakai i pendek, these memakai ee panjang. Perbedaannya penting karena menandai tunggal dan jamak. Latih this/these."
+        }
+      },
+      {
+        "id": "en18n4",
+        "target": "that / those",
+        "translit": "THAT / THOHZ",
+        "tr": {
+          "ar": "ذلك / تلك",
+          "en": "pointing words for things that are far from you",
+          "id": "itu"
+        },
+        "example": {
+          "target": "That car is fast. Those shoes are new.",
+          "translit": "THAT kar iz FAST. THOHZ shooz ar NOO",
+          "tr": {
+            "ar": "تلك السيارة سريعة. وتلك الأحذية جديدة.",
+            "en": "That car is fast. Those shoes are new.",
+            "id": "Mobil itu cepat. Sepatu itu baru."
+          }
+        },
+        "hint": {
+          "ar": "th هنا مجهورة. and those تنتهي بـ z. وفي الإندونيسية \"itu\" و\"ini\" تأتيان بعد الاسم، أما في الإنجليزية فقبله.",
+          "en": "Here th is voiced, and those ends in a z sound. In Indonesian ini/itu come after the noun; in English they come before it.",
+          "id": "Th di sini bersuara, dan those berakhir dengan bunyi z. Dalam bahasa Indonesia ini/itu ada setelah kata benda; dalam bahasa Inggris sebelum kata benda."
+        }
+      },
+      {
+        "id": "en18n5",
+        "target": "one box, two boxes",
+        "translit": "WUN boks, TOO BOK-siz",
+        "tr": {
+          "ar": "صندوق واحد، صندوقان",
+          "en": "adding -es to nouns that end in s, x, ch, sh",
+          "id": "satu kotak, dua kotak"
+        },
+        "example": {
+          "target": "We have two boxes and three watches.",
+          "translit": "wee hav TOO BOK-siz and THREE WOCH-iz",
+          "tr": {
+            "ar": "عندنا صندوقان وثلاث ساعات.",
+            "en": "We have two boxes and three watches.",
+            "id": "Kami punya dua kotak dan tiga jam tangan."
+          }
+        },
+        "hint": {
+          "ar": "الاسم الذي ينتهي بـ s وx وch وsh نضيف له es وننطق مقطعًا زائدًا iz. أما الباقي فنضيف s فقط: pen/pens.",
+          "en": "Nouns ending in s, x, ch, sh take -es and an extra syllable (iz). Most others just add -s: pen/pens.",
+          "id": "Kata benda berakhiran s, x, ch, sh menerima -es dan suku kata tambahan (iz). Yang lain cukup menambah -s: pen/pens."
+        }
+      },
+      {
+        "id": "en18n6",
+        "target": "one child, two children",
+        "translit": "WUN chaild, TOO CHIL-dren",
+        "tr": {
+          "ar": "طفل واحد، طفلان",
+          "en": "irregular plurals do not just add -s",
+          "id": "satu anak, dua anak"
+        },
+        "example": {
+          "target": "The children are in the garden.",
+          "translit": "thuh CHIL-dren ar in thuh GAR-den",
+          "tr": {
+            "ar": "الأطفال في الحديقة.",
+            "en": "The children are in the garden.",
+            "id": "Anak-anak ada di taman."
+          }
+        },
+        "hint": {
+          "ar": "بعض الجموع شاذة ويجب حفظها: man/men، woman/women، child/children، person/people، foot/feet.",
+          "en": "Some plurals are irregular and must be memorised: man/men, woman/women, child/children, person/people, foot/feet.",
+          "id": "Sebagian jamak tidak beraturan dan harus dihafal: man/men, woman/women, child/children, person/people, foot/feet."
+        }
+      }
+    ],
+    "cloze": [
+      {
+        "sentence": "I eat ___ apple every day.",
+        "answer": "an",
+        "wrong": [
+          "a",
+          "these"
+        ],
+        "tr": {
+          "ar": "آكل تفاحة كل يوم.",
+          "en": "I eat an apple every day.",
+          "id": "Saya makan sebuah apel setiap hari."
+        },
+        "why": {
+          "ar": "apple تبدأ بصوت علة فنستعمل an. a لا تُستعمل قبل صوت علة، وthese للجمع.",
+          "en": "Apple starts with a vowel sound, so we use an. A is not used before a vowel sound, and these is for plurals.",
+          "id": "Apple diawali bunyi vokal sehingga dipakai an. A tidak dipakai sebelum bunyi vokal, dan these untuk jamak."
+        }
+      },
+      {
+        "sentence": "___ shoes over there are mine.",
+        "answer": "Those",
+        "wrong": [
+          "That",
+          "This"
+        ],
+        "tr": {
+          "ar": "تلك الأحذية هناك لي.",
+          "en": "Those shoes over there are mine.",
+          "id": "Sepatu yang di sana itu milik saya."
+        },
+        "why": {
+          "ar": "shoes جمع وبعيدة (over there) فنستعمل those. that وthis للمفرد فلا تناسب.",
+          "en": "Shoes is plural and far away (over there), so we use those. That and this are singular and do not fit.",
+          "id": "Shoes jamak dan jauh (over there) sehingga dipakai those. That dan this tunggal sehingga tidak cocok."
+        }
+      }
+    ],
+    "conversation": {
+      "context": {
+        "ar": "في قاعة الانتظار: شخصان يتحدثان عن حقيبة نُسيت.",
+        "en": "In a waiting room: two people talk about a forgotten bag.",
+        "id": "Di ruang tunggu: dua orang membicarakan tas yang tertinggal."
+      },
+      "turns": [
+        {
+          "who": "A",
+          "target": "Is this your bag?",
+          "tr": {
+            "ar": "هل هذه حقيبتك؟",
+            "en": "Is this your bag?",
+            "id": "Apakah ini tasmu?"
+          }
+        },
+        {
+          "who": "B",
+          "target": "No, that one is mine.",
+          "tr": {
+            "ar": "لا، تلك هي حقيبتي.",
+            "en": "No, that one is mine.",
+            "id": "Bukan, yang itu punyaku."
+          }
+        },
+        {
+          "who": "A",
+          "target": "Oh, sorry. The blue one is nice!",
+          "tr": {
+            "ar": "آسف. الحقيبة الزرقاء جميلة!",
+            "en": "Oh, sorry. The blue one is nice!",
+            "id": "Oh, maaf. Yang biru itu bagus!"
+          }
+        }
+      ],
+      "gap": 1,
+      "wrong": [
+        "They are my books.",
+        "Yes, it was a good day."
+      ],
+      "why": {
+        "ar": "السؤال Is this...؟ يُجاب بـ No, that one is mine لأن الحقيبة الأخرى بعيدة. They are my books جمع وYes, it was a good day لا علاقة لها بالسؤال.",
+        "en": "Is this...? is answered with No, that one is mine because the owner's bag is farther away. They are my books is plural and Yes, it was a good day is unrelated.",
+        "id": "Pertanyaan Is this...? dijawab No, that one is mine karena tas pemiliknya lebih jauh. They are my books jamak dan Yes, it was a good day tidak berkaitan."
+      }
+    },
+    "summary": {
+      "ar": "تعلمت اختيار a وan وthe، واستعمال this وthat وthese وthose، وتكوين الجمع العادي والشاذ.",
+      "en": "You learned to choose a, an and the, to use this, that, these and those, and to form regular and irregular plurals.",
+      "id": "Anda belajar memilih a, an, dan the, memakai this, that, these, dan those, serta membentuk jamak biasa dan tidak beraturan."
+    }
+  }
+]

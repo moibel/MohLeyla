@@ -1,0 +1,2771 @@
+[
+ {
+  "track": "en",
+  "level": "elementary",
+  "id": "en-05",
+  "order": 11,
+  "topic": "shopping-food",
+  "icon": "🛒",
+  "title": {
+   "ar": "التسوق والطعام",
+   "en": "Shopping and food",
+   "id": "Belanja dan makanan"
+  },
+  "description": {
+   "ar": "تعلّم أن تسأل عن الأسعار وتطلب الطعام بأدب.",
+   "en": "Learn to ask prices and order food politely.",
+   "id": "Belajar menanyakan harga dan memesan makanan dengan sopan."
+  },
+  "objectives": [
+   {
+    "ar": "أستطيع أن أسأل عن سعر شيء ما.",
+    "en": "I can ask how much something costs.",
+    "id": "Saya bisa menanyakan harga sesuatu."
+   },
+   {
+    "ar": "أستطيع أن أطلب شيئًا بعبارة I would like.",
+    "en": "I can ask for something with \"I would like\".",
+    "id": "Saya bisa meminta sesuatu dengan \"I would like\"."
+   },
+   {
+    "ar": "أستطيع أن أصف الطعام وأقول \"please\" بشكل طبيعي.",
+    "en": "I can describe food and use \"please\" naturally.",
+    "id": "Saya bisa menggambarkan makanan dan memakai \"please\" dengan wajar."
+   }
+  ],
+  "intro": {
+   "ar": "في هذا الدرس ستتعلم عبارات تحتاجها في السوق والمحل والمخبز. سنتدرب على سؤال السعر وعلى الطلب المهذب.",
+   "en": "In this lesson you learn phrases for the market, the shop and the bakery. We practise asking the price and making polite requests.",
+   "id": "Di pelajaran ini kamu belajar kalimat untuk pasar, toko, dan toko roti. Kita berlatih menanyakan harga dan meminta dengan sopan."
+  },
+  "culture": {
+   "ar": "في البلدان الناطقة بالإنجليزية الأسعار ثابتة غالبًا ولا يُتوقع المساومة في المتاجر. يقول الناس \"please\" و\"thank you\" كثيرًا، وهذا يُعدّ لطفًا عاديًا وليس تكلفًا.",
+   "en": "In English-speaking countries prices are usually fixed, so bargaining is not expected in shops. People say \"please\" and \"thank you\" a lot, and that is ordinary politeness, not formality.",
+   "id": "Di negara berbahasa Inggris harga biasanya pas, jadi menawar tidak lazim di toko. Orang sering mengucapkan \"please\" dan \"thank you\", dan itu sopan santun biasa."
+  },
+  "grammar": {
+   "title": {
+    "ar": "السؤال عن السعر وعبارة I would like",
+    "en": "Asking prices and \"I would like\"",
+    "id": "Menanyakan harga dan \"I would like\""
+   },
+   "body": {
+    "ar": "نستخدم How much is it? للشيء الواحد وHow much are they? للجمع. وعبارة I would like (أو I'd like) أكثر أدبًا من I want. بعدها نضع اسمًا: I would like bread.",
+    "en": "Use \"How much is it?\" for one thing and \"How much are they?\" for plural things. \"I would like\" (or \"I'd like\") is more polite than \"I want\". Put a noun after it: I would like bread.",
+    "id": "Pakai \"How much is it?\" untuk satu barang dan \"How much are they?\" untuk jamak. \"I would like\" (atau \"I'd like\") lebih sopan daripada \"I want\". Setelahnya pakai kata benda: I would like bread."
+   }
+  },
+  "items": [
+   {
+    "id": "e17",
+    "target": "How much is it?",
+    "translit": "how MUCH iz it",
+    "tr": {
+     "ar": "كم سعره؟",
+     "en": "asking the price of one thing",
+     "id": "Berapa harganya?"
+    },
+    "example": {
+     "target": "How much is this?",
+     "translit": "how MUCH iz this",
+     "tr": {
+      "ar": "كم سعر هذا؟",
+      "en": "How much is this?",
+      "id": "Berapa harga ini?"
+     }
+    }
+   },
+   {
+    "id": "e18",
+    "target": "I would like bread",
+    "translit": "ai wud LIKE bred",
+    "tr": {
+     "ar": "أريد خبزًا",
+     "en": "a polite way to ask for something",
+     "id": "Saya ingin roti"
+    },
+    "example": {
+     "target": "I would like some bread, please.",
+     "translit": "ai wud LIKE sum bred pleez",
+     "tr": {
+      "ar": "أريد بعض الخبز من فضلك.",
+      "en": "I would like some bread, please.",
+      "id": "Saya ingin roti, tolong."
+     }
+    },
+    "hint": {
+     "ar": "أكثر أدبًا من I want.",
+     "en": "More polite than \"I want\".",
+     "id": "Lebih sopan daripada \"I want\"."
+    }
+   },
+   {
+    "id": "e19",
+    "target": "Delicious",
+    "translit": "di-LISH-us",
+    "tr": {
+     "ar": "لذيذ",
+     "en": "tasting very good",
+     "id": "Enak"
+    },
+    "example": {
+     "target": "This food is delicious.",
+     "translit": "this food iz di-LISH-us",
+     "tr": {
+      "ar": "هذا الطعام لذيذ.",
+      "en": "This food is delicious.",
+      "id": "Makanan ini enak."
+     }
+    }
+   },
+   {
+    "id": "e20",
+    "target": "Please",
+    "translit": "pleez",
+    "tr": {
+     "ar": "من فضلك",
+     "en": "a word that makes a request polite",
+     "id": "Tolong"
+    },
+    "example": {
+     "target": "Please help me.",
+     "translit": "pleez help mee",
+     "tr": {
+      "ar": "من فضلك ساعدني.",
+      "en": "Please help me.",
+      "id": "Tolong bantu saya."
+     }
+    },
+    "hint": {
+     "ar": "تأتي في بداية الجملة أو نهايتها.",
+     "en": "It can go at the start or the end of a sentence.",
+     "id": "Bisa di awal atau akhir kalimat."
+    }
+   },
+   {
+    "id": "en05n5",
+    "target": "Do you have any apples?",
+    "translit": "doo yoo HAV EN-ee AP-ulz",
+    "tr": {
+     "ar": "هل عندكم تفاح؟",
+     "en": "asking if a shop sells something",
+     "id": "Apakah Anda punya apel?"
+    },
+    "example": {
+     "target": "Do you have any apples today?",
+     "translit": "doo yoo HAV EN-ee AP-ulz too-DAY",
+     "tr": {
+      "ar": "هل عندكم تفاح اليوم؟",
+      "en": "Do you have any apples today?",
+      "id": "Apakah hari ini Anda punya apel?"
+     }
+    },
+    "hint": {
+     "ar": "any تُستخدم في الأسئلة والنفي.",
+     "en": "\"Any\" is used in questions and negatives.",
+     "id": "\"Any\" dipakai di pertanyaan dan kalimat negatif."
+    }
+   },
+   {
+    "id": "en05n6",
+    "target": "It is too expensive",
+    "translit": "it iz too ek-SPEN-siv",
+    "tr": {
+     "ar": "إنه غالٍ جدًا",
+     "en": "costing more than you want to pay",
+     "id": "Ini terlalu mahal"
+    },
+    "example": {
+     "target": "Sorry, it is too expensive for me.",
+     "translit": "SOR-ee it iz too ek-SPEN-siv for mee",
+     "tr": {
+      "ar": "آسف، إنه غالٍ جدًا عليّ.",
+      "en": "Sorry, it is too expensive for me.",
+      "id": "Maaf, ini terlalu mahal untuk saya."
+     }
+    },
+    "hint": {
+     "ar": "too تعني \"أكثر من اللازم\".",
+     "en": "\"Too\" means more than is good.",
+     "id": "\"Too\" berarti lebih dari yang diinginkan."
+    }
+   }
+  ],
+  "cloze": [
+   {
+    "sentence": "How ___ is this bag?",
+    "answer": "much",
+    "wrong": [
+     "many",
+     "long"
+    ],
+    "tr": {
+     "ar": "كم سعر هذه الحقيبة؟",
+     "en": "How much is this bag?",
+     "id": "Berapa harga tas ini?"
+    },
+    "why": {
+     "ar": "نسأل عن السعر بـ How much. How many للعدّ وHow long للمدة.",
+     "en": "We ask price with \"How much\". \"How many\" counts things and \"How long\" asks about time.",
+     "id": "Harga ditanyakan dengan \"How much\". \"How many\" untuk jumlah dan \"How long\" untuk waktu."
+    }
+   },
+   {
+    "sentence": "I ___ like two bananas, please.",
+    "answer": "would",
+    "wrong": [
+     "am",
+     "does"
+    ],
+    "tr": {
+     "ar": "أريد موزتين من فضلك.",
+     "en": "I would like two bananas, please.",
+     "id": "Saya ingin dua pisang, tolong."
+    },
+    "why": {
+     "ar": "I would like هي الصيغة المهذبة. am وdoes لا تناسبان هنا.",
+     "en": "\"I would like\" is the polite pattern. \"Am\" and \"does\" do not fit here.",
+     "id": "\"I would like\" adalah pola sopan. \"Am\" dan \"does\" tidak cocok di sini."
+    }
+   }
+  ],
+  "summary": {
+   "ar": "تعلمت أن تسأل عن السعر بـ How much وأن تطلب بـ I would like. استخدمهما في أي متجر.",
+   "en": "You learned to ask prices with \"How much\" and to request with \"I would like\". Use them in any shop.",
+   "id": "Kamu belajar menanyakan harga dengan \"How much\" dan meminta dengan \"I would like\". Pakai di toko mana pun."
+  },
+  "conversation": {
+   "context": {
+    "ar": "في محل خبز: زبون يتحدث مع البائع.",
+    "en": "At a bakery: a customer talks to the shop assistant.",
+    "id": "Di toko roti: pembeli berbicara dengan penjual."
+   },
+   "turns": [
+    {
+     "who": "A",
+     "target": "Good morning. Can I help you?",
+     "tr": {
+      "ar": "صباح الخير. هل أستطيع مساعدتك؟",
+      "en": "Good morning. Can I help you?",
+      "id": "Selamat pagi. Ada yang bisa saya bantu?"
+     }
+    },
+    {
+     "who": "B",
+     "target": "I would like two rolls, please.",
+     "tr": {
+      "ar": "أريد خبزتين صغيرتين من فضلك.",
+      "en": "I would like two rolls, please.",
+      "id": "Saya mau dua roti kecil, tolong."
+     }
+    },
+    {
+     "who": "A",
+     "target": "That is three dollars.",
+     "tr": {
+      "ar": "الحساب ثلاثة دولارات.",
+      "en": "That is three dollars.",
+      "id": "Totalnya tiga dolar."
+     }
+    }
+   ],
+   "gap": 1,
+   "wrong": [
+    "It is Tuesday.",
+    "I am fine, thanks."
+   ],
+   "why": {
+    "ar": "الجواب الصحيح يطلب شيئًا بأدب. الجوابان الآخران لا يردّان على عرض المساعدة.",
+    "en": "The right reply makes a polite request. The other two do not answer an offer of help.",
+    "id": "Jawaban benar meminta sesuatu dengan sopan. Dua lainnya tidak menjawab tawaran bantuan."
+   }
+  }
+ },
+ {
+  "track": "en",
+  "level": "elementary",
+  "id": "en-19",
+  "order": 12,
+  "topic": "restaurant",
+  "icon": "🍽️",
+  "title": {
+   "ar": "في المطعم أو المقهى",
+   "en": "At a restaurant or cafe",
+   "id": "Di restoran atau kafe"
+  },
+  "description": {
+   "ar": "اطلب طاولة وأكلًا ومشروبات واطلب الحساب بلغة مهذبة.",
+   "en": "Ask for a table, order food and drinks, and ask for the bill politely.",
+   "id": "Minta meja, pesan makanan dan minuman, lalu minta tagihan dengan sopan."
+  },
+  "objectives": [
+   {
+    "ar": "أستطيع أن أطلب طاولة وأرى قائمة الطعام.",
+    "en": "I can ask for a table and see the menu.",
+    "id": "Saya bisa meminta meja dan melihat menu."
+   },
+   {
+    "ar": "أستطيع أن أطلب أكلًا ومشروبًا بعبارة I'll have.",
+    "en": "I can order food and a drink with \"I'll have\".",
+    "id": "Saya bisa memesan makanan dan minuman dengan \"I'll have\"."
+   },
+   {
+    "ar": "أستطيع أن أطلب الحساب بأدب.",
+    "en": "I can ask for the bill politely.",
+    "id": "Saya bisa meminta tagihan dengan sopan."
+   }
+  ],
+  "intro": {
+   "ar": "في المطاعم يستخدم الناطقون بالإنجليزية عبارات الطلب المهذبة مثل Could I... و Can we... في هذا الدرس نتدرب على الجمل من لحظة الدخول حتى دفع الحساب.",
+   "en": "In restaurants English speakers use polite request forms like \"Could I...\" and \"Can we...\". In this lesson you practise sentences from walking in to paying the bill.",
+   "id": "Di restoran penutur bahasa Inggris memakai bentuk permintaan sopan seperti \"Could I...\" dan \"Can we...\". Di pelajaran ini kamu berlatih kalimat dari masuk sampai membayar."
+  },
+  "culture": {
+   "ar": "في بريطانيا وأمريكا عادة يُترك بقشيش، نحو 10 إلى 20 في المئة في أمريكا، وأقل في بريطانيا إذا لم تكن الخدمة مضافة. وغالبًا يأتي النادل بعد الأكل بقليل ليسأل \"Is everything okay?\"",
+   "en": "In the UK and the US a tip is usual: around 10 to 20 percent in the US, and a little less in the UK if service is not already added. The waiter often checks on you with \"Is everything okay?\" soon after the food arrives.",
+   "id": "Di Inggris dan Amerika tip itu lazim: sekitar 10 sampai 20 persen di AS, dan sedikit lebih kecil di Inggris jika biaya layanan belum termasuk. Pelayan biasanya menanyakan \"Is everything okay?\" tak lama setelah makanan datang."
+  },
+  "grammar": {
+   "title": {
+    "ar": "Could / Can للطلب وعبارة I'll have",
+    "en": "\"Could / Can\" for requests and \"I'll have\"",
+    "id": "\"Could / Can\" untuk permintaan dan \"I'll have\""
+   },
+   "body": {
+    "ar": "Could I have...? أكثر أدبًا من Can I have...? وعند اتخاذ قرار الطلب نقول I'll have... أي \"سآخذ...\". بعد الفاعل يأتي الفعل بصيغته الأساسية: Could we see the menu?",
+    "en": "\"Could I have...?\" is more polite than \"Can I have...?\". When you decide what to order you say \"I'll have...\" meaning \"I will take...\". After the subject use the base verb: Could we see the menu?",
+    "id": "\"Could I have...?\" lebih sopan daripada \"Can I have...?\". Saat memutuskan pesanan, katakan \"I'll have...\" artinya \"saya ambil...\". Setelah subjek pakai kata kerja dasar: Could we see the menu?"
+   }
+  },
+  "items": [
+   {
+    "id": "en19n1",
+    "target": "A table for two, please",
+    "translit": "uh TAY-bul for TOO pleez",
+    "tr": {
+     "ar": "طاولة لشخصين من فضلك",
+     "en": "asking for a place to sit for two people",
+     "id": "Meja untuk dua orang, tolong"
+    },
+    "example": {
+     "target": "A table for two, please. We have a reservation.",
+     "translit": "uh TAY-bul for TOO pleez. wee HAV uh rez-er-VAY-shun",
+     "tr": {
+      "ar": "طاولة لشخصين من فضلك. لدينا حجز.",
+      "en": "A table for two, please. We have a reservation.",
+      "id": "Meja untuk dua orang, tolong. Kami sudah reservasi."
+     }
+    }
+   },
+   {
+    "id": "en19n2",
+    "target": "Could I see the menu?",
+    "translit": "kood ai SEE the MEN-yoo",
+    "tr": {
+     "ar": "هل أستطيع رؤية قائمة الطعام؟",
+     "en": "a polite way to ask for the list of food",
+     "id": "Boleh saya lihat menunya?"
+    },
+    "example": {
+     "target": "Could I see the menu, please?",
+     "translit": "kood ai SEE the MEN-yoo pleez",
+     "tr": {
+      "ar": "هل أستطيع رؤية القائمة من فضلك؟",
+      "en": "Could I see the menu, please?",
+      "id": "Boleh saya lihat menunya, tolong?"
+     }
+    }
+   },
+   {
+    "id": "en19n3",
+    "target": "I'll have the chicken",
+    "translit": "ail HAV the CHIK-in",
+    "tr": {
+     "ar": "سآخذ الدجاج",
+     "en": "saying what you choose to eat",
+     "id": "Saya pesan ayam"
+    },
+    "example": {
+     "target": "I'll have the chicken and a salad.",
+     "translit": "ail HAV the CHIK-in and uh SAL-ud",
+     "tr": {
+      "ar": "سآخذ الدجاج وسلطة.",
+      "en": "I'll have the chicken and a salad.",
+      "id": "Saya pesan ayam dan salad."
+     }
+    },
+    "hint": {
+     "ar": "I'll = I will.",
+     "en": "I'll = I will.",
+     "id": "I'll = I will."
+    }
+   },
+   {
+    "id": "en19n4",
+    "target": "Still or sparkling?",
+    "translit": "stil or SPAR-kling",
+    "tr": {
+     "ar": "ساكنة أم غازية؟",
+     "en": "a waiter's question about plain or fizzy water",
+     "id": "Air biasa atau berkarbonasi?"
+    },
+    "example": {
+     "target": "Still or sparkling water?",
+     "translit": "stil or SPAR-kling WAW-ter",
+     "tr": {
+      "ar": "ماء عادي أم غازي؟",
+      "en": "Still or sparkling water?",
+      "id": "Air putih biasa atau soda?"
+     }
+    },
+    "hint": {
+     "ar": "يسأل النادل هذا السؤال عادة في أوروبا.",
+     "en": "Waiters often ask this, especially in Europe.",
+     "id": "Pelayan sering menanyakan ini, terutama di Eropa."
+    }
+   },
+   {
+    "id": "en19n5",
+    "target": "Is service included?",
+    "translit": "iz SER-vis in-KLOO-did",
+    "tr": {
+     "ar": "هل الخدمة مشمولة؟",
+     "en": "asking if a tip is already on the bill",
+     "id": "Apakah biaya layanan sudah termasuk?"
+    },
+    "example": {
+     "target": "Excuse me, is service included?",
+     "translit": "ek-SKYOOZ mee iz SER-vis in-KLOO-did",
+     "tr": {
+      "ar": "عفوًا، هل الخدمة مشمولة؟",
+      "en": "Excuse me, is service included?",
+      "id": "Permisi, apakah biaya layanan sudah termasuk?"
+     }
+    }
+   },
+   {
+    "id": "en19n6",
+    "target": "Could we have the bill, please?",
+    "translit": "kood wee HAV the BIL pleez",
+    "tr": {
+     "ar": "هل نستطيع الحصول على الحساب من فضلك؟",
+     "en": "asking the waiter to bring the check",
+     "id": "Boleh minta tagihannya, tolong?"
+    },
+    "example": {
+     "target": "Could we have the bill, please? We are in a hurry.",
+     "translit": "kood wee HAV the BIL pleez. wee ar in uh HUR-ee",
+     "tr": {
+      "ar": "هل نستطيع الحصول على الحساب من فضلك؟ نحن مستعجلون.",
+      "en": "Could we have the bill, please? We are in a hurry.",
+      "id": "Boleh minta tagihannya, tolong? Kami sedang terburu-buru."
+     }
+    },
+    "hint": {
+     "ar": "في أمريكا يقولون check بدل bill.",
+     "en": "In the US people say \"check\" instead of \"bill\".",
+     "id": "Di AS orang bilang \"check\", bukan \"bill\"."
+    }
+   }
+  ],
+  "cloze": [
+   {
+    "sentence": "___ I have a glass of water, please?",
+    "answer": "Could",
+    "wrong": [
+     "Do",
+     "Are"
+    ],
+    "tr": {
+     "ar": "هل أستطيع الحصول على كوب ماء من فضلك؟",
+     "en": "Could I have a glass of water, please?",
+     "id": "Boleh saya minta segelas air, tolong?"
+    },
+    "why": {
+     "ar": "Could I have...? صيغة طلب مهذبة. Do وAre لا تُستخدمان في هذا الطلب.",
+     "en": "\"Could I have...?\" is a polite request. \"Do\" and \"Are\" do not make this request.",
+     "id": "\"Could I have...?\" adalah permintaan sopan. \"Do\" dan \"Are\" tidak membentuk permintaan ini."
+    }
+   },
+   {
+    "sentence": "I'll ___ the soup and then the fish.",
+    "answer": "have",
+    "wrong": [
+     "has",
+     "having"
+    ],
+    "tr": {
+     "ar": "سآخذ الشوربة ثم السمك.",
+     "en": "I'll have the soup and then the fish.",
+     "id": "Saya pesan sup lalu ikan."
+    },
+    "why": {
+     "ar": "بعد I'll نستخدم الفعل الأساسي have. has وhaving خطأ هنا.",
+     "en": "After \"I'll\" we use the base verb \"have\". \"Has\" and \"having\" are wrong here.",
+     "id": "Setelah \"I'll\" dipakai kata kerja dasar \"have\". \"Has\" dan \"having\" salah di sini."
+    }
+   }
+  ],
+  "summary": {
+   "ar": "تعلمت كيف تطلب طاولة وتختار الطعام وتطلب الحساب بأدب. استخدم Could I... وI'll have... في أي مطعم.",
+   "en": "You learned to ask for a table, choose food and ask for the bill politely. Use \"Could I...\" and \"I'll have...\" in any restaurant.",
+   "id": "Kamu belajar meminta meja, memilih makanan, dan meminta tagihan dengan sopan. Pakai \"Could I...\" dan \"I'll have...\" di restoran mana pun."
+  },
+  "conversation": {
+   "context": {
+    "ar": "في مقهى: نادل وزبون يطلبان القهوة.",
+    "en": "In a cafe: a waiter and a customer order coffee.",
+    "id": "Di kafe: pelayan dan pelanggan memesan kopi."
+   },
+   "turns": [
+    {
+     "who": "A",
+     "target": "Hi, are you ready to order?",
+     "tr": {
+      "ar": "مرحبًا، هل أنت جاهز للطلب؟",
+      "en": "Hi, are you ready to order?",
+      "id": "Halo, sudah siap memesan?"
+     }
+    },
+    {
+     "who": "B",
+     "target": "Yes, I'll have a coffee and a sandwich, please.",
+     "tr": {
+      "ar": "نعم، سآخذ قهوة وساندويتش من فضلك.",
+      "en": "Yes, I'll have a coffee and a sandwich, please.",
+      "id": "Ya, saya pesan kopi dan sandwich, tolong."
+     }
+    },
+    {
+     "who": "A",
+     "target": "Anything else?",
+     "tr": {
+      "ar": "أي شيء آخر؟",
+      "en": "Anything else?",
+      "id": "Ada lagi?"
+     }
+    },
+    {
+     "who": "B",
+     "target": "No, that's all, thank you.",
+     "tr": {
+      "ar": "لا، هذا كل شيء، شكرًا.",
+      "en": "No, that's all, thank you.",
+      "id": "Tidak, itu saja, terima kasih."
+     }
+    }
+   ],
+   "gap": 1,
+   "wrong": [
+    "It is on the table.",
+    "I am a teacher."
+   ],
+   "why": {
+    "ar": "النادل سأل إن كان الزبون جاهزًا للطلب، فالجواب الصحيح هو الطلب نفسه. الجوابان الآخران لا علاقة لهما بالسؤال.",
+    "en": "The waiter asked if the customer is ready to order, so the right answer is the order itself. The other two replies have nothing to do with the question.",
+    "id": "Pelayan menanyakan apakah pelanggan siap memesan, jadi jawaban benar adalah pesanannya. Dua jawaban lain tidak berkaitan dengan pertanyaan."
+   }
+  }
+ },
+ {
+  "track": "en",
+  "level": "elementary",
+  "id": "en-08",
+  "order": 13,
+  "topic": "days-schedule",
+  "icon": "📆",
+  "title": {
+   "ar": "الأيام والجداول",
+   "en": "Days and schedules",
+   "id": "Hari dan jadwal"
+  },
+  "description": {
+   "ar": "تعلّم أيام الأسبوع وأوقات اليوم لتتحدث عن مواعيدك.",
+   "en": "Learn the days of the week and parts of the day to talk about your schedule.",
+   "id": "Pelajari nama hari dan bagian hari untuk membicarakan jadwalmu."
+  },
+  "objectives": [
+   {
+    "ar": "أستطيع أن أقول أيام الأسبوع.",
+    "en": "I can say the days of the week.",
+    "id": "Saya bisa menyebutkan nama-nama hari."
+   },
+   {
+    "ar": "أستطيع أن أستخدم on وin وat مع الأيام وأوقات اليوم.",
+    "en": "I can use on, in and at with days and times of day.",
+    "id": "Saya bisa memakai on, in, dan at dengan hari dan waktu."
+   },
+   {
+    "ar": "أستطيع أن أسأل ما اليوم وأتحدث عن عطلة نهاية الأسبوع.",
+    "en": "I can ask what day it is and talk about the weekend.",
+    "id": "Saya bisa menanyakan hari ini hari apa dan membicarakan akhir pekan."
+   }
+  ],
+  "intro": {
+   "ar": "ستتعلم هنا أسماء الأيام وعبارات المواعيد البسيطة. هذه الكلمات مهمة جدًا لتحديد لقاء أو عمل أو دراسة.",
+   "en": "Here you learn the names of the days and simple phrases for appointments. These words are essential for planning meetings, work and study.",
+   "id": "Di sini kamu belajar nama hari dan frasa sederhana untuk janji. Kata-kata ini penting untuk merencanakan pertemuan, pekerjaan, dan belajar."
+  },
+  "culture": {
+   "ar": "في معظم الدول الناطقة بالإنجليزية تُكتب أسماء الأيام بحرف كبير، ويبدأ الأسبوع في أمريكا يوم الأحد وفي بريطانيا غالبًا يوم الاثنين. والعطلة تكون السبت والأحد، وتسمى the weekend.",
+   "en": "In most English-speaking countries day names start with a capital letter. The week starts on Sunday in the US and usually on Monday in the UK. The days off are Saturday and Sunday, called \"the weekend\".",
+   "id": "Di sebagian besar negara berbahasa Inggris, nama hari diawali huruf kapital. Minggu dimulai hari Minggu di AS dan biasanya hari Senin di Inggris. Hari libur adalah Sabtu dan Minggu, disebut \"the weekend\"."
+  },
+  "grammar": {
+   "title": {
+    "ar": "on / in / at مع الوقت",
+    "en": "\"On / in / at\" with time",
+    "id": "\"On / in / at\" dengan waktu"
+   },
+   "body": {
+    "ar": "نقول on مع الأيام (on Monday) وin مع أجزاء اليوم (in the morning) وat مع الليل (at night). تنبيه: لا نقول in Monday.",
+    "en": "We say \"on\" with days (on Monday), \"in\" with parts of the day (in the morning) and \"at\" with night (at night). Note: we never say \"in Monday\".",
+    "id": "Kita pakai \"on\" untuk hari (on Monday), \"in\" untuk bagian hari (in the morning), dan \"at\" untuk malam (at night). Catatan: tidak pernah \"in Monday\"."
+   }
+  },
+  "items": [
+   {
+    "id": "enx081",
+    "target": "Monday",
+    "translit": "MUN-day",
+    "tr": {
+     "ar": "الاثنين",
+     "en": "the first working day of the week in many countries",
+     "id": "Senin"
+    },
+    "example": {
+     "target": "See you on Monday.",
+     "translit": "see yoo on MUN-day",
+     "tr": {
+      "ar": "أراك يوم الاثنين.",
+      "en": "See you on Monday.",
+      "id": "Sampai jumpa hari Senin."
+     }
+    },
+    "hint": {
+     "ar": "حرف o يُنطق مثل u القصيرة.",
+     "en": "The \"o\" sounds like a short \"u\".",
+     "id": "Huruf \"o\" dibaca seperti \"u\" pendek."
+    }
+   },
+   {
+    "id": "enx082",
+    "target": "Friday",
+    "translit": "FRAI-day",
+    "tr": {
+     "ar": "الجمعة",
+     "en": "the last working day of the week",
+     "id": "Jumat"
+    },
+    "example": {
+     "target": "Today is Friday.",
+     "translit": "too-DAY iz FRAI-day",
+     "tr": {
+      "ar": "اليوم هو الجمعة.",
+      "en": "Today is Friday.",
+      "id": "Hari ini Jumat."
+     }
+    }
+   },
+   {
+    "id": "enx083",
+    "target": "Morning",
+    "translit": "MOR-ning",
+    "tr": {
+     "ar": "الصباح",
+     "en": "the early part of the day before noon",
+     "id": "Pagi"
+    },
+    "example": {
+     "target": "I work in the morning.",
+     "translit": "ai WERK in the MOR-ning",
+     "tr": {
+      "ar": "أعمل في الصباح.",
+      "en": "I work in the morning.",
+      "id": "Saya bekerja pada pagi hari."
+     }
+    }
+   },
+   {
+    "id": "enx084",
+    "target": "Night",
+    "translit": "nait",
+    "tr": {
+     "ar": "الليل",
+     "en": "the dark part of the day when people sleep",
+     "id": "Malam"
+    },
+    "example": {
+     "target": "Good night!",
+     "translit": "good NAIT",
+     "tr": {
+      "ar": "تصبح على خير!",
+      "en": "Good night!",
+      "id": "Selamat malam!"
+     }
+    },
+    "hint": {
+     "ar": "Good night تُقال عند النوم أو الوداع ليلًا فقط.",
+     "en": "\"Good night\" is only said when leaving or going to bed.",
+     "id": "\"Good night\" hanya diucapkan saat pamit atau akan tidur."
+    }
+   },
+   {
+    "id": "en08n5",
+    "target": "What day is it today?",
+    "translit": "wut DAY iz it too-DAY",
+    "tr": {
+     "ar": "ما اليوم؟",
+     "en": "a question to find out the day of the week",
+     "id": "Hari ini hari apa?"
+    },
+    "example": {
+     "target": "What day is it today? It's Wednesday.",
+     "translit": "wut DAY iz it too-DAY. its WENZ-day",
+     "tr": {
+      "ar": "ما اليوم؟ إنه الأربعاء.",
+      "en": "What day is it today? It is Wednesday.",
+      "id": "Hari ini hari apa? Hari Rabu."
+     }
+    },
+    "hint": {
+     "ar": "Wednesday تُنطق WENZ-day وليس بالحرف d.",
+     "en": "\"Wednesday\" sounds like WENZ-day; the first \"d\" is silent.",
+     "id": "\"Wednesday\" dibaca WENZ-day; huruf \"d\" pertama tidak dibunyikan."
+    }
+   },
+   {
+    "id": "en08n6",
+    "target": "The weekend",
+    "translit": "the WEEK-end",
+    "tr": {
+     "ar": "عطلة نهاية الأسبوع",
+     "en": "Saturday and Sunday, the days off",
+     "id": "Akhir pekan"
+    },
+    "example": {
+     "target": "I relax at the weekend.",
+     "translit": "ai ri-LAKS at the WEEK-end",
+     "tr": {
+      "ar": "أرتاح في عطلة نهاية الأسبوع.",
+      "en": "I relax at the weekend.",
+      "id": "Saya bersantai di akhir pekan."
+     }
+    },
+    "hint": {
+     "ar": "في أمريكا يقولون on the weekend.",
+     "en": "Americans say \"on the weekend\".",
+     "id": "Orang Amerika bilang \"on the weekend\"."
+    }
+   }
+  ],
+  "cloze": [
+   {
+    "sentence": "I have English class ___ Tuesday.",
+    "answer": "on",
+    "wrong": [
+     "in",
+     "at"
+    ],
+    "tr": {
+     "ar": "عندي حصة إنجليزي يوم الثلاثاء.",
+     "en": "I have English class on Tuesday.",
+     "id": "Saya ada kelas bahasa Inggris hari Selasa."
+    },
+    "why": {
+     "ar": "نستخدم on مع أسماء الأيام. in وat غير صحيحتين هنا.",
+     "en": "We use \"on\" with day names. \"In\" and \"at\" are not correct here.",
+     "id": "Kita pakai \"on\" dengan nama hari. \"In\" dan \"at\" tidak tepat di sini."
+    }
+   },
+   {
+    "sentence": "I usually study ___ the morning.",
+    "answer": "in",
+    "wrong": [
+     "on",
+     "to"
+    ],
+    "tr": {
+     "ar": "أدرس عادةً في الصباح.",
+     "en": "I usually study in the morning.",
+     "id": "Saya biasanya belajar di pagi hari."
+    },
+    "why": {
+     "ar": "نقول in the morning. on وto لا تناسبان.",
+     "en": "We say \"in the morning\". \"On\" and \"to\" do not fit.",
+     "id": "Kita bilang \"in the morning\". \"On\" dan \"to\" tidak cocok."
+    }
+   }
+  ],
+  "summary": {
+   "ar": "تعلمت أسماء الأيام وأجزاء اليوم. تذكّر on مع الأيام وin مع الصباح وat مع الليل.",
+   "en": "You learned day names and parts of the day. Remember: on with days, in with the morning, at with night.",
+   "id": "Kamu belajar nama hari dan bagian hari. Ingat: on untuk hari, in untuk pagi, at untuk malam."
+  },
+  "conversation": {
+   "context": {
+    "ar": "زميلان يخططان للقاء.",
+    "en": "Two colleagues plan a meeting.",
+    "id": "Dua rekan kerja merencanakan pertemuan."
+   },
+   "turns": [
+    {
+     "who": "A",
+     "target": "When can we meet?",
+     "tr": {
+      "ar": "متى نستطيع أن نلتقي؟",
+      "en": "When can we meet?",
+      "id": "Kapan kita bisa bertemu?"
+     }
+    },
+    {
+     "who": "B",
+     "target": "How about Friday morning?",
+     "tr": {
+      "ar": "ما رأيك يوم الجمعة صباحًا؟",
+      "en": "How about Friday morning?",
+      "id": "Bagaimana kalau Jumat pagi?"
+     }
+    },
+    {
+     "who": "A",
+     "target": "Friday is perfect. See you then!",
+     "tr": {
+      "ar": "الجمعة مثالي. أراك حينها!",
+      "en": "Friday is perfect. See you then!",
+      "id": "Jumat pas. Sampai jumpa!"
+     }
+    }
+   ],
+   "gap": 1,
+   "wrong": [
+    "I am happy.",
+    "It is a table."
+   ],
+   "why": {
+    "ar": "A سأل متى نلتقي، فالجواب الصحيح يقترح وقتًا. الجوابان الآخران لا يذكران موعدًا.",
+    "en": "A asked when to meet, so the right reply suggests a time. The other two do not mention a time.",
+    "id": "A bertanya kapan bertemu, jadi jawaban benar mengusulkan waktu. Dua lainnya tidak menyebut waktu."
+   }
+  }
+ },
+ {
+  "track": "en",
+  "level": "elementary",
+  "id": "en-20",
+  "order": 14,
+  "topic": "months-weather",
+  "icon": "🌦️",
+  "title": {
+   "ar": "الأشهر والفصول والطقس",
+   "en": "Months, seasons and weather",
+   "id": "Bulan, musim, dan cuaca"
+  },
+  "description": {
+   "ar": "تحدث عن الطقس والفصول والأشهر في حديثك اليومي.",
+   "en": "Talk about the weather, seasons and months in everyday conversation.",
+   "id": "Bicarakan cuaca, musim, dan bulan dalam percakapan sehari-hari."
+  },
+  "objectives": [
+   {
+    "ar": "أستطيع أن أسأل عن الطقس وأصفه.",
+    "en": "I can ask about the weather and describe it.",
+    "id": "Saya bisa menanyakan dan menggambarkan cuaca."
+   },
+   {
+    "ar": "أستطيع أن أسمي الفصول الأربعة.",
+    "en": "I can name the four seasons.",
+    "id": "Saya bisa menyebutkan empat musim."
+   },
+   {
+    "ar": "أستطيع أن أستخدم in مع الأشهر والفصول.",
+    "en": "I can use \"in\" with months and seasons.",
+    "id": "Saya bisa memakai \"in\" dengan bulan dan musim."
+   }
+  ],
+  "intro": {
+   "ar": "الحديث عن الطقس هو أشهر طريقة لبدء محادثة قصيرة بالإنجليزية. ستتعلم كلمات بسيطة للطقس والفصول والأشهر.",
+   "en": "Talking about the weather is the most common way to start small talk in English. You will learn simple words for weather, seasons and months.",
+   "id": "Membicarakan cuaca adalah cara paling umum membuka obrolan ringan dalam bahasa Inggris. Kamu akan belajar kata sederhana untuk cuaca, musim, dan bulan."
+  },
+  "culture": {
+   "ar": "يحب البريطانيون خصوصًا الحديث عن الطقس مع الغرباء، فعبارة \"Nice weather today, isn't it?\" تكسر الجمود بلطف. وفي نصف الكرة الشمالي يكون الصيف في يونيو ويوليو وأغسطس، أما في أستراليا فيكون في ديسمبر ويناير.",
+   "en": "British people in particular love talking about the weather with strangers, and \"Nice weather today, isn't it?\" is a gentle ice-breaker. In the northern hemisphere summer is June, July and August; in Australia it is December and January.",
+   "id": "Orang Inggris khususnya suka membicarakan cuaca dengan orang asing, dan \"Nice weather today, isn't it?\" adalah pembuka yang ramah. Di belahan bumi utara musim panas adalah Juni, Juli, Agustus; di Australia Desember dan Januari."
+  },
+  "grammar": {
+   "title": {
+    "ar": "It is + صفة للطقس وin مع الأشهر",
+    "en": "\"It is\" + weather adjective, and \"in\" with months",
+    "id": "\"It is\" + kata sifat cuaca, dan \"in\" dengan bulan"
+   },
+   "body": {
+    "ar": "نبدأ جملة الطقس بـ It is (أو It's): It's cold. وللأفعال: It's raining. ونستخدم in مع الأشهر والفصول: in July, in winter.",
+    "en": "Start weather sentences with \"It is\" (or \"It's\"): It's cold. With verbs: It's raining. Use \"in\" with months and seasons: in July, in winter.",
+    "id": "Mulai kalimat cuaca dengan \"It is\" (atau \"It's\"): It's cold. Dengan kata kerja: It's raining. Pakai \"in\" untuk bulan dan musim: in July, in winter."
+   }
+  },
+  "items": [
+   {
+    "id": "en20n1",
+    "target": "What's the weather like?",
+    "translit": "wuts the WETH-er LIKE",
+    "tr": {
+     "ar": "كيف الطقس؟",
+     "en": "asking about today's weather",
+     "id": "Bagaimana cuacanya?"
+    },
+    "example": {
+     "target": "What's the weather like in London today?",
+     "translit": "wuts the WETH-er LIKE in LUN-dun too-DAY",
+     "tr": {
+      "ar": "كيف الطقس في لندن اليوم؟",
+      "en": "What is the weather like in London today?",
+      "id": "Bagaimana cuaca di London hari ini?"
+     }
+    }
+   },
+   {
+    "id": "en20n2",
+    "target": "It's sunny",
+    "translit": "its SUN-ee",
+    "tr": {
+     "ar": "الجو مشمس",
+     "en": "the sun is shining and the sky is clear",
+     "id": "Cuacanya cerah"
+    },
+    "example": {
+     "target": "It's sunny, so let's go to the park.",
+     "translit": "its SUN-ee soh LETS goh too the PARK",
+     "tr": {
+      "ar": "الجو مشمس، فلنذهب إلى الحديقة.",
+      "en": "It is sunny, so let us go to the park.",
+      "id": "Cuacanya cerah, jadi ayo ke taman."
+     }
+    }
+   },
+   {
+    "id": "en20n3",
+    "target": "It's raining",
+    "translit": "its RAY-ning",
+    "tr": {
+     "ar": "إنها تمطر",
+     "en": "water is falling from the clouds",
+     "id": "Sedang hujan"
+    },
+    "example": {
+     "target": "Take an umbrella. It's raining.",
+     "translit": "tayk an um-BREL-uh. its RAY-ning",
+     "tr": {
+      "ar": "خذ مظلة. إنها تمطر.",
+      "en": "Take an umbrella. It is raining.",
+      "id": "Bawa payung. Sedang hujan."
+     }
+    },
+    "hint": {
+     "ar": "it هنا لا تعني شيئًا، فهي فاعل شكلي.",
+     "en": "\"It\" here has no meaning; it is just a dummy subject.",
+     "id": "\"It\" di sini tidak punya arti; hanya subjek formal."
+    }
+   },
+   {
+    "id": "en20n4",
+    "target": "Cold",
+    "translit": "kohld",
+    "tr": {
+     "ar": "بارد",
+     "en": "a low temperature",
+     "id": "Dingin"
+    },
+    "example": {
+     "target": "It is very cold in winter.",
+     "translit": "it iz VER-ee KOHLD in WIN-ter",
+     "tr": {
+      "ar": "الجو بارد جدًا في الشتاء.",
+      "en": "It is very cold in winter.",
+      "id": "Sangat dingin di musim dingin."
+     }
+    }
+   },
+   {
+    "id": "en20n5",
+    "target": "Summer",
+    "translit": "SUM-er",
+    "tr": {
+     "ar": "الصيف",
+     "en": "the hottest season of the year",
+     "id": "Musim panas"
+    },
+    "example": {
+     "target": "We travel in summer.",
+     "translit": "wee TRAV-ul in SUM-er",
+     "tr": {
+      "ar": "نسافر في الصيف.",
+      "en": "We travel in summer.",
+      "id": "Kami bepergian di musim panas."
+     }
+    },
+    "hint": {
+     "ar": "الفصول الأربعة: spring وsummer وautumn (fall) وwinter.",
+     "en": "The four seasons: spring, summer, autumn (fall), winter.",
+     "id": "Empat musim: spring, summer, autumn (fall), winter."
+    }
+   },
+   {
+    "id": "en20n6",
+    "target": "My birthday is in July",
+    "translit": "mai BERTH-day iz in joo-LAI",
+    "tr": {
+     "ar": "عيد ميلادي في يوليو",
+     "en": "telling the month of an event",
+     "id": "Ulang tahun saya di bulan Juli"
+    },
+    "example": {
+     "target": "My birthday is in July.",
+     "translit": "mai BERTH-day iz in joo-LAI",
+     "tr": {
+      "ar": "عيد ميلادي في يوليو.",
+      "en": "My birthday is in July.",
+      "id": "Ulang tahun saya di bulan Juli."
+     }
+    },
+    "hint": {
+     "ar": "الأشهر تُكتب دائمًا بحرف كبير.",
+     "en": "Months always start with a capital letter.",
+     "id": "Nama bulan selalu diawali huruf kapital."
+    }
+   }
+  ],
+  "cloze": [
+   {
+    "sentence": "It ___ very hot today.",
+    "answer": "is",
+    "wrong": [
+     "are",
+     "have"
+    ],
+    "tr": {
+     "ar": "الجو حار جدًا اليوم.",
+     "en": "It is very hot today.",
+     "id": "Hari ini sangat panas."
+    },
+    "why": {
+     "ar": "نستخدم it is مع الطقس. are وhave لا تصحّان.",
+     "en": "We use \"it is\" for weather. \"Are\" and \"have\" are not correct.",
+     "id": "Kita pakai \"it is\" untuk cuaca. \"Are\" dan \"have\" tidak benar."
+    }
+   },
+   {
+    "sentence": "School starts ___ September.",
+    "answer": "in",
+    "wrong": [
+     "on",
+     "at"
+    ],
+    "tr": {
+     "ar": "تبدأ المدرسة في سبتمبر.",
+     "en": "School starts in September.",
+     "id": "Sekolah dimulai pada bulan September."
+    },
+    "why": {
+     "ar": "نستخدم in مع الأشهر. on وat غير صحيحتين.",
+     "en": "We use \"in\" with months. \"On\" and \"at\" are not right.",
+     "id": "Kita pakai \"in\" dengan bulan. \"On\" dan \"at\" tidak tepat."
+    }
+   }
+  ],
+  "summary": {
+   "ar": "تعلمت أن تسأل عن الطقس وتصفه وتسمي الفصول. تذكّر It's + صفة وin + شهر.",
+   "en": "You learned to ask about and describe the weather and name the seasons. Remember \"It's\" + adjective and \"in\" + month.",
+   "id": "Kamu belajar menanyakan dan menggambarkan cuaca serta menyebut musim. Ingat \"It's\" + kata sifat dan \"in\" + bulan."
+  },
+  "conversation": {
+   "context": {
+    "ar": "شخصان يتحدثان عن الطقس في محطة الحافلات.",
+    "en": "Two people chat about the weather at a bus stop.",
+    "id": "Dua orang mengobrol tentang cuaca di halte bus."
+   },
+   "turns": [
+    {
+     "who": "A",
+     "target": "What's the weather like today?",
+     "tr": {
+      "ar": "كيف الطقس اليوم؟",
+      "en": "What is the weather like today?",
+      "id": "Bagaimana cuaca hari ini?"
+     }
+    },
+    {
+     "who": "B",
+     "target": "It's cloudy and a little cold.",
+     "tr": {
+      "ar": "الجو غائم وبارد قليلًا.",
+      "en": "It is cloudy and a little cold.",
+      "id": "Berawan dan agak dingin."
+     }
+    },
+    {
+     "who": "A",
+     "target": "Maybe it will rain later.",
+     "tr": {
+      "ar": "ربما تمطر لاحقًا.",
+      "en": "Maybe it will rain later.",
+      "id": "Mungkin nanti hujan."
+     }
+    }
+   ],
+   "gap": 1,
+   "wrong": [
+    "I like pizza.",
+    "My name is Sam."
+   ],
+   "why": {
+    "ar": "السؤال عن الطقس، فالجواب الصحيح يصف الطقس. الجوابان الآخران يتحدثان عن موضوع مختلف.",
+    "en": "The question is about the weather, so the right reply describes the weather. The other two talk about something else.",
+    "id": "Pertanyaannya tentang cuaca, jadi jawaban benar menggambarkan cuaca. Dua lainnya membahas hal lain."
+   }
+  }
+ },
+ {
+  "track": "en",
+  "level": "elementary",
+  "id": "en-06",
+  "order": 15,
+  "topic": "simple-questions",
+  "icon": "❓",
+  "title": {
+   "ar": "أسئلة بسيطة",
+   "en": "Simple questions",
+   "id": "Pertanyaan sederhana"
+  },
+  "description": {
+   "ar": "اسأل وأجب بأسئلة قصيرة تحتاجها في الحياة اليومية.",
+   "en": "Ask and answer short questions you need in daily life.",
+   "id": "Bertanya dan menjawab dengan pertanyaan pendek yang dibutuhkan sehari-hari."
+  },
+  "objectives": [
+   {
+    "ar": "أستطيع أن أسأل عن شيء ما أو مكانه.",
+    "en": "I can ask what something is or where it is.",
+    "id": "Saya bisa menanyakan apa sesuatu itu atau di mana."
+   },
+   {
+    "ar": "أستطيع أن أقول إنني لا أفهم.",
+    "en": "I can say that I do not understand.",
+    "id": "Saya bisa mengatakan bahwa saya tidak mengerti."
+   },
+   {
+    "ar": "أستطيع أن أطلب من أحد أن يعيد أو يتكلم ببطء.",
+    "en": "I can ask someone to repeat or speak slowly.",
+    "id": "Saya bisa meminta seseorang mengulang atau berbicara pelan."
+   }
+  ],
+  "intro": {
+   "ar": "حين تتعلم لغة جديدة ستحتاج كثيرًا إلى أن تسأل وتطلب التوضيح. هذه الجمل تنقذك في أي موقف.",
+   "en": "When you learn a new language you often need to ask and to ask for help. These sentences save you in any situation.",
+   "id": "Saat belajar bahasa baru kamu sering perlu bertanya dan meminta penjelasan. Kalimat-kalimat ini menyelamatkanmu di situasi apa pun."
+  },
+  "culture": {
+   "ar": "لا يعتبر الناطقون بالإنجليزية طلب الإعادة أمرًا محرجًا. عبارات مثل \"Sorry?\" و\"Could you say that again?\" مألوفة جدًا، حتى بين أهل اللغة أنفسهم. ابتسم وقل \"please\" وسيساعدك الناس.",
+   "en": "English speakers do not find it embarrassing to ask for repetition. \"Sorry?\" and \"Could you say that again?\" are very common, even between native speakers. Smile, say \"please\" and people will help.",
+   "id": "Penutur bahasa Inggris tidak menganggap meminta pengulangan sebagai hal memalukan. \"Sorry?\" dan \"Could you say that again?\" sangat umum, bahkan antar penutur asli. Tersenyumlah dan katakan \"please\", orang akan membantu."
+  },
+  "grammar": {
+   "title": {
+    "ar": "الأسئلة مع do وcan",
+    "en": "Questions with \"do\" and \"can\"",
+    "id": "Pertanyaan dengan \"do\" dan \"can\""
+   },
+   "body": {
+    "ar": "في الأسئلة الجاهزة نضع الفعل المساعد قبل الفاعل: Can you repeat that? وDo you speak English? والنفي بـ do not: I do not understand. لاحظ أن الفعل بعدها يبقى بصيغته الأساسية.",
+    "en": "In questions we put the helping verb before the subject: \"Can you repeat that?\" \"Do you speak English?\" The negative uses \"do not\": \"I do not understand.\" The verb after it stays in the base form.",
+    "id": "Dalam pertanyaan kita menaruh kata kerja bantu sebelum subjek: \"Can you repeat that?\" \"Do you speak English?\" Bentuk negatif memakai \"do not\": \"I do not understand.\" Kata kerja sesudahnya tetap bentuk dasar."
+   }
+  },
+  "items": [
+   {
+    "id": "e21",
+    "target": "What is this?",
+    "translit": "wut IZ this",
+    "tr": {
+     "ar": "ما هذا؟",
+     "en": "asking the name of an object",
+     "id": "Apa ini?"
+    },
+    "example": {
+     "target": "What is this called?",
+     "translit": "wut iz this KAWLD",
+     "tr": {
+      "ar": "ما اسم هذا؟",
+      "en": "What is this called?",
+      "id": "Apa nama benda ini?"
+     }
+    }
+   },
+   {
+    "id": "e22",
+    "target": "Where are you?",
+    "translit": "WAIR ar yoo",
+    "tr": {
+     "ar": "أين أنت؟",
+     "en": "asking about someone's location",
+     "id": "Di mana kamu?"
+    },
+    "example": {
+     "target": "Where are you now?",
+     "translit": "WAIR ar yoo NOW",
+     "tr": {
+      "ar": "أين أنت الآن؟",
+      "en": "Where are you now?",
+      "id": "Di mana kamu sekarang?"
+     }
+    }
+   },
+   {
+    "id": "e23",
+    "target": "I do not understand",
+    "translit": "ai doo not un-der-STAND",
+    "tr": {
+     "ar": "لا أفهم",
+     "en": "saying that you do not get the meaning",
+     "id": "Saya tidak mengerti"
+    },
+    "example": {
+     "target": "Sorry, I do not understand.",
+     "translit": "SOR-ee ai doo not un-der-STAND",
+     "tr": {
+      "ar": "آسف، لا أفهم.",
+      "en": "Sorry, I do not understand.",
+      "id": "Maaf, saya tidak mengerti."
+     }
+    },
+    "hint": {
+     "ar": "في الكلام العادي يقال I don't understand.",
+     "en": "In speech people say \"I don't understand\".",
+     "id": "Dalam percakapan orang bilang \"I don't understand\"."
+    }
+   },
+   {
+    "id": "e24",
+    "target": "Can you repeat that?",
+    "translit": "kan yoo ri-PEET that",
+    "tr": {
+     "ar": "هل تستطيع أن تعيد ذلك؟",
+     "en": "asking someone to say it again",
+     "id": "Bisakah kamu mengulanginya?"
+    },
+    "example": {
+     "target": "Can you repeat that, please?",
+     "translit": "kan yoo ri-PEET that pleez",
+     "tr": {
+      "ar": "هل تستطيع أن تعيد ذلك من فضلك؟",
+      "en": "Can you repeat that, please?",
+      "id": "Bisakah kamu mengulanginya, tolong?"
+     }
+    }
+   },
+   {
+    "id": "en06n5",
+    "target": "Do you speak English?",
+    "translit": "doo yoo SPEEK ING-glish",
+    "tr": {
+     "ar": "هل تتكلم الإنجليزية؟",
+     "en": "asking if a person knows the language",
+     "id": "Apakah kamu bisa berbahasa Inggris?"
+    },
+    "example": {
+     "target": "Excuse me, do you speak English?",
+     "translit": "ek-SKYOOZ mee doo yoo SPEEK ING-glish",
+     "tr": {
+      "ar": "عفوًا، هل تتكلم الإنجليزية؟",
+      "en": "Excuse me, do you speak English?",
+      "id": "Permisi, apakah Anda bisa berbahasa Inggris?"
+     }
+    }
+   },
+   {
+    "id": "en06n6",
+    "target": "Could you speak more slowly?",
+    "translit": "kood yoo SPEEK mor SLOH-lee",
+    "tr": {
+     "ar": "هل يمكنك أن تتكلم ببطء أكثر؟",
+     "en": "asking someone to talk at a slower speed",
+     "id": "Bisakah Anda berbicara lebih pelan?"
+    },
+    "example": {
+     "target": "Could you speak more slowly, please?",
+     "translit": "kood yoo SPEEK mor SLOH-lee pleez",
+     "tr": {
+      "ar": "هل يمكنك أن تتكلم ببطء أكثر من فضلك؟",
+      "en": "Could you speak more slowly, please?",
+      "id": "Bisakah Anda berbicara lebih pelan, tolong?"
+     }
+    },
+    "hint": {
+     "ar": "Could أكثر أدبًا من Can.",
+     "en": "\"Could\" is more polite than \"can\".",
+     "id": "\"Could\" lebih sopan daripada \"can\"."
+    }
+   }
+  ],
+  "cloze": [
+   {
+    "sentence": "___ you repeat that, please?",
+    "answer": "Can",
+    "wrong": [
+     "Am",
+     "Is"
+    ],
+    "tr": {
+     "ar": "هل تستطيع أن تعيد ذلك من فضلك؟",
+     "en": "Can you repeat that, please?",
+     "id": "Bisakah kamu mengulanginya, tolong?"
+    },
+    "why": {
+     "ar": "نبدأ الطلب بـ Can you. Am وIs لا تتفقان مع you.",
+     "en": "We start the request with \"Can you\". \"Am\" and \"Is\" do not go with \"you\".",
+     "id": "Kita mulai permintaan dengan \"Can you\". \"Am\" dan \"Is\" tidak cocok dengan \"you\"."
+    }
+   },
+   {
+    "sentence": "I do not ___ the question.",
+    "answer": "understand",
+    "wrong": [
+     "understands",
+     "understood"
+    ],
+    "tr": {
+     "ar": "لا أفهم السؤال.",
+     "en": "I do not understand the question.",
+     "id": "Saya tidak mengerti pertanyaannya."
+    },
+    "why": {
+     "ar": "بعد do not نستخدم الفعل الأساسي. understands وunderstood خطأ هنا.",
+     "en": "After \"do not\" we use the base verb. \"Understands\" and \"understood\" are wrong here.",
+     "id": "Setelah \"do not\" dipakai kata kerja dasar. \"Understands\" dan \"understood\" salah di sini."
+    }
+   }
+  ],
+  "summary": {
+   "ar": "تعلمت أسئلة بسيطة وطرقًا مهذبة لطلب الإعادة. هذه الجمل تساعدك حين لا تفهم.",
+   "en": "You learned simple questions and polite ways to ask for repetition. These sentences help whenever you do not understand.",
+   "id": "Kamu belajar pertanyaan sederhana dan cara sopan meminta pengulangan. Kalimat ini membantu saat kamu tidak mengerti."
+  },
+  "conversation": {
+   "context": {
+    "ar": "سائح يسأل عن الطريق في الشارع.",
+    "en": "A tourist asks someone in the street.",
+    "id": "Seorang turis bertanya kepada seseorang di jalan."
+   },
+   "turns": [
+    {
+     "who": "A",
+     "target": "Excuse me, do you speak English?",
+     "tr": {
+      "ar": "عفوًا، هل تتكلم الإنجليزية؟",
+      "en": "Excuse me, do you speak English?",
+      "id": "Permisi, apakah Anda bisa berbahasa Inggris?"
+     }
+    },
+    {
+     "who": "B",
+     "target": "Yes, a little. How can I help?",
+     "tr": {
+      "ar": "نعم، قليلًا. كيف أستطيع مساعدتك؟",
+      "en": "Yes, a little. How can I help?",
+      "id": "Ya, sedikit. Ada yang bisa saya bantu?"
+     }
+    },
+    {
+     "who": "A",
+     "target": "Where is the station?",
+     "tr": {
+      "ar": "أين المحطة؟",
+      "en": "Where is the station?",
+      "id": "Di mana stasiunnya?"
+     }
+    }
+   ],
+   "gap": 1,
+   "wrong": [
+    "It is Monday.",
+    "I like blue."
+   ],
+   "why": {
+    "ar": "A سأل إن كان B يتكلم الإنجليزية، فالجواب الصحيح يجيب بنعم ويعرض المساعدة. الجوابان الآخران لا يناسبان السؤال.",
+    "en": "A asked if B speaks English, so the right reply says yes and offers help. The other two do not fit the question.",
+    "id": "A bertanya apakah B bisa berbahasa Inggris, jadi jawaban benar mengatakan ya dan menawarkan bantuan. Dua lainnya tidak cocok."
+   }
+  }
+ },
+ {
+  "track": "en",
+  "level": "elementary",
+  "id": "en-12",
+  "order": 16,
+  "topic": "question-words",
+  "icon": "🔎",
+  "title": {
+   "ar": "أسئلة مفيدة",
+   "en": "Useful questions",
+   "id": "Pertanyaan yang berguna"
+  },
+  "description": {
+   "ar": "تعلّم أدوات الاستفهام who وwhat وwhere وwhen وwhy وhow.",
+   "en": "Learn the question words who, what, where, when, why and how.",
+   "id": "Pelajari kata tanya who, what, where, when, why, dan how."
+  },
+  "objectives": [
+   {
+    "ar": "أستطيع أن أستخدم أدوات الاستفهام الأساسية.",
+    "en": "I can use the basic question words.",
+    "id": "Saya bisa memakai kata tanya dasar."
+   },
+   {
+    "ar": "أستطيع أن أرتب الجملة: كلمة السؤال + فعل مساعد + فاعل.",
+    "en": "I can order a question: question word + helping verb + subject.",
+    "id": "Saya bisa menyusun pertanyaan: kata tanya + kata kerja bantu + subjek."
+   },
+   {
+    "ar": "أستطيع أن أسأل عن السبب والطريقة والوقت.",
+    "en": "I can ask about reasons, ways and times.",
+    "id": "Saya bisa menanyakan alasan, cara, dan waktu."
+   }
+  ],
+  "intro": {
+   "ar": "أدوات الاستفهام هي مفاتيح المحادثة. إذا عرفتها تستطيع أن تحصل على أي معلومة تقريبًا.",
+   "en": "Question words are the keys to conversation. If you know them you can get almost any information.",
+   "id": "Kata tanya adalah kunci percakapan. Jika kamu menguasainya, kamu bisa mendapatkan hampir semua informasi."
+  },
+  "culture": {
+   "ar": "في المقابلات والعمل والدراسة تُطرح الأسئلة المفتوحة كثيرًا، أي التي لا تُجاب بنعم أو لا. السؤال الجيد دليل على اهتمامك، لذلك لا تتردد في قول \"Why?\" أو \"How does it work?\" بنبرة ودودة.",
+   "en": "In interviews, work and study, open questions (not answered with yes or no) are very common. A good question shows interest, so do not hesitate to say \"Why?\" or \"How does it work?\" in a friendly tone.",
+   "id": "Dalam wawancara, pekerjaan, dan belajar, pertanyaan terbuka (yang tidak dijawab ya atau tidak) sangat umum. Pertanyaan bagus menunjukkan minat, jadi jangan ragu bertanya \"Why?\" atau \"How does it work?\" dengan nada ramah."
+  },
+  "grammar": {
+   "title": {
+    "ar": "ترتيب السؤال",
+    "en": "Question word order",
+    "id": "Urutan kalimat tanya"
+   },
+   "body": {
+    "ar": "الترتيب: كلمة الاستفهام + فعل مساعد (do/does/is/are/can) + الفاعل + الفعل. مثال: Where do you work? وWhen does the class start? لاحظ أن الفعل بعد does يبقى أساسيًا بلا s.",
+    "en": "Order: question word + helping verb (do/does/is/are/can) + subject + verb. Examples: \"Where do you work?\" \"When does the class start?\" Note that the verb after \"does\" stays in base form without -s.",
+    "id": "Urutan: kata tanya + kata kerja bantu (do/does/is/are/can) + subjek + kata kerja. Contoh: \"Where do you work?\" \"When does the class start?\" Perhatikan kata kerja setelah \"does\" tetap bentuk dasar tanpa -s."
+   }
+  },
+  "items": [
+   {
+    "id": "enx121",
+    "target": "Why?",
+    "translit": "WAI",
+    "tr": {
+     "ar": "لماذا؟",
+     "en": "asking for a reason",
+     "id": "Mengapa?"
+    },
+    "example": {
+     "target": "Why are you here?",
+     "translit": "WAI ar yoo HEER",
+     "tr": {
+      "ar": "لماذا أنت هنا؟",
+      "en": "Why are you here?",
+      "id": "Mengapa kamu di sini?"
+     }
+    }
+   },
+   {
+    "id": "enx122",
+    "target": "When?",
+    "translit": "WEN",
+    "tr": {
+     "ar": "متى؟",
+     "en": "asking about time",
+     "id": "Kapan?"
+    },
+    "example": {
+     "target": "When do we start?",
+     "translit": "WEN doo wee START",
+     "tr": {
+      "ar": "متى نبدأ؟",
+      "en": "When do we start?",
+      "id": "Kapan kita mulai?"
+     }
+    }
+   },
+   {
+    "id": "enx123",
+    "target": "How?",
+    "translit": "HOW",
+    "tr": {
+     "ar": "كيف؟",
+     "en": "asking about the way something is done",
+     "id": "Bagaimana?"
+    },
+    "example": {
+     "target": "How does it work?",
+     "translit": "HOW duz it WERK",
+     "tr": {
+      "ar": "كيف يعمل؟",
+      "en": "How does it work?",
+      "id": "Bagaimana cara kerjanya?"
+     }
+    }
+   },
+   {
+    "id": "enx124",
+    "target": "Which one?",
+    "translit": "WICH wun",
+    "tr": {
+     "ar": "أيّ واحد؟",
+     "en": "asking to choose between a few things",
+     "id": "Yang mana?"
+    },
+    "example": {
+     "target": "Which one do you want?",
+     "translit": "WICH wun doo yoo WONT",
+     "tr": {
+      "ar": "أيّ واحد تريد؟",
+      "en": "Which one do you want?",
+      "id": "Yang mana yang kamu mau?"
+     }
+    },
+    "hint": {
+     "ar": "Which للاختيار من عدد محدود.",
+     "en": "\"Which\" is for choosing from a limited group.",
+     "id": "\"Which\" untuk memilih dari kelompok terbatas."
+    }
+   },
+   {
+    "id": "en12n5",
+    "target": "Who is that?",
+    "translit": "HOO iz THAT",
+    "tr": {
+     "ar": "من هذا؟",
+     "en": "asking about a person",
+     "id": "Siapa itu?"
+    },
+    "example": {
+     "target": "Who is that man over there?",
+     "translit": "HOO iz that MAN OH-ver THAIR",
+     "tr": {
+      "ar": "من ذلك الرجل هناك؟",
+      "en": "Who is that man over there?",
+      "id": "Siapa pria di sana itu?"
+     }
+    }
+   },
+   {
+    "id": "en12n6",
+    "target": "What does this word mean?",
+    "translit": "wut DUZ this WERD MEEN",
+    "tr": {
+     "ar": "ماذا تعني هذه الكلمة؟",
+     "en": "asking for the meaning of a word",
+     "id": "Apa arti kata ini?"
+    },
+    "example": {
+     "target": "What does this word mean?",
+     "translit": "wut DUZ this WERD MEEN",
+     "tr": {
+      "ar": "ماذا تعني هذه الكلمة؟",
+      "en": "What does this word mean?",
+      "id": "Apa arti kata ini?"
+     }
+    },
+    "hint": {
+     "ar": "does مع this word لأن الفاعل مفرد.",
+     "en": "\"Does\" is used because the subject is singular.",
+     "id": "\"Does\" dipakai karena subjeknya tunggal."
+    }
+   }
+  ],
+  "cloze": [
+   {
+    "sentence": "___ do you live? In Jakarta.",
+    "answer": "Where",
+    "wrong": [
+     "Who",
+     "Why"
+    ],
+    "tr": {
+     "ar": "أين تسكن؟ في جاكرتا.",
+     "en": "Where do you live? In Jakarta.",
+     "id": "Kamu tinggal di mana? Di Jakarta."
+    },
+    "why": {
+     "ar": "الجواب عن مكان، فنستخدم Where. Who وWhy لا تناسبان.",
+     "en": "The answer is a place, so we use \"Where\". \"Who\" and \"Why\" do not fit.",
+     "id": "Jawabannya tempat, jadi dipakai \"Where\". \"Who\" dan \"Why\" tidak cocok."
+    }
+   },
+   {
+    "sentence": "___ does the film start? At eight.",
+    "answer": "When",
+    "wrong": [
+     "What",
+     "Which"
+    ],
+    "tr": {
+     "ar": "متى يبدأ الفيلم؟ في الثامنة.",
+     "en": "When does the film start? At eight.",
+     "id": "Kapan film dimulai? Pukul delapan."
+    },
+    "why": {
+     "ar": "الجواب وقت، فنستخدم When. What وWhich لا تسألان عن الوقت هنا.",
+     "en": "The answer is a time, so we use \"When\". \"What\" and \"Which\" do not ask about time here.",
+     "id": "Jawabannya waktu, jadi dipakai \"When\". \"What\" dan \"Which\" tidak menanyakan waktu di sini."
+    }
+   }
+  ],
+  "summary": {
+   "ar": "تعلمت أدوات الاستفهام وترتيب السؤال. تدرب على Who وWhat وWhere وWhen وWhy وHow كل يوم.",
+   "en": "You learned question words and question word order. Practise who, what, where, when, why and how every day.",
+   "id": "Kamu belajar kata tanya dan urutan pertanyaan. Latih who, what, where, when, why, dan how setiap hari."
+  },
+  "conversation": {
+   "context": {
+    "ar": "طالب يسأل معلمته عن واجب.",
+    "en": "A student asks his teacher about homework.",
+    "id": "Seorang siswa bertanya kepada gurunya tentang PR."
+   },
+   "turns": [
+    {
+     "who": "A",
+     "target": "When is the homework due?",
+     "tr": {
+      "ar": "متى موعد تسليم الواجب؟",
+      "en": "When is the homework due?",
+      "id": "Kapan PR-nya dikumpulkan?"
+     }
+    },
+    {
+     "who": "B",
+     "target": "It is due on Thursday.",
+     "tr": {
+      "ar": "موعده يوم الخميس.",
+      "en": "It is due on Thursday.",
+      "id": "Dikumpulkan hari Kamis."
+     }
+    },
+    {
+     "who": "A",
+     "target": "How many pages should I write?",
+     "tr": {
+      "ar": "كم صفحة يجب أن أكتب؟",
+      "en": "How many pages should I write?",
+      "id": "Berapa halaman yang harus saya tulis?"
+     }
+    }
+   ],
+   "gap": 1,
+   "wrong": [
+    "Because I like tea.",
+    "It is under the chair."
+   ],
+   "why": {
+    "ar": "السؤال عن الوقت، فالجواب الصحيح يذكر يومًا. الجوابان الآخران يعطيان سببًا أو مكانًا.",
+    "en": "The question asks about time, so the right answer gives a day. The other two give a reason or a place.",
+    "id": "Pertanyaan menanyakan waktu, jadi jawaban benar menyebut hari. Dua lainnya memberi alasan atau tempat."
+   }
+  }
+ },
+ {
+  "track": "en",
+  "level": "elementary",
+  "id": "en-11",
+  "order": 17,
+  "topic": "daily-actions",
+  "icon": "🏃",
+  "title": {
+   "ar": "الأفعال اليومية",
+   "en": "Daily actions",
+   "id": "Kegiatan sehari-hari"
+  },
+  "description": {
+   "ar": "استخدم المضارع البسيط للحديث عن أفعالك المعتادة.",
+   "en": "Use the present simple to talk about your regular actions.",
+   "id": "Pakai present simple untuk membicarakan kegiatan rutinmu."
+  },
+  "objectives": [
+   {
+    "ar": "أستطيع أن أقول ما أفعله كل يوم.",
+    "en": "I can say what I do every day.",
+    "id": "Saya bisa mengatakan apa yang saya lakukan setiap hari."
+   },
+   {
+    "ar": "أستطيع أن أضيف s لفعل he/she/it.",
+    "en": "I can add -s to verbs with he, she and it.",
+    "id": "Saya bisa menambah -s pada kata kerja dengan he, she, dan it."
+   },
+   {
+    "ar": "أستطيع أن أتحدث عن عادات الآخرين.",
+    "en": "I can talk about other people's habits.",
+    "id": "Saya bisa membicarakan kebiasaan orang lain."
+   }
+  ],
+  "intro": {
+   "ar": "المضارع البسيط هو الزمن الأكثر استخدامًا للحديث عن العادات والحقائق. ستتعلم أفعالًا يومية شائعة وقاعدة الـ s.",
+   "en": "The present simple is the most common tense for habits and facts. You will learn common daily verbs and the -s rule.",
+   "id": "Present simple adalah tenses paling umum untuk kebiasaan dan fakta. Kamu akan belajar kata kerja harian yang umum dan aturan -s."
+  },
+  "culture": {
+   "ar": "عند التعارف يسأل الناس \"What do you do?\" ويقصدون عملك. وجواب مثل \"I work in a bank\" أو \"I study medicine\" طبيعي جدًا. وتأتي بعده أسئلة مثل \"Where do you live?\"",
+   "en": "When people meet they ask \"What do you do?\" meaning your job. An answer like \"I work in a bank\" or \"I study medicine\" is very natural, and is often followed by \"Where do you live?\"",
+   "id": "Saat berkenalan orang bertanya \"What do you do?\" yang artinya pekerjaanmu. Jawaban seperti \"I work in a bank\" atau \"I study medicine\" sangat wajar, lalu biasanya diikuti \"Where do you live?\""
+  },
+  "grammar": {
+   "title": {
+    "ar": "المضارع البسيط وs الغائب",
+    "en": "Present simple and the third-person -s",
+    "id": "Present simple dan -s orang ketiga"
+   },
+   "body": {
+    "ar": "مع I وyou وwe وthey نستخدم الفعل الأساسي: I work. ومع he وshe وit نضيف s: she works. بعض الأفعال تأخذ es مثل goes وwatches. والنفي بـ do not / does not.",
+    "en": "With I, you, we and they use the base verb: I work. With he, she and it add -s: she works. Some verbs take -es, like goes and watches. For negatives use do not / does not.",
+    "id": "Dengan I, you, we, dan they pakai kata kerja dasar: I work. Dengan he, she, dan it tambah -s: she works. Beberapa memakai -es, misalnya goes dan watches. Untuk negatif pakai do not / does not."
+   }
+  },
+  "items": [
+   {
+    "id": "enx111",
+    "target": "I eat",
+    "translit": "ai EET",
+    "tr": {
+     "ar": "آكل",
+     "en": "taking food into your body",
+     "id": "Saya makan"
+    },
+    "example": {
+     "target": "I eat rice every day.",
+     "translit": "ai EET rais EV-ree DAY",
+     "tr": {
+      "ar": "آكل الأرز كل يوم.",
+      "en": "I eat rice every day.",
+      "id": "Saya makan nasi setiap hari."
+     }
+    }
+   },
+   {
+    "id": "enx112",
+    "target": "I drink",
+    "translit": "ai DRINK",
+    "tr": {
+     "ar": "أشرب",
+     "en": "taking a liquid into your body",
+     "id": "Saya minum"
+    },
+    "example": {
+     "target": "I drink water in the morning.",
+     "translit": "ai DRINK WAW-ter in the MOR-ning",
+     "tr": {
+      "ar": "أشرب الماء في الصباح.",
+      "en": "I drink water in the morning.",
+      "id": "Saya minum air di pagi hari."
+     }
+    }
+   },
+   {
+    "id": "enx113",
+    "target": "I work",
+    "translit": "ai WERK",
+    "tr": {
+     "ar": "أعمل",
+     "en": "having a job or doing tasks",
+     "id": "Saya bekerja"
+    },
+    "example": {
+     "target": "I work in an office.",
+     "translit": "ai WERK in an OF-is",
+     "tr": {
+      "ar": "أعمل في مكتب.",
+      "en": "I work in an office.",
+      "id": "Saya bekerja di kantor."
+     }
+    }
+   },
+   {
+    "id": "enx114",
+    "target": "I study",
+    "translit": "ai STUH-dee",
+    "tr": {
+     "ar": "أدرس",
+     "en": "learning from books or classes",
+     "id": "Saya belajar"
+    },
+    "example": {
+     "target": "I study English at night.",
+     "translit": "ai STUH-dee ING-glish at NAIT",
+     "tr": {
+      "ar": "أدرس الإنجليزية في الليل.",
+      "en": "I study English at night.",
+      "id": "Saya belajar bahasa Inggris di malam hari."
+     }
+    }
+   },
+   {
+    "id": "en11n5",
+    "target": "She works here",
+    "translit": "shee WERKS heer",
+    "tr": {
+     "ar": "هي تعمل هنا",
+     "en": "a woman has a job in this place",
+     "id": "Dia bekerja di sini"
+    },
+    "example": {
+     "target": "She works here on weekdays.",
+     "translit": "shee WERKS heer on WEEK-dayz",
+     "tr": {
+      "ar": "هي تعمل هنا في أيام الأسبوع.",
+      "en": "She works here on weekdays.",
+      "id": "Dia bekerja di sini pada hari kerja."
+     }
+    },
+    "hint": {
+     "ar": "فعل works فيه s لأن الفاعل she.",
+     "en": "\"Works\" has -s because the subject is \"she\".",
+     "id": "\"Works\" memakai -s karena subjeknya \"she\"."
+    }
+   },
+   {
+    "id": "en11n6",
+    "target": "He goes to school by bus",
+    "translit": "hee GOHZ too SKOOL bai BUS",
+    "tr": {
+     "ar": "هو يذهب إلى المدرسة بالحافلة",
+     "en": "telling how a boy travels to school",
+     "id": "Dia pergi ke sekolah naik bus"
+    },
+    "example": {
+     "target": "He goes to school by bus.",
+     "translit": "hee GOHZ too SKOOL bai BUS",
+     "tr": {
+      "ar": "هو يذهب إلى المدرسة بالحافلة.",
+      "en": "He goes to school by bus.",
+      "id": "Dia pergi ke sekolah naik bus."
+     }
+    },
+    "hint": {
+     "ar": "go تصبح goes بإضافة es.",
+     "en": "\"Go\" becomes \"goes\" with -es.",
+     "id": "\"Go\" menjadi \"goes\" dengan -es."
+    }
+   }
+  ],
+  "cloze": [
+   {
+    "sentence": "She ___ in a hospital.",
+    "answer": "works",
+    "wrong": [
+     "work",
+     "working"
+    ],
+    "tr": {
+     "ar": "هي تعمل في مستشفى.",
+     "en": "She works in a hospital.",
+     "id": "Dia bekerja di rumah sakit."
+    },
+    "why": {
+     "ar": "مع she نضيف s إلى الفعل. work وworking غير صحيحتين.",
+     "en": "With \"she\" we add -s to the verb. \"Work\" and \"working\" are not correct.",
+     "id": "Dengan \"she\" kata kerja ditambah -s. \"Work\" dan \"working\" tidak benar."
+    }
+   },
+   {
+    "sentence": "They ___ tea in the afternoon.",
+    "answer": "drink",
+    "wrong": [
+     "drinks",
+     "drinking"
+    ],
+    "tr": {
+     "ar": "هم يشربون الشاي بعد الظهر.",
+     "en": "They drink tea in the afternoon.",
+     "id": "Mereka minum teh di sore hari."
+    },
+    "why": {
+     "ar": "مع they لا نضيف s. drinks وdrinking خطأ.",
+     "en": "With \"they\" we do not add -s. \"Drinks\" and \"drinking\" are wrong.",
+     "id": "Dengan \"they\" tidak ada -s. \"Drinks\" dan \"drinking\" salah."
+    }
+   }
+  ],
+  "summary": {
+   "ar": "تعلمت المضارع البسيط وقاعدة s مع he/she/it. استخدمه للعادات والأعمال اليومية.",
+   "en": "You learned the present simple and the -s rule for he, she and it. Use it for habits and daily activities.",
+   "id": "Kamu belajar present simple dan aturan -s untuk he, she, dan it. Pakai untuk kebiasaan dan kegiatan harian."
+  },
+  "conversation": {
+   "context": {
+    "ar": "شخصان يتعرفان في حفلة.",
+    "en": "Two people meet at a party.",
+    "id": "Dua orang berkenalan di sebuah pesta."
+   },
+   "turns": [
+    {
+     "who": "A",
+     "target": "What do you do?",
+     "tr": {
+      "ar": "ماذا تعمل؟",
+      "en": "What do you do?",
+      "id": "Kamu bekerja sebagai apa?"
+     }
+    },
+    {
+     "who": "B",
+     "target": "I work in a bank. And you?",
+     "tr": {
+      "ar": "أعمل في بنك. وأنت؟",
+      "en": "I work in a bank. And you?",
+      "id": "Saya bekerja di bank. Kamu?"
+     }
+    },
+    {
+     "who": "A",
+     "target": "I study medicine at the university.",
+     "tr": {
+      "ar": "أدرس الطب في الجامعة.",
+      "en": "I study medicine at the university.",
+      "id": "Saya belajar kedokteran di universitas."
+     }
+    }
+   ],
+   "gap": 1,
+   "wrong": [
+    "I am fine, thanks.",
+    "I like Mondays."
+   ],
+   "why": {
+    "ar": "السؤال What do you do? يعني ما عملك، فالجواب الصحيح يذكر العمل. الجوابان الآخران لا يجيبان عن العمل.",
+    "en": "\"What do you do?\" asks about your job, so the right reply names a job. The other two do not answer about work.",
+    "id": "\"What do you do?\" menanyakan pekerjaan, jadi jawaban benar menyebut pekerjaan. Dua lainnya tidak menjawab soal pekerjaan."
+   }
+  }
+ },
+ {
+  "track": "en",
+  "level": "elementary",
+  "id": "en-21",
+  "order": 18,
+  "topic": "routine-frequency",
+  "icon": "⏰",
+  "title": {
+   "ar": "الروتين اليومي وظروف التكرار",
+   "en": "Daily routine and adverbs of frequency",
+   "id": "Rutinitas harian dan kata keterangan frekuensi"
+  },
+  "description": {
+   "ar": "تحدث عن روتينك وعن عدد مرات فعلك للأشياء.",
+   "en": "Talk about your routine and how often you do things.",
+   "id": "Bicarakan rutinitasmu dan seberapa sering kamu melakukan sesuatu."
+  },
+  "objectives": [
+   {
+    "ar": "أستطيع أن أصف روتيني اليومي.",
+    "en": "I can describe my daily routine.",
+    "id": "Saya bisa menggambarkan rutinitas harian saya."
+   },
+   {
+    "ar": "أستطيع أن أستخدم always وusually وsometimes وnever.",
+    "en": "I can use always, usually, sometimes and never.",
+    "id": "Saya bisa memakai always, usually, sometimes, dan never."
+   },
+   {
+    "ar": "أستطيع أن أضع الظرف في مكانه الصحيح في الجملة.",
+    "en": "I can put the adverb in the right place in a sentence.",
+    "id": "Saya bisa menempatkan kata keterangan di posisi yang benar."
+   }
+  ],
+  "intro": {
+   "ar": "ظروف التكرار تخبرنا كم مرة يحدث الفعل. نجمعها مع المضارع البسيط لنصف الروتين بدقة.",
+   "en": "Adverbs of frequency tell us how often something happens. We combine them with the present simple to describe a routine accurately.",
+   "id": "Kata keterangan frekuensi menjelaskan seberapa sering sesuatu terjadi. Kita gabungkan dengan present simple untuk menggambarkan rutinitas secara akurat."
+  },
+  "culture": {
+   "ar": "السؤال \"What time do you usually get up?\" شائع في التعارف وفي الأعمال. ويعتبر الناس الوقت مهمًا، فالدقة في المواعيد صفة محبوبة في بريطانيا وأمريكا وأستراليا.",
+   "en": "\"What time do you usually get up?\" is common when people get to know each other and at work. Time matters: being on time is a valued habit in Britain, the US and Australia.",
+   "id": "\"What time do you usually get up?\" umum ditanyakan saat berkenalan dan di tempat kerja. Waktu itu penting: tepat waktu adalah kebiasaan yang dihargai di Inggris, AS, dan Australia."
+  },
+  "grammar": {
+   "title": {
+    "ar": "مكان ظرف التكرار",
+    "en": "Where the adverb goes",
+    "id": "Posisi kata keterangan frekuensi"
+   },
+   "body": {
+    "ar": "نضع always وusually وoften وsometimes وnever قبل الفعل الرئيسي: I always drink tea. لكن بعد to be: She is never late. وهي من الأكثر تكرارًا إلى الأقل: always > usually > often > sometimes > never.",
+    "en": "Put always, usually, often, sometimes and never before the main verb: \"I always drink tea.\" After \"to be\": \"She is never late.\" Order from most to least frequent: always > usually > often > sometimes > never.",
+    "id": "Letakkan always, usually, often, sometimes, dan never sebelum kata kerja utama: \"I always drink tea.\" Setelah \"to be\": \"She is never late.\" Urutan dari paling sering: always > usually > often > sometimes > never."
+   }
+  },
+  "items": [
+   {
+    "id": "en21n1",
+    "target": "I always get up at six",
+    "translit": "ai AWL-wayz GET up at SIKS",
+    "tr": {
+     "ar": "أستيقظ دائمًا في السادسة",
+     "en": "every single day, with no exception",
+     "id": "Saya selalu bangun pukul enam"
+    },
+    "example": {
+     "target": "I always get up at six on weekdays.",
+     "translit": "ai AWL-wayz GET up at SIKS on WEEK-dayz",
+     "tr": {
+      "ar": "أستيقظ دائمًا في السادسة في أيام الأسبوع.",
+      "en": "I always get up at six on weekdays.",
+      "id": "Saya selalu bangun pukul enam pada hari kerja."
+     }
+    }
+   },
+   {
+    "id": "en21n2",
+    "target": "She usually has breakfast at home",
+    "translit": "shee YOO-zhoo-uh-lee haz BREK-fust at HOHM",
+    "tr": {
+     "ar": "هي تتناول الفطور عادةً في المنزل",
+     "en": "most of the time, but not every time",
+     "id": "Dia biasanya sarapan di rumah"
+    },
+    "example": {
+     "target": "She usually has breakfast at home.",
+     "translit": "shee YOO-zhoo-uh-lee haz BREK-fust at HOHM",
+     "tr": {
+      "ar": "هي تتناول الفطور عادةً في المنزل.",
+      "en": "She usually has breakfast at home.",
+      "id": "Dia biasanya sarapan di rumah."
+     }
+    },
+    "hint": {
+     "ar": "usually تأتي قبل has.",
+     "en": "\"Usually\" comes before \"has\".",
+     "id": "\"Usually\" ada sebelum \"has\"."
+    }
+   },
+   {
+    "id": "en21n3",
+    "target": "We often walk to work",
+    "translit": "wee AWF-un wawk too WERK",
+    "tr": {
+     "ar": "نمشي إلى العمل في كثير من الأحيان",
+     "en": "many times, quite frequently",
+     "id": "Kami sering berjalan kaki ke tempat kerja"
+    },
+    "example": {
+     "target": "We often walk to work together.",
+     "translit": "wee AWF-un wawk too WERK too-GETH-er",
+     "tr": {
+      "ar": "نمشي إلى العمل معًا في كثير من الأحيان.",
+      "en": "We often walk to work together.",
+      "id": "Kami sering berjalan kaki bersama ke tempat kerja."
+     }
+    },
+    "hint": {
+     "ar": "الحرف t في often قد لا يُنطق.",
+     "en": "The \"t\" in \"often\" is often silent.",
+     "id": "Huruf \"t\" di \"often\" sering tidak dibunyikan."
+    }
+   },
+   {
+    "id": "en21n4",
+    "target": "I sometimes watch TV in the evening",
+    "translit": "ai SUM-taimz WOCH tee-VEE in the EEV-ning",
+    "tr": {
+     "ar": "أشاهد التلفاز أحيانًا في المساء",
+     "en": "not often, but on some days",
+     "id": "Saya kadang-kadang menonton TV di malam hari"
+    },
+    "example": {
+     "target": "I sometimes watch TV in the evening.",
+     "translit": "ai SUM-taimz WOCH tee-VEE in the EEV-ning",
+     "tr": {
+      "ar": "أشاهد التلفاز أحيانًا في المساء.",
+      "en": "I sometimes watch TV in the evening.",
+      "id": "Saya kadang-kadang menonton TV di malam hari."
+     }
+    }
+   },
+   {
+    "id": "en21n5",
+    "target": "He is never late",
+    "translit": "hee iz NEV-er LAYT",
+    "tr": {
+     "ar": "هو لا يتأخر أبدًا",
+     "en": "not at any time",
+     "id": "Dia tidak pernah terlambat"
+    },
+    "example": {
+     "target": "He is never late for work.",
+     "translit": "hee iz NEV-er LAYT for WERK",
+     "tr": {
+      "ar": "هو لا يتأخر أبدًا عن العمل.",
+      "en": "He is never late for work.",
+      "id": "Dia tidak pernah terlambat ke tempat kerja."
+     }
+    },
+    "hint": {
+     "ar": "never تأتي بعد is. وتعني النفي فلا نضيف not.",
+     "en": "\"Never\" goes after \"is\". It is already negative, so do not add \"not\".",
+     "id": "\"Never\" ada setelah \"is\". Sudah negatif, jadi tidak perlu \"not\"."
+    }
+   },
+   {
+    "id": "en21n6",
+    "target": "What time do you go to bed?",
+    "translit": "wut TAIM doo yoo GOH too BED",
+    "tr": {
+     "ar": "متى تذهب إلى النوم؟",
+     "en": "asking about your usual bedtime",
+     "id": "Pukul berapa kamu tidur?"
+    },
+    "example": {
+     "target": "What time do you usually go to bed?",
+     "translit": "wut TAIM doo yoo YOO-zhoo-uh-lee GOH too BED",
+     "tr": {
+      "ar": "في أي ساعة تذهب عادةً إلى النوم؟",
+      "en": "What time do you usually go to bed?",
+      "id": "Biasanya pukul berapa kamu tidur?"
+     }
+    }
+   }
+  ],
+  "cloze": [
+   {
+    "sentence": "I ___ drink coffee at night. It keeps me awake.",
+    "answer": "never",
+    "wrong": [
+     "always",
+     "usually"
+    ],
+    "tr": {
+     "ar": "لا أشرب القهوة أبدًا في الليل. إنها تبقيني مستيقظًا.",
+     "en": "I never drink coffee at night. It keeps me awake.",
+     "id": "Saya tidak pernah minum kopi di malam hari. Itu membuat saya terjaga."
+    },
+    "why": {
+     "ar": "المعنى يقتضي النفي الكامل. always وusually تناقضان الجملة الثانية.",
+     "en": "The meaning needs a full negative. \"Always\" and \"usually\" contradict the second sentence.",
+     "id": "Maknanya butuh negatif penuh. \"Always\" dan \"usually\" bertentangan dengan kalimat kedua."
+    }
+   },
+   {
+    "sentence": "My sister is ___ late for school.",
+    "answer": "never",
+    "wrong": [
+     "not",
+     "don't"
+    ],
+    "tr": {
+     "ar": "أختي لا تتأخر أبدًا عن المدرسة.",
+     "en": "My sister is never late for school.",
+     "id": "Adik perempuan saya tidak pernah terlambat ke sekolah."
+    },
+    "why": {
+     "ar": "بعد is نضع الظرف never. not وdon't لا تتفقان مع هذه البنية.",
+     "en": "After \"is\" we put the adverb \"never\". \"Not\" and \"don't\" do not match this structure.",
+     "id": "Setelah \"is\" kita taruh kata keterangan \"never\". \"Not\" dan \"don't\" tidak cocok dengan struktur ini."
+    }
+   }
+  ],
+  "summary": {
+   "ar": "تعلمت ظروف التكرار ومكانها في الجملة. استخدمها لتصف روتينك بدقة.",
+   "en": "You learned adverbs of frequency and where they go in a sentence. Use them to describe your routine accurately.",
+   "id": "Kamu belajar kata keterangan frekuensi dan posisinya dalam kalimat. Pakai untuk menggambarkan rutinitasmu dengan akurat."
+  },
+  "conversation": {
+   "context": {
+    "ar": "زميلان يتحدثان عن عاداتهما في الصباح.",
+    "en": "Two colleagues talk about their morning habits.",
+    "id": "Dua rekan kerja membicarakan kebiasaan pagi mereka."
+   },
+   "turns": [
+    {
+     "who": "A",
+     "target": "What time do you usually get up?",
+     "tr": {
+      "ar": "في أي ساعة تستيقظ عادةً؟",
+      "en": "What time do you usually get up?",
+      "id": "Biasanya pukul berapa kamu bangun?"
+     }
+    },
+    {
+     "who": "B",
+     "target": "I usually get up at six thirty.",
+     "tr": {
+      "ar": "أستيقظ عادةً في السادسة والنصف.",
+      "en": "I usually get up at six thirty.",
+      "id": "Biasanya saya bangun pukul enam tiga puluh."
+     }
+    },
+    {
+     "who": "A",
+     "target": "That's early! I get up at eight.",
+     "tr": {
+      "ar": "هذا مبكر! أنا أستيقظ في الثامنة.",
+      "en": "That is early! I get up at eight.",
+      "id": "Itu pagi sekali! Saya bangun pukul delapan."
+     }
+    }
+   ],
+   "gap": 1,
+   "wrong": [
+    "I like green tea.",
+    "She lives in Dubai."
+   ],
+   "why": {
+    "ar": "السؤال عن وقت الاستيقاظ، فالجواب الصحيح يذكر ساعة. الجوابان الآخران لا يذكران وقتًا.",
+    "en": "The question is about the wake-up time, so the right reply gives an hour. The other two give no time.",
+    "id": "Pertanyaan tentang jam bangun, jadi jawaban benar menyebut jam. Dua lainnya tidak menyebut waktu."
+   }
+  }
+ },
+ {
+  "track": "en",
+  "level": "elementary",
+  "id": "en-22",
+  "order": 19,
+  "topic": "have-possession",
+  "icon": "🎒",
+  "title": {
+   "ar": "have وhas والملكية",
+   "en": "Have/has and possession",
+   "id": "Have/has dan kepemilikan"
+  },
+  "description": {
+   "ar": "تحدث عمّا تملكه أنت وغيرك باستخدام have وhas و's.",
+   "en": "Talk about what you and others own with have, has and 's.",
+   "id": "Bicarakan apa yang kamu dan orang lain miliki dengan have, has, dan 's."
+  },
+  "objectives": [
+   {
+    "ar": "أستطيع أن أستخدم have مع I/you/we/they وhas مع he/she/it.",
+    "en": "I can use \"have\" with I/you/we/they and \"has\" with he/she/it.",
+    "id": "Saya bisa memakai \"have\" dengan I/you/we/they dan \"has\" dengan he/she/it."
+   },
+   {
+    "ar": "أستطيع أن أسأل Do you have...? وأجيب.",
+    "en": "I can ask \"Do you have...?\" and answer.",
+    "id": "Saya bisa bertanya \"Do you have...?\" dan menjawab."
+   },
+   {
+    "ar": "أستطيع أن أستخدم my وyour وhis وher و's للملكية.",
+    "en": "I can use my, your, his, her and 's to show possession.",
+    "id": "Saya bisa memakai my, your, his, her, dan 's untuk kepemilikan."
+   }
+  ],
+  "intro": {
+   "ar": "الفعل have يُستخدم كثيرًا لإظهار الملكية والعلاقات: عندي أخ، لدينا سيارة. وتعلم أيضًا كيف تقول \"كتاب سارة\" بالإنجليزية.",
+   "en": "\"Have\" is used a lot to show possession and relationships: I have a brother, we have a car. You will also learn how to say \"Sara's book\".",
+   "id": "\"Have\" sering dipakai untuk menunjukkan kepemilikan dan hubungan: saya punya saudara laki-laki, kami punya mobil. Kamu juga belajar cara mengatakan \"buku Sara\"."
+  },
+  "culture": {
+   "ar": "عند التعارف يسأل الإنجليزي \"Do you have any brothers or sisters?\" وعند الشراء تسمع \"Do you have a card?\" والإنجليز يقولون I have got في الحديث، خاصة في بريطانيا، ومعناها نفس have.",
+   "en": "When getting to know someone, English speakers ask \"Do you have any brothers or sisters?\" and in shops you hear \"Do you have a card?\" In British English people also say \"I have got\", which means the same as \"have\".",
+   "id": "Saat berkenalan, penutur bahasa Inggris bertanya \"Do you have any brothers or sisters?\" dan di toko terdengar \"Do you have a card?\" Dalam bahasa Inggris Britania orang juga bilang \"I have got\", artinya sama dengan \"have\"."
+  },
+  "grammar": {
+   "title": {
+    "ar": "have / has و's",
+    "en": "\"Have / has\" and 's",
+    "id": "\"Have / has\" dan 's"
+   },
+   "body": {
+    "ar": "I/you/we/they have... وhe/she/it has... وللنفي والسؤال نستخدم do/does: Do you have a pen? She doesn't have time. وللملكية نضيف 's للاسم: Sara's book أي كتاب سارة. وهذا يختلف عن 's = is.",
+    "en": "I/you/we/they have... and he/she/it has... For questions and negatives use do/does: \"Do you have a pen?\" \"She doesn't have time.\" For possession add 's to the name: \"Sara's book\". This is different from 's meaning \"is\".",
+    "id": "I/you/we/they have... dan he/she/it has... Untuk pertanyaan dan negatif pakai do/does: \"Do you have a pen?\" \"She doesn't have time.\" Untuk kepemilikan tambahkan 's pada nama: \"Sara's book\". Ini berbeda dengan 's yang berarti \"is\"."
+   }
+  },
+  "items": [
+   {
+    "id": "en22n1",
+    "target": "I have a brother",
+    "translit": "ai HAV uh BRUTH-er",
+    "tr": {
+     "ar": "عندي أخ",
+     "en": "I own or am related to a brother",
+     "id": "Saya punya satu saudara laki-laki"
+    },
+    "example": {
+     "target": "I have a brother and two sisters.",
+     "translit": "ai HAV uh BRUTH-er and TOO SIS-terz",
+     "tr": {
+      "ar": "عندي أخ وأختان.",
+      "en": "I have a brother and two sisters.",
+      "id": "Saya punya satu kakak/adik laki-laki dan dua saudara perempuan."
+     }
+    }
+   },
+   {
+    "id": "en22n2",
+    "target": "She has a new car",
+    "translit": "shee HAZ uh NYOO KAR",
+    "tr": {
+     "ar": "عندها سيارة جديدة",
+     "en": "she owns a car that is not old",
+     "id": "Dia punya mobil baru"
+    },
+    "example": {
+     "target": "She has a new car, but she walks to work.",
+     "translit": "shee HAZ uh NYOO KAR, but shee WAWKS too WERK",
+     "tr": {
+      "ar": "عندها سيارة جديدة لكنها تمشي إلى العمل.",
+      "en": "She has a new car, but she walks to work.",
+      "id": "Dia punya mobil baru, tetapi dia berjalan kaki ke tempat kerja."
+     }
+    },
+    "hint": {
+     "ar": "has فقط مع he/she/it.",
+     "en": "\"Has\" is only for he/she/it.",
+     "id": "\"Has\" hanya untuk he/she/it."
+    }
+   },
+   {
+    "id": "en22n3",
+    "target": "Do you have a pen?",
+    "translit": "doo yoo HAV uh PEN",
+    "tr": {
+     "ar": "هل عندك قلم؟",
+     "en": "asking if someone owns a pen",
+     "id": "Apakah kamu punya pulpen?"
+    },
+    "example": {
+     "target": "Do you have a pen I can borrow?",
+     "translit": "doo yoo HAV uh PEN ai kan BOR-oh",
+     "tr": {
+      "ar": "هل عندك قلم أستعيره؟",
+      "en": "Do you have a pen I can borrow?",
+      "id": "Apakah kamu punya pulpen yang bisa saya pinjam?"
+     }
+    }
+   },
+   {
+    "id": "en22n4",
+    "target": "He doesn't have time",
+    "translit": "hee DUZ-unt HAV TAIM",
+    "tr": {
+     "ar": "ليس عنده وقت",
+     "en": "he is too busy for something",
+     "id": "Dia tidak punya waktu"
+    },
+    "example": {
+     "target": "He doesn't have time to cook today.",
+     "translit": "hee DUZ-unt HAV TAIM too KUK too-DAY",
+     "tr": {
+      "ar": "ليس عنده وقت ليطبخ اليوم.",
+      "en": "He does not have time to cook today.",
+      "id": "Dia tidak punya waktu untuk memasak hari ini."
+     }
+    },
+    "hint": {
+     "ar": "بعد doesn't نستخدم have لا has.",
+     "en": "After \"doesn't\" use \"have\", not \"has\".",
+     "id": "Setelah \"doesn't\" pakai \"have\", bukan \"has\"."
+    }
+   },
+   {
+    "id": "en22n5",
+    "target": "Maria's phone",
+    "translit": "ma-REE-uz FOHN",
+    "tr": {
+     "ar": "هاتف ماريا",
+     "en": "the phone that belongs to Maria",
+     "id": "Ponsel milik Maria"
+    },
+    "example": {
+     "target": "This is Maria's phone. Please give it to her.",
+     "translit": "this iz ma-REE-uz FOHN. pleez GIV it too HER",
+     "tr": {
+      "ar": "هذا هاتف ماريا. من فضلك أعطه لها.",
+      "en": "This is Maria's phone. Please give it to her.",
+      "id": "Ini ponsel Maria. Tolong berikan kepadanya."
+     }
+    },
+    "hint": {
+     "ar": "'s هنا للملكية وليست is.",
+     "en": "Here 's shows possession, not \"is\".",
+     "id": "'s di sini menunjukkan kepemilikan, bukan \"is\"."
+    }
+   },
+   {
+    "id": "en22n6",
+    "target": "My name is... and your name is...",
+    "translit": "mai NAYM iz ... and YOR NAYM iz",
+    "tr": {
+     "ar": "اسمي ... واسمك ...",
+     "en": "using my and your to talk about names",
+     "id": "Nama saya ... dan nama kamu ..."
+    },
+    "example": {
+     "target": "My bag is red, and your bag is blue.",
+     "translit": "mai BAG iz RED, and YOR BAG iz BLOO",
+     "tr": {
+      "ar": "حقيبتي حمراء وحقيبتك زرقاء.",
+      "en": "My bag is red, and your bag is blue.",
+      "id": "Tas saya merah, dan tas kamu biru."
+     }
+    },
+    "hint": {
+     "ar": "my/your/his/her تأتي قبل الاسم.",
+     "en": "\"My, your, his, her\" come before the noun.",
+     "id": "\"My, your, his, her\" diletakkan sebelum kata benda."
+    }
+   }
+  ],
+  "cloze": [
+   {
+    "sentence": "My brother ___ a big family.",
+    "answer": "has",
+    "wrong": [
+     "have",
+     "is"
+    ],
+    "tr": {
+     "ar": "أخي عنده عائلة كبيرة.",
+     "en": "My brother has a big family.",
+     "id": "Kakak laki-laki saya punya keluarga besar."
+    },
+    "why": {
+     "ar": "الفاعل مفرد غائب (he) فنستخدم has. have وis غير مناسبتين.",
+     "en": "The subject is third person singular, so we use \"has\". \"Have\" and \"is\" do not fit.",
+     "id": "Subjeknya orang ketiga tunggal, jadi dipakai \"has\". \"Have\" dan \"is\" tidak cocok."
+    }
+   },
+   {
+    "sentence": "This is ___ book. She left it here.",
+    "answer": "her",
+    "wrong": [
+     "she",
+     "hers is"
+    ],
+    "tr": {
+     "ar": "هذا كتابها. تركته هنا.",
+     "en": "This is her book. She left it here.",
+     "id": "Ini bukunya. Dia meninggalkannya di sini."
+    },
+    "why": {
+     "ar": "نحتاج صفة ملكية قبل الاسم: her. she ضمير فاعل وhers is لا تُستخدم قبل الاسم.",
+     "en": "We need a possessive adjective before the noun: \"her\". \"She\" is a subject pronoun and \"hers is\" is not used before a noun.",
+     "id": "Kita butuh kata sifat kepemilikan sebelum kata benda: \"her\". \"She\" adalah pronomina subjek dan \"hers is\" tidak dipakai sebelum kata benda."
+    }
+   }
+  ],
+  "summary": {
+   "ar": "تعلمت have وhas والفرق بينهما وكيف تعبّر عن الملكية بـ my وher و's. تدرب على جمل عن عائلتك وأغراضك.",
+   "en": "You learned \"have\" and \"has\", how they differ, and how to show possession with my, her and 's. Practise sentences about your family and belongings.",
+   "id": "Kamu belajar \"have\" dan \"has\", perbedaannya, dan cara menunjukkan kepemilikan dengan my, her, dan 's. Latih kalimat tentang keluarga dan barang milikmu."
+  },
+  "conversation": {
+   "context": {
+    "ar": "شخصان يتعارفان في أول يوم دراسة.",
+    "en": "Two people get to know each other on the first day of class.",
+    "id": "Dua orang berkenalan pada hari pertama kuliah."
+   },
+   "turns": [
+    {
+     "who": "A",
+     "target": "Do you have any brothers or sisters?",
+     "tr": {
+      "ar": "هل عندك إخوة أو أخوات؟",
+      "en": "Do you have any brothers or sisters?",
+      "id": "Apakah kamu punya saudara laki-laki atau perempuan?"
+     }
+    },
+    {
+     "who": "B",
+     "target": "Yes, I have two sisters. What about you?",
+     "tr": {
+      "ar": "نعم، عندي أختان. وأنت؟",
+      "en": "Yes, I have two sisters. What about you?",
+      "id": "Ya, saya punya dua saudara perempuan. Kalau kamu?"
+     }
+    },
+    {
+     "who": "A",
+     "target": "I have one brother. His name is Ali.",
+     "tr": {
+      "ar": "عندي أخ واحد. اسمه علي.",
+      "en": "I have one brother. His name is Ali.",
+      "id": "Saya punya satu saudara laki-laki. Namanya Ali."
+     }
+    }
+   ],
+   "gap": 1,
+   "wrong": [
+    "She has a car.",
+    "It is on the desk."
+   ],
+   "why": {
+    "ar": "A سأل عن الإخوة، فالجواب الصحيح يعطي العدد باستخدام have. الجوابان الآخران لا يتعلقان بالسؤال.",
+    "en": "A asked about siblings, so the right reply gives the number with \"have\". The other two are not related to the question.",
+    "id": "A bertanya tentang saudara, jadi jawaban benar menyebut jumlah dengan \"have\". Dua lainnya tidak berkaitan."
+   }
+  }
+ },
+ {
+  "track": "en",
+  "level": "elementary",
+  "id": "en-09",
+  "order": 20,
+  "topic": "travel-directions",
+  "icon": "🚕",
+  "title": {
+   "ar": "السفر والاتجاهات",
+   "en": "Travel and directions",
+   "id": "Perjalanan dan petunjuk arah"
+  },
+  "description": {
+   "ar": "اسأل عن الطريق وافهم الاتجاهات في المطار والمدينة.",
+   "en": "Ask the way and understand directions at the airport and in town.",
+   "id": "Tanyakan jalan dan pahami petunjuk arah di bandara dan di kota."
+  },
+  "objectives": [
+   {
+    "ar": "أستطيع أن أسأل أين مكان ما.",
+    "en": "I can ask where a place is.",
+    "id": "Saya bisa menanyakan di mana suatu tempat."
+   },
+   {
+    "ar": "أستطيع أن أفهم turn left وturn right وgo straight.",
+    "en": "I can understand turn left, turn right and go straight.",
+    "id": "Saya bisa memahami turn left, turn right, dan go straight."
+   },
+   {
+    "ar": "أستطيع أن أتحدث عن التذاكر والمطار.",
+    "en": "I can talk about tickets and the airport.",
+    "id": "Saya bisa membicarakan tiket dan bandara."
+   }
+  ],
+  "intro": {
+   "ar": "عند السفر ستحتاج إلى سؤال الناس عن الطريق وفهم أجوبتهم. ستتعلم هنا جملًا بسيطة للمطار والشارع.",
+   "en": "When you travel you need to ask people the way and understand their answers. Here you learn simple sentences for the airport and the street.",
+   "id": "Saat bepergian kamu perlu bertanya jalan dan memahami jawabannya. Di sini kamu belajar kalimat sederhana untuk bandara dan jalan."
+  },
+  "culture": {
+   "ar": "الإنجليز يبدؤون السؤال عادةً بـ \"Excuse me\" ثم يسألون. وغالبًا تُعطى الاتجاهات بالمعالم: \"Turn left at the bank\". وفي بريطانيا تسير السيارات على اليسار، فانتبه عند عبور الطريق.",
+   "en": "English speakers usually start with \"Excuse me\" and then ask. Directions are often given with landmarks: \"Turn left at the bank.\" In Britain cars drive on the left, so be careful when crossing the road.",
+   "id": "Penutur bahasa Inggris biasanya memulai dengan \"Excuse me\" lalu bertanya. Petunjuk sering memakai penanda: \"Turn left at the bank.\" Di Inggris mobil berjalan di sisi kiri, jadi hati-hati saat menyeberang."
+  },
+  "grammar": {
+   "title": {
+    "ar": "الأمر وWhere is",
+    "en": "Imperatives and \"Where is\"",
+    "id": "Kalimat perintah dan \"Where is\""
+   },
+   "body": {
+    "ar": "الاتجاهات تُعطى بصيغة الأمر، أي الفعل الأساسي بلا فاعل: Turn left. Go straight. وللسؤال نقول Where is + المكان؟ وللجمع Where are + الأماكن؟ ونضيف please لتكون الجملة مهذبة.",
+    "en": "Directions use the imperative: the base verb with no subject: \"Turn left.\" \"Go straight.\" To ask, say \"Where is + place?\" and for plurals \"Where are + places?\" Add \"please\" to be polite.",
+    "id": "Petunjuk arah memakai imperatif: kata kerja dasar tanpa subjek: \"Turn left.\" \"Go straight.\" Untuk bertanya, pakai \"Where is + tempat?\" dan untuk jamak \"Where are + tempat?\" Tambahkan \"please\" agar sopan."
+   }
+  },
+  "items": [
+   {
+    "id": "enx091",
+    "target": "Airport",
+    "translit": "AIR-port",
+    "tr": {
+     "ar": "مطار",
+     "en": "a place where planes take off and land",
+     "id": "Bandara"
+    },
+    "example": {
+     "target": "Where is the airport?",
+     "translit": "WAIR iz the AIR-port",
+     "tr": {
+      "ar": "أين المطار؟",
+      "en": "Where is the airport?",
+      "id": "Di mana bandara?"
+     }
+    }
+   },
+   {
+    "id": "enx092",
+    "target": "Ticket",
+    "translit": "TIK-it",
+    "tr": {
+     "ar": "تذكرة",
+     "en": "a paper or phone code that lets you travel",
+     "id": "Tiket"
+    },
+    "example": {
+     "target": "I have a ticket.",
+     "translit": "ai HAV uh TIK-it",
+     "tr": {
+      "ar": "عندي تذكرة.",
+      "en": "I have a ticket.",
+      "id": "Saya punya tiket."
+     }
+    }
+   },
+   {
+    "id": "enx093",
+    "target": "Turn left",
+    "translit": "TERN LEFT",
+    "tr": {
+     "ar": "انعطف يسارًا",
+     "en": "go to the left side at a corner",
+     "id": "Belok kiri"
+    },
+    "example": {
+     "target": "Turn left here.",
+     "translit": "TERN LEFT HEER",
+     "tr": {
+      "ar": "انعطف يسارًا هنا.",
+      "en": "Turn left here.",
+      "id": "Belok kiri di sini."
+     }
+    }
+   },
+   {
+    "id": "enx094",
+    "target": "Turn right",
+    "translit": "TERN RAIT",
+    "tr": {
+     "ar": "انعطف يمينًا",
+     "en": "go to the right side at a corner",
+     "id": "Belok kanan"
+    },
+    "example": {
+     "target": "Turn right at the corner.",
+     "translit": "TERN RAIT at the KOR-ner",
+     "tr": {
+      "ar": "انعطف يمينًا عند الزاوية.",
+      "en": "Turn right at the corner.",
+      "id": "Belok kanan di tikungan."
+     }
+    }
+   },
+   {
+    "id": "en09n5",
+    "target": "Go straight ahead",
+    "translit": "GOH STRAYT uh-HED",
+    "tr": {
+     "ar": "امشِ إلى الأمام مباشرة",
+     "en": "keep going without turning",
+     "id": "Jalan terus lurus"
+    },
+    "example": {
+     "target": "Go straight ahead for two blocks.",
+     "translit": "GOH STRAYT uh-HED for TOO BLOKS",
+     "tr": {
+      "ar": "امشِ مباشرة إلى الأمام مسافة شارعين.",
+      "en": "Go straight ahead for two blocks.",
+      "id": "Jalan terus lurus sejauh dua blok."
+     }
+    }
+   },
+   {
+    "id": "en09n6",
+    "target": "How do I get to the station?",
+    "translit": "how doo ai GET too the STAY-shun",
+    "tr": {
+     "ar": "كيف أصل إلى المحطة؟",
+     "en": "asking for the way to the station",
+     "id": "Bagaimana cara ke stasiun?"
+    },
+    "example": {
+     "target": "Excuse me, how do I get to the station?",
+     "translit": "ek-SKYOOZ mee, how doo ai GET too the STAY-shun",
+     "tr": {
+      "ar": "عفوًا، كيف أصل إلى المحطة؟",
+      "en": "Excuse me, how do I get to the station?",
+      "id": "Permisi, bagaimana cara ke stasiun?"
+     }
+    },
+    "hint": {
+     "ar": "صيغة شائعة ومهذبة للسؤال عن الطريق.",
+     "en": "A common, polite way to ask for directions.",
+     "id": "Cara umum dan sopan untuk menanyakan jalan."
+    }
+   }
+  ],
+  "cloze": [
+   {
+    "sentence": "___ right at the traffic light.",
+    "answer": "Turn",
+    "wrong": [
+     "Turns",
+     "Turning"
+    ],
+    "tr": {
+     "ar": "انعطف يمينًا عند إشارة المرور.",
+     "en": "Turn right at the traffic light.",
+     "id": "Belok kanan di lampu lalu lintas."
+    },
+    "why": {
+     "ar": "الأمر يستخدم الفعل الأساسي Turn. Turns وTurning غير صحيحتين.",
+     "en": "The imperative uses the base verb \"Turn\". \"Turns\" and \"Turning\" are not correct.",
+     "id": "Imperatif memakai kata kerja dasar \"Turn\". \"Turns\" dan \"Turning\" tidak benar."
+    }
+   },
+   {
+    "sentence": "Excuse me, where ___ the bus stop?",
+    "answer": "is",
+    "wrong": [
+     "do",
+     "am"
+    ],
+    "tr": {
+     "ar": "عفوًا، أين موقف الحافلة؟",
+     "en": "Excuse me, where is the bus stop?",
+     "id": "Permisi, di mana halte bus?"
+    },
+    "why": {
+     "ar": "السؤال عن المكان: Where is + اسم مفرد. do وam لا تناسبان.",
+     "en": "To ask about a place we use \"Where is\" + singular noun. \"Do\" and \"am\" do not fit.",
+     "id": "Untuk menanyakan tempat dipakai \"Where is\" + kata benda tunggal. \"Do\" dan \"am\" tidak cocok."
+    }
+   }
+  ],
+  "summary": {
+   "ar": "تعلمت أن تسأل عن الطريق وتفهم الاتجاهات الأساسية. تذكّر أن الأمر يستخدم الفعل الأساسي بلا فاعل.",
+   "en": "You learned to ask for the way and to understand basic directions. Remember that the imperative uses the base verb with no subject.",
+   "id": "Kamu belajar menanyakan jalan dan memahami petunjuk arah dasar. Ingat bahwa imperatif memakai kata kerja dasar tanpa subjek."
+  },
+  "conversation": {
+   "context": {
+    "ar": "مسافر يسأل موظف المطار عن الطريق.",
+    "en": "A traveller asks an airport employee for directions.",
+    "id": "Seorang pelancong bertanya arah kepada petugas bandara."
+   },
+   "turns": [
+    {
+     "who": "A",
+     "target": "Excuse me, where is the bus station?",
+     "tr": {
+      "ar": "عفوًا، أين محطة الحافلات؟",
+      "en": "Excuse me, where is the bus station?",
+      "id": "Permisi, di mana terminal bus?"
+     }
+    },
+    {
+     "who": "B",
+     "target": "Go straight, then turn left.",
+     "tr": {
+      "ar": "امشِ مباشرة ثم انعطف يسارًا.",
+      "en": "Go straight, then turn left.",
+      "id": "Jalan lurus, lalu belok kiri."
+     }
+    },
+    {
+     "who": "A",
+     "target": "Thank you very much!",
+     "tr": {
+      "ar": "شكرًا جزيلًا!",
+      "en": "Thank you very much!",
+      "id": "Terima kasih banyak!"
+     }
+    }
+   ],
+   "gap": 1,
+   "wrong": [
+    "I have a ticket.",
+    "It is Friday."
+   ],
+   "why": {
+    "ar": "A سأل عن مكان، فالجواب الصحيح يعطي اتجاهات. الجوابان الآخران لا يجيبان عن المكان.",
+    "en": "A asked about a place, so the right reply gives directions. The other two do not answer about the place.",
+    "id": "A menanyakan tempat, jadi jawaban benar memberi arah. Dua lainnya tidak menjawab soal tempat."
+   }
+  }
+ }
+]

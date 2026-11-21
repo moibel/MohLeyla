@@ -1,0 +1,2302 @@
+[
+ {
+  "id": "ar-01",
+  "language": "ar",
+  "level": "Pemula",
+  "title": "Salam dan sapaan",
+  "description": "Mulai percakapan dengan ramah",
+  "icon": "👋",
+  "items": [
+   {
+    "id": "a1",
+    "source": "Halo",
+    "target": "مرحبًا",
+    "roman": "marḥaban",
+    "meaning": "Halo",
+    "example": "مرحبًا، كيف حالك؟",
+    "exampleMeaning": "Halo, apa kabar?"
+   },
+   {
+    "id": "a2",
+    "source": "Selamat pagi",
+    "target": "صباح الخير",
+    "roman": "ṣabāḥ al-khayr",
+    "meaning": "Selamat pagi",
+    "example": "صباح الخير يا ليلى",
+    "exampleMeaning": "Selamat pagi, Leyla"
+   },
+   {
+    "id": "a3",
+    "source": "Terima kasih",
+    "target": "شكرًا",
+    "roman": "shukran",
+    "meaning": "Terima kasih",
+    "example": "شكرًا على المساعدة",
+    "exampleMeaning": "Terima kasih atas bantuannya"
+   },
+   {
+    "id": "a4",
+    "source": "Sampai jumpa",
+    "target": "إلى اللقاء",
+    "roman": "ilā al-liqāʾ",
+    "meaning": "Sampai jumpa",
+    "example": "إلى اللقاء غدًا",
+    "exampleMeaning": "Sampai jumpa besok"
+   }
+  ]
+ },
+ {
+  "id": "ar-02",
+  "language": "ar",
+  "level": "Pemula",
+  "title": "Perkenalan diri",
+  "description": "Nama, asal, dan kabar",
+  "icon": "🪪",
+  "items": [
+   {
+    "id": "a5",
+    "source": "Nama saya Leyla",
+    "target": "اسمي ليلى",
+    "roman": "ismī laylā",
+    "meaning": "Nama saya Leyla",
+    "example": "اسمي ليلى، وأنا من إندونيسيا",
+    "exampleMeaning": "Nama saya Leyla dan saya dari Indonesia"
+   },
+   {
+    "id": "a6",
+    "source": "Siapa namamu?",
+    "target": "ما اسمك؟",
+    "roman": "mā ismuk?",
+    "meaning": "Siapa namamu?",
+    "example": "مرحبًا، ما اسمك؟",
+    "exampleMeaning": "Halo, siapa namamu?"
+   },
+   {
+    "id": "a7",
+    "source": "Saya dari Indonesia",
+    "target": "أنا من إندونيسيا",
+    "roman": "anā min indūnīsiyā",
+    "meaning": "Saya dari Indonesia",
+    "example": "أنا من إندونيسيا",
+    "exampleMeaning": "Saya dari Indonesia"
+   },
+   {
+    "id": "a8",
+    "source": "Saya baik-baik saja",
+    "target": "أنا بخير",
+    "roman": "anā bikhayr",
+    "meaning": "Saya baik-baik saja",
+    "example": "الحمد لله، أنا بخير",
+    "exampleMeaning": "Syukurlah, saya baik-baik saja"
+   }
+  ]
+ },
+ {
+  "id": "ar-03",
+  "language": "ar",
+  "level": "Pemula",
+  "title": "Angka dan waktu",
+  "description": "Hitung dan sebutkan waktu",
+  "icon": "🔢",
+  "items": [
+   {
+    "id": "a9",
+    "source": "Satu",
+    "target": "واحد",
+    "roman": "wāḥid",
+    "meaning": "Satu",
+    "example": "عندي كتاب واحد",
+    "exampleMeaning": "Saya punya satu buku"
+   },
+   {
+    "id": "a10",
+    "source": "Dua",
+    "target": "اثنان",
+    "roman": "ithnān",
+    "meaning": "Dua",
+    "example": "عندي قلمان اثنان",
+    "exampleMeaning": "Saya punya dua pena"
+   },
+   {
+    "id": "a11",
+    "source": "Hari ini",
+    "target": "اليوم",
+    "roman": "al-yawm",
+    "meaning": "Hari ini",
+    "example": "اليوم يوم السبت",
+    "exampleMeaning": "Hari ini hari Sabtu"
+   },
+   {
+    "id": "a12",
+    "source": "Besok",
+    "target": "غدًا",
+    "roman": "ghadan",
+    "meaning": "Besok",
+    "example": "سأذهب غدًا",
+    "exampleMeaning": "Saya akan pergi besok"
+   }
+  ]
+ },
+ {
+  "id": "ar-04",
+  "language": "ar",
+  "level": "Dasar",
+  "title": "Di rumah",
+  "description": "Kosakata sehari-hari di rumah",
+  "icon": "🏠",
+  "items": [
+   {
+    "id": "a13",
+    "source": "Air",
+    "target": "ماء",
+    "roman": "māʾ",
+    "meaning": "Air",
+    "example": "أريد ماءً من فضلك",
+    "exampleMeaning": "Saya ingin air, tolong"
+   },
+   {
+    "id": "a14",
+    "source": "Pintu",
+    "target": "باب",
+    "roman": "bāb",
+    "meaning": "Pintu",
+    "example": "افتح الباب من فضلك",
+    "exampleMeaning": "Tolong buka pintunya"
+   },
+   {
+    "id": "a15",
+    "source": "Dapur",
+    "target": "مطبخ",
+    "roman": "maṭbakh",
+    "meaning": "Dapur",
+    "example": "المطبخ نظيف",
+    "exampleMeaning": "Dapurnya bersih"
+   },
+   {
+    "id": "a16",
+    "source": "Di mana kamar mandi?",
+    "target": "أين الحمام؟",
+    "roman": "ayna al-ḥammām?",
+    "meaning": "Di mana kamar mandi?",
+    "example": "من فضلك، أين الحمام؟",
+    "exampleMeaning": "Permisi, di mana kamar mandi?"
+   }
+  ]
+ },
+ {
+  "id": "ar-05",
+  "language": "ar",
+  "level": "Dasar",
+  "title": "Belanja dan makanan",
+  "description": "Pesan makanan dan tanya harga",
+  "icon": "🛒",
+  "items": [
+   {
+    "id": "a17",
+    "source": "Berapa harganya?",
+    "target": "كم السعر؟",
+    "roman": "kam as-siʿr?",
+    "meaning": "Berapa harganya?",
+    "example": "كم سعر هذا؟",
+    "exampleMeaning": "Berapa harga ini?"
+   },
+   {
+    "id": "a18",
+    "source": "Saya ingin roti",
+    "target": "أريد خبزًا",
+    "roman": "urīdu khubzan",
+    "meaning": "Saya ingin roti",
+    "example": "أريد خبزًا وماءً",
+    "exampleMeaning": "Saya ingin roti dan air"
+   },
+   {
+    "id": "a19",
+    "source": "Enak",
+    "target": "لذيذ",
+    "roman": "ladhīdh",
+    "meaning": "Enak",
+    "example": "الطعام لذيذ",
+    "exampleMeaning": "Makanannya enak"
+   },
+   {
+    "id": "a20",
+    "source": "Tolong",
+    "target": "من فضلك",
+    "roman": "min faḍlik",
+    "meaning": "Tolong",
+    "example": "ساعدني من فضلك",
+    "exampleMeaning": "Tolong bantu saya"
+   }
+  ]
+ },
+ {
+  "id": "sa-01",
+  "language": "sa",
+  "level": "Pemula",
+  "title": "Sapaan sehari-hari Saudi",
+  "description": "Ungkapan yang umum di Saudi",
+  "icon": "🇸🇦",
+  "items": [
+   {
+    "id": "s1",
+    "source": "Apa kabar?",
+    "target": "وش أخبارك؟",
+    "roman": "wesh akhbārak?",
+    "meaning": "Apa kabar? (informal)",
+    "example": "هلا، وش أخبارك؟",
+    "exampleMeaning": "Hai, apa kabar?"
+   },
+   {
+    "id": "s2",
+    "source": "Baik",
+    "target": "تمام",
+    "roman": "tamām",
+    "meaning": "Baik / oke",
+    "example": "أنا تمام، الحمد لله",
+    "exampleMeaning": "Saya baik, syukurlah"
+   },
+   {
+    "id": "s3",
+    "source": "Sekarang",
+    "target": "الحين",
+    "roman": "al-ḥīn",
+    "meaning": "Sekarang",
+    "example": "تعال الحين",
+    "exampleMeaning": "Datang sekarang"
+   },
+   {
+    "id": "s4",
+    "source": "Tidak apa-apa",
+    "target": "ما عليه",
+    "roman": "mā ʿalayh",
+    "meaning": "Tidak apa-apa",
+    "example": "ما عليه، عادي",
+    "exampleMeaning": "Tidak apa-apa, santai saja"
+   }
+  ]
+ },
+ {
+  "id": "sa-02",
+  "language": "sa",
+  "level": "Dasar",
+  "title": "Percakapan praktis Saudi",
+  "description": "Pertanyaan dan jawaban singkat",
+  "icon": "💬",
+  "items": [
+   {
+    "id": "s5",
+    "source": "Apa yang kamu mau?",
+    "target": "وش تبغى؟",
+    "roman": "wesh tibghā?",
+    "meaning": "Apa yang kamu mau? (kepada laki-laki)",
+    "example": "وش تبغى تشرب؟",
+    "exampleMeaning": "Kamu mau minum apa?"
+   },
+   {
+    "id": "s6",
+    "source": "Saya tidak tahu",
+    "target": "ما أدري",
+    "roman": "mā adrī",
+    "meaning": "Saya tidak tahu",
+    "example": "والله ما أدري",
+    "exampleMeaning": "Saya benar-benar tidak tahu"
+   },
+   {
+    "id": "s7",
+    "source": "Sebentar",
+    "target": "شوي",
+    "roman": "shway",
+    "meaning": "Sedikit / sebentar",
+    "example": "اصبر شوي",
+    "exampleMeaning": "Tunggu sebentar"
+   },
+   {
+    "id": "s8",
+    "source": "Di mana?",
+    "target": "وين؟",
+    "roman": "wayn?",
+    "meaning": "Di mana?",
+    "example": "وين المفتاح؟",
+    "exampleMeaning": "Di mana kuncinya?"
+   }
+  ]
+ },
+ {
+  "id": "sa-03",
+  "language": "sa",
+  "level": "Dasar",
+  "title": "Di tempat kerja",
+  "description": "Kalimat sopan dan berguna",
+  "icon": "🧹",
+  "items": [
+   {
+    "id": "s9",
+    "source": "Sudah selesai",
+    "target": "خلصت",
+    "roman": "khallaṣt",
+    "meaning": "Saya sudah selesai",
+    "example": "خلصت الشغل",
+    "exampleMeaning": "Saya sudah menyelesaikan pekerjaan"
+   },
+   {
+    "id": "s10",
+    "source": "Saya butuh bantuan",
+    "target": "أحتاج مساعدة",
+    "roman": "aḥtāj musāʿada",
+    "meaning": "Saya butuh bantuan",
+    "example": "لو سمحت، أحتاج مساعدة",
+    "exampleMeaning": "Permisi, saya butuh bantuan"
+   },
+   {
+    "id": "s11",
+    "source": "Boleh saya istirahat?",
+    "target": "ممكن أرتاح؟",
+    "roman": "mumkin artāḥ?",
+    "meaning": "Boleh saya istirahat?",
+    "example": "ممكن أرتاح شوي؟",
+    "exampleMeaning": "Boleh saya istirahat sebentar?"
+   },
+   {
+    "id": "s12",
+    "source": "Saya mengerti",
+    "target": "فهمت",
+    "roman": "fihimt",
+    "meaning": "Saya mengerti",
+    "example": "إيه، فهمت عليك",
+    "exampleMeaning": "Ya, saya mengerti maksudmu"
+   }
+  ]
+ },
+ {
+  "id": "en-01",
+  "language": "en",
+  "level": "Pemula",
+  "title": "Greetings",
+  "description": "Sapaan dasar bahasa Inggris",
+  "icon": "👋",
+  "items": [
+   {
+    "id": "e1",
+    "source": "Halo",
+    "target": "Hello",
+    "roman": "heh-LOH",
+    "meaning": "Halo",
+    "example": "Hello, how are you?",
+    "exampleMeaning": "Halo, apa kabar?"
+   },
+   {
+    "id": "e2",
+    "source": "Selamat pagi",
+    "target": "Good morning",
+    "roman": "gud MOR-ning",
+    "meaning": "Selamat pagi",
+    "example": "Good morning, Leyla!",
+    "exampleMeaning": "Selamat pagi, Leyla!"
+   },
+   {
+    "id": "e3",
+    "source": "Terima kasih",
+    "target": "Thank you",
+    "roman": "THANGK yoo",
+    "meaning": "Terima kasih",
+    "example": "Thank you for your help",
+    "exampleMeaning": "Terima kasih atas bantuanmu"
+   },
+   {
+    "id": "e4",
+    "source": "Sampai jumpa",
+    "target": "See you later",
+    "roman": "see yoo LAY-ter",
+    "meaning": "Sampai jumpa",
+    "example": "See you later!",
+    "exampleMeaning": "Sampai jumpa!"
+   }
+  ]
+ },
+ {
+  "id": "en-02",
+  "language": "en",
+  "level": "Pemula",
+  "title": "Introducing yourself",
+  "description": "Kenalkan diri dalam bahasa Inggris",
+  "icon": "🙋",
+  "items": [
+   {
+    "id": "e5",
+    "source": "Nama saya Leyla",
+    "target": "My name is Leyla",
+    "roman": "mai naym iz LAY-la",
+    "meaning": "Nama saya Leyla",
+    "example": "My name is Leyla. Nice to meet you.",
+    "exampleMeaning": "Nama saya Leyla. Senang bertemu denganmu."
+   },
+   {
+    "id": "e6",
+    "source": "Saya dari Indonesia",
+    "target": "I am from Indonesia",
+    "roman": "ai am from in-doh-NEE-zhuh",
+    "meaning": "Saya dari Indonesia",
+    "example": "I am from Indonesia.",
+    "exampleMeaning": "Saya dari Indonesia."
+   },
+   {
+    "id": "e7",
+    "source": "Siapa namamu?",
+    "target": "What is your name?",
+    "roman": "wuht iz yor naym",
+    "meaning": "Siapa namamu?",
+    "example": "Hello, what is your name?",
+    "exampleMeaning": "Halo, siapa namamu?"
+   },
+   {
+    "id": "e8",
+    "source": "Saya baik-baik saja",
+    "target": "I am fine",
+    "roman": "ai am fain",
+    "meaning": "Saya baik-baik saja",
+    "example": "I am fine, thank you.",
+    "exampleMeaning": "Saya baik, terima kasih."
+   }
+  ]
+ },
+ {
+  "id": "en-03",
+  "language": "en",
+  "level": "Pemula",
+  "title": "Numbers and time",
+  "description": "Angka dan waktu",
+  "icon": "⏰",
+  "items": [
+   {
+    "id": "e9",
+    "source": "Satu",
+    "target": "One",
+    "roman": "wun",
+    "meaning": "Satu",
+    "example": "I have one book.",
+    "exampleMeaning": "Saya punya satu buku."
+   },
+   {
+    "id": "e10",
+    "source": "Dua",
+    "target": "Two",
+    "roman": "too",
+    "meaning": "Dua",
+    "example": "I have two pens.",
+    "exampleMeaning": "Saya punya dua pena."
+   },
+   {
+    "id": "e11",
+    "source": "Hari ini",
+    "target": "Today",
+    "roman": "tuh-DAY",
+    "meaning": "Hari ini",
+    "example": "Today is Saturday.",
+    "exampleMeaning": "Hari ini hari Sabtu."
+   },
+   {
+    "id": "e12",
+    "source": "Besok",
+    "target": "Tomorrow",
+    "roman": "tuh-MOR-oh",
+    "meaning": "Besok",
+    "example": "See you tomorrow.",
+    "exampleMeaning": "Sampai jumpa besok."
+   }
+  ]
+ },
+ {
+  "id": "en-04",
+  "language": "en",
+  "level": "Dasar",
+  "title": "At home",
+  "description": "Benda dan kegiatan di rumah",
+  "icon": "🏡",
+  "items": [
+   {
+    "id": "e13",
+    "source": "Air",
+    "target": "Water",
+    "roman": "WAW-ter",
+    "meaning": "Air",
+    "example": "Can I have some water?",
+    "exampleMeaning": "Boleh saya minta air?"
+   },
+   {
+    "id": "e14",
+    "source": "Pintu",
+    "target": "Door",
+    "roman": "dor",
+    "meaning": "Pintu",
+    "example": "Please close the door.",
+    "exampleMeaning": "Tolong tutup pintunya."
+   },
+   {
+    "id": "e15",
+    "source": "Dapur",
+    "target": "Kitchen",
+    "roman": "KICH-en",
+    "meaning": "Dapur",
+    "example": "The kitchen is clean.",
+    "exampleMeaning": "Dapurnya bersih."
+   },
+   {
+    "id": "e16",
+    "source": "Di mana kamar mandi?",
+    "target": "Where is the bathroom?",
+    "roman": "wair iz thuh BATH-room",
+    "meaning": "Di mana kamar mandi?",
+    "example": "Excuse me, where is the bathroom?",
+    "exampleMeaning": "Permisi, di mana kamar mandi?"
+   }
+  ]
+ },
+ {
+  "id": "en-05",
+  "language": "en",
+  "level": "Dasar",
+  "title": "Shopping and food",
+  "description": "Bertanya harga dan memesan",
+  "icon": "🥗",
+  "items": [
+   {
+    "id": "e17",
+    "source": "Berapa harganya?",
+    "target": "How much is it?",
+    "roman": "how much iz it",
+    "meaning": "Berapa harganya?",
+    "example": "How much is this?",
+    "exampleMeaning": "Berapa harga ini?"
+   },
+   {
+    "id": "e18",
+    "source": "Saya ingin roti",
+    "target": "I would like bread",
+    "roman": "ai wud laik bred",
+    "meaning": "Saya ingin roti",
+    "example": "I would like some bread, please.",
+    "exampleMeaning": "Saya ingin roti, tolong."
+   },
+   {
+    "id": "e19",
+    "source": "Enak",
+    "target": "Delicious",
+    "roman": "di-LISH-us",
+    "meaning": "Enak",
+    "example": "This food is delicious.",
+    "exampleMeaning": "Makanan ini enak."
+   },
+   {
+    "id": "e20",
+    "source": "Tolong",
+    "target": "Please",
+    "roman": "pleez",
+    "meaning": "Tolong",
+    "example": "Please help me.",
+    "exampleMeaning": "Tolong bantu saya."
+   }
+  ]
+ },
+ {
+  "id": "en-06",
+  "language": "en",
+  "level": "Dasar",
+  "title": "Simple questions",
+  "description": "Bertanya dan menjawab",
+  "icon": "❓",
+  "items": [
+   {
+    "id": "e21",
+    "source": "Apa ini?",
+    "target": "What is this?",
+    "roman": "wuht iz this",
+    "meaning": "Apa ini?",
+    "example": "What is this called?",
+    "exampleMeaning": "Apa nama benda ini?"
+   },
+   {
+    "id": "e22",
+    "source": "Di mana kamu?",
+    "target": "Where are you?",
+    "roman": "wair ar yoo",
+    "meaning": "Di mana kamu?",
+    "example": "Where are you now?",
+    "exampleMeaning": "Di mana kamu sekarang?"
+   },
+   {
+    "id": "e23",
+    "source": "Saya tidak mengerti",
+    "target": "I do not understand",
+    "roman": "ai doo not un-der-STAND",
+    "meaning": "Saya tidak mengerti",
+    "example": "Sorry, I do not understand.",
+    "exampleMeaning": "Maaf, saya tidak mengerti."
+   },
+   {
+    "id": "e24",
+    "source": "Bisakah kamu mengulanginya?",
+    "target": "Can you repeat that?",
+    "roman": "kan yoo ri-PEET that",
+    "meaning": "Bisakah kamu mengulanginya?",
+    "example": "Can you repeat that, please?",
+    "exampleMeaning": "Bisakah kamu mengulanginya, tolong?"
+   }
+  ]
+ },
+ {
+  "id": "ar-06",
+  "language": "ar",
+  "level": "Pemula",
+  "title": "Keluarga",
+  "description": "Latihan praktis dengan contoh dan kuis",
+  "icon": "👨‍👩‍👧",
+  "items": [
+   {
+    "id": "arx061",
+    "source": "Ibu",
+    "target": "أم",
+    "roman": "umm",
+    "meaning": "Ibu",
+    "example": "هذه أمي",
+    "exampleMeaning": "Ini ibu saya"
+   },
+   {
+    "id": "arx062",
+    "source": "Ayah",
+    "target": "أب",
+    "roman": "ab",
+    "meaning": "Ayah",
+    "example": "هذا أبي",
+    "exampleMeaning": "Ini ayah saya"
+   },
+   {
+    "id": "arx063",
+    "source": "Saudara perempuan",
+    "target": "أخت",
+    "roman": "ukht",
+    "meaning": "Saudara perempuan",
+    "example": "هذه أختي",
+    "exampleMeaning": "Ini saudara perempuan saya"
+   },
+   {
+    "id": "arx064",
+    "source": "Anak",
+    "target": "طفل",
+    "roman": "ṭifl",
+    "meaning": "Anak",
+    "example": "هذا طفل صغير",
+    "exampleMeaning": "Ini anak kecil"
+   }
+  ]
+ },
+ {
+  "id": "ar-07",
+  "language": "ar",
+  "level": "Dasar",
+  "title": "Hari dan jadwal",
+  "description": "Latihan praktis dengan contoh dan kuis",
+  "icon": "📅",
+  "items": [
+   {
+    "id": "arx071",
+    "source": "Senin",
+    "target": "الاثنين",
+    "roman": "al-ithnayn",
+    "meaning": "Senin",
+    "example": "اليوم الاثنين",
+    "exampleMeaning": "Hari ini Senin"
+   },
+   {
+    "id": "arx072",
+    "source": "Jumat",
+    "target": "الجمعة",
+    "roman": "al-jumuʿah",
+    "meaning": "Jumat",
+    "example": "غدًا الجمعة",
+    "exampleMeaning": "Besok Jumat"
+   },
+   {
+    "id": "arx073",
+    "source": "Pagi",
+    "target": "صباح",
+    "roman": "ṣabāḥ",
+    "meaning": "Pagi",
+    "example": "أدرس في الصباح",
+    "exampleMeaning": "Saya belajar pada pagi hari"
+   },
+   {
+    "id": "arx074",
+    "source": "Malam",
+    "target": "ليل",
+    "roman": "layl",
+    "meaning": "Malam",
+    "example": "أعود في الليل",
+    "exampleMeaning": "Saya pulang pada malam hari"
+   }
+  ]
+ },
+ {
+  "id": "ar-08",
+  "language": "ar",
+  "level": "Dasar",
+  "title": "Perjalanan",
+  "description": "Latihan praktis dengan contoh dan kuis",
+  "icon": "🚌",
+  "items": [
+   {
+    "id": "arx081",
+    "source": "Bandara",
+    "target": "مطار",
+    "roman": "maṭār",
+    "meaning": "Bandara",
+    "example": "أين المطار؟",
+    "exampleMeaning": "Di mana bandara?"
+   },
+   {
+    "id": "arx082",
+    "source": "Mobil",
+    "target": "سيارة",
+    "roman": "sayyārah",
+    "meaning": "Mobil",
+    "example": "هذه سيارة جديدة",
+    "exampleMeaning": "Ini mobil baru"
+   },
+   {
+    "id": "arx083",
+    "source": "Tiket",
+    "target": "تذكرة",
+    "roman": "tadhkirah",
+    "meaning": "Tiket",
+    "example": "عندي تذكرة",
+    "exampleMeaning": "Saya punya tiket"
+   },
+   {
+    "id": "arx084",
+    "source": "Ke kanan",
+    "target": "إلى اليمين",
+    "roman": "ilā al-yamīn",
+    "meaning": "Ke kanan",
+    "example": "اذهب إلى اليمين",
+    "exampleMeaning": "Pergilah ke kanan"
+   }
+  ]
+ },
+ {
+  "id": "ar-09",
+  "language": "ar",
+  "level": "Dasar",
+  "title": "Kesehatan",
+  "description": "Latihan praktis dengan contoh dan kuis",
+  "icon": "🩺",
+  "items": [
+   {
+    "id": "arx091",
+    "source": "Saya sakit",
+    "target": "أنا مريض",
+    "roman": "anā marīḍ",
+    "meaning": "Saya sakit",
+    "example": "أنا مريض اليوم",
+    "exampleMeaning": "Saya sakit hari ini"
+   },
+   {
+    "id": "arx092",
+    "source": "Dokter",
+    "target": "طبيب",
+    "roman": "ṭabīb",
+    "meaning": "Dokter",
+    "example": "أحتاج إلى طبيب",
+    "exampleMeaning": "Saya membutuhkan dokter"
+   },
+   {
+    "id": "arx093",
+    "source": "Obat",
+    "target": "دواء",
+    "roman": "dawāʾ",
+    "meaning": "Obat",
+    "example": "أين الدواء؟",
+    "exampleMeaning": "Di mana obatnya?"
+   },
+   {
+    "id": "arx094",
+    "source": "Rumah sakit",
+    "target": "مستشفى",
+    "roman": "mustashfā",
+    "meaning": "Rumah sakit",
+    "example": "المستشفى قريب",
+    "exampleMeaning": "Rumah sakit dekat"
+   }
+  ]
+ },
+ {
+  "id": "ar-10",
+  "language": "ar",
+  "level": "Dasar",
+  "title": "Kata kerja sehari-hari",
+  "description": "Latihan praktis dengan contoh dan kuis",
+  "icon": "🏃",
+  "items": [
+   {
+    "id": "arx101",
+    "source": "Saya makan",
+    "target": "أنا آكل",
+    "roman": "anā ākul",
+    "meaning": "Saya makan",
+    "example": "أنا آكل الأرز",
+    "exampleMeaning": "Saya makan nasi"
+   },
+   {
+    "id": "arx102",
+    "source": "Saya minum",
+    "target": "أنا أشرب",
+    "roman": "anā ashrab",
+    "meaning": "Saya minum",
+    "example": "أنا أشرب الماء",
+    "exampleMeaning": "Saya minum air"
+   },
+   {
+    "id": "arx103",
+    "source": "Saya belajar",
+    "target": "أنا أتعلم",
+    "roman": "anā ataʿallam",
+    "meaning": "Saya belajar",
+    "example": "أنا أتعلم العربية",
+    "exampleMeaning": "Saya belajar bahasa Arab"
+   },
+   {
+    "id": "arx104",
+    "source": "Saya pergi",
+    "target": "أنا أذهب",
+    "roman": "anā adhhab",
+    "meaning": "Saya pergi",
+    "example": "أنا أذهب إلى البيت",
+    "exampleMeaning": "Saya pergi ke rumah"
+   }
+  ]
+ },
+ {
+  "id": "ar-11",
+  "language": "ar",
+  "level": "Dasar",
+  "title": "Pertanyaan penting",
+  "description": "Latihan praktis dengan contoh dan kuis",
+  "icon": "❔",
+  "items": [
+   {
+    "id": "arx111",
+    "source": "Mengapa?",
+    "target": "لماذا؟",
+    "roman": "limādhā?",
+    "meaning": "Mengapa?",
+    "example": "لماذا أنت هنا؟",
+    "exampleMeaning": "Mengapa kamu di sini?"
+   },
+   {
+    "id": "arx112",
+    "source": "Kapan?",
+    "target": "متى؟",
+    "roman": "matā?",
+    "meaning": "Kapan?",
+    "example": "متى تبدأ؟",
+    "exampleMeaning": "Kapan kamu mulai?"
+   },
+   {
+    "id": "arx113",
+    "source": "Bagaimana?",
+    "target": "كيف؟",
+    "roman": "kayfa?",
+    "meaning": "Bagaimana?",
+    "example": "كيف حالك؟",
+    "exampleMeaning": "Apa kabar?"
+   },
+   {
+    "id": "arx114",
+    "source": "Berapa banyak?",
+    "target": "كم؟",
+    "roman": "kam?",
+    "meaning": "Berapa banyak?",
+    "example": "كم كتابًا عندك؟",
+    "exampleMeaning": "Berapa buku yang kamu punya?"
+   }
+  ]
+ },
+ {
+  "id": "ar-12",
+  "language": "ar",
+  "level": "Dasar",
+  "title": "Warna dan sifat",
+  "description": "Latihan praktis dengan contoh dan kuis",
+  "icon": "🎨",
+  "items": [
+   {
+    "id": "arx121",
+    "source": "Merah",
+    "target": "أحمر",
+    "roman": "aḥmar",
+    "meaning": "Merah",
+    "example": "القلم أحمر",
+    "exampleMeaning": "Pena itu merah"
+   },
+   {
+    "id": "arx122",
+    "source": "Biru",
+    "target": "أزرق",
+    "roman": "azraq",
+    "meaning": "Biru",
+    "example": "الباب أزرق",
+    "exampleMeaning": "Pintu itu biru"
+   },
+   {
+    "id": "arx123",
+    "source": "Besar",
+    "target": "كبير",
+    "roman": "kabīr",
+    "meaning": "Besar",
+    "example": "البيت كبير",
+    "exampleMeaning": "Rumah itu besar"
+   },
+   {
+    "id": "arx124",
+    "source": "Kecil",
+    "target": "صغير",
+    "roman": "ṣaghīr",
+    "meaning": "Kecil",
+    "example": "الكتاب صغير",
+    "exampleMeaning": "Buku itu kecil"
+   }
+  ]
+ },
+ {
+  "id": "ar-13",
+  "language": "ar",
+  "level": "Dasar",
+  "title": "Kalimat sopan",
+  "description": "Latihan praktis dengan contoh dan kuis",
+  "icon": "🤝",
+  "items": [
+   {
+    "id": "arx131",
+    "source": "Maaf",
+    "target": "عذرًا",
+    "roman": "ʿudhran",
+    "meaning": "Maaf",
+    "example": "عذرًا على التأخير",
+    "exampleMeaning": "Maaf atas keterlambatan"
+   },
+   {
+    "id": "arx132",
+    "source": "Permisi",
+    "target": "لو سمحت",
+    "roman": "law samaḥt",
+    "meaning": "Permisi",
+    "example": "لو سمحت، أين الباب؟",
+    "exampleMeaning": "Permisi, di mana pintunya?"
+   },
+   {
+    "id": "arx133",
+    "source": "Sama-sama",
+    "target": "على الرحب والسعة",
+    "roman": "ʿalā ar-raḥb wa-s-saʿah",
+    "meaning": "Sama-sama",
+    "example": "شكرًا، على الرحب والسعة",
+    "exampleMeaning": "Terima kasih, sama-sama"
+   },
+   {
+    "id": "arx134",
+    "source": "Selamat datang",
+    "target": "أهلًا وسهلًا",
+    "roman": "ahlan wa-sahlan",
+    "meaning": "Selamat datang",
+    "example": "أهلًا وسهلًا بك",
+    "exampleMeaning": "Selamat datang"
+   }
+  ]
+ },
+ {
+  "id": "sa-04",
+  "language": "sa",
+  "level": "Pemula",
+  "title": "Di pasar Saudi",
+  "description": "Latihan praktis dengan contoh dan kuis",
+  "icon": "🛍️",
+  "items": [
+   {
+    "id": "sax041",
+    "source": "Berapa harganya?",
+    "target": "بكم هذا؟",
+    "roman": "bikam hādhā?",
+    "meaning": "Berapa harganya?",
+    "example": "بكم هذا القميص؟",
+    "exampleMeaning": "Berapa harga kemeja ini?"
+   },
+   {
+    "id": "sax042",
+    "source": "Mahal",
+    "target": "غالي",
+    "roman": "ghālī",
+    "meaning": "Mahal",
+    "example": "هذا غالي",
+    "exampleMeaning": "Ini mahal"
+   },
+   {
+    "id": "sax043",
+    "source": "Murah",
+    "target": "رخيص",
+    "roman": "rakhīṣ",
+    "meaning": "Murah",
+    "example": "هذا رخيص",
+    "exampleMeaning": "Ini murah"
+   },
+   {
+    "id": "sax044",
+    "source": "Saya mau ini",
+    "target": "أبغى هذا",
+    "roman": "abghā hādhā",
+    "meaning": "Saya mau ini",
+    "example": "أبغى هذا لو سمحت",
+    "exampleMeaning": "Saya mau ini, tolong"
+   }
+  ]
+ },
+ {
+  "id": "sa-05",
+  "language": "sa",
+  "level": "Pemula",
+  "title": "Waktu dan janji",
+  "description": "Latihan praktis dengan contoh dan kuis",
+  "icon": "⏰",
+  "items": [
+   {
+    "id": "sax051",
+    "source": "Besok",
+    "target": "بكرة",
+    "roman": "bukrah",
+    "meaning": "Besok",
+    "example": "أشوفك بكرة",
+    "exampleMeaning": "Sampai ketemu besok"
+   },
+   {
+    "id": "sax052",
+    "source": "Kemarin",
+    "target": "أمس",
+    "roman": "ams",
+    "meaning": "Kemarin",
+    "example": "جيت أمس",
+    "exampleMeaning": "Saya datang kemarin"
+   },
+   {
+    "id": "sax053",
+    "source": "Nanti",
+    "target": "بعدين",
+    "roman": "baʿdayn",
+    "meaning": "Nanti",
+    "example": "نتكلم بعدين",
+    "exampleMeaning": "Kita bicara nanti"
+   },
+   {
+    "id": "sax054",
+    "source": "Cepat",
+    "target": "بسرعة",
+    "roman": "bisurʿah",
+    "meaning": "Cepat",
+    "example": "تعال بسرعة",
+    "exampleMeaning": "Datang cepat"
+   }
+  ]
+ },
+ {
+  "id": "sa-06",
+  "language": "sa",
+  "level": "Pemula",
+  "title": "Arah dan tempat",
+  "description": "Latihan praktis dengan contoh dan kuis",
+  "icon": "📍",
+  "items": [
+   {
+    "id": "sax061",
+    "source": "Di mana?",
+    "target": "وين؟",
+    "roman": "wayn?",
+    "meaning": "Di mana?",
+    "example": "وين السوق؟",
+    "exampleMeaning": "Di mana pasar?"
+   },
+   {
+    "id": "sax062",
+    "source": "Di sini",
+    "target": "هنا",
+    "roman": "hinā",
+    "meaning": "Di sini",
+    "example": "تعال هنا",
+    "exampleMeaning": "Datang ke sini"
+   },
+   {
+    "id": "sax063",
+    "source": "Di sana",
+    "target": "هناك",
+    "roman": "hināk",
+    "meaning": "Di sana",
+    "example": "السيارة هناك",
+    "exampleMeaning": "Mobilnya di sana"
+   },
+   {
+    "id": "sax064",
+    "source": "Dekat",
+    "target": "قريب",
+    "roman": "garīb",
+    "meaning": "Dekat",
+    "example": "المحل قريب",
+    "exampleMeaning": "Tokonya dekat"
+   }
+  ]
+ },
+ {
+  "id": "sa-07",
+  "language": "sa",
+  "level": "Dasar",
+  "title": "Percakapan ramah",
+  "description": "Latihan praktis dengan contoh dan kuis",
+  "icon": "😊",
+  "items": [
+   {
+    "id": "sax071",
+    "source": "Selamat datang",
+    "target": "يا هلا",
+    "roman": "yā halā",
+    "meaning": "Selamat datang",
+    "example": "يا هلا فيك",
+    "exampleMeaning": "Selamat datang"
+   },
+   {
+    "id": "sax072",
+    "source": "Apa kabarmu?",
+    "target": "كيف حالك؟",
+    "roman": "kēf ḥālak?",
+    "meaning": "Apa kabarmu?",
+    "example": "هلا، كيف حالك؟",
+    "exampleMeaning": "Hai, apa kabar?"
+   },
+   {
+    "id": "sax073",
+    "source": "Bagus sekali",
+    "target": "مرة حلو",
+    "roman": "marrah ḥilw",
+    "meaning": "Bagus sekali",
+    "example": "هذا مرة حلو",
+    "exampleMeaning": "Ini bagus sekali"
+   },
+   {
+    "id": "sax074",
+    "source": "Tidak masalah",
+    "target": "عادي",
+    "roman": "ʿādī",
+    "meaning": "Tidak masalah",
+    "example": "عادي، ما فيه مشكلة",
+    "exampleMeaning": "Tidak masalah"
+   }
+  ]
+ },
+ {
+  "id": "sa-08",
+  "language": "sa",
+  "level": "Dasar",
+  "title": "Makanan dan minuman",
+  "description": "Latihan praktis dengan contoh dan kuis",
+  "icon": "☕",
+  "items": [
+   {
+    "id": "sax081",
+    "source": "Saya lapar",
+    "target": "أنا جوعان",
+    "roman": "anā jawʿān",
+    "meaning": "Saya lapar",
+    "example": "أنا جوعان الحين",
+    "exampleMeaning": "Saya lapar sekarang"
+   },
+   {
+    "id": "sax082",
+    "source": "Saya haus",
+    "target": "أنا عطشان",
+    "roman": "anā ʿaṭshān",
+    "meaning": "Saya haus",
+    "example": "أنا عطشان، أبغى موية",
+    "exampleMeaning": "Saya haus, ingin air"
+   },
+   {
+    "id": "sax083",
+    "source": "Air",
+    "target": "موية",
+    "roman": "mōyah",
+    "meaning": "Air",
+    "example": "أبغى موية",
+    "exampleMeaning": "Saya mau air"
+   },
+   {
+    "id": "sax084",
+    "source": "Kopi",
+    "target": "قهوة",
+    "roman": "gahwah",
+    "meaning": "Kopi",
+    "example": "أبغى قهوة",
+    "exampleMeaning": "Saya mau kopi"
+   }
+  ]
+ },
+ {
+  "id": "sa-09",
+  "language": "sa",
+  "level": "Dasar",
+  "title": "Meminta bantuan",
+  "description": "Latihan praktis dengan contoh dan kuis",
+  "icon": "🆘",
+  "items": [
+   {
+    "id": "sax091",
+    "source": "Bantu saya",
+    "target": "ساعدني",
+    "roman": "sāʿidnī",
+    "meaning": "Bantu saya",
+    "example": "لو سمحت ساعدني",
+    "exampleMeaning": "Tolong bantu saya"
+   },
+   {
+    "id": "sax092",
+    "source": "Tunggu sebentar",
+    "target": "انتظر شوي",
+    "roman": "intaẓir shway",
+    "meaning": "Tunggu sebentar",
+    "example": "انتظر شوي لو سمحت",
+    "exampleMeaning": "Tunggu sebentar, tolong"
+   },
+   {
+    "id": "sax093",
+    "source": "Saya tidak paham",
+    "target": "ما فهمت",
+    "roman": "mā fihimt",
+    "meaning": "Saya tidak paham",
+    "example": "آسف، ما فهمت",
+    "exampleMeaning": "Maaf, saya tidak paham"
+   },
+   {
+    "id": "sax094",
+    "source": "Ulangi, tolong",
+    "target": "عيد لو سمحت",
+    "roman": "ʿīd law samaḥt",
+    "meaning": "Ulangi, tolong",
+    "example": "عيد الكلام لو سمحت",
+    "exampleMeaning": "Ulangi perkataannya, tolong"
+   }
+  ]
+ },
+ {
+  "id": "sa-10",
+  "language": "sa",
+  "level": "Dasar",
+  "title": "Di rumah",
+  "description": "Latihan praktis dengan contoh dan kuis",
+  "icon": "🏡",
+  "items": [
+   {
+    "id": "sax101",
+    "source": "Bersih",
+    "target": "نظيف",
+    "roman": "naẓīf",
+    "meaning": "Bersih",
+    "example": "المكان نظيف",
+    "exampleMeaning": "Tempatnya bersih"
+   },
+   {
+    "id": "sax102",
+    "source": "Kunci",
+    "target": "مفتاح",
+    "roman": "miftāḥ",
+    "meaning": "Kunci",
+    "example": "وين المفتاح؟",
+    "exampleMeaning": "Di mana kuncinya?"
+   },
+   {
+    "id": "sax103",
+    "source": "Buka pintu",
+    "target": "افتح الباب",
+    "roman": "iftaḥ il-bāb",
+    "meaning": "Buka pintu",
+    "example": "افتح الباب لو سمحت",
+    "exampleMeaning": "Buka pintu, tolong"
+   },
+   {
+    "id": "sax104",
+    "source": "Tutup pintu",
+    "target": "سكر الباب",
+    "roman": "sakkir il-bāb",
+    "meaning": "Tutup pintu",
+    "example": "سكر الباب لو سمحت",
+    "exampleMeaning": "Tutup pintu, tolong"
+   }
+  ]
+ },
+ {
+  "id": "sa-11",
+  "language": "sa",
+  "level": "Dasar",
+  "title": "Rencana harian",
+  "description": "Latihan praktis dengan contoh dan kuis",
+  "icon": "🗓️",
+  "items": [
+   {
+    "id": "sax111",
+    "source": "Saya datang",
+    "target": "أنا جاي",
+    "roman": "anā jāy",
+    "meaning": "Saya datang",
+    "example": "أنا جاي الحين",
+    "exampleMeaning": "Saya sedang datang sekarang"
+   },
+   {
+    "id": "sax112",
+    "source": "Saya pergi",
+    "target": "أنا رايح",
+    "roman": "anā rāyiḥ",
+    "meaning": "Saya pergi",
+    "example": "أنا رايح البيت",
+    "exampleMeaning": "Saya pergi ke rumah"
+   },
+   {
+    "id": "sax113",
+    "source": "Sudah siap?",
+    "target": "جاهز؟",
+    "roman": "jāhiz?",
+    "meaning": "Sudah siap?",
+    "example": "أنت جاهز؟",
+    "exampleMeaning": "Kamu sudah siap? (laki-laki)"
+   },
+   {
+    "id": "sax114",
+    "source": "Selesai",
+    "target": "خلاص",
+    "roman": "khalāṣ",
+    "meaning": "Selesai",
+    "example": "خلاص، انتهينا",
+    "exampleMeaning": "Sudah, kita selesai"
+   }
+  ]
+ },
+ {
+  "id": "en-07",
+  "language": "en",
+  "level": "Dasar",
+  "title": "Family",
+  "description": "Latihan praktis dengan contoh dan kuis",
+  "icon": "👪",
+  "items": [
+   {
+    "id": "enx071",
+    "source": "Ibu",
+    "target": "Mother",
+    "roman": "MUH-ther",
+    "meaning": "Ibu",
+    "example": "My mother is kind.",
+    "exampleMeaning": "Ibu saya baik"
+   },
+   {
+    "id": "enx072",
+    "source": "Ayah",
+    "target": "Father",
+    "roman": "FAH-ther",
+    "meaning": "Ayah",
+    "example": "My father is at home.",
+    "exampleMeaning": "Ayah saya di rumah"
+   },
+   {
+    "id": "enx073",
+    "source": "Saudara perempuan",
+    "target": "Sister",
+    "roman": "SIS-ter",
+    "meaning": "Saudara perempuan",
+    "example": "My sister is here.",
+    "exampleMeaning": "Saudara perempuan saya di sini"
+   },
+   {
+    "id": "enx074",
+    "source": "Teman",
+    "target": "Friend",
+    "roman": "frend",
+    "meaning": "Teman",
+    "example": "She is my friend.",
+    "exampleMeaning": "Dia teman saya"
+   }
+  ]
+ },
+ {
+  "id": "en-08",
+  "language": "en",
+  "level": "Dasar",
+  "title": "Days and schedules",
+  "description": "Latihan praktis dengan contoh dan kuis",
+  "icon": "📆",
+  "items": [
+   {
+    "id": "enx081",
+    "source": "Senin",
+    "target": "Monday",
+    "roman": "MUN-day",
+    "meaning": "Senin",
+    "example": "See you on Monday.",
+    "exampleMeaning": "Sampai jumpa hari Senin"
+   },
+   {
+    "id": "enx082",
+    "source": "Jumat",
+    "target": "Friday",
+    "roman": "FRAI-day",
+    "meaning": "Jumat",
+    "example": "Today is Friday.",
+    "exampleMeaning": "Hari ini Jumat"
+   },
+   {
+    "id": "enx083",
+    "source": "Pagi",
+    "target": "Morning",
+    "roman": "MOR-ning",
+    "meaning": "Pagi",
+    "example": "I work in the morning.",
+    "exampleMeaning": "Saya bekerja pada pagi hari"
+   },
+   {
+    "id": "enx084",
+    "source": "Malam",
+    "target": "Night",
+    "roman": "nait",
+    "meaning": "Malam",
+    "example": "Good night!",
+    "exampleMeaning": "Selamat malam!"
+   }
+  ]
+ },
+ {
+  "id": "en-09",
+  "language": "en",
+  "level": "Dasar",
+  "title": "Travel and directions",
+  "description": "Latihan praktis dengan contoh dan kuis",
+  "icon": "🚕",
+  "items": [
+   {
+    "id": "enx091",
+    "source": "Bandara",
+    "target": "Airport",
+    "roman": "AIR-port",
+    "meaning": "Bandara",
+    "example": "Where is the airport?",
+    "exampleMeaning": "Di mana bandara?"
+   },
+   {
+    "id": "enx092",
+    "source": "Tiket",
+    "target": "Ticket",
+    "roman": "TIK-it",
+    "meaning": "Tiket",
+    "example": "I have a ticket.",
+    "exampleMeaning": "Saya punya tiket"
+   },
+   {
+    "id": "enx093",
+    "source": "Belok kiri",
+    "target": "Turn left",
+    "roman": "tern left",
+    "meaning": "Belok kiri",
+    "example": "Turn left here.",
+    "exampleMeaning": "Belok kiri di sini"
+   },
+   {
+    "id": "enx094",
+    "source": "Belok kanan",
+    "target": "Turn right",
+    "roman": "tern rait",
+    "meaning": "Belok kanan",
+    "example": "Turn right at the corner.",
+    "exampleMeaning": "Belok kanan di tikungan"
+   }
+  ]
+ },
+ {
+  "id": "en-10",
+  "language": "en",
+  "level": "Dasar",
+  "title": "Health and safety",
+  "description": "Latihan praktis dengan contoh dan kuis",
+  "icon": "🏥",
+  "items": [
+   {
+    "id": "enx101",
+    "source": "Saya sakit",
+    "target": "I am sick",
+    "roman": "ai am sik",
+    "meaning": "Saya sakit",
+    "example": "I am sick today.",
+    "exampleMeaning": "Saya sakit hari ini"
+   },
+   {
+    "id": "enx102",
+    "source": "Dokter",
+    "target": "Doctor",
+    "roman": "DOK-ter",
+    "meaning": "Dokter",
+    "example": "I need a doctor.",
+    "exampleMeaning": "Saya membutuhkan dokter"
+   },
+   {
+    "id": "enx103",
+    "source": "Tolong bantu saya",
+    "target": "Please help me",
+    "roman": "pleez help mee",
+    "meaning": "Tolong bantu saya",
+    "example": "Please help me now.",
+    "exampleMeaning": "Tolong bantu saya sekarang"
+   },
+   {
+    "id": "enx104",
+    "source": "Darurat",
+    "target": "Emergency",
+    "roman": "i-MER-jen-see",
+    "meaning": "Darurat",
+    "example": "This is an emergency.",
+    "exampleMeaning": "Ini keadaan darurat"
+   }
+  ]
+ },
+ {
+  "id": "en-11",
+  "language": "en",
+  "level": "Dasar",
+  "title": "Daily actions",
+  "description": "Latihan praktis dengan contoh dan kuis",
+  "icon": "🏃",
+  "items": [
+   {
+    "id": "enx111",
+    "source": "Saya makan",
+    "target": "I eat",
+    "roman": "ai eet",
+    "meaning": "Saya makan",
+    "example": "I eat rice.",
+    "exampleMeaning": "Saya makan nasi"
+   },
+   {
+    "id": "enx112",
+    "source": "Saya minum",
+    "target": "I drink",
+    "roman": "ai dringk",
+    "meaning": "Saya minum",
+    "example": "I drink water.",
+    "exampleMeaning": "Saya minum air"
+   },
+   {
+    "id": "enx113",
+    "source": "Saya bekerja",
+    "target": "I work",
+    "roman": "ai werk",
+    "meaning": "Saya bekerja",
+    "example": "I work today.",
+    "exampleMeaning": "Saya bekerja hari ini"
+   },
+   {
+    "id": "enx114",
+    "source": "Saya belajar",
+    "target": "I study",
+    "roman": "ai STUH-dee",
+    "meaning": "Saya belajar",
+    "example": "I study English.",
+    "exampleMeaning": "Saya belajar bahasa Inggris"
+   }
+  ]
+ },
+ {
+  "id": "en-12",
+  "language": "en",
+  "level": "Dasar",
+  "title": "Useful questions",
+  "description": "Latihan praktis dengan contoh dan kuis",
+  "icon": "❓",
+  "items": [
+   {
+    "id": "enx121",
+    "source": "Mengapa?",
+    "target": "Why?",
+    "roman": "wai",
+    "meaning": "Mengapa?",
+    "example": "Why are you here?",
+    "exampleMeaning": "Mengapa kamu di sini?"
+   },
+   {
+    "id": "enx122",
+    "source": "Kapan?",
+    "target": "When?",
+    "roman": "wen",
+    "meaning": "Kapan?",
+    "example": "When do we start?",
+    "exampleMeaning": "Kapan kita mulai?"
+   },
+   {
+    "id": "enx123",
+    "source": "Bagaimana?",
+    "target": "How?",
+    "roman": "hau",
+    "meaning": "Bagaimana?",
+    "example": "How does it work?",
+    "exampleMeaning": "Bagaimana cara kerjanya?"
+   },
+   {
+    "id": "enx124",
+    "source": "Yang mana?",
+    "target": "Which one?",
+    "roman": "wich wun",
+    "meaning": "Yang mana?",
+    "example": "Which one do you want?",
+    "exampleMeaning": "Yang mana yang kamu mau?"
+   }
+  ]
+ },
+ {
+  "id": "en-13",
+  "language": "en",
+  "level": "Dasar",
+  "title": "Colors and descriptions",
+  "description": "Latihan praktis dengan contoh dan kuis",
+  "icon": "🌈",
+  "items": [
+   {
+    "id": "enx131",
+    "source": "Merah",
+    "target": "Red",
+    "roman": "red",
+    "meaning": "Merah",
+    "example": "The bag is red.",
+    "exampleMeaning": "Tasnya merah"
+   },
+   {
+    "id": "enx132",
+    "source": "Biru",
+    "target": "Blue",
+    "roman": "bloo",
+    "meaning": "Biru",
+    "example": "The sky is blue.",
+    "exampleMeaning": "Langitnya biru"
+   },
+   {
+    "id": "enx133",
+    "source": "Besar",
+    "target": "Big",
+    "roman": "big",
+    "meaning": "Besar",
+    "example": "The room is big.",
+    "exampleMeaning": "Ruangannya besar"
+   },
+   {
+    "id": "enx134",
+    "source": "Kecil",
+    "target": "Small",
+    "roman": "smol",
+    "meaning": "Kecil",
+    "example": "The cup is small.",
+    "exampleMeaning": "Cangkirnya kecil"
+   }
+  ]
+ },
+ {
+  "id": "en-14",
+  "language": "en",
+  "level": "Dasar",
+  "title": "Polite conversations",
+  "description": "Latihan praktis dengan contoh dan kuis",
+  "icon": "💬",
+  "items": [
+   {
+    "id": "enx141",
+    "source": "Maaf",
+    "target": "Sorry",
+    "roman": "SOR-ee",
+    "meaning": "Maaf",
+    "example": "I am sorry.",
+    "exampleMeaning": "Saya minta maaf"
+   },
+   {
+    "id": "enx142",
+    "source": "Permisi",
+    "target": "Excuse me",
+    "roman": "ik-SKYOOZ mee",
+    "meaning": "Permisi",
+    "example": "Excuse me, where is the exit?",
+    "exampleMeaning": "Permisi, di mana pintu keluar?"
+   },
+   {
+    "id": "enx143",
+    "source": "Sama-sama",
+    "target": "You are welcome",
+    "roman": "yoo ar WEL-kum",
+    "meaning": "Sama-sama",
+    "example": "You are welcome!",
+    "exampleMeaning": "Sama-sama!"
+   },
+   {
+    "id": "enx144",
+    "source": "Bisa tolong ulangi?",
+    "target": "Could you repeat that?",
+    "roman": "kud yoo ri-PEET that",
+    "meaning": "Bisa tolong ulangi?",
+    "example": "Could you repeat that, please?",
+    "exampleMeaning": "Bisakah Anda mengulanginya?"
+   }
+  ]
+ },
+ {
+  "id": "id-01",
+  "language": "id",
+  "level": "Pemula",
+  "title": "Salam dan perkenalan",
+  "description": "Latihan praktis dengan contoh dan kuis",
+  "icon": "👋",
+  "items": [
+   {
+    "id": "idx011",
+    "source": "Hello",
+    "target": "Halo",
+    "roman": "ha-lo",
+    "meaning": "Hello, how are you?",
+    "example": "Halo, apa kabar?",
+    "exampleMeaning": "Hello, how are you?"
+   },
+   {
+    "id": "idx012",
+    "source": "Good morning",
+    "target": "Selamat pagi",
+    "roman": "sə-la-mat pa-gi",
+    "meaning": "Good morning, everyone!",
+    "example": "Selamat pagi, semuanya!",
+    "exampleMeaning": "Good morning, everyone!"
+   },
+   {
+    "id": "idx013",
+    "source": "My name is Leyla",
+    "target": "Nama saya Leyla",
+    "roman": "na-ma sa-ya ley-la",
+    "meaning": "Hello, my name is Leyla.",
+    "example": "Halo, nama saya Leyla.",
+    "exampleMeaning": "Hello, my name is Leyla."
+   },
+   {
+    "id": "idx014",
+    "source": "Thank you",
+    "target": "Terima kasih",
+    "roman": "tə-ri-ma ka-sih",
+    "meaning": "Thank you very much!",
+    "example": "Terima kasih banyak!",
+    "exampleMeaning": "Thank you very much!"
+   }
+  ]
+ },
+ {
+  "id": "id-02",
+  "language": "id",
+  "level": "Pemula",
+  "title": "Angka dan waktu",
+  "description": "Latihan praktis dengan contoh dan kuis",
+  "icon": "🔢",
+  "items": [
+   {
+    "id": "idx021",
+    "source": "One",
+    "target": "Satu",
+    "roman": "sa-tu",
+    "meaning": "I have one book.",
+    "example": "Saya punya satu buku.",
+    "exampleMeaning": "I have one book."
+   },
+   {
+    "id": "idx022",
+    "source": "Two",
+    "target": "Dua",
+    "roman": "du-a",
+    "meaning": "I have two bags.",
+    "example": "Saya punya dua tas.",
+    "exampleMeaning": "I have two bags."
+   },
+   {
+    "id": "idx023",
+    "source": "Today",
+    "target": "Hari ini",
+    "roman": "ha-ri i-ni",
+    "meaning": "Today is Monday.",
+    "example": "Hari ini hari Senin.",
+    "exampleMeaning": "Today is Monday."
+   },
+   {
+    "id": "idx024",
+    "source": "Tomorrow",
+    "target": "Besok",
+    "roman": "bə-sok",
+    "meaning": "See you tomorrow.",
+    "example": "Sampai jumpa besok.",
+    "exampleMeaning": "See you tomorrow."
+   }
+  ]
+ },
+ {
+  "id": "id-03",
+  "language": "id",
+  "level": "Pemula",
+  "title": "Keluarga",
+  "description": "Latihan praktis dengan contoh dan kuis",
+  "icon": "👨‍👩‍👧",
+  "items": [
+   {
+    "id": "idx031",
+    "source": "Mother",
+    "target": "Ibu",
+    "roman": "i-bu",
+    "meaning": "This is my mother.",
+    "example": "Ini ibu saya.",
+    "exampleMeaning": "This is my mother."
+   },
+   {
+    "id": "idx032",
+    "source": "Father",
+    "target": "Ayah",
+    "roman": "a-yah",
+    "meaning": "My father is at home.",
+    "example": "Ayah saya di rumah.",
+    "exampleMeaning": "My father is at home."
+   },
+   {
+    "id": "idx033",
+    "source": "Older sibling",
+    "target": "Kakak",
+    "roman": "ka-kak",
+    "meaning": "My older sibling is kind.",
+    "example": "Kakak saya baik.",
+    "exampleMeaning": "My older sibling is kind."
+   },
+   {
+    "id": "idx034",
+    "source": "Younger sibling",
+    "target": "Adik",
+    "roman": "a-dik",
+    "meaning": "My younger sibling goes to school.",
+    "example": "Adik saya sekolah.",
+    "exampleMeaning": "My younger sibling goes to school."
+   }
+  ]
+ },
+ {
+  "id": "id-04",
+  "language": "id",
+  "level": "Pemula",
+  "title": "Di rumah",
+  "description": "Latihan praktis dengan contoh dan kuis",
+  "icon": "🏠",
+  "items": [
+   {
+    "id": "idx041",
+    "source": "Water",
+    "target": "Air",
+    "roman": "a-ir",
+    "meaning": "I drink water.",
+    "example": "Saya minum air.",
+    "exampleMeaning": "I drink water."
+   },
+   {
+    "id": "idx042",
+    "source": "Door",
+    "target": "Pintu",
+    "roman": "pin-tu",
+    "meaning": "Please close the door.",
+    "example": "Tolong tutup pintu.",
+    "exampleMeaning": "Please close the door."
+   },
+   {
+    "id": "idx043",
+    "source": "Kitchen",
+    "target": "Dapur",
+    "roman": "da-pur",
+    "meaning": "This kitchen is clean.",
+    "example": "Dapur ini bersih.",
+    "exampleMeaning": "This kitchen is clean."
+   },
+   {
+    "id": "idx044",
+    "source": "Bathroom",
+    "target": "Kamar mandi",
+    "roman": "ka-mar man-di",
+    "meaning": "Where is the bathroom?",
+    "example": "Di mana kamar mandi?",
+    "exampleMeaning": "Where is the bathroom?"
+   }
+  ]
+ },
+ {
+  "id": "id-05",
+  "language": "id",
+  "level": "Pemula",
+  "title": "Makanan dan belanja",
+  "description": "Latihan praktis dengan contoh dan kuis",
+  "icon": "🍚",
+  "items": [
+   {
+    "id": "idx051",
+    "source": "Rice",
+    "target": "Nasi",
+    "roman": "na-si",
+    "meaning": "I eat rice.",
+    "example": "Saya makan nasi.",
+    "exampleMeaning": "I eat rice."
+   },
+   {
+    "id": "idx052",
+    "source": "Bread",
+    "target": "Roti",
+    "roman": "ro-ti",
+    "meaning": "I want bread.",
+    "example": "Saya mau roti.",
+    "exampleMeaning": "I want bread."
+   },
+   {
+    "id": "idx053",
+    "source": "How much?",
+    "target": "Berapa harganya?",
+    "roman": "bə-ra-pa har-ga-nya",
+    "meaning": "How much does this cost?",
+    "example": "Berapa harganya ini?",
+    "exampleMeaning": "How much does this cost?"
+   },
+   {
+    "id": "idx054",
+    "source": "Delicious",
+    "target": "Enak",
+    "roman": "e-nak",
+    "meaning": "This food is delicious.",
+    "example": "Makanan ini enak.",
+    "exampleMeaning": "This food is delicious."
+   }
+  ]
+ },
+ {
+  "id": "id-06",
+  "language": "id",
+  "level": "Pemula",
+  "title": "Perjalanan",
+  "description": "Latihan praktis dengan contoh dan kuis",
+  "icon": "🚍",
+  "items": [
+   {
+    "id": "idx061",
+    "source": "Airport",
+    "target": "Bandara",
+    "roman": "ban-da-ra",
+    "meaning": "I am going to the airport.",
+    "example": "Saya pergi ke bandara.",
+    "exampleMeaning": "I am going to the airport."
+   },
+   {
+    "id": "idx062",
+    "source": "Car",
+    "target": "Mobil",
+    "roman": "mo-bil",
+    "meaning": "That car is new.",
+    "example": "Mobil itu baru.",
+    "exampleMeaning": "That car is new."
+   },
+   {
+    "id": "idx063",
+    "source": "Left",
+    "target": "Kiri",
+    "roman": "ki-ri",
+    "meaning": "Turn left here.",
+    "example": "Belok kiri di sini.",
+    "exampleMeaning": "Turn left here."
+   },
+   {
+    "id": "idx064",
+    "source": "Right",
+    "target": "Kanan",
+    "roman": "ka-nan",
+    "meaning": "Turn right there.",
+    "example": "Belok kanan di sana.",
+    "exampleMeaning": "Turn right there."
+   }
+  ]
+ },
+ {
+  "id": "id-07",
+  "language": "id",
+  "level": "Dasar",
+  "title": "Pertanyaan sehari-hari",
+  "description": "Latihan praktis dengan contoh dan kuis",
+  "icon": "❔",
+  "items": [
+   {
+    "id": "idx071",
+    "source": "What?",
+    "target": "Apa?",
+    "roman": "a-pa",
+    "meaning": "What is this?",
+    "example": "Apa ini?",
+    "exampleMeaning": "What is this?"
+   },
+   {
+    "id": "idx072",
+    "source": "Where?",
+    "target": "Di mana?",
+    "roman": "di ma-na",
+    "meaning": "Where is your house?",
+    "example": "Di mana rumahmu?",
+    "exampleMeaning": "Where is your house?"
+   },
+   {
+    "id": "idx073",
+    "source": "When?",
+    "target": "Kapan?",
+    "roman": "ka-pan",
+    "meaning": "When are you coming?",
+    "example": "Kapan kamu datang?",
+    "exampleMeaning": "When are you coming?"
+   },
+   {
+    "id": "idx074",
+    "source": "Why?",
+    "target": "Mengapa?",
+    "roman": "mə-nga-pa",
+    "meaning": "Why are you sad?",
+    "example": "Mengapa kamu sedih?",
+    "exampleMeaning": "Why are you sad?"
+   }
+  ]
+ },
+ {
+  "id": "id-08",
+  "language": "id",
+  "level": "Dasar",
+  "title": "Kesehatan dan bantuan",
+  "description": "Latihan praktis dengan contoh dan kuis",
+  "icon": "🩺",
+  "items": [
+   {
+    "id": "idx081",
+    "source": "I am sick",
+    "target": "Saya sakit",
+    "roman": "sa-ya sa-kit",
+    "meaning": "I am sick today.",
+    "example": "Saya sakit hari ini.",
+    "exampleMeaning": "I am sick today."
+   },
+   {
+    "id": "idx082",
+    "source": "Doctor",
+    "target": "Dokter",
+    "roman": "dok-ter",
+    "meaning": "I need a doctor.",
+    "example": "Saya perlu dokter.",
+    "exampleMeaning": "I need a doctor."
+   },
+   {
+    "id": "idx083",
+    "source": "Help me",
+    "target": "Tolong saya",
+    "roman": "to-long sa-ya",
+    "meaning": "Help me now.",
+    "example": "Tolong saya sekarang.",
+    "exampleMeaning": "Help me now."
+   },
+   {
+    "id": "idx084",
+    "source": "Medicine",
+    "target": "Obat",
+    "roman": "o-bat",
+    "meaning": "I need medicine.",
+    "example": "Saya butuh obat.",
+    "exampleMeaning": "I need medicine."
+   }
+  ]
+ },
+ {
+  "id": "id-09",
+  "language": "id",
+  "level": "Dasar",
+  "title": "Kegiatan harian",
+  "description": "Latihan praktis dengan contoh dan kuis",
+  "icon": "📚",
+  "items": [
+   {
+    "id": "idx091",
+    "source": "I eat",
+    "target": "Saya makan",
+    "roman": "sa-ya ma-kan",
+    "meaning": "I eat breakfast.",
+    "example": "Saya makan pagi.",
+    "exampleMeaning": "I eat breakfast."
+   },
+   {
+    "id": "idx092",
+    "source": "I drink",
+    "target": "Saya minum",
+    "roman": "sa-ya mi-num",
+    "meaning": "I drink water.",
+    "example": "Saya minum air.",
+    "exampleMeaning": "I drink water."
+   },
+   {
+    "id": "idx093",
+    "source": "I study",
+    "target": "Saya belajar",
+    "roman": "sa-ya bə-la-jar",
+    "meaning": "I study Indonesian.",
+    "example": "Saya belajar bahasa Indonesia.",
+    "exampleMeaning": "I study Indonesian."
+   },
+   {
+    "id": "idx094",
+    "source": "I work",
+    "target": "Saya bekerja",
+    "roman": "sa-ya bə-kər-ja",
+    "meaning": "I work today.",
+    "example": "Saya bekerja hari ini.",
+    "exampleMeaning": "I work today."
+   }
+  ]
+ },
+ {
+  "id": "id-10",
+  "language": "id",
+  "level": "Dasar",
+  "title": "Sopan santun",
+  "description": "Latihan praktis dengan contoh dan kuis",
+  "icon": "🤝",
+  "items": [
+   {
+    "id": "idx101",
+    "source": "Please",
+    "target": "Tolong",
+    "roman": "to-long",
+    "meaning": "Please open the door.",
+    "example": "Tolong buka pintunya.",
+    "exampleMeaning": "Please open the door."
+   },
+   {
+    "id": "idx102",
+    "source": "Sorry",
+    "target": "Maaf",
+    "roman": "ma-af",
+    "meaning": "Sorry, I am late.",
+    "example": "Maaf, saya terlambat.",
+    "exampleMeaning": "Sorry, I am late."
+   },
+   {
+    "id": "idx103",
+    "source": "Excuse me",
+    "target": "Permisi",
+    "roman": "pər-mi-si",
+    "meaning": "Excuse me, may I pass?",
+    "example": "Permisi, boleh lewat?",
+    "exampleMeaning": "Excuse me, may I pass?"
+   },
+   {
+    "id": "idx104",
+    "source": "You are welcome",
+    "target": "Sama-sama",
+    "roman": "sa-ma sa-ma",
+    "meaning": "You are welcome, happy to help.",
+    "example": "Sama-sama, senang membantu.",
+    "exampleMeaning": "You are welcome, happy to help."
+   }
+  ]
+ },
+ {
+  "id": "id-11",
+  "language": "id",
+  "level": "Dasar",
+  "title": "Warna dan ukuran",
+  "description": "Latihan praktis dengan contoh dan kuis",
+  "icon": "🎨",
+  "items": [
+   {
+    "id": "idx111",
+    "source": "Red",
+    "target": "Merah",
+    "roman": "mə-rah",
+    "meaning": "This shirt is red.",
+    "example": "Baju ini merah.",
+    "exampleMeaning": "This shirt is red."
+   },
+   {
+    "id": "idx112",
+    "source": "Blue",
+    "target": "Biru",
+    "roman": "bi-ru",
+    "meaning": "My bag is blue.",
+    "example": "Tas saya biru.",
+    "exampleMeaning": "My bag is blue."
+   },
+   {
+    "id": "idx113",
+    "source": "Big",
+    "target": "Besar",
+    "roman": "bə-sar",
+    "meaning": "This house is big.",
+    "example": "Rumah ini besar.",
+    "exampleMeaning": "This house is big."
+   },
+   {
+    "id": "idx114",
+    "source": "Small",
+    "target": "Kecil",
+    "roman": "kə-chil",
+    "meaning": "This room is small.",
+    "example": "Kamar ini kecil.",
+    "exampleMeaning": "This room is small."
+   }
+  ]
+ },
+ {
+  "id": "id-12",
+  "language": "id",
+  "level": "Dasar",
+  "title": "Percakapan sederhana",
+  "description": "Latihan praktis dengan contoh dan kuis",
+  "icon": "💬",
+  "items": [
+   {
+    "id": "idx121",
+    "source": "How are you?",
+    "target": "Apa kabar?",
+    "roman": "a-pa ka-bar",
+    "meaning": "Hello, how are you?",
+    "example": "Halo, apa kabar?",
+    "exampleMeaning": "Hello, how are you?"
+   },
+   {
+    "id": "idx122",
+    "source": "I am fine",
+    "target": "Saya baik-baik saja",
+    "roman": "sa-ya ba-ik ba-ik sa-ja",
+    "meaning": "I am fine, thank you.",
+    "example": "Saya baik-baik saja, terima kasih.",
+    "exampleMeaning": "I am fine, thank you."
+   },
+   {
+    "id": "idx123",
+    "source": "I do not understand",
+    "target": "Saya tidak mengerti",
+    "roman": "sa-ya ti-dak mə-ngər-ti",
+    "meaning": "Sorry, I do not understand.",
+    "example": "Maaf, saya tidak mengerti.",
+    "exampleMeaning": "Sorry, I do not understand."
+   },
+   {
+    "id": "idx124",
+    "source": "See you later",
+    "target": "Sampai jumpa",
+    "roman": "sam-pai jum-pa",
+    "meaning": "See you tomorrow!",
+    "example": "Sampai jumpa besok!",
+    "exampleMeaning": "See you tomorrow!"
+   }
+  ]
+ }
+]

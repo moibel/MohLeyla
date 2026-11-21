@@ -1,0 +1,36 @@
+@font-face{font-family:'Inter';font-style:normal;font-weight:100 900;font-display:swap;src:url('/fonts/inter-latin.woff2') format('woff2');unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD}
+@font-face{font-family:'Inter';font-style:normal;font-weight:100 900;font-display:swap;src:url('/fonts/inter-latin-ext.woff2') format('woff2');unicode-range:U+0100-02BA,U+02BD-02C5,U+02C7-02CC,U+02CE-02D7,U+02DD-02FF,U+0304,U+0308,U+0329,U+1D00-1DBF,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20C0,U+2113,U+2C60-2C7F,U+A720-A7FF}
+@font-face{font-family:'Cairo';font-style:normal;font-weight:200 1000;font-display:swap;src:url('/fonts/cairo-arabic.woff2') format('woff2');unicode-range:U+0600-06FF,U+0750-077F,U+0870-088E,U+0890-0891,U+0897-08E1,U+08E3-08FF,U+200C-200E,U+2010-2011,U+204F,U+2E41,U+FB50-FDFF,U+FE70-FE74,U+FE76-FEFC}
+
+:root{
+  --brand-deep:#0B2A6F; --brand:#1256C8; --brand-600:#0F4BB0; --brand-soft:#E7F0FF; --teal:#0FB5A6; --teal-deep:#0A7F70; --sun:#FFC83D;
+  --c-ar:#1256C8; --c-sa:#0A7F70; --c-en:#6247D9; --c-id:#C23A32;
+  --bg:#F4F8FF; --surface:#FFFFFF; --surface-2:#F0F5FF; --border:#DCE6F6; --text:#0F1B33; --muted:#51607C; --link:#0F4BB0;
+  --ok:#0E8A5F; --ok-bg:#E3F6EE; --bad:#C0352B; --bad-bg:#FDEBE9; --warn:#9A5B00; --warn-bg:#FFF3DC;
+  --focus:#0B5BFF;
+  --r-sm:10px; --r:16px; --r-lg:24px; --r-xl:32px;
+  --shadow-sm:0 1px 2px rgba(11,42,111,.06),0 2px 8px rgba(11,42,111,.05);
+  --shadow:0 4px 20px rgba(11,42,111,.09); --shadow-lg:0 14px 44px rgba(11,42,111,.16);
+  --grad-brand:linear-gradient(135deg,#0B2A6F 0%,#1256C8 55%,#0FB5A6 130%);
+  --font-latin:'Inter',system-ui,-apple-system,'Segoe UI',Roboto,'Helvetica Neue',Arial,sans-serif;
+  --font-ar:'Cairo','Inter',system-ui,'Geeza Pro','Noto Sans Arabic','Segoe UI',Tahoma,sans-serif;
+  --sidebar-w:276px; --bottom-nav-h:68px;
+  --ease:cubic-bezier(.2,.7,.2,1);
+  color-scheme:light;
+}
+@media (prefers-color-scheme:dark){
+  :root:not([data-theme='light']){
+    --bg:#0A1426; --surface:#111F38; --surface-2:#16294A; --border:#243A63; --text:#E8F0FF; --muted:#A3B4D4; --link:#7FB0FF; --brand-soft:#16294A;
+    --c-ar:#4F8BFF; --c-sa:#19B89F; --c-en:#9A86FF; --c-id:#FF7168;
+    --ok:#4ADE9C; --ok-bg:#0F3326; --bad:#FF8A80; --bad-bg:#3A1A1C; --warn:#FFC266; --warn-bg:#3A2A0C; --focus:#8DB7FF;
+    --shadow-sm:0 1px 2px rgba(0,0,0,.4); --shadow:0 4px 20px rgba(0,0,0,.4); --shadow-lg:0 14px 44px rgba(0,0,0,.55);
+    color-scheme:dark;
+  }
+}
+:root[data-theme='dark']{
+  --bg:#0A1426; --surface:#111F38; --surface-2:#16294A; --border:#243A63; --text:#E8F0FF; --muted:#A3B4D4; --link:#7FB0FF; --brand-soft:#16294A;
+  --c-ar:#4F8BFF; --c-sa:#19B89F; --c-en:#9A86FF; --c-id:#FF7168;
+  --ok:#4ADE9C; --ok-bg:#0F3326; --bad:#FF8A80; --bad-bg:#3A1A1C; --warn:#FFC266; --warn-bg:#3A2A0C; --focus:#8DB7FF;
+  --shadow-sm:0 1px 2px rgba(0,0,0,.4); --shadow:0 4px 20px rgba(0,0,0,.4); --shadow-lg:0 14px 44px rgba(0,0,0,.55);
+  color-scheme:dark;
+}

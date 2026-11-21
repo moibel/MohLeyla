@@ -1,0 +1,2970 @@
+[
+  {
+    "id": "id-13",
+    "track": "id",
+    "level": "beginner",
+    "order": 1,
+    "topic": "alphabet-pronunciation",
+    "icon": "🔤",
+    "title": {
+      "ar": "الحروف والنطق في الإندونيسية",
+      "en": "Alphabet and pronunciation",
+      "id": "Alfabet dan lafal"
+    },
+    "description": {
+      "ar": "تتعلم أصوات الحروف الإندونيسية الأهم من خلال كلمات حقيقية.",
+      "en": "Learn the key Indonesian letter sounds through real everyday words.",
+      "id": "Pelajari bunyi huruf penting bahasa Indonesia lewat kata-kata sehari-hari."
+    },
+    "objectives": [
+      {
+        "ar": "أستطيع نطق c وng وny وkh نطقًا صحيحًا.",
+        "en": "I can pronounce c, ng, ny and kh correctly.",
+        "id": "Saya bisa melafalkan c, ng, ny, dan kh dengan benar."
+      },
+      {
+        "ar": "أستطيع التمييز بين e الضعيفة (pepet) وe الواضحة.",
+        "en": "I can tell the weak e (pepet) from the clear e.",
+        "id": "Saya bisa membedakan e pepet dan e taling."
+      },
+      {
+        "ar": "أستطيع قراءة أي كلمة إندونيسية بصوت عالٍ لأن الإملاء منتظم.",
+        "en": "I can read almost any Indonesian word aloud because the spelling is consistent.",
+        "id": "Saya bisa membaca hampir semua kata bahasa Indonesia karena ejaannya konsisten."
+      }
+    ],
+    "intro": {
+      "ar": "الإندونيسية تُكتب بالحروف اللاتينية، وكل حرف تقريبًا له صوت واحد ثابت، فهي من أسهل اللغات قراءةً. سنتعلم الأصوات التي تختلف عن العربية والإنجليزية، كل واحد مع كلمة مفتاحية.",
+      "en": "Indonesian uses the Latin alphabet, and almost every letter has one fixed sound, so it is one of the easiest languages to read aloud. We will go through the sounds that differ from Arabic and English, each with a keyword.",
+      "id": "Bahasa Indonesia memakai huruf Latin, dan hampir setiap huruf punya satu bunyi tetap. Kita akan mempelajari bunyi yang berbeda dari bahasa Arab dan Inggris, masing-masing dengan satu kata kunci."
+    },
+    "culture": {
+      "ar": "كانت الإملاء الإندونيسية الحالية (EYD ثم PUEBI) توحيدًا لعدة أنظمة قديمة؛ وكان الحرف c يُكتب tj في العهد الهولندي. لذلك ترى أحيانًا أسماء قديمة مثل Tjahjadi. وتسمع في الأسماء العربية حروفًا مثل kh وsy في كلمات مثل khusus وsyukur.",
+      "en": "Today’s spelling was standardised in 1972 (EYD, now PUEBI). Before that, c was written tj under Dutch influence, so you may still meet old names like Tjahjadi. Arabic loanwords add sounds such as kh and sy, as in khusus and syukur.",
+      "id": "Ejaan sekarang diresmikan pada 1972 (EYD, kini PUEBI). Dulu huruf c ditulis tj karena pengaruh Belanda, jadi kita masih menemukan nama lama seperti Tjahjadi. Kata serapan dari bahasa Arab membawa bunyi kh dan sy, misalnya khusus dan syukur."
+    },
+    "grammar": {
+      "title": {
+        "ar": "حرف واحد وصوت واحد",
+        "en": "One letter, one sound",
+        "id": "Satu huruf, satu bunyi"
+      },
+      "body": {
+        "ar": "الحروف المتحركة هي a i u e o وتُنطق دائمًا بالطريقة نفسها. الحرف e له نطقان: ضعيف (ə) مثل senang، وواضح (é) مثل sate. النبر في الغالب على المقطع قبل الأخير مثل ba-NGUN، ولا يغيّر المعنى. والحرف k في آخر الكلمة يُنطق وقفة حلقية خفيفة بلا انفجار.",
+        "en": "The vowels a i u e o always sound the same. The letter e has two sounds: weak (ə, pepet) as in senang, and clear (é) as in sate. Stress usually falls on the second-last syllable, as in ba-NGUN, and does not change meaning. A final k is a soft glottal stop, not a released k.",
+        "id": "Vokal a i u e o selalu berbunyi sama. Huruf e punya dua bunyi: lemah (ə, pepet) seperti pada senang dan jelas (é) seperti pada sate. Tekanan biasanya jatuh pada suku kata kedua dari belakang, misalnya ba-NGUN, dan tidak mengubah arti. Huruf k di akhir kata dibaca sebagai hentian ringan di tenggorokan."
+      }
+    },
+    "items": [
+      {
+        "id": "id13n1",
+        "target": "c = ch: cinta",
+        "translit": "cin-ta",
+        "tr": {
+          "ar": "الحرف c يُنطق «تش» مثل ch: cinta = حب",
+          "en": "c sounds like English ch: cinta = love",
+          "id": "huruf c dibaca “ch”: cinta = rasa sayang"
+        },
+        "example": {
+          "target": "Saya cinta Indonesia.",
+          "translit": "sa-ya cin-ta in-do-ne-sia",
+          "tr": {
+            "ar": "أنا أحب إندونيسيا.",
+            "en": "I love Indonesia.",
+            "id": "Saya sangat menyukai Indonesia."
+          }
+        },
+        "hint": {
+          "ar": "لا يُنطق c كما في cat الإنجليزية؛ هو دائمًا «تش».",
+          "en": "Never read c as in “cat”; it is always “ch”.",
+          "id": "Huruf c tidak pernah dibaca seperti k; selalu “ch”."
+        }
+      },
+      {
+        "id": "id13n2",
+        "target": "ng = ŋ: bangun",
+        "translit": "ba-ngun",
+        "tr": {
+          "ar": "ng صوت واحد مثل ng في sing: bangun = يستيقظ",
+          "en": "ng is one sound like “ng” in sing: bangun = to wake up",
+          "id": "ng satu bunyi seperti pada “sing”: bangun = tidak tidur lagi"
+        },
+        "example": {
+          "target": "Saya bangun pagi hari ini.",
+          "translit": "sa-ya ba-ngun pa-gi ha-ri i-ni",
+          "tr": {
+            "ar": "استيقظت صباحًا اليوم.",
+            "en": "I woke up early today.",
+            "id": "Hari ini saya bangun pagi-pagi."
+          }
+        },
+        "hint": {
+          "ar": "ng صوت أنفي واحد. أما ngg كما في tinggal فتُنطق ng ثم g.",
+          "en": "ng is one nasal sound. ngg, as in tinggal, is ng followed by g.",
+          "id": "ng satu bunyi sengau. Kalau ngg, seperti pada tinggal, dibaca ng lalu g."
+        }
+      },
+      {
+        "id": "id13n3",
+        "target": "ny = ñ: nyanyi",
+        "translit": "nya-nyi",
+        "tr": {
+          "ar": "ny صوت واحد قريب من «ني» السريعة: nyanyi = يغني",
+          "en": "ny is one sound like Spanish ñ: nyanyi = to sing",
+          "id": "ny satu bunyi seperti ñ: nyanyi = bersenandung dengan lagu"
+        },
+        "example": {
+          "target": "Adik saya suka nyanyi.",
+          "translit": "a-dik sa-ya su-ka nya-nyi",
+          "tr": {
+            "ar": "أخي الأصغر يحب الغناء.",
+            "en": "My younger sibling likes to sing.",
+            "id": "Adik saya senang bernyanyi."
+          }
+        },
+        "hint": {
+          "ar": "اجعل لسانك يلمس سقف الفم؛ لا تفصل n عن y.",
+          "en": "Touch the tongue to the roof of the mouth; do not split n and y.",
+          "id": "Sentuhkan lidah ke langit-langit; jangan pisahkan n dan y."
+        }
+      },
+      {
+        "id": "id13n4",
+        "target": "kh = kh: akhir",
+        "translit": "a-khir",
+        "tr": {
+          "ar": "kh تُنطق مثل الخاء العربية: akhir = آخر / نهاية",
+          "en": "kh is like Arabic khāʾ (as in Scottish loch): akhir = end",
+          "id": "kh dibaca seperti huruf Arab kha: akhir = ujung, penutup"
+        },
+        "example": {
+          "target": "Akhir pekan saya di rumah.",
+          "translit": "a-khir pe-kan sa-ya di ru-mah",
+          "tr": {
+            "ar": "في عطلة نهاية الأسبوع أكون في البيت.",
+            "en": "This weekend I am at home.",
+            "id": "Di hari libur Sabtu dan Minggu, saya ada di rumah."
+          }
+        },
+        "hint": {
+          "ar": "يظهر kh في الكلمات المقترضة من العربية مثل khusus وkhabar.",
+          "en": "kh appears mainly in Arabic loanwords such as khusus and khabar.",
+          "id": "kh muncul terutama pada kata serapan dari bahasa Arab seperti khusus."
+        }
+      },
+      {
+        "id": "id13n5",
+        "target": "e = pepet (ə): senang",
+        "translit": "sə-nang",
+        "tr": {
+          "ar": "e الضعيفة (ə) تشبه الحركة الخفيفة في الكلمة: senang = سعيد",
+          "en": "weak e (ə) like the “a” in “about”: senang = happy",
+          "id": "e pepet bunyinya lemah, seperti e pada “sedang”: senang = gembira"
+        },
+        "example": {
+          "target": "Saya senang bertemu Anda.",
+          "translit": "sa-ya sə-nang bər-tə-mu an-da",
+          "tr": {
+            "ar": "يسعدني لقاؤك.",
+            "en": "Nice to meet you.",
+            "id": "Saya gembira bisa bertemu dengan Anda."
+          }
+        },
+        "hint": {
+          "ar": "في المقاطع غير المنبورة غالبًا ما تكون e هي pepet: selamat وterima وbesar.",
+          "en": "In unstressed syllables e is often pepet: selamat, terima, besar.",
+          "id": "Pada suku kata tanpa tekanan e sering berupa pepet: selamat, terima, besar."
+        }
+      },
+      {
+        "id": "id13n6",
+        "target": "e = é: sate",
+        "translit": "sa-te",
+        "tr": {
+          "ar": "e الواضحة (é) تُنطق مثل ي المفتوحة: sate = سيخ لحم مشوي",
+          "en": "clear e (é) like the “e” in “café”: sate = grilled meat skewers",
+          "id": "e taling dibaca jelas seperti é: sate = daging tusuk bakar"
+        },
+        "example": {
+          "target": "Saya mau sate ayam.",
+          "translit": "sa-ya mau sa-te a-yam",
+          "tr": {
+            "ar": "أريد سيخ دجاج مشوي.",
+            "en": "I would like chicken satay.",
+            "id": "Saya ingin memesan sate dari daging ayam."
+          }
+        },
+        "hint": {
+          "ar": "القاموس يميّز بين الاثنتين بعلامة (é) فقط لتعليم اللغة؛ في الكتابة العادية كلاهما e.",
+          "en": "Dictionaries mark é only for learners; in normal writing both are just e.",
+          "id": "Kamus memberi tanda é hanya untuk pembelajar; dalam tulisan biasa keduanya hanya e."
+        }
+      },
+      {
+        "id": "id13n7",
+        "target": "r = trilled: rumah",
+        "translit": "ru-mah",
+        "tr": {
+          "ar": "r تُنطق مرتعشة مثل الراء العربية: rumah = بيت",
+          "en": "r is trilled, like Arabic rāʾ or Spanish rr: rumah = house",
+          "id": "r bergetar di ujung lidah: rumah = tempat tinggal"
+        },
+        "example": {
+          "target": "Rumah saya dekat dari sini.",
+          "translit": "ru-mah sa-ya də-kat da-ri si-ni",
+          "tr": {
+            "ar": "بيتي قريب من هنا.",
+            "en": "My house is close to here.",
+            "id": "Rumah saya tidak jauh dari tempat ini."
+          }
+        },
+        "hint": {
+          "ar": "على القارئ العربي أن يرتاح هنا: الراء المكررة مألوفة له.",
+          "en": "Arabic speakers have an advantage here: the rolled r is familiar.",
+          "id": "Penutur Arab punya keuntungan: r bergetar sudah biasa."
+        }
+      },
+      {
+        "id": "id13n8",
+        "target": "k final = glottal stop: tidak",
+        "translit": "ti-dak",
+        "tr": {
+          "ar": "k في آخر الكلمة وقفة حلقية خفيفة: tidak = لا",
+          "en": "final k is a soft glottal stop: tidak = no / not",
+          "id": "k di akhir kata hanya hentian ringan: tidak = kata untuk menolak"
+        },
+        "example": {
+          "target": "Saya tidak tahu.",
+          "translit": "sa-ya ti-dak ta-hu",
+          "tr": {
+            "ar": "لا أعرف.",
+            "en": "I do not know.",
+            "id": "Saya belum mengerti jawabannya."
+          }
+        },
+        "hint": {
+          "ar": "أغلق الحلق دون أن تُطلق الهواء؛ كذلك في p وt آخر الكلمة مثل tutup.",
+          "en": "Close the throat without releasing air; the same applies to final p and t, as in tutup.",
+          "id": "Tutup tenggorokan tanpa melepas udara; berlaku juga untuk p dan t di akhir kata seperti tutup."
+        }
+      }
+    ],
+    "cloze": [
+      {
+        "sentence": "Huruf c pada kata cinta dibaca ___.",
+        "answer": "ch",
+        "wrong": [
+          "k",
+          "s"
+        ],
+        "tr": {
+          "ar": "الحرف c في كلمة cinta يُقرأ «تش».",
+          "en": "The letter c in the word cinta is read “ch”.",
+          "id": "Huruf c pada kata cinta dibaca “ch”."
+        },
+        "why": {
+          "ar": "c في الإندونيسية دائمًا «تش»؛ أما k وs فهما حرفان آخران لا يُمثّلان هذا الصوت.",
+          "en": "In Indonesian c is always “ch”; k and s have their own letters and are not used for this sound.",
+          "id": "Dalam bahasa Indonesia c selalu “ch”; k dan s punya huruf sendiri dan bukan bunyi c."
+        }
+      },
+      {
+        "sentence": "Huruf e pada kata senang disebut e ___.",
+        "answer": "pepet",
+        "wrong": [
+          "panjang",
+          "besar"
+        ],
+        "tr": {
+          "ar": "حرف e في كلمة senang يسمى e الضعيفة (pepet).",
+          "en": "The e in the word senang is called the weak e (pepet).",
+          "id": "Huruf e pada kata senang disebut e pepet."
+        },
+        "why": {
+          "ar": "pepet هو الاسم الصحيح للصوت الضعيف ə؛ أما panjang وbesar فهما صفتان لا تصفان نوع الصوت.",
+          "en": "Pepet is the correct name for the weak ə sound; panjang and besar are ordinary adjectives and do not name a sound.",
+          "id": "Pepet adalah nama bunyi ə yang lemah; panjang dan besar hanyalah kata sifat, bukan nama bunyi."
+        }
+      }
+    ],
+    "conversation": {
+      "context": {
+        "ar": "في فندق صغير: الموظفة تطلب منك تهجئة اسمك.",
+        "en": "At a small hotel: the receptionist asks you to spell your name.",
+        "id": "Di sebuah hotel kecil: resepsionis meminta Anda mengeja nama Anda."
+      },
+      "turns": [
+        {
+          "who": "A",
+          "target": "Nama Anda siapa? Tolong dieja, ya.",
+          "tr": {
+            "ar": "ما اسمك؟ من فضلك تهجَّه.",
+            "en": "What is your name? Please spell it.",
+            "id": "Siapa nama Anda? Tolong sebutkan hurufnya, ya."
+          }
+        },
+        {
+          "who": "B",
+          "target": "Nama saya Yuni. Y, U, N, I.",
+          "tr": {
+            "ar": "اسمي يوني. Y، U، N، I.",
+            "en": "My name is Yuni. Y, U, N, I.",
+            "id": "Nama saya Yuni. Y, U, N, I."
+          }
+        },
+        {
+          "who": "A",
+          "target": "Terima kasih, Bu Yuni.",
+          "tr": {
+            "ar": "شكرًا، سيدة يوني.",
+            "en": "Thank you, Ms Yuni.",
+            "id": "Terima kasih, Ibu Yuni."
+          }
+        }
+      ],
+      "gap": 1,
+      "wrong": [
+        "Saya tinggal di Jakarta.",
+        "Selamat pagi, semuanya."
+      ],
+      "why": {
+        "ar": "السؤال طلب التهجئة، فالرد الصحيح هو إعطاء الاسم ثم حروفه. العبارتان الأخريان صحيحتان نحويًا لكنهما لا تجيبان عن السؤال.",
+        "en": "The receptionist asked for the name and its spelling, so the right reply gives the name and its letters. The other two are grammatical but do not answer the question.",
+        "id": "Resepsionis meminta nama dan ejaannya, jadi jawaban yang tepat menyebut nama beserta hurufnya. Dua pilihan lain benar secara tata bahasa tetapi tidak menjawab pertanyaan."
+      }
+    },
+    "summary": {
+      "ar": "تعرفت على أصوات c وng وny وkh، وعلى الفرق بين e الضعيفة وe الواضحة، وعلى الراء المرتعشة والوقفة في آخر الكلمة. تذكّر أن الإملاء ثابت: اقرأ كما تكتب.",
+      "en": "You met the sounds c, ng, ny and kh, the two kinds of e, the trilled r and the final glottal stop. Remember that spelling is consistent: read what you see.",
+      "id": "Anda sudah mengenal bunyi c, ng, ny, dan kh, dua macam e, r bergetar, dan hentian k di akhir kata. Ingat bahwa ejaannya konsisten: bacalah seperti tertulis."
+    }
+  },
+  {
+    "id": "id-01",
+    "track": "id",
+    "level": "beginner",
+    "order": 2,
+    "topic": "greetings",
+    "icon": "👋",
+    "title": {
+      "ar": "التحيات والتعارف",
+      "en": "Greetings and introductions",
+      "id": "Salam dan perkenalan"
+    },
+    "description": {
+      "ar": "تتعلم كيف تحيّي الناس وتعرّف بنفسك وتشكرهم بالإندونيسية.",
+      "en": "Learn how to greet people, introduce yourself and say thank you in Indonesian.",
+      "id": "Pelajari cara menyapa, memperkenalkan diri, dan berterima kasih."
+    },
+    "objectives": [
+      {
+        "ar": "أستطيع إلقاء التحية المناسبة لوقت اليوم.",
+        "en": "I can use the right greeting for the time of day.",
+        "id": "Saya bisa memakai salam yang sesuai dengan waktu."
+      },
+      {
+        "ar": "أستطيع أن أقول اسمي وأسأل «apa kabar?».",
+        "en": "I can say my name and ask “apa kabar?”.",
+        "id": "Saya bisa menyebut nama dan bertanya “apa kabar?”."
+      },
+      {
+        "ar": "أستطيع الشكر والتوديع بأدب.",
+        "en": "I can thank people and say goodbye politely.",
+        "id": "Saya bisa berterima kasih dan berpamitan dengan sopan."
+      }
+    ],
+    "intro": {
+      "ar": "التحية هي أول ما يفعله الإندونيسيون عند اللقاء، والجملة الأكثر استعمالًا هي «Halo, apa kabar?». سنتعلم أيضًا التحيات بحسب الوقت، وكيف تقول اسمك وتودّع.",
+      "en": "Greeting people is the first thing Indonesians do when they meet, and the most common line is “Halo, apa kabar?”. We will also cover time-of-day greetings, how to say your name and how to say goodbye.",
+      "id": "Menyapa adalah hal pertama yang dilakukan orang Indonesia saat bertemu, dan kalimat yang paling sering dipakai ialah “Halo, apa kabar?”. Kita juga akan belajar salam menurut waktu, cara menyebut nama, dan cara berpamitan."
+    },
+    "culture": {
+      "ar": "في إندونيسيا يصافح الناس بلطف وقد يضعون اليد على القلب بعد المصافحة. ويُقال «Selamat pagi» حتى نحو الحادية عشرة، و«siang» حتى الثالثة، و«sore» حتى المغرب، ثم «malam». وفي المناطق المسلمة يُستعمل أيضًا «Assalamualaikum».",
+      "en": "Indonesians shake hands gently, often touching the chest afterwards. “Selamat pagi” is used until about 11 am, “siang” until about 3 pm, “sore” until sunset, then “malam”. Among Muslims “Assalamualaikum” is also very common.",
+      "id": "Orang Indonesia berjabat tangan dengan lembut, sering lalu menyentuh dada. “Selamat pagi” dipakai sampai sekitar pukul sebelas, “siang” sampai pukul tiga, “sore” sampai matahari terbenam, lalu “malam”. Di kalangan Muslim “Assalamualaikum” juga sangat umum."
+    },
+    "grammar": {
+      "title": {
+        "ar": "«Selamat» + وقت",
+        "en": "“Selamat” + time of day",
+        "id": "“Selamat” + waktu"
+      },
+      "body": {
+        "ar": "كلمة selamat تعني «بسلام»، وتُركَّب مع الوقت: selamat pagi / siang / sore / malam. وفي الجملة التعريفية نقول «Nama saya + الاسم» بلا فعل «يكون». و«Halo» و«Apa kabar?» غير رسميتين بعض الشيء، وللرسمي أضف Bapak أو Ibu بعدهما.",
+        "en": "Selamat means “safe, blessed” and combines with the time of day: selamat pagi / siang / sore / malam. To introduce yourself say “Nama saya + name” with no verb “to be”. “Halo” and “Apa kabar?” are fairly casual; for formal use add Bapak or Ibu after them.",
+        "id": "Selamat berarti “sejahtera” dan digabung dengan waktu: selamat pagi / siang / sore / malam. Untuk memperkenalkan diri, katakan “Nama saya + nama” tanpa kata kerja “adalah”. “Halo” dan “Apa kabar?” cukup santai; untuk situasi resmi tambahkan Bapak atau Ibu."
+      }
+    },
+    "items": [
+      {
+        "id": "idx011",
+        "target": "Halo",
+        "translit": "ha-lo",
+        "tr": {
+          "ar": "مرحبًا",
+          "en": "Hello",
+          "id": "sapaan singkat untuk bertemu"
+        },
+        "example": {
+          "target": "Halo, apa kabar?",
+          "translit": "ha-lo a-pa ka-bar",
+          "tr": {
+            "ar": "مرحبًا، كيف حالك؟",
+            "en": "Hello, how are you?",
+            "id": "Halo, bagaimana keadaanmu?"
+          }
+        },
+        "hint": {
+          "ar": "تحية غير رسمية مناسبة للأصدقاء والهاتف.",
+          "en": "Informal; good for friends and on the phone.",
+          "id": "Santai; cocok untuk teman dan telepon."
+        }
+      },
+      {
+        "id": "idx012",
+        "target": "Selamat pagi",
+        "translit": "sə-la-mat pa-gi",
+        "tr": {
+          "ar": "صباح الخير",
+          "en": "Good morning",
+          "id": "salam untuk pagi hari"
+        },
+        "example": {
+          "target": "Selamat pagi, semuanya!",
+          "translit": "sə-la-mat pa-gi sə-mu-a-nya",
+          "tr": {
+            "ar": "صباح الخير للجميع!",
+            "en": "Good morning, everyone!",
+            "id": "Selamat pagi untuk kalian semua!"
+          }
+        },
+        "hint": {
+          "ar": "مناسبة رسميًا وعاديًا. استبدل pagi بـ siang أو sore أو malam حسب الوقت.",
+          "en": "Works formally and casually. Swap pagi for siang, sore or malam as the day goes on.",
+          "id": "Cocok untuk situasi resmi dan santai. Ganti pagi dengan siang, sore, atau malam sesuai waktu."
+        }
+      },
+      {
+        "id": "idx013",
+        "target": "Nama saya Leyla",
+        "translit": "na-ma sa-ya ley-la",
+        "tr": {
+          "ar": "اسمي ليلى",
+          "en": "My name is Leyla",
+          "id": "saya bernama Leyla"
+        },
+        "example": {
+          "target": "Halo, nama saya Leyla.",
+          "translit": "ha-lo na-ma sa-ya ley-la",
+          "tr": {
+            "ar": "مرحبًا، اسمي ليلى.",
+            "en": "Hello, my name is Leyla.",
+            "id": "Halo, saya Leyla."
+          }
+        },
+        "hint": {
+          "ar": "«saya» مهذبة ومناسبة للجميع. للأصدقاء يمكن قول «Namaku ...».",
+          "en": "“Saya” is polite and safe everywhere. Among friends you can say “Namaku ...”.",
+          "id": "“Saya” sopan dan aman dipakai di mana saja. Dengan teman bisa berkata “Namaku ...”."
+        }
+      },
+      {
+        "id": "idx014",
+        "target": "Terima kasih",
+        "translit": "tə-ri-ma ka-sih",
+        "tr": {
+          "ar": "شكرًا",
+          "en": "Thank you",
+          "id": "ucapan ketika menerima bantuan"
+        },
+        "example": {
+          "target": "Terima kasih banyak!",
+          "translit": "tə-ri-ma ka-sih ba-nyak",
+          "tr": {
+            "ar": "شكرًا جزيلًا!",
+            "en": "Thank you very much!",
+            "id": "Terima kasih sekali!"
+          }
+        },
+        "hint": {
+          "ar": "والجواب المعتاد: «Sama-sama» (على الرحب).",
+          "en": "The usual reply is “Sama-sama” (you are welcome).",
+          "id": "Jawaban yang lazim: “Sama-sama”."
+        }
+      },
+      {
+        "id": "idx015",
+        "target": "Apa kabar?",
+        "translit": "a-pa ka-bar",
+        "tr": {
+          "ar": "كيف حالك؟",
+          "en": "How are you?",
+          "id": "pertanyaan tentang keadaan seseorang"
+        },
+        "example": {
+          "target": "Apa kabar, Bu? Sehat?",
+          "translit": "a-pa ka-bar bu sə-hat",
+          "tr": {
+            "ar": "كيف حالك يا سيدتي؟ بخير؟",
+            "en": "How are you, ma’am? Well?",
+            "id": "Bagaimana keadaan Ibu? Sehat?"
+          }
+        },
+        "hint": {
+          "ar": "الجواب المعتاد: «Baik, terima kasih» أو «Kabar baik». السؤال مناسب للجميع.",
+          "en": "Usual answer: “Baik, terima kasih” or “Kabar baik”. Fine with anyone.",
+          "id": "Jawaban lazim: “Baik, terima kasih” atau “Kabar baik”. Cocok untuk semua orang."
+        }
+      },
+      {
+        "id": "idx016",
+        "target": "Sampai jumpa",
+        "translit": "sam-pai jum-pa",
+        "tr": {
+          "ar": "إلى اللقاء",
+          "en": "See you / Goodbye",
+          "id": "sampai bertemu lagi"
+        },
+        "example": {
+          "target": "Sampai jumpa lagi besok!",
+          "translit": "sam-pai jum-pa la-gi bə-sok",
+          "tr": {
+            "ar": "أراك مرة أخرى غدًا!",
+            "en": "See you again tomorrow!",
+            "id": "Sampai bertemu lagi besok!"
+          }
+        },
+        "hint": {
+          "ar": "للرسمي وغير الرسمي. للأصدقاء يقولون أيضًا «Dah» أو «Sampai nanti».",
+          "en": "Works in any register. Friends also say “Dah” or “Sampai nanti”.",
+          "id": "Dipakai dalam situasi apa pun. Teman juga berkata “Dah” atau “Sampai nanti”."
+        }
+      }
+    ],
+    "cloze": [
+      {
+        "sentence": "___ pagi, Bu. Apa kabar?",
+        "answer": "Selamat",
+        "wrong": [
+          "Terima",
+          "Sampai"
+        ],
+        "tr": {
+          "ar": "صباح الخير يا سيدتي. كيف حالك؟",
+          "en": "Good morning, ma’am. How are you?",
+          "id": "Selamat pagi, Bu. Bagaimana keadaan Ibu?"
+        },
+        "why": {
+          "ar": "«Selamat pagi» هي التحية الصحيحة؛ Terima وSampai تحتاجان إلى كلمات أخرى (kasih / jumpa).",
+          "en": "“Selamat pagi” is the greeting; Terima and Sampai need other words (kasih / jumpa).",
+          "id": "“Selamat pagi” adalah salamnya; Terima dan Sampai membutuhkan kata lain (kasih / jumpa)."
+        }
+      },
+      {
+        "sentence": "Halo, nama ___ Leyla.",
+        "answer": "saya",
+        "wrong": [
+          "kabar",
+          "pagi"
+        ],
+        "tr": {
+          "ar": "مرحبًا، اسمي ليلى.",
+          "en": "Hello, my name is Leyla.",
+          "id": "Halo, nama saya Leyla."
+        },
+        "why": {
+          "ar": "«nama saya» تعني «اسمي»؛ kabar وpagi لا تصلحان للتعبير عن الملكية.",
+          "en": "“Nama saya” means “my name”; kabar and pagi cannot mark possession.",
+          "id": "“Nama saya” berarti “nama milik saya”; kabar dan pagi tidak menunjukkan kepemilikan."
+        }
+      }
+    ],
+    "conversation": {
+      "context": {
+        "ar": "صباح يوم عمل: تلتقي بمديرك السيد بودي في المكتب.",
+        "en": "Monday morning at the office: you meet your manager, Pak Budi.",
+        "id": "Senin pagi di kantor: Anda bertemu atasan Anda, Pak Budi."
+      },
+      "turns": [
+        {
+          "who": "A",
+          "target": "Selamat pagi, Pak Budi.",
+          "tr": {
+            "ar": "صباح الخير يا سيد بودي.",
+            "en": "Good morning, Pak Budi.",
+            "id": "Selamat pagi, Pak Budi."
+          }
+        },
+        {
+          "who": "B",
+          "target": "Selamat pagi. Apa kabar?",
+          "tr": {
+            "ar": "صباح الخير. كيف حالك؟",
+            "en": "Good morning. How are you?",
+            "id": "Selamat pagi. Bagaimana kabarnya?"
+          }
+        },
+        {
+          "who": "A",
+          "target": "Baik, terima kasih. Dan Bapak?",
+          "tr": {
+            "ar": "بخير، شكرًا. وأنت؟",
+            "en": "Fine, thank you. And you?",
+            "id": "Baik, terima kasih. Bagaimana dengan Bapak?"
+          }
+        }
+      ],
+      "gap": 2,
+      "wrong": [
+        "Nama saya Budi.",
+        "Sampai jumpa besok."
+      ],
+      "why": {
+        "ar": "بعد سؤال «Apa kabar?» نجيب بحالنا ثم نردّ السؤال. «Nama saya» و«Sampai jumpa» لا تجيبان عن السؤال.",
+        "en": "After “Apa kabar?” we answer how we are and ask back. “Nama saya” and “Sampai jumpa” do not answer the question.",
+        "id": "Setelah “Apa kabar?” kita menjawab keadaan kita lalu bertanya balik. “Nama saya” dan “Sampai jumpa” tidak menjawab pertanyaan itu."
+      }
+    },
+    "summary": {
+      "ar": "تعلمت التحية وفق وقت اليوم، وكيف تقول اسمك وتسأل عن الحال وتشكر وتودّع. هذه العبارات تفتح لك أي حديث في إندونيسيا.",
+      "en": "You learned time-based greetings, how to say your name, ask how someone is, say thanks and say goodbye. These phrases open any conversation in Indonesia.",
+      "id": "Anda telah belajar salam menurut waktu, cara menyebut nama, menanyakan kabar, berterima kasih, dan berpamitan. Kalimat-kalimat ini membuka percakapan apa pun di Indonesia."
+    }
+  },
+  {
+    "id": "id-14",
+    "track": "id",
+    "level": "beginner",
+    "order": 3,
+    "topic": "address-forms",
+    "icon": "🙏",
+    "title": {
+      "ar": "صيغ المخاطبة: رسمي وغير رسمي",
+      "en": "Formal vs informal address",
+      "id": "Sapaan formal dan informal"
+    },
+    "description": {
+      "ar": "تتعلم متى تستعمل Anda وkamu وBapak وIbu وMas وMbak.",
+      "en": "Learn when to use Anda, kamu, Bapak, Ibu, Mas and Mbak.",
+      "id": "Pelajari kapan memakai Anda, kamu, Bapak, Ibu, Mas, dan Mbak."
+    },
+    "objectives": [
+      {
+        "ar": "أستطيع اختيار «أنت» المناسبة بحسب العمر والمقام.",
+        "en": "I can choose the right “you” according to age and status.",
+        "id": "Saya bisa memilih kata “Anda” yang tepat menurut usia dan status."
+      },
+      {
+        "ar": "أستطيع مناداة شخص أكبر مني بـ Pak أو Bu.",
+        "en": "I can address an older person with Pak or Bu.",
+        "id": "Saya bisa menyapa orang yang lebih tua dengan Pak atau Bu."
+      },
+      {
+        "ar": "أستطيع فهم gue/lo حين أسمعهما في جاكرتا.",
+        "en": "I can recognise gue/lo when I hear them in Jakarta.",
+        "id": "Saya bisa mengenali gue/lo ketika mendengarnya di Jakarta."
+      }
+    ],
+    "intro": {
+      "ar": "ليس في الإندونيسية ضمير «أنت» واحد؛ نختار الكلمة بحسب العمر والمقام والعلاقة. غالبًا يُستعمل اللقب مع الاسم بدل الضمير، وهذا أكثر لطفًا.",
+      "en": "Indonesian has no single word for “you”; the choice depends on age, status and closeness. Very often a title plus a name replaces the pronoun, which sounds more polite.",
+      "id": "Bahasa Indonesia tidak punya satu kata untuk “kamu”; pilihannya bergantung pada usia, status, dan keakraban. Sering kali gelar plus nama menggantikan kata ganti, dan itu terdengar lebih sopan."
+    },
+    "culture": {
+      "ar": "في العمل والمدرسة والأسواق تسمع Pak وBu باستمرار. Mas (للشاب) وMbak (للشابة) من أصل جاوي، وتُستعمل مع النُّدُل والباعة وسائقي التطبيقات. أما gue وlo فهما لهجة جاكرتا بين الأصدقاء، فاسمعهما ولا تبدأ بهما.",
+      "en": "At work, school and in markets you hear Pak and Bu all day. Mas (young man) and Mbak (young woman) come from Javanese and are used with waiters, vendors and ride-app drivers. Gue and lo are Jakarta slang between friends: recognise them, but do not start with them.",
+      "id": "Di kantor, sekolah, dan pasar kita mendengar Pak dan Bu sepanjang hari. Mas (laki-laki muda) dan Mbak (perempuan muda) berasal dari bahasa Jawa dan dipakai kepada pelayan, pedagang, dan pengemudi aplikasi. Gue dan lo adalah bahasa gaul Jakarta antarteman: kenali saja, jangan memulainya."
+    },
+    "grammar": {
+      "title": {
+        "ar": "اللقب بدل الضمير",
+        "en": "A title instead of a pronoun",
+        "id": "Gelar sebagai pengganti kata ganti"
+      },
+      "body": {
+        "ar": "Anda رسمية ومحايدة وتُستعمل في الإعلانات والكتابة والتعامل مع الغرباء، لكنها قد تبدو بعيدة في الحديث. kamu للأصدقاء ومن هم أصغر. الأكثر طبيعية أن تقول «Bapak mau minum apa؟» بدل «Anda mau...». وتُستعمل Ibu وBapak للاسم الأول أو بدونه: Bu Dewi، Pak Budi.",
+        "en": "Anda is formal and neutral, used in ads, writing and with strangers, but in speech it can sound distant. Kamu is for friends and younger people. The most natural option is “Bapak mau minum apa?” instead of “Anda mau ...”. Ibu and Bapak can take a name: Bu Dewi, Pak Budi.",
+        "id": "Anda bersifat formal dan netral, dipakai dalam iklan, tulisan, dan kepada orang asing, tetapi dalam percakapan bisa terdengar jauh. Kamu dipakai untuk teman dan orang yang lebih muda. Yang paling alami: “Bapak mau minum apa?” daripada “Anda mau ...”. Ibu dan Bapak bisa diikuti nama: Bu Dewi, Pak Budi."
+      }
+    },
+    "items": [
+      {
+        "id": "id14n1",
+        "target": "Anda",
+        "translit": "an-da",
+        "tr": {
+          "ar": "أنت (رسمي)",
+          "en": "you (formal)",
+          "id": "kata “kamu” yang sangat sopan"
+        },
+        "example": {
+          "target": "Apakah Anda dari Mesir?",
+          "translit": "a-pa-kah an-da da-ri mə-sir",
+          "tr": {
+            "ar": "هل أنت من مصر؟",
+            "en": "Are you from Egypt?",
+            "id": "Apakah Anda berasal dari Mesir?"
+          }
+        },
+        "hint": {
+          "ar": "رسمي. يُكتب بحرف A كبير. مناسب للغرباء والكتابة والإعلانات.",
+          "en": "Formal; always capital A. Good for strangers, forms and writing.",
+          "id": "Formal; selalu ditulis dengan A kapital. Cocok untuk orang asing, formulir, dan tulisan."
+        }
+      },
+      {
+        "id": "id14n2",
+        "target": "kamu",
+        "translit": "ka-mu",
+        "tr": {
+          "ar": "أنت (بين الأصدقاء)",
+          "en": "you (friendly)",
+          "id": "kata untuk teman atau yang lebih muda"
+        },
+        "example": {
+          "target": "Kamu mau minum apa?",
+          "translit": "ka-mu mau mi-num a-pa",
+          "tr": {
+            "ar": "ماذا تريد أن تشرب؟",
+            "en": "What would you like to drink?",
+            "id": "Minuman apa yang kamu inginkan?"
+          }
+        },
+        "hint": {
+          "ar": "غير رسمي: للأصدقاء والأقران ومن هم أصغر منك. لا تقلها لمن هو أكبر منك بكثير.",
+          "en": "Informal: for friends, peers and younger people. Avoid it with someone much older.",
+          "id": "Santai: untuk teman, sebaya, dan yang lebih muda. Hindari kepada orang yang jauh lebih tua."
+        }
+      },
+      {
+        "id": "id14n3",
+        "target": "Bapak / Pak",
+        "translit": "ba-pak / pak",
+        "tr": {
+          "ar": "السيد / يا سيدي",
+          "en": "Sir / Mr",
+          "id": "sebutan hormat untuk laki-laki dewasa"
+        },
+        "example": {
+          "target": "Selamat sore, Pak Budi.",
+          "translit": "sə-la-mat so-re pak bu-di",
+          "tr": {
+            "ar": "مساء الخير يا سيد بودي.",
+            "en": "Good afternoon, Mr Budi.",
+            "id": "Selamat sore untuk Bapak Budi."
+          }
+        },
+        "hint": {
+          "ar": "رسمي ومحترم. Bapak كاملة، وPak مختصرة في الكلام. تُستعمل بدل «أنت» مع الرجال الأكبر سنًا.",
+          "en": "Respectful. Bapak is full, Pak is the spoken short form. Used instead of “you” with older men.",
+          "id": "Hormat. Bapak bentuk lengkap, Pak bentuk lisan. Dipakai ganti “kamu” untuk laki-laki yang lebih tua."
+        }
+      },
+      {
+        "id": "id14n4",
+        "target": "Ibu / Bu",
+        "translit": "i-bu / bu",
+        "tr": {
+          "ar": "السيدة / يا سيدتي",
+          "en": "Madam / Mrs",
+          "id": "sebutan hormat untuk perempuan dewasa"
+        },
+        "example": {
+          "target": "Terima kasih, Bu Dewi.",
+          "translit": "tə-ri-ma ka-sih bu de-wi",
+          "tr": {
+            "ar": "شكرًا يا سيدة ديوي.",
+            "en": "Thank you, Mrs Dewi.",
+            "id": "Terima kasih untuk Ibu Dewi."
+          }
+        },
+        "hint": {
+          "ar": "رسمي ومحترم، للنساء الأكبر سنًا أو المتزوجات. Bu هي الصيغة المنطوقة.",
+          "en": "Respectful, for older or married women. Bu is the spoken form.",
+          "id": "Hormat, untuk perempuan yang lebih tua atau menikah. Bu bentuk lisannya."
+        }
+      },
+      {
+        "id": "id14n5",
+        "target": "Mas / Mbak",
+        "translit": "mas / mbak",
+        "tr": {
+          "ar": "يا أخي / يا أختي (للشباب)",
+          "en": "young man / young woman (polite)",
+          "id": "sapaan ramah untuk laki-laki / perempuan muda"
+        },
+        "example": {
+          "target": "Mbak, minta menunya, ya.",
+          "translit": "mbak min-ta mə-nu-nya ya",
+          "tr": {
+            "ar": "من فضلك يا آنسة، أريد قائمة الطعام.",
+            "en": "Miss, may I have the menu, please?",
+            "id": "Mbak, tolong bawakan daftar menunya."
+          }
+        },
+        "hint": {
+          "ar": "ودّي ومحترم، للنُّدُل والباعة والسائقين ومن هم قريبون منك في العمر. Mas للذكر وMbak للأنثى.",
+          "en": "Friendly and respectful, for waiters, vendors, drivers and people near your age. Mas is male, Mbak is female.",
+          "id": "Ramah dan sopan, untuk pelayan, pedagang, pengemudi, dan orang sebaya. Mas untuk laki-laki, Mbak untuk perempuan."
+        }
+      },
+      {
+        "id": "id14n6",
+        "target": "gue / lo",
+        "translit": "gu-e / lo",
+        "tr": {
+          "ar": "أنا / أنت (عامية جاكرتا)",
+          "en": "I / you (Jakarta slang)",
+          "id": "kata gaul untuk “saya / kamu”"
+        },
+        "example": {
+          "target": "Lo mau ke mana, Bro?",
+          "translit": "lo ma-u kə ma-na bro",
+          "tr": {
+            "ar": "إلى أين تذهب يا صاح؟",
+            "en": "Where are you going, mate?",
+            "id": "Kamu mau pergi ke mana, Kawan?"
+          }
+        },
+        "hint": {
+          "ar": "عامية جدًا بين الأصدقاء الشباب في جاكرتا. لا تستعملها مع الغرباء أو في العمل.",
+          "en": "Very casual, between young friends in Jakarta. Not for strangers or work.",
+          "id": "Sangat santai, antarteman muda di Jakarta. Jangan dipakai kepada orang asing atau di kantor."
+        }
+      }
+    ],
+    "cloze": [
+      {
+        "sentence": "Selamat pagi, ___ Dewi.",
+        "answer": "Bu",
+        "wrong": [
+          "Pak",
+          "Mas"
+        ],
+        "tr": {
+          "ar": "صباح الخير يا سيدة ديوي.",
+          "en": "Good morning, Mrs Dewi.",
+          "id": "Selamat pagi, Bu Dewi."
+        },
+        "why": {
+          "ar": "Dewi اسم امرأة فنقول Bu؛ Pak للرجال وMas للشاب فلا يناسبان.",
+          "en": "Dewi is a woman’s name, so we say Bu; Pak is for men and Mas for a young man.",
+          "id": "Dewi nama perempuan sehingga dipakai Bu; Pak untuk laki-laki dan Mas untuk pemuda."
+        }
+      },
+      {
+        "sentence": "Maaf, ___ dari mana?",
+        "answer": "Anda",
+        "wrong": [
+          "gue",
+          "aku"
+        ],
+        "tr": {
+          "ar": "عفوًا، من أين أنت؟",
+          "en": "Excuse me, where are you from?",
+          "id": "Maaf, Anda berasal dari mana?"
+        },
+        "why": {
+          "ar": "نخاطب الغريب بـ Anda. gue وaku تعنيان «أنا»، وgue عامية جدًا.",
+          "en": "We address a stranger as Anda. Gue and aku mean “I”, and gue is very slangy.",
+          "id": "Kita menyapa orang asing dengan Anda. Gue dan aku berarti “saya”, dan gue sangat gaul."
+        }
+      }
+    ],
+    "conversation": {
+      "context": {
+        "ar": "في مطعم: تنادي النادلة الشابة.",
+        "en": "In a restaurant: you call over a young waitress.",
+        "id": "Di restoran: Anda memanggil pelayan perempuan muda."
+      },
+      "turns": [
+        {
+          "who": "A",
+          "target": "Mbak, minta menu, ya.",
+          "tr": {
+            "ar": "من فضلك يا آنسة، قائمة الطعام.",
+            "en": "Miss, the menu please.",
+            "id": "Mbak, tolong menunya."
+          }
+        },
+        {
+          "who": "B",
+          "target": "Baik, Pak. Ini menunya.",
+          "tr": {
+            "ar": "حاضر يا سيدي. تفضل القائمة.",
+            "en": "Certainly, sir. Here is the menu.",
+            "id": "Baik, Pak. Ini daftar menunya."
+          }
+        },
+        {
+          "who": "A",
+          "target": "Terima kasih, Mbak.",
+          "tr": {
+            "ar": "شكرًا يا آنسة.",
+            "en": "Thank you, Miss.",
+            "id": "Terima kasih, Mbak."
+          }
+        }
+      ],
+      "gap": 1,
+      "wrong": [
+        "Lo mau pesan apa?",
+        "Selamat tidur, Mbak."
+      ],
+      "why": {
+        "ar": "النادلة تخاطب الزبون بـ Pak وتجيب بأدب. «Lo» عامية لا تناسب العمل، و«selamat tidur» لا معنى لها هنا.",
+        "en": "The waitress politely addresses the customer as Pak. “Lo” is slang and wrong for service, and “selamat tidur” makes no sense here.",
+        "id": "Pelayan menyapa pelanggan dengan Pak dan menjawab sopan. “Lo” bahasa gaul yang tidak cocok untuk pelayanan, dan “selamat tidur” tidak masuk akal di sini."
+      }
+    },
+    "summary": {
+      "ar": "تعرفت على الفرق بين Anda وkamu، وعلى الألقاب Bapak وIbu وMas وMbak، وعلى gue/lo للتعرف فقط. عند الشك استعمل Pak أو Bu مع الاسم.",
+      "en": "You learned the difference between Anda and kamu, the titles Bapak, Ibu, Mas and Mbak, and gue/lo for recognition only. When unsure, use Pak or Bu with a name.",
+      "id": "Anda telah mempelajari perbedaan Anda dan kamu, gelar Bapak, Ibu, Mas, dan Mbak, serta gue/lo yang cukup dikenali saja. Jika ragu, pakailah Pak atau Bu plus nama."
+    }
+  },
+  {
+    "id": "id-15",
+    "track": "id",
+    "level": "beginner",
+    "order": 4,
+    "topic": "pronouns-basic-sentences",
+    "icon": "🗣️",
+    "title": {
+      "ar": "الضمائر والجمل الأساسية",
+      "en": "Pronouns and basic sentences",
+      "id": "Kata ganti dan kalimat dasar"
+    },
+    "description": {
+      "ar": "تتعلم الضمائر الإندونيسية وكيف تبني جملة بلا فعل «يكون».",
+      "en": "Learn Indonesian pronouns and how to build a sentence without the verb “to be”.",
+      "id": "Pelajari kata ganti orang dan cara menyusun kalimat tanpa kata kerja “adalah”."
+    },
+    "objectives": [
+      {
+        "ar": "أستطيع استعمال saya وaku وdia وkami وkita وmereka.",
+        "en": "I can use saya, aku, dia, kami, kita and mereka.",
+        "id": "Saya bisa memakai saya, aku, dia, kami, kita, dan mereka."
+      },
+      {
+        "ar": "أستطيع بناء جملة اسمية بسيطة مثل «Saya mahasiswa».",
+        "en": "I can build a simple sentence such as “Saya mahasiswa”.",
+        "id": "Saya bisa menyusun kalimat sederhana seperti “Saya mahasiswa”."
+      },
+      {
+        "ar": "أستطيع التمييز بين kami وkita.",
+        "en": "I can distinguish kami from kita.",
+        "id": "Saya bisa membedakan kami dan kita."
+      }
+    ],
+    "intro": {
+      "ar": "في الإندونيسية لا يوجد فعل «يكون» في الجمل البسيطة: نضع الضمير ثم الاسم أو الصفة مباشرة. وللضمائر قواعدها: dia للمذكر والمؤنث معًا، وللمتكلم الجمع ضميران مختلفان.",
+      "en": "Indonesian has no verb “to be” in simple sentences: you put the pronoun and then the noun or adjective straight after it. Pronouns have their own rules: dia covers he and she, and “we” comes in two forms.",
+      "id": "Dalam bahasa Indonesia tidak ada kata kerja “adalah” pada kalimat sederhana: kata ganti langsung diikuti kata benda atau kata sifat. Kata ganti punya aturan sendiri: dia berlaku untuk laki-laki dan perempuan, dan “kita-kami” ada dua bentuk."
+    },
+    "culture": {
+      "ar": "يقول المتعلمون «saya» في كل مكان وهذا آمن. بين الأصدقاء المقربين والعائلة يُستعمل «aku»، وهو يعطي إحساسًا بالقرب، وكذلك في الأغاني والمسلسلات. ويُقال «kita» عند ضمّ المخاطَب مثل «Ayo, kita makan».",
+      "en": "Learners can say “saya” everywhere; it is always safe. Among close friends and family “aku” is warmer and you will hear it in songs and TV. “Kita” is used when you include the listener, as in “Ayo, kita makan”.",
+      "id": "Pembelajar aman memakai “saya” di mana saja. Antarteman akrab dan keluarga, “aku” terasa lebih hangat dan sering terdengar di lagu dan sinetron. “Kita” dipakai bila pendengar ikut termasuk, seperti pada “Ayo, kita makan”."
+    },
+    "grammar": {
+      "title": {
+        "ar": "لا فعل «يكون»",
+        "en": "No verb “to be”",
+        "id": "Tanpa kata kerja “adalah”"
+      },
+      "body": {
+        "ar": "نقول Saya guru (أنا معلم) وDia dokter (هو/هي طبيب/ة) بلا كلمة وسيطة. للنفي مع الأسماء نضع bukan قبل الاسم: Saya bukan guru. ضمائر الجمع: kami = نحن دون المخاطَب، kita = نحن مع المخاطَب، mereka = هم/هنّ. ولا تغيّر الأسماء شكلها بين المفرد والجمع.",
+        "en": "We say Saya guru (I am a teacher) and Dia dokter (he/she is a doctor) with nothing in between. To negate a noun put bukan before it: Saya bukan guru. Plural pronouns: kami = we without you, kita = we including you, mereka = they. Nouns do not change form between singular and plural.",
+        "id": "Kita berkata Saya guru dan Dia dokter tanpa kata penghubung. Untuk menyangkal kata benda, letakkan bukan di depannya: Saya bukan guru. Kata ganti jamak: kami = kami tanpa lawan bicara, kita = kita bersama lawan bicara, mereka = mereka. Kata benda tidak berubah bentuk untuk jamak."
+      }
+    },
+    "items": [
+      {
+        "id": "id15n1",
+        "target": "Saya mahasiswa.",
+        "translit": "sa-ya ma-ha-sis-wa",
+        "tr": {
+          "ar": "أنا طالب جامعي.",
+          "en": "I am a university student.",
+          "id": "saya sedang kuliah di perguruan tinggi"
+        },
+        "example": {
+          "target": "Saya dari Arab Saudi.",
+          "translit": "sa-ya da-ri a-rab sa-u-di",
+          "tr": {
+            "ar": "أنا من السعودية.",
+            "en": "I am from Saudi Arabia.",
+            "id": "Negara asal saya adalah Arab Saudi."
+          }
+        },
+        "hint": {
+          "ar": "saya مهذبة ومناسبة للجميع. لا حاجة إلى «am»: الجملة اسمية.",
+          "en": "“Saya” is polite and universal. No “am” is needed: it is a nominal sentence.",
+          "id": "“Saya” sopan dan umum. Tidak perlu kata “adalah”."
+        }
+      },
+      {
+        "id": "id15n2",
+        "target": "Aku lapar.",
+        "translit": "a-ku la-par",
+        "tr": {
+          "ar": "أنا جائع.",
+          "en": "I am hungry.",
+          "id": "saya ingin makan"
+        },
+        "example": {
+          "target": "Aku suka kopi.",
+          "translit": "a-ku su-ka ko-pi",
+          "tr": {
+            "ar": "أحب القهوة.",
+            "en": "I like coffee.",
+            "id": "Saya gemar minum kopi."
+          }
+        },
+        "hint": {
+          "ar": "aku للأصدقاء والعائلة والأغاني؛ لا تستعملها مع غريب أو رئيسك.",
+          "en": "“Aku” is for friends, family and songs; not for strangers or your boss.",
+          "id": "“Aku” untuk teman, keluarga, dan lagu; jangan dipakai kepada orang asing atau atasan."
+        }
+      },
+      {
+        "id": "id15n3",
+        "target": "Dia guru.",
+        "translit": "di-a gu-ru",
+        "tr": {
+          "ar": "هو/هي معلم/ة.",
+          "en": "He/She is a teacher.",
+          "id": "orang itu mengajar di sekolah"
+        },
+        "example": {
+          "target": "Ibu saya dokter. Dia bekerja di rumah sakit.",
+          "translit": "i-bu sa-ya dok-ter di-a bə-ker-ja di ru-mah sa-kit",
+          "tr": {
+            "ar": "أمي طبيبة. هي تعمل في مستشفى.",
+            "en": "My mother is a doctor. She works at a hospital.",
+            "id": "Ibu saya seorang dokter. Ia bekerja di klinik besar."
+          }
+        },
+        "hint": {
+          "ar": "dia لا تفرّق بين المذكر والمؤنث؛ يتضح الجنس من السياق.",
+          "en": "“Dia” does not mark gender; context tells you whether it is he or she.",
+          "id": "“Dia” tidak membedakan laki-laki dan perempuan; konteks yang menjelaskan."
+        }
+      },
+      {
+        "id": "id15n4",
+        "target": "Kami dari Mesir.",
+        "translit": "ka-mi da-ri mə-sir",
+        "tr": {
+          "ar": "نحن من مصر. (دون المخاطَب)",
+          "en": "We are from Egypt. (not including you)",
+          "id": "saya dan orang lain, bukan kamu"
+        },
+        "example": {
+          "target": "Kami tinggal di Kairo.",
+          "translit": "ka-mi ting-gal di kai-ro",
+          "tr": {
+            "ar": "نحن نسكن في القاهرة.",
+            "en": "We live in Cairo.",
+            "id": "Saya dan keluarga bermukim di Kairo."
+          }
+        },
+        "hint": {
+          "ar": "kami تستثني المخاطَب: تقولها لشخص من خارج المجموعة.",
+          "en": "“Kami” excludes the listener: you say it to someone outside your group.",
+          "id": "“Kami” tidak termasuk lawan bicara: dipakai kepada orang di luar kelompok kita."
+        }
+      },
+      {
+        "id": "id15n5",
+        "target": "Kita teman.",
+        "translit": "ki-ta tə-man",
+        "tr": {
+          "ar": "نحن أصدقاء. (مع المخاطَب)",
+          "en": "We are friends. (including you)",
+          "id": "saya dan kamu bersama"
+        },
+        "example": {
+          "target": "Kita belajar bersama, ya?",
+          "translit": "ki-ta bə-la-jar bər-sa-ma ya",
+          "tr": {
+            "ar": "ندرس معًا، أليس كذلك؟",
+            "en": "Shall we study together?",
+            "id": "Mari kita belajar berdua, setuju?"
+          }
+        },
+        "hint": {
+          "ar": "kita تشمل المخاطَب، وهي مفيدة في الاقتراحات: Ayo, kita pergi!",
+          "en": "“Kita” includes the listener and is perfect for suggestions: Ayo, kita pergi!",
+          "id": "“Kita” mencakup lawan bicara dan cocok untuk ajakan: Ayo, kita pergi!"
+        }
+      },
+      {
+        "id": "id15n6",
+        "target": "Mereka orang Indonesia.",
+        "translit": "mə-rə-ka o-rang in-do-ne-sia",
+        "tr": {
+          "ar": "هم إندونيسيون.",
+          "en": "They are Indonesian.",
+          "id": "orang-orang itu berasal dari Indonesia"
+        },
+        "example": {
+          "target": "Mereka bukan turis. Mereka tinggal di sini.",
+          "translit": "mə-rə-ka bu-kan tu-ris mə-rə-ka ting-gal di si-ni",
+          "tr": {
+            "ar": "هم ليسوا سياحًا. هم يسكنون هنا.",
+            "en": "They are not tourists. They live here.",
+            "id": "Mereka bukan pelancong. Mereka menetap di sini."
+          }
+        },
+        "hint": {
+          "ar": "orang = شخص؛ ولا يتغيّر شكل الكلمة في الجمع.",
+          "en": "“Orang” = person; it does not change in the plural.",
+          "id": "“Orang” = manusia; bentuknya tidak berubah untuk jamak."
+        }
+      }
+    ],
+    "cloze": [
+      {
+        "sentence": "Ibu saya dokter. ___ bekerja di rumah sakit.",
+        "answer": "Dia",
+        "wrong": [
+          "Kami",
+          "Saya"
+        ],
+        "tr": {
+          "ar": "أمي طبيبة. هي تعمل في مستشفى.",
+          "en": "My mother is a doctor. She works at a hospital.",
+          "id": "Ibu saya seorang dokter. Ia bekerja di rumah sakit."
+        },
+        "why": {
+          "ar": "نتحدث عن أمي وهي شخص ثالث، فنقول Dia؛ Kami وSaya يعودان على المتكلم.",
+          "en": "We are talking about my mother, a third person, so we use Dia; Kami and Saya refer to the speaker.",
+          "id": "Kita membicarakan ibu saya, orang ketiga, jadi dipakai Dia; Kami dan Saya merujuk pada pembicara."
+        }
+      },
+      {
+        "sentence": "Saya dan kamu, ___ teman baik.",
+        "answer": "kita",
+        "wrong": [
+          "mereka",
+          "dia"
+        ],
+        "tr": {
+          "ar": "أنا وأنت، نحن صديقان.",
+          "en": "You and I, we are good friends.",
+          "id": "Saya dan kamu, kita bersahabat."
+        },
+        "why": {
+          "ar": "المتكلم والمخاطَب معًا يعني kita؛ mereka وdia ضميران للغائبين.",
+          "en": "Speaker plus listener together is kita; mereka and dia are for people not present.",
+          "id": "Pembicara dan lawan bicara bersama berarti kita; mereka dan dia untuk orang ketiga."
+        }
+      }
+    ],
+    "conversation": {
+      "context": {
+        "ar": "في الجامعة: طالبان يتعارفان في مكتبة.",
+        "en": "At university: two students meet in the library.",
+        "id": "Di kampus: dua mahasiswa berkenalan di perpustakaan."
+      },
+      "turns": [
+        {
+          "who": "A",
+          "target": "Kamu mahasiswa?",
+          "tr": {
+            "ar": "هل أنت طالب جامعي؟",
+            "en": "Are you a student?",
+            "id": "Apakah kamu kuliah di sini?"
+          }
+        },
+        {
+          "who": "B",
+          "target": "Ya, aku mahasiswa. Kamu juga?",
+          "tr": {
+            "ar": "نعم، أنا طالب. وأنت أيضًا؟",
+            "en": "Yes, I am a student. You too?",
+            "id": "Ya, aku kuliah. Kamu juga?"
+          }
+        },
+        {
+          "who": "A",
+          "target": "Bukan, aku guru.",
+          "tr": {
+            "ar": "لا، أنا معلم.",
+            "en": "No, I am a teacher.",
+            "id": "Tidak, aku mengajar."
+          }
+        }
+      ],
+      "gap": 1,
+      "wrong": [
+        "Dia dari Jakarta.",
+        "Kami sudah makan."
+      ],
+      "why": {
+        "ar": "السؤال «هل أنت طالب؟» يُجاب بـ«نعم، أنا طالب» ثم يُردّ السؤال. الخياران الآخران جملتان سليمتان لكنهما لا تجيبان.",
+        "en": "The question “are you a student?” is answered with “yes, I am a student”, then you ask back. The other two are correct sentences but do not answer.",
+        "id": "Pertanyaan “apakah kamu mahasiswa?” dijawab “ya, aku mahasiswa”, lalu bertanya balik. Dua pilihan lain kalimat benar tetapi tidak menjawab."
+      }
+    },
+    "summary": {
+      "ar": "تعرفت على ضمائر saya وaku وdia وkami وkita وmereka، وعلى الجملة الاسمية بلا «يكون»، وعلى bukan للنفي. تذكّر الفرق بين kami وkita.",
+      "en": "You met saya, aku, dia, kami, kita and mereka, the sentence without “to be”, and bukan for negating nouns. Remember the kami/kita difference.",
+      "id": "Anda mengenal saya, aku, dia, kami, kita, dan mereka, kalimat tanpa “adalah”, serta bukan untuk menyangkal kata benda. Ingat perbedaan kami dan kita."
+    }
+  },
+  {
+    "id": "id-02",
+    "track": "id",
+    "level": "beginner",
+    "order": 5,
+    "topic": "numbers-time",
+    "icon": "🔢",
+    "title": {
+      "ar": "الأرقام والوقت",
+      "en": "Numbers and time",
+      "id": "Angka dan waktu"
+    },
+    "description": {
+      "ar": "تتعلم الأرقام من 1 إلى 10 وكلمات اليوم والغد وكيف تسأل عن الساعة.",
+      "en": "Learn numbers 1 to 10, today and tomorrow, and how to ask the time.",
+      "id": "Pelajari angka 1 sampai 10, hari ini dan besok, serta cara menanyakan jam."
+    },
+    "objectives": [
+      {
+        "ar": "أستطيع العدّ من 1 إلى 10.",
+        "en": "I can count from 1 to 10.",
+        "id": "Saya bisa berhitung dari 1 sampai 10."
+      },
+      {
+        "ar": "أستطيع قول «اليوم» و«غدًا».",
+        "en": "I can say “today” and “tomorrow”.",
+        "id": "Saya bisa mengatakan “hari ini” dan “besok”."
+      },
+      {
+        "ar": "أستطيع السؤال «كم الساعة؟» وفهم الجواب.",
+        "en": "I can ask “what time is it?” and understand the answer.",
+        "id": "Saya bisa bertanya “jam berapa?” dan memahami jawabannya."
+      }
+    ],
+    "intro": {
+      "ar": "الأرقام من 1 إلى 10 هي: satu, dua, tiga, empat, lima, enam, tujuh, delapan, sembilan, sepuluh. ستستعملها في كل شيء: الساعة والأسعار والمواعيد.",
+      "en": "The numbers 1 to 10 are satu, dua, tiga, empat, lima, enam, tujuh, delapan, sembilan, sepuluh. You will use them for everything: time, prices and appointments.",
+      "id": "Angka 1 sampai 10 adalah satu, dua, tiga, empat, lima, enam, tujuh, delapan, sembilan, sepuluh. Angka ini dipakai untuk waktu, harga, dan janji temu."
+    },
+    "culture": {
+      "ar": "يستعمل الإندونيسيون نظام 24 ساعة في الجداول الرسمية، لكن في الكلام يقولون «jam tiga sore» (الثالثة عصرًا). وعندهم توقيت من ثلاث مناطق: WIB (غرب) وWITA (وسط) وWIT (شرق). ويقولون «jam karet» (ساعة مطاطية) ساخرين من التأخر في المواعيد.",
+      "en": "Timetables use the 24-hour clock, but in speech people say “jam tiga sore” (three in the afternoon). Indonesia has three time zones: WIB (west), WITA (centre) and WIT (east). “Jam karet” (rubber time) is a joke about being late.",
+      "id": "Jadwal resmi memakai sistem 24 jam, tetapi dalam percakapan orang berkata “jam tiga sore”. Indonesia memiliki tiga zona waktu: WIB (barat), WITA (tengah), dan WIT (timur). “Jam karet” adalah sindiran untuk kebiasaan terlambat."
+    },
+    "grammar": {
+      "title": {
+        "ar": "الرقم قبل الاسم",
+        "en": "Number before the noun",
+        "id": "Angka sebelum kata benda"
+      },
+      "body": {
+        "ar": "الرقم يسبق الاسم ولا يتغيّر الاسم في الجمع: dua tas (حقيبتان)، tiga buku (ثلاثة كتب). وللساعة نقول jam + الرقم: jam tiga. والسؤال: Jam berapa؟ أما «berapa» فتعني «كم».",
+        "en": "The number comes before the noun and the noun does not change in the plural: dua tas (two bags), tiga buku (three books). For clock time say jam + number: jam tiga. The question is Jam berapa? where berapa means “how many / what”.",
+        "id": "Angka diletakkan sebelum kata benda dan kata bendanya tidak berubah: dua tas, tiga buku. Untuk jam, katakan jam + angka: jam tiga. Pertanyaannya Jam berapa? dengan berapa berarti “berapa banyak”."
+      }
+    },
+    "items": [
+      {
+        "id": "idx021",
+        "target": "Satu",
+        "translit": "sa-tu",
+        "tr": {
+          "ar": "واحد",
+          "en": "One",
+          "id": "angka pertama"
+        },
+        "example": {
+          "target": "Saya punya satu buku.",
+          "translit": "sa-ya pu-nya sa-tu bu-ku",
+          "tr": {
+            "ar": "عندي كتاب واحد.",
+            "en": "I have one book.",
+            "id": "Saya memiliki sebuah buku."
+          }
+        },
+        "hint": {
+          "ar": "الأرقام تأتي قبل الاسم.",
+          "en": "Numbers come before the noun.",
+          "id": "Angka diletakkan di depan kata benda."
+        }
+      },
+      {
+        "id": "idx022",
+        "target": "Dua",
+        "translit": "du-a",
+        "tr": {
+          "ar": "اثنان",
+          "en": "Two",
+          "id": "angka setelah satu"
+        },
+        "example": {
+          "target": "Saya punya dua tas.",
+          "translit": "sa-ya pu-nya du-a tas",
+          "tr": {
+            "ar": "عندي حقيبتان.",
+            "en": "I have two bags.",
+            "id": "Saya memiliki dua buah tas."
+          }
+        },
+        "hint": {
+          "ar": "لا نضيف s للجمع: dua tas.",
+          "en": "No plural -s: dua tas.",
+          "id": "Tidak ada penanda jamak: dua tas."
+        }
+      },
+      {
+        "id": "idx023",
+        "target": "Hari ini",
+        "translit": "ha-ri i-ni",
+        "tr": {
+          "ar": "اليوم",
+          "en": "Today",
+          "id": "hari yang sedang berlangsung"
+        },
+        "example": {
+          "target": "Hari ini hari Senin.",
+          "translit": "ha-ri i-ni ha-ri sə-nin",
+          "tr": {
+            "ar": "اليوم هو يوم الإثنين.",
+            "en": "Today is Monday.",
+            "id": "Sekarang adalah hari kedua dalam pekan."
+          }
+        },
+        "hint": {
+          "ar": "hari = يوم، وini = هذا، فالمعنى الحرفي «اليوم هذا».",
+          "en": "“Hari” = day and “ini” = this, so literally “this day”.",
+          "id": "“Hari” = sehari dan “ini” = ini, jadi secara harfiah “hari ini”."
+        }
+      },
+      {
+        "id": "idx024",
+        "target": "Besok",
+        "translit": "bə-sok",
+        "tr": {
+          "ar": "غدًا",
+          "en": "Tomorrow",
+          "id": "hari setelah hari ini"
+        },
+        "example": {
+          "target": "Sampai jumpa besok.",
+          "translit": "sam-pai jum-pa bə-sok",
+          "tr": {
+            "ar": "أراك غدًا.",
+            "en": "See you tomorrow.",
+            "id": "Kita bertemu lagi pada hari berikutnya."
+          }
+        },
+        "hint": {
+          "ar": "كلمة besok تأتي غالبًا في آخر الجملة أو أولها.",
+          "en": "Besok can sit at the end or the start of a sentence.",
+          "id": "Besok bisa di awal atau di akhir kalimat."
+        }
+      },
+      {
+        "id": "idx025",
+        "target": "Sepuluh",
+        "translit": "sə-pu-luh",
+        "tr": {
+          "ar": "عشرة",
+          "en": "Ten",
+          "id": "angka setelah sembilan"
+        },
+        "example": {
+          "target": "Sepuluh menit lagi kita berangkat.",
+          "translit": "sə-pu-luh mə-nit la-gi ki-ta bə-rang-kat",
+          "tr": {
+            "ar": "بعد عشر دقائق نغادر.",
+            "en": "We leave in ten minutes.",
+            "id": "Sebentar lagi, tepatnya sepuluh menit, kita pergi."
+          }
+        },
+        "hint": {
+          "ar": "sepuluh = se + puluh: «se» تعني «واحد» وpuluh تعني «عشرات».",
+          "en": "Sepuluh = se + puluh: “se” means “one” and “puluh” means “tens”.",
+          "id": "Sepuluh = se + puluh: “se” berarti satu dan “puluh” kelipatan sepuluh."
+        }
+      },
+      {
+        "id": "idx026",
+        "target": "Jam berapa?",
+        "translit": "jam bə-ra-pa",
+        "tr": {
+          "ar": "كم الساعة؟ / في أي ساعة؟",
+          "en": "What time is it? / At what time?",
+          "id": "pertanyaan tentang waktu"
+        },
+        "example": {
+          "target": "Kita bertemu jam berapa?",
+          "translit": "ki-ta bər-tə-mu jam bə-ra-pa",
+          "tr": {
+            "ar": "في أي ساعة نلتقي؟",
+            "en": "What time shall we meet?",
+            "id": "Pukul berapa kita akan bertemu?"
+          }
+        },
+        "hint": {
+          "ar": "للرسمي يقولون «Pukul berapa؟». الجواب: jam + رقم.",
+          "en": "More formal: “Pukul berapa?”. Answer: jam + number.",
+          "id": "Lebih resmi: “Pukul berapa?”. Jawab dengan jam + angka."
+        }
+      }
+    ],
+    "cloze": [
+      {
+        "sentence": "Satu, dua, ___, empat.",
+        "answer": "tiga",
+        "wrong": [
+          "lima",
+          "enam"
+        ],
+        "tr": {
+          "ar": "واحد، اثنان، ثلاثة، أربعة.",
+          "en": "One, two, three, four.",
+          "id": "Satu, dua, tiga, empat."
+        },
+        "why": {
+          "ar": "التسلسل العددي يتطلب tiga بين dua وempat.",
+          "en": "The sequence needs tiga between dua and empat.",
+          "id": "Urutan angka membutuhkan tiga di antara dua dan empat."
+        }
+      },
+      {
+        "sentence": "___ hari Senin. Besok hari Selasa.",
+        "answer": "Hari ini",
+        "wrong": [
+          "Sepuluh",
+          "Jam berapa"
+        ],
+        "tr": {
+          "ar": "اليوم يوم الإثنين، وغدًا يوم الثلاثاء.",
+          "en": "Today is Monday. Tomorrow is Tuesday.",
+          "id": "Hari ini Senin. Esok harinya Selasa."
+        },
+        "why": {
+          "ar": "«Hari ini» تقابل «Besok» في المعنى؛ الخياران الآخران لا يصلحان قبل اسم اليوم.",
+          "en": "“Hari ini” contrasts with “Besok”; the other two cannot stand before a weekday.",
+          "id": "“Hari ini” berpasangan dengan “Besok”; dua pilihan lain tidak cocok sebelum nama hari."
+        }
+      }
+    ],
+    "conversation": {
+      "context": {
+        "ar": "في محطة القطار: تسأل رجلًا عن الوقت.",
+        "en": "At a train station: you ask a man for the time.",
+        "id": "Di stasiun kereta: Anda menanyakan jam kepada seorang bapak."
+      },
+      "turns": [
+        {
+          "who": "A",
+          "target": "Permisi, Pak, sekarang jam berapa?",
+          "tr": {
+            "ar": "عفوًا يا سيدي، كم الساعة الآن؟",
+            "en": "Excuse me, sir, what time is it now?",
+            "id": "Permisi, Pak, sekarang pukul berapa?"
+          }
+        },
+        {
+          "who": "B",
+          "target": "Sekarang jam tiga.",
+          "tr": {
+            "ar": "الآن الثالثة.",
+            "en": "It is three o’clock.",
+            "id": "Sekarang pukul tiga."
+          }
+        },
+        {
+          "who": "A",
+          "target": "Terima kasih, Pak.",
+          "tr": {
+            "ar": "شكرًا يا سيدي.",
+            "en": "Thank you, sir.",
+            "id": "Terima kasih, Pak."
+          }
+        }
+      ],
+      "gap": 1,
+      "wrong": [
+        "Hari ini hari Senin.",
+        "Saya punya dua adik."
+      ],
+      "why": {
+        "ar": "السؤال عن الساعة يُجاب بـ«jam + رقم». الجوابان الآخران جملتان صحيحتان لكنهما لا تحددان الساعة.",
+        "en": "A question about the time is answered with “jam + number”. The other two are correct sentences but give no time.",
+        "id": "Pertanyaan jam dijawab dengan “jam + angka”. Dua pilihan lain benar tetapi tidak menyebut jam."
+      }
+    },
+    "summary": {
+      "ar": "عددت من 1 إلى 10، وتعلمت hari ini وbesok، وكيف تسأل «Jam berapa؟». تذكّر أن الرقم يسبق الاسم.",
+      "en": "You counted from 1 to 10, learned hari ini and besok, and how to ask “Jam berapa?”. Remember the number goes before the noun.",
+      "id": "Anda berhitung dari 1 sampai 10, mempelajari hari ini dan besok, serta cara bertanya “Jam berapa?”. Ingat angka diletakkan sebelum kata benda."
+    }
+  },
+  {
+    "id": "id-16",
+    "track": "id",
+    "level": "beginner",
+    "order": 6,
+    "topic": "big-numbers-money",
+    "icon": "💰",
+    "title": {
+      "ar": "أرقام أكبر والنقود",
+      "en": "Bigger numbers and money",
+      "id": "Angka besar dan uang"
+    },
+    "description": {
+      "ar": "تتعلم العشرات والمئات والآلاف والملايين وكيف تسأل عن السعر بالروبية.",
+      "en": "Learn tens, hundreds, thousands and millions, and how to ask a price in rupiah.",
+      "id": "Pelajari puluhan, ratusan, ribuan, dan jutaan, serta cara menanyakan harga dalam rupiah."
+    },
+    "objectives": [
+      {
+        "ar": "أستطيع قول الأعداد حتى المليون.",
+        "en": "I can say numbers up to a million.",
+        "id": "Saya bisa menyebut angka sampai sejuta."
+      },
+      {
+        "ar": "أستطيع السؤال «Berapa harganya؟».",
+        "en": "I can ask “Berapa harganya?”.",
+        "id": "Saya bisa bertanya “Berapa harganya?”."
+      },
+      {
+        "ar": "أستطيع المساومة بأدب في السوق.",
+        "en": "I can bargain politely in a market.",
+        "id": "Saya bisa menawar dengan sopan di pasar."
+      }
+    ],
+    "intro": {
+      "ar": "الأعداد الكبيرة منتظمة: puluh للعشرات، ratus للمئات، ribu للآلاف، juta للملايين. ولأن الروبية صغيرة القيمة تسمع أعدادًا كبيرة في كل عملية شراء، فتدرّب عليها.",
+      "en": "Big numbers are regular: puluh for tens, ratus for hundreds, ribu for thousands, juta for millions. Because the rupiah is worth little, you hear large numbers in every purchase, so practise them.",
+      "id": "Angka besar bersifat teratur: puluh untuk puluhan, ratus untuk ratusan, ribu untuk ribuan, juta untuk jutaan. Karena nilai rupiah kecil, kita mendengar angka besar dalam setiap belanja, jadi latihlah."
+    },
+    "culture": {
+      "ar": "تُكتب الأسعار هكذا: Rp 25.000 (النقطة فاصلة الآلاف). وفي الأسواق التقليدية والبسطات تُقبل المساومة، أما في المراكز التجارية والمطاعم فالأسعار ثابتة. ويقول الشباب بالعامية «goceng» لخمسة آلاف و«ceban» لعشرة آلاف.",
+      "en": "Prices are written like Rp 25.000 (the dot separates thousands). Bargaining is normal in traditional markets and with street sellers, but prices are fixed in malls and restaurants. Young people say “goceng” for 5,000 and “ceban” for 10,000.",
+      "id": "Harga ditulis seperti Rp 25.000 (titik memisahkan ribuan). Menawar lazim di pasar tradisional dan pedagang kaki lima, tetapi di mal dan restoran harga sudah pasti. Anak muda menyebut “goceng” untuk 5.000 dan “ceban” untuk 10.000."
+    },
+    "grammar": {
+      "title": {
+        "ar": "se- و puluh / ratus / ribu / juta",
+        "en": "se- plus puluh / ratus / ribu / juta",
+        "id": "se- dengan puluh / ratus / ribu / juta"
+      },
+      "body": {
+        "ar": "للواحد قبل الوحدات الكبيرة نستعمل se- بدل satu: seratus (100)، seribu (1000)، sejuta (1.000.000). وغير ذلك نكتب الرقم أولًا: lima ribu (5000)، dua puluh lima (25)، dua juta (2.000.000). وأضف rupiah بعد المبلغ عند الحاجة.",
+        "en": "For “one” before a large unit use se- instead of satu: seratus (100), seribu (1,000), sejuta (1,000,000). Otherwise say the digit first: lima ribu (5,000), dua puluh lima (25), dua juta (2,000,000). Add rupiah after the amount if needed.",
+        "id": "Untuk “satu” sebelum satuan besar dipakai se- dan bukan satu: seratus, seribu, sejuta. Selain itu sebutkan angka lebih dulu: lima ribu, dua puluh lima, dua juta. Tambahkan rupiah setelah jumlah jika perlu."
+      }
+    },
+    "items": [
+      {
+        "id": "id16n1",
+        "target": "dua puluh lima",
+        "translit": "du-a pu-luh li-ma",
+        "tr": {
+          "ar": "خمسة وعشرون",
+          "en": "twenty-five",
+          "id": "angka antara dua puluh empat dan dua puluh enam"
+        },
+        "example": {
+          "target": "Umur saya dua puluh lima tahun.",
+          "translit": "u-mur sa-ya du-a pu-luh li-ma ta-hun",
+          "tr": {
+            "ar": "عمري خمس وعشرون سنة.",
+            "en": "I am twenty-five years old.",
+            "id": "Usia saya genap dua puluh lima."
+          }
+        },
+        "hint": {
+          "ar": "العشرات بالترتيب: رقم + puluh + رقم الآحاد. بلا «و».",
+          "en": "Build tens as digit + puluh + units, with no “and”.",
+          "id": "Susun puluhan sebagai angka + puluh + satuan, tanpa “dan”."
+        }
+      },
+      {
+        "id": "id16n2",
+        "target": "seratus",
+        "translit": "sə-ra-tus",
+        "tr": {
+          "ar": "مئة",
+          "en": "one hundred",
+          "id": "angka 100"
+        },
+        "example": {
+          "target": "Ada seratus kursi di aula ini.",
+          "translit": "a-da sə-ra-tus kur-si di au-la i-ni",
+          "tr": {
+            "ar": "في هذه القاعة مئة كرسي.",
+            "en": "There are one hundred chairs in this hall.",
+            "id": "Aula ini berisi seratus tempat duduk."
+          }
+        },
+        "hint": {
+          "ar": "se + ratus. لـ 200 نقول dua ratus.",
+          "en": "se + ratus. For 200 say dua ratus.",
+          "id": "se + ratus. Untuk 200 katakan dua ratus."
+        }
+      },
+      {
+        "id": "id16n3",
+        "target": "lima ribu rupiah",
+        "translit": "li-ma ri-bu ru-pi-ah",
+        "tr": {
+          "ar": "خمسة آلاف روبية",
+          "en": "five thousand rupiah",
+          "id": "uang sejumlah 5.000"
+        },
+        "example": {
+          "target": "Teh ini lima ribu rupiah.",
+          "translit": "teh i-ni li-ma ri-bu ru-pi-ah",
+          "tr": {
+            "ar": "هذا الشاي بخمسة آلاف روبية.",
+            "en": "This tea is five thousand rupiah.",
+            "id": "Harga teh ini 5.000 rupiah."
+          }
+        },
+        "hint": {
+          "ar": "في الكلام اليومي يحذفون rupiah غالبًا: «lima ribu».",
+          "en": "In daily speech people drop rupiah: “lima ribu”.",
+          "id": "Dalam percakapan sehari-hari kata rupiah sering dihilangkan: “lima ribu”."
+        }
+      },
+      {
+        "id": "id16n4",
+        "target": "dua juta",
+        "translit": "du-a ju-ta",
+        "tr": {
+          "ar": "مليونان",
+          "en": "two million",
+          "id": "angka 2.000.000"
+        },
+        "example": {
+          "target": "Tiket pesawatnya dua juta.",
+          "translit": "ti-ket pə-sa-wat-nya du-a ju-ta",
+          "tr": {
+            "ar": "تذكرة الطائرة بمليونين.",
+            "en": "The plane ticket is two million.",
+            "id": "Harga tiket pesawat itu 2.000.000."
+          }
+        },
+        "hint": {
+          "ar": "مليون روبية يساوي نحو 60 دولارًا فقط، فالأعداد الكبيرة عادية في الأسعار.",
+          "en": "One million rupiah is only around 60 US dollars, so big numbers in prices are normal.",
+          "id": "Satu juta rupiah hanya sekitar enam puluh dolar AS, jadi angka besar dalam harga itu biasa."
+        }
+      },
+      {
+        "id": "id16n5",
+        "target": "Berapa harganya?",
+        "translit": "bə-ra-pa har-ga-nya",
+        "tr": {
+          "ar": "كم سعره؟",
+          "en": "How much is it?",
+          "id": "pertanyaan tentang harga"
+        },
+        "example": {
+          "target": "Berapa harganya, Bu?",
+          "translit": "bə-ra-pa har-ga-nya bu",
+          "tr": {
+            "ar": "بكم هذا يا سيدتي؟",
+            "en": "How much is this, ma’am?",
+            "id": "Harga barang ini berapa, Bu?"
+          }
+        },
+        "hint": {
+          "ar": "-nya تشير إلى «ذلك الشيء»؛ مناسبة في كل مكان. أضف Pak أو Bu للأدب.",
+          "en": "“-nya” points to “that item”; fine everywhere. Add Pak or Bu for politeness.",
+          "id": "“-nya” menunjuk barang tertentu; cocok di mana saja. Tambahkan Pak atau Bu agar sopan."
+        }
+      },
+      {
+        "id": "id16n6",
+        "target": "Bisa kurang?",
+        "translit": "bi-sa ku-rang",
+        "tr": {
+          "ar": "هل يمكن تخفيض السعر؟",
+          "en": "Can you go lower?",
+          "id": "bolehkah harganya diturunkan"
+        },
+        "example": {
+          "target": "Bisa kurang, Pak? Seratus ribu saja.",
+          "translit": "bi-sa ku-rang pak sə-ra-tus ri-bu sa-ja",
+          "tr": {
+            "ar": "هل ينقص قليلًا يا سيدي؟ مئة ألف فقط.",
+            "en": "Can you go lower, sir? Just a hundred thousand.",
+            "id": "Boleh turun, Pak? Cukup 100.000 saja."
+          }
+        },
+        "hint": {
+          "ar": "للأسواق والبسطات فقط، لا للمتاجر ذات الأسعار الثابتة. ابتسم وكن مهذبًا.",
+          "en": "For markets and street stalls only, not fixed-price shops. Smile and stay polite.",
+          "id": "Hanya untuk pasar dan pedagang kaki lima, bukan toko berharga pasti. Tersenyumlah dan tetap sopan."
+        }
+      }
+    ],
+    "cloze": [
+      {
+        "sentence": "Rp 5.000 dibaca lima ___ rupiah.",
+        "answer": "ribu",
+        "wrong": [
+          "juta",
+          "ratus"
+        ],
+        "tr": {
+          "ar": "5.000 روبية تُقرأ خمسة آلاف روبية.",
+          "en": "Rp 5,000 is read five thousand rupiah.",
+          "id": "Rp 5.000 dibaca lima ribu rupiah."
+        },
+        "why": {
+          "ar": "ribu = ألف. juta تعني مليونًا وratus تعني مئة فيصبح المبلغ مختلفًا.",
+          "en": "Ribu = thousand. Juta means million and ratus means hundred, which would change the amount.",
+          "id": "Ribu = seribu. Juta berarti sejuta dan ratus berarti seratus sehingga jumlahnya berbeda."
+        }
+      },
+      {
+        "sentence": "Permisi, Bu, ___ harga mangga ini?",
+        "answer": "berapa",
+        "wrong": [
+          "siapa",
+          "kapan"
+        ],
+        "tr": {
+          "ar": "عفوًا يا سيدتي، كم سعر هذا المانجو؟",
+          "en": "Excuse me, ma’am, how much is this mango?",
+          "id": "Permisi, Bu, harga mangga ini berapa?"
+        },
+        "why": {
+          "ar": "السؤال عن السعر يستعمل berapa. siapa للأشخاص وkapan للوقت.",
+          "en": "Price questions use berapa. Siapa is for people and kapan is for time.",
+          "id": "Pertanyaan harga memakai berapa. Siapa untuk orang dan kapan untuk waktu."
+        }
+      }
+    ],
+    "conversation": {
+      "context": {
+        "ar": "في سوق الفاكهة: تسأل البائعة عن سعر التفاح.",
+        "en": "At a fruit market: you ask the seller about the price of apples.",
+        "id": "Di pasar buah: Anda menanyakan harga apel kepada penjual."
+      },
+      "turns": [
+        {
+          "who": "A",
+          "target": "Permisi, Bu, berapa harga apel ini?",
+          "tr": {
+            "ar": "عفوًا يا سيدتي، بكم هذا التفاح؟",
+            "en": "Excuse me, ma’am, how much are these apples?",
+            "id": "Permisi, Bu, berapa harga apel ini?"
+          }
+        },
+        {
+          "who": "B",
+          "target": "Dua puluh lima ribu satu kilo, Pak.",
+          "tr": {
+            "ar": "خمسة وعشرون ألفًا للكيلو يا سيدي.",
+            "en": "Twenty-five thousand a kilo, sir.",
+            "id": "Dua puluh lima ribu per kilo, Pak."
+          }
+        },
+        {
+          "who": "A",
+          "target": "Bisa kurang, Bu?",
+          "tr": {
+            "ar": "هل ينقص قليلًا يا سيدتي؟",
+            "en": "Can you go a bit lower, ma’am?",
+            "id": "Boleh dikurangi, Bu?"
+          }
+        }
+      ],
+      "gap": 1,
+      "wrong": [
+        "Saya dari Jakarta.",
+        "Besok hari Senin."
+      ],
+      "why": {
+        "ar": "السؤال عن السعر يُجاب بمبلغ. «Saya dari Jakarta» و«Besok hari Senin» لا علاقة لهما بالسعر.",
+        "en": "A price question is answered with an amount. “Saya dari Jakarta” and “Besok hari Senin” have nothing to do with price.",
+        "id": "Pertanyaan harga dijawab dengan jumlah uang. “Saya dari Jakarta” dan “Besok hari Senin” tidak berkaitan dengan harga."
+      }
+    },
+    "summary": {
+      "ar": "تعلمت العشرات والمئات والآلاف والملايين، وسؤال السعر، والمساومة اللطيفة. تذكّر أن se- تحل محل satu قبل ratus وribu وjuta.",
+      "en": "You learned tens, hundreds, thousands and millions, the price question and polite bargaining. Remember that se- replaces satu before ratus, ribu and juta.",
+      "id": "Anda mempelajari puluhan, ratusan, ribuan, jutaan, pertanyaan harga, dan tawar-menawar yang sopan. Ingat se- menggantikan satu sebelum ratus, ribu, dan juta."
+    }
+  },
+  {
+    "id": "id-03",
+    "track": "id",
+    "level": "beginner",
+    "order": 7,
+    "topic": "family",
+    "icon": "👨‍👩‍👧",
+    "title": {
+      "ar": "العائلة",
+      "en": "Family",
+      "id": "Keluarga"
+    },
+    "description": {
+      "ar": "تتعلم أسماء أفراد العائلة وكيف تقدّم أسرتك.",
+      "en": "Learn the names of family members and how to introduce your family.",
+      "id": "Pelajari sebutan anggota keluarga dan cara memperkenalkan keluarga Anda."
+    },
+    "objectives": [
+      {
+        "ar": "أستطيع تسمية الأم والأب والإخوة.",
+        "en": "I can name mother, father and siblings.",
+        "id": "Saya bisa menyebut ibu, ayah, dan saudara."
+      },
+      {
+        "ar": "أستطيع القول «ini ibu saya».",
+        "en": "I can say “ini ibu saya”.",
+        "id": "Saya bisa berkata “ini ibu saya”."
+      },
+      {
+        "ar": "أستطيع التمييز بين kakak وadik.",
+        "en": "I can tell kakak from adik.",
+        "id": "Saya bisa membedakan kakak dan adik."
+      }
+    ],
+    "intro": {
+      "ar": "العائلة محور الحياة في إندونيسيا، ولذلك يسأل الناس عنها كثيرًا. كلمات الأقارب هنا تعتمد على العمر لا على الجنس: kakak للأكبر وadik للأصغر.",
+      "en": "Family is central to life in Indonesia, so people ask about it often. Sibling words depend on age rather than gender: kakak for older, adik for younger.",
+      "id": "Keluarga adalah pusat kehidupan di Indonesia sehingga orang sering menanyakannya. Sebutan saudara bergantung pada usia, bukan jenis kelamin: kakak untuk yang lebih tua, adik untuk yang lebih muda."
+    },
+    "culture": {
+      "ar": "يعيش الأجداد غالبًا مع الأولاد، ومن المألوف أن يسألك شخص تعرفه حديثًا: «Sudah menikah؟ Anaknya berapa؟». لا تتضايق، فهذه طريقة للودّ. ويُنادى كبار السن بـ Kakek وNenek، وقد يُنادى الغرباء الكبار بالأب والأم أيضًا.",
+      "en": "Grandparents often live with their children, and new acquaintances may ask “Are you married? How many children?”. Do not be offended; it is a way of being friendly. Elders are called Kakek and Nenek, and even strangers of that age may be called Bapak or Ibu.",
+      "id": "Kakek dan nenek sering tinggal bersama anak-cucu, dan kenalan baru bisa bertanya “Sudah menikah? Anaknya berapa?”. Jangan tersinggung; itu cara bersikap ramah. Orang tua dipanggil Kakek dan Nenek, bahkan orang asing seusia itu bisa dipanggil Bapak atau Ibu."
+    },
+    "grammar": {
+      "title": {
+        "ar": "الملكية بترتيب معكوس",
+        "en": "Possession: owner after the noun",
+        "id": "Kepemilikan: pemilik di belakang"
+      },
+      "body": {
+        "ar": "المملوك يأتي أولًا ثم المالك: ibu saya (أمي)، ayah dia (أبوه). لا حاجة لكلمة «my». وللتحديد نضيف laki-laki أو perempuan: kakak laki-laki (أخ أكبر)، kakak perempuan (أخت كبرى).",
+        "en": "The thing owned comes first, then the owner: ibu saya (my mother), ayah dia (his/her father). No separate word for “my” is needed. To specify, add laki-laki or perempuan: kakak laki-laki (older brother), kakak perempuan (older sister).",
+        "id": "Benda yang dimiliki disebut dahulu, lalu pemiliknya: ibu saya, ayah dia. Tidak perlu kata untuk “milik”. Untuk memperjelas, tambahkan laki-laki atau perempuan: kakak laki-laki, kakak perempuan."
+      }
+    },
+    "items": [
+      {
+        "id": "idx031",
+        "target": "Ibu",
+        "translit": "i-bu",
+        "tr": {
+          "ar": "أم",
+          "en": "Mother",
+          "id": "orang tua perempuan"
+        },
+        "example": {
+          "target": "Ini ibu saya.",
+          "translit": "i-ni i-bu sa-ya",
+          "tr": {
+            "ar": "هذه أمي.",
+            "en": "This is my mother.",
+            "id": "Perempuan ini adalah orang tua saya."
+          }
+        },
+        "hint": {
+          "ar": "Ibu تعني أيضًا «سيدة» كلقب احترام للنساء.",
+          "en": "Ibu also means “Madam” as a respectful title.",
+          "id": "Ibu juga dipakai sebagai sebutan hormat untuk perempuan."
+        }
+      },
+      {
+        "id": "idx032",
+        "target": "Ayah",
+        "translit": "a-yah",
+        "tr": {
+          "ar": "أب",
+          "en": "Father",
+          "id": "orang tua laki-laki"
+        },
+        "example": {
+          "target": "Ayah saya di rumah.",
+          "translit": "a-yah sa-ya di ru-mah",
+          "tr": {
+            "ar": "أبي في البيت.",
+            "en": "My father is at home.",
+            "id": "Orang tua laki-laki saya sedang di rumah."
+          }
+        },
+        "hint": {
+          "ar": "كلمات أخرى: Bapak (أكثر شيوعًا في جاوة)، Papa (عصرية).",
+          "en": "Alternatives: Bapak (common in Java), Papa (modern).",
+          "id": "Variasi lain: Bapak (umum di Jawa), Papa (modern)."
+        }
+      },
+      {
+        "id": "idx033",
+        "target": "Kakak",
+        "translit": "ka-kak",
+        "tr": {
+          "ar": "أخ أو أخت أكبر",
+          "en": "Older sibling",
+          "id": "saudara yang lebih tua"
+        },
+        "example": {
+          "target": "Kakak saya baik.",
+          "translit": "ka-kak sa-ya ba-ik",
+          "tr": {
+            "ar": "أخي الأكبر لطيف.",
+            "en": "My older sibling is kind.",
+            "id": "Saudara tua saya berhati lembut."
+          }
+        },
+        "hint": {
+          "ar": "لا يحدد الجنس؛ للتوضيح: kakak laki-laki أو kakak perempuan.",
+          "en": "Does not mark gender; add laki-laki or perempuan to be specific.",
+          "id": "Tidak menandai jenis kelamin; tambahkan laki-laki atau perempuan untuk memperjelas."
+        }
+      },
+      {
+        "id": "idx034",
+        "target": "Adik",
+        "translit": "a-dik",
+        "tr": {
+          "ar": "أخ أو أخت أصغر",
+          "en": "Younger sibling",
+          "id": "saudara yang lebih muda"
+        },
+        "example": {
+          "target": "Adik saya sekolah.",
+          "translit": "a-dik sa-ya se-ko-lah",
+          "tr": {
+            "ar": "أخي الأصغر في المدرسة.",
+            "en": "My younger sibling goes to school.",
+            "id": "Saudara muda saya sedang bersekolah."
+          }
+        },
+        "hint": {
+          "ar": "يُنادى بها أيضًا أي شخص أصغر منك بلطف.",
+          "en": "Also used kindly to address anyone younger than you.",
+          "id": "Juga dipakai untuk menyapa dengan ramah orang yang lebih muda."
+        }
+      },
+      {
+        "id": "idx035",
+        "target": "Nenek",
+        "translit": "nə-nək",
+        "tr": {
+          "ar": "جدة",
+          "en": "Grandmother",
+          "id": "ibu dari ayah atau ibu"
+        },
+        "example": {
+          "target": "Nenek saya tinggal di Bandung.",
+          "translit": "nə-nək sa-ya ting-gal di ban-dung",
+          "tr": {
+            "ar": "جدتي تسكن في باندونغ.",
+            "en": "My grandmother lives in Bandung.",
+            "id": "Ibu dari orang tua saya bermukim di Bandung."
+          }
+        },
+        "hint": {
+          "ar": "الجد: Kakek. وللجدين معًا: kakek-nenek.",
+          "en": "Grandfather: Kakek. Both together: kakek-nenek.",
+          "id": "Kakek untuk laki-laki. Keduanya bersama: kakek-nenek."
+        }
+      },
+      {
+        "id": "idx036",
+        "target": "Keluarga",
+        "translit": "kə-lu-ar-ga",
+        "tr": {
+          "ar": "عائلة / أسرة",
+          "en": "Family",
+          "id": "ayah, ibu, dan anak-anak"
+        },
+        "example": {
+          "target": "Ini foto keluarga saya.",
+          "translit": "i-ni fo-to kə-lu-ar-ga sa-ya",
+          "tr": {
+            "ar": "هذه صورة عائلتي.",
+            "en": "This is my family photo.",
+            "id": "Gambar ini memuat semua anggota rumah saya."
+          }
+        },
+        "hint": {
+          "ar": "keluarga تعني أيضًا الأقارب عمومًا.",
+          "en": "Keluarga also means relatives in general.",
+          "id": "Keluarga juga berarti kerabat secara umum."
+        }
+      }
+    ],
+    "cloze": [
+      {
+        "sentence": "Ibu dan ___ saya ada di rumah.",
+        "answer": "ayah",
+        "wrong": [
+          "kamar",
+          "air"
+        ],
+        "tr": {
+          "ar": "أمي وأبي في البيت.",
+          "en": "My mother and father are at home.",
+          "id": "Ibu dan ayah saya ada di rumah."
+        },
+        "why": {
+          "ar": "ayah يكمل الثنائي «أم وأب»؛ kamar وair ليسا من أفراد العائلة.",
+          "en": "Ayah completes the pair “mother and father”; kamar and air are not family members.",
+          "id": "Ayah melengkapi pasangan “ibu dan ayah”; kamar dan air bukan anggota keluarga."
+        }
+      },
+      {
+        "sentence": "Dia lebih muda dari saya. Dia ___ saya.",
+        "answer": "adik",
+        "wrong": [
+          "kakak",
+          "kakek"
+        ],
+        "tr": {
+          "ar": "هو أصغر مني. هو أخي الأصغر.",
+          "en": "He is younger than me. He is my younger sibling.",
+          "id": "Dia berusia lebih muda dari saya. Dia adik saya."
+        },
+        "why": {
+          "ar": "الأصغر عمرًا يُسمى adik؛ kakak أكبر وkakek هو الجد.",
+          "en": "Someone younger is adik; kakak is older and kakek is a grandfather.",
+          "id": "Yang lebih muda disebut adik; kakak lebih tua dan kakek adalah orang tua dari orang tua."
+        }
+      }
+    ],
+    "conversation": {
+      "context": {
+        "ar": "في بيت صديق: ترى صورة عائلية على الجدار.",
+        "en": "At a friend’s house: you see a family photo on the wall.",
+        "id": "Di rumah teman: Anda melihat foto keluarga di dinding."
+      },
+      "turns": [
+        {
+          "who": "A",
+          "target": "Ini foto keluarga Anda?",
+          "tr": {
+            "ar": "هل هذه صورة عائلتك؟",
+            "en": "Is this your family photo?",
+            "id": "Apakah ini foto keluarga Anda?"
+          }
+        },
+        {
+          "who": "B",
+          "target": "Ya. Ini ibu saya, dan ini kakak saya.",
+          "tr": {
+            "ar": "نعم. هذه أمي، وهذا أخي الأكبر.",
+            "en": "Yes. This is my mother, and this is my older sibling.",
+            "id": "Ya. Ini ibu saya, dan ini kakak saya."
+          }
+        },
+        {
+          "who": "A",
+          "target": "Keluarga Anda ramah ya.",
+          "tr": {
+            "ar": "عائلتك ودودة.",
+            "en": "Your family looks friendly.",
+            "id": "Keluarga Anda tampak hangat, ya."
+          }
+        }
+      ],
+      "gap": 1,
+      "wrong": [
+        "Bukan, itu pintu rumah.",
+        "Dia lapar sekali."
+      ],
+      "why": {
+        "ar": "السؤال «هل هذه صورة عائلتك؟» يجاب بنعم مع تعريف أفراد العائلة. الخياران الآخران لا يجيبان.",
+        "en": "The question “Is this your family photo?” gets a yes plus introductions. The other two do not answer it.",
+        "id": "Pertanyaan “Apakah ini foto keluarga Anda?” dijawab ya dan memperkenalkan anggota keluarga. Dua pilihan lain tidak menjawabnya."
+      }
+    },
+    "summary": {
+      "ar": "تعرفت على ibu وayah وkakak وadik وnenek وkeluarga، وعلى ترتيب الملكية: المملوك ثم المالك. kakak وadik يعتمدان على العمر.",
+      "en": "You met ibu, ayah, kakak, adik, nenek and keluarga, and the word order of possession: thing first, owner second. Kakak and adik depend on age.",
+      "id": "Anda mengenal ibu, ayah, kakak, adik, nenek, dan keluarga, serta urutan kepemilikan: benda dahulu, pemilik kemudian. Kakak dan adik bergantung pada usia."
+    }
+  },
+  {
+    "id": "id-11",
+    "track": "id",
+    "level": "beginner",
+    "order": 8,
+    "topic": "colors-sizes",
+    "icon": "🎨",
+    "title": {
+      "ar": "الألوان والأحجام",
+      "en": "Colors and sizes",
+      "id": "Warna dan ukuran"
+    },
+    "description": {
+      "ar": "تتعلم الألوان والأحجام وأن الصفة تأتي بعد الاسم.",
+      "en": "Learn colours and sizes, and that the adjective comes after the noun.",
+      "id": "Pelajari warna dan ukuran, serta bahwa kata sifat diletakkan setelah kata benda."
+    },
+    "objectives": [
+      {
+        "ar": "أستطيع تسمية ألوان أساسية.",
+        "en": "I can name basic colours.",
+        "id": "Saya bisa menyebut warna dasar."
+      },
+      {
+        "ar": "أستطيع وصف الحجم: besar وkecil وpanjang.",
+        "en": "I can describe size: besar, kecil and panjang.",
+        "id": "Saya bisa menggambarkan ukuran: besar, kecil, dan panjang."
+      },
+      {
+        "ar": "أستطيع ترتيب الصفة بعد الاسم.",
+        "en": "I can put the adjective after the noun.",
+        "id": "Saya bisa menaruh kata sifat setelah kata benda."
+      }
+    ],
+    "intro": {
+      "ar": "في الإندونيسية تأتي الصفة بعد الاسم: baju merah (قميص أحمر) وليس «أحمر قميص». ولا تتغير الصفة بحسب الجنس أو العدد، وهذا يجعل الوصف سهلًا.",
+      "en": "In Indonesian the adjective follows the noun: baju merah (red shirt), not “red shirt” the other way round. Adjectives do not change for gender or number, which makes description easy.",
+      "id": "Dalam bahasa Indonesia kata sifat mengikuti kata benda: baju merah. Kata sifat tidak berubah menurut jenis kelamin atau jumlah, sehingga menggambarkan sesuatu menjadi mudah."
+    },
+    "culture": {
+      "ar": "العَلَم الإندونيسي أحمر وأبيض ويُسمى Merah Putih، ولهذين اللونين مكانة خاصة. وفي الأسواق ستسمع «ada yang lebih besar؟» (هل يوجد أكبر؟). والمقاسات في الملابس غالبًا S وM وL وXL.",
+      "en": "The Indonesian flag is red and white and is called Merah Putih, so these two colours carry special meaning. In shops you will hear “ada yang lebih besar?” (is there a bigger one?). Clothes are usually sized S, M, L and XL.",
+      "id": "Bendera Indonesia berwarna merah dan putih, disebut Merah Putih, sehingga kedua warna itu punya makna khusus. Di toko Anda akan mendengar “ada yang lebih besar?”. Ukuran pakaian biasanya S, M, L, dan XL."
+    },
+    "grammar": {
+      "title": {
+        "ar": "الصفة بعد الاسم + sekali",
+        "en": "Adjective after the noun + sekali",
+        "id": "Kata sifat setelah kata benda + sekali"
+      },
+      "body": {
+        "ar": "نقول tas biru (حقيبة زرقاء) وrumah besar (بيت كبير). ولتأكيد الصفة نضيف sekali بعدها: besar sekali (كبير جدًا). للجملة الوصفية نضع الاسم ثم الصفة دون «يكون»: Baju ini merah.",
+        "en": "We say tas biru (blue bag) and rumah besar (big house). To intensify add sekali after the adjective: besar sekali (very big). In a descriptive sentence put the noun then the adjective, with no “is”: Baju ini merah.",
+        "id": "Kita berkata tas biru dan rumah besar. Untuk menegaskan tambahkan sekali setelah kata sifat: besar sekali. Dalam kalimat deskriptif, kata benda disusul kata sifat tanpa “adalah”: Baju ini merah."
+      }
+    },
+    "items": [
+      {
+        "id": "idx111",
+        "target": "Merah",
+        "translit": "mə-rah",
+        "tr": {
+          "ar": "أحمر",
+          "en": "Red",
+          "id": "warna seperti darah"
+        },
+        "example": {
+          "target": "Baju ini merah.",
+          "translit": "ba-ju i-ni mə-rah",
+          "tr": {
+            "ar": "هذا القميص أحمر.",
+            "en": "This shirt is red.",
+            "id": "Pakaian ini berwarna darah."
+          }
+        },
+        "hint": {
+          "ar": "merah + putih = العلم الوطني Merah Putih.",
+          "en": "Merah + putih = the national flag, Merah Putih.",
+          "id": "Merah + putih = bendera nasional Merah Putih."
+        }
+      },
+      {
+        "id": "idx112",
+        "target": "Biru",
+        "translit": "bi-ru",
+        "tr": {
+          "ar": "أزرق",
+          "en": "Blue",
+          "id": "warna langit cerah"
+        },
+        "example": {
+          "target": "Tas saya biru.",
+          "translit": "tas sa-ya bi-ru",
+          "tr": {
+            "ar": "حقيبتي زرقاء.",
+            "en": "My bag is blue.",
+            "id": "Tas milik saya berwarna langit."
+          }
+        },
+        "hint": {
+          "ar": "biru laut = أزرق بحري، وbiru muda = أزرق فاتح.",
+          "en": "Biru muda = light blue; biru tua = dark blue.",
+          "id": "Biru muda = biru cerah; biru tua = biru gelap."
+        }
+      },
+      {
+        "id": "idx113",
+        "target": "Besar",
+        "translit": "bə-sar",
+        "tr": {
+          "ar": "كبير",
+          "en": "Big",
+          "id": "ukurannya luas"
+        },
+        "example": {
+          "target": "Rumah ini besar.",
+          "translit": "ru-mah i-ni bə-sar",
+          "tr": {
+            "ar": "هذا البيت كبير.",
+            "en": "This house is big.",
+            "id": "Bangunan ini luas sekali."
+          }
+        },
+        "hint": {
+          "ar": "besar sekali = كبير جدًا.",
+          "en": "Besar sekali = very big.",
+          "id": "Besar sekali = sangat besar."
+        }
+      },
+      {
+        "id": "idx114",
+        "target": "Kecil",
+        "translit": "kə-chil",
+        "tr": {
+          "ar": "صغير",
+          "en": "Small",
+          "id": "ukurannya mungil"
+        },
+        "example": {
+          "target": "Kamar ini kecil.",
+          "translit": "ka-mar i-ni kə-chil",
+          "tr": {
+            "ar": "هذه الغرفة صغيرة.",
+            "en": "This room is small.",
+            "id": "Ruangan ini mungil."
+          }
+        },
+        "hint": {
+          "ar": "kecil تعني أيضًا «في الصغر»: waktu kecil = وأنا صغير.",
+          "en": "Kecil also means “as a child”: waktu kecil = when I was little.",
+          "id": "Kecil juga berarti “masa anak-anak”: waktu kecil."
+        }
+      },
+      {
+        "id": "idx115",
+        "target": "Hitam",
+        "translit": "hi-tam",
+        "tr": {
+          "ar": "أسود",
+          "en": "Black",
+          "id": "warna malam"
+        },
+        "example": {
+          "target": "Kopi saya hitam.",
+          "translit": "ko-pi sa-ya hi-tam",
+          "tr": {
+            "ar": "قهوتي سوداء.",
+            "en": "My coffee is black.",
+            "id": "Kopi yang saya minum tanpa susu."
+          }
+        },
+        "hint": {
+          "ar": "putih = أبيض، وhijau = أخضر، وkuning = أصفر.",
+          "en": "Putih = white, hijau = green, kuning = yellow.",
+          "id": "Putih untuk salju, hijau untuk daun, kuning untuk matahari."
+        }
+      },
+      {
+        "id": "idx116",
+        "target": "Panjang",
+        "translit": "pan-jang",
+        "tr": {
+          "ar": "طويل",
+          "en": "Long",
+          "id": "ukurannya jauh dari ujung ke ujung"
+        },
+        "example": {
+          "target": "Jalan ini panjang.",
+          "translit": "ja-lan i-ni pan-jang",
+          "tr": {
+            "ar": "هذا الطريق طويل.",
+            "en": "This road is long.",
+            "id": "Jalan ini membentang jauh."
+          }
+        },
+        "hint": {
+          "ar": "عكسها: pendek = قصير.",
+          "en": "Opposite: pendek = short.",
+          "id": "Lawan kata: pendek."
+        }
+      }
+    ],
+    "cloze": [
+      {
+        "sentence": "Bendera Indonesia merah dan ___.",
+        "answer": "putih",
+        "wrong": [
+          "hitam",
+          "biru"
+        ],
+        "tr": {
+          "ar": "علم إندونيسيا أحمر وأبيض.",
+          "en": "The Indonesian flag is red and white.",
+          "id": "Bendera Indonesia berwarna merah dan putih."
+        },
+        "why": {
+          "ar": "اللون الثاني في العلم هو putih؛ hitam وbiru ليسا في العلم.",
+          "en": "The second colour on the flag is putih; hitam and biru are not on it.",
+          "id": "Warna kedua pada bendera adalah putih; hitam dan biru tidak ada."
+        }
+      },
+      {
+        "sentence": "Langit hari ini ___ sekali.",
+        "answer": "biru",
+        "wrong": [
+          "panjang",
+          "kecil"
+        ],
+        "tr": {
+          "ar": "السماء اليوم زرقاء جدًا.",
+          "en": "The sky is very blue today.",
+          "id": "Langit hari ini sangat cerah dan biru."
+        },
+        "why": {
+          "ar": "السماء توصف بلونها biru؛ panjang وkecil صفتا حجم لا تناسبان السماء هنا.",
+          "en": "The sky is described by colour, biru; panjang and kecil are size words that do not fit here.",
+          "id": "Langit dijelaskan dengan warna, biru; panjang dan kecil adalah ukuran dan tidak cocok."
+        }
+      }
+    ],
+    "conversation": {
+      "context": {
+        "ar": "في محل ملابس: تسأل البائعة عن قميص أزرق.",
+        "en": "In a clothes shop: you ask a shop assistant for a blue shirt.",
+        "id": "Di toko pakaian: Anda menanyakan kemeja biru kepada pramuniaga."
+      },
+      "turns": [
+        {
+          "who": "A",
+          "target": "Permisi, Mbak. Ada baju warna biru?",
+          "tr": {
+            "ar": "عفوًا يا آنسة. هل يوجد قميص أزرق؟",
+            "en": "Excuse me, miss. Do you have a blue shirt?",
+            "id": "Permisi, Mbak. Apakah ada baju berwarna biru?"
+          }
+        },
+        {
+          "who": "B",
+          "target": "Ada, Pak. Mau yang besar atau yang kecil?",
+          "tr": {
+            "ar": "يوجد يا سيدي. تريد الكبير أم الصغير؟",
+            "en": "Yes, sir. Do you want the big one or the small one?",
+            "id": "Ada, Pak. Mau ukuran besar atau kecil?"
+          }
+        },
+        {
+          "who": "A",
+          "target": "Yang besar, ya.",
+          "tr": {
+            "ar": "الكبير من فضلك.",
+            "en": "The big one, please.",
+            "id": "Yang besar saja."
+          }
+        }
+      ],
+      "gap": 2,
+      "wrong": [
+        "Hari ini hari Senin.",
+        "Ibu saya dokter."
+      ],
+      "why": {
+        "ar": "السؤال «الكبير أم الصغير؟» يُجاب باختيار الحجم. الخياران الآخران جملتان صحيحتان لكنهما خارج الموضوع.",
+        "en": "The question “big or small?” is answered by choosing a size. The other two are correct sentences but off topic.",
+        "id": "Pertanyaan “besar atau kecil?” dijawab dengan memilih ukuran. Dua pilihan lain benar tetapi tidak sesuai topik."
+      }
+    },
+    "summary": {
+      "ar": "تعلمت merah وbiru وhitam وbesar وkecil وpanjang، وأن الصفة تأتي بعد الاسم، وأن sekali تقوّي المعنى. هذه الكلمات تكفي لوصف معظم الأشياء حولك.",
+      "en": "You learned merah, biru, hitam, besar, kecil and panjang, that adjectives follow the noun, and that sekali strengthens the meaning. These words describe most things around you.",
+      "id": "Anda mempelajari merah, biru, hitam, besar, kecil, dan panjang, bahwa kata sifat mengikuti kata benda, dan sekali menguatkan makna. Kata-kata ini cukup untuk menggambarkan banyak benda."
+    }
+  },
+  {
+    "id": "id-04",
+    "track": "id",
+    "level": "beginner",
+    "order": 9,
+    "topic": "at-home",
+    "icon": "🏠",
+    "title": {
+      "ar": "في البيت",
+      "en": "At home",
+      "id": "Di rumah"
+    },
+    "description": {
+      "ar": "تتعلم كلمات البيت الأساسية وكيف تسأل عن أماكنها وتطلب شيئًا بلطف.",
+      "en": "Learn basic words for the home, how to ask where things are and how to make a polite request.",
+      "id": "Pelajari kata-kata dasar tentang rumah, cara menanyakan letaknya, dan cara meminta dengan sopan."
+    },
+    "objectives": [
+      {
+        "ar": "أستطيع تسمية غرف البيت الرئيسية.",
+        "en": "I can name the main rooms of a house.",
+        "id": "Saya bisa menyebut ruangan utama di rumah."
+      },
+      {
+        "ar": "أستطيع السؤال «Di mana ...؟».",
+        "en": "I can ask “Di mana ...?”.",
+        "id": "Saya bisa bertanya “Di mana ...?”."
+      },
+      {
+        "ar": "أستطيع الطلب بـ«Tolong ...».",
+        "en": "I can ask politely with “Tolong ...”.",
+        "id": "Saya bisa meminta dengan “Tolong ...”."
+      }
+    ],
+    "intro": {
+      "ar": "بيت الإندونيسي مليء بالضيوف، وستحتاج إلى كلمات الغرف والأشياء. وأهم طريقة للطلب بلطف هي كلمة tolong في بداية الجملة.",
+      "en": "An Indonesian home often fills with guests, so you will need the words for rooms and things. The most useful polite request starts with tolong.",
+      "id": "Rumah di Indonesia sering ramai tamu sehingga Anda memerlukan kata untuk ruangan dan benda. Permintaan sopan yang paling berguna diawali dengan tolong."
+    },
+    "culture": {
+      "ar": "قبل دخول البيت يخلع الناس أحذيتهم عند الباب. وفي الحمّام ستجد «bak mandi» (حوض ماء وإناء صغير) بدل الدش في بيوت كثيرة، ومعها «gayung». وإذا زرت أحدًا سيُقدَّم لك الماء أو الشاي فورًا، وكل ما عليك أن تقول: «Terima kasih».",
+      "en": "People take off their shoes at the door before entering. In many bathrooms you will find a “bak mandi” (water tub) with a small scoop called a “gayung” instead of a shower. Visitors are usually offered water or tea at once; just say “Terima kasih”.",
+      "id": "Orang melepas sandal di depan pintu sebelum masuk. Di banyak kamar mandi ada bak mandi dan gayung, bukan pancuran. Tamu biasanya langsung ditawari air putih atau teh; cukup jawab “Terima kasih”."
+    },
+    "grammar": {
+      "title": {
+        "ar": "Di mana + الشيء؟ وTolong + فعل",
+        "en": "Di mana + thing? and Tolong + verb",
+        "id": "Di mana + benda? dan Tolong + kata kerja"
+      },
+      "body": {
+        "ar": "للسؤال عن المكان نقول «Di mana + الشيء؟» أو «الشيء + di mana؟»: Di mana kamar mandi؟ وللطلب نقول Tolong + فعل: Tolong buka pintu (افتح الباب من فضلك). وللمزيد من اللطف أضف ya أو dong في النهاية: Tolong tutup pintu, ya.",
+        "en": "To ask where something is, say “Di mana + thing?” or “thing + di mana?”: Di mana kamar mandi? To request, use Tolong + verb: Tolong tutup pintu (please close the door). To soften the request add ya at the end: Tolong tutup pintu, ya.",
+        "id": "Untuk menanyakan tempat, katakan “Di mana + benda?”: Di mana kamar mandi? Untuk meminta, pakai Tolong + kata kerja: Tolong tutup pintu. Agar lebih ramah, tambahkan ya di akhir: Tolong tutup pintu, ya."
+      }
+    },
+    "items": [
+      {
+        "id": "idx041",
+        "target": "Air",
+        "translit": "a-ir",
+        "tr": {
+          "ar": "ماء",
+          "en": "Water",
+          "id": "cairan untuk diminum"
+        },
+        "example": {
+          "target": "Saya minum air.",
+          "translit": "sa-ya mi-num a-ir",
+          "tr": {
+            "ar": "أنا أشرب الماء.",
+            "en": "I drink water.",
+            "id": "Saya meneguk air putih."
+          }
+        },
+        "hint": {
+          "ar": "air putih = ماء الشرب (حرفيًا «الماء الأبيض»).",
+          "en": "Air putih = drinking water (literally “white water”).",
+          "id": "Air putih = air minum biasa."
+        }
+      },
+      {
+        "id": "idx042",
+        "target": "Pintu",
+        "translit": "pin-tu",
+        "tr": {
+          "ar": "باب",
+          "en": "Door",
+          "id": "jalan keluar masuk ruangan"
+        },
+        "example": {
+          "target": "Tolong tutup pintu.",
+          "translit": "to-long tu-tup pin-tu",
+          "tr": {
+            "ar": "من فضلك أغلق الباب.",
+            "en": "Please close the door.",
+            "id": "Mohon tutup jalan masuk itu."
+          }
+        },
+        "hint": {
+          "ar": "tolong تجعل الطلب لطيفًا؛ وإضافة «ya» تزيده ودًّا.",
+          "en": "“Tolong” makes a request polite; adding “ya” makes it friendlier.",
+          "id": "“Tolong” membuat permintaan sopan; menambahkan “ya” membuatnya ramah."
+        }
+      },
+      {
+        "id": "idx043",
+        "target": "Dapur",
+        "translit": "da-pur",
+        "tr": {
+          "ar": "مطبخ",
+          "en": "Kitchen",
+          "id": "tempat memasak"
+        },
+        "example": {
+          "target": "Dapur ini bersih.",
+          "translit": "da-pur i-ni bər-sih",
+          "tr": {
+            "ar": "هذا المطبخ نظيف.",
+            "en": "This kitchen is clean.",
+            "id": "Tempat memasak ini rapi."
+          }
+        },
+        "hint": {
+          "ar": "في بيوت كثيرة يوجد «dapur kotor» في الخلف للطبخ الثقيل.",
+          "en": "Many homes have a “dapur kotor” at the back for heavy cooking.",
+          "id": "Banyak rumah punya “dapur kotor” di belakang untuk memasak berat."
+        }
+      },
+      {
+        "id": "idx044",
+        "target": "Kamar mandi",
+        "translit": "ka-mar man-di",
+        "tr": {
+          "ar": "حمّام",
+          "en": "Bathroom",
+          "id": "ruang untuk mandi"
+        },
+        "example": {
+          "target": "Di mana kamar mandi?",
+          "translit": "di ma-na ka-mar man-di",
+          "tr": {
+            "ar": "أين الحمام؟",
+            "en": "Where is the bathroom?",
+            "id": "Letak ruang untuk mandi ada di sebelah mana?"
+          }
+        },
+        "hint": {
+          "ar": "في الأماكن العامة تُسمى toilet أو WC.",
+          "en": "In public places it is called toilet or WC.",
+          "id": "Di tempat umum disebut toilet atau WC."
+        }
+      },
+      {
+        "id": "idx045",
+        "target": "Kamar tidur",
+        "translit": "ka-mar ti-dur",
+        "tr": {
+          "ar": "غرفة نوم",
+          "en": "Bedroom",
+          "id": "ruang untuk beristirahat"
+        },
+        "example": {
+          "target": "Kamar tidur saya di lantai dua.",
+          "translit": "ka-mar ti-dur sa-ya di lan-tai du-a",
+          "tr": {
+            "ar": "غرفة نومي في الطابق الثاني.",
+            "en": "My bedroom is on the second floor.",
+            "id": "Ruang istirahat saya ada di tingkat atas."
+          }
+        },
+        "hint": {
+          "ar": "kamar = غرفة وtidur = ينام.",
+          "en": "Kamar = room and tidur = to sleep.",
+          "id": "Kamar = ruangan dan tidur = beristirahat dengan mata tertutup."
+        }
+      },
+      {
+        "id": "idx046",
+        "target": "Jendela",
+        "translit": "jən-də-la",
+        "tr": {
+          "ar": "نافذة",
+          "en": "Window",
+          "id": "lubang di dinding untuk cahaya dan udara"
+        },
+        "example": {
+          "target": "Tolong buka jendela, di sini panas.",
+          "translit": "to-long bu-ka jən-də-la di si-ni pa-nas",
+          "tr": {
+            "ar": "من فضلك افتح النافذة، الجو حار هنا.",
+            "en": "Please open the window, it is hot here.",
+            "id": "Tolong buka kaca di dinding itu, udara di sini panas."
+          }
+        },
+        "hint": {
+          "ar": "buka = يفتح وtutup = يغلق.",
+          "en": "Buka = open and tutup = close.",
+          "id": "Buka lawan tutup."
+        }
+      }
+    ],
+    "cloze": [
+      {
+        "sentence": "Saya masak di ___.",
+        "answer": "dapur",
+        "wrong": [
+          "kamar mandi",
+          "jendela"
+        ],
+        "tr": {
+          "ar": "أنا أطبخ في المطبخ.",
+          "en": "I cook in the kitchen.",
+          "id": "Saya memasak di dapur."
+        },
+        "why": {
+          "ar": "الطبخ يكون في المطبخ dapur؛ لا نطبخ في الحمام ولا في النافذة.",
+          "en": "Cooking happens in the dapur; not in a bathroom or a window.",
+          "id": "Memasak dilakukan di dapur, bukan di kamar mandi atau jendela."
+        }
+      },
+      {
+        "sentence": "Tolong ___ pintu, di luar dingin.",
+        "answer": "tutup",
+        "wrong": [
+          "minum",
+          "masak"
+        ],
+        "tr": {
+          "ar": "من فضلك أغلق الباب، الجو بارد في الخارج.",
+          "en": "Please close the door, it is cold outside.",
+          "id": "Tolong tutup pintu, udara di luar dingin."
+        },
+        "why": {
+          "ar": "الجو بارد فنطلب إغلاق الباب tutup؛ لا يصح أن «نشرب» أو «نطبخ» الباب.",
+          "en": "It is cold outside so we ask to close the door; you cannot drink or cook a door.",
+          "id": "Udara dingin sehingga kita meminta pintu ditutup; pintu tidak bisa diminum atau dimasak."
+        }
+      }
+    ],
+    "conversation": {
+      "context": {
+        "ar": "في بيت صديق: ضيف يسأل عن الحمّام.",
+        "en": "At a friend’s house: a guest asks about the bathroom.",
+        "id": "Di rumah teman: seorang tamu menanyakan kamar mandi."
+      },
+      "turns": [
+        {
+          "who": "A",
+          "target": "Permisi, kamar mandi di mana?",
+          "tr": {
+            "ar": "عفوًا، أين الحمام؟",
+            "en": "Excuse me, where is the bathroom?",
+            "id": "Permisi, di mana letak kamar mandi?"
+          }
+        },
+        {
+          "who": "B",
+          "target": "Di sana, dekat dapur.",
+          "tr": {
+            "ar": "هناك، قرب المطبخ.",
+            "en": "Over there, near the kitchen.",
+            "id": "Di sebelah situ, tidak jauh dari dapur."
+          }
+        },
+        {
+          "who": "A",
+          "target": "Terima kasih.",
+          "tr": {
+            "ar": "شكرًا.",
+            "en": "Thank you.",
+            "id": "Terima kasih."
+          }
+        }
+      ],
+      "gap": 1,
+      "wrong": [
+        "Saya mau minum air.",
+        "Pintunya besar sekali."
+      ],
+      "why": {
+        "ar": "السؤال «أين؟» يُجاب بمكان. الخياران الآخران جملتان صحيحتان لكنهما لا تذكران مكان الحمام.",
+        "en": "A “where” question is answered with a place. The other two are fine sentences but do not say where the bathroom is.",
+        "id": "Pertanyaan “di mana” dijawab dengan tempat. Dua pilihan lain benar tetapi tidak menyebut letak kamar mandi."
+      }
+    },
+    "summary": {
+      "ar": "تعلمت air وpintu وdapur وkamar mandi وkamar tidur وjendela، وطريقة السؤال بـ«Di mana» والطلب بـ«Tolong». هذه كافية لتتحرك في أي بيت.",
+      "en": "You learned air, pintu, dapur, kamar mandi, kamar tidur and jendela, plus “Di mana” for places and “Tolong” for requests. That is enough to get around any home.",
+      "id": "Anda mempelajari air, pintu, dapur, kamar mandi, kamar tidur, dan jendela, serta “Di mana” untuk tempat dan “Tolong” untuk permintaan. Itu cukup untuk bergerak di rumah mana pun."
+    }
+  },
+  {
+    "id": "id-17",
+    "track": "id",
+    "level": "beginner",
+    "order": 10,
+    "topic": "demonstratives-location",
+    "icon": "📍",
+    "title": {
+      "ar": "أسماء الإشارة وحروف المكان",
+      "en": "Demonstratives and location words",
+      "id": "Penunjuk dan kata tempat"
+    },
+    "description": {
+      "ar": "تتعلم ini وitu وdi وke وdari وكيف تسأل «أين؟».",
+      "en": "Learn ini, itu, di, ke and dari, and how to ask “where?”.",
+      "id": "Pelajari ini, itu, di, ke, dan dari, serta cara bertanya “di mana?”."
+    },
+    "objectives": [
+      {
+        "ar": "أستطيع الإشارة إلى القريب والبعيد بـ ini وitu.",
+        "en": "I can point to near and far things with ini and itu.",
+        "id": "Saya bisa menunjuk benda dekat dan jauh dengan ini dan itu."
+      },
+      {
+        "ar": "أستطيع الفرق بين di (في) وke (إلى) وdari (من).",
+        "en": "I can tell di (at), ke (to) and dari (from) apart.",
+        "id": "Saya bisa membedakan di, ke, dan dari."
+      },
+      {
+        "ar": "أستطيع السؤال عن مكان شيء.",
+        "en": "I can ask where something is.",
+        "id": "Saya bisa menanyakan letak sesuatu."
+      }
+    ],
+    "intro": {
+      "ar": "هذه الكلمات الصغيرة هي مفاتيح أي جملة عن الأماكن. ini تعني «هذا» وitu تعني «ذلك»، وثلاثة حروف للمكان: di للثبات وke للاتجاه وdari للأصل.",
+      "en": "These little words are the keys to any sentence about places. Ini means “this” and itu means “that”, and three prepositions mark place: di for being somewhere, ke for going towards, dari for coming from.",
+      "id": "Kata-kata kecil ini adalah kunci setiap kalimat tentang tempat. Ini berarti “yang dekat” dan itu “yang jauh”, dan tiga kata depan menandai tempat: di untuk berada, ke untuk menuju, dari untuk asal."
+    },
+    "culture": {
+      "ar": "عند السؤال عن اتجاه ستسمع «di sana» (هناك) و«di sini» (هنا) مع الإشارة بالإبهام لا بالسبابة، فالإشارة بالسبابة تُعدّ فظّة قليلًا. وسيقول الإندونيسيون غالبًا «lurus saja» (ادخل مباشرة) أو «belok kiri» (انعطف يسارًا).",
+      "en": "When you ask for directions you will hear “di sana” (over there) and “di sini” (here), often with the thumb rather than a pointed finger, which can seem a bit rude. People often say “lurus saja” (straight ahead) or “belok kiri” (turn left).",
+      "id": "Saat menanyakan arah Anda akan mendengar “di sana” dan “di sini”, sering dengan ibu jari dan bukan telunjuk karena menunjuk dengan telunjuk dianggap kurang sopan. Orang sering berkata “lurus saja” atau “belok kiri”."
+    },
+    "grammar": {
+      "title": {
+        "ar": "ini وitu بعد الاسم، وdi/ke/dari قبل المكان",
+        "en": "Ini and itu after the noun; di/ke/dari before the place",
+        "id": "Ini dan itu setelah kata benda; di/ke/dari sebelum tempat"
+      },
+      "body": {
+        "ar": "اسم الإشارة يأتي بعد الاسم: buku ini (هذا الكتاب)، rumah itu (ذلك البيت). وأحرف المكان تُكتب منفصلة عن الاسم: di rumah (في البيت)، ke pasar (إلى السوق)، dari Kairo (من القاهرة). وانتبه: في الأفعال تُكتب di متصلة مثل dimakan (يُؤكل)، ولا نخلطها بحرف المكان.",
+        "en": "The demonstrative follows the noun: buku ini (this book), rumah itu (that house). Prepositions are written separately: di rumah (at home), ke pasar (to the market), dari Kairo (from Cairo). Note: with verbs di- is attached, as in dimakan (is eaten), so do not confuse it with the preposition.",
+        "id": "Penunjuk mengikuti kata benda: buku ini, rumah itu. Kata depan ditulis terpisah: di rumah, ke pasar, dari Kairo. Perhatikan: pada kata kerja di- ditulis serangkai, seperti dimakan, jadi jangan dicampur dengan kata depan."
+      }
+    },
+    "items": [
+      {
+        "id": "id17n1",
+        "target": "ini",
+        "translit": "i-ni",
+        "tr": {
+          "ar": "هذا / هذه",
+          "en": "this",
+          "id": "menunjuk benda yang dekat"
+        },
+        "example": {
+          "target": "Ini buku saya.",
+          "translit": "i-ni bu-ku sa-ya",
+          "tr": {
+            "ar": "هذا كتابي.",
+            "en": "This is my book.",
+            "id": "Benda yang dekat ini milik saya."
+          }
+        },
+        "hint": {
+          "ar": "تأتي في بداية الجملة (ini = هذا هو) أو بعد الاسم (buku ini).",
+          "en": "At the start of a sentence (ini = this is) or after the noun (buku ini).",
+          "id": "Di awal kalimat (ini = inilah) atau setelah kata benda (buku ini)."
+        }
+      },
+      {
+        "id": "id17n2",
+        "target": "itu",
+        "translit": "i-tu",
+        "tr": {
+          "ar": "ذلك / تلك",
+          "en": "that",
+          "id": "menunjuk benda yang jauh"
+        },
+        "example": {
+          "target": "Itu rumah nenek saya.",
+          "translit": "i-tu ru-mah nə-nək sa-ya",
+          "tr": {
+            "ar": "ذلك بيت جدتي.",
+            "en": "That is my grandmother’s house.",
+            "id": "Bangunan yang jauh itu rumah nenek saya."
+          }
+        },
+        "hint": {
+          "ar": "itu تُستعمل أيضًا للشيء المعروف المذكور سابقًا.",
+          "en": "Itu is also used for something already mentioned.",
+          "id": "Itu juga dipakai untuk hal yang sudah disebut sebelumnya."
+        }
+      },
+      {
+        "id": "id17n3",
+        "target": "di",
+        "translit": "di",
+        "tr": {
+          "ar": "في / عند",
+          "en": "at / in / on",
+          "id": "kata depan untuk tempat berada"
+        },
+        "example": {
+          "target": "Saya tinggal di Jakarta.",
+          "translit": "sa-ya ting-gal di ja-kar-ta",
+          "tr": {
+            "ar": "أنا أسكن في جاكرتا.",
+            "en": "I live in Jakarta.",
+            "id": "Rumah saya berada di kota Jakarta."
+          }
+        },
+        "hint": {
+          "ar": "di منفصلة عن الاسم: di rumah وليس dirumah.",
+          "en": "Write di separately from the noun: di rumah, not dirumah.",
+          "id": "Tulis di terpisah dari kata benda: di rumah, bukan dirumah."
+        }
+      },
+      {
+        "id": "id17n4",
+        "target": "ke",
+        "translit": "kə",
+        "tr": {
+          "ar": "إلى",
+          "en": "to / towards",
+          "id": "kata depan untuk arah tujuan"
+        },
+        "example": {
+          "target": "Besok saya pergi ke Bali.",
+          "translit": "bə-sok sa-ya pər-gi kə ba-li",
+          "tr": {
+            "ar": "غدًا أذهب إلى بالي.",
+            "en": "Tomorrow I am going to Bali.",
+            "id": "Esok saya bepergian menuju Bali."
+          }
+        },
+        "hint": {
+          "ar": "تأتي بعد أفعال الحركة مثل pergi (يذهب) وdatang (يأتي).",
+          "en": "Used after motion verbs like pergi (go) and datang (come).",
+          "id": "Dipakai setelah kata kerja gerak seperti pergi dan datang."
+        }
+      },
+      {
+        "id": "id17n5",
+        "target": "dari",
+        "translit": "da-ri",
+        "tr": {
+          "ar": "من",
+          "en": "from",
+          "id": "kata depan untuk asal"
+        },
+        "example": {
+          "target": "Saya dari Kairo.",
+          "translit": "sa-ya da-ri kai-ro",
+          "tr": {
+            "ar": "أنا من القاهرة.",
+            "en": "I am from Cairo.",
+            "id": "Kota asal saya ialah Kairo."
+          }
+        },
+        "hint": {
+          "ar": "السؤال: «Anda dari mana؟» = من أين أنت؟ (وهو شائع جدًا).",
+          "en": "The question “Anda dari mana?” = where are you from? (very common).",
+          "id": "Pertanyaan “Anda dari mana?” sangat umum untuk menanyakan asal."
+        }
+      },
+      {
+        "id": "id17n6",
+        "target": "Di mana ...?",
+        "translit": "di ma-na",
+        "tr": {
+          "ar": "أين ...؟",
+          "en": "Where is ...?",
+          "id": "pertanyaan tentang tempat"
+        },
+        "example": {
+          "target": "Di mana stasiun kereta?",
+          "translit": "di ma-na sta-si-un kə-re-ta",
+          "tr": {
+            "ar": "أين محطة القطار؟",
+            "en": "Where is the train station?",
+            "id": "Letak stasiun kereta ada di mana?"
+          }
+        },
+        "hint": {
+          "ar": "للتفريق: di mana = أين (مكان)، ke mana = إلى أين (اتجاه)، dari mana = من أين.",
+          "en": "Di mana = where (place), ke mana = where to, dari mana = where from.",
+          "id": "Di mana = tempat, ke mana = tujuan, dari mana = asal."
+        }
+      }
+    ],
+    "cloze": [
+      {
+        "sentence": "Saya tinggal ___ Jakarta.",
+        "answer": "di",
+        "wrong": [
+          "ke",
+          "dari"
+        ],
+        "tr": {
+          "ar": "أنا أسكن في جاكرتا.",
+          "en": "I live in Jakarta.",
+          "id": "Saya bermukim di Jakarta."
+        },
+        "why": {
+          "ar": "السكن مكان ثابت فنستعمل di؛ ke للاتجاه وdari للأصل ولا يناسبان فعل tinggal.",
+          "en": "Living is a fixed place, so we use di; ke is for direction and dari for origin and do not suit tinggal.",
+          "id": "Tinggal menunjukkan tempat tetap sehingga dipakai di; ke untuk arah dan dari untuk asal tidak cocok."
+        }
+      },
+      {
+        "sentence": "Besok saya pergi ___ Bali.",
+        "answer": "ke",
+        "wrong": [
+          "di",
+          "ini"
+        ],
+        "tr": {
+          "ar": "غدًا أذهب إلى بالي.",
+          "en": "Tomorrow I am going to Bali.",
+          "id": "Besok saya akan berangkat ke Bali."
+        },
+        "why": {
+          "ar": "الفعل pergi يحتاج إلى ke للاتجاه؛ di لا يأتي بعده وini ليست حرف جر.",
+          "en": "The verb pergi takes ke for direction; di does not follow it and ini is not a preposition.",
+          "id": "Kata kerja pergi memakai ke untuk tujuan; di tidak dipakai setelahnya dan ini bukan kata depan."
+        }
+      }
+    ],
+    "conversation": {
+      "context": {
+        "ar": "في الشارع: تسأل مارًّا عن مكان البنك.",
+        "en": "On the street: you ask a passer-by where the bank is.",
+        "id": "Di jalan: Anda menanyakan letak bank kepada pejalan kaki."
+      },
+      "turns": [
+        {
+          "who": "A",
+          "target": "Maaf, Pak, bank ada di mana?",
+          "tr": {
+            "ar": "عفوًا يا سيدي، أين يوجد البنك؟",
+            "en": "Excuse me, sir, where is the bank?",
+            "id": "Maaf, Pak, di mana letak bank?"
+          }
+        },
+        {
+          "who": "B",
+          "target": "Bank itu di sana, dekat toko.",
+          "tr": {
+            "ar": "ذلك البنك هناك، قرب المتجر.",
+            "en": "The bank is over there, near the shop.",
+            "id": "Bank itu ada di sebelah sana, tidak jauh dari toko."
+          }
+        },
+        {
+          "who": "A",
+          "target": "Terima kasih, Pak.",
+          "tr": {
+            "ar": "شكرًا يا سيدي.",
+            "en": "Thank you, sir.",
+            "id": "Terima kasih, Pak."
+          }
+        }
+      ],
+      "gap": 1,
+      "wrong": [
+        "Saya dari Kairo, Pak.",
+        "Ini buku saya."
+      ],
+      "why": {
+        "ar": "السؤال عن المكان يُجاب بمكان. الخياران الآخران جملتان صحيحتان لكنهما لا تذكران موقع البنك.",
+        "en": "A “where” question is answered with a location. The other two are correct sentences but do not say where the bank is.",
+        "id": "Pertanyaan “di mana” dijawab dengan lokasi. Dua pilihan lain benar tetapi tidak menyebut letak bank."
+      }
+    },
+    "summary": {
+      "ar": "تعلمت ini وitu للإشارة، وdi وke وdari للمكان والاتجاه والأصل، وكيف تسأل «Di mana؟». تذكّر كتابة di منفصلة عن الاسم.",
+      "en": "You learned ini and itu for pointing, di, ke and dari for place, direction and origin, and how to ask “Di mana?”. Remember to write di separately from the noun.",
+      "id": "Anda mempelajari ini dan itu untuk menunjuk, di, ke, dan dari untuk tempat, tujuan, dan asal, serta cara bertanya “Di mana?”. Ingat menulis di terpisah dari kata benda."
+    }
+  }
+]
