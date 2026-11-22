@@ -1,4 +1,4 @@
-import { useCallback, useEffect, useMemo, useState } from 'react';
+import { useCallback, useEffect, useMemo, useRef, useState } from 'react';
 import { Link, useParams } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 import { ArrowLeft } from 'lucide-react';
@@ -9,6 +9,7 @@ import ExerciseRunner from '../features/quizzes/ExerciseRunner.jsx';
 import { buildExercises } from '../features/quizzes/generate.js';
 import { useProgress } from '../app/ProgressContext.jsx';
 import { applyLessonResult } from '../features/progress/engine.js';
+import { useDerived } from '../features/progress/selectors.js';
 
 const STEPS = ['overview', 'learn', 'practice', 'result'];
 
@@ -24,6 +25,9 @@ export default function LessonPage() {
   const [result, setResult] = useState(null);
   const [attempt, setAttempt] = useState(0);
   const meta = lessonMeta(id);
+  const derived = useDerived();
+  const unlockedRef = useRef(derived.unlocked);
+  if (stage !== 'result') unlockedRef.current = derived.unlocked; // achievements before this lesson's result is applied
 
   useEffect(() => {
     let alive = true;
@@ -81,7 +85,7 @@ export default function LessonPage() {
       {stage === 'overview' && <Overview lesson={lesson} ui={ui} onStart={() => { setStage('learn'); window.scrollTo(0, 0); }} />}
       {stage === 'learn' && <LearnCards lesson={lesson} ui={ui} onDone={startPractice} />}
       {stage === 'practice' && <ExerciseRunner key={exercises[0]?.id} lesson={lesson} exercises={exercises} ui={ui} onFinish={finish} />}
-      {stage === 'result' && result && <Result lesson={lesson} ui={ui} result={result} nextLesson={nextLesson} itemsById={itemsById} onRepeat={() => { setStage('learn'); setResult(null); window.scrollTo(0, 0); }} />}
+      {stage === 'result' && result && <Result lesson={lesson} ui={ui} result={result} nextLesson={nextLesson} itemsById={itemsById} unlockedBefore={unlockedRef.current} onRepeat={() => { setStage('learn'); setResult(null); window.scrollTo(0, 0); }} />}
     </div>
   );
 }

@@ -1,12 +1,13 @@
 import { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
-import { ArrowRight, ArrowLeft, Bookmark, BookmarkCheck, Target, Lightbulb, Globe2, BookOpenText, Trophy, RotateCcw } from 'lucide-react';
+import { ArrowRight, ArrowLeft, Bookmark, BookmarkCheck, Target, Lightbulb, Globe2, BookOpenText, Trophy, RotateCcw, Flame, Brain, Award } from 'lucide-react';
 import { Button, Bidi, TargetText, ProgressBar, Ring, Flip, Chip } from '../../components/ui.jsx';
 import SpeakButton from '../../components/SpeakButton.jsx';
 import SpeakingPractice from '../speaking/SpeakingPractice.jsx';
 import { useProgress } from '../../app/ProgressContext.jsx';
-import { toggleSaved } from '../progress/engine.js';
+import { toggleSaved, ACHIEVEMENTS } from '../progress/engine.js';
+import { useDerived } from '../progress/selectors.js';
 
 export function Overview({ lesson, ui, onStart }) {
   const { t } = useTranslation();
@@ -94,8 +95,13 @@ export function LearnCards({ lesson, ui, onDone }) {
   );
 }
 
-export function Result({ lesson, ui, result, nextLesson, onRepeat, itemsById }) {
+export function Result({ lesson, ui, result, nextLesson, onRepeat, itemsById, unlockedBefore = [] }) {
   const { t } = useTranslation();
+  const { state } = useProgress();
+  const d = useDerived();
+  const goal = state.settings.goal;
+  const goalPct = Math.min(100, Math.round((d.todayXp / goal) * 100));
+  const newlyUnlocked = ACHIEVEMENTS.filter((a) => d.unlocked.includes(a.id) && !unlockedBefore.includes(a.id));
   const missed = result.missedItemIds.map((id) => itemsById[id]).filter(Boolean);
   const pct = Math.round((result.firstTryCorrect / result.total) * 100);
   const advice = pct >= 85 ? 'reviewAdviceGood' : pct >= 60 ? 'reviewAdviceMid' : 'reviewAdviceLow';
@@ -115,6 +121,22 @@ export function Result({ lesson, ui, result, nextLesson, onRepeat, itemsById }) 
         {!result.firstTime && <p className="notice-soft">{t('lesson.xpAlready')}</p>}
         {result.firstTime && result.perfect && <p className="notice-soft">{t('lesson.xpPerfect')}</p>}
       </section>
+      <section className="card today-card" aria-label={t('home.todayGoal')} data-testid="today-card">
+        <div className="today-row">
+          <span className="stat-badge warm" aria-hidden="true"><Flame size={26} /></span>
+          <p className="today-streak"><b>{t('lesson.streakLine', { days: t('common.days', { count: d.streak }) })}</b></p>
+        </div>
+        <ProgressBar value={d.todayXp} max={goal} label={t('lesson.todayGoal', { xp: d.todayXp, goal })} />
+        <p className={goalPct >= 100 ? 'ok-text' : 'muted'} data-testid="goal-line">
+          {t('lesson.todayGoal', { xp: d.todayXp, goal })} · {goalPct >= 100 ? t('lesson.goalDone') : t('lesson.goalLeft', { left: goal - d.todayXp })}
+        </p>
+      </section>
+      {newlyUnlocked.length > 0 && (
+        <section className="card ach-new" role="status" data-testid="new-achievements">
+          <h2 className="h-sm"><Award size={20} aria-hidden="true" /> {t('lesson.newAch')}</h2>
+          <ul>{newlyUnlocked.map((a) => <li key={a.id}><strong>{t(`achievements.${a.id}.name`)}</strong><span className="muted"> · {t(`achievements.${a.id}.desc`)}</span></li>)}</ul>
+        </section>
+      )}
       <section className="card">
         <h2 className="h-sm">{t('lesson.summary')}</h2>
         <p>{lesson.summary[ui]}</p>
@@ -142,6 +164,7 @@ export function Result({ lesson, ui, result, nextLesson, onRepeat, itemsById }) 
         ) : (
           <Chip tone="success">{t('lesson.pathComplete')}</Chip>
         )}
+        {d.dueCount > 0 && <Button variant="secondary" to="/review" icon={<Brain size={18} aria-hidden="true" />} data-testid="review-now">{t('lesson.reviewNow', { count: d.dueCount })}</Button>}
         <Button variant="secondary" onClick={onRepeat} icon={<RotateCcw size={18} aria-hidden="true" />}>{t('lesson.repeatLesson')}</Button>
         <Link className="link-strong" to={`/learn?track=${lesson.track}`}>{t('lesson.allLessons')}</Link>
       </div>

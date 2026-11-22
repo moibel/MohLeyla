@@ -1,6 +1,7 @@
 # Changelog
 
 ## Unreleased
+- **Lesson result screen**: after a lesson you now see your streak, progress toward today's XP goal (with how much is left, or that it is reached), any achievements the lesson unlocked (not repeated on a replay), and a button to review due words. Success green darkened for better contrast. Translated in ar, en, id.
 - **Creator signature and About page**: "Made with care by Mohamed Ebrahim" in the footer, the sidebar and the sign-in screen, linking to a new About page (`/about`) with the creator's name in English and Arabic, the story, what the app offers and the project link. Translated in ar, en and id.
 - **Admin and teacher insights**: the admin page shows totals (accounts, students, teachers, admins, active this week) and a role filter; each class roster shows how many students were active in the last 7 days and the average XP.
 - **Polish**: page entrance motion, themed text selection and scrollbars, tabular numerals, hover/press states on cards, an icon instead of an emoji in the greeting, and sidebar/logo links whose accessible name contains their visible text.
