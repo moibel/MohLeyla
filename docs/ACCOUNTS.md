@@ -20,7 +20,7 @@ before enrolling students, and tell them what is stored (the text above).
    - Site URL: `https://mohleyla.netlify.app`
    - Redirect URLs: `https://mohleyla.netlify.app/**`, `https://*--mohleyla.netlify.app/**` (Netlify deploy previews),
      `http://localhost:5173/**`
-3. **Make the email show a code.** *Authentication -> Email Templates -> Magic Link*: add the 6-digit code so people can sign
+3. **(Optional) Make the email show a code.** *Requires custom SMTP first: Supabase does not allow editing templates on its built-in sender.* Without it, sign-in works by clicking the link in the email (the app shows a link-first screen with an optional "I have a code" box). With it: *Authentication -> Email Templates -> Magic Link*: add the 6-digit code so people can sign
    in on a phone without leaving the app, for example:
    ```html
    <h2>Your MohLeyla sign-in code</h2>

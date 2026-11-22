@@ -2,6 +2,13 @@
 export const MOCK_URL = 'https://mohleyla-test.supabase.co';
 const b64 = (o) => Buffer.from(JSON.stringify(o)).toString('base64url');
 
+export function makeSession(email, id) {
+  const now = Math.floor(Date.now() / 1000);
+  const access_token = `${b64({ alg: 'HS256', typ: 'JWT' })}.${b64({ sub: id, email, role: 'authenticated', aud: 'authenticated', exp: now + 3600, iat: now })}.sig`;
+  const user = { id, aud: 'authenticated', role: 'authenticated', email, email_confirmed_at: new Date().toISOString(), app_metadata: {}, user_metadata: {}, created_at: new Date().toISOString() };
+  return { access_token, token_type: 'bearer', expires_in: 3600, expires_at: now + 3600, refresh_token: 'refresh-' + id, user };
+}
+
 export function createMockBackend({ code = '123456', users = {} } = {}) {
   const rows = new Map();
   const stats = { upserts: 0, selects: 0, deletes: 0, otps: 0 };
@@ -27,6 +34,10 @@ export function createMockBackend({ code = '123456', users = {} } = {}) {
       const token = `${b64({ alg: 'HS256', typ: 'JWT' })}.${b64({ sub: id, email, role: 'authenticated', aud: 'authenticated', exp: now + 3600, iat: now })}.sig`;
       return json(200, { access_token: token, token_type: 'bearer', expires_in: 3600, expires_at: now + 3600, refresh_token: 'refresh-' + id,
         user: { id, aud: 'authenticated', role: 'authenticated', email, email_confirmed_at: new Date().toISOString(), app_metadata: {}, user_metadata: {}, created_at: new Date().toISOString() } });
+    }
+    if (url.pathname === '/auth/v1/user') {
+      const tok = (req.headers()['authorization'] || '').replace('Bearer ', '');
+      try { const p = JSON.parse(Buffer.from(tok.split('.')[1], 'base64url').toString()); return json(200, makeSession(p.email, p.sub).user); } catch { return json(401, { message: 'bad token' }); }
     }
     if (url.pathname === '/auth/v1/logout') return route.fulfill({ status: 204, headers: cors });
     if (url.pathname === '/rest/v1/progress') {

@@ -51,17 +51,24 @@ export default function AccountSection() {
         </>
       )}
       {!signedIn && s.codeSentTo && (
-        <form className="stack-sm" onSubmit={(e) => { e.preventDefault(); run(() => sync.verifyCode(s.codeSentTo, code)); }}>
-          <p role="status">{t('account.codeSent', { email: s.codeSentTo })}</p>
-          <label className="field">
-            <span>{t('account.code')}</span>
-            <input inputMode="numeric" autoComplete="one-time-code" pattern="[0-9 ]*" maxLength={12} required value={code} onChange={(e) => setCode(e.target.value)} dir="ltr" data-testid="acc-code" />
-          </label>
+        <div className="stack-sm" data-testid="acc-sent">
+          <p role="status">{t('account.linkSent', { email: s.codeSentTo })}</p>
+          <p className="note-small">{t('account.linkHelp')}</p>
+          <details className="code-details">
+            <summary data-testid="acc-use-code">{t('account.haveCode')}</summary>
+            <form className="stack-sm" onSubmit={(e) => { e.preventDefault(); run(() => sync.verifyCode(s.codeSentTo, code)); }}>
+              <label className="field">
+                <span>{t('account.code')}</span>
+                <input inputMode="numeric" autoComplete="one-time-code" pattern="[0-9 ]*" maxLength={12} required value={code} onChange={(e) => setCode(e.target.value)} dir="ltr" data-testid="acc-code" />
+              </label>
+              <Button type="submit" icon={<KeyRound size={18} aria-hidden="true" />} disabled={busy || code.replace(/\s/g, '').length < 6} data-testid="acc-verify">{t('account.verify')}</Button>
+            </form>
+          </details>
           <div className="btn-row">
-            <Button type="submit" icon={<KeyRound size={18} aria-hidden="true" />} disabled={busy || code.replace(/\s/g, '').length < 6} data-testid="acc-verify">{t('account.verify')}</Button>
+            <Button variant="secondary" icon={<Mail size={18} aria-hidden="true" />} disabled={busy} onClick={() => run(() => sync.sendCode(s.codeSentTo))} data-testid="acc-resend">{t('account.resend')}</Button>
             <Button variant="ghost" onClick={() => { sync.set({ codeSentTo: null, error: null }); setCode(''); }}>{t('account.changeEmail')}</Button>
           </div>
-        </form>
+        </div>
       )}
       {signedIn && (
         <>

@@ -1,7 +1,7 @@
 import { test, expect } from '@playwright/test';
 import AxeBuilder from '@axe-core/playwright';
 import { seed, getLesson, playThrough } from './helpers.js';
-import { createMockBackend } from './mockSupabase.js';
+import { createMockBackend, makeSession } from './mockSupabase.js';
 
 test.use({ serviceWorkers: 'block' });
 const state = () => JSON.parse(localStorage.getItem('mohleyla-v6'));
@@ -10,7 +10,8 @@ async function signIn(page, email = 'amina@example.com', code = '123456') {
   await page.goto('/settings');
   await page.locator('[data-testid="acc-email"]').fill(email);
   await page.locator('[data-testid="acc-send"]').click();
-  await expect(page.locator('[data-testid="acc-code"]')).toBeVisible();
+  await expect(page.locator('[data-testid="acc-sent"]')).toContainText(email);
+  await page.locator('[data-testid="acc-use-code"]').click();
   await page.locator('[data-testid="acc-code"]').fill(code);
   await page.locator('[data-testid="acc-verify"]').click();
 }
@@ -32,6 +33,28 @@ test.describe('accounts & sync (mocked Supabase API)', () => {
     expect((await page.evaluate(state)).xp).toBe(150);
   });
 
+  test('link-only sign-in: after sending, the screen says to open the link; following the emailed link signs in and syncs', async ({ page }) => {
+    const backend = createMockBackend();
+    await backend.install(page);
+    await seed(page, { lang: 'en', state: { xp: 70, xpLedger: { d: 70 }, completed: { 'ar-01': { best: 100, attempts: 1 } } } });
+    await page.goto('/settings');
+    await page.locator('[data-testid="acc-email"]').fill('amina@example.com');
+    await page.locator('[data-testid="acc-send"]').click();
+    await expect(page.locator('[data-testid="acc-sent"]')).toContainText('Open the link in it on this device');
+    await expect(page.locator('[data-testid="acc-code"]')).toBeHidden(); // code box stays collapsed unless asked for
+    await page.locator('[data-testid="acc-resend"]').click();
+    expect(backend.stats.otps).toBe(2);
+    // the user opens the link from the email: Supabase redirects to /settings with the session in the URL hash
+    const s = makeSession('amina@example.com', 'user-amina');
+    await page.goto('about:blank'); // an emailed link opens as a fresh page load, not a same-page hash change
+    await page.goto(`/settings#access_token=${s.access_token}&refresh_token=${s.refresh_token}&expires_in=3600&expires_at=${s.expires_at}&token_type=bearer&type=magiclink`);
+    await expect(page.locator('[data-testid="sync-status"]')).toContainText('Up to date');
+    expect(backend.rows.has('user-amina')).toBe(true);
+    expect([...backend.rows.values()][0].xp).toBe(70);
+    await page.reload();
+    await expect(page.locator('[data-testid="sync-status"]')).toBeVisible(); // session persisted
+  });
+
   test('wrong code, bad email and rate limits show translated errors', async ({ page }) => {
     const backend = createMockBackend();
     await backend.install(page);
@@ -43,6 +66,7 @@ test.describe('accounts & sync (mocked Supabase API)', () => {
     await expect(page.locator('[data-testid="acc-error"]')).toContainText('Terlalu banyak email');
     backend.state.rateLimit = false;
     await page.locator('[data-testid="acc-send"]').click();
+    await page.locator('[data-testid="acc-use-code"]').click();
     await page.locator('[data-testid="acc-code"]').fill('999999');
     await page.locator('[data-testid="acc-verify"]').click();
     await expect(page.locator('[data-testid="acc-error"]')).toContainText('Kode salah');
