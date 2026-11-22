@@ -4,6 +4,9 @@
 
 [build.environment]
   NODE_VERSION = "20"
+  # These two values are PUBLIC by design (they are shipped to the browser; data is protected by Supabase row-level security).
+  # Tell Netlify's secrets scanner not to fail the build because they appear in the bundle.
+  SECRETS_SCAN_OMIT_KEYS = "VITE_SUPABASE_URL,VITE_SUPABASE_ANON_KEY"
 
 # Single-page app: every unknown path serves index.html (real files such as /audio/*.mp3 win first).
 [[redirects]]

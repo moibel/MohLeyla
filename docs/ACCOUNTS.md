@@ -31,6 +31,7 @@ before enrolling students, and tell them what is stored (the text above).
 4. **Give the app the two public values.** *Project Settings -> API*: copy the **Project URL** and the **anon / publishable key**.
    - Local: copy `.env.example` to `.env.local` and fill both.
    - Netlify: *Site configuration -> Environment variables* -> add `VITE_SUPABASE_URL` and `VITE_SUPABASE_ANON_KEY`, then redeploy.
+   Leave "Contains secret values" unchecked: both are public by design. `netlify.toml` sets `SECRETS_SCAN_OMIT_KEYS` so Netlify's secrets scanner does not fail the build because they appear in the bundle.
    Never use or share the `service_role` key.
 5. Open the app -> *Settings -> Account & sync*.
 
