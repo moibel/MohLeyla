@@ -3,7 +3,7 @@ import { useTranslation } from 'react-i18next';
 import { ArrowRight, ArrowLeft, Flame, Target, Brain, Sparkles } from 'lucide-react';
 import { Button, Ring, ProgressBar, Logo } from '../components/ui.jsx';
 import LessonCard from '../components/LessonCard.jsx';
-import { TRACK_META } from '../data/content.js';
+import { TRACK_META, trackHtmlLang, isBeta } from '../data/content.js';
 import { visibleLessonsOfTrack, useAvailability } from '../data/availability.js';
 import { orderedTracks, defaultTrack } from '../data/trackOrder.js';
 import { useProgress } from '../app/ProgressContext.jsx';
@@ -89,8 +89,8 @@ export default function Home() {
             const done = list.filter((l) => state.completed[l.id]).length;
             return (
               <Link key={k} to={`/learn?track=${k}`} className="track-card" style={{ '--tile': TRACK_META[k].color }} onClick={() => undefined}>
-                <span className="track-glyph" aria-hidden="true" lang={k === 'ar' || k === 'sa' ? 'ar' : 'en'}>{TRACK_META[k].glyph}</span>
-                <h3>{t(`tracks.${k}.name`)}</h3>
+                <span className="track-glyph" aria-hidden="true" lang={trackHtmlLang(k)}>{TRACK_META[k].glyph}</span>
+                <h3>{t(`tracks.${k}.name`)}{isBeta(k) && <span className="beta-chip" data-testid={`beta-${k}`}>{t('tracks.betaChip')}</span>}</h3>
                 <p>{t(`tracks.${k}.desc`)}</p>
                 <ProgressBar value={done} max={list.length || 1} label={t(`tracks.${k}.name`)} />
                 <span className="track-foot">{t('home.trackProgress', { done, total: list.length })}<span className="go"><Arrow size={18} aria-hidden="true" /></span></span>

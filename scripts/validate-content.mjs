@@ -1,10 +1,10 @@
 // Usage: node scripts/validate-content.mjs [file-or-dir ...] [--strict]
 // With no path: validates every JSON file under src/data/content.
-// --strict additionally requires 30 lessons per track with unique orders 1..30.
+// --strict additionally requires the expected number of lessons per track (30 for the original four, 10 for the beta tracks) with unique orders.
 import fs from 'node:fs';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
-import { validateLessons } from '../src/data/validateContent.js';
+import { validateLessons, TRACKS, TRACK_SIZES } from '../src/data/validateContent.js';
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const args = process.argv.slice(2).filter((a) => !a.startsWith('--'));
@@ -31,9 +31,9 @@ for (const f of files) {
 
 const errors = validateLessons(lessons);
 if (strict) {
-  for (const t of ['ar', 'sa', 'en', 'id']) {
+  for (const t of TRACKS) {
     const ls = lessons.filter((l) => l.track === t);
-    if (ls.length !== 30) errors.push(`track ${t}: ${ls.length} lessons, expected 30`);
+    if (ls.length !== TRACK_SIZES[t]) errors.push(`track ${t}: ${ls.length} lessons, expected ${TRACK_SIZES[t]}`);
     const orders = new Set(ls.map((l) => l.order));
     if (orders.size !== ls.length) errors.push(`track ${t}: duplicate order values`);
   }

@@ -57,7 +57,7 @@ test.describe('switching lessons and paths on or off (mocked Supabase API; real 
     await learner.page.goto('/learn');
     await expect(learner.page.locator('[data-testid="track-id"]')).toHaveCount(0);
     await learner.page.goto('/');
-    await expect(learner.page.locator('.track-grid .track-card')).toHaveCount(3);
+    await expect(learner.page.locator('.track-grid .track-card')).toHaveCount(7);
 
     // show everything again
     await panel.locator('[data-testid="track-switch-id"]').click();
@@ -67,7 +67,7 @@ test.describe('switching lessons and paths on or off (mocked Supabase API; real 
     await learner.page.goto('/learn?track=en');
     await expect(learner.page.locator(`[data-testid="lesson-${lessonId}"]`)).toBeVisible();
     await learner.page.goto('/');
-    await expect(learner.page.locator('.track-grid .track-card')).toHaveCount(4);
+    await expect(learner.page.locator('.track-grid .track-card')).toHaveCount(8);
     await learner.ctx.close();
   });
 

@@ -25,6 +25,10 @@ const cases = [
   ['sa', 'sa-01', 'Saudi Arabic (Standard Arabic voice)'],
   ['en', 'en-01', 'English'],
   ['id', 'id-01', 'Indonesian'],
+  ['eg', 'eg-01', 'Egyptian Arabic (Standard Arabic voice)'],
+  ['fr', 'fr-01', 'French'],
+  ['es', 'es-01', 'Spanish'],
+  ['zh', 'zh-01', 'Chinese'],
 ];
 
 for (const [track, lessonId, label] of cases) {
@@ -37,8 +41,8 @@ for (const [track, lessonId, label] of cases) {
     await page.getByRole('button', { name: 'Listen to the word' }).click();
     await expect.poll(() => page.evaluate(() => window.__media.some((m) => m.ended)), { timeout: 15000 }).toBe(true);
     const rec = await page.evaluate(() => window.__media[0]);
-    expect(rec.src).toMatch(/\/audio\/(ar|en|id)\/[0-9a-z]+\.mp3$/);
-    expect(rec.src).toContain(track === 'sa' ? '/audio/ar/' : `/audio/${track}/`);
+    expect(rec.src).toMatch(/\/audio\/(ar|en|id|fr|es|zh)\/[0-9a-z]+\.mp3$/);
+    expect(rec.src).toContain(track === 'sa' || track === 'eg' ? '/audio/ar/' : `/audio/${track}/`);
     expect(rec.error).toBeNull();
     expect(rec.playing).toBe(true);
     expect(rec.duration).toBeGreaterThan(0.3);

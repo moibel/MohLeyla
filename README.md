@@ -1,6 +1,6 @@
 # MohLeyla v6
 
-Multilingual language-learning app: **Modern Standard Arabic**, **Saudi Arabic**, **English** and **Indonesian**, with the interface in **Arabic, English or Indonesian**.
+Multilingual language-learning app: **Modern Standard Arabic**, **Saudi Arabic**, **English** and **Indonesian** (30 lessons each) plus four **beta** paths, **Egyptian Arabic**, **French**, **Spanish** and **Chinese** (10 lessons each, see [docs/NEW_LANGUAGES.md](docs/NEW_LANGUAGES.md)), with the interface in **Arabic, English or Indonesian**.
 
 - Live site: https://mohleyla.pages.dev
 - Repository: https://github.com/moibel/MohLeyla
@@ -11,10 +11,10 @@ Multilingual language-learning app: **Modern Standard Arabic**, **Saudi Arabic**
 
 | Area | Status |
 | --- | --- |
-| Courses | **120 lessons** (30 per track), 726 vocabulary items, each lesson with objectives, intro, real-world context, grammar note, 6 words + examples, 2 cloze items and 1 conversation |
+| Courses | **160 lessons** (30 per original track, 10 per beta track), 1,029 vocabulary items, each lesson with objectives, intro, real-world context, grammar note, 6 words + examples, 2 cloze items and 1 conversation |
 | Exercises | multiple choice, match, fill in the blank, arrange words, listening, translation, conversation completion, spaced-repetition vocabulary review |
 | Interface languages | Arabic (RTL), English, Indonesian – every string is translated; no fallback to another language |
-| Audio | 1,900+ pre-generated mp3 clips (content-addressed, cached) + Web Speech API fallback with explicit voice selection |
+| Audio | 2,900+ pre-generated mp3 clips (content-addressed, cached) + Web Speech API fallback with explicit voice selection |
 | Progress | XP, streak, daily goal, accuracy, words learned/mastered, achievements, Leitner spaced repetition, backup/restore |
 | Existing users | v1–v5 progress (`mohleyla-v1`) is migrated automatically, never deleted, and never re-awards XP |
 | PWA | manifest, icons, maskable icons, service worker, update prompt, install button |
@@ -88,7 +88,7 @@ So an Arabic-interface user learning Indonesian sees Indonesian phrases explaine
 
 Details are in [docs/AUDIO.md](docs/AUDIO.md). In short:
 
-1. **Primary: bundled recordings.** Every word, example sentence, cloze sentence and dialogue line has an mp3 in `public/audio/<lang>/<hash>.mp3` (name = hash of language + text). They are generated once with the macOS system voices **Majed** (Arabic), **Samantha** (US English) and **Damayanti** (Indonesian) and cached by the browser/service worker. No API keys, no server, no recurring cost.
+1. **Primary: bundled recordings.** Every word, example sentence, cloze sentence and dialogue line has an mp3 in `public/audio/<lang>/<hash>.mp3` (name = hash of language + text). They are generated once with the macOS system voices **Majed** (Arabic, also for Saudi and Egyptian), **Samantha** (US English), **Damayanti** (Indonesian), **Thomas** (French), **Mónica** (Spanish) and **Tingting** (Chinese) and cached by the browser/service worker. No API keys, no server, no recurring cost.
 2. **Fallback: device voices** (Web Speech API). The engine waits for `voiceschanged`, prefers the exact locale (`ar-SA` → other `ar-*`, `en-US` → `en-GB`, `id-ID`) and never picks a voice of another language.
 3. Failures are always shown to the user, in the interface language, via an `alert` toast. Repeated clicks stop the current clip instead of overlapping.
 
@@ -102,7 +102,7 @@ Sign-in and cross-device sync use Supabase (and `VITE_REQUIRE_SIGN_IN=true` make
 
 ## Offline use (honest limits)
 
-The service worker precaches the app shell, fonts, icons and **all lesson text** (about 2.4 MB). Audio is **not** precached (about 25 MB); a clip is saved after it has been played once, so previously played audio replays offline. Unplayed audio offline falls back to your device voice if it has one. Progress is stored in `localStorage` and works offline.
+The service worker precaches the app shell, fonts, icons and **all lesson text** (about 4 MB). Audio is **not** precached (about 25 MB); a clip is saved after it has been played once, so previously played audio replays offline. Unplayed audio offline falls back to your device voice if it has one. Progress is stored in `localStorage` and works offline.
 
 ## Deployment
 
@@ -128,7 +128,7 @@ npm run test:e2e             # builds, serves dist/, runs browser tests
 
 ## Known limitations
 
-- Native-speaker review of the Arabic (especially Saudi) and Indonesian lesson text has **not** been done; it was authored and checked structurally and by scripts. Please have native speakers skim before public promotion.
+- Native-speaker review of the Arabic (especially Saudi and Egyptian), Indonesian, French, Spanish and Chinese lesson text has **not** been done (the four newest paths are labelled Beta; review sheets are in `docs/native-review/`); it was authored and checked structurally and by scripts. Please have native speakers skim before public promotion.
 - Audio has been tested for real playback only in headless Chromium (desktop). iOS Safari, Android Chrome and desktop Safari/Firefox are untested by the author.
 - Saudi audio is Standard Arabic pronunciation (see above).
 - `npm audit` reports advisories in dev-only tooling (Vitest/Vite dev server); they do not affect the deployed static site.

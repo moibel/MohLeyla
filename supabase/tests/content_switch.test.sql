@@ -1,4 +1,4 @@
--- Permission tests for 005_content_switch.sql. Run via `sh supabase/tests/run-dry.sh switch` (Supabase editor) or `run-local.sh switch`.
+-- Permission tests for 005_content_switch.sql + 009_content_switch_languages.sql. Run via `sh supabase/tests/run-dry.sh switch` (Supabase editor) or `run-local.sh switch`.
 -- Ends with a deliberate exception so everything is rolled back; the error text is the report.
 
 create schema zz_test;
@@ -70,7 +70,7 @@ begin
 
   res := zz_test.try($q$select public.admin_set_content_enabled('course', 'ar', false)$q$);
   perform zz_test.chk('an unknown kind is rejected', res = 'err:22023', res);
-  res := zz_test.try($q$select public.admin_set_content_enabled('track', 'fr', false)$q$);
+  res := zz_test.try($q$select public.admin_set_content_enabled('track', 'de', false)$q$);
   perform zz_test.chk('an unknown path is rejected', res = 'err:22023', res);
   res := zz_test.try($q$select public.admin_set_content_enabled('lesson', 'ar-1', false)$q$);
   perform zz_test.chk('a malformed lesson id is rejected', res = 'err:22023', res);
@@ -82,6 +82,19 @@ begin
   perform zz_test.chk('a missing on/off value is rejected', res = 'err:22023', res);
   res := zz_test.try($q$insert into public.content_switches (kind, key) values ('lesson', 'zz')$q$);
   perform zz_test.chk('even the admin cannot bypass validation by inserting directly', res like 'err:%', res);
+
+  perform public.admin_set_content_enabled('track', 'zh', false);
+  perform public.admin_set_content_enabled('lesson', 'fr-05', false);
+  perform public.admin_set_content_enabled('lesson', 'eg-10', false);
+  perform public.admin_set_content_enabled('track', 'es', false);
+  perform zz_test.chk('the beta paths and their lessons can be hidden too', (select count(*) from public.content_disabled() where key in ('zh', 'fr-05', 'eg-10', 'es')) = 4);
+  perform public.admin_set_content_enabled('track', 'zh', true);
+  perform public.admin_set_content_enabled('lesson', 'fr-05', true);
+  perform public.admin_set_content_enabled('lesson', 'eg-10', true);
+  perform public.admin_set_content_enabled('track', 'es', true);
+  perform zz_test.chk('and shown again', (select count(*) from public.content_disabled()) = 2);
+  res := zz_test.try($q$select public.admin_set_content_enabled('track', 'de', false)$q$);
+  perform zz_test.chk('a path that does not exist is still rejected', res = 'err:22023', res);
 
   execute 'reset role'; perform zz_test.as_user(s1);
   perform zz_test.chk('a learner can read which items are hidden', (select count(*) from public.content_disabled()) = 2);

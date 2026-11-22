@@ -2,7 +2,7 @@ import { useTranslation } from 'react-i18next';
 import { Link } from 'react-router-dom';
 import { Sprout, Rocket, Medal, Mic, Sparkles, Flame, Brain, BookMarked, Star, Languages, Trophy, Lock } from 'lucide-react';
 import { PageHeading, Ring, ProgressBar, Button } from '../components/ui.jsx';
-import { TRACK_META } from '../data/content.js';
+import { TRACK_META, trackHtmlLang } from '../data/content.js';
 import { visibleLessonsOfTrack, useAvailability } from '../data/availability.js';
 import { orderedTracks } from '../data/trackOrder.js';
 import { useProgress } from '../app/ProgressContext.jsx';
@@ -72,7 +72,7 @@ export default function Progress() {
             const done = list.filter((l) => state.completed[l.id]).length;
             return (
               <div key={k} className="by-lang-row">
-                <span className="track-glyph sm" style={{ '--tile': TRACK_META[k].color }} aria-hidden="true" lang={k === 'ar' || k === 'sa' ? 'ar' : 'en'}>{TRACK_META[k].glyph}</span>
+                <span className="track-glyph sm" style={{ '--tile': TRACK_META[k].color }} aria-hidden="true" lang={trackHtmlLang(k)}>{TRACK_META[k].glyph}</span>
                 <div>
                   <div className="row-between"><strong>{t(`tracks.${k}.name`)}</strong><span className="muted">{done}/{list.length}</span></div>
                   <ProgressBar value={done} max={list.length || 1} label={t(`tracks.${k}.name`)} />

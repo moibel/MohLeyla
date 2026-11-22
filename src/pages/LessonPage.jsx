@@ -2,7 +2,7 @@ import { useCallback, useEffect, useMemo, useRef, useState } from 'react';
 import { Link, useParams } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 import { ArrowLeft } from 'lucide-react';
-import { loadLesson, lessonMeta, TRACK_META } from '../data/content.js';
+import { loadLesson, lessonMeta, TRACK_META, isBeta } from '../data/content.js';
 import { visibleLessonsOfTrack, isLessonVisible, useAvailability } from '../data/availability.js';
 import { Spinner, EmptyState, Button, Chip, Flip } from '../components/ui.jsx';
 import { Overview, LearnCards, Result } from '../features/lessons/Stages.jsx';
@@ -73,7 +73,7 @@ export default function LessonPage() {
       <header className="lesson-head">
         <span className="lesson-icon big" style={{ '--tile': TRACK_META[lesson.track].color }} aria-hidden="true">{lesson.icon}</span>
         <div>
-          <div className="chip-row"><Chip tone="brand">{t(`tracks.${lesson.track}.short`)}</Chip><Chip>{t(`levels.${lesson.level}`)}</Chip></div>
+          <div className="chip-row"><Chip tone="brand">{t(`tracks.${lesson.track}.short`)}</Chip><Chip>{t(`levels.${lesson.level}`)}</Chip>{isBeta(lesson.track) && <Chip tone="warn">{t('tracks.betaChip')}</Chip>}</div>
           <h1>{lesson.title[ui]}</h1>
           <p className="muted">{lesson.description[ui]}</p>
         </div>

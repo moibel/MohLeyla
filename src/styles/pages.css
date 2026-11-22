@@ -398,3 +398,11 @@ tr.is-open{background:var(--brand-soft)}
 .file-note{display:flex;gap:6px;align-items:center;font-size:.85rem;opacity:.9}
 .bubble-msg.mine .voice-note audio{filter:none}
 .bubble-msg.mine .muted,.bubble-msg.mine .voice-note small{color:inherit;opacity:.9}
+
+/* ---- new languages: Beta label, Chinese text ---- */
+.beta-chip{display:inline-flex;align-items:center;margin-inline-start:8px;padding:2px 9px;border-radius:999px;background:var(--warn-bg);color:var(--warn);font-size:.72rem;font-weight:800;vertical-align:middle;letter-spacing:.02em}
+.beta-note{display:flex;gap:8px;align-items:flex-start;padding:10px 14px;border-radius:var(--r);background:var(--warn-bg);color:var(--warn);font-size:.9rem}
+.beta-note .beta-chip{margin:0;flex:none;background:rgba(0,0,0,.08)}
+:lang(zh){font-family:'PingFang SC','Hiragino Sans GB','Microsoft YaHei','Noto Sans SC','Noto Sans CJK SC',var(--font-latin)}
+.target-text:lang(zh),.word-target:lang(zh){line-height:1.5;letter-spacing:.04em}
+.word-target:lang(zh){font-size:clamp(2.6rem,9vw,3.6rem)}
