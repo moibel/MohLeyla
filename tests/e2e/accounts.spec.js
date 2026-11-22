@@ -43,7 +43,7 @@ test.describe('accounts & sync (mocked Supabase API)', () => {
     await expect(page.locator('[data-testid="acc-sent"]')).toContainText('open the link in it on this device');
     await expect(page.locator('[data-testid="acc-code"]')).toBeVisible();
     await page.locator('[data-testid="acc-resend"]').click();
-    expect(backend.stats.otps).toBe(2);
+    await expect.poll(() => backend.stats.otps).toBe(2);
     // the user opens the link from the email: Supabase redirects to /settings with the session in the URL hash
     const s = makeSession('amina@example.com', 'user-amina');
     await page.goto('about:blank'); // an emailed link opens as a fresh page load, not a same-page hash change

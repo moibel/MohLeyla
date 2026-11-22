@@ -1,6 +1,7 @@
 # Changelog
 
 ## Unreleased
+- **Public build settings in the repo**: committed `.env.production` (Supabase URL, publishable key, required sign-in, Google sign-in) so Cloudflare, Netlify and local builds are identical without dashboard variables. Guard tests forbid secrets in it. `.env.example` is now tracked (it had been ignored by mistake).
 - **Cloudflare-ready hosting**: `wrangler.jsonc` (static assets, single-page-app fallback) and `public/_headers` (security headers incl. `microphone=(self)`, caching) so the same repo deploys on Cloudflare as well as Netlify; `docs/HOSTING.md` has the steps. Unit tests keep netlify.toml and _headers in agreement.
 - **Profiles**: signed-in learners are greeted by name ("Hi, Amina!") and have a profile page (avatar, editable name, email, member-since, learning stats). Google users get their Google name and photo; email users are asked once "What should we call you?" (skippable; falls back to the readable part of the email). The name is stored in the account (user metadata) so it follows them to every device; the greeting works offline. Avatars fall back to coloured initials, and only https photo links are used.
 - **Continue with Google**: optional (`VITE_GOOGLE_SIGN_IN=true`) one-tap Google sign-in / registration next to the email option, on the sign-in screen and in Settings. Needs the Google provider enabled in Supabase (see docs/ACCOUNTS.md). Same-email accounts are linked by Supabase.

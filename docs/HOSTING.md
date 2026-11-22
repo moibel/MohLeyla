@@ -15,8 +15,9 @@ Static assets and bandwidth are free and unlimited on Cloudflare's free plan; bu
    - Build command: `npm run build`
    - Deploy command: `npx wrangler deploy` (reads `wrangler.jsonc`)
    - Production branch: `main`. Preview builds: switch off (saves build minutes).
-3. **Build variables** (Settings -> Build -> Variables and secrets, type *Text*): `VITE_SUPABASE_URL`, `VITE_SUPABASE_ANON_KEY`,
-   `VITE_REQUIRE_SIGN_IN`, `VITE_GOOGLE_SIGN_IN` (same values as on Netlify). These are public values; never add `service_role`.
+3. **Build settings come from the repo.** The committed `.env.production` holds the public values (`VITE_SUPABASE_URL`,
+   `VITE_SUPABASE_ANON_KEY`, `VITE_REQUIRE_SIGN_IN`, `VITE_GOOGLE_SIGN_IN`), so no dashboard variables are needed. Variables set in a host's
+   dashboard override the file. Never put a `service_role` / `sb_secret_` key in it (a unit test fails if one appears).
 4. Deploy. The address will be `https://mohleyla.<your-subdomain>.workers.dev` (a custom domain can be attached later).
 5. **Update the places that know the address:**
    - Supabase -> Authentication -> URL Configuration: add `https://mohleyla.<your-subdomain>.workers.dev/**` to Redirect URLs

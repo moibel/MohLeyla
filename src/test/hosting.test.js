@@ -44,3 +44,24 @@ describe('wrangler.jsonc', () => {
     expect(json.name).toBe('mohleyla');
   });
 });
+
+// The public build settings live in .env.production (committed). They are public by design; secrets must never appear there.
+describe('.env.production (public build settings)', () => {
+  const env = fs.readFileSync(path.resolve(__dirname, '../../.env.production'), 'utf8');
+  const vars = Object.fromEntries(env.split('\n').filter((l) => /^[A-Z_]+=/.test(l)).map((l) => [l.split('=')[0], l.slice(l.indexOf('=') + 1)]));
+  it('only defines VITE_ variables', () => {
+    for (const k of Object.keys(vars)) expect(k).toMatch(/^VITE_/);
+  });
+  it('contains no secret keys, tokens or passwords (in the settings, comments may warn about them)', () => {
+    const settings = env.split('\n').filter((l) => l.trim() && !l.trim().startsWith('#')).join('\n');
+    expect(settings).not.toMatch(/sb_secret_|service_role|SECRET|PASSWORD|BEGIN [A-Z ]*PRIVATE|eyJ[A-Za-z0-9_-]{20,}\.[A-Za-z0-9_-]{20,}\.[A-Za-z0-9_-]{20,}/i);
+  });
+  it('uses a publishable Supabase key and an https Supabase URL', () => {
+    expect(vars.VITE_SUPABASE_ANON_KEY).toMatch(/^sb_publishable_[A-Za-z0-9_-]{20,}$/);
+    expect(vars.VITE_SUPABASE_URL).toMatch(/^https:\/\/[a-z0-9]+\.supabase\.co$/);
+  });
+  it('turns on required sign-in and Google sign-in for production builds', () => {
+    expect(vars.VITE_REQUIRE_SIGN_IN).toBe('true');
+    expect(vars.VITE_GOOGLE_SIGN_IN).toBe('true');
+  });
+});
