@@ -7,7 +7,7 @@ export const TRACKS = ['ar', 'sa', 'eg', 'en', 'id', 'fr', 'es', 'zh'];
 export const DIALECT_TRACKS = ['sa', 'eg'];
 /** Tracks not yet reviewed by a native speaker, and how many lessons each is expected to have in this release. */
 export const BETA_TRACKS = ['eg', 'fr', 'es', 'zh'];
-export const TRACK_SIZES = { ar: 30, sa: 30, en: 30, id: 30, eg: 10, fr: 10, es: 10, zh: 10 };
+export const TRACK_SIZES = { ar: 30, sa: 30, en: 30, id: 30, eg: 30, fr: 30, es: 30, zh: 30 };
 export const LEVELS = ['beginner', 'elementary', 'intermediate'];
 const ARABIC = /[؀-ۿ]/;
 const CJK = /[\u3400-\u9fff]/;

@@ -2643,7 +2643,7 @@
         },
         "example": {
           "target": "Vendredi, je vais au cinéma.",
-          "translit": "vah(n)-druh-DEE zhuh vay oh see-nay-MAH",
+          "translit": "vah(n)-druh-DEE zhuh veh oh see-nay-MAH",
           "tr": {
             "ar": "يوم الجمعة أذهب إلى السينما.",
             "en": "On Friday, I am going to the cinema.",

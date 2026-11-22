@@ -5,7 +5,8 @@ import path from 'node:path';
 import zlib from 'node:zlib';
 
 const dist = path.resolve(path.dirname(new URL(import.meta.url).pathname), '../dist');
-const BUDGET = { js: 150 * 1024, css: 15 * 1024 }; // gzip bytes
+// js was 150 kB until the lesson index reached 240 lessons (about 11 kB more of titles and item ids on the first screen); now 160 kB.
+const BUDGET = { js: 160 * 1024, css: 15 * 1024 }; // gzip bytes
 const html = fs.readFileSync(path.join(dist, 'index.html'), 'utf8');
 const refs = [...html.matchAll(/(?:src|href)="(\/assets\/[^"]+\.(?:js|css))"/g)].map((m) => m[1]);
 if (!refs.length) { console.error('check-bundle-size: no assets found in dist/index.html (run npm run build first)'); process.exit(1); }

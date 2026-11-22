@@ -1,0 +1,3198 @@
+[
+  {
+    "id": "es-11",
+    "track": "es",
+    "level": "elementary",
+    "order": 11,
+    "topic": "numbers-regular-verbs",
+    "icon": "💯",
+    "title": {
+      "ar": "الأرقام حتى 100 والأفعال المنتظمة",
+      "en": "Numbers to 100 and Regular Verbs",
+      "id": "Angka sampai 100 dan Kata Kerja Beraturan"
+    },
+    "description": {
+      "ar": "عُدّ حتى مئة وصرّف الأفعال المنتظمة في المضارع.",
+      "en": "Count to a hundred and use regular verbs in the present.",
+      "id": "Berhitung sampai seratus dan pakai kata kerja beraturan dalam bentuk sekarang."
+    },
+    "objectives": [
+      {
+        "ar": "أستطيع العدّ من 11 إلى 100.",
+        "en": "I can count from 11 to 100.",
+        "id": "Saya bisa berhitung dari 11 sampai 100."
+      },
+      {
+        "ar": "أستطيع تصريف الأفعال المنتظمة المنتهية بـ -ar و-er و-ir في المضارع.",
+        "en": "I can conjugate regular -ar, -er and -ir verbs in the present.",
+        "id": "Saya bisa menyesuaikan kata kerja beraturan -ar, -er, dan -ir dalam bentuk sekarang."
+      },
+      {
+        "ar": "أستطيع قول أين أسكن وماذا أدرس وأي لغات أتكلم وما رقم هاتفي.",
+        "en": "I can say where I live, what I study, which languages I speak and my phone number.",
+        "id": "Saya bisa mengatakan tempat tinggal, apa yang saya pelajari, bahasa yang saya pakai, dan nomor telepon saya."
+      }
+    ],
+    "intro": {
+      "ar": "تعرف الأرقام حتى العشرة، والآن سنكمل حتى المئة. ثم نتعلم النمط الذي تتبعه معظم الأفعال الإسبانية: الأفعال التي تنتهي بـ -ar مثل «hablar» وبـ -er مثل «comer» وبـ -ir مثل «vivir». إذا فهمت هذا النمط استطعت أن تستعمل مئات الأفعال.",
+      "en": "You already know the numbers up to ten; now we continue to a hundred. Then you learn the pattern that most Spanish verbs follow: verbs ending in -ar like \"hablar\", in -er like \"comer\" and in -ir like \"vivir\". Once you understand this pattern, you can use hundreds of verbs.",
+      "id": "Anda sudah tahu angka sampai sepuluh; sekarang kita lanjut sampai seratus. Lalu Anda belajar pola yang diikuti sebagian besar kata kerja Spanyol: kata kerja berakhiran -ar seperti \"hablar\", -er seperti \"comer\", dan -ir seperti \"vivir\". Setelah memahami pola ini, Anda bisa memakai ratusan kata kerja."
+    },
+    "culture": {
+      "ar": "عند إعطاء رقم الهاتف يقوله الناس غالبًا رقمًا رقمًا أو في مجموعات من رقمين أو ثلاثة، وتختلف العادة من بلد إلى آخر. ومن المفيد أن تكتب الرقم أو تطلب من المحاور أن يكرره: «¿Puede repetir, por favor?».",
+      "en": "When giving a phone number, people often say it digit by digit or in groups of two or three digits, and the habit differs from country to country. It is useful to write the number down or ask the other person to repeat it: \"¿Puede repetir, por favor?\".",
+      "id": "Saat menyebutkan nomor telepon, orang sering mengucapkannya angka demi angka atau dalam kelompok dua atau tiga angka, dan kebiasaannya berbeda di tiap negara. Ada baiknya Anda menulis nomornya atau meminta lawan bicara mengulang: \"¿Puede repetir, por favor?\"."
+    },
+    "grammar": {
+      "title": {
+        "ar": "نهايات الأفعال المنتظمة والأرقام بعد 15",
+        "en": "Regular verb endings and the numbers after 15",
+        "id": "Akhiran kata kerja beraturan dan angka setelah 15"
+      },
+      "body": {
+        "ar": "نحذف النهاية (-ar أو -er أو -ir) ونضيف نهاية الفاعل. -ar: hablo، hablas، habla، hablamos، hablan. -er: como، comes، come، comemos، comen. -ir: vivo، vives، vive، vivimos، viven. صيغة «usted» تشبه صيغة «él/ella»، وصيغة «ustedes» تشبه «ellos/ellas». ولا نحتاج غالبًا إلى ذكر الضمير. الأرقام: من 16 إلى 29 تُكتب كلمة واحدة (dieciséis، veintiuno، veintidós)، ومن 31 نستعمل «y»: treinta y uno، cuarenta y cinco. و100 وحده هو «cien».",
+        "en": "We drop the ending (-ar, -er or -ir) and add the ending for the subject. -ar: hablo, hablas, habla, hablamos, hablan. -er: como, comes, come, comemos, comen. -ir: vivo, vives, vive, vivimos, viven. \"Usted\" uses the same form as \"él/ella\", and \"ustedes\" the same as \"ellos/ellas\". The pronoun is usually left out. Numbers: 16 to 29 are written as one word (dieciséis, veintiuno, veintidós); from 31 we use \"y\": treinta y uno, cuarenta y cinco. 100 alone is \"cien\".",
+        "id": "Kita membuang akhiran (-ar, -er, atau -ir) lalu menambahkan akhiran sesuai subjek. -ar: hablo, hablas, habla, hablamos, hablan. -er: como, comes, come, comemos, comen. -ir: vivo, vives, vive, vivimos, viven. \"Usted\" memakai bentuk yang sama dengan \"él/ella\", dan \"ustedes\" sama dengan \"ellos/ellas\". Kata ganti biasanya dilesapkan. Angka: 16 sampai 29 ditulis satu kata (dieciséis, veintiuno, veintidós); mulai 31 dipakai \"y\": treinta y uno, cuarenta y cinco. Angka 100 saja adalah \"cien\"."
+      }
+    },
+    "items": [
+      {
+        "id": "es11n1",
+        "target": "once, doce, trece, catorce, quince",
+        "translit": "OHN-seh, DOH-seh, TREH-seh, kah-TOHR-seh, KEEN-seh",
+        "tr": {
+          "ar": "من أحد عشر إلى خمسة عشر",
+          "en": "eleven to fifteen",
+          "id": "sebelas sampai lima belas"
+        },
+        "example": {
+          "target": "Mi hermana tiene catorce años.",
+          "translit": "mee ehr-MAH-nah TYEH-neh kah-TOHR-seh AH-nyohs",
+          "tr": {
+            "ar": "عمر أختي أربعة عشر عامًا.",
+            "en": "My sister is fourteen years old.",
+            "id": "Adik/kakak perempuan saya berumur empat belas tahun."
+          }
+        },
+        "hint": {
+          "ar": "هذه الأرقام تنتهي كلها بـ -ce. وتُنطق c قبل e كحرف s.",
+          "en": "These numbers all end in -ce, and c before e sounds like s.",
+          "id": "Angka-angka ini semuanya berakhiran -ce, dan c sebelum e dibaca s."
+        }
+      },
+      {
+        "id": "es11n2",
+        "target": "veinte, veintiuno, treinta, cuarenta",
+        "translit": "BAYN-teh, bayn-TYOO-noh, TRAYN-tah, kwah-REHN-tah",
+        "tr": {
+          "ar": "عشرون، واحد وعشرون، ثلاثون، أربعون",
+          "en": "twenty, twenty-one, thirty, forty",
+          "id": "dua puluh, dua puluh satu, tiga puluh, empat puluh"
+        },
+        "example": {
+          "target": "Hay treinta estudiantes en la clase.",
+          "translit": "eye TRAYN-tah ehs-too-DYAHN-tehs ehn lah KLAH-seh",
+          "tr": {
+            "ar": "يوجد ثلاثون طالبًا في الصف.",
+            "en": "There are thirty students in the class.",
+            "id": "Ada tiga puluh siswa di kelas."
+          }
+        }
+      },
+      {
+        "id": "es11n3",
+        "target": "cincuenta, sesenta, setenta, ochenta, noventa, cien",
+        "translit": "seen-KWEHN-tah, seh-SEHN-tah, seh-TEHN-tah, oh-CHEHN-tah, noh-BEHN-tah, SYEHN",
+        "tr": {
+          "ar": "خمسون إلى مئة",
+          "en": "fifty to a hundred",
+          "id": "lima puluh sampai seratus"
+        },
+        "example": {
+          "target": "Mi abuelo tiene ochenta años.",
+          "translit": "mee ah-BWEH-loh TYEH-neh oh-CHEHN-tah AH-nyohs",
+          "tr": {
+            "ar": "عمر جدي ثمانون عامًا.",
+            "en": "My grandfather is eighty years old.",
+            "id": "Kakek saya berumur delapan puluh tahun."
+          }
+        },
+        "hint": {
+          "ar": "يُكتب «cien» وحده كلمة واحدة، ولا نقول «ciento» إلا مع ما بعده (ciento uno).",
+          "en": "\"Cien\" stands alone as one word; \"ciento\" is used only before more numbers (ciento uno).",
+          "id": "\"Cien\" berdiri sendiri sebagai satu kata; \"ciento\" hanya dipakai sebelum angka lain (ciento uno)."
+        }
+      },
+      {
+        "id": "es11n4",
+        "target": "Vivo en una ciudad pequeña.",
+        "translit": "BEE-boh ehn OO-nah syoo-DAHD peh-KEH-nyah",
+        "tr": {
+          "ar": "أسكن في مدينة صغيرة.",
+          "en": "I live in a small city.",
+          "id": "Saya tinggal di kota kecil."
+        },
+        "example": {
+          "target": "Mi familia vive en el centro.",
+          "translit": "mee fah-MEE-lyah BEE-beh ehn ehl SEHN-troh",
+          "tr": {
+            "ar": "تسكن عائلتي في وسط المدينة.",
+            "en": "My family lives downtown.",
+            "id": "Keluarga saya tinggal di pusat kota."
+          }
+        }
+      },
+      {
+        "id": "es11n5",
+        "target": "¿Dónde vives?",
+        "translit": "DOHN-deh BEE-behs",
+        "tr": {
+          "ar": "أين تسكن؟",
+          "en": "Where do you live?",
+          "id": "Di mana kamu tinggal?"
+        },
+        "example": {
+          "target": "¿Dónde vive usted?",
+          "translit": "DOHN-deh BEE-beh oos-TEHD",
+          "tr": {
+            "ar": "أين تسكن؟ (رسمي)",
+            "en": "Where do you live? (formal)",
+            "id": "Di mana Anda tinggal? (formal)"
+          }
+        },
+        "hint": {
+          "ar": "مع الأصدقاء نقول «vives» ومع الشخص الذي نخاطبه رسميًا نقول «vive usted».",
+          "en": "With friends we say \"vives\"; with someone we address formally we say \"vive usted\".",
+          "id": "Dengan teman dipakai \"vives\"; dengan orang yang disapa formal dipakai \"vive usted\"."
+        }
+      },
+      {
+        "id": "es11n6",
+        "target": "Hablo español y un poco de inglés.",
+        "translit": "AH-bloh ehs-pah-NYOHL ee oon POH-koh deh een-GLEHS",
+        "tr": {
+          "ar": "أتكلم الإسبانية وقليلًا من الإنجليزية.",
+          "en": "I speak Spanish and a little English.",
+          "id": "Saya berbicara bahasa Spanyol dan sedikit bahasa Inggris."
+        },
+        "example": {
+          "target": "Mis padres hablan árabe.",
+          "translit": "mees PAH-drehs AH-blahn AH-rah-beh",
+          "tr": {
+            "ar": "يتكلم والداي العربية.",
+            "en": "My parents speak Arabic.",
+            "id": "Orang tua saya berbicara bahasa Arab."
+          }
+        }
+      },
+      {
+        "id": "es11n7",
+        "target": "¿Qué estudias?",
+        "translit": "keh ehs-TOO-dyahs",
+        "tr": {
+          "ar": "ماذا تدرس؟",
+          "en": "What do you study?",
+          "id": "Kamu belajar apa?"
+        },
+        "example": {
+          "target": "Estudio medicina en la universidad.",
+          "translit": "ehs-TOO-dyoh meh-dee-SEE-nah ehn lah oo-nee-behr-see-DAHD",
+          "tr": {
+            "ar": "أدرس الطب في الجامعة.",
+            "en": "I study medicine at the university.",
+            "id": "Saya belajar kedokteran di universitas."
+          }
+        }
+      },
+      {
+        "id": "es11n8",
+        "target": "Mi número de teléfono es el seis, uno, dos.",
+        "translit": "mee NOO-meh-roh deh teh-LEH-foh-noh ehs ehl SAYS, OO-noh, DOHS",
+        "tr": {
+          "ar": "رقم هاتفي هو ستة، واحد، اثنان.",
+          "en": "My phone number is six, one, two.",
+          "id": "Nomor telepon saya enam, satu, dua."
+        },
+        "example": {
+          "target": "¿Cuál es su número de teléfono?",
+          "translit": "kwahl ehs soo NOO-meh-roh deh teh-LEH-foh-noh",
+          "tr": {
+            "ar": "ما رقم هاتفك؟ (رسمي)",
+            "en": "What is your phone number? (formal)",
+            "id": "Berapa nomor telepon Anda? (formal)"
+          }
+        }
+      }
+    ],
+    "cloze": [
+      {
+        "sentence": "Mi hermano ___ en Madrid.",
+        "answer": "vive",
+        "wrong": [
+          "vivo",
+          "vives"
+        ],
+        "tr": {
+          "ar": "يسكن أخي في مدريد.",
+          "en": "My brother lives in Madrid.",
+          "id": "Saudara laki-laki saya tinggal di Madrid."
+        },
+        "why": {
+          "ar": "الفاعل «mi hermano» (هو) فنستعمل «vive». «Vivo» لـ yo و«vives» لـ tú.",
+          "en": "The subject \"mi hermano\" is third person, so we use \"vive\". \"Vivo\" is for yo and \"vives\" for tú.",
+          "id": "Subjeknya \"mi hermano\" (orang ketiga), jadi dipakai \"vive\". \"Vivo\" untuk yo dan \"vives\" untuk tú."
+        }
+      },
+      {
+        "sentence": "Nosotros ___ español en clase.",
+        "answer": "hablamos",
+        "wrong": [
+          "hablo",
+          "hablan"
+        ],
+        "tr": {
+          "ar": "نتكلم الإسبانية في الصف.",
+          "en": "We speak Spanish in class.",
+          "id": "Kami berbicara bahasa Spanyol di kelas."
+        },
+        "why": {
+          "ar": "مع «nosotros» تكون نهاية الفعل -amos: «hablamos». «Hablo» لـ yo و«hablan» لـ ellos.",
+          "en": "With \"nosotros\" the ending is -amos: \"hablamos\". \"Hablo\" is for yo and \"hablan\" for ellos.",
+          "id": "Dengan \"nosotros\" akhirannya -amos: \"hablamos\". \"Hablo\" untuk yo dan \"hablan\" untuk ellos."
+        }
+      }
+    ],
+    "conversation": {
+      "context": {
+        "ar": "جاران جديدان يتعارفان (بصيغة «tú»).",
+        "en": "Two new neighbours get to know each other (informal tú).",
+        "id": "Dua tetangga baru berkenalan (tú, akrab)."
+      },
+      "turns": [
+        {
+          "who": "A",
+          "target": "Hola, soy Ana. ¿Dónde vives?",
+          "tr": {
+            "ar": "مرحبًا، أنا آنا. أين تسكن؟",
+            "en": "Hello, I am Ana. Where do you live?",
+            "id": "Halo, saya Ana. Kamu tinggal di mana?"
+          }
+        },
+        {
+          "who": "B",
+          "target": "Vivo en el número treinta y cinco.",
+          "tr": {
+            "ar": "أسكن في الرقم خمسة وثلاثين.",
+            "en": "I live at number thirty-five.",
+            "id": "Saya tinggal di nomor tiga puluh lima."
+          }
+        },
+        {
+          "who": "A",
+          "target": "¿Y qué estudias?",
+          "tr": {
+            "ar": "وماذا تدرس؟",
+            "en": "And what do you study?",
+            "id": "Dan kamu belajar apa?"
+          }
+        },
+        {
+          "who": "B",
+          "target": "Estudio medicina y hablo un poco de inglés.",
+          "tr": {
+            "ar": "أدرس الطب وأتكلم قليلًا من الإنجليزية.",
+            "en": "I study medicine and I speak a little English.",
+            "id": "Saya belajar kedokteran dan berbicara sedikit bahasa Inggris."
+          }
+        }
+      ],
+      "gap": 1,
+      "wrong": [
+        "Me llamo Luis, mucho gusto.",
+        "Son las tres y media."
+      ],
+      "why": {
+        "ar": "آنا سألت عن مكان السكن، فالجواب هو العنوان. الجوابان الآخران عن الاسم وعن الساعة.",
+        "en": "Ana asked where he lives, so the answer is the address. The other replies are about a name and the time.",
+        "id": "Ana bertanya tempat tinggal, jadi jawabannya adalah alamat. Dua jawaban lain tentang nama dan jam."
+      }
+    },
+    "summary": {
+      "ar": "تعلّمت الأرقام من 11 إلى 100 ونهايات الأفعال المنتظمة. تذكّر: -o، -as/-es، -a/-e، -amos/-emos/-imos، -an/-en.",
+      "en": "You learned numbers 11 to 100 and the endings of regular verbs. Remember: -o, -as/-es, -a/-e, -amos/-emos/-imos, -an/-en.",
+      "id": "Anda belajar angka 11 sampai 100 dan akhiran kata kerja beraturan. Ingat: -o, -as/-es, -a/-e, -amos/-emos/-imos, -an/-en."
+    }
+  },
+  {
+    "id": "es-12",
+    "track": "es",
+    "level": "elementary",
+    "order": 12,
+    "topic": "home-hay-estar",
+    "icon": "🏠",
+    "title": {
+      "ar": "بيتي",
+      "en": "My Home",
+      "id": "Rumah Saya"
+    },
+    "description": {
+      "ar": "صف بيتك وقل ما فيه وأين يوجد.",
+      "en": "Describe your home, what is in it and where things are.",
+      "id": "Gambarkan rumah Anda, isinya, dan letak barang-barangnya."
+    },
+    "objectives": [
+      {
+        "ar": "أستطيع تسمية غرف البيت وأثاثه الأساسي.",
+        "en": "I can name the rooms of a home and basic furniture.",
+        "id": "Saya bisa menyebut ruangan rumah dan perabot dasar."
+      },
+      {
+        "ar": "أستطيع التفريق بين «hay» (يوجد) و«estar» (يقع).",
+        "en": "I can tell \"hay\" (there is) from \"estar\" (to be located).",
+        "id": "Saya bisa membedakan \"hay\" (ada) dari \"estar\" (berada)."
+      },
+      {
+        "ar": "أستطيع أن أسأل عن عدد الغرف وعن وجود شيء في البيت.",
+        "en": "I can ask how many rooms there are and whether something is there.",
+        "id": "Saya bisa menanyakan jumlah kamar dan apakah sesuatu ada di rumah."
+      }
+    ],
+    "intro": {
+      "ar": "عندما نتحدث عن البيت نقول أولًا ما الموجود فيه، ثم أين يقع كل شيء. للأولى نستعمل «hay» مع أشياء غير محددة: «Hay un parque». وللثانية نستعمل «estar» مع شيء معروف: «El parque está cerca». هذا الفرق مهم جدًا وسيرافقك في كل درس.",
+      "en": "When we talk about a home we first say what exists in it, then where each thing is. For the first we use \"hay\" with non-specific things: \"Hay un parque\". For the second we use \"estar\" with something already known: \"El parque está cerca\". This difference is very important and will stay with you in every lesson.",
+      "id": "Saat membicarakan rumah, kita lebih dulu mengatakan apa yang ada, lalu di mana letaknya. Untuk yang pertama dipakai \"hay\" dengan hal yang tidak spesifik: \"Hay un parque\". Untuk yang kedua dipakai \"estar\" dengan hal yang sudah dikenal: \"El parque está cerca\". Perbedaan ini sangat penting dan akan menyertai Anda di setiap pelajaran."
+    },
+    "culture": {
+      "ar": "تختلف الكلمات بحسب البلد: في إسبانيا يقولون «piso» للشقة، وفي المكسيك والأرجنتين «departamento»، وفي كولومبيا غالبًا «apartamento». وغرفة الجلوس هي «sala» في أمريكا اللاتينية و«salón» في إسبانيا. وفي إسبانيا «primer piso» هو الطابق الأول فوق الأرضي.",
+      "en": "Words differ by country: in Spain a flat is a \"piso\", in Mexico and Argentina a \"departamento\", and in Colombia often an \"apartamento\". The living room is \"sala\" in Latin America and \"salón\" in Spain. In Spain the \"primer piso\" is the first floor above the ground floor.",
+      "id": "Kosakata berbeda menurut negara: di Spanyol apartemen disebut \"piso\", di Meksiko dan Argentina \"departamento\", di Kolombia sering \"apartamento\". Ruang tamu disebut \"sala\" di Amerika Latin dan \"salón\" di Spanyol. Di Spanyol \"primer piso\" adalah lantai pertama di atas lantai dasar."
+    },
+    "grammar": {
+      "title": {
+        "ar": "hay مقابل estar",
+        "en": "Hay versus estar",
+        "id": "Hay dan estar"
+      },
+      "body": {
+        "ar": "«Hay» تعني «يوجد/توجد» ولا تتغير للمفرد والجمع: «Hay una mesa»، «Hay dos sillas». وتأتي مع «un/una/dos/algunos» أو بلا أداة تعريف. أما «estar» فنستعمله لمكان شيء معروف أو محدد: «La mesa está en la cocina»، «Las sillas están aquí». فلا نقول «hay la mesa» بل «la mesa está». وللسؤال: «¿Hay un baño?» (هل يوجد حمام؟) و«¿Dónde está el baño?» (أين الحمام؟).",
+        "en": "\"Hay\" means \"there is/there are\" and does not change for singular or plural: \"Hay una mesa\", \"Hay dos sillas\". It comes with \"un/una/numbers/some\" or no article. \"Estar\" gives the location of something known or specific: \"La mesa está en la cocina\", \"Las sillas están aquí\". We do not say \"hay la mesa\" but \"la mesa está\". Questions: \"¿Hay un baño?\" (Is there a bathroom?) and \"¿Dónde está el baño?\" (Where is the bathroom?).",
+        "id": "\"Hay\" berarti \"ada\" dan tidak berubah untuk tunggal atau jamak: \"Hay una mesa\", \"Hay dos sillas\". Kata ini dipakai dengan \"un/una/angka/algunos\" atau tanpa artikel. \"Estar\" menyatakan letak sesuatu yang sudah dikenal atau spesifik: \"La mesa está en la cocina\", \"Las sillas están aquí\". Kita tidak mengatakan \"hay la mesa\" tetapi \"la mesa está\". Pertanyaan: \"¿Hay un baño?\" (Apakah ada kamar mandi?) dan \"¿Dónde está el baño?\" (Di mana kamar mandi?)."
+      }
+    },
+    "items": [
+      {
+        "id": "es12n1",
+        "target": "Vivo en un apartamento.",
+        "translit": "BEE-boh ehn oon ah-pahr-tah-MEHN-toh",
+        "tr": {
+          "ar": "أسكن في شقة.",
+          "en": "I live in an apartment.",
+          "id": "Saya tinggal di apartemen."
+        },
+        "example": {
+          "target": "Mi apartamento es pequeño.",
+          "translit": "mee ah-pahr-tah-MEHN-toh ehs peh-KEH-nyoh",
+          "tr": {
+            "ar": "شقتي صغيرة.",
+            "en": "My apartment is small.",
+            "id": "Apartemen saya kecil."
+          }
+        },
+        "hint": {
+          "ar": "في إسبانيا يقولون «piso» وفي المكسيك «departamento».",
+          "en": "In Spain people say \"piso\", in Mexico \"departamento\".",
+          "id": "Di Spanyol orang berkata \"piso\", di Meksiko \"departamento\"."
+        }
+      },
+      {
+        "id": "es12n2",
+        "target": "¿Cuántas habitaciones tiene?",
+        "translit": "KWAHN-tahs ah-bee-tah-SYOH-nehs TYEH-neh",
+        "tr": {
+          "ar": "كم غرفة فيه؟",
+          "en": "How many rooms does it have?",
+          "id": "Berapa kamar yang ada?"
+        },
+        "example": {
+          "target": "Tiene tres habitaciones y dos baños.",
+          "translit": "TYEH-neh trehs ah-bee-tah-SYOH-nehs ee dohs BAH-nyohs",
+          "tr": {
+            "ar": "فيه ثلاث غرف وحمامان.",
+            "en": "It has three rooms and two bathrooms.",
+            "id": "Ada tiga kamar dan dua kamar mandi."
+          }
+        }
+      },
+      {
+        "id": "es12n3",
+        "target": "Hay un sofá en la sala.",
+        "translit": "eye oon soh-FAH ehn lah SAH-lah",
+        "tr": {
+          "ar": "يوجد أريكة في غرفة الجلوس.",
+          "en": "There is a sofa in the living room.",
+          "id": "Ada sofa di ruang tamu."
+        },
+        "example": {
+          "target": "En la sala hay dos ventanas.",
+          "translit": "ehn lah SAH-lah eye dohs behn-TAH-nahs",
+          "tr": {
+            "ar": "في غرفة الجلوس نافذتان.",
+            "en": "In the living room there are two windows.",
+            "id": "Di ruang tamu ada dua jendela."
+          }
+        },
+        "hint": {
+          "ar": "«Hay» لا تتغير للجمع: «hay dos ventanas».",
+          "en": "\"Hay\" does not change for the plural: \"hay dos ventanas\".",
+          "id": "\"Hay\" tidak berubah untuk jamak: \"hay dos ventanas\"."
+        }
+      },
+      {
+        "id": "es12n4",
+        "target": "¿Hay un baño aquí?",
+        "translit": "eye oon BAH-nyoh ah-KEE",
+        "tr": {
+          "ar": "هل يوجد حمام هنا؟",
+          "en": "Is there a bathroom here?",
+          "id": "Apakah ada kamar mandi di sini?"
+        },
+        "example": {
+          "target": "Sí, hay un baño al lado de la cocina.",
+          "translit": "see, eye oon BAH-nyoh ahl LAH-doh deh lah koh-SEE-nah",
+          "tr": {
+            "ar": "نعم، يوجد حمام بجانب المطبخ.",
+            "en": "Yes, there is a bathroom next to the kitchen.",
+            "id": "Ya, ada kamar mandi di sebelah dapur."
+          }
+        }
+      },
+      {
+        "id": "es12n5",
+        "target": "La cocina está al fondo.",
+        "translit": "lah koh-SEE-nah ehs-TAH ahl FOHN-doh",
+        "tr": {
+          "ar": "المطبخ في آخر البيت.",
+          "en": "The kitchen is at the back.",
+          "id": "Dapurnya ada di bagian belakang."
+        },
+        "example": {
+          "target": "El baño está a la derecha.",
+          "translit": "ehl BAH-nyoh ehs-TAH ah lah deh-REH-chah",
+          "tr": {
+            "ar": "الحمام على اليمين.",
+            "en": "The bathroom is on the right.",
+            "id": "Kamar mandinya di sebelah kanan."
+          }
+        }
+      },
+      {
+        "id": "es12n6",
+        "target": "El dormitorio",
+        "translit": "ehl dohr-mee-TOH-ryoh",
+        "tr": {
+          "ar": "غرفة النوم",
+          "en": "the bedroom",
+          "id": "kamar tidur"
+        },
+        "example": {
+          "target": "El dormitorio es grande y tiene una cama.",
+          "translit": "ehl dohr-mee-TOH-ryoh ehs GRAHN-deh ee TYEH-neh OO-nah KAH-mah",
+          "tr": {
+            "ar": "غرفة النوم كبيرة وفيها سرير.",
+            "en": "The bedroom is big and has a bed.",
+            "id": "Kamar tidurnya besar dan ada tempat tidur."
+          }
+        }
+      },
+      {
+        "id": "es12n7",
+        "target": "La mesa y las sillas",
+        "translit": "lah MEH-sah ee lahs SEE-yahs",
+        "tr": {
+          "ar": "الطاولة والكراسي",
+          "en": "the table and the chairs",
+          "id": "meja dan kursi"
+        },
+        "example": {
+          "target": "La mesa y las sillas son de madera.",
+          "translit": "lah MEH-sah ee lahs SEE-yahs sohn deh mah-DEH-rah",
+          "tr": {
+            "ar": "الطاولة والكراسي من الخشب.",
+            "en": "The table and the chairs are made of wood.",
+            "id": "Meja dan kursinya terbuat dari kayu."
+          }
+        }
+      },
+      {
+        "id": "es12n8",
+        "target": "El gato está debajo de la mesa.",
+        "translit": "ehl GAH-toh ehs-TAH deh-BAH-hoh deh lah MEH-sah",
+        "tr": {
+          "ar": "القط تحت الطاولة.",
+          "en": "The cat is under the table.",
+          "id": "Kucing itu ada di bawah meja."
+        },
+        "example": {
+          "target": "Los libros están encima de la mesa.",
+          "translit": "lohs LEE-brohs ehs-TAHN ehn-SEE-mah deh lah MEH-sah",
+          "tr": {
+            "ar": "الكتب فوق الطاولة.",
+            "en": "The books are on top of the table.",
+            "id": "Buku-bukunya ada di atas meja."
+          }
+        }
+      }
+    ],
+    "cloze": [
+      {
+        "sentence": "En mi casa ___ tres habitaciones.",
+        "answer": "hay",
+        "wrong": [
+          "está",
+          "están"
+        ],
+        "tr": {
+          "ar": "في بيتي ثلاث غرف.",
+          "en": "In my house there are three rooms.",
+          "id": "Di rumah saya ada tiga kamar."
+        },
+        "why": {
+          "ar": "نريد قول إن هناك أشياء موجودة، فنستعمل «hay» وهي لا تتغير للجمع.",
+          "en": "We want to say that things exist, so we use \"hay\", which does not change for the plural.",
+          "id": "Kita ingin mengatakan bahwa ada sesuatu, jadi dipakai \"hay\" yang tidak berubah untuk jamak."
+        }
+      },
+      {
+        "sentence": "El gato ___ debajo de la mesa.",
+        "answer": "está",
+        "wrong": [
+          "hay",
+          "están"
+        ],
+        "tr": {
+          "ar": "القط تحت الطاولة.",
+          "en": "The cat is under the table.",
+          "id": "Kucing itu ada di bawah meja."
+        },
+        "why": {
+          "ar": "القط معروف ونحدد مكانه، فنستعمل «está» (مفرد). «Hay» لا تأتي مع «el gato» المعرّف.",
+          "en": "The cat is known and we give its location, so we use \"está\" (singular). \"Hay\" does not go with the definite \"el gato\".",
+          "id": "Kucingnya sudah dikenal dan kita menyebut letaknya, jadi dipakai \"está\" (tunggal). \"Hay\" tidak dipakai dengan \"el gato\" yang definit."
+        }
+      }
+    ],
+    "conversation": {
+      "context": {
+        "ar": "زيارة شقة مع وكيل عقاري (بصيغة «usted»).",
+        "en": "Viewing a flat with an agent (formal usted).",
+        "id": "Melihat apartemen bersama agen properti (usted, formal)."
+      },
+      "turns": [
+        {
+          "who": "A",
+          "target": "Este apartamento tiene dos habitaciones y un baño.",
+          "tr": {
+            "ar": "في هذه الشقة غرفتان وحمام.",
+            "en": "This apartment has two rooms and a bathroom.",
+            "id": "Apartemen ini punya dua kamar dan satu kamar mandi."
+          }
+        },
+        {
+          "who": "B",
+          "target": "¿Hay balcón?",
+          "tr": {
+            "ar": "هل يوجد شرفة؟",
+            "en": "Is there a balcony?",
+            "id": "Apakah ada balkon?"
+          }
+        },
+        {
+          "who": "A",
+          "target": "Sí, hay un balcón pequeño.",
+          "tr": {
+            "ar": "نعم، توجد شرفة صغيرة.",
+            "en": "Yes, there is a small balcony.",
+            "id": "Ya, ada balkon kecil."
+          }
+        },
+        {
+          "who": "B",
+          "target": "¿Y dónde está la cocina?",
+          "tr": {
+            "ar": "وأين المطبخ؟",
+            "en": "And where is the kitchen?",
+            "id": "Dan di mana dapurnya?"
+          }
+        }
+      ],
+      "gap": 1,
+      "wrong": [
+        "Me llamo Pedro.",
+        "Gracias, buenas noches."
+      ],
+      "why": {
+        "ar": "الوكيل ذكر ما في الشقة، فالسؤال المناسب هو عن وجود شرفة. الجوابان الآخران لا يناسبان هذا الموضع.",
+        "en": "The agent said what the apartment has, so the fitting question is whether there is a balcony. The other replies do not fit here.",
+        "id": "Agen menyebutkan isi apartemen, jadi pertanyaan yang cocok adalah apakah ada balkon. Dua jawaban lain tidak cocok di sini."
+      }
+    },
+    "summary": {
+      "ar": "تعلّمت أن «hay» تقول ما يوجد وأن «estar» تقول أين يقع شيء معروف. تذكّر: «hay» لا تتغير للجمع.",
+      "en": "You learned that \"hay\" says what exists and \"estar\" says where something known is. Remember: \"hay\" does not change in the plural.",
+      "id": "Anda belajar bahwa \"hay\" menyatakan apa yang ada dan \"estar\" menyatakan letak sesuatu yang dikenal. Ingat: \"hay\" tidak berubah untuk jamak."
+    }
+  },
+  {
+    "id": "es-13",
+    "track": "es",
+    "level": "elementary",
+    "order": 13,
+    "topic": "ir-venir-hacer",
+    "icon": "🚶",
+    "title": {
+      "ar": "الذهاب والمجيء والفعل",
+      "en": "Going, Coming and Doing",
+      "id": "Pergi, Datang, dan Melakukan"
+    },
+    "description": {
+      "ar": "الأفعال الأكثر استعمالًا: ir وvenir وhacer.",
+      "en": "The most frequent verbs: ir, venir and hacer.",
+      "id": "Kata kerja paling sering: ir, venir, dan hacer."
+    },
+    "objectives": [
+      {
+        "ar": "أستطيع قول إلى أين أذهب ومن أين أجيء وكيف.",
+        "en": "I can say where I go, where I come from and how.",
+        "id": "Saya bisa mengatakan ke mana saya pergi, dari mana saya datang, dan dengan apa."
+      },
+      {
+        "ar": "أستطيع تصريف ir وvenir وhacer في المضارع.",
+        "en": "I can conjugate ir, venir and hacer in the present.",
+        "id": "Saya bisa menyesuaikan ir, venir, dan hacer dalam bentuk sekarang."
+      },
+      {
+        "ar": "أستطيع دعوة أحد وقول «أنا مستعجل».",
+        "en": "I can invite someone and say \"I am in a hurry\".",
+        "id": "Saya bisa mengajak seseorang dan mengatakan \"saya sedang terburu-buru\"."
+      }
+    ],
+    "intro": {
+      "ar": "الأفعال ir (ذهب) وvenir (جاء) وhacer (فعل) من أكثر الأفعال استعمالًا، وكلها غير منتظمة، فلا بد من حفظها. ستحتاجها في كل حديث: إلى أين تذهب؟ ماذا تفعل؟ هل تأتي معنا؟ وهي أساس درس لاحق عن الخطط المستقبلية.",
+      "en": "The verbs ir (to go), venir (to come) and hacer (to do/make) are among the most frequent, and all are irregular, so you have to memorise them. You will need them in every conversation: where are you going? what are you doing? are you coming with us? They are also the base of a later lesson on future plans.",
+      "id": "Kata kerja ir (pergi), venir (datang), dan hacer (melakukan/membuat) termasuk yang paling sering dipakai, dan semuanya tidak beraturan, jadi perlu dihafalkan. Anda akan memerlukannya di setiap percakapan: ke mana kamu pergi? sedang apa? ikut dengan kami? Semuanya juga menjadi dasar pelajaran berikutnya tentang rencana."
+    },
+    "culture": {
+      "ar": "كلمة «autobús» هي الأكثر شيوعًا للحافلة، لكن تُستعمل كلمات أخرى: «camión» في المكسيك و«guagua» في كوبا. وفي المدن الكبرى يتنقل الناس كثيرًا بالمترو والحافلة والدراجة والمشي.",
+      "en": "\"Autobús\" is the most common word for a bus, but other words are used: \"camión\" in Mexico and \"guagua\" in Cuba. In large cities people get around a lot by metro, bus, bicycle and on foot.",
+      "id": "\"Autobús\" adalah kata paling umum untuk bus, tetapi ada kata lain: \"camión\" di Meksiko dan \"guagua\" di Kuba. Di kota besar orang banyak bepergian dengan metro, bus, sepeda, dan berjalan kaki."
+    },
+    "grammar": {
+      "title": {
+        "ar": "ir وvenir وhacer وعبارات tener",
+        "en": "Ir, venir, hacer and tener expressions",
+        "id": "Ir, venir, hacer, dan ungkapan dengan tener"
+      },
+      "body": {
+        "ar": "ir: voy، vas، va، vamos، van. venir: vengo، vienes، viene، venimos، vienen. hacer: hago، haces، hace، hacemos، hacen. بعد ir نستعمل «a» (Voy a la escuela، Voy al cine؛ a + el = al). وبعد venir نستعمل «de» (Vengo de casa؛ de + el = del). ونستعمل «en» لوسيلة النقل (en autobús) لكن نقول «a pie». ومع tener نعبّر عن الحالة: tengo prisa (أنا مستعجل)، tengo sed (أنا عطشان)، tengo sueño (أنا نعسان).",
+        "en": "ir: voy, vas, va, vamos, van. venir: vengo, vienes, viene, venimos, vienen. hacer: hago, haces, hace, hacemos, hacen. After ir we use \"a\" (Voy a la escuela, Voy al cine; a + el = al). After venir we use \"de\" (Vengo de casa; de + el = del). We use \"en\" for transport (en autobús) but say \"a pie\" for on foot. With tener we express states: tengo prisa (I am in a hurry), tengo sed (I am thirsty), tengo sueño (I am sleepy).",
+        "id": "ir: voy, vas, va, vamos, van. venir: vengo, vienes, viene, venimos, vienen. hacer: hago, haces, hace, hacemos, hacen. Setelah ir dipakai \"a\" (Voy a la escuela, Voy al cine; a + el = al). Setelah venir dipakai \"de\" (Vengo de casa; de + el = del). Untuk kendaraan dipakai \"en\" (en autobús), tetapi \"a pie\" untuk berjalan kaki. Dengan tener kita menyatakan keadaan: tengo prisa (saya terburu-buru), tengo sed (saya haus), tengo sueño (saya mengantuk)."
+      }
+    },
+    "items": [
+      {
+        "id": "es13n1",
+        "target": "¿Adónde vas?",
+        "translit": "ah-DOHN-deh BAHS",
+        "tr": {
+          "ar": "إلى أين تذهب؟",
+          "en": "Where are you going?",
+          "id": "Kamu pergi ke mana?"
+        },
+        "example": {
+          "target": "¿Adónde va usted?",
+          "translit": "ah-DOHN-deh bah oos-TEHD",
+          "tr": {
+            "ar": "إلى أين تذهب؟ (رسمي)",
+            "en": "Where are you going? (formal)",
+            "id": "Anda pergi ke mana? (formal)"
+          }
+        },
+        "hint": {
+          "ar": "«Adónde» (حركة نحو مكان) تختلف عن «dónde» (مكان وجود). حرف v يُنطق b.",
+          "en": "\"Adónde\" (movement toward) differs from \"dónde\" (location). The v sounds like b.",
+          "id": "\"Adónde\" (arah gerakan) berbeda dari \"dónde\" (letak). Huruf v dibaca b."
+        }
+      },
+      {
+        "id": "es13n2",
+        "target": "Voy al trabajo en autobús.",
+        "translit": "boy ahl trah-BAH-hoh ehn ow-toh-BOOS",
+        "tr": {
+          "ar": "أذهب إلى العمل بالحافلة.",
+          "en": "I go to work by bus.",
+          "id": "Saya pergi ke tempat kerja naik bus."
+        },
+        "example": {
+          "target": "Mi hermano va a la universidad en metro.",
+          "translit": "mee ehr-MAH-noh bah ah lah oo-nee-behr-see-DAHD ehn MEH-troh",
+          "tr": {
+            "ar": "يذهب أخي إلى الجامعة بالمترو.",
+            "en": "My brother goes to the university by metro.",
+            "id": "Saudara laki-laki saya pergi ke universitas naik metro."
+          }
+        }
+      },
+      {
+        "id": "es13n3",
+        "target": "Voy a pie.",
+        "translit": "boy ah PYEH",
+        "tr": {
+          "ar": "أذهب سيرًا على الأقدام.",
+          "en": "I go on foot.",
+          "id": "Saya berjalan kaki."
+        },
+        "example": {
+          "target": "Voy a pie porque vivo cerca.",
+          "translit": "boy ah PYEH POHR-keh BEE-boh SEHR-kah",
+          "tr": {
+            "ar": "أذهب سيرًا لأنني أسكن قريبًا.",
+            "en": "I walk because I live nearby.",
+            "id": "Saya berjalan kaki karena tinggal di dekat sini."
+          }
+        }
+      },
+      {
+        "id": "es13n4",
+        "target": "Vengo de la universidad.",
+        "translit": "BEHN-goh deh lah oo-nee-behr-see-DAHD",
+        "tr": {
+          "ar": "أنا قادم من الجامعة.",
+          "en": "I come from the university.",
+          "id": "Saya datang dari universitas."
+        },
+        "example": {
+          "target": "Vengo del trabajo a las seis.",
+          "translit": "BEHN-goh dehl trah-BAH-hoh ah lahs SAYS",
+          "tr": {
+            "ar": "أعود من العمل في السادسة.",
+            "en": "I come from work at six.",
+            "id": "Saya datang dari tempat kerja pukul enam."
+          }
+        }
+      },
+      {
+        "id": "es13n5",
+        "target": "¿Vienes con nosotros?",
+        "translit": "BYEH-nehs kohn noh-SOH-trohs",
+        "tr": {
+          "ar": "هل تأتي معنا؟",
+          "en": "Are you coming with us?",
+          "id": "Kamu ikut dengan kami?"
+        },
+        "example": {
+          "target": "Sí, vengo con ustedes.",
+          "translit": "see, BEHN-goh kohn oos-TEH-dehs",
+          "tr": {
+            "ar": "نعم، آتي معكم.",
+            "en": "Yes, I am coming with you.",
+            "id": "Ya, saya ikut dengan kalian."
+          }
+        }
+      },
+      {
+        "id": "es13n6",
+        "target": "¿Qué haces los sábados?",
+        "translit": "keh AH-sehs lohs SAH-bah-dohs",
+        "tr": {
+          "ar": "ماذا تفعل أيام السبت؟",
+          "en": "What do you do on Saturdays?",
+          "id": "Kamu melakukan apa pada hari Sabtu?"
+        },
+        "example": {
+          "target": "Los sábados no hago nada.",
+          "translit": "lohs SAH-bah-dohs noh AH-goh NAH-dah",
+          "tr": {
+            "ar": "لا أفعل شيئًا أيام السبت.",
+            "en": "On Saturdays I do nothing.",
+            "id": "Pada hari Sabtu saya tidak melakukan apa-apa."
+          }
+        }
+      },
+      {
+        "id": "es13n7",
+        "target": "Hago deporte.",
+        "translit": "AH-goh deh-POHR-teh",
+        "tr": {
+          "ar": "أمارس الرياضة.",
+          "en": "I do sport.",
+          "id": "Saya berolahraga."
+        },
+        "example": {
+          "target": "Hago deporte con mis amigos.",
+          "translit": "AH-goh deh-POHR-teh kohn mees ah-MEE-gohs",
+          "tr": {
+            "ar": "أمارس الرياضة مع أصدقائي.",
+            "en": "I do sport with my friends.",
+            "id": "Saya berolahraga dengan teman-teman."
+          }
+        }
+      },
+      {
+        "id": "es13n8",
+        "target": "Tengo prisa.",
+        "translit": "TEHN-goh PREE-sah",
+        "tr": {
+          "ar": "أنا مستعجل.",
+          "en": "I am in a hurry.",
+          "id": "Saya sedang terburu-buru."
+        },
+        "example": {
+          "target": "Tengo prisa; voy tarde.",
+          "translit": "TEHN-goh PREE-sah; boy TAHR-deh",
+          "tr": {
+            "ar": "أنا مستعجل؛ أنا متأخر.",
+            "en": "I am in a hurry; I am late.",
+            "id": "Saya terburu-buru; saya terlambat."
+          }
+        },
+        "hint": {
+          "ar": "نقول «tengo prisa» (عندي عجلة) ولا نقول «soy prisa».",
+          "en": "We say \"tengo prisa\" (I have hurry), never \"soy prisa\".",
+          "id": "Kita mengatakan \"tengo prisa\" (saya punya tergesa), bukan \"soy prisa\"."
+        }
+      }
+    ],
+    "cloze": [
+      {
+        "sentence": "Hoy ___ al cine con mis amigos.",
+        "answer": "voy",
+        "wrong": [
+          "vas",
+          "va"
+        ],
+        "tr": {
+          "ar": "أذهب اليوم إلى السينما مع أصدقائي.",
+          "en": "Today I am going to the cinema with my friends.",
+          "id": "Hari ini saya pergi ke bioskop dengan teman-teman."
+        },
+        "why": {
+          "ar": "الفاعل «yo» فنستعمل «voy». «Vas» لـ tú و«va» لـ él.",
+          "en": "The subject is \"yo\", so we use \"voy\". \"Vas\" is for tú and \"va\" for él.",
+          "id": "Subjeknya \"yo\", jadi dipakai \"voy\". \"Vas\" untuk tú dan \"va\" untuk él."
+        }
+      },
+      {
+        "sentence": "¿Qué ___ tú los domingos?",
+        "answer": "haces",
+        "wrong": [
+          "hago",
+          "hace"
+        ],
+        "tr": {
+          "ar": "ماذا تفعل أنت أيام الأحد؟",
+          "en": "What do you do on Sundays?",
+          "id": "Apa yang kamu lakukan pada hari Minggu?"
+        },
+        "why": {
+          "ar": "الفاعل «tú» فنستعمل «haces». «Hago» لـ yo و«hace» لـ él.",
+          "en": "The subject is \"tú\", so we use \"haces\". \"Hago\" is for yo and \"hace\" for él.",
+          "id": "Subjeknya \"tú\", jadi dipakai \"haces\". \"Hago\" untuk yo dan \"hace\" untuk él."
+        }
+      }
+    ],
+    "conversation": {
+      "context": {
+        "ar": "صديقان في مساء الجمعة.",
+        "en": "Two friends on a Friday evening.",
+        "id": "Dua teman pada Jumat malam."
+      },
+      "turns": [
+        {
+          "who": "A",
+          "target": "¿Qué haces hoy, Carlos?",
+          "tr": {
+            "ar": "ماذا ستفعل اليوم يا كارلوس؟",
+            "en": "What are you doing today, Carlos?",
+            "id": "Hari ini kamu melakukan apa, Carlos?"
+          }
+        },
+        {
+          "who": "B",
+          "target": "Voy al cine. ¿Vienes con nosotros?",
+          "tr": {
+            "ar": "أذهب إلى السينما. هل تأتي معنا؟",
+            "en": "I am going to the cinema. Are you coming with us?",
+            "id": "Saya pergi ke bioskop. Kamu ikut dengan kami?"
+          }
+        },
+        {
+          "who": "A",
+          "target": "Sí, encantada. ¿A qué hora?",
+          "tr": {
+            "ar": "نعم، بكل سرور. في أي ساعة؟",
+            "en": "Yes, gladly. At what time?",
+            "id": "Ya, dengan senang hati. Jam berapa?"
+          }
+        }
+      ],
+      "gap": 1,
+      "wrong": [
+        "Mi hermano vive en Madrid.",
+        "Son las cuatro."
+      ],
+      "why": {
+        "ar": "كارلوس سُئل عمّا يفعل اليوم، فيجيب بخطته ويدعو صديقه. الجوابان الآخران لا علاقة لهما بالسؤال.",
+        "en": "Carlos was asked what he is doing today, so he answers with his plan and invites his friend. The other replies have nothing to do with the question.",
+        "id": "Carlos ditanya apa yang ia lakukan hari ini, jadi ia menjawab dengan rencananya dan mengajak temannya. Dua jawaban lain tidak berkaitan dengan pertanyaan."
+      }
+    },
+    "summary": {
+      "ar": "تعلّمت ir وvenir وhacer وعبارة tengo prisa. تذكّر: voy، vengo، hago هي صيغ yo غير المنتظمة.",
+      "en": "You learned ir, venir, hacer and the phrase tengo prisa. Remember: voy, vengo, hago are the irregular yo forms.",
+      "id": "Anda belajar ir, venir, hacer, dan ungkapan tengo prisa. Ingat: voy, vengo, hago adalah bentuk yo yang tidak beraturan."
+    }
+  },
+  {
+    "id": "es-14",
+    "track": "es",
+    "level": "elementary",
+    "order": 14,
+    "topic": "stem-changing-verbs",
+    "icon": "🙋",
+    "title": {
+      "ar": "أريد وأستطيع ويجب عليّ",
+      "en": "Wanting, Being Able, Having To",
+      "id": "Ingin, Bisa, dan Harus"
+    },
+    "description": {
+      "ar": "أفعال تتغير جذورها، وعبارات الرغبة والقدرة والواجب.",
+      "en": "Stem-changing verbs and phrases for wishes, ability and duty.",
+      "id": "Kata kerja berubah akar serta ungkapan keinginan, kemampuan, dan kewajiban."
+    },
+    "objectives": [
+      {
+        "ar": "أستطيع استعمال querer وpoder وtener que مع المصدر.",
+        "en": "I can use querer, poder and tener que with an infinitive.",
+        "id": "Saya bisa memakai querer, poder, dan tener que dengan infinitif."
+      },
+      {
+        "ar": "أعرف أن حرف العلة في جذر بعض الأفعال يتغير (e>ie وo>ue).",
+        "en": "I know that the vowel in the stem of some verbs changes (e>ie, o>ue).",
+        "id": "Saya tahu bahwa vokal pada akar beberapa kata kerja berubah (e>ie, o>ue)."
+      },
+      {
+        "ar": "أستطيع الاستئذان وطلب المساعدة وقول إنني لا أفهم.",
+        "en": "I can ask permission, ask for help and say I do not understand.",
+        "id": "Saya bisa meminta izin, meminta bantuan, dan mengatakan saya tidak mengerti."
+      }
+    ],
+    "intro": {
+      "ar": "في بعض الأفعال يتغير حرف العلة في الجذر عندما يقع عليه النبر: «querer» تصبح «quiero»، و«poder» تصبح «puedo». هذه الأفعال تساعدك على الطلب والاستئذان وقول ما يجب عليك فعله، وهي مفيدة جدًا في الحياة اليومية.",
+      "en": "In some verbs the stem vowel changes when it carries the stress: \"querer\" becomes \"quiero\" and \"poder\" becomes \"puedo\". These verbs help you make requests, ask permission and say what you have to do, and they are very useful in daily life.",
+      "id": "Pada beberapa kata kerja, vokal akar berubah ketika mendapat tekanan: \"querer\" menjadi \"quiero\" dan \"poder\" menjadi \"puedo\". Kata kerja ini membantu Anda meminta, meminta izin, dan menyatakan hal yang harus dilakukan, dan sangat berguna sehari-hari."
+    },
+    "culture": {
+      "ar": "الإسبانيون وأهل أمريكا اللاتينية يخففون الطلب بأسلوب مهذب: «¿Puedes ayudarme?» أو «¿Puede ayudarme?» (رسمي) مع «por favor». وعند الدخول إلى غرفة يقال «¿Puedo pasar?» أو «Con permiso».",
+      "en": "Speakers soften requests politely: \"¿Puedes ayudarme?\" or \"¿Puede ayudarme?\" (formal) with \"por favor\". When entering a room people say \"¿Puedo pasar?\" or \"Con permiso\".",
+      "id": "Penutur melunakkan permintaan dengan sopan: \"¿Puedes ayudarme?\" atau \"¿Puede ayudarme?\" (formal) dengan \"por favor\". Saat masuk ke ruangan orang berkata \"¿Puedo pasar?\" atau \"Con permiso\"."
+    },
+    "grammar": {
+      "title": {
+        "ar": "تغيّر الجذر مع «nosotros» استثناءً",
+        "en": "Stem changes, except in nosotros",
+        "id": "Perubahan akar, kecuali pada nosotros"
+      },
+      "body": {
+        "ar": "e>ie: querer (quiero، quieres، quiere، queremos، quieren)، preferir (prefiero)، empezar (empiezo)، entender (entiendo). o>ue: poder (puedo، puedes، puede، podemos، pueden)، volver (vuelvo)، dormir (duermo). التغيير يحدث في yo وtú وél وellos، ولا يحدث في nosotros: queremos، podemos، volvemos. بعد querer وpoder نضع المصدر: «Quiero ir»، «¿Puedes ayudarme?». وللواجب: «tener que» + مصدر: «Tengo que estudiar». وبعد «empezar» نقول «a» عند وجود فعل: «Empiezo a trabajar».",
+        "en": "e>ie: querer (quiero, quieres, quiere, queremos, quieren), preferir (prefiero), empezar (empiezo), entender (entiendo). o>ue: poder (puedo, puedes, puede, podemos, pueden), volver (vuelvo), dormir (duermo). The change happens in yo, tú, él and ellos, but not in nosotros: queremos, podemos, volvemos. After querer and poder we put an infinitive: \"Quiero ir\", \"¿Puedes ayudarme?\". For duty: \"tener que\" + infinitive: \"Tengo que estudiar\". After \"empezar\" we say \"a\" before a verb: \"Empiezo a trabajar\".",
+        "id": "e>ie: querer (quiero, quieres, quiere, queremos, quieren), preferir (prefiero), empezar (empiezo), entender (entiendo). o>ue: poder (puedo, puedes, puede, podemos, pueden), volver (vuelvo), dormir (duermo). Perubahan terjadi pada yo, tú, él, dan ellos, tetapi tidak pada nosotros: queremos, podemos, volvemos. Setelah querer dan poder dipakai infinitif: \"Quiero ir\", \"¿Puedes ayudarme?\". Untuk kewajiban: \"tener que\" + infinitif: \"Tengo que estudiar\". Setelah \"empezar\" dipakai \"a\" sebelum kata kerja: \"Empiezo a trabajar\"."
+      }
+    },
+    "items": [
+      {
+        "id": "es14n1",
+        "target": "Quiero ir al cine.",
+        "translit": "KYEH-roh eer ahl SEE-neh",
+        "tr": {
+          "ar": "أريد الذهاب إلى السينما.",
+          "en": "I want to go to the cinema.",
+          "id": "Saya ingin pergi ke bioskop."
+        },
+        "example": {
+          "target": "Mis amigos quieren ir al cine.",
+          "translit": "mees ah-MEE-gohs KYEH-rehn eer ahl SEE-neh",
+          "tr": {
+            "ar": "يريد أصدقائي الذهاب إلى السينما.",
+            "en": "My friends want to go to the cinema.",
+            "id": "Teman-teman saya ingin pergi ke bioskop."
+          }
+        },
+        "hint": {
+          "ar": "حرفا ie في «quiero» يُنطقان معًا في مقطع واحد سريع: KYEH.",
+          "en": "The ie in \"quiero\" is one quick syllable: KYEH.",
+          "id": "Ie pada \"quiero\" dibaca dalam satu suku kata cepat: KYEH."
+        }
+      },
+      {
+        "id": "es14n2",
+        "target": "¿Puedes ayudarme?",
+        "translit": "PWEH-dehs ah-yoo-DAHR-meh",
+        "tr": {
+          "ar": "هل تستطيع مساعدتي؟",
+          "en": "Can you help me?",
+          "id": "Bisakah kamu membantu saya?"
+        },
+        "example": {
+          "target": "¿Puede ayudarme, por favor?",
+          "translit": "PWEH-deh ah-yoo-DAHR-meh pohr fah-BOHR",
+          "tr": {
+            "ar": "هل يمكنك مساعدتي من فضلك؟ (رسمي)",
+            "en": "Can you help me, please? (formal)",
+            "id": "Bisakah Anda membantu saya, tolong? (formal)"
+          }
+        }
+      },
+      {
+        "id": "es14n3",
+        "target": "¿Puedo pasar?",
+        "translit": "PWEH-doh pah-SAHR",
+        "tr": {
+          "ar": "هل يمكنني الدخول؟",
+          "en": "May I come in?",
+          "id": "Boleh saya masuk?"
+        },
+        "example": {
+          "target": "Buenos días, ¿puedo pasar?",
+          "translit": "BWEH-nohs DEE-ahs, PWEH-doh pah-SAHR",
+          "tr": {
+            "ar": "صباح الخير، هل يمكنني الدخول؟",
+            "en": "Good morning, may I come in?",
+            "id": "Selamat pagi, boleh saya masuk?"
+          }
+        }
+      },
+      {
+        "id": "es14n4",
+        "target": "Prefiero el té.",
+        "translit": "preh-FYEH-roh ehl TEH",
+        "tr": {
+          "ar": "أفضّل الشاي.",
+          "en": "I prefer tea.",
+          "id": "Saya lebih suka teh."
+        },
+        "example": {
+          "target": "Ella prefiere el café.",
+          "translit": "EH-yah preh-FYEH-reh ehl kah-FEH",
+          "tr": {
+            "ar": "هي تفضّل القهوة.",
+            "en": "She prefers coffee.",
+            "id": "Dia lebih suka kopi."
+          }
+        }
+      },
+      {
+        "id": "es14n5",
+        "target": "Tengo que estudiar.",
+        "translit": "TEHN-goh keh ehs-too-DYAHR",
+        "tr": {
+          "ar": "يجب أن أدرس.",
+          "en": "I have to study.",
+          "id": "Saya harus belajar."
+        },
+        "example": {
+          "target": "Mañana tengo que trabajar.",
+          "translit": "mah-NYAH-nah TEHN-goh keh trah-bah-HAHR",
+          "tr": {
+            "ar": "يجب أن أعمل غدًا.",
+            "en": "Tomorrow I have to work.",
+            "id": "Besok saya harus bekerja."
+          }
+        }
+      },
+      {
+        "id": "es14n6",
+        "target": "No entiendo.",
+        "translit": "noh ehn-TYEHN-doh",
+        "tr": {
+          "ar": "لا أفهم.",
+          "en": "I do not understand.",
+          "id": "Saya tidak mengerti."
+        },
+        "example": {
+          "target": "No entiendo la pregunta.",
+          "translit": "noh ehn-TYEHN-doh lah preh-GOON-tah",
+          "tr": {
+            "ar": "لا أفهم السؤال.",
+            "en": "I do not understand the question.",
+            "id": "Saya tidak mengerti pertanyaannya."
+          }
+        }
+      },
+      {
+        "id": "es14n7",
+        "target": "¿A qué hora empieza?",
+        "translit": "ah keh OH-rah ehm-PYEH-sah",
+        "tr": {
+          "ar": "في أي ساعة يبدأ؟",
+          "en": "What time does it start?",
+          "id": "Mulai jam berapa?"
+        },
+        "example": {
+          "target": "La película empieza a las ocho.",
+          "translit": "lah peh-LEE-koo-lah ehm-PYEH-sah ah lahs OH-choh",
+          "tr": {
+            "ar": "يبدأ الفيلم في الثامنة.",
+            "en": "The film starts at eight.",
+            "id": "Filmnya mulai pukul delapan."
+          }
+        }
+      },
+      {
+        "id": "es14n8",
+        "target": "Vuelvo a casa a las seis.",
+        "translit": "BWEHL-boh ah KAH-sah ah lahs SAYS",
+        "tr": {
+          "ar": "أعود إلى البيت في السادسة.",
+          "en": "I get home at six.",
+          "id": "Saya pulang ke rumah pukul enam."
+        },
+        "example": {
+          "target": "Mi padre vuelve a casa tarde.",
+          "translit": "mee PAH-dreh BWEHL-beh ah KAH-sah TAHR-deh",
+          "tr": {
+            "ar": "يعود أبي إلى البيت متأخرًا.",
+            "en": "My father gets home late.",
+            "id": "Ayah saya pulang larut."
+          }
+        }
+      }
+    ],
+    "cloze": [
+      {
+        "sentence": "Mario, ¿___ ayudarme, por favor?",
+        "answer": "puedes",
+        "wrong": [
+          "puedo",
+          "podemos"
+        ],
+        "tr": {
+          "ar": "يا ماريو، هل تستطيع مساعدتي من فضلك؟",
+          "en": "Mario, can you help me, please?",
+          "id": "Mario, bisakah kamu membantu saya, tolong?"
+        },
+        "why": {
+          "ar": "نخاطب ماريو بصيغة tú، فنقول «puedes». «Puedo» لـ yo و«podemos» لـ nosotros، ولا يناسبان سؤال شخص آخر أن يساعدنا.",
+          "en": "We ask Mario with tú, so we say \"puedes\". \"Puedo\" is for yo and \"podemos\" for nosotros; neither fits asking someone else to help us.",
+          "id": "Kita bertanya kepada Mario dengan tú, jadi dipakai \"puedes\". \"Puedo\" untuk yo dan \"podemos\" untuk nosotros; keduanya tidak cocok untuk meminta orang lain membantu kita."
+        }
+      },
+      {
+        "sentence": "Nosotros ___ a casa a las seis.",
+        "answer": "volvemos",
+        "wrong": [
+          "vuelvo",
+          "vuelve"
+        ],
+        "tr": {
+          "ar": "نعود إلى البيت في السادسة.",
+          "en": "We get home at six.",
+          "id": "Kami pulang ke rumah pukul enam."
+        },
+        "why": {
+          "ar": "مع «nosotros» لا يتغير الجذر: «volvemos». «Vuelvo» لـ yo و«vuelve» لـ él.",
+          "en": "With \"nosotros\" the stem does not change: \"volvemos\". \"Vuelvo\" is for yo and \"vuelve\" for él.",
+          "id": "Dengan \"nosotros\" akar tidak berubah: \"volvemos\". \"Vuelvo\" untuk yo dan \"vuelve\" untuk él."
+        }
+      }
+    ],
+    "conversation": {
+      "context": {
+        "ar": "طالب يسأل أستاذته (بصيغة «usted»).",
+        "en": "A student asks the teacher (formal usted).",
+        "id": "Seorang siswa bertanya kepada gurunya (usted, formal)."
+      },
+      "turns": [
+        {
+          "who": "A",
+          "target": "Perdone, ¿puede repetir, por favor?",
+          "tr": {
+            "ar": "عفوًا، هل يمكنك أن تكرري من فضلك؟",
+            "en": "Excuse me, can you repeat, please?",
+            "id": "Maaf, bisakah Anda mengulang, tolong?"
+          }
+        },
+        {
+          "who": "B",
+          "target": "Sí, claro.",
+          "tr": {
+            "ar": "نعم، بالطبع.",
+            "en": "Yes, of course.",
+            "id": "Ya, tentu."
+          }
+        },
+        {
+          "who": "A",
+          "target": "¿A qué hora empieza el examen?",
+          "tr": {
+            "ar": "في أي ساعة يبدأ الامتحان؟",
+            "en": "What time does the exam start?",
+            "id": "Ujiannya mulai jam berapa?"
+          }
+        },
+        {
+          "who": "B",
+          "target": "El examen empieza a las nueve.",
+          "tr": {
+            "ar": "يبدأ الامتحان في التاسعة.",
+            "en": "The exam starts at nine.",
+            "id": "Ujiannya mulai pukul sembilan."
+          }
+        }
+      ],
+      "gap": 3,
+      "wrong": [
+        "Prefiero el té.",
+        "Vuelvo a casa mañana."
+      ],
+      "why": {
+        "ar": "الطالب سأل عن موعد بدء الامتحان، فالجواب هو الساعة. الجوابان الآخران عن الشاي وعن العودة إلى البيت.",
+        "en": "The student asked when the exam starts, so the answer is a time. The other replies are about tea and going home.",
+        "id": "Siswa bertanya kapan ujian mulai, jadi jawabannya adalah jam. Dua jawaban lain tentang teh dan pulang ke rumah."
+      }
+    },
+    "summary": {
+      "ar": "تعلّمت أفعال e>ie وo>ue وعبارات querer وpoder وtener que. تذكّر: الجذر لا يتغير مع nosotros.",
+      "en": "You learned e>ie and o>ue verbs and the phrases with querer, poder and tener que. Remember: the stem does not change with nosotros.",
+      "id": "Anda belajar kata kerja e>ie dan o>ue serta ungkapan dengan querer, poder, dan tener que. Ingat: akar tidak berubah pada nosotros."
+    }
+  },
+  {
+    "id": "es-15",
+    "track": "es",
+    "level": "elementary",
+    "order": 15,
+    "topic": "clothes-colours-ser-estar",
+    "icon": "👕",
+    "title": {
+      "ar": "الملابس والألوان والوصف",
+      "en": "Clothes, Colours and Describing",
+      "id": "Pakaian, Warna, dan Cara Menggambarkan"
+    },
+    "description": {
+      "ar": "اسأل عن الملابس وصف الأشياء، وفرّق بين ser وestar.",
+      "en": "Talk about clothes, describe things, and tell ser from estar.",
+      "id": "Bicarakan pakaian, gambarkan benda, dan bedakan ser dari estar."
+    },
+    "objectives": [
+      {
+        "ar": "أستطيع تسمية ملابس وألوان أساسية.",
+        "en": "I can name basic clothes and colours.",
+        "id": "Saya bisa menyebut pakaian dan warna dasar."
+      },
+      {
+        "ar": "أستطيع مطابقة الصفة مع الاسم في الجنس والعدد.",
+        "en": "I can make adjectives agree with nouns in gender and number.",
+        "id": "Saya bisa menyesuaikan kata sifat dengan kata benda dalam gender dan jumlah."
+      },
+      {
+        "ar": "أستطيع التفريق بين ser وestar وطلب مقاس وتجربة قطعة.",
+        "en": "I can tell ser from estar, ask for a size and try something on.",
+        "id": "Saya bisa membedakan ser dari estar, menanyakan ukuran, dan mencoba pakaian."
+      }
+    ],
+    "intro": {
+      "ar": "في محل الملابس تحتاج إلى أسماء الملابس والألوان. وتتغير الصفة بحسب الاسم: «la camisa blanca» (مؤنث) و«los pantalones negros» (جمع مذكر). كما ستتعلم الفرق بين «ser» و«estar»: مثلًا «es aburrido» (هو ممل) و«está aburrido» (هو يشعر بالملل).",
+      "en": "In a clothes shop you need the names of clothes and colours. The adjective changes with the noun: \"la camisa blanca\" (feminine) and \"los pantalones negros\" (masculine plural). You also learn the difference between \"ser\" and \"estar\": for example \"es aburrido\" (he is boring) and \"está aburrido\" (he is bored).",
+      "id": "Di toko pakaian Anda memerlukan nama pakaian dan warna. Kata sifat berubah menurut kata benda: \"la camisa blanca\" (feminin) dan \"los pantalones negros\" (maskulin jamak). Anda juga belajar perbedaan \"ser\" dan \"estar\": misalnya \"es aburrido\" (dia membosankan) dan \"está aburrido\" (dia sedang bosan)."
+    },
+    "culture": {
+      "ar": "تختلف المقاسات بحسب المنطقة: ففي إسبانيا وأوروبا كثيرًا ما تُستعمل أرقام مثل 38 و40 و42، وتُستعمل S وM وL في أماكن كثيرة أيضًا. وللأحذية يقول كثيرون «número» بدل «talla»، وتُستعمل «talla» للملابس.",
+      "en": "Sizes differ by region: in Spain and Europe numbers such as 38, 40 and 42 are common, and S, M and L are used in many places too. For shoes many speakers say \"número\" instead of \"talla\"; \"talla\" is used for clothes.",
+      "id": "Ukuran berbeda menurut wilayah: di Spanyol dan Eropa sering dipakai angka seperti 38, 40, dan 42, sedangkan S, M, dan L dipakai di banyak tempat juga. Untuk sepatu banyak penutur berkata \"número\" bukan \"talla\"; \"talla\" dipakai untuk pakaian."
+    },
+    "grammar": {
+      "title": {
+        "ar": "ser وestar، والصفة تتبع الاسم",
+        "en": "Ser and estar, and adjectives that agree",
+        "id": "Ser dan estar, serta kata sifat yang menyesuaikan"
+      },
+      "body": {
+        "ar": "نستعمل «ser» للهوية والصفات الدائمة والمادة والأصل: «Es alta»، «La camisa es de algodón»، «Soy de Egipto». ونستعمل «estar» للحالة المؤقتة والمزاج: «Estoy cansada»، «Está cerrado». الصفة تتبع الاسم: blanco/blanca/blancos/blancas. وألوان مثل «azul» و«verde» لا تتغير مع الجنس، فنقول «chaqueta azul» و«vestido azul» لكن «azules» للجمع. وبعض الصفات يتغير معناها: ser aburrido (ممل) وestar aburrido (يشعر بالملل).",
+        "en": "We use \"ser\" for identity, lasting qualities, material and origin: \"Es alta\", \"La camisa es de algodón\", \"Soy de Egipto\". We use \"estar\" for temporary states and moods: \"Estoy cansada\", \"Está cerrado\". The adjective agrees with the noun: blanco/blanca/blancos/blancas. Colours like \"azul\" and \"verde\" do not change with gender, so \"chaqueta azul\" and \"vestido azul\", but \"azules\" in the plural. Some adjectives change meaning: ser aburrido (boring) and estar aburrido (bored).",
+        "id": "Kita memakai \"ser\" untuk identitas, sifat tetap, bahan, dan asal: \"Es alta\", \"La camisa es de algodón\", \"Soy de Egipto\". Kita memakai \"estar\" untuk keadaan sementara dan suasana hati: \"Estoy cansada\", \"Está cerrado\". Kata sifat menyesuaikan kata benda: blanco/blanca/blancos/blancas. Warna seperti \"azul\" dan \"verde\" tidak berubah menurut gender, jadi \"chaqueta azul\" dan \"vestido azul\", tetapi \"azules\" untuk jamak. Beberapa kata sifat berubah arti: ser aburrido (membosankan) dan estar aburrido (sedang bosan)."
+      }
+    },
+    "items": [
+      {
+        "id": "es15n1",
+        "target": "La camisa blanca",
+        "translit": "lah kah-MEE-sah BLAHN-kah",
+        "tr": {
+          "ar": "القميص الأبيض",
+          "en": "the white shirt",
+          "id": "kemeja putih"
+        },
+        "example": {
+          "target": "La camisa blanca es nueva.",
+          "translit": "lah kah-MEE-sah BLAHN-kah ehs NWEH-bah",
+          "tr": {
+            "ar": "القميص الأبيض جديد.",
+            "en": "The white shirt is new.",
+            "id": "Kemeja putih itu baru."
+          }
+        }
+      },
+      {
+        "id": "es15n2",
+        "target": "Los pantalones negros",
+        "translit": "lohs pahn-tah-LOH-nehs NEH-grohs",
+        "tr": {
+          "ar": "البنطلونات السوداء",
+          "en": "the black trousers",
+          "id": "celana hitam"
+        },
+        "example": {
+          "target": "Los pantalones negros son caros.",
+          "translit": "lohs pahn-tah-LOH-nehs NEH-grohs sohn KAH-rohs",
+          "tr": {
+            "ar": "البنطلونات السوداء غالية.",
+            "en": "The black trousers are expensive.",
+            "id": "Celana hitam itu mahal."
+          }
+        },
+        "hint": {
+          "ar": "«Pantalones» تُستعمل غالبًا بصيغة الجمع في الإسبانية (وتوجد أيضًا «el pantalón» بالمفرد)، لذلك تأتي الصفة جمعًا: «negros».",
+          "en": "\"Pantalones\" is usually used in the plural in Spanish (the singular \"el pantalón\" also exists), so the adjective is plural: \"negros\".",
+          "id": "\"Pantalones\" biasanya dipakai dalam bentuk jamak (bentuk tunggal \"el pantalón\" juga ada), jadi kata sifatnya jamak: \"negros\"."
+        }
+      },
+      {
+        "id": "es15n3",
+        "target": "Los zapatos rojos",
+        "translit": "lohs sah-PAH-tohs RROH-hohs",
+        "tr": {
+          "ar": "الأحذية الحمراء",
+          "en": "the red shoes",
+          "id": "sepatu merah"
+        },
+        "example": {
+          "target": "Los zapatos rojos son bonitos.",
+          "translit": "lohs sah-PAH-tohs RROH-hohs sohn boh-NEE-tohs",
+          "tr": {
+            "ar": "الأحذية الحمراء جميلة.",
+            "en": "The red shoes are pretty.",
+            "id": "Sepatu merah itu bagus."
+          }
+        }
+      },
+      {
+        "id": "es15n4",
+        "target": "Una chaqueta azul",
+        "translit": "OO-nah chah-KEH-tah ah-SOOL",
+        "tr": {
+          "ar": "جاكيت أزرق",
+          "en": "a blue jacket",
+          "id": "jaket biru"
+        },
+        "example": {
+          "target": "Quiero una chaqueta azul, por favor.",
+          "translit": "KYEH-roh OO-nah chah-KEH-tah ah-SOOL pohr fah-BOHR",
+          "tr": {
+            "ar": "أريد جاكيتًا أزرق من فضلك.",
+            "en": "I want a blue jacket, please.",
+            "id": "Saya mau jaket biru, tolong."
+          }
+        }
+      },
+      {
+        "id": "es15n5",
+        "target": "¿Qué talla usa?",
+        "translit": "keh TAH-yah OO-sah",
+        "tr": {
+          "ar": "ما مقاسك؟ (رسمي)",
+          "en": "What size do you wear? (formal)",
+          "id": "Ukuran berapa yang Anda pakai? (formal)"
+        },
+        "example": {
+          "target": "¿Qué talla usa su hijo?",
+          "translit": "keh TAH-yah OO-sah soo EE-hoh",
+          "tr": {
+            "ar": "ما مقاس ابنك؟",
+            "en": "What size does your son wear?",
+            "id": "Ukuran berapa yang dipakai anak Anda?"
+          }
+        },
+        "hint": {
+          "ar": "حرف ll يُنطق كالياء: TAH-yah. ومع صديق نقول «¿Qué talla usas?».",
+          "en": "The ll sounds like y: TAH-yah. With a friend we say \"¿Qué talla usas?\".",
+          "id": "Huruf ll dibaca y: TAH-yah. Dengan teman dikatakan \"¿Qué talla usas?\"."
+        }
+      },
+      {
+        "id": "es15n6",
+        "target": "¿Me lo puedo probar?",
+        "translit": "meh loh PWEH-doh proh-BAHR",
+        "tr": {
+          "ar": "هل يمكنني تجربته؟",
+          "en": "Can I try it on?",
+          "id": "Boleh saya mencobanya?"
+        },
+        "example": {
+          "target": "Es un vestido bonito. ¿Me lo puedo probar?",
+          "translit": "ehs oon behs-TEE-doh boh-NEE-toh. meh loh PWEH-doh proh-BAHR",
+          "tr": {
+            "ar": "إنه فستان جميل. هل يمكنني تجربته؟",
+            "en": "It is a pretty dress. Can I try it on?",
+            "id": "Ini gaun yang bagus. Boleh saya mencobanya?"
+          }
+        },
+        "hint": {
+          "ar": "«lo» هنا تعني «إياه» (الفستان). احفظ العبارة كما هي، وسنشرح الضمائر لاحقًا.",
+          "en": "Here \"lo\" means \"it\" (the dress). Learn the phrase as it is; object pronouns are explained later.",
+          "id": "Di sini \"lo\" berarti \"-nya\" (gaun itu). Hafalkan ungkapan ini apa adanya; kata ganti objek dijelaskan nanti."
+        }
+      },
+      {
+        "id": "es15n7",
+        "target": "Es aburrido.",
+        "translit": "ehs ah-boo-RREE-doh",
+        "tr": {
+          "ar": "هو ممل.",
+          "en": "He is boring.",
+          "id": "Dia membosankan."
+        },
+        "example": {
+          "target": "Esta película es aburrida.",
+          "translit": "EHS-tah peh-LEE-koo-lah ehs ah-boo-RREE-dah",
+          "tr": {
+            "ar": "هذا الفيلم ممل.",
+            "en": "This film is boring.",
+            "id": "Film ini membosankan."
+          }
+        },
+        "hint": {
+          "ar": "مع «ser» تصف «aburrido» صفة دائمة: يسبب الملل.",
+          "en": "With \"ser\", \"aburrido\" describes a lasting quality: it causes boredom.",
+          "id": "Dengan \"ser\", \"aburrido\" menggambarkan sifat tetap: menimbulkan kebosanan."
+        }
+      },
+      {
+        "id": "es15n8",
+        "target": "Está aburrido.",
+        "translit": "ehs-TAH ah-boo-RREE-doh",
+        "tr": {
+          "ar": "هو يشعر بالملل.",
+          "en": "He is bored.",
+          "id": "Dia sedang bosan."
+        },
+        "example": {
+          "target": "Mi hijo está aburrido en casa.",
+          "translit": "mee EE-hoh ehs-TAH ah-boo-RREE-doh ehn KAH-sah",
+          "tr": {
+            "ar": "ابني يشعر بالملل في البيت.",
+            "en": "My son is bored at home.",
+            "id": "Anak saya bosan di rumah."
+          }
+        },
+        "hint": {
+          "ar": "مع «estar» تصف «aburrido» حالة مؤقتة: هو نفسه يشعر بالملل.",
+          "en": "With \"estar\", \"aburrido\" describes a temporary state: he himself feels bored.",
+          "id": "Dengan \"estar\", \"aburrido\" menggambarkan keadaan sementara: ia sendiri merasa bosan."
+        }
+      }
+    ],
+    "cloze": [
+      {
+        "sentence": "Hoy mi hermana ___ muy cansada.",
+        "answer": "está",
+        "wrong": [
+          "es",
+          "son"
+        ],
+        "tr": {
+          "ar": "أختي متعبة جدًا اليوم.",
+          "en": "My sister is very tired today.",
+          "id": "Adik/kakak perempuan saya sangat lelah hari ini."
+        },
+        "why": {
+          "ar": "التعب حالة مؤقتة، فنستعمل «estar». «Es» لا يناسب الحالة، و«son» للجمع.",
+          "en": "Tiredness is a temporary state, so we use \"estar\". \"Es\" does not fit a state, and \"son\" is plural.",
+          "id": "Kelelahan adalah keadaan sementara, jadi dipakai \"estar\". \"Es\" tidak cocok untuk keadaan, dan \"son\" jamak."
+        }
+      },
+      {
+        "sentence": "La camisa ___ de algodón.",
+        "answer": "es",
+        "wrong": [
+          "está",
+          "son"
+        ],
+        "tr": {
+          "ar": "القميص من القطن.",
+          "en": "The shirt is made of cotton.",
+          "id": "Kemeja itu terbuat dari katun."
+        },
+        "why": {
+          "ar": "المادة التي صُنع منها الشيء تُقال مع «ser»: «es de algodón». «Son» للجمع.",
+          "en": "The material something is made of takes \"ser\": \"es de algodón\". \"Son\" is plural.",
+          "id": "Bahan pembuat sesuatu memakai \"ser\": \"es de algodón\". \"Son\" jamak."
+        }
+      }
+    ],
+    "conversation": {
+      "context": {
+        "ar": "في محل ملابس (بصيغة «usted»).",
+        "en": "In a clothes shop (formal usted).",
+        "id": "Di toko pakaian (usted, formal)."
+      },
+      "turns": [
+        {
+          "who": "A",
+          "target": "Buenas tardes. ¿Qué desea?",
+          "tr": {
+            "ar": "مساء الخير. ماذا تريد؟",
+            "en": "Good afternoon. What would you like?",
+            "id": "Selamat sore. Anda mau apa?"
+          }
+        },
+        {
+          "who": "B",
+          "target": "Quiero una chaqueta azul, por favor.",
+          "tr": {
+            "ar": "أريد جاكيتًا أزرق من فضلك.",
+            "en": "I want a blue jacket, please.",
+            "id": "Saya mau jaket biru, tolong."
+          }
+        },
+        {
+          "who": "A",
+          "target": "¿Qué talla usa?",
+          "tr": {
+            "ar": "ما مقاسك؟",
+            "en": "What size do you wear?",
+            "id": "Ukuran berapa yang Anda pakai?"
+          }
+        },
+        {
+          "who": "B",
+          "target": "Uso talla cuarenta.",
+          "tr": {
+            "ar": "مقاسي أربعون.",
+            "en": "I wear size forty.",
+            "id": "Saya memakai ukuran empat puluh."
+          }
+        }
+      ],
+      "gap": 1,
+      "wrong": [
+        "Vivo en una ciudad pequeña.",
+        "Son las tres."
+      ],
+      "why": {
+        "ar": "البائع سأل عمّا يريد الزبون، فالجواب هو طلب القطعة. الجوابان الآخران لا يناسبان.",
+        "en": "The seller asked what the customer wants, so the answer is a request for an item. The other replies do not fit.",
+        "id": "Penjual bertanya apa yang diinginkan pembeli, jadi jawabannya adalah permintaan barang. Dua jawaban lain tidak cocok."
+      }
+    },
+    "summary": {
+      "ar": "تعلّمت الملابس والألوان، وأن الصفة تتبع الاسم، والفرق بين ser وestar. تذكّر: ser للصفة الدائمة وestar للحالة المؤقتة.",
+      "en": "You learned clothes and colours, that adjectives agree with nouns, and the difference between ser and estar. Remember: ser for lasting qualities, estar for temporary states.",
+      "id": "Anda belajar pakaian dan warna, bahwa kata sifat menyesuaikan kata benda, serta perbedaan ser dan estar. Ingat: ser untuk sifat tetap, estar untuk keadaan sementara."
+    }
+  },
+  {
+    "id": "es-16",
+    "track": "es",
+    "level": "elementary",
+    "order": 16,
+    "topic": "gustar-hobbies",
+    "icon": "⚽",
+    "title": {
+      "ar": "الهوايات والرياضة والأذواق",
+      "en": "Likes, Hobbies and Sports",
+      "id": "Kesukaan, Hobi, dan Olahraga"
+    },
+    "description": {
+      "ar": "قل ما تحب وما لا تحب، وتحدث عن وقت فراغك.",
+      "en": "Say what you like and dislike, and talk about your free time.",
+      "id": "Katakan apa yang Anda suka dan tidak suka, dan bicara tentang waktu luang."
+    },
+    "objectives": [
+      {
+        "ar": "أستطيع استعمال gustar وencantar مع المصدر ومع الأسماء.",
+        "en": "I can use gustar and encantar with an infinitive and with nouns.",
+        "id": "Saya bisa memakai gustar dan encantar dengan infinitif dan kata benda."
+      },
+      {
+        "ar": "أستطيع الموافقة بـ «a mí también» و«a mí tampoco».",
+        "en": "I can agree with \"a mí también\" and \"a mí tampoco\".",
+        "id": "Saya bisa menyatakan setuju dengan \"a mí también\" dan \"a mí tampoco\"."
+      },
+      {
+        "ar": "أستطيع السؤال عن الهوايات والكلام عن الرياضة.",
+        "en": "I can ask about hobbies and talk about sports.",
+        "id": "Saya bisa menanyakan hobi dan membicarakan olahraga."
+      }
+    ],
+    "intro": {
+      "ar": "الفعل «gustar» يعمل بطريقة مختلفة عن «like» الإنجليزي: الشيء المحبوب هو الفاعل. نقول «Me gusta el café» أي «القهوة تعجبني». وإذا كان الشيء جمعًا قلنا «Me gustan los deportes». والفعل «encantar» يعني «أحب كثيرًا».",
+      "en": "The verb \"gustar\" works differently from English \"like\": the thing liked is the subject. We say \"Me gusta el café\", literally \"coffee pleases me\". If the thing is plural we say \"Me gustan los deportes\". The verb \"encantar\" means \"to love\".",
+      "id": "Kata kerja \"gustar\" bekerja berbeda dari \"like\" dalam bahasa Inggris: hal yang disukai adalah subjeknya. Kita berkata \"Me gusta el café\", secara harfiah \"kopi menyenangkan saya\". Jika bendanya jamak dikatakan \"Me gustan los deportes\". Kata kerja \"encantar\" berarti \"sangat suka\"."
+    },
+    "culture": {
+      "ar": "كرة القدم رياضة شعبية جدًا في معظم البلدان الناطقة بالإسبانية. وفي المكسيك وفنزويلا وبعض بلدان الكاريبي يحب كثيرون البيسبول أيضًا. ومن الأسئلة المألوفة عند التعارف: «¿Qué haces en tu tiempo libre?» (ماذا تفعل في وقت فراغك؟).",
+      "en": "Football is hugely popular in most Spanish-speaking countries. In Mexico, Venezuela and parts of the Caribbean many people also love baseball. A common question when getting to know someone is \"¿Qué haces en tu tiempo libre?\" (What do you do in your free time?).",
+      "id": "Sepak bola sangat populer di sebagian besar negara berbahasa Spanyol. Di Meksiko, Venezuela, dan sebagian Karibia banyak orang juga menyukai bisbol. Pertanyaan yang lazim saat berkenalan adalah \"¿Qué haces en tu tiempo libre?\" (Apa yang kamu lakukan di waktu luang?)."
+    },
+    "grammar": {
+      "title": {
+        "ar": "me gusta / me gustan، وتأكيد «a mí»",
+        "en": "Me gusta / me gustan, and the emphasis \"a mí\"",
+        "id": "Me gusta / me gustan, dan penegasan \"a mí\""
+      },
+      "body": {
+        "ar": "الضمائر: me، te، le، nos، les. الفعل يتفق مع الشيء المحبوب: «Me gusta el cine» (مفرد)، «Me gustan los gatos» (جمع). ومع الفعل أو المصدر نستعمل المفرد: «Me gusta leer y bailar». وللنفي نضع no قبل الضمير: «No me gusta correr». وللتأكيد: «A mí me gusta» و«A ti te gusta». وللموافقة: «A mí también» بعد جملة مثبتة، و«A mí tampoco» بعد جملة منفية. ونفس القاعدة مع encantar وinteresar.",
+        "en": "Pronouns: me, te, le, nos, les. The verb agrees with the thing liked: \"Me gusta el cine\" (singular), \"Me gustan los gatos\" (plural). With a verb or infinitive we use the singular: \"Me gusta leer y bailar\". For negatives we put no before the pronoun: \"No me gusta correr\". For emphasis: \"A mí me gusta\" and \"A ti te gusta\". To agree: \"A mí también\" after an affirmative sentence and \"A mí tampoco\" after a negative one. The same rule applies to encantar and interesar.",
+        "id": "Kata ganti: me, te, le, nos, les. Kata kerja menyesuaikan dengan hal yang disukai: \"Me gusta el cine\" (tunggal), \"Me gustan los gatos\" (jamak). Dengan kata kerja atau infinitif dipakai tunggal: \"Me gusta leer y bailar\". Untuk negatif, no diletakkan sebelum kata ganti: \"No me gusta correr\". Untuk penegasan: \"A mí me gusta\" dan \"A ti te gusta\". Untuk menyetujui: \"A mí también\" setelah kalimat positif dan \"A mí tampoco\" setelah kalimat negatif. Aturan yang sama berlaku untuk encantar dan interesar."
+      }
+    },
+    "items": [
+      {
+        "id": "es16n1",
+        "target": "Me gusta leer.",
+        "translit": "meh GOOS-tah leh-EHR",
+        "tr": {
+          "ar": "أحب القراءة.",
+          "en": "I like reading.",
+          "id": "Saya suka membaca."
+        },
+        "example": {
+          "target": "Me gusta leer novelas.",
+          "translit": "meh GOOS-tah leh-EHR noh-BEH-lahs",
+          "tr": {
+            "ar": "أحب قراءة الروايات.",
+            "en": "I like reading novels.",
+            "id": "Saya suka membaca novel."
+          }
+        }
+      },
+      {
+        "id": "es16n2",
+        "target": "Me gustan los deportes.",
+        "translit": "meh GOOS-tahn lohs deh-POHR-tehs",
+        "tr": {
+          "ar": "أحب الرياضة.",
+          "en": "I like sports.",
+          "id": "Saya suka olahraga."
+        },
+        "example": {
+          "target": "Me gustan los gatos.",
+          "translit": "meh GOOS-tahn lohs GAH-tohs",
+          "tr": {
+            "ar": "أحب القطط.",
+            "en": "I like cats.",
+            "id": "Saya suka kucing."
+          }
+        },
+        "hint": {
+          "ar": "الشيء جمع فنقول «gustan» بنون.",
+          "en": "The thing liked is plural, so we say \"gustan\" with n.",
+          "id": "Bendanya jamak, jadi dikatakan \"gustan\" dengan n."
+        }
+      },
+      {
+        "id": "es16n3",
+        "target": "Me encanta la música.",
+        "translit": "meh ehn-KAHN-tah lah MOO-see-kah",
+        "tr": {
+          "ar": "أحب الموسيقى كثيرًا.",
+          "en": "I love music.",
+          "id": "Saya sangat suka musik."
+        },
+        "example": {
+          "target": "Me encanta la música latina.",
+          "translit": "meh ehn-KAHN-tah lah MOO-see-kah lah-TEE-nah",
+          "tr": {
+            "ar": "أحب الموسيقى اللاتينية كثيرًا.",
+            "en": "I love Latin music.",
+            "id": "Saya sangat suka musik Latin."
+          }
+        }
+      },
+      {
+        "id": "es16n4",
+        "target": "¿Te gusta bailar?",
+        "translit": "teh GOOS-tah bye-LAHR",
+        "tr": {
+          "ar": "هل تحب الرقص؟",
+          "en": "Do you like dancing?",
+          "id": "Apakah kamu suka menari?"
+        },
+        "example": {
+          "target": "¿Le gusta bailar a usted?",
+          "translit": "leh GOOS-tah bye-LAHR ah oos-TEHD",
+          "tr": {
+            "ar": "هل تحب الرقص؟ (رسمي)",
+            "en": "Do you like dancing? (formal)",
+            "id": "Apakah Anda suka menari? (formal)"
+          }
+        }
+      },
+      {
+        "id": "es16n5",
+        "target": "A mí también.",
+        "translit": "ah MEE tahm-BYEHN",
+        "tr": {
+          "ar": "وأنا أيضًا.",
+          "en": "Me too.",
+          "id": "Saya juga."
+        },
+        "example": {
+          "target": "Me gusta el cine. — A mí también.",
+          "translit": "meh GOOS-tah ehl SEE-neh. — ah MEE tahm-BYEHN",
+          "tr": {
+            "ar": "أحب السينما. — وأنا أيضًا.",
+            "en": "I like cinema. — Me too.",
+            "id": "Saya suka film. — Saya juga."
+          }
+        },
+        "hint": {
+          "ar": "بعد جملة منفية نقول «A mí tampoco» (ولا أنا): «No me gusta correr. — A mí tampoco».",
+          "en": "After a negative sentence we say \"A mí tampoco\" (me neither): \"No me gusta correr. — A mí tampoco\".",
+          "id": "Setelah kalimat negatif dikatakan \"A mí tampoco\" (saya juga tidak): \"No me gusta correr. — A mí tampoco\"."
+        }
+      },
+      {
+        "id": "es16n6",
+        "target": "No me gusta nada correr.",
+        "translit": "noh meh GOOS-tah NAH-dah koh-RREHR",
+        "tr": {
+          "ar": "لا أحب الجري إطلاقًا.",
+          "en": "I do not like running at all.",
+          "id": "Saya sama sekali tidak suka berlari."
+        },
+        "example": {
+          "target": "No me gusta nada el frío.",
+          "translit": "noh meh GOOS-tah NAH-dah ehl FREE-oh",
+          "tr": {
+            "ar": "لا أحب البرد إطلاقًا.",
+            "en": "I do not like the cold at all.",
+            "id": "Saya sama sekali tidak suka dingin."
+          }
+        }
+      },
+      {
+        "id": "es16n7",
+        "target": "Juego al fútbol los domingos.",
+        "translit": "HWEH-goh ahl FOOT-bohl lohs doh-MEEN-gohs",
+        "tr": {
+          "ar": "ألعب كرة القدم أيام الأحد.",
+          "en": "I play football on Sundays.",
+          "id": "Saya bermain sepak bola pada hari Minggu."
+        },
+        "example": {
+          "target": "Mi hermano juega al tenis.",
+          "translit": "mee ehr-MAH-noh HWEH-gah ahl TEH-nees",
+          "tr": {
+            "ar": "يلعب أخي التنس.",
+            "en": "My brother plays tennis.",
+            "id": "Saudara laki-laki saya bermain tenis."
+          }
+        },
+        "hint": {
+          "ar": "الفعل «jugar» يتغير جذره: juego، juegas، juega، jugamos. ونقول «jugar al fútbol».",
+          "en": "\"Jugar\" changes its stem: juego, juegas, juega, jugamos. We say \"jugar al fútbol\".",
+          "id": "\"Jugar\" berubah akarnya: juego, juegas, juega, jugamos. Dikatakan \"jugar al fútbol\"."
+        }
+      },
+      {
+        "id": "es16n8",
+        "target": "¿Qué haces en tu tiempo libre?",
+        "translit": "keh AH-sehs ehn too TYEHM-poh LEE-breh",
+        "tr": {
+          "ar": "ماذا تفعل في وقت فراغك؟",
+          "en": "What do you do in your free time?",
+          "id": "Apa yang kamu lakukan di waktu luang?"
+        },
+        "example": {
+          "target": "En mi tiempo libre veo películas.",
+          "translit": "ehn mee TYEHM-poh LEE-breh BEH-oh peh-LEE-koo-lahs",
+          "tr": {
+            "ar": "في وقت فراغي أشاهد أفلامًا.",
+            "en": "In my free time I watch films.",
+            "id": "Di waktu luang saya menonton film."
+          }
+        }
+      }
+    ],
+    "cloze": [
+      {
+        "sentence": "A mí ___ gustan los gatos.",
+        "answer": "me",
+        "wrong": [
+          "te",
+          "le"
+        ],
+        "tr": {
+          "ar": "أنا أحب القطط.",
+          "en": "I like cats.",
+          "id": "Saya suka kucing."
+        },
+        "why": {
+          "ar": "عندما نتكلم عن أنفسنا نقول «a mí me». «Te» لـ tú و«le» لـ él.",
+          "en": "When we speak about ourselves we say \"a mí me\". \"Te\" is for tú and \"le\" for él.",
+          "id": "Saat membicarakan diri sendiri dikatakan \"a mí me\". \"Te\" untuk tú dan \"le\" untuk él."
+        }
+      },
+      {
+        "sentence": "Me ___ los libros.",
+        "answer": "gustan",
+        "wrong": [
+          "gusta",
+          "gusto"
+        ],
+        "tr": {
+          "ar": "أحب الكتب.",
+          "en": "I like books.",
+          "id": "Saya suka buku."
+        },
+        "why": {
+          "ar": "«Los libros» جمع، فالفعل «gustan». «Gusta» للمفرد، و«gusto» لا تصلح هنا.",
+          "en": "\"Los libros\" is plural, so the verb is \"gustan\". \"Gusta\" is singular, and \"gusto\" does not work here.",
+          "id": "\"Los libros\" jamak, jadi kata kerjanya \"gustan\". \"Gusta\" tunggal, dan \"gusto\" tidak cocok di sini."
+        }
+      }
+    ],
+    "conversation": {
+      "context": {
+        "ar": "زميلان يقارنان هواياتهما.",
+        "en": "Two colleagues compare their hobbies.",
+        "id": "Dua rekan kerja membandingkan hobi mereka."
+      },
+      "turns": [
+        {
+          "who": "A",
+          "target": "¿Qué haces en tu tiempo libre?",
+          "tr": {
+            "ar": "ماذا تفعل في وقت فراغك؟",
+            "en": "What do you do in your free time?",
+            "id": "Apa yang kamu lakukan di waktu luang?"
+          }
+        },
+        {
+          "who": "B",
+          "target": "Me gusta leer y juego al tenis.",
+          "tr": {
+            "ar": "أحب القراءة وألعب التنس.",
+            "en": "I like reading and I play tennis.",
+            "id": "Saya suka membaca dan bermain tenis."
+          }
+        },
+        {
+          "who": "A",
+          "target": "A mí también me gusta leer.",
+          "tr": {
+            "ar": "وأنا أيضًا أحب القراءة.",
+            "en": "I like reading too.",
+            "id": "Saya juga suka membaca."
+          }
+        }
+      ],
+      "gap": 1,
+      "wrong": [
+        "Tengo prisa.",
+        "Vivo en Sevilla."
+      ],
+      "why": {
+        "ar": "السؤال عن وقت الفراغ، فالجواب يذكر الهوايات. الجوابان الآخران لا علاقة لهما بالسؤال.",
+        "en": "The question is about free time, so the answer mentions hobbies. The other replies have nothing to do with it.",
+        "id": "Pertanyaannya tentang waktu luang, jadi jawabannya menyebut hobi. Dua jawaban lain tidak berkaitan."
+      }
+    },
+    "summary": {
+      "ar": "تعلّمت gustar وencantar وأجوبة «a mí también/tampoco». تذكّر: gusta للمفرد والمصدر، وgustan للجمع.",
+      "en": "You learned gustar, encantar and the answers \"a mí también/tampoco\". Remember: gusta for singular and infinitives, gustan for plural.",
+      "id": "Anda belajar gustar, encantar, dan jawaban \"a mí también/tampoco\". Ingat: gusta untuk tunggal dan infinitif, gustan untuk jamak."
+    }
+  },
+  {
+    "id": "es-17",
+    "track": "es",
+    "level": "elementary",
+    "order": 17,
+    "topic": "daily-routine-reflexive",
+    "icon": "🌅",
+    "title": {
+      "ar": "يومي بالتفصيل",
+      "en": "My Day in Detail",
+      "id": "Hari Saya Secara Rinci"
+    },
+    "description": {
+      "ar": "تحدث عن روتينك اليومي بالأفعال الانعكاسية.",
+      "en": "Talk about your daily routine with reflexive verbs.",
+      "id": "Ceritakan rutinitas harian dengan kata kerja refleksif."
+    },
+    "objectives": [
+      {
+        "ar": "أستطيع وصف روتيني اليومي من الصباح إلى النوم.",
+        "en": "I can describe my daily routine from morning to bedtime.",
+        "id": "Saya bisa menggambarkan rutinitas harian dari pagi sampai tidur."
+      },
+      {
+        "ar": "أستطيع استعمال الأفعال الانعكاسية مع الضمير المناسب.",
+        "en": "I can use reflexive verbs with the right pronoun.",
+        "id": "Saya bisa memakai kata kerja refleksif dengan kata ganti yang tepat."
+      },
+      {
+        "ar": "أستطيع استعمال siempre وa veces وnunca وprimero وluego وdespués.",
+        "en": "I can use siempre, a veces, nunca, primero, luego and después.",
+        "id": "Saya bisa memakai siempre, a veces, nunca, primero, luego, dan después."
+      }
+    ],
+    "intro": {
+      "ar": "في الأفعال الانعكاسية يعود الفعل على الفاعل نفسه: «me levanto» (أوقظ نفسي، أي أنهض). نضع ضميرًا قبل الفعل يطابق الفاعل: me، te، se، nos، se. وسنتعلم أيضًا فعلين غير منتظمين في صيغة yo: «salgo» و«pongo»، وكلمات تدل على تكرار الفعل وترتيبه.",
+      "en": "In reflexive verbs the action turns back on the subject: \"me levanto\" (I get myself up, I get up). We put a pronoun before the verb that matches the subject: me, te, se, nos, se. You will also learn two verbs with irregular yo forms, \"salgo\" and \"pongo\", and words for how often and in what order things happen.",
+      "id": "Pada kata kerja refleksif, tindakan kembali kepada subjeknya: \"me levanto\" (saya membangunkan diri, yaitu bangun). Kita menaruh kata ganti sebelum kata kerja sesuai subjek: me, te, se, nos, se. Anda juga belajar dua kata kerja dengan bentuk yo tidak beraturan, \"salgo\" dan \"pongo\", serta kata untuk keseringan dan urutan."
+    },
+    "culture": {
+      "ar": "تختلف أسماء الوجبات ومواعيدها من بلد إلى آخر: فالوجبة الرئيسية في منتصف النهار تُسمّى غالبًا «comida» في إسبانيا و«almuerzo» في كثير من بلدان أمريكا اللاتينية. والوجبات هي: desayuno وcomida/almuerzo وcena.",
+      "en": "Names and times of meals differ from country to country: the main midday meal is often called \"comida\" in Spain and \"almuerzo\" in much of Latin America. The meals are desayuno, comida/almuerzo and cena.",
+      "id": "Nama dan waktu makan berbeda di tiap negara: makan utama siang hari sering disebut \"comida\" di Spanyol dan \"almuerzo\" di banyak negara Amerika Latin. Waktu makan: desayuno, comida/almuerzo, dan cena."
+    },
+    "grammar": {
+      "title": {
+        "ar": "الأفعال الانعكاسية وsalir وponer",
+        "en": "Reflexive verbs, salir and poner",
+        "id": "Kata kerja refleksif, salir, dan poner"
+      },
+      "body": {
+        "ar": "levantarse: me levanto، te levantas، se levanta، nos levantamos، se levantan. يأتي الضمير قبل الفعل ويطابق الفاعل. وبعض هذه الأفعال تغيّر الجذر: despertarse (me despierto)، acostarse (me acuesto)، vestirse (me visto). و«salir» (salgo، sales، sale، salimos، salen) و«poner» (pongo، pones، pone، ponemos، ponen) لهما صيغة yo غير منتظمة. ظروف التكرار: siempre (دائمًا)، a veces (أحيانًا)، nunca (أبدًا) وتأتي غالبًا قبل الفعل. وللترتيب: primero، luego، después.",
+        "en": "levantarse: me levanto, te levantas, se levanta, nos levantamos, se levantan. The pronoun goes before the verb and matches the subject. Some of these verbs change the stem: despertarse (me despierto), acostarse (me acuesto), vestirse (me visto). \"Salir\" (salgo, sales, sale, salimos, salen) and \"poner\" (pongo, pones, pone, ponemos, ponen) have an irregular yo form. Frequency adverbs: siempre (always), a veces (sometimes), nunca (never), usually before the verb. For order: primero, luego, después.",
+        "id": "levantarse: me levanto, te levantas, se levanta, nos levantamos, se levantan. Kata ganti diletakkan sebelum kata kerja dan sesuai subjek. Sebagian kata kerja ini mengubah akar: despertarse (me despierto), acostarse (me acuesto), vestirse (me visto). \"Salir\" (salgo, sales, sale, salimos, salen) dan \"poner\" (pongo, pones, pone, ponemos, ponen) punya bentuk yo tidak beraturan. Keterangan keseringan: siempre (selalu), a veces (kadang-kadang), nunca (tidak pernah), biasanya sebelum kata kerja. Untuk urutan: primero, luego, después."
+      }
+    },
+    "items": [
+      {
+        "id": "es17n1",
+        "target": "Me despierto a las siete.",
+        "translit": "meh dehs-PYEHR-toh ah lahs SYEH-teh",
+        "tr": {
+          "ar": "أستيقظ في السابعة.",
+          "en": "I wake up at seven.",
+          "id": "Saya bangun pukul tujuh."
+        },
+        "example": {
+          "target": "Mi hermana se despierta a las seis.",
+          "translit": "mee ehr-MAH-nah seh dehs-PYEHR-tah ah lahs SAYS",
+          "tr": {
+            "ar": "تستيقظ أختي في السادسة.",
+            "en": "My sister wakes up at six.",
+            "id": "Adik/kakak perempuan saya bangun pukul enam."
+          }
+        }
+      },
+      {
+        "id": "es17n2",
+        "target": "Me ducho y me visto.",
+        "translit": "meh DOO-choh ee meh BEES-toh",
+        "tr": {
+          "ar": "أستحم وأرتدي ملابسي.",
+          "en": "I shower and get dressed.",
+          "id": "Saya mandi dan berpakaian."
+        },
+        "example": {
+          "target": "Mi padre se ducha por la noche.",
+          "translit": "mee PAH-dreh seh DOO-chah pohr lah NOH-cheh",
+          "tr": {
+            "ar": "يستحم أبي في المساء.",
+            "en": "My father showers in the evening.",
+            "id": "Ayah saya mandi pada malam hari."
+          }
+        },
+        "hint": {
+          "ar": "الفعل «vestirse» يغيّر الجذر: me visto. حفظها كما هي الآن.",
+          "en": "\"Vestirse\" changes its stem: me visto. Just learn it as it is for now.",
+          "id": "\"Vestirse\" mengubah akarnya: me visto. Hafalkan saja dulu apa adanya."
+        }
+      },
+      {
+        "id": "es17n3",
+        "target": "Salgo de casa a las ocho.",
+        "translit": "SAHL-goh deh KAH-sah ah lahs OH-choh",
+        "tr": {
+          "ar": "أخرج من البيت في الثامنة.",
+          "en": "I leave home at eight.",
+          "id": "Saya keluar rumah pukul delapan."
+        },
+        "example": {
+          "target": "Mi madre sale de casa a las siete.",
+          "translit": "mee MAH-dreh SAH-leh deh KAH-sah ah lahs SYEH-teh",
+          "tr": {
+            "ar": "تخرج أمي من البيت في السابعة.",
+            "en": "My mother leaves home at seven.",
+            "id": "Ibu saya keluar rumah pukul tujuh."
+          }
+        }
+      },
+      {
+        "id": "es17n4",
+        "target": "Pongo la mesa.",
+        "translit": "POHN-goh lah MEH-sah",
+        "tr": {
+          "ar": "أحضّر المائدة.",
+          "en": "I set the table.",
+          "id": "Saya menata meja makan."
+        },
+        "example": {
+          "target": "Yo pongo la mesa y mi hermano lava los platos.",
+          "translit": "yoh POHN-goh lah MEH-sah ee mee ehr-MAH-noh LAH-bah lohs PLAH-tohs",
+          "tr": {
+            "ar": "أنا أحضّر المائدة وأخي يغسل الصحون.",
+            "en": "I set the table and my brother washes the dishes.",
+            "id": "Saya menata meja dan saudara laki-laki saya mencuci piring."
+          }
+        }
+      },
+      {
+        "id": "es17n5",
+        "target": "Siempre desayuno en casa.",
+        "translit": "SYEHM-preh deh-sah-YOO-noh ehn KAH-sah",
+        "tr": {
+          "ar": "أتناول الفطور دائمًا في البيت.",
+          "en": "I always have breakfast at home.",
+          "id": "Saya selalu sarapan di rumah."
+        },
+        "example": {
+          "target": "Siempre desayuno fruta y café.",
+          "translit": "SYEHM-preh deh-sah-YOO-noh FROO-tah ee kah-FEH",
+          "tr": {
+            "ar": "أتناول الفطور دائمًا فاكهة وقهوة.",
+            "en": "I always have fruit and coffee for breakfast.",
+            "id": "Saya selalu sarapan buah dan kopi."
+          }
+        },
+        "hint": {
+          "ar": "«Desayunar» فعل عادي وليس انعكاسيًا، فنقول «desayuno» بلا me.",
+          "en": "\"Desayunar\" is an ordinary verb, not reflexive, so we say \"desayuno\" without me.",
+          "id": "\"Desayunar\" kata kerja biasa, bukan refleksif, jadi dikatakan \"desayuno\" tanpa me."
+        }
+      },
+      {
+        "id": "es17n6",
+        "target": "A veces ceno tarde.",
+        "translit": "ah BEH-sehs SEH-noh TAHR-deh",
+        "tr": {
+          "ar": "أحيانًا أتعشى متأخرًا.",
+          "en": "Sometimes I have dinner late.",
+          "id": "Kadang-kadang saya makan malam larut."
+        },
+        "example": {
+          "target": "A veces ceno en casa de mis padres.",
+          "translit": "ah BEH-sehs SEH-noh ehn KAH-sah deh mees PAH-drehs",
+          "tr": {
+            "ar": "أحيانًا أتعشى في بيت والدي.",
+            "en": "Sometimes I have dinner at my parents' house.",
+            "id": "Kadang-kadang saya makan malam di rumah orang tua saya."
+          }
+        }
+      },
+      {
+        "id": "es17n7",
+        "target": "Primero, luego, después",
+        "translit": "pree-MEH-roh, LWEH-goh, dehs-PWEHS",
+        "tr": {
+          "ar": "أولًا، ثم، بعد ذلك",
+          "en": "first, then, after",
+          "id": "pertama, lalu, setelah itu"
+        },
+        "example": {
+          "target": "Primero desayuno, luego trabajo y después estudio.",
+          "translit": "pree-MEH-roh deh-sah-YOO-noh, LWEH-goh trah-BAH-hoh ee dehs-PWEHS ehs-TOO-dyoh",
+          "tr": {
+            "ar": "أولًا أفطر، ثم أعمل، وبعد ذلك أدرس.",
+            "en": "First I have breakfast, then I work and after that I study.",
+            "id": "Pertama saya sarapan, lalu bekerja, dan setelah itu belajar."
+          }
+        }
+      },
+      {
+        "id": "es17n8",
+        "target": "Me acuesto a las once.",
+        "translit": "meh ah-KWEHS-toh ah lahs OHN-seh",
+        "tr": {
+          "ar": "أنام في الحادية عشرة.",
+          "en": "I go to bed at eleven.",
+          "id": "Saya tidur pukul sebelas."
+        },
+        "example": {
+          "target": "Mis hijos se acuestan a las nueve.",
+          "translit": "mees EE-hohs seh ah-KWEHS-tahn ah lahs NWEH-beh",
+          "tr": {
+            "ar": "يذهب أولادي إلى النوم في التاسعة.",
+            "en": "My children go to bed at nine.",
+            "id": "Anak-anak saya tidur pukul sembilan."
+          }
+        }
+      }
+    ],
+    "cloze": [
+      {
+        "sentence": "Ella ___ a las ocho.",
+        "answer": "se levanta",
+        "wrong": [
+          "me levanta",
+          "se levantan"
+        ],
+        "tr": {
+          "ar": "هي تنهض في الثامنة.",
+          "en": "She gets up at eight.",
+          "id": "Dia bangun pukul delapan."
+        },
+        "why": {
+          "ar": "الفاعل «ella» فنستعمل الضمير «se» والفعل «levanta». «Me levanta» لـ yo و«se levantan» للجمع.",
+          "en": "The subject is \"ella\", so we use the pronoun \"se\" and the verb \"levanta\". \"Me levanta\" does not match, and \"se levantan\" is plural.",
+          "id": "Subjeknya \"ella\", jadi dipakai kata ganti \"se\" dan kata kerja \"levanta\". \"Me levanta\" tidak sesuai, dan \"se levantan\" jamak."
+        }
+      },
+      {
+        "sentence": "Yo ___ la mesa antes de comer.",
+        "answer": "pongo",
+        "wrong": [
+          "pone",
+          "pones"
+        ],
+        "tr": {
+          "ar": "أحضّر المائدة قبل الأكل.",
+          "en": "I set the table before eating.",
+          "id": "Saya menata meja sebelum makan."
+        },
+        "why": {
+          "ar": "الفاعل «yo» فنستعمل الصيغة غير المنتظمة «pongo». «Pone» لـ él و«pones» لـ tú.",
+          "en": "The subject is \"yo\", so we use the irregular form \"pongo\". \"Pone\" is for él and \"pones\" for tú.",
+          "id": "Subjeknya \"yo\", jadi dipakai bentuk tidak beraturan \"pongo\". \"Pone\" untuk él dan \"pones\" untuk tú."
+        }
+      }
+    ],
+    "conversation": {
+      "context": {
+        "ar": "وصف يوم عادي لزميل في السكن (بصيغة «tú»).",
+        "en": "Describing a typical weekday to a flatmate (informal tú).",
+        "id": "Menceritakan hari biasa kepada teman serumah (tú, akrab)."
+      },
+      "turns": [
+        {
+          "who": "A",
+          "target": "¿A qué hora te levantas?",
+          "tr": {
+            "ar": "في أي ساعة تنهض؟",
+            "en": "What time do you get up?",
+            "id": "Jam berapa kamu bangun?"
+          }
+        },
+        {
+          "who": "B",
+          "target": "Me levanto a las siete y salgo de casa a las ocho.",
+          "tr": {
+            "ar": "أنهض في السابعة وأخرج من البيت في الثامنة.",
+            "en": "I get up at seven and leave home at eight.",
+            "id": "Saya bangun pukul tujuh dan keluar rumah pukul delapan."
+          }
+        },
+        {
+          "who": "A",
+          "target": "¿Desayunas en casa?",
+          "tr": {
+            "ar": "هل تتناول الفطور في البيت؟",
+            "en": "Do you have breakfast at home?",
+            "id": "Apakah kamu sarapan di rumah?"
+          }
+        },
+        {
+          "who": "B",
+          "target": "Sí, siempre desayuno en casa.",
+          "tr": {
+            "ar": "نعم، دائمًا أفطر في البيت.",
+            "en": "Yes, I always have breakfast at home.",
+            "id": "Ya, saya selalu sarapan di rumah."
+          }
+        }
+      ],
+      "gap": 1,
+      "wrong": [
+        "Vivo en un apartamento.",
+        "Se levanta a las siete."
+      ],
+      "why": {
+        "ar": "السؤال بصيغة «tú» عن ساعة النهوض، فالجواب بصيغة «yo»: «me levanto». «Se levanta» تعني «هو ينهض».",
+        "en": "The question is about when you get up (tú), so the answer uses yo: \"me levanto\". \"Se levanta\" means \"he/she gets up\".",
+        "id": "Pertanyaannya tentang jam bangun (tú), jadi jawabannya memakai yo: \"me levanto\". \"Se levanta\" berarti \"dia bangun\"."
+      }
+    },
+    "summary": {
+      "ar": "تعلّمت الأفعال الانعكاسية وsalgo وpongo وظروف التكرار. تذكّر: الضمير يسبق الفعل ويطابق الفاعل.",
+      "en": "You learned reflexive verbs, salgo, pongo and frequency adverbs. Remember: the pronoun goes before the verb and matches the subject.",
+      "id": "Anda belajar kata kerja refleksif, salgo, pongo, dan keterangan keseringan. Ingat: kata ganti diletakkan sebelum kata kerja dan sesuai subjek."
+    }
+  },
+  {
+    "id": "es-18",
+    "track": "es",
+    "level": "elementary",
+    "order": 18,
+    "topic": "weather-months-plans",
+    "icon": "⛅",
+    "title": {
+      "ar": "الطقس والأشهر والخطط",
+      "en": "Weather, Months and Plans",
+      "id": "Cuaca, Bulan, dan Rencana"
+    },
+    "description": {
+      "ar": "تحدث عن الطقس والتواريخ وما ستفعله قريبًا.",
+      "en": "Talk about the weather, dates and what you are going to do soon.",
+      "id": "Bicarakan cuaca, tanggal, dan apa yang akan Anda lakukan segera."
+    },
+    "objectives": [
+      {
+        "ar": "أستطيع وصف الطقس باستعمال hace وllueve.",
+        "en": "I can describe the weather with hace and llueve.",
+        "id": "Saya bisa menggambarkan cuaca dengan hace dan llueve."
+      },
+      {
+        "ar": "أستطيع قول التاريخ والشهر.",
+        "en": "I can say the date and the month.",
+        "id": "Saya bisa menyebutkan tanggal dan bulan."
+      },
+      {
+        "ar": "أستطيع الكلام عن الخطط بصيغة ir a + المصدر.",
+        "en": "I can talk about plans with ir a + infinitive.",
+        "id": "Saya bisa membicarakan rencana dengan ir a + infinitif."
+      }
+    ],
+    "intro": {
+      "ar": "للحديث عن الطقس نستعمل غالبًا الفعل «hacer»: «Hace calor» (الجو حار). وللكلام عمّا سيحدث قريبًا نستعمل «ir a» + مصدر: «Voy a viajar» (سأسافر)، «Va a llover» (ستمطر). وبما أنك تعرف ir من الدرس 13، فهذا سهل.",
+      "en": "To talk about the weather we often use the verb \"hacer\": \"Hace calor\" (it is hot). To talk about what will happen soon we use \"ir a\" + infinitive: \"Voy a viajar\" (I am going to travel), \"Va a llover\" (it is going to rain). Since you know ir from lesson 13, this is easy.",
+      "id": "Untuk membicarakan cuaca kita sering memakai kata kerja \"hacer\": \"Hace calor\" (cuacanya panas). Untuk membicarakan hal yang akan terjadi segera dipakai \"ir a\" + infinitif: \"Voy a viajar\" (saya akan bepergian), \"Va a llover\" (akan hujan). Karena Anda sudah tahu ir dari pelajaran 13, ini mudah."
+    },
+    "culture": {
+      "ar": "الفصول معكوسة بين نصفي الكرة الأرضية: ففي الأرجنتين وتشيلي يكون الصيف في ديسمبر ويناير. والتاريخ يُقال بترتيب اليوم ثم الشهر: «el cinco de mayo»، وأسماء الأشهر تُكتب بحروف صغيرة.",
+      "en": "The seasons are reversed between the hemispheres: in Argentina and Chile summer is in December and January. Dates are said day first, then month: \"el cinco de mayo\", and month names are written with a small letter.",
+      "id": "Musim terbalik antara belahan bumi: di Argentina dan Chili musim panas jatuh pada Desember dan Januari. Tanggal diucapkan dengan hari dahulu, lalu bulan: \"el cinco de mayo\", dan nama bulan ditulis dengan huruf kecil."
+    },
+    "grammar": {
+      "title": {
+        "ar": "hace للطقس وir a للخطط",
+        "en": "Hace for weather and ir a for plans",
+        "id": "Hace untuk cuaca dan ir a untuk rencana"
+      },
+      "body": {
+        "ar": "الطقس: «hace» + اسم: hace calor، hace frío، hace sol، hace viento. وبعض الأفعال تأتي وحدها: llueve (تمطر)، nieva (تثلج). و«está nublado» (الجو غائم). وللتأكيد: «hace mucho calor». الأشهر: enero، febrero، marzo، abril، mayo، junio، julio، agosto، septiembre، octubre، noviembre، diciembre. التاريخ: el + رقم + de + شهر. الفصول: la primavera، el verano، el otoño، el invierno. للخطط: ir (voy، vas، va، vamos، van) + a + مصدر: «Voy a viajar»، «Mañana va a llover».",
+        "en": "Weather: \"hace\" + noun: hace calor, hace frío, hace sol, hace viento. Some verbs stand alone: llueve (it rains), nieva (it snows). And \"está nublado\" (it is cloudy). For emphasis: \"hace mucho calor\". Months: enero, febrero, marzo, abril, mayo, junio, julio, agosto, septiembre, octubre, noviembre, diciembre. Dates: el + number + de + month. Seasons: la primavera, el verano, el otoño, el invierno. For plans: ir (voy, vas, va, vamos, van) + a + infinitive: \"Voy a viajar\", \"Mañana va a llover\".",
+        "id": "Cuaca: \"hace\" + kata benda: hace calor, hace frío, hace sol, hace viento. Beberapa kata kerja berdiri sendiri: llueve (hujan), nieva (turun salju). Dan \"está nublado\" (berawan). Untuk penekanan: \"hace mucho calor\". Bulan: enero, febrero, marzo, abril, mayo, junio, julio, agosto, septiembre, octubre, noviembre, diciembre. Tanggal: el + angka + de + bulan. Musim: la primavera, el verano, el otoño, el invierno. Untuk rencana: ir (voy, vas, va, vamos, van) + a + infinitif: \"Voy a viajar\", \"Mañana va a llover\"."
+      }
+    },
+    "items": [
+      {
+        "id": "es18n1",
+        "target": "¿Qué tiempo hace?",
+        "translit": "keh TYEHM-poh AH-seh",
+        "tr": {
+          "ar": "كيف الطقس؟",
+          "en": "What is the weather like?",
+          "id": "Bagaimana cuacanya?"
+        },
+        "example": {
+          "target": "¿Qué tiempo hace en Madrid hoy?",
+          "translit": "keh TYEHM-poh AH-seh ehn mah-DREED oy",
+          "tr": {
+            "ar": "كيف الطقس في مدريد اليوم؟",
+            "en": "What is the weather like in Madrid today?",
+            "id": "Bagaimana cuaca di Madrid hari ini?"
+          }
+        }
+      },
+      {
+        "id": "es18n2",
+        "target": "Hace calor.",
+        "translit": "AH-seh kah-LOHR",
+        "tr": {
+          "ar": "الجو حار.",
+          "en": "It is hot.",
+          "id": "Cuacanya panas."
+        },
+        "example": {
+          "target": "En verano hace mucho calor.",
+          "translit": "ehn beh-RAH-noh AH-seh MOO-choh kah-LOHR",
+          "tr": {
+            "ar": "في الصيف يكون الجو حارًا جدًا.",
+            "en": "In summer it is very hot.",
+            "id": "Pada musim panas cuacanya sangat panas."
+          }
+        },
+        "hint": {
+          "ar": "نقول «hace calor» للطقس، لكن «tengo calor» عندما أشعر أنا بالحر.",
+          "en": "We say \"hace calor\" for the weather, but \"tengo calor\" when I feel hot.",
+          "id": "Dikatakan \"hace calor\" untuk cuaca, tetapi \"tengo calor\" saat saya sendiri merasa panas."
+        }
+      },
+      {
+        "id": "es18n3",
+        "target": "Hace frío.",
+        "translit": "AH-seh FREE-oh",
+        "tr": {
+          "ar": "الجو بارد.",
+          "en": "It is cold.",
+          "id": "Cuacanya dingin."
+        },
+        "example": {
+          "target": "En invierno hace mucho frío.",
+          "translit": "ehn een-BYEHR-noh AH-seh MOO-choh FREE-oh",
+          "tr": {
+            "ar": "في الشتاء يكون الجو باردًا جدًا.",
+            "en": "In winter it is very cold.",
+            "id": "Pada musim dingin cuacanya sangat dingin."
+          }
+        }
+      },
+      {
+        "id": "es18n4",
+        "target": "Hoy llueve.",
+        "translit": "oy YWEH-beh",
+        "tr": {
+          "ar": "تمطر اليوم.",
+          "en": "It is raining today.",
+          "id": "Hari ini hujan."
+        },
+        "example": {
+          "target": "Hoy llueve mucho en la ciudad.",
+          "translit": "oy YWEH-beh MOO-choh ehn lah syoo-DAHD",
+          "tr": {
+            "ar": "تمطر كثيرًا اليوم في المدينة.",
+            "en": "It is raining a lot in the city today.",
+            "id": "Hari ini hujan deras di kota."
+          }
+        }
+      },
+      {
+        "id": "es18n5",
+        "target": "Hoy está nublado.",
+        "translit": "oy ehs-TAH noo-BLAH-doh",
+        "tr": {
+          "ar": "الجو غائم اليوم.",
+          "en": "It is cloudy today.",
+          "id": "Hari ini berawan."
+        },
+        "example": {
+          "target": "Hoy está nublado y no hace sol.",
+          "translit": "oy ehs-TAH noo-BLAH-doh ee noh AH-seh SOHL",
+          "tr": {
+            "ar": "الجو غائم اليوم ولا توجد شمس.",
+            "en": "It is cloudy today and it is not sunny.",
+            "id": "Hari ini berawan dan tidak ada matahari."
+          }
+        }
+      },
+      {
+        "id": "es18n6",
+        "target": "Es el cinco de mayo.",
+        "translit": "ehs ehl SEEN-koh deh MAH-yoh",
+        "tr": {
+          "ar": "إنه الخامس من مايو.",
+          "en": "It is the fifth of May.",
+          "id": "Hari ini tanggal lima Mei."
+        },
+        "example": {
+          "target": "Mi cumpleaños es el diez de marzo.",
+          "translit": "mee koom-pleh-AH-nyohs ehs ehl DYEHS deh MAHR-soh",
+          "tr": {
+            "ar": "عيد ميلادي في العاشر من مارس.",
+            "en": "My birthday is on the tenth of March.",
+            "id": "Ulang tahun saya tanggal sepuluh Maret."
+          }
+        }
+      },
+      {
+        "id": "es18n7",
+        "target": "Voy a viajar en julio.",
+        "translit": "boy ah byah-HAHR ehn HOO-lyoh",
+        "tr": {
+          "ar": "سأسافر في يوليو.",
+          "en": "I am going to travel in July.",
+          "id": "Saya akan bepergian pada bulan Juli."
+        },
+        "example": {
+          "target": "Mi familia va a viajar en agosto.",
+          "translit": "mee fah-MEE-lyah bah ah byah-HAHR ehn ah-GOHS-toh",
+          "tr": {
+            "ar": "ستسافر عائلتي في أغسطس.",
+            "en": "My family is going to travel in August.",
+            "id": "Keluarga saya akan bepergian pada bulan Agustus."
+          }
+        }
+      },
+      {
+        "id": "es18n8",
+        "target": "Mañana va a llover.",
+        "translit": "mah-NYAH-nah bah ah yoh-BEHR",
+        "tr": {
+          "ar": "ستمطر غدًا.",
+          "en": "It is going to rain tomorrow.",
+          "id": "Besok akan hujan."
+        },
+        "example": {
+          "target": "El sábado va a hacer sol.",
+          "translit": "ehl SAH-bah-doh bah ah ah-SEHR SOHL",
+          "tr": {
+            "ar": "ستكون الشمس مشرقة يوم السبت.",
+            "en": "It is going to be sunny on Saturday.",
+            "id": "Hari Sabtu akan cerah."
+          }
+        }
+      }
+    ],
+    "cloze": [
+      {
+        "sentence": "Mañana ___ a llover.",
+        "answer": "va",
+        "wrong": [
+          "voy",
+          "vas"
+        ],
+        "tr": {
+          "ar": "ستمطر غدًا.",
+          "en": "It is going to rain tomorrow.",
+          "id": "Besok akan hujan."
+        },
+        "why": {
+          "ar": "الفاعل غير شخصي (هو)، فنستعمل «va». «Voy» لـ yo و«vas» لـ tú.",
+          "en": "The subject is impersonal (third person), so we use \"va\". \"Voy\" is for yo and \"vas\" for tú.",
+          "id": "Subjeknya tak berpribadi (orang ketiga), jadi dipakai \"va\". \"Voy\" untuk yo dan \"vas\" untuk tú."
+        }
+      },
+      {
+        "sentence": "Hace mucho ___ en verano.",
+        "answer": "calor",
+        "wrong": [
+          "nublado",
+          "llueve"
+        ],
+        "tr": {
+          "ar": "الجو حار جدًا في الصيف.",
+          "en": "It is very hot in summer.",
+          "id": "Cuacanya sangat panas pada musim panas."
+        },
+        "why": {
+          "ar": "بعد «hace mucho» يأتي اسم مثل «calor». «Nublado» تأتي مع «está»، و«llueve» فعل لا يأتي بعد mucho.",
+          "en": "After \"hace mucho\" comes a noun like \"calor\". \"Nublado\" goes with \"está\", and \"llueve\" is a verb that cannot follow mucho.",
+          "id": "Setelah \"hace mucho\" datang kata benda seperti \"calor\". \"Nublado\" dipakai dengan \"está\", dan \"llueve\" adalah kata kerja yang tidak bisa mengikuti mucho."
+        }
+      }
+    ],
+    "conversation": {
+      "context": {
+        "ar": "صديقان يقرران نزهة يوم السبت بحسب الطقس.",
+        "en": "Two friends decide on a Saturday picnic depending on the weather.",
+        "id": "Dua teman memutuskan piknik hari Sabtu tergantung cuaca."
+      },
+      "turns": [
+        {
+          "who": "A",
+          "target": "¿Qué tiempo va a hacer el sábado?",
+          "tr": {
+            "ar": "كيف سيكون الطقس يوم السبت؟",
+            "en": "What is the weather going to be like on Saturday?",
+            "id": "Bagaimana cuaca hari Sabtu nanti?"
+          }
+        },
+        {
+          "who": "B",
+          "target": "Va a hacer sol y calor.",
+          "tr": {
+            "ar": "ستكون الشمس مشرقة والجو حارًا.",
+            "en": "It is going to be sunny and hot.",
+            "id": "Akan cerah dan panas."
+          }
+        },
+        {
+          "who": "A",
+          "target": "¡Perfecto! Vamos al parque.",
+          "tr": {
+            "ar": "رائع! لنذهب إلى الحديقة.",
+            "en": "Perfect! Let us go to the park.",
+            "id": "Bagus! Ayo kita ke taman."
+          }
+        },
+        {
+          "who": "B",
+          "target": "Sí, voy a preparar la comida.",
+          "tr": {
+            "ar": "نعم، سأحضّر الطعام.",
+            "en": "Yes, I am going to prepare the food.",
+            "id": "Ya, saya akan menyiapkan makanannya."
+          }
+        }
+      ],
+      "gap": 1,
+      "wrong": [
+        "Hoy es lunes.",
+        "Me llamo Rosa."
+      ],
+      "why": {
+        "ar": "سُئل عن طقس يوم السبت، فالجواب يصف الطقس. الجوابان الآخران عن اليوم وعن الاسم.",
+        "en": "The question is about Saturday's weather, so the answer describes the weather. The other replies are about the day and a name.",
+        "id": "Pertanyaannya tentang cuaca hari Sabtu, jadi jawabannya menggambarkan cuaca. Dua jawaban lain tentang hari dan nama."
+      }
+    },
+    "summary": {
+      "ar": "تعلّمت التعبير عن الطقس والتاريخ والخطط. تذكّر: voy/vas/va + a + مصدر.",
+      "en": "You learned to express the weather, the date and plans. Remember: voy/vas/va + a + infinitive.",
+      "id": "Anda belajar menyatakan cuaca, tanggal, dan rencana. Ingat: voy/vas/va + a + infinitif."
+    }
+  },
+  {
+    "id": "es-19",
+    "track": "es",
+    "level": "elementary",
+    "order": 19,
+    "topic": "city-transport-por-para",
+    "icon": "🚇",
+    "title": {
+      "ar": "التنقل في المدينة",
+      "en": "Getting Around the City",
+      "id": "Berkeliling di Kota"
+    },
+    "description": {
+      "ar": "اسأل عن المواصلات واشترِ تذكرة واستعمل por وpara.",
+      "en": "Ask about transport, buy a ticket and use por and para.",
+      "id": "Tanyakan transportasi, beli tiket, dan pakai por serta para."
+    },
+    "objectives": [
+      {
+        "ar": "أستطيع السؤال عن الطريق ووسائل النقل.",
+        "en": "I can ask about the way and about public transport.",
+        "id": "Saya bisa menanyakan jalan dan transportasi umum."
+      },
+      {
+        "ar": "أستطيع شراء تذكرة ذهاب وإياب.",
+        "en": "I can buy a return ticket.",
+        "id": "Saya bisa membeli tiket pulang pergi."
+      },
+      {
+        "ar": "أستطيع التفريق بين por وpara في أمثلة بسيطة.",
+        "en": "I can tell por from para in simple examples.",
+        "id": "Saya bisa membedakan por dari para dalam contoh sederhana."
+      }
+    ],
+    "intro": {
+      "ar": "في المدينة تحتاج إلى السؤال عن الحافلة والمترو والتذاكر. وهنا تتعلم حرفي الجر «por» و«para». نستعمل «para» للوجهة والغرض: «Este tren es para Sevilla». ونستعمل «por» للمرور من مكان والسبب والشكر: «Voy por la avenida»، «Gracias por su ayuda».",
+      "en": "In a city you need to ask about buses, the metro and tickets. Here you learn the prepositions \"por\" and \"para\". We use \"para\" for destination and purpose: \"Este tren es para Sevilla\". We use \"por\" for passing through a place, for cause and for thanks: \"Voy por la avenida\", \"Gracias por su ayuda\".",
+      "id": "Di kota Anda perlu menanyakan bus, metro, dan tiket. Di sini Anda belajar preposisi \"por\" dan \"para\". Kita memakai \"para\" untuk tujuan dan maksud: \"Este tren es para Sevilla\". Kita memakai \"por\" untuk melewati suatu tempat, sebab, dan ucapan terima kasih: \"Voy por la avenida\", \"Gracias por su ayuda\"."
+    },
+    "culture": {
+      "ar": "في إسبانيا يقولون «billete» للتذكرة، وفي أمريكا اللاتينية «boleto». وتختلف أسماء وسائل النقل: «metro» في معظم المدن، و«subte» في بوينس آيرس. وللاستئذان أو لفت الانتباه يقال «Perdone» أو «Disculpe».",
+      "en": "In Spain a ticket is a \"billete\", in Latin America a \"boleto\". Names of transport differ: \"metro\" in most cities, \"subte\" in Buenos Aires. To get someone's attention or excuse yourself you say \"Perdone\" or \"Disculpe\".",
+      "id": "Di Spanyol tiket disebut \"billete\", di Amerika Latin \"boleto\". Nama transportasi berbeda: \"metro\" di sebagian besar kota, \"subte\" di Buenos Aires. Untuk menarik perhatian atau meminta maaf dikatakan \"Perdone\" atau \"Disculpe\"."
+    },
+    "grammar": {
+      "title": {
+        "ar": "por مقابل para",
+        "en": "Por versus para",
+        "id": "Por dan para"
+      },
+      "body": {
+        "ar": "para: الوجهة («Este tren es para Sevilla»)، الغرض («Para ir al museo، tome el metro»)، لمن («Es para ti»). por: المرور عبر مكان («Voy por la avenida»)، السبب والشكر («Gracias por su ayuda»)، أجزاء اليوم («por la mañana»). ونستعمل «saber» لمعرفة معلومة: «¿Sabe dónde está la parada?» (sé، sabes، sabe، sabemos، saben). و«tome» هي صيغة الأمر الرسمية من «tomar».",
+        "en": "para: destination (\"Este tren es para Sevilla\"), purpose (\"Para ir al museo, tome el metro\"), for whom (\"Es para ti\"). por: passing through a place (\"Voy por la avenida\"), cause and thanks (\"Gracias por su ayuda\"), parts of the day (\"por la mañana\"). We use \"saber\" to know a piece of information: \"¿Sabe dónde está la parada?\" (sé, sabes, sabe, sabemos, saben). \"Tome\" is the formal command form of \"tomar\".",
+        "id": "para: tujuan tempat (\"Este tren es para Sevilla\"), maksud (\"Para ir al museo, tome el metro\"), untuk siapa (\"Es para ti\"). por: melewati suatu tempat (\"Voy por la avenida\"), sebab dan terima kasih (\"Gracias por su ayuda\"), bagian hari (\"por la mañana\"). Kita memakai \"saber\" untuk mengetahui informasi: \"¿Sabe dónde está la parada?\" (sé, sabes, sabe, sabemos, saben). \"Tome\" adalah bentuk perintah formal dari \"tomar\"."
+      }
+    },
+    "items": [
+      {
+        "id": "es19n1",
+        "target": "¿Cómo puedo llegar al centro?",
+        "translit": "KOH-moh PWEH-doh yeh-GAHR ahl SEHN-troh",
+        "tr": {
+          "ar": "كيف أصل إلى وسط المدينة؟",
+          "en": "How can I get to the centre?",
+          "id": "Bagaimana saya bisa sampai ke pusat kota?"
+        },
+        "example": {
+          "target": "Perdone, ¿cómo puedo llegar a la estación?",
+          "translit": "pehr-DOH-neh, KOH-moh PWEH-doh yeh-GAHR ah lah ehs-tah-SYOHN",
+          "tr": {
+            "ar": "عفوًا، كيف أصل إلى المحطة؟",
+            "en": "Excuse me, how can I get to the station?",
+            "id": "Permisi, bagaimana saya bisa sampai ke stasiun?"
+          }
+        }
+      },
+      {
+        "id": "es19n2",
+        "target": "¿Este autobús va al centro?",
+        "translit": "EHS-teh ow-toh-BOOS bah ahl SEHN-troh",
+        "tr": {
+          "ar": "هل تذهب هذه الحافلة إلى وسط المدينة؟",
+          "en": "Does this bus go to the centre?",
+          "id": "Apakah bus ini menuju pusat kota?"
+        },
+        "example": {
+          "target": "¿Este autobús va al aeropuerto?",
+          "translit": "EHS-teh ow-toh-BOOS bah ahl ah-eh-roh-PWEHR-toh",
+          "tr": {
+            "ar": "هل تذهب هذه الحافلة إلى المطار؟",
+            "en": "Does this bus go to the airport?",
+            "id": "Apakah bus ini menuju bandara?"
+          }
+        }
+      },
+      {
+        "id": "es19n3",
+        "target": "Un billete de ida y vuelta, por favor.",
+        "translit": "oon bee-YEH-teh deh EE-dah ee BWEHL-tah pohr fah-BOHR",
+        "tr": {
+          "ar": "تذكرة ذهاب وإياب من فضلك.",
+          "en": "A return ticket, please.",
+          "id": "Satu tiket pulang pergi, tolong."
+        },
+        "example": {
+          "target": "Quiero un billete de ida y vuelta a Sevilla.",
+          "translit": "KYEH-roh oon bee-YEH-teh deh EE-dah ee BWEHL-tah ah seh-BEE-yah",
+          "tr": {
+            "ar": "أريد تذكرة ذهاب وإياب إلى إشبيلية.",
+            "en": "I want a return ticket to Seville.",
+            "id": "Saya mau tiket pulang pergi ke Sevilla."
+          }
+        },
+        "hint": {
+          "ar": "في أمريكا اللاتينية يقولون «boleto» بدل «billete».",
+          "en": "In Latin America people say \"boleto\" instead of \"billete\".",
+          "id": "Di Amerika Latin orang berkata \"boleto\" bukan \"billete\"."
+        }
+      },
+      {
+        "id": "es19n4",
+        "target": "Este tren es para Sevilla.",
+        "translit": "EHS-teh trehn ehs PAH-rah seh-BEE-yah",
+        "tr": {
+          "ar": "هذا القطار متجه إلى إشبيلية.",
+          "en": "This train is for Seville.",
+          "id": "Kereta ini menuju Sevilla."
+        },
+        "example": {
+          "target": "Este autobús es para el aeropuerto.",
+          "translit": "EHS-teh ow-toh-BOOS ehs PAH-rah ehl ah-eh-roh-PWEHR-toh",
+          "tr": {
+            "ar": "هذه الحافلة متجهة إلى المطار.",
+            "en": "This bus is for the airport.",
+            "id": "Bus ini menuju bandara."
+          }
+        }
+      },
+      {
+        "id": "es19n5",
+        "target": "Voy por la avenida principal.",
+        "translit": "boy pohr lah ah-beh-NEE-dah preen-see-PAHL",
+        "tr": {
+          "ar": "أسير عبر الشارع الرئيسي.",
+          "en": "I go along the main avenue.",
+          "id": "Saya lewat jalan utama."
+        },
+        "example": {
+          "target": "El autobús va por la avenida y llega al centro.",
+          "translit": "ehl ow-toh-BOOS bah pohr lah ah-beh-NEE-dah ee YEH-gah ahl SEHN-troh",
+          "tr": {
+            "ar": "تسير الحافلة عبر الشارع وتصل إلى الوسط.",
+            "en": "The bus goes along the avenue and gets to the centre.",
+            "id": "Bus itu lewat jalan besar dan sampai di pusat kota."
+          }
+        }
+      },
+      {
+        "id": "es19n6",
+        "target": "¿Sabe dónde está la parada?",
+        "translit": "SAH-beh DOHN-deh ehs-TAH lah pah-RAH-dah",
+        "tr": {
+          "ar": "هل تعرف أين موقف الحافلة؟",
+          "en": "Do you know where the stop is?",
+          "id": "Apakah Anda tahu di mana halte?"
+        },
+        "example": {
+          "target": "¿Sabe dónde está la estación de metro?",
+          "translit": "SAH-beh DOHN-deh ehs-TAH lah ehs-tah-SYOHN deh MEH-troh",
+          "tr": {
+            "ar": "هل تعرف أين محطة المترو؟",
+            "en": "Do you know where the metro station is?",
+            "id": "Apakah Anda tahu di mana stasiun metro?"
+          }
+        }
+      },
+      {
+        "id": "es19n7",
+        "target": "Para ir al museo, tome el metro.",
+        "translit": "PAH-rah eer ahl moo-SEH-oh, TOH-meh ehl MEH-troh",
+        "tr": {
+          "ar": "للذهاب إلى المتحف، استقل المترو.",
+          "en": "To go to the museum, take the metro.",
+          "id": "Untuk pergi ke museum, naiklah metro."
+        },
+        "example": {
+          "target": "Para ir a la playa, tome el autobús.",
+          "translit": "PAH-rah eer ah lah PLAH-yah, TOH-meh ehl ow-toh-BOOS",
+          "tr": {
+            "ar": "للذهاب إلى الشاطئ، استقل الحافلة.",
+            "en": "To go to the beach, take the bus.",
+            "id": "Untuk pergi ke pantai, naiklah bus."
+          }
+        }
+      },
+      {
+        "id": "es19n8",
+        "target": "Gracias por su ayuda.",
+        "translit": "GRAH-syahs pohr soo ah-YOO-dah",
+        "tr": {
+          "ar": "شكرًا على مساعدتك.",
+          "en": "Thanks for your help.",
+          "id": "Terima kasih atas bantuan Anda."
+        },
+        "example": {
+          "target": "Gracias por la información.",
+          "translit": "GRAH-syahs pohr lah een-fohr-mah-SYOHN",
+          "tr": {
+            "ar": "شكرًا على المعلومات.",
+            "en": "Thanks for the information.",
+            "id": "Terima kasih atas informasinya."
+          }
+        }
+      }
+    ],
+    "cloze": [
+      {
+        "sentence": "Gracias ___ su ayuda.",
+        "answer": "por",
+        "wrong": [
+          "para",
+          "de"
+        ],
+        "tr": {
+          "ar": "شكرًا على مساعدتك.",
+          "en": "Thanks for your help.",
+          "id": "Terima kasih atas bantuan Anda."
+        },
+        "why": {
+          "ar": "للشكر نقول «gracias por». «Para» يدل على الوجهة أو الغرض، و«de» لا تُستعمل هنا بعد «gracias».",
+          "en": "To thank someone we say \"gracias por\". \"Para\" shows destination or purpose, and \"de\" is not used here after \"gracias\".",
+          "id": "Untuk berterima kasih dikatakan \"gracias por\". \"Para\" menunjukkan tujuan atau maksud, dan \"de\" tidak dipakai di sini setelah \"gracias\"."
+        }
+      },
+      {
+        "sentence": "Este tren es ___ Sevilla.",
+        "answer": "para",
+        "wrong": [
+          "por",
+          "con"
+        ],
+        "tr": {
+          "ar": "هذا القطار متجه إلى إشبيلية.",
+          "en": "This train is for Seville.",
+          "id": "Kereta ini menuju Sevilla."
+        },
+        "why": {
+          "ar": "الوجهة تُعبَّر عنها بـ «para». «Por» تدل على المرور أو السبب، و«con» تعني «مع».",
+          "en": "Destination is expressed with \"para\". \"Por\" shows passing through or cause, and \"con\" means \"with\".",
+          "id": "Tujuan dinyatakan dengan \"para\". \"Por\" menunjukkan melewati atau sebab, dan \"con\" berarti \"dengan\"."
+        }
+      }
+    ],
+    "conversation": {
+      "context": {
+        "ar": "عند شباك تذاكر المترو (بصيغة «usted»).",
+        "en": "At a metro ticket window (formal usted).",
+        "id": "Di loket tiket metro (usted, formal)."
+      },
+      "turns": [
+        {
+          "who": "A",
+          "target": "Buenos días. ¿Esta línea va al centro?",
+          "tr": {
+            "ar": "صباح الخير. هل يذهب هذا الخط إلى وسط المدينة؟",
+            "en": "Good morning. Does this line go to the centre?",
+            "id": "Selamat pagi. Apakah jalur ini menuju pusat kota?"
+          }
+        },
+        {
+          "who": "B",
+          "target": "Sí, va al centro.",
+          "tr": {
+            "ar": "نعم، يذهب إلى الوسط.",
+            "en": "Yes, it goes to the centre.",
+            "id": "Ya, menuju pusat kota."
+          }
+        },
+        {
+          "who": "A",
+          "target": "Un billete de ida y vuelta, por favor.",
+          "tr": {
+            "ar": "تذكرة ذهاب وإياب من فضلك.",
+            "en": "A return ticket, please.",
+            "id": "Satu tiket pulang pergi, tolong."
+          }
+        },
+        {
+          "who": "B",
+          "target": "Aquí tiene. Son tres euros.",
+          "tr": {
+            "ar": "تفضّل. الثمن ثلاثة يورو.",
+            "en": "Here you are. It is three euros.",
+            "id": "Ini dia. Harganya tiga euro."
+          }
+        },
+        {
+          "who": "A",
+          "target": "Gracias por su ayuda.",
+          "tr": {
+            "ar": "شكرًا على مساعدتك.",
+            "en": "Thanks for your help.",
+            "id": "Terima kasih atas bantuan Anda."
+          }
+        }
+      ],
+      "gap": 1,
+      "wrong": [
+        "Vivo en el centro.",
+        "Hoy hace calor."
+      ],
+      "why": {
+        "ar": "الزبون سأل إن كان الخط يذهب إلى الوسط، فالجواب نعم أو لا. الجوابان الآخران لا يناسبان.",
+        "en": "The customer asked whether the line goes to the centre, so the answer is yes or no. The other replies do not fit.",
+        "id": "Pelanggan bertanya apakah jalur menuju pusat kota, jadi jawabannya ya atau tidak. Dua jawaban lain tidak cocok."
+      }
+    },
+    "summary": {
+      "ar": "تعلّمت أن تسأل عن المواصلات وتشتري تذكرة. تذكّر: para للوجهة والغرض، وpor للمرور والسبب والشكر.",
+      "en": "You learned to ask about transport and buy a ticket. Remember: para for destination and purpose, por for passing through, cause and thanks.",
+      "id": "Anda belajar menanyakan transportasi dan membeli tiket. Ingat: para untuk tujuan dan maksud, por untuk melewati, sebab, dan terima kasih."
+    }
+  },
+  {
+    "id": "es-20",
+    "track": "es",
+    "level": "elementary",
+    "order": 20,
+    "topic": "restaurant-object-pronouns",
+    "icon": "🍽️",
+    "title": {
+      "ar": "في المطعم",
+      "en": "At the Restaurant",
+      "id": "Di Restoran"
+    },
+    "description": {
+      "ar": "اطلب وجبة كاملة وتعلّم الضمائر lo وla وlos وlas.",
+      "en": "Order a full meal and learn the pronouns lo, la, los and las.",
+      "id": "Pesan makanan lengkap dan pelajari kata ganti lo, la, los, dan las."
+    },
+    "objectives": [
+      {
+        "ar": "أستطيع طلب القائمة والوجبة الأولى والثانية.",
+        "en": "I can ask for the menu and order a first and a second course.",
+        "id": "Saya bisa meminta menu dan memesan hidangan pertama dan kedua."
+      },
+      {
+        "ar": "أستطيع استعمال lo وla لتجنب تكرار الاسم.",
+        "en": "I can use lo and la to avoid repeating the noun.",
+        "id": "Saya bisa memakai lo dan la agar tidak mengulang kata benda."
+      },
+      {
+        "ar": "أستطيع قول إنني نباتي وطلب ماء.",
+        "en": "I can say I am vegetarian and ask for water.",
+        "id": "Saya bisa mengatakan bahwa saya vegetarian dan meminta air."
+      }
+    ],
+    "intro": {
+      "ar": "في المطعم نطلب بعبارات مهذبة مثل «¿Me trae la carta?». وعندما نتكلم عن طبق سبق ذكره نستعمل ضميرًا بدل الاسم: «¿El pescado? Lo quiero con ensalada». الضمائر lo وla وlos وlas تأتي قبل الفعل المصرَّف.",
+      "en": "In a restaurant we order with polite phrases like \"¿Me trae la carta?\". When we talk about a dish already mentioned we use a pronoun instead of the noun: \"¿El pescado? Lo quiero con ensalada\". The pronouns lo, la, los and las go before the conjugated verb.",
+      "id": "Di restoran kita memesan dengan ungkapan sopan seperti \"¿Me trae la carta?\". Saat membicarakan hidangan yang sudah disebut, kita memakai kata ganti sebagai pengganti kata benda: \"¿El pescado? Lo quiero con ensalada\". Kata ganti lo, la, los, dan las diletakkan sebelum kata kerja yang dikonjugasi."
+    },
+    "culture": {
+      "ar": "في إسبانيا يوجد غالبًا «menú del día»، وهو وجبة بسعر ثابت فيها «primero» و«segundo» وحلوى. وتُسمّى قائمة الطعام «la carta» أو «el menú»، وتختلف الكلمة من بلد إلى آخر. وعند الانتهاء تطلب الفاتورة بقولك «La cuenta, por favor».",
+      "en": "In Spain there is often a \"menú del día\", a fixed-price meal with a \"primero\", a \"segundo\" and dessert. The list of dishes is called \"la carta\" or \"el menú\", and the word varies from country to country. When you have finished, you ask for the bill: \"La cuenta, por favor\".",
+      "id": "Di Spanyol sering ada \"menú del día\", makanan dengan harga tetap berisi \"primero\", \"segundo\", dan hidangan penutup. Daftar hidangan disebut \"la carta\" atau \"el menú\", dan kata yang dipakai berbeda di tiap negara. Setelah selesai, Anda meminta tagihan: \"La cuenta, por favor\"."
+    },
+    "grammar": {
+      "title": {
+        "ar": "الضمائر المباشرة lo وla وlos وlas",
+        "en": "Direct object pronouns lo, la, los, las",
+        "id": "Kata ganti objek langsung lo, la, los, las"
+      },
+      "body": {
+        "ar": "تحل هذه الضمائر محل الاسم الذي يقع عليه الفعل وتطابقه في الجنس والعدد: lo (مذكر مفرد)، la (مؤنث مفرد)، los (مذكر جمع)، las (مؤنث جمع). تأتي قبل الفعل المصرَّف: «¿El pescado? Lo quiero con arroz»، «¿La sopa? La quiero sin sal»، «¿Los tomates? Los quiero en la ensalada». وللطلب المهذب: «¿Me trae la carta?» (هل تحضر لي القائمة؟). وللتفضيلات: «con» (مع) و«sin» (بدون): «sin cebolla». ويقول الرجل «Soy vegetariano» وتقول المرأة «Soy vegetariana».",
+        "en": "These pronouns replace the noun that receives the action and agree with it in gender and number: lo (masculine singular), la (feminine singular), los (masculine plural), las (feminine plural). They go before the conjugated verb: \"¿El pescado? Lo quiero con arroz\", \"¿La sopa? La quiero sin sal\", \"¿Los tomates? Los quiero en la ensalada\". For a polite request: \"¿Me trae la carta?\" (Could you bring me the menu?). For preferences: \"con\" (with) and \"sin\" (without): \"sin cebolla\". A man says \"Soy vegetariano\" and a woman \"Soy vegetariana\".",
+        "id": "Kata ganti ini menggantikan kata benda yang menerima tindakan dan menyesuaikan gender serta jumlahnya: lo (maskulin tunggal), la (feminin tunggal), los (maskulin jamak), las (feminin jamak). Letaknya sebelum kata kerja yang dikonjugasi: \"¿El pescado? Lo quiero con arroz\", \"¿La sopa? La quiero sin sal\", \"¿Los tomates? Los quiero en la ensalada\". Untuk permintaan sopan: \"¿Me trae la carta?\" (Bisakah Anda membawakan menu?). Untuk preferensi: \"con\" (dengan) dan \"sin\" (tanpa): \"sin cebolla\". Laki-laki berkata \"Soy vegetariano\" dan perempuan \"Soy vegetariana\"."
+      }
+    },
+    "items": [
+      {
+        "id": "es20n1",
+        "target": "¿Me trae la carta, por favor?",
+        "translit": "meh TRAH-eh lah KAHR-tah pohr fah-BOHR",
+        "tr": {
+          "ar": "هل تحضر لي القائمة من فضلك؟",
+          "en": "Could you bring me the menu, please?",
+          "id": "Bisakah Anda membawakan menu, tolong?"
+        },
+        "example": {
+          "target": "Perdone, ¿me trae la carta y un vaso de agua?",
+          "translit": "pehr-DOH-neh, meh TRAH-eh lah KAHR-tah ee oon BAH-soh deh AH-gwah",
+          "tr": {
+            "ar": "عفوًا، هل تحضر لي القائمة وكأس ماء؟",
+            "en": "Excuse me, could you bring me the menu and a glass of water?",
+            "id": "Permisi, bisakah Anda membawakan menu dan segelas air?"
+          }
+        },
+        "hint": {
+          "ar": "في بعض بلدان أمريكا اللاتينية يقولون «el menú» بدل «la carta».",
+          "en": "In some Latin American countries people say \"el menú\" instead of \"la carta\".",
+          "id": "Di beberapa negara Amerika Latin orang berkata \"el menú\" bukan \"la carta\"."
+        }
+      },
+      {
+        "id": "es20n2",
+        "target": "¿Qué recomienda?",
+        "translit": "keh rreh-koh-MYEHN-dah",
+        "tr": {
+          "ar": "ماذا توصي؟",
+          "en": "What do you recommend?",
+          "id": "Apa yang Anda rekomendasikan?"
+        },
+        "example": {
+          "target": "¿Qué recomienda hoy?",
+          "translit": "keh rreh-koh-MYEHN-dah oy",
+          "tr": {
+            "ar": "ماذا توصي اليوم؟",
+            "en": "What do you recommend today?",
+            "id": "Apa yang Anda rekomendasikan hari ini?"
+          }
+        }
+      },
+      {
+        "id": "es20n3",
+        "target": "De primero, una sopa.",
+        "translit": "deh pree-MEH-roh, OO-nah SOH-pah",
+        "tr": {
+          "ar": "كطبق أول، شوربة.",
+          "en": "For the first course, a soup.",
+          "id": "Untuk hidangan pertama, sup."
+        },
+        "example": {
+          "target": "De primero, una sopa de verduras.",
+          "translit": "deh pree-MEH-roh, OO-nah SOH-pah deh behr-DOO-rahs",
+          "tr": {
+            "ar": "كطبق أول، شوربة خضار.",
+            "en": "For the first course, a vegetable soup.",
+            "id": "Untuk hidangan pertama, sup sayur."
+          }
+        }
+      },
+      {
+        "id": "es20n4",
+        "target": "De segundo, pollo con arroz.",
+        "translit": "deh seh-GOON-doh, POH-yoh kohn ah-RROHS",
+        "tr": {
+          "ar": "كطبق ثانٍ، دجاج مع أرز.",
+          "en": "For the main course, chicken with rice.",
+          "id": "Untuk hidangan utama, ayam dengan nasi."
+        },
+        "example": {
+          "target": "De segundo, pescado con verduras.",
+          "translit": "deh seh-GOON-doh, pehs-KAH-doh kohn behr-DOO-rahs",
+          "tr": {
+            "ar": "كطبق ثانٍ، سمك مع خضار.",
+            "en": "For the main course, fish with vegetables.",
+            "id": "Untuk hidangan utama, ikan dengan sayur."
+          }
+        }
+      },
+      {
+        "id": "es20n5",
+        "target": "Lo quiero con ensalada.",
+        "translit": "loh KYEH-roh kohn ehn-sah-LAH-dah",
+        "tr": {
+          "ar": "أريده مع سلطة.",
+          "en": "I want it with salad.",
+          "id": "Saya mau itu dengan salad."
+        },
+        "example": {
+          "target": "¿El pescado? Lo quiero con arroz.",
+          "translit": "ehl pehs-KAH-doh? loh KYEH-roh kohn ah-RROHS",
+          "tr": {
+            "ar": "السمك؟ أريده مع أرز.",
+            "en": "The fish? I want it with rice.",
+            "id": "Ikannya? Saya mau dengan nasi."
+          }
+        },
+        "hint": {
+          "ar": "«Lo» تعود على اسم مذكر مفرد (el pollo أو el pescado) وتأتي قبل الفعل.",
+          "en": "\"Lo\" refers to a masculine singular noun (el pollo or el pescado) and goes before the verb.",
+          "id": "\"Lo\" merujuk pada kata benda maskulin tunggal (el pollo atau el pescado) dan diletakkan sebelum kata kerja."
+        }
+      },
+      {
+        "id": "es20n6",
+        "target": "La quiero sin cebolla.",
+        "translit": "lah KYEH-roh seen seh-BOH-yah",
+        "tr": {
+          "ar": "أريدها بدون بصل.",
+          "en": "I want it without onion.",
+          "id": "Saya mau itu tanpa bawang."
+        },
+        "example": {
+          "target": "¿La sopa? La quiero sin sal.",
+          "translit": "lah SOH-pah? lah KYEH-roh seen SAHL",
+          "tr": {
+            "ar": "الشوربة؟ أريدها بدون ملح.",
+            "en": "The soup? I want it without salt.",
+            "id": "Supnya? Saya mau tanpa garam."
+          }
+        }
+      },
+      {
+        "id": "es20n7",
+        "target": "Soy vegetariano.",
+        "translit": "soy beh-heh-tah-RYAH-noh",
+        "tr": {
+          "ar": "أنا نباتي.",
+          "en": "I am vegetarian.",
+          "id": "Saya vegetarian."
+        },
+        "example": {
+          "target": "Soy vegetariana; no como carne.",
+          "translit": "soy beh-heh-tah-RYAH-nah; noh KOH-moh KAHR-neh",
+          "tr": {
+            "ar": "أنا نباتية؛ لا آكل اللحم.",
+            "en": "I am vegetarian; I do not eat meat.",
+            "id": "Saya vegetarian; saya tidak makan daging."
+          }
+        },
+        "hint": {
+          "ar": "المرأة تقول «vegetariana».",
+          "en": "A woman says \"vegetariana\".",
+          "id": "Perempuan berkata \"vegetariana\"."
+        }
+      },
+      {
+        "id": "es20n8",
+        "target": "Agua sin gas, por favor.",
+        "translit": "AH-gwah seen GAHS pohr fah-BOHR",
+        "tr": {
+          "ar": "ماء بدون غاز من فضلك.",
+          "en": "Still water, please.",
+          "id": "Air putih tanpa soda, tolong."
+        },
+        "example": {
+          "target": "Una botella de agua sin gas, por favor.",
+          "translit": "OO-nah boh-TEH-yah deh AH-gwah seen GAHS pohr fah-BOHR",
+          "tr": {
+            "ar": "زجاجة ماء بدون غاز من فضلك.",
+            "en": "A bottle of still water, please.",
+            "id": "Sebotol air putih tanpa soda, tolong."
+          }
+        }
+      }
+    ],
+    "cloze": [
+      {
+        "sentence": "¿La ensalada? ___ quiero sin cebolla.",
+        "answer": "La",
+        "wrong": [
+          "Lo",
+          "Las"
+        ],
+        "tr": {
+          "ar": "السلطة؟ أريدها بدون بصل.",
+          "en": "The salad? I want it without onion.",
+          "id": "Saladnya? Saya mau tanpa bawang."
+        },
+        "why": {
+          "ar": "«La ensalada» مؤنث مفرد فنستعمل «la». «Lo» للمذكر و«las» للجمع المؤنث.",
+          "en": "\"La ensalada\" is feminine singular, so we use \"la\". \"Lo\" is masculine and \"las\" is feminine plural.",
+          "id": "\"La ensalada\" feminin tunggal, jadi dipakai \"la\". \"Lo\" maskulin dan \"las\" feminin jamak."
+        }
+      },
+      {
+        "sentence": "¿Los tomates? ___ quiero en la ensalada.",
+        "answer": "Los",
+        "wrong": [
+          "Lo",
+          "Las"
+        ],
+        "tr": {
+          "ar": "الطماطم؟ أريدها في السلطة.",
+          "en": "The tomatoes? I want them in the salad.",
+          "id": "Tomatnya? Saya mau di dalam salad."
+        },
+        "why": {
+          "ar": "«Los tomates» مذكر جمع فنستعمل «los». «Lo» للمفرد و«las» للمؤنث.",
+          "en": "\"Los tomates\" is masculine plural, so we use \"los\". \"Lo\" is singular and \"las\" is feminine.",
+          "id": "\"Los tomates\" maskulin jamak, jadi dipakai \"los\". \"Lo\" tunggal dan \"las\" feminin."
+        }
+      }
+    ],
+    "conversation": {
+      "context": {
+        "ar": "في مطعم: النادل يأخذ الطلب (بصيغة «usted»).",
+        "en": "In a restaurant: the waiter takes the order (formal usted).",
+        "id": "Di restoran: pelayan mencatat pesanan (usted, formal)."
+      },
+      "turns": [
+        {
+          "who": "A",
+          "target": "Buenas noches. ¿Qué desea de primero?",
+          "tr": {
+            "ar": "مساء الخير. ماذا تريد كطبق أول؟",
+            "en": "Good evening. What would you like for the first course?",
+            "id": "Selamat malam. Anda mau apa untuk hidangan pertama?"
+          }
+        },
+        {
+          "who": "B",
+          "target": "De primero, una sopa.",
+          "tr": {
+            "ar": "كطبق أول، شوربة.",
+            "en": "For the first course, a soup.",
+            "id": "Untuk hidangan pertama, sup."
+          }
+        },
+        {
+          "who": "A",
+          "target": "¿Y de segundo?",
+          "tr": {
+            "ar": "وكطبق ثانٍ؟",
+            "en": "And for the main course?",
+            "id": "Dan untuk hidangan utama?"
+          }
+        },
+        {
+          "who": "B",
+          "target": "De segundo, pollo con arroz.",
+          "tr": {
+            "ar": "كطبق ثانٍ، دجاج مع أرز.",
+            "en": "For the main course, chicken with rice.",
+            "id": "Untuk hidangan utama, ayam dengan nasi."
+          }
+        }
+      ],
+      "gap": 1,
+      "wrong": [
+        "Quiero la cuenta, por favor.",
+        "Soy vegetariano."
+      ],
+      "why": {
+        "ar": "النادل سأل عن الطبق الأول، فالجواب هو اسم الطبق الأول. الجوابان الآخران لا يناسبان هذا السؤال.",
+        "en": "The waiter asked about the first course, so the answer names the first course. The other replies do not fit this question.",
+        "id": "Pelayan bertanya tentang hidangan pertama, jadi jawabannya menyebut hidangan pertama. Dua jawaban lain tidak cocok dengan pertanyaan ini."
+      }
+    },
+    "summary": {
+      "ar": "تعلّمت أن تطلب وجبة كاملة وتستعمل lo وla وlos وlas. تذكّر: الضمير يسبق الفعل ويطابق الاسم.",
+      "en": "You learned to order a full meal and use lo, la, los and las. Remember: the pronoun goes before the verb and agrees with the noun.",
+      "id": "Anda belajar memesan makanan lengkap dan memakai lo, la, los, dan las. Ingat: kata ganti diletakkan sebelum kata kerja dan sesuai kata benda."
+    }
+  }
+]

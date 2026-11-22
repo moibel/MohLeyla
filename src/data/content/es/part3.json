@@ -1,0 +1,3492 @@
+[
+  {
+    "id": "es-21",
+    "track": "es",
+    "level": "intermediate",
+    "order": 21,
+    "topic": "comparing-things",
+    "icon": "⚖️",
+    "title": {
+      "ar": "المقارنة بين الأشياء",
+      "en": "Comparing Things",
+      "id": "Membandingkan Hal"
+    },
+    "description": {
+      "ar": "قارن بين الأسعار والأماكن والأشياء وعبّر عن رأيك.",
+      "en": "Compare prices, places and things and say which you prefer.",
+      "id": "Bandingkan harga, tempat, dan barang, lalu katakan mana yang Anda pilih."
+    },
+    "objectives": [
+      {
+        "ar": "أستطيع المقارنة بين شيئين بـ «más... que» و«menos... que».",
+        "en": "I can compare two things with \"más... que\" and \"menos... que\".",
+        "id": "Saya bisa membandingkan dua hal dengan \"más... que\" dan \"menos... que\"."
+      },
+      {
+        "ar": "أستطيع استعمال «tan... como» و«mejor» و«peor».",
+        "en": "I can use \"tan... como\", \"mejor\" and \"peor\".",
+        "id": "Saya bisa memakai \"tan... como\", \"mejor\", dan \"peor\"."
+      },
+      {
+        "ar": "أستطيع قول «الأرخص» و«الأجمل في المدينة» وتبرير اختياري.",
+        "en": "I can say \"the cheapest\" or \"the prettiest in the city\" and give a reason for my choice.",
+        "id": "Saya bisa mengatakan \"yang termurah\" atau \"yang tercantik di kota\" dan memberi alasan pilihan saya."
+      }
+    ],
+    "intro": {
+      "ar": "عندما نختار شقة أو هاتفًا أو فندقًا نقارن بين الخيارات. في الإسبانية نقول «más grande que» أي «أكبر من»، و«menos caro que» أي «أقل غلاءً من»، و«tan bueno como» أي «جيد مثل». وتتعلم أيضًا «mejor» و«peor» وصيغة «el más... de» للتفضيل المطلق.",
+      "en": "When we choose a flat, a phone or a hotel, we compare the options. In Spanish we say \"más grande que\" (bigger than), \"menos caro que\" (less expensive than) and \"tan bueno como\" (as good as). You also learn \"mejor\" and \"peor\" and the pattern \"el más... de\" for the superlative.",
+      "id": "Saat memilih apartemen, ponsel, atau hotel, kita membandingkan pilihan. Dalam bahasa Spanyol dikatakan \"más grande que\" (lebih besar dari), \"menos caro que\" (kurang mahal dari), dan \"tan bueno como\" (sebaik). Anda juga belajar \"mejor\" dan \"peor\" serta pola \"el más... de\" untuk tingkat paling."
+    },
+    "culture": {
+      "ar": "قد يكون التفاوض على السعر معتادًا في بعض الأسواق الشعبية والأسواق المفتوحة (mercadillos)، لكنه غير معتاد في المتاجر ذات الأسعار الثابتة. وعند شرح سبب اختيارك تستعمل «porque»، وللسؤال عن الأفضل تقول «¿Cuál es mejor?».",
+      "en": "Bargaining can be normal in some street and open-air markets (mercadillos), but not in shops with fixed prices. To explain why you chose something you use \"porque\", and to ask which is better you say \"¿Cuál es mejor?\".",
+      "id": "Menawar harga bisa lazim di beberapa pasar jalanan dan pasar terbuka (mercadillos), tetapi tidak di toko berharga pas. Untuk menjelaskan alasan pilihan dipakai \"porque\", dan untuk menanyakan mana yang lebih baik dikatakan \"¿Cuál es mejor?\"."
+    },
+    "grammar": {
+      "title": {
+        "ar": "المقارنة: más / menos / tan",
+        "en": "Comparing: más, menos, tan",
+        "id": "Membandingkan: más, menos, tan"
+      },
+      "body": {
+        "ar": "المقارنة: «más/menos + صفة + que»: «Es más grande que mi casa». والمساواة: «tan + صفة + como»: «Es tan bueno como el otro». والصيغتان الشاذتان «mejor» (أفضل) و«peor» (أسوأ) لا يُقال معهما «más»: نقول «mejor» لا «más bueno». والتفضيل المطلق: «el/la/los/las + más + صفة + de»: «Es la más bonita de la ciudad». وتتفق الصفة مع الاسم في الجنس والعدد: «más cara»، «más baratos».",
+        "en": "Comparison: \"más/menos + adjective + que\": \"Es más grande que mi casa\". Equality: \"tan + adjective + como\": \"Es tan bueno como el otro\". The irregular \"mejor\" (better) and \"peor\" (worse) take no \"más\": we say \"mejor\", not \"más bueno\". The superlative is \"el/la/los/las + más + adjective + de\": \"Es la más bonita de la ciudad\". The adjective agrees in gender and number: \"más cara\", \"más baratos\".",
+        "id": "Perbandingan: \"más/menos + kata sifat + que\": \"Es más grande que mi casa\". Kesetaraan: \"tan + kata sifat + como\": \"Es tan bueno como el otro\". Bentuk tak beraturan \"mejor\" (lebih baik) dan \"peor\" (lebih buruk) tidak memakai \"más\": katakan \"mejor\", bukan \"más bueno\". Tingkat paling: \"el/la/los/las + más + kata sifat + de\": \"Es la más bonita de la ciudad\". Kata sifat menyesuaikan jenis dan jumlah: \"más cara\", \"más baratos\"."
+      }
+    },
+    "items": [
+      {
+        "id": "es21n1",
+        "target": "más grande que",
+        "translit": "mahs GRAHN-deh keh",
+        "tr": {
+          "ar": "أكبر من",
+          "en": "bigger than",
+          "id": "lebih besar dari"
+        },
+        "example": {
+          "target": "Mi casa es más grande que tu piso.",
+          "translit": "mee KAH-sah ehs mahs GRAHN-deh keh too PEE-soh",
+          "tr": {
+            "ar": "بيتي أكبر من شقتك.",
+            "en": "My house is bigger than your flat.",
+            "id": "Rumah saya lebih besar dari apartemen Anda."
+          }
+        },
+        "hint": {
+          "ar": "نضع «que» بعد «más + صفة» قبل الشيء المقارَن به. وحرف g في «grande» صلب (قبل a).",
+          "en": "Put \"que\" after \"más + adjective\", before the thing compared. The g in \"grande\" is a hard g (before a).",
+          "id": "Letakkan \"que\" setelah \"más + kata sifat\", sebelum hal yang dibandingkan. Huruf g pada \"grande\" keras (sebelum a)."
+        }
+      },
+      {
+        "id": "es21n2",
+        "target": "menos caro que",
+        "translit": "MEH-nohs KAH-roh keh",
+        "tr": {
+          "ar": "أقل غلاءً من",
+          "en": "less expensive than",
+          "id": "kurang mahal dari"
+        },
+        "example": {
+          "target": "Este móvil es menos caro que ese.",
+          "translit": "EHS-teh MOH-beel ehs MEH-nohs KAH-roh keh EH-seh",
+          "tr": {
+            "ar": "هذا الهاتف أقل غلاءً من ذاك.",
+            "en": "This phone is less expensive than that one.",
+            "id": "Ponsel ini kurang mahal dari yang itu."
+          }
+        },
+        "hint": {
+          "ar": "«menos... que» عكس «más... que». وكلمة «móvil» (هاتف محمول) عليها علامة على ó وتُستعمل في إسبانيا، وفي أمريكا اللاتينية يقولون غالبًا «celular».",
+          "en": "\"Menos... que\" is the opposite of \"más... que\". \"Móvil\" (mobile phone) has an accent on ó and is used in Spain; Latin America often says \"celular\".",
+          "id": "\"Menos... que\" kebalikan dari \"más... que\". \"Móvil\" (ponsel) beraksen pada ó dan dipakai di Spanyol; di Amerika Latin sering dikatakan \"celular\"."
+        }
+      },
+      {
+        "id": "es21n3",
+        "target": "tan bueno como",
+        "translit": "tahn BWEH-noh KOH-moh",
+        "tr": {
+          "ar": "جيد مثل",
+          "en": "as good as",
+          "id": "sebaik"
+        },
+        "example": {
+          "target": "Este café es tan bueno como el de mi pueblo.",
+          "translit": "EHS-teh kah-FEH ehs tahn BWEH-noh KOH-moh ehl deh mee PWEH-bloh",
+          "tr": {
+            "ar": "هذه القهوة جيدة مثل قهوة قريتي.",
+            "en": "This coffee is as good as the one in my village.",
+            "id": "Kopi ini sebaik kopi di desa saya."
+          }
+        },
+        "hint": {
+          "ar": "للمساواة نستعمل «tan» قبل الصفة و«como» بعدها، لا «que». وتبقى الصفة «bueno» كما هي بعد «tan».",
+          "en": "For equality use \"tan\" before the adjective and \"como\" after it, not \"que\". The adjective stays \"bueno\" here.",
+          "id": "Untuk kesetaraan pakai \"tan\" sebelum kata sifat dan \"como\" sesudahnya, bukan \"que\". Kata sifatnya tetap \"bueno\"."
+        }
+      },
+      {
+        "id": "es21n4",
+        "target": "mejor / peor",
+        "translit": "meh-HOHR / peh-OHR",
+        "tr": {
+          "ar": "أفضل / أسوأ",
+          "en": "better / worse",
+          "id": "lebih baik / lebih buruk"
+        },
+        "example": {
+          "target": "Mi inglés es peor que mi español.",
+          "translit": "mee een-GLEHS ehs peh-OHR keh mee ehs-pah-NYOHL",
+          "tr": {
+            "ar": "لغتي الإنجليزية أسوأ من لغتي الإسبانية.",
+            "en": "My English is worse than my Spanish.",
+            "id": "Bahasa Inggris saya lebih buruk daripada bahasa Spanyol saya."
+          }
+        },
+        "hint": {
+          "ar": "«mejor» و«peor» شاذتان ولا تأخذان «más». وهما لا تتغيران بالجنس: «mejor» للمذكر والمؤنث، وتصبحان «mejores/peores» في الجمع. وفيهما حرف j يُنطق كالخاء الخفيفة (ه).",
+          "en": "\"Mejor\" and \"peor\" are irregular and take no \"más\". They have one form for both genders, and the plurals are \"mejores/peores\". The j sounds like a breathy h.",
+          "id": "\"Mejor\" dan \"peor\" tidak beraturan dan tidak memakai \"más\". Bentuknya sama untuk kedua jenis; jamaknya \"mejores/peores\". Huruf j berbunyi seperti h yang kasar."
+        }
+      },
+      {
+        "id": "es21n5",
+        "target": "Es el más barato.",
+        "translit": "ehs ehl mahs bah-RAH-toh",
+        "tr": {
+          "ar": "إنه الأرخص.",
+          "en": "It's the cheapest.",
+          "id": "Ini yang termurah."
+        },
+        "example": {
+          "target": "De todos los menús, este es el más barato.",
+          "translit": "deh TOH-dohs lohs meh-NOOS, EHS-teh ehs ehl mahs bah-RAH-toh",
+          "tr": {
+            "ar": "من بين كل القوائم هذه هي الأرخص.",
+            "en": "Of all the menus, this one is the cheapest.",
+            "id": "Dari semua menu, ini yang termurah."
+          }
+        },
+        "hint": {
+          "ar": "التفضيل المطلق = أداة التعريف + «más» + صفة. وتتفق الأداة مع الاسم: «el» للمذكر و«la» للمؤنث. وبعده «de» لتحديد المجموعة.",
+          "en": "The superlative = article + \"más\" + adjective. The article agrees with the noun: \"el\" or \"la\". \"De\" then names the group.",
+          "id": "Tingkat paling = artikel + \"más\" + kata sifat. Artikelnya menyesuaikan kata benda: \"el\" atau \"la\". Lalu \"de\" menyebut kelompoknya."
+        }
+      },
+      {
+        "id": "es21n6",
+        "target": "Es la más bonita de la ciudad.",
+        "translit": "ehs lah mahs boh-NEE-tah deh lah syoo-DAHD",
+        "tr": {
+          "ar": "إنها الأجمل في المدينة.",
+          "en": "It's the prettiest in the city.",
+          "id": "Ini yang tercantik di kota."
+        },
+        "example": {
+          "target": "Granada es la ciudad más bonita que conozco.",
+          "translit": "grah-NAH-dah ehs lah syoo-DAHD mahs boh-NEE-tah keh koh-NOHS-koh",
+          "tr": {
+            "ar": "غرناطة هي أجمل مدينة أعرفها.",
+            "en": "Granada is the prettiest city I know.",
+            "id": "Granada adalah kota tercantik yang saya kenal."
+          }
+        },
+        "hint": {
+          "ar": "بعد التفضيل المطلق نقول «de» (في/من بين) وليس «en». وحرف c في «ciudad» يُنطق s.",
+          "en": "After a superlative Spanish uses \"de\" (in/of), and the c in \"ciudad\" sounds like s.",
+          "id": "Setelah tingkat paling dipakai \"de\" (di/dari), dan c pada \"ciudad\" berbunyi s."
+        }
+      },
+      {
+        "id": "es21n7",
+        "target": "Esta camisa es más cara que esa.",
+        "translit": "EHS-tah kah-MEE-sah ehs mahs KAH-rah keh EH-sah",
+        "tr": {
+          "ar": "هذا القميص أغلى من ذاك.",
+          "en": "This shirt is more expensive than that one.",
+          "id": "Kemeja ini lebih mahal daripada yang itu."
+        },
+        "example": {
+          "target": "Esa camisa es más barata, pero esta es más bonita.",
+          "translit": "EH-sah kah-MEE-sah ehs mahs bah-RAH-tah, PEH-roh EHS-tah ehs mahs boh-NEE-tah",
+          "tr": {
+            "ar": "ذلك القميص أرخص لكن هذا أجمل.",
+            "en": "That shirt is cheaper, but this one is prettier.",
+            "id": "Kemeja itu lebih murah, tetapi yang ini lebih cantik."
+          }
+        },
+        "hint": {
+          "ar": "«cara» مؤنثة لأن «camisa» مؤنثة. ومع الجمع: «más caras». أسماء الإشارة esta/esa تتفق أيضًا مع الاسم.",
+          "en": "\"Cara\" is feminine because \"camisa\" is. With plurals: \"más caras\". The demonstratives esta/esa also agree with the noun.",
+          "id": "\"Cara\" feminin karena \"camisa\" feminin. Jamaknya \"más caras\". Kata tunjuk esta/esa juga menyesuaikan kata benda."
+        }
+      },
+      {
+        "id": "es21n8",
+        "target": "Prefiero este porque es más cómodo.",
+        "translit": "preh-FYEH-roh EHS-teh pohr-KEH ehs mahs KOH-moh-doh",
+        "tr": {
+          "ar": "أفضّل هذا لأنه أكثر راحة.",
+          "en": "I prefer this one because it's more comfortable.",
+          "id": "Saya lebih suka yang ini karena lebih nyaman."
+        },
+        "example": {
+          "target": "Prefiero ir en tren porque es más rápido.",
+          "translit": "preh-FYEH-roh eer ehn trehn pohr-KEH ehs mahs RRAH-pee-doh",
+          "tr": {
+            "ar": "أفضّل الذهاب بالقطار لأنه أسرع.",
+            "en": "I prefer to go by train because it's faster.",
+            "id": "Saya lebih suka naik kereta karena lebih cepat."
+          }
+        },
+        "hint": {
+          "ar": "«porque» (كلمة واحدة بلا علامة) تعني «لأن»، أما «por qué» (كلمتان، مع علامة) فتعني «لماذا». و«cómodo» عليها علامة على ó.",
+          "en": "\"Porque\" (one word, no accent) means \"because\"; \"por qué\" (two words, accent) means \"why\". \"Cómodo\" has an accent on ó.",
+          "id": "\"Porque\" (satu kata, tanpa aksen) berarti \"karena\"; \"por qué\" (dua kata, beraksen) berarti \"mengapa\". \"Cómodo\" beraksen pada ó."
+        }
+      }
+    ],
+    "cloze": [
+      {
+        "sentence": "Este hotel es ___ que el otro.",
+        "answer": "mejor",
+        "wrong": [
+          "más mejor",
+          "bueno"
+        ],
+        "tr": {
+          "ar": "هذا الفندق أفضل من الآخر.",
+          "en": "This hotel is better than the other one.",
+          "id": "Hotel ini lebih baik daripada yang lain."
+        },
+        "why": {
+          "ar": "«bueno» له صيغة مقارنة شاذة هي «mejor»، ولا يُقال «más mejor» ولا «más bueno». و«bueno» وحدها لا تصلح مع «que».",
+          "en": "\"Bueno\" has the irregular comparative \"mejor\"; \"más mejor\" and \"más bueno\" are not used. \"Bueno\" alone does not work with \"que\".",
+          "id": "\"Bueno\" punya bentuk pembanding tak beraturan \"mejor\"; \"más mejor\" dan \"más bueno\" tidak dipakai. \"Bueno\" saja tidak cocok dengan \"que\"."
+        }
+      },
+      {
+        "sentence": "Esta calle es ___ tranquila como la mía.",
+        "answer": "tan",
+        "wrong": [
+          "más",
+          "tanto"
+        ],
+        "tr": {
+          "ar": "هذا الشارع هادئ مثل شارعي.",
+          "en": "This street is as quiet as mine.",
+          "id": "Jalan ini setenang jalan saya."
+        },
+        "why": {
+          "ar": "التساوي يُعبَّر عنه بـ «tan... como». ومع «más» نحتاج «que» لا «como»، و«tanto» تُستعمل مع الأسماء والأفعال لا مع الصفة.",
+          "en": "Equality is \"tan... como\". \"Más\" needs \"que\", not \"como\", and \"tanto\" is used with nouns and verbs, not before an adjective.",
+          "id": "Kesetaraan dinyatakan dengan \"tan... como\". \"Más\" membutuhkan \"que\", bukan \"como\", dan \"tanto\" dipakai dengan kata benda dan kata kerja, bukan sebelum kata sifat."
+        }
+      }
+    ],
+    "conversation": {
+      "context": {
+        "ar": "صديقان يقارنان بين شقتين ويختاران إحداهما.",
+        "en": "Two friends compare two flats and choose one.",
+        "id": "Dua teman membandingkan dua apartemen dan memilih salah satunya."
+      },
+      "turns": [
+        {
+          "who": "A",
+          "target": "¿Qué piso te gusta más, el del centro o el de la playa?",
+          "tr": {
+            "ar": "أي شقة تعجبك أكثر، شقة وسط المدينة أم شقة الشاطئ؟",
+            "en": "Which flat do you like more, the one downtown or the one by the beach?",
+            "id": "Apartemen mana yang lebih Anda suka, yang di pusat kota atau yang di pantai?"
+          }
+        },
+        {
+          "who": "B",
+          "target": "El del centro es más caro, pero está más cerca del trabajo.",
+          "tr": {
+            "ar": "شقة الوسط أغلى لكنها أقرب إلى العمل.",
+            "en": "The one downtown is more expensive, but it is closer to work.",
+            "id": "Yang di pusat kota lebih mahal, tetapi lebih dekat ke tempat kerja."
+          }
+        },
+        {
+          "who": "A",
+          "target": "Pues el de la playa es más grande y más tranquilo.",
+          "tr": {
+            "ar": "حسنًا، شقة الشاطئ أكبر وأهدأ.",
+            "en": "Well, the one by the beach is bigger and quieter.",
+            "id": "Nah, yang di pantai lebih besar dan lebih tenang."
+          }
+        },
+        {
+          "who": "B",
+          "target": "Tienes razón, es la mejor opción.",
+          "tr": {
+            "ar": "معك حق، إنه أفضل خيار.",
+            "en": "You're right, it's the best option.",
+            "id": "Kamu benar, itu pilihan terbaik."
+          }
+        }
+      ],
+      "gap": 2,
+      "wrong": [
+        "Hoy hace mucho calor.",
+        "Mi hermano trabaja en un banco."
+      ],
+      "why": {
+        "ar": "الجملة المطلوبة تقارن بين الشقتين («más grande» و«más tranquilo») وهذا ما يردّ عليه «Tienes razón». الجملتان الأخريان لا علاقة لهما بالنقاش.",
+        "en": "The missing line compares the two flats (\"más grande\", \"más tranquilo\"), which is what \"Tienes razón\" answers. The other two sentences have nothing to do with the discussion.",
+        "id": "Kalimat yang hilang membandingkan kedua apartemen (\"más grande\", \"más tranquilo\"), yang dijawab oleh \"Tienes razón\". Dua kalimat lain tidak berkaitan dengan diskusi itu."
+      }
+    },
+    "summary": {
+      "ar": "تعلمت المقارنة بـ «más/menos... que» و«tan... como»، وصيغتي «mejor» و«peor» الشاذتين، والتفضيل المطلق «el más... de». ركّز على اتفاق الصفة مع الاسم، وجرّب مقارنة أشياء في بيتك كل يوم.",
+      "en": "You learned comparing with \"más/menos... que\" and \"tan... como\", the irregular \"mejor\" and \"peor\", and the superlative \"el más... de\". Watch the adjective agreement, and try comparing things around your home every day.",
+      "id": "Anda belajar membandingkan dengan \"más/menos... que\" dan \"tan... como\", bentuk tak beraturan \"mejor\" dan \"peor\", serta tingkat paling \"el más... de\". Perhatikan kesesuaian kata sifat dan cobalah membandingkan benda-benda di rumah setiap hari."
+    }
+  },
+  {
+    "id": "es-22",
+    "track": "es",
+    "level": "intermediate",
+    "order": 22,
+    "topic": "doctor-advice",
+    "icon": "🩺",
+    "title": {
+      "ar": "عند الطبيب",
+      "en": "At the Doctor's",
+      "id": "Di Dokter"
+    },
+    "description": {
+      "ar": "صف أعراضك واسمع نصيحة الطبيب.",
+      "en": "Describe your symptoms and understand the doctor's advice.",
+      "id": "Jelaskan gejala Anda dan pahami saran dokter."
+    },
+    "objectives": [
+      {
+        "ar": "أستطيع وصف أعراضي: حمى وسعال وألم.",
+        "en": "I can describe my symptoms: fever, cough and pain.",
+        "id": "Saya bisa menjelaskan gejala saya: demam, batuk, dan sakit."
+      },
+      {
+        "ar": "أفهم أسئلة الطبيب بصيغة الاحترام مثل «¿Le duele aquí?».",
+        "en": "I can understand the doctor's polite questions such as \"¿Le duele aquí?\".",
+        "id": "Saya bisa memahami pertanyaan sopan dokter seperti \"¿Le duele aquí?\"."
+      },
+      {
+        "ar": "أستطيع طلب موعد وفهم النصائح بـ «tiene que» و«le recomiendo».",
+        "en": "I can ask for an appointment and understand advice with \"tiene que\" and \"le recomiendo\".",
+        "id": "Saya bisa meminta janji temu dan memahami saran dengan \"tiene que\" dan \"le recomiendo\"."
+      }
+    ],
+    "intro": {
+      "ar": "في الدرس العاشر تعلمت «me duele» كعبارة جاهزة. عند الطبيب يخاطبك الطبيب بصيغة الاحترام (usted) فيقول «¿Qué le pasa?» و«¿Le duele aquí?». الضمير «me» و«le» هو ضمير المفعول غير المباشر: «me» لي و«le» لك (باحترام) أو له. وتتعلم أيضًا أن تفهم النصيحة: «Tiene que descansar».",
+      "en": "In lesson 10 you learned \"me duele\" as a ready-made phrase. At the doctor's, the doctor addresses you politely (usted): \"¿Qué le pasa?\", \"¿Le duele aquí?\". The pronouns \"me\" and \"le\" are indirect object pronouns: \"me\" is for me, \"le\" for you (polite) or him/her. You also learn to understand advice: \"Tiene que descansar\".",
+      "id": "Di pelajaran 10 Anda belajar \"me duele\" sebagai ungkapan siap pakai. Di dokter, dokter menyapa Anda dengan sopan (usted): \"¿Qué le pasa?\", \"¿Le duele aquí?\". Kata \"me\" dan \"le\" adalah pronomina objek tak langsung: \"me\" untuk saya, \"le\" untuk Anda (sopan) atau dia. Anda juga belajar memahami saran: \"Tiene que descansar\"."
+    },
+    "culture": {
+      "ar": "في إسبانيا يعمل نظام الصحة العامة بالبطاقة الصحية، وللحصول على موعد يتصل الناس بمركز الصحة (centro de salud). وفي الأمور البسيطة يمكن استشارة الصيدلي في الصيدلية (farmacia)، ومن علامتها الصليب الأخضر. وفي كثير من البلدان يُسمّى طبيب الأسرة «médico general» أو «médico de cabecera».",
+      "en": "In Spain the public health system works with a health card, and people call the health centre (centro de salud) to get an appointment. For minor problems you can ask the pharmacist in the pharmacy (farmacia), recognised by its green cross. In many countries the family doctor is called \"médico general\" or \"médico de cabecera\".",
+      "id": "Di Spanyol sistem kesehatan umum memakai kartu kesehatan, dan orang menelepon pusat kesehatan (centro de salud) untuk membuat janji. Untuk masalah ringan Anda bisa bertanya kepada apoteker di apotek (farmacia), yang dikenali dari salib hijau. Di banyak negara dokter keluarga disebut \"médico general\" atau \"médico de cabecera\"."
+    },
+    "grammar": {
+      "title": {
+        "ar": "me, te, le وtener que",
+        "en": "Me, te, le and tener que",
+        "id": "Me, te, le dan tener que"
+      },
+      "body": {
+        "ar": "ضمائر المفعول غير المباشر: me (لي)، te (لك)، le (له/لها/لك باحترام)، nos (لنا)، les (لهم). نقول «Me duele la cabeza» و«¿Le duele aquí?» (للطبيب مع المريض باحترام) و«Le recomiendo descansar» (أنصحك بالراحة). وللنصيحة: «Tiene que + مصدر» أي «عليك أن»: «Tiene que tomar este medicamento». والضمير يأتي قبل الفعل المتصرف.",
+        "en": "Indirect object pronouns: me (to me), te (to you), le (to him/her/you polite), nos (to us), les (to them). We say \"Me duele la cabeza\", \"¿Le duele aquí?\" (the doctor, politely) and \"Le recomiendo descansar\" (I recommend that you rest). For advice: \"Tiene que + infinitive\" means \"you have to\": \"Tiene que tomar este medicamento\". The pronoun goes before the conjugated verb.",
+        "id": "Pronomina objek tak langsung: me (kepada saya), te (kepada kamu), le (kepada dia/Anda sopan), nos (kepada kami), les (kepada mereka). Kita berkata \"Me duele la cabeza\", \"¿Le duele aquí?\" (dokter, secara sopan) dan \"Le recomiendo descansar\" (saya sarankan Anda beristirahat). Untuk saran: \"Tiene que + infinitif\" berarti \"Anda harus\": \"Tiene que tomar este medicamento\". Pronomina diletakkan sebelum kata kerja yang dikonjugasi."
+      }
+    },
+    "items": [
+      {
+        "id": "es22n1",
+        "target": "¿Qué le pasa?",
+        "translit": "keh leh PAH-sah",
+        "tr": {
+          "ar": "ما الذي يحدث لك؟ (باحترام)",
+          "en": "What's the matter? (polite)",
+          "id": "Ada apa dengan Anda? (sopan)"
+        },
+        "example": {
+          "target": "Buenos días. ¿Qué le pasa, señor López?",
+          "translit": "BWEH-nohs DEE-ahs. keh leh PAH-sah, seh-NYOHR LOH-pehs",
+          "tr": {
+            "ar": "صباح الخير. ما بك يا سيد لوبيز؟",
+            "en": "Good morning. What's the matter, Mr López?",
+            "id": "Selamat pagi. Ada apa, Tuan López?"
+          }
+        },
+        "hint": {
+          "ar": "الطبيب يقول «le» باحترام، وصديقك يقول «¿Qué te pasa?». وعلامة الاستفهام المقلوبة ¿ تفتح الجملة.",
+          "en": "The doctor says \"le\" politely; a friend says \"¿Qué te pasa?\". The inverted ¿ opens the question.",
+          "id": "Dokter berkata \"le\" secara sopan; teman berkata \"¿Qué te pasa?\". Tanda tanya terbalik ¿ membuka kalimat tanya."
+        }
+      },
+      {
+        "id": "es22n2",
+        "target": "Me siento mal.",
+        "translit": "meh SYEHN-toh mahl",
+        "tr": {
+          "ar": "أشعر بتوعك.",
+          "en": "I feel ill.",
+          "id": "Saya merasa tidak enak badan."
+        },
+        "example": {
+          "target": "Desde ayer me siento muy mal.",
+          "translit": "DEHS-deh ah-YEHR meh SYEHN-toh mwee mahl",
+          "tr": {
+            "ar": "منذ أمس أشعر بتوعك شديد.",
+            "en": "Since yesterday I have felt very ill.",
+            "id": "Sejak kemarin saya merasa sangat tidak enak badan."
+          }
+        },
+        "hint": {
+          "ar": "«sentirse» فعل انعكاسي: «me siento». و«mal» ضد «bien». وللإحساس بالتحسن: «Me siento mejor».",
+          "en": "\"Sentirse\" is reflexive: \"me siento\". \"Mal\" is the opposite of \"bien\". To say you feel better: \"Me siento mejor\".",
+          "id": "\"Sentirse\" bersifat refleksif: \"me siento\". \"Mal\" lawan \"bien\". Untuk mengatakan lebih baik: \"Me siento mejor\"."
+        }
+      },
+      {
+        "id": "es22n3",
+        "target": "Tengo fiebre y tos.",
+        "translit": "TEHN-goh FYEH-breh ee tohs",
+        "tr": {
+          "ar": "عندي حمى وسعال.",
+          "en": "I have a fever and a cough.",
+          "id": "Saya demam dan batuk."
+        },
+        "example": {
+          "target": "Tengo fiebre y me duele la garganta.",
+          "translit": "TEHN-goh FYEH-breh ee meh DWEH-leh lah gahr-GAHN-tah",
+          "tr": {
+            "ar": "عندي حمى وحلقي يؤلمني.",
+            "en": "I have a fever and my throat hurts.",
+            "id": "Saya demam dan tenggorokan saya sakit."
+          }
+        },
+        "hint": {
+          "ar": "في الإسبانية نقول «tengo fiebre» (أملك حمى) لا «أنا حمى». والحرف g في «garganta» صلب (قبل a)، و«y» تعني «و».",
+          "en": "Spanish says \"tengo fiebre\" (I have fever). The g in \"garganta\" is hard (before a), and \"y\" means \"and\".",
+          "id": "Dalam bahasa Spanyol dikatakan \"tengo fiebre\" (saya punya demam). Huruf g pada \"garganta\" keras (sebelum a), dan \"y\" berarti \"dan\"."
+        }
+      },
+      {
+        "id": "es22n4",
+        "target": "¿Le duele aquí?",
+        "translit": "leh DWEH-leh ah-KEE",
+        "tr": {
+          "ar": "هل يؤلمك هنا؟",
+          "en": "Does it hurt here?",
+          "id": "Apakah sakit di sini?"
+        },
+        "example": {
+          "target": "¿Le duele el brazo cuando lo mueve?",
+          "translit": "leh DWEH-leh ehl BRAH-soh KWAHN-doh loh MWEH-beh",
+          "tr": {
+            "ar": "هل تؤلمك ذراعك عندما تحركها؟",
+            "en": "Does your arm hurt when you move it?",
+            "id": "Apakah lengan Anda sakit ketika digerakkan?"
+          }
+        },
+        "hint": {
+          "ar": "«le» هنا هو ضمير المفعول غير المباشر للمخاطب باحترام. والمؤلم هو الفاعل: «el brazo» مفرد فنقول «duele».",
+          "en": "\"Le\" is the indirect object for the person addressed politely. The aching part is the subject: \"el brazo\" is singular, so \"duele\".",
+          "id": "\"Le\" adalah objek tak langsung untuk lawan bicara yang disapa sopan. Bagian yang sakit adalah subjek: \"el brazo\" tunggal, jadi \"duele\"."
+        }
+      },
+      {
+        "id": "es22n5",
+        "target": "Le recomiendo descansar.",
+        "translit": "leh rreh-koh-MYEHN-doh dehs-kahn-SAHR",
+        "tr": {
+          "ar": "أنصحك بالراحة.",
+          "en": "I recommend that you rest.",
+          "id": "Saya sarankan Anda beristirahat."
+        },
+        "example": {
+          "target": "Le recomiendo beber mucha agua.",
+          "translit": "leh rreh-koh-MYEHN-doh beh-BEHR MOO-chah AH-gwah",
+          "tr": {
+            "ar": "أنصحك بشرب الكثير من الماء.",
+            "en": "I recommend that you drink plenty of water.",
+            "id": "Saya sarankan Anda minum banyak air."
+          }
+        },
+        "hint": {
+          "ar": "«recomendar» فعل يتغير جذره: «recomiendo». والفعل بعده مصدر: descansar، beber. وحرف r في أول الكلمة يُنطق مدحرجًا.",
+          "en": "\"Recomendar\" changes its stem: \"recomiendo\". The next verb stays in the infinitive: descansar, beber. The r at the start of a word is trilled.",
+          "id": "\"Recomendar\" mengubah batang katanya: \"recomiendo\". Kata kerja berikutnya tetap infinitif: descansar, beber. Huruf r di awal kata digetarkan."
+        }
+      },
+      {
+        "id": "es22n6",
+        "target": "Tiene que tomar este medicamento.",
+        "translit": "TYEH-neh keh toh-MAHR EHS-teh meh-dee-kah-MEHN-toh",
+        "tr": {
+          "ar": "عليك أن تتناول هذا الدواء.",
+          "en": "You have to take this medicine.",
+          "id": "Anda harus minum obat ini."
+        },
+        "example": {
+          "target": "Tiene que tomarlo dos veces al día.",
+          "translit": "TYEH-neh keh toh-MAHR-loh dohs BEH-sehs ahl DEE-ah",
+          "tr": {
+            "ar": "عليك أن تتناوله مرتين في اليوم.",
+            "en": "You have to take it twice a day.",
+            "id": "Anda harus meminumnya dua kali sehari."
+          }
+        },
+        "hint": {
+          "ar": "«tener que + مصدر» تعني الوجوب. وضمير المفعول المباشر «lo» يلتصق بالمصدر: «tomarlo». وكلمة «día» عليها علامة على í.",
+          "en": "\"Tener que + infinitive\" expresses obligation. The direct object pronoun \"lo\" attaches to the infinitive: \"tomarlo\". \"Día\" has an accent on í.",
+          "id": "\"Tener que + infinitif\" menyatakan kewajiban. Pronomina objek langsung \"lo\" menempel pada infinitif: \"tomarlo\". \"Día\" beraksen pada í."
+        }
+      },
+      {
+        "id": "es22n7",
+        "target": "Quisiera pedir una cita.",
+        "translit": "kee-SYEH-rah peh-DEER OO-nah SEE-tah",
+        "tr": {
+          "ar": "أود أن أحجز موعدًا.",
+          "en": "I'd like to make an appointment.",
+          "id": "Saya ingin membuat janji temu."
+        },
+        "example": {
+          "target": "Quisiera pedir una cita para mañana.",
+          "translit": "kee-SYEH-rah peh-DEER OO-nah SEE-tah PAH-rah mah-NYAH-nah",
+          "tr": {
+            "ar": "أود أن أحجز موعدًا ليوم غد.",
+            "en": "I'd like to make an appointment for tomorrow.",
+            "id": "Saya ingin membuat janji temu untuk besok."
+          }
+        },
+        "hint": {
+          "ar": "«quisiera» أرقّ من «quiero» وتناسب الطلبات المهذبة. و«cita» هنا موعد عند الطبيب، وتعني أيضًا لقاءً.",
+          "en": "\"Quisiera\" is softer than \"quiero\" and suits polite requests. \"Cita\" is an appointment (and also a date or meeting).",
+          "id": "\"Quisiera\" lebih halus daripada \"quiero\" dan cocok untuk permintaan sopan. \"Cita\" berarti janji temu (juga pertemuan)."
+        }
+      },
+      {
+        "id": "es22n8",
+        "target": "la receta, la farmacia",
+        "translit": "lah rreh-SEH-tah, lah fahr-MAH-syah",
+        "tr": {
+          "ar": "الوصفة الطبية، الصيدلية",
+          "en": "the prescription, the pharmacy",
+          "id": "resep, apotek"
+        },
+        "example": {
+          "target": "Con la receta, vaya a la farmacia.",
+          "translit": "kohn lah rreh-SEH-tah, BAH-yah ah lah fahr-MAH-syah",
+          "tr": {
+            "ar": "بهذه الوصفة اذهب إلى الصيدلية.",
+            "en": "With the prescription, go to the pharmacy.",
+            "id": "Dengan resep ini, pergilah ke apotek."
+          }
+        },
+        "hint": {
+          "ar": "«receta» تعني أيضًا وصفة طبخ. و«vaya» هي صيغة الأمر الرسمية من «ir» (صيغة جديدة هنا). وحرف c في «receta» يُنطق s.",
+          "en": "\"Receta\" also means a cooking recipe. \"Vaya\" is the polite command of \"ir\" (a new form here). The c in \"receta\" sounds like s.",
+          "id": "\"Receta\" juga berarti resep masakan. \"Vaya\" adalah perintah sopan dari \"ir\" (bentuk baru di sini). Huruf c pada \"receta\" berbunyi s."
+        }
+      }
+    ],
+    "cloze": [
+      {
+        "sentence": "Doctor, ___ duele la garganta.",
+        "answer": "me",
+        "wrong": [
+          "le",
+          "lo"
+        ],
+        "tr": {
+          "ar": "يا دكتور، حلقي يؤلمني.",
+          "en": "Doctor, my throat hurts.",
+          "id": "Dokter, tenggorokan saya sakit."
+        },
+        "why": {
+          "ar": "المريض يتحدث عن نفسه فيقول «me duele». أما «le» فتعني أن الحلق للطبيب، و«lo» ضمير مفعول مباشر لا يصلح مع «duele».",
+          "en": "The patient speaks about himself, so \"me duele\". \"Le\" would mean the doctor's own throat, and \"lo\" is a direct object pronoun that does not fit with \"duele\".",
+          "id": "Pasien berbicara tentang dirinya, jadi \"me duele\". \"Le\" akan berarti tenggorokan milik dokter, dan \"lo\" adalah pronomina objek langsung yang tidak cocok dengan \"duele\"."
+        }
+      },
+      {
+        "sentence": "Tiene que ___ este medicamento dos veces al día.",
+        "answer": "tomar",
+        "wrong": [
+          "toma",
+          "tomando"
+        ],
+        "tr": {
+          "ar": "عليك أن تتناول هذا الدواء مرتين في اليوم.",
+          "en": "You have to take this medicine twice a day.",
+          "id": "Anda harus minum obat ini dua kali sehari."
+        },
+        "why": {
+          "ar": "بعد «tener que» يأتي المصدر دائمًا: «tomar». والصيغتان الأخريان («toma» و«tomando») لا تصلحان بعدها.",
+          "en": "\"Tener que\" is always followed by the infinitive: \"tomar\". The other two forms (\"toma\", \"tomando\") do not fit after it.",
+          "id": "Setelah \"tener que\" selalu dipakai infinitif: \"tomar\". Dua bentuk lain (\"toma\", \"tomando\") tidak cocok setelahnya."
+        }
+      }
+    ],
+    "conversation": {
+      "context": {
+        "ar": "مريض عند الطبيب (باحترام): الأعراض ثم النصيحة.",
+        "en": "A patient at the doctor's (polite): symptoms, then advice.",
+        "id": "Seorang pasien di dokter (sopan): gejala, lalu saran."
+      },
+      "turns": [
+        {
+          "who": "A",
+          "target": "Buenos días. ¿Qué le pasa?",
+          "tr": {
+            "ar": "صباح الخير. ما بك؟",
+            "en": "Good morning. What's the matter?",
+            "id": "Selamat pagi. Ada apa?"
+          }
+        },
+        {
+          "who": "B",
+          "target": "Tengo fiebre y me duele la garganta.",
+          "tr": {
+            "ar": "عندي حمى وحلقي يؤلمني.",
+            "en": "I have a fever and my throat hurts.",
+            "id": "Saya demam dan tenggorokan saya sakit."
+          }
+        },
+        {
+          "who": "A",
+          "target": "Le recomiendo descansar y tomar este medicamento.",
+          "tr": {
+            "ar": "أنصحك بالراحة وبتناول هذا الدواء.",
+            "en": "I recommend that you rest and take this medicine.",
+            "id": "Saya sarankan Anda beristirahat dan minum obat ini."
+          }
+        },
+        {
+          "who": "B",
+          "target": "Muy bien, gracias, doctor. ¿Dónde está la farmacia?",
+          "tr": {
+            "ar": "حسنًا، شكرًا يا دكتور. أين الصيدلية؟",
+            "en": "Very well, thank you, doctor. Where is the pharmacy?",
+            "id": "Baik, terima kasih, Dokter. Di mana apotek?"
+          }
+        }
+      ],
+      "gap": 2,
+      "wrong": [
+        "Quisiera una mesa para dos.",
+        "El tren sale a las ocho."
+      ],
+      "why": {
+        "ar": "بعد أن يصف المريض أعراضه يعطيه الطبيب نصيحة ووصفة، ويسأل المريض بعدها عن الصيدلية. الجملتان الأخريان تنتميان إلى مطعم ومحطة.",
+        "en": "After the patient describes his symptoms, the doctor gives advice and medicine, and the patient then asks about the pharmacy. The other two sentences belong to a restaurant and a station.",
+        "id": "Setelah pasien menjelaskan gejalanya, dokter memberi saran dan obat, lalu pasien menanyakan apotek. Dua kalimat lain cocok untuk restoran dan stasiun."
+      }
+    },
+    "summary": {
+      "ar": "تعلمت وصف الأعراض، وفهم أسئلة الطبيب بصيغة «le»، وطلب موعد، وفهم النصائح بـ «tiene que» و«le recomiendo». تذكر أن الضمير «me/le» يسبق الفعل «duele».",
+      "en": "You learned to describe symptoms, to understand the doctor's questions with \"le\", to ask for an appointment and to understand advice with \"tiene que\" and \"le recomiendo\". Remember that \"me/le\" comes before the verb \"duele\".",
+      "id": "Anda belajar menjelaskan gejala, memahami pertanyaan dokter dengan \"le\", meminta janji temu, dan memahami saran dengan \"tiene que\" dan \"le recomiendo\". Ingat bahwa \"me/le\" mendahului kata kerja \"duele\"."
+    }
+  },
+  {
+    "id": "es-23",
+    "track": "es",
+    "level": "intermediate",
+    "order": 23,
+    "topic": "work-studies-perfecto",
+    "icon": "💼",
+    "title": {
+      "ar": "العمل والدراسة",
+      "en": "Work and Studies",
+      "id": "Pekerjaan dan Studi"
+    },
+    "description": {
+      "ar": "تحدث عن عملك ودراستك وخبراتك حتى الآن.",
+      "en": "Talk about your job, your studies and your experience so far.",
+      "id": "Bicarakan pekerjaan, studi, dan pengalaman Anda sejauh ini."
+    },
+    "objectives": [
+      {
+        "ar": "أستطيع سؤال شخص عن عمله وقول مهنتي.",
+        "en": "I can ask what someone does and say my job.",
+        "id": "Saya bisa menanyakan pekerjaan seseorang dan menyebutkan pekerjaan saya."
+      },
+      {
+        "ar": "أستطيع تكوين الماضي القريب «he trabajado» و«ha estudiado».",
+        "en": "I can form the present perfect: \"he trabajado\", \"ha estudiado\".",
+        "id": "Saya bisa membentuk pretérito perfecto: \"he trabajado\", \"ha estudiado\"."
+      },
+      {
+        "ar": "أستطيع استعمال «ya» و«todavía no» والحديث عن مقابلة عمل.",
+        "en": "I can use \"ya\" and \"todavía no\" and talk about a job interview.",
+        "id": "Saya bisa memakai \"ya\" dan \"todavía no\" serta berbicara tentang wawancara kerja."
+      }
+    ],
+    "intro": {
+      "ar": "للحديث عن خبراتك تستعمل الإسبانية «pretérito perfecto»: الفعل المساعد «haber» (he, has, ha, hemos, han) مع التصريف الماضي (-ado/-ido). «He trabajado en un hotel» تعني «عملت في فندق (حتى الآن)». نستعمله مع «ya» و«todavía no» و«alguna vez» وفي مقابلات العمل.",
+      "en": "To talk about your experience, Spanish uses the \"pretérito perfecto\": the auxiliary \"haber\" (he, has, ha, hemos, han) plus the participle (-ado/-ido). \"He trabajado en un hotel\" means \"I have worked in a hotel\". We use it with \"ya\", \"todavía no\" and \"alguna vez\", and in job interviews.",
+      "id": "Untuk membicarakan pengalaman, bahasa Spanyol memakai \"pretérito perfecto\": kata kerja bantu \"haber\" (he, has, ha, hemos, han) plus participio (-ado/-ido). \"He trabajado en un hotel\" berarti \"saya pernah bekerja di hotel\". Dipakai dengan \"ya\", \"todavía no\", dan \"alguna vez\", serta dalam wawancara kerja."
+    },
+    "culture": {
+      "ar": "في إسبانيا يُستعمل «pretérito perfecto» كثيرًا للحدث الذي وقع اليوم أو هذا الأسبوع («Hoy he trabajado mucho»)، أما في معظم أمريكا اللاتينية فيُفضَّل غالبًا «pretérito indefinido» («Hoy trabajé mucho»). وكلا الاستعمالين صحيح في منطقته.",
+      "en": "In Spain the \"pretérito perfecto\" is used a lot for things that happened today or this week (\"Hoy he trabajado mucho\"), while in much of Latin America people often prefer the indefinido (\"Hoy trabajé mucho\"). Both are correct in their region.",
+      "id": "Di Spanyol \"pretérito perfecto\" sering dipakai untuk hal yang terjadi hari ini atau minggu ini (\"Hoy he trabajado mucho\"), sedangkan di sebagian besar Amerika Latin orang sering lebih suka indefinido (\"Hoy trabajé mucho\"). Keduanya benar di wilayahnya masing-masing."
+    },
+    "grammar": {
+      "title": {
+        "ar": "pretérito perfecto: haber + اسم المفعول",
+        "en": "Pretérito perfecto: haber + participle",
+        "id": "Pretérito perfecto: haber + participio"
+      },
+      "body": {
+        "ar": "نصرّف «haber»: he، has، ha، hemos، habéis، han. ثم نضيف اسم المفعول: -ar ← -ado (trabajado)، -er/-ir ← -ido (comido، vivido). هناك أشكال شاذة: hacer ← hecho، escribir ← escrito، ver ← visto. ولا يتغير اسم المفعول هنا مع الجنس والعدد. نقول «ya he...» (لقد فعلت بالفعل) و«todavía no he...» (لم أفعل بعد) و«¿Has... alguna vez?» (هل سبق أن...؟).",
+        "en": "Conjugate \"haber\": he, has, ha, hemos, habéis, han. Then add the participle: -ar becomes -ado (trabajado), -er/-ir become -ido (comido, vivido). Some are irregular: hacer gives hecho, escribir gives escrito, ver gives visto. The participle does not change for gender or number here. We say \"ya he...\" (I have already...), \"todavía no he...\" (I haven't... yet), \"¿Has... alguna vez?\" (Have you ever...?).",
+        "id": "Konjugasikan \"haber\": he, has, ha, hemos, habéis, han. Lalu tambahkan participio: -ar menjadi -ado (trabajado), -er/-ir menjadi -ido (comido, vivido). Beberapa tak beraturan: hacer menjadi hecho, escribir menjadi escrito, ver menjadi visto. Participio tidak berubah menurut jenis atau jumlah di sini. Kita berkata \"ya he...\" (saya sudah...), \"todavía no he...\" (saya belum...), \"¿Has... alguna vez?\" (Pernahkah Anda...?)."
+      }
+    },
+    "items": [
+      {
+        "id": "es23n1",
+        "target": "¿A qué te dedicas?",
+        "translit": "ah keh teh deh-DEE-kahs",
+        "tr": {
+          "ar": "ما عملك؟",
+          "en": "What do you do for work?",
+          "id": "Apa pekerjaanmu?"
+        },
+        "example": {
+          "target": "Y tú, ¿a qué te dedicas?",
+          "translit": "ee too, ah keh teh deh-DEE-kahs",
+          "tr": {
+            "ar": "وأنت، ما عملك؟",
+            "en": "And you, what do you do?",
+            "id": "Dan kamu, apa pekerjaanmu?"
+          }
+        },
+        "hint": {
+          "ar": "«dedicarse» فعل انعكاسي حرفيًا «تكرّس نفسك». وصيغة الاحترام: «¿A qué se dedica?». والجواب: «Soy...» أو «Trabajo como...».",
+          "en": "\"Dedicarse\" is reflexive, literally \"to devote oneself\". The polite form is \"¿A qué se dedica?\". The answer is \"Soy...\" or \"Trabajo como...\".",
+          "id": "\"Dedicarse\" bersifat refleksif, secara harfiah \"mengabdikan diri\". Bentuk sopannya \"¿A qué se dedica?\". Jawabannya \"Soy...\" atau \"Trabajo como...\"."
+        }
+      },
+      {
+        "id": "es23n2",
+        "target": "Trabajo como ingeniero.",
+        "translit": "trah-BAH-hoh KOH-moh een-heh-NYEH-roh",
+        "tr": {
+          "ar": "أعمل مهندسًا.",
+          "en": "I work as an engineer.",
+          "id": "Saya bekerja sebagai insinyur."
+        },
+        "example": {
+          "target": "Trabajo como camarera en un café.",
+          "translit": "trah-BAH-hoh KOH-moh kah-mah-REH-rah ehn oon kah-FEH",
+          "tr": {
+            "ar": "أعمل نادلة في مقهى.",
+            "en": "I work as a waitress in a café.",
+            "id": "Saya bekerja sebagai pelayan di sebuah kafe."
+          }
+        },
+        "hint": {
+          "ar": "«como» هنا تعني «بصفة». وتتغير المهنة بالجنس: ingeniero/ingeniera، camarero/camarera. وحرف j يُنطق كالخاء الخفيفة.",
+          "en": "\"Como\" here means \"as\". The job changes with gender: ingeniero/ingeniera, camarero/camarera. The j is a breathy h.",
+          "id": "\"Como\" di sini berarti \"sebagai\". Pekerjaan berubah menurut jenis: ingeniero/ingeniera, camarero/camarera. Huruf j berbunyi h yang kasar."
+        }
+      },
+      {
+        "id": "es23n3",
+        "target": "He trabajado en un hotel.",
+        "translit": "eh trah-bah-HAH-doh ehn oon oh-TEHL",
+        "tr": {
+          "ar": "لقد عملت في فندق.",
+          "en": "I have worked in a hotel.",
+          "id": "Saya pernah bekerja di sebuah hotel."
+        },
+        "example": {
+          "target": "Mi hermana ha trabajado en un banco.",
+          "translit": "mee ehr-MAH-nah ah trah-bah-HAH-doh ehn oon BAHN-koh",
+          "tr": {
+            "ar": "أختي عملت في مصرف.",
+            "en": "My sister has worked in a bank.",
+            "id": "Kakak saya pernah bekerja di bank."
+          }
+        },
+        "hint": {
+          "ar": "«he» و«ha» صيغتان من الفعل المساعد «haber»، و«ha» تأتي مع «él/ella». وحرف h في «hotel» لا يُنطق.",
+          "en": "\"He\" and \"ha\" are forms of the auxiliary \"haber\". \"Ha\" goes with \"él/ella\". The h in \"hotel\" is silent.",
+          "id": "\"He\" dan \"ha\" adalah bentuk kata kerja bantu \"haber\". \"Ha\" dipakai untuk \"él/ella\". Huruf h pada \"hotel\" tidak dibunyikan."
+        }
+      },
+      {
+        "id": "es23n4",
+        "target": "¿Has estudiado inglés?",
+        "translit": "ahs ehs-too-DYAH-doh een-GLEHS",
+        "tr": {
+          "ar": "هل درست الإنجليزية؟",
+          "en": "Have you studied English?",
+          "id": "Apakah kamu pernah belajar bahasa Inggris?"
+        },
+        "example": {
+          "target": "Sí, he estudiado inglés tres años.",
+          "translit": "see, eh ehs-too-DYAH-doh een-GLEHS trehs AH-nyohs",
+          "tr": {
+            "ar": "نعم، درست الإنجليزية ثلاث سنوات.",
+            "en": "Yes, I have studied English for three years.",
+            "id": "Ya, saya sudah belajar bahasa Inggris selama tiga tahun."
+          }
+        },
+        "hint": {
+          "ar": "«has» مع «tú». ولغات الدراسة لا تُكتب بحرف كبير في الإسبانية: «inglés» لا «Inglés». وعلامة على é في «inglés».",
+          "en": "\"Has\" goes with \"tú\". Languages are not capitalised in Spanish: \"inglés\". Note the accent on é.",
+          "id": "\"Has\" dipakai dengan \"tú\". Nama bahasa tidak ditulis dengan huruf kapital dalam bahasa Spanyol: \"inglés\". Perhatikan aksen pada é."
+        }
+      },
+      {
+        "id": "es23n5",
+        "target": "Ya he hablado con mi jefe.",
+        "translit": "yah eh ah-BLAH-doh kohn mee HEH-feh",
+        "tr": {
+          "ar": "لقد تحدثت مع مديري بالفعل.",
+          "en": "I have already spoken to my boss.",
+          "id": "Saya sudah berbicara dengan atasan saya."
+        },
+        "example": {
+          "target": "Ya hemos hablado con el director.",
+          "translit": "yah EH-mohs ah-BLAH-doh kohn ehl dee-rehk-TOHR",
+          "tr": {
+            "ar": "لقد تحدثنا مع المدير بالفعل.",
+            "en": "We have already spoken to the manager.",
+            "id": "Kami sudah berbicara dengan direktur."
+          }
+        },
+        "hint": {
+          "ar": "«ya» تأتي قبل «he/hemos». وللمؤنث نقول «mi jefa». وحرف h في «hablado» صامت.",
+          "en": "\"Ya\" goes before \"he/hemos\". For a woman boss, \"mi jefa\". The h in \"hablado\" is silent.",
+          "id": "\"Ya\" diletakkan sebelum \"he/hemos\". Untuk atasan perempuan, \"mi jefa\". Huruf h pada \"hablado\" tidak dibunyikan."
+        }
+      },
+      {
+        "id": "es23n6",
+        "target": "Todavía no he terminado.",
+        "translit": "toh-dah-BEE-ah noh eh tehr-mee-NAH-doh",
+        "tr": {
+          "ar": "لم أنتهِ بعد.",
+          "en": "I haven't finished yet.",
+          "id": "Saya belum selesai."
+        },
+        "example": {
+          "target": "Todavía no han llegado los clientes.",
+          "translit": "toh-dah-BEE-ah noh ahn yeh-GAH-doh lohs KLYEHN-tehs",
+          "tr": {
+            "ar": "لم يصل الزبائن بعد.",
+            "en": "The customers haven't arrived yet.",
+            "id": "Para pelanggan belum tiba."
+          }
+        },
+        "hint": {
+          "ar": "«todavía no» تسبق «he/han». وعلامة على í في «todavía». ولا شيء يُوضع بين «he» واسم المفعول.",
+          "en": "\"Todavía no\" comes before \"he/han\". Note the accent on í in \"todavía\". Nothing goes between \"he\" and the participle.",
+          "id": "\"Todavía no\" mendahului \"he/han\". Perhatikan aksen pada í di \"todavía\". Tidak ada kata yang disisipkan antara \"he\" dan participio."
+        }
+      },
+      {
+        "id": "es23n7",
+        "target": "Tengo una entrevista de trabajo.",
+        "translit": "TEHN-goh OO-nah ehn-treh-BEES-tah deh trah-BAH-hoh",
+        "tr": {
+          "ar": "عندي مقابلة عمل.",
+          "en": "I have a job interview.",
+          "id": "Saya punya wawancara kerja."
+        },
+        "example": {
+          "target": "Mañana tengo una entrevista de trabajo a las diez.",
+          "translit": "mah-NYAH-nah TEHN-goh OO-nah ehn-treh-BEES-tah deh trah-BAH-hoh ah lahs dyehs",
+          "tr": {
+            "ar": "غدًا عندي مقابلة عمل في العاشرة.",
+            "en": "Tomorrow I have a job interview at ten.",
+            "id": "Besok saya punya wawancara kerja pukul sepuluh."
+          }
+        },
+        "hint": {
+          "ar": "«entrevista» مؤنثة. وحرف v يُنطق كالباء، و«de trabajo» تحدد نوع المقابلة.",
+          "en": "\"Entrevista\" is feminine. The v sounds like b, and \"de trabajo\" says what kind of interview.",
+          "id": "\"Entrevista\" feminin. Huruf v berbunyi seperti b, dan \"de trabajo\" menyebut jenis wawancaranya."
+        }
+      },
+      {
+        "id": "es23n8",
+        "target": "el currículum",
+        "translit": "ehl koo-RREE-koo-loom",
+        "tr": {
+          "ar": "السيرة الذاتية",
+          "en": "the CV",
+          "id": "CV, daftar riwayat hidup"
+        },
+        "example": {
+          "target": "Te envío mi currículum por correo electrónico.",
+          "translit": "teh ehn-BEE-oh mee koo-RREE-koo-loom pohr koh-RREH-oh eh-lehk-TROH-nee-koh",
+          "tr": {
+            "ar": "أرسل لك سيرتي الذاتية بالبريد الإلكتروني.",
+            "en": "I'm sending you my CV by email.",
+            "id": "Saya kirim CV saya lewat email kepadamu."
+          }
+        },
+        "hint": {
+          "ar": "«currículum» (كلمة لاتينية) عليها علامة على í، وتُنطق rr في بدايتها. وفي أمريكا اللاتينية يُقال أحيانًا «hoja de vida».",
+          "en": "\"Currículum\" (a Latin word) has an accent on í, and its first r is trilled. In Latin America people sometimes say \"hoja de vida\".",
+          "id": "\"Currículum\" (kata Latin) beraksen pada í, dan r pertamanya digetarkan. Di Amerika Latin kadang dikatakan \"hoja de vida\"."
+        }
+      }
+    ],
+    "cloze": [
+      {
+        "sentence": "Yo todavía no ___ el informe.",
+        "answer": "he escrito",
+        "wrong": [
+          "he escribido",
+          "ha escrito"
+        ],
+        "tr": {
+          "ar": "لم أكتب التقرير بعد.",
+          "en": "I haven't written the report yet.",
+          "id": "Saya belum menulis laporan itu."
+        },
+        "why": {
+          "ar": "«todavía no» تُستعمل مع «he» + اسم المفعول، وللفعل «escribir» اسم مفعول شاذ هو «escrito» (لا «escribido»). و«ha escrito» لا تناسب «yo».",
+          "en": "\"Todavía no\" is used with \"he\" + participle, and \"escribir\" has the irregular participle \"escrito\" (not \"escribido\"). \"Ha escrito\" does not fit \"yo\".",
+          "id": "\"Todavía no\" dipakai dengan \"he\" + participio, dan \"escribir\" punya participio tak beraturan \"escrito\" (bukan \"escribido\"). \"Ha escrito\" tidak cocok untuk \"yo\"."
+        }
+      },
+      {
+        "sentence": "Mi jefa ya ___ con el cliente.",
+        "answer": "ha hablado",
+        "wrong": [
+          "hablado",
+          "he hablado"
+        ],
+        "tr": {
+          "ar": "مديرتي تحدثت مع الزبون بالفعل.",
+          "en": "My boss has already spoken to the client.",
+          "id": "Atasan saya sudah berbicara dengan klien."
+        },
+        "why": {
+          "ar": "الفاعل «mi jefa» (هي) فنستعمل «ha». «hablado» وحدها ليست فعلًا مصرّفًا، و«he hablado» تناسب «yo» فقط.",
+          "en": "The subject \"mi jefa\" (she) takes \"ha\". \"Hablado\" alone is not a conjugated verb, and \"he hablado\" only fits \"yo\".",
+          "id": "Subjek \"mi jefa\" (dia) memakai \"ha\". \"Hablado\" saja bukan kata kerja terkonjugasi, dan \"he hablado\" hanya cocok untuk \"yo\"."
+        }
+      }
+    ],
+    "conversation": {
+      "context": {
+        "ar": "مقابلة عمل في فندق (باحترام).",
+        "en": "A job interview at a hotel (polite).",
+        "id": "Wawancara kerja di sebuah hotel (sopan)."
+      },
+      "turns": [
+        {
+          "who": "A",
+          "target": "Buenos días. ¿Ha trabajado antes en un hotel?",
+          "tr": {
+            "ar": "صباح الخير. هل عملت من قبل في فندق؟",
+            "en": "Good morning. Have you worked in a hotel before?",
+            "id": "Selamat pagi. Apakah Anda pernah bekerja di hotel sebelumnya?"
+          }
+        },
+        {
+          "who": "B",
+          "target": "Sí, he trabajado tres años en un hotel de Sevilla.",
+          "tr": {
+            "ar": "نعم، عملت ثلاث سنوات في فندق في إشبيلية.",
+            "en": "Yes, I have worked for three years in a hotel in Seville.",
+            "id": "Ya, saya sudah bekerja tiga tahun di sebuah hotel di Sevilla."
+          }
+        },
+        {
+          "who": "A",
+          "target": "¿Habla inglés?",
+          "tr": {
+            "ar": "هل تتحدث الإنجليزية؟",
+            "en": "Do you speak English?",
+            "id": "Apakah Anda berbicara bahasa Inggris?"
+          }
+        },
+        {
+          "who": "B",
+          "target": "Sí, he estudiado inglés cinco años.",
+          "tr": {
+            "ar": "نعم، درست الإنجليزية خمس سنوات.",
+            "en": "Yes, I have studied English for five years.",
+            "id": "Ya, saya sudah belajar bahasa Inggris selama lima tahun."
+          }
+        }
+      ],
+      "gap": 1,
+      "wrong": [
+        "Mañana voy a la playa.",
+        "Me llamo Marta."
+      ],
+      "why": {
+        "ar": "السؤال عن الخبرة السابقة يُجاب عنه بالعمل الذي قام به المتقدم حتى الآن بـ «he trabajado». الجملتان الأخريان لا تجيبان عن السؤال.",
+        "en": "A question about earlier experience is answered with what the candidate has done so far, using \"he trabajado\". The other two sentences do not answer the question.",
+        "id": "Pertanyaan tentang pengalaman sebelumnya dijawab dengan apa yang sudah dilakukan pelamar, memakai \"he trabajado\". Dua kalimat lain tidak menjawab pertanyaan."
+      }
+    },
+    "summary": {
+      "ar": "تعلمت أن تسأل «¿A qué te dedicas?»، وأن تكوّن «he/has/ha/hemos/han» + اسم المفعول، وأن تستعمل «ya» و«todavía no». احفظ الأشكال الشاذة hecho وescrito وvisto.",
+      "en": "You learned to ask \"¿A qué te dedicas?\", to form \"he/has/ha/hemos/han\" + participle and to use \"ya\" and \"todavía no\". Memorise the irregular forms hecho, escrito and visto.",
+      "id": "Anda belajar menanyakan \"¿A qué te dedicas?\", membentuk \"he/has/ha/hemos/han\" + participio, dan memakai \"ya\" dan \"todavía no\". Hafalkan bentuk tak beraturan hecho, escrito, dan visto."
+    }
+  },
+  {
+    "id": "es-24",
+    "track": "es",
+    "level": "intermediate",
+    "order": 24,
+    "topic": "past-events-indefinido",
+    "icon": "📅",
+    "title": {
+      "ar": "نهاية الأسبوع الماضي والعام الماضي",
+      "en": "Last Weekend, Last Year",
+      "id": "Akhir Pekan Lalu, Tahun Lalu"
+    },
+    "description": {
+      "ar": "احكِ ما فعلته أمس وفي نهاية الأسبوع وفي العام الماضي.",
+      "en": "Tell what you did yesterday, last weekend and last year.",
+      "id": "Ceritakan apa yang Anda lakukan kemarin, akhir pekan lalu, dan tahun lalu."
+    },
+    "objectives": [
+      {
+        "ar": "أستطيع تصريف الأفعال المنتظمة في «pretérito indefinido».",
+        "en": "I can conjugate regular verbs in the \"pretérito indefinido\".",
+        "id": "Saya bisa mengonjugasikan kata kerja beraturan dalam \"pretérito indefinido\"."
+      },
+      {
+        "ar": "أستطيع استعمال «fui» و«fue» من «ir» و«ser».",
+        "en": "I can use \"fui\" and \"fue\" from \"ir\" and \"ser\".",
+        "id": "Saya bisa memakai \"fui\" dan \"fue\" dari \"ir\" dan \"ser\"."
+      },
+      {
+        "ar": "أستطيع استعمال «ayer» و«anoche» و«el año pasado» و«hace» + مدة.",
+        "en": "I can use \"ayer\", \"anoche\", \"el año pasado\" and \"hace\" + a time.",
+        "id": "Saya bisa memakai \"ayer\", \"anoche\", \"el año pasado\", dan \"hace\" + waktu."
+      }
+    ],
+    "intro": {
+      "ar": "نستعمل «pretérito indefinido» للأحداث المنتهية في الماضي: «Ayer trabajé hasta las seis». وله نهايات خاصة: -é، -aste، -ó للأفعال -ar؛ و-í، -iste، -ió للأفعال -er/-ir. وتتعلم أيضًا «fui» (ذهبت أو كنت) و«fue». وتأتي معه كلمات الزمن: ayer، anoche، el año pasado، hace dos días.",
+      "en": "We use the \"pretérito indefinido\" for finished events in the past: \"Ayer trabajé hasta las seis\". It has its own endings: -é, -aste, -ó for -ar verbs; -í, -iste, -ió for -er/-ir verbs. You also learn \"fui\" (I went or I was) and \"fue\". Time words go with it: ayer, anoche, el año pasado, hace dos días.",
+      "id": "Kita memakai \"pretérito indefinido\" untuk peristiwa lampau yang sudah selesai: \"Ayer trabajé hasta las seis\". Ia punya akhiran sendiri: -é, -aste, -ó untuk kata kerja -ar; -í, -iste, -ió untuk -er/-ir. Anda juga belajar \"fui\" (saya pergi atau saya adalah) dan \"fue\". Kata waktu yang menyertainya: ayer, anoche, el año pasado, hace dos días."
+    },
+    "culture": {
+      "ar": "في الإسبانية الأمريكية يكثر استعمال «pretérito indefinido» حتى للأحداث القريبة جدًا («Hoy comí temprano»)، أما في إسبانيا فيُستعمل غالبًا مع الزمن المنتهي («ayer») و«pretérito perfecto» مع الزمن غير المنتهي («hoy»، «esta semana»). ومن الأسئلة المألوفة بين الزملاء صباح الاثنين: «¿Qué tal el fin de semana?».",
+      "en": "In Latin American Spanish the indefinido is often used even for very recent events (\"Hoy comí temprano\"), while in Spain it usually goes with finished time (\"ayer\") and the perfecto with unfinished time (\"hoy\", \"esta semana\"). A common question between colleagues on Monday morning is \"¿Qué tal el fin de semana?\".",
+      "id": "Dalam bahasa Spanyol Amerika Latin indefinido sering dipakai bahkan untuk peristiwa yang sangat baru (\"Hoy comí temprano\"), sedangkan di Spanyol biasanya ia dipakai dengan waktu yang sudah lewat (\"ayer\") dan perfecto dengan waktu yang belum selesai (\"hoy\", \"esta semana\"). Pertanyaan yang lazim antarrekan kerja pada Senin pagi adalah \"¿Qué tal el fin de semana?\"."
+    },
+    "grammar": {
+      "title": {
+        "ar": "pretérito indefinido للأفعال المنتظمة",
+        "en": "Pretérito indefinido of regular verbs",
+        "id": "Pretérito indefinido kata kerja beraturan"
+      },
+      "body": {
+        "ar": "-ar (trabajar): trabajé، trabajaste، trabajó، trabajamos، trabajasteis، trabajaron. -er/-ir (comer): comí، comiste، comió، comimos، comisteis، comieron. وعلامة النبر (الأكسنت) على الحرف الأخير في «yo» و«él»: trabajé، trabajó. و«ir» و«ser» لهما الصيغة نفسها: fui، fuiste، fue، fuimos، fuisteis، fueron؛ والسياق يحدد المعنى. ومع «hace + مدة» نقول «hace dos días» (قبل يومين).",
+        "en": "-ar (trabajar): trabajé, trabajaste, trabajó, trabajamos, trabajasteis, trabajaron. -er/-ir (comer): comí, comiste, comió, comimos, comisteis, comieron. The accent falls on the last letter in \"yo\" and \"él/ella\": trabajé, trabajó. \"Ir\" and \"ser\" share the same forms: fui, fuiste, fue, fuimos, fuisteis, fueron; context decides the meaning. With \"hace + time\" we say \"hace dos días\" (two days ago).",
+        "id": "-ar (trabajar): trabajé, trabajaste, trabajó, trabajamos, trabajasteis, trabajaron. -er/-ir (comer): comí, comiste, comió, comimos, comisteis, comieron. Aksen jatuh pada huruf terakhir pada \"yo\" dan \"él/ella\": trabajé, trabajó. \"Ir\" dan \"ser\" punya bentuk yang sama: fui, fuiste, fue, fuimos, fuisteis, fueron; konteks menentukan artinya. Dengan \"hace + waktu\" dikatakan \"hace dos días\" (dua hari lalu)."
+      }
+    },
+    "items": [
+      {
+        "id": "es24n1",
+        "target": "Ayer trabajé hasta las seis.",
+        "translit": "ah-YEHR trah-bah-HEH AHS-tah lahs SAYS",
+        "tr": {
+          "ar": "أمس عملت حتى السادسة.",
+          "en": "Yesterday I worked until six.",
+          "id": "Kemarin saya bekerja sampai pukul enam."
+        },
+        "example": {
+          "target": "El lunes trabajé muchas horas.",
+          "translit": "ehl LOO-nehs trah-bah-HEH MOO-chahs OH-rahs",
+          "tr": {
+            "ar": "يوم الاثنين عملت ساعات كثيرة.",
+            "en": "On Monday I worked many hours.",
+            "id": "Hari Senin saya bekerja berjam-jam."
+          }
+        },
+        "hint": {
+          "ar": "للمتكلم «yo» تنتهي الأفعال -ar بـ «-é» مع علامة. وفي «hasta» الحرف h صامت.",
+          "en": "For \"yo\", -ar verbs end in \"-é\" with an accent. The h in \"hasta\" is silent.",
+          "id": "Untuk \"yo\", kata kerja -ar berakhiran \"-é\" beraksen. Huruf h pada \"hasta\" tidak dibunyikan."
+        }
+      },
+      {
+        "id": "es24n2",
+        "target": "Anoche comí con mi familia.",
+        "translit": "ah-NOH-cheh koh-MEE kohn mee fah-MEE-lyah",
+        "tr": {
+          "ar": "ليلة أمس أكلت مع عائلتي.",
+          "en": "Last night I ate with my family.",
+          "id": "Tadi malam saya makan bersama keluarga saya."
+        },
+        "example": {
+          "target": "Anoche mis padres comieron en un restaurante.",
+          "translit": "ah-NOH-cheh mees PAH-drehs koh-MYEH-rohn ehn oon rrehs-tow-RAHN-teh",
+          "tr": {
+            "ar": "ليلة أمس أكل والداي في مطعم.",
+            "en": "Last night my parents ate in a restaurant.",
+            "id": "Tadi malam orang tua saya makan di sebuah restoran."
+          }
+        },
+        "hint": {
+          "ar": "للمتكلم «comí» عليها علامة على í. وللجمع «ellos» نقول «comieron». و«anoche» كلمة واحدة تعني «ليلة أمس».",
+          "en": "\"Comí\" has an accent on í. For \"ellos\" it is \"comieron\". \"Anoche\" is one word meaning \"last night\".",
+          "id": "\"Comí\" beraksen pada í. Untuk \"ellos\" menjadi \"comieron\". \"Anoche\" satu kata yang berarti \"tadi malam\"."
+        }
+      },
+      {
+        "id": "es24n3",
+        "target": "El año pasado viví en Madrid.",
+        "translit": "ehl AH-nyoh pah-SAH-doh bee-BEE ehn mah-DREED",
+        "tr": {
+          "ar": "في العام الماضي سكنت في مدريد.",
+          "en": "Last year I lived in Madrid.",
+          "id": "Tahun lalu saya tinggal di Madrid."
+        },
+        "example": {
+          "target": "Mi tía vivió dos años en Chile.",
+          "translit": "mee TEE-ah bee-BYOH dohs AH-nyohs ehn CHEE-leh",
+          "tr": {
+            "ar": "عاشت خالتي سنتين في تشيلي.",
+            "en": "My aunt lived in Chile for two years.",
+            "id": "Bibi saya tinggal dua tahun di Chili."
+          }
+        },
+        "hint": {
+          "ar": "للمفرد الغائب «vivió» عليها علامة على ó. و«el año pasado» تعني «العام الماضي»، و«pasado» تتفق مع «año».",
+          "en": "\"Vivió\" for él/ella has an accent on ó. \"El año pasado\" means \"last year\", and \"pasado\" agrees with \"año\".",
+          "id": "\"Vivió\" untuk él/ella beraksen pada ó. \"El año pasado\" berarti \"tahun lalu\", dan \"pasado\" menyesuaikan \"año\"."
+        }
+      },
+      {
+        "id": "es24n4",
+        "target": "Me levanté tarde.",
+        "translit": "meh leh-bahn-TEH TAHR-deh",
+        "tr": {
+          "ar": "استيقظت متأخرًا.",
+          "en": "I got up late.",
+          "id": "Saya bangun terlambat."
+        },
+        "example": {
+          "target": "El domingo me levanté a las once.",
+          "translit": "ehl doh-MEEN-goh meh leh-bahn-TEH ah lahs OHN-seh",
+          "tr": {
+            "ar": "يوم الأحد استيقظت في الحادية عشرة.",
+            "en": "On Sunday I got up at eleven.",
+            "id": "Hari Minggu saya bangun pukul sebelas."
+          }
+        },
+        "hint": {
+          "ar": "«levantarse» انعكاسي، فيأتي «me» قبل الفعل. وتبقى الصيغة -é مع علامة. وتذكّر «el domingo» للدلالة على يوم محدد.",
+          "en": "\"Levantarse\" is reflexive, so \"me\" goes before the verb. The -é ending keeps its accent. \"El domingo\" refers to one specific day.",
+          "id": "\"Levantarse\" refleksif, jadi \"me\" diletakkan sebelum kata kerja. Akhiran -é tetap beraksen. \"El domingo\" merujuk pada satu hari tertentu."
+        }
+      },
+      {
+        "id": "es24n5",
+        "target": "Fui al cine.",
+        "translit": "fwee ahl SEE-neh",
+        "tr": {
+          "ar": "ذهبت إلى السينما.",
+          "en": "I went to the cinema.",
+          "id": "Saya pergi ke bioskop."
+        },
+        "example": {
+          "target": "El sábado fui al cine con mis amigos.",
+          "translit": "ehl SAH-bah-doh fwee ahl SEE-neh kohn mees ah-MEE-gohs",
+          "tr": {
+            "ar": "يوم السبت ذهبت إلى السينما مع أصدقائي.",
+            "en": "On Saturday I went to the cinema with my friends.",
+            "id": "Hari Sabtu saya pergi ke bioskop bersama teman-teman saya."
+          }
+        },
+        "hint": {
+          "ar": "«fui» بلا علامة لأنها مقطع واحد. و«al» اختصار «a + el». وتنطق fui تقريبًا «فوي».",
+          "en": "\"Fui\" has no accent because it is one syllable. \"Al\" is the contraction of \"a + el\".",
+          "id": "\"Fui\" tidak beraksen karena satu suku kata. \"Al\" adalah singkatan \"a + el\"."
+        }
+      },
+      {
+        "id": "es24n6",
+        "target": "Fue una película genial.",
+        "translit": "fweh OO-nah peh-LEE-koo-lah heh-NYAHL",
+        "tr": {
+          "ar": "كان فيلمًا رائعًا.",
+          "en": "It was a great film.",
+          "id": "Itu film yang bagus sekali."
+        },
+        "example": {
+          "target": "Fue una fiesta muy divertida.",
+          "translit": "fweh OO-nah FYEHS-tah mwee dee-behr-TEE-dah",
+          "tr": {
+            "ar": "كانت حفلة ممتعة جدًا.",
+            "en": "It was a very fun party.",
+            "id": "Itu pesta yang sangat menyenangkan."
+          }
+        },
+        "hint": {
+          "ar": "«fue» من «ser» هنا، وهي نفسها «fue» من «ir» («Ella fue al cine»). والسياق يحدد المعنى. وفي «película» التشديد على í وعليها علامة.",
+          "en": "\"Fue\" here is from \"ser\" and is identical to \"fue\" from \"ir\" (\"Ella fue al cine\"). Context tells them apart. \"Película\" has an accent on í.",
+          "id": "\"Fue\" di sini dari \"ser\" dan sama dengan \"fue\" dari \"ir\" (\"Ella fue al cine\"). Konteks membedakannya. \"Película\" beraksen pada í."
+        }
+      },
+      {
+        "id": "es24n7",
+        "target": "hace dos días",
+        "translit": "AH-seh dohs DEE-ahs",
+        "tr": {
+          "ar": "قبل يومين",
+          "en": "two days ago",
+          "id": "dua hari yang lalu"
+        },
+        "example": {
+          "target": "Llegué hace dos días.",
+          "translit": "yeh-GEH AH-seh dohs DEE-ahs",
+          "tr": {
+            "ar": "وصلت قبل يومين.",
+            "en": "I arrived two days ago.",
+            "id": "Saya tiba dua hari yang lalu."
+          }
+        },
+        "hint": {
+          "ar": "«hace + مدة» تعني «قبل...» وتأتي مع الفعل في الماضي. وفي «llegué» نضيف u لإبقاء صوت g الصلب قبل e.",
+          "en": "\"Hace + time\" means \"... ago\" and goes with a past tense. In \"llegué\" the u keeps the hard g sound before e.",
+          "id": "\"Hace + waktu\" berarti \"... yang lalu\" dan dipakai dengan kala lampau. Pada \"llegué\" huruf u menjaga bunyi g keras sebelum e."
+        }
+      },
+      {
+        "id": "es24n8",
+        "target": "¿Qué hiciste el sábado?",
+        "translit": "keh ee-SEES-teh ehl SAH-bah-doh",
+        "tr": {
+          "ar": "ماذا فعلت يوم السبت؟",
+          "en": "What did you do on Saturday?",
+          "id": "Apa yang kamu lakukan hari Sabtu?"
+        },
+        "example": {
+          "target": "¿Qué hiciste el fin de semana?",
+          "translit": "keh ee-SEES-teh ehl feen deh seh-MAH-nah",
+          "tr": {
+            "ar": "ماذا فعلت في عطلة نهاية الأسبوع؟",
+            "en": "What did you do at the weekend?",
+            "id": "Apa yang kamu lakukan pada akhir pekan?"
+          }
+        },
+        "hint": {
+          "ar": "«hiciste» من «hacer» وهي شاذة قليلًا (hice، hiciste)، فاحفظها عبارةً جاهزة. و«el sábado» تعني «يوم السبت المحدد».",
+          "en": "\"Hiciste\" comes from \"hacer\" and is slightly irregular (hice, hiciste), so learn it as a ready-made phrase. \"El sábado\" means a specific Saturday.",
+          "id": "\"Hiciste\" dari \"hacer\" dan sedikit tak beraturan (hice, hiciste), jadi hafalkan sebagai ungkapan siap pakai. \"El sábado\" berarti Sabtu tertentu."
+        }
+      }
+    ],
+    "cloze": [
+      {
+        "sentence": "Ayer ___ en un restaurante nuevo.",
+        "answer": "comí",
+        "wrong": [
+          "como",
+          "comeré"
+        ],
+        "tr": {
+          "ar": "أمس أكلت في مطعم جديد.",
+          "en": "Yesterday I ate in a new restaurant.",
+          "id": "Kemarin saya makan di restoran baru."
+        },
+        "why": {
+          "ar": "«ayer» تدل على ماضٍ منتهٍ فنستعمل «comí». أما «como» (الحاضر) و«comeré» (المستقبل) فلا تناسبانها.",
+          "en": "\"Ayer\" points to a finished past, so we use \"comí\". \"Como\" (present) and \"comeré\" (future) do not fit.",
+          "id": "\"Ayer\" menunjuk masa lampau yang sudah selesai, jadi dipakai \"comí\". \"Como\" (kini) dan \"comeré\" (akan datang) tidak cocok."
+        }
+      },
+      {
+        "sentence": "Anoche ___ al teatro con mi hermana.",
+        "answer": "fui",
+        "wrong": [
+          "voy",
+          "iré"
+        ],
+        "tr": {
+          "ar": "ليلة أمس ذهبت إلى المسرح مع أختي.",
+          "en": "Last night I went to the theatre with my sister.",
+          "id": "Tadi malam saya pergi ke teater bersama adik perempuan saya."
+        },
+        "why": {
+          "ar": "«anoche» ماضٍ منتهٍ فنقول «fui» من «ir». «voy» حاضر و«iré» مستقبل ولا يجتمعان مع «anoche».",
+          "en": "\"Anoche\" is a finished past, so we say \"fui\" from \"ir\". \"Voy\" is present and \"iré\" is future; neither goes with \"anoche\".",
+          "id": "\"Anoche\" adalah lampau yang selesai, jadi dikatakan \"fui\" dari \"ir\". \"Voy\" kini dan \"iré\" akan datang; keduanya tidak cocok dengan \"anoche\"."
+        }
+      }
+    ],
+    "conversation": {
+      "context": {
+        "ar": "حديث صباح الاثنين بين زميلين عن نهاية الأسبوع.",
+        "en": "A Monday-morning chat between two colleagues about the weekend.",
+        "id": "Obrolan Senin pagi antara dua rekan tentang akhir pekan."
+      },
+      "turns": [
+        {
+          "who": "A",
+          "target": "Hola, Luis. ¿Qué tal el fin de semana?",
+          "tr": {
+            "ar": "مرحبًا يا لويس. كيف كانت عطلة نهاية الأسبوع؟",
+            "en": "Hi, Luis. How was the weekend?",
+            "id": "Hai, Luis. Bagaimana akhir pekanmu?"
+          }
+        },
+        {
+          "who": "B",
+          "target": "¡Muy bien! El sábado fui a la playa con mi familia.",
+          "tr": {
+            "ar": "جيدة جدًا! يوم السبت ذهبت إلى الشاطئ مع عائلتي.",
+            "en": "Very good! On Saturday I went to the beach with my family.",
+            "id": "Bagus sekali! Hari Sabtu saya pergi ke pantai bersama keluarga saya."
+          }
+        },
+        {
+          "who": "A",
+          "target": "¿Y comieron allí?",
+          "tr": {
+            "ar": "وهل أكلتم هناك؟",
+            "en": "And did you eat there?",
+            "id": "Dan apakah kalian makan di sana?"
+          }
+        },
+        {
+          "who": "B",
+          "target": "Sí, comimos pescado en un restaurante.",
+          "tr": {
+            "ar": "نعم، أكلنا سمكًا في مطعم.",
+            "en": "Yes, we ate fish in a restaurant.",
+            "id": "Ya, kami makan ikan di sebuah restoran."
+          }
+        }
+      ],
+      "gap": 1,
+      "wrong": [
+        "Mañana trabajo hasta las seis.",
+        "Me llamo Luis."
+      ],
+      "why": {
+        "ar": "السؤال عن نهاية الأسبوع الماضي يُجاب عنه بحدث ماضٍ («fui a la playa»). الجملتان الأخريان تتحدثان عن الغد أو عن الاسم فلا تجيبان عن السؤال.",
+        "en": "A question about last weekend is answered with a past event (\"fui a la playa\"). The other two sentences talk about tomorrow or a name and do not answer the question.",
+        "id": "Pertanyaan tentang akhir pekan lalu dijawab dengan peristiwa lampau (\"fui a la playa\"). Dua kalimat lain membahas besok atau nama, jadi tidak menjawab pertanyaan."
+      }
+    },
+    "summary": {
+      "ar": "تعلمت «pretérito indefinido» للأفعال المنتظمة، و«fui/fue»، و«ayer/anoche/hace». تذكّر العلامة على -é و-í و-ó، وراجع «¿Qué hiciste el sábado?».",
+      "en": "You learned the indefinido of regular verbs, \"fui/fue\", and \"ayer/anoche/hace\". Remember the accent on -é, -í and -ó, and revise \"¿Qué hiciste el sábado?\".",
+      "id": "Anda belajar indefinido kata kerja beraturan, \"fui/fue\", dan \"ayer/anoche/hace\". Ingat aksen pada -é, -í, dan -ó, dan ulangi \"¿Qué hiciste el sábado?\"."
+    }
+  },
+  {
+    "id": "es-25",
+    "track": "es",
+    "level": "intermediate",
+    "order": 25,
+    "topic": "travel-hotel-irregulars",
+    "icon": "🏨",
+    "title": {
+      "ar": "السفر والفنادق",
+      "en": "Travel and Hotels",
+      "id": "Perjalanan dan Hotel"
+    },
+    "description": {
+      "ar": "احجز غرفة واحكِ عن رحلة قمت بها.",
+      "en": "Check in at a hotel and tell about a trip you took.",
+      "id": "Lapor masuk di hotel dan ceritakan perjalanan yang Anda lakukan."
+    },
+    "objectives": [
+      {
+        "ar": "أستطيع تسجيل الدخول في فندق وطلب غرفة.",
+        "en": "I can check in at a hotel and ask for a room.",
+        "id": "Saya bisa check-in di hotel dan meminta kamar."
+      },
+      {
+        "ar": "أستطيع السؤال عن الإفطار ووقت المغادرة.",
+        "en": "I can ask about breakfast and check-out time.",
+        "id": "Saya bisa menanyakan sarapan dan waktu check-out."
+      },
+      {
+        "ar": "أستطيع استعمال الأفعال الشاذة: estuve، tuve، hice، vine.",
+        "en": "I can use irregular past forms: estuve, tuve, hice, vine.",
+        "id": "Saya bisa memakai bentuk lampau tak beraturan: estuve, tuve, hice, vine."
+      }
+    ],
+    "intro": {
+      "ar": "في الفندق تحتاج إلى عبارات ثابتة: «Tengo una reserva»، «una habitación doble»، «¿Está incluido el desayuno?». وعند الحديث عن رحلتك تحتاج إلى أفعال شاذة في الماضي مثل «estuve» (كنت) و«tuve» (كان عندي) و«hice» (فعلت) و«vine» (جئت). هذه الأفعال لها جذع خاص ولا علامة عليها.",
+      "en": "At a hotel you need set phrases: \"Tengo una reserva\", \"una habitación doble\", \"¿Está incluido el desayuno?\". To talk about your trip you need irregular past forms such as \"estuve\" (I was), \"tuve\" (I had), \"hice\" (I did) and \"vine\" (I came). These verbs have a special stem and no accent.",
+      "id": "Di hotel Anda butuh ungkapan tetap: \"Tengo una reserva\", \"una habitación doble\", \"¿Está incluido el desayuno?\". Untuk menceritakan perjalanan Anda butuh bentuk lampau tak beraturan seperti \"estuve\" (saya berada), \"tuve\" (saya punya), \"hice\" (saya melakukan), dan \"vine\" (saya datang). Kata kerja ini punya batang khusus dan tanpa aksen."
+    },
+    "culture": {
+      "ar": "في إسبانيا وأمريكا اللاتينية يُذكر عند تسجيل الدخول الاسم المحجوز به («a nombre de...») ويُطلب غالبًا جواز السفر أو الهوية. والإفطار (desayuno) قد يكون مشمولًا أو لا، فمن المفيد السؤال. وتُسمّى الغرفة «habitación» في إسبانيا، وفي بعض البلدان «pieza» أو «cuarto».",
+      "en": "In Spain and Latin America you give the name of the booking (\"a nombre de...\") at check-in, and you are often asked for a passport or ID. Breakfast (desayuno) may or may not be included, so it is worth asking. The room is \"habitación\" in Spain, and in some countries \"pieza\" or \"cuarto\".",
+      "id": "Di Spanyol dan Amerika Latin Anda menyebut nama pemesanan (\"a nombre de...\") saat check-in, dan sering diminta paspor atau KTP. Sarapan (desayuno) bisa termasuk atau tidak, jadi baik untuk ditanyakan. Kamar disebut \"habitación\" di Spanyol, dan di beberapa negara \"pieza\" atau \"cuarto\"."
+    },
+    "grammar": {
+      "title": {
+        "ar": "pretérito indefinido الشاذ",
+        "en": "Irregular indefinido stems",
+        "id": "Indefinido tak beraturan"
+      },
+      "body": {
+        "ar": "بعض الأفعال لها جذع شاذ في الماضي: estar ← estuv-، tener ← tuv-، hacer ← hic- (وفي «él» hizo)، poder ← pud-، venir ← vin-، decir ← dij-، poner ← pus-، querer ← quis-. نضيف النهايات: -e، -iste، -o، -imos، -isteis، -ieron (وبعد j: -eron). ولا علامة على هذه النهايات: estuve، tuvo، hizo. ومع «tener que»: «Tuve que cambiar el vuelo».",
+        "en": "Some verbs have an irregular stem in the past: estar gives estuv-, tener tuv-, hacer hic- (and hizo for él), poder pud-, venir vin-, decir dij-, poner pus-, querer quis-. Add the endings -e, -iste, -o, -imos, -isteis, -ieron (-eron after j). There is no accent on these endings: estuve, tuvo, hizo. With \"tener que\": \"Tuve que cambiar el vuelo\".",
+        "id": "Beberapa kata kerja punya batang tak beraturan di masa lampau: estar menjadi estuv-, tener tuv-, hacer hic- (dan hizo untuk él), poder pud-, venir vin-, decir dij-, poner pus-, querer quis-. Tambahkan akhiran -e, -iste, -o, -imos, -isteis, -ieron (-eron setelah j). Tidak ada aksen pada akhiran ini: estuve, tuvo, hizo. Dengan \"tener que\": \"Tuve que cambiar el vuelo\"."
+      }
+    },
+    "items": [
+      {
+        "id": "es25n1",
+        "target": "Tengo una reserva a nombre de Ruiz.",
+        "translit": "TEHN-goh OO-nah rreh-SEHR-bah ah NOHM-breh deh RRWEES",
+        "tr": {
+          "ar": "عندي حجز باسم رويس.",
+          "en": "I have a reservation in the name of Ruiz.",
+          "id": "Saya punya reservasi atas nama Ruiz."
+        },
+        "example": {
+          "target": "Buenas tardes, tengo una reserva para tres noches.",
+          "translit": "BWEH-nahs TAHR-dehs, TEHN-goh OO-nah rreh-SEHR-bah PAH-rah trehs NOH-chehs",
+          "tr": {
+            "ar": "مساء الخير، عندي حجز لثلاث ليالٍ.",
+            "en": "Good afternoon, I have a reservation for three nights.",
+            "id": "Selamat sore, saya punya reservasi untuk tiga malam."
+          }
+        },
+        "hint": {
+          "ar": "«a nombre de» تعني «باسم». وحرف v في «reserva» يُنطق كالباء، وحرف r في بدء «Ruiz» مدحرج.",
+          "en": "\"A nombre de\" means \"in the name of\". The v in \"reserva\" sounds like b, and the r at the start of \"Ruiz\" is trilled.",
+          "id": "\"A nombre de\" berarti \"atas nama\". Huruf v pada \"reserva\" berbunyi b, dan r di awal \"Ruiz\" digetarkan."
+        }
+      },
+      {
+        "id": "es25n2",
+        "target": "Una habitación doble con baño",
+        "translit": "OO-nah ah-bee-tah-SYOHN DOH-bleh kohn BAH-nyoh",
+        "tr": {
+          "ar": "غرفة مزدوجة مع حمام",
+          "en": "a double room with bathroom",
+          "id": "kamar double dengan kamar mandi"
+        },
+        "example": {
+          "target": "Quisiera una habitación doble con baño, por favor.",
+          "translit": "kee-SYEH-rah OO-nah ah-bee-tah-SYOHN DOH-bleh kohn BAH-nyoh pohr fah-BOHR",
+          "tr": {
+            "ar": "أود غرفة مزدوجة مع حمام من فضلك.",
+            "en": "I'd like a double room with bathroom, please.",
+            "id": "Saya ingin kamar double dengan kamar mandi, tolong."
+          }
+        },
+        "hint": {
+          "ar": "«habitación» عليها علامة على ó وh فيها صامتة. و«baño» فيها ñ تُنطق «ny». ولغرفة بسرير واحد: «habitación individual».",
+          "en": "\"Habitación\" has an accent on ó and a silent h. \"Baño\" has ñ (ny). For a single room: \"habitación individual\".",
+          "id": "\"Habitación\" beraksen pada ó dan h-nya senyap. \"Baño\" memuat ñ (ny). Untuk kamar single: \"habitación individual\"."
+        }
+      },
+      {
+        "id": "es25n3",
+        "target": "¿Está incluido el desayuno?",
+        "translit": "ehs-TAH een-kloo-EE-doh ehl deh-sah-YOO-noh",
+        "tr": {
+          "ar": "هل الإفطار مشمول؟",
+          "en": "Is breakfast included?",
+          "id": "Apakah sarapan sudah termasuk?"
+        },
+        "example": {
+          "target": "¿Está incluido el desayuno en el precio?",
+          "translit": "ehs-TAH een-kloo-EE-doh ehl deh-sah-YOO-noh ehn ehl PREH-syoh",
+          "tr": {
+            "ar": "هل الإفطار مشمول في السعر؟",
+            "en": "Is breakfast included in the price?",
+            "id": "Apakah sarapan termasuk dalam harga?"
+          }
+        },
+        "hint": {
+          "ar": "«incluido» تتفق مع الاسم: «incluida» للمؤنث («la cena»). و«está» عليها علامة لأنها فعل «estar»، وبدونها «esta» تعني «هذه».",
+          "en": "\"Incluido\" agrees with the noun: \"incluida\" for feminine (\"la cena\"). \"Está\" has an accent because it is the verb \"estar\"; without it \"esta\" means \"this\".",
+          "id": "\"Incluido\" menyesuaikan kata benda: \"incluida\" untuk feminin (\"la cena\"). \"Está\" beraksen karena kata kerja \"estar\"; tanpa aksen \"esta\" berarti \"ini\"."
+        }
+      },
+      {
+        "id": "es25n4",
+        "target": "¿A qué hora es la salida?",
+        "translit": "ah keh OH-rah ehs lah sah-LEE-dah",
+        "tr": {
+          "ar": "متى موعد المغادرة؟",
+          "en": "What time is check-out?",
+          "id": "Jam berapa check-out?"
+        },
+        "example": {
+          "target": "Perdone, ¿a qué hora es la salida mañana?",
+          "translit": "pehr-DOH-neh, ah keh OH-rah ehs lah sah-LEE-dah mah-NYAH-nah",
+          "tr": {
+            "ar": "عفوًا، متى موعد المغادرة غدًا؟",
+            "en": "Excuse me, what time is check-out tomorrow?",
+            "id": "Permisi, jam berapa check-out besok?"
+          }
+        },
+        "hint": {
+          "ar": "«salida» تعني «خروج» وهي موعد ترك الغرفة. والعكس «la entrada» (الوصول). وحرف h في «hora» صامت.",
+          "en": "\"Salida\" means \"exit\" and here the time to leave the room. The opposite is \"la entrada\" (arrival). The h in \"hora\" is silent.",
+          "id": "\"Salida\" berarti \"keluar\" dan di sini waktu meninggalkan kamar. Lawannya \"la entrada\" (kedatangan). Huruf h pada \"hora\" senyap."
+        }
+      },
+      {
+        "id": "es25n5",
+        "target": "El verano pasado estuve en Perú.",
+        "translit": "ehl beh-RAH-noh pah-SAH-doh ehs-TOO-beh ehn peh-ROO",
+        "tr": {
+          "ar": "في الصيف الماضي كنت في بيرو.",
+          "en": "Last summer I was in Peru.",
+          "id": "Musim panas lalu saya berada di Peru."
+        },
+        "example": {
+          "target": "El verano pasado estuvimos dos semanas en Cuba.",
+          "translit": "ehl beh-RAH-noh pah-SAH-doh ehs-too-BEE-mohs dohs seh-MAH-nahs ehn KOO-bah",
+          "tr": {
+            "ar": "في الصيف الماضي بقينا أسبوعين في كوبا.",
+            "en": "Last summer we spent two weeks in Cuba.",
+            "id": "Musim panas lalu kami berada dua minggu di Kuba."
+          }
+        },
+        "hint": {
+          "ar": "«estuve» من «estar» بجذع «estuv-»، ولا علامة عليها بخلاف «estoy/está». وحرف v كالباء. و«Perú» عليها علامة على ú.",
+          "en": "\"Estuve\" comes from \"estar\" with the stem \"estuv-\" and has no accent, unlike \"está\". \"Perú\" has an accent on ú.",
+          "id": "\"Estuve\" dari \"estar\" dengan batang \"estuv-\" dan tanpa aksen, tidak seperti \"está\". \"Perú\" beraksen pada ú."
+        }
+      },
+      {
+        "id": "es25n6",
+        "target": "Tuve que cambiar el vuelo.",
+        "translit": "TOO-beh keh kahm-BYAHR ehl BWEH-loh",
+        "tr": {
+          "ar": "اضطررت إلى تغيير الرحلة.",
+          "en": "I had to change the flight.",
+          "id": "Saya harus mengganti penerbangan."
+        },
+        "example": {
+          "target": "Tuvimos que esperar dos horas en el aeropuerto.",
+          "translit": "too-BEE-mohs keh ehs-peh-RAHR dohs OH-rahs ehn ehl ah-eh-roh-PWEHR-toh",
+          "tr": {
+            "ar": "اضطررنا إلى الانتظار ساعتين في المطار.",
+            "en": "We had to wait two hours at the airport.",
+            "id": "Kami harus menunggu dua jam di bandara."
+          }
+        },
+        "hint": {
+          "ar": "«tuve» من «tener» بجذع «tuv-» وبلا علامة. وبعد «tener que» يأتي مصدر. و«vuelo» تعني رحلة الطيران.",
+          "en": "\"Tuve\" comes from \"tener\" with the stem \"tuv-\", no accent. \"Tener que\" is followed by an infinitive. \"Vuelo\" is a flight.",
+          "id": "\"Tuve\" dari \"tener\" dengan batang \"tuv-\", tanpa aksen. Setelah \"tener que\" dipakai infinitif. \"Vuelo\" berarti penerbangan."
+        }
+      },
+      {
+        "id": "es25n7",
+        "target": "Hice muchas fotos.",
+        "translit": "EE-seh MOO-chahs FOH-tohs",
+        "tr": {
+          "ar": "التقطت صورًا كثيرة.",
+          "en": "I took lots of photos.",
+          "id": "Saya mengambil banyak foto."
+        },
+        "example": {
+          "target": "En Lima hice muchas fotos del mar.",
+          "translit": "ehn LEE-mah EE-seh MOO-chahs FOH-tohs dehl mahr",
+          "tr": {
+            "ar": "في ليما التقطت صورًا كثيرة للبحر.",
+            "en": "In Lima I took lots of photos of the sea.",
+            "id": "Di Lima saya mengambil banyak foto laut."
+          }
+        },
+        "hint": {
+          "ar": "«hacer fotos» تعني «التقاط صور» (وفي أمريكا اللاتينية يُقال غالبًا «tomar fotos»). «hice» جذعها «hic-» وللغائب «hizo» (تُكتب بـ z). وحرف h في بدايتها صامت.",
+          "en": "\"Hacer fotos\" means \"to take photos\" (in Latin America \"tomar fotos\" is often used). \"Hice\" has the stem \"hic-\", and for él/ella it is \"hizo\" (with z). The initial h is silent.",
+          "id": "\"Hacer fotos\" berarti \"mengambil foto\" (di Amerika Latin sering dipakai \"tomar fotos\"). \"Hice\" berbatang \"hic-\", dan untuk él/ella menjadi \"hizo\" (dengan z). Huruf h di awal senyap."
+        }
+      },
+      {
+        "id": "es25n8",
+        "target": "Vine en avión.",
+        "translit": "BEE-neh ehn ah-BYOHN",
+        "tr": {
+          "ar": "جئت بالطائرة.",
+          "en": "I came by plane.",
+          "id": "Saya datang dengan pesawat."
+        },
+        "example": {
+          "target": "Mi hermano vino en tren.",
+          "translit": "mee ehr-MAH-noh BEE-noh ehn trehn",
+          "tr": {
+            "ar": "جاء أخي بالقطار.",
+            "en": "My brother came by train.",
+            "id": "Kakak saya datang dengan kereta."
+          }
+        },
+        "hint": {
+          "ar": "«vine» من «venir» بجذع «vin-»، وللغائب «vino» (بلا علامة). و«avión» عليها علامة على ó. وb وv تُنطقان بالطريقة نفسها.",
+          "en": "\"Vine\" comes from \"venir\" with the stem \"vin-\", and for él/ella it is \"vino\" (no accent). \"Avión\" has an accent on ó. The letters b and v sound the same.",
+          "id": "\"Vine\" dari \"venir\" dengan batang \"vin-\", dan untuk él/ella \"vino\" (tanpa aksen). \"Avión\" beraksen pada ó. Huruf b dan v dibunyikan sama."
+        }
+      }
+    ],
+    "cloze": [
+      {
+        "sentence": "El año pasado ___ en Chile dos semanas.",
+        "answer": "estuve",
+        "wrong": [
+          "estoy",
+          "estás"
+        ],
+        "tr": {
+          "ar": "في العام الماضي كنت في تشيلي أسبوعين.",
+          "en": "Last year I was in Chile for two weeks.",
+          "id": "Tahun lalu saya berada di Chili selama dua minggu."
+        },
+        "why": {
+          "ar": "«el año pasado» ماضٍ منتهٍ فنستعمل «estuve». «estoy» و«estás» حاضر ولا يناسبان.",
+          "en": "\"El año pasado\" is a finished past, so we use \"estuve\". \"Estoy\" and \"estás\" are present and do not fit.",
+          "id": "\"El año pasado\" adalah lampau yang selesai, jadi dipakai \"estuve\". \"Estoy\" dan \"estás\" adalah kini dan tidak cocok."
+        }
+      },
+      {
+        "sentence": "Ayer ___ muchas fotos en la playa.",
+        "answer": "hice",
+        "wrong": [
+          "hago",
+          "hacemos"
+        ],
+        "tr": {
+          "ar": "أمس التقطت صورًا كثيرة على الشاطئ.",
+          "en": "Yesterday I took lots of photos on the beach.",
+          "id": "Kemarin saya mengambil banyak foto di pantai."
+        },
+        "why": {
+          "ar": "«ayer» ماضٍ منتهٍ و«yo» يقابله «hice». «hago» و«hacemos» حاضر ولا يتفقان مع «ayer».",
+          "en": "\"Ayer\" is a finished past and \"yo\" takes \"hice\". \"Hago\" and \"hacemos\" are present and do not agree with \"ayer\".",
+          "id": "\"Ayer\" adalah lampau yang selesai dan \"yo\" memakai \"hice\". \"Hago\" dan \"hacemos\" adalah kini dan tidak cocok dengan \"ayer\"."
+        }
+      }
+    ],
+    "conversation": {
+      "context": {
+        "ar": "تسجيل الدخول في فندق (باحترام).",
+        "en": "Checking in at a hotel (polite).",
+        "id": "Check-in di hotel (sopan)."
+      },
+      "turns": [
+        {
+          "who": "A",
+          "target": "Buenas tardes. ¿En qué puedo ayudarle?",
+          "tr": {
+            "ar": "مساء الخير. كيف أستطيع مساعدتك؟",
+            "en": "Good afternoon. How can I help you?",
+            "id": "Selamat sore. Ada yang bisa saya bantu?"
+          }
+        },
+        {
+          "who": "B",
+          "target": "Buenas tardes. Tengo una reserva a nombre de Ruiz.",
+          "tr": {
+            "ar": "مساء الخير. عندي حجز باسم رويس.",
+            "en": "Good afternoon. I have a reservation in the name of Ruiz.",
+            "id": "Selamat sore. Saya punya reservasi atas nama Ruiz."
+          }
+        },
+        {
+          "who": "A",
+          "target": "Perfecto, una habitación doble con baño. El desayuno está incluido.",
+          "tr": {
+            "ar": "ممتاز، غرفة مزدوجة مع حمام. والإفطار مشمول.",
+            "en": "Perfect, a double room with bathroom. Breakfast is included.",
+            "id": "Baik, kamar double dengan kamar mandi. Sarapan sudah termasuk."
+          }
+        },
+        {
+          "who": "B",
+          "target": "Muchas gracias. ¿A qué hora es la salida?",
+          "tr": {
+            "ar": "شكرًا جزيلًا. متى موعد المغادرة؟",
+            "en": "Thank you very much. What time is check-out?",
+            "id": "Terima kasih banyak. Jam berapa check-out?"
+          }
+        }
+      ],
+      "gap": 1,
+      "wrong": [
+        "Me duele la cabeza.",
+        "Fui al cine anoche."
+      ],
+      "why": {
+        "ar": "موظف الاستقبال يسأل كيف يساعد، فيرد الضيف بذكر الحجز. والجملتان الأخريان (ألم في الرأس وزيارة السينما) لا علاقة لهما بالفندق.",
+        "en": "The receptionist asks how to help, so the guest mentions the reservation. The other two sentences (a headache and a trip to the cinema) have nothing to do with a hotel.",
+        "id": "Resepsionis bertanya apa yang bisa dibantu, jadi tamu menyebut reservasinya. Dua kalimat lain (sakit kepala dan pergi ke bioskop) tidak berkaitan dengan hotel."
+      }
+    },
+    "summary": {
+      "ar": "تعلمت عبارات الفندق (reserva، habitación doble، desayuno، salida) وأفعال الماضي الشاذة: estuve، tuve، hice، vine. تذكّر أنها بلا علامة وأن جذعها يتغير.",
+      "en": "You learned hotel phrases (reserva, habitación doble, desayuno, salida) and irregular past forms: estuve, tuve, hice, vine. Remember that they carry no accent and that their stem changes.",
+      "id": "Anda belajar ungkapan hotel (reserva, habitación doble, desayuno, salida) dan bentuk lampau tak beraturan: estuve, tuve, hice, vine. Ingat bahwa bentuk ini tanpa aksen dan batangnya berubah."
+    }
+  },
+  {
+    "id": "es-26",
+    "track": "es",
+    "level": "intermediate",
+    "order": 26,
+    "topic": "phone-invitations-imperative",
+    "icon": "📞",
+    "title": {
+      "ar": "المكالمات والدعوات",
+      "en": "Phone Calls and Invitations",
+      "id": "Telepon dan Undangan"
+    },
+    "description": {
+      "ar": "أجب عن المكالمات وادعُ أصدقاءك وقبل الدعوات أو اعتذر عنها.",
+      "en": "Answer calls, invite friends, and accept or decline invitations.",
+      "id": "Jawab telepon, undang teman, dan terima atau tolak undangan."
+    },
+    "objectives": [
+      {
+        "ar": "أستطيع الرد على الهاتف وطلب التحدث مع شخص.",
+        "en": "I can answer the phone and ask to speak to someone.",
+        "id": "Saya bisa menjawab telepon dan meminta bicara dengan seseorang."
+      },
+      {
+        "ar": "أستطيع دعوة صديق وقبول الدعوة أو الاعتذار عنها.",
+        "en": "I can invite a friend and accept or decline an invitation.",
+        "id": "Saya bisa mengundang teman serta menerima atau menolak undangan."
+      },
+      {
+        "ar": "أستطيع استعمال الأمر مع «tú»: ven، llámame، di.",
+        "en": "I can use the \"tú\" imperative: ven, llámame, di.",
+        "id": "Saya bisa memakai imperatif \"tú\": ven, llámame, di."
+      }
+    ],
+    "intro": {
+      "ar": "عند المكالمة تقول في إسبانيا «¿Diga?» أو «¿Dígame?». وتدعو صديقك بقولك «¿Quieres venir a mi fiesta?» ويجيب «Sí, con mucho gusto» أو «Lo siento, no puedo». وللأمر مع الصديق نستعمل صيغة «tú»: «Ven a las ocho»، «Llámame mañana». وفي الدرس الثامن تعلمت الأمر بصيغة الاحترام، وهنا ترى الفرق.",
+      "en": "On the phone people say \"¿Diga?\" or \"¿Dígame?\" in Spain. You invite a friend with \"¿Quieres venir a mi fiesta?\" and the answer is \"Sí, con mucho gusto\" or \"Lo siento, no puedo\". With a friend we use the \"tú\" command: \"Ven a las ocho\", \"Llámame mañana\". In lesson 8 you learned the polite command; here you see the difference.",
+      "id": "Saat menjawab telepon di Spanyol orang berkata \"¿Diga?\" atau \"¿Dígame?\". Anda mengundang teman dengan \"¿Quieres venir a mi fiesta?\" dan jawabannya \"Sí, con mucho gusto\" atau \"Lo siento, no puedo\". Dengan teman dipakai perintah \"tú\": \"Ven a las ocho\", \"Llámame mañana\". Di pelajaran 8 Anda belajar perintah sopan; di sini Anda melihat bedanya."
+    },
+    "culture": {
+      "ar": "عند الرد على الهاتف يقول الإسبان غالبًا «¿Diga?» أو «¿Dígame?» أو «¿Sí?»، وفي المكسيك «¿Bueno?»، وفي أمريكا الجنوبية تُستعمل «¿Aló?» و«¿Hola?» في أماكن كثيرة. وفي الدعوات من الأدب أن يُردّ بوضوح، ولا يُعدّ الاعتذار اللطيف «Lo siento, no puedo» وقاحة.",
+      "en": "When answering the phone, Spaniards often say \"¿Diga?\", \"¿Dígame?\" or \"¿Sí?\"; in Mexico \"¿Bueno?\"; in much of South America \"¿Aló?\" or \"¿Hola?\" are used. When invited, it is polite to answer clearly, and a kind \"Lo siento, no puedo\" is not rude.",
+      "id": "Saat menjawab telepon orang Spanyol sering berkata \"¿Diga?\", \"¿Dígame?\", atau \"¿Sí?\"; di Meksiko \"¿Bueno?\"; di banyak negara Amerika Selatan dipakai \"¿Aló?\" atau \"¿Hola?\". Saat diundang, sopan untuk menjawab dengan jelas, dan \"Lo siento, no puedo\" yang ramah tidak dianggap kasar."
+    },
+    "grammar": {
+      "title": {
+        "ar": "الأمر المثبت مع tú",
+        "en": "The affirmative tú imperative",
+        "id": "Imperatif afirmatif dengan tú"
+      },
+      "body": {
+        "ar": "الأمر المثبت مع «tú» يشبه صيغة «él» في المضارع: hablar ← habla، comer ← come، escribir ← escribe. وثمة ثمانية أفعال شاذة: ven (venir)، di (decir)، pon (poner)، sal (salir)، haz (hacer)، ve (ir)، sé (ser)، ten (tener). ونلصق ضمير المفعول بالأمر: llámame، dime، dímelo (وتظهر علامة على الحرف المنبور). أما مع «usted» فنقول «hable, coma, escriba» كما في الدرس الثامن.",
+        "en": "The affirmative \"tú\" command looks like the \"él\" form of the present: hablar gives habla, comer gives come, escribir gives escribe. Eight verbs are irregular: ven (venir), di (decir), pon (poner), sal (salir), haz (hacer), ve (ir), sé (ser), ten (tener). Pronouns attach to the command: llámame, dime (an accent appears on the stressed vowel). With \"usted\" we say \"hable, coma, escriba\" as in lesson 8.",
+        "id": "Perintah afirmatif \"tú\" sama dengan bentuk \"él\" presens: hablar menjadi habla, comer menjadi come, escribir menjadi escribe. Ada delapan kata kerja tak beraturan: ven (venir), di (decir), pon (poner), sal (salir), haz (hacer), ve (ir), sé (ser), ten (tener). Pronomina menempel pada perintah: llámame, dime (aksen muncul pada vokal yang ditekan). Dengan \"usted\" dikatakan \"hable, coma, escriba\" seperti di pelajaran 8."
+      }
+    },
+    "items": [
+      {
+        "id": "es26n1",
+        "target": "¿Diga?",
+        "translit": "DEE-gah",
+        "tr": {
+          "ar": "ألو؟ (عند الرد على الهاتف في إسبانيا)",
+          "en": "Hello? (answering the phone, Spain)",
+          "id": "Halo? (saat menjawab telepon, di Spanyol)"
+        },
+        "example": {
+          "target": "Al contestar el teléfono en España, se dice «¿Diga?».",
+          "translit": "ahl kohn-tehs-TAHR ehl teh-LEH-foh-noh ehn ehs-PAH-nyah, seh DEE-seh DEE-gah",
+          "tr": {
+            "ar": "عند الرد على الهاتف في إسبانيا يُقال «¿Diga?».",
+            "en": "When answering the phone in Spain, people say \"¿Diga?\".",
+            "id": "Saat menjawab telepon di Spanyol, orang berkata \"¿Diga?\"."
+          }
+        },
+        "hint": {
+          "ar": "«¿Diga?» تُقال في إسبانيا خاصة، وهي أمر رسمي من «decir» (قل لي). و«¿Dígame?» أكثر رسمية. وفي بلدان أخرى تختلف الكلمة: «¿Bueno?» في المكسيك، و«¿Aló?» في عدة بلدان من أمريكا الجنوبية.",
+          "en": "\"¿Diga?\" is used mainly in Spain; it is the polite command of \"decir\" (tell me), and \"¿Dígame?\" is more formal. Other countries differ: \"¿Bueno?\" in Mexico and \"¿Aló?\" in several South American countries.",
+          "id": "\"¿Diga?\" terutama dipakai di Spanyol; ini perintah sopan dari \"decir\" (katakan), dan \"¿Dígame?\" lebih formal. Negara lain berbeda: \"¿Bueno?\" di Meksiko dan \"¿Aló?\" di beberapa negara Amerika Selatan."
+        }
+      },
+      {
+        "id": "es26n2",
+        "target": "¿Puedo hablar con Ana?",
+        "translit": "PWEH-doh ah-BLAHR kohn AH-nah",
+        "tr": {
+          "ar": "هل أستطيع التحدث مع آنا؟",
+          "en": "Can I speak to Ana?",
+          "id": "Bolehkah saya bicara dengan Ana?"
+        },
+        "example": {
+          "target": "Buenas tardes, ¿puedo hablar con el señor Pérez?",
+          "translit": "BWEH-nahs TAHR-dehs, PWEH-doh ah-BLAHR kohn ehl seh-NYOHR PEH-rehs",
+          "tr": {
+            "ar": "مساء الخير، هل أستطيع التحدث مع السيد بيريز؟",
+            "en": "Good afternoon, can I speak to Mr Pérez?",
+            "id": "Selamat sore, bolehkah saya bicara dengan Tuan Pérez?"
+          }
+        },
+        "hint": {
+          "ar": "«poder + مصدر» لطلب الإذن. و«hablar con» تعني «التحدث مع». وحرف h في «hablar» صامت.",
+          "en": "\"Poder + infinitive\" asks for permission. \"Hablar con\" means \"to speak to\". The h in \"hablar\" is silent.",
+          "id": "\"Poder + infinitif\" untuk meminta izin. \"Hablar con\" berarti \"berbicara dengan\". Huruf h pada \"hablar\" senyap."
+        }
+      },
+      {
+        "id": "es26n3",
+        "target": "¿Quiere dejar un mensaje?",
+        "translit": "KYEH-reh deh-HAHR oon mehn-SAH-heh",
+        "tr": {
+          "ar": "هل تريد ترك رسالة؟",
+          "en": "Would you like to leave a message?",
+          "id": "Apakah Anda ingin meninggalkan pesan?"
+        },
+        "example": {
+          "target": "Ana no está. ¿Quiere dejar un mensaje?",
+          "translit": "AH-nah noh ehs-TAH. KYEH-reh deh-HAHR oon mehn-SAH-heh",
+          "tr": {
+            "ar": "آنا ليست هنا. هل تريد ترك رسالة؟",
+            "en": "Ana isn't here. Would you like to leave a message?",
+            "id": "Ana tidak ada. Apakah Anda ingin meninggalkan pesan?"
+          }
+        },
+        "hint": {
+          "ar": "«quiere» بصيغة الاحترام (usted). ومع الصديق نقول «¿Quieres dejar un mensaje?». وحرف j في «dejar» يُنطق كالخاء الخفيفة.",
+          "en": "\"Quiere\" is the polite (usted) form. With a friend: \"¿Quieres dejar un mensaje?\". The j in \"dejar\" is a breathy h.",
+          "id": "\"Quiere\" adalah bentuk sopan (usted). Dengan teman: \"¿Quieres dejar un mensaje?\". Huruf j pada \"dejar\" berbunyi h yang kasar."
+        }
+      },
+      {
+        "id": "es26n4",
+        "target": "¿Quieres venir a mi fiesta?",
+        "translit": "KYEH-rehs beh-NEER ah mee FYEHS-tah",
+        "tr": {
+          "ar": "هل تريد أن تأتي إلى حفلتي؟",
+          "en": "Do you want to come to my party?",
+          "id": "Maukah kamu datang ke pestaku?"
+        },
+        "example": {
+          "target": "¿Quieres venir a mi fiesta el sábado?",
+          "translit": "KYEH-rehs beh-NEER ah mee FYEHS-tah ehl SAH-bah-doh",
+          "tr": {
+            "ar": "هل تريد أن تأتي إلى حفلتي يوم السبت؟",
+            "en": "Do you want to come to my party on Saturday?",
+            "id": "Maukah kamu datang ke pestaku hari Sabtu?"
+          }
+        },
+        "hint": {
+          "ar": "«querer + مصدر» تعني «أن تريد». و«venir a» تعني «الحضور إلى». وتُكتب «mi» (ملكيتي) بلا علامة، أما «mí» فهي ضمير بعد حرف جر.",
+          "en": "\"Querer + infinitive\" means \"to want to\". \"Venir a\" means \"to come to\". \"Mi\" (my) has no accent; \"mí\" is a pronoun after a preposition.",
+          "id": "\"Querer + infinitif\" berarti \"ingin\". \"Venir a\" berarti \"datang ke\". \"Mi\" (milik saya) tanpa aksen; \"mí\" adalah pronomina setelah preposisi."
+        }
+      },
+      {
+        "id": "es26n5",
+        "target": "Sí, con mucho gusto.",
+        "translit": "see, kohn MOO-choh GOOS-toh",
+        "tr": {
+          "ar": "نعم، بكل سرور.",
+          "en": "Yes, with pleasure.",
+          "id": "Ya, dengan senang hati."
+        },
+        "example": {
+          "target": "¿Un café? Sí, con mucho gusto.",
+          "translit": "oon kah-FEH? see, kohn MOO-choh GOOS-toh",
+          "tr": {
+            "ar": "فنجان قهوة؟ نعم، بكل سرور.",
+            "en": "A coffee? Yes, with pleasure.",
+            "id": "Secangkir kopi? Ya, dengan senang hati."
+          }
+        },
+        "hint": {
+          "ar": "«sí» مع علامة تعني «نعم»، وبدونها «si» تعني «إذا». وتُقال العبارة لقبول دعوة بأدب.",
+          "en": "\"Sí\" with an accent means \"yes\"; without it \"si\" means \"if\". The phrase politely accepts an offer.",
+          "id": "\"Sí\" beraksen berarti \"ya\"; tanpa aksen \"si\" berarti \"jika\". Ungkapan ini menerima tawaran dengan sopan."
+        }
+      },
+      {
+        "id": "es26n6",
+        "target": "Lo siento, no puedo.",
+        "translit": "loh SYEHN-toh, noh PWEH-doh",
+        "tr": {
+          "ar": "آسف، لا أستطيع.",
+          "en": "Sorry, I can't.",
+          "id": "Maaf, saya tidak bisa."
+        },
+        "example": {
+          "target": "Lo siento, no puedo ir el viernes.",
+          "translit": "loh SYEHN-toh, noh PWEH-doh eer ehl BYEHR-nehs",
+          "tr": {
+            "ar": "آسف، لا أستطيع الذهاب يوم الجمعة.",
+            "en": "Sorry, I can't go on Friday.",
+            "id": "Maaf, saya tidak bisa pergi hari Jumat."
+          }
+        },
+        "hint": {
+          "ar": "«lo siento» عبارة ثابتة للاعتذار. و«no puedo» تعني «لا أستطيع». ويمكن إضافة السبب: «Tengo que trabajar».",
+          "en": "\"Lo siento\" is a set phrase of apology. \"No puedo\" means \"I can't\". You can add a reason: \"Tengo que trabajar\".",
+          "id": "\"Lo siento\" adalah ungkapan tetap permintaan maaf. \"No puedo\" berarti \"saya tidak bisa\". Anda bisa menambahkan alasan: \"Tengo que trabajar\"."
+        }
+      },
+      {
+        "id": "es26n7",
+        "target": "Llámame mañana.",
+        "translit": "YAH-mah-meh mah-NYAH-nah",
+        "tr": {
+          "ar": "اتصل بي غدًا.",
+          "en": "Call me tomorrow.",
+          "id": "Telepon aku besok."
+        },
+        "example": {
+          "target": "Llámame a las ocho, por favor.",
+          "translit": "YAH-mah-meh ah lahs OH-choh pohr fah-BOHR",
+          "tr": {
+            "ar": "اتصل بي في الثامنة من فضلك.",
+            "en": "Call me at eight, please.",
+            "id": "Telepon aku pukul delapan, tolong."
+          }
+        },
+        "hint": {
+          "ar": "«llama» + «me» = «llámame» ونضع علامة لتبقى النبرة في مكانها. وتبدأ بـ «ll» التي تُنطق «y».",
+          "en": "\"Llama\" + \"me\" = \"llámame\", with an accent so the stress stays in place. It starts with \"ll\", pronounced like y.",
+          "id": "\"Llama\" + \"me\" = \"llámame\", dengan aksen agar tekanan tetap di tempatnya. Diawali \"ll\" yang dibaca seperti y."
+        }
+      },
+      {
+        "id": "es26n8",
+        "target": "Ven a las ocho.",
+        "translit": "behn ah lahs OH-choh",
+        "tr": {
+          "ar": "تعال في الثامنة.",
+          "en": "Come at eight.",
+          "id": "Datanglah pukul delapan."
+        },
+        "example": {
+          "target": "Ven a mi casa el sábado.",
+          "translit": "behn ah mee KAH-sah ehl SAH-bah-doh",
+          "tr": {
+            "ar": "تعال إلى بيتي يوم السبت.",
+            "en": "Come to my house on Saturday.",
+            "id": "Datanglah ke rumahku hari Sabtu."
+          }
+        },
+        "hint": {
+          "ar": "«ven» هو أمر «venir» مع «tú» ولا يُقال «viene». وللاحترام: «venga». وللأمر المنفي تختلف الصيغة (تتعلمها لاحقًا).",
+          "en": "\"Ven\" is the \"tú\" command of \"venir\"; it is not \"viene\". The polite form is \"venga\". Negative commands use a different form (learned later).",
+          "id": "\"Ven\" adalah perintah \"tú\" dari \"venir\"; bukan \"viene\". Bentuk sopannya \"venga\". Perintah negatif memakai bentuk lain (dipelajari kemudian)."
+        }
+      }
+    ],
+    "cloze": [
+      {
+        "sentence": "___ a mi casa a las ocho.",
+        "answer": "Ven",
+        "wrong": [
+          "Vienes",
+          "Venir"
+        ],
+        "tr": {
+          "ar": "تعال إلى بيتي في الثامنة.",
+          "en": "Come to my house at eight.",
+          "id": "Datanglah ke rumah saya pukul delapan."
+        },
+        "why": {
+          "ar": "أمر «tú» من «venir» هو «ven». «vienes» حاضر و«venir» مصدر، ولا يؤديان معنى الأمر هنا.",
+          "en": "The \"tú\" command of \"venir\" is \"ven\". \"Vienes\" is the present and \"venir\" the infinitive; neither gives a command here.",
+          "id": "Perintah \"tú\" dari \"venir\" adalah \"ven\". \"Vienes\" adalah presens dan \"venir\" infinitif; keduanya tidak memberi makna perintah di sini."
+        }
+      },
+      {
+        "sentence": "Ana, ___ la puerta, por favor.",
+        "answer": "cierra",
+        "wrong": [
+          "cerré",
+          "cerrando"
+        ],
+        "tr": {
+          "ar": "يا آنا، أغلقي الباب من فضلك.",
+          "en": "Ana, close the door, please.",
+          "id": "Ana, tolong tutup pintunya."
+        },
+        "why": {
+          "ar": "أمر «tú» من «cerrar» يشبه «él» في المضارع: «cierra». «cerré» ماضٍ و«cerrando» جيرند، ولا يصلحان للأمر.",
+          "en": "The \"tú\" command of \"cerrar\" matches the \"él\" present form: \"cierra\". \"Cerré\" is past and \"cerrando\" is a gerund; neither works as a command.",
+          "id": "Perintah \"tú\" dari \"cerrar\" sama dengan presens \"él\": \"cierra\". \"Cerré\" lampau dan \"cerrando\" gerundium; keduanya tidak cocok sebagai perintah."
+        }
+      }
+    ],
+    "conversation": {
+      "context": {
+        "ar": "مكالمة هاتفية في إسبانيا: دعوة صديقة، فتعتذر ثم يتفقان على موعد آخر.",
+        "en": "A phone call in Spain: inviting a friend, who declines, then they agree to talk later.",
+        "id": "Percakapan telepon di Spanyol: mengundang teman yang menolak, lalu mereka sepakat berbicara lagi."
+      },
+      "turns": [
+        {
+          "who": "A",
+          "target": "¿Diga?",
+          "tr": {
+            "ar": "ألو؟",
+            "en": "Hello?",
+            "id": "Halo?"
+          }
+        },
+        {
+          "who": "B",
+          "target": "Hola, Marta. Soy Luis. ¿Quieres venir a mi fiesta el sábado?",
+          "tr": {
+            "ar": "مرحبًا يا مارتا. أنا لويس. هل تريدين الحضور إلى حفلتي يوم السبت؟",
+            "en": "Hi, Marta. It's Luis. Do you want to come to my party on Saturday?",
+            "id": "Hai, Marta. Ini Luis. Maukah kamu datang ke pestaku hari Sabtu?"
+          }
+        },
+        {
+          "who": "A",
+          "target": "Lo siento, no puedo. Tengo que trabajar.",
+          "tr": {
+            "ar": "آسفة، لا أستطيع. عليّ أن أعمل.",
+            "en": "Sorry, I can't. I have to work.",
+            "id": "Maaf, aku tidak bisa. Aku harus bekerja."
+          }
+        },
+        {
+          "who": "B",
+          "target": "No pasa nada. Llámame mañana.",
+          "tr": {
+            "ar": "لا بأس. اتصلي بي غدًا.",
+            "en": "No problem. Call me tomorrow.",
+            "id": "Tidak apa-apa. Telepon aku besok."
+          }
+        }
+      ],
+      "gap": 2,
+      "wrong": [
+        "Sí, con mucho gusto. Ven a las ocho.",
+        "Me llamo Marta."
+      ],
+      "why": {
+        "ar": "الردّ المطلوب اعتذار عن الدعوة، وهو ما يفسر قول لويس «No pasa nada». لو قبلت مارتا لما كان للجملة الأخيرة معنى، والجملة الثالثة لا تجيب عن الدعوة.",
+        "en": "The missing line declines the invitation, which explains Luis saying \"No pasa nada\". If Marta had accepted, the last sentence would make no sense, and the third option does not answer the invitation.",
+        "id": "Kalimat yang hilang menolak undangan, itulah yang menjelaskan Luis berkata \"No pasa nada\". Seandainya Marta menerima, kalimat terakhir tidak masuk akal, dan pilihan ketiga tidak menjawab undangan."
+      }
+    },
+    "summary": {
+      "ar": "تعلمت الرد على الهاتف، والدعوة والرد عليها، وأمر «tú» مع الأشكال الشاذة ven وdi وpon وsal وhaz. ولا تنسَ أن ضمير المفعول يلتصق بالأمر: llámame.",
+      "en": "You learned to answer the phone, to invite and reply to an invitation, and the \"tú\" command with the irregular ven, di, pon, sal and haz. Remember that pronouns attach to the command: llámame.",
+      "id": "Anda belajar menjawab telepon, mengundang dan membalas undangan, serta perintah \"tú\" dengan bentuk tak beraturan ven, di, pon, sal, dan haz. Ingat bahwa pronomina menempel pada perintah: llámame."
+    }
+  },
+  {
+    "id": "es-27",
+    "track": "es",
+    "level": "intermediate",
+    "order": 27,
+    "topic": "childhood-imperfecto",
+    "icon": "🧸",
+    "title": {
+      "ar": "عندما كنت طفلًا",
+      "en": "When I Was a Child",
+      "id": "Ketika Saya Kecil"
+    },
+    "description": {
+      "ar": "صف طفولتك وعاداتك القديمة وقارنها بالحاضر.",
+      "en": "Describe your childhood and old habits, and compare them with today.",
+      "id": "Gambarkan masa kecil dan kebiasaan lama Anda, lalu bandingkan dengan masa kini."
+    },
+    "objectives": [
+      {
+        "ar": "أستطيع تكوين «pretérito imperfecto» للأفعال المنتظمة.",
+        "en": "I can form the \"pretérito imperfecto\" of regular verbs.",
+        "id": "Saya bisa membentuk \"pretérito imperfecto\" kata kerja beraturan."
+      },
+      {
+        "ar": "أستطيع استعمال الصيغ الشاذة era وiba وveía.",
+        "en": "I can use the irregular forms era, iba and veía.",
+        "id": "Saya bisa memakai bentuk tak beraturan era, iba, dan veía."
+      },
+      {
+        "ar": "أستطيع الحديث عن العادات القديمة بـ «antes» و«de niño» و«cada verano».",
+        "en": "I can talk about old habits with \"antes\", \"de niño\" and \"cada verano\".",
+        "id": "Saya bisa membicarakan kebiasaan lama dengan \"antes\", \"de niño\", dan \"cada verano\"."
+      }
+    ],
+    "intro": {
+      "ar": "نستعمل «pretérito imperfecto» لوصف العادات والحالات في الماضي: «Antes jugaba mucho al fútbol». وهو ينتهي بـ -aba للأفعال -ar وبـ -ía للأفعال -er/-ir. وله ثلاثة أفعال شاذة فقط: ser (era)، ir (iba)، ver (veía). ونستعمل معه كلمات مثل «antes» و«de pequeño» و«cada verano».",
+      "en": "We use the \"pretérito imperfecto\" for habits and states in the past: \"Antes jugaba mucho al fútbol\". It ends in -aba for -ar verbs and -ía for -er/-ir verbs. Only three verbs are irregular: ser (era), ir (iba), ver (veía). Words such as \"antes\", \"de pequeño\" and \"cada verano\" often go with it.",
+      "id": "Kita memakai \"pretérito imperfecto\" untuk kebiasaan dan keadaan di masa lampau: \"Antes jugaba mucho al fútbol\". Berakhiran -aba untuk kata kerja -ar dan -ía untuk -er/-ir. Hanya tiga kata kerja yang tak beraturan: ser (era), ir (iba), ver (veía). Kata seperti \"antes\", \"de pequeño\", dan \"cada verano\" sering menyertainya."
+    },
+    "culture": {
+      "ar": "عند تذكّر الطفولة نستعمل عادةً «imperfecto» لوصف العادات والحالات. وتُسمّى المرحلة الأولى من العمر «la infancia» (الطفولة)، ويقال «de pequeño/de pequeña» أو «de niño/de niña» للدلالة على «حين كنت صغيرًا».",
+      "en": "When we remember childhood we usually use the imperfecto for habits and states. Childhood is \"la infancia\", and people say \"de pequeño/de pequeña\" or \"de niño/de niña\" for \"when I was little\".",
+      "id": "Saat mengenang masa kecil kita biasanya memakai imperfecto untuk kebiasaan dan keadaan. Masa kecil disebut \"la infancia\", dan orang berkata \"de pequeño/de pequeña\" atau \"de niño/de niña\" untuk \"ketika saya kecil\"."
+    },
+    "grammar": {
+      "title": {
+        "ar": "الماضي الناقص (imperfecto)",
+        "en": "The imperfect tense",
+        "id": "Pretérito imperfecto"
+      },
+      "body": {
+        "ar": "-ar (jugar): jugaba، jugabas، jugaba، jugábamos، jugabais، jugaban. -er/-ir (vivir): vivía، vivías، vivía، vivíamos، vivíais، vivían. والأفعال الشاذة: ser ← era، eras، era، éramos، erais، eran؛ ir ← iba، ibas، iba، íbamos، ibais، iban؛ ver ← veía، veías، veía، veíamos، veíais، veían ونستعمله للعادة («íbamos a la playa cada verano») وللوصف («tenía el pelo largo»، «era tímido»). ولا نستعمله هنا للحدث المنتهي.",
+        "en": "-ar (jugar): jugaba, jugabas, jugaba, jugábamos, jugabais, jugaban. -er/-ir (vivir): vivía, vivías, vivía, vivíamos, vivíais, vivían. The irregulars: ser gives era, eras, era, éramos, erais, eran; ir gives iba, ibas, iba, íbamos, ibais, iban; ver gives veía, veías, veía, veíamos, veíais, veían We use it for habits (\"íbamos a la playa cada verano\") and for descriptions (\"tenía el pelo largo\", \"era tímido\"). Here we do not use it for finished events.",
+        "id": "-ar (jugar): jugaba, jugabas, jugaba, jugábamos, jugabais, jugaban. -er/-ir (vivir): vivía, vivías, vivía, vivíamos, vivíais, vivían. Yang tak beraturan: ser menjadi era, eras, era, éramos, erais, eran; ir menjadi iba, ibas, iba, íbamos, ibais, iban; ver menjadi veía, veías, veía, veíamos, veíais, veían Dipakai untuk kebiasaan (\"íbamos a la playa cada verano\") dan deskripsi (\"tenía el pelo largo\", \"era tímido\"). Di sini tidak dipakai untuk peristiwa yang selesai."
+      }
+    },
+    "items": [
+      {
+        "id": "es27n1",
+        "target": "Cuando era niño, vivía en un pueblo.",
+        "translit": "KWAHN-doh EH-rah NEE-nyoh, bee-BEE-ah ehn oon PWEH-bloh",
+        "tr": {
+          "ar": "عندما كنت طفلًا كنت أسكن في قرية.",
+          "en": "When I was a child I lived in a village.",
+          "id": "Ketika kecil saya tinggal di sebuah desa."
+        },
+        "example": {
+          "target": "Cuando era niña, vivía cerca del mar.",
+          "translit": "KWAHN-doh EH-rah NEE-nyah, bee-BEE-ah SEHR-kah dehl mahr",
+          "tr": {
+            "ar": "عندما كنت طفلة كنت أسكن قرب البحر.",
+            "en": "When I was a girl I lived near the sea.",
+            "id": "Ketika kecil saya tinggal dekat laut."
+          }
+        },
+        "hint": {
+          "ar": "«era» و«vivía» كلاهما imperfecto. والمرأة تقول «niña» والرجل «niño». وفي «vivía» علامة على í.",
+          "en": "\"Era\" and \"vivía\" are both imperfect. A woman says \"niña\", a man \"niño\". \"Vivía\" has an accent on í.",
+          "id": "\"Era\" dan \"vivía\" sama-sama imperfecto. Perempuan berkata \"niña\", laki-laki \"niño\". \"Vivía\" beraksen pada í."
+        }
+      },
+      {
+        "id": "es27n2",
+        "target": "Antes jugaba mucho al fútbol.",
+        "translit": "AHN-tehs hoo-GAH-bah MOO-choh ahl FOOT-bohl",
+        "tr": {
+          "ar": "كنت ألعب كرة القدم كثيرًا من قبل.",
+          "en": "I used to play football a lot.",
+          "id": "Dulu saya sering bermain sepak bola."
+        },
+        "example": {
+          "target": "Antes mi hermano jugaba al tenis.",
+          "translit": "AHN-tehs mee ehr-MAH-noh hoo-GAH-bah ahl TEH-nees",
+          "tr": {
+            "ar": "كان أخي يلعب التنس من قبل.",
+            "en": "My brother used to play tennis.",
+            "id": "Dulu kakak saya bermain tenis."
+          }
+        },
+        "hint": {
+          "ar": "«jugar a» + اسم الرياضة. و«antes» تدل على عادة قديمة. وحرف j في «jugaba» كالخاء الخفيفة.",
+          "en": "\"Jugar a\" + sport. \"Antes\" signals an old habit. The j in \"jugaba\" is a breathy h.",
+          "id": "\"Jugar a\" + nama olahraga. \"Antes\" menandai kebiasaan lama. Huruf j pada \"jugaba\" berbunyi h yang kasar."
+        }
+      },
+      {
+        "id": "es27n3",
+        "target": "Íbamos a la playa cada verano.",
+        "translit": "EE-bah-mohs ah lah PLAH-yah KAH-dah beh-RAH-noh",
+        "tr": {
+          "ar": "كنا نذهب إلى الشاطئ كل صيف.",
+          "en": "We went to the beach every summer.",
+          "id": "Kami pergi ke pantai setiap musim panas."
+        },
+        "example": {
+          "target": "Íbamos a casa de mis abuelos los domingos.",
+          "translit": "EE-bah-mohs ah KAH-sah deh mees ah-BWEH-lohs lohs doh-MEEN-gohs",
+          "tr": {
+            "ar": "كنا نذهب إلى بيت جديّ كل أحد.",
+            "en": "We used to go to my grandparents' house on Sundays.",
+            "id": "Kami biasa pergi ke rumah kakek-nenek saya setiap hari Minggu."
+          }
+        },
+        "hint": {
+          "ar": "«íbamos» من «ir» الشاذة وعليها علامة على Í. و«cada verano» تدل على التكرار. و«los domingos» تعني «كل أحد».",
+          "en": "\"Íbamos\" is from the irregular \"ir\" with an accent on Í. \"Cada verano\" signals repetition. \"Los domingos\" means \"every Sunday\".",
+          "id": "\"Íbamos\" dari \"ir\" yang tak beraturan dengan aksen pada Í. \"Cada verano\" menandai pengulangan. \"Los domingos\" berarti \"setiap hari Minggu\"."
+        }
+      },
+      {
+        "id": "es27n4",
+        "target": "Mi abuela cocinaba muy bien.",
+        "translit": "mee ah-BWEH-lah koh-see-NAH-bah mwee byehn",
+        "tr": {
+          "ar": "كانت جدتي تطبخ جيدًا جدًا.",
+          "en": "My grandmother cooked very well.",
+          "id": "Nenek saya memasak dengan sangat baik."
+        },
+        "example": {
+          "target": "Mi abuelo contaba historias por la noche.",
+          "translit": "mee ah-BWEH-loh kohn-TAH-bah ees-TOH-ryahs pohr lah NOH-cheh",
+          "tr": {
+            "ar": "كان جدي يروي حكايات في الليل.",
+            "en": "My grandfather used to tell stories at night.",
+            "id": "Kakek saya biasa bercerita pada malam hari."
+          }
+        },
+        "hint": {
+          "ar": "«cocinaba» و«contaba» من أفعال -ar. و«abuela» للمؤنث و«abuelo» للمذكر. وحرف b في «abuela» يُنطق ناعمًا.",
+          "en": "\"Cocinaba\" and \"contaba\" are -ar verbs. \"Abuela\" is feminine and \"abuelo\" masculine. The b in \"abuela\" is soft.",
+          "id": "\"Cocinaba\" dan \"contaba\" kata kerja -ar. \"Abuela\" feminin dan \"abuelo\" maskulin. Huruf b pada \"abuela\" lembut."
+        }
+      },
+      {
+        "id": "es27n5",
+        "target": "Tenía el pelo largo.",
+        "translit": "teh-NEE-ah ehl PEH-loh LAHR-goh",
+        "tr": {
+          "ar": "كان شعري طويلًا.",
+          "en": "I had long hair.",
+          "id": "Rambut saya dulu panjang."
+        },
+        "example": {
+          "target": "Tenía el pelo largo y los ojos marrones.",
+          "translit": "teh-NEE-ah ehl PEH-loh LAHR-goh ee lohs OH-hohs mah-RROH-nehs",
+          "tr": {
+            "ar": "كان شعري طويلًا وعيناي بنيتين.",
+            "en": "I had long hair and brown eyes.",
+            "id": "Rambut saya panjang dan mata saya cokelat."
+          }
+        },
+        "hint": {
+          "ar": "«tenía» من «tener» imperfecto وعليها علامة على í. للوصف في الماضي. و«pelo» مفرد في الإسبانية مع المعنى الجماعي.",
+          "en": "\"Tenía\" is the imperfect of \"tener\", with an accent on í. It describes the past. \"Pelo\" is singular in Spanish with a collective sense.",
+          "id": "\"Tenía\" adalah imperfecto dari \"tener\", beraksen pada í. Dipakai untuk deskripsi di masa lampau. \"Pelo\" tunggal dalam bahasa Spanyol dengan makna kolektif."
+        }
+      },
+      {
+        "id": "es27n6",
+        "target": "Era un niño tímido.",
+        "translit": "EH-rah oon NEE-nyoh TEE-mee-doh",
+        "tr": {
+          "ar": "كنت طفلًا خجولًا.",
+          "en": "I was a shy child.",
+          "id": "Saya dulu anak yang pemalu."
+        },
+        "example": {
+          "target": "Era una niña muy simpática.",
+          "translit": "EH-rah OO-nah NEE-nyah mwee seem-PAH-tee-kah",
+          "tr": {
+            "ar": "كانت طفلة لطيفة جدًا.",
+            "en": "She was a very nice girl.",
+            "id": "Dia dulu anak perempuan yang sangat ramah."
+          }
+        },
+        "hint": {
+          "ar": "«era» من «ser» الشاذة (يُستعمل لـ yo وél). وصفة «tímido» عليها علامة على í وتتغير بالجنس: tímida.",
+          "en": "\"Era\" is from the irregular \"ser\" (used for both yo and él). \"Tímido\" has an accent on í and changes with gender: tímida.",
+          "id": "\"Era\" dari \"ser\" yang tak beraturan (dipakai untuk yo dan él). \"Tímido\" beraksen pada í dan berubah menurut jenis: tímida."
+        }
+      },
+      {
+        "id": "es27n7",
+        "target": "Antes vivía en el campo, ahora vivo en la ciudad.",
+        "translit": "AHN-tehs bee-BEE-ah ehn ehl KAHM-poh, ah-OH-rah BEE-boh ehn lah syoo-DAHD",
+        "tr": {
+          "ar": "كنت أسكن في الريف من قبل، والآن أسكن في المدينة.",
+          "en": "Before I lived in the countryside, now I live in the city.",
+          "id": "Dulu saya tinggal di pedesaan, sekarang saya tinggal di kota."
+        },
+        "example": {
+          "target": "Antes comía mucha carne, ahora como más verdura.",
+          "translit": "AHN-tehs koh-MEE-ah MOO-chah KAHR-neh, ah-OH-rah KOH-moh mahs behr-DOO-rah",
+          "tr": {
+            "ar": "كنت آكل لحمًا كثيرًا من قبل، والآن آكل خضارًا أكثر.",
+            "en": "I used to eat a lot of meat, now I eat more vegetables.",
+            "id": "Dulu saya banyak makan daging, sekarang saya makan lebih banyak sayuran."
+          }
+        },
+        "hint": {
+          "ar": "«antes» مع imperfecto و«ahora» مع المضارع للمقارنة بين الماضي والحاضر. وفي «ahora» الحرف h صامت.",
+          "en": "\"Antes\" goes with the imperfect and \"ahora\" with the present to contrast past and present. The h in \"ahora\" is silent.",
+          "id": "\"Antes\" dipakai dengan imperfecto dan \"ahora\" dengan presens untuk membandingkan masa lalu dan kini. Huruf h pada \"ahora\" senyap."
+        }
+      },
+      {
+        "id": "es27n8",
+        "target": "De pequeño",
+        "translit": "deh peh-KEH-nyoh",
+        "tr": {
+          "ar": "في طفولتي",
+          "en": "as a child",
+          "id": "waktu kecil"
+        },
+        "example": {
+          "target": "De pequeño, me gustaba dibujar.",
+          "translit": "deh peh-KEH-nyoh, meh goos-TAH-bah dee-boo-HAHR",
+          "tr": {
+            "ar": "في طفولتي كنت أحب الرسم.",
+            "en": "As a child I liked drawing.",
+            "id": "Waktu kecil saya suka menggambar."
+          }
+        },
+        "hint": {
+          "ar": "المرأة تقول «de pequeña». و«me gustaba» هي «gustar» في imperfecto. وفي «pequeño» حرف ñ يُنطق «ny».",
+          "en": "A woman says \"de pequeña\". \"Me gustaba\" is \"gustar\" in the imperfect. The ñ in \"pequeño\" sounds like \"ny\".",
+          "id": "Perempuan berkata \"de pequeña\". \"Me gustaba\" adalah \"gustar\" dalam imperfecto. Huruf ñ pada \"pequeño\" berbunyi \"ny\"."
+        }
+      }
+    ],
+    "cloze": [
+      {
+        "sentence": "De niño, ___ en el campo.",
+        "answer": "vivía",
+        "wrong": [
+          "vivo",
+          "viviré"
+        ],
+        "tr": {
+          "ar": "في طفولتي كنت أسكن في الريف.",
+          "en": "As a child I lived in the countryside.",
+          "id": "Waktu kecil saya tinggal di pedesaan."
+        },
+        "why": {
+          "ar": "«de niño» تدل على عادة أو حالة في الماضي فنستعمل «vivía». «vivo» حاضر و«viviré» مستقبل.",
+          "en": "\"De niño\" points to a past state or habit, so we use \"vivía\". \"Vivo\" is present and \"viviré\" is future.",
+          "id": "\"De niño\" menunjuk keadaan atau kebiasaan lampau, jadi dipakai \"vivía\". \"Vivo\" adalah kini dan \"viviré\" akan datang."
+        }
+      },
+      {
+        "sentence": "De niña, ___ muy tímida.",
+        "answer": "era",
+        "wrong": [
+          "soy",
+          "seré"
+        ],
+        "tr": {
+          "ar": "في طفولتي كنت خجولة جدًا.",
+          "en": "As a girl I was very shy.",
+          "id": "Waktu kecil saya sangat pemalu."
+        },
+        "why": {
+          "ar": "وصف شخصية في الماضي يستعمل «era» من «ser». «soy» حاضر و«seré» مستقبل ولا يجتمعان مع «de niña».",
+          "en": "A description of character in the past uses \"era\" from \"ser\". \"Soy\" is present and \"seré\" is future; neither goes with \"de niña\".",
+          "id": "Deskripsi sifat di masa lampau memakai \"era\" dari \"ser\". \"Soy\" kini dan \"seré\" akan datang; keduanya tidak cocok dengan \"de niña\"."
+        }
+      }
+    ],
+    "conversation": {
+      "context": {
+        "ar": "صديقان يتذكران طفولتهما.",
+        "en": "Two friends remember their childhoods.",
+        "id": "Dua teman mengenang masa kecil mereka."
+      },
+      "turns": [
+        {
+          "who": "A",
+          "target": "¿Dónde vivías cuando eras niño?",
+          "tr": {
+            "ar": "أين كنت تسكن عندما كنت طفلًا؟",
+            "en": "Where did you live when you were a child?",
+            "id": "Di mana kamu tinggal waktu kecil?"
+          }
+        },
+        {
+          "who": "B",
+          "target": "Vivía en un pueblo pequeño cerca del mar.",
+          "tr": {
+            "ar": "كنت أسكن في قرية صغيرة قرب البحر.",
+            "en": "I lived in a small village near the sea.",
+            "id": "Saya tinggal di desa kecil dekat laut."
+          }
+        },
+        {
+          "who": "A",
+          "target": "¿Y qué hacías en verano?",
+          "tr": {
+            "ar": "وماذا كنت تفعل في الصيف؟",
+            "en": "And what did you do in summer?",
+            "id": "Dan apa yang kamu lakukan pada musim panas?"
+          }
+        },
+        {
+          "who": "B",
+          "target": "Jugaba en la playa todos los días.",
+          "tr": {
+            "ar": "كنت ألعب على الشاطئ كل يوم.",
+            "en": "I used to play on the beach every day.",
+            "id": "Saya bermain di pantai setiap hari."
+          }
+        }
+      ],
+      "gap": 3,
+      "wrong": [
+        "Mañana voy a trabajar.",
+        "Anoche fui al cine."
+      ],
+      "why": {
+        "ar": "السؤال «¿Qué hacías en verano?» عن عادة في الماضي فيجاب بالـ imperfecto «jugaba». الجملتان الأخريان عن الغد وعن ليلة أمس.",
+        "en": "The question \"¿Qué hacías en verano?\" is about a past habit, so the answer uses the imperfect \"jugaba\". The other two sentences are about tomorrow and last night.",
+        "id": "Pertanyaan \"¿Qué hacías en verano?\" tentang kebiasaan lampau, jadi jawabannya memakai imperfecto \"jugaba\". Dua kalimat lain tentang besok dan tadi malam."
+      }
+    },
+    "summary": {
+      "ar": "تعلمت «imperfecto»: -aba وـ-ía، والأفعال الشاذة era وiba وveía، وكلمات «antes» و«de pequeño» و«cada verano». استعمله للعادات وللوصف في الماضي.",
+      "en": "You learned the imperfect: -aba and -ía, the irregular era, iba and veía, and the words \"antes\", \"de pequeño\" and \"cada verano\". Use it for habits and descriptions in the past.",
+      "id": "Anda belajar imperfecto: -aba dan -ía, bentuk tak beraturan era, iba, dan veía, serta kata \"antes\", \"de pequeño\", dan \"cada verano\". Pakai untuk kebiasaan dan deskripsi di masa lampau."
+    }
+  },
+  {
+    "id": "es-28",
+    "track": "es",
+    "level": "intermediate",
+    "order": 28,
+    "topic": "storytelling-past-contrast",
+    "icon": "📖",
+    "title": {
+      "ar": "سرد قصة",
+      "en": "Telling a Story",
+      "id": "Bercerita"
+    },
+    "description": {
+      "ar": "احكِ ما حدث وكيف كانت الأجواء بدمج الزمنين.",
+      "en": "Tell what happened and what it was like by combining the two past tenses.",
+      "id": "Ceritakan apa yang terjadi dan keadaannya dengan menggabungkan dua kala lampau."
+    },
+    "objectives": [
+      {
+        "ar": "أستطيع الفرق بين «imperfecto» للخلفية و«indefinido» للحدث.",
+        "en": "I can tell apart the imperfect for background and the indefinido for events.",
+        "id": "Saya bisa membedakan imperfecto untuk latar dan indefinido untuk peristiwa."
+      },
+      {
+        "ar": "أستطيع استعمال «cuando» و«mientras» لربط حدثين.",
+        "en": "I can use \"cuando\" and \"mientras\" to link two actions.",
+        "id": "Saya bisa memakai \"cuando\" dan \"mientras\" untuk menghubungkan dua kejadian."
+      },
+      {
+        "ar": "أستطيع استعمال أدوات السرد: de repente، entonces، por eso، al final.",
+        "en": "I can use story connectors: de repente, entonces, por eso, al final.",
+        "id": "Saya bisa memakai penghubung cerita: de repente, entonces, por eso, al final."
+      }
+    ],
+    "intro": {
+      "ar": "عند سرد قصة نمزج زمنين: «imperfecto» لوصف الخلفية والحدث المستمر («Estaba en casa»)، و«indefinido» للحدث الذي يقطعه أو يدفع القصة («sonó el teléfono»). ونربط الأحداث بكلمات مثل «de repente» (فجأة) و«entonces» (حينئذٍ) و«mientras» (بينما) و«por eso» (لذلك) و«al final» (في النهاية).",
+      "en": "When we tell a story we mix two tenses: the imperfect for background and ongoing action (\"Estaba en casa\"), and the indefinido for the event that interrupts or moves the story on (\"sonó el teléfono\"). We link events with words such as \"de repente\" (suddenly), \"entonces\" (then), \"mientras\" (while), \"por eso\" (that's why) and \"al final\" (in the end).",
+      "id": "Saat bercerita kita memadukan dua kala: imperfecto untuk latar dan kejadian yang berlangsung (\"Estaba en casa\"), dan indefinido untuk peristiwa yang menyela atau menggerakkan cerita (\"sonó el teléfono\"). Kita menghubungkan kejadian dengan kata seperti \"de repente\" (tiba-tiba), \"entonces\" (lalu), \"mientras\" (sementara), \"por eso\" (karena itu), dan \"al final\" (pada akhirnya)."
+    },
+    "culture": {
+      "ar": "عند رواية قصة عن «un mal día» (ضاع المفتاح، فاتت الحافلة، بدأ المطر) يتفاعل المستمع غالبًا بعبارات مثل «¿Qué pasó?» و«¡Qué mala suerte!». وإذا أردت أن يتابعك المستمع فاستعمل «y entonces...» أو «y al final...».",
+      "en": "When you tell a story about \"un mal día\" (lost keys, a missed bus, rain), the listener often reacts with phrases such as \"¿Qué pasó?\" and \"¡Qué mala suerte!\". To keep your listener with you, use \"y entonces...\" or \"y al final...\".",
+      "id": "Saat menceritakan \"un mal día\" (kunci hilang, ketinggalan bus, hujan turun), pendengar sering menanggapi dengan \"¿Qué pasó?\" dan \"¡Qué mala suerte!\". Agar pendengar tetap mengikuti, pakai \"y entonces...\" atau \"y al final...\"."
+    },
+    "grammar": {
+      "title": {
+        "ar": "imperfecto أم indefinido?",
+        "en": "Imperfect or indefinido?",
+        "id": "Imperfecto atau indefinido?"
+      },
+      "body": {
+        "ar": "«Imperfecto»: الخلفية والحال والحدث المستمر: «Estaba en casa»، «Llovía»، «Había mucha gente». «Indefinido»: حدث محدد ينقل القصة: «sonó el teléfono»، «llegó mi hermano». ومعًا: «Estaba en casa cuando sonó el teléfono» (حدث قطع حدثًا مستمرًا). و«mientras» لحدثين متزامنين، و«había» ثابتة هنا بمعنى «كان هناك» (من «hay»). وللتعليل: «por eso».",
+        "en": "Imperfect: background, state and ongoing action: \"Estaba en casa\", \"Llovía\", \"Había mucha gente\". Indefinido: a specific event that moves the story: \"sonó el teléfono\", \"llegó mi hermano\". Together: \"Estaba en casa cuando sonó el teléfono\" (an event interrupted an ongoing action). \"Mientras\" links simultaneous actions, and \"había\" is used here as a set phrase meaning \"there was/were\" (the past of \"hay\"). For a reason: \"por eso\".",
+        "id": "Imperfecto: latar, keadaan, dan kejadian yang berlangsung: \"Estaba en casa\", \"Llovía\", \"Había mucha gente\". Indefinido: peristiwa tertentu yang menggerakkan cerita: \"sonó el teléfono\", \"llegó mi hermano\". Bersama: \"Estaba en casa cuando sonó el teléfono\" (sebuah peristiwa menyela kejadian yang berlangsung). \"Mientras\" menghubungkan kejadian yang bersamaan, dan \"había\" dipakai di sini sebagai ungkapan tetap yang berarti \"ada\" (bentuk lampau \"hay\"). Untuk alasan: \"por eso\"."
+      }
+    },
+    "items": [
+      {
+        "id": "es28n1",
+        "target": "Estaba en casa cuando sonó el teléfono.",
+        "translit": "ehs-TAH-bah ehn KAH-sah KWAHN-doh soh-NOH ehl teh-LEH-foh-noh",
+        "tr": {
+          "ar": "كنت في البيت عندما رنّ الهاتف.",
+          "en": "I was at home when the phone rang.",
+          "id": "Saya sedang di rumah ketika telepon berdering."
+        },
+        "example": {
+          "target": "Estaba cenando cuando llegó mi hermano.",
+          "translit": "ehs-TAH-bah seh-NAHN-doh KWAHN-doh yeh-GOH mee ehr-MAH-noh",
+          "tr": {
+            "ar": "كنت أتعشى عندما وصل أخي.",
+            "en": "I was having dinner when my brother arrived.",
+            "id": "Saya sedang makan malam ketika kakak saya tiba."
+          }
+        },
+        "hint": {
+          "ar": "«estaba» imperfecto للحدث المستمر، و«sonó» أو «llegó» indefinido للحدث الذي قطعه. وفي «sonó» و«llegó» علامة على ó.",
+          "en": "\"Estaba\" (imperfect) is the ongoing action; \"sonó\" or \"llegó\" (indefinido) is the event that interrupted it. Both have an accent on ó.",
+          "id": "\"Estaba\" (imperfecto) adalah kejadian yang berlangsung; \"sonó\" atau \"llegó\" (indefinido) peristiwa yang menyelanya. Keduanya beraksen pada ó."
+        }
+      },
+      {
+        "id": "es28n2",
+        "target": "Había mucha gente.",
+        "translit": "ah-BEE-ah MOO-chah HEHN-teh",
+        "tr": {
+          "ar": "كان هناك الكثير من الناس.",
+          "en": "There were lots of people.",
+          "id": "Ada banyak orang."
+        },
+        "example": {
+          "target": "Había mucha gente en la estación.",
+          "translit": "ah-BEE-ah MOO-chah HEHN-teh ehn lah ehs-tah-SYOHN",
+          "tr": {
+            "ar": "كان هناك الكثير من الناس في المحطة.",
+            "en": "There were lots of people at the station.",
+            "id": "Ada banyak orang di stasiun."
+          }
+        },
+        "hint": {
+          "ar": "«había» هي «hay» في الماضي. وقد تكون مع مفرد أو جمع بالصيغة نفسها: «Había un niño»، «Había dos niños». و«gente» مفرد مؤنث.",
+          "en": "\"Había\" is the past of \"hay\". It stays the same with singular or plural: \"Había un niño\", \"Había dos niños\". \"Gente\" is singular feminine.",
+          "id": "\"Había\" adalah bentuk lampau \"hay\". Bentuknya sama untuk tunggal maupun jamak: \"Había un niño\", \"Había dos niños\". \"Gente\" feminin tunggal."
+        }
+      },
+      {
+        "id": "es28n3",
+        "target": "De repente",
+        "translit": "deh rreh-PEHN-teh",
+        "tr": {
+          "ar": "فجأة",
+          "en": "suddenly",
+          "id": "tiba-tiba"
+        },
+        "example": {
+          "target": "De repente se fue la luz.",
+          "translit": "deh rreh-PEHN-teh seh fweh lah loos",
+          "tr": {
+            "ar": "فجأة انقطعت الكهرباء.",
+            "en": "Suddenly the power went out.",
+            "id": "Tiba-tiba listrik padam."
+          }
+        },
+        "hint": {
+          "ar": "«de repente» تُتبع عادة بـ indefinido لأن الحدث مفاجئ. و«se fue la luz» تعبير عن انقطاع الكهرباء. وفي «repente» الحرف r في بداية الكلمة مدحرج.",
+          "en": "\"De repente\" is usually followed by the indefinido because the event is sudden. \"Se fue la luz\" is the usual way to say the power went out. The r in \"repente\" is trilled.",
+          "id": "\"De repente\" biasanya diikuti indefinido karena peristiwanya mendadak. \"Se fue la luz\" adalah cara umum menyatakan listrik padam. Huruf r pada \"repente\" digetarkan."
+        }
+      },
+      {
+        "id": "es28n4",
+        "target": "Entonces",
+        "translit": "ehn-TOHN-sehs",
+        "tr": {
+          "ar": "حينئذٍ",
+          "en": "then",
+          "id": "lalu"
+        },
+        "example": {
+          "target": "Entonces llamé a mi amiga.",
+          "translit": "ehn-TOHN-sehs yah-MEH ah mee ah-MEE-gah",
+          "tr": {
+            "ar": "حينئذٍ اتصلت بصديقتي.",
+            "en": "Then I called my friend.",
+            "id": "Lalu saya menelepon teman saya."
+          }
+        },
+        "hint": {
+          "ar": "«entonces» تربط حدثين متتابعين، وتأتي مع indefinido. وفي «llamé» الحرف ll كالياء، وعلامة على é.",
+          "en": "\"Entonces\" links consecutive events and goes with the indefinido. In \"llamé\" the ll sounds like y, and there is an accent on é.",
+          "id": "\"Entonces\" menghubungkan peristiwa berurutan dan dipakai dengan indefinido. Pada \"llamé\" ll berbunyi y, dan ada aksen pada é."
+        }
+      },
+      {
+        "id": "es28n5",
+        "target": "Mientras comía, llegó mi hermano.",
+        "translit": "MYEHN-trahs koh-MEE-ah, yeh-GOH mee ehr-MAH-noh",
+        "tr": {
+          "ar": "بينما كنت آكل وصل أخي.",
+          "en": "While I was eating, my brother arrived.",
+          "id": "Ketika saya sedang makan, kakak saya tiba."
+        },
+        "example": {
+          "target": "Mientras esperaba el autobús, empezó a llover.",
+          "translit": "MYEHN-trahs ehs-peh-RAH-bah ehl ow-toh-BOOS, ehm-peh-SOH ah yoh-BEHR",
+          "tr": {
+            "ar": "بينما كنت أنتظر الحافلة بدأ المطر.",
+            "en": "While I was waiting for the bus, it started to rain.",
+            "id": "Ketika saya sedang menunggu bus, hujan mulai turun."
+          }
+        },
+        "hint": {
+          "ar": "«mientras» + imperfecto للحدث المستمر، ثم الحدث الطارئ بـ indefinido. و«empezar a + مصدر» تعني «بدأ».",
+          "en": "\"Mientras\" + imperfect for the ongoing action, then the sudden event in the indefinido. \"Empezar a + infinitive\" means \"to start to\".",
+          "id": "\"Mientras\" + imperfecto untuk kejadian yang berlangsung, lalu peristiwa mendadak dengan indefinido. \"Empezar a + infinitif\" berarti \"mulai\"."
+        }
+      },
+      {
+        "id": "es28n6",
+        "target": "¿Qué pasó?",
+        "translit": "keh pah-SOH",
+        "tr": {
+          "ar": "ماذا حدث؟",
+          "en": "What happened?",
+          "id": "Apa yang terjadi?"
+        },
+        "example": {
+          "target": "¿Qué pasó? ¡Cuéntamelo todo!",
+          "translit": "keh pah-SOH! KWEHN-tah-meh-loh TOH-doh",
+          "tr": {
+            "ar": "ماذا حدث؟ احكِ لي كل شيء!",
+            "en": "What happened? Tell me everything!",
+            "id": "Apa yang terjadi? Ceritakan semuanya padaku!"
+          }
+        },
+        "hint": {
+          "ar": "«pasó» indefinido من «pasar» وعليها علامة على ó. و«cuéntamelo» أمر «tú» مع ضميرين ملتصقين وعليه علامة على é.",
+          "en": "\"Pasó\" is the indefinido of \"pasar\", with an accent on ó. \"Cuéntamelo\" is a \"tú\" command with two attached pronouns and an accent on é.",
+          "id": "\"Pasó\" adalah indefinido dari \"pasar\", beraksen pada ó. \"Cuéntamelo\" adalah perintah \"tú\" dengan dua pronomina menempel dan aksen pada é."
+        }
+      },
+      {
+        "id": "es28n7",
+        "target": "Por eso me acosté temprano.",
+        "translit": "pohr EH-soh meh ah-kohs-TEH tehm-PRAH-noh",
+        "tr": {
+          "ar": "لذلك نمت باكرًا.",
+          "en": "That's why I went to bed early.",
+          "id": "Karena itu saya tidur lebih awal."
+        },
+        "example": {
+          "target": "Estaba cansada y por eso no salí.",
+          "translit": "ehs-TAH-bah kahn-SAH-dah ee pohr EH-soh noh sah-LEE",
+          "tr": {
+            "ar": "كنت متعبة ولذلك لم أخرج.",
+            "en": "I was tired and that's why I didn't go out.",
+            "id": "Saya lelah dan karena itu saya tidak keluar."
+          }
+        },
+        "hint": {
+          "ar": "«por eso» تعني «لذلك» وتعطي النتيجة. و«acostarse» انعكاسي. وعلامة على é في «acosté» وعلى í في «salí».",
+          "en": "\"Por eso\" means \"that's why\" and gives the result. \"Acostarse\" is reflexive. Note the accent on é in \"acosté\" and on í in \"salí\".",
+          "id": "\"Por eso\" berarti \"karena itu\" dan memberi akibat. \"Acostarse\" refleksif. Perhatikan aksen pada é di \"acosté\" dan pada í di \"salí\"."
+        }
+      },
+      {
+        "id": "es28n8",
+        "target": "Al final",
+        "translit": "ahl fee-NAHL",
+        "tr": {
+          "ar": "في النهاية",
+          "en": "in the end",
+          "id": "pada akhirnya"
+        },
+        "example": {
+          "target": "Al final llegamos a casa muy tarde.",
+          "translit": "ahl fee-NAHL yeh-GAH-mohs ah KAH-sah mwee TAHR-deh",
+          "tr": {
+            "ar": "في النهاية وصلنا إلى البيت متأخرين جدًا.",
+            "en": "In the end we got home very late.",
+            "id": "Pada akhirnya kami tiba di rumah sangat larut."
+          }
+        },
+        "hint": {
+          "ar": "«al final» تختم القصة. وفي «llegamos» لا علامة لأن «nosotros» في indefinido يشبه المضارع في الأفعال -ar.",
+          "en": "\"Al final\" closes the story. \"Llegamos\" has no accent; for -ar verbs the \"nosotros\" indefinido looks like the present.",
+          "id": "\"Al final\" menutup cerita. \"Llegamos\" tanpa aksen; untuk kata kerja -ar, \"nosotros\" indefinido sama dengan presens."
+        }
+      }
+    ],
+    "cloze": [
+      {
+        "sentence": "Mientras ___ la cena, sonó el teléfono.",
+        "answer": "preparaba",
+        "wrong": [
+          "preparé",
+          "preparo"
+        ],
+        "tr": {
+          "ar": "بينما كنت أحضّر العشاء رنّ الهاتف.",
+          "en": "While I was preparing dinner, the phone rang.",
+          "id": "Ketika saya sedang menyiapkan makan malam, telepon berdering."
+        },
+        "why": {
+          "ar": "«mientras» تدل على الحدث المستمر فنستعمل imperfecto «preparaba». «preparé» حدث منتهٍ و«preparo» حاضر.",
+          "en": "\"Mientras\" signals the ongoing action, so we use the imperfect \"preparaba\". \"Preparé\" is a finished event and \"preparo\" is present.",
+          "id": "\"Mientras\" menandai kejadian yang berlangsung, jadi dipakai imperfecto \"preparaba\". \"Preparé\" adalah peristiwa selesai dan \"preparo\" adalah kini."
+        }
+      },
+      {
+        "sentence": "Estaba en la calle cuando ___ la lluvia.",
+        "answer": "empezó",
+        "wrong": [
+          "empiezo",
+          "empezaré"
+        ],
+        "tr": {
+          "ar": "كنت في الشارع عندما بدأ المطر.",
+          "en": "I was in the street when the rain started.",
+          "id": "Saya sedang di jalan ketika hujan mulai turun."
+        },
+        "why": {
+          "ar": "الحدث الذي قطع الحالة يأتي بـ indefinido: «empezó». «empiezo» حاضر و«empezaré» مستقبل ولا يصلحان في قصة ماضية.",
+          "en": "The event that interrupted the situation takes the indefinido: \"empezó\". \"Empiezo\" is present and \"empezaré\" is future; neither fits a past story.",
+          "id": "Peristiwa yang menyela keadaan memakai indefinido: \"empezó\". \"Empiezo\" kini dan \"empezaré\" akan datang; keduanya tidak cocok untuk cerita lampau."
+        }
+      }
+    ],
+    "conversation": {
+      "context": {
+        "ar": "صديقة تحكي لصديقتها عن يوم سيئ.",
+        "en": "A friend tells another about a bad day.",
+        "id": "Seorang teman menceritakan hari yang buruk kepada temannya."
+      },
+      "turns": [
+        {
+          "who": "A",
+          "target": "¿Qué pasó ayer? Llegaste muy tarde al trabajo.",
+          "tr": {
+            "ar": "ماذا حدث أمس؟ وصلتِ متأخرة جدًا إلى العمل.",
+            "en": "What happened yesterday? You got to work very late.",
+            "id": "Apa yang terjadi kemarin? Kamu tiba sangat terlambat di kantor."
+          }
+        },
+        {
+          "who": "B",
+          "target": "Esperaba el autobús y, de repente, empezó a llover.",
+          "tr": {
+            "ar": "كنت أنتظر الحافلة وفجأة بدأ المطر.",
+            "en": "I was waiting for the bus and, suddenly, it started to rain.",
+            "id": "Saya sedang menunggu bus dan tiba-tiba hujan mulai turun."
+          }
+        },
+        {
+          "who": "A",
+          "target": "¿Y entonces qué hiciste?",
+          "tr": {
+            "ar": "وماذا فعلتِ حينئذٍ؟",
+            "en": "And then what did you do?",
+            "id": "Lalu apa yang kamu lakukan?"
+          }
+        },
+        {
+          "who": "B",
+          "target": "Entonces tomé un taxi, pero llegué tarde.",
+          "tr": {
+            "ar": "حينئذٍ أخذت سيارة أجرة لكنني وصلت متأخرة.",
+            "en": "Then I took a taxi, but I arrived late.",
+            "id": "Lalu saya naik taksi, tetapi tetap terlambat."
+          }
+        }
+      ],
+      "gap": 3,
+      "wrong": [
+        "Mañana voy a tomar el tren.",
+        "Era un niño muy tímido."
+      ],
+      "why": {
+        "ar": "سؤال «¿Y entonces qué hiciste?» يُجاب عنه بحدث تالٍ في الماضي («tomé un taxi»). الجملتان الأخريان تتحدثان عن الغد وعن الطفولة.",
+        "en": "The question \"¿Y entonces qué hiciste?\" is answered with a later past event (\"tomé un taxi\"). The other two sentences speak about tomorrow and childhood.",
+        "id": "Pertanyaan \"¿Y entonces qué hiciste?\" dijawab dengan peristiwa lampau berikutnya (\"tomé un taxi\"). Dua kalimat lain membahas besok dan masa kecil."
+      }
+    },
+    "summary": {
+      "ar": "تعلمت الجمع بين imperfecto للخلفية وindefinido للحدث، وكلمات الربط de repente وentonces وmientras وpor eso وal final. حاول أن تحكي يومك أمس بهذه الأدوات.",
+      "en": "You learned to combine the imperfect for background with the indefinido for events, and the connectors de repente, entonces, mientras, por eso and al final. Try telling about your yesterday with these tools.",
+      "id": "Anda belajar menggabungkan imperfecto untuk latar dengan indefinido untuk peristiwa, serta penghubung de repente, entonces, mientras, por eso, dan al final. Coba ceritakan hari kemarin Anda dengan alat-alat ini."
+    }
+  },
+  {
+    "id": "es-29",
+    "track": "es",
+    "level": "intermediate",
+    "order": 29,
+    "topic": "messages-future",
+    "icon": "✉️",
+    "title": {
+      "ar": "كتابة الرسائل والخطط المستقبلية",
+      "en": "Writing Messages and Future Plans",
+      "id": "Menulis Pesan dan Rencana Masa Depan"
+    },
+    "description": {
+      "ar": "اكتب رسالة قصيرة وتحدث عن خططك ووعودك بصيغة المستقبل.",
+      "en": "Write a short message and talk about your plans and promises with the future.",
+      "id": "Tulis pesan singkat dan bicarakan rencana serta janji Anda dengan kala depan."
+    },
+    "objectives": [
+      {
+        "ar": "أستطيع بدء الرسائل وإنهاءها بشكل رسمي وغير رسمي.",
+        "en": "I can open and close messages formally and informally.",
+        "id": "Saya bisa membuka dan menutup pesan secara resmi maupun tidak resmi."
+      },
+      {
+        "ar": "أستطيع التعرف على «futuro simple» وصيغ منتظمة قليلة منه.",
+        "en": "I can recognise the \"futuro simple\" and a few regular forms.",
+        "id": "Saya bisa mengenali \"futuro simple\" dan beberapa bentuk beraturannya."
+      },
+      {
+        "ar": "أستطيع قول «tendré» و«haré» و«podré» والمقارنة مع «ir a».",
+        "en": "I can say \"tendré\", \"haré\", \"podré\" and compare them with \"ir a\".",
+        "id": "Saya bisa mengatakan \"tendré\", \"haré\", \"podré\" dan membandingkannya dengan \"ir a\"."
+      }
+    ],
+    "intro": {
+      "ar": "هذا الدرس خفيف في زمن «futuro simple»: نتعرّف عليه ونتعلم بضع صيغ. نضيف النهايات -é، -ás، -á، -emos، -án إلى المصدر: viajar ← viajaré. وللوعود والتوقعات نستعمله بدل «ir a». وتتعلم أيضًا افتتاح الرسائل الرسمية (Estimado señor...) وغير الرسمية (Querida Ana...) وخواتيمها.",
+      "en": "This is a light lesson on the \"futuro simple\": we recognise it and learn a few forms. We add -é, -ás, -á, -emos, -án to the infinitive: viajar gives viajaré. We use it for promises and predictions, as an alternative to \"ir a\". You also learn how to open and close formal messages (Estimado señor...) and informal ones (Querida Ana...).",
+      "id": "Pelajaran ini ringan tentang \"futuro simple\": kita mengenalinya dan belajar beberapa bentuk. Kita menambahkan -é, -ás, -á, -emos, -án pada infinitif: viajar menjadi viajaré. Dipakai untuk janji dan prediksi, sebagai alternatif \"ir a\". Anda juga belajar membuka dan menutup pesan resmi (Estimado señor...) dan tidak resmi (Querida Ana...)."
+    },
+    "culture": {
+      "ar": "في الرسائل الرسمية (البريد الإلكتروني للعمل) تبدأ بـ «Estimado señor/Estimada señora» وتنهي بـ «Atentamente» أو «Cordialmente». وفي الرسائل بين الأصدقاء تبدأ بـ «Hola» أو «Querida/Querido» وتنهي بـ «Un abrazo» أو «Un beso» أو «Besos». وفي واتساب تشيع الاختصارات مثل «xq» (porque) و«tb» (también) وإن كانت غير مناسبة في الرسائل الرسمية.",
+      "en": "In formal messages (work emails) you begin with \"Estimado señor/Estimada señora\" and end with \"Atentamente\" or \"Cordialmente\". Between friends you begin with \"Hola\" or \"Querida/Querido\" and end with \"Un abrazo\", \"Un beso\" or \"Besos\". In WhatsApp, abbreviations such as \"xq\" (porque) and \"tb\" (también) are common, but unsuitable for formal messages.",
+      "id": "Dalam pesan resmi (email kerja) Anda memulai dengan \"Estimado señor/Estimada señora\" dan menutup dengan \"Atentamente\" atau \"Cordialmente\". Antarteman memulai dengan \"Hola\" atau \"Querida/Querido\" dan menutup dengan \"Un abrazo\", \"Un beso\", atau \"Besos\". Di WhatsApp singkatan seperti \"xq\" (porque) dan \"tb\" (también) umum, tetapi tidak cocok untuk pesan resmi."
+    },
+    "grammar": {
+      "title": {
+        "ar": "نظرة خفيفة على futuro simple",
+        "en": "A light look at the futuro simple",
+        "id": "Sekilas tentang futuro simple"
+      },
+      "body": {
+        "ar": "الصيغة المنتظمة: المصدر + -é، -ás، -á، -emos، -éis، -án: viajar ← viajaré، viajarás، viajará، viajaremos، viajaréis، viajarán؛ hablar ← hablaremos. ولبعض الأفعال جذع خاص: tener ← tendré، hacer ← haré، poder ← podré، salir ← saldré، venir ← vendré. ونستعمل المستقبل للوعد والخطة البعيدة («El año que viene viajaré»)، أما الخطة القريبة فنقول فيها غالبًا «voy a + مصدر» («Voy a viajar mañana»).",
+        "en": "Regular form: infinitive + -é, -ás, -á, -emos, -éis, -án: viajar gives viajaré, viajarás, viajará, viajaremos, viajaréis, viajarán; hablar gives hablaremos. A few verbs have a special stem: tener gives tendré, hacer haré, poder podré, salir saldré, venir vendré. We use the future for promises and distant plans (\"El año que viene viajaré\"); for near plans we usually say \"voy a + infinitive\" (\"Voy a viajar mañana\").",
+        "id": "Bentuk beraturan: infinitif + -é, -ás, -á, -emos, -éis, -án: viajar menjadi viajaré, viajarás, viajará, viajaremos, viajaréis, viajarán; hablar menjadi hablaremos. Beberapa kata kerja punya batang khusus: tener menjadi tendré, hacer haré, poder podré, salir saldré, venir vendré. Futuro dipakai untuk janji dan rencana jauh (\"El año que viene viajaré\"); untuk rencana dekat biasanya dikatakan \"voy a + infinitif\" (\"Voy a viajar mañana\")."
+      }
+    },
+    "items": [
+      {
+        "id": "es29n1",
+        "target": "El año que viene viajaré a México.",
+        "translit": "ehl AH-nyoh keh BYEH-neh byah-hah-REH ah MEH-hee-koh",
+        "tr": {
+          "ar": "في العام القادم سأسافر إلى المكسيك.",
+          "en": "Next year I will travel to Mexico.",
+          "id": "Tahun depan saya akan bepergian ke Meksiko."
+        },
+        "example": {
+          "target": "El próximo verano viajaremos a Argentina.",
+          "translit": "ehl PROHK-see-moh beh-RAH-noh byah-hah-REH-mohs ah ahr-hehn-TEE-nah",
+          "tr": {
+            "ar": "في الصيف القادم سنسافر إلى الأرجنتين.",
+            "en": "Next summer we will travel to Argentina.",
+            "id": "Musim panas depan kami akan bepergian ke Argentina."
+          }
+        },
+        "hint": {
+          "ar": "«viajar» + «é» = «viajaré» والنبرة على الحرف الأخير. وتُنطق «México» بخاء (MEH-hee-koh) مع أنها تُكتب بـ x.",
+          "en": "\"Viajar\" + \"é\" = \"viajaré\", stressed on the last syllable. \"México\" is pronounced with an h sound (MEH-hee-koh) although it is written with x.",
+          "id": "\"Viajar\" + \"é\" = \"viajaré\", ditekan pada suku kata terakhir. \"México\" diucapkan dengan bunyi h (MEH-hee-koh) meskipun ditulis dengan x."
+        }
+      },
+      {
+        "id": "es29n2",
+        "target": "Tendré más tiempo.",
+        "translit": "tehn-DREH mahs TYEHM-poh",
+        "tr": {
+          "ar": "سيكون عندي وقت أكثر.",
+          "en": "I will have more time.",
+          "id": "Saya akan punya lebih banyak waktu."
+        },
+        "example": {
+          "target": "En julio tendré más tiempo libre.",
+          "translit": "ehn HOO-lyoh tehn-DREH mahs TYEHM-poh LEE-breh",
+          "tr": {
+            "ar": "في يوليو سيكون عندي وقت فراغ أكثر.",
+            "en": "In July I will have more free time.",
+            "id": "Pada bulan Juli saya akan punya lebih banyak waktu luang."
+          }
+        },
+        "hint": {
+          "ar": "«tener» لها جذع شاذ في المستقبل: «tendr-». والنهايات تبقى -é، -ás، -á. وأسماء الأشهر تُكتب بحرف صغير في الإسبانية: «julio».",
+          "en": "\"Tener\" has an irregular future stem: \"tendr-\". The endings stay -é, -ás, -á. Month names are not capitalised in Spanish: \"julio\".",
+          "id": "\"Tener\" punya batang futuro tak beraturan: \"tendr-\". Akhirannya tetap -é, -ás, -á. Nama bulan tidak ditulis kapital dalam bahasa Spanyol: \"julio\"."
+        }
+      },
+      {
+        "id": "es29n3",
+        "target": "Querida Ana:",
+        "translit": "keh-REE-dah AH-nah",
+        "tr": {
+          "ar": "عزيزتي آنا:",
+          "en": "Dear Ana: (informal)",
+          "id": "Ana yang tersayang: (tidak resmi)"
+        },
+        "example": {
+          "target": "Querida Ana: ¿Qué tal todo por ahí?",
+          "translit": "keh-REE-dah AH-nah: keh tahl TOH-doh pohr ah-EE",
+          "tr": {
+            "ar": "عزيزتي آنا: كيف حالكم هناك؟",
+            "en": "Dear Ana: How is everything over there?",
+            "id": "Ana yang tersayang: Bagaimana kabar semuanya di sana?"
+          }
+        },
+        "hint": {
+          "ar": "في الإسبانية نضع غالبًا نقطتين (:) بعد التحية في الرسائل (والفاصلة شائعة أيضًا في الرسائل غير الرسمية). ولرجل نقول «Querido Pedro:». وبدلها يمكن «Hola, Pedro:» وهي أكثر عفوية.",
+          "en": "In Spanish a colon (:) usually follows the greeting in messages (a comma is also common in informal ones). For a man: \"Querido Pedro:\". \"Hola, Pedro:\" is more casual.",
+          "id": "Dalam bahasa Spanyol biasanya salam diikuti titik dua (:) dalam pesan (koma juga umum dalam pesan tidak resmi). Untuk laki-laki: \"Querido Pedro:\". \"Hola, Pedro:\" lebih santai."
+        }
+      },
+      {
+        "id": "es29n4",
+        "target": "Estimado señor García:",
+        "translit": "ehs-tee-MAH-doh seh-NYOHR gahr-SEE-ah",
+        "tr": {
+          "ar": "حضرة السيد غارسيا المحترم:",
+          "en": "Dear Mr García: (formal)",
+          "id": "Yth. Tuan García: (resmi)"
+        },
+        "example": {
+          "target": "Estimado señor García: Le escribo por el anuncio.",
+          "translit": "ehs-tee-MAH-doh seh-NYOHR gahr-SEE-ah: leh ehs-KREE-boh pohr ehl ah-NOON-syoh",
+          "tr": {
+            "ar": "حضرة السيد غارسيا المحترم: أكتب إليك بخصوص الإعلان.",
+            "en": "Dear Mr García: I am writing about the advertisement.",
+            "id": "Yth. Tuan García: Saya menulis berkaitan dengan iklan itu."
+          }
+        },
+        "hint": {
+          "ar": "للمرأة نقول «Estimada señora García:». وتُستعمل «le» (usted) في الرسالة الرسمية، و«señor» تُكتب بحرف صغير وسط الجملة.",
+          "en": "For a woman: \"Estimada señora García:\". \"Le\" (usted) is used in formal letters, and \"señor\" is lower case in the middle of a sentence.",
+          "id": "Untuk perempuan: \"Estimada señora García:\". \"Le\" (usted) dipakai dalam surat resmi, dan \"señor\" ditulis huruf kecil di tengah kalimat."
+        }
+      },
+      {
+        "id": "es29n5",
+        "target": "Te escribo para decirte que llegaré el viernes.",
+        "translit": "teh ehs-KREE-boh PAH-rah deh-SEER-teh keh yeh-gah-REH ehl BYEHR-nehs",
+        "tr": {
+          "ar": "أكتب إليك لأقول لك إنني سأصل يوم الجمعة.",
+          "en": "I'm writing to tell you that I will arrive on Friday.",
+          "id": "Saya menulis untuk memberitahumu bahwa saya akan tiba hari Jumat."
+        },
+        "example": {
+          "target": "Te escribo para decirte que no podré venir.",
+          "translit": "teh ehs-KREE-boh PAH-rah deh-SEER-teh keh noh poh-DREH beh-NEER",
+          "tr": {
+            "ar": "أكتب إليك لأقول لك إنني لن أستطيع المجيء.",
+            "en": "I'm writing to tell you that I won't be able to come.",
+            "id": "Saya menulis untuk memberitahumu bahwa saya tidak akan bisa datang."
+          }
+        },
+        "hint": {
+          "ar": "«decirte» مصدر + ضمير «te» ملتصق. و«podré» مستقبل شاذ من «poder» بجذع «podr-». و«para + مصدر» تعني «من أجل أن».",
+          "en": "\"Decirte\" is the infinitive with \"te\" attached. \"Podré\" is the irregular future of \"poder\" with the stem \"podr-\". \"Para + infinitive\" means \"in order to\".",
+          "id": "\"Decirte\" adalah infinitif dengan \"te\" menempel. \"Podré\" adalah futuro tak beraturan dari \"poder\" dengan batang \"podr-\". \"Para + infinitif\" berarti \"untuk\"."
+        }
+      },
+      {
+        "id": "es29n6",
+        "target": "Espero tu respuesta.",
+        "translit": "ehs-PEH-roh too rrehs-PWEHS-tah",
+        "tr": {
+          "ar": "أنتظر ردك.",
+          "en": "I'm waiting for your reply.",
+          "id": "Saya menunggu balasan Anda."
+        },
+        "example": {
+          "target": "Espero tu respuesta pronto.",
+          "translit": "ehs-PEH-roh too rrehs-PWEHS-tah PROHN-toh",
+          "tr": {
+            "ar": "أنتظر ردك قريبًا.",
+            "en": "I look forward to your reply soon.",
+            "id": "Saya menunggu balasan Anda segera."
+          }
+        },
+        "hint": {
+          "ar": "«tu» (ملكيتك) بلا علامة، أما «tú» فهي ضمير الفاعل. و«esperar» تعني الانتظار والأمل. وفي رسالة رسمية قل «su respuesta».",
+          "en": "\"Tu\" (your) has no accent, whereas \"tú\" is the subject pronoun. \"Esperar\" means to wait and to hope. In a formal message say \"su respuesta\".",
+          "id": "\"Tu\" (milikmu) tanpa aksen, sedangkan \"tú\" adalah pronomina subjek. \"Esperar\" berarti menunggu dan berharap. Dalam pesan resmi katakan \"su respuesta\"."
+        }
+      },
+      {
+        "id": "es29n7",
+        "target": "Hablaremos pronto.",
+        "translit": "ah-blah-REH-mohs PROHN-toh",
+        "tr": {
+          "ar": "سنتحدث قريبًا.",
+          "en": "We'll talk soon.",
+          "id": "Kita akan berbicara segera."
+        },
+        "example": {
+          "target": "El lunes hablaremos con calma.",
+          "translit": "ehl LOO-nehs ah-blah-REH-mohs kohn KAHL-mah",
+          "tr": {
+            "ar": "يوم الاثنين سنتحدث بهدوء.",
+            "en": "On Monday we will talk calmly.",
+            "id": "Hari Senin kita akan berbicara dengan tenang."
+          }
+        },
+        "hint": {
+          "ar": "«hablar» + «emos» = «hablaremos» بلا علامة لأن النبرة على المقطع قبل الأخير. وللخطة القريبة يقال أيضًا «Vamos a hablar».",
+          "en": "\"Hablar\" + \"emos\" = \"hablaremos\", with no accent since the stress falls on the second-to-last syllable. For near plans you can also say \"Vamos a hablar\".",
+          "id": "\"Hablar\" + \"emos\" = \"hablaremos\", tanpa aksen karena tekanan jatuh pada suku kata kedua dari belakang. Untuk rencana dekat bisa juga dikatakan \"Vamos a hablar\"."
+        }
+      },
+      {
+        "id": "es29n8",
+        "target": "Un abrazo",
+        "translit": "oon ah-BRAH-soh",
+        "tr": {
+          "ar": "عناق (خاتمة ودية)",
+          "en": "Best wishes (informal closing)",
+          "id": "Salam hangat (penutup tidak resmi)"
+        },
+        "example": {
+          "target": "Un abrazo, Marta.",
+          "translit": "oon ah-BRAH-soh, MAHR-tah",
+          "tr": {
+            "ar": "مع خالص المودة، مارتا.",
+            "en": "Warm regards, Marta.",
+            "id": "Salam hangat, Marta."
+          }
+        },
+        "hint": {
+          "ar": "«un abrazo» (حرفيًا «عناق») خاتمة ودية للأصدقاء. وللرسائل الرسمية نكتب «Atentamente»، وللمقربين «Besos».",
+          "en": "\"Un abrazo\" (literally \"a hug\") is a friendly closing. For formal messages we write \"Atentamente\"; for close people \"Besos\".",
+          "id": "\"Un abrazo\" (harfiah \"sebuah pelukan\") adalah penutup yang ramah. Untuk pesan resmi ditulis \"Atentamente\"; untuk orang dekat \"Besos\"."
+        }
+      }
+    ],
+    "cloze": [
+      {
+        "sentence": "El año que viene ___ en otra ciudad.",
+        "answer": "viviré",
+        "wrong": [
+          "vivía",
+          "viví"
+        ],
+        "tr": {
+          "ar": "في العام القادم سأسكن في مدينة أخرى.",
+          "en": "Next year I will live in another city.",
+          "id": "Tahun depan saya akan tinggal di kota lain."
+        },
+        "why": {
+          "ar": "«el año que viene» مستقبل فنقول «viviré». «vivía» و«viví» ماضيان ولا يناسبان.",
+          "en": "\"El año que viene\" is future, so \"viviré\". \"Vivía\" and \"viví\" are past forms and do not fit.",
+          "id": "\"El año que viene\" adalah masa depan, jadi \"viviré\". \"Vivía\" dan \"viví\" adalah bentuk lampau dan tidak cocok."
+        }
+      },
+      {
+        "sentence": "Mañana te ___ por teléfono.",
+        "answer": "llamaré",
+        "wrong": [
+          "llamé",
+          "llamaba"
+        ],
+        "tr": {
+          "ar": "غدًا سأتصل بك بالهاتف.",
+          "en": "Tomorrow I will call you on the phone.",
+          "id": "Besok saya akan meneleponmu."
+        },
+        "why": {
+          "ar": "«mañana» تدل على المستقبل فنستعمل «llamaré». «llamé» و«llamaba» ماضيان.",
+          "en": "\"Mañana\" points to the future, so \"llamaré\". \"Llamé\" and \"llamaba\" are past forms.",
+          "id": "\"Mañana\" menunjuk masa depan, jadi \"llamaré\". \"Llamé\" dan \"llamaba\" adalah bentuk lampau."
+        }
+      }
+    ],
+    "conversation": {
+      "context": {
+        "ar": "صديقان يرتبان زيارة عبر رسائل الهاتف.",
+        "en": "Two friends arrange a visit by text messages.",
+        "id": "Dua teman mengatur kunjungan lewat pesan teks."
+      },
+      "turns": [
+        {
+          "who": "A",
+          "target": "¿Cuándo vienes a visitarme?",
+          "tr": {
+            "ar": "متى ستأتي لزيارتي؟",
+            "en": "When are you coming to visit me?",
+            "id": "Kapan kamu datang mengunjungiku?"
+          }
+        },
+        {
+          "who": "B",
+          "target": "Llegaré el diez de julio. Tendré tres días libres.",
+          "tr": {
+            "ar": "سأصل في العاشر من يوليو. سيكون عندي ثلاثة أيام إجازة.",
+            "en": "I will arrive on the tenth of July. I will have three free days.",
+            "id": "Saya akan tiba tanggal sepuluh Juli. Saya akan punya tiga hari libur."
+          }
+        },
+        {
+          "who": "A",
+          "target": "¡Genial! Te esperaré en la estación.",
+          "tr": {
+            "ar": "رائع! سأنتظرك في المحطة.",
+            "en": "Great! I'll wait for you at the station.",
+            "id": "Hebat! Saya akan menunggumu di stasiun."
+          }
+        },
+        {
+          "who": "B",
+          "target": "Perfecto. Te escribiré el horario del tren.",
+          "tr": {
+            "ar": "ممتاز. سأكتب لك موعد القطار.",
+            "en": "Perfect. I'll write you the train schedule.",
+            "id": "Bagus. Saya akan menuliskan jadwal kereta untukmu."
+          }
+        }
+      ],
+      "gap": 1,
+      "wrong": [
+        "Ayer llegué muy tarde.",
+        "Antes vivía en un pueblo."
+      ],
+      "why": {
+        "ar": "السؤال عن موعد الزيارة المقبلة يُجاب عنه بصيغة المستقبل («Llegaré»). الجملتان الأخريان بصيغة الماضي ولا تجيبان عن السؤال.",
+        "en": "A question about the coming visit is answered in the future (\"Llegaré\"). The other two sentences are in the past and do not answer the question.",
+        "id": "Pertanyaan tentang kunjungan yang akan datang dijawab dengan futuro (\"Llegaré\"). Dua kalimat lain berbentuk lampau dan tidak menjawab pertanyaan."
+      }
+    },
+    "summary": {
+      "ar": "تعلمت التعرف على المستقبل البسيط بنهايات -é وـ-ás وـ-á وـ-emos وـ-án، وبعض الصيغ الشاذة tendré وharé وpodré، وافتتاحيات الرسائل وخواتيمها. وللخطط القريبة تبقى «ir a» الأسهل.",
+      "en": "You learned to recognise the futuro simple with the endings -é, -ás, -á, -emos and -án, a few irregulars (tendré, haré, podré), and message openings and closings. For near plans, \"ir a\" is still the easiest.",
+      "id": "Anda belajar mengenali futuro simple dengan akhiran -é, -ás, -á, -emos, dan -án, beberapa bentuk tak beraturan (tendré, haré, podré), serta pembuka dan penutup pesan. Untuk rencana dekat, \"ir a\" tetap yang termudah."
+    }
+  },
+  {
+    "id": "es-30",
+    "track": "es",
+    "level": "intermediate",
+    "order": 30,
+    "topic": "review-capstone",
+    "icon": "🏁",
+    "title": {
+      "ar": "كل ما تعلمته معًا",
+      "en": "Putting It All Together",
+      "id": "Menyatukan Semuanya"
+    },
+    "description": {
+      "ar": "اختر الزمن المناسب لما تريد قوله وراجع الأزمنة.",
+      "en": "Choose the right tense for what you want to say and review the tenses.",
+      "id": "Pilih kala yang tepat untuk apa yang ingin Anda katakan dan tinjau kembali kala-kala."
+    },
+    "objectives": [
+      {
+        "ar": "أستطيع اختيار الزمن المناسب: حاضر، perfecto، indefinido، imperfecto، مستقبل.",
+        "en": "I can choose the right tense: present, perfecto, indefinido, imperfecto, future.",
+        "id": "Saya bisa memilih kala yang tepat: presens, perfecto, indefinido, imperfecto, futuro."
+      },
+      {
+        "ar": "أستطيع الحديث عن اليوم وأمس والطفولة والخطط في محادثة واحدة.",
+        "en": "I can talk about today, yesterday, childhood and plans in a single conversation.",
+        "id": "Saya bisa berbicara tentang hari ini, kemarin, masa kecil, dan rencana dalam satu percakapan."
+      },
+      {
+        "ar": "أتعرف على «ojalá» و«me encantaría» و«si tengo tiempo, iré» كخطوة نحو المستوى التالي.",
+        "en": "I recognise \"ojalá\", \"me encantaría\" and \"si tengo tiempo, iré\" as a step towards the next level.",
+        "id": "Saya mengenali \"ojalá\", \"me encantaría\", dan \"si tengo tiempo, iré\" sebagai langkah menuju tingkat berikutnya."
+      }
+    ],
+    "intro": {
+      "ar": "في هذا الدرس لا نتعلم صيغًا جديدة بل نختار الزمن المناسب للمعنى: الحاضر للعادات، و«perfecto» للتجربة حتى الآن («¿Qué has hecho hoy?»)، و«indefinido» للحدث المنتهي («Ayer fui...»)، و«imperfecto» للخلفية والعادة القديمة («Cuando era niño...»)، و«ir a» أو المستقبل للخطط. ونلقي نظرة على «ojalá» وعلى الشرطي «me encantaría» كجسر إلى المستوى التالي.",
+      "en": "In this lesson we do not learn new forms but choose the right tense for the meaning: the present for habits, the perfecto for experience up to now (\"¿Qué has hecho hoy?\"), the indefinido for a finished event (\"Ayer fui...\"), the imperfect for background and old habits (\"Cuando era niño...\"), and \"ir a\" or the future for plans. We also glance at \"ojalá\" and the conditional \"me encantaría\" as a bridge to the next level.",
+      "id": "Dalam pelajaran ini kita tidak mempelajari bentuk baru, tetapi memilih kala yang tepat sesuai makna: presens untuk kebiasaan, perfecto untuk pengalaman sampai sekarang (\"¿Qué has hecho hoy?\"), indefinido untuk peristiwa yang selesai (\"Ayer fui...\"), imperfecto untuk latar dan kebiasaan lama (\"Cuando era niño...\"), serta \"ir a\" atau futuro untuk rencana. Kita juga melihat sekilas \"ojalá\" dan kondisional \"me encantaría\" sebagai jembatan ke tingkat berikutnya."
+    },
+    "culture": {
+      "ar": "تبقى الإسبانية لغة حيّة لأكثر من 480 مليون متحدث أصلي، وتختلف في المفردات والنطق بين إسبانيا وأمريكا اللاتينية. وكلمة «ojalá» من أصل عربي، من عبارة قريبة من «إن شاء الله»، وتُستعمل للتعبير عن الأمل. وقد أكملت الآن المستوى الأول من الطريق، وبإمكانك التدرب بالحديث مع متحدثين أصليين.",
+      "en": "Spanish is a living language with more than 480 million native speakers, and vocabulary and pronunciation differ between Spain and Latin America. The word \"ojalá\" comes from Arabic, from a phrase close to \"in shā' Allāh\", and expresses hope. You have now completed the first stage of the journey, and you can practise by talking with native speakers.",
+      "id": "Bahasa Spanyol adalah bahasa yang hidup dengan lebih dari 480 juta penutur asli, dan kosakata serta pelafalan berbeda antara Spanyol dan Amerika Latin. Kata \"ojalá\" berasal dari bahasa Arab, dari ungkapan yang mirip \"in shā' Allāh\", dan menyatakan harapan. Anda kini telah menyelesaikan tahap pertama perjalanan, dan dapat berlatih dengan berbicara bersama penutur asli."
+    },
+    "grammar": {
+      "title": {
+        "ar": "أي زمن أستعمل؟",
+        "en": "Which tense do I use?",
+        "id": "Kala mana yang saya pakai?"
+      },
+      "body": {
+        "ar": "الحاضر: عادات وحقائق («Estudio español»). «Perfecto» (he + اسم المفعول): تجربة حتى الآن، أو زمن لم ينتهِ («hoy»، «esta semana») خاصة في إسبانيا. «Indefinido»: حدث منتهٍ في زمن محدد («ayer»، «el año pasado»). «Imperfecto»: عادة أو وصف في الماضي («cuando era niño»). «Ir a» أو المستقبل: خطط. وللتعبير عن الأمل: «ojalá» + صيغة subjuntivo، وهي صيغة خاصة بالتمنّي والاحتمال («Ojalá haga buen tiempo»)، وللأمنية المهذبة: «me encantaría» + مصدر. وللشرط البسيط: «Si tengo tiempo, iré».",
+        "en": "Present: habits and facts (\"Estudio español\"). Perfecto (he + participle): experience up to now, or unfinished time (\"hoy\", \"esta semana\"), especially in Spain. Indefinido: a finished event at a given time (\"ayer\", \"el año pasado\"). Imperfect: a habit or description in the past (\"cuando era niño\"). \"Ir a\" or the future: plans. To express hope: \"ojalá\" + the subjunctive (\"Ojalá haga buen tiempo\"), and for a polite wish: \"me encantaría\" + infinitive. For a simple condition: \"Si tengo tiempo, iré\".",
+        "id": "Presens: kebiasaan dan fakta (\"Estudio español\"). Perfecto (he + participio): pengalaman sampai sekarang, atau waktu yang belum selesai (\"hoy\", \"esta semana\"), terutama di Spanyol. Indefinido: peristiwa selesai pada waktu tertentu (\"ayer\", \"el año pasado\"). Imperfecto: kebiasaan atau deskripsi di masa lampau (\"cuando era niño\"). \"Ir a\" atau futuro: rencana. Untuk menyatakan harapan: \"ojalá\" + subjuntivo (\"Ojalá haga buen tiempo\"), dan untuk keinginan sopan: \"me encantaría\" + infinitif. Untuk syarat sederhana: \"Si tengo tiempo, iré\"."
+      }
+    },
+    "items": [
+      {
+        "id": "es30n1",
+        "target": "¿Qué has hecho hoy?",
+        "translit": "keh ahs EH-choh oy",
+        "tr": {
+          "ar": "ماذا فعلت اليوم؟",
+          "en": "What have you done today?",
+          "id": "Apa yang sudah kamu lakukan hari ini?"
+        },
+        "example": {
+          "target": "Hoy he trabajado y he hecho la compra.",
+          "translit": "oy eh trah-bah-HAH-doh ee eh EH-choh lah KOHM-prah",
+          "tr": {
+            "ar": "اليوم عملت وتسوقت.",
+            "en": "Today I have worked and done the shopping.",
+            "id": "Hari ini saya sudah bekerja dan berbelanja."
+          }
+        },
+        "hint": {
+          "ar": "«hoy» زمن لم ينتهِ فنستعمل «perfecto» في إسبانيا. و«hecho» اسم مفعول شاذ من «hacer». و«hacer la compra» تعني «التسوق».",
+          "en": "\"Hoy\" is unfinished time, so Spain uses the perfecto. \"Hecho\" is the irregular participle of \"hacer\". \"Hacer la compra\" means \"to do the shopping\".",
+          "id": "\"Hoy\" adalah waktu yang belum selesai, jadi Spanyol memakai perfecto. \"Hecho\" adalah participio tak beraturan dari \"hacer\". \"Hacer la compra\" berarti \"berbelanja\"."
+        }
+      },
+      {
+        "id": "es30n2",
+        "target": "Ayer fui a casa de unos amigos.",
+        "translit": "ah-YEHR fwee ah KAH-sah deh OO-nohs ah-MEE-gohs",
+        "tr": {
+          "ar": "أمس ذهبت إلى بيت بعض الأصدقاء.",
+          "en": "Yesterday I went to some friends' house.",
+          "id": "Kemarin saya pergi ke rumah beberapa teman."
+        },
+        "example": {
+          "target": "Ayer cené con ellos y volví a las once.",
+          "translit": "ah-YEHR seh-NEH kohn EH-yohs ee bohl-BEE ah lahs OHN-seh",
+          "tr": {
+            "ar": "أمس تعشيت معهم وعدت في الحادية عشرة.",
+            "en": "Yesterday I had dinner with them and came back at eleven.",
+            "id": "Kemarin saya makan malam bersama mereka dan pulang pukul sebelas."
+          }
+        },
+        "hint": {
+          "ar": "«ayer» يتطلب indefinido: fui، cené، volví. و«casa de» + أصدقاء تعني «بيت أصدقاء». و«cené» و«volví» تحملان علامة على الحرف الأخير مع «yo»، أما «fui» فلا علامة عليها.",
+          "en": "\"Ayer\" calls for the indefinido: fui, cené, volví. \"Casa de\" + friends means \"friends' house\". \"Cené\" and \"volví\" carry an accent on the last letter for \"yo\"; \"fui\" has none.",
+          "id": "\"Ayer\" menuntut indefinido: fui, cené, volví. \"Casa de\" + teman berarti \"rumah teman\". \"Cené\" dan \"volví\" beraksen pada huruf terakhir untuk \"yo\"; \"fui\" tidak beraksen."
+        }
+      },
+      {
+        "id": "es30n3",
+        "target": "Cuando era niño, vivía cerca del mar.",
+        "translit": "KWAHN-doh EH-rah NEE-nyoh, bee-BEE-ah SEHR-kah dehl mahr",
+        "tr": {
+          "ar": "عندما كنت طفلًا كنت أسكن قرب البحر.",
+          "en": "When I was a child I lived near the sea.",
+          "id": "Ketika kecil saya tinggal dekat laut."
+        },
+        "example": {
+          "target": "Cuando era joven, trabajaba en un banco.",
+          "translit": "KWAHN-doh EH-rah HOH-behn, trah-bah-HAH-bah ehn oon BAHN-koh",
+          "tr": {
+            "ar": "عندما كنت شابًا كنت أعمل في مصرف.",
+            "en": "When I was young, I worked in a bank.",
+            "id": "Ketika muda, saya bekerja di sebuah bank."
+          }
+        },
+        "hint": {
+          "ar": "«cuando era...» تفتح وصفًا للماضي ويتبعها imperfecto. و«del» اختصار «de + el». وحرف j في «joven» كالخاء الخفيفة.",
+          "en": "\"Cuando era...\" opens a past description and is followed by the imperfect. \"Del\" is the contraction of \"de + el\". The j in \"joven\" is a breathy h.",
+          "id": "\"Cuando era...\" membuka deskripsi lampau dan diikuti imperfecto. \"Del\" adalah singkatan \"de + el\". Huruf j pada \"joven\" berbunyi h yang kasar."
+        }
+      },
+      {
+        "id": "es30n4",
+        "target": "Este verano voy a viajar a Perú.",
+        "translit": "EHS-teh beh-RAH-noh boy ah byah-HAHR ah peh-ROO",
+        "tr": {
+          "ar": "في هذا الصيف سأسافر إلى بيرو.",
+          "en": "This summer I'm going to travel to Peru.",
+          "id": "Musim panas ini saya akan bepergian ke Peru."
+        },
+        "example": {
+          "target": "Este verano voy a estudiar español en Lima.",
+          "translit": "EHS-teh beh-RAH-noh boy ah ehs-too-DYAHR ehs-pah-NYOHL ehn LEE-mah",
+          "tr": {
+            "ar": "في هذا الصيف سأدرس الإسبانية في ليما.",
+            "en": "This summer I'm going to study Spanish in Lima.",
+            "id": "Musim panas ini saya akan belajar bahasa Spanyol di Lima."
+          }
+        },
+        "hint": {
+          "ar": "«ir a + مصدر» للخطة القريبة أو المقررة. و«este» بلا علامة لأنها صفة إشارة. وحرف v كالباء.",
+          "en": "\"Ir a + infinitive\" is for a near or decided plan. \"Este\" has no accent here because it is a demonstrative adjective. The v sounds like b.",
+          "id": "\"Ir a + infinitif\" untuk rencana dekat atau yang sudah diputuskan. \"Este\" tanpa aksen karena kata sifat tunjuk. Huruf v berbunyi b."
+        }
+      },
+      {
+        "id": "es30n5",
+        "target": "Hace dos años que estudio español.",
+        "translit": "AH-seh dohs AH-nyohs keh ehs-TOO-dyoh ehs-pah-NYOHL",
+        "tr": {
+          "ar": "منذ سنتين وأنا أدرس الإسبانية.",
+          "en": "I've been studying Spanish for two years.",
+          "id": "Sudah dua tahun saya belajar bahasa Spanyol."
+        },
+        "example": {
+          "target": "Hace tres años que vivo en Sevilla.",
+          "translit": "AH-seh trehs AH-nyohs keh BEE-boh ehn seh-BEE-yah",
+          "tr": {
+            "ar": "منذ ثلاث سنوات وأنا أسكن في إشبيلية.",
+            "en": "I've been living in Seville for three years.",
+            "id": "Sudah tiga tahun saya tinggal di Sevilla."
+          }
+        },
+        "hint": {
+          "ar": "«hace + مدة + que» + المضارع تعني «منذ مدة». والفعل يبقى في الحاضر لأن الحال مستمرة. وحرف ñ في «años» كـ «ny».",
+          "en": "\"Hace + time + que\" + present means \"for a period\". The verb stays in the present because the situation continues. The ñ in \"años\" sounds like \"ny\".",
+          "id": "\"Hace + waktu + que\" + presens berarti \"sudah selama\". Kata kerja tetap presens karena keadaannya berlanjut. Huruf ñ pada \"años\" berbunyi \"ny\"."
+        }
+      },
+      {
+        "id": "es30n6",
+        "target": "Me encantaría conocer Argentina.",
+        "translit": "meh ehn-kahn-tah-REE-ah koh-noh-SEHR ahr-hehn-TEE-nah",
+        "tr": {
+          "ar": "يسعدني جدًا أن أزور الأرجنتين.",
+          "en": "I'd love to visit Argentina.",
+          "id": "Saya ingin sekali mengunjungi Argentina."
+        },
+        "example": {
+          "target": "Me encantaría vivir en una ciudad con playa.",
+          "translit": "meh ehn-kahn-tah-REE-ah bee-BEER ehn OO-nah syoo-DAHD kohn PLAH-yah",
+          "tr": {
+            "ar": "أحب جدًا أن أعيش في مدينة فيها شاطئ.",
+            "en": "I'd love to live in a city with a beach.",
+            "id": "Saya ingin sekali tinggal di kota yang punya pantai."
+          }
+        },
+        "hint": {
+          "ar": "«me encantaría» صيغة الشرط (conditional) وهي لتعبير مهذب عن الرغبة. نتعلمها كعبارة جاهزة الآن. وعليها علامة على í. و«conocer» تعني «التعرف على مكان».",
+          "en": "\"Me encantaría\" is the conditional, a polite way to express a wish. Learn it as a set phrase for now. It has an accent on í. \"Conocer\" means \"to get to know a place\".",
+          "id": "\"Me encantaría\" adalah kondisional, cara sopan menyatakan keinginan. Hafalkan dulu sebagai ungkapan siap pakai. Beraksen pada í. \"Conocer\" berarti \"mengenal suatu tempat\"."
+        }
+      },
+      {
+        "id": "es30n7",
+        "target": "Ojalá haga buen tiempo.",
+        "translit": "oh-hah-LAH AH-gah bwehn TYEHM-poh",
+        "tr": {
+          "ar": "أتمنى أن يكون الطقس جميلًا.",
+          "en": "I hope the weather is good.",
+          "id": "Mudah-mudahan cuacanya bagus."
+        },
+        "example": {
+          "target": "Ojalá mañana no llueva.",
+          "translit": "oh-hah-LAH mah-NYAH-nah noh YWEH-bah",
+          "tr": {
+            "ar": "أتمنى ألا تمطر غدًا.",
+            "en": "I hope it doesn't rain tomorrow.",
+            "id": "Mudah-mudahan besok tidak hujan."
+          }
+        },
+        "hint": {
+          "ar": "«ojalá» تأتي من العربية وتعني الأمل، ويتبعها subjuntivo: «haga»، «llueva». نتعلمها الآن عبارةً جاهزة. و«haga» ليست «hace»: هي صيغة subjuntivo من «hacer». و«hace buen tiempo» تعني «الطقس جميل».",
+          "en": "\"Ojalá\" comes from Arabic and expresses hope, and it is followed by the subjunctive: \"haga\", \"llueva\". Learn it as a set phrase for now. \"Haga\" is not \"hace\": it is the subjunctive of \"hacer\". \"Hace buen tiempo\" means \"the weather is good\".",
+          "id": "\"Ojalá\" berasal dari bahasa Arab dan menyatakan harapan, diikuti subjuntivo: \"haga\", \"llueva\". Hafalkan dulu sebagai ungkapan siap pakai. \"Haga\" bukan \"hace\": itu subjuntivo dari \"hacer\". \"Hace buen tiempo\" berarti \"cuacanya bagus\"."
+        }
+      },
+      {
+        "id": "es30n8",
+        "target": "Si tengo tiempo, iré.",
+        "translit": "see TEHN-goh TYEHM-poh, ee-REH",
+        "tr": {
+          "ar": "إذا كان عندي وقت فسأذهب.",
+          "en": "If I have time, I'll go.",
+          "id": "Kalau saya punya waktu, saya akan pergi."
+        },
+        "example": {
+          "target": "Si tengo tiempo, te llamaré esta noche.",
+          "translit": "see TEHN-goh TYEHM-poh, teh yah-mah-REH EHS-tah NOH-cheh",
+          "tr": {
+            "ar": "إذا كان عندي وقت فسأتصل بك الليلة.",
+            "en": "If I have time, I'll call you tonight.",
+            "id": "Kalau saya punya waktu, saya akan meneleponmu malam ini."
+          }
+        },
+        "hint": {
+          "ar": "«si» بلا علامة تعني «إذا». والمضارع في جملة الشرط والمستقبل في الجواب. و«iré» مستقبل شاذ من «ir» (جذع «ir-»).",
+          "en": "\"Si\" without an accent means \"if\". The present goes in the \"if\" clause and the future in the result. \"Iré\" is the future of \"ir\" (stem \"ir-\").",
+          "id": "\"Si\" tanpa aksen berarti \"jika\". Presens dipakai di klausa \"jika\" dan futuro di hasilnya. \"Iré\" adalah futuro dari \"ir\" (batang \"ir-\")."
+        }
+      }
+    ],
+    "cloze": [
+      {
+        "sentence": "Ayer ___ al mercado y compré fruta.",
+        "answer": "fui",
+        "wrong": [
+          "voy",
+          "iré"
+        ],
+        "tr": {
+          "ar": "أمس ذهبت إلى السوق واشتريت فاكهة.",
+          "en": "Yesterday I went to the market and bought fruit.",
+          "id": "Kemarin saya pergi ke pasar dan membeli buah."
+        },
+        "why": {
+          "ar": "«ayer» حدث منتهٍ و«compré» indefinido، فيناسبها «fui». «voy» حاضر و«iré» مستقبل.",
+          "en": "\"Ayer\" is a finished event and \"compré\" is indefinido, so \"fui\" fits. \"Voy\" is present and \"iré\" is future.",
+          "id": "\"Ayer\" adalah peristiwa selesai dan \"compré\" indefinido, jadi \"fui\" cocok. \"Voy\" kini dan \"iré\" akan datang."
+        }
+      },
+      {
+        "sentence": "Cuando era niño, ___ cerca del mar.",
+        "answer": "vivía",
+        "wrong": [
+          "he vivido",
+          "viviré"
+        ],
+        "tr": {
+          "ar": "عندما كنت طفلًا كنت أسكن قرب البحر.",
+          "en": "When I was a child I lived near the sea.",
+          "id": "Ketika kecil saya tinggal dekat laut."
+        },
+        "why": {
+          "ar": "«cuando era niño» وصف للماضي فنستعمل imperfecto «vivía». «he vivido» (perfecto) و«viviré» (مستقبل) لا يناسبان.",
+          "en": "\"Cuando era niño\" is a past description, so the imperfect \"vivía\". \"He vivido\" (perfecto) and \"viviré\" (future) do not fit.",
+          "id": "\"Cuando era niño\" adalah deskripsi lampau, jadi imperfecto \"vivía\". \"He vivido\" (perfecto) dan \"viviré\" (futuro) tidak cocok."
+        }
+      }
+    ],
+    "conversation": {
+      "context": {
+        "ar": "مكالمة طويلة بين صديقتين في إسبانيا عن اليوم والخطط.",
+        "en": "A longer call between two friends in Spain about today and plans.",
+        "id": "Telepon yang lebih panjang antara dua teman di Spanyol tentang hari ini dan rencana."
+      },
+      "turns": [
+        {
+          "who": "A",
+          "target": "¿Qué tal, Sara? ¿Qué has hecho hoy?",
+          "tr": {
+            "ar": "كيف حالك يا سارة؟ ماذا فعلتِ اليوم؟",
+            "en": "How are you, Sara? What have you done today?",
+            "id": "Apa kabar, Sara? Apa yang sudah kamu lakukan hari ini?"
+          }
+        },
+        {
+          "who": "B",
+          "target": "He trabajado toda la mañana, pero ayer fui a la playa.",
+          "tr": {
+            "ar": "عملت طوال الصباح لكن أمس ذهبت إلى الشاطئ.",
+            "en": "I have worked all morning, but yesterday I went to the beach.",
+            "id": "Saya sudah bekerja sepanjang pagi, tetapi kemarin saya pergi ke pantai."
+          }
+        },
+        {
+          "who": "A",
+          "target": "¡Qué bien! Yo este verano voy a viajar a Perú.",
+          "tr": {
+            "ar": "ممتاز! أما أنا ففي هذا الصيف سأسافر إلى بيرو.",
+            "en": "Great! This summer I'm going to travel to Peru.",
+            "id": "Bagus sekali! Musim panas ini saya akan bepergian ke Peru."
+          }
+        },
+        {
+          "who": "B",
+          "target": "Me encantaría conocer Perú. ¡Ojalá haga buen tiempo!",
+          "tr": {
+            "ar": "يسعدني جدًا أن أزور بيرو. أتمنى أن يكون الطقس جميلًا!",
+            "en": "I'd love to visit Peru. I hope the weather is good!",
+            "id": "Saya ingin sekali mengunjungi Peru. Mudah-mudahan cuacanya bagus!"
+          }
+        }
+      ],
+      "gap": 1,
+      "wrong": [
+        "Cuando era niña, vivía en un pueblo.",
+        "Anoche comí con mi familia."
+      ],
+      "why": {
+        "ar": "السؤال «¿Qué has hecho hoy?» عن اليوم، فيجاب بـ «he trabajado» (perfecto) ثم بحدث الأمس بـ «fui» (indefinido). الجملتان الأخريان عن الطفولة وعن ليلة أمس لا تجيبان عن اليوم.",
+        "en": "The question \"¿Qué has hecho hoy?\" is about today, so the answer uses \"he trabajado\" (perfecto) and then yesterday's event with \"fui\" (indefinido). The other two sentences about childhood and last night do not answer about today.",
+        "id": "Pertanyaan \"¿Qué has hecho hoy?\" tentang hari ini, jadi jawabannya memakai \"he trabajado\" (perfecto) lalu peristiwa kemarin dengan \"fui\" (indefinido). Dua kalimat lain tentang masa kecil dan tadi malam tidak menjawab tentang hari ini."
+      }
+    },
+    "summary": {
+      "ar": "أكملت الآن ثلاثين درسًا من المسار الإسباني. أصبحت تعرف أن تتحدث عن الحاضر والماضي والمستقبل، وتقرأ رسائل بسيطة وتتحدث في الهاتف. استمر في المراجعة وفي الحديث، وسيكون «ojalá» و«me encantaría» بدايتك نحو المستوى التالي.",
+      "en": "You have now completed thirty lessons of the Spanish track. You can talk about the present, past and future, read simple messages and speak on the phone. Keep reviewing and speaking, and \"ojalá\" and \"me encantaría\" are your first steps towards the next level.",
+      "id": "Anda kini telah menyelesaikan tiga puluh pelajaran jalur bahasa Spanyol. Anda bisa berbicara tentang masa kini, lampau, dan depan, membaca pesan sederhana, serta berbicara di telepon. Teruslah mengulang dan berbicara, dan \"ojalá\" serta \"me encantaría\" adalah langkah pertama Anda menuju tingkat berikutnya."
+    }
+  }
+]

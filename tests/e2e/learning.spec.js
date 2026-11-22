@@ -43,12 +43,12 @@ test.describe('learning flow & progress', () => {
     expect(Object.keys((await page.evaluate(state)).saved)).toContain(lesson.items[0].id);
   });
 
-  test('every lesson page loads (all 160)', async ({ page }) => {
-    test.setTimeout(300_000);
-    test.setTimeout(240_000);
+  test('every lesson page loads (all 240)', async ({ page }) => {
+    test.setTimeout(600_000);
+    test.setTimeout(480_000);
     await seed(page, { lang: 'en' });
     const ids = [];
-    const sizes = { ar: 30, sa: 30, en: 30, id: 30, eg: 10, fr: 10, es: 10, zh: 10 };
+    const sizes = { ar: 30, sa: 30, en: 30, id: 30, eg: 30, fr: 30, es: 30, zh: 30 };
     for (const [t, size] of Object.entries(sizes)) for (let n = 1; n <= size; n++) ids.push(`${t}-${String(n).padStart(2, '0')}`);
     const meta = await (await page.request.get('/')).text(); void meta;
     for (const id of ids) {
@@ -89,7 +89,7 @@ test.describe('legacy progress migration', () => {
     await seed(page, { lang: 'id', legacy: { completed: ['ar-01', 'en-02', 'id-03'], saved: ['a1', 'e5', 'idx031'], xp: 150 } });
     await page.goto('/progress');
     await expect(page.locator('.stat-xp')).toContainText('150');
-    await expect(page.locator('.progress-hero')).toContainText('3 / 160');
+    await expect(page.locator('.progress-hero')).toContainText('3 / 240');
     const s = await page.evaluate(state);
     expect(Object.keys(s.completed).sort()).toEqual(['ar-01', 'en-02', 'id-03']);
     expect(Object.keys(s.saved).sort()).toEqual(['a1', 'e5', 'idx031']);
