@@ -2,10 +2,10 @@
 
 Multilingual language-learning app: **Modern Standard Arabic**, **Saudi Arabic**, **English** and **Indonesian**, with the interface in **Arabic, English or Indonesian**.
 
-- Live site: https://mohleyla.netlify.app
+- Live site: https://mohleyla.pages.dev
 - Repository: https://github.com/moibel/MohLeyla
 - Stack: React 18 + Vite 5 + JavaScript + CSS (no UI framework), `react-i18next`, `react-router-dom`, `vite-plugin-pwa`
-- Hosting: Netlify (`npm run build` → `dist`)
+- Hosting: Cloudflare Pages (`npm run build` → `dist`); Netlify config is kept as a fallback (see [docs/HOSTING.md](docs/HOSTING.md))
 
 ## What is in v6
 
@@ -28,7 +28,7 @@ npm run build        # production build in dist/
 npm run preview      # serve dist/ locally
 ```
 
-Node 18.18+ (Netlify uses Node 20 via `netlify.toml`).
+Node 18.18+ (Cloudflare and Netlify both build with a current Node; Netlify is pinned to 20 in `netlify.toml`).
 
 ## Scripts
 
@@ -104,16 +104,17 @@ Sign-in and cross-device sync use Supabase (and `VITE_REQUIRE_SIGN_IN=true` make
 
 The service worker precaches the app shell, fonts, icons and **all lesson text** (about 2.4 MB). Audio is **not** precached (about 25 MB); a clip is saved after it has been played once, so previously played audio replays offline. Unplayed audio offline falls back to your device voice if it has one. Progress is stored in `localStorage` and works offline.
 
-## Netlify deployment
+## Deployment
 
-Nothing special is required:
+Production runs on **Cloudflare Pages** at https://mohleyla.pages.dev (free, no build-credit counter). Settings: connect the GitHub repo,
+production branch `main`, build command `npm run build`, build output directory `dist`, no dashboard variables needed.
+The public build settings (Supabase URL, publishable key, sign-in switches) are committed in `.env.production`.
 
-1. Push this folder (its contents, not a parent directory) to the root of `moibel/MohLeyla`, replacing old files.
-2. Netlify settings (already in `netlify.toml`): build command `npm run build`, publish directory `dist`, Node 20.
-3. SPA routing: `/*` → `/index.html` (status 200) is configured; static files (`/audio/*`, `/icons/*`) are served first.
-4. Caching headers: hashed assets and audio are immutable; `index.html`, `sw.js` and the manifest are `no-cache` so updates are noticed (the app then shows an "update available" toast).
-
-No environment variables or secrets are used.
+- Security headers (including `microphone=(self)`, required for speaking practice) and caching rules live in `public/_headers`, which
+  Cloudflare and Netlify both read. `netlify.toml` repeats them for Netlify; a unit test keeps the two in agreement.
+- Unknown paths such as `/lesson/ar-01` serve the app (Cloudflare Pages does this automatically; Netlify uses the redirect in `netlify.toml`).
+- Netlify (`mohleyla.netlify.app`) is no longer the live host and its builds are stopped; `netlify.toml` stays as a fallback.
+- Steps, costs and the address checklist (Supabase redirect URLs and Site URL) are in [docs/HOSTING.md](docs/HOSTING.md).
 
 ## Testing
 
