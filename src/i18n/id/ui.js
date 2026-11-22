@@ -534,6 +534,7 @@ export default {
     needRole: 'Halaman ini hanya untuk admin.',
     search: 'Cari nama atau email…',
     count: 'Menampilkan {{shown}} dari {{total}}',
+    tabs: { users: 'Orang', content: 'Pelajaran', news: 'Pengumuman', rewards: 'Hadiah' },
     colUser: 'Pengguna',
     colRole: 'Peran',
     colMethod: 'Cara masuk',

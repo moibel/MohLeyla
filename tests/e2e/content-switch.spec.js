@@ -29,7 +29,7 @@ test.describe('switching lessons and paths on or off (mocked Supabase API; real 
     const backend = createMockBackend({ admins: ['boss@example.com'] });
     await backend.install(page);
     await signIn(page, 'boss@example.com');
-    await page.goto('/admin');
+    await page.goto('/admin?tab=content');
     const panel = page.locator('[data-testid="admin-content"]');
     await expect(panel).toBeVisible();
     const lessonId = ordered('en')[0].id;
@@ -103,7 +103,7 @@ test.describe('switching lessons and paths on or off (mocked Supabase API; real 
     const backend = createMockBackend({ teachers: ['tee@example.com'] });
     await backend.install(page);
     await signIn(page, 'tee@example.com');
-    await page.goto('/admin');
+    await page.goto('/admin?tab=content');
     await expect(page.locator('[data-testid="not-allowed"]')).toBeVisible();
     await expect(page.locator('[data-testid="admin-content"]')).toHaveCount(0);
   });
@@ -113,7 +113,7 @@ test.describe('switching lessons and paths on or off (mocked Supabase API; real 
       const backend = createMockBackend({ admins: ['boss@example.com'] });
       await backend.install(page);
       await signIn(page, 'boss@example.com', lang);
-      await page.goto('/admin');
+      await page.goto('/admin?tab=content');
       const panel = page.locator('[data-testid="admin-content"]');
       await expect(panel).toBeVisible();
       await panel.locator('[data-testid="content-track-ar"] summary').click();

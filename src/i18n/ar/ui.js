@@ -564,6 +564,7 @@ export default {
     needRole: 'هذه الصفحة للمسؤولين فقط.',
     search: 'ابحث بالاسم أو البريد…',
     count: 'المعروض {{shown}} من {{total}}',
+    tabs: { users: 'الأشخاص', content: 'الدروس', news: 'الإعلانات', rewards: 'المكافآت' },
     colUser: 'المستخدم',
     colRole: 'الدور',
     colMethod: 'طريقة الدخول',

@@ -28,7 +28,7 @@ test.describe('admin rewards (mocked Supabase API; the real rules are tested in 
     const backend = createMockBackend({ admins: ['boss@example.com'] });
     await backend.install(page);
     await signIn(page, 'boss@example.com');
-    await page.goto('/admin');
+    await page.goto('/admin?tab=rewards');
     const panel = page.locator('[data-testid="admin-rewards"]');
     await expect(panel).toBeVisible();
 
@@ -87,7 +87,7 @@ test.describe('admin rewards (mocked Supabase API; the real rules are tested in 
     const backend = createMockBackend({ teachers: ['tee@example.com'] });
     await backend.install(page);
     await signIn(page, 'tee@example.com');
-    await page.goto('/admin');
+    await page.goto('/admin?tab=rewards');
     await expect(page.locator('[data-testid="not-allowed"]')).toBeVisible();
     await expect(page.locator('[data-testid="admin-rewards"]')).toHaveCount(0);
   });
@@ -96,7 +96,7 @@ test.describe('admin rewards (mocked Supabase API; the real rules are tested in 
     const backend = createMockBackend({ admins: ['boss@example.com'] });
     await backend.install(page);
     await signIn(page, 'boss@example.com');
-    await page.goto('/admin');
+    await page.goto('/admin?tab=rewards');
     const panel = page.locator('[data-testid="admin-rewards"]');
     await panel.locator('[data-testid="reward-email"]').fill('x@example.com');
     await panel.locator('[data-testid="reward-kind"]').selectOption('badge');
@@ -112,7 +112,7 @@ test.describe('admin rewards (mocked Supabase API; the real rules are tested in 
       await backend.install(page);
       await signIn(page, 'boss@example.com', lang);
       await page.locator('[data-testid="reward-dismiss"]').click(); // the notice fades in; dismiss it so axe does not read half-transparent text
-      await page.goto('/admin');
+      await page.goto('/admin?tab=rewards');
       await expect(page.locator('[data-testid="admin-rewards"]')).toBeVisible();
       const axe = await new AxeBuilder({ page }).withTags(['wcag2a', 'wcag2aa']).analyze();
       expect(axe.violations.map((v) => v.id + ': ' + v.nodes[0].target.join(' '))).toEqual([]);
