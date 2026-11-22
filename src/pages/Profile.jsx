@@ -11,12 +11,15 @@ import { displayName, MAX_NAME } from '../features/sync/profile.js';
 import { useProgress } from '../app/ProgressContext.jsx';
 import { useDerived } from '../features/progress/selectors.js';
 import { LANG_META } from '../i18n/index.js';
+import RewardsSummary from '../features/rewards/RewardsSummary.jsx';
+import { useRewards } from '../features/rewards/store.js';
 
 export default function Profile() {
   const { t, i18n } = useTranslation();
   const s = useSync();
   const { state } = useProgress();
   const d = useDerived();
+  const rw = useRewards();
   const [name, setName] = useState(s.profile?.name || '');
   const [saved, setSaved] = useState(false);
   const [busy, setBusy] = useState(false);
@@ -72,7 +75,7 @@ export default function Profile() {
       </section>
       <section className="stat-grid" aria-label={t('profile.stats')}>
         {[
-          [Star, t('progress.xpTotal'), state.xp],
+          [Star, t('progress.xpTotal'), state.xp + rw.bonusXp],
           [Flame, t('progress.streakCurrent'), t('common.days', { count: d.streak })],
           [GraduationCap, t('progress.lessonsDone'), d.completedCount],
           [BookMarked, t('progress.wordsLearned'), d.learnedCount],
@@ -81,6 +84,7 @@ export default function Profile() {
           <div className="card stat-tile" key={label}><span className="muted"><Icon size={16} aria-hidden="true" /> {label}</span><b>{value}</b></div>
         ))}
       </section>
+      <RewardsSummary />
       <div className="btn-row">
         <Button variant="secondary" to="/classes" icon={<Users size={18} aria-hidden="true" />} data-testid="link-classes">{t('nav.classes')}</Button>
         {(s.role === 'teacher' || s.role === 'admin') && <Button variant="secondary" to="/teach" icon={<ClipboardList size={18} aria-hidden="true" />} data-testid="link-teach">{t('nav.teach')}</Button>}

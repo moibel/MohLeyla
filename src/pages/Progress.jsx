@@ -8,6 +8,7 @@ import { useProgress } from '../app/ProgressContext.jsx';
 import { useDerived } from '../features/progress/selectors.js';
 import { ACHIEVEMENTS } from '../features/progress/engine.js';
 import { addDays } from '../utils/dates.js';
+import { useRewards } from '../features/rewards/store.js';
 
 const ICONS = { Mic, Sprout, Rocket, Medal, Sparkles, Flame, Brain, BookMarked, Star, Languages, Trophy };
 
@@ -15,6 +16,7 @@ export default function Progress() {
   const { t, i18n } = useTranslation();
   const { state } = useProgress();
   const d = useDerived();
+  const rw = useRewards();
   const pct = d.totalLessons ? Math.round((d.completedCount / d.totalLessons) * 100) : 0;
   const goal = state.settings.goal;
   const week = Array.from({ length: 7 }, (_, i) => {
@@ -33,7 +35,7 @@ export default function Progress() {
         <div>
           <h2>{t('progress.overall')}</h2>
           <p>{d.completedCount} / {d.totalLessons} · {t('progress.lessonsDone')}</p>
-          <p><b>{state.xp}</b> {t('progress.xpTotal')}</p>
+          <p><b>{state.xp + rw.bonusXp}</b> {t('progress.xpTotal')}</p>
           <Button variant="light" to="/learn">{t('progress.continue')}</Button>
         </div>
       </section>

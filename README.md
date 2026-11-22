@@ -98,7 +98,7 @@ Details are in [docs/AUDIO.md](docs/AUDIO.md). In short:
 
 ## Accounts and sync (optional)
 
-Sign-in and cross-device sync use Supabase (and `VITE_REQUIRE_SIGN_IN=true` makes sign-in mandatory) and stay switched off until `VITE_SUPABASE_URL` and `VITE_SUPABASE_ANON_KEY` are set (see `.env.example`). Setup, privacy notes and the merge rules are in [docs/ACCOUNTS.md](docs/ACCOUNTS.md); the database schema is `supabase/schema.sql`.
+Sign-in and cross-device sync use Supabase (and `VITE_REQUIRE_SIGN_IN=true` makes sign-in mandatory) and stay switched off until `VITE_SUPABASE_URL` and `VITE_SUPABASE_ANON_KEY` are set (see `.env.example`). Setup, privacy notes and the merge rules are in [docs/ACCOUNTS.md](docs/ACCOUNTS.md); the database schema is in `supabase/migrations/`.
 
 ## Offline use (honest limits)
 

@@ -258,3 +258,17 @@ html[data-theme='dark'] .motto,:root:not([data-theme='light']) .motto{color:var(
 .track-summary{display:flex;gap:16px;align-items:center;justify-content:space-between;flex-wrap:wrap;background:color-mix(in srgb,var(--tile) 8%,var(--surface))}
 .track-summary-text{display:flex;flex-direction:column;gap:8px;flex:1 1 260px;min-inline-size:0}
 .level-progress{font-size:.85rem;font-weight:650;margin-inline-start:8px;font-variant-numeric:tabular-nums}
+
+/* ---- rewards ---- */
+.stat-star svg{color:#D49A00}
+.reward-totals{display:flex;gap:12px;flex-wrap:wrap;margin:0}
+.reward-totals>div{flex:1 1 140px;padding:12px 14px;border-radius:var(--r);background:var(--surface-2)}
+.reward-totals dt{display:flex;gap:6px;align-items:center;color:var(--muted);font-size:.85rem;font-weight:650}
+.reward-totals dd{margin:2px 0 0;font-size:1.6rem;font-weight:800;font-variant-numeric:tabular-nums}
+.badge-list{display:flex;flex-wrap:wrap;gap:8px}
+.badge-chip{display:inline-flex;gap:6px;align-items:center;flex-wrap:wrap;padding:6px 12px;border-radius:999px;background:color-mix(in srgb,var(--sun) 18%,var(--surface));border:1px solid color-mix(in srgb,var(--sun) 55%,var(--border));font-weight:700}
+.badge-chip svg{color:#B07A00}
+.toast-reward{border:2px solid color-mix(in srgb,var(--sun) 65%,var(--border))}
+.toast-reward ul{margin-block:6px 10px}
+.reward-form{display:grid;gap:12px;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));align-items:end}
+.reward-form .wide{grid-column:1/-1}

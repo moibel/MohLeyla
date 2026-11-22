@@ -14,7 +14,7 @@ before enrolling students, and tell them what is stored (the text above).
 
 ## One-time setup (about 10 minutes)
 
-1. **Create the table.** Supabase Dashboard -> *SQL Editor* -> *New query* -> paste `supabase/schema.sql` -> *Run*.
+1. **Create the table.** Supabase Dashboard -> *SQL Editor* -> *New query* -> paste `supabase/migrations/001_progress.sql` -> *Run*.
    It creates `public.progress` with Row Level Security: a signed-in user can only touch their own row.
 2. **Allow your site URLs.** *Authentication -> URL Configuration*:
    - Site URL: `https://mohleyla.pages.dev`
@@ -106,6 +106,16 @@ can only be changed through `admin_set_role()`, which checks that the caller is 
 Setup: run `supabase/migrations/002_roles_classes.sql` once in the Supabase SQL editor, then make yourself admin
 (Table editor -> `profiles` -> set your row's `role` to `admin`). After that, assign teachers from the Admin page.
 `supabase/tests/roles_classes.test.sql` checks 39 permission rules as real database users and rolls itself back; see `supabase/README.md`.
+
+## Rewards from the admin
+An admin can give **stars**, **bonus XP** or a named **badge** to any email address from *Admin -> Rewards* (or the gift button on a user row),
+with an optional reason, and can take a reward back (it stays in the history, marked "taken back").
+
+- Rewards are stored in the database (`public.rewards`) and are only readable or writable through admin-checked functions, so nobody can give themselves one.
+- Matching is by the e-mail of the signed-in account. Someone who has not signed up yet receives the reward at their first sign-in.
+- Limits: stars 1-1000, bonus XP 1-10000 per grant, badge name up to 40 characters, reason up to 140.
+- Bonus XP is added to the XP totals shown in the app but **not** to the daily goal, the streak or the learning achievements. The learner is told once, and sees stars, bonus XP and badges on the profile page.
+- Setup: run `supabase/migrations/003_rewards.sql` once (after 002). Tests: `sh supabase/tests/run-local.sh rewards`.
 
 ## Testing status
 Unit tests cover the merge rules and the sync manager against an in-memory fake. Browser tests run the full sign-in and

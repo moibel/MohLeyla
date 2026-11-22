@@ -1,6 +1,7 @@
 import { useCallback, useEffect, useMemo, useRef, useState } from 'react';
 import { useTranslation } from 'react-i18next';
-import { Search } from 'lucide-react';
+import { Search, Gift } from 'lucide-react';
+import AdminRewards from '../features/rewards/AdminRewards.jsx';
 import { PageHeading, Button, Chip } from '../components/ui.jsx';
 import RequireAccount from '../features/classes/RequireAccount.jsx';
 import { adminListUsers, adminSetRole } from '../features/classes/api.js';
@@ -19,6 +20,8 @@ function AdminInner() {
   const [msg, setMsg] = useState(null);
   const [pending, setPending] = useState(null);
   const dlg = useRef(null);
+  const [giveTo, setGiveTo] = useState('');
+  const rewardsRef = useRef(null);
 
   const load = useCallback(async () => {
     try { setUsers(await adminListUsers()); } catch (e) { setUsers([]); setMsg({ ok: false, text: t(`classes.errors.${e.code}`) }); }
@@ -70,7 +73,7 @@ function AdminInner() {
           <table className="data-table">
             <thead><tr>
               <th scope="col">{t('admin.colUser')}</th><th scope="col">{t('admin.colRole')}</th><th scope="col">{t('admin.colMethod')}</th>
-              <th scope="col">{t('admin.colSignIn')}</th><th scope="col">{t('teach.colXp')}</th><th scope="col">{t('teach.colLessons')}</th>
+              <th scope="col">{t('admin.colSignIn')}</th><th scope="col">{t('teach.colXp')}</th><th scope="col">{t('teach.colLessons')}</th><th scope="col"><span className="sr-only">{t('rewards.admin.giveTo')}</span></th>
             </tr></thead>
             <tbody>
               {shown.map((u) => (
@@ -84,12 +87,14 @@ function AdminInner() {
                   </td>
                   <td>{(u.providers || '').split(',').filter(Boolean).map((p) => t(`admin.provider.${p}`, { defaultValue: p })).join(' + ') || '—'}</td>
                   <td>{fmt(u.last_sign_in_at)}</td><td>{u.xp ?? 0}</td><td>{u.lessons_done ?? 0}</td>
+                  <td><button type="button" className="icon-btn" aria-label={`${t('rewards.admin.giveTo')}: ${u.display_name || u.email}`} title={t('rewards.admin.giveTo')} onClick={() => { setGiveTo(u.email); rewardsRef.current?.scrollIntoView({ behavior: 'smooth', block: 'start' }); }} data-testid="give-reward"><Gift size={20} aria-hidden="true" /></button></td>
                 </tr>
               ))}
             </tbody>
           </table>
         </div>
       )}
+      <div ref={rewardsRef}><AdminRewards email={giveTo} /></div>
       <dialog ref={dlg} className="dialog" aria-labelledby="ad-t" data-testid="admin-confirm">
         <h2 id="ad-t">{t('admin.changeTitle')}</h2>
         <p>{t('admin.changeText', { name: pending?.user.display_name || pending?.user.email || '', role: pending ? t(`admin.roles.${pending.role}`) : '' })}</p>

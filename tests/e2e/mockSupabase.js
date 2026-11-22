@@ -17,6 +17,7 @@ export function createMockBackend(opts = {}) {
   const known = new Map(); // userId -> { id, email, display_name, providers, role, summary }
   const classes = []; // { id, name, code, teacher_id, created_at }
   const members = []; // { class_id, student_id, joined_at }
+  const rewards = []; // { id, email, kind, amount, label, reason, created_at, granted_by_email, revoked_at } (mirrors 003_rewards.sql)
   const adminEmails = new Set(Array.isArray(opts.admins) ? opts.admins : []);
   const teacherEmails = new Set(Array.isArray(opts.teachers) ? opts.teachers : []);
   const idFor = (email) => users[email] || 'user-' + Buffer.from(email).toString('hex').slice(0, 8);
@@ -134,6 +135,31 @@ export function createMockBackend(opts = {}) {
         u.role = args.p_role;
         return json(200, null);
       }
+      if (fn === 'my_rewards') return json(200, rewards.filter((r) => !r.revoked_at && r.email === me.email.toLowerCase()).map(({ id, kind, amount, label, reason, created_at }) => ({ id, kind, amount, label, reason, created_at })));
+      if (fn === 'admin_grant_reward') {
+        if (me.role !== 'admin') return deny();
+        const email = String(args.p_email || '').trim().toLowerCase();
+        const kind = args.p_kind;
+        const amount = kind === 'badge' ? 1 : args.p_amount;
+        const label = (args.p_label || '').trim() || null;
+        const max = kind === 'xp' ? 10000 : 1000;
+        if (!/^[^@\s]+@[^@\s]+\.[^@\s]+$/.test(email) || !['xp', 'star', 'badge'].includes(kind) || (kind === 'badge' ? !label || label.length > 40 : !(amount >= 1 && amount <= max)) || String(args.p_reason || '').length > 140) return json(400, { code: '22023', message: 'invalid' });
+        const r = { id: 'rw-' + (rewards.length + 1), email, kind, amount, label: kind === 'badge' ? label : null, reason: args.p_reason || null, created_at: new Date().toISOString(), granted_by_email: me.email, revoked_at: null };
+        rewards.push(r);
+        return json(200, r.id);
+      }
+      if (fn === 'admin_list_rewards') {
+        if (me.role !== 'admin') return deny();
+        const nm = (email) => { const u = [...known.values()].find((x) => x.email.toLowerCase() === email); return u ? (nameOf(u) || profiles[u.email]?.display_name || '') : ''; };
+        return json(200, [...rewards].reverse().filter((r) => !args.p_email || r.email === String(args.p_email).toLowerCase()).map((r) => ({ ...r, display_name: nm(r.email) })));
+      }
+      if (fn === 'admin_revoke_reward') {
+        if (me.role !== 'admin') return deny();
+        const r = rewards.find((x) => x.id === args.p_id && !x.revoked_at);
+        if (!r) return json(400, { code: 'P0002', message: 'reward not found' });
+        r.revoked_at = new Date().toISOString();
+        return json(200, null);
+      }
       return json(404, { message: 'rpc not mocked: ' + fn });
     }
     if (url.pathname === '/rest/v1/progress') {
@@ -158,5 +184,5 @@ export function createMockBackend(opts = {}) {
     }
     return json(404, { message: 'not mocked: ' + url.pathname });
   }
-  return { rows, stats, state, install: (ctxOrPage) => ctxOrPage.route(`${MOCK_URL}/**`, handle), code, profiles, known, classes, members, addUser: (email, extra = {}) => { const u = know(email); Object.assign(u, extra); return u; } };
+  return { rows, stats, state, install: (ctxOrPage) => ctxOrPage.route(`${MOCK_URL}/**`, handle), code, profiles, known, classes, members, rewards, addUser: (email, extra = {}) => { const u = know(email); Object.assign(u, extra); return u; } };
 }
