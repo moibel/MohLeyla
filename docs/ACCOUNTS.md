@@ -120,10 +120,13 @@ with an optional reason, and can take a reward back (it stays in the history, ma
 ## Announcements
 An admin can post a message from *Admin -> Announcements* to **everyone** or to the students of **one class**. Write the title and message in one, two or all three languages: each learner sees their own language, else English, else the first one written. Optionally choose a date after which it stops showing; an announcement can be archived at any time (it stays in the history).
 
+- **One person.** Choose *A specific person* as the audience and type their e-mail address: only they see it (matched by the e-mail of their account, so it also reaches someone who has not signed up yet).
+- **Look and sound.** *Normal* is a quiet card. *Celebration* opens as a pop-up with a burst of confetti and a happy rising sound. *Important* opens as a pop-up with a pulsing warning and an attention sound. Messages for one person always open as a pop-up. Each pop-up opens once, waits until other dialogs (welcome, name question) are closed, and stays readable on the profile page. *Preview* shows the admin exactly how it will look and sound before posting.
+- **Sound.** Sounds are generated in the browser (no audio files). Learners can turn them off in Settings -> Sound effects or from the pop-up. Browsers only allow sound after a first tap, so on a very first visit the sound may wait for the first tap. Animation is skipped when the device asks for reduced motion.
 - Learners see the two newest on the home page (each can be closed there) and all current ones on their profile page.
 - Titles up to 80 characters, messages up to 600, shown as plain text only.
-- Stored behind admin-checked functions (`supabase/migrations/004_announcements.sql`, 27 permission checks): nobody but an admin can post, and a learner only reads what is meant for them.
-- Setup: run `supabase/migrations/004_announcements.sql` once (after 002). Tests: `sh supabase/tests/run-local.sh announcements`.
+- Stored behind admin-checked functions (`supabase/migrations/004_announcements.sql` + `006_announcements_pro.sql`, 40 permission checks): nobody but an admin can post, and a learner only reads what is meant for them.
+- Setup: run `supabase/migrations/004_announcements.sql` once (after 002), then `006_announcements_pro.sql` (after 003). Tests: `sh supabase/tests/run-local.sh announcements`.
 
 ## Switching lessons and paths on or off
 *Admin -> Lessons and paths* lists the four learning paths. Each has a switch (hides the whole path) and a list of its lessons with a switch each. A hidden lesson or path disappears for every learner: from Home, Courses, the progress by language, the "Continue" button and the next-lesson suggestions; opening its link shows "This lesson is not available right now."

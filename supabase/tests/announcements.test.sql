@@ -1,4 +1,4 @@
--- Permission tests for 004_announcements.sql. Run via `sh supabase/tests/run-dry.sh announcements` (Supabase editor) or `run-local.sh announcements`.
+-- Permission tests for 004_announcements.sql + 006_announcements_pro.sql (person-targeted announcements and styles). Run via `sh supabase/tests/run-dry.sh announcements` (Supabase editor) or `run-local.sh announcements`.
 -- Ends with a deliberate exception so everything is rolled back; the error text is the report.
 
 create schema zz_test;
@@ -117,6 +117,42 @@ begin
   perform public.delete_class(v_class.id);
   execute 'reset role';
   perform zz_test.chk('deleting the class deletes its announcements', (select count(*) from public.announcements where class_id is not null) = 0);
+  -- ---------------------------------------------------------------- 006: one person, and styles
+  execute 'reset role'; perform zz_test.as_user(s1);
+  res := zz_test.try($q$select public.admin_create_announcement('{"en":"x"}', '{"en":"y"}', null, null, 'student2@test.local', 'celebrate')$q$);
+  perform zz_test.chk('student cannot send to a person', res = 'err:42501', res);
+  execute 'reset role'; perform zz_test.as_user(a);
+  v_all := public.admin_create_announcement('{"en":"For you"}', '{"en":"A personal note"}', null, null, '  Student2@Test.local ', 'celebrate');
+  v_cls := public.admin_create_announcement('{"en":"Heads up"}', '{"en":"Important"}', null, null, null, 'alert');
+  perform zz_test.chk('an admin can send to one person with a style (the address is trimmed and lower-cased)', (select user_email from public.admin_list_announcements() where id = v_all) = 'student2@test.local' and (select style from public.admin_list_announcements() where id = v_all) = 'celebrate');
+  perform zz_test.chk('the default style is info', (select count(*) from public.admin_list_announcements() where style = 'info') >= 1);
+  execute 'reset role'; perform zz_test.as_user(s2);
+  perform zz_test.chk('the addressee sees it (matched by e-mail without regard to case)', exists (select 1 from public.my_announcements() where id = v_all and audience = 'user' and style = 'celebrate'));
+  perform zz_test.chk('everyone also sees the broadcast alert', exists (select 1 from public.my_announcements() where id = v_cls and style = 'alert'));
+  execute 'reset role'; perform zz_test.as_user(s1);
+  perform zz_test.chk('another learner does NOT see a message meant for one person', not exists (select 1 from public.my_announcements() where id = v_all));
+  execute 'reset role'; perform zz_test.as_user(t1);
+  perform zz_test.chk('a teacher does not see it either', not exists (select 1 from public.my_announcements() where id = v_all));
+  execute 'reset role'; perform zz_test.as_user(a);
+  res := zz_test.try($q$select public.admin_create_announcement('{"en":"x"}', '{"en":"y"}', null, null, 'not-an-email', 'info')$q$);
+  perform zz_test.chk('an invalid person address is rejected', res = 'err:22023', res);
+  res := zz_test.try($q$select public.admin_create_announcement('{"en":"x"}', '{"en":"y"}', null, null, 'a@b.cc', 'neon')$q$);
+  perform zz_test.chk('an unknown style is rejected', res = 'err:22023', res);
+  res := zz_test.try($q$select public.admin_create_announcement('{"en":"x"}', '{"en":"y"}', null, null, 'a@b.cc', null)$q$);
+  perform zz_test.chk('a missing style is rejected', res = 'err:22023', res);
+  execute 'reset role'; perform zz_test.as_user(t1);
+  v_class := public.create_class('Temp class');
+  execute 'reset role'; perform zz_test.as_user(a);
+  res := zz_test.try(format('select public.admin_create_announcement(%L, %L, %L, null, %L, %L)', '{"en":"x"}', '{"en":"y"}', v_class.id, 'a@b.cc', 'info'));
+  perform zz_test.chk('a class and a person together are rejected', res = 'err:22023', res);
+  res := zz_test.try($q$insert into public.announcements (title, body, audience, user_email) values ('{"en":"x"}', '{"en":"y"}', 'user', null)$q$);
+  perform zz_test.chk('the table itself refuses a person message without an address', res like 'err:%', res);
+  perform public.admin_create_announcement('{"en":"Hello"}', '{"en":"future person"}', null, null, 'newcomer@test.local', 'celebrate');
+  execute 'reset role';
+  insert into auth.users (id, aud, role, email, raw_user_meta_data) values ('00000000-0000-0000-0000-0000000000d1', 'authenticated', 'authenticated', 'Newcomer@Test.local', '{}');
+  perform zz_test.as_user('00000000-0000-0000-0000-0000000000d1');
+  perform zz_test.chk('a message for someone who had not signed up yet appears at their first sign-in', (select count(*) from public.my_announcements() where audience = 'user') = 1);
+
   execute 'reset role';
 end
 $t$;

@@ -16,6 +16,7 @@ import { displayName } from '../features/sync/profile.js';
 import { useRewards } from '../features/rewards/store.js';
 import { useAvailabilitySync } from '../features/availability/sync.js';
 import RewardNotice from '../features/rewards/RewardNotice.jsx';
+import AnnouncementPopup from '../features/announcements/AnnouncementPopup.jsx';
 
 const NAV = [
   { to: '/', key: 'home', Icon: Home, end: true },
@@ -124,6 +125,7 @@ export default function Layout({ pwa }) {
       <SyncDialogs />
       <NamePrompt />
       <RewardNotice />
+      <AnnouncementPopup />
     </div>
   );
 }

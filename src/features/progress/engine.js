@@ -19,7 +19,7 @@ export const newDeviceId = () => {
   return 'dev-' + Math.random().toString(36).slice(2) + Date.now().toString(36);
 };
 
-export const defaultSettings = () => ({ speed: 'normal', source: 'auto', goal: 50, theme: 'system', onboarded: false, lastTrack: null });
+export const defaultSettings = () => ({ speed: 'normal', source: 'auto', goal: 50, theme: 'system', onboarded: false, lastTrack: null, sfx: 'on' });
 
 export function emptyState(device = newDeviceId()) {
   return {

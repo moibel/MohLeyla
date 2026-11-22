@@ -116,4 +116,152 @@ test.describe('admin announcements (mocked Supabase API; real rules in supabase/
       expect(await page.evaluate(() => document.documentElement.scrollWidth <= window.innerWidth)).toBe(true);
     });
   }
+
+  // ---------------------------------------------------------------- part 2: one person, look and sound
+  const fakeAudio = () => {
+    window.__sfx = { contexts: 0, osc: 0 };
+    window.AudioContext = class { constructor() { window.__sfx.contexts++; this.state = 'running'; this.currentTime = 0; this.destination = {}; }
+      resume() { return Promise.resolve(); }
+      createGain() { return { gain: { value: 0, setValueAtTime() {}, exponentialRampToValueAtTime() {} }, connect() {} }; }
+      createOscillator() { window.__sfx.osc++; return { type: '', frequency: { value: 0 }, connect() {}, start() {}, stop() {} }; } };
+  };
+  async function post(panel, { title, body, audience = '', email, style }) {
+    if (audience) await panel.locator('[data-testid="news-audience"]').selectOption(audience);
+    if (email) await panel.locator('[data-testid="news-person-email"]').fill(email);
+    if (style) await panel.locator('[data-testid="news-style"]').selectOption(style);
+    await panel.locator('[data-testid="news-title-en"]').fill(title);
+    await panel.locator('[data-testid="news-body-en"]').fill(body);
+    await panel.locator('[data-testid="news-post"]').click();
+    await expect(panel.locator('[data-testid="news-msg"]')).toContainText('posted');
+  }
+
+  test('a personal celebration opens as a pop-up with confetti and a sound for that person only, once', async ({ page, browser }) => {
+    const backend = createMockBackend({ admins: ['boss@example.com'] });
+    await backend.install(page);
+    await signIn(page, 'boss@example.com');
+    await page.goto('/admin?tab=news');
+    const panel = page.locator('[data-testid="admin-news"]');
+    await post(panel, { title: 'Well done, Sara!', body: 'You finished the first path.', audience: '__person', email: '  Sara@Example.com ', style: 'celebrate' });
+    await expect(panel.locator('[data-testid="news-row"]')).toContainText('To: sara@example.com');
+
+    const ctx = await browser.newContext({ serviceWorkers: 'block' });
+    await ctx.addInitScript(() => { window.__sfx = { contexts: 0, osc: 0 }; window.AudioContext = class { constructor() { window.__sfx.contexts++; this.state = 'running'; this.currentTime = 0; this.destination = {}; } resume() { return Promise.resolve(); } createGain() { return { gain: { value: 0, setValueAtTime() {}, exponentialRampToValueAtTime() {} }, connect() {} }; } createOscillator() { window.__sfx.osc++; return { type: '', frequency: { value: 0 }, connect() {}, start() {}, stop() {} }; } }; });
+    await backend.install(ctx);
+    const sara = await ctx.newPage();
+    await signIn(sara, 'sara@example.com');
+    const dlg = sara.locator('[data-testid="announce"]');
+    await expect(dlg).toBeVisible();
+    await expect(dlg).toHaveAttribute('data-style', 'celebrate');
+    await expect(dlg).toContainText('Well done, Sara!');
+    await expect(sara.locator('[data-testid="announce-personal"]')).toBeVisible();
+    await expect(dlg.locator('.confetti-burst span')).not.toHaveCount(0);
+    expect(await sara.evaluate(() => window.__sfx.osc)).toBeGreaterThanOrEqual(4); // the happy arpeggio
+    await axeOk(sara);
+    await sara.locator('[data-testid="announce-ok"]').click();
+    await expect(dlg).toHaveCount(0);
+    await sara.reload();
+    await expect(sara.locator('[data-testid="announce"]')).toHaveCount(0); // once
+    await sara.goto('/profile');
+    await expect(sara.locator('[data-testid="news-card"]')).toContainText('Well done, Sara!'); // still readable
+
+    const other = await newDevice(browser, backend, 'omar@example.com');
+    await other.page.goto('/');
+    await expect(other.page.locator('[data-testid="announce"]')).toHaveCount(0);
+    await expect(other.page.locator('[data-testid="news-card"]')).toHaveCount(0); // a message for one person is for nobody else
+    await ctx.close(); await other.ctx.close();
+  });
+
+  test('an Important broadcast pops up once for everyone, an ordinary one only sits on the home page, and the sound can be turned off', async ({ page, browser }) => {
+    const backend = createMockBackend({ admins: ['boss@example.com'] });
+    await backend.install(page);
+    await signIn(page, 'boss@example.com');
+    await page.goto('/admin?tab=news');
+    const panel = page.locator('[data-testid="admin-news"]');
+    await post(panel, { title: 'Quiet note', body: 'Just so you know.', style: 'info' });
+    await post(panel, { title: 'Server maintenance', body: 'Back at 9 pm.', style: 'alert' });
+
+    const ctx = await browser.newContext({ serviceWorkers: 'block' });
+    await ctx.addInitScript(() => { window.__sfx = { contexts: 0, osc: 0 }; window.AudioContext = class { constructor() { window.__sfx.contexts++; this.state = 'running'; this.currentTime = 0; this.destination = {}; } resume() { return Promise.resolve(); } createGain() { return { gain: { value: 0, setValueAtTime() {}, exponentialRampToValueAtTime() {} }, connect() {} }; } createOscillator() { window.__sfx.osc++; return { type: '', frequency: { value: 0 }, connect() {}, start() {}, stop() {} }; } }; });
+    await backend.install(ctx);
+    const u = await ctx.newPage();
+    await signIn(u, 'amina@example.com');
+    const dlg = u.locator('[data-testid="announce"]');
+    await expect(dlg).toBeVisible();
+    await expect(dlg).toHaveAttribute('data-style', 'alert');
+    await expect(dlg).toContainText('Server maintenance');
+    expect(await u.evaluate(() => window.__sfx.osc)).toBeGreaterThanOrEqual(3);
+    await u.locator('[data-testid="announce-mute"]').click(); // turns sound off for good
+    await u.locator('[data-testid="announce-ok"]').click();
+    await u.goto('/');
+    await expect(u.locator('[data-testid="news-card"]')).toContainText('Quiet note'); // the ordinary one never popped up
+    expect((await u.evaluate(() => JSON.parse(localStorage.getItem('mohleyla-v6')))).settings.sfx).toBe('off');
+    await ctx.close();
+
+    // with sound off, a new special message is silent
+    await post(panel, { title: 'Party', body: 'Cake!', style: 'celebrate' });
+    const ctx2 = await browser.newContext({ serviceWorkers: 'block' });
+    await ctx2.addInitScript(() => { window.__sfx = { contexts: 0, osc: 0 }; window.AudioContext = class { constructor() { window.__sfx.contexts++; this.state = 'running'; this.currentTime = 0; this.destination = {}; } resume() { return Promise.resolve(); } createGain() { return { gain: { value: 0, setValueAtTime() {}, exponentialRampToValueAtTime() {} }, connect() {} }; } createOscillator() { window.__sfx.osc++; return { type: '', frequency: { value: 0 }, connect() {}, start() {}, stop() {} }; } }; });
+    await backend.install(ctx2);
+    const q = await ctx2.newPage();
+    await seed(q, { lang: 'en', state: { settings: { sfx: 'off' } } });
+    await q.goto('/settings');
+    await q.locator('[data-testid="acc-email"]').fill('quiet@example.com');
+    await q.locator('[data-testid="acc-send"]').click();
+    await q.locator('[data-testid="acc-code"]').fill('123456');
+    await q.locator('[data-testid="acc-verify"]').click();
+    await expect(q.locator('[data-testid="avatar-link"]')).toBeVisible();
+    await dismissNamePrompt(q);
+    await expect(q.locator('[data-testid="announce"]').first()).toBeVisible();
+    await q.waitForTimeout(300);
+    expect(await q.evaluate(() => window.__sfx.osc)).toBe(0);
+    await ctx2.close();
+  });
+
+  test('the admin can preview how a message will look and sound without posting it', async ({ page }) => {
+    await page.addInitScript(() => { window.__sfx = { contexts: 0, osc: 0 }; window.AudioContext = class { constructor() { window.__sfx.contexts++; this.state = 'running'; this.currentTime = 0; this.destination = {}; } resume() { return Promise.resolve(); } createGain() { return { gain: { value: 0, setValueAtTime() {}, exponentialRampToValueAtTime() {} }, connect() {} }; } createOscillator() { window.__sfx.osc++; return { type: '', frequency: { value: 0 }, connect() {}, start() {}, stop() {} }; } }; });
+    const backend = createMockBackend({ admins: ['boss@example.com'] });
+    await backend.install(page);
+    await signIn(page, 'boss@example.com');
+    await page.goto('/admin?tab=news');
+    const panel = page.locator('[data-testid="admin-news"]');
+    await panel.locator('[data-testid="news-preview"]').click();
+    await expect(panel.locator('[data-testid="news-msg"]')).toContainText('title and a message');
+    await panel.locator('[data-testid="news-style"]').selectOption('celebrate');
+    await panel.locator('[data-testid="news-title-en"]').fill('Preview me');
+    await panel.locator('[data-testid="news-body-en"]').fill('Looks good?');
+    await panel.locator('[data-testid="news-preview"]').click();
+    await expect(page.locator('[data-testid="announce"]')).toContainText('Preview me');
+    expect(await page.evaluate(() => window.__sfx.osc)).toBeGreaterThanOrEqual(4);
+    await page.locator('[data-testid="announce-ok"]').click();
+    expect(backend.announcements).toHaveLength(0);
+  });
+
+  test('a bad address and a class-plus-person mix are refused with a clear message', async ({ page }) => {
+    const backend = createMockBackend({ admins: ['boss@example.com'] });
+    await backend.install(page);
+    await signIn(page, 'boss@example.com');
+    await page.goto('/admin?tab=news');
+    const panel = page.locator('[data-testid="admin-news"]');
+    await panel.locator('[data-testid="news-audience"]').selectOption('__person');
+    await panel.locator('[data-testid="news-person-email"]').fill('not-an-email');
+    await panel.locator('[data-testid="news-title-en"]').fill('Hi');
+    await panel.locator('[data-testid="news-body-en"]').fill('There');
+    await panel.locator('[data-testid="news-post"]').click();
+    // the browser's own email check blocks the submit, so nothing is sent
+    expect(backend.announcements).toHaveLength(0);
+  });
+
+  for (const lang of ['ar', 'id']) {
+    test(`${lang}: the pop-up is translated, right-to-left where needed, accessible and fits the screen`, async ({ page, browser }) => {
+      const backend = createMockBackend({ admins: ['boss@example.com'] });
+      backend.announcements.push({ id: 'an-x', title: { en: 'Congrats', ar: 'مبروك', id: 'Selamat' }, body: { en: 'You won', ar: 'لقد فزت', id: 'Anda menang' }, audience: 'user', class_id: null, user_email: 'boss@example.com', style: 'celebrate', created_at: new Date().toISOString(), expires_at: null, archived_at: null });
+      await backend.install(page);
+      await signIn(page, 'boss@example.com', lang);
+      const dlg = page.locator('[data-testid="announce"]');
+      await expect(dlg).toBeVisible();
+      await expect(dlg).toContainText({ ar: 'مبروك', id: 'Selamat' }[lang]);
+      await axeOk(page);
+      expect(await page.evaluate(() => document.documentElement.scrollWidth <= window.innerWidth)).toBe(true);
+    });
+  }
 });

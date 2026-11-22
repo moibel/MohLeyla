@@ -62,6 +62,8 @@ export default function Settings({ pwa }) {
       </section>
       <section className="card stack-sm">
         <h2 className="h-sm">{t('settings.audioSection')}</h2>
+        <Radios legend={t('settings.sfx')} name="sfx" value={s.sfx || 'on'} onChange={(v) => updateSettings({ sfx: v })}
+          options={[['on', t('settings.sfxOn')], ['off', t('settings.sfxOff')]]} />
         <Radios legend={t('settings.speed')} name="speed" value={s.speed} onChange={(v) => updateSettings({ speed: v })}
           options={[['slow', t('settings.speedSlow')], ['normal', t('settings.speedNormal')], ['fast', t('settings.speedFast')]]} />
         <Radios legend={t('settings.audioSource')} name="source" value={s.source} onChange={(v) => updateSettings({ source: v })}

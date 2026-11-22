@@ -179,8 +179,8 @@ export function createMockBackend(opts = {}) {
       }
       if (fn === 'my_announcements') {
         const now = Date.now();
-        return json(200, announcements.filter((a) => !a.archived_at && (!a.expires_at || new Date(a.expires_at) > now) && (a.audience === 'all' || members.some((m) => m.class_id === a.class_id && m.student_id === me.id)))
-          .reverse().map((a) => ({ id: a.id, title: a.title, body: a.body, class_name: a.class_id ? classes.find((c) => c.id === a.class_id)?.name : null, created_at: a.created_at })));
+        return json(200, announcements.filter((a) => !a.archived_at && (!a.expires_at || new Date(a.expires_at) > now) && (a.audience === 'all' || (a.audience === 'class' && members.some((m) => m.class_id === a.class_id && m.student_id === me.id)) || (a.audience === 'user' && a.user_email === me.email.toLowerCase())))
+          .reverse().map((a) => ({ id: a.id, title: a.title, body: a.body, class_name: a.class_id ? classes.find((c) => c.id === a.class_id)?.name : null, audience: a.audience, style: a.style, created_at: a.created_at })));
       }
       if (fn === 'admin_create_announcement') {
         if (me.role !== 'admin') return deny();
@@ -188,9 +188,12 @@ export function createMockBackend(opts = {}) {
         const title = clean(args.p_title); const body = clean(args.p_body);
         const same = title && body && Object.keys(title).sort().join() === Object.keys(body).sort().join();
         if (!same || Object.values(title).some((v) => v.length > 80) || Object.values(body).some((v) => v.length > 600)) return json(400, { code: '22023', message: 'invalid' });
+        const userEmail = String(args.p_user_email || '').trim().toLowerCase() || null;
+        if (!['info', 'celebrate', 'alert'].includes(args.p_style)) return json(400, { code: '22023', message: 'unknown style' });
+        if (userEmail && (args.p_class || !/^[^@\s]+@[^@\s]+\.[^@\s]+$/.test(userEmail))) return json(400, { code: '22023', message: 'bad target' });
         if (args.p_class && !classes.some((c) => c.id === args.p_class)) return json(400, { code: 'P0002', message: 'class not found' });
         if (args.p_expires && new Date(args.p_expires) <= new Date()) return json(400, { code: '22023', message: 'expiry in the past' });
-        const a = { id: 'an-' + (announcements.length + 1), title, body, audience: args.p_class ? 'class' : 'all', class_id: args.p_class || null, created_at: new Date().toISOString(), expires_at: args.p_expires || null, archived_at: null };
+        const a = { id: 'an-' + (announcements.length + 1), title, body, audience: userEmail ? 'user' : args.p_class ? 'class' : 'all', class_id: args.p_class || null, user_email: userEmail, style: args.p_style, created_at: new Date().toISOString(), expires_at: args.p_expires || null, archived_at: null };
         announcements.push(a);
         return json(200, a.id);
       }
