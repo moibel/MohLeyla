@@ -1,5 +1,9 @@
 # Hosting
 
+**Current production:** Cloudflare **Pages** at `https://mohleyla.pages.dev` (project `mohleyla`, branch `main`, build `npm run build`, output `dist`).
+Supabase Site URL = that address; its redirect list holds only `https://mohleyla.pages.dev/**` and `http://localhost:5173/**`.
+Netlify builds are stopped (kept as a fallback); the former `workers.dev` Worker was deleted.
+
 MohLeyla is a static site (the Vite build in `dist/`). It runs on **Netlify** (`netlify.toml`) or **Cloudflare** (`wrangler.jsonc` +
 `public/_headers`) with the same code. Keep `netlify.toml` and `public/_headers` in sync: both set the security headers, notably
 `Permissions-Policy: microphone=(self)` (without it speaking practice cannot record). A unit test checks both.

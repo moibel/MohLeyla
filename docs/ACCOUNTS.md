@@ -17,9 +17,8 @@ before enrolling students, and tell them what is stored (the text above).
 1. **Create the table.** Supabase Dashboard -> *SQL Editor* -> *New query* -> paste `supabase/schema.sql` -> *Run*.
    It creates `public.progress` with Row Level Security: a signed-in user can only touch their own row.
 2. **Allow your site URLs.** *Authentication -> URL Configuration*:
-   - Site URL: `https://mohleyla.netlify.app`
-   - Redirect URLs: `https://mohleyla.netlify.app/**`, `https://*--mohleyla.netlify.app/**` (Netlify deploy previews),
-     `http://localhost:5173/**`
+   - Site URL: `https://mohleyla.pages.dev`
+   - Redirect URLs: `https://mohleyla.pages.dev/**` and `http://localhost:5173/**`
 3. **(Optional) Make the email show a code.** *Requires custom SMTP first: Supabase does not allow editing templates on its built-in sender.* Without it, sign-in works by clicking the link in the email (the app always shows both the code box and the link option). With it: *Authentication -> Email Templates -> Magic Link*: add the code (`{{ .Token }}`, 8 digits by default) to BOTH the *Confirm sign up* template (new learners) and the *Magic link or OTP* template (returning learners), so people can sign
    in on a phone without leaving the app, for example:
    ```html
