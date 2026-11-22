@@ -272,3 +272,14 @@ html[data-theme='dark'] .motto,:root:not([data-theme='light']) .motto{color:var(
 .toast-reward ul{margin-block:6px 10px}
 .reward-form{display:grid;gap:12px;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));align-items:end}
 .reward-form .wide{grid-column:1/-1}
+
+/* ---- announcements ---- */
+.news{display:flex;flex-direction:column;gap:12px}
+.news-card{display:flex;gap:14px;align-items:flex-start;background:color-mix(in srgb,var(--brand) 6%,var(--surface))}
+.news-ico{display:grid;place-items:center;inline-size:40px;block-size:40px;border-radius:12px;background:var(--brand-soft);color:var(--brand);flex:none}
+.news-text{flex:1;min-inline-size:0}
+.news-text .h-sm{margin-block-end:4px}
+.news-body{white-space:pre-line;overflow-wrap:anywhere}
+.news-lang{border:1px solid var(--border);border-radius:var(--r);padding:12px 14px;display:flex;flex-direction:column;gap:10px;min-inline-size:0}
+.news-lang legend{font-weight:800;padding-inline:6px}
+.field textarea{padding:12px 14px;border-radius:14px;border:1px solid var(--border);background:var(--surface);font-weight:500;resize:vertical;min-block-size:84px}

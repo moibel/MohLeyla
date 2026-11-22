@@ -2,6 +2,7 @@ import { useCallback, useEffect, useMemo, useRef, useState } from 'react';
 import { useTranslation } from 'react-i18next';
 import { Search, Gift } from 'lucide-react';
 import AdminRewards from '../features/rewards/AdminRewards.jsx';
+import AdminAnnouncements from '../features/announcements/AdminAnnouncements.jsx';
 import { PageHeading, Button, Chip } from '../components/ui.jsx';
 import RequireAccount from '../features/classes/RequireAccount.jsx';
 import { adminListUsers, adminSetRole } from '../features/classes/api.js';
@@ -94,6 +95,7 @@ function AdminInner() {
           </table>
         </div>
       )}
+      <AdminAnnouncements />
       <div ref={rewardsRef}><AdminRewards email={giveTo} /></div>
       <dialog ref={dlg} className="dialog" aria-labelledby="ad-t" data-testid="admin-confirm">
         <h2 id="ad-t">{t('admin.changeTitle')}</h2>

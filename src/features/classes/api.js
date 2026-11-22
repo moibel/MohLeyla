@@ -36,6 +36,20 @@ export const adminGrantReward = ({ email, kind, amount, label, reason }) => rpc(
 export const adminListRewards = (email) => rpc('admin_list_rewards', { p_email: email || null });
 export const adminRevokeReward = (id) => rpc('admin_revoke_reward', { p_id: id });
 
+// Announcements (supabase/migrations/004_announcements.sql): only admins post, list or archive; learners read what is meant for them.
+export const myAnnouncements = () => rpc('my_announcements');
+export const adminCreateAnnouncement = ({ title, body, classId, expires }) => rpc('admin_create_announcement', { p_title: title, p_body: body, p_class: classId || null, p_expires: expires || null });
+export const adminListAnnouncements = () => rpc('admin_list_announcements');
+export const adminArchiveAnnouncement = (id) => rpc('admin_archive_announcement', { p_id: id });
+/** Every class, for the admin's audience picker (row-level security lets admins read all classes). */
+export async function adminClasses() {
+  const c = await sync.ensureClient();
+  let res;
+  try { res = await c.from('classes').select('id,name').order('name'); } catch { fail(null); }
+  if (res.error) fail(res.error);
+  return res.data || [];
+}
+
 /** A student leaves a class, or a teacher removes a student (row-level security allows exactly these two). */
 export async function removeMember(classId, studentId) {
   const c = await sync.ensureClient();
