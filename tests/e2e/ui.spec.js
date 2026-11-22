@@ -86,7 +86,8 @@ test.describe('interface language controls everything', () => {
   const enWords = /\b(Home|Lessons|Start learning|Progress|Welcome|Continue|Settings)\b/;
   for (const url of ['/', '/learn', '/words', '/progress', '/settings', '/review', '/lesson/id-01']) {
     test(`ar interface has no Latin/Indonesian UI text: ${url}`, async ({ page }) => {
-      await seed(page, { lang: 'ar' });
+      // /learn would open the English path for an Arabic interface (lesson titles are then English content by design), so pin the Arabic path here
+      await seed(page, { lang: 'ar', state: { settings: { lastTrack: 'ar' } } });
       await page.goto(url);
       if (url.startsWith('/lesson')) await page.locator('[data-testid="start-learn"]').click();
       await page.waitForLoadState('networkidle');

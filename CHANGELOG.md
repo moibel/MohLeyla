@@ -1,6 +1,7 @@
 # Changelog
 
 ## Unreleased
+- **Learning paths ordered by interface language**: with the Arabic interface, English and Indonesian come first (Arabic and Saudi Arabic last); with English or Indonesian, the Arabic paths come first. Applies to Home, Courses, Progress, Words and the first-run suggestion. Nothing is hidden, and a learner's own choice of path is always kept.
 - **New logo**: a speech bubble (conversation) holding an "M" with a smile and a gold star (joy and rewards). Source is `assets-src/logo-master.svg`; `npm run generate:icons` rebuilds the app icons, favicon, PWA icons and social preview from it.
 - **Course map**: each path shows "N of 30 lessons complete" with a progress bar and a one-tap "Continue: <next lesson>" button; each level heading shows its own progress.
 - **Review**: keyboard support (Enter or Space reveals the answer, 1 = didn't know, 2 = knew) and a "words learned · mastered" line on the start screen. Review badge in the sidebar darkened to meet contrast requirements.
