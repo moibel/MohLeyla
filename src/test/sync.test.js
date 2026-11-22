@@ -28,6 +28,7 @@ function fakeClient(server, { user = 'u1', email = 'a@b.co' } = {}) {
         listener && listener('SIGNED_IN', session);
         return { data: { session }, error: null };
       },
+      signInWithOAuth: async ({ provider, options }) => { server.oauth = { provider, redirectTo: options.redirectTo }; return { error: server.oauthError || null }; },
       signOut: async () => { server.signedIn = {}; listener && listener('SIGNED_OUT', null); },
     },
     from: () => ({
@@ -279,5 +280,25 @@ describe('required sign-in support', () => {
     d.state = applyLessonResult(d.state, { lessonId: 'en-01', itemIds: ['x'], correct: 16, total: 16, firstTryCorrect: 16, now: T }).state;
     await d.mgr.syncNow();
     expect(server.rows.get('u1').xp).toBe(140);
+  });
+});
+
+describe('Google sign-in', () => {
+  it('starts the OAuth redirect back to the site root', async () => {
+    const server = makeServer();
+    const d = device(server, emptyState('a'));
+    expect(await d.mgr.signInWithGoogle()).toBe(true);
+    expect(server.oauth.provider).toBe('google');
+    expect(server.oauth.redirectTo).toMatch(/\/$/);
+  });
+  it('reports a translated error when Google sign-in cannot start, and when accounts are not configured', async () => {
+    const server = makeServer();
+    server.oauthError = { message: 'provider is not enabled' };
+    const d = device(server, emptyState('a'));
+    expect(await d.mgr.signInWithGoogle()).toBe(false);
+    expect(d.mgr.getSnapshot().error).toBe('oauthFailed');
+    const off = new SyncManager({ createClient: async () => ({}), configured: false });
+    expect(await off.signInWithGoogle()).toBe(false);
+    expect(off.getSnapshot().error).toBe('notConfigured');
   });
 });

@@ -1,6 +1,6 @@
 import { defineConfig } from '@playwright/test';
 
-const ENV = 'VITE_SUPABASE_URL=https://mohleyla-test.supabase.co VITE_SUPABASE_ANON_KEY=test-anon-key';
+const ENV = 'VITE_SUPABASE_URL=https://mohleyla-test.supabase.co VITE_SUPABASE_ANON_KEY=test-anon-key VITE_GOOGLE_SIGN_IN=true';
 
 export default defineConfig({
   testDir: 'tests/e2e',

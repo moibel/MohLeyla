@@ -91,7 +91,7 @@ test.describe('interface language controls everything', () => {
       if (url.startsWith('/lesson')) await page.locator('[data-testid="start-learn"]').click();
       await page.waitForLoadState('networkidle');
       const text = await visibleText(page);
-      const latin = (text.match(/[A-Za-z]{3,}/g) || []).filter((w) => !['MohLeyla', 'XP'].includes(w));
+      const latin = (text.match(/[A-Za-z]{3,}/g) || []).filter((w) => !['MohLeyla', 'XP', 'Google'].includes(w));
       expect(latin, `Latin words in Arabic UI on ${url}`).toEqual([]);
     });
     test(`en interface has no Indonesian/Arabic UI text: ${url}`, async ({ page }) => {

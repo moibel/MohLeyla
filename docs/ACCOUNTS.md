@@ -40,6 +40,26 @@ Supabase's built-in email sender is for testing: only about **2-4 emails per hou
 that will hit the limit ("Too many emails" in the app). Fix: *Authentication -> SMTP Settings* -> connect your own SMTP
 (Resend, Brevo, Gmail SMTP, etc. all have free tiers). Do this before onboarding students.
 
+## Continue with Google (optional)
+
+Adds a **Continue with Google** button above the email option (sign-in and first-time registration are the same step).
+You do the Google part (it is your Google account); the app part is already built.
+
+1. **Google Cloud Console** (console.cloud.google.com): create or pick a project.
+2. **Google Auth Platform / OAuth consent screen**: app name `MohLeyla`, a support email, audience **External**, and **Publish** the app.
+   Only the basic scopes (`openid`, email, profile) are used, so no Google verification is needed. If you leave it in *Testing*, only
+   listed test users can sign in. Add `flswmuuvimgoewlrqizs.supabase.co` as an authorized domain.
+3. **Credentials -> Create credentials -> OAuth client ID -> Web application**:
+   - Authorized JavaScript origins: `https://mohleyla.netlify.app` (and `http://localhost:5173` for local work)
+   - Authorized redirect URI: `https://flswmuuvimgoewlrqizs.supabase.co/auth/v1/callback`
+   - Copy the **Client ID** and **Client secret**.
+4. **Supabase -> Authentication -> Sign In / Providers -> Google**: enable it, paste the Client ID and Client secret, Save.
+   The client secret lives only in Supabase; it never goes in the app, Netlify, or GitHub.
+5. **Netlify**: add `VITE_GOOGLE_SIGN_IN` = `true`, then deploy (the setting is baked in at build time).
+
+Notes: Supabase links accounts that share the same verified email, so someone who signed in by email code and later uses Google with the
+same address keeps one account and one progress. Under-13 learners can use a Google account managed by a parent (Family Link) or the email option.
+
 ## Requiring sign-in (one email per learner)
 
 Set `VITE_REQUIRE_SIGN_IN=true` (Netlify -> Environment variables, next to the two Supabase values; those two are also required) and redeploy.

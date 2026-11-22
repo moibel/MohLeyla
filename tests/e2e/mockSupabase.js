@@ -9,7 +9,7 @@ export function makeSession(email, id) {
   return { access_token, token_type: 'bearer', expires_in: 3600, expires_at: now + 3600, refresh_token: 'refresh-' + id, user };
 }
 
-export function createMockBackend({ code = '123456', users = {} } = {}) {
+export function createMockBackend({ code = '123456', users = {}, googleEmail = 'google.learner@gmail.com' } = {}) {
   const rows = new Map();
   const stats = { upserts: 0, selects: 0, deletes: 0, otps: 0 };
   const state = { rateLimit: false, failSelect: false };
@@ -38,6 +38,15 @@ export function createMockBackend({ code = '123456', users = {} } = {}) {
     if (url.pathname === '/auth/v1/user') {
       const tok = (req.headers()['authorization'] || '').replace('Bearer ', '');
       try { const p = JSON.parse(Buffer.from(tok.split('.')[1], 'base64url').toString()); return json(200, makeSession(p.email, p.sub).user); } catch { return json(401, { message: 'bad token' }); }
+    }
+    if (url.pathname === '/auth/v1/authorize') {
+      // Google OAuth: Supabase would send the user to Google, then back to redirect_to with a session in the URL hash.
+      stats.oauth = (stats.oauth || 0) + 1;
+      const redirect = url.searchParams.get('redirect_to') || '/';
+      const email = googleEmail;
+      const s = makeSession(email, users[email] || 'user-google');
+      const hash = `access_token=${s.access_token}&refresh_token=${s.refresh_token}&expires_in=3600&expires_at=${s.expires_at}&token_type=bearer&provider_token=google-token`;
+      return route.fulfill({ status: 302, headers: { ...cors, location: `${redirect}#${hash}` }, body: '' });
     }
     if (url.pathname === '/auth/v1/logout') return route.fulfill({ status: 204, headers: cors });
     if (url.pathname === '/rest/v1/progress') {
