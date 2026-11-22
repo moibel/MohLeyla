@@ -2,7 +2,9 @@ import { useCallback, useEffect, useRef, useState } from 'react';
 import { useTranslation } from 'react-i18next';
 import { Eye, Trash2 } from 'lucide-react';
 import { Button, Chip } from '../../components/ui.jsx';
-import { adminListChats, adminChatMessages, adminRemoveMessage } from '../classes/api.js';
+import { adminListChats, adminChatMessages, adminRemoveMessage, adminExpiredFiles } from '../classes/api.js';
+import ChatFile from './ChatFile.jsx';
+import { removeFiles } from './files.js';
 import { LANG_META } from '../../i18n/index.js';
 
 /** Admin: read every conversation (read-only) and remove a message. Admins cannot write inside other people's chats. */
@@ -20,6 +22,8 @@ export default function AdminChats() {
     try { setChats(await adminListChats()); } catch (e) { setChats([]); setMsg({ ok: false, text: t(`classes.errors.${e.code}`) }); }
   }, [t]);
   useEffect(() => { loadList(); }, [loadList]);
+  // Files older than 90 days can no longer be read; delete them for good whenever an admin opens this tab.
+  useEffect(() => { adminExpiredFiles().then((rows) => (rows.length ? removeFiles(rows.map((r) => r.name)).then(() => setMsg({ ok: true, text: t('chat.admin.cleaned', { count: rows.length }) })) : null)).catch(() => {}); }, [t]);
   const loadMsgs = useCallback(async (c) => {
     try { setMsgs(await adminChatMessages(c.conversation_id)); } catch (e) { setMsgs([]); setMsg({ ok: false, text: t(`classes.errors.${e.code}`) }); }
   }, [t]);
@@ -27,7 +31,10 @@ export default function AdminChats() {
   const remove = async () => {
     const p = pending;
     dlg.current?.close();
-    try { await adminRemoveMessage(p.id); setMsg({ ok: true, text: t('chat.admin.removedMsg') }); } catch (e) { setMsg({ ok: false, text: t(`classes.errors.${e.code}`) }); }
+    try {
+      await adminRemoveMessage(p.id);
+      if (p.file_path) await removeFiles([p.file_path]).catch(() => {}); // the file goes too
+      setMsg({ ok: true, text: t('chat.admin.removedMsg') }); } catch (e) { setMsg({ ok: false, text: t(`classes.errors.${e.code}`) }); }
     await loadMsgs(open); await loadList();
   };
 
@@ -64,6 +71,7 @@ export default function AdminChats() {
             {(msgs || []).map((m) => (
               <li key={m.id} className={m.removed ? 'removed' : ''} data-testid="admin-msg-row">
                 <span className="muted small">{fmt(m.created_at)} · <bdi>{m.sender_name}</bdi></span>
+                {m.kind && m.kind !== 'text' && !m.removed && <ChatFile m={m} />}
                 <p><bdi>{m.body}</bdi>{m.removed && <Chip>{t('chat.admin.wasRemoved')}</Chip>}</p>
                 {!m.removed && <Button variant="ghost" size="sm" icon={<Trash2 size={14} aria-hidden="true" />} onClick={() => { setPending(m); dlg.current?.showModal(); }} data-testid="admin-msg-remove">{t('chat.admin.remove')}</Button>}
               </li>

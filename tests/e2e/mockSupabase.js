@@ -18,7 +18,9 @@ export function createMockBackend(opts = {}) {
   const classes = []; // { id, name, code, teacher_id, created_at }
   const members = []; // { class_id, student_id, joined_at }
   const conversations = []; // { id, a, b, last_at } (mirrors 007_chat.sql)
-  const chatMsgs = []; // { id, conv, sender, body, created_at, removed_at }
+  const chatMsgs = []; // { id, conv, sender, body, created_at, removed_at, kind, file_path, file_mime, duration_ms }
+  const files = new Map(); // storage path -> { owner, mime, size, created_at }
+  const tinyJpeg = Buffer.from('/9j/4AAQSkZJRgABAQEASABIAAD/2wBDAP//////////////////////////////////////////////////////////////////////////////////////wgALCAABAAEBAREA/8QAFBABAAAAAAAAAAAAAAAAAAAAAP/aAAgBAQABPxA=', 'base64');
   const chatReads = new Map(); // `${conv}:${userId}` -> ISO time
   let clock = Date.now();
   const tick = () => new Date(clock += 1000).toISOString();
@@ -81,6 +83,43 @@ export function createMockBackend(opts = {}) {
       return route.fulfill({ status: 302, headers: { ...cors, location: `${redirect}#${hash}` }, body: '' });
     }
     if (url.pathname === '/auth/v1/logout') return route.fulfill({ status: 204, headers: cors });
+    if (url.pathname.startsWith('/storage/v1/')) {
+      const tok = (req.headers()['authorization'] || '').replace('Bearer ', '');
+      let claims = null;
+      try { claims = JSON.parse(Buffer.from(tok.split('.')[1], 'base64url').toString()); } catch { /* signed links carry their own token */ }
+      const rest = url.pathname.replace('/storage/v1/', '');
+      const who = claims && claims.email ? know(claims.email) : null;
+      const inConv = (path, u) => { const c = conversations.find((x) => path.startsWith(x.id + '/')); return !!c && !!u && (c.a === u.id || c.b === u.id); };
+      if (req.method() === 'POST' && rest.startsWith('object/chat-files/')) { // upload
+        const path = decodeURIComponent(rest.slice('object/chat-files/'.length));
+        if (!who || !inConv(path, who)) return json(403, { statusCode: '403', error: 'Unauthorized', message: 'new row violates row-level security policy' });
+        // supabase-js sends a Blob as multipart/form-data; the file part carries the real content type
+        const raw = (req.postDataBuffer() || Buffer.alloc(0)).toString('latin1');
+        const part = raw.match(/filename="[^"]*"\r\nContent-Type: ([^\r\n]+)\r\n\r\n/i);
+        const ct = part ? part[1].split(';')[0].trim() : (req.headers()['content-type'] || '').split(';')[0];
+        files.set(path, { owner: who.id, mime: ct, size: part ? raw.length - raw.indexOf(part[0]) - part[0].length : raw.length, created_at: new Date().toISOString(), bytes: Buffer.from(raw, 'latin1') });
+        return json(200, { Key: 'chat-files/' + path, Id: 'obj-' + files.size });
+      }
+      if (req.method() === 'POST' && rest.startsWith('object/sign/chat-files/')) { // signed link
+        const path = decodeURIComponent(rest.slice('object/sign/chat-files/'.length));
+        const f = files.get(path);
+        if (!f || !who || !(inConv(path, who) || who.role === 'admin') || Date.now() - new Date(f.created_at).getTime() > 90 * 864e5) return json(400, { statusCode: '404', error: 'not_found', message: 'Object not found' });
+        return json(200, { signedURL: `/object/sign/chat-files/${path}?token=t-${who.id}` });
+      }
+      if (req.method() === 'GET' && rest.startsWith('object/sign/chat-files/')) { // the file itself
+        const path = decodeURIComponent(rest.slice('object/sign/chat-files/'.length).split('?')[0]);
+        const f = files.get(path);
+        if (!f) return json(404, { message: 'not found' });
+        return route.fulfill({ status: 200, headers: { ...cors, 'content-type': f.mime || 'application/octet-stream' }, body: f.mime && f.mime.startsWith('image/') ? tinyJpeg : (f.bytes || Buffer.alloc(0)) });
+      }
+      if (req.method() === 'DELETE' && rest.startsWith('object/chat-files')) { // admin removes files
+        if (!who || who.role !== 'admin') return json(403, { message: 'not allowed' });
+        const body = JSON.parse(req.postData() || '{}');
+        for (const p of body.prefixes || []) files.delete(p);
+        return json(200, (body.prefixes || []).map((name) => ({ name })));
+      }
+      return json(404, { message: 'storage not mocked: ' + rest });
+    }
     if (url.pathname.startsWith('/rest/v1/rpc/') || url.pathname === '/rest/v1/class_members' || url.pathname === '/rest/v1/classes') {
       if (url.pathname === '/rest/v1/rpc/content_disabled') return json(200, contentOff); // public: no sign-in needed
       const tok = (req.headers()['authorization'] || '').replace('Bearer ', '');
@@ -197,13 +236,14 @@ export function createMockBackend(opts = {}) {
       const unreadOf = (c) => chatMsgs.filter((m) => m.conv === c.id && m.sender !== me.id && !m.removed_at && m.created_at > (chatReads.get(`${c.id}:${me.id}`) || '')).length;
       if (fn === 'my_chats') {
         return json(200, myConvs().map((c) => { const oid = c.a === me.id ? c.b : c.a; const last = [...chatMsgs].reverse().find((m) => m.conv === c.id);
-          return { conversation_id: c.id, other_id: oid, other_name: nameFor(oid), other_role: known.get(oid)?.role || 'student', last_body: last ? (last.removed_at ? '' : last.body.slice(0, 120)) : null, last_at: c.last_at, last_is_mine: !!last && last.sender === me.id, unread: unreadOf(c) }; }));
+          return { conversation_id: c.id, other_id: oid, other_name: nameFor(oid), other_role: known.get(oid)?.role || 'student', last_body: last ? (last.removed_at ? '' : last.body.slice(0, 120)) : null, last_kind: last && !last.removed_at ? last.kind || 'text' : 'text', last_at: c.last_at, last_is_mine: !!last && last.sender === me.id, unread: unreadOf(c) }; }));
       }
       if (fn === 'chat_unread_total') return json(200, myConvs().reduce((n, c) => n + unreadOf(c), 0));
       if (fn === 'chat_messages_of') {
         const c = conversations.find((x) => x.id === args.p_conv);
         if (!memberOf(c)) return deny();
-        return json(200, chatMsgs.filter((m) => m.conv === c.id).map((m) => ({ id: m.id, mine: m.sender === me.id, body: m.removed_at ? '' : m.body, created_at: m.created_at, removed: !!m.removed_at })));
+        const old = (m) => Date.now() - new Date(m.created_at).getTime() > 90 * 864e5;
+        return json(200, chatMsgs.filter((m) => m.conv === c.id).map((m) => ({ id: m.id, mine: m.sender === me.id, body: m.removed_at ? '' : m.body, created_at: m.created_at, removed: !!m.removed_at, kind: m.kind || 'text', file_path: m.removed_at || old(m) ? null : m.file_path || null, file_mime: m.file_mime || null, duration_ms: m.duration_ms || null, expired: (m.kind || 'text') !== 'text' && old(m) })));
       }
       if (fn === 'mark_chat_read') {
         const c = conversations.find((x) => x.id === args.p_conv);
@@ -211,13 +251,32 @@ export function createMockBackend(opts = {}) {
         chatReads.set(`${c.id}:${me.id}`, tick());
         return json(200, null);
       }
+      if (fn === 'send_attachment') {
+        const c = conversations.find((x) => x.id === args.p_conv);
+        if (!memberOf(c)) return deny();
+        const { p_kind: kind, p_path: path, p_mime: mime, p_size: size, p_duration_ms: dur } = args;
+        const okPath = typeof path === 'string' && path.startsWith(c.id + '/') && /^[0-9a-f-]{36}\/[0-9a-f-]{36}\.(webm|ogg|m4a|mp4|mp3|aac|jpg|jpeg|png|webp)$/.test(path);
+        const okMime = kind === 'voice' ? /^audio\/(webm|ogg|mp4|mpeg|aac|x-m4a)$/.test(mime || '') : kind === 'image' ? /^image\/(jpeg|png|webp)$/.test(mime || '') : false;
+        if (!okPath || !okMime || !(size >= 1 && size <= 5242880) || (kind === 'voice' && !(dur >= 300 && dur <= 125000)) || String(args.p_caption || '').length > 200) return json(400, { code: '22023', message: 'invalid attachment' });
+        const f = files.get(path);
+        if (!f || f.owner !== me.id) return json(400, { code: 'P0002', message: 'file not found' });
+        if (chatMsgs.some((m) => m.file_path === path)) return json(400, { code: '22023', message: 'file already used' });
+        const m = { id: 'msg-' + (chatMsgs.length + 1), conv: c.id, sender: me.id, body: String(args.p_caption || '').trim(), created_at: tick(), removed_at: null, kind, file_path: path, file_mime: mime, duration_ms: kind === 'voice' ? dur : null };
+        chatMsgs.push(m); c.last_at = m.created_at; chatReads.set(`${c.id}:${me.id}`, m.created_at);
+        return json(200, m.id);
+      }
+      if (fn === 'admin_expired_files') {
+        if (me.role !== 'admin') return deny();
+        return json(200, [...files.entries()].filter(([, f]) => Date.now() - new Date(f.created_at).getTime() > 90 * 864e5).map(([name]) => ({ name })));
+      }
       if (fn === 'admin_list_chats') {
         if (me.role !== 'admin') return deny();
         return json(200, [...conversations].sort((x, y) => y.last_at.localeCompare(x.last_at)).map((c) => ({ conversation_id: c.id, a_id: c.a, a_name: nameFor(c.a), a_email: known.get(c.a)?.email, b_id: c.b, b_name: nameFor(c.b), b_email: known.get(c.b)?.email, message_count: chatMsgs.filter((m) => m.conv === c.id).length, last_at: c.last_at })));
       }
       if (fn === 'admin_chat_messages') {
         if (me.role !== 'admin') return deny();
-        return json(200, chatMsgs.filter((m) => m.conv === args.p_conv).map((m) => ({ id: m.id, sender_id: m.sender, sender_name: nameFor(m.sender), body: m.body, created_at: m.created_at, removed: !!m.removed_at })));
+        const oldA = (m) => Date.now() - new Date(m.created_at).getTime() > 90 * 864e5;
+        return json(200, chatMsgs.filter((m) => m.conv === args.p_conv).map((m) => ({ id: m.id, sender_id: m.sender, sender_name: nameFor(m.sender), body: m.body, created_at: m.created_at, removed: !!m.removed_at, kind: m.kind || 'text', file_path: oldA(m) ? null : m.file_path || null, file_mime: m.file_mime || null, duration_ms: m.duration_ms || null, expired: (m.kind || 'text') !== 'text' && oldA(m) })));
       }
       if (fn === 'admin_remove_message') {
         if (me.role !== 'admin') return deny();
@@ -291,5 +350,5 @@ export function createMockBackend(opts = {}) {
     }
     return json(404, { message: 'not mocked: ' + url.pathname });
   }
-  return { rows, stats, state, install: (ctxOrPage) => ctxOrPage.route(`${MOCK_URL}/**`, handle), code, profiles, known, classes, members, rewards, announcements, contentOff, conversations, chatMsgs, addUser: (email, extra = {}) => { const u = know(email); Object.assign(u, extra); return u; } };
+  return { rows, stats, state, install: (ctxOrPage) => ctxOrPage.route(`${MOCK_URL}/**`, handle), code, profiles, known, classes, members, rewards, announcements, contentOff, conversations, chatMsgs, files, addUser: (email, extra = {}) => { const u = know(email); Object.assign(u, extra); return u; } };
 }
