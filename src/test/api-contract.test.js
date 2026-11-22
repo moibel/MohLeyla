@@ -4,7 +4,7 @@ import { describe, it, expect } from 'vitest';
 
 // The browser calls database functions by name with named parameters. If the app and supabase/migrations/002_roles_classes.sql
 // ever disagree, every call fails at runtime. This test keeps them in step.
-const sql = ['002_roles_classes.sql', '003_rewards.sql', '004_announcements.sql', '005_content_switch.sql', '006_announcements_pro.sql', '007_chat.sql', '008_chat_attachments.sql'].map((f) => fs.readFileSync(path.resolve(__dirname, '../../supabase/migrations', f), 'utf8')).join('\n');
+const sql = ['002_roles_classes.sql', '003_rewards.sql', '004_announcements.sql', '005_content_switch.sql', '006_announcements_pro.sql', '007_chat.sql', '008_chat_attachments.sql', '009_content_switch_languages.sql'].map((f) => fs.readFileSync(path.resolve(__dirname, '../../supabase/migrations', f), 'utf8')).join('\n');
 const api = fs.readFileSync(path.resolve(__dirname, '../features/classes/api.js'), 'utf8');
 const sync = fs.readFileSync(path.resolve(__dirname, '../features/sync/syncManager.js'), 'utf8');
 

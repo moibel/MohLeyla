@@ -1,0 +1,3330 @@
+[
+  {
+    "id": "eg-01",
+    "track": "eg",
+    "level": "beginner",
+    "order": 1,
+    "topic": "pronunciation",
+    "icon": "🗣️",
+    "title": {
+      "ar": "كيف تبدو اللهجة المصرية؟",
+      "en": "How Egyptian Arabic Sounds",
+      "id": "Bunyi Bahasa Arab Mesir"
+    },
+    "description": {
+      "ar": "أهم الفروق في النطق بين اللهجة المصرية (القاهرية) والفصحى مع كلمات حقيقية.",
+      "en": "The main sound differences between Egyptian (Cairo) Arabic and Modern Standard Arabic, taught through real words.",
+      "id": "Perbedaan bunyi utama antara bahasa Arab Mesir (Kairo) dan Arab Baku, lewat kata-kata nyata."
+    },
+    "objectives": [
+      {
+        "ar": "أستطيع أن ألاحظ أن الجيم تُنطق «g» في كلمات مثل gamīl، وأن القاف تصير همزة في كلمات مثل ʾahwa.",
+        "en": "I can notice that jim is said \"g\" in words like gamīl, and that qaf often becomes a glottal stop in words like ʾahwa.",
+        "id": "Saya bisa mengenali bahwa jim diucapkan \"g\" pada kata seperti gamīl, dan qaf sering menjadi hentian glotal pada kata seperti ʾahwa."
+      },
+      {
+        "ar": "أستطيع أن أفهم لماذا تتحول الثاء والذال غالبًا إلى t وd وأحيانًا s وz، كما في talāta وda.",
+        "en": "I can understand why th and dh often turn into t and d (sometimes s and z), as in talāta and da.",
+        "id": "Saya bisa memahami mengapa th dan dh sering menjadi t dan d (kadang s dan z), seperti pada talāta dan da."
+      },
+      {
+        "ar": "أستطيع أن أميّز أن «ay» تصير ē و«aw» تصير ō في كلمات مثل bēt وyōm.",
+        "en": "I can tell that \"ay\" becomes ē and \"aw\" becomes ō in words like bēt and yōm.",
+        "id": "Saya bisa membedakan bahwa \"ay\" menjadi ē dan \"aw\" menjadi ō pada kata seperti bēt dan yōm."
+      }
+    ],
+    "intro": {
+      "ar": "اللهجة المصرية ليست الفصحى بحروف مختلفة، بل لها نظامها الصوتي الخاص. في هذا الدرس نتعلم سبع كلمات حقيقية، وكل كلمة تكشف ميزة في النطق. اسمع الكلمة ثم قارنها بالفصحى المذكورة في المعنى العربي. في هذا المقرر نكتب النطق بحروف لاتينية: ʾ للهمزة، وʿ للعين، وḥ للحاء، والخط فوق الحرف للمدّ الطويل.",
+      "en": "Egyptian Arabic is not Modern Standard Arabic with a few new words: it has its own sound system. In this lesson you learn seven real words, and each one shows a pronunciation feature. Listen to the word, then compare it with the MSA form given in the Arabic meaning. In this course the pronunciation is written in Latin letters: ʾ is the glottal stop, ʿ is the letter ayn, ḥ is the strong h, and a line over a vowel marks a long vowel.",
+      "id": "Bahasa Arab Mesir bukan Arab Baku dengan beberapa kata baru, tetapi punya sistem bunyi sendiri. Di pelajaran ini kamu belajar tujuh kata nyata, dan setiap kata memperlihatkan satu ciri pengucapan. Dengarkan katanya, lalu bandingkan dengan bentuk Arab Baku di makna bahasa Arabnya. Di kursus ini cara baca ditulis dengan huruf Latin: ʾ untuk hentian glotal, ʿ untuk huruf ain, ḥ untuk h yang kuat, dan garis di atas vokal untuk vokal panjang."
+    },
+    "culture": {
+      "ar": "اللهجة القاهرية مفهومة على نطاق واسع في العالم العربي بفضل السينما والمسلسلات والأغاني المصرية، ولذلك يبدأ كثير من دارسي العربية بها. ويسمّي كثير من المصريين لهجتهم «المصري». وكثيرًا ما يرحّب المصريون بمن يحاول التحدث بلهجتهم ويشجعونه حتى لو أخطأ.",
+      "en": "The Cairo dialect is widely understood across the Arab world thanks to Egyptian films, TV series and songs, which is why many learners start with it. Many Egyptians simply call their dialect \"Masri\". People are usually delighted when a foreigner tries to speak it, and they will encourage you even if you make mistakes.",
+      "id": "Dialek Kairo dipahami secara luas di dunia Arab berkat film, sinetron, dan lagu Mesir, sehingga banyak pelajar memulai dari sini. Banyak orang Mesir menyebut dialeknya sekadar \"Masri\". Mereka biasanya senang saat orang asing mencoba berbicara dengan dialek itu dan akan menyemangati kamu meski salah."
+    },
+    "grammar": {
+      "title": {
+        "ar": "ثلاث قواعد صوتية",
+        "en": "Three sound rules",
+        "id": "Tiga kaidah bunyi"
+      },
+      "body": {
+        "ar": "أولًا: الجيم تُنطق «g» (جميل gamīl)، والقاف تصير غالبًا همزة (قهوة ʾahwa)، لكن الكلمات الفصيحة كـ«القرآن» غالبًا ما تحتفظ بالقاف. ثانيًا: الثاء والذال تصيران غالبًا t وd (ثلاثة talāta، هذا da)، وفي بعض الكلمات الفصيحة تصيران s وz. ثالثًا: «ay» تصير ē (بيت bēt) و«aw» تصير ō (يوم yōm).",
+        "en": "First: jim is said \"g\" (gamīl) and qaf often becomes a glottal stop (ʾahwa), though formal words such as the Quran often keep the real q. Second: th and dh usually become t and d (talāta, da), while in some formal words they become s and z. Third: \"ay\" becomes ē (bēt) and \"aw\" becomes ō (yōm).",
+        "id": "Pertama: jim diucapkan \"g\" (gamīl) dan qaf sering menjadi hentian glotal (ʾahwa), tetapi kata resmi seperti Quran sering tetap memakai q. Kedua: th dan dh biasanya menjadi t dan d (talāta, da), sedangkan pada sebagian kata resmi menjadi s dan z. Ketiga: \"ay\" menjadi ē (bēt) dan \"aw\" menjadi ō (yōm)."
+      }
+    },
+    "items": [
+      {
+        "id": "eg01n1",
+        "target": "قهوة",
+        "translit": "ʾahwa",
+        "tr": {
+          "ar": "القهوة؛ الفصحى qahwa بقاف",
+          "en": "coffee (also a traditional cafe)",
+          "id": "kopi (juga berarti kedai kopi tradisional)"
+        },
+        "example": {
+          "target": "عايز قهوة لو سمحت",
+          "translit": "ʿāyiz ʾahwa law samaḥt",
+          "tr": {
+            "ar": "أريد قهوة من فضلك",
+            "en": "I would like a coffee, please",
+            "id": "Saya mau kopi, tolong"
+          }
+        },
+        "hint": {
+          "ar": "القاف مكتوبة كما في الفصحى لكنها تُنطق همزة: ʾahwa لا qahwa.",
+          "en": "The letter is written as in MSA but pronounced as a glottal stop: say ʾahwa, not qahwa.",
+          "id": "Hurufnya ditulis seperti Arab Baku tetapi diucapkan sebagai hentian glotal: ucapkan ʾahwa, bukan qahwa."
+        }
+      },
+      {
+        "id": "eg01n2",
+        "target": "جميل",
+        "translit": "gamīl",
+        "tr": {
+          "ar": "جميل (الجيم هنا g)",
+          "en": "beautiful, nice",
+          "id": "indah, bagus"
+        },
+        "example": {
+          "target": "الجو جميل النهارده",
+          "translit": "il-gaww gamīl innaharda",
+          "tr": {
+            "ar": "الجو جميل اليوم",
+            "en": "The weather is nice today",
+            "id": "Cuacanya bagus hari ini"
+          }
+        },
+        "hint": {
+          "ar": "الجيم تُنطق g كما في الكلمة الإنجليزية go، فنقول gamīl لا jamīl.",
+          "en": "Jim is said as the g in the English word \"go\": say gamīl, not jamīl.",
+          "id": "Jim diucapkan seperti g pada kata Inggris \"go\": ucapkan gamīl, bukan jamīl."
+        }
+      },
+      {
+        "id": "eg01n3",
+        "target": "تلاتة",
+        "translit": "talāta",
+        "tr": {
+          "ar": "ثلاثة",
+          "en": "three",
+          "id": "tiga"
+        },
+        "example": {
+          "target": "الساعة تلاتة",
+          "translit": "is-sāʿa talāta",
+          "tr": {
+            "ar": "الساعة الثالثة",
+            "en": "It is three o'clock",
+            "id": "Sekarang pukul tiga"
+          }
+        },
+        "hint": {
+          "ar": "الثاء الفصيحة تصير t في هذه الكلمة، وتُكتب بالتاء: talāta لا thalātha.",
+          "en": "The MSA letter th becomes t in this word, and it is spelled with ta: talāta, not thalātha.",
+          "id": "Huruf th Arab Baku menjadi t pada kata ini dan ditulis dengan ta: talāta, bukan thalātha."
+        }
+      },
+      {
+        "id": "eg01n4",
+        "target": "ده",
+        "translit": "da",
+        "tr": {
+          "ar": "هذا",
+          "en": "this (masculine)",
+          "id": "ini (untuk laki-laki/benda maskulin)"
+        },
+        "example": {
+          "target": "ده كتاب كويس",
+          "translit": "da kitāb kwayyis",
+          "tr": {
+            "ar": "هذا كتاب جيد",
+            "en": "This is a good book",
+            "id": "Ini buku yang bagus"
+          }
+        },
+        "hint": {
+          "ar": "الذال في هذا صارت d، وتُكتب «ده». للمؤنث نقول دي di وللجمع دول dōl.",
+          "en": "The dh of MSA hādhā becomes d, written with dal and ha. For feminine say di, for plural dōl.",
+          "id": "Dhal pada hādhā menjadi d dan ditulis dengan dal dan ha. Untuk feminin ucapkan di, untuk jamak dōl."
+        }
+      },
+      {
+        "id": "eg01n5",
+        "target": "بيت",
+        "translit": "bēt",
+        "tr": {
+          "ar": "بيت؛ الفصحى bayt",
+          "en": "house, home",
+          "id": "rumah"
+        },
+        "example": {
+          "target": "البيت قريب",
+          "translit": "il-bēt ʾarīb",
+          "tr": {
+            "ar": "البيت قريب",
+            "en": "The house is near",
+            "id": "Rumahnya dekat"
+          }
+        },
+        "hint": {
+          "ar": "«ay» الفصيحة تصير ē: bēt لا bayt.",
+          "en": "The MSA \"ay\" becomes ē: bēt, not bayt.",
+          "id": "\"ay\" Arab Baku menjadi ē: bēt, bukan bayt."
+        }
+      },
+      {
+        "id": "eg01n6",
+        "target": "يوم",
+        "translit": "yōm",
+        "tr": {
+          "ar": "يوم؛ الفصحى yawm",
+          "en": "day",
+          "id": "hari"
+        },
+        "example": {
+          "target": "كل يوم باشرب شاي",
+          "translit": "kull yōm bāshrab shāy",
+          "tr": {
+            "ar": "كل يوم أشرب الشاي",
+            "en": "Every day I drink tea",
+            "id": "Setiap hari saya minum teh"
+          }
+        },
+        "hint": {
+          "ar": "«aw» الفصيحة تصير ō: yōm لا yawm.",
+          "en": "The MSA \"aw\" becomes ō: yōm, not yawm.",
+          "id": "\"aw\" Arab Baku menjadi ō: yōm, bukan yawm."
+        }
+      },
+      {
+        "id": "eg01n7",
+        "target": "قوي",
+        "translit": "ʾawi",
+        "tr": {
+          "ar": "جدًّا",
+          "en": "very, really",
+          "id": "sangat"
+        },
+        "example": {
+          "target": "الأكل حلو قوي",
+          "translit": "il-akl ḥilw ʾawi",
+          "tr": {
+            "ar": "الطعام لذيذ جدًّا",
+            "en": "The food is really good",
+            "id": "Makanannya enak sekali"
+          }
+        },
+        "hint": {
+          "ar": "في المصرية تأتي «قوي» بمعنى «جدًّا»، وتُنطق ʾawi بهمزة بدل القاف.",
+          "en": "In Egyptian speech this word means \"very\" and is said ʾawi with the glottal stop for qaf.",
+          "id": "Dalam bahasa Mesir kata ini berarti \"sangat\" dan diucapkan ʾawi dengan hentian glotal untuk qaf."
+        }
+      }
+    ],
+    "cloze": [
+      {
+        "sentence": "الجو ___ النهارده",
+        "answer": "جميل",
+        "wrong": [
+          "جعان",
+          "تلاتة"
+        ],
+        "tr": {
+          "ar": "الجو جميل اليوم.",
+          "en": "The weather is nice today.",
+          "id": "Cuacanya bagus hari ini."
+        },
+        "why": {
+          "ar": "نقول الجو جميل (تُقرأ gamīl)؛ لا يُوصف الجو بأنه جائع أو ثلاثة.",
+          "en": "We say the weather is gamīl; weather cannot be hungry or \"three\".",
+          "id": "Kita bilang cuaca gamīl; cuaca tidak bisa lapar atau \"tiga\"."
+        }
+      },
+      {
+        "sentence": "الساعة ___",
+        "answer": "تلاتة",
+        "wrong": [
+          "بيت",
+          "قهوة"
+        ],
+        "tr": {
+          "ar": "الساعة الثالثة.",
+          "en": "It is three o'clock.",
+          "id": "Sekarang pukul tiga."
+        },
+        "why": {
+          "ar": "نذكر الساعة بعدد: talāta؛ البيت والقهوة ليسا رقمين.",
+          "en": "The time is given with a number: talāta; a house and a coffee are not numbers.",
+          "id": "Waktu disebut dengan angka: talāta; rumah dan kopi bukan angka."
+        }
+      }
+    ],
+    "conversation": {
+      "context": {
+        "ar": "صديقان يتحدثان بالهاتف.",
+        "en": "Two friends talk on the phone.",
+        "id": "Dua teman berbicara lewat telepon."
+      },
+      "turns": [
+        {
+          "who": "A",
+          "target": "إنت فين دلوقتي؟",
+          "tr": {
+            "ar": "أين أنت الآن؟",
+            "en": "Where are you now?",
+            "id": "Kamu di mana sekarang?"
+          }
+        },
+        {
+          "who": "B",
+          "target": "أنا في البيت",
+          "tr": {
+            "ar": "أنا في البيت",
+            "en": "I am at home",
+            "id": "Saya di rumah"
+          }
+        },
+        {
+          "who": "A",
+          "target": "طيب، هاجيلك بعد شوية",
+          "tr": {
+            "ar": "حسنًا، سآتي إليك بعد قليل",
+            "en": "OK, I will come over in a bit",
+            "id": "Baik, nanti saya datang sebentar lagi"
+          }
+        }
+      ],
+      "gap": 1,
+      "wrong": [
+        "الساعة تلاتة",
+        "ده كتاب جديد"
+      ],
+      "why": {
+        "ar": "السؤال «إنت فين؟» يُجاب بمكان: «أنا في البيت». أما الساعة والكتاب فلا يجيبان عن «أين».",
+        "en": "The question \"inta fēn?\" is answered with a place: \"ana fi l-bēt\". A time or a book does not answer \"where\".",
+        "id": "Pertanyaan \"inta fēn?\" dijawab dengan tempat: \"ana fi l-bēt\". Waktu atau buku tidak menjawab \"di mana\"."
+      }
+    },
+    "summary": {
+      "ar": "تعلمنا أن الجيم g والقاف غالبًا همزة، وأن الثاء والذال تصيران t وd، وأن ay تصير ē وaw تصير ō.",
+      "en": "You learned that jim is \"g\", qaf is often a glottal stop, th and dh become t and d, and \"ay\" and \"aw\" turn into ē and ō.",
+      "id": "Kamu belajar bahwa jim \"g\", qaf sering menjadi hentian glotal, th dan dh menjadi t dan d, serta \"ay\" dan \"aw\" menjadi ē dan ō."
+    }
+  },
+  {
+    "id": "eg-02",
+    "track": "eg",
+    "level": "beginner",
+    "order": 2,
+    "topic": "greetings",
+    "icon": "👋",
+    "title": {
+      "ar": "التحيات والعبارات المهذبة",
+      "en": "Greetings and Polite Phrases",
+      "id": "Salam dan Ungkapan Sopan"
+    },
+    "description": {
+      "ar": "تحيات الصباح والسؤال عن الحال والشكر والاستئذان بالمصرية.",
+      "en": "Morning greetings, asking how someone is, thanking and excusing yourself in Egyptian Arabic.",
+      "id": "Salam pagi, menanyakan kabar, berterima kasih, dan meminta izin dalam bahasa Arab Mesir."
+    },
+    "objectives": [
+      {
+        "ar": "أستطيع أن أسأل «إزيك؟» و«عامل إيه؟» وأجيب «كويس الحمد لله».",
+        "en": "I can ask \"izzayyak?\" and \"ʿāmil ēh?\" and answer \"kwayyis il-ḥamdu lillāh\".",
+        "id": "Saya bisa bertanya \"izzayyak?\" dan \"ʿāmil ēh?\" dan menjawab \"kwayyis il-ḥamdu lillāh\"."
+      },
+      {
+        "ar": "أستطيع أن أحيّي في الصباح وأرد على التحية بالطريقة المصرية.",
+        "en": "I can greet someone in the morning and answer a greeting the Egyptian way.",
+        "id": "Saya bisa menyapa di pagi hari dan menjawab sapaan dengan cara Mesir."
+      },
+      {
+        "ar": "أستطيع أن أقول «لو سمحت» و«شكرا» و«العفو» و«مع السلامة» في المواقف اليومية.",
+        "en": "I can say \"law samaḥt\", \"shukran\", \"il-ʿafw\" and \"maʿa s-salāma\" in daily situations.",
+        "id": "Saya bisa mengucapkan \"law samaḥt\", \"shukran\", \"il-ʿafw\", dan \"maʿa s-salāma\" dalam situasi sehari-hari."
+      }
+    ],
+    "intro": {
+      "ar": "كثيرًا ما يبدأ المصريون كلامهم بالسلام والسؤال عن الأحوال. في هذا الدرس ثماني عبارات تحتاجها كل يوم: التحية، والسؤال عن الحال، والجواب، والشكر، والطلب بأدب، والوداع.",
+      "en": "Egyptians often begin a conversation by greeting and asking how you are. This lesson gives you eight phrases you need every day: greeting, asking how someone is, answering, thanking, asking politely, and saying goodbye.",
+      "id": "Orang Mesir sering membuka percakapan dengan menyapa dan menanyakan kabar. Pelajaran ini memberi delapan ungkapan yang dibutuhkan setiap hari: menyapa, menanyakan kabar, menjawab, berterima kasih, meminta dengan sopan, dan berpamitan."
+    },
+    "culture": {
+      "ar": "يُرد على «صباح الخير» بـ«صباح النور»، ويُرد على «السلام عليكم» بـ«وعليكم السلام». ويكثر المصريون من «الحمد لله» و«إن شاء الله» في الكلام اليومي، فهما عبارتان مألوفتان ومحببتان. والتحية الدافئة والابتسامة جزء من الأدب.",
+      "en": "\"ṣabāḥ il-khēr\" is answered with \"ṣabāḥ in-nūr\", and \"as-salāmu ʿalaykum\" with \"wa ʿalaykum is-salām\". Egyptians use \"il-ḥamdu lillāh\" and \"in shāʾ allāh\" very often in everyday speech, and both are warm, familiar phrases. A friendly greeting and a smile are part of good manners.",
+      "id": "\"ṣabāḥ il-khēr\" dijawab dengan \"ṣabāḥ in-nūr\", dan \"as-salāmu ʿalaykum\" dengan \"wa ʿalaykum is-salām\". Orang Mesir sangat sering memakai \"il-ḥamdu lillāh\" dan \"in shāʾ allāh\" dalam percakapan sehari-hari, dan keduanya terdengar hangat dan akrab. Sapaan ramah dan senyuman adalah bagian dari sopan santun."
+    },
+    "grammar": {
+      "title": {
+        "ar": "المذكر والمؤنث في التحية",
+        "en": "Masculine and feminine in greetings",
+        "id": "Maskulin dan feminin dalam salam"
+      },
+      "body": {
+        "ar": "نقول للرجل «إزيك izzayyak» وللمرأة «إزيك izzayyik»، ونقول «عامل ʿāmil إيه» للرجل و«عاملة ʿamla إيه» للمرأة. والجواب «كويس kwayyis» للمتكلم الرجل و«كويسة kwayyisa» للمتكلمة. وكلمة «إيه ēh» تعني «ماذا».",
+        "en": "To a man we say izzayyak and to a woman izzayyik; likewise ʿāmil ēh (to a man) and ʿamla ēh (to a woman). A man answers kwayyis and a woman kwayyisa. The word ēh means \"what\".",
+        "id": "Kepada laki-laki kita katakan izzayyak dan kepada perempuan izzayyik; begitu juga ʿāmil ēh (laki-laki) dan ʿamla ēh (perempuan). Laki-laki menjawab kwayyis dan perempuan kwayyisa. Kata ēh berarti \"apa\"."
+      }
+    },
+    "items": [
+      {
+        "id": "eg02n1",
+        "target": "إزيك",
+        "translit": "izzayyak",
+        "tr": {
+          "ar": "كيف حالك؟ (للرجل)",
+          "en": "how are you? (to a man)",
+          "id": "apa kabar? (kepada laki-laki)"
+        },
+        "example": {
+          "target": "إزيك يا أحمد؟ وحشتني",
+          "translit": "izzayyak yā aḥmad? waḥashtīni",
+          "tr": {
+            "ar": "كيف حالك يا أحمد؟ اشتقت إليك",
+            "en": "How are you, Ahmed? I missed you",
+            "id": "Apa kabar, Ahmed? Aku kangen"
+          }
+        },
+        "hint": {
+          "ar": "للمرأة نقول إزيك izzayyik بكسر الكاف.",
+          "en": "To a woman say izzayyik, with the vowel i at the end.",
+          "id": "Kepada perempuan ucapkan izzayyik, dengan vokal i di akhir."
+        }
+      },
+      {
+        "id": "eg02n2",
+        "target": "عامل إيه",
+        "translit": "ʿāmil ēh",
+        "tr": {
+          "ar": "كيف حالك؟ (حرفيًّا: ماذا تفعل؟)",
+          "en": "how are you doing?",
+          "id": "apa kabar? (harfiah: sedang apa?)"
+        },
+        "example": {
+          "target": "أهلا يا محمد، عامل إيه؟",
+          "translit": "ahlan yā muḥammad, ʿāmil ēh?",
+          "tr": {
+            "ar": "أهلًا يا محمد، كيف حالك؟",
+            "en": "Hello Mohamed, how are you doing?",
+            "id": "Halo Mohamed, apa kabar?"
+          }
+        },
+        "hint": {
+          "ar": "للمرأة: عاملة إيه ʿamla ēh.",
+          "en": "To a woman: ʿamla ēh.",
+          "id": "Kepada perempuan: ʿamla ēh."
+        }
+      },
+      {
+        "id": "eg02n3",
+        "target": "كويس الحمد لله",
+        "translit": "kwayyis il-ḥamdu lillāh",
+        "tr": {
+          "ar": "بخير، والحمد لله",
+          "en": "fine, thank God",
+          "id": "baik, syukurlah"
+        },
+        "example": {
+          "target": "أنا كويس الحمد لله، وإنت؟",
+          "translit": "ana kwayyis il-ḥamdu lillāh, w-inta?",
+          "tr": {
+            "ar": "أنا بخير والحمد لله، وأنت؟",
+            "en": "I am fine, thank God, and you?",
+            "id": "Saya baik, syukurlah, dan kamu?"
+          }
+        },
+        "hint": {
+          "ar": "المرأة تقول كويسة kwayyisa. ونسأل بالمثل «وإنت؟» w-inta للرجل و«وإنتي؟» w-inti للمرأة.",
+          "en": "A woman says kwayyisa. To ask back say w-inta (to a man) or w-inti (to a woman).",
+          "id": "Perempuan berkata kwayyisa. Untuk balik bertanya ucapkan w-inta (laki-laki) atau w-inti (perempuan)."
+        }
+      },
+      {
+        "id": "eg02n4",
+        "target": "صباح الخير",
+        "translit": "ṣabāḥ il-khēr",
+        "tr": {
+          "ar": "تحية الصباح (والرد: صباح النور)",
+          "en": "good morning",
+          "id": "selamat pagi"
+        },
+        "example": {
+          "target": "صباح الخير يا أستاذ",
+          "translit": "ṣabāḥ il-khēr yā ustāz",
+          "tr": {
+            "ar": "صباح الخير يا أستاذ",
+            "en": "Good morning, sir",
+            "id": "Selamat pagi, Pak"
+          }
+        },
+        "hint": {
+          "ar": "الرد المعتاد هو صباح النور ṣabāḥ in-nūr.",
+          "en": "The usual reply is ṣabāḥ in-nūr.",
+          "id": "Jawaban yang lazim adalah ṣabāḥ in-nūr."
+        }
+      },
+      {
+        "id": "eg02n5",
+        "target": "شكرا",
+        "translit": "shukran",
+        "tr": {
+          "ar": "شكرًا لك",
+          "en": "thank you",
+          "id": "terima kasih"
+        },
+        "example": {
+          "target": "شكرا قوي على المساعدة",
+          "translit": "shukran ʾawi ʿala l-musāʿda",
+          "tr": {
+            "ar": "شكرًا جزيلًا على المساعدة",
+            "en": "Thank you very much for the help",
+            "id": "Terima kasih banyak atas bantuannya"
+          }
+        },
+        "hint": {
+          "ar": "«قوي» بعد الشكر تعني «جدًّا».",
+          "en": "Adding ʾawi after thanks means \"very much\".",
+          "id": "Menambah ʾawi setelah terima kasih berarti \"banyak sekali\"."
+        }
+      },
+      {
+        "id": "eg02n6",
+        "target": "لو سمحت",
+        "translit": "law samaḥt",
+        "tr": {
+          "ar": "من فضلك",
+          "en": "please, excuse me",
+          "id": "tolong, permisi"
+        },
+        "example": {
+          "target": "لو سمحت، ممكن مية؟",
+          "translit": "law samaḥt, mumkin mayya?",
+          "tr": {
+            "ar": "من فضلك، هل يمكن بعض الماء؟",
+            "en": "Excuse me, may I have some water?",
+            "id": "Permisi, boleh minta air?"
+          }
+        },
+        "hint": {
+          "ar": "للمرأة نقول لو سمحتي law samaḥti. وتُستعمل للطلب ولجذب الانتباه.",
+          "en": "To a woman say law samaḥti. It is used both for asking and for getting attention.",
+          "id": "Kepada perempuan ucapkan law samaḥti. Dipakai untuk meminta dan untuk menarik perhatian."
+        }
+      },
+      {
+        "id": "eg02n7",
+        "target": "العفو",
+        "translit": "il-ʿafw",
+        "tr": {
+          "ar": "عفوًا؛ لا شكر على واجب",
+          "en": "you are welcome",
+          "id": "sama-sama"
+        },
+        "example": {
+          "target": "العفو، ده واجبي",
+          "translit": "il-ʿafw, da wāgibi",
+          "tr": {
+            "ar": "لا شكر على واجب، هذا واجبي",
+            "en": "You are welcome, it is my duty",
+            "id": "Sama-sama, itu sudah kewajiban saya"
+          }
+        },
+        "hint": {
+          "ar": "نقولها ردًّا على «شكرا».",
+          "en": "We say it in reply to shukran.",
+          "id": "Diucapkan sebagai balasan untuk shukran."
+        }
+      },
+      {
+        "id": "eg02n8",
+        "target": "مع السلامة",
+        "translit": "maʿa s-salāma",
+        "tr": {
+          "ar": "إلى اللقاء",
+          "en": "goodbye",
+          "id": "selamat jalan / sampai jumpa"
+        },
+        "example": {
+          "target": "مع السلامة، نتقابل بكرة",
+          "translit": "maʿa s-salāma, nitʾābil bukra",
+          "tr": {
+            "ar": "إلى اللقاء، نتقابل غدًا",
+            "en": "Goodbye, we will meet tomorrow",
+            "id": "Sampai jumpa, kita bertemu besok"
+          }
+        },
+        "hint": {
+          "ar": "والرد المعتاد: الله يسلمك allāh yisallimak.",
+          "en": "The usual reply is allāh yisallimak.",
+          "id": "Jawaban yang lazim: allāh yisallimak."
+        }
+      }
+    ],
+    "cloze": [
+      {
+        "sentence": "أنا كويس ___، وإنت؟",
+        "answer": "الحمد لله",
+        "wrong": [
+          "مع السلامة",
+          "لو سمحت"
+        ],
+        "tr": {
+          "ar": "أنا بخير والحمد لله، وأنت؟",
+          "en": "I am fine, thank God, and you?",
+          "id": "Saya baik, syukurlah, dan kamu?"
+        },
+        "why": {
+          "ar": "نجيب عن «عامل إيه؟» بـ«كويس الحمد لله»؛ وداع أو طلب لا يناسبان هنا.",
+          "en": "We answer \"ʿāmil ēh?\" with \"kwayyis il-ḥamdu lillāh\"; a goodbye or a request does not fit here.",
+          "id": "Kita menjawab \"ʿāmil ēh?\" dengan \"kwayyis il-ḥamdu lillāh\"; salam perpisahan atau permintaan tidak cocok di sini."
+        }
+      },
+      {
+        "sentence": "___، ممكن مية؟",
+        "answer": "لو سمحت",
+        "wrong": [
+          "العفو",
+          "مع السلامة"
+        ],
+        "tr": {
+          "ar": "من فضلك، هل يمكن بعض الماء؟",
+          "en": "Excuse me, may I have some water?",
+          "id": "Permisi, boleh minta air?"
+        },
+        "why": {
+          "ar": "نبدأ الطلب بـ«لو سمحت»؛ «العفو» رد على الشكر و«مع السلامة» وداع.",
+          "en": "We start a request with \"law samaḥt\"; \"il-ʿafw\" answers thanks and \"maʿa s-salāma\" is a goodbye.",
+          "id": "Permintaan dibuka dengan \"law samaḥt\"; \"il-ʿafw\" menjawab terima kasih dan \"maʿa s-salāma\" adalah perpisahan."
+        }
+      }
+    ],
+    "conversation": {
+      "context": {
+        "ar": "صباح يوم عمل، زميلان يلتقيان في المكتب.",
+        "en": "Two colleagues meet at the office on a workday morning.",
+        "id": "Dua rekan kerja bertemu di kantor pada pagi hari kerja."
+      },
+      "turns": [
+        {
+          "who": "A",
+          "target": "صباح الخير، إزيك؟",
+          "tr": {
+            "ar": "صباح الخير، كيف حالك؟",
+            "en": "Good morning, how are you?",
+            "id": "Selamat pagi, apa kabar?"
+          }
+        },
+        {
+          "who": "B",
+          "target": "صباح النور، كويس الحمد لله. وإنت؟",
+          "tr": {
+            "ar": "صباح النور، بخير والحمد لله. وأنت؟",
+            "en": "Good morning, I am fine, thank God. And you?",
+            "id": "Selamat pagi, saya baik, syukurlah. Dan kamu?"
+          }
+        },
+        {
+          "who": "A",
+          "target": "كويس، شكرا",
+          "tr": {
+            "ar": "بخير، شكرًا",
+            "en": "Fine, thank you",
+            "id": "Baik, terima kasih"
+          }
+        }
+      ],
+      "gap": 1,
+      "wrong": [
+        "مع السلامة، العفو",
+        "لو سمحت، بكام ده؟"
+      ],
+      "why": {
+        "ar": "بعد «صباح الخير، إزيك؟» نرد بـ«صباح النور» ثم نخبر عن حالنا ونسأل «وإنت؟». الجملتان الأخريان وداع وسؤال عن السعر.",
+        "en": "After \"ṣabāḥ il-khēr, izzayyak?\" we reply \"ṣabāḥ in-nūr\", say how we are and ask \"w-inta?\". The other replies are a goodbye and a price question.",
+        "id": "Setelah \"ṣabāḥ il-khēr, izzayyak?\" kita jawab \"ṣabāḥ in-nūr\", menyebut kabar kita dan bertanya \"w-inta?\". Dua jawaban lain berupa perpisahan dan pertanyaan harga."
+      }
+    },
+    "summary": {
+      "ar": "تعلمنا التحية والسؤال عن الحال والجواب، ثم الشكر والاستئذان والوداع: إزيك، عامل إيه، كويس الحمد لله، صباح الخير، شكرا، لو سمحت، العفو، مع السلامة.",
+      "en": "You learned how to greet, ask how someone is and answer, then to thank, excuse yourself and say goodbye.",
+      "id": "Kamu belajar menyapa, menanyakan dan menjawab kabar, lalu berterima kasih, meminta izin, dan berpamitan."
+    }
+  },
+  {
+    "id": "eg-03",
+    "track": "eg",
+    "level": "beginner",
+    "order": 3,
+    "topic": "introductions",
+    "icon": "🤝",
+    "title": {
+      "ar": "التعارف: الاسم والبلد",
+      "en": "Introducing Yourself",
+      "id": "Memperkenalkan Diri"
+    },
+    "description": {
+      "ar": "أن تقول اسمك وبلدك وعملك وتسأل الآخرين بالمصرية.",
+      "en": "Say your name, where you are from and what you do, and ask others, in Egyptian Arabic.",
+      "id": "Menyebut nama, asal, dan pekerjaan, serta bertanya kepada orang lain, dalam bahasa Arab Mesir."
+    },
+    "objectives": [
+      {
+        "ar": "أستطيع أن أقول «اسمي…» وأسأل «اسمك إيه؟».",
+        "en": "I can say \"ismi...\" and ask \"ismak ēh?\".",
+        "id": "Saya bisa mengatakan \"ismi...\" dan bertanya \"ismak ēh?\"."
+      },
+      {
+        "ar": "أستطيع أن أقول من أين أنا وأسأل «إنت منين؟».",
+        "en": "I can say where I am from and ask \"inta minēn?\".",
+        "id": "Saya bisa menyebut asal saya dan bertanya \"inta minēn?\"."
+      },
+      {
+        "ar": "أستطيع أن أخبر عن عملي وأقول «فرصة سعيدة».",
+        "en": "I can tell what I do for a living and say \"furṣa saʿīda\".",
+        "id": "Saya bisa menyebut pekerjaan saya dan mengucapkan \"furṣa saʿīda\"."
+      }
+    ],
+    "intro": {
+      "ar": "بعد التحية يأتي التعارف. في اللهجة المصرية لا نحتاج إلى فعل «يكون»: نقول «أنا من مصر» مباشرة. وسنتعلم سبع عبارات للتعريف بالنفس وسؤال الآخرين.",
+      "en": "After the greeting comes the introduction. Egyptian Arabic has no verb \"to be\" in the present: you simply say \"ana min maṣr\". You learn seven phrases for introducing yourself and asking others.",
+      "id": "Setelah salam, tibalah perkenalan. Bahasa Arab Mesir tidak memakai kata kerja \"adalah\" di masa kini: cukup katakan \"ana min maṣr\". Kamu belajar tujuh ungkapan untuk memperkenalkan diri dan bertanya kepada orang lain."
+    },
+    "culture": {
+      "ar": "كثير من المصريين ودودون ويحبون أن يعرفوا من أين أنت، وكثيرًا ما يسألون عن ذلك مبكرًا وبلطف. وإذا قلت من أي بلد أنت فغالبًا ستسمع كلمة ترحيب. وعادة يخاطبون بعضهم بألقاب مثل «يا أستاذ» و«يا دكتور» و«يا فندم» احترامًا.",
+      "en": "Many Egyptians are friendly and like to know where you come from; they often ask early on, and kindly. When you say your country you will often hear a word of welcome. People also commonly use respectful titles such as \"yā ustāz\", \"yā duktōr\" and \"yā fandim\".",
+      "id": "Banyak orang Mesir ramah dan suka tahu dari mana asalmu; mereka sering menanyakannya lebih awal dan dengan sopan. Saat kamu menyebut negaramu, sering terdengar ucapan selamat datang. Mereka juga biasa memakai sebutan hormat seperti \"yā ustāz\", \"yā duktōr\", dan \"yā fandim\"."
+    },
+    "grammar": {
+      "title": {
+        "ar": "لا فعل «يكون» في الجملة الاسمية",
+        "en": "No \"to be\" in simple sentences",
+        "id": "Tidak ada \"adalah\" dalam kalimat sederhana"
+      },
+      "body": {
+        "ar": "نقول «أنا من مصر» و«أنا طالب» بلا فعل رابط. وللسؤال عن الأصل: «إنت منين؟» للرجل و«إنتي منين؟» للمرأة. وللعمل: «بتشتغل إيه؟» للرجل و«بتشتغلي إيه؟» للمرأة، والجواب «باشتغل مدرس» أو «باشتغل مدرسة».",
+        "en": "We say \"ana min maṣr\" and \"ana ṭālib\" with no linking verb. To ask where someone is from: \"inta minēn?\" (to a man) or \"inti minēn?\" (to a woman). For work: \"bitishtaghal ēh?\" (to a man) or \"bitishtaghali ēh?\" (to a woman); the answer is \"bāshtaghal mudarris\" (a male teacher) or \"bāshtaghal mudarrisa\" (a female teacher).",
+        "id": "Kita katakan \"ana min maṣr\" dan \"ana ṭālib\" tanpa kata penghubung. Untuk menanyakan asal: \"inta minēn?\" (kepada laki-laki) atau \"inti minēn?\" (kepada perempuan). Untuk pekerjaan: \"bitishtaghal ēh?\" (kepada laki-laki) atau \"bitishtaghali ēh?\" (kepada perempuan); jawabannya \"bāshtaghal mudarris\" (guru laki-laki) atau \"bāshtaghal mudarrisa\" (guru perempuan)."
+      }
+    },
+    "items": [
+      {
+        "id": "eg03n1",
+        "target": "اسمي",
+        "translit": "ismi",
+        "tr": {
+          "ar": "اسمي هو",
+          "en": "my name is",
+          "id": "nama saya"
+        },
+        "example": {
+          "target": "اسمي محمد",
+          "translit": "ismi muḥammad",
+          "tr": {
+            "ar": "اسمي محمد",
+            "en": "My name is Mohamed",
+            "id": "Nama saya Mohamed"
+          }
+        },
+        "hint": {
+          "ar": "تدل الياء في آخر الاسم على «ي» (ملكية المتكلم): ism + i = ismi.",
+          "en": "The ending -i means \"my\": ism + i = ismi.",
+          "id": "Akhiran -i berarti \"-ku\": ism + i = ismi."
+        }
+      },
+      {
+        "id": "eg03n2",
+        "target": "اسمك إيه",
+        "translit": "ismak ēh",
+        "tr": {
+          "ar": "ما اسمك؟ (للرجل)",
+          "en": "what is your name? (to a man)",
+          "id": "siapa namamu? (kepada laki-laki)"
+        },
+        "example": {
+          "target": "اسمك إيه يا فندم؟",
+          "translit": "ismak ēh yā fandim?",
+          "tr": {
+            "ar": "ما اسمك يا سيدي؟",
+            "en": "What is your name, sir?",
+            "id": "Siapa nama Anda, Pak?"
+          }
+        },
+        "hint": {
+          "ar": "للمرأة: اسمك إيه ismik ēh.",
+          "en": "To a woman: ismik ēh.",
+          "id": "Kepada perempuan: ismik ēh."
+        }
+      },
+      {
+        "id": "eg03n3",
+        "target": "أنا من مصر",
+        "translit": "ana min maṣr",
+        "tr": {
+          "ar": "أنا قادم (قادمة) من مصر",
+          "en": "I am from Egypt",
+          "id": "saya berasal dari Mesir"
+        },
+        "example": {
+          "target": "أنا من القاهرة",
+          "translit": "ana min il-ʾāhira",
+          "tr": {
+            "ar": "أنا من القاهرة",
+            "en": "I am from Cairo",
+            "id": "Saya dari Kairo"
+          }
+        },
+        "hint": {
+          "ar": "«من» تدل على الأصل والمنشأ؛ بعدها اسم البلد أو المدينة.",
+          "en": "\"min\" means \"from\"; the name of a country or city follows it.",
+          "id": "\"min\" berarti \"dari\"; setelahnya nama negara atau kota."
+        }
+      },
+      {
+        "id": "eg03n4",
+        "target": "إنت منين؟",
+        "translit": "inta minēn?",
+        "tr": {
+          "ar": "من أين أنت؟ (للرجل)",
+          "en": "where are you from? (to a man)",
+          "id": "kamu dari mana? (kepada laki-laki)"
+        },
+        "example": {
+          "target": "إنت منين يا علي؟",
+          "translit": "inta minēn yā ʿali?",
+          "tr": {
+            "ar": "من أين أنت يا علي؟",
+            "en": "Where are you from, Ali?",
+            "id": "Kamu dari mana, Ali?"
+          }
+        },
+        "hint": {
+          "ar": "للمرأة: إنتي منين inti minēn.",
+          "en": "To a woman: inti minēn.",
+          "id": "Kepada perempuan: inti minēn."
+        }
+      },
+      {
+        "id": "eg03n5",
+        "target": "فرصة سعيدة",
+        "translit": "furṣa saʿīda",
+        "tr": {
+          "ar": "تشرفت بمعرفتك",
+          "en": "nice to meet you",
+          "id": "senang bertemu denganmu"
+        },
+        "example": {
+          "target": "أهلا، فرصة سعيدة",
+          "translit": "ahlan, furṣa saʿīda",
+          "tr": {
+            "ar": "أهلًا، تشرفت بمعرفتك",
+            "en": "Hello, nice to meet you",
+            "id": "Halo, senang bertemu denganmu"
+          }
+        },
+        "hint": {
+          "ar": "تُقال عند اللقاء الأول.",
+          "en": "Said at a first meeting.",
+          "id": "Diucapkan saat pertemuan pertama."
+        }
+      },
+      {
+        "id": "eg03n6",
+        "target": "بتشتغل إيه؟",
+        "translit": "bitishtaghal ēh?",
+        "tr": {
+          "ar": "ماذا تعمل؟ (للرجل)",
+          "en": "what do you do for work? (to a man)",
+          "id": "bekerja sebagai apa? (kepada laki-laki)"
+        },
+        "example": {
+          "target": "إنت بتشتغل إيه؟",
+          "translit": "inta bitishtaghal ēh?",
+          "tr": {
+            "ar": "ماذا تعمل؟",
+            "en": "What do you do?",
+            "id": "Kamu bekerja sebagai apa?"
+          }
+        },
+        "hint": {
+          "ar": "للمرأة: بتشتغلي إيه bitishtaghali ēh.",
+          "en": "To a woman: bitishtaghali ēh.",
+          "id": "Kepada perempuan: bitishtaghali ēh."
+        }
+      },
+      {
+        "id": "eg03n7",
+        "target": "باشتغل مدرس",
+        "translit": "bāshtaghal mudarris",
+        "tr": {
+          "ar": "أعمل مدرسًا",
+          "en": "I work as a teacher",
+          "id": "saya bekerja sebagai guru"
+        },
+        "example": {
+          "target": "أنا باشتغل مدرس في مدرسة",
+          "translit": "ana bāshtaghal mudarris fi madrasa",
+          "tr": {
+            "ar": "أعمل مدرسًا في مدرسة",
+            "en": "I work as a teacher in a school",
+            "id": "Saya bekerja sebagai guru di sebuah sekolah"
+          }
+        },
+        "hint": {
+          "ar": "المرأة تقول باشتغل مدرسة bāshtaghal mudarrisa.",
+          "en": "A woman says bāshtaghal mudarrisa.",
+          "id": "Perempuan berkata bāshtaghal mudarrisa."
+        }
+      }
+    ],
+    "cloze": [
+      {
+        "sentence": "اسمك ___؟ اسمي سارة",
+        "answer": "إيه",
+        "wrong": [
+          "منين",
+          "شكرا"
+        ],
+        "tr": {
+          "ar": "ما اسمك؟ اسمي سارة",
+          "en": "What is your name? My name is Sara",
+          "id": "Siapa namamu? Namaku Sara"
+        },
+        "why": {
+          "ar": "السؤال عن الاسم هو «اسمك إيه؟»؛ «منين» للسؤال عن البلد.",
+          "en": "The name question is \"ismak ēh?\"; \"minēn\" asks about the place of origin.",
+          "id": "Pertanyaan nama adalah \"ismak ēh?\"; \"minēn\" menanyakan asal."
+        }
+      },
+      {
+        "sentence": "إنت ___؟ أنا من إسكندرية",
+        "answer": "منين",
+        "wrong": [
+          "بكام",
+          "مع السلامة"
+        ],
+        "tr": {
+          "ar": "من أين أنت؟ أنا من الإسكندرية",
+          "en": "Where are you from? I am from Alexandria",
+          "id": "Kamu dari mana? Saya dari Alexandria"
+        },
+        "why": {
+          "ar": "الجواب «أنا من إسكندرية» يناسب السؤال «إنت منين؟»؛ «بكام» تسأل عن السعر.",
+          "en": "The answer \"ana min iskindiriyya\" fits \"inta minēn?\"; \"bikām\" asks for a price.",
+          "id": "Jawaban \"ana min iskindiriyya\" cocok untuk \"inta minēn?\"; \"bikām\" menanyakan harga."
+        }
+      }
+    ],
+    "conversation": {
+      "context": {
+        "ar": "شخصان يتعارفان لأول مرة.",
+        "en": "Two people meet for the first time.",
+        "id": "Dua orang berkenalan untuk pertama kali."
+      },
+      "turns": [
+        {
+          "who": "A",
+          "target": "أهلا، اسمك إيه؟",
+          "tr": {
+            "ar": "أهلًا، ما اسمك؟",
+            "en": "Hello, what is your name?",
+            "id": "Halo, siapa namamu?"
+          }
+        },
+        {
+          "who": "B",
+          "target": "اسمي مريم، وإنت؟",
+          "tr": {
+            "ar": "اسمي مريم، وأنت؟",
+            "en": "My name is Mariam, and you?",
+            "id": "Namaku Mariam, dan kamu?"
+          }
+        },
+        {
+          "who": "A",
+          "target": "اسمي سامي، فرصة سعيدة",
+          "tr": {
+            "ar": "اسمي سامي، تشرفت بمعرفتك",
+            "en": "My name is Sami, nice to meet you",
+            "id": "Namaku Sami, senang bertemu denganmu"
+          }
+        }
+      ],
+      "gap": 1,
+      "wrong": [
+        "أنا كويس الحمد لله",
+        "بكام ده؟"
+      ],
+      "why": {
+        "ar": "السؤال عن الاسم يُجاب بالاسم: «اسمي مريم». الجملتان الأخريان إجابة عن الحال وسؤال عن السعر.",
+        "en": "A question about the name is answered with the name: \"ismi maryam\". The other replies answer how someone is and ask a price.",
+        "id": "Pertanyaan nama dijawab dengan nama: \"ismi maryam\". Dua jawaban lain menjawab kabar dan menanyakan harga."
+      }
+    },
+    "summary": {
+      "ar": "تعلمنا أن نقول اسمنا وبلدنا وعملنا، وأن نسأل «اسمك إيه؟» و«إنت منين؟» و«بتشتغل إيه؟»، وأن نقول «فرصة سعيدة».",
+      "en": "You learned to say your name, country and job, to ask \"ismak ēh?\", \"inta minēn?\" and \"bitishtaghal ēh?\", and to say \"furṣa saʿīda\".",
+      "id": "Kamu belajar menyebut nama, negara, dan pekerjaan, bertanya \"ismak ēh?\", \"inta minēn?\", dan \"bitishtaghal ēh?\", serta mengucapkan \"furṣa saʿīda\"."
+    }
+  },
+  {
+    "id": "eg-04",
+    "track": "eg",
+    "level": "beginner",
+    "order": 4,
+    "topic": "numbers",
+    "icon": "🔢",
+    "title": {
+      "ar": "الأرقام من ١ إلى ١٠ والعمر",
+      "en": "Numbers 1-10 and Age",
+      "id": "Angka 1-10 dan Usia"
+    },
+    "description": {
+      "ar": "العدّ من واحد إلى عشرة والسؤال عن العمر بالمصرية.",
+      "en": "Counting from one to ten and asking about age in Egyptian Arabic.",
+      "id": "Berhitung dari satu sampai sepuluh dan menanyakan usia dalam bahasa Arab Mesir."
+    },
+    "objectives": [
+      {
+        "ar": "أستطيع أن أعدّ من واحد إلى عشرة: wāḥid, itnēn, talāta ... ʿashara.",
+        "en": "I can count from one to ten: wāḥid, itnēn, talāta ... ʿashara.",
+        "id": "Saya bisa berhitung dari satu sampai sepuluh: wāḥid, itnēn, talāta ... ʿashara."
+      },
+      {
+        "ar": "أستطيع أن أسأل «عندك كام سنة؟».",
+        "en": "I can ask \"ʿandak kām sana?\".",
+        "id": "Saya bisa bertanya \"ʿandak kām sana?\"."
+      },
+      {
+        "ar": "أستطيع أن أخبر عن عمري بقول «عندي ... سنة».",
+        "en": "I can state my age with \"ʿandi ... sana\".",
+        "id": "Saya bisa menyebut usia saya dengan \"ʿandi ... sana\"."
+      }
+    ],
+    "intro": {
+      "ar": "الأرقام من واحد إلى عشرة هي: واحد wāḥid، اتنين itnēn، تلاتة talāta، أربعة arbaʿa، خمسة khamsa، ستة sitta، سبعة sabʿa، تمانية tamanya، تسعة tisʿa، عشرة ʿashara. نتعلمها في أزواج، ثم نتعلم كيف نسأل عن العمر ونجيب.",
+      "en": "The numbers from one to ten are: wāḥid, itnēn, talāta, arbaʿa, khamsa, sitta, sabʿa, tamanya, tisʿa, ʿashara. You learn them in pairs, then learn how to ask about age and answer.",
+      "id": "Angka satu sampai sepuluh adalah: wāḥid, itnēn, talāta, arbaʿa, khamsa, sitta, sabʿa, tamanya, tisʿa, ʿashara. Kamu mempelajarinya berpasangan, lalu belajar menanyakan dan menjawab usia."
+    },
+    "culture": {
+      "ar": "كثيرًا ما تُكتب الأرقام في مصر بالأرقام العربية الشرقية (١ ٢ ٣) إلى جانب الأرقام اللاتينية، فمن المفيد أن تتعرف على الشكلين. وقد لا يُعدّ السؤال عن العمر عيبًا بين الأصدقاء والزملاء، لكن اسأله بلطف.",
+      "en": "In Egypt numbers are often written with the Eastern Arabic (Arabic-Indic) digits as well as the Western ones, so it helps to recognise both. Asking age is usually not rude among friends and colleagues, but ask kindly.",
+      "id": "Di Mesir angka sering ditulis dengan angka Arab Timur (Arab-India) selain angka Latin, jadi ada gunanya mengenali keduanya. Menanyakan usia biasanya tidak dianggap kasar di antara teman dan rekan kerja, tetapi tanyakan dengan ramah."
+    },
+    "grammar": {
+      "title": {
+        "ar": "«عندي» للعمر والعدد بعد الاسم",
+        "en": "\"ʿandi\" for age and numbers with nouns",
+        "id": "\"ʿandi\" untuk usia dan angka dengan kata benda"
+      },
+      "body": {
+        "ar": "نعبّر عن العمر بـ«عندي» + العدد + «سنة»: عندي عشرين سنة. وللسؤال: عندك كام سنة؟. والأعداد من ٣ إلى ١٠ تأتي قبل الاسم الجمع: سبعة أيام sabʿat ayyām. وللاثنين نستعمل المثنى غالبًا: أختين ukhtēn، سنتين sanatēn.",
+        "en": "Age is expressed with ʿandi + number + sana: ʿandi ʿishrīn sana. To ask: ʿandak kām sana? Numbers 3 to 10 come before a plural noun: sabʿat ayyām. For two we usually use the dual ending: ukhtēn (two sisters), sanatēn (two years).",
+        "id": "Usia dinyatakan dengan ʿandi + angka + sana: ʿandi ʿishrīn sana. Untuk bertanya: ʿandak kām sana? Angka 3 sampai 10 datang sebelum kata benda jamak: sabʿat ayyām. Untuk dua biasanya dipakai bentuk ganda: ukhtēn (dua saudari), sanatēn (dua tahun)."
+      }
+    },
+    "items": [
+      {
+        "id": "eg04n1",
+        "target": "واحد، اتنين",
+        "translit": "wāḥid, itnēn",
+        "tr": {
+          "ar": "واحد، اثنان",
+          "en": "one, two",
+          "id": "satu, dua"
+        },
+        "example": {
+          "target": "عايز واحد شاي واتنين قهوة",
+          "translit": "ʿāyiz wāḥid shāy w-itnēn ʾahwa",
+          "tr": {
+            "ar": "أريد شايًا واحدًا وقهوتين",
+            "en": "I want one tea and two coffees",
+            "id": "Saya mau satu teh dan dua kopi"
+          }
+        },
+        "hint": {
+          "ar": "«اتنين» تبدأ بكسرة خفيفة وتُنطق itnēn.",
+          "en": "\"itnēn\" starts with a light i and is said itnēn.",
+          "id": "\"itnēn\" diawali i ringan dan diucapkan itnēn."
+        }
+      },
+      {
+        "id": "eg04n2",
+        "target": "تلاتة، أربعة",
+        "translit": "talāta, arbaʿa",
+        "tr": {
+          "ar": "ثلاثة، أربعة",
+          "en": "three, four",
+          "id": "tiga, empat"
+        },
+        "example": {
+          "target": "ده رقم تلاتة وده رقم أربعة",
+          "translit": "da raʾam talāta w-da raʾam arbaʿa",
+          "tr": {
+            "ar": "هذا رقم ثلاثة وهذا رقم أربعة",
+            "en": "This is number three and that is number four",
+            "id": "Ini nomor tiga dan itu nomor empat"
+          }
+        },
+        "hint": {
+          "ar": "نقول talāta بالتاء كما في الدرس الأول.",
+          "en": "Say talāta with t, as in the first lesson.",
+          "id": "Ucapkan talāta dengan t, seperti pada pelajaran pertama."
+        }
+      },
+      {
+        "id": "eg04n3",
+        "target": "خمسة، ستة",
+        "translit": "khamsa, sitta",
+        "tr": {
+          "ar": "خمسة، ستة (٥ ، ٦)",
+          "en": "five, six",
+          "id": "lima, enam"
+        },
+        "example": {
+          "target": "إحنا خمسة أو ستة",
+          "translit": "iḥna khamsa aw sitta",
+          "tr": {
+            "ar": "نحن خمسة أو ستة",
+            "en": "We are five or six",
+            "id": "Kami berlima atau berenam"
+          }
+        },
+        "hint": {
+          "ar": "«إحنا» تعني «نحن».",
+          "en": "iḥna means \"we\".",
+          "id": "iḥna berarti \"kami/kita\"."
+        }
+      },
+      {
+        "id": "eg04n4",
+        "target": "سبعة، تمانية",
+        "translit": "sabʿa, tamanya",
+        "tr": {
+          "ar": "سبعة، ثمانية",
+          "en": "seven, eight",
+          "id": "tujuh, delapan"
+        },
+        "example": {
+          "target": "الأسبوع فيه سبعة أيام",
+          "translit": "il-usbūʿ fīh sabʿat ayyām",
+          "tr": {
+            "ar": "في الأسبوع سبعة أيام",
+            "en": "There are seven days in a week",
+            "id": "Seminggu ada tujuh hari"
+          }
+        },
+        "hint": {
+          "ar": "الثاء في ثمانية تصير t: tamanya.",
+          "en": "The th of \"thamāniya\" becomes t: tamanya.",
+          "id": "Th pada \"thamāniya\" menjadi t: tamanya."
+        }
+      },
+      {
+        "id": "eg04n5",
+        "target": "تسعة، عشرة",
+        "translit": "tisʿa, ʿashara",
+        "tr": {
+          "ar": "تسعة، عشرة (٩ ، ١٠)",
+          "en": "nine, ten",
+          "id": "sembilan, sepuluh"
+        },
+        "example": {
+          "target": "عندي تسعة أو عشرة جنيه",
+          "translit": "ʿandi tisʿa aw ʿashara ginēh",
+          "tr": {
+            "ar": "عندي تسعة أو عشرة جنيهات",
+            "en": "I have nine or ten pounds",
+            "id": "Saya punya sembilan atau sepuluh pound"
+          }
+        },
+        "hint": {
+          "ar": "غالبًا ما نقول «جنيه» بالمفرد بعد العدد: عشرة جنيه.",
+          "en": "After a number we often keep ginēh in the singular: ʿashara ginēh.",
+          "id": "Setelah angka, ginēh sering tetap dalam bentuk tunggal: ʿashara ginēh."
+        }
+      },
+      {
+        "id": "eg04n6",
+        "target": "عندك كام سنة؟",
+        "translit": "ʿandak kām sana?",
+        "tr": {
+          "ar": "كم عمرك؟ (للرجل)",
+          "en": "how old are you? (to a man)",
+          "id": "berapa usiamu? (kepada laki-laki)"
+        },
+        "example": {
+          "target": "عندك كام سنة يا سامي؟",
+          "translit": "ʿandak kām sana yā sāmi?",
+          "tr": {
+            "ar": "كم عمرك يا سامي؟",
+            "en": "How old are you, Sami?",
+            "id": "Berapa usiamu, Sami?"
+          }
+        },
+        "hint": {
+          "ar": "للمرأة: عندِك كام سنة ʿandik kām sana؟",
+          "en": "To a woman: ʿandik kām sana?",
+          "id": "Kepada perempuan: ʿandik kām sana?"
+        }
+      },
+      {
+        "id": "eg04n7",
+        "target": "عندي عشرين سنة",
+        "translit": "ʿandi ʿishrīn sana",
+        "tr": {
+          "ar": "عمري عشرون سنة",
+          "en": "I am twenty years old",
+          "id": "saya berusia dua puluh tahun"
+        },
+        "example": {
+          "target": "أنا عندي تلاتين سنة",
+          "translit": "ana ʿandi talatīn sana",
+          "tr": {
+            "ar": "عمري ثلاثون سنة",
+            "en": "I am thirty years old",
+            "id": "Usia saya tiga puluh tahun"
+          }
+        },
+        "hint": {
+          "ar": "نضع العدد بعد «عندي» ثم «سنة».",
+          "en": "Put the number after ʿandi, then sana.",
+          "id": "Letakkan angka setelah ʿandi, lalu sana."
+        }
+      }
+    ],
+    "cloze": [
+      {
+        "sentence": "عندي عشرين ___",
+        "answer": "سنة",
+        "wrong": [
+          "شكرا",
+          "لو سمحت"
+        ],
+        "tr": {
+          "ar": "عمري عشرون سنة.",
+          "en": "I am twenty years old.",
+          "id": "Usia saya dua puluh tahun."
+        },
+        "why": {
+          "ar": "نذكر العمر بـ«سنة»؛ الشكر والاستئذان لا يصحان بعد العدد.",
+          "en": "Age takes \"sana\"; thanks and excuses do not follow a number.",
+          "id": "Usia memakai \"sana\"; terima kasih dan permisi tidak cocok setelah angka."
+        }
+      },
+      {
+        "sentence": "الأسبوع فيه سبعة ___",
+        "answer": "أيام",
+        "wrong": [
+          "شكرا",
+          "اسم"
+        ],
+        "tr": {
+          "ar": "في الأسبوع سبعة أيام.",
+          "en": "There are seven days in a week.",
+          "id": "Seminggu ada tujuh hari."
+        },
+        "why": {
+          "ar": "الأسبوع فيه سبعة أيام ayyām؛ «شكرا» و«اسم» لا معنى لهما هنا.",
+          "en": "A week has seven days; \"thanks\" and \"name\" make no sense here.",
+          "id": "Seminggu punya tujuh hari; \"terima kasih\" dan \"nama\" tidak masuk akal di sini."
+        }
+      }
+    ],
+    "conversation": {
+      "context": {
+        "ar": "زميلان يتعارفان.",
+        "en": "Two colleagues get to know each other.",
+        "id": "Dua rekan saling mengenal."
+      },
+      "turns": [
+        {
+          "who": "A",
+          "target": "عندك كام سنة؟",
+          "tr": {
+            "ar": "كم عمرك؟",
+            "en": "How old are you?",
+            "id": "Berapa usiamu?"
+          }
+        },
+        {
+          "who": "B",
+          "target": "عندي تلاتين سنة، وإنت؟",
+          "tr": {
+            "ar": "عمري ثلاثون سنة، وأنت؟",
+            "en": "I am thirty, and you?",
+            "id": "Usia saya tiga puluh, dan kamu?"
+          }
+        },
+        {
+          "who": "A",
+          "target": "أنا عندي خمسة وعشرين",
+          "tr": {
+            "ar": "عمري خمس وعشرون سنة",
+            "en": "I am twenty-five",
+            "id": "Usia saya dua puluh lima"
+          }
+        }
+      ],
+      "gap": 1,
+      "wrong": [
+        "الساعة خمسة",
+        "اسمي سامي"
+      ],
+      "why": {
+        "ar": "السؤال عن العمر يُجاب بالعمر: «عندي تلاتين سنة». أما الساعة والاسم فلا يجيبان عن «كم».",
+        "en": "A question about age is answered with an age: \"ʿandi talatīn sana\". A time or a name does not answer \"how many\".",
+        "id": "Pertanyaan usia dijawab dengan usia: \"ʿandi talatīn sana\". Jam atau nama tidak menjawab \"berapa\"."
+      }
+    },
+    "summary": {
+      "ar": "تعلمنا الأرقام من واحد إلى عشرة، وسؤال العمر «عندك كام سنة؟» والجواب «عندي ... سنة».",
+      "en": "You learned the numbers from one to ten, how to ask \"ʿandak kām sana?\" and how to answer \"ʿandi ... sana\".",
+      "id": "Kamu belajar angka satu sampai sepuluh, cara bertanya \"ʿandak kām sana?\", dan menjawab \"ʿandi ... sana\"."
+    }
+  },
+  {
+    "id": "eg-05",
+    "track": "eg",
+    "level": "beginner",
+    "order": 5,
+    "topic": "family",
+    "icon": "👨‍👩‍👧",
+    "title": {
+      "ar": "العائلة",
+      "en": "Family",
+      "id": "Keluarga"
+    },
+    "description": {
+      "ar": "أفراد العائلة والحديث عن الأهل بالمصرية.",
+      "en": "Family members and talking about your relatives in Egyptian Arabic.",
+      "id": "Anggota keluarga dan berbicara tentang kerabat dalam bahasa Arab Mesir."
+    },
+    "objectives": [
+      {
+        "ar": "أستطيع أن أسمّي أفراد الأسرة: أبويا، أمي، أخويا، أختي.",
+        "en": "I can name family members: abūya, ummi, akhūya, ukhti.",
+        "id": "Saya bisa menyebut anggota keluarga: abūya, ummi, akhūya, ukhti."
+      },
+      {
+        "ar": "أستطيع أن أتحدث عن الجد والجدة والأسرة.",
+        "en": "I can talk about my grandfather, grandmother and family.",
+        "id": "Saya bisa berbicara tentang kakek, nenek, dan keluarga."
+      },
+      {
+        "ar": "أستطيع أن أسأل «عندك إخوات؟» وأجيب.",
+        "en": "I can ask \"ʿandak ikhwāt?\" and answer.",
+        "id": "Saya bisa bertanya \"ʿandak ikhwāt?\" dan menjawab."
+      }
+    ],
+    "intro": {
+      "ar": "للأسرة مكانة كبيرة في الحياة المصرية، وكثيرًا ما يسأل المصريون عن أسرتك. في هذا الدرس ثماني عبارات لتتحدث عن أهلك. ويضاف إلى الاسم ضمير الملكية: ـي (ي) أو ـيا بعد المدّ.",
+      "en": "Family matters a great deal in Egyptian life, and people often ask about yours. This lesson gives you eight phrases to talk about your relatives. A possessive ending is added to the noun: -i (my) or -ya after a long vowel.",
+      "id": "Keluarga sangat penting dalam kehidupan orang Mesir, dan mereka sering menanyakan keluargamu. Pelajaran ini memberi delapan ungkapan untuk berbicara tentang kerabat. Akhiran kepemilikan ditambahkan pada kata benda: -i (-ku) atau -ya setelah vokal panjang."
+    },
+    "culture": {
+      "ar": "الروابط العائلية غالبًا قوية، وتجتمع الأسرة كثيرًا على الغداء يوم الجمعة. وكثيرًا ما تُستعمل كلمات القرابة في المخاطبة الودية. وسؤالك عن أسرة الآخر يُعدّ دلالة اهتمام وأدب.",
+      "en": "Family ties are often strong, and families often get together for a meal, especially on Fridays. Kinship words are also used in friendly address. Asking about someone's family is a sign of interest and good manners.",
+      "id": "Ikatan keluarga biasanya kuat, dan keluarga sering berkumpul untuk makan bersama, terutama pada hari Jumat. Kata-kata kekerabatan juga dipakai dalam sapaan akrab. Menanyakan keluarga orang lain adalah tanda perhatian dan sopan santun."
+    },
+    "grammar": {
+      "title": {
+        "ar": "ياء الملكية",
+        "en": "The possessive ending",
+        "id": "Akhiran kepemilikan"
+      },
+      "body": {
+        "ar": "نضيف ـي للدلالة على «ي» بعد الصامت: أمي ummi، أختي ukhti، عيلتي ʿēlti. وبعد حرف المدّ نضيف ـيا: أبويا abūya، أخويا akhūya. وتتغير الكلمة قليلًا: أب ab ← أبويا، أخ akh ← أخويا.",
+        "en": "After a consonant we add -i to mean \"my\": ummi, ukhti, ʿēlti. After a long vowel we add -ya: abūya, akhūya. The word changes a little: ab becomes abūya and akh becomes akhūya.",
+        "id": "Setelah konsonan ditambahkan -i untuk \"-ku\": ummi, ukhti, ʿēlti. Setelah vokal panjang ditambahkan -ya: abūya, akhūya. Kata berubah sedikit: ab menjadi abūya dan akh menjadi akhūya."
+      }
+    },
+    "items": [
+      {
+        "id": "eg05n1",
+        "target": "أبويا",
+        "translit": "abūya",
+        "tr": {
+          "ar": "أبي",
+          "en": "my father",
+          "id": "ayah saya"
+        },
+        "example": {
+          "target": "أبويا بيشتغل في مستشفى",
+          "translit": "abūya biyishtaghal fi mustashfa",
+          "tr": {
+            "ar": "أبي يعمل في مستشفى",
+            "en": "My father works in a hospital",
+            "id": "Ayah saya bekerja di rumah sakit"
+          }
+        },
+        "hint": {
+          "ar": "نقول أيضًا بابا bāba عند مناداته.",
+          "en": "When calling him you can also say bāba.",
+          "id": "Saat memanggilnya juga bisa mengatakan bāba."
+        }
+      },
+      {
+        "id": "eg05n2",
+        "target": "أمي",
+        "translit": "ummi",
+        "tr": {
+          "ar": "والدتي",
+          "en": "my mother",
+          "id": "ibu saya"
+        },
+        "example": {
+          "target": "أمي بتعمل أكل حلو قوي",
+          "translit": "ummi bitiʿmil akl ḥilw ʾawi",
+          "tr": {
+            "ar": "أمي تُعدّ طعامًا لذيذًا جدًّا",
+            "en": "My mother makes really good food",
+            "id": "Ibu saya membuat masakan yang enak sekali"
+          }
+        },
+        "hint": {
+          "ar": "عند المناداة نقول ماما māma.",
+          "en": "When calling her you can say māma.",
+          "id": "Saat memanggil bisa mengatakan māma."
+        }
+      },
+      {
+        "id": "eg05n3",
+        "target": "أخويا",
+        "translit": "akhūya",
+        "tr": {
+          "ar": "أخي",
+          "en": "my brother",
+          "id": "saudara laki-laki saya"
+        },
+        "example": {
+          "target": "أخويا أكبر مني",
+          "translit": "akhūya akbar minni",
+          "tr": {
+            "ar": "أخي أكبر مني",
+            "en": "My brother is older than me",
+            "id": "Kakak laki-laki saya lebih tua dari saya"
+          }
+        },
+        "hint": {
+          "ar": "الأكثر شيوعًا في المصرية أن نقول أخويا بدل أخي.",
+          "en": "In Egyptian speech akhūya is the usual form rather than akhi.",
+          "id": "Dalam percakapan Mesir bentuk yang lazim adalah akhūya, bukan akhi."
+        }
+      },
+      {
+        "id": "eg05n4",
+        "target": "أختي",
+        "translit": "ukhti",
+        "tr": {
+          "ar": "شقيقتي",
+          "en": "my sister",
+          "id": "saudari saya"
+        },
+        "example": {
+          "target": "أختي اسمها منى",
+          "translit": "ukhti ismaha mona",
+          "tr": {
+            "ar": "اسم أختي منى",
+            "en": "My sister's name is Mona",
+            "id": "Nama saudari saya Mona"
+          }
+        },
+        "hint": {
+          "ar": "«اسمها» ismaha تدل على اسم المرأة التي نتحدث عنها.",
+          "en": "ismaha means \"her name\".",
+          "id": "ismaha berarti \"namanya (perempuan)\"."
+        }
+      },
+      {
+        "id": "eg05n5",
+        "target": "جدي",
+        "translit": "gaddi",
+        "tr": {
+          "ar": "جدّي",
+          "en": "my grandfather",
+          "id": "kakek saya"
+        },
+        "example": {
+          "target": "جدي عنده سبعين سنة",
+          "translit": "gaddi ʿandu sabʿīn sana",
+          "tr": {
+            "ar": "عمر جدي سبعون سنة",
+            "en": "My grandfather is seventy years old",
+            "id": "Usia kakek saya tujuh puluh tahun"
+          }
+        },
+        "hint": {
+          "ar": "الجيم g كما في الدرس الأول.",
+          "en": "The jim is a hard g, as in the first lesson.",
+          "id": "Jim berbunyi g, seperti pada pelajaran pertama."
+        }
+      },
+      {
+        "id": "eg05n6",
+        "target": "تيتة",
+        "translit": "tēta",
+        "tr": {
+          "ar": "جدتي",
+          "en": "grandma",
+          "id": "nenek"
+        },
+        "example": {
+          "target": "تيتة عايشة في إسكندرية",
+          "translit": "tēta ʿāysha fi iskindiriyya",
+          "tr": {
+            "ar": "جدتي تسكن في الإسكندرية",
+            "en": "Grandma lives in Alexandria",
+            "id": "Nenek tinggal di Alexandria"
+          }
+        },
+        "hint": {
+          "ar": "كلمة محببة للجدة تُستعمل في البيت، وتُسمع أيضًا ستي sitti.",
+          "en": "A warm word for grandmother used at home; you may also hear sitti.",
+          "id": "Kata sayang untuk nenek yang dipakai di rumah; kadang juga terdengar sitti."
+        }
+      },
+      {
+        "id": "eg05n7",
+        "target": "عيلتي",
+        "translit": "ʿēlti",
+        "tr": {
+          "ar": "أسرتي",
+          "en": "my family",
+          "id": "keluarga saya"
+        },
+        "example": {
+          "target": "عيلتي كبيرة",
+          "translit": "ʿēlti kibīra",
+          "tr": {
+            "ar": "أسرتي كبيرة",
+            "en": "My family is big",
+            "id": "Keluarga saya besar"
+          }
+        },
+        "hint": {
+          "ar": "«عيلة» ʿēla هي المصرية لـ«عائلة»؛ تسقط الهمزة ويصير الصوت ē.",
+          "en": "ʿēla is the Egyptian form of MSA ʿāʾila: the hamza drops and the vowel becomes ē.",
+          "id": "ʿēla adalah bentuk Mesir dari ʿāʾila Arab Baku: hamzanya hilang dan vokalnya menjadi ē."
+        }
+      },
+      {
+        "id": "eg05n8",
+        "target": "عندك إخوات؟",
+        "translit": "ʿandak ikhwāt?",
+        "tr": {
+          "ar": "هل لديك إخوة؟ (للرجل)",
+          "en": "do you have siblings? (to a man)",
+          "id": "punya saudara? (kepada laki-laki)"
+        },
+        "example": {
+          "target": "عندك إخوات يا علي؟",
+          "translit": "ʿandak ikhwāt yā ʿali?",
+          "tr": {
+            "ar": "هل لديك إخوة يا علي؟",
+            "en": "Do you have siblings, Ali?",
+            "id": "Kamu punya saudara, Ali?"
+          }
+        },
+        "hint": {
+          "ar": "للمرأة: عندِك ʿandik إخوات؟",
+          "en": "To a woman: ʿandik ikhwāt?",
+          "id": "Kepada perempuan: ʿandik ikhwāt?"
+        }
+      }
+    ],
+    "cloze": [
+      {
+        "sentence": "أبويا بيشتغل في ___",
+        "answer": "مستشفى",
+        "wrong": [
+          "أخويا",
+          "جدي"
+        ],
+        "tr": {
+          "ar": "أبي يعمل في مستشفى.",
+          "en": "My father works in a hospital.",
+          "id": "Ayah saya bekerja di rumah sakit."
+        },
+        "why": {
+          "ar": "بعد «في» يأتي مكان: مستشفى؛ أما أخويا وجدي فشخصان.",
+          "en": "\"fi\" is followed by a place: mustashfa; akhūya and gaddi are people.",
+          "id": "Setelah \"fi\" datang tempat: mustashfa; akhūya dan gaddi adalah orang."
+        }
+      },
+      {
+        "sentence": "عندك ___ يا علي؟",
+        "answer": "إخوات",
+        "wrong": [
+          "شكرا",
+          "مع السلامة"
+        ],
+        "tr": {
+          "ar": "هل لديك إخوة يا علي؟",
+          "en": "Do you have siblings, Ali?",
+          "id": "Kamu punya saudara, Ali?"
+        },
+        "why": {
+          "ar": "نسأل «عندك إخوات؟»؛ «شكرا» و«مع السلامة» لا تصلحان بعد «عندك».",
+          "en": "We ask \"ʿandak ikhwāt?\"; \"shukran\" and \"maʿa s-salāma\" do not fit after \"ʿandak\".",
+          "id": "Kita bertanya \"ʿandak ikhwāt?\"; \"shukran\" dan \"maʿa s-salāma\" tidak cocok setelah \"ʿandak\"."
+        }
+      }
+    ],
+    "conversation": {
+      "context": {
+        "ar": "صديقان يتحدثان عن الأسرة.",
+        "en": "Two friends talk about family.",
+        "id": "Dua teman berbicara tentang keluarga."
+      },
+      "turns": [
+        {
+          "who": "A",
+          "target": "عندك إخوات؟",
+          "tr": {
+            "ar": "هل لديك إخوة؟",
+            "en": "Do you have siblings?",
+            "id": "Kamu punya saudara?"
+          }
+        },
+        {
+          "who": "B",
+          "target": "أيوه، عندي أخ وأختين",
+          "tr": {
+            "ar": "نعم، عندي أخ وأختان",
+            "en": "Yes, I have one brother and two sisters",
+            "id": "Ya, saya punya satu saudara laki-laki dan dua saudari"
+          }
+        },
+        {
+          "who": "A",
+          "target": "ماشاء الله، عيلة كبيرة",
+          "tr": {
+            "ar": "ما شاء الله، أسرة كبيرة",
+            "en": "Mashallah, a big family",
+            "id": "Masyaallah, keluarga besar"
+          }
+        }
+      ],
+      "gap": 1,
+      "wrong": [
+        "اسمي سامي، فرصة سعيدة",
+        "الأكل ده حلو قوي"
+      ],
+      "why": {
+        "ar": "السؤال «عندك إخوات؟» يُجاب بـ«أيوه، عندي...». والجملتان الأخريان لا علاقة لهما بالسؤال.",
+        "en": "The question \"ʿandak ikhwāt?\" is answered with \"aywa, ʿandi...\". The other replies are unrelated.",
+        "id": "Pertanyaan \"ʿandak ikhwāt?\" dijawab dengan \"aywa, ʿandi...\". Dua jawaban lain tidak berkaitan."
+      }
+    },
+    "summary": {
+      "ar": "تعلمنا كلمات الأسرة: أبويا، أمي، أخويا، أختي، جدي، تيتة، عيلتي، وسؤال «عندك إخوات؟». وعرفنا ياء الملكية ـي/ـيا.",
+      "en": "You learned family words: abūya, ummi, akhūya, ukhti, gaddi, tēta, ʿēlti, plus the question \"ʿandak ikhwāt?\", and the possessive ending -i/-ya.",
+      "id": "Kamu belajar kata keluarga: abūya, ummi, akhūya, ukhti, gaddi, tēta, ʿēlti, serta pertanyaan \"ʿandak ikhwāt?\", dan akhiran kepemilikan -i/-ya."
+    }
+  },
+  {
+    "id": "eg-06",
+    "track": "eg",
+    "level": "beginner",
+    "order": 6,
+    "topic": "food",
+    "icon": "🍽️",
+    "title": {
+      "ar": "الأكل والطلب في المطعم",
+      "en": "Food and Ordering",
+      "id": "Makanan dan Memesan"
+    },
+    "description": {
+      "ar": "أن تطلب الطعام والشراب وتشكر وتطلب الحساب في مطعم مصري.",
+      "en": "Order food and drink, thank the cook and ask for the bill in an Egyptian restaurant.",
+      "id": "Memesan makanan dan minuman, berterima kasih, dan meminta tagihan di restoran Mesir."
+    },
+    "objectives": [
+      {
+        "ar": "أستطيع أن أقول «أنا عايز ...» وأطلب «مية» و«عيش» و«شاي».",
+        "en": "I can say \"ana ʿāyiz...\" and ask for water, bread and tea.",
+        "id": "Saya bisa mengatakan \"ana ʿāyiz...\" dan meminta air, roti, dan teh."
+      },
+      {
+        "ar": "أستطيع أن أقول «أنا جعان» و«الحساب لو سمحت».",
+        "en": "I can say \"ana gaʿān\" and \"il-ḥisāb law samaḥt\".",
+        "id": "Saya bisa mengatakan \"ana gaʿān\" dan \"il-ḥisāb law samaḥt\"."
+      },
+      {
+        "ar": "أستطيع أن أجامل الطباخ بقول «تسلم إيدك».",
+        "en": "I can compliment the cook with \"tislam īdak\".",
+        "id": "Saya bisa memuji juru masak dengan \"tislam īdak\"."
+      }
+    ],
+    "intro": {
+      "ar": "في هذا الدرس نتعلم عبارات الطلب في المطعم أو المقهى أو البيت. الكلمة المهمة هي «عايز» للرجل و«عايزة» للمرأة، وتعني «أريد».",
+      "en": "This lesson covers phrases for ordering in a restaurant, a cafe or at home. The key word is ʿāyiz for a man and ʿāyza for a woman, meaning \"I want\".",
+      "id": "Pelajaran ini membahas ungkapan untuk memesan di restoran, kafe, atau di rumah. Kata kuncinya ʿāyiz untuk laki-laki dan ʿāyza untuk perempuan, yang berarti \"saya mau\"."
+    },
+    "culture": {
+      "ar": "الفول والطعمية من أشهر وجبات الفطور في مصر، ويُسمى الخبز «عيش» وهي كلمة تعني «حياة» في الأصل. والشاي مشروب يومي عند كثيرين. وإذا أكلت عند أحد فمن اللطيف أن تقول للطباخ «تسلم إيدك».",
+      "en": "Ful and ta'amiyya are among the best-known breakfast foods in Egypt, and bread is called ʿēsh, a word that originally means \"life\". Tea is an everyday drink for many people. If you eat at someone's home it is kind to tell the cook \"tislam īdak\".",
+      "id": "Ful dan ta'amiyya termasuk sarapan paling terkenal di Mesir, dan roti disebut ʿēsh, kata yang aslinya berarti \"hidup\". Teh adalah minuman sehari-hari bagi banyak orang. Jika makan di rumah seseorang, sebaiknya ucapkan kepada juru masak \"tislam īdak\"."
+    },
+    "grammar": {
+      "title": {
+        "ar": "عايز وعايزة، وممكن",
+        "en": "ʿāyiz / ʿāyza, and mumkin",
+        "id": "ʿāyiz / ʿāyza dan mumkin"
+      },
+      "body": {
+        "ar": "الرجل يقول «أنا عايز شاي» والمرأة تقول «أنا عايزة شاي». وللطلب المهذب نبدأ بـ«ممكن» mumkin أي «هل يمكن»: ممكن مية؟. ونختم بـ«لو سمحت» لمزيد من الأدب.",
+        "en": "A man says ana ʿāyiz shāy and a woman says ana ʿāyza shāy. For a polite request begin with mumkin (\"is it possible\"): mumkin mayya? Finish with law samaḥt for extra politeness.",
+        "id": "Laki-laki berkata ana ʿāyiz shāy dan perempuan berkata ana ʿāyza shāy. Untuk permintaan sopan, mulailah dengan mumkin (\"mungkinkah\"): mumkin mayya? Akhiri dengan law samaḥt agar lebih sopan."
+      }
+    },
+    "items": [
+      {
+        "id": "eg06n1",
+        "target": "أنا عايز",
+        "translit": "ana ʿāyiz",
+        "tr": {
+          "ar": "أنا أريد",
+          "en": "I want (said by a man)",
+          "id": "saya mau (diucapkan laki-laki)"
+        },
+        "example": {
+          "target": "أنا عايز شاي لو سمحت",
+          "translit": "ana ʿāyiz shāy law samaḥt",
+          "tr": {
+            "ar": "أريد شايًا من فضلك",
+            "en": "I would like tea, please",
+            "id": "Saya mau teh, tolong"
+          }
+        },
+        "hint": {
+          "ar": "المرأة تقول أنا عايزة ʿāyza.",
+          "en": "A woman says ana ʿāyza.",
+          "id": "Perempuan berkata ana ʿāyza."
+        }
+      },
+      {
+        "id": "eg06n2",
+        "target": "مية",
+        "translit": "mayya",
+        "tr": {
+          "ar": "ماء",
+          "en": "water",
+          "id": "air"
+        },
+        "example": {
+          "target": "ممكن مية لو سمحت؟",
+          "translit": "mumkin mayya law samaḥt?",
+          "tr": {
+            "ar": "هل يمكن بعض الماء من فضلك؟",
+            "en": "May I have some water, please?",
+            "id": "Boleh minta air, tolong?"
+          }
+        },
+        "hint": {
+          "ar": "كلمة «ماء» الفصيحة صارت «مية» في المصرية.",
+          "en": "MSA mā' becomes mayya in Egyptian speech.",
+          "id": "Kata mā' Arab Baku menjadi mayya dalam bahasa Mesir."
+        }
+      },
+      {
+        "id": "eg06n3",
+        "target": "عيش",
+        "translit": "ʿēsh",
+        "tr": {
+          "ar": "خبز",
+          "en": "bread",
+          "id": "roti"
+        },
+        "example": {
+          "target": "عايز عيش وجبنة",
+          "translit": "ʿāyiz ʿēsh w-gibna",
+          "tr": {
+            "ar": "أريد خبزًا وجبنة",
+            "en": "I want bread and cheese",
+            "id": "Saya mau roti dan keju"
+          }
+        },
+        "hint": {
+          "ar": "«عيش» تعني في الأصل «حياة»، وهي الاسم المصري للخبز.",
+          "en": "The word means \"life\" and is the Egyptian name for bread.",
+          "id": "Kata ini berarti \"hidup\" dan merupakan nama roti dalam bahasa Mesir."
+        }
+      },
+      {
+        "id": "eg06n4",
+        "target": "فول",
+        "translit": "fūl",
+        "tr": {
+          "ar": "فول؛ الباقلاء المطبوخة",
+          "en": "fava beans (ful)",
+          "id": "kacang fava (ful)"
+        },
+        "example": {
+          "target": "الفول والطعمية فطار مصري",
+          "translit": "il-fūl wi-ṭ-ṭaʿmiyya fuṭār maṣri",
+          "tr": {
+            "ar": "الفول والطعمية فطور مصري",
+            "en": "Ful and ta'amiyya are an Egyptian breakfast",
+            "id": "Ful dan ta'amiyya adalah sarapan khas Mesir"
+          }
+        },
+        "hint": {
+          "ar": "الفول والطعمية يُؤكلان مع العيش.",
+          "en": "Ful and ta'amiyya are eaten with bread.",
+          "id": "Ful dan ta'amiyya dimakan bersama roti."
+        }
+      },
+      {
+        "id": "eg06n5",
+        "target": "شاي",
+        "translit": "shāy",
+        "tr": {
+          "ar": "شاي؛ مشروب الشاي",
+          "en": "tea",
+          "id": "teh"
+        },
+        "example": {
+          "target": "شاي بالنعناع لو سمحت",
+          "translit": "shāy bin-naʿnāʿ law samaḥt",
+          "tr": {
+            "ar": "شاي بالنعناع من فضلك",
+            "en": "Tea with mint, please",
+            "id": "Teh dengan mint, tolong"
+          }
+        },
+        "hint": {
+          "ar": "الباء في «بالنعناع» تعني «مع».",
+          "en": "The prefix bi- in bin-naʿnāʿ means \"with\".",
+          "id": "Awalan bi- pada bin-naʿnāʿ berarti \"dengan\"."
+        }
+      },
+      {
+        "id": "eg06n6",
+        "target": "جعان",
+        "translit": "gaʿān",
+        "tr": {
+          "ar": "جائع",
+          "en": "hungry",
+          "id": "lapar"
+        },
+        "example": {
+          "target": "أنا جعان قوي",
+          "translit": "ana gaʿān ʾawi",
+          "tr": {
+            "ar": "أنا جائع جدًّا",
+            "en": "I am really hungry",
+            "id": "Saya sangat lapar"
+          }
+        },
+        "hint": {
+          "ar": "المرأة تقول جعانة gaʿāna.",
+          "en": "A woman says gaʿāna.",
+          "id": "Perempuan berkata gaʿāna."
+        }
+      },
+      {
+        "id": "eg06n7",
+        "target": "الحساب لو سمحت",
+        "translit": "il-ḥisāb law samaḥt",
+        "tr": {
+          "ar": "الحساب من فضلك",
+          "en": "the bill, please",
+          "id": "tagihannya, tolong"
+        },
+        "example": {
+          "target": "ممكن الحساب؟ إحنا مستعجلين",
+          "translit": "mumkin il-ḥisāb? iḥna mistaʿgilīn",
+          "tr": {
+            "ar": "هل يمكن الحساب؟ نحن مستعجلون",
+            "en": "May we have the bill? We are in a hurry",
+            "id": "Boleh minta tagihan? Kami sedang buru-buru"
+          }
+        },
+        "hint": {
+          "ar": "نقولها للنادل في نهاية الأكل.",
+          "en": "Say it to the waiter at the end of the meal.",
+          "id": "Ucapkan kepada pelayan di akhir makan."
+        }
+      },
+      {
+        "id": "eg06n8",
+        "target": "تسلم إيدك",
+        "translit": "tislam īdak",
+        "tr": {
+          "ar": "سلمت يداك؛ شكرًا على الطعام",
+          "en": "thank you, well done (literally: may your hands be safe)",
+          "id": "terima kasih, enak sekali (secara harfiah: semoga tanganmu selamat)"
+        },
+        "example": {
+          "target": "الأكل حلو قوي، تسلم إيدك يا ماما",
+          "translit": "il-akl ḥilw ʾawi, tislam īdak yā māma",
+          "tr": {
+            "ar": "الطعام لذيذ جدًّا، شكرًا يا أمي",
+            "en": "The food is really good, thank you, Mum",
+            "id": "Makanannya enak sekali, terima kasih, Bu"
+          }
+        },
+        "hint": {
+          "ar": "للمرأة: تسلمي إيدك tislami īdik.",
+          "en": "To a woman: tislami īdik.",
+          "id": "Kepada perempuan: tislami īdik."
+        }
+      }
+    ],
+    "cloze": [
+      {
+        "sentence": "أنا ___ شاي لو سمحت",
+        "answer": "عايز",
+        "wrong": [
+          "جعان",
+          "شكرا"
+        ],
+        "tr": {
+          "ar": "أريد شايًا من فضلك.",
+          "en": "I would like tea, please.",
+          "id": "Saya mau teh, tolong."
+        },
+        "why": {
+          "ar": "للطلب نقول «أنا عايز» + المطلوب؛ «جعان» صفة ولا تأخذ مفعولًا.",
+          "en": "To order we say \"ana ʿāyiz\" + the item; \"gaʿān\" is an adjective and takes no object.",
+          "id": "Untuk memesan kita katakan \"ana ʿāyiz\" + barangnya; \"gaʿān\" adalah kata sifat dan tidak diikuti objek."
+        }
+      },
+      {
+        "sentence": "الأكل حلو قوي، ___ إيدك",
+        "answer": "تسلم",
+        "wrong": [
+          "صباح",
+          "اسمي"
+        ],
+        "tr": {
+          "ar": "الطعام لذيذ جدًّا، شكرًا لك.",
+          "en": "The food is really good, well done.",
+          "id": "Makanannya enak sekali, terima kasih."
+        },
+        "why": {
+          "ar": "نجامل الطباخ بـ«تسلم إيدك»؛ الكلمتان الأخريان لا تصلحان قبل «إيدك».",
+          "en": "We compliment the cook with \"tislam īdak\"; the other words do not fit before \"īdak\".",
+          "id": "Kita memuji juru masak dengan \"tislam īdak\"; kata lain tidak cocok sebelum \"īdak\"."
+        }
+      }
+    ],
+    "conversation": {
+      "context": {
+        "ar": "في مطعم، النادل يأخذ الطلب.",
+        "en": "In a restaurant, the waiter takes your order.",
+        "id": "Di restoran, pelayan mencatat pesanan."
+      },
+      "turns": [
+        {
+          "who": "A",
+          "target": "أهلا بحضرتك، تحب تطلب إيه؟",
+          "tr": {
+            "ar": "أهلًا بك، ماذا تحب أن تطلب؟",
+            "en": "Welcome, what would you like to order?",
+            "id": "Selamat datang, mau pesan apa?"
+          }
+        },
+        {
+          "who": "B",
+          "target": "عايز فول وعيش وشاي لو سمحت",
+          "tr": {
+            "ar": "أريد فولًا وخبزًا وشايًا من فضلك",
+            "en": "I would like ful, bread and tea, please",
+            "id": "Saya mau ful, roti, dan teh, tolong"
+          }
+        },
+        {
+          "who": "A",
+          "target": "حاضر، ثواني",
+          "tr": {
+            "ar": "حاضر، لحظات",
+            "en": "Right away, one moment",
+            "id": "Siap, sebentar"
+          }
+        }
+      ],
+      "gap": 1,
+      "wrong": [
+        "عندي تلاتين سنة",
+        "مع السلامة، شكرا"
+      ],
+      "why": {
+        "ar": "النادل سأل «تحب تطلب إيه؟» فالرد الطبيعي هو الطلب: «عايز فول...». أما العمر والوداع فلا يناسبان.",
+        "en": "The waiter asked \"what would you like to order?\", so the natural reply is an order: \"ʿāyiz fūl...\". An age or a goodbye does not fit.",
+        "id": "Pelayan bertanya \"mau pesan apa?\", jadi jawaban yang wajar adalah pesanan: \"ʿāyiz fūl...\". Usia atau perpisahan tidak cocok."
+      }
+    },
+    "summary": {
+      "ar": "تعلمنا أن نطلب بـ«عايز/عايزة» و«ممكن»، وكلمات مثل مية وعيش وفول وشاي وجعان، ثم الحساب و«تسلم إيدك».",
+      "en": "You learned to order with ʿāyiz/ʿāyza and mumkin, words like mayya, ʿēsh, fūl, shāy and gaʿān, then the bill and \"tislam īdak\".",
+      "id": "Kamu belajar memesan dengan ʿāyiz/ʿāyza dan mumkin, kata seperti mayya, ʿēsh, fūl, shāy, dan gaʿān, lalu tagihan dan \"tislam īdak\"."
+    }
+  },
+  {
+    "id": "eg-07",
+    "track": "eg",
+    "level": "elementary",
+    "order": 7,
+    "topic": "shopping",
+    "icon": "🛍️",
+    "title": {
+      "ar": "التسوق والأسعار",
+      "en": "Shopping and Prices",
+      "id": "Belanja dan Harga"
+    },
+    "description": {
+      "ar": "أن تسأل «بكام؟» وتتحدث عن الغلاء والرخص والخصم بالمصرية.",
+      "en": "Ask \"bikām?\" and talk about expensive, cheap and discounts in Egyptian Arabic.",
+      "id": "Menanyakan \"bikām?\" dan berbicara tentang mahal, murah, dan diskon dalam bahasa Arab Mesir."
+    },
+    "objectives": [
+      {
+        "ar": "أستطيع أن أسأل «بكام ده؟» وأفهم الجواب بالجنيه.",
+        "en": "I can ask \"bikām da?\" and understand the answer in pounds.",
+        "id": "Saya bisa bertanya \"bikām da?\" dan memahami jawabannya dalam pound."
+      },
+      {
+        "ar": "أستطيع أن أقول «غالي قوي» و«رخيص» وأسأل عن الخصم.",
+        "en": "I can say \"ghāli ʾawi\" and \"rakhīṣ\" and ask about a discount.",
+        "id": "Saya bisa mengatakan \"ghāli ʾawi\" dan \"rakhīṣ\" dan menanyakan diskon."
+      },
+      {
+        "ar": "أستطيع أن أقرر الشراء بقول «هاخد ده».",
+        "en": "I can decide to buy with \"hākhud da\".",
+        "id": "Saya bisa memutuskan membeli dengan \"hākhud da\"."
+      }
+    ],
+    "intro": {
+      "ar": "السؤال الأهم في السوق هو «بكام؟». الباء هنا بمعنى «بـ» الثمن، فالمعنى «بكم؟». ونتعلم ثماني عبارات للسؤال عن السعر والمناقشة ثم القرار.",
+      "en": "The most useful market question is \"bikām?\". The prefix bi- means \"for\", so it is \"for how much?\". You learn eight phrases to ask a price, comment on it and decide.",
+      "id": "Pertanyaan paling berguna di pasar adalah \"bikām?\". Awalan bi- berarti \"dengan/seharga\", jadi artinya \"berapa harganya?\". Kamu belajar delapan ungkapan untuk menanyakan harga, mengomentarinya, dan memutuskan."
+    },
+    "culture": {
+      "ar": "المساومة جزء مألوف من التسوق في الأسواق الشعبية، وتتم عادة بروح ودية ومرحة، أما المحلات الكبيرة والمولات فأسعارها غالبًا ثابتة. اسأل عن السعر بأدب، ولا تغضب إن لم تتفقا؛ فيمكنك أن تبتسم وتشكر وتمضي.",
+      "en": "Bargaining is a familiar part of shopping in traditional markets and is usually done in a friendly, joking spirit, whereas larger shops and malls normally have fixed prices. Ask the price politely, and do not be upset if you cannot agree; simply smile, say thanks and move on.",
+      "id": "Menawar adalah bagian yang lazim dari berbelanja di pasar tradisional dan biasanya dilakukan dengan ramah dan bercanda, sedangkan toko besar dan mal biasanya berharga pas. Tanyakan harga dengan sopan, dan jangan marah jika tidak sepakat; cukup tersenyum, berterima kasih, lalu pergi."
+    },
+    "grammar": {
+      "title": {
+        "ar": "الباء مع السعر",
+        "en": "bi- with prices",
+        "id": "bi- dengan harga"
+      },
+      "body": {
+        "ar": "نستعمل الباء قبل السعر: بكام؟ بعشرين جنيه، بخمسين جنيه. وبعد العدد غالبًا ما نقول «جنيه» بالمفرد أيضًا. وللصفات: ده غالي للمذكر، ودي غالية للمؤنث: الشنطة دي غالية.",
+        "en": "We put bi- before the price: bikām? bi-ʿishrīn ginēh, bi-khamsīn ginēh. The word ginēh often stays singular after numbers. Adjectives agree: da ghāli (masculine), di ghālya (feminine): ish-shanṭa di ghālya.",
+        "id": "Kita pakai bi- sebelum harga: bikām? bi-ʿishrīn ginēh, bi-khamsīn ginēh. Kata ginēh sering tetap tunggal setelah angka. Kata sifat menyesuaikan: da ghāli (maskulin), di ghālya (feminin): ish-shanṭa di ghālya."
+      }
+    },
+    "items": [
+      {
+        "id": "eg07n1",
+        "target": "بكام ده؟",
+        "translit": "bikām da?",
+        "tr": {
+          "ar": "بكم هذا؟",
+          "en": "how much is this?",
+          "id": "berapa harga ini?"
+        },
+        "example": {
+          "target": "بكام الكيلو؟",
+          "translit": "bikām il-kīlu?",
+          "tr": {
+            "ar": "بكم الكيلو؟",
+            "en": "How much is a kilo?",
+            "id": "Berapa harga sekilo?"
+          }
+        },
+        "hint": {
+          "ar": "للمؤنث: بكام دي bikām di؟",
+          "en": "For a feminine thing: bikām di?",
+          "id": "Untuk benda feminin: bikām di?"
+        }
+      },
+      {
+        "id": "eg07n2",
+        "target": "غالي قوي",
+        "translit": "ghāli ʾawi",
+        "tr": {
+          "ar": "غالٍ جدًّا",
+          "en": "very expensive",
+          "id": "mahal sekali"
+        },
+        "example": {
+          "target": "الموبايل ده غالي قوي",
+          "translit": "il-mobāyl da ghāli ʾawi",
+          "tr": {
+            "ar": "هذا الهاتف غالٍ جدًّا",
+            "en": "This phone is very expensive",
+            "id": "Ponsel ini mahal sekali"
+          }
+        },
+        "hint": {
+          "ar": "المؤنث: غالية ghālya.",
+          "en": "Feminine: ghālya.",
+          "id": "Feminin: ghālya."
+        }
+      },
+      {
+        "id": "eg07n3",
+        "target": "رخيص",
+        "translit": "rakhīṣ",
+        "tr": {
+          "ar": "رخيص؛ قليل الثمن",
+          "en": "cheap",
+          "id": "murah"
+        },
+        "example": {
+          "target": "الشاي ده رخيص",
+          "translit": "ish-shāy da rakhīṣ",
+          "tr": {
+            "ar": "هذا الشاي رخيص",
+            "en": "This tea is cheap",
+            "id": "Teh ini murah"
+          }
+        },
+        "hint": {
+          "ar": "المؤنث: رخيصة rakhīṣa.",
+          "en": "Feminine: rakhīṣa.",
+          "id": "Feminin: rakhīṣa."
+        }
+      },
+      {
+        "id": "eg07n4",
+        "target": "خصم",
+        "translit": "khaṣm",
+        "tr": {
+          "ar": "تخفيض",
+          "en": "discount",
+          "id": "diskon"
+        },
+        "example": {
+          "target": "فيه خصم النهارده؟",
+          "translit": "fīh khaṣm innaharda?",
+          "tr": {
+            "ar": "هل يوجد تخفيض اليوم؟",
+            "en": "Is there a discount today?",
+            "id": "Apakah ada diskon hari ini?"
+          }
+        },
+        "hint": {
+          "ar": "«فيه» fīh تعني «يوجد».",
+          "en": "fīh means \"there is\".",
+          "id": "fīh berarti \"ada\"."
+        }
+      },
+      {
+        "id": "eg07n5",
+        "target": "آخر كلام",
+        "translit": "ākhir kalām",
+        "tr": {
+          "ar": "السعر النهائي",
+          "en": "final price, last offer",
+          "id": "harga terakhir, harga pas"
+        },
+        "example": {
+          "target": "آخر كلام كام؟",
+          "translit": "ākhir kalām kām?",
+          "tr": {
+            "ar": "ما السعر النهائي؟",
+            "en": "What is your final price?",
+            "id": "Berapa harga akhirnya?"
+          }
+        },
+        "hint": {
+          "ar": "تُقال أثناء المساومة وبلطف.",
+          "en": "Used while bargaining, in a friendly tone.",
+          "id": "Dipakai saat menawar, dengan ramah."
+        }
+      },
+      {
+        "id": "eg07n6",
+        "target": "جنيه",
+        "translit": "ginēh",
+        "tr": {
+          "ar": "جنيه (عملة مصر)",
+          "en": "pound (Egyptian currency)",
+          "id": "pound (mata uang Mesir)"
+        },
+        "example": {
+          "target": "ده بعشرين جنيه",
+          "translit": "da bi-ʿishrīn ginēh",
+          "tr": {
+            "ar": "هذا بعشرين جنيهًا",
+            "en": "This is twenty pounds",
+            "id": "Ini dua puluh pound"
+          }
+        },
+        "hint": {
+          "ar": "الجيم g، و«ay» تصير ē: ginēh.",
+          "en": "Jim is g and the ending is ē: ginēh.",
+          "id": "Jim berbunyi g dan akhirannya ē: ginēh."
+        }
+      },
+      {
+        "id": "eg07n7",
+        "target": "كيلو",
+        "translit": "kīlu",
+        "tr": {
+          "ar": "كيلوغرام",
+          "en": "a kilo",
+          "id": "satu kilo"
+        },
+        "example": {
+          "target": "عايز كيلو طماطم",
+          "translit": "ʿāyiz kīlu ṭamāṭim",
+          "tr": {
+            "ar": "أريد كيلو طماطم",
+            "en": "I want a kilo of tomatoes",
+            "id": "Saya mau sekilo tomat"
+          }
+        },
+        "hint": {
+          "ar": "في الأسواق تُباع الخضار والفاكهة بالكيلو.",
+          "en": "Vegetables and fruit are sold by the kilo.",
+          "id": "Sayur dan buah dijual per kilo."
+        }
+      },
+      {
+        "id": "eg07n8",
+        "target": "هاخد ده",
+        "translit": "hākhud da",
+        "tr": {
+          "ar": "سآخذ هذا",
+          "en": "I will take this",
+          "id": "saya ambil yang ini"
+        },
+        "example": {
+          "target": "هاخد اتنين من ده",
+          "translit": "hākhud itnēn min da",
+          "tr": {
+            "ar": "سآخذ اثنين من هذا",
+            "en": "I will take two of these",
+            "id": "Saya ambil dua dari ini"
+          }
+        },
+        "hint": {
+          "ar": "«ها» قبل الفعل تدل على المستقبل.",
+          "en": "ha- before the verb marks the future.",
+          "id": "ha- sebelum kata kerja menandai masa depan."
+        }
+      }
+    ],
+    "cloze": [
+      {
+        "sentence": "الموبايل ده ___ قوي",
+        "answer": "غالي",
+        "wrong": [
+          "جعان",
+          "اسمي"
+        ],
+        "tr": {
+          "ar": "هذا الهاتف غالٍ جدًّا.",
+          "en": "This phone is very expensive.",
+          "id": "Ponsel ini mahal sekali."
+        },
+        "why": {
+          "ar": "نصف السعر بـ«غالي»؛ الهاتف لا يكون جائعًا.",
+          "en": "A price is described with \"ghāli\"; a phone cannot be hungry.",
+          "id": "Harga digambarkan dengan \"ghāli\"; ponsel tidak bisa lapar."
+        }
+      },
+      {
+        "sentence": "ده بعشرين ___",
+        "answer": "جنيه",
+        "wrong": [
+          "أخويا",
+          "صباح"
+        ],
+        "tr": {
+          "ar": "هذا بعشرين جنيهًا.",
+          "en": "This is twenty pounds.",
+          "id": "Ini dua puluh pound."
+        },
+        "why": {
+          "ar": "بعد السعر والعدد نذكر العملة: جنيه.",
+          "en": "After a price and number we say the currency: ginēh.",
+          "id": "Setelah harga dan angka kita sebut mata uangnya: ginēh."
+        }
+      }
+    ],
+    "conversation": {
+      "context": {
+        "ar": "زبون يسأل بائعًا عن سعر الطماطم.",
+        "en": "A customer asks a seller the price of tomatoes.",
+        "id": "Pembeli menanyakan harga tomat kepada penjual."
+      },
+      "turns": [
+        {
+          "who": "A",
+          "target": "لو سمحت، بكام الكيلو ده؟",
+          "tr": {
+            "ar": "من فضلك، بكم هذا الكيلو؟",
+            "en": "Excuse me, how much is a kilo of this?",
+            "id": "Permisi, berapa harga sekilo ini?"
+          }
+        },
+        {
+          "who": "B",
+          "target": "بعشرين جنيه",
+          "tr": {
+            "ar": "بعشرين جنيهًا",
+            "en": "Twenty pounds",
+            "id": "Dua puluh pound"
+          }
+        },
+        {
+          "who": "A",
+          "target": "طيب، هاخد اتنين كيلو",
+          "tr": {
+            "ar": "حسنًا، سآخذ كيلوين",
+            "en": "OK, I will take two kilos",
+            "id": "Baik, saya ambil dua kilo"
+          }
+        }
+      ],
+      "gap": 1,
+      "wrong": [
+        "اسمي سامي",
+        "مع السلامة، شكرا"
+      ],
+      "why": {
+        "ar": "السؤال «بكام؟» يُجاب بسعر: «بعشرين جنيه». أما الاسم والوداع فلا يجيبان عن السعر.",
+        "en": "The question \"bikām?\" is answered with a price: \"bi-ʿishrīn ginēh\". A name or a goodbye does not answer it.",
+        "id": "Pertanyaan \"bikām?\" dijawab dengan harga: \"bi-ʿishrīn ginēh\". Nama atau perpisahan tidak menjawabnya."
+      }
+    },
+    "summary": {
+      "ar": "تعلمنا السؤال «بكام ده؟»، ووصف السعر بغالي ورخيص، والسؤال عن الخصم، ثم الشراء بـ«هاخد ده».",
+      "en": "You learned the question \"bikām da?\", how to call a price expensive or cheap, how to ask about a discount, and how to buy with \"hākhud da\".",
+      "id": "Kamu belajar pertanyaan \"bikām da?\", menyebut harga mahal atau murah, menanyakan diskon, lalu membeli dengan \"hākhud da\"."
+    }
+  },
+  {
+    "id": "eg-08",
+    "track": "eg",
+    "level": "elementary",
+    "order": 8,
+    "topic": "directions",
+    "icon": "🧭",
+    "title": {
+      "ar": "الاتجاهات والأماكن",
+      "en": "Directions and Places",
+      "id": "Arah dan Tempat"
+    },
+    "description": {
+      "ar": "أن تسأل عن مكان وتفهم «يمين» و«شمال» و«على طول» بالمصرية.",
+      "en": "Ask where a place is and understand right, left and straight ahead in Egyptian Arabic.",
+      "id": "Menanyakan letak suatu tempat dan memahami kanan, kiri, dan lurus dalam bahasa Arab Mesir."
+    },
+    "objectives": [
+      {
+        "ar": "أستطيع أن أسأل «فين ...؟».",
+        "en": "I can ask \"fēn...?\".",
+        "id": "Saya bisa bertanya \"fēn...?\"."
+      },
+      {
+        "ar": "أستطيع أن أفهم «يمين» و«شمال» و«على طول».",
+        "en": "I can understand yimīn, shimāl and ʿala ṭūl.",
+        "id": "Saya bisa memahami yimīn, shimāl, dan ʿala ṭūl."
+      },
+      {
+        "ar": "أستطيع أن أصف مكانًا بأنه قريب أو بعيد وأقول «أنا تايه».",
+        "en": "I can say a place is near or far and say \"ana tāyih\".",
+        "id": "Saya bisa menyebut tempat dekat atau jauh dan mengatakan \"ana tāyih\"."
+      }
+    ],
+    "intro": {
+      "ar": "«فين» تعني «أين» وهي أهم كلمة عند السفر. نتعلم ثماني عبارات: السؤال عن المكان، وفهم الاتجاهات، والقرب والبعد، وطلب المساعدة عند الضياع.",
+      "en": "\"fēn\" means \"where\" and is the most useful word when travelling. You learn eight phrases: asking where something is, understanding directions, near and far, and asking for help when lost.",
+      "id": "\"fēn\" berarti \"di mana\" dan merupakan kata paling berguna saat bepergian. Kamu belajar delapan ungkapan: menanyakan lokasi, memahami arah, dekat dan jauh, serta meminta bantuan saat tersesat."
+    },
+    "culture": {
+      "ar": "في القاهرة مترو أنفاق وحافلات وسيارات أجرة، ومن المعتاد أن تسأل المارة عن الطريق، وغالبًا سيساعدك الناس بسرور. وقد يعطيك أكثر من شخص إجابات مختلفة، فاسأل أكثر من مرة وابتسم وقل «شكرا قوي».",
+      "en": "Cairo has a metro, buses and taxis, and it is normal to ask passers-by for directions; people will usually help gladly. Different people may give different answers, so ask more than once, smile and say \"shukran ʾawi\".",
+      "id": "Kairo punya metro, bus, dan taksi, dan wajar bertanya arah kepada orang yang lewat; biasanya orang dengan senang hati membantu. Beberapa orang mungkin memberi jawaban berbeda, jadi tanyalah lebih dari sekali, tersenyumlah, dan ucapkan \"shukran ʾawi\"."
+    },
+    "grammar": {
+      "title": {
+        "ar": "الأمر للرجل والمرأة",
+        "en": "Commands to a man and a woman",
+        "id": "Kalimat perintah untuk laki-laki dan perempuan"
+      },
+      "body": {
+        "ar": "نعطي الاتجاه بفعل الأمر: لف liff «انعطف» للرجل ولفي liffi للمرأة، وامشي imshi «سِرْ». وتأتي بعدها كلمة الاتجاه: لف يمين، امشي على طول. و«على ʿala» قبل الاسم المعرّف تعني «على»: على الشمال.",
+        "en": "We give directions with the imperative: liff (turn) to a man and liffi to a woman and imshi (walk). The direction word follows: liff yimīn, imshi ʿala ṭūl. ʿala before a noun means \"on\": ʿala sh-shimāl.",
+        "id": "Arah diberikan dengan kalimat perintah: liff (belok) kepada laki-laki dan liffi kepada perempuan dan imshi (jalan). Kata arah menyusul: liff yimīn, imshi ʿala ṭūl. ʿala sebelum kata benda berarti \"di\": ʿala sh-shimāl."
+      }
+    },
+    "items": [
+      {
+        "id": "eg08n1",
+        "target": "فين",
+        "translit": "fēn",
+        "tr": {
+          "ar": "أين",
+          "en": "where",
+          "id": "di mana"
+        },
+        "example": {
+          "target": "فين الحمام لو سمحت؟",
+          "translit": "fēn il-ḥammām law samaḥt?",
+          "tr": {
+            "ar": "أين دورة المياه من فضلك؟",
+            "en": "Where is the bathroom, please?",
+            "id": "Di mana toilet, tolong?"
+          }
+        },
+        "hint": {
+          "ar": "«أين» الفصيحة تصير «فين» fēn.",
+          "en": "MSA ʾayna becomes fēn.",
+          "id": "ʾayna Arab Baku menjadi fēn."
+        }
+      },
+      {
+        "id": "eg08n2",
+        "target": "يمين",
+        "translit": "yimīn",
+        "tr": {
+          "ar": "اليمين",
+          "en": "right",
+          "id": "kanan"
+        },
+        "example": {
+          "target": "لف يمين عند الإشارة",
+          "translit": "liff yimīn ʿind il-ishāra",
+          "tr": {
+            "ar": "انعطف يمينًا عند الإشارة",
+            "en": "Turn right at the traffic light",
+            "id": "Belok kanan di lampu lalu lintas"
+          }
+        },
+        "hint": {
+          "ar": "لا نقول «ال» عند الأمر بالانعطاف: لف يمين.",
+          "en": "No article in commands: liff yimīn.",
+          "id": "Tanpa kata sandang dalam perintah: liff yimīn."
+        }
+      },
+      {
+        "id": "eg08n3",
+        "target": "شمال",
+        "translit": "shimāl",
+        "tr": {
+          "ar": "اليسار",
+          "en": "left",
+          "id": "kiri"
+        },
+        "example": {
+          "target": "المحل على الشمال",
+          "translit": "il-maḥall ʿala sh-shimāl",
+          "tr": {
+            "ar": "المحل على اليسار",
+            "en": "The shop is on the left",
+            "id": "Tokonya di sebelah kiri"
+          }
+        },
+        "hint": {
+          "ar": "عادةً نقول في المصرية شمال بدل «يسار».",
+          "en": "Egyptians usually say shimāl rather than yasār for \"left\".",
+          "id": "Orang Mesir biasanya berkata shimāl, bukan yasār, untuk \"kiri\"."
+        }
+      },
+      {
+        "id": "eg08n4",
+        "target": "على طول",
+        "translit": "ʿala ṭūl",
+        "tr": {
+          "ar": "إلى الأمام مباشرة",
+          "en": "straight ahead",
+          "id": "lurus terus"
+        },
+        "example": {
+          "target": "امشي على طول",
+          "translit": "imshi ʿala ṭūl",
+          "tr": {
+            "ar": "سِرْ إلى الأمام مباشرة",
+            "en": "Walk straight ahead",
+            "id": "Jalan lurus terus"
+          }
+        },
+        "hint": {
+          "ar": "تعني أيضًا «فورًا» في بعض السياقات.",
+          "en": "It can also mean \"right away\" in other contexts.",
+          "id": "Dalam konteks lain juga bisa berarti \"segera\"."
+        }
+      },
+      {
+        "id": "eg08n5",
+        "target": "قريب",
+        "translit": "ʾarīb",
+        "tr": {
+          "ar": "قريب؛ غير بعيد",
+          "en": "near",
+          "id": "dekat"
+        },
+        "example": {
+          "target": "المحطة قريبة من هنا؟",
+          "translit": "il-maḥaṭṭa ʾarība min hena?",
+          "tr": {
+            "ar": "هل المحطة قريبة من هنا؟",
+            "en": "Is the station near here?",
+            "id": "Apakah stasiunnya dekat dari sini?"
+          }
+        },
+        "hint": {
+          "ar": "المؤنث: قريبة ʾarība. والقاف همزة.",
+          "en": "Feminine: ʾarība. The qaf is a glottal stop.",
+          "id": "Feminin: ʾarība. Qaf berbunyi hentian glotal."
+        }
+      },
+      {
+        "id": "eg08n6",
+        "target": "بعيد",
+        "translit": "baʿīd",
+        "tr": {
+          "ar": "بعيد؛ غير قريب",
+          "en": "far",
+          "id": "jauh"
+        },
+        "example": {
+          "target": "الجامعة بعيدة شوية",
+          "translit": "il-gāmʿa baʿīda shwayya",
+          "tr": {
+            "ar": "الجامعة بعيدة قليلًا",
+            "en": "The university is a bit far",
+            "id": "Universitasnya agak jauh"
+          }
+        },
+        "hint": {
+          "ar": "«شوية» تعني «قليلًا».",
+          "en": "shwayya means \"a little\".",
+          "id": "shwayya berarti \"sedikit\"."
+        }
+      },
+      {
+        "id": "eg08n7",
+        "target": "محطة المترو",
+        "translit": "maḥaṭṭit il-mitrō",
+        "tr": {
+          "ar": "محطة مترو الأنفاق",
+          "en": "the metro station",
+          "id": "stasiun metro"
+        },
+        "example": {
+          "target": "محطة المترو قدام الجامعة",
+          "translit": "maḥaṭṭit il-mitrō ʾuddām il-gāmʿa",
+          "tr": {
+            "ar": "محطة المترو أمام الجامعة",
+            "en": "The metro station is in front of the university",
+            "id": "Stasiun metro ada di depan universitas"
+          }
+        },
+        "hint": {
+          "ar": "«قدام» تعني «أمام».",
+          "en": "ʾuddām means \"in front of\".",
+          "id": "ʾuddām berarti \"di depan\"."
+        }
+      },
+      {
+        "id": "eg08n8",
+        "target": "أنا تايه",
+        "translit": "ana tāyih",
+        "tr": {
+          "ar": "أنا ضائع",
+          "en": "I am lost",
+          "id": "saya tersesat"
+        },
+        "example": {
+          "target": "لو سمحت، أنا تايه",
+          "translit": "law samaḥt, ana tāyih",
+          "tr": {
+            "ar": "من فضلك، أنا ضائع",
+            "en": "Excuse me, I am lost",
+            "id": "Permisi, saya tersesat"
+          }
+        },
+        "hint": {
+          "ar": "المرأة تقول أنا تايهة tāyha.",
+          "en": "A woman says ana tāyha.",
+          "id": "Perempuan berkata ana tāyha."
+        }
+      }
+    ],
+    "cloze": [
+      {
+        "sentence": "لف ___ عند الإشارة",
+        "answer": "يمين",
+        "wrong": [
+          "مية",
+          "شاي"
+        ],
+        "tr": {
+          "ar": "انعطف يمينًا عند الإشارة.",
+          "en": "Turn right at the traffic light.",
+          "id": "Belok kanan di lampu lalu lintas."
+        },
+        "why": {
+          "ar": "بعد «لف» نذكر الاتجاه: يمين؛ المية والشاي ليسا اتجاهين.",
+          "en": "\"liff\" is followed by a direction: yimīn; water and tea are not directions.",
+          "id": "Setelah \"liff\" disebut arah: yimīn; air dan teh bukan arah."
+        }
+      },
+      {
+        "sentence": "المحطة ___ من هنا",
+        "answer": "قريبة",
+        "wrong": [
+          "جعانة",
+          "رخيصة"
+        ],
+        "tr": {
+          "ar": "المحطة قريبة من هنا.",
+          "en": "The station is near here.",
+          "id": "Stasiunnya dekat dari sini."
+        },
+        "why": {
+          "ar": "نصف المسافة بـ«قريبة»؛ المحطة لا توصف بالجوع أو الرخص.",
+          "en": "Distance is described with \"ʾarība\"; a station is not hungry or cheap.",
+          "id": "Jarak digambarkan dengan \"ʾarība\"; stasiun tidak lapar atau murah."
+        }
+      }
+    ],
+    "conversation": {
+      "context": {
+        "ar": "سائح يسأل عن محطة المترو.",
+        "en": "A tourist asks about the metro station.",
+        "id": "Seorang turis menanyakan stasiun metro."
+      },
+      "turns": [
+        {
+          "who": "A",
+          "target": "لو سمحت، فين محطة المترو؟",
+          "tr": {
+            "ar": "من فضلك، أين محطة المترو؟",
+            "en": "Excuse me, where is the metro station?",
+            "id": "Permisi, di mana stasiun metro?"
+          }
+        },
+        {
+          "who": "B",
+          "target": "امشي على طول وبعدين لف يمين",
+          "tr": {
+            "ar": "سِرْ إلى الأمام ثم انعطف يمينًا",
+            "en": "Walk straight ahead, then turn right",
+            "id": "Jalan lurus lalu belok kanan"
+          }
+        },
+        {
+          "who": "A",
+          "target": "شكرا قوي",
+          "tr": {
+            "ar": "شكرًا جزيلًا",
+            "en": "Thank you very much",
+            "id": "Terima kasih banyak"
+          }
+        }
+      ],
+      "gap": 1,
+      "wrong": [
+        "بعشرين جنيه",
+        "اسمي سامي"
+      ],
+      "why": {
+        "ar": "السؤال «فين...؟» يُجاب باتجاه: «امشي على طول». أما السعر والاسم فلا يجيبان عن «أين».",
+        "en": "\"fēn...?\" is answered with directions: \"imshi ʿala ṭūl\". A price or a name does not answer \"where\".",
+        "id": "\"fēn...?\" dijawab dengan arah: \"imshi ʿala ṭūl\". Harga atau nama tidak menjawab \"di mana\"."
+      }
+    },
+    "summary": {
+      "ar": "تعلمنا «فين»، ويمين وشمال وعلى طول، وقريب وبعيد، ومحطة المترو، وعبارة «أنا تايه».",
+      "en": "You learned fēn, yimīn, shimāl, ʿala ṭūl, near and far, maḥaṭṭit il-mitrō and \"ana tāyih\".",
+      "id": "Kamu belajar fēn, yimīn, shimāl, ʿala ṭūl, dekat dan jauh, maḥaṭṭit il-mitrō, dan \"ana tāyih\"."
+    }
+  },
+  {
+    "id": "eg-09",
+    "track": "eg",
+    "level": "elementary",
+    "order": 9,
+    "topic": "time",
+    "icon": "⏰",
+    "title": {
+      "ar": "الوقت والأيام والروتين اليومي",
+      "en": "Time, Days and Daily Routine",
+      "id": "Waktu, Hari, dan Rutinitas"
+    },
+    "description": {
+      "ar": "السؤال عن الساعة والحديث عن اليوم والغد والروتين اليومي بالمصرية.",
+      "en": "Ask the time and talk about today, tomorrow and your daily routine in Egyptian Arabic.",
+      "id": "Menanyakan jam dan berbicara tentang hari ini, besok, dan rutinitas harian dalam bahasa Arab Mesir."
+    },
+    "objectives": [
+      {
+        "ar": "أستطيع أن أسأل «الساعة كام؟».",
+        "en": "I can ask \"is-sāʿa kām?\".",
+        "id": "Saya bisa bertanya \"is-sāʿa kām?\"."
+      },
+      {
+        "ar": "أستطيع أن أقول دلوقتي والنهارده وبكرة وامبارح.",
+        "en": "I can say dilwaʾti, innaharda, bukra and imbāriḥ.",
+        "id": "Saya bisa mengatakan dilwaʾti, innaharda, bukra, dan imbāriḥ."
+      },
+      {
+        "ar": "أستطيع أن أتحدث عن الصبح وبعد الضهر ويوم الجمعة.",
+        "en": "I can talk about the morning, the afternoon and Friday.",
+        "id": "Saya bisa berbicara tentang pagi, siang, dan hari Jumat."
+      }
+    ],
+    "intro": {
+      "ar": "نتعلم في هذا الدرس كلمات الزمن الأساسية: الآن واليوم والغد والأمس، ثم أجزاء اليوم ويوم الجمعة. وتُصاغ الأزمنة هكذا: الماضي «رحت»، والمضارع بالباء «باروح»، والمستقبل بـ«ها»: «هاروح».",
+      "en": "This lesson teaches the key time words: now, today, tomorrow and yesterday, then parts of the day and Friday. The tenses work like this: past ruḥt, present with b- (bāruḥ), future with ha- (hāruḥ).",
+      "id": "Pelajaran ini mengajarkan kata waktu pokok: sekarang, hari ini, besok, dan kemarin, lalu bagian hari dan hari Jumat. Kala dibentuk begini: lampau ruḥt, kini dengan b- (bāruḥ), dan masa depan dengan ha- (hāruḥ)."
+    },
+    "culture": {
+      "ar": "أيام الأسبوع في المصرية: السبت is-sabt، الحد il-ḥadd، الاتنين il-itnēn، التلات it-talāt، الأربع il-arbaʿ، الخميس il-khamīs، الجمعة il-gumʿa. والجمعة يوم عطلة أسبوعية، وفي كثير من أماكن العمل يكون السبت إجازة أيضًا، ويجتمع كثير من الأسر ذلك اليوم.",
+      "en": "The days of the week in Egyptian speech are: is-sabt, il-ḥadd, il-itnēn, it-talāt, il-arbaʿ, il-khamīs, il-gumʿa. Friday is a weekly day off, and in many workplaces Saturday is also a day off; many families get together on that day.",
+      "id": "Hari dalam seminggu dalam bahasa Mesir: is-sabt, il-ḥadd, il-itnēn, it-talāt, il-arbaʿ, il-khamīs, il-gumʿa. Jumat adalah hari libur mingguan, dan di banyak tempat kerja hari Sabtu juga libur; banyak keluarga berkumpul pada hari itu."
+    },
+    "grammar": {
+      "title": {
+        "ar": "الماضي والمضارع والمستقبل",
+        "en": "Past, present and future",
+        "id": "Kala lampau, kini, dan masa depan"
+      },
+      "body": {
+        "ar": "الماضي بلا بادئة: رحت ruḥt «ذهبتُ». والمضارع المعتاد بالباء: باروح bāruḥ «أذهب عادةً». والمستقبل بـ«ها»: هاروح hāruḥ «سأذهب». وكلمات الزمن مثل امبارح وبكرة وبعد الضهر تحدد الزمن بوضوح.",
+        "en": "The past has no prefix: ruḥt \"I went\". The habitual present takes b-: bāruḥ \"I go\". The future takes ha-: hāruḥ \"I will go\". Time words such as imbāriḥ, bukra and baʿd iḍ-ḍuhr make the time clear.",
+        "id": "Lampau tanpa awalan: ruḥt \"saya pergi\". Kala kini kebiasaan memakai b-: bāruḥ \"saya biasa pergi\". Masa depan memakai ha-: hāruḥ \"saya akan pergi\". Kata waktu seperti imbāriḥ, bukra, dan baʿd iḍ-ḍuhr memperjelas waktunya."
+      }
+    },
+    "items": [
+      {
+        "id": "eg09n1",
+        "target": "الساعة كام؟",
+        "translit": "is-sāʿa kām?",
+        "tr": {
+          "ar": "كم الساعة؟",
+          "en": "what time is it?",
+          "id": "jam berapa?"
+        },
+        "example": {
+          "target": "الساعة كام دلوقتي؟",
+          "translit": "is-sāʿa kām dilwaʾti?",
+          "tr": {
+            "ar": "كم الساعة الآن؟",
+            "en": "What time is it now?",
+            "id": "Jam berapa sekarang?"
+          }
+        },
+        "hint": {
+          "ar": "نجيب «الساعة خمسة» is-sāʿa khamsa.",
+          "en": "Answer with is-sāʿa khamsa.",
+          "id": "Jawab dengan is-sāʿa khamsa."
+        }
+      },
+      {
+        "id": "eg09n2",
+        "target": "دلوقتي",
+        "translit": "dilwaʾti",
+        "tr": {
+          "ar": "الآن",
+          "en": "now",
+          "id": "sekarang"
+        },
+        "example": {
+          "target": "أنا في الشغل دلوقتي",
+          "translit": "ana fi sh-shughl dilwaʾti",
+          "tr": {
+            "ar": "أنا في العمل الآن",
+            "en": "I am at work now",
+            "id": "Saya sedang di tempat kerja sekarang"
+          }
+        },
+        "hint": {
+          "ar": "كلمة مصرية مميزة تقابل «الآن».",
+          "en": "A very Egyptian word for \"now\".",
+          "id": "Kata khas Mesir untuk \"sekarang\"."
+        }
+      },
+      {
+        "id": "eg09n3",
+        "target": "النهارده",
+        "translit": "innaharda",
+        "tr": {
+          "ar": "اليوم",
+          "en": "today",
+          "id": "hari ini"
+        },
+        "example": {
+          "target": "النهارده يوم الجمعة",
+          "translit": "innaharda yōm il-gumʿa",
+          "tr": {
+            "ar": "اليوم هو يوم الجمعة",
+            "en": "Today is Friday",
+            "id": "Hari ini hari Jumat"
+          }
+        },
+        "hint": {
+          "ar": "اللام الشمسية: innaharda لا il-niharda.",
+          "en": "Sun-letter assimilation: innaharda, not il-niharda.",
+          "id": "Asimilasi huruf matahari: innaharda, bukan il-niharda."
+        }
+      },
+      {
+        "id": "eg09n4",
+        "target": "بكرة",
+        "translit": "bukra",
+        "tr": {
+          "ar": "غدًا",
+          "en": "tomorrow",
+          "id": "besok"
+        },
+        "example": {
+          "target": "بكرة عندي امتحان",
+          "translit": "bukra ʿandi imtiḥān",
+          "tr": {
+            "ar": "غدًا عندي امتحان",
+            "en": "Tomorrow I have an exam",
+            "id": "Besok saya ada ujian"
+          }
+        },
+        "hint": {
+          "ar": "«بكرة» تعني «غدًا» وليس «الصباح»؛ ولـ«غدًا صباحًا» نقول بكرة الصبح.",
+          "en": "It means \"tomorrow\", not \"morning\"; for \"tomorrow morning\" say bukra iṣ-ṣubḥ.",
+          "id": "Artinya \"besok\", bukan \"pagi\"; untuk \"besok pagi\" katakan bukra iṣ-ṣubḥ."
+        }
+      },
+      {
+        "id": "eg09n5",
+        "target": "امبارح",
+        "translit": "imbāriḥ",
+        "tr": {
+          "ar": "أمس",
+          "en": "yesterday",
+          "id": "kemarin"
+        },
+        "example": {
+          "target": "امبارح رحت السينما",
+          "translit": "imbāriḥ ruḥt is-sinima",
+          "tr": {
+            "ar": "أمس ذهبت إلى السينما",
+            "en": "Yesterday I went to the cinema",
+            "id": "Kemarin saya pergi ke bioskop"
+          }
+        },
+        "hint": {
+          "ar": "الفعل رحت ruḥt ماضٍ لأنه عن أمس.",
+          "en": "The verb ruḥt is past because it is about yesterday.",
+          "id": "Kata kerja ruḥt bentuk lampau karena tentang kemarin."
+        }
+      },
+      {
+        "id": "eg09n6",
+        "target": "الصبح",
+        "translit": "iṣ-ṣubḥ",
+        "tr": {
+          "ar": "في الصباح",
+          "en": "in the morning",
+          "id": "di pagi hari"
+        },
+        "example": {
+          "target": "أنا باصحى الصبح بدري",
+          "translit": "ana bāṣḥa iṣ-ṣubḥ badri",
+          "tr": {
+            "ar": "أستيقظ في الصباح الباكر",
+            "en": "I wake up early in the morning",
+            "id": "Saya bangun pagi-pagi"
+          }
+        },
+        "hint": {
+          "ar": "«بدري» تعني «مبكرًا».",
+          "en": "badri means \"early\".",
+          "id": "badri berarti \"awal / pagi-pagi\"."
+        }
+      },
+      {
+        "id": "eg09n7",
+        "target": "بعد الضهر",
+        "translit": "baʿd iḍ-ḍuhr",
+        "tr": {
+          "ar": "بعد الظهر",
+          "en": "in the afternoon",
+          "id": "siang hari (sesudah zuhur)"
+        },
+        "example": {
+          "target": "بعد الضهر عندي شغل",
+          "translit": "baʿd iḍ-ḍuhr ʿandi shughl",
+          "tr": {
+            "ar": "بعد الظهر عندي عمل",
+            "en": "In the afternoon I have work",
+            "id": "Sesudah zuhur saya ada pekerjaan"
+          }
+        },
+        "hint": {
+          "ar": "الظاء تصير ض: iḍ-ḍuhr.",
+          "en": "The letter ẓ is said as ḍ: iḍ-ḍuhr.",
+          "id": "Huruf ẓ diucapkan ḍ: iḍ-ḍuhr."
+        }
+      },
+      {
+        "id": "eg09n8",
+        "target": "يوم الجمعة",
+        "translit": "yōm il-gumʿa",
+        "tr": {
+          "ar": "يوم الجمعة؛ العطلة الأسبوعية",
+          "en": "Friday",
+          "id": "hari Jumat"
+        },
+        "example": {
+          "target": "يوم الجمعة أجازة عندنا",
+          "translit": "yōm il-gumʿa agāza ʿandina",
+          "tr": {
+            "ar": "يوم الجمعة عطلة عندنا",
+            "en": "Friday is a day off for us",
+            "id": "Hari Jumat kami libur"
+          }
+        },
+        "hint": {
+          "ar": "الجيم g في جمعة gumʿa وأجازة agāza.",
+          "en": "The jim is a hard g in gumʿa and agāza.",
+          "id": "Jim berbunyi g pada gumʿa dan agāza."
+        }
+      }
+    ],
+    "cloze": [
+      {
+        "sentence": "الساعة ___ دلوقتي؟",
+        "answer": "كام",
+        "wrong": [
+          "فين",
+          "اسمك"
+        ],
+        "tr": {
+          "ar": "كم الساعة الآن؟",
+          "en": "What time is it now?",
+          "id": "Jam berapa sekarang?"
+        },
+        "why": {
+          "ar": "نسأل «الساعة كام؟»؛ «فين» للمكان و«اسمك» للاسم.",
+          "en": "We ask \"is-sāʿa kām?\"; \"fēn\" is for place and \"ismak\" is for name.",
+          "id": "Kita bertanya \"is-sāʿa kām?\"; \"fēn\" untuk tempat dan \"ismak\" untuk nama."
+        }
+      },
+      {
+        "sentence": "امبارح ___ السينما",
+        "answer": "رحت",
+        "wrong": [
+          "هاروح",
+          "بتروح"
+        ],
+        "tr": {
+          "ar": "أمس ذهبت إلى السينما.",
+          "en": "Yesterday I went to the cinema.",
+          "id": "Kemarin saya pergi ke bioskop."
+        },
+        "why": {
+          "ar": "مع «امبارح» نستعمل الماضي رحت؛ «هاروح» مستقبل.",
+          "en": "With \"imbāriḥ\" we use the past ruḥt; \"hāruḥ\" is future.",
+          "id": "Dengan \"imbāriḥ\" dipakai lampau ruḥt; \"hāruḥ\" adalah masa depan."
+        }
+      }
+    ],
+    "conversation": {
+      "context": {
+        "ar": "صديقان يخططان لليوم التالي.",
+        "en": "Two friends plan for tomorrow.",
+        "id": "Dua teman merencanakan hari esok."
+      },
+      "turns": [
+        {
+          "who": "A",
+          "target": "هتيجي بكرة؟",
+          "tr": {
+            "ar": "هل ستأتي غدًا؟",
+            "en": "Will you come tomorrow?",
+            "id": "Kamu akan datang besok?"
+          }
+        },
+        {
+          "who": "B",
+          "target": "أيوه، هاجي الصبح",
+          "tr": {
+            "ar": "نعم، سآتي في الصباح",
+            "en": "Yes, I will come in the morning",
+            "id": "Ya, saya akan datang pagi hari"
+          }
+        },
+        {
+          "who": "A",
+          "target": "تمام، مع السلامة",
+          "tr": {
+            "ar": "حسنًا، إلى اللقاء",
+            "en": "Great, goodbye",
+            "id": "Baik, sampai jumpa"
+          }
+        }
+      ],
+      "gap": 1,
+      "wrong": [
+        "امبارح رحت الشغل",
+        "فول وعيش لو سمحت"
+      ],
+      "why": {
+        "ar": "السؤال عن الغد «هتيجي بكرة؟» يُجاب بـ«أيوه، هاجي...». وجملة «امبارح رحت الشغل» عن الأمس، والطلب عن الطعام.",
+        "en": "The question about tomorrow, \"hatīgi bukra?\", is answered \"aywa, hāgi...\". \"imbāriḥ ruḥt ish-shughl\" talks about yesterday, and the other is a food order.",
+        "id": "Pertanyaan tentang besok, \"hatīgi bukra?\", dijawab \"aywa, hāgi...\". \"imbāriḥ ruḥt ish-shughl\" tentang kemarin, dan yang lain adalah pesanan makanan."
+      }
+    },
+    "summary": {
+      "ar": "تعلمنا السؤال عن الساعة، ودلوقتي والنهارده وبكرة وامبارح، والصبح وبعد الضهر ويوم الجمعة، وثلاثة أزمنة: رحت وباروح وهاروح.",
+      "en": "You learned to ask the time, the words dilwaʾti, innaharda, bukra and imbāriḥ, parts of the day and Friday, and three tenses: ruḥt, bāruḥ and hāruḥ.",
+      "id": "Kamu belajar menanyakan jam, kata dilwaʾti, innaharda, bukra, dan imbāriḥ, bagian hari dan hari Jumat, serta tiga kala: ruḥt, bāruḥ, dan hāruḥ."
+    }
+  },
+  {
+    "id": "eg-10",
+    "track": "eg",
+    "level": "elementary",
+    "order": 10,
+    "topic": "health",
+    "icon": "🏥",
+    "title": {
+      "ar": "الصحة والمساعدة والطوارئ",
+      "en": "Health, Help and Emergencies",
+      "id": "Kesehatan, Bantuan, dan Darurat"
+    },
+    "description": {
+      "ar": "أن تقول إنك تعبان وتطلب الطبيب أو الإسعاف أو المساعدة بالمصرية.",
+      "en": "Say you are unwell and ask for a doctor, an ambulance or help in Egyptian Arabic.",
+      "id": "Mengatakan bahwa kamu sakit dan meminta dokter, ambulans, atau bantuan dalam bahasa Arab Mesir."
+    },
+    "objectives": [
+      {
+        "ar": "أستطيع أن أقول «أنا تعبان» و«عندي صداع».",
+        "en": "I can say \"ana taʿbān\" and \"ʿandi ṣudāʿ\".",
+        "id": "Saya bisa mengatakan \"ana taʿbān\" dan \"ʿandi ṣudāʿ\"."
+      },
+      {
+        "ar": "أستطيع أن أسأل عن الدكتور والصيدلية والمستشفى.",
+        "en": "I can ask about a doctor, a pharmacy and a hospital.",
+        "id": "Saya bisa menanyakan dokter, apotek, dan rumah sakit."
+      },
+      {
+        "ar": "أستطيع أن أطلب المساعدة بقول «ممكن تساعدني؟» و«إسعاف» و«الحقني».",
+        "en": "I can ask for help with \"mumkin tisāʿidni?\", \"isʿāf\" and \"ilḥaʾni\".",
+        "id": "Saya bisa meminta bantuan dengan \"mumkin tisāʿidni?\", \"isʿāf\", dan \"ilḥaʾni\"."
+      }
+    ],
+    "intro": {
+      "ar": "هذه عبارات نتمنى ألا تحتاجها، لكن من الجيد أن تعرفها. نبدأ بقول ما تشعر به ثم نتعلم أماكن العلاج وعبارات طلب المساعدة العاجلة.",
+      "en": "These are phrases you hope not to need, but it is good to know them. We start with saying how you feel, then places for treatment and phrases for urgent help.",
+      "id": "Ini adalah ungkapan yang semoga tidak kamu butuhkan, tetapi baik untuk diketahui. Kita mulai dengan mengatakan apa yang kamu rasakan, lalu tempat berobat dan ungkapan meminta bantuan darurat."
+    },
+    "culture": {
+      "ar": "الصيدليات منتشرة في المدن المصرية، ويلجأ إليها كثيرون أولًا للاستشارة في الأعراض البسيطة. وإذا طلبت المساعدة من المارة فغالبًا سيتجمع الناس لمساعدتك. وفي الحالات الخطيرة اتصل بالإسعاف فورًا واطلب مساعدة من حولك.",
+      "en": "Pharmacies are common in Egyptian towns, and many people go to one first for advice about minor complaints. If you ask passers-by for help, people will often gather to assist you. In a serious case call an ambulance immediately and ask those around you for help.",
+      "id": "Apotek banyak ditemukan di kota-kota Mesir, dan banyak orang pergi ke sana lebih dulu untuk meminta saran tentang keluhan ringan. Jika kamu meminta tolong kepada orang yang lewat, orang-orang sering berkumpul membantu. Dalam keadaan gawat segera panggil ambulans dan minta bantuan orang di sekitarmu."
+    },
+    "grammar": {
+      "title": {
+        "ar": "«عندي» للأعراض والصفة للحالة",
+        "en": "\"ʿandi\" for symptoms, adjectives for states",
+        "id": "\"ʿandi\" untuk gejala, kata sifat untuk keadaan"
+      },
+      "body": {
+        "ar": "نقول «عندي صداع» أي «لدي صداع» باستعمال «عندي» + الاسم. ونصف الحالة بصفة: تعبان taʿbān للرجل وتعبانة taʿbāna للمرأة. وللإلزام نقول «لازم» lāzim ثم الفعل: لازم أروح للدكتور lāzim arūḥ li-d-duktōr.",
+        "en": "We say ʿandi ṣudāʿ (\"I have a headache\"), using ʿandi + noun for symptoms. We describe a state with an adjective: taʿbān (man) or taʿbāna (woman). For obligation we say lāzim followed by the verb: lāzim arūḥ li-d-duktōr.",
+        "id": "Kita katakan ʿandi ṣudāʿ (\"saya sakit kepala\"), memakai ʿandi + kata benda untuk gejala. Keadaan digambarkan dengan kata sifat: taʿbān (laki-laki) atau taʿbāna (perempuan). Untuk keharusan dipakai lāzim diikuti kata kerja: lāzim arūḥ li-d-duktōr."
+      }
+    },
+    "items": [
+      {
+        "id": "eg10n1",
+        "target": "أنا تعبان",
+        "translit": "ana taʿbān",
+        "tr": {
+          "ar": "أنا متعب / مريض",
+          "en": "I am tired / unwell",
+          "id": "saya sakit / lelah"
+        },
+        "example": {
+          "target": "أنا تعبان من امبارح",
+          "translit": "ana taʿbān min imbāriḥ",
+          "tr": {
+            "ar": "أنا متعب منذ أمس",
+            "en": "I have been unwell since yesterday",
+            "id": "Saya merasa tidak enak badan sejak kemarin"
+          }
+        },
+        "hint": {
+          "ar": "المرأة تقول أنا تعبانة taʿbāna.",
+          "en": "A woman says ana taʿbāna.",
+          "id": "Perempuan berkata ana taʿbāna."
+        }
+      },
+      {
+        "id": "eg10n2",
+        "target": "دكتور",
+        "translit": "duktōr",
+        "tr": {
+          "ar": "طبيب",
+          "en": "doctor",
+          "id": "dokter"
+        },
+        "example": {
+          "target": "لازم أروح للدكتور",
+          "translit": "lāzim arūḥ li-d-duktōr",
+          "tr": {
+            "ar": "يجب أن أذهب إلى الطبيب",
+            "en": "I have to go to the doctor",
+            "id": "Saya harus pergi ke dokter"
+          }
+        },
+        "hint": {
+          "ar": "المرأة: دكتورة duktōra.",
+          "en": "A woman doctor: duktōra.",
+          "id": "Dokter perempuan: duktōra."
+        }
+      },
+      {
+        "id": "eg10n3",
+        "target": "عندي صداع",
+        "translit": "ʿandi ṣudāʿ",
+        "tr": {
+          "ar": "لدي صداع",
+          "en": "I have a headache",
+          "id": "saya sakit kepala"
+        },
+        "example": {
+          "target": "عندي صداع من الصبح",
+          "translit": "ʿandi ṣudāʿ min iṣ-ṣubḥ",
+          "tr": {
+            "ar": "لدي صداع منذ الصباح",
+            "en": "I have had a headache since the morning",
+            "id": "Saya sakit kepala sejak pagi"
+          }
+        },
+        "hint": {
+          "ar": "«من» تعني هنا «منذ».",
+          "en": "min means \"since\" here.",
+          "id": "min di sini berarti \"sejak\"."
+        }
+      },
+      {
+        "id": "eg10n4",
+        "target": "صيدلية",
+        "translit": "ṣaydaliyya",
+        "tr": {
+          "ar": "صيدلية؛ مكان بيع الدواء",
+          "en": "pharmacy",
+          "id": "apotek"
+        },
+        "example": {
+          "target": "عايز دوا للصداع من الصيدلية",
+          "translit": "ʿāyiz dawa liṣ-ṣudāʿ min iṣ-ṣaydaliyya",
+          "tr": {
+            "ar": "أريد دواءً للصداع من الصيدلية",
+            "en": "I want medicine for a headache from the pharmacy",
+            "id": "Saya mau obat sakit kepala dari apotek"
+          }
+        },
+        "hint": {
+          "ar": "«دوا» dawa تعني «دواء».",
+          "en": "dawa means \"medicine\".",
+          "id": "dawa berarti \"obat\"."
+        }
+      },
+      {
+        "id": "eg10n5",
+        "target": "مستشفى",
+        "translit": "mustashfa",
+        "tr": {
+          "ar": "مستشفى؛ مكان علاج المرضى",
+          "en": "hospital",
+          "id": "rumah sakit"
+        },
+        "example": {
+          "target": "أبويا في المستشفى",
+          "translit": "abūya fi l-mustashfa",
+          "tr": {
+            "ar": "أبي في المستشفى",
+            "en": "My father is in the hospital",
+            "id": "Ayah saya ada di rumah sakit"
+          }
+        },
+        "hint": {
+          "ar": "الكلمة نفسها في الفصحى.",
+          "en": "The same word as in MSA.",
+          "id": "Kata yang sama dengan Arab Baku."
+        }
+      },
+      {
+        "id": "eg10n6",
+        "target": "ممكن تساعدني؟",
+        "translit": "mumkin tisāʿidni?",
+        "tr": {
+          "ar": "هل يمكنك مساعدتي؟",
+          "en": "can you help me?",
+          "id": "bisakah kamu menolong saya?"
+        },
+        "example": {
+          "target": "لو سمحت، ممكن تساعدني؟",
+          "translit": "law samaḥt, mumkin tisāʿidni?",
+          "tr": {
+            "ar": "من فضلك، هل يمكنك مساعدتي؟",
+            "en": "Excuse me, can you help me?",
+            "id": "Permisi, bisakah kamu menolong saya?"
+          }
+        },
+        "hint": {
+          "ar": "للمرأة: ممكن تساعديني tisāʿidīni.",
+          "en": "To a woman: mumkin tisāʿidīni?",
+          "id": "Kepada perempuan: mumkin tisāʿidīni?"
+        }
+      },
+      {
+        "id": "eg10n7",
+        "target": "إسعاف",
+        "translit": "isʿāf",
+        "tr": {
+          "ar": "سيارة إسعاف",
+          "en": "ambulance",
+          "id": "ambulans"
+        },
+        "example": {
+          "target": "اتصل بالإسعاف بسرعة",
+          "translit": "itṣil bil-isʿāf bi-surʿa",
+          "tr": {
+            "ar": "اتصل بسيارة الإسعاف فورًا",
+            "en": "Call the ambulance quickly",
+            "id": "Panggil ambulans cepat"
+          }
+        },
+        "hint": {
+          "ar": "«بسرعة» تعني «سريعًا».",
+          "en": "bi-surʿa means \"quickly\".",
+          "id": "bi-surʿa berarti \"cepat\"."
+        }
+      },
+      {
+        "id": "eg10n8",
+        "target": "الحقني",
+        "translit": "ilḥaʾni",
+        "tr": {
+          "ar": "أغثني",
+          "en": "help me! (urgent)",
+          "id": "tolong saya! (darurat)"
+        },
+        "example": {
+          "target": "الحقني، فيه حد تعبان هنا",
+          "translit": "ilḥaʾni, fīh ḥadd taʿbān hena",
+          "tr": {
+            "ar": "أغثني، يوجد شخص متعب هنا",
+            "en": "Help, someone here is unwell",
+            "id": "Tolong, ada orang sakit di sini"
+          }
+        },
+        "hint": {
+          "ar": "للاستغاثة عند الخطر؛ ولجماعة: الحقوني ilḥaʾūni.",
+          "en": "Used to call for urgent help; to several people: ilḥaʾūni.",
+          "id": "Dipakai untuk berteriak minta tolong; untuk banyak orang: ilḥaʾūni."
+        }
+      }
+    ],
+    "cloze": [
+      {
+        "sentence": "عندي ___ من الصبح",
+        "answer": "صداع",
+        "wrong": [
+          "جعان",
+          "شكرا"
+        ],
+        "tr": {
+          "ar": "لدي صداع منذ الصباح.",
+          "en": "I have had a headache since the morning.",
+          "id": "Saya sakit kepala sejak pagi."
+        },
+        "why": {
+          "ar": "نقول «عندي صداع» للعرض؛ «جعان» صفة و«شكرا» كلمة شكر.",
+          "en": "We say \"ʿandi ṣudāʿ\" for a symptom; \"gaʿān\" is an adjective and \"shukran\" is thanks.",
+          "id": "Kita katakan \"ʿandi ṣudāʿ\" untuk gejala; \"gaʿān\" adalah kata sifat dan \"shukran\" ucapan terima kasih."
+        }
+      },
+      {
+        "sentence": "أنا تعبان، لازم أروح ___",
+        "answer": "للدكتور",
+        "wrong": [
+          "للشاي",
+          "للصداع"
+        ],
+        "tr": {
+          "ar": "أنا متعب ويجب أن أذهب إلى الطبيب.",
+          "en": "I am unwell, I have to go to the doctor.",
+          "id": "Saya sakit, saya harus pergi ke dokter."
+        },
+        "why": {
+          "ar": "نذهب إلى الدكتور عند التعب؛ لا نذهب للشاي أو للصداع.",
+          "en": "We go to the doctor when unwell; we do not go to tea or to a headache.",
+          "id": "Kita pergi ke dokter saat sakit; kita tidak pergi ke teh atau ke sakit kepala."
+        }
+      }
+    ],
+    "conversation": {
+      "context": {
+        "ar": "صديق يلاحظ أن صديقه متعب.",
+        "en": "A friend notices that his friend looks unwell.",
+        "id": "Seorang teman melihat temannya tampak sakit."
+      },
+      "turns": [
+        {
+          "who": "A",
+          "target": "مالك؟ شكلك تعبان",
+          "tr": {
+            "ar": "ما بك؟ تبدو متعبًا",
+            "en": "What is wrong? You look unwell",
+            "id": "Ada apa? Kamu kelihatan sakit"
+          }
+        },
+        {
+          "who": "B",
+          "target": "أيوه، عندي صداع من الصبح",
+          "tr": {
+            "ar": "نعم، لدي صداع منذ الصباح",
+            "en": "Yes, I have had a headache since the morning",
+            "id": "Ya, saya sakit kepala sejak pagi"
+          }
+        },
+        {
+          "who": "A",
+          "target": "لازم تروح للدكتور",
+          "tr": {
+            "ar": "يجب أن تذهب إلى الطبيب",
+            "en": "You have to go to the doctor",
+            "id": "Kamu harus pergi ke dokter"
+          }
+        }
+      ],
+      "gap": 1,
+      "wrong": [
+        "الساعة خمسة",
+        "بعشرين جنيه"
+      ],
+      "why": {
+        "ar": "السؤال «مالك؟» يُجاب بشرح ما نشعر به: «عندي صداع». الساعة والسعر لا يجيبان عن الحال.",
+        "en": "\"mālak?\" is answered by saying how you feel: \"ʿandi ṣudāʿ\". A time or a price does not answer.",
+        "id": "\"mālak?\" dijawab dengan menyebut apa yang dirasakan: \"ʿandi ṣudāʿ\". Jam atau harga tidak menjawabnya."
+      }
+    },
+    "summary": {
+      "ar": "تعلمنا أن نقول «أنا تعبان» و«عندي صداع»، وأن نسأل عن الدكتور والصيدلية والمستشفى، وأن نطلب المساعدة بـ«ممكن تساعدني؟» و«إسعاف» و«الحقني».",
+      "en": "You learned to say \"ana taʿbān\" and \"ʿandi ṣudāʿ\", to ask about the doctor, pharmacy and hospital, and to ask for help with \"mumkin tisāʿidni?\", \"isʿāf\" and \"ilḥaʾni\".",
+      "id": "Kamu belajar mengatakan \"ana taʿbān\" dan \"ʿandi ṣudāʿ\", menanyakan dokter, apotek, dan rumah sakit, serta meminta bantuan dengan \"mumkin tisāʿidni?\", \"isʿāf\", dan \"ilḥaʾni\"."
+    }
+  }
+]

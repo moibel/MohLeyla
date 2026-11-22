@@ -2,14 +2,26 @@
 // full lessons are loaded per track on demand (code-split chunks).
 import manifest from './manifest.json';
 
-export const TRACKS = ['ar', 'sa', 'en', 'id'];
-/** The language a track teaches ('sa' teaches Arabic). */
-export const trackLang = (track) => (track === 'sa' ? 'ar' : track);
+export const TRACKS = ['ar', 'sa', 'eg', 'en', 'id', 'fr', 'es', 'zh'];
+/** The language a track teaches ('sa' and 'eg' teach Arabic). */
+export const trackLang = (track) => (track === 'sa' || track === 'eg' ? 'ar' : track);
+/** Dialect tracks: Arabic text, read aloud by a Standard Arabic voice (not a regional accent). */
+export const DIALECT_TRACKS = ['sa', 'eg'];
+/** Tracks whose lessons are not yet reviewed by a native speaker (shown with a Beta label). */
+export const BETA_TRACKS = ['eg', 'fr', 'es', 'zh'];
+export const isDialect = (track) => DIALECT_TRACKS.includes(track);
+export const isBeta = (track) => BETA_TRACKS.includes(track);
+/** The HTML lang attribute for text taught by a track. */
+export const trackHtmlLang = (track) => ({ eg: 'ar-EG', sa: 'ar-SA', zh: 'zh-Hans' }[track] || track);
 export const TRACK_META = {
   ar: { glyph: 'ع', color: 'var(--c-ar)' },
   sa: { glyph: 'س', color: 'var(--c-sa)' },
   en: { glyph: 'Aa', color: 'var(--c-en)' },
   id: { glyph: 'Id', color: 'var(--c-id)' },
+  eg: { glyph: 'ج', color: 'var(--c-eg)' },
+  fr: { glyph: 'Fr', color: 'var(--c-fr)' },
+  es: { glyph: 'Es', color: 'var(--c-es)' },
+  zh: { glyph: '中', color: 'var(--c-zh)' },
 };
 
 export const allLessonMeta = manifest.lessons;

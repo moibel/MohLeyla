@@ -3,7 +3,7 @@ import { useTranslation } from 'react-i18next';
 import { ArrowRight, Bookmark } from 'lucide-react';
 import { PageHeading, EmptyState, ProgressBar, Button, Flip } from '../components/ui.jsx';
 import LessonCard from '../components/LessonCard.jsx';
-import { TRACK_META } from '../data/content.js';
+import { TRACK_META, trackHtmlLang, isBeta } from '../data/content.js';
 import { visibleLessonsOfTrack, useAvailability } from '../data/availability.js';
 import { orderedTracks, defaultTrack } from '../data/trackOrder.js';
 import { useProgress } from '../app/ProgressContext.jsx';
@@ -30,12 +30,13 @@ export default function Courses() {
         {orderedTracks(i18n.language).map((k) => (
           <button key={k} role="tab" aria-selected={track === k} className={`filter ${track === k ? 'on' : ''}`} style={{ '--tile': TRACK_META[k].color }}
             onClick={() => { setParams({ track: k }, { replace: true }); updateSettings({ lastTrack: k }); }} data-testid={`track-${k}`}>
-            <span className="filter-glyph" aria-hidden="true" lang={k === 'ar' || k === 'sa' ? 'ar' : 'en'}>{TRACK_META[k].glyph}</span>
+            <span className="filter-glyph" aria-hidden="true" lang={trackHtmlLang(k)}>{TRACK_META[k].glyph}</span>
             {t(`tracks.${k}.short`)}
           </button>
         ))}
       </div>
       <p className="track-desc">{t(`tracks.${track}.desc`)}</p>
+      {isBeta(track) && <p className="beta-note" role="note" data-testid="beta-note"><span className="beta-chip">{t('tracks.betaChip')}</span> {t('tracks.betaNote')}</p>}
       {list.length > 0 && (
         <section className="card track-summary" aria-label={t('courses.trackProgress', { done: doneCount, total: list.length })} data-testid="track-summary" style={{ '--tile': TRACK_META[track].color }}>
           <div className="track-summary-text">

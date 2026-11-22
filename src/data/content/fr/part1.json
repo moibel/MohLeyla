@@ -1,0 +1,3138 @@
+[
+  {
+    "id": "fr-01",
+    "track": "fr",
+    "level": "beginner",
+    "order": 1,
+    "topic": "sounds-of-french",
+    "icon": "🔊",
+    "title": {
+      "ar": "أصوات اللغة الفرنسية",
+      "en": "The Sounds of French",
+      "id": "Bunyi Bahasa Prancis"
+    },
+    "description": {
+      "ar": "تعرّف على الحروف الأنفية وحرف الراء الفرنسي والحروف الصامتة والربط.",
+      "en": "Meet nasal vowels, the French r, silent final letters and liaison.",
+      "id": "Kenali vokal sengau, bunyi r Prancis, huruf akhir yang tidak dibunyikan, dan liaison."
+    },
+    "objectives": [
+      {
+        "ar": "أستطيع نطق الحروف المتحركة الأنفية مثل «on» و«in».",
+        "en": "I can say nasal vowels such as on and in.",
+        "id": "Saya bisa mengucapkan vokal sengau seperti on dan in."
+      },
+      {
+        "ar": "أستطيع نطق حرفي «r» و«u» الفرنسيين.",
+        "en": "I can say the French r and the French u.",
+        "id": "Saya bisa mengucapkan r dan u khas Prancis."
+      },
+      {
+        "ar": "أعرف أن الحرف الأخير في كثير من الكلمات لا يُنطق، وأسمع الربط بين الكلمات.",
+        "en": "I know that many final letters are silent, and I can hear liaison between words.",
+        "id": "Saya tahu banyak huruf akhir tidak dibunyikan, dan saya bisa mendengar liaison antarkata."
+      }
+    ],
+    "intro": {
+      "ar": "الفرنسية تُكتب بالحروف اللاتينية، لكن نطقها يختلف كثيرًا عن كتابتها. تحتوي على حروف متحركة أنفية، وحرف r يُنطق من الحلق، وحرف u بشفتين مستديرتين. في هذا الدرس نتعلم ست كلمات حقيقية تُظهر هذه الأصوات. استمع أولًا ثم كرّر بصوت عالٍ.",
+      "en": "French uses the Latin alphabet, but its spelling and its sound are often far apart. It has nasal vowels, an r made at the back of the throat, and a u said with rounded lips. In this lesson six real words show these sounds. Listen first, then repeat out loud.",
+      "id": "Bahasa Prancis memakai alfabet Latin, tetapi tulisan dan ucapannya sering berbeda jauh. Ada vokal sengau, bunyi r dari tenggorokan, dan u yang diucapkan dengan bibir membulat. Di pelajaran ini enam kata nyata menunjukkan bunyi-bunyi tersebut. Dengarkan dulu, lalu ulangi dengan suara keras."
+    },
+    "culture": {
+      "ar": "في الفرنسية تُكتب الأحرف كثيرًا ولا تُنطق، خاصةً في آخر الكلمة. لذلك يُحسن تعلّم كل كلمة مع صوتها. الكلمات مثل «Paris» و«petit» تنتهي بحرف صامت. وغالبًا ما يكون الناس ودودين ومشجعين عندما يحاول المتعلم النطق، فلا تخف من الخطأ.",
+      "en": "In French many letters are written but not pronounced, especially at the end of a word, so it is best to learn each word together with its sound. Words like Paris and petit end in a silent letter. People are often friendly and encouraging when a learner tries to pronounce things, so do not be afraid of mistakes.",
+      "id": "Dalam bahasa Prancis banyak huruf ditulis tetapi tidak dibunyikan, terutama di akhir kata, jadi sebaiknya setiap kata dipelajari bersama bunyinya. Kata seperti Paris dan petit berakhir dengan huruf yang diam. Orang sering kali ramah dan mendukung ketika pelajar mencoba mengucapkan sesuatu, jadi jangan takut salah."
+    },
+    "grammar": {
+      "title": {
+        "ar": "الحروف الصامتة والربط",
+        "en": "Silent letters and liaison",
+        "id": "Huruf diam dan liaison"
+      },
+      "body": {
+        "ar": "الحرف الأخير في الكلمة غالبًا لا يُنطق: «petit» تُنطق «puh-TEE» و«Paris» تُنطق «pah-REE». لكن إذا جاءت كلمة بعدها تبدأ بحرف متحرك، فقد يُنطق الحرف الأخير ويتصل بها، وهذا هو الربط (liaison): «les amis» تُنطق «lay-z-ah-MEE». الحروف المتحركة الأنفية (on وin وan) لا يُنطق فيها حرف n بوضوح، بل يخرج الصوت من الأنف. في هذه الدروس نكتب الأنف بالرمز (n) بعد الحرف المتحرك.",
+        "en": "The last letter of a word is often silent: petit is said puh-TEE and Paris is said pah-REE. But when the next word starts with a vowel, a final letter may be pronounced and join it. This is liaison: les amis is said lay-z-ah-MEE. In nasal vowels (on, in, an) you do not say a clear n; the sound comes through the nose. In these lessons a nasal vowel is marked with (n) after it.",
+        "id": "Huruf terakhir sebuah kata sering tidak dibunyikan: petit dibaca puh-TEE dan Paris dibaca pah-REE. Namun jika kata berikutnya diawali vokal, huruf akhir itu bisa dibunyikan dan menyambung ke kata tersebut. Inilah liaison: les amis dibaca lay-z-ah-MEE. Pada vokal sengau (on, in, an) huruf n tidak diucapkan jelas; bunyinya keluar lewat hidung. Dalam pelajaran ini vokal sengau ditandai dengan (n) setelah vokalnya."
+      }
+    },
+    "items": [
+      {
+        "id": "fr01n1",
+        "target": "bonjour",
+        "translit": "bo(n)-ZHOOR",
+        "tr": {
+          "ar": "مرحبًا / صباح الخير (تحية النهار)",
+          "en": "hello, good day",
+          "id": "halo, selamat pagi/siang"
+        },
+        "example": {
+          "target": "Bonjour, madame.",
+          "translit": "bo(n)-ZHOOR mah-DAHM",
+          "tr": {
+            "ar": "صباح الخير يا سيدتي.",
+            "en": "Hello, madam.",
+            "id": "Selamat siang, Bu."
+          }
+        },
+        "hint": {
+          "ar": "الصوت «on» أنفي: لا تنطق n بوضوح. وحرف j يُنطق «zh»، وهو جيم ناعمة بلا انفجار كما في كلمة «garage» الفرنسية.",
+          "en": "The on is nasal: do not say a clear n. The j sounds like zh, as in the s of measure.",
+          "id": "On adalah vokal sengau: jangan ucapkan n dengan jelas. Huruf j dibaca zh, seperti s dalam kata Inggris measure."
+        }
+      },
+      {
+        "id": "fr01n2",
+        "target": "vin",
+        "translit": "veh(n)",
+        "tr": {
+          "ar": "نبيذ",
+          "en": "wine",
+          "id": "anggur"
+        },
+        "example": {
+          "target": "Le vin est bon.",
+          "translit": "luh VEH(n) eh BO(n)",
+          "tr": {
+            "ar": "النبيذ جيد.",
+            "en": "The wine is good.",
+            "id": "Anggurnya enak."
+          }
+        },
+        "hint": {
+          "ar": "الصوت «in» أنفي أيضًا، قريب من «eh» يخرج من الأنف. الحرف الأخير n لا يُنطق كحرف مستقل.",
+          "en": "The in is also nasal, close to eh through the nose. The final n is not pronounced as a separate letter.",
+          "id": "In juga vokal sengau, mirip eh yang keluar lewat hidung. Huruf n di akhir tidak diucapkan terpisah."
+        }
+      },
+      {
+        "id": "fr01n3",
+        "target": "rue",
+        "translit": "REW",
+        "tr": {
+          "ar": "شارع",
+          "en": "street",
+          "id": "jalan"
+        },
+        "example": {
+          "target": "La rue est petite.",
+          "translit": "lah REW eh puh-TEET",
+          "tr": {
+            "ar": "الشارع صغير.",
+            "en": "The street is small.",
+            "id": "Jalannya kecil."
+          }
+        },
+        "hint": {
+          "ar": "حرف r الفرنسي يُنطق من الحلق قرب الغرغرة الخفيفة، وهو أقرب إلى «غ» العربية. وحرف u يُنطق «ew»: قل «i» وأنت تدوّر شفتيك.",
+          "en": "The French r is made at the back of the throat, a bit like a soft gargle, close to Arabic gh. The u is ew: say ee while rounding your lips.",
+          "id": "R Prancis dibuat di bagian belakang tenggorokan, seperti kumur halus. Huruf u dibaca ew: ucapkan i sambil membulatkan bibir."
+        }
+      },
+      {
+        "id": "fr01n4",
+        "target": "petit",
+        "translit": "puh-TEE",
+        "tr": {
+          "ar": "صغير (مذكر)",
+          "en": "small (masculine)",
+          "id": "kecil (maskulin)"
+        },
+        "example": {
+          "target": "Un petit café, s'il vous plaît.",
+          "translit": "uh(n) puh-TEE kah-FAY seel voo PLEH",
+          "tr": {
+            "ar": "فنجان قهوة صغير من فضلك.",
+            "en": "A small coffee, please.",
+            "id": "Satu kopi kecil, tolong."
+          }
+        },
+        "hint": {
+          "ar": "حرف t الأخير صامت. أما المؤنث «petite» فيُنطق فيه t: «puh-TEET».",
+          "en": "The final t is silent. The feminine petite does pronounce the t: puh-TEET.",
+          "id": "Huruf t di akhir tidak dibunyikan. Bentuk feminin petite membunyikan t: puh-TEET."
+        }
+      },
+      {
+        "id": "fr01n5",
+        "target": "les amis",
+        "translit": "lay-z-ah-MEE",
+        "tr": {
+          "ar": "الأصدقاء",
+          "en": "the friends",
+          "id": "teman-teman"
+        },
+        "example": {
+          "target": "Les amis de Marie sont là.",
+          "translit": "lay-z-ah-MEE duh mah-REE so(n) LAH",
+          "tr": {
+            "ar": "أصدقاء ماري هنا.",
+            "en": "Marie's friends are here.",
+            "id": "Teman-teman Marie ada di sini."
+          }
+        },
+        "hint": {
+          "ar": "هذا هو الربط: حرف s في «les» يُنطق z لأن الكلمة التالية تبدأ بحرف متحرك. من دون ربط تقول «lay».",
+          "en": "This is liaison: the s of les is pronounced z because the next word starts with a vowel. Without liaison it is just lay.",
+          "id": "Inilah liaison: huruf s pada les dibaca z karena kata berikutnya diawali vokal. Tanpa liaison cukup dibaca lay."
+        }
+      },
+      {
+        "id": "fr01n6",
+        "target": "merci",
+        "translit": "mehr-SEE",
+        "tr": {
+          "ar": "شكرًا",
+          "en": "thank you",
+          "id": "terima kasih"
+        },
+        "example": {
+          "target": "Merci beaucoup.",
+          "translit": "mehr-SEE boh-KOO",
+          "tr": {
+            "ar": "شكرًا جزيلًا.",
+            "en": "Thank you very much.",
+            "id": "Terima kasih banyak."
+          }
+        },
+        "hint": {
+          "ar": "حرف c قبل i وe يُنطق «s». والنبر في الفرنسية يقع على آخر مقطع من الكلمة أو المجموعة.",
+          "en": "The c before i or e sounds like s. French stress falls on the last syllable of a word or phrase.",
+          "id": "Huruf c sebelum i atau e dibaca s. Tekanan dalam bahasa Prancis jatuh pada suku kata terakhir kata atau frasa."
+        }
+      }
+    ],
+    "cloze": [
+      {
+        "sentence": "Merci ___ !",
+        "answer": "beaucoup",
+        "wrong": [
+          "beau",
+          "bonne"
+        ],
+        "tr": {
+          "ar": "شكرًا جزيلًا!",
+          "en": "Thank you very much!",
+          "id": "Terima kasih banyak!"
+        },
+        "why": {
+          "ar": "«Merci beaucoup» هي العبارة الصحيحة. «beau» تعني جميل، و«bonne» مؤنث «bon» ولا تأتي بعد «merci».",
+          "en": "Merci beaucoup is the correct phrase. Beau means handsome or beautiful, and bonne is the feminine of bon; neither follows merci.",
+          "id": "Merci beaucoup adalah ungkapan yang benar. Beau berarti tampan atau indah, dan bonne adalah bentuk feminin dari bon; keduanya tidak dipakai setelah merci."
+        }
+      },
+      {
+        "sentence": "Un ___ café, s'il vous plaît.",
+        "answer": "petit",
+        "wrong": [
+          "petite",
+          "petits"
+        ],
+        "tr": {
+          "ar": "فنجان قهوة صغير من فضلك.",
+          "en": "A small coffee, please.",
+          "id": "Satu kopi kecil, tolong."
+        },
+        "why": {
+          "ar": "«café» مذكر ومفرد، لذلك نستعمل «petit». «petite» للمؤنث و«petits» للجمع.",
+          "en": "Café is masculine singular, so we use petit. Petite is feminine and petits is plural.",
+          "id": "Café maskulin tunggal, jadi dipakai petit. Petite untuk feminin dan petits untuk jamak."
+        }
+      }
+    ],
+    "conversation": {
+      "context": {
+        "ar": "في مقهى: ينهي الزبون حديثه مع النادل.",
+        "en": "At a café: the customer finishes talking with the waiter.",
+        "id": "Di kafe: pelanggan selesai berbicara dengan pelayan."
+      },
+      "turns": [
+        {
+          "who": "A",
+          "target": "Merci beaucoup !",
+          "tr": {
+            "ar": "شكرًا جزيلًا!",
+            "en": "Thank you very much!",
+            "id": "Terima kasih banyak!"
+          }
+        },
+        {
+          "who": "B",
+          "target": "De rien.",
+          "tr": {
+            "ar": "عفوًا.",
+            "en": "You are welcome.",
+            "id": "Sama-sama."
+          }
+        },
+        {
+          "who": "A",
+          "target": "Au revoir !",
+          "tr": {
+            "ar": "إلى اللقاء!",
+            "en": "Goodbye!",
+            "id": "Sampai jumpa!"
+          }
+        }
+      ],
+      "gap": 1,
+      "wrong": [
+        "Il est trois heures.",
+        "Je m'appelle Paul."
+      ],
+      "why": {
+        "ar": "الرد على «Merci» هو «De rien». الردان الآخران لا علاقة لهما بالشكر.",
+        "en": "The reply to Merci is De rien. The other two replies have nothing to do with being thanked.",
+        "id": "Jawaban untuk Merci adalah De rien. Dua jawaban lain tidak berkaitan dengan ucapan terima kasih."
+      }
+    },
+    "summary": {
+      "ar": "تعرّفت على الأصوات الصعبة في الفرنسية: الأنفية وحرف r وحرف u والحروف الصامتة والربط. أعد نطق الكلمات الست كل يوم، وركّز على أن آخر الكلمة غالبًا صامت.",
+      "en": "You met the tricky sounds of French: nasal vowels, r, u, silent letters and liaison. Repeat the six words every day and remember that word endings are often silent.",
+      "id": "Anda mengenal bunyi sulit bahasa Prancis: vokal sengau, r, u, huruf diam, dan liaison. Ulangi enam kata itu setiap hari dan ingat bahwa akhir kata sering tidak dibunyikan."
+    }
+  },
+  {
+    "id": "fr-02",
+    "track": "fr",
+    "level": "beginner",
+    "order": 2,
+    "topic": "greetings-politeness",
+    "icon": "👋",
+    "title": {
+      "ar": "التحية والمجاملة",
+      "en": "Greetings and Politeness",
+      "id": "Salam dan Sopan Santun"
+    },
+    "description": {
+      "ar": "حيِّ الناس بالطريقة المناسبة وتعلّم الفرق بين «tu» و«vous».",
+      "en": "Greet people appropriately and learn the difference between tu and vous.",
+      "id": "Menyapa dengan tepat dan memahami perbedaan tu dan vous."
+    },
+    "objectives": [
+      {
+        "ar": "أستطيع قول التحية المناسبة في الصباح والمساء.",
+        "en": "I can use the right greeting for day and evening.",
+        "id": "Saya bisa memakai salam yang tepat untuk siang dan malam."
+      },
+      {
+        "ar": "أعرف متى أستعمل «tu» ومتى أستعمل «vous».",
+        "en": "I know when to use tu and when to use vous.",
+        "id": "Saya tahu kapan memakai tu dan kapan memakai vous."
+      },
+      {
+        "ar": "أستطيع أن أسأل «كيف حالك؟» وأشكر وأطلب بأدب.",
+        "en": "I can ask how someone is, say thank you and ask politely.",
+        "id": "Saya bisa menanyakan kabar, berterima kasih, dan meminta dengan sopan."
+      }
+    ],
+    "intro": {
+      "ar": "في الفرنسية كلمتان لمخاطبة شخص واحد: «tu» للأصدقاء والعائلة والأطفال، و«vous» للغرباء والكبار والمواقف الرسمية. وهناك تحيات مختلفة حسب الوقت والعلاقة. في هذا الدرس تتعلم عبارات الأدب اليومية.",
+      "en": "French has two words for addressing one person: tu for friends, family and children, and vous for strangers, older people and formal situations. There are also different greetings depending on the time and the relationship. In this lesson you learn everyday polite phrases.",
+      "id": "Bahasa Prancis punya dua kata untuk menyapa satu orang: tu untuk teman, keluarga, dan anak-anak, serta vous untuk orang asing, orang yang lebih tua, dan situasi resmi. Ada juga salam yang berbeda menurut waktu dan hubungan. Di pelajaran ini Anda mempelajari ungkapan sopan sehari-hari."
+    },
+    "culture": {
+      "ar": "من المهم في فرنسا أن تقول «Bonjour» عند دخول متجر أو مخبز أو مقهى قبل أي طلب، وأن تقول «Au revoir» عند الخروج. ويُستعمل «vous» عادةً مع من لا تعرفه. وبين الأصدقاء والعائلة تشيع «la bise»، أي تقبيل الخدين الخفيف، وعدده يختلف بحسب المنطقة والعلاقة، فلا تقم بها مع الجميع.",
+      "en": "In France it matters to say Bonjour when you enter a shop, bakery or café, before any request, and Au revoir when you leave. People normally use vous with someone they do not know. Among friends and family la bise, a light kiss on the cheeks, is common, and the number of kisses varies by region and relationship; do not offer it to everyone.",
+      "id": "Di Prancis penting mengucapkan Bonjour saat masuk toko, toko roti, atau kafe, sebelum meminta apa pun, dan Au revoir saat pergi. Orang biasanya memakai vous kepada yang belum dikenal. Di antara teman dan keluarga la bise, yaitu cium pipi ringan, umum dilakukan, dan jumlah ciumannya berbeda menurut daerah dan hubungan; jangan menawarkannya kepada semua orang."
+    },
+    "grammar": {
+      "title": {
+        "ar": "«tu» و«vous»",
+        "en": "Tu and vous",
+        "id": "Tu dan vous"
+      },
+      "body": {
+        "ar": "«tu» للمفرد المألوف، و«vous» للمفرد المحترم وللجمع دائمًا. فعل «aller» يصبح «tu vas» و«vous allez». عندما تشك، استعمل «vous»؛ فالفرنسي يقترح غالبًا بنفسه الانتقال إلى «tu» بقوله «On peut se tutoyer ?».",
+        "en": "Tu is singular and familiar; vous is singular and polite, and also always the plural. The verb aller becomes tu vas and vous allez. When in doubt, use vous; the other person will often suggest switching to tu themselves, for example On peut se tutoyer ?",
+        "id": "Tu untuk tunggal yang akrab; vous untuk tunggal yang sopan dan juga selalu untuk jamak. Kata kerja aller menjadi tu vas dan vous allez. Jika ragu, pakai vous; lawan bicara sering menawarkan sendiri untuk beralih ke tu, misalnya On peut se tutoyer ?"
+      }
+    },
+    "items": [
+      {
+        "id": "fr02n1",
+        "target": "Bonjour",
+        "translit": "bo(n)-ZHOOR",
+        "tr": {
+          "ar": "مرحبًا / صباح الخير",
+          "en": "hello, good day",
+          "id": "halo, selamat pagi/siang"
+        },
+        "example": {
+          "target": "Bonjour, monsieur.",
+          "translit": "bo(n)-ZHOOR muh-SYUH",
+          "tr": {
+            "ar": "مرحبًا يا سيدي.",
+            "en": "Hello, sir.",
+            "id": "Selamat siang, Pak."
+          }
+        },
+        "hint": {
+          "ar": "تُستعمل طوال النهار حتى المساء الباكر، وتناسب الجميع.",
+          "en": "Used all day until early evening, and suitable for everyone.",
+          "id": "Dipakai sepanjang hari hingga sore, cocok untuk semua orang."
+        }
+      },
+      {
+        "id": "fr02n2",
+        "target": "Bonsoir",
+        "translit": "bo(n)-SWAHR",
+        "tr": {
+          "ar": "مساء الخير",
+          "en": "good evening",
+          "id": "selamat malam"
+        },
+        "example": {
+          "target": "Bonsoir, madame.",
+          "translit": "bo(n)-SWAHR mah-DAHM",
+          "tr": {
+            "ar": "مساء الخير يا سيدتي.",
+            "en": "Good evening, madam.",
+            "id": "Selamat malam, Bu."
+          }
+        },
+        "hint": {
+          "ar": "تُقال في المساء عند اللقاء أو عند المغادرة. أما «Bonne nuit» فتُقال لمن سيذهب إلى النوم.",
+          "en": "Said in the evening, either to greet someone or to leave. Bonne nuit is said to someone going to bed.",
+          "id": "Dipakai pada sore menjelang malam, baik saat menyapa maupun saat berpamitan. Bonne nuit diucapkan kepada orang yang akan tidur."
+        }
+      },
+      {
+        "id": "fr02n3",
+        "target": "Salut",
+        "translit": "sah-LEW",
+        "tr": {
+          "ar": "مرحبًا (بين الأصدقاء)",
+          "en": "hi (informal)",
+          "id": "hai (tidak resmi)"
+        },
+        "example": {
+          "target": "Salut, Paul !",
+          "translit": "sah-LEW POHL",
+          "tr": {
+            "ar": "مرحبًا يا بول!",
+            "en": "Hi, Paul!",
+            "id": "Hai, Paul!"
+          }
+        },
+        "hint": {
+          "ar": "عبارة عفوية تُقال بين الأصدقاء وتعني أيضًا «إلى اللقاء». لا تقلها لشخص لا تعرفه.",
+          "en": "An informal word between friends; it can also mean bye. Do not use it with someone you do not know.",
+          "id": "Ungkapan santai antarteman; bisa juga berarti sampai jumpa. Jangan dipakai untuk orang yang tidak dikenal."
+        }
+      },
+      {
+        "id": "fr02n4",
+        "target": "Comment allez-vous ?",
+        "translit": "koh-mah(n) tah-lay-VOO",
+        "tr": {
+          "ar": "كيف حالكم؟ (رسمي)",
+          "en": "How are you? (formal)",
+          "id": "Apa kabar? (resmi)"
+        },
+        "example": {
+          "target": "Bonjour, madame. Comment allez-vous ?",
+          "translit": "bo(n)-ZHOOR mah-DAHM koh-mah(n) tah-lay-VOO",
+          "tr": {
+            "ar": "صباح الخير يا سيدتي. كيف حالكِ؟",
+            "en": "Hello, madam. How are you?",
+            "id": "Selamat pagi, Bu. Apa kabar?"
+          }
+        },
+        "hint": {
+          "ar": "هذه الصيغة مع «vous». وبين الأصدقاء نقول «Comment vas-tu ?» أو «Ça va ?».",
+          "en": "This is the vous form. Among friends we say Comment vas-tu ? or Ça va ?",
+          "id": "Ini bentuk dengan vous. Di antara teman kita bilang Comment vas-tu ? atau Ça va ?"
+        }
+      },
+      {
+        "id": "fr02n5",
+        "target": "Ça va ?",
+        "translit": "sah VAH",
+        "tr": {
+          "ar": "كيف الحال؟ / بخير",
+          "en": "How is it going? / Fine.",
+          "id": "Apa kabar? / Baik."
+        },
+        "example": {
+          "target": "Salut, ça va ? Oui, ça va bien.",
+          "translit": "sah-LEW sah VAH WEE sah vah BYEH(n)",
+          "tr": {
+            "ar": "مرحبًا، كيف الحال؟ نعم، أنا بخير.",
+            "en": "Hi, how are you? Yes, I am fine.",
+            "id": "Hai, apa kabar? Ya, saya baik."
+          }
+        },
+        "hint": {
+          "ar": "هي سؤال وجواب في آن واحد، وتُستعمل في الموقف غير الرسمي. الجواب الطويل: «Ça va bien, merci.»",
+          "en": "It is both the question and the answer, used informally. A longer answer: Ça va bien, merci.",
+          "id": "Ungkapan ini bisa menjadi pertanyaan sekaligus jawaban, dipakai secara santai. Jawaban lebih lengkap: Ça va bien, merci."
+        }
+      },
+      {
+        "id": "fr02n6",
+        "target": "S'il vous plaît",
+        "translit": "seel voo PLEH",
+        "tr": {
+          "ar": "من فضلك (رسمي)",
+          "en": "please (formal)",
+          "id": "tolong (resmi)"
+        },
+        "example": {
+          "target": "Un café, s'il vous plaît.",
+          "translit": "uh(n) kah-FAY seel voo PLEH",
+          "tr": {
+            "ar": "قهوة من فضلك.",
+            "en": "A coffee, please.",
+            "id": "Satu kopi, tolong."
+          }
+        },
+        "hint": {
+          "ar": "للشخص المألوف نقول «s'il te plaît». وفي المتاجر نقولها بعد كل طلب تقريبًا.",
+          "en": "With someone you say tu to, use s'il te plaît. In shops you say it after almost every request.",
+          "id": "Untuk orang yang disapa dengan tu dipakai s'il te plaît. Di toko ungkapan ini diucapkan hampir setiap meminta sesuatu."
+        }
+      },
+      {
+        "id": "fr02n7",
+        "target": "Au revoir",
+        "translit": "oh ruh-VWAHR",
+        "tr": {
+          "ar": "إلى اللقاء",
+          "en": "goodbye",
+          "id": "sampai jumpa"
+        },
+        "example": {
+          "target": "Au revoir, madame, bonne journée !",
+          "translit": "oh ruh-VWAHR mah-DAHM bohn zhoor-NAY",
+          "tr": {
+            "ar": "إلى اللقاء يا سيدتي، يومًا سعيدًا!",
+            "en": "Goodbye, madam, have a good day!",
+            "id": "Sampai jumpa, Bu, semoga hari Anda menyenangkan!"
+          }
+        },
+        "hint": {
+          "ar": "تُقال عند مغادرة المحل أو نهاية اللقاء. وغالبًا يُضاف «Bonne journée» بعدها.",
+          "en": "Said when leaving a shop or at the end of a meeting. Bonne journée is often added.",
+          "id": "Diucapkan saat meninggalkan toko atau di akhir pertemuan. Sering ditambah Bonne journée."
+        }
+      }
+    ],
+    "cloze": [
+      {
+        "sentence": "Bonjour, madame. Comment ___-vous ?",
+        "answer": "allez",
+        "wrong": [
+          "vas",
+          "vais"
+        ],
+        "tr": {
+          "ar": "صباح الخير يا سيدتي. كيف حالكِ؟",
+          "en": "Hello, madam. How are you?",
+          "id": "Selamat pagi, Bu. Apa kabar?"
+        },
+        "why": {
+          "ar": "مع «vous» يكون فعل «aller» «allez». «vas» مع «tu» و«vais» مع «je».",
+          "en": "With vous the verb aller is allez. Vas goes with tu and vais with je.",
+          "id": "Dengan vous kata kerja aller menjadi allez. Vas untuk tu dan vais untuk je."
+        }
+      },
+      {
+        "sentence": "Salut, comment tu ___ ?",
+        "answer": "vas",
+        "wrong": [
+          "va",
+          "allez"
+        ],
+        "tr": {
+          "ar": "مرحبًا، كيف حالك؟",
+          "en": "Hi, how are you?",
+          "id": "Hai, apa kabar?"
+        },
+        "why": {
+          "ar": "الفاعل «tu» يأخذ «vas». «va» مع «il» أو «ça»، و«allez» مع «vous».",
+          "en": "The subject tu takes vas. Va goes with il or ça, and allez with vous.",
+          "id": "Subjek tu memakai vas. Va untuk il atau ça, dan allez untuk vous."
+        }
+      }
+    ],
+    "conversation": {
+      "context": {
+        "ar": "في الصباح بين جارين لا يعرفان بعضهما جيدًا: رجل يحيّي جارته.",
+        "en": "In the morning with a neighbour: two people who do not know each other well.",
+        "id": "Pagi hari bersama tetangga: dua orang yang belum akrab."
+      },
+      "turns": [
+        {
+          "who": "A",
+          "target": "Bonjour, madame. Comment allez-vous ?",
+          "tr": {
+            "ar": "صباح الخير يا سيدتي. كيف حالكِ؟",
+            "en": "Hello, madam. How are you?",
+            "id": "Selamat pagi, Bu. Apa kabar?"
+          }
+        },
+        {
+          "who": "B",
+          "target": "Très bien, merci. Et vous ?",
+          "tr": {
+            "ar": "بخير جدًا، شكرًا. وأنت؟",
+            "en": "Very well, thank you. And you?",
+            "id": "Sangat baik, terima kasih. Dan Anda?"
+          }
+        },
+        {
+          "who": "A",
+          "target": "Je vais bien, merci.",
+          "tr": {
+            "ar": "أنا بخير، شكرًا.",
+            "en": "I am fine, thank you.",
+            "id": "Saya baik, terima kasih."
+          }
+        }
+      ],
+      "gap": 1,
+      "wrong": [
+        "Il est dix heures.",
+        "Je m'appelle Paul."
+      ],
+      "why": {
+        "ar": "سُئلت «Comment allez-vous ?» فنجيب بحالنا ونسأل بالمثل. الردان الآخران لا يجيبان عن السؤال.",
+        "en": "You were asked Comment allez-vous ?, so we answer about our state and ask back. The other two replies do not answer the question.",
+        "id": "Pertanyaannya Comment allez-vous ?, jadi kita menjawab keadaan kita dan bertanya balik. Dua jawaban lain tidak menjawab pertanyaan."
+      }
+    },
+    "summary": {
+      "ar": "تعلمت تحيات النهار والمساء، وتفرّق بين «tu» و«vous»، وتعرف عبارات الأدب. ابدأ كل حديث بكلمة «Bonjour» وأنهِه بـ«Au revoir».",
+      "en": "You learned day and evening greetings, the difference between tu and vous, and polite phrases. Start every conversation with Bonjour and end it with Au revoir.",
+      "id": "Anda mempelajari salam siang dan malam, perbedaan tu dan vous, serta ungkapan sopan. Mulailah setiap percakapan dengan Bonjour dan akhiri dengan Au revoir."
+    }
+  },
+  {
+    "id": "fr-03",
+    "track": "fr",
+    "level": "beginner",
+    "order": 3,
+    "topic": "introducing-yourself",
+    "icon": "🙋",
+    "title": {
+      "ar": "التعريف بنفسك",
+      "en": "Introducing Yourself",
+      "id": "Memperkenalkan Diri"
+    },
+    "description": {
+      "ar": "قل اسمك وبلدك واسأل الآخرين عن أسمائهم.",
+      "en": "Say your name and where you are from, and ask others about theirs.",
+      "id": "Sebutkan nama dan asal Anda, lalu tanyakan nama orang lain."
+    },
+    "objectives": [
+      {
+        "ar": "أستطيع أن أقول «Je m'appelle» واسمي.",
+        "en": "I can say Je m'appelle and my name.",
+        "id": "Saya bisa mengatakan Je m'appelle dan nama saya."
+      },
+      {
+        "ar": "أستطيع أن أقول من أي مدينة أو بلد أنا بـ«Je suis de».",
+        "en": "I can say which city or country I am from with Je suis de.",
+        "id": "Saya bisa menyebut kota atau negara asal dengan Je suis de."
+      },
+      {
+        "ar": "أستطيع سؤال الآخرين عن أسمائهم وبلدانهم بصيغة «tu» وصيغة «vous».",
+        "en": "I can ask others for their name and origin, in the tu and vous forms.",
+        "id": "Saya bisa menanyakan nama dan asal orang lain dengan bentuk tu dan vous."
+      }
+    ],
+    "intro": {
+      "ar": "عند اللقاء الأول يعرّف الناس بأنفسهم بسرعة: الاسم، ثم المدينة أو البلد، ثم عبارة «Enchanté». في هذا الدرس تتعلم الأفعال الأساسية «s'appeler» و«être» و«parler» في صيغة المتكلم.",
+      "en": "At a first meeting people quickly say who they are: a name, then a city or country, then Enchanté. In this lesson you learn the basic verbs s'appeler, être and parler in the I form.",
+      "id": "Pada pertemuan pertama orang cepat memperkenalkan diri: nama, lalu kota atau negara, lalu Enchanté. Di pelajaran ini Anda mempelajari kata kerja dasar s'appeler, être, dan parler dalam bentuk saya."
+    },
+    "culture": {
+      "ar": "عند التعارف الرسمي يصافح الناس عادةً باليد ويقولون «Enchanté» أو «Enchantée» إن كانت المتكلمة امرأة. وفي المواقف الودية بين الأصدقاء قد تأتي «la bise». وإن لم تكن تعرف الفرنسية جيدًا فقل «Je parle un peu français»، وغالبًا ما يُقدَّر ذلك.",
+      "en": "At a formal first meeting people commonly shake hands and say Enchanté, or Enchantée if the speaker is a woman. Among friends la bise may follow. If your French is limited, saying Je parle un peu français is usually appreciated.",
+      "id": "Pada perkenalan resmi orang biasanya berjabat tangan dan mengatakan Enchanté, atau Enchantée jika pembicaranya perempuan. Di antara teman bisa disusul la bise. Jika bahasa Prancis Anda masih terbatas, mengucapkan Je parle un peu français biasanya dihargai."
+    },
+    "grammar": {
+      "title": {
+        "ar": "«je m'appelle» و«je suis»",
+        "en": "Je m'appelle and je suis",
+        "id": "Je m'appelle dan je suis"
+      },
+      "body": {
+        "ar": "«Je m'appelle» تعني حرفيًا «أسمّي نفسي». وبعد «je» قبل حرف متحرك أو h صامت نحذف e ونضع علامة الحذف: «je m'appelle» و«j'habite». «Je suis de + المدينة» تعني «أنا من». ونقول «tu t'appelles» و«vous vous appelez». وصفة الجنسية تتغير حسب الجنس: «je suis égyptien» للمذكر و«je suis égyptienne» للمؤنث.",
+        "en": "Je m'appelle literally means I call myself. Before a vowel or a silent h, je loses its e and takes an apostrophe: je m'appelle, j'habite. Je suis de + city means I am from. We say tu t'appelles and vous vous appelez. Nationalities change with gender: je suis égyptien for a man and je suis égyptienne for a woman.",
+        "id": "Je m'appelle secara harfiah berarti saya menamai diri. Sebelum vokal atau h yang tidak dibunyikan, je kehilangan e dan memakai apostrof: je m'appelle, j'habite. Je suis de + kota berarti saya berasal dari. Kita bilang tu t'appelles dan vous vous appelez. Kebangsaan berubah menurut gender: je suis égyptien untuk laki-laki dan je suis égyptienne untuk perempuan."
+      }
+    },
+    "items": [
+      {
+        "id": "fr03n1",
+        "target": "Je m'appelle Sara.",
+        "translit": "zhuh mah-PEL sah-RAH",
+        "tr": {
+          "ar": "اسمي سارة.",
+          "en": "My name is Sara.",
+          "id": "Nama saya Sara."
+        },
+        "example": {
+          "target": "Je m'appelle Sara et j'habite à Lyon.",
+          "translit": "zhuh mah-PEL sah-RAH ay zhah-BEET ah lee-O(n)",
+          "tr": {
+            "ar": "اسمي سارة وأسكن في ليون.",
+            "en": "My name is Sara and I live in Lyon.",
+            "id": "Nama saya Sara dan saya tinggal di Lyon."
+          }
+        },
+        "hint": {
+          "ar": "يمكنك استبدال «Sara» باسمك. لاحظ ll في «appelle» تُنطق كـ«l» واحدة.",
+          "en": "Replace Sara with your own name. Note that the ll in appelle sounds like a single l.",
+          "id": "Ganti Sara dengan nama Anda. Perhatikan ll pada appelle dibaca seperti satu l."
+        }
+      },
+      {
+        "id": "fr03n2",
+        "target": "Comment tu t'appelles ?",
+        "translit": "koh-mah(n) tew tah-PEL",
+        "tr": {
+          "ar": "ما اسمك؟ (مألوف)",
+          "en": "What is your name? (informal)",
+          "id": "Siapa namamu? (akrab)"
+        },
+        "example": {
+          "target": "Salut ! Comment tu t'appelles ?",
+          "translit": "sah-LEW koh-mah(n) tew tah-PEL",
+          "tr": {
+            "ar": "مرحبًا! ما اسمك؟",
+            "en": "Hi! What is your name?",
+            "id": "Hai! Siapa namamu?"
+          }
+        },
+        "hint": {
+          "ar": "للأصدقاء والأطفال والشباب. «Comment» تعني «كيف» و«t'appelles» «تسمّي نفسك».",
+          "en": "For friends, children and young people. Comment means how, and t'appelles means call yourself.",
+          "id": "Untuk teman, anak-anak, dan anak muda. Comment berarti bagaimana, dan t'appelles berarti menamai dirimu."
+        }
+      },
+      {
+        "id": "fr03n3",
+        "target": "Comment vous appelez-vous ?",
+        "translit": "koh-mah(n) voo-z-ah-puh-lay-VOO",
+        "tr": {
+          "ar": "ما اسمكم؟ (رسمي)",
+          "en": "What is your name? (formal)",
+          "id": "Siapa nama Anda? (resmi)"
+        },
+        "example": {
+          "target": "Bonjour, monsieur. Comment vous appelez-vous ?",
+          "translit": "bo(n)-ZHOOR muh-SYUH koh-mah(n) voo-z-ah-puh-lay-VOO",
+          "tr": {
+            "ar": "صباح الخير يا سيدي. ما اسمكم؟",
+            "en": "Hello, sir. What is your name?",
+            "id": "Selamat siang, Pak. Siapa nama Anda?"
+          }
+        },
+        "hint": {
+          "ar": "هذه الصيغة المهذبة مع من لا تعرفه. لاحظ الربط بين «vous» و«appelez».",
+          "en": "The polite form for someone you do not know. Note the liaison between vous and appelez.",
+          "id": "Bentuk sopan untuk orang yang belum dikenal. Perhatikan liaison antara vous dan appelez."
+        }
+      },
+      {
+        "id": "fr03n4",
+        "target": "Je suis de Riyad.",
+        "translit": "zhuh swee duh ree-YAHD",
+        "tr": {
+          "ar": "أنا من الرياض.",
+          "en": "I am from Riyadh.",
+          "id": "Saya berasal dari Riyadh."
+        },
+        "example": {
+          "target": "Je suis de Riyad, et toi ?",
+          "translit": "zhuh swee duh ree-YAHD ay TWAH",
+          "tr": {
+            "ar": "أنا من الرياض، وأنت؟",
+            "en": "I am from Riyadh, and you?",
+            "id": "Saya dari Riyadh, dan kamu?"
+          }
+        },
+        "hint": {
+          "ar": "تُستعمل «de» مع المدن. ومع اسم بلد مؤنث نقول أيضًا «de»: «Je suis de France».",
+          "en": "De is used with cities. With a feminine country name we also say de: Je suis de France.",
+          "id": "De dipakai dengan nama kota. Dengan nama negara feminin kita juga memakai de: Je suis de France."
+        }
+      },
+      {
+        "id": "fr03n5",
+        "target": "Enchanté.",
+        "translit": "ah(n)-shah(n)-TAY",
+        "tr": {
+          "ar": "تشرفتُ بمعرفتك (يقولها رجل)",
+          "en": "Nice to meet you (said by a man)",
+          "id": "Senang berkenalan (diucapkan laki-laki)"
+        },
+        "example": {
+          "target": "Enchanté, madame.",
+          "translit": "ah(n)-shah(n)-TAY mah-DAHM",
+          "tr": {
+            "ar": "تشرفتُ بمعرفتك يا سيدتي.",
+            "en": "Nice to meet you, madam.",
+            "id": "Senang berkenalan, Bu."
+          }
+        },
+        "hint": {
+          "ar": "النطق واحد للمذكر والمؤنث، لكن المرأة تكتب «Enchantée».",
+          "en": "The pronunciation is the same, but a woman writes Enchantée.",
+          "id": "Ucapannya sama, tetapi perempuan menulis Enchantée."
+        }
+      },
+      {
+        "id": "fr03n6",
+        "target": "D'où êtes-vous ?",
+        "translit": "DOO eht-VOO",
+        "tr": {
+          "ar": "من أين أنتم؟",
+          "en": "Where are you from?",
+          "id": "Anda berasal dari mana?"
+        },
+        "example": {
+          "target": "Excusez-moi, d'où êtes-vous ?",
+          "translit": "ehk-skew-zay-MWAH doo eht-VOO",
+          "tr": {
+            "ar": "عفوًا، من أين أنت؟",
+            "en": "Excuse me, where are you from?",
+            "id": "Permisi, Anda berasal dari mana?"
+          }
+        },
+        "hint": {
+          "ar": "سؤال مهذب. للصديق: «Tu es d'où ?» أو «D'où viens-tu ?».",
+          "en": "A polite question. To a friend: Tu es d'où ? or D'où viens-tu ?",
+          "id": "Pertanyaan sopan. Untuk teman: Tu es d'où ? atau D'où viens-tu ?"
+        }
+      },
+      {
+        "id": "fr03n7",
+        "target": "Je parle un peu français.",
+        "translit": "zhuh PAHRL uh(n) puh frah(n)-SEH",
+        "tr": {
+          "ar": "أتكلم الفرنسية قليلًا.",
+          "en": "I speak a little French.",
+          "id": "Saya bisa sedikit bahasa Prancis."
+        },
+        "example": {
+          "target": "Je parle un peu français et un peu anglais.",
+          "translit": "zhuh PAHRL uh(n) puh frah(n)-SEH ay uh(n) puh ah(n)-GLEH",
+          "tr": {
+            "ar": "أتكلم الفرنسية والإنجليزية قليلًا.",
+            "en": "I speak a little French and a little English.",
+            "id": "Saya bisa sedikit bahasa Prancis dan sedikit bahasa Inggris."
+          }
+        },
+        "hint": {
+          "ar": "عبارة مفيدة جدًا للمبتدئين. أسماء اللغات في الفرنسية تُكتب بحرف صغير.",
+          "en": "A very useful phrase for beginners. Names of languages are not capitalised in French.",
+          "id": "Ungkapan yang sangat berguna bagi pemula. Nama bahasa dalam bahasa Prancis tidak ditulis dengan huruf kapital."
+        }
+      }
+    ],
+    "cloze": [
+      {
+        "sentence": "Je ___ Sara.",
+        "answer": "m'appelle",
+        "wrong": [
+          "m'appelles",
+          "s'appelle"
+        ],
+        "tr": {
+          "ar": "اسمي سارة.",
+          "en": "My name is Sara.",
+          "id": "Nama saya Sara."
+        },
+        "why": {
+          "ar": "مع «je» نقول «je m'appelle». «m'appelles» خطأ لأن النهاية «-s» تخص «tu»، و«s'appelle» مع «il/elle».",
+          "en": "With je we say je m'appelle. M'appelles is wrong because the -s ending belongs to tu, and s'appelle goes with il or elle.",
+          "id": "Dengan je kita bilang je m'appelle. M'appelles salah karena akhiran -s milik tu, dan s'appelle untuk il atau elle."
+        }
+      },
+      {
+        "sentence": "Je ___ de Paris.",
+        "answer": "suis",
+        "wrong": [
+          "es",
+          "est"
+        ],
+        "tr": {
+          "ar": "أنا من باريس.",
+          "en": "I am from Paris.",
+          "id": "Saya berasal dari Paris."
+        },
+        "why": {
+          "ar": "مع «je» يكون فعل «être» هو «suis». «es» مع «tu» و«est» مع «il/elle».",
+          "en": "With je the verb être is suis. Es goes with tu and est with il or elle.",
+          "id": "Dengan je kata kerja être menjadi suis. Es untuk tu dan est untuk il atau elle."
+        }
+      }
+    ],
+    "conversation": {
+      "context": {
+        "ar": "في حفل صغير: شخصان يتعرفان لأول مرة.",
+        "en": "At a small party: two people meet for the first time.",
+        "id": "Di sebuah pesta kecil: dua orang berkenalan untuk pertama kali."
+      },
+      "turns": [
+        {
+          "who": "A",
+          "target": "Bonjour, je m'appelle Paul. Et toi ?",
+          "tr": {
+            "ar": "مرحبًا، اسمي بول. وأنت؟",
+            "en": "Hello, my name is Paul. And you?",
+            "id": "Halo, nama saya Paul. Dan kamu?"
+          }
+        },
+        {
+          "who": "B",
+          "target": "Je m'appelle Sara. Enchantée.",
+          "tr": {
+            "ar": "اسمي سارة. تشرفتُ بمعرفتك.",
+            "en": "My name is Sara. Nice to meet you.",
+            "id": "Nama saya Sara. Senang berkenalan."
+          }
+        },
+        {
+          "who": "A",
+          "target": "Enchanté, Sara !",
+          "tr": {
+            "ar": "تشرفتُ بمعرفتك يا سارة!",
+            "en": "Nice to meet you, Sara!",
+            "id": "Senang berkenalan, Sara!"
+          }
+        }
+      ],
+      "gap": 1,
+      "wrong": [
+        "Il est huit heures.",
+        "Je voudrais un café."
+      ],
+      "why": {
+        "ar": "سُئلت عن اسمك، فتجيب بـ«Je m'appelle ...». الردان الآخران لا يعطيان اسمًا.",
+        "en": "You were asked your name, so you answer Je m'appelle ... The other two replies do not give a name.",
+        "id": "Anda ditanya nama, jadi menjawab Je m'appelle ... Dua jawaban lain tidak menyebut nama."
+      }
+    },
+    "summary": {
+      "ar": "أصبحت تقدّم نفسك وتسأل عن اسم الآخرين وبلدهم بأدب. كرر جملة «Je m'appelle ... Je suis de ...» باسمك أنت.",
+      "en": "You can now introduce yourself and politely ask others for their name and origin. Repeat Je m'appelle ... Je suis de ... with your own details.",
+      "id": "Kini Anda bisa memperkenalkan diri dan menanyakan nama serta asal orang lain dengan sopan. Ulangi Je m'appelle ... Je suis de ... dengan data Anda sendiri."
+    }
+  },
+  {
+    "id": "fr-04",
+    "track": "fr",
+    "level": "beginner",
+    "order": 4,
+    "topic": "numbers-age",
+    "icon": "🔢",
+    "title": {
+      "ar": "الأرقام من 1 إلى 10 والعمر",
+      "en": "Numbers 1 to 10 and Age",
+      "id": "Angka 1-10 dan Usia"
+    },
+    "description": {
+      "ar": "عُدّ حتى عشرة وقل عمرك واسأل عن عمر غيرك.",
+      "en": "Count to ten, say your age and ask someone else's.",
+      "id": "Berhitung sampai sepuluh, sebutkan usia Anda, dan tanyakan usia orang lain."
+    },
+    "objectives": [
+      {
+        "ar": "أستطيع عدّ الأرقام من واحد إلى عشرة بالفرنسية.",
+        "en": "I can count from one to ten in French.",
+        "id": "Saya bisa berhitung dari satu sampai sepuluh dalam bahasa Prancis."
+      },
+      {
+        "ar": "أستطيع القول «J'ai ... ans» لأذكر عمري.",
+        "en": "I can say J'ai ... ans to give my age.",
+        "id": "Saya bisa mengatakan J'ai ... ans untuk menyebut usia."
+      },
+      {
+        "ar": "أستطيع سؤال «Quel âge as-tu ?» و«Quel âge avez-vous ?».",
+        "en": "I can ask Quel âge as-tu ? and Quel âge avez-vous ?",
+        "id": "Saya bisa menanyakan Quel âge as-tu ? dan Quel âge avez-vous ?"
+      }
+    ],
+    "intro": {
+      "ar": "الأرقام الأولى مهمة للأسعار والعمر والوقت. بعضها يتغير نطقه حسب الكلمة التي بعده. في الفرنسية نقول عمر الشخص بفعل «avoir» أي «يملك»: نقول «J'ai vingt ans» حرفيًا «عندي عشرون سنة».",
+      "en": "The first numbers matter for prices, age and time. Some of them change their pronunciation depending on the next word. In French we give age with the verb avoir, to have: J'ai vingt ans literally means I have twenty years.",
+      "id": "Angka-angka awal penting untuk harga, usia, dan waktu. Beberapa berubah ucapannya menurut kata sesudahnya. Dalam bahasa Prancis usia dinyatakan dengan kata kerja avoir, yaitu memiliki: J'ai vingt ans secara harfiah berarti saya punya dua puluh tahun."
+    },
+    "culture": {
+      "ar": "في فرنسا لا يُعتبر سؤال العمر لطيفًا دائمًا مع الغرباء، خصوصًا مع الكبار، فاسأل بين الأصدقاء أو في موقف مناسب. وفي الكتابة الفرنسية تُستعمل الفاصلة للكسور العشرية، فيُكتب 3,50 €.",
+      "en": "In France asking a stranger's age is not always polite, especially of an older person, so ask among friends or when it fits. In French writing a comma is used as the decimal mark, so 3,50 € is written with a comma.",
+      "id": "Di Prancis menanyakan usia orang asing tidak selalu dianggap sopan, terutama kepada orang yang lebih tua, jadi tanyakan di antara teman atau saat situasinya pantas. Dalam tulisan Prancis koma dipakai sebagai tanda desimal, sehingga 3,50 € ditulis dengan koma."
+    },
+    "grammar": {
+      "title": {
+        "ar": "العمر بفعل «avoir»",
+        "en": "Age with avoir",
+        "id": "Usia dengan avoir"
+      },
+      "body": {
+        "ar": "في الفرنسية لا نقول «أنا عشرون» بـ«être» بل «J'ai vingt ans». فصرّف «avoir»: j'ai، tu as، il a، nous avons، vous avez، ils ont. قبل كلمة تبدأ بحرف متحرك يحدث الربط: «dix ans» تُنطق «dee-z-ah(n)». والرقم 6 والرقم 10 يُنطقان «see» و«dee» قبل كلمة تبدأ بحرف صامت، لكن لا تقلق من ذلك الآن.",
+        "en": "French does not say I am twenty with être; it says J'ai vingt ans. So conjugate avoir: j'ai, tu as, il a, nous avons, vous avez, ils ont. Before a word starting with a vowel, liaison happens: dix ans is said dee-z-ah(n). Numbers such as six and dix also change their final sound before certain words, but do not worry about that yet.",
+        "id": "Bahasa Prancis tidak mengatakan saya dua puluh dengan être, melainkan J'ai vingt ans. Jadi konjugasikan avoir: j'ai, tu as, il a, nous avons, vous avez, ils ont. Sebelum kata yang diawali vokal terjadi liaison: dix ans dibaca dee-z-ah(n). Angka seperti six dan dix juga berubah bunyi akhirnya sebelum kata tertentu, tetapi jangan khawatir dulu."
+      }
+    },
+    "items": [
+      {
+        "id": "fr04n1",
+        "target": "un, deux, trois",
+        "translit": "uh(n) duh trwah",
+        "tr": {
+          "ar": "واحد، اثنان، ثلاثة",
+          "en": "one, two, three",
+          "id": "satu, dua, tiga"
+        },
+        "example": {
+          "target": "J'ai trois frères.",
+          "translit": "zhay TRWAH FREHR",
+          "tr": {
+            "ar": "عندي ثلاثة إخوة.",
+            "en": "I have three brothers.",
+            "id": "Saya punya tiga saudara laki-laki."
+          }
+        },
+        "hint": {
+          "ar": "«un» أنفي، و«deux» تحتاج شفتين مستديرتين. وحرف x في «deux» صامت في آخرها.",
+          "en": "Un is nasal, and deux needs rounded lips. The x at the end of deux is silent.",
+          "id": "Un adalah vokal sengau, dan deux membutuhkan bibir membulat. Huruf x di akhir deux tidak dibunyikan."
+        }
+      },
+      {
+        "id": "fr04n2",
+        "target": "quatre, cinq, six",
+        "translit": "KATR seh(n)k SEES",
+        "tr": {
+          "ar": "أربعة، خمسة، ستة",
+          "en": "four, five, six",
+          "id": "empat, lima, enam"
+        },
+        "example": {
+          "target": "Il a cinq ans.",
+          "translit": "eel ah SEH(n)K ah(n)",
+          "tr": {
+            "ar": "عمره خمس سنوات.",
+            "en": "He is five years old.",
+            "id": "Usianya lima tahun."
+          }
+        },
+        "hint": {
+          "ar": "في «cinq» يُنطق الحرف q الأخير «k» عند العدّ أو قبل كلمة تبدأ بحرف متحرك، وقبل حرف صامت يسقط غالبًا. و«six» تُنطق «sees» عند العدّ.",
+          "en": "In cinq the final q is pronounced k when counting or before a vowel; before a consonant it is often silent. Six is pronounced sees when counting.",
+          "id": "Pada cinq huruf q di akhir dibaca k saat berhitung atau sebelum vokal; sebelum konsonan sering tidak dibunyikan. Six dibaca sees saat berhitung."
+        }
+      },
+      {
+        "id": "fr04n3",
+        "target": "sept, huit",
+        "translit": "SET WEET",
+        "tr": {
+          "ar": "سبعة، ثمانية",
+          "en": "seven, eight",
+          "id": "tujuh, delapan"
+        },
+        "example": {
+          "target": "Elle a huit ans.",
+          "translit": "ehl ah WEET ah(n)",
+          "tr": {
+            "ar": "عمرها ثماني سنوات.",
+            "en": "She is eight years old.",
+            "id": "Usianya delapan tahun."
+          }
+        },
+        "hint": {
+          "ar": "في «sept» حرف p صامت. وفي «huit» يبدأ بصوت «w» قصير بعده «ee» (wee-t).",
+          "en": "In sept the p is silent. Huit starts with a short w sound followed by ee (weet).",
+          "id": "Pada sept huruf p tidak dibunyikan. Huit diawali bunyi w pendek diikuti ee (weet)."
+        }
+      },
+      {
+        "id": "fr04n4",
+        "target": "neuf, dix",
+        "translit": "NUHF DEES",
+        "tr": {
+          "ar": "تسعة، عشرة",
+          "en": "nine, ten",
+          "id": "sembilan, sepuluh"
+        },
+        "example": {
+          "target": "Mon frère a dix ans.",
+          "translit": "mo(n) FREHR ah dee-z-AH(n)",
+          "tr": {
+            "ar": "عمر أخي عشر سنوات.",
+            "en": "My brother is ten years old.",
+            "id": "Saudara laki-laki saya berusia sepuluh tahun."
+          }
+        },
+        "hint": {
+          "ar": "«neuf» فيها صوت «uh» مع شفتين مستديرتين. «dix» تُنطق «dees» لكن قبل «ans» تُنطق «dee-z».",
+          "en": "Neuf has an uh sound with rounded lips. Dix is dees, but before ans it is dee-z.",
+          "id": "Neuf memiliki bunyi uh dengan bibir membulat. Dix dibaca dees, tetapi sebelum ans dibaca dee-z."
+        }
+      },
+      {
+        "id": "fr04n5",
+        "target": "Quel âge as-tu ?",
+        "translit": "kehl AHZH ah-TEW",
+        "tr": {
+          "ar": "كم عمرك؟ (مألوف)",
+          "en": "How old are you? (informal)",
+          "id": "Berapa umurmu? (akrab)"
+        },
+        "example": {
+          "target": "Salut ! Quel âge as-tu ?",
+          "translit": "sah-LEW kehl AHZH ah-TEW",
+          "tr": {
+            "ar": "مرحبًا! كم عمرك؟",
+            "en": "Hi! How old are you?",
+            "id": "Hai! Berapa umurmu?"
+          }
+        },
+        "hint": {
+          "ar": "للصيغة الرسمية: «Quel âge avez-vous ?». وتُنطق â كـ«ah» طويلة قليلًا.",
+          "en": "The formal version is Quel âge avez-vous ? The â is a slightly long ah.",
+          "id": "Bentuk resminya: Quel âge avez-vous ? Huruf â dibaca ah yang sedikit panjang."
+        }
+      },
+      {
+        "id": "fr04n6",
+        "target": "J'ai dix ans.",
+        "translit": "zhay dee-z-AH(n)",
+        "tr": {
+          "ar": "عمري عشر سنوات.",
+          "en": "I am ten years old.",
+          "id": "Usia saya sepuluh tahun."
+        },
+        "example": {
+          "target": "J'ai dix ans, et toi ?",
+          "translit": "zhay dee-z-ah(n) ay TWAH",
+          "tr": {
+            "ar": "عمري عشر سنوات، وأنت؟",
+            "en": "I am ten years old, and you?",
+            "id": "Usia saya sepuluh tahun, dan kamu?"
+          }
+        },
+        "hint": {
+          "ar": "ضع بدل «dix» رقمك. «ans» تعني «سنوات»، وتُكتب بصيغة الجمع بعد أي رقم أكبر من واحد.",
+          "en": "Replace dix with your own number. Ans means years and is plural after any number above one.",
+          "id": "Ganti dix dengan angka Anda. Ans berarti tahun dan berbentuk jamak setelah angka di atas satu."
+        }
+      },
+      {
+        "id": "fr04n7",
+        "target": "J'ai vingt ans.",
+        "translit": "zhay veh(n)-t-AH(n)",
+        "tr": {
+          "ar": "عمري عشرون سنة.",
+          "en": "I am twenty years old.",
+          "id": "Usia saya dua puluh tahun."
+        },
+        "example": {
+          "target": "Ma sœur a vingt ans.",
+          "translit": "mah SUHR ah veh(n)-t-AH(n)",
+          "tr": {
+            "ar": "عمر أختي عشرون سنة.",
+            "en": "My sister is twenty years old.",
+            "id": "Saudara perempuan saya berusia dua puluh tahun."
+          }
+        },
+        "hint": {
+          "ar": "«vingt» تأتي بعد «dix»، وهي رقم إضافي في هذا الدرس. ويتصل الحرف t بـ«ans» في النطق.",
+          "en": "Vingt comes after dix and is a bonus number here. The t links to ans in speech.",
+          "id": "Vingt datang setelah dix dan merupakan angka tambahan di pelajaran ini. Huruf t menyambung ke ans dalam ucapan."
+        }
+      }
+    ],
+    "cloze": [
+      {
+        "sentence": "J'___ dix ans.",
+        "answer": "ai",
+        "wrong": [
+          "suis",
+          "es"
+        ],
+        "tr": {
+          "ar": "عمري عشر سنوات.",
+          "en": "I am ten years old.",
+          "id": "Usia saya sepuluh tahun."
+        },
+        "why": {
+          "ar": "نعبّر عن العمر بـ«avoir»: j'ai. لا نستعمل «être» لذلك.",
+          "en": "We express age with avoir: j'ai. We do not use être for it.",
+          "id": "Usia dinyatakan dengan avoir: j'ai. Être tidak dipakai di sini."
+        }
+      },
+      {
+        "sentence": "Un, deux, ___, quatre.",
+        "answer": "trois",
+        "wrong": [
+          "cinq",
+          "six"
+        ],
+        "tr": {
+          "ar": "واحد، اثنان، ثلاثة، أربعة.",
+          "en": "One, two, three, four.",
+          "id": "Satu, dua, tiga, empat."
+        },
+        "why": {
+          "ar": "العدّ التسلسلي: بعد «deux» يأتي «trois» ثم «quatre». «cinq» و«six» يأتيان بعد «quatre».",
+          "en": "In counting order, after deux comes trois and then quatre. Cinq and six come after quatre.",
+          "id": "Dalam urutan hitungan, setelah deux datang trois lalu quatre. Cinq dan six datang setelah quatre."
+        }
+      }
+    ],
+    "conversation": {
+      "context": {
+        "ar": "بين طالبين: يتعرفان على بعضهما.",
+        "en": "Between two students getting to know each other.",
+        "id": "Antara dua mahasiswa yang berkenalan."
+      },
+      "turns": [
+        {
+          "who": "A",
+          "target": "Quel âge as-tu ?",
+          "tr": {
+            "ar": "كم عمرك؟",
+            "en": "How old are you?",
+            "id": "Berapa umurmu?"
+          }
+        },
+        {
+          "who": "B",
+          "target": "J'ai vingt ans.",
+          "tr": {
+            "ar": "عمري عشرون سنة.",
+            "en": "I am twenty years old.",
+            "id": "Usia saya dua puluh tahun."
+          }
+        },
+        {
+          "who": "A",
+          "target": "Moi, j'ai dix-huit ans.",
+          "tr": {
+            "ar": "أنا عمري ثماني عشرة سنة.",
+            "en": "I am eighteen.",
+            "id": "Saya delapan belas tahun."
+          }
+        }
+      ],
+      "gap": 1,
+      "wrong": [
+        "Je suis de Paris.",
+        "Il est trois heures."
+      ],
+      "why": {
+        "ar": "السؤال عن العمر يُجاب عنه بـ«J'ai ... ans». الردان الآخران يعطيان بلدًا ووقتًا لا عمرًا.",
+        "en": "A question about age is answered with J'ai ... ans. The other two replies give a place and a time, not an age.",
+        "id": "Pertanyaan tentang usia dijawab dengan J'ai ... ans. Dua jawaban lain memberi tempat dan waktu, bukan usia."
+      }
+    },
+    "summary": {
+      "ar": "تعلمت الأرقام من 1 إلى 10 وكيف تذكر عمرك بفعل «avoir». تدرّب على قراءة أرقام هاتفك ورقم بيتك بصوت عالٍ.",
+      "en": "You learned numbers 1 to 10 and how to give your age with avoir. Practise reading your phone number and house number aloud.",
+      "id": "Anda mempelajari angka 1-10 dan cara menyebut usia dengan avoir. Latihlah membaca nomor telepon dan nomor rumah dengan suara keras."
+    }
+  },
+  {
+    "id": "fr-05",
+    "track": "fr",
+    "level": "beginner",
+    "order": 5,
+    "topic": "family-possession",
+    "icon": "👨‍👩‍👧",
+    "title": {
+      "ar": "العائلة والملكية",
+      "en": "Family and Possession",
+      "id": "Keluarga dan Kepemilikan"
+    },
+    "description": {
+      "ar": "تكلّم عن أفراد عائلتك واستعمل «mon» و«ma» و«mes».",
+      "en": "Talk about your family and use mon, ma and mes.",
+      "id": "Bicarakan keluarga Anda dan gunakan mon, ma, dan mes."
+    },
+    "objectives": [
+      {
+        "ar": "أستطيع تسمية أفراد العائلة: الأب والأم والأخ والأخت والوالدين.",
+        "en": "I can name family members: father, mother, brother, sister and parents.",
+        "id": "Saya bisa menyebut anggota keluarga: ayah, ibu, saudara laki-laki, saudara perempuan, dan orang tua."
+      },
+      {
+        "ar": "أستطيع اختيار «mon» أو «ma» أو «mes» حسب الاسم بعدها.",
+        "en": "I can choose mon, ma or mes depending on the noun that follows.",
+        "id": "Saya bisa memilih mon, ma, atau mes sesuai kata benda sesudahnya."
+      },
+      {
+        "ar": "أستطيع السؤال «Tu as des frères et sœurs ?».",
+        "en": "I can ask Tu as des frères et sœurs ?",
+        "id": "Saya bisa menanyakan Tu as des frères et sœurs ?"
+      }
+    ],
+    "intro": {
+      "ar": "العائلة موضوع أساسي في أي حديث بين الأصدقاء الجدد. في الفرنسية تتغير كلمات الملكية (مثل «mon» و«ma» و«mes») حسب جنس الاسم الذي بعدها وعدده، لا حسب جنس المتكلم. هذا الفرق يعتاد عليه المتعلم بالتمرين.",
+      "en": "Family is a core topic when friends meet. In French the possessive words (mon, ma, mes) change with the gender and number of the noun that follows, not with the gender of the speaker. Learners get used to this difference with practice.",
+      "id": "Keluarga adalah topik utama saat teman baru bertemu. Dalam bahasa Prancis kata kepemilikan (mon, ma, mes) berubah menurut gender dan jumlah kata benda sesudahnya, bukan menurut gender pembicara. Pelajar terbiasa dengan perbedaan ini lewat latihan."
+    },
+    "culture": {
+      "ar": "العائلة في فرنسا شكلها متنوع، وكثيرًا ما يتحدث الناس عن «le déjeuner du dimanche»، أي غداء الأحد مع الأهل، وهو تقليد عائلي معروف. وسؤال «Tu as des frères et sœurs ?» شائع بين الأصدقاء وغالبًا لا يُعد تطفلًا.",
+      "en": "Families in France come in many forms, and people often mention le déjeuner du dimanche, Sunday lunch with relatives, a familiar family tradition. Asking Tu as des frères et sœurs ? is common between friends and is usually not considered intrusive.",
+      "id": "Keluarga di Prancis beragam bentuknya, dan orang sering menyebut le déjeuner du dimanche, makan siang hari Minggu bersama kerabat, tradisi keluarga yang dikenal. Menanyakan Tu as des frères et sœurs ? lazim di antara teman dan biasanya tidak dianggap lancang."
+    },
+    "grammar": {
+      "title": {
+        "ar": "«mon» و«ma» و«mes»",
+        "en": "Mon, ma and mes",
+        "id": "Mon, ma, dan mes"
+      },
+      "body": {
+        "ar": "نستعمل «mon» قبل اسم مذكر مفرد: «mon père». ونستعمل «ma» قبل اسم مؤنث مفرد: «ma mère». ونستعمل «mes» قبل أي جمع: «mes parents». استثناء مهم: قبل اسم مؤنث يبدأ بحرف متحرك نقول «mon» لسهولة النطق: «mon amie».",
+        "en": "We use mon before a masculine singular noun: mon père. We use ma before a feminine singular noun: ma mère. We use mes before any plural: mes parents. One important exception: before a feminine noun beginning with a vowel we use mon for ease of speech: mon amie.",
+        "id": "Kita memakai mon sebelum kata benda maskulin tunggal: mon père. Kita memakai ma sebelum kata benda feminin tunggal: ma mère. Kita memakai mes sebelum semua bentuk jamak: mes parents. Satu pengecualian penting: sebelum kata benda feminin yang diawali vokal kita memakai mon agar mudah diucapkan: mon amie."
+      }
+    },
+    "items": [
+      {
+        "id": "fr05n1",
+        "target": "mon père",
+        "translit": "mo(n) PEHR",
+        "tr": {
+          "ar": "أبي",
+          "en": "my father",
+          "id": "ayah saya"
+        },
+        "example": {
+          "target": "Mon père est médecin.",
+          "translit": "mo(n) pehr eh mayd-SEH(n)",
+          "tr": {
+            "ar": "أبي طبيب.",
+            "en": "My father is a doctor.",
+            "id": "Ayah saya adalah dokter."
+          }
+        },
+        "hint": {
+          "ar": "«père» مذكر لذلك نقول «mon». ولا تُنطق r كاملة قوية، بل من الحلق.",
+          "en": "Père is masculine, so we say mon. The r is made at the back of the throat.",
+          "id": "Père maskulin, jadi kita memakai mon. R dibuat di belakang tenggorokan."
+        }
+      },
+      {
+        "id": "fr05n2",
+        "target": "ma mère",
+        "translit": "mah MEHR",
+        "tr": {
+          "ar": "أمي",
+          "en": "my mother",
+          "id": "ibu saya"
+        },
+        "example": {
+          "target": "Ma mère s'appelle Claire.",
+          "translit": "mah mehr sah-PEL KLEHR",
+          "tr": {
+            "ar": "اسم أمي كلير.",
+            "en": "My mother is called Claire.",
+            "id": "Ibu saya bernama Claire."
+          }
+        },
+        "hint": {
+          "ar": "«mère» مؤنث لذلك نقول «ma». وتُكتب «mère» مع علامة grave على حرف e.",
+          "en": "Mère is feminine, so we say ma. It is written with a grave accent on the e.",
+          "id": "Mère feminin, jadi kita memakai ma. Kata ini ditulis dengan aksen grave pada e."
+        }
+      },
+      {
+        "id": "fr05n3",
+        "target": "mes parents",
+        "translit": "may pah-RAH(n)",
+        "tr": {
+          "ar": "والداي",
+          "en": "my parents",
+          "id": "orang tua saya"
+        },
+        "example": {
+          "target": "Mes parents habitent à Lyon.",
+          "translit": "may pah-rah(n) ah-BEET ah lee-O(n)",
+          "tr": {
+            "ar": "والداي يسكنان في ليون.",
+            "en": "My parents live in Lyon.",
+            "id": "Orang tua saya tinggal di Lyon."
+          }
+        },
+        "hint": {
+          "ar": "«parents» في الفرنسية تعني عادةً الوالدين وليس كل الأقارب. والجمع «mes» لا يتأثر بالجنس.",
+          "en": "Parents in French usually means mother and father, not all relatives. The plural mes does not depend on gender.",
+          "id": "Parents dalam bahasa Prancis biasanya berarti ayah dan ibu, bukan semua kerabat. Bentuk jamak mes tidak bergantung pada gender."
+        }
+      },
+      {
+        "id": "fr05n4",
+        "target": "mon frère",
+        "translit": "mo(n) FREHR",
+        "tr": {
+          "ar": "أخي",
+          "en": "my brother",
+          "id": "saudara laki-laki saya"
+        },
+        "example": {
+          "target": "Mon frère a dix ans.",
+          "translit": "mo(n) frehr ah dee-z-AH(n)",
+          "tr": {
+            "ar": "عمر أخي عشر سنوات.",
+            "en": "My brother is ten years old.",
+            "id": "Saudara laki-laki saya berusia sepuluh tahun."
+          }
+        },
+        "hint": {
+          "ar": "الحرف r بعد f يُنطق من الحلق. والكلمة نفسها تُقال للأخ الأكبر والأصغر.",
+          "en": "The r after f is made at the back of the throat. The same word is used for an older or a younger brother.",
+          "id": "R setelah f dibuat di belakang tenggorokan. Kata yang sama dipakai untuk kakak maupun adik laki-laki."
+        }
+      },
+      {
+        "id": "fr05n5",
+        "target": "ma sœur",
+        "translit": "mah SUHR",
+        "tr": {
+          "ar": "أختي",
+          "en": "my sister",
+          "id": "saudara perempuan saya"
+        },
+        "example": {
+          "target": "Ma sœur est étudiante.",
+          "translit": "mah suhr eh ay-tew-DYAH(n)T",
+          "tr": {
+            "ar": "أختي طالبة.",
+            "en": "My sister is a student.",
+            "id": "Saudara perempuan saya adalah mahasiswi."
+          }
+        },
+        "hint": {
+          "ar": "تُكتب «sœur» بحرفين ملتصقين œ وتُنطق «suhr». «étudiante» مؤنث «étudiant».",
+          "en": "Sœur is written with the joined letters œ and sounds like suhr. Étudiante is the feminine of étudiant.",
+          "id": "Sœur ditulis dengan huruf gabung œ dan dibaca suhr. Étudiante adalah bentuk feminin dari étudiant."
+        }
+      },
+      {
+        "id": "fr05n6",
+        "target": "J'ai deux frères.",
+        "translit": "zhay duh FREHR",
+        "tr": {
+          "ar": "عندي أخوان.",
+          "en": "I have two brothers.",
+          "id": "Saya punya dua saudara laki-laki."
+        },
+        "example": {
+          "target": "J'ai deux frères et une sœur.",
+          "translit": "zhay duh frehr ay ewn SUHR",
+          "tr": {
+            "ar": "عندي أخوان وأخت.",
+            "en": "I have two brothers and one sister.",
+            "id": "Saya punya dua saudara laki-laki dan satu saudara perempuan."
+          }
+        },
+        "hint": {
+          "ar": "بعد «deux» تأخذ الكلمة s في الكتابة. وفي النطق تبقى «frère» و«frères» متشابهتين.",
+          "en": "After deux the word takes an s in writing. In speech frère and frères sound the same.",
+          "id": "Setelah deux kata mendapat s dalam tulisan. Dalam ucapan frère dan frères terdengar sama."
+        }
+      },
+      {
+        "id": "fr05n7",
+        "target": "Tu as des frères et sœurs ?",
+        "translit": "tew ah day frehr ay SUHR",
+        "tr": {
+          "ar": "هل عندك إخوة وأخوات؟",
+          "en": "Do you have brothers and sisters?",
+          "id": "Apakah kamu punya saudara?"
+        },
+        "example": {
+          "target": "Salut ! Tu as des frères et sœurs ?",
+          "translit": "sah-LEW tew ah day frehr ay SUHR",
+          "tr": {
+            "ar": "مرحبًا! هل عندك إخوة وأخوات؟",
+            "en": "Hi! Do you have brothers and sisters?",
+            "id": "Hai! Apakah kamu punya saudara?"
+          }
+        },
+        "hint": {
+          "ar": "تُرفع النغمة في آخر الجملة. وبالفرنسية نقول «des frères et sœurs» ليشمل الجنسين.",
+          "en": "The voice goes up at the end. French says frères et sœurs to include both.",
+          "id": "Nada naik di akhir kalimat. Bahasa Prancis mengatakan frères et sœurs untuk mencakup keduanya."
+        }
+      }
+    ],
+    "cloze": [
+      {
+        "sentence": "___ mère s'appelle Claire.",
+        "answer": "Ma",
+        "wrong": [
+          "Mon",
+          "Mes"
+        ],
+        "tr": {
+          "ar": "اسم أمي كلير.",
+          "en": "My mother is called Claire.",
+          "id": "Ibu saya bernama Claire."
+        },
+        "why": {
+          "ar": "«mère» مؤنث مفرد فنستعمل «ma». «mon» للمذكر و«mes» للجمع.",
+          "en": "Mère is feminine singular, so we use ma. Mon is for masculine and mes is plural.",
+          "id": "Mère feminin tunggal, jadi dipakai ma. Mon untuk maskulin dan mes untuk jamak."
+        }
+      },
+      {
+        "sentence": "J'ai deux ___.",
+        "answer": "frères",
+        "wrong": [
+          "frère",
+          "sœur"
+        ],
+        "tr": {
+          "ar": "عندي أخوان.",
+          "en": "I have two brothers.",
+          "id": "Saya punya dua saudara laki-laki."
+        },
+        "why": {
+          "ar": "بعد «deux» نحتاج جمعًا وهو «frères». «frère» مفرد، و«sœur» تعني أختًا لا أخًا.",
+          "en": "After deux we need a plural: frères. Frère is singular, and sœur means sister, not brother.",
+          "id": "Setelah deux diperlukan bentuk jamak: frères. Frère tunggal, dan sœur berarti saudara perempuan, bukan laki-laki."
+        }
+      }
+    ],
+    "conversation": {
+      "context": {
+        "ar": "بين زميلين في العمل يتحدثان عن العائلة.",
+        "en": "Two colleagues talking about family.",
+        "id": "Dua rekan kerja membicarakan keluarga."
+      },
+      "turns": [
+        {
+          "who": "A",
+          "target": "Tu as des frères et sœurs ?",
+          "tr": {
+            "ar": "هل عندك إخوة وأخوات؟",
+            "en": "Do you have brothers and sisters?",
+            "id": "Apakah kamu punya saudara?"
+          }
+        },
+        {
+          "who": "B",
+          "target": "Oui, j'ai un frère et une sœur.",
+          "tr": {
+            "ar": "نعم، عندي أخ وأخت.",
+            "en": "Yes, I have a brother and a sister.",
+            "id": "Ya, saya punya satu saudara laki-laki dan satu saudara perempuan."
+          }
+        },
+        {
+          "who": "A",
+          "target": "Super ! Comment s'appelle ton frère ?",
+          "tr": {
+            "ar": "رائع! ما اسم أخيك؟",
+            "en": "Great! What is your brother called?",
+            "id": "Bagus! Siapa nama saudaramu?"
+          }
+        }
+      ],
+      "gap": 1,
+      "wrong": [
+        "Il est midi.",
+        "Je voudrais un café."
+      ],
+      "why": {
+        "ar": "السؤال يخصّ الإخوة، فيناسبه الجواب عن الأخ والأخت. الردان الآخران خارج الموضوع.",
+        "en": "The question is about siblings, so the fitting answer talks about a brother and sister. The other two replies are off topic.",
+        "id": "Pertanyaannya tentang saudara, jadi jawaban yang cocok membahas saudara laki-laki dan perempuan. Dua jawaban lain di luar topik."
+      }
+    },
+    "summary": {
+      "ar": "تعلمت أن «mon» و«ma» و«mes» يتبعان الاسم لا المتكلم، وأن «mon amie» استثناء. تحدّث الآن عن أفراد عائلتك بخمس جمل.",
+      "en": "You learned that mon, ma and mes follow the noun, not the speaker, and that mon amie is an exception. Now describe your own family in five sentences.",
+      "id": "Anda mempelajari bahwa mon, ma, dan mes mengikuti kata benda, bukan pembicara, dan bahwa mon amie adalah pengecualian. Sekarang ceritakan keluarga Anda dalam lima kalimat."
+    }
+  },
+  {
+    "id": "fr-06",
+    "track": "fr",
+    "level": "beginner",
+    "order": 6,
+    "topic": "food-cafe-ordering",
+    "icon": "☕",
+    "title": {
+      "ar": "الطعام والمقهى والطلب",
+      "en": "Food, Café and Ordering",
+      "id": "Makanan, Kafe, dan Memesan"
+    },
+    "description": {
+      "ar": "اطلب القهوة والخبز والماء بأدب، واطلب الحساب.",
+      "en": "Order coffee, bread and water politely, and ask for the bill.",
+      "id": "Pesan kopi, roti, dan air dengan sopan, lalu minta tagihan."
+    },
+    "objectives": [
+      {
+        "ar": "أستطيع الطلب بعبارة «Je voudrais ...».",
+        "en": "I can order with Je voudrais ...",
+        "id": "Saya bisa memesan dengan Je voudrais ..."
+      },
+      {
+        "ar": "أعرف كلمات المخبز والمقهى الأساسية.",
+        "en": "I know the basic bakery and café words.",
+        "id": "Saya tahu kata-kata dasar toko roti dan kafe."
+      },
+      {
+        "ar": "أستطيع طلب الحساب بعبارة «L'addition, s'il vous plaît».",
+        "en": "I can ask for the bill with L'addition, s'il vous plaît.",
+        "id": "Saya bisa meminta tagihan dengan L'addition, s'il vous plaît."
+      }
+    ],
+    "intro": {
+      "ar": "لطلب أي شيء بأدب نقول «Je voudrais» أي «أودّ». وهي أكثر لطفًا من «Je veux» أي «أريد». في هذا الدرس تتعلم كلمات المخبز والمقهى التي تحتاجها كل يوم.",
+      "en": "To order politely we say Je voudrais, I would like. It is more polite than Je veux, I want. In this lesson you learn the bakery and café words you need every day.",
+      "id": "Untuk memesan dengan sopan kita bilang Je voudrais, saya ingin. Ini lebih sopan daripada Je veux, saya mau. Di pelajaran ini Anda mempelajari kata-kata toko roti dan kafe yang dibutuhkan setiap hari."
+    },
+    "culture": {
+      "ar": "في فرنسا تحيّي صاحب المخبز أو المقهى بـ«Bonjour» قبل أن تطلب. و«un café» يعني عادةً قهوة صغيرة قوية (إسبريسو). وفي المطاعم يمكن أن تطلب «une carafe d'eau» أي إبريق من ماء الصنبور، وهو معروف ومقبول. والخدمة عادةً مشمولة في الفاتورة. وتُعدّ الباغيت والكرواسان من أشهر منتجات المخبز.",
+      "en": "In France you greet the baker or café staff with Bonjour before you order. Un café usually means a small strong coffee (an espresso). In restaurants you can ask for une carafe d'eau, a jug of tap water, which is a familiar request. Service is normally included in the bill. The baguette and the croissant are among the best-known bakery items.",
+      "id": "Di Prancis Anda menyapa penjual roti atau staf kafe dengan Bonjour sebelum memesan. Un café biasanya berarti kopi kecil yang kuat (espresso). Di restoran Anda bisa meminta une carafe d'eau, seteko air biasa, yang merupakan permintaan lazim. Layanan biasanya sudah termasuk dalam tagihan. Baguette dan croissant termasuk produk toko roti yang paling dikenal."
+    },
+    "grammar": {
+      "title": {
+        "ar": "«je voudrais» وأداة التنكير",
+        "en": "Je voudrais and the article",
+        "id": "Je voudrais dan artikel"
+      },
+      "body": {
+        "ar": "بعد «Je voudrais» نضع اسمًا مع أداة: «un» للمذكر («un café») و«une» للمؤنث («une baguette»). وللأشياء التي لا تُعدّ، مثل الماء، نستعمل أداة التبعيض «du» أو «de la» أو «de l'»: «de l'eau». وقبل حرف متحرك تُحذف الحركة وتوضع علامة الحذف ('): «de l'eau».",
+        "en": "After Je voudrais we place a noun with an article: un for masculine (un café) and une for feminine (une baguette). For things we cannot count, like water, we use the partitive du, de la or de l': de l'eau. Before a vowel the vowel is dropped and an apostrophe is used: de l'eau.",
+        "id": "Setelah Je voudrais kita menaruh kata benda dengan artikel: un untuk maskulin (un café) dan une untuk feminin (une baguette). Untuk hal yang tidak dapat dihitung, seperti air, dipakai artikel partitif du, de la, atau de l': de l'eau. Sebelum vokal, vokal dilesapkan dan dipakai apostrof: de l'eau."
+      }
+    },
+    "items": [
+      {
+        "id": "fr06n1",
+        "target": "Je voudrais un café, s'il vous plaît.",
+        "translit": "zhuh voo-DRAY uh(n) kah-FAY seel voo PLEH",
+        "tr": {
+          "ar": "أودّ فنجان قهوة من فضلك.",
+          "en": "I would like a coffee, please.",
+          "id": "Saya ingin satu kopi, tolong."
+        },
+        "example": {
+          "target": "Bonjour ! Je voudrais un café, s'il vous plaît.",
+          "translit": "bo(n)-ZHOOR zhuh voo-DRAY uh(n) kah-FAY seel voo PLEH",
+          "tr": {
+            "ar": "مرحبًا! أودّ فنجان قهوة من فضلك.",
+            "en": "Hello! I would like a coffee, please.",
+            "id": "Halo! Saya ingin satu kopi, tolong."
+          }
+        },
+        "hint": {
+          "ar": "«Voudrais» هي صيغة «je»، وهي أيضًا صيغة «tu». وتُنطق «voo-DRAY».",
+          "en": "Voudrais is the form for je (and tu). It is pronounced voo-DRAY.",
+          "id": "Voudrais adalah bentuk untuk je (dan tu). Dibaca voo-DRAY."
+        }
+      },
+      {
+        "id": "fr06n2",
+        "target": "un croissant",
+        "translit": "uh(n) krwah-SAH(n)",
+        "tr": {
+          "ar": "كرواسان",
+          "en": "a croissant",
+          "id": "sebuah croissant"
+        },
+        "example": {
+          "target": "Un croissant et un café, s'il vous plaît.",
+          "translit": "uh(n) krwah-sah(n) ay uh(n) kah-FAY seel voo PLEH",
+          "tr": {
+            "ar": "كرواسان وقهوة من فضلك.",
+            "en": "A croissant and a coffee, please.",
+            "id": "Satu croissant dan satu kopi, tolong."
+          }
+        },
+        "hint": {
+          "ar": "«croissant» مذكر. تُنطق «oi» مثل «wah»، وينتهي بصوت أنفي «an».",
+          "en": "Croissant is masculine. The oi sounds like wah, and it ends with the nasal an.",
+          "id": "Croissant maskulin. Oi dibaca wah, dan kata ini berakhir dengan vokal sengau an."
+        }
+      },
+      {
+        "id": "fr06n3",
+        "target": "une baguette",
+        "translit": "ewn bah-GEHT",
+        "tr": {
+          "ar": "رغيف باغيت",
+          "en": "a baguette",
+          "id": "sebuah baguette"
+        },
+        "example": {
+          "target": "Une baguette, s'il vous plaît.",
+          "translit": "ewn bah-GEHT seel voo PLEH",
+          "tr": {
+            "ar": "باغيت من فضلك.",
+            "en": "A baguette, please.",
+            "id": "Satu baguette, tolong."
+          }
+        },
+        "hint": {
+          "ar": "«baguette» مؤنث لذلك نقول «une». وهي الخبز اليومي المعروف في المخابز الفرنسية.",
+          "en": "Baguette is feminine, so we say une. It is the well-known everyday bread of French bakeries.",
+          "id": "Baguette feminin, jadi kita bilang une. Ini roti harian yang terkenal di toko roti Prancis."
+        }
+      },
+      {
+        "id": "fr06n4",
+        "target": "de l'eau",
+        "translit": "duh LOH",
+        "tr": {
+          "ar": "ماء",
+          "en": "some water",
+          "id": "air"
+        },
+        "example": {
+          "target": "Je voudrais de l'eau, s'il vous plaît.",
+          "translit": "zhuh voo-DRAY duh LOH seel voo PLEH",
+          "tr": {
+            "ar": "أودّ ماء من فضلك.",
+            "en": "I would like some water, please.",
+            "id": "Saya ingin air, tolong."
+          }
+        },
+        "hint": {
+          "ar": "«eau» تُكتب بثلاثة أحرف وتُنطق «oh». وتبدأ بحرف متحرك لذلك نكتب «de l'».",
+          "en": "Eau is written with three letters but sounds like oh. It starts with a vowel, so we write de l'.",
+          "id": "Eau ditulis dengan tiga huruf tetapi dibaca oh. Kata ini diawali vokal, jadi kita menulis de l'."
+        }
+      },
+      {
+        "id": "fr06n5",
+        "target": "L'addition, s'il vous plaît.",
+        "translit": "lah-dee-SYO(n) seel voo PLEH",
+        "tr": {
+          "ar": "الحساب من فضلك.",
+          "en": "The bill, please.",
+          "id": "Tagihannya, tolong."
+        },
+        "example": {
+          "target": "Monsieur, l'addition, s'il vous plaît.",
+          "translit": "muh-SYUH lah-dee-SYO(n) seel voo PLEH",
+          "tr": {
+            "ar": "يا سيدي، الحساب من فضلك.",
+            "en": "Sir, the bill, please.",
+            "id": "Pak, tagihannya, tolong."
+          }
+        },
+        "hint": {
+          "ar": "في الفرنسية «addition» تعني الفاتورة في المطعم وليست الجمع الحسابي فقط.",
+          "en": "In French addition is the restaurant bill, as well as the arithmetic sum.",
+          "id": "Dalam bahasa Prancis addition adalah tagihan restoran, selain berarti penjumlahan."
+        }
+      },
+      {
+        "id": "fr06n6",
+        "target": "C'est délicieux !",
+        "translit": "seh day-lee-SYUH",
+        "tr": {
+          "ar": "لذيذ جدًا!",
+          "en": "It is delicious!",
+          "id": "Enak sekali!"
+        },
+        "example": {
+          "target": "Merci, c'est délicieux !",
+          "translit": "mehr-SEE seh day-lee-SYUH",
+          "tr": {
+            "ar": "شكرًا، لذيذ جدًا!",
+            "en": "Thank you, it is delicious!",
+            "id": "Terima kasih, enak sekali!"
+          }
+        },
+        "hint": {
+          "ar": "«délicieux» في آخرها x صامتة. ويُنطق «ieux» كـ«yuh».",
+          "en": "In délicieux the final x is silent. The ieux sounds like yuh.",
+          "id": "Pada délicieux huruf x di akhir tidak dibunyikan. Bagian ieux dibaca yuh."
+        }
+      },
+      {
+        "id": "fr06n7",
+        "target": "Qu'est-ce que vous désirez ?",
+        "translit": "kehs-kuh voo day-zee-RAY",
+        "tr": {
+          "ar": "ماذا تريدون؟",
+          "en": "What would you like?",
+          "id": "Anda ingin apa?"
+        },
+        "example": {
+          "target": "Bonjour, qu'est-ce que vous désirez ?",
+          "translit": "bo(n)-ZHOOR kehs-kuh voo day-zee-RAY",
+          "tr": {
+            "ar": "مرحبًا، ماذا تريد؟",
+            "en": "Hello, what would you like?",
+            "id": "Halo, Anda ingin apa?"
+          }
+        },
+        "hint": {
+          "ar": "هذا ما يقوله البائع أو النادل. تجيب بـ«Je voudrais ...».",
+          "en": "This is what the seller or waiter says. You answer Je voudrais ...",
+          "id": "Ini yang diucapkan penjual atau pelayan. Anda menjawab Je voudrais ..."
+        }
+      }
+    ],
+    "cloze": [
+      {
+        "sentence": "Je ___ un café, s'il vous plaît.",
+        "answer": "voudrais",
+        "wrong": [
+          "voudrait",
+          "voulez"
+        ],
+        "tr": {
+          "ar": "أودّ فنجان قهوة من فضلك.",
+          "en": "I would like a coffee, please.",
+          "id": "Saya ingin satu kopi, tolong."
+        },
+        "why": {
+          "ar": "مع «je» نقول «voudrais». «voudrait» لـ«il/elle» و«voulez» لـ«vous».",
+          "en": "With je we say voudrais. Voudrait is for il or elle, and voulez for vous.",
+          "id": "Dengan je kita bilang voudrais. Voudrait untuk il atau elle, dan voulez untuk vous."
+        }
+      },
+      {
+        "sentence": "Je voudrais de l'___, s'il vous plaît.",
+        "answer": "eau",
+        "wrong": [
+          "café",
+          "thé"
+        ],
+        "tr": {
+          "ar": "أودّ ماء من فضلك.",
+          "en": "I would like some water, please.",
+          "id": "Saya ingin air, tolong."
+        },
+        "why": {
+          "ar": "نكتب «de l'» قبل اسم يبدأ بحرف متحرك مثل «eau». «café» و«thé» يبدآن بحرف صامت فلا يصحّ معهما الحذف.",
+          "en": "We write de l' before a noun starting with a vowel such as eau. Café and thé start with a consonant, so the elision is not possible.",
+          "id": "Kita menulis de l' sebelum kata benda yang diawali vokal seperti eau. Café dan thé diawali konsonan, jadi pelesapan tidak mungkin."
+        }
+      }
+    ],
+    "conversation": {
+      "context": {
+        "ar": "في مقهى صغير: النادل يأخذ الطلب.",
+        "en": "In a small café: the waiter takes the order.",
+        "id": "Di kafe kecil: pelayan mencatat pesanan."
+      },
+      "turns": [
+        {
+          "who": "A",
+          "target": "Bonjour, vous désirez ?",
+          "tr": {
+            "ar": "مرحبًا، ماذا تريد؟",
+            "en": "Hello, what would you like?",
+            "id": "Halo, Anda ingin apa?"
+          }
+        },
+        {
+          "who": "B",
+          "target": "Je voudrais un café, s'il vous plaît.",
+          "tr": {
+            "ar": "أودّ فنجان قهوة من فضلك.",
+            "en": "I would like a coffee, please.",
+            "id": "Saya ingin satu kopi, tolong."
+          }
+        },
+        {
+          "who": "A",
+          "target": "Voilà. Autre chose ?",
+          "tr": {
+            "ar": "تفضل. شيء آخر؟",
+            "en": "Here you are. Anything else?",
+            "id": "Silakan. Ada lagi?"
+          }
+        }
+      ],
+      "gap": 1,
+      "wrong": [
+        "Il est huit heures.",
+        "Je m'appelle Marc."
+      ],
+      "why": {
+        "ar": "النادل سأل عما تريد، فيكون الجواب طلبًا بصيغة «Je voudrais». الردان الآخران لا يطلبان شيئًا.",
+        "en": "The waiter asked what you want, so the answer is an order with Je voudrais. The other two replies order nothing.",
+        "id": "Pelayan bertanya apa yang Anda inginkan, jadi jawabannya berupa pesanan dengan Je voudrais. Dua jawaban lain tidak memesan apa pun."
+      }
+    },
+    "summary": {
+      "ar": "تعلمت كيف تطلب بأدب بعبارة «Je voudrais» وكيف تستعمل «un» و«une» و«de l'». في المرة المقبلة جرّب أن تطلب في مقهى حقيقي.",
+      "en": "You learned how to order politely with Je voudrais and how to use un, une and de l'. Next time, try ordering in a real café.",
+      "id": "Anda mempelajari cara memesan dengan sopan memakai Je voudrais serta pemakaian un, une, dan de l'. Lain kali, coba pesan di kafe sungguhan."
+    }
+  },
+  {
+    "id": "fr-07",
+    "track": "fr",
+    "level": "elementary",
+    "order": 7,
+    "topic": "shopping-prices",
+    "icon": "🛍️",
+    "title": {
+      "ar": "التسوّق والأسعار",
+      "en": "Shopping and Prices",
+      "id": "Belanja dan Harga"
+    },
+    "description": {
+      "ar": "اسأل عن السعر وقل رأيك فيه واختر ما تشتريه.",
+      "en": "Ask the price, give your opinion on it and choose what to buy.",
+      "id": "Tanyakan harga, sampaikan pendapat tentangnya, dan putuskan apa yang dibeli."
+    },
+    "objectives": [
+      {
+        "ar": "أستطيع سؤال «Combien ça coûte ?».",
+        "en": "I can ask Combien ça coûte ?",
+        "id": "Saya bisa menanyakan Combien ça coûte ?"
+      },
+      {
+        "ar": "أستطيع القول إن السعر مرتفع أو إنني سأشتري الشيء.",
+        "en": "I can say that the price is high or that I will take the item.",
+        "id": "Saya bisa mengatakan harganya mahal atau bahwa saya akan membeli barang itu."
+      },
+      {
+        "ar": "أستطيع السؤال عن الدفع بالبطاقة.",
+        "en": "I can ask about paying by card.",
+        "id": "Saya bisa menanyakan pembayaran dengan kartu."
+      }
+    ],
+    "intro": {
+      "ar": "في المتجر تحتاج إلى بضع جمل ثابتة: السؤال عن السعر، والتعبير عن رأيك، وإعلان قرار الشراء. نستعمل العملة «euro» وتُكتب الكلمة بصيغة الجمع بعد الرقم الأكبر من واحد: «dix euros».",
+      "en": "In a shop you need a few fixed phrases: asking the price, giving an opinion and announcing that you will buy. The currency is the euro, and after a number above one the word takes an s: dix euros.",
+      "id": "Di toko Anda membutuhkan beberapa kalimat tetap: menanyakan harga, menyampaikan pendapat, dan menyatakan akan membeli. Mata uangnya euro, dan setelah angka di atas satu kata ini diberi s: dix euros."
+    },
+    "culture": {
+      "ar": "في فرنسا تقول «Bonjour» عند دخول المتجر و«Merci, au revoir» عند الخروج. والمساومة على السعر ليست عادة في المتاجر الاعتيادية، لكنها قد تكون مقبولة في أسواق الأشياء المستعملة. وتقبل كثير من المتاجر الدفع بالبطاقة.",
+      "en": "In France you say Bonjour on entering a shop and Merci, au revoir on leaving. Bargaining is not the norm in ordinary shops, though it can be accepted at flea markets. Many shops accept card payment.",
+      "id": "Di Prancis Anda mengucapkan Bonjour saat masuk toko dan Merci, au revoir saat keluar. Menawar bukan kebiasaan di toko biasa, meski bisa diterima di pasar barang bekas. Banyak toko menerima pembayaran dengan kartu."
+    },
+    "grammar": {
+      "title": {
+        "ar": "«le» و«ça» وفعل «prendre»",
+        "en": "Le, ça and prendre",
+        "id": "Le, ça, dan prendre"
+      },
+      "body": {
+        "ar": "«Ça coûte» وليس «ça coûtent»: الفاعل «ça» مفرد. ونقول «Je prends» (آخذ) مع s، ولا نقول «Je prend». ونقول «Je le prends» عندما نتكلم عن شيء مذكر، و«Je la prends» عن مؤنث. «C'est» تدخل قبل الصفة: «c'est cher».",
+        "en": "We say ça coûte, not ça coûtent: the subject ça is singular. We say Je prends, with an s, not Je prend. We say Je le prends for a masculine thing and Je la prends for a feminine one. C'est goes before an adjective: c'est cher.",
+        "id": "Kita bilang ça coûte, bukan ça coûtent: subjek ça tunggal. Kita bilang Je prends, dengan s, bukan Je prend. Kita bilang Je le prends untuk benda maskulin dan Je la prends untuk feminin. C'est ditempatkan sebelum adjektiva: c'est cher."
+      }
+    },
+    "items": [
+      {
+        "id": "fr07n1",
+        "target": "Combien ça coûte ?",
+        "translit": "ko(n)-BYEH(n) sah koo-TAY",
+        "tr": {
+          "ar": "كم سعره؟",
+          "en": "How much does it cost?",
+          "id": "Berapa harganya?"
+        },
+        "example": {
+          "target": "Bonjour, combien ça coûte ?",
+          "translit": "bo(n)-ZHOOR ko(n)-byeh(n) sah koo-TAY",
+          "tr": {
+            "ar": "مرحبًا، كم سعره؟",
+            "en": "Hello, how much does it cost?",
+            "id": "Halo, berapa harganya?"
+          }
+        },
+        "hint": {
+          "ar": "«combien» فيها صوتان أنفيان، on وien. وهي صيغة شائعة للسؤال عن الثمن.",
+          "en": "Combien contains two nasal sounds, on and ien. It is a common way to ask a price.",
+          "id": "Combien mengandung dua bunyi sengau, on dan ien. Ini cara yang umum untuk menanyakan harga."
+        }
+      },
+      {
+        "id": "fr07n2",
+        "target": "C'est dix euros.",
+        "translit": "seh dee-z-uh-ROH",
+        "tr": {
+          "ar": "سعره عشرة يوروات.",
+          "en": "It is ten euros.",
+          "id": "Harganya sepuluh euro."
+        },
+        "example": {
+          "target": "Ce livre, c'est dix euros.",
+          "translit": "suh LEEVR seh dee-z-uh-ROH",
+          "tr": {
+            "ar": "هذا الكتاب سعره عشرة يوروات.",
+            "en": "This book is ten euros.",
+            "id": "Buku ini harganya sepuluh euro."
+          }
+        },
+        "hint": {
+          "ar": "لاحظ الربط بين «dix» و«euros». «euro» يُنطق «uh-ROH».",
+          "en": "Note the liaison between dix and euros. Euro sounds like uh-ROH.",
+          "id": "Perhatikan liaison antara dix dan euros. Euro dibaca uh-ROH."
+        }
+      },
+      {
+        "id": "fr07n3",
+        "target": "C'est trop cher.",
+        "translit": "seh troh SHEHR",
+        "tr": {
+          "ar": "هذا غالٍ جدًا.",
+          "en": "It is too expensive.",
+          "id": "Ini terlalu mahal."
+        },
+        "example": {
+          "target": "Désolé, c'est trop cher pour moi.",
+          "translit": "day-zoh-LAY seh troh shehr poor MWAH",
+          "tr": {
+            "ar": "آسف، هذا غالٍ جدًا بالنسبة لي.",
+            "en": "Sorry, it is too expensive for me.",
+            "id": "Maaf, ini terlalu mahal bagi saya."
+          }
+        },
+        "hint": {
+          "ar": "«cher» تُنطق «shehr». وبعد «c'est» لا تتغير الصفة، فنقول «c'est cher» حتى مع المؤنث.",
+          "en": "Cher is pronounced shehr. After c'est the adjective does not change, so we say c'est cher even for a feminine thing.",
+          "id": "Cher dibaca shehr. Setelah c'est adjektiva tidak berubah, jadi kita bilang c'est cher meski untuk benda feminin."
+        }
+      },
+      {
+        "id": "fr07n4",
+        "target": "Je le prends.",
+        "translit": "zhuh luh PRAH(n)",
+        "tr": {
+          "ar": "سآخذه.",
+          "en": "I will take it.",
+          "id": "Saya ambil yang itu."
+        },
+        "example": {
+          "target": "Ce pull est joli. Je le prends.",
+          "translit": "suh PEWL eh zhoh-LEE zhuh luh PRAH(n)",
+          "tr": {
+            "ar": "هذا البلوفر جميل. سآخذه.",
+            "en": "This sweater is nice. I will take it.",
+            "id": "Sweter ini bagus. Saya ambil."
+          }
+        },
+        "hint": {
+          "ar": "«le» هنا ضمير للمذكر. للمؤنث نقول «Je la prends». وحرف s في «prends» صامت.",
+          "en": "Le here is a masculine pronoun. For a feminine thing we say Je la prends. The s in prends is silent.",
+          "id": "Le di sini adalah pronomina maskulin. Untuk feminin kita bilang Je la prends. Huruf s pada prends tidak dibunyikan."
+        }
+      },
+      {
+        "id": "fr07n5",
+        "target": "Je cherche un cadeau.",
+        "translit": "zhuh SHEHRSH uh(n) kah-DOH",
+        "tr": {
+          "ar": "أبحث عن هدية.",
+          "en": "I am looking for a gift.",
+          "id": "Saya mencari hadiah."
+        },
+        "example": {
+          "target": "Bonjour, je cherche un cadeau pour ma mère.",
+          "translit": "bo(n)-ZHOOR zhuh shehrsh uh(n) kah-DOH poor mah MEHR",
+          "tr": {
+            "ar": "مرحبًا، أبحث عن هدية لأمي.",
+            "en": "Hello, I am looking for a gift for my mother.",
+            "id": "Halo, saya mencari hadiah untuk ibu saya."
+          }
+        },
+        "hint": {
+          "ar": "«chercher» تعني بحث عن. و«cadeau» مذكر وجمعه «cadeaux».",
+          "en": "Chercher means to look for. Cadeau is masculine and its plural is cadeaux.",
+          "id": "Chercher berarti mencari. Cadeau maskulin dan jamaknya cadeaux."
+        }
+      },
+      {
+        "id": "fr07n6",
+        "target": "Vous acceptez les cartes ?",
+        "translit": "voo-z-ak-sehp-TAY lay KART",
+        "tr": {
+          "ar": "هل تقبلون البطاقات؟",
+          "en": "Do you accept cards?",
+          "id": "Apakah Anda menerima kartu?"
+        },
+        "example": {
+          "target": "Excusez-moi, vous acceptez les cartes ?",
+          "translit": "ehk-skew-zay-MWAH voo-z-ak-sehp-TAY lay KART",
+          "tr": {
+            "ar": "عفوًا، هل تقبلون البطاقات؟",
+            "en": "Excuse me, do you accept cards?",
+            "id": "Permisi, apakah Anda menerima kartu?"
+          }
+        },
+        "hint": {
+          "ar": "الربط بين «vous» و«acceptez». وحرف s الأخير في «les» يبقى صامتًا قبل «cartes».",
+          "en": "Liaison links vous and acceptez. The s of les stays silent before cartes.",
+          "id": "Liaison menghubungkan vous dan acceptez. Huruf s pada les tetap diam sebelum cartes."
+        }
+      },
+      {
+        "id": "fr07n7",
+        "target": "Je regarde, merci.",
+        "translit": "zhuh ruh-GARD mehr-SEE",
+        "tr": {
+          "ar": "أنا أتفرّج فقط، شكرًا.",
+          "en": "I am just looking, thank you.",
+          "id": "Saya hanya melihat-lihat, terima kasih."
+        },
+        "example": {
+          "target": "– Je peux vous aider ? – Je regarde, merci.",
+          "translit": "zhuh puh voo-z-ay-DAY zhuh ruh-GARD mehr-SEE",
+          "tr": {
+            "ar": "– هل أستطيع مساعدتك؟ – أنا أتفرّج فقط، شكرًا.",
+            "en": "- Can I help you? - I am just looking, thank you.",
+            "id": "- Bisa saya bantu? - Saya hanya melihat-lihat, terima kasih."
+          }
+        },
+        "hint": {
+          "ar": "عبارة مهذبة ترد بها على البائع الذي يعرض مساعدتك.",
+          "en": "A polite reply to a shop assistant who offers help.",
+          "id": "Jawaban sopan kepada penjual yang menawarkan bantuan."
+        }
+      }
+    ],
+    "cloze": [
+      {
+        "sentence": "Ça coûte dix ___.",
+        "answer": "euros",
+        "wrong": [
+          "heures",
+          "ans"
+        ],
+        "tr": {
+          "ar": "سعره عشرة يوروات.",
+          "en": "It costs ten euros.",
+          "id": "Harganya sepuluh euro."
+        },
+        "why": {
+          "ar": "السعر يُقال بالعملة: «euros». «heures» للوقت و«ans» للعمر.",
+          "en": "A price is given in currency: euros. Heures is for time and ans is for age.",
+          "id": "Harga disebut dengan mata uang: euros. Heures untuk waktu dan ans untuk usia."
+        }
+      },
+      {
+        "sentence": "Je ___ ce livre.",
+        "answer": "prends",
+        "wrong": [
+          "prend",
+          "prendre"
+        ],
+        "tr": {
+          "ar": "سآخذ هذا الكتاب.",
+          "en": "I am taking this book.",
+          "id": "Saya ambil buku ini."
+        },
+        "why": {
+          "ar": "مع «je» يأخذ الفعل «prendre» الصيغة «prends». «prend» لـ«il/elle» و«prendre» مصدر.",
+          "en": "With je the verb prendre is prends. Prend is for il or elle, and prendre is the infinitive.",
+          "id": "Dengan je kata kerja prendre menjadi prends. Prend untuk il atau elle, dan prendre adalah infinitif."
+        }
+      }
+    ],
+    "conversation": {
+      "context": {
+        "ar": "في متجر: البائع يعرض المساعدة.",
+        "en": "In a shop: the assistant offers help.",
+        "id": "Di toko: penjual menawarkan bantuan."
+      },
+      "turns": [
+        {
+          "who": "A",
+          "target": "Bonjour, je peux vous aider ?",
+          "tr": {
+            "ar": "مرحبًا، هل أستطيع مساعدتك؟",
+            "en": "Hello, can I help you?",
+            "id": "Halo, bisa saya bantu?"
+          }
+        },
+        {
+          "who": "B",
+          "target": "Je cherche un cadeau.",
+          "tr": {
+            "ar": "أبحث عن هدية.",
+            "en": "I am looking for a gift.",
+            "id": "Saya mencari hadiah."
+          }
+        },
+        {
+          "who": "A",
+          "target": "Bien sûr. Voici un livre à quinze euros.",
+          "tr": {
+            "ar": "بالتأكيد. هذا كتاب بخمسة عشر يورو.",
+            "en": "Of course. Here is a book for fifteen euros.",
+            "id": "Tentu. Ini ada buku seharga lima belas euro."
+          }
+        }
+      ],
+      "gap": 1,
+      "wrong": [
+        "J'ai douze ans.",
+        "Il est huit heures."
+      ],
+      "why": {
+        "ar": "البائع عرض المساعدة، والجواب المناسب أن تقول ما تبحث عنه. الردان الآخران لا علاقة لهما بالتسوّق.",
+        "en": "The assistant offered help, and the fitting answer is to say what you are looking for. The other two replies have nothing to do with shopping.",
+        "id": "Penjual menawarkan bantuan, dan jawaban yang cocok adalah menyebut apa yang dicari. Dua jawaban lain tidak berkaitan dengan belanja."
+      }
+    },
+    "summary": {
+      "ar": "تعلمت كيف تسأل عن السعر وتعلّق عليه وتقرر الشراء. حاول أن تقول سعر ثلاثة أشياء من حولك بالفرنسية.",
+      "en": "You learned how to ask the price, comment on it and decide to buy. Try saying the price of three things around you in French.",
+      "id": "Anda mempelajari cara menanyakan harga, mengomentarinya, dan memutuskan membeli. Cobalah menyebut harga tiga benda di sekitar Anda dalam bahasa Prancis."
+    }
+  },
+  {
+    "id": "fr-08",
+    "track": "fr",
+    "level": "elementary",
+    "order": 8,
+    "topic": "directions-places",
+    "icon": "🧭",
+    "title": {
+      "ar": "الاتجاهات والأماكن",
+      "en": "Directions and Places",
+      "id": "Arah dan Tempat"
+    },
+    "description": {
+      "ar": "اسأل عن الأماكن وافهم الإرشادات البسيطة.",
+      "en": "Ask about places and understand simple directions.",
+      "id": "Tanyakan tempat dan pahami petunjuk arah sederhana."
+    },
+    "objectives": [
+      {
+        "ar": "أستطيع السؤال «Où est ... ?» و«Où sont ... ?».",
+        "en": "I can ask Où est ... ? and Où sont ... ?",
+        "id": "Saya bisa menanyakan Où est ... ? dan Où sont ... ?"
+      },
+      {
+        "ar": "أفهم «tout droit» و«à gauche» و«à droite».",
+        "en": "I understand tout droit, à gauche and à droite.",
+        "id": "Saya memahami tout droit, à gauche, dan à droite."
+      },
+      {
+        "ar": "أستطيع السؤال عن مكان قريب أو بعيد.",
+        "en": "I can ask whether a place is near or far.",
+        "id": "Saya bisa menanyakan apakah suatu tempat dekat atau jauh."
+      }
+    ],
+    "intro": {
+      "ar": "عند التنقل في مدينة جديدة تسأل المارة عن الأماكن. تبدأ بـ«Excusez-moi» ثم «Où est ... ?». يُجاب بإرشادات قصيرة. في الفرنسية نقول «Où est» مع المفرد و«Où sont» مع الجمع.",
+      "en": "When moving around a new city you ask passers-by about places. Start with Excusez-moi, then Où est ... ? The answer is a short set of directions. French uses Où est with the singular and Où sont with the plural.",
+      "id": "Saat berpindah di kota baru Anda bertanya kepada orang yang lewat. Mulailah dengan Excusez-moi, lalu Où est ... ? Jawabannya berupa petunjuk singkat. Bahasa Prancis memakai Où est untuk tunggal dan Où sont untuk jamak."
+    },
+    "culture": {
+      "ar": "لإيقاف أحد المارة نبدأ عادةً بـ«Excusez-moi» أو «Pardon». وتحمل الشوارع أسماء مثل «rue» و«avenue» و«boulevard». ويُسمّى الطابق الأرضي «le rez-de-chaussée» ثم يأتي «le premier étage» وهو الطابق الذي يعلوه، وليس الأرضي، وهذا يربك الزوار أحيانًا.",
+      "en": "To stop a passer-by we usually begin with Excusez-moi or Pardon. Streets have names such as rue, avenue and boulevard. The ground floor is le rez-de-chaussée, and le premier étage is the floor above it, which sometimes confuses visitors.",
+      "id": "Untuk menghentikan orang yang lewat kita biasanya mulai dengan Excusez-moi atau Pardon. Jalan bernama rue, avenue, dan boulevard. Lantai dasar disebut le rez-de-chaussée, dan le premier étage adalah lantai di atasnya, yang kadang membingungkan pengunjung."
+    },
+    "grammar": {
+      "title": {
+        "ar": "«est» و«sont» و«tournez»",
+        "en": "Est, sont and tournez",
+        "id": "Est, sont, dan tournez"
+      },
+      "body": {
+        "ar": "نقول «Où est la gare ?» للمفرد و«Où sont les toilettes ?» للجمع، وكلمة «toilettes» تُستعمل غالبًا بالجمع. وللأمر مع «vous» ينتهي الفعل عادةً بـ«-ez»: «tournez» و«continuez». حرف الجر «à» مع «gauche» و«droite»: «à gauche» و«à droite».",
+        "en": "We say Où est la gare ? for the singular and Où sont les toilettes ? for the plural; the word toilettes is usually used in the plural. For a command with vous, the verb usually ends in -ez: tournez, continuez. The preposition à goes with gauche and droite: à gauche, à droite.",
+        "id": "Kita bilang Où est la gare ? untuk tunggal dan Où sont les toilettes ? untuk jamak; kata toilettes biasanya dipakai dalam bentuk jamak. Untuk perintah dengan vous, kata kerja biasanya berakhiran -ez: tournez, continuez. Preposisi à dipakai dengan gauche dan droite: à gauche, à droite."
+      }
+    },
+    "items": [
+      {
+        "id": "fr08n1",
+        "target": "Où est la gare ?",
+        "translit": "oo EH lah GAHR",
+        "tr": {
+          "ar": "أين المحطة؟",
+          "en": "Where is the station?",
+          "id": "Di mana stasiunnya?"
+        },
+        "example": {
+          "target": "Excusez-moi, où est la gare ?",
+          "translit": "ehk-skew-zay-MWAH oo eh lah GAHR",
+          "tr": {
+            "ar": "عفوًا، أين المحطة؟",
+            "en": "Excuse me, where is the station?",
+            "id": "Permisi, di mana stasiunnya?"
+          }
+        },
+        "hint": {
+          "ar": "«gare» مؤنث لذلك نقول «la gare». وتُنطق «oo» بشفتين مستديرتين قليلًا.",
+          "en": "Gare is feminine, so we say la gare. The ou is pronounced oo.",
+          "id": "Gare feminin, jadi kita bilang la gare. Ou dibaca oo."
+        }
+      },
+      {
+        "id": "fr08n2",
+        "target": "Où sont les toilettes ?",
+        "translit": "oo SO(n) lay twah-LEHT",
+        "tr": {
+          "ar": "أين دورات المياه؟",
+          "en": "Where are the toilets?",
+          "id": "Di mana toiletnya?"
+        },
+        "example": {
+          "target": "Pardon, où sont les toilettes ?",
+          "translit": "pahr-DO(n) oo so(n) lay twah-LEHT",
+          "tr": {
+            "ar": "عفوًا، أين دورات المياه؟",
+            "en": "Excuse me, where are the toilets?",
+            "id": "Permisi, di mana toiletnya?"
+          }
+        },
+        "hint": {
+          "ar": "هنا «sont» لأن «toilettes» جمع. وحرف s في «les» صامت قبل حرف صامت.",
+          "en": "Sont is used because toilettes is plural. The s of les is silent before a consonant.",
+          "id": "Sont dipakai karena toilettes jamak. Huruf s pada les tidak dibunyikan sebelum konsonan."
+        }
+      },
+      {
+        "id": "fr08n3",
+        "target": "Tout droit",
+        "translit": "too DRWAH",
+        "tr": {
+          "ar": "إلى الأمام مباشرة",
+          "en": "straight ahead",
+          "id": "lurus"
+        },
+        "example": {
+          "target": "Allez tout droit, puis tournez à gauche.",
+          "translit": "ah-lay too DRWAH PWEE toor-nay ah GOHSH",
+          "tr": {
+            "ar": "اذهب إلى الأمام مباشرة ثم انعطف يسارًا.",
+            "en": "Go straight ahead, then turn left.",
+            "id": "Jalan lurus, lalu belok kiri."
+          }
+        },
+        "hint": {
+          "ar": "الجمع بين حرف o وi يُنطق «wah». ولا تُنطق t في آخر «droit».",
+          "en": "The letters oi sound like wah. The final t of droit is silent.",
+          "id": "Huruf oi dibaca wah. Huruf t di akhir droit tidak dibunyikan."
+        }
+      },
+      {
+        "id": "fr08n4",
+        "target": "Tournez à gauche.",
+        "translit": "toor-NAY ah GOHSH",
+        "tr": {
+          "ar": "انعطف يسارًا.",
+          "en": "Turn left.",
+          "id": "Belok kiri."
+        },
+        "example": {
+          "target": "Au feu rouge, tournez à gauche.",
+          "translit": "oh fuh ROOZH toor-nay ah GOHSH",
+          "tr": {
+            "ar": "عند الإشارة الحمراء انعطف يسارًا.",
+            "en": "At the red light, turn left.",
+            "id": "Di lampu merah, belok kiri."
+          }
+        },
+        "hint": {
+          "ar": "«gauche» تُنطق «gohsh» لأن au تُنطق «oh». وهي صيغة الأمر مع «vous».",
+          "en": "Gauche is pronounced gohsh because au sounds like oh. This is the vous command form.",
+          "id": "Gauche dibaca gohsh karena au dibaca oh. Ini bentuk perintah dengan vous."
+        }
+      },
+      {
+        "id": "fr08n5",
+        "target": "Tournez à droite.",
+        "translit": "toor-NAY ah DRWAHT",
+        "tr": {
+          "ar": "انعطف يمينًا.",
+          "en": "Turn right.",
+          "id": "Belok kanan."
+        },
+        "example": {
+          "target": "Après la banque, tournez à droite.",
+          "translit": "ah-PREH lah BAH(n)K toor-nay ah DRWAHT",
+          "tr": {
+            "ar": "بعد البنك انعطف يمينًا.",
+            "en": "After the bank, turn right.",
+            "id": "Setelah bank, belok kanan."
+          }
+        },
+        "hint": {
+          "ar": "«droite» تُنطق t في آخرها لأن بعدها حرف e صامت. أما «droit» المذكر فتُنطق بلا t.",
+          "en": "In droite the t is pronounced because of the e that follows. In masculine droit the t is silent.",
+          "id": "Pada droite huruf t dibunyikan karena ada e sesudahnya. Pada droit maskulin huruf t tidak dibunyikan."
+        }
+      },
+      {
+        "id": "fr08n6",
+        "target": "C'est près d'ici ?",
+        "translit": "seh PREH dee-SEE",
+        "tr": {
+          "ar": "هل هو قريب من هنا؟",
+          "en": "Is it near here?",
+          "id": "Apakah dekat dari sini?"
+        },
+        "example": {
+          "target": "La pharmacie, c'est près d'ici ?",
+          "translit": "lah far-mah-SEE seh preh dee-SEE",
+          "tr": {
+            "ar": "الصيدلية، هل هي قريبة من هنا؟",
+            "en": "The pharmacy, is it near here?",
+            "id": "Apotek, apakah dekat dari sini?"
+          }
+        },
+        "hint": {
+          "ar": "والسؤال المعاكس «C'est loin ?» أي «هل هو بعيد؟». وكلمة «ici» تعني «هنا».",
+          "en": "The opposite question is C'est loin ? Ici means here.",
+          "id": "Pertanyaan sebaliknya adalah C'est loin ? Ici berarti di sini."
+        }
+      },
+      {
+        "id": "fr08n7",
+        "target": "Je cherche la pharmacie.",
+        "translit": "zhuh SHEHRSH lah far-mah-SEE",
+        "tr": {
+          "ar": "أبحث عن الصيدلية.",
+          "en": "I am looking for the pharmacy.",
+          "id": "Saya mencari apotek."
+        },
+        "example": {
+          "target": "Excusez-moi, je cherche la pharmacie.",
+          "translit": "ehk-skew-zay-MWAH zhuh shehrsh lah far-mah-SEE",
+          "tr": {
+            "ar": "عفوًا، أبحث عن الصيدلية.",
+            "en": "Excuse me, I am looking for the pharmacy.",
+            "id": "Permisi, saya mencari apotek."
+          }
+        },
+        "hint": {
+          "ar": "يمكن استبدال «pharmacie» بـ«banque» أو «poste». وحرف ph يُنطق «f».",
+          "en": "You can replace pharmacie with banque or poste. The ph sounds like f.",
+          "id": "Pharmacie dapat diganti dengan banque atau poste. Huruf ph dibaca f."
+        }
+      }
+    ],
+    "cloze": [
+      {
+        "sentence": "Tournez ___ gauche.",
+        "answer": "à",
+        "wrong": [
+          "de",
+          "en"
+        ],
+        "tr": {
+          "ar": "انعطف يسارًا.",
+          "en": "Turn left.",
+          "id": "Belok kiri."
+        },
+        "why": {
+          "ar": "نقول «à gauche» و«à droite» مع حرف الجر «à». «de» و«en» لا تصحّان هنا.",
+          "en": "We say à gauche and à droite with the preposition à. De and en do not work here.",
+          "id": "Kita bilang à gauche dan à droite dengan preposisi à. De dan en tidak cocok di sini."
+        }
+      },
+      {
+        "sentence": "Où ___ les toilettes ?",
+        "answer": "sont",
+        "wrong": [
+          "est",
+          "êtes"
+        ],
+        "tr": {
+          "ar": "أين دورات المياه؟",
+          "en": "Where are the toilets?",
+          "id": "Di mana toiletnya?"
+        },
+        "why": {
+          "ar": "«les toilettes» جمع، لذلك نستعمل «sont». «est» للمفرد و«êtes» مع «vous».",
+          "en": "Les toilettes is plural, so we use sont. Est is for the singular and êtes goes with vous.",
+          "id": "Les toilettes jamak, jadi dipakai sont. Est untuk tunggal dan êtes untuk vous."
+        }
+      }
+    ],
+    "conversation": {
+      "context": {
+        "ar": "في الشارع: سائح يسأل مارًّا عن المحطة.",
+        "en": "In the street: a tourist asks a passer-by about the station.",
+        "id": "Di jalan: seorang turis bertanya kepada orang yang lewat tentang stasiun."
+      },
+      "turns": [
+        {
+          "who": "A",
+          "target": "Excusez-moi, où est la gare, s'il vous plaît ?",
+          "tr": {
+            "ar": "عفوًا، أين المحطة من فضلك؟",
+            "en": "Excuse me, where is the station, please?",
+            "id": "Permisi, di mana stasiunnya?"
+          }
+        },
+        {
+          "who": "B",
+          "target": "Tout droit, puis à gauche.",
+          "tr": {
+            "ar": "إلى الأمام مباشرة ثم يسارًا.",
+            "en": "Straight ahead, then left.",
+            "id": "Lurus, lalu kiri."
+          }
+        },
+        {
+          "who": "A",
+          "target": "Merci beaucoup, madame !",
+          "tr": {
+            "ar": "شكرًا جزيلًا يا سيدتي!",
+            "en": "Thank you very much, madam!",
+            "id": "Terima kasih banyak, Bu!"
+          }
+        }
+      ],
+      "gap": 1,
+      "wrong": [
+        "Elle s'appelle Marie.",
+        "Je voudrais un café."
+      ],
+      "why": {
+        "ar": "سُئل المار عن مكان المحطة، فالجواب يعطي إرشادات للوصول. الردان الآخران لا يوصلان إلى المحطة.",
+        "en": "The passer-by was asked where the station is, so the answer gives directions. The other two replies do not lead to the station.",
+        "id": "Orang yang lewat ditanya letak stasiun, jadi jawabannya memberi petunjuk arah. Dua jawaban lain tidak mengarah ke stasiun."
+      }
+    },
+    "summary": {
+      "ar": "تعلمت السؤال عن الأماكن وفهم «tout droit» و«à gauche» و«à droite». تدرّب على وصف طريقك من بيتك إلى أقرب متجر.",
+      "en": "You learned to ask about places and to understand tout droit, à gauche and à droite. Practise describing your way from home to the nearest shop.",
+      "id": "Anda mempelajari cara menanyakan tempat dan memahami tout droit, à gauche, dan à droite. Latihlah menggambarkan rute dari rumah ke toko terdekat."
+    }
+  },
+  {
+    "id": "fr-09",
+    "track": "fr",
+    "level": "elementary",
+    "order": 9,
+    "topic": "time-days-routine",
+    "icon": "⏰",
+    "title": {
+      "ar": "الوقت وأيام الأسبوع والروتين اليومي",
+      "en": "Time, Days and Daily Routine",
+      "id": "Waktu, Hari, dan Rutinitas Harian"
+    },
+    "description": {
+      "ar": "اسأل عن الساعة وسمِّ أيام الأسبوع وتكلّم عن يومك.",
+      "en": "Ask the time, name the days of the week and talk about your day.",
+      "id": "Tanyakan jam, sebutkan hari dalam seminggu, dan ceritakan hari Anda."
+    },
+    "objectives": [
+      {
+        "ar": "أستطيع السؤال «Quelle heure est-il ?» وأجيب «Il est ... heures».",
+        "en": "I can ask Quelle heure est-il ? and answer Il est ... heures.",
+        "id": "Saya bisa menanyakan Quelle heure est-il ? dan menjawab Il est ... heures."
+      },
+      {
+        "ar": "أعرف أيام الأسبوع السبعة بالفرنسية.",
+        "en": "I know the seven days of the week in French.",
+        "id": "Saya tahu tujuh hari dalam seminggu dalam bahasa Prancis."
+      },
+      {
+        "ar": "أستطيع وصف عادتين يوميتين مع الوقت.",
+        "en": "I can describe two daily habits with the time.",
+        "id": "Saya bisa menggambarkan dua kebiasaan harian beserta waktunya."
+      }
+    ],
+    "intro": {
+      "ar": "نسأل عن الوقت بـ«Quelle heure est-il ?» ونجيب «Il est ... heures». ولأيام الأسبوع سبعة أسماء تُكتب بحرف صغير وتنتهي معظمها بـ«di». وفي هذا الدرس تتعلم فعلين يعبران عن الروتين اليومي: «se lever» و«manger».",
+      "en": "We ask the time with Quelle heure est-il ? and answer Il est ... heures. The days of the week have seven names, written with a small letter, and most end in di. In this lesson you learn two verbs for daily routine: se lever and manger.",
+      "id": "Kita menanyakan waktu dengan Quelle heure est-il ? dan menjawab Il est ... heures. Hari dalam seminggu punya tujuh nama, ditulis dengan huruf kecil, dan kebanyakan berakhiran di. Di pelajaran ini Anda mempelajari dua kata kerja untuk rutinitas harian: se lever dan manger."
+    },
+    "culture": {
+      "ar": "في فرنسا يبدأ الأسبوع بيوم «lundi»، وتُكتب أسماء الأيام بحرف صغير. وفي الجداول والمواصلات تُستعمل الساعة بنظام 24 ساعة، فتكون الساعة الواحدة بعد الظهر «13 h». كثير من المتاجر الصغيرة تُغلق يوم الأحد، وبعض المخابز تُغلق يومًا آخر في الأسبوع.",
+      "en": "In France the week starts on lundi, and day names are written with a small letter. In timetables and transport the 24-hour clock is used, so one o'clock in the afternoon is 13 h. Many small shops close on Sunday, and some bakeries close on another day of the week.",
+      "id": "Di Prancis pekan dimulai pada lundi, dan nama hari ditulis dengan huruf kecil. Pada jadwal dan transportasi dipakai jam 24, sehingga pukul satu siang adalah 13 h. Banyak toko kecil tutup pada hari Minggu, dan beberapa toko roti tutup pada hari lain dalam seminggu."
+    },
+    "grammar": {
+      "title": {
+        "ar": "الساعة والفعل «se lever»",
+        "en": "Telling time and se lever",
+        "id": "Menyebut jam dan se lever"
+      },
+      "body": {
+        "ar": "نقول «Il est huit heures» بالجمع «heures» بعد الرقم الأكبر من واحد، و«Il est une heure» للساعة الواحدة. وللظهر نقول «midi»، وللنصف «et demie». وفعل «se lever» (أنهض) صيغته «je me lève» بحرف è وعلامة grave، و«tu te lèves» و«vous vous levez». وفعل «manger»: «je mange» و«nous mangeons».",
+        "en": "We say Il est huit heures with heures in the plural after a number above one, and Il est une heure for one o'clock. For noon we say midi and for half past we say et demie. The verb se lever (to get up) is je me lève with a grave accent on the è, tu te lèves, vous vous levez. The verb manger: je mange, nous mangeons.",
+        "id": "Kita bilang Il est huit heures dengan heures jamak setelah angka di atas satu, dan Il est une heure untuk pukul satu. Untuk tengah hari kita bilang midi dan untuk setengah kita bilang et demie. Kata kerja se lever (bangun) menjadi je me lève dengan aksen grave pada è, tu te lèves, vous vous levez. Kata kerja manger: je mange, nous mangeons."
+      }
+    },
+    "items": [
+      {
+        "id": "fr09n1",
+        "target": "Quelle heure est-il ?",
+        "translit": "kehl UHR eh-TEEL",
+        "tr": {
+          "ar": "كم الساعة؟",
+          "en": "What time is it?",
+          "id": "Jam berapa sekarang?"
+        },
+        "example": {
+          "target": "Excusez-moi, quelle heure est-il ?",
+          "translit": "ehk-skew-zay-MWAH kehl uhr eh-TEEL",
+          "tr": {
+            "ar": "عفوًا، كم الساعة؟",
+            "en": "Excuse me, what time is it?",
+            "id": "Permisi, jam berapa sekarang?"
+          }
+        },
+        "hint": {
+          "ar": "صيغة قياسية ومهذبة. بين الأصدقاء: «Tu as l'heure ?» لكن الأولى أضمن للتعلّم.",
+          "en": "A standard polite form. Among friends: Tu as l'heure ? but the first one is safer to learn.",
+          "id": "Bentuk standar dan sopan. Di antara teman: Tu as l'heure ? tetapi yang pertama lebih aman dipelajari."
+        }
+      },
+      {
+        "id": "fr09n2",
+        "target": "Il est huit heures.",
+        "translit": "eel eh wee-TUHR",
+        "tr": {
+          "ar": "الساعة الثامنة.",
+          "en": "It is eight o'clock.",
+          "id": "Sekarang pukul delapan."
+        },
+        "example": {
+          "target": "Il est huit heures, je suis en retard.",
+          "translit": "eel eh wee-TUHR zhuh swee-z-ah(n) ruh-TAHR",
+          "tr": {
+            "ar": "الساعة الثامنة، أنا متأخر.",
+            "en": "It is eight o'clock, I am late.",
+            "id": "Sekarang pukul delapan, saya terlambat."
+          }
+        },
+        "hint": {
+          "ar": "الربط بين «huit» و«heures»: يُنطق t قبل «heures». وحرف h في «heures» صامت.",
+          "en": "Liaison links huit and heures: the t is pronounced before heures. The h in heures is silent.",
+          "id": "Liaison menghubungkan huit dan heures: huruf t dibunyikan sebelum heures. Huruf h pada heures tidak dibunyikan."
+        }
+      },
+      {
+        "id": "fr09n3",
+        "target": "lundi, mardi, mercredi",
+        "translit": "luh(n)-DEE mahr-DEE mehr-kruh-DEE",
+        "tr": {
+          "ar": "الاثنين، الثلاثاء، الأربعاء",
+          "en": "Monday, Tuesday, Wednesday",
+          "id": "Senin, Selasa, Rabu"
+        },
+        "example": {
+          "target": "Le lundi, je travaille.",
+          "translit": "luh luh(n)-DEE zhuh trah-VAHY",
+          "tr": {
+            "ar": "أعمل كل يوم اثنين.",
+            "en": "On Mondays, I work.",
+            "id": "Pada hari Senin, saya bekerja."
+          }
+        },
+        "hint": {
+          "ar": "أسماء الأيام مذكّرة وتُكتب بحرف صغير. وعبارة «le lundi» تعني «كل اثنين».",
+          "en": "Day names are masculine and written with a small letter. Le lundi means every Monday.",
+          "id": "Nama hari maskulin dan ditulis dengan huruf kecil. Le lundi berarti setiap hari Senin."
+        }
+      },
+      {
+        "id": "fr09n4",
+        "target": "jeudi, vendredi",
+        "translit": "zhuh-DEE vah(n)-druh-DEE",
+        "tr": {
+          "ar": "الخميس، الجمعة",
+          "en": "Thursday, Friday",
+          "id": "Kamis, Jumat"
+        },
+        "example": {
+          "target": "Vendredi, je vais au cinéma.",
+          "translit": "vah(n)-druh-DEE zhuh vay oh see-nay-MAH",
+          "tr": {
+            "ar": "يوم الجمعة أذهب إلى السينما.",
+            "en": "On Friday, I am going to the cinema.",
+            "id": "Hari Jumat saya pergi ke bioskop."
+          }
+        },
+        "hint": {
+          "ar": "«jeudi» تُنطق «zhuh-DEE». و«vendredi» فيها صوت أنفي «en».",
+          "en": "Jeudi is zhuh-DEE. Vendredi contains the nasal en.",
+          "id": "Jeudi dibaca zhuh-DEE. Vendredi mengandung bunyi sengau en."
+        }
+      },
+      {
+        "id": "fr09n5",
+        "target": "samedi, dimanche",
+        "translit": "sam-DEE dee-MAH(n)SH",
+        "tr": {
+          "ar": "السبت، الأحد",
+          "en": "Saturday, Sunday",
+          "id": "Sabtu, Minggu"
+        },
+        "example": {
+          "target": "Dimanche, je mange chez mes parents.",
+          "translit": "dee-mah(n)sh zhuh MAH(n)ZH shay may pah-RAH(n)",
+          "tr": {
+            "ar": "يوم الأحد آكل عند والديّ.",
+            "en": "On Sunday, I eat at my parents' home.",
+            "id": "Hari Minggu saya makan di rumah orang tua saya."
+          }
+        },
+        "hint": {
+          "ar": "«samedi» و«dimanche» هما عطلة نهاية الأسبوع. و«chez» تعني «عند» أو «في بيت».",
+          "en": "Samedi and dimanche are the weekend. Chez means at the home of.",
+          "id": "Samedi dan dimanche adalah akhir pekan. Chez berarti di rumah."
+        }
+      },
+      {
+        "id": "fr09n6",
+        "target": "Je me lève à sept heures.",
+        "translit": "zhuh muh LEHV ah seh-TUHR",
+        "tr": {
+          "ar": "أنهض في الساعة السابعة.",
+          "en": "I get up at seven o'clock.",
+          "id": "Saya bangun pukul tujuh."
+        },
+        "example": {
+          "target": "Le matin, je me lève à sept heures.",
+          "translit": "luh mah-TEH(n) zhuh muh lehv ah seh-TUHR",
+          "tr": {
+            "ar": "في الصباح أنهض في الساعة السابعة.",
+            "en": "In the morning, I get up at seven o'clock.",
+            "id": "Pada pagi hari, saya bangun pukul tujuh."
+          }
+        },
+        "hint": {
+          "ar": "«me» هو ضمير الانعكاس مع «je». وحرف è في «lève» يعطي صوت «eh».",
+          "en": "Me is the reflexive pronoun with je. The è in lève gives an eh sound.",
+          "id": "Me adalah pronomina refleksif dengan je. Huruf è pada lève memberi bunyi eh."
+        }
+      },
+      {
+        "id": "fr09n7",
+        "target": "Je mange à midi.",
+        "translit": "zhuh MAH(n)ZH ah mee-DEE",
+        "tr": {
+          "ar": "آكل عند الظهر.",
+          "en": "I eat at noon.",
+          "id": "Saya makan siang pukul dua belas."
+        },
+        "example": {
+          "target": "Je mange à midi avec mes collègues.",
+          "translit": "zhuh mah(n)zh ah mee-DEE ah-VEHK may koh-LEHG",
+          "tr": {
+            "ar": "آكل عند الظهر مع زملائي.",
+            "en": "I eat at noon with my colleagues.",
+            "id": "Saya makan siang bersama rekan kerja saya."
+          }
+        },
+        "hint": {
+          "ar": "«midi» تعني الساعة الثانية عشرة ظهرًا، وفي المنتصف الليل نقول «minuit».",
+          "en": "Midi means twelve noon, and midnight is minuit.",
+          "id": "Midi berarti pukul dua belas siang, dan tengah malam disebut minuit."
+        }
+      }
+    ],
+    "cloze": [
+      {
+        "sentence": "Je me ___ à sept heures.",
+        "answer": "lève",
+        "wrong": [
+          "lèves",
+          "lever"
+        ],
+        "tr": {
+          "ar": "أنهض في الساعة السابعة.",
+          "en": "I get up at seven o'clock.",
+          "id": "Saya bangun pukul tujuh."
+        },
+        "why": {
+          "ar": "مع «je» نكتب «lève» دون s. «lèves» مع «tu» و«lever» مصدر.",
+          "en": "With je we write lève, without an s. Lèves goes with tu and lever is the infinitive.",
+          "id": "Dengan je kita menulis lève, tanpa s. Lèves untuk tu dan lever adalah infinitif."
+        }
+      },
+      {
+        "sentence": "Après vendredi, c'est ___.",
+        "answer": "samedi",
+        "wrong": [
+          "jeudi",
+          "mercredi"
+        ],
+        "tr": {
+          "ar": "بعد الجمعة يأتي السبت.",
+          "en": "After Friday comes Saturday.",
+          "id": "Setelah Jumat datang Sabtu."
+        },
+        "why": {
+          "ar": "اليوم الذي يلي vendredi هو samedi. أما jeudi وmercredi فيأتيان قبله.",
+          "en": "The day after vendredi is samedi. Jeudi and mercredi come before it.",
+          "id": "Hari setelah vendredi adalah samedi. Jeudi dan mercredi datang sebelumnya."
+        }
+      }
+    ],
+    "conversation": {
+      "context": {
+        "ar": "في الشارع: شخص يسأل عن الوقت.",
+        "en": "In the street: someone asks the time.",
+        "id": "Di jalan: seseorang menanyakan jam."
+      },
+      "turns": [
+        {
+          "who": "A",
+          "target": "Excusez-moi, quelle heure est-il ?",
+          "tr": {
+            "ar": "عفوًا، كم الساعة؟",
+            "en": "Excuse me, what time is it?",
+            "id": "Permisi, jam berapa sekarang?"
+          }
+        },
+        {
+          "who": "B",
+          "target": "Il est trois heures.",
+          "tr": {
+            "ar": "الساعة الثالثة.",
+            "en": "It is three o'clock.",
+            "id": "Pukul tiga."
+          }
+        },
+        {
+          "who": "A",
+          "target": "Merci, bonne journée !",
+          "tr": {
+            "ar": "شكرًا، يومًا سعيدًا!",
+            "en": "Thank you, have a good day!",
+            "id": "Terima kasih, semoga hari Anda menyenangkan!"
+          }
+        }
+      ],
+      "gap": 1,
+      "wrong": [
+        "J'ai vingt ans.",
+        "Je m'appelle Paul."
+      ],
+      "why": {
+        "ar": "سُئلنا عن الساعة فنجيب بالوقت. الردان الآخران يعطيان عمرًا واسمًا.",
+        "en": "We were asked the time, so we answer with the time. The other two replies give an age and a name.",
+        "id": "Kita ditanya jam, jadi menjawab dengan waktu. Dua jawaban lain memberi usia dan nama."
+      }
+    },
+    "summary": {
+      "ar": "تعلمت أن تسأل عن الوقت وأن تسمّي أيام الأسبوع وأن تتحدث عن عادتين يوميتين. اكتب جدول يومك بالفرنسية بثلاث جمل.",
+      "en": "You learned to ask the time, to name the days and to talk about two daily habits. Write your daily schedule in French in three sentences.",
+      "id": "Anda mempelajari cara menanyakan jam, menyebut hari, dan membicarakan dua kebiasaan harian. Tulislah jadwal harian Anda dalam bahasa Prancis dengan tiga kalimat."
+    }
+  },
+  {
+    "id": "fr-10",
+    "track": "fr",
+    "level": "elementary",
+    "order": 10,
+    "topic": "health-emergencies",
+    "icon": "🚑",
+    "title": {
+      "ar": "الصحة والمساعدة والطوارئ",
+      "en": "Health, Help and Emergencies",
+      "id": "Kesehatan, Bantuan, dan Darurat"
+    },
+    "description": {
+      "ar": "اطلب المساعدة وقل إنك مريض وصف الألم ببساطة.",
+      "en": "Ask for help, say you are ill and describe pain simply.",
+      "id": "Minta bantuan, katakan Anda sakit, dan gambarkan rasa sakit dengan sederhana."
+    },
+    "objectives": [
+      {
+        "ar": "أستطيع طلب المساعدة العاجلة بعبارة «Au secours !».",
+        "en": "I can call for urgent help with Au secours !",
+        "id": "Saya bisa meminta pertolongan darurat dengan Au secours !"
+      },
+      {
+        "ar": "أستطيع القول «Je suis malade» و«J'ai mal à la tête».",
+        "en": "I can say Je suis malade and J'ai mal à la tête.",
+        "id": "Saya bisa mengatakan Je suis malade dan J'ai mal à la tête."
+      },
+      {
+        "ar": "أستطيع طلب طبيب أو سيارة إسعاف.",
+        "en": "I can ask for a doctor or an ambulance.",
+        "id": "Saya bisa meminta dokter atau ambulans."
+      }
+    ],
+    "intro": {
+      "ar": "في الحالات الصعبة يجب أن تتكلم بجمل قصيرة وواضحة. تتعلم هنا عبارات الطوارئ الأهم، ووصف الألم بتركيب «J'ai mal à ...»، وكيف تقول إنك لا تفهم. وتذكّر أنك تستطيع دائمًا أن تقول «Je ne comprends pas».",
+      "en": "In hard moments you need short, clear sentences. Here you learn the most important emergency phrases, how to describe pain with J'ai mal à ..., and how to say you do not understand. Remember that you can always say Je ne comprends pas.",
+      "id": "Dalam situasi sulit Anda memerlukan kalimat yang pendek dan jelas. Di sini Anda mempelajari ungkapan darurat terpenting, cara menggambarkan sakit dengan J'ai mal à ..., dan cara mengatakan Anda tidak mengerti. Ingat, Anda selalu bisa mengatakan Je ne comprends pas."
+    },
+    "culture": {
+      "ar": "في فرنسا رقم الطوارئ الأوروبي الموحد هو 112. وهناك أرقام خاصة: 15 للإسعاف الطبي (SAMU)، و17 للشرطة، و18 لرجال الإطفاء. والصيدلية في فرنسا يمكن أن تقدم نصيحة طبية أولية، وتتميز بعلامة صليب أخضر. وللحالات العادية تتصل بالعيادة وتحجز موعدًا.",
+      "en": "In France the single European emergency number is 112. There are also specific numbers: 15 for medical emergencies (SAMU), 17 for the police and 18 for the fire brigade. A pharmacy can give first advice about minor health problems and is marked by a green cross. For non-urgent cases you call a surgery to make an appointment.",
+      "id": "Di Prancis nomor darurat Eropa tunggal adalah 112. Ada pula nomor khusus: 15 untuk darurat medis (SAMU), 17 untuk polisi, dan 18 untuk pemadam kebakaran. Apotek dapat memberi saran awal untuk masalah kesehatan ringan dan ditandai dengan salib hijau. Untuk kasus tidak mendesak Anda menelepon klinik untuk membuat janji."
+    },
+    "grammar": {
+      "title": {
+        "ar": "«avoir mal à» و«ne ... pas»",
+        "en": "Avoir mal à and ne ... pas",
+        "id": "Avoir mal à dan ne ... pas"
+      },
+      "body": {
+        "ar": "نقول «J'ai mal à la tête» أي «عندي ألم في الرأس». نستعمل «à la» مع المؤنث («la tête») و«au» مع المذكر («au ventre») و«aux» مع الجمع. وللنفي نضع «ne» قبل الفعل و«pas» بعده: «Je ne comprends pas». وقبل حرف متحرك تصبح «ne» «n'».",
+        "en": "We say J'ai mal à la tête, I have a pain in my head. We use à la with a feminine noun (la tête), au with a masculine noun (au ventre) and aux with plurals. To make a negative, put ne before the verb and pas after it: Je ne comprends pas. Before a vowel ne becomes n'.",
+        "id": "Kita bilang J'ai mal à la tête, saya sakit kepala. Kita memakai à la untuk kata benda feminin (la tête), au untuk maskulin (au ventre), dan aux untuk jamak. Untuk bentuk negatif, taruh ne sebelum kata kerja dan pas sesudahnya: Je ne comprends pas. Sebelum vokal ne menjadi n'."
+      }
+    },
+    "items": [
+      {
+        "id": "fr10n1",
+        "target": "Au secours !",
+        "translit": "oh suh-KOOR",
+        "tr": {
+          "ar": "النجدة!",
+          "en": "Help!",
+          "id": "Tolong!"
+        },
+        "example": {
+          "target": "Au secours ! J'ai besoin d'aide !",
+          "translit": "oh suh-KOOR zhay buh-ZWAH(n) DEHD",
+          "tr": {
+            "ar": "النجدة! أحتاج إلى مساعدة!",
+            "en": "Help! I need help!",
+            "id": "Tolong! Saya butuh bantuan!"
+          }
+        },
+        "hint": {
+          "ar": "تُقال بصوت عالٍ عند الخطر الحقيقي. وكلمة «aide» تعني «مساعدة».",
+          "en": "Said loudly in real danger. The word aide means help.",
+          "id": "Diucapkan dengan keras saat bahaya sungguhan. Kata aide berarti bantuan."
+        }
+      },
+      {
+        "id": "fr10n2",
+        "target": "Je suis malade.",
+        "translit": "zhuh swee mah-LAHD",
+        "tr": {
+          "ar": "أنا مريض / مريضة.",
+          "en": "I am ill.",
+          "id": "Saya sakit."
+        },
+        "example": {
+          "target": "Je suis malade depuis hier.",
+          "translit": "zhuh swee mah-LAHD duh-PWEE yehr",
+          "tr": {
+            "ar": "أنا مريض منذ أمس.",
+            "en": "I have been ill since yesterday.",
+            "id": "Saya sakit sejak kemarin."
+          }
+        },
+        "hint": {
+          "ar": "للمرأة نكتب «malade» أيضًا، فالكلمة لا تتغير بين المذكر والمؤنث. وحرف d الأخير يُنطق بوضوح.",
+          "en": "Malade does not change between masculine and feminine. The final d is pronounced here.",
+          "id": "Malade tidak berubah antara maskulin dan feminin. Huruf d di akhir dibunyikan."
+        }
+      },
+      {
+        "id": "fr10n3",
+        "target": "J'ai mal à la tête.",
+        "translit": "zhay mahl ah lah TEHT",
+        "tr": {
+          "ar": "عندي صداع.",
+          "en": "I have a headache.",
+          "id": "Saya sakit kepala."
+        },
+        "example": {
+          "target": "Depuis ce matin, j'ai mal à la tête.",
+          "translit": "duh-PWEE suh mah-TEH(n) zhay mahl ah lah TEHT",
+          "tr": {
+            "ar": "منذ هذا الصباح عندي صداع.",
+            "en": "Since this morning I have had a headache.",
+            "id": "Sejak pagi ini saya sakit kepala."
+          }
+        },
+        "hint": {
+          "ar": "«tête» تُكتب بعلامة circonflexe وتُنطق «teht». ولألم البطن نقول «J'ai mal au ventre».",
+          "en": "Tête has a circumflex and is pronounced teht. For a stomach ache we say J'ai mal au ventre.",
+          "id": "Tête memakai aksen sirkumfleks dan dibaca teht. Untuk sakit perut kita bilang J'ai mal au ventre."
+        }
+      },
+      {
+        "id": "fr10n4",
+        "target": "J'ai besoin d'un médecin.",
+        "translit": "zhay buh-ZWAH(n) duh(n) mayd-SEH(n)",
+        "tr": {
+          "ar": "أحتاج إلى طبيب.",
+          "en": "I need a doctor.",
+          "id": "Saya butuh dokter."
+        },
+        "example": {
+          "target": "S'il vous plaît, j'ai besoin d'un médecin.",
+          "translit": "seel voo PLEH zhay buh-zwah(n) duh(n) mayd-SEH(n)",
+          "tr": {
+            "ar": "من فضلك، أحتاج إلى طبيب.",
+            "en": "Please, I need a doctor.",
+            "id": "Tolong, saya butuh dokter."
+          }
+        },
+        "hint": {
+          "ar": "التركيب «avoir besoin de» يعني «يحتاج إلى». و«de» تصبح «d'» قبل «un».",
+          "en": "The pattern avoir besoin de means to need. De becomes d' before un.",
+          "id": "Pola avoir besoin de berarti membutuhkan. De menjadi d' sebelum un."
+        }
+      },
+      {
+        "id": "fr10n5",
+        "target": "Appelez une ambulance !",
+        "translit": "ah-puh-LAY ewn ah(n)-bew-LAH(n)S",
+        "tr": {
+          "ar": "اتصلوا بسيارة إسعاف!",
+          "en": "Call an ambulance!",
+          "id": "Panggil ambulans!"
+        },
+        "example": {
+          "target": "Vite ! Appelez une ambulance !",
+          "translit": "VEET ah-puh-lay ewn ah(n)-bew-LAH(n)S",
+          "tr": {
+            "ar": "بسرعة! اتصلوا بسيارة إسعاف!",
+            "en": "Quick! Call an ambulance!",
+            "id": "Cepat! Panggil ambulans!"
+          }
+        },
+        "hint": {
+          "ar": "«ambulance» مؤنث لذلك نقول «une». ويُنطق «ambulance» بصوتين أنفيين: «ah(n)-bew-LAH(n)S».",
+          "en": "Ambulance is feminine, so we say une. Ambulance has two nasal vowels: ah(n)-bew-LAH(n)S.",
+          "id": "Ambulance feminin, jadi kita bilang une. Ambulance memiliki dua vokal sengau: ah(n)-bew-LAH(n)S."
+        }
+      },
+      {
+        "id": "fr10n6",
+        "target": "Pouvez-vous m'aider ?",
+        "translit": "poo-vay-voo may-DAY",
+        "tr": {
+          "ar": "هل تستطيع مساعدتي؟",
+          "en": "Can you help me?",
+          "id": "Bisakah Anda membantu saya?"
+        },
+        "example": {
+          "target": "Excusez-moi, pouvez-vous m'aider ?",
+          "translit": "ehk-skew-zay-MWAH poo-vay-voo may-DAY",
+          "tr": {
+            "ar": "عفوًا، هل تستطيع مساعدتي؟",
+            "en": "Excuse me, can you help me?",
+            "id": "Permisi, bisakah Anda membantu saya?"
+          }
+        },
+        "hint": {
+          "ar": "صيغة مهذبة بـ«vous». وبين الأصدقاء: «Tu peux m'aider ?». ونطق «aider» هو «ay-DAY».",
+          "en": "A polite vous form. Among friends: Tu peux m'aider ? Aider is pronounced ay-DAY.",
+          "id": "Bentuk sopan dengan vous. Di antara teman: Tu peux m'aider ? Aider dibaca ay-DAY."
+        }
+      },
+      {
+        "id": "fr10n7",
+        "target": "Je ne comprends pas.",
+        "translit": "zhuh nuh ko(n)-prah(n) PAH",
+        "tr": {
+          "ar": "لا أفهم.",
+          "en": "I do not understand.",
+          "id": "Saya tidak mengerti."
+        },
+        "example": {
+          "target": "Pardon, je ne comprends pas. Pouvez-vous répéter ?",
+          "translit": "pahr-DO(n) zhuh nuh ko(n)-prah(n) PAH poo-vay-voo ray-pay-TAY",
+          "tr": {
+            "ar": "عفوًا، لا أفهم. هل يمكنك أن تعيد؟",
+            "en": "Sorry, I do not understand. Can you repeat?",
+            "id": "Maaf, saya tidak mengerti. Bisakah Anda mengulang?"
+          }
+        },
+        "hint": {
+          "ar": "تحيط «ne ... pas» بالفعل. وفي الكلام السريع يسقط «ne» أحيانًا، لكن اكتبه ونطقه هنا كاملًا.",
+          "en": "Ne ... pas surrounds the verb. In fast speech ne sometimes drops, but write and say it in full here.",
+          "id": "Ne ... pas mengapit kata kerja. Dalam ucapan cepat ne kadang hilang, tetapi tulis dan ucapkan lengkap di sini."
+        }
+      }
+    ],
+    "cloze": [
+      {
+        "sentence": "J'ai mal ___ la tête.",
+        "answer": "à",
+        "wrong": [
+          "dans",
+          "avec"
+        ],
+        "tr": {
+          "ar": "عندي صداع.",
+          "en": "I have a headache.",
+          "id": "Saya sakit kepala."
+        },
+        "why": {
+          "ar": "نقول «avoir mal à la ...» مع حرف الجر «à». «dans» و«avec» لا يُستعملان في هذا التعبير.",
+          "en": "We say avoir mal à la ... with the preposition à. Dans and avec are not used in this expression.",
+          "id": "Kita bilang avoir mal à la ... dengan preposisi à. Dans dan avec tidak dipakai dalam ungkapan ini."
+        }
+      },
+      {
+        "sentence": "Appelez ___ ambulance !",
+        "answer": "une",
+        "wrong": [
+          "un",
+          "le"
+        ],
+        "tr": {
+          "ar": "اتصلوا بسيارة إسعاف!",
+          "en": "Call an ambulance!",
+          "id": "Panggil ambulans!"
+        },
+        "why": {
+          "ar": "«ambulance» مؤنث لذلك نستعمل «une». «un» للمذكر، و«le» للمذكر أيضًا، وشكل التعريف هنا هو «l'ambulance».",
+          "en": "Ambulance is feminine, so we use une. Un is masculine, and le is also masculine (the definite form here would be l'ambulance).",
+          "id": "Ambulance feminin, jadi dipakai une. Un untuk maskulin, dan le juga maskulin (bentuk tentu di sini adalah l'ambulance)."
+        }
+      }
+    ],
+    "conversation": {
+      "context": {
+        "ar": "في الصيدلية: الصيدلي يسأل زائرًا.",
+        "en": "In a pharmacy: the pharmacist asks a visitor.",
+        "id": "Di apotek: apoteker bertanya kepada pengunjung."
+      },
+      "turns": [
+        {
+          "who": "A",
+          "target": "Bonjour, vous avez un problème ?",
+          "tr": {
+            "ar": "مرحبًا، هل لديك مشكلة؟",
+            "en": "Hello, do you have a problem?",
+            "id": "Halo, apakah Anda ada masalah?"
+          }
+        },
+        {
+          "who": "B",
+          "target": "Oui, je suis malade.",
+          "tr": {
+            "ar": "نعم، أنا مريض.",
+            "en": "Yes, I am ill.",
+            "id": "Ya, saya sakit."
+          }
+        },
+        {
+          "who": "A",
+          "target": "Je suis désolé. Où avez-vous mal ?",
+          "tr": {
+            "ar": "آسف لذلك. أين تتألم؟",
+            "en": "I am sorry. Where does it hurt?",
+            "id": "Saya turut prihatin. Di mana yang sakit?"
+          }
+        }
+      ],
+      "gap": 1,
+      "wrong": [
+        "Oui, je voudrais un café.",
+        "Il est huit heures."
+      ],
+      "why": {
+        "ar": "الصيدلي سأل إن كانت هناك مشكلة، وفي الصيدلية الجواب المناسب هو أنك مريض. الردان الآخران لا يناسبان الموقف.",
+        "en": "The pharmacist asked whether there is a problem, and at a pharmacy the fitting answer is that you are ill. The other two replies do not fit the situation.",
+        "id": "Apoteker bertanya apakah ada masalah, dan di apotek jawaban yang cocok adalah bahwa Anda sakit. Dua jawaban lain tidak cocok dengan situasinya."
+      }
+    },
+    "summary": {
+      "ar": "تعلمت عبارات الطوارئ والصحة: «Au secours» و«J'ai mal à ...» و«J'ai besoin d'un médecin». احفظ أرقام الطوارئ 112 و15 و17 و18 قبل سفرك.",
+      "en": "You learned emergency and health phrases: Au secours, J'ai mal à ... and J'ai besoin d'un médecin. Memorise the emergency numbers 112, 15, 17 and 18 before you travel.",
+      "id": "Anda mempelajari ungkapan darurat dan kesehatan: Au secours, J'ai mal à ..., dan J'ai besoin d'un médecin. Hafalkan nomor darurat 112, 15, 17, dan 18 sebelum bepergian."
+    }
+  }
+]

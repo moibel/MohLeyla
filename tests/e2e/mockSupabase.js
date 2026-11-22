@@ -288,7 +288,7 @@ export function createMockBackend(opts = {}) {
       if (fn === 'admin_set_content_enabled') {
         if (me.role !== 'admin') return deny();
         const { p_kind: kind, p_key: key, p_enabled: on } = args;
-        const ok = (kind === 'track' && /^(ar|sa|en|id)$/.test(key || '')) || (kind === 'lesson' && /^(ar|sa|en|id)-[0-9]{2}$/.test(key || ''));
+        const ok = (kind === 'track' && /^(ar|sa|eg|en|id|fr|es|zh)$/.test(key || '')) || (kind === 'lesson' && /^(ar|sa|eg|en|id|fr|es|zh)-[0-9]{2}$/.test(key || ''));
         if (!ok || typeof on !== 'boolean') return json(400, { code: '22023', message: 'unknown content item' });
         const i = contentOff.findIndex((x) => x.kind === kind && x.key === key);
         if (on && i >= 0) contentOff.splice(i, 1);
