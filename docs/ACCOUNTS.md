@@ -28,7 +28,7 @@ before enrolling students, and tell them what is stored (the text above).
    <p>Or <a href="{{ .ConfirmationURL }}">sign in with one click</a>.</p>
    ```
    (*Authentication -> Providers -> Email*: keep "Confirm email" off or on, both work with codes. Code length 6, expiry 1 hour is fine.)
-4. **Give the app the two public values.** *Project Settings -> API*: copy the **Project URL** and the **anon / publishable key**.
+4. **Give the app the two public values** (they are committed in `.env.production`; a host dashboard variable overrides them, so this is only needed when you change project). *Project Settings -> API*: copy the **Project URL** and the **anon / publishable key**.
    - Local: copy `.env.example` to `.env.local` and fill both.
    - Netlify: *Site configuration -> Environment variables* -> add `VITE_SUPABASE_URL` and `VITE_SUPABASE_ANON_KEY`, then redeploy.
    Leave "Contains secret values" unchecked: both are public by design. `netlify.toml` sets `SECRETS_SCAN_OMIT_KEYS` so Netlify's secrets scanner does not fail the build because they appear in the bundle.
