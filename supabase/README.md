@@ -10,10 +10,12 @@
 | `tests/announcements.test.sql` | 40 permission and validation checks for announcements (004 + 006). |
 | `migrations/005_content_switch.sql` | Admin switches to hide / show a whole learning path or single lessons. Readable by everyone (public configuration), changeable only by admins. |
 | `tests/content_switch.test.sql` | 21 checks for the content switches. |
+| `migrations/007_chat.sql` | Private one-to-one chat (admin with anyone, teacher with own students), admin read-only access to all chats, message removal, unread counts. No direct table access. |
+| `tests/chat.test.sql` | 40 permission checks for chat (who can start, read, write; outsiders; admin read-only; removal; rate limit). |
 | `tests/roles_classes.test.sql` | 39 permission checks run as real database users (student, teacher, admin, signed-out). |
 | `tests/rewards.test.sql` | 29 permission checks for the rewards (who can grant / list / revoke, validation, matching by email, revoke). |
-| `tests/run-dry.sh [roles\|rewards\|announcements\|switch]` | Builds `migration + tests` into one script. |
-| `tests/run-local.sh [roles\|rewards\|announcements\|switch]` | Runs the same tests on a throwaway local Postgres (stand-in for Supabase in `tests/local-stub.sql`); no Supabase needed. |
+| `tests/run-dry.sh [roles\|rewards\|announcements\|switch\|chat]` | Builds `migration + tests` into one script. |
+| `tests/run-local.sh [roles\|rewards\|announcements\|switch\|chat]` | Runs the same tests on a throwaway local Postgres (stand-in for Supabase in `tests/local-stub.sql`); no Supabase needed. |
 
 ## Test the permissions without changing anything
 1. `sh supabase/tests/run-dry.sh` prints the combined script.
@@ -22,7 +24,7 @@
    The error text is the report: `TEST REPORT ...: 39 passed, 0 failed`.
 
 ## Apply the migration for real
-Run `migrations/002_roles_classes.sql` on its own (then `003_rewards.sql` for rewards and `004_announcements.sql` for announcements, `006_announcements_pro.sql` for one-person messages and looks, and `005_content_switch.sql` for the lesson switches; all additive). Then make yourself admin (once, with SQL; roles cannot be changed from the browser):
+Run `migrations/002_roles_classes.sql` on its own (then `003_rewards.sql` for rewards and `004_announcements.sql` for announcements, `006_announcements_pro.sql` for one-person messages and looks, `005_content_switch.sql` for the lesson switches and `007_chat.sql` for chat; all additive). Then make yourself admin (once, with SQL; roles cannot be changed from the browser):
 
 ```sql
 update public.profiles set role = 'admin'

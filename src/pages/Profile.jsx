@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
-import { Settings as Cog, Flame, Star, GraduationCap, BookMarked, Target, Users, ClipboardList, ShieldCheck } from 'lucide-react';
+import { MessageCircle, Bell, Settings as Cog, Flame, Star, GraduationCap, BookMarked, Target, Users, ClipboardList, ShieldCheck } from 'lucide-react';
 import { PageHeading, Button } from '../components/ui.jsx';
 import Avatar from '../components/Avatar.jsx';
 import SignInForm from '../features/sync/SignInForm.jsx';
@@ -88,6 +88,8 @@ export default function Profile() {
       <RewardsSummary />
       <AnnouncementCards />
       <div className="btn-row">
+        <Button variant="secondary" to="/chat" icon={<MessageCircle size={18} aria-hidden="true" />} data-testid="link-chat">{t('nav.chat')}</Button>
+        <Button variant="secondary" to="/notifications" icon={<Bell size={18} aria-hidden="true" />} data-testid="link-notifications">{t('nav.notifications')}</Button>
         <Button variant="secondary" to="/classes" icon={<Users size={18} aria-hidden="true" />} data-testid="link-classes">{t('nav.classes')}</Button>
         {(s.role === 'teacher' || s.role === 'admin') && <Button variant="secondary" to="/teach" icon={<ClipboardList size={18} aria-hidden="true" />} data-testid="link-teach">{t('nav.teach')}</Button>}
         {s.role === 'admin' && <Button variant="secondary" to="/admin" icon={<ShieldCheck size={18} aria-hidden="true" />} data-testid="link-admin">{t('nav.admin')}</Button>}

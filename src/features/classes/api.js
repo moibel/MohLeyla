@@ -5,7 +5,7 @@ import { sync } from '../sync/index.js';
 export class ClassError extends Error {
   constructor(code) { super(code); this.code = code; }
 }
-const CODES = { 42501: 'notAllowed', P0002: 'invalidCode', 22023: 'invalidInput', 55000: 'lastAdmin' };
+const CODES = { 42501: 'notAllowed', P0002: 'invalidCode', 22023: 'invalidInput', 55000: 'lastAdmin', 54000: 'slowDown' };
 function fail(error) {
   const offline = typeof navigator !== 'undefined' && navigator.onLine === false;
   throw new ClassError(CODES[error && error.code] || (offline ? 'network' : 'failed'));
@@ -53,6 +53,18 @@ export async function adminClasses() {
 // Content switches (supabase/migrations/005_content_switch.sql): everyone reads which paths/lessons are hidden; only admins change it.
 export const contentDisabled = () => rpc('content_disabled');
 export const adminSetContentEnabled = (kind, key, enabled) => rpc('admin_set_content_enabled', { p_kind: kind, p_key: key, p_enabled: enabled });
+
+// Chat (supabase/migrations/007_chat.sql): private one-to-one conversations. Only the two people in a chat can read or write it;
+// admins can also read every chat (and remove a message) through the admin_* functions.
+export const startChat = (otherId) => rpc('start_chat', { p_other: otherId });
+export const sendMessage = (conv, body) => rpc('send_message', { p_conv: conv, p_body: body });
+export const myChats = () => rpc('my_chats');
+export const chatMessages = (conv) => rpc('chat_messages_of', { p_conv: conv });
+export const markChatRead = (conv) => rpc('mark_chat_read', { p_conv: conv });
+export const chatUnreadTotal = () => rpc('chat_unread_total');
+export const adminListChats = () => rpc('admin_list_chats');
+export const adminChatMessages = (conv) => rpc('admin_chat_messages', { p_conv: conv });
+export const adminRemoveMessage = (id) => rpc('admin_remove_message', { p_msg: id });
 
 /** A student leaves a class, or a teacher removes a student (row-level security allows exactly these two). */
 export async function removeMember(classId, studentId) {

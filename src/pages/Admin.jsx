@@ -4,6 +4,8 @@ import { useSearchParams } from 'react-router-dom';
 import { Search, Gift } from 'lucide-react';
 import AdminContent from '../features/availability/AdminContent.jsx';
 import AdminRewards from '../features/rewards/AdminRewards.jsx';
+import AdminChats from '../features/chat/AdminChats.jsx';
+import MessageButton from '../features/chat/MessageButton.jsx';
 import AdminAnnouncements from '../features/announcements/AdminAnnouncements.jsx';
 import { PageHeading, Button, Chip } from '../components/ui.jsx';
 import RequireAccount from '../features/classes/RequireAccount.jsx';
@@ -12,7 +14,7 @@ import { useSync } from '../features/sync/useSync.js';
 import { LANG_META } from '../i18n/index.js';
 
 const ROLES = ['student', 'teacher', 'admin'];
-const TABS = ['users', 'content', 'news', 'rewards'];
+const TABS = ['users', 'chats', 'content', 'news', 'rewards'];
 
 /** Admin view: every user, their sign-in method, activity summary and role. Role changes are checked by the database. */
 function AdminInner() {
@@ -96,7 +98,7 @@ function AdminInner() {
                   <table className="data-table">
                     <thead><tr>
                       <th scope="col">{t('admin.colUser')}</th><th scope="col">{t('admin.colRole')}</th><th scope="col">{t('admin.colMethod')}</th>
-                      <th scope="col">{t('admin.colSignIn')}</th><th scope="col">{t('teach.colXp')}</th><th scope="col">{t('teach.colLessons')}</th><th scope="col"><span className="sr-only">{t('rewards.admin.giveTo')}</span></th>
+                      <th scope="col">{t('admin.colSignIn')}</th><th scope="col">{t('teach.colXp')}</th><th scope="col">{t('teach.colLessons')}</th><th scope="col"><span className="sr-only">{t('rewards.admin.giveTo')}</span></th><th scope="col"><span className="sr-only">{t('chat.messageUser')}</span></th>
                     </tr></thead>
                     <tbody>
                       {shown.map((u) => (
@@ -111,6 +113,7 @@ function AdminInner() {
                           <td>{(u.providers || '').split(',').filter(Boolean).map((p) => t(`admin.provider.${p}`, { defaultValue: p })).join(' + ') || '—'}</td>
                           <td>{fmt(u.last_sign_in_at)}</td><td>{u.xp ?? 0}</td><td>{u.lessons_done ?? 0}</td>
                           <td><button type="button" className="icon-btn" aria-label={`${t('rewards.admin.giveTo')}: ${u.display_name || u.email}`} title={t('rewards.admin.giveTo')} onClick={() => { setGiveTo(u.email); setTab('rewards'); }} data-testid="give-reward"><Gift size={20} aria-hidden="true" /></button></td>
+                          <td>{u.user_id !== me.userId && <MessageButton userId={u.user_id} name={u.display_name || u.email} />}</td>
                         </tr>
                       ))}
                     </tbody>
@@ -120,6 +123,7 @@ function AdminInner() {
             </div>
           </>
         )}
+        {tab === 'chats' && <AdminChats />}
         {tab === 'content' && <AdminContent />}
         {tab === 'news' && <AdminAnnouncements />}
         {tab === 'rewards' && <AdminRewards email={giveTo} />}

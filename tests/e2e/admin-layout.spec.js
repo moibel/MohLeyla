@@ -22,7 +22,7 @@ async function adminPage(page, lang = 'en') {
 
 test.describe('admin page layout (it must not jump, overflow sideways, or show broken text)', () => {
   for (const [name, size] of [['phone', { width: 390, height: 844 }], ['laptop', { width: 1366, height: 800 }]]) {
-    for (const tab of ['users', 'content', 'news', 'rewards']) {
+    for (const tab of ['users', 'chats', 'content', 'news', 'rewards']) {
       test(`${name}: the ${tab} tab fits the screen width and has no accessibility violations`, async ({ page }) => {
         await page.setViewportSize(size);
         await adminPage(page);
@@ -61,8 +61,10 @@ test.describe('admin page layout (it must not jump, overflow sideways, or show b
     await page.goto('/admin');
     await page.locator('[data-testid="admin-tab-users"]').focus();
     await page.keyboard.press('ArrowRight');
+    await expect(page.locator('[data-testid="admin-panel-chats"]')).toBeVisible();
+    await expect(page).toHaveURL(/tab=chats/);
+    await page.keyboard.press('ArrowRight');
     await expect(page.locator('[data-testid="admin-panel-content"]')).toBeVisible();
-    await expect(page).toHaveURL(/tab=content/);
     await page.keyboard.press('ArrowRight');
     await page.keyboard.press('ArrowRight');
     await expect(page.locator('[data-testid="admin-panel-rewards"]')).toBeVisible();

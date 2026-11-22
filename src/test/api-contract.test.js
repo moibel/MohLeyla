@@ -4,7 +4,7 @@ import { describe, it, expect } from 'vitest';
 
 // The browser calls database functions by name with named parameters. If the app and supabase/migrations/002_roles_classes.sql
 // ever disagree, every call fails at runtime. This test keeps them in step.
-const sql = ['002_roles_classes.sql', '003_rewards.sql', '004_announcements.sql', '005_content_switch.sql', '006_announcements_pro.sql'].map((f) => fs.readFileSync(path.resolve(__dirname, '../../supabase/migrations', f), 'utf8')).join('\n');
+const sql = ['002_roles_classes.sql', '003_rewards.sql', '004_announcements.sql', '005_content_switch.sql', '006_announcements_pro.sql', '007_chat.sql'].map((f) => fs.readFileSync(path.resolve(__dirname, '../../supabase/migrations', f), 'utf8')).join('\n');
 const api = fs.readFileSync(path.resolve(__dirname, '../features/classes/api.js'), 'utf8');
 const sync = fs.readFileSync(path.resolve(__dirname, '../features/sync/syncManager.js'), 'utf8');
 
@@ -18,7 +18,7 @@ function signature(name) {
 describe('app <-> database contract', () => {
   const calls = [...api.matchAll(/rpc\('(\w+)'(?:,\s*\{([^}]*)\})?\)/g)].map((m) => ({ fn: m[1], params: (m[2] || '').split(',').map((x) => x.split(':')[0].trim()).filter(Boolean) }));
   it('finds every rpc call in the api module', () => {
-    expect(calls.map((c) => c.fn).sort()).toEqual(['admin_archive_announcement', 'admin_create_announcement', 'admin_grant_reward', 'admin_list_announcements', 'admin_list_rewards', 'admin_list_users', 'admin_revoke_reward', 'admin_set_content_enabled', 'admin_set_role', 'class_roster', 'content_disabled', 'create_class', 'delete_class', 'join_class', 'my_announcements', 'my_memberships', 'my_rewards', 'teacher_classes']);
+    expect(calls.map((c) => c.fn).sort()).toEqual([...['admin_archive_announcement', 'admin_chat_messages', 'admin_create_announcement', 'admin_grant_reward', 'admin_list_chats', 'admin_list_announcements', 'admin_list_rewards', 'admin_list_users', 'admin_remove_message', 'admin_revoke_reward', 'admin_set_content_enabled', 'admin_set_role', 'chat_messages_of', 'chat_unread_total', 'class_roster', 'content_disabled', 'create_class', 'delete_class', 'join_class', 'mark_chat_read', 'my_announcements', 'my_chats', 'my_memberships', 'my_rewards', 'send_message', 'start_chat', 'teacher_classes'].sort()]);
   });
   for (const c of calls) {
     it(`${c.fn}: the function exists and takes exactly the parameters the app sends`, () => {
@@ -35,13 +35,13 @@ describe('app <-> database contract', () => {
     expect(sql).toMatch(/create table if not exists public\.class_members[\s\S]*class_id[\s\S]*student_id/);
   });
   it('every function the app can call is granted to signed-in users only (never to anon or public)', () => {
-    const files = { '002_roles_classes.sql': ['my_role', 'create_class', 'join_class', 'my_memberships', 'teacher_classes', 'class_roster', 'delete_class', 'admin_list_users', 'admin_set_role'], '003_rewards.sql': ['my_rewards', 'admin_grant_reward', 'admin_list_rewards', 'admin_revoke_reward'], '004_announcements.sql': ['my_announcements', 'admin_create_announcement', 'admin_list_announcements', 'admin_archive_announcement'], '005_content_switch.sql': ['admin_set_content_enabled'] }; // content_disabled is public on purpose and checked in its own test below
+    const files = { '002_roles_classes.sql': ['my_role', 'create_class', 'join_class', 'my_memberships', 'teacher_classes', 'class_roster', 'delete_class', 'admin_list_users', 'admin_set_role'], '003_rewards.sql': ['my_rewards', 'admin_grant_reward', 'admin_list_rewards', 'admin_revoke_reward'], '004_announcements.sql': ['my_announcements', 'admin_create_announcement', 'admin_list_announcements', 'admin_archive_announcement'], '005_content_switch.sql': ['admin_set_content_enabled'], '007_chat.sql': ['start_chat', 'send_message', 'my_chats', 'chat_messages_of', 'mark_chat_read', 'chat_unread_total', 'admin_list_chats', 'admin_chat_messages', 'admin_remove_message'] }; // content_disabled is public on purpose and checked in its own test below
     for (const [file, fns] of Object.entries(files)) {
       const text = fs.readFileSync(path.resolve(__dirname, '../../supabase/migrations', file), 'utf8');
       const grant = text.slice(text.lastIndexOf('grant execute on function'));
       for (const fn of fns) expect(grant, `${file}: ${fn}`).toContain(`public.${fn}(`);
       expect(grant, file).toMatch(/to authenticated;\s*$/);
-      expect(text, file).toMatch(/revoke all on function[\s\S]*from public, anon;/);
+      expect(text, file).toMatch(/revoke all on function[\s\S]*from public, anon(, authenticated)?;/);
     }
   });
   it('the announcements table has no direct access for browsers either', () => {
@@ -58,6 +58,12 @@ describe('app <-> database contract', () => {
     expect(text).toMatch(/grant execute on function public\.content_disabled\(\) to anon, authenticated;/);
     expect(text).toMatch(/grant execute on function public\.admin_set_content_enabled\(text, text, boolean\) to authenticated;/);
     expect(text).not.toMatch(/admin_set_content_enabled[^;]*to[^;]*anon/);
+  });
+  it('the chat tables have no direct access for browsers (row level security on, every privilege revoked, no policies)', () => {
+    const text = fs.readFileSync(path.resolve(__dirname, '../../supabase/migrations/007_chat.sql'), 'utf8');
+    for (const t of ['conversations', 'chat_messages', 'chat_reads']) expect(text).toMatch(new RegExp(`alter table public\\.${t} enable row level security`));
+    expect(text).toMatch(/revoke all on public\.conversations, public\.chat_messages, public\.chat_reads from anon, authenticated/);
+    expect(text).not.toMatch(/create policy/);
   });
   it('the rewards table has no direct access for browsers (row level security on, every privilege revoked)', () => {
     const text = fs.readFileSync(path.resolve(__dirname, '../../supabase/migrations/003_rewards.sql'), 'utf8');

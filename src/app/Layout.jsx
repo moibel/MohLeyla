@@ -1,7 +1,7 @@
 import { useEffect, useRef } from 'react';
 import { NavLink, Link, Outlet, useLocation } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
-import { Home, GraduationCap, Brain, Bookmark, BarChart3, Settings as Cog, Flame, Star, Users, ClipboardList, ShieldCheck, Heart, Zap } from 'lucide-react';
+import { Home, GraduationCap, Brain, Bookmark, BarChart3, Settings as Cog, Flame, Star, Users, ClipboardList, ShieldCheck, Heart, Zap, Bell, MessageCircle } from 'lucide-react';
 import { Logo } from '../components/ui.jsx';
 import { LANG_META, UI_LANGS } from '../i18n/index.js';
 import { useDerived } from '../features/progress/selectors.js';
@@ -15,6 +15,8 @@ import { useSync } from '../features/sync/useSync.js';
 import { displayName } from '../features/sync/profile.js';
 import { useRewards } from '../features/rewards/store.js';
 import { useAvailabilitySync } from '../features/availability/sync.js';
+import { useNotifications } from '../features/notifications/useNotifications.js';
+import { useChatUnread } from '../features/chat/unread.js';
 import RewardNotice from '../features/rewards/RewardNotice.jsx';
 import AnnouncementPopup from '../features/announcements/AnnouncementPopup.jsx';
 
@@ -43,6 +45,8 @@ export function LangSwitcher() {
 /** Extra links for signed-in learners, teachers and admins. Hiding a link is only convenience: the database enforces who may do what. */
 function extraNav(sy) {
   const out = [];
+  if (sy.userId) out.push({ to: '/chat', key: 'chat', Icon: MessageCircle, chat: true });
+  if (sy.userId) out.push({ to: '/notifications', key: 'notifications', Icon: Bell });
   if (sy.userId) out.push({ to: '/classes', key: 'classes', Icon: Users });
   if (sy.role === 'teacher' || sy.role === 'admin') out.push({ to: '/teach', key: 'teach', Icon: ClipboardList });
   if (sy.role === 'admin') out.push({ to: '/admin', key: 'admin', Icon: ShieldCheck });
@@ -53,12 +57,14 @@ function NavItems({ variant }) {
   const { t } = useTranslation();
   const { dueCount } = useDerived();
   const sy = useSync();
+  const chatUnread = useChatUnread();
   const items = variant === 'side' ? [...NAV, ...extraNav(sy)] : NAV; // the phone bar keeps its 5 learning tabs; more links live on the profile page
-  return items.map(({ to, key, Icon, end, badge }) => (
+  return items.map(({ to, key, Icon, end, badge, chat }) => (
     <NavLink key={to} to={to} end={end} className={({ isActive }) => `nav-item nav-${variant} ${isActive ? 'active' : ''}`}>
       <span className="nav-icon">
         <Icon size={variant === 'side' ? 20 : 22} aria-hidden="true" />
         {badge && dueCount > 0 && <span className="nav-badge" aria-hidden="true">{dueCount > 9 ? '9+' : dueCount}</span>}
+        {chat && chatUnread > 0 && <span className="nav-badge" aria-hidden="true">{chatUnread > 9 ? '9+' : chatUnread}</span>}
       </span>
       <span>{t(`nav.${key}`)}</span>
     </NavLink>
@@ -72,6 +78,7 @@ export default function Layout({ pwa }) {
   const sy = useSync();
   const rw = useRewards();
   useAvailabilitySync();
+  const notif = useNotifications();
   const loc = useLocation();
   const main = useRef(null);
   const first = useRef(true);
@@ -104,6 +111,12 @@ export default function Layout({ pwa }) {
             <span className="stat-pill stat-xp"><Zap size={16} aria-hidden="true" /><b>{state.xp + rw.bonusXp}</b><span className="pill-label" aria-hidden="true">{t('common.xp')}</span><span className="sr-only">{t('common.xp')}</span></span>
           </div>
           <LangSwitcher />
+          {sy.userId && (
+            <NavLink to="/notifications" className="icon-btn bell" aria-label={notif.count > 0 ? `${t('nav.notifications')}: ${t('notifications.countLabel', { n: notif.count })}` : t('nav.notifications')} data-testid="bell">
+              <Bell size={22} aria-hidden="true" />
+              {notif.count > 0 && <span className="bell-badge" aria-hidden="true" data-testid="bell-count">{notif.count > 9 ? '9+' : notif.count}</span>}
+            </NavLink>
+          )}
           {sy.profile && (
             <NavLink to="/profile" className="avatar-link" aria-label={`${t('nav.profile')}: ${displayName(sy.profile)}`} data-testid="avatar-link"><Avatar profile={sy.profile} size={36} /></NavLink>
           )}
