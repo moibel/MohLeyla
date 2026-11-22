@@ -1,6 +1,6 @@
 import { test, expect } from '@playwright/test';
 import AxeBuilder from '@axe-core/playwright';
-import { seed, getLesson, playThrough } from './helpers.js';
+import { seed, getLesson, playThrough, dismissNamePrompt } from './helpers.js';
 import { createMockBackend } from './mockSupabase.js';
 
 // Runs against the build with VITE_REQUIRE_SIGN_IN=true (port 4174, see playwright.config.js).
@@ -14,6 +14,7 @@ async function signInGate(page, email, code = '123456') {
   await page.locator('[data-testid="acc-code"]').fill(code);
   await page.locator('[data-testid="acc-verify"]').click();
   await expect(page.locator('[data-testid="gate"]')).toHaveCount(0); // wait until sign-in finished and the app opened
+  await dismissNamePrompt(page);
 }
 
 test.describe('required sign-in', () => {
@@ -88,6 +89,7 @@ test.describe('required sign-in', () => {
     await page.locator('[data-testid="acc-code"]').fill('123456');
     await page.locator('[data-testid="acc-verify"]').click();
     await expect(page.locator('[data-testid="gate"]')).toHaveCount(0);
+    await dismissNamePrompt(page);
     await expect(page.locator('[data-testid="acc-choice"][open]')).toHaveCount(0);
     expect((await page.evaluate(state)).xp).toBe(0);
     expect(backend.rows.size).toBe(1); // no empty row created for someone with no progress yet

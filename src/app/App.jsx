@@ -14,6 +14,7 @@ const Review = lazy(() => import('../pages/Review.jsx'));
 const Vocabulary = lazy(() => import('../pages/Vocabulary.jsx'));
 const Progress = lazy(() => import('../pages/Progress.jsx'));
 const Settings = lazy(() => import('../pages/Settings.jsx'));
+const Profile = lazy(() => import('../pages/Profile.jsx'));
 const NotFound = lazy(() => import('../pages/NotFound.jsx'));
 
 export default function App() {
@@ -32,6 +33,7 @@ export default function App() {
               <Route path="review" element={<Review />} />
               <Route path="words" element={<Vocabulary />} />
               <Route path="progress" element={<Progress />} />
+              <Route path="profile" element={<Profile />} />
               <Route path="settings" element={<Settings pwa={pwa} />} />
               <Route path="*" element={<NotFound />} />
             </Route>

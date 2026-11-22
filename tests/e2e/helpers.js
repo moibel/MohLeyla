@@ -65,3 +65,17 @@ export async function playThrough(page, lesson, ui, { wrongFirst = false } = {})
   }
   throw new Error('did not finish');
 }
+
+/**
+ * After an email sign-in the app asks "What should we call you?". Tests that are not about names skip it.
+ * Waits for a definite signal (the signed-in avatar is rendered, which happens in the same render as the prompt) instead of a timer.
+ */
+export async function dismissNamePrompt(page) {
+  await page.locator('[data-testid="avatar-link"]').waitFor({ state: 'visible', timeout: 15000 }).catch(() => {});
+  await page.waitForTimeout(400); // the dialog opens in an effect right after that render
+  const skip = page.locator('[data-testid="np-skip"]');
+  if (await skip.isVisible()) {
+    await skip.click();
+    await page.locator('[data-testid="name-prompt"][open]').waitFor({ state: 'detached', timeout: 5000 }).catch(() => {});
+  }
+}
