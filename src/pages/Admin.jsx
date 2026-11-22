@@ -30,6 +30,7 @@ function AdminInner() {
   const [params, setParams] = useSearchParams();
   const tab = TABS.includes(params.get('tab')) ? params.get('tab') : 'users';
   const setTab = (k) => setParams(k === 'users' ? {} : { tab: k }, { replace: true });
+  useEffect(() => { document.getElementById(`admin-tab-${tab}`)?.scrollIntoView?.({ inline: 'center', block: 'nearest' }); }, [tab]); // keep the open tab visible in the scrolling tab strip
   const onTabKey = (e) => {
     const i = TABS.indexOf(tab);
     const dir = { ArrowRight: 1, ArrowLeft: -1 }[e.key] * (document.dir === 'rtl' ? -1 : 1);

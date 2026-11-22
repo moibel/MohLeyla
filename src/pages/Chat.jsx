@@ -33,7 +33,8 @@ function ChatList() {
   useVisibleInterval(async () => {
     try { setChats(await myChats()); setError(false); } catch { setError(true); setChats((c) => c || []); }
   }, 15000, []);
-  const time = (d) => new Intl.DateTimeFormat(LANG_META[i18n.language].locale, { dateStyle: 'medium', timeStyle: 'short' }).format(new Date(d));
+  // today: just the time; otherwise the date
+  const time = (d) => { const x = new Date(d); const same = x.toDateString() === new Date().toDateString(); return new Intl.DateTimeFormat(LANG_META[i18n.language].locale, same ? { timeStyle: 'short' } : { dateStyle: 'medium' }).format(x); };
   return (
     <div className="page narrow" data-testid="chat-list-page">
       <PageHeading title={t('chat.title')} subtitle={t('chat.subtitle')} />

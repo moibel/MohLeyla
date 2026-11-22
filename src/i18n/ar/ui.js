@@ -27,6 +27,8 @@ export default {
     about: 'حول التطبيق',
     chat: 'الرسائل',
     notifications: 'الإشعارات',
+    chatTab: 'الرسائل',
+    alertsTab: 'الإشعارات',
   },
   common: {
     back: 'رجوع',

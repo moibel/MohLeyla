@@ -32,7 +32,7 @@ export default function Home() {
       <AnnouncementCards compact />
       <section className="hero" aria-labelledby="hero-title">
         <div className="hero-copy">
-          <span className="eyebrow" data-testid="greeting"><Sparkles size={15} aria-hidden="true" /> {who ? <>{t('home.hi')} <bdi>{who}</bdi>!</> : t('home.welcome')}</span>
+          <span className="eyebrow" data-testid="greeting"><Sparkles size={15} aria-hidden="true" /><span>{who ? <>{t('home.hi')} <bdi>{who}</bdi>!</> : t('home.welcome')}</span></span>
           <h1 id="hero-title">{t('home.heroTitleA')} <em>{t('home.heroTitleB')}</em></h1>
           <p>{t('home.heroText')}</p>
           <div className="hero-actions">

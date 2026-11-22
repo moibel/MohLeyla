@@ -27,6 +27,8 @@ export default {
     about: 'About',
     chat: 'Messages',
     notifications: 'Notifications',
+    chatTab: 'Chat',
+    alertsTab: 'Alerts',
   },
   common: {
     back: 'Back',
