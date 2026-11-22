@@ -40,6 +40,21 @@ Supabase's built-in email sender is for testing: only about **2-4 emails per hou
 that will hit the limit ("Too many emails" in the app). Fix: *Authentication -> SMTP Settings* -> connect your own SMTP
 (Resend, Brevo, Gmail SMTP, etc. all have free tiers). Do this before onboarding students.
 
+## Requiring sign-in (one email per learner)
+
+Set `VITE_REQUIRE_SIGN_IN=true` (Netlify -> Environment variables, next to the two Supabase values; those two are also required) and redeploy.
+Then nothing in the app is shown until the learner has signed in with their own email.
+
+- **Identification, not security.** The gate decides who the progress belongs to. It is a front-end screen; a technical user can bypass it
+  on their own device. The progress data itself is protected in the cloud by row-level security.
+- **One email = one learner.** Siblings cannot share an email. With Gmail, plus-addresses work: `parent+amina@gmail.com`,
+  `parent+omar@gmail.com` arrive in the same inbox but are separate accounts.
+- **Offline.** The first sign-in needs internet. After that the sign-in is remembered, so reopening works offline.
+- **Existing progress** on a device is kept and uploaded to the account at first sign-in.
+- **Shared devices.** *Sign out* first saves everything to the account, then removes the progress from the device, so the next
+  person starts clean. If the save fails (for example offline) the app asks before discarding anything.
+- **Teachers.** There is no teacher dashboard yet; each learner's progress lives in their own row in Supabase.
+
 ## How sync works (and its limits)
 - **Local first.** The app always reads and writes the local copy. Sync runs in the background a few seconds after a change,
   when the app comes back to the foreground, and when the network returns.
