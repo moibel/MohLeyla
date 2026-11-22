@@ -28,7 +28,7 @@ export default defineConfig(({ mode }) => ({
         display: 'standalone',
         orientation: 'any',
         background_color: '#F4F8FF',
-        theme_color: '#1B1A62',
+        theme_color: '#171E33',
         categories: ['education'],
         icons: [
           { src: '/icons/pwa-192.png', sizes: '192x192', type: 'image/png', purpose: 'any' },

@@ -87,7 +87,7 @@ export default {
     reviewNone: 'Belum ada yang perlu diulas. Pelajari kata baru untuk mengisi daftar ulasanmu.',
     reviewCta: 'Ulas sekarang',
     chooseTrack: 'Pilih bahasa yang ingin dipelajari',
-    chooseTrackSub: 'Empat jalur belajar, satu tujuan: percaya diri berbicara.',
+    chooseTrackSub: 'Delapan jalur belajar, satu tujuan: percaya diri berbicara.',
     trackProgress: '{{done}} dari {{total}} pelajaran',
     openPath: 'Buka jalur',
     startHere: 'Mulai dari sini',

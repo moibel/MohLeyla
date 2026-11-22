@@ -112,7 +112,7 @@ export default {
     reviewNone: 'لا شيء مستحق الآن. تعلّم كلمات جديدة لتكوين قائمة مراجعتك.',
     reviewCta: 'راجع الآن',
     chooseTrack: 'اختر ما تريد تعلّمه',
-    chooseTrackSub: 'أربعة مسارات وهدف واحد: أن تتحدث بثقة.',
+    chooseTrackSub: 'ثمانية مسارات وهدف واحد: أن تتحدث بثقة.',
     trackProgress: '{{done}} من {{total}} دروس',
     openPath: 'افتح المسار',
     startHere: 'ابدأ من هنا',

@@ -42,8 +42,7 @@ html[data-theme='dark'] .nav-item.active,:root:not([data-theme='light']) .nav-it
   .nav-side:hover{background:var(--surface-2)}
   .nav-side.active{background:var(--brand-soft)}
   .nav-side .nav-icon{background:transparent!important}
-  .side-card{margin-block-start:auto;border-radius:var(--r);padding:16px;background:var(--grad-brand);color:#fff;display:flex;gap:12px;align-items:center}
-  .side-card .logo img{background:#fff;border-radius:12px;padding:3px}
+  .side-card{margin-block-start:auto;border-radius:var(--r);padding:16px;background:var(--grad-brand);color:#fff;display:flex;gap:12px;align-items:center;border:1px solid color-mix(in srgb,var(--gold) 55%,transparent)}
 }
 
 @media (max-width:520px){

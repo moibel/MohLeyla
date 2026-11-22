@@ -14,7 +14,7 @@
 .hero::before{content:'';position:absolute;inset:auto -80px -120px auto;inline-size:340px;block-size:340px;border-radius:50%;background:radial-gradient(circle,rgba(255,255,255,.18),transparent 65%)}
 .hero-copy{position:relative;z-index:1;display:flex;flex-direction:column;gap:12px;align-items:flex-start}
 .eyebrow{display:inline-block;padding:5px 12px;border-radius:999px;background:rgba(255,255,255,.16);font-weight:700;font-size:.8rem}
-.hero h1 em{font-style:normal;color:#9BF0E6;display:inline-block}
+.hero h1 em{font-style:normal;color:var(--gold-light);display:inline-block}
 .hero p{color:#DCE9FF;max-inline-size:52ch;margin:0}
 .hero-next{font-size:.92rem}
 .hero-art{position:relative;min-block-size:180px;display:grid;place-items:center}

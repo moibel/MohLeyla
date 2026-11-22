@@ -43,7 +43,7 @@ export default function Home() {
           {next && hasStarted && <p className="hero-next">{t('home.continueFrom', { lesson: next.title[i18n.language] })}</p>}
         </div>
         <div className="hero-art" aria-hidden="true">
-          <div className="hero-mark"><Logo compact size={150} onDark /></div>
+          <div className="hero-mark"><Logo compact size={150} /></div>
           <span className="bubble b1" lang="ar" dir="rtl">مَرْحَبًا</span>
           <span className="bubble b2" lang="en">Hello</span>
           <span className="bubble b3" lang="id">Halo</span>
