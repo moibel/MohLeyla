@@ -137,6 +137,17 @@ An admin can post a message from *Admin -> Announcements* to **everyone** or to 
 - Words already learned from a hidden lesson still appear in review and the word list (they are the learner's own progress).
 - Setup: run `supabase/migrations/005_content_switch.sql` once (after 002). Tests: `sh supabase/tests/run-local.sh switch`.
 
+## Chat and notifications
+**Messages** (`/chat`) are private one-to-one conversations.
+
+- **Who can start a chat:** an admin with anyone (the message button next to a person in *Admin -> People*); a teacher with a student of one of their own classes (the message button in the class roster). Students cannot start chats, but once a chat exists both people can write in it.
+- **Privacy:** only the two people in a chat can read or write it, enforced in the database. The one exception, decided by the owner: **admins can read every chat** (*Admin -> Chats*, read-only, to keep learners safe) and can remove a message (it is replaced by "This message was removed" for both people). Admins cannot write inside other people's chats. Every chat screen tells the learner that admins can read chats.
+- **Limits:** plain text only, 1-1000 characters, at most 20 messages a minute per person. No files, images or links are sent.
+- **Delivery:** the open chat refreshes every 4 seconds while visible; the unread count is checked every 30 seconds (and when the tab regains focus). There is no push notification when the app is closed.
+- Setup: run `supabase/migrations/007_chat.sql` once (after 002). Tests: `sh supabase/tests/run-local.sh chat`.
+
+**Notifications** (bell in the top bar, `/notifications`): one place for unread messages, rewards and announcements. The bell counts what arrived since the person last opened the page (unread messages stay counted until read); opening the page clears it.
+
 ## Testing status
 Unit tests cover the merge rules and the sync manager against an in-memory fake. Browser tests run the full sign-in and
 two-device flow against a **mocked** Supabase API. Not yet exercised against a real Supabase project, real emails, or real

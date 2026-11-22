@@ -17,6 +17,11 @@ export function createMockBackend(opts = {}) {
   const known = new Map(); // userId -> { id, email, display_name, providers, role, summary }
   const classes = []; // { id, name, code, teacher_id, created_at }
   const members = []; // { class_id, student_id, joined_at }
+  const conversations = []; // { id, a, b, last_at } (mirrors 007_chat.sql)
+  const chatMsgs = []; // { id, conv, sender, body, created_at, removed_at }
+  const chatReads = new Map(); // `${conv}:${userId}` -> ISO time
+  let clock = Date.now();
+  const tick = () => new Date(clock += 1000).toISOString();
   const contentOff = []; // [{ kind, key }] hidden lessons/paths (mirrors 005_content_switch.sql)
   const announcements = []; // mirrors 004_announcements.sql
   const rewards = []; // { id, email, kind, amount, label, reason, created_at, granted_by_email, revoked_at } (mirrors 003_rewards.sql)
@@ -167,6 +172,60 @@ export function createMockBackend(opts = {}) {
         r.revoked_at = new Date().toISOString();
         return json(200, null);
       }
+      const nameFor = (id) => { const u = known.get(id); return u ? (nameOf(u) || profiles[u.email]?.display_name || u.email.split('@')[0]) : '?'; };
+      const memberOf = (c) => c && (c.a === me.id || c.b === me.id);
+      if (fn === 'start_chat') {
+        const other = args.p_other;
+        if (!other || other === me.id || !known.has(other)) return json(400, { code: '22023', message: 'unknown person' });
+        const isMyStudent = classes.some((c) => c.teacher_id === me.id && members.some((m) => m.class_id === c.id && m.student_id === other));
+        if (!(me.role === 'admin' || isMyStudent)) return deny();
+        let c = conversations.find((x) => (x.a === me.id && x.b === other) || (x.a === other && x.b === me.id));
+        if (!c) { c = { id: 'conv-' + (conversations.length + 1), a: me.id, b: other, last_at: tick() }; conversations.push(c); }
+        return json(200, c.id);
+      }
+      if (fn === 'send_message') {
+        const c = conversations.find((x) => x.id === args.p_conv);
+        if (!memberOf(c)) return deny();
+        const body = String(args.p_body || '').trim();
+        if (!body || body.length > 1000) return json(400, { code: '22023', message: 'bad body' });
+        if (chatMsgs.filter((m) => m.sender === me.id && Date.now() - new Date(m.created_at).getTime() < 60000).length >= 20) return json(400, { code: '54000', message: 'slow down' });
+        const m = { id: 'msg-' + (chatMsgs.length + 1), conv: c.id, sender: me.id, body, created_at: tick(), removed_at: null };
+        chatMsgs.push(m); c.last_at = m.created_at; chatReads.set(`${c.id}:${me.id}`, m.created_at);
+        return json(200, m.id);
+      }
+      const myConvs = () => conversations.filter(memberOf).sort((x, y) => y.last_at.localeCompare(x.last_at));
+      const unreadOf = (c) => chatMsgs.filter((m) => m.conv === c.id && m.sender !== me.id && !m.removed_at && m.created_at > (chatReads.get(`${c.id}:${me.id}`) || '')).length;
+      if (fn === 'my_chats') {
+        return json(200, myConvs().map((c) => { const oid = c.a === me.id ? c.b : c.a; const last = [...chatMsgs].reverse().find((m) => m.conv === c.id);
+          return { conversation_id: c.id, other_id: oid, other_name: nameFor(oid), other_role: known.get(oid)?.role || 'student', last_body: last ? (last.removed_at ? '' : last.body.slice(0, 120)) : null, last_at: c.last_at, last_is_mine: !!last && last.sender === me.id, unread: unreadOf(c) }; }));
+      }
+      if (fn === 'chat_unread_total') return json(200, myConvs().reduce((n, c) => n + unreadOf(c), 0));
+      if (fn === 'chat_messages_of') {
+        const c = conversations.find((x) => x.id === args.p_conv);
+        if (!memberOf(c)) return deny();
+        return json(200, chatMsgs.filter((m) => m.conv === c.id).map((m) => ({ id: m.id, mine: m.sender === me.id, body: m.removed_at ? '' : m.body, created_at: m.created_at, removed: !!m.removed_at })));
+      }
+      if (fn === 'mark_chat_read') {
+        const c = conversations.find((x) => x.id === args.p_conv);
+        if (!memberOf(c)) return deny();
+        chatReads.set(`${c.id}:${me.id}`, tick());
+        return json(200, null);
+      }
+      if (fn === 'admin_list_chats') {
+        if (me.role !== 'admin') return deny();
+        return json(200, [...conversations].sort((x, y) => y.last_at.localeCompare(x.last_at)).map((c) => ({ conversation_id: c.id, a_id: c.a, a_name: nameFor(c.a), a_email: known.get(c.a)?.email, b_id: c.b, b_name: nameFor(c.b), b_email: known.get(c.b)?.email, message_count: chatMsgs.filter((m) => m.conv === c.id).length, last_at: c.last_at })));
+      }
+      if (fn === 'admin_chat_messages') {
+        if (me.role !== 'admin') return deny();
+        return json(200, chatMsgs.filter((m) => m.conv === args.p_conv).map((m) => ({ id: m.id, sender_id: m.sender, sender_name: nameFor(m.sender), body: m.body, created_at: m.created_at, removed: !!m.removed_at })));
+      }
+      if (fn === 'admin_remove_message') {
+        if (me.role !== 'admin') return deny();
+        const m = chatMsgs.find((x) => x.id === args.p_msg && !x.removed_at);
+        if (!m) return json(400, { code: 'P0002', message: 'message not found' });
+        m.removed_at = tick();
+        return json(200, null);
+      }
       if (fn === 'admin_set_content_enabled') {
         if (me.role !== 'admin') return deny();
         const { p_kind: kind, p_key: key, p_enabled: on } = args;
@@ -232,5 +291,5 @@ export function createMockBackend(opts = {}) {
     }
     return json(404, { message: 'not mocked: ' + url.pathname });
   }
-  return { rows, stats, state, install: (ctxOrPage) => ctxOrPage.route(`${MOCK_URL}/**`, handle), code, profiles, known, classes, members, rewards, announcements, contentOff, addUser: (email, extra = {}) => { const u = know(email); Object.assign(u, extra); return u; } };
+  return { rows, stats, state, install: (ctxOrPage) => ctxOrPage.route(`${MOCK_URL}/**`, handle), code, profiles, known, classes, members, rewards, announcements, contentOff, conversations, chatMsgs, addUser: (email, extra = {}) => { const u = know(email); Object.assign(u, extra); return u; } };
 }

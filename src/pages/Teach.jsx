@@ -3,6 +3,7 @@ import { useTranslation } from 'react-i18next';
 import { Plus, Copy, Trash2, ChevronDown, ChevronUp, UserMinus } from 'lucide-react';
 import { PageHeading, Button, EmptyState } from '../components/ui.jsx';
 import RequireAccount from '../features/classes/RequireAccount.jsx';
+import MessageButton from '../features/chat/MessageButton.jsx';
 import { createClass, teacherClasses, classRoster, deleteClass, removeMember, liveStreak } from '../features/classes/api.js';
 import { localDay } from '../utils/dates.js';
 import { LANG_META } from '../i18n/index.js';
@@ -95,7 +96,7 @@ function TeachInner() {
                 <table className="data-table">
                   <thead><tr>
                     <th scope="col">{t('teach.colStudent')}</th><th scope="col">{t('teach.colXp')}</th><th scope="col">{t('teach.colLessons')}</th>
-                    <th scope="col">{t('teach.colStreak')}</th><th scope="col">{t('teach.colAccuracy')}</th><th scope="col">{t('teach.colActive')}</th><th scope="col"><span className="sr-only">{t('teach.remove')}</span></th>
+                    <th scope="col">{t('teach.colStreak')}</th><th scope="col">{t('teach.colAccuracy')}</th><th scope="col">{t('teach.colActive')}</th><th scope="col"><span className="sr-only">{t('chat.messageUser')}</span></th><th scope="col"><span className="sr-only">{t('teach.remove')}</span></th>
                   </tr></thead>
                   <tbody>
                     {roster.map((s) => (
@@ -105,6 +106,7 @@ function TeachInner() {
                         <td>{liveStreak(s.streak, s.streak_last, today)}</td>
                         <td>{s.accuracy == null ? '—' : `${s.accuracy}%`}</td>
                         <td>{fmt(s.last_active)}</td>
+                        <td><MessageButton userId={s.student_id} name={s.display_name || s.email} testId="message-student" /></td>
                         <td><button type="button" className="icon-btn" aria-label={`${t('teach.remove')}: ${s.display_name || s.email}`} onClick={() => { setTarget({ kind: 'remove', classId: c.class_id, student: s }); dlg.current?.showModal(); }} data-testid="remove-student"><UserMinus size={18} aria-hidden="true" /></button></td>
                       </tr>
                     ))}
