@@ -119,6 +119,9 @@ export default {
     wordsInLesson: '{{count}} كلمة',
     pathOf: 'الدرس {{n}} من {{total}}',
     levelHeading: 'المستوى: {{level}}',
+    trackProgress: 'أكملت {{done}} من {{total}} درسًا',
+    continueTrack: 'تابع: {{lesson}}',
+    levelProgress: 'اكتمل {{done}}/{{total}}',
     noLessons: 'لم يتم العثور على دروس.',
   },
   lesson: {
@@ -266,6 +269,7 @@ export default {
     nextSession: 'جلسة أخرى',
     typeChoose: 'اختر المعنى الصحيح',
     stepDesc: 'الكلمات التي تجيب عنها صحيحًا تعود بعد فترات أطول.',
+    learnedLine: '{{learned}} كلمة متعلَّمة · {{mastered}} متقنة',
   },
   progress: {
     title: 'تقدّمك',

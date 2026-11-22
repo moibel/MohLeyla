@@ -1,13 +1,14 @@
 import { useSearchParams } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
-import { PageHeading, EmptyState } from '../components/ui.jsx';
+import { ArrowRight } from 'lucide-react';
+import { PageHeading, EmptyState, ProgressBar, Button, Flip } from '../components/ui.jsx';
 import LessonCard from '../components/LessonCard.jsx';
 import { TRACKS, TRACK_META, lessonsOfTrack } from '../data/content.js';
 import { useProgress } from '../app/ProgressContext.jsx';
 import { nextLessonOf } from '../features/progress/selectors.js';
 
 export default function Courses() {
-  const { t } = useTranslation();
+  const { t, i18n } = useTranslation();
   const { state, updateSettings } = useProgress();
   const [params, setParams] = useSearchParams();
   const param = params.get('track');
@@ -16,6 +17,8 @@ export default function Courses() {
   const next = nextLessonOf(state, track);
   const groups = ['beginner', 'elementary', 'intermediate'].map((lv) => ({ lv, items: list.filter((l) => l.level === lv) })).filter((g) => g.items.length);
 
+  const doneCount = list.filter((l) => state.completed[l.id]).length;
+  const pct = list.length ? Math.round((doneCount / list.length) * 100) : 0;
   return (
     <div className="page">
       <PageHeading title={t('courses.title')} subtitle={t('courses.subtitle')} />
@@ -29,10 +32,19 @@ export default function Courses() {
         ))}
       </div>
       <p className="track-desc">{t(`tracks.${track}.desc`)}</p>
+      {list.length > 0 && (
+        <section className="card track-summary" aria-label={t('courses.trackProgress', { done: doneCount, total: list.length })} data-testid="track-summary" style={{ '--tile': TRACK_META[track].color }}>
+          <div className="track-summary-text">
+            <strong data-testid="track-progress">{t('courses.trackProgress', { done: doneCount, total: list.length })}</strong>
+            <ProgressBar value={doneCount} max={list.length} label={t('courses.trackProgress', { done: doneCount, total: list.length })} />
+          </div>
+          {next && <Button to={`/lesson/${next.id}`} iconEnd={<Flip><ArrowRight size={18} /></Flip>} data-testid="continue-track">{t('courses.continueTrack', { lesson: next.title[i18n.language] })}</Button>}
+        </section>
+      )}
       {!groups.length && <EmptyState icon="📚" title={t('courses.noLessons')} />}
       {groups.map((g) => (
         <section key={g.lv} aria-label={t('courses.levelHeading', { level: t(`levels.${g.lv}`) })}>
-          <h2 className="level-head">{t('courses.levelHeading', { level: t(`levels.${g.lv}`) })}</h2>
+          <h2 className="level-head">{t('courses.levelHeading', { level: t(`levels.${g.lv}`) })} <span className="level-progress muted">{t('courses.levelProgress', { done: g.items.filter((l) => state.completed[l.id]).length, total: g.items.length })}</span></h2>
           <div className="lesson-grid">
             {g.items.map((m) => (
               <LessonCard key={m.id} meta={m} index={m.order} total={list.length} completed={!!state.completed[m.id]} best={state.completed[m.id]?.best} recommended={next?.id === m.id} />

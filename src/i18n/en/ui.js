@@ -99,6 +99,9 @@ export default {
     wordsInLesson: '{{count}} words',
     pathOf: 'Lesson {{n}} of {{total}}',
     levelHeading: '{{level}} level',
+    trackProgress: '{{done}} of {{total}} lessons complete',
+    continueTrack: 'Continue: {{lesson}}',
+    levelProgress: '{{done}}/{{total}} complete',
     noLessons: 'No lessons found.',
   },
   lesson: {
@@ -246,6 +249,7 @@ export default {
     nextSession: 'Another session',
     typeChoose: 'Choose the correct meaning',
     stepDesc: 'Words you answer correctly return after longer gaps.',
+    learnedLine: '{{learned}} words learned · {{mastered}} mastered',
   },
   progress: {
     title: 'Your progress',

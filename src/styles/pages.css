@@ -253,3 +253,8 @@ html[data-theme='dark'] .motto,:root:not([data-theme='light']) .motto{color:var(
 .option.correct .opt-key,.option.wrong .opt-key{background:transparent;color:inherit}
 @media (hover:none){.opt-key{display:none}}
 @media (prefers-reduced-motion:reduce){.combo.pop,.option.correct{animation:none}}
+
+/* ---- course map + review ---- */
+.track-summary{display:flex;gap:16px;align-items:center;justify-content:space-between;flex-wrap:wrap;background:color-mix(in srgb,var(--tile) 8%,var(--surface))}
+.track-summary-text{display:flex;flex-direction:column;gap:8px;flex:1 1 260px;min-inline-size:0}
+.level-progress{font-size:.85rem;font-weight:650;margin-inline-start:8px;font-variant-numeric:tabular-nums}

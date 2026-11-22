@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useEffect, useRef, useState } from 'react';
 import { useTranslation } from 'react-i18next';
 import { Brain, Check, X, Eye } from 'lucide-react';
 import { PageHeading, EmptyState, Button, ProgressBar, TargetText, Bidi, Spinner, Ring } from '../components/ui.jsx';
@@ -28,6 +28,22 @@ export default function Review() {
     } catch { setFailed(true); }
     setLoading(false);
   };
+
+  // Keyboard for a review card: Space/Enter reveals; then 1 = "didn't know", 2 = "knew".
+  const live = useRef({});
+  live.current = { session, answer: null };
+  useEffect(() => {
+    const onKey = (e) => {
+      if (e.ctrlKey || e.metaKey || e.altKey || e.target.closest?.('input,textarea,select,button,a')) return;
+      const { session: ses } = live.current;
+      if (!ses || ses.done) return;
+      if (!ses.shown && (e.key === 'Enter' || e.key === ' ')) { e.preventDefault(); document.querySelector('[data-testid="reveal"]')?.click(); }
+      else if (ses.shown && e.key === '1') document.querySelector('[data-testid="didnt-know"]')?.click();
+      else if (ses.shown && e.key === '2') document.querySelector('[data-testid="knew"]')?.click();
+    };
+    window.addEventListener('keydown', onKey);
+    return () => window.removeEventListener('keydown', onKey);
+  }, []);
 
   if (loading) return <Spinner label={t('app.loading')} />;
 
@@ -109,6 +125,7 @@ export default function Review() {
             <div><dt>{t('review.newCards')}</dt><dd>{d.due.fresh}</dd></div>
           </div>
           <p className="muted">{t('review.stepDesc')}</p>
+          <p className="muted small" data-testid="learned-line">{t('review.learnedLine', { learned: d.learnedCount, mastered: d.mastered })}</p>
           <Button size="lg" onClick={start} data-testid="start-review">{t('review.start')}</Button>
         </section>
       )}
