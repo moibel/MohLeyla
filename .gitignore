@@ -7,3 +7,8 @@ playwright-report
 .env
 .env.*
 *.zip
+graphify-out/
+.graphifyignore
+.impeccable/
+legacy-v5/
+.claude/

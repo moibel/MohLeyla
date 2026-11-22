@@ -4,6 +4,7 @@ import { useTranslation } from 'react-i18next';
 import { ArrowRight, ArrowLeft, Bookmark, BookmarkCheck, Target, Lightbulb, Globe2, BookOpenText, Trophy, RotateCcw } from 'lucide-react';
 import { Button, Bidi, TargetText, ProgressBar, Ring, Flip, Chip } from '../../components/ui.jsx';
 import SpeakButton from '../../components/SpeakButton.jsx';
+import SpeakingPractice from '../speaking/SpeakingPractice.jsx';
 import { useProgress } from '../../app/ProgressContext.jsx';
 import { toggleSaved } from '../progress/engine.js';
 
@@ -79,6 +80,9 @@ export function LearnCards({ lesson, ui, onDone }) {
         {it.example.translit && <p className="translit-sm"><Bidi lang="en">{it.example.translit}</Bidi></p>}
         <p className="muted"><Bidi lang={ui}>{it.example.tr[ui]}</Bidi></p>
         <SpeakButton text={it.example.target} track={track} variant="pill" label={t('lesson.listenExample')} />
+      </div>
+      <div className="speaking-grid">
+        <SpeakingPractice itemId={it.id} text={it.target} track={track} />
       </div>
       <div className="ex-actions">
         <Button variant="ghost" disabled={i === 0} onClick={() => setI(i - 1)} icon={<Flip><ArrowLeft size={18} /></Flip>}>{t('common.previous')}</Button>

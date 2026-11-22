@@ -1,6 +1,6 @@
 import { useTranslation } from 'react-i18next';
 import { Link } from 'react-router-dom';
-import { Sprout, Rocket, Medal, Sparkles, Flame, Brain, BookMarked, Star, Languages, Trophy, Lock } from 'lucide-react';
+import { Sprout, Rocket, Medal, Mic, Sparkles, Flame, Brain, BookMarked, Star, Languages, Trophy, Lock } from 'lucide-react';
 import { PageHeading, Ring, ProgressBar, Button } from '../components/ui.jsx';
 import { TRACKS, TRACK_META, lessonsOfTrack } from '../data/content.js';
 import { useProgress } from '../app/ProgressContext.jsx';
@@ -8,7 +8,7 @@ import { useDerived } from '../features/progress/selectors.js';
 import { ACHIEVEMENTS } from '../features/progress/engine.js';
 import { addDays } from '../utils/dates.js';
 
-const ICONS = { Sprout, Rocket, Medal, Sparkles, Flame, Brain, BookMarked, Star, Languages, Trophy };
+const ICONS = { Mic, Sprout, Rocket, Medal, Sparkles, Flame, Brain, BookMarked, Star, Languages, Trophy };
 
 export default function Progress() {
   const { t, i18n } = useTranslation();

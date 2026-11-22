@@ -8,8 +8,8 @@ Automated tests were run on **macOS, Node 26, Chromium (Playwright headless shel
 | --- | --- | --- |
 | Content validation (strict) | `npm run validate:content` | 120 lessons / 726 items OK |
 | i18n parity | `npm run validate:i18n` | 348 base keys, ar = en = id |
-| Unit tests (Vitest) | `npm test` | 33 passed |
-| Browser tests (Playwright) | `npm run test:e2e` | 71 passed |
+| Unit tests (Vitest) | `npm test` | 42 passed |
+| Browser tests (Playwright) | `npm run test:e2e` | 79 passed |
 | Production build | `npm run build` | OK, PWA precache generated |
 
 ## What is covered
@@ -34,9 +34,12 @@ Automated tests were run on **macOS, Node 26, Chromium (Playwright headless shel
 - Branding: every `<img>` loads on every page, favicon/manifest icons return 200, no failed network requests.
 - PWA: service worker registers; app shell and a visited lesson load while offline.
 
+- **Speaking practice**: real recording through Chromium's fake microphone (MediaRecorder), playback of the user's clip, microphone released after stop and on navigation, denied-mic errors in en/ar/id, unsupported browsers, axe in RTL.
+
 ## NOT tested (be honest with users)
 
 - **Real devices**: no iPhone/iPad Safari, no Android Chrome, no desktop Safari/Firefox. Only Chromium (desktop viewport emulation for phone sizes, which does not reproduce touch, safe-area, or iOS audio-unlock behaviour).
+- **Speaking on real hardware**: only Chromium's synthetic microphone tone was used; real voices, iOS Safari (mp4 recording) and Android permission prompts are untested.
 - **Audio quality**: playback was verified technically (events/time/duration). Nobody has listened to all clips for pronunciation accuracy, and the Arabic voice reading Saudi dialect text is *not* a Saudi accent.
 - **Device speech voices**: fallback logic is tested with a fake speech engine; no real OS voice list was exercised in the browser tests.
 - **Native-speaker review** of Arabic / Saudi / Indonesian lesson text has not happened.

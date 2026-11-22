@@ -6,7 +6,7 @@ export const STORAGE_KEY = 'mohleyla-v6';
 export const LEGACY_KEY = 'mohleyla-v1'; // v1-v5 stored { completed: string[], saved: string[], xp: number }
 export const SCHEMA = 6;
 
-export const XP = { lesson: 50, perfectBonus: 20, reviewCorrect: 2, reviewDailyCap: 40 };
+export const XP = { lesson: 50, perfectBonus: 20, reviewCorrect: 2, reviewDailyCap: 40, speakingClose: 1, speakingDailyCap: 20 };
 export const GOALS = [30, 50, 100];
 export const SRS_INTERVALS = [0, 0, 1, 2, 4, 8, 16]; // days, indexed by box (1..6)
 export const MAX_BOX = 6;
@@ -20,6 +20,7 @@ export function emptyState() {
     completed: {}, // lessonId -> { first, last, best, attempts, perfect }
     saved: {}, // itemId -> timestamp
     srs: {}, // itemId -> { box, due, reps, lapses, last }
+    speaking: {}, // itemId -> { tries, close, last }  (self-rated speaking practice; recordings are never stored)
     xp: 0,
     stats: { answered: 0, correct: 0, reviewSessions: 0, reviewAnswered: 0, reviewCorrect: 0 },
     days: {}, // YYYY-MM-DD -> { xp, reviewXp, answered }
@@ -42,6 +43,7 @@ export function migrate(raw, legacy) {
       completed: src.completed || {},
       saved: src.saved || {},
       srs: src.srs || {},
+      speaking: src.speaking || {},
       days: src.days || {},
     };
   }
@@ -143,6 +145,23 @@ export function applyReview(state, itemId, correct, now = Date.now()) {
   return { state: s, xp };
 }
 
+/** Self-rated speaking practice. +1 XP when the learner says it sounded close, capped per day. */
+export function applySpeaking(state, itemId, close, now = Date.now()) {
+  const today = localDay(new Date(now));
+  let s = touchDay(state, today);
+  const prev = s.speaking[itemId] || { tries: 0, close: 0, last: null };
+  s = { ...s, speaking: { ...s.speaking, [itemId]: { tries: prev.tries + 1, close: prev.close + (close ? 1 : 0), last: today } } };
+  let xp = 0;
+  if (close) {
+    const used = s.days[today]?.speakXp || 0;
+    xp = Math.max(0, Math.min(XP.speakingClose, XP.speakingDailyCap - used));
+  }
+  s = addXp(s, today, xp, { speakXp: (s.days[today]?.speakXp || 0) + xp });
+  return { state: s, xp };
+}
+
+export const speakingTries = (state) => Object.values(state.speaking || {}).reduce((n, e) => n + e.tries, 0);
+
 export function finishReviewSession(state) {
   return { ...state, stats: { ...state.stats, reviewSessions: state.stats.reviewSessions + 1 } };
 }
@@ -183,6 +202,7 @@ export const ACHIEVEMENTS = [
   { id: 'perfect', icon: 'Sparkles', test: (s) => Object.values(s.completed).some((c) => c.perfect) },
   { id: 'streak3', icon: 'Flame', test: (s) => s.streak.best >= 3 },
   { id: 'streak7', icon: 'Flame', test: (s) => s.streak.best >= 7 },
+  { id: 'speaker', icon: 'Mic', test: (s) => speakingTries(s) >= 10 },
   { id: 'firstReview', icon: 'Brain', test: (s) => s.stats.reviewSessions >= 1 },
   { id: 'words50', icon: 'BookMarked', test: (s, c) => c.learned >= 50 },
   { id: 'xp500', icon: 'Star', test: (s) => s.xp >= 500 },
