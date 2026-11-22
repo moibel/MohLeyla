@@ -20,6 +20,7 @@ export function SignInGate() {
         <p className="note-small">{t('gate.firstTime')}</p>
         <p className="note-small">{t('account.privacy')}</p>
       </section>
+      <p className="gate-credit">{t('app.madeBy')} <bdi>{t('app.creator')}</bdi></p>
       <SyncDialogs />
     </main>
   );

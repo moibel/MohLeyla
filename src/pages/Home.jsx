@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
-import { ArrowRight, ArrowLeft, Flame, Target, Brain } from 'lucide-react';
+import { ArrowRight, ArrowLeft, Flame, Target, Brain, Sparkles } from 'lucide-react';
 import { Button, Ring, ProgressBar, Logo } from '../components/ui.jsx';
 import LessonCard from '../components/LessonCard.jsx';
 import { TRACKS, TRACK_META, lessonsOfTrack } from '../data/content.js';
@@ -27,7 +27,7 @@ export default function Home() {
     <div className="page home">
       <section className="hero" aria-labelledby="hero-title">
         <div className="hero-copy">
-          <span className="eyebrow" data-testid="greeting">{who ? <>{t('home.hi')} <bdi>{who}</bdi>! 👋</> : t('home.welcome')}</span>
+          <span className="eyebrow" data-testid="greeting"><Sparkles size={15} aria-hidden="true" /> {who ? <>{t('home.hi')} <bdi>{who}</bdi>!</> : t('home.welcome')}</span>
           <h1 id="hero-title">{t('home.heroTitleA')} <em>{t('home.heroTitleB')}</em></h1>
           <p>{t('home.heroText')}</p>
           <div className="hero-actions">

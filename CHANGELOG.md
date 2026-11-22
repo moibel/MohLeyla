@@ -1,6 +1,9 @@
 # Changelog
 
 ## Unreleased
+- **Creator signature and About page**: "Made with care by Mohamed Ebrahim" in the footer, the sidebar and the sign-in screen, linking to a new About page (`/about`) with the creator's name in English and Arabic, the story, what the app offers and the project link. Translated in ar, en and id.
+- **Admin and teacher insights**: the admin page shows totals (accounts, students, teachers, admins, active this week) and a role filter; each class roster shows how many students were active in the last 7 days and the average XP.
+- **Polish**: page entrance motion, themed text selection and scrollbars, tabular numerals, hover/press states on cards, an icon instead of an emoji in the greeting, and sidebar/logo links whose accessible name contains their visible text.
 - **Roles, classes and an admin page**: student / teacher / admin roles enforced in the database (row-level security + admin-checked functions). Admin page to list accounts and assign roles; teachers create classes with a join code and see a progress summary per student; students join or leave with a code. New `supabase/migrations/002_roles_classes.sql` with a 39-check rolled-back permission test. Fully translated (ar, en, id).
 - **Hosting moved to Cloudflare Pages** (`https://mohleyla.pages.dev`): free, no credit counter. Netlify builds stopped; Supabase Site URL and redirect list updated; docs updated.
 - **Public build settings in the repo**: committed `.env.production` (Supabase URL, publishable key, required sign-in, Google sign-in) so Cloudflare, Netlify and local builds are identical without dashboard variables. Guard tests forbid secrets in it. `.env.example` is now tracked (it had been ignored by mistake).

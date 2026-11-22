@@ -1,7 +1,7 @@
 import { useEffect, useRef } from 'react';
 import { NavLink, Link, Outlet, useLocation } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
-import { Home, GraduationCap, Brain, Bookmark, BarChart3, Settings as Cog, Flame, Star, Users, ClipboardList, ShieldCheck } from 'lucide-react';
+import { Home, GraduationCap, Brain, Bookmark, BarChart3, Settings as Cog, Flame, Star, Users, ClipboardList, ShieldCheck, Heart } from 'lucide-react';
 import { Logo } from '../components/ui.jsx';
 import { LANG_META, UI_LANGS } from '../i18n/index.js';
 import { useDerived } from '../features/progress/selectors.js';
@@ -80,16 +80,17 @@ export default function Layout({ pwa }) {
     <div className="shell">
       <a href="#main" className="skip-link">{t('app.skip')}</a>
       <aside className="sidebar" aria-label={t('nav.main')}>
-        <Link to="/" className="sidebar-brand" aria-label={t('nav.backHome')}><Logo size={44} /></Link>
+        <Link to="/" className="sidebar-brand" aria-label={`${t('app.name')} · ${t('nav.backHome')}`}><Logo size={44} /></Link>
         <nav className="side-nav" aria-label={t('nav.main')}><NavItems variant="side" /></nav>
         <div className="side-card">
           <Logo compact size={36} />
           <strong>{t('app.tagline')}</strong>
         </div>
+        <Link to="/about" className="side-credit">{t('app.madeBy')} <bdi>{t('app.creator')}</bdi></Link>
       </aside>
       <div className="main-col">
         <header className="topbar">
-          <Link to="/" className="topbar-brand" aria-label={t('nav.backHome')}><Logo compact size={36} /></Link>
+          <Link to="/" className="topbar-brand" aria-label={`${t('app.name')} · ${t('nav.backHome')}`}><Logo compact size={36} /></Link>
           <div className="topbar-spacer" />
           <div className="topbar-stats">
             <span className="stat-pill" title={t('home.streak')}><Flame size={16} aria-hidden="true" /><b>{streak}</b><span className="sr-only">{t('home.streak')}</span></span>
@@ -105,7 +106,10 @@ export default function Layout({ pwa }) {
         <main id="main" ref={main} tabIndex={-1} className="content" data-today-xp={todayXp}>
           <Outlet />
         </main>
-        <footer className="footer">{t('app.footer')}</footer>
+        <footer className="footer">
+          <span>{t('app.footer')}</span>
+          <Link to="/about" className="made-by" data-testid="made-by"><Heart size={14} aria-hidden="true" /> {t('app.madeBy')} <bdi>{t('app.creator')}</bdi></Link>
+        </footer>
       </div>
       <nav className="bottom-nav" aria-label={t('nav.main')}><NavItems variant="bottom" /></nav>
       <AudioNotice />
