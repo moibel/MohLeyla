@@ -6,11 +6,15 @@ import LessonCard from '../components/LessonCard.jsx';
 import { TRACKS, TRACK_META, lessonsOfTrack } from '../data/content.js';
 import { useProgress } from '../app/ProgressContext.jsx';
 import { nextLessonOf, useDerived } from '../features/progress/selectors.js';
+import { useSync } from '../features/sync/useSync.js';
+import { displayName } from '../features/sync/profile.js';
 
 export default function Home() {
   const { t, i18n } = useTranslation();
   const { state } = useProgress();
   const d = useDerived();
+  const sy = useSync();
+  const who = sy.profile ? displayName(sy.profile) : '';
   const rtl = i18n.dir() === 'rtl';
   const Arrow = rtl ? ArrowLeft : ArrowRight;
   const goal = state.settings.goal;
@@ -23,7 +27,7 @@ export default function Home() {
     <div className="page home">
       <section className="hero" aria-labelledby="hero-title">
         <div className="hero-copy">
-          <span className="eyebrow">{t('home.welcome')}</span>
+          <span className="eyebrow" data-testid="greeting">{who ? <>{t('home.hi')} <bdi>{who}</bdi>! 👋</> : t('home.welcome')}</span>
           <h1 id="hero-title">{t('home.heroTitleA')} <em>{t('home.heroTitleB')}</em></h1>
           <p>{t('home.heroText')}</p>
           <div className="hero-actions">

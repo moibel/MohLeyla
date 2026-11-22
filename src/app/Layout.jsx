@@ -9,6 +9,10 @@ import { useProgress } from './ProgressContext.jsx';
 import { AudioNotice, OfflineBar, UpdateBanner } from '../components/Notices.jsx';
 import Onboarding from '../features/progress/Onboarding.jsx';
 import SyncDialogs from '../features/sync/SyncDialogs.jsx';
+import NamePrompt from '../features/sync/NamePrompt.jsx';
+import Avatar from '../components/Avatar.jsx';
+import { useSync } from '../features/sync/useSync.js';
+import { displayName } from '../features/sync/profile.js';
 
 const NAV = [
   { to: '/', key: 'home', Icon: Home, end: true },
@@ -50,6 +54,7 @@ export default function Layout({ pwa }) {
   const { t } = useTranslation();
   const { state } = useProgress();
   const { streak, todayXp } = useDerived();
+  const sy = useSync();
   const loc = useLocation();
   const main = useRef(null);
   const first = useRef(true);
@@ -80,6 +85,9 @@ export default function Layout({ pwa }) {
             <span className="stat-pill stat-xp"><Star size={16} aria-hidden="true" /><b>{state.xp}</b><span className="pill-label" aria-hidden="true">{t('common.xp')}</span><span className="sr-only">{t('common.xp')}</span></span>
           </div>
           <LangSwitcher />
+          {sy.profile && (
+            <NavLink to="/profile" className="avatar-link" aria-label={`${t('nav.profile')}: ${displayName(sy.profile)}`} data-testid="avatar-link"><Avatar profile={sy.profile} size={36} /></NavLink>
+          )}
           <NavLink to="/settings" className="icon-btn" aria-label={t('nav.settings')}><Cog size={22} aria-hidden="true" /></NavLink>
         </header>
         <OfflineBar />
@@ -93,6 +101,7 @@ export default function Layout({ pwa }) {
       <UpdateBanner pwa={pwa} />
       <Onboarding />
       <SyncDialogs />
+      <NamePrompt />
     </div>
   );
 }

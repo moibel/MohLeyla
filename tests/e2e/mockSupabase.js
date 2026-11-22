@@ -2,17 +2,18 @@
 export const MOCK_URL = 'https://mohleyla-test.supabase.co';
 const b64 = (o) => Buffer.from(JSON.stringify(o)).toString('base64url');
 
-export function makeSession(email, id) {
+export function makeSession(email, id, meta = {}) {
   const now = Math.floor(Date.now() / 1000);
   const access_token = `${b64({ alg: 'HS256', typ: 'JWT' })}.${b64({ sub: id, email, role: 'authenticated', aud: 'authenticated', exp: now + 3600, iat: now })}.sig`;
-  const user = { id, aud: 'authenticated', role: 'authenticated', email, email_confirmed_at: new Date().toISOString(), app_metadata: {}, user_metadata: {}, created_at: new Date().toISOString() };
+  const user = { id, aud: 'authenticated', role: 'authenticated', email, email_confirmed_at: new Date().toISOString(), app_metadata: {}, user_metadata: meta, created_at: '2026-11-01T10:00:00.000Z' };
   return { access_token, token_type: 'bearer', expires_in: 3600, expires_at: now + 3600, refresh_token: 'refresh-' + id, user };
 }
 
-export function createMockBackend({ code = '123456', users = {}, googleEmail = 'google.learner@gmail.com' } = {}) {
+export function createMockBackend({ code = '123456', users = {}, googleEmail = 'google.learner@gmail.com', googleMeta = { full_name: 'Google Learner', avatar_url: 'https://lh3.googleusercontent.com/a/test-avatar' } } = {}) {
   const rows = new Map();
+  const profiles = {}; // email -> user_metadata (display_name set from the app)
   const stats = { upserts: 0, selects: 0, deletes: 0, otps: 0 };
-  const state = { rateLimit: false, failSelect: false };
+  const state = { rateLimit: false, failSelect: false, failNameUpdate: false };
   const cors = { 'access-control-allow-origin': '*', 'access-control-allow-headers': '*', 'access-control-allow-methods': '*', 'access-control-expose-headers': '*' };
 
   async function handle(route) {
@@ -30,21 +31,27 @@ export function createMockBackend({ code = '123456', users = {}, googleEmail = '
       if (body.token !== code) return json(403, { code: 403, error_code: 'otp_expired', msg: 'Token has expired or is invalid' });
       const email = body.email;
       const id = users[email] || 'user-' + Buffer.from(email).toString('hex').slice(0, 8);
-      const now = Math.floor(Date.now() / 1000);
-      const token = `${b64({ alg: 'HS256', typ: 'JWT' })}.${b64({ sub: id, email, role: 'authenticated', aud: 'authenticated', exp: now + 3600, iat: now })}.sig`;
-      return json(200, { access_token: token, token_type: 'bearer', expires_in: 3600, expires_at: now + 3600, refresh_token: 'refresh-' + id,
-        user: { id, aud: 'authenticated', role: 'authenticated', email, email_confirmed_at: new Date().toISOString(), app_metadata: {}, user_metadata: {}, created_at: new Date().toISOString() } });
+      return json(200, makeSession(email, id, profiles[email] || {}));
     }
     if (url.pathname === '/auth/v1/user') {
       const tok = (req.headers()['authorization'] || '').replace('Bearer ', '');
-      try { const p = JSON.parse(Buffer.from(tok.split('.')[1], 'base64url').toString()); return json(200, makeSession(p.email, p.sub).user); } catch { return json(401, { message: 'bad token' }); }
+      let claims;
+      try { claims = JSON.parse(Buffer.from(tok.split('.')[1], 'base64url').toString()); } catch { return json(401, { message: 'bad token' }); }
+      if (req.method() === 'PUT') {
+        const body = JSON.parse(req.postData() || '{}');
+        stats.nameUpdates = (stats.nameUpdates || 0) + 1;
+        if (state.failNameUpdate) return json(500, { message: 'boom' });
+        profiles[claims.email] = { ...(profiles[claims.email] || {}), ...(body.data || {}) };
+      }
+      const isGoogle = claims.email === googleEmail;
+      return json(200, makeSession(claims.email, claims.sub, { ...(isGoogle ? googleMeta : {}), ...(profiles[claims.email] || {}) }).user);
     }
     if (url.pathname === '/auth/v1/authorize') {
       // Google OAuth: Supabase would send the user to Google, then back to redirect_to with a session in the URL hash.
       stats.oauth = (stats.oauth || 0) + 1;
       const redirect = url.searchParams.get('redirect_to') || '/';
       const email = googleEmail;
-      const s = makeSession(email, users[email] || 'user-google');
+      const s = makeSession(email, users[email] || 'user-google', { ...googleMeta, ...(profiles[email] || {}) });
       const hash = `access_token=${s.access_token}&refresh_token=${s.refresh_token}&expires_in=3600&expires_at=${s.expires_at}&token_type=bearer&provider_token=google-token`;
       return route.fulfill({ status: 302, headers: { ...cors, location: `${redirect}#${hash}` }, body: '' });
     }
@@ -71,5 +78,5 @@ export function createMockBackend({ code = '123456', users = {}, googleEmail = '
     }
     return json(404, { message: 'not mocked: ' + url.pathname });
   }
-  return { rows, stats, state, install: (ctxOrPage) => ctxOrPage.route(`${MOCK_URL}/**`, handle), code };
+  return { rows, stats, state, install: (ctxOrPage) => ctxOrPage.route(`${MOCK_URL}/**`, handle), code, profiles };
 }

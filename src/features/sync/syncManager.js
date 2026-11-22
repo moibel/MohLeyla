@@ -3,9 +3,11 @@
 // unless the learner explicitly chooses "replace" when signing in on a device that already has progress.
 import { mergeStates, sameSynced, toRemote } from '../progress/merge.js';
 import { migrate } from '../progress/engine.js';
+import { profileFromUser, cleanName } from './profile.js';
 
 export const LINK_KEY = 'mohleyla-sync-link'; // user id whose cloud data this device has already merged
-export const HINT_KEY = 'mohleyla-session-hint'; // { userId, email } of the last signed-in user, so reopening offline stays signed in
+export const HINT_KEY = 'mohleyla-session-hint'; // { userId, email, profile } of the last signed-in user, so reopening offline stays signed in
+export const NAME_ASKED_KEY = 'mohleyla-name-asked'; // user ids that were already asked for a display name
 const DEBOUNCE_MS = 2500;
 const hasProgress = (s) => s.xp > 0 || Object.keys(s.completed).length > 0 || Object.keys(s.saved).length > 0;
 const isEmail = (v) => /^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/.test(String(v).trim());
@@ -34,8 +36,8 @@ export class SyncManager {
     const hint = this.readHint();
     // `restoring` is true until we know whether a stored session is still valid, so the UI never flashes a sign-in screen.
     this.snapshot = {
-      configured: !!configured, status: hint ? 'idle' : 'signedOut', userId: hint?.userId ?? null, email: hint?.email ?? null,
-      lastSyncedAt: null, error: null, pendingChoice: false, codeSentTo: null, errorId: 0,
+      configured: !!configured, status: hint ? 'idle' : 'signedOut', userId: hint?.userId ?? null, email: hint?.email ?? null, profile: hint?.profile ?? null,
+      lastSyncedAt: null, error: null, pendingChoice: false, codeSentTo: null, errorId: 0, nameAskedAt: 0,
       restoring: !!configured && (!!hint || !!authInUrl),
     };
   }
@@ -44,12 +46,41 @@ export class SyncManager {
     try { const h = JSON.parse(this.storage.getItem(HINT_KEY) || 'null'); return h && h.userId ? h : null; } catch { return null; }
   }
   setUser(user, extra = {}) {
-    this.storage.setItem(HINT_KEY, JSON.stringify({ userId: user.id, email: user.email || null }));
-    this.set({ userId: user.id, email: user.email || null, ...extra });
+    const profile = profileFromUser(user);
+    this.storage.setItem(HINT_KEY, JSON.stringify({ userId: user.id, email: user.email || null, profile }));
+    this.set({ userId: user.id, email: user.email || null, profile, ...extra });
   }
   clearUser(extra = {}) {
     this.storage.removeItem(HINT_KEY);
-    this.set({ status: 'signedOut', userId: null, email: null, pendingChoice: false, restoring: false, ...extra });
+    this.set({ status: 'signedOut', userId: null, email: null, profile: null, pendingChoice: false, restoring: false, ...extra });
+  }
+
+  /** Has this user already been asked "What should we call you?" (or skipped)? */
+  nameAsked() {
+    try { return JSON.parse(this.storage.getItem(NAME_ASKED_KEY) || '[]').includes(this.snapshot.userId); } catch { return false; }
+  }
+  skipNamePrompt() {
+    let list = [];
+    try { list = JSON.parse(this.storage.getItem(NAME_ASKED_KEY) || '[]'); } catch { /* ignore */ }
+    if (this.snapshot.userId && !list.includes(this.snapshot.userId)) list.push(this.snapshot.userId);
+    this.storage.setItem(NAME_ASKED_KEY, JSON.stringify(list));
+    this.set({ nameAskedAt: Date.now() }); // notifies subscribers
+  }
+
+  /** Save the learner's display name in their account (user metadata), so it follows them to every device. */
+  async updateName(name) {
+    const clean = cleanName(name);
+    if (!clean) return this.fail('nameInvalid');
+    try {
+      const c = await this.ensureClient();
+      const { data, error } = await c.auth.updateUser({ data: { display_name: clean } });
+      if (error || !data?.user) return this.fail(mapAuthError(error, 'nameFailed') === 'network' ? 'network' : 'nameFailed');
+      this.setUser(data.user, { error: null });
+      this.skipNamePrompt();
+      return true;
+    } catch (e) {
+      return this.fail(this.getOnline() ? 'nameFailed' : 'network');
+    }
   }
 
   subscribe = (fn) => { this.listeners.add(fn); return () => this.listeners.delete(fn); };

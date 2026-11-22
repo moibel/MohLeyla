@@ -5,7 +5,7 @@ MohLeyla works fully **offline and without an account**. Accounts add one thing:
 (free plan is enough for a family and a class).
 
 ## What is stored
-Only two things, per learner: the **email address** (for sign-in) and **one JSON document of learning progress**
+Per learner: the **email address** (for sign-in), an optional **display name** (stored in the account's user metadata; for Google users also the Google name and a link to their Google profile picture), and **one JSON document of learning progress**
 (XP, completed lessons, saved words, review schedule, streak, speaking self-ratings). Voice recordings are never stored.
 There is no analytics, no tracking, no advertising. Interface settings (language, speed, theme) stay on the device.
 

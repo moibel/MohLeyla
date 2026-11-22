@@ -1,6 +1,6 @@
 import { test, expect } from '@playwright/test';
 import AxeBuilder from '@axe-core/playwright';
-import { seed, getLesson, playThrough } from './helpers.js';
+import { seed, getLesson, playThrough, dismissNamePrompt } from './helpers.js';
 import { createMockBackend, makeSession } from './mockSupabase.js';
 
 test.use({ serviceWorkers: 'block' });
@@ -13,6 +13,7 @@ async function signIn(page, email = 'amina@example.com', code = '123456') {
   await expect(page.locator('[data-testid="acc-sent"]')).toContainText(email);
   await page.locator('[data-testid="acc-code"]').fill(code);
   await page.locator('[data-testid="acc-verify"]').click();
+  await dismissNamePrompt(page);
 }
 
 test.describe('accounts & sync (mocked Supabase API)', () => {
@@ -47,6 +48,7 @@ test.describe('accounts & sync (mocked Supabase API)', () => {
     const s = makeSession('amina@example.com', 'user-amina');
     await page.goto('about:blank'); // an emailed link opens as a fresh page load, not a same-page hash change
     await page.goto(`/settings#access_token=${s.access_token}&refresh_token=${s.refresh_token}&expires_in=3600&expires_at=${s.expires_at}&token_type=bearer&type=magiclink`);
+    await dismissNamePrompt(page);
     await expect(page.locator('[data-testid="sync-status"]')).toContainText('Up to date');
     expect(backend.rows.has('user-amina')).toBe(true);
     expect([...backend.rows.values()][0].xp).toBe(70);
@@ -71,6 +73,7 @@ test.describe('accounts & sync (mocked Supabase API)', () => {
   });
 
   test('a lesson finished on one device appears on a second device of the same account (and XP adds up)', async ({ browser }) => {
+    test.setTimeout(120_000); // two full lessons plus two sign-ins
     const backend = createMockBackend();
     const lesson = getLesson('ar-01');
 
@@ -93,6 +96,7 @@ test.describe('accounts & sync (mocked Supabase API)', () => {
     // the tablet has its own progress and has never synced with this account: it asks, and the learner combines both
     await expect(tablet.locator('[data-testid="acc-choice"]')).toBeVisible();
     await tablet.locator('[data-testid="choice-merge"]').click();
+    await dismissNamePrompt(tablet); // the name question comes after the merge question
     await expect(tablet.locator('[data-testid="sync-status"]')).toContainText('محدَّث');
     const t = await tablet.evaluate(state);
     expect(Object.keys(t.completed).sort()).toEqual(['ar-01', 'en-01']);
