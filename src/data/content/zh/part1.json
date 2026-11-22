@@ -1,0 +1,3411 @@
+[
+  {
+    "id": "zh-01",
+    "track": "zh",
+    "level": "beginner",
+    "order": 1,
+    "topic": "pinyin-tones",
+    "icon": "🔤",
+    "title": {
+      "ar": "البينيين والنغمات الأربع",
+      "en": "Pinyin and the Four Tones",
+      "id": "Pinyin dan Empat Nada"
+    },
+    "description": {
+      "ar": "تعلّم كتابة النطق بالبينيين والنغمات الأربع من خلال كلمات حقيقية.",
+      "en": "Learn pinyin and the four tones through real words.",
+      "id": "Pelajari pinyin dan empat nada lewat kata-kata nyata."
+    },
+    "objectives": [
+      {
+        "ar": "أستطيع التفريق بين النغمات الأربع في mā وmá وmǎ وmà.",
+        "en": "I can tell the four tones apart in mā, má, mǎ and mà.",
+        "id": "Saya bisa membedakan empat nada pada mā, má, mǎ, dan mà."
+      },
+      {
+        "ar": "أستطيع قراءة البينيين مع علامات النغمة.",
+        "en": "I can read pinyin with its tone marks.",
+        "id": "Saya bisa membaca pinyin beserta tanda nadanya."
+      },
+      {
+        "ar": "أعرف الأصوات الخاصة مثل ch وsh وq وx وü.",
+        "en": "I know the special sounds such as ch, sh, q, x and ü.",
+        "id": "Saya mengenal bunyi khusus seperti ch, sh, q, x, dan ü."
+      }
+    ],
+    "intro": {
+      "ar": "الصينية الفصحى (普通话 pǔtōnghuà) لغة نغمية: ارتفاع الصوت وانخفاضه جزء من الكلمة نفسها. البينيين نظام كتابة بالحروف اللاتينية يوضح النطق، وعلامة فوق حرف العلة تبيّن النغمة. في هذا الدرس نتعلّم الكلمات الشهيرة mā وmá وmǎ وmà وغيرها لنسمع الفرق. استمع ثم كرّر بصوت عالٍ.",
+      "en": "Standard Chinese (普通话 pǔtōnghuà) is a tonal language: the pitch of the voice is part of the word. Pinyin is a way of writing the pronunciation with Latin letters, and a mark above the vowel shows the tone. In this lesson we use the famous mā, má, mǎ and mà and a few other real words so you can hear the differences. Listen first, then repeat out loud.",
+      "id": "Bahasa Mandarin standar (普通话 pǔtōnghuà) adalah bahasa bernada: tinggi rendah suara adalah bagian dari kata itu sendiri. Pinyin adalah cara menulis ucapan dengan huruf Latin, dan tanda di atas huruf vokal menunjukkan nadanya. Di pelajaran ini kita memakai mā, má, mǎ, mà yang terkenal dan beberapa kata nyata lain agar Anda bisa mendengar bedanya. Dengarkan dulu, lalu ulangi dengan suara keras."
+    },
+    "culture": {
+      "ar": "الصينية الفصحى هي اللغة المشتركة التي يتفاهم بها الناس في أنحاء الصين، وإلى جانبها أنواع كلام محلية كثيرة مثل الكانتونية والشنغهائية. وقد يتكلم الناس بلكنات مختلفة، فلا تستغرب هذا التنوع. ويُستخدم البينيين أيضًا في بعض اللافتات وفي الكتابة بالصينية على الهاتف.",
+      "en": "Mandarin is the common language that people across China use to understand each other, alongside many regional varieties of speech such as Cantonese and Shanghainese. People may speak with different accents, so do not be surprised by variety. Pinyin is also used on some signs and for typing Chinese on a phone.",
+      "id": "Bahasa Mandarin adalah bahasa bersama yang dipakai orang di seluruh Tiongkok untuk saling memahami, di samping banyak ragam tuturan daerah seperti Kanton dan Shanghai. Orang bisa berbicara dengan logat berbeda, jadi jangan heran dengan keragamannya. Pinyin juga dipakai pada sebagian papan petunjuk dan untuk mengetik tulisan Mandarin di ponsel."
+    },
+    "grammar": {
+      "title": {
+        "ar": "النغمات الأربع والنغمة الخفيفة",
+        "en": "The four tones and the neutral tone",
+        "id": "Empat nada dan nada netral"
+      },
+      "body": {
+        "ar": "النغمة الأولى (¯) عالية ومستوية: mā. الثانية (´) صاعدة كمن يسأل: má. الثالثة (ˇ) تنخفض ثم ترتفع: mǎ. الرابعة (`) هابطة بقوة كأمر قصير: mà. وهناك نغمة خفيفة بلا علامة مثل المقطع الثاني في māma. وأصوات zh وch وsh تُنطق برفع اللسان إلى الخلف، أما q وx فأنعم وتُنطقان قرب مقدمة سقف الحنك، وü (كما في nǚ) كأنك تقول «ي» مع تدوير الشفتين.",
+        "en": "Tone 1 (¯) is high and level: mā. Tone 2 (´) rises like a question: má. Tone 3 (ˇ) dips and then rises: mǎ. Tone 4 (`) falls sharply like a short command: mà. There is also a neutral tone with no mark, as in the second syllable of māma. The sounds zh, ch and sh are made with the tongue curled back, q and x are softer and made near the front of the palate, and ü (as in nǚ) is like saying \"ee\" with rounded lips.",
+        "id": "Nada 1 (¯) tinggi dan datar: mā. Nada 2 (´) naik seperti bertanya: má. Nada 3 (ˇ) turun lalu naik: mǎ. Nada 4 (`) turun tajam seperti perintah singkat: mà. Ada juga nada netral tanpa tanda, misalnya suku kedua pada māma. Bunyi zh, ch, dan sh dibuat dengan lidah melengkung ke belakang, q dan x lebih lembut dan dibuat di dekat langit-langit depan, sedangkan ü (seperti pada nǚ) seperti mengucapkan \"i\" dengan bibir dibulatkan."
+      }
+    },
+    "items": [
+      {
+        "id": "zh01n1",
+        "target": "妈",
+        "translit": "mā",
+        "tr": {
+          "ar": "أم (النغمة الأولى)",
+          "en": "mother (tone 1)",
+          "id": "ibu (nada 1)"
+        },
+        "example": {
+          "target": "我妈妈很好。",
+          "translit": "wǒ māma hěn hǎo.",
+          "tr": {
+            "ar": "أمي بخير.",
+            "en": "My mom is well.",
+            "id": "Ibu saya baik-baik saja."
+          }
+        },
+        "hint": {
+          "ar": "النغمة الأولى عالية ومستوية. 妈妈 (māma) تعني «ماما»، والمقطع الثاني بنغمة خفيفة.",
+          "en": "Tone 1 is high and level. 妈妈 (māma) means \"mom\", with a neutral tone on the second syllable.",
+          "id": "Nada 1 tinggi dan datar. 妈妈 (māma) berarti \"ibu\", dengan nada netral pada suku kedua."
+        }
+      },
+      {
+        "id": "zh01n2",
+        "target": "麻",
+        "translit": "má",
+        "tr": {
+          "ar": "قنّب؛ تنميل (النغمة الثانية)",
+          "en": "hemp; numb (tone 2)",
+          "id": "rami; kebas (nada 2)"
+        },
+        "example": {
+          "target": "麻烦你了。",
+          "translit": "máfan nǐ le.",
+          "tr": {
+            "ar": "آسف على إزعاجك.",
+            "en": "Sorry to trouble you.",
+            "id": "Maaf merepotkan Anda."
+          }
+        },
+        "hint": {
+          "ar": "النغمة الثانية صاعدة كما في سؤال «ماذا؟». الكلمة 麻烦 (máfan) تُقال لشكر من يساعدك أو الاعتذار له.",
+          "en": "Tone 2 rises, like saying \"what?\". The word 麻烦 (máfan) is used to thank or apologise to someone who helps you.",
+          "id": "Nada 2 naik, seperti mengucapkan \"apa?\". Kata 麻烦 (máfan) dipakai untuk berterima kasih atau minta maaf kepada orang yang membantu."
+        }
+      },
+      {
+        "id": "zh01n3",
+        "target": "马",
+        "translit": "mǎ",
+        "tr": {
+          "ar": "حصان (النغمة الثالثة)",
+          "en": "horse (tone 3)",
+          "id": "kuda (nada 3)"
+        },
+        "example": {
+          "target": "那是一匹马。",
+          "translit": "nà shì yī pǐ mǎ.",
+          "tr": {
+            "ar": "ذلك حصان.",
+            "en": "That is a horse.",
+            "id": "Itu seekor kuda."
+          }
+        },
+        "hint": {
+          "ar": "النغمة الثالثة تنخفض ثم ترتفع. في الكلام السريع تُنطق غالبًا منخفضة فقط، وهذا طبيعي.",
+          "en": "Tone 3 dips then rises. In fast speech it is often just the low dip, which is normal.",
+          "id": "Nada 3 turun lalu naik. Dalam tuturan cepat sering hanya bagian rendahnya yang terdengar, dan itu wajar."
+        }
+      },
+      {
+        "id": "zh01n4",
+        "target": "骂",
+        "translit": "mà",
+        "tr": {
+          "ar": "يشتم؛ يوبّخ (النغمة الرابعة)",
+          "en": "to scold (tone 4)",
+          "id": "memarahi (nada 4)"
+        },
+        "example": {
+          "target": "不要骂人。",
+          "translit": "bù yào mà rén.",
+          "tr": {
+            "ar": "لا تشتم الناس.",
+            "en": "Do not scold people.",
+            "id": "Jangan memarahi orang."
+          }
+        },
+        "hint": {
+          "ar": "النغمة الرابعة هابطة وقصيرة وقوية. تذكّر أن تغيير النغمة يغيّر الكلمة بالكامل: 妈 mā ≠ 骂 mà.",
+          "en": "Tone 4 is short and falls strongly. Remember that changing the tone changes the whole word: 妈 mā is not 骂 mà.",
+          "id": "Nada 4 pendek dan turun tajam. Ingat, mengganti nada mengubah seluruh kata: 妈 mā berbeda dari 骂 mà."
+        }
+      },
+      {
+        "id": "zh01n5",
+        "target": "吃",
+        "translit": "chī",
+        "tr": {
+          "ar": "يأكل",
+          "en": "to eat",
+          "id": "makan"
+        },
+        "example": {
+          "target": "我想吃米饭。",
+          "translit": "wǒ xiǎng chī mǐfàn.",
+          "tr": {
+            "ar": "أريد أن آكل الأرز.",
+            "en": "I want to eat rice.",
+            "id": "Saya ingin makan nasi."
+          }
+        },
+        "hint": {
+          "ar": "ch صوت مثل «تش» مع ثني اللسان إلى الخلف، ويُنطق بنفَس قوي.",
+          "en": "ch is like \"ch\" with the tongue curled back and a strong puff of air.",
+          "id": "ch seperti \"c\" dengan lidah melengkung ke belakang dan embusan napas kuat."
+        }
+      },
+      {
+        "id": "zh01n6",
+        "target": "十",
+        "translit": "shí",
+        "tr": {
+          "ar": "عشرة",
+          "en": "ten",
+          "id": "sepuluh"
+        },
+        "example": {
+          "target": "我有十块钱。",
+          "translit": "wǒ yǒu shí kuài qián.",
+          "tr": {
+            "ar": "معي عشرة يوان.",
+            "en": "I have ten yuan.",
+            "id": "Saya punya sepuluh yuan."
+          }
+        },
+        "hint": {
+          "ar": "sh صوت مثل «ش» مع ثني اللسان إلى الخلف قليلًا. النغمة هنا ثانية صاعدة.",
+          "en": "sh is like \"sh\" with the tongue curled back a little. The tone here is tone 2, rising.",
+          "id": "sh seperti \"sy\" dengan lidah sedikit melengkung ke belakang. Nadanya di sini adalah nada 2, naik."
+        }
+      },
+      {
+        "id": "zh01n7",
+        "target": "去",
+        "translit": "qù",
+        "tr": {
+          "ar": "يذهب",
+          "en": "to go",
+          "id": "pergi"
+        },
+        "example": {
+          "target": "我想去北京。",
+          "translit": "wǒ xiǎng qù Běijīng.",
+          "tr": {
+            "ar": "أريد الذهاب إلى بكين.",
+            "en": "I want to go to Beijing.",
+            "id": "Saya ingin pergi ke Beijing."
+          }
+        },
+        "hint": {
+          "ar": "q صوت يشبه «تش» خفيفة مع بسط الشفتين وطرف اللسان خلف الأسنان السفلية، ويُنطق بنفَس. وx قريبة من «ش» ناعمة.",
+          "en": "q is like a light \"ch\" with spread lips and the tongue tip behind the lower teeth, with a puff of air. x is like a soft \"sh\".",
+          "id": "q seperti \"c\" ringan dengan bibir melebar dan ujung lidah di belakang gigi bawah, dengan embusan napas. x seperti \"sy\" yang lembut."
+        }
+      },
+      {
+        "id": "zh01n8",
+        "target": "女",
+        "translit": "nǚ",
+        "tr": {
+          "ar": "أنثى؛ امرأة",
+          "en": "female; woman",
+          "id": "perempuan"
+        },
+        "example": {
+          "target": "她是女孩。",
+          "translit": "tā shì nǚhái.",
+          "tr": {
+            "ar": "هي فتاة.",
+            "en": "She is a girl.",
+            "id": "Dia seorang anak perempuan."
+          }
+        },
+        "hint": {
+          "ar": "ü صوت غير موجود في العربية: انطق «ي» ثم دوّر شفتيك دون أن تحرّك اللسان. بعد n وl تُكتب ü، وبعد j وq وx تُكتب u فقط.",
+          "en": "ü is not found in Arabic: say \"ee\" and then round your lips without moving the tongue. After n and l it is written ü, but after j, q and x it is written simply u.",
+          "id": "ü tidak ada dalam bahasa Indonesia: ucapkan \"i\" lalu bulatkan bibir tanpa menggerakkan lidah. Setelah n dan l ditulis ü, sedangkan setelah j, q, dan x cukup ditulis u."
+        }
+      }
+    ],
+    "cloze": [
+      {
+        "sentence": "“马”的声调是第___声。",
+        "answer": "三",
+        "wrong": [
+          "一",
+          "四"
+        ],
+        "tr": {
+          "ar": "نغمة الحرف «马» هي النغمة الثالثة.",
+          "en": "The tone of \"马\" is the third tone.",
+          "id": "Nada \"马\" adalah nada ketiga."
+        },
+        "why": {
+          "ar": "mǎ علامتها ˇ وهي النغمة الثالثة. النغمة الأولى هي mā والرابعة mà.",
+          "en": "mǎ has the mark ˇ, which is tone 3. Tone 1 is mā and tone 4 is mà.",
+          "id": "mǎ bertanda ˇ, yaitu nada 3. Nada 1 adalah mā dan nada 4 adalah mà."
+        }
+      },
+      {
+        "sentence": "我想___米饭。",
+        "answer": "吃",
+        "wrong": [
+          "去",
+          "女"
+        ],
+        "tr": {
+          "ar": "أريد أن آكل الأرز.",
+          "en": "I want to eat rice.",
+          "id": "Saya ingin makan nasi."
+        },
+        "why": {
+          "ar": "吃 chī يعني «يأكل» ويناسب «الأرز». 去 تعني «يذهب» و女 تعني «أنثى» ولا يناسبان الجملة.",
+          "en": "吃 chī means \"to eat\" and fits \"rice\". 去 means \"to go\" and 女 means \"female\", so neither fits.",
+          "id": "吃 chī berarti \"makan\" dan cocok dengan \"nasi\". 去 berarti \"pergi\" dan 女 berarti \"perempuan\", jadi keduanya tidak cocok."
+        }
+      }
+    ],
+    "conversation": {
+      "context": {
+        "ar": "في الصف، المعلّم يطلب من الطالب نطق كلمة.",
+        "en": "In class: the teacher asks the student to say a word.",
+        "id": "Di kelas: guru meminta murid mengucapkan sebuah kata."
+      },
+      "turns": [
+        {
+          "who": "A",
+          "target": "请说“马”，第三声。",
+          "tr": {
+            "ar": "قل «马» بالنغمة الثالثة.",
+            "en": "Please say \"马\", third tone.",
+            "id": "Silakan ucapkan \"马\", nada ketiga."
+          }
+        },
+        {
+          "who": "B",
+          "target": "马。",
+          "tr": {
+            "ar": "أقول: 马.",
+            "en": "I say: 马.",
+            "id": "Saya ucapkan: 马."
+          }
+        },
+        {
+          "who": "A",
+          "target": "很好！",
+          "tr": {
+            "ar": "ممتاز!",
+            "en": "Very good!",
+            "id": "Bagus sekali!"
+          }
+        }
+      ],
+      "gap": 1,
+      "wrong": [
+        "妈。",
+        "骂。"
+      ],
+      "why": {
+        "ar": "المعلم طلب «马» بالنغمة الثالثة، فالجواب الصحيح هو 马 نفسها. 妈 (النغمة الأولى) و骂 (الرابعة) كلمتان مختلفتان.",
+        "en": "The teacher asked for 马 in tone 3, so the answer is 马 itself. 妈 (tone 1) and 骂 (tone 4) are different words.",
+        "id": "Guru meminta 马 dengan nada 3, jadi jawabannya adalah 马 itu sendiri. 妈 (nada 1) dan 骂 (nada 4) adalah kata yang berbeda."
+      }
+    },
+    "summary": {
+      "ar": "تعرّفت على النغمات الأربع والنغمة الخفيفة، وعلى أصوات ch وsh وq وü. استمع إلى النغمة قبل أن تحفظ الكلمة، وتذكّر أن تغيير النغمة يغيّر المعنى.",
+      "en": "You met the four tones, the neutral tone and the sounds ch, sh, q and ü. Always listen for the tone before memorising a word, and remember that a different tone means a different word.",
+      "id": "Anda mengenal empat nada, nada netral, serta bunyi ch, sh, q, dan ü. Dengarkan nadanya sebelum menghafal sebuah kata, dan ingat bahwa nada yang berbeda berarti kata yang berbeda."
+    }
+  },
+  {
+    "id": "zh-02",
+    "track": "zh",
+    "level": "beginner",
+    "order": 2,
+    "topic": "greetings-politeness",
+    "icon": "👋",
+    "title": {
+      "ar": "التحيات والمجاملات",
+      "en": "Greetings and Politeness",
+      "id": "Salam dan Sopan Santun"
+    },
+    "description": {
+      "ar": "تعلّم أن تحيّي وتشكر وتعتذر وتودّع بالصينية.",
+      "en": "Learn to greet, thank, apologise and say goodbye in Chinese.",
+      "id": "Belajar menyapa, berterima kasih, meminta maaf, dan berpamitan dalam bahasa Mandarin."
+    },
+    "objectives": [
+      {
+        "ar": "أستطيع إلقاء التحية بـ 你好 و您好 حسب من أخاطب.",
+        "en": "I can greet people with 你好 or 您好 depending on who I speak to.",
+        "id": "Saya bisa menyapa dengan 你好 atau 您好 sesuai lawan bicara."
+      },
+      {
+        "ar": "أستطيع الشكر والرد عليه: 谢谢 و不客气.",
+        "en": "I can say thank you and reply to it: 谢谢 and 不客气.",
+        "id": "Saya bisa berterima kasih dan membalasnya: 谢谢 dan 不客气."
+      },
+      {
+        "ar": "أستطيع الاعتذار وقبول الاعتذار: 对不起 و没关系.",
+        "en": "I can apologise and accept an apology: 对不起 and 没关系.",
+        "id": "Saya bisa meminta maaf dan menerima permintaan maaf: 对不起 dan 没关系."
+      }
+    ],
+    "intro": {
+      "ar": "المجاملات الأساسية تفتح لك أبواب المحادثة. التحية في الصينية قصيرة وبسيطة، والجمل في هذا الدرس تصلح في أي مكان: الشارع والمتجر والمطعم. انطق كل جملة بنغماتها الصحيحة، فهي جزء من الكلمة.",
+      "en": "Basic polite phrases open the door to conversation. Greetings in Chinese are short and simple, and the phrases in this lesson work everywhere: on the street, in shops and in restaurants. Say each phrase with its correct tones, because they are part of the words.",
+      "id": "Ungkapan sopan dasar membuka pintu percakapan. Sapaan dalam bahasa Mandarin singkat dan sederhana, dan ungkapan di pelajaran ini berguna di mana saja: di jalan, toko, dan restoran. Ucapkan setiap ungkapan dengan nada yang benar karena nada adalah bagian dari kata."
+    },
+    "culture": {
+      "ar": "يُستخدم 您 (nín) للتعبير عن الاحترام مع كبار السن والمعلمين ومن نريد معاملته بأدب، أما 你 فللأصدقاء والأقران. وبين الأصدقاء المقرّبين وأفراد الأسرة تُقال كلمات الشكر أقل، لأن القرب يغني عنها. أما مع الغرباء وفي مواقف الخدمة فالمجاملة مقدَّرة.",
+      "en": "您 (nín) shows respect and is used with elders, teachers and people you want to treat politely, while 你 is for friends and peers. Between close friends and family, thanks are said less often because closeness makes them unnecessary. With strangers and in service situations, politeness is appreciated.",
+      "id": "您 (nín) menunjukkan rasa hormat dan dipakai kepada orang yang lebih tua, guru, dan orang yang ingin dihormati, sedangkan 你 untuk teman dan sebaya. Antara teman dekat dan keluarga, ucapan terima kasih lebih jarang karena kedekatan membuatnya tidak perlu. Terhadap orang asing dan dalam pelayanan, kesopanan dihargai."
+    },
+    "grammar": {
+      "title": {
+        "ar": "你 و您 والرد على الشكر",
+        "en": "你 and 您, and replying to thanks",
+        "id": "你 dan 您, serta membalas terima kasih"
+      },
+      "body": {
+        "ar": "في الصينية لا تتغير الأفعال، بل تتغير الكلمات المهذبة فقط: 你好 للعادي و您好 للمحترم. ويُرد على 谢谢 بـ 不客气 (لا داعي للمجاملة). ولاحظ أن 不 تُنطق بالنغمة الثانية قبل نغمة رابعة (bú kèqi)، لكننا نكتبها هنا bù بنغمتها الأصلية. 对不起 يعني «آسف» والرد المعتاد 没关系 (لا بأس).",
+        "en": "Chinese verbs do not change, only the polite word does: 你好 for ordinary use and 您好 for respect. 谢谢 is answered with 不客气 (\"no need to be polite\"). Note that 不 is actually pronounced bú before a fourth tone (bú kèqi), but in this course it is written with its basic tone, bù. 对不起 means \"sorry\" and the usual reply is 没关系 (\"it doesn't matter\").",
+        "id": "Kata kerja bahasa Mandarin tidak berubah, hanya kata sopannya: 你好 untuk biasa dan 您好 untuk hormat. 谢谢 dijawab dengan 不客气 (\"tak perlu sungkan\"). Perhatikan bahwa 不 sebenarnya dibaca bú sebelum nada keempat (bú kèqi), tetapi di kursus ini ditulis dengan nada dasarnya, bù. 对不起 berarti \"maaf\" dan jawaban yang lazim adalah 没关系 (\"tidak apa-apa\")."
+      }
+    },
+    "items": [
+      {
+        "id": "zh02n1",
+        "target": "你好",
+        "translit": "nǐ hǎo",
+        "tr": {
+          "ar": "مرحبًا",
+          "en": "hello",
+          "id": "halo"
+        },
+        "example": {
+          "target": "老师，你好！",
+          "translit": "lǎoshī, nǐ hǎo!",
+          "tr": {
+            "ar": "مرحبًا يا معلّم!",
+            "en": "Hello, teacher!",
+            "id": "Halo, Guru!"
+          }
+        },
+        "hint": {
+          "ar": "نغمتان ثالثتان متتاليتان: في الكلام تُنطق الأولى كأنها ثانية، لكننا نكتب النغمات الأصلية.",
+          "en": "Two third tones in a row: in speech the first sounds like a second tone, but we write the basic tones.",
+          "id": "Dua nada ketiga berturutan: dalam tuturan yang pertama terdengar seperti nada kedua, tetapi kita menulis nada dasarnya."
+        }
+      },
+      {
+        "id": "zh02n2",
+        "target": "您好",
+        "translit": "nín hǎo",
+        "tr": {
+          "ar": "مرحبًا (باحترام)",
+          "en": "hello (respectful)",
+          "id": "halo (hormat)"
+        },
+        "example": {
+          "target": "王老师，您好！",
+          "translit": "Wáng lǎoshī, nín hǎo!",
+          "tr": {
+            "ar": "مرحبًا يا أستاذ وانغ!",
+            "en": "Hello, Teacher Wang!",
+            "id": "Halo, Guru Wang!"
+          }
+        },
+        "hint": {
+          "ar": "您 هي شكل مهذب من 你، تُستخدم للكبار والمعلمين والزبائن.",
+          "en": "您 is the polite form of 你, used with elders, teachers and customers.",
+          "id": "您 adalah bentuk sopan dari 你, dipakai untuk orang yang lebih tua, guru, dan pelanggan."
+        }
+      },
+      {
+        "id": "zh02n3",
+        "target": "早上好",
+        "translit": "zǎoshang hǎo",
+        "tr": {
+          "ar": "صباح الخير",
+          "en": "good morning",
+          "id": "selamat pagi"
+        },
+        "example": {
+          "target": "大家早上好！",
+          "translit": "dàjiā zǎoshang hǎo!",
+          "tr": {
+            "ar": "صباح الخير للجميع!",
+            "en": "Good morning, everyone!",
+            "id": "Selamat pagi, semuanya!"
+          }
+        },
+        "hint": {
+          "ar": "تُقال في الصباح فقط. 大家 تعني «الجميع».",
+          "en": "Used only in the morning. 大家 means \"everyone\".",
+          "id": "Hanya dipakai di pagi hari. 大家 berarti \"semuanya\"."
+        }
+      },
+      {
+        "id": "zh02n4",
+        "target": "谢谢",
+        "translit": "xièxie",
+        "tr": {
+          "ar": "شكرًا",
+          "en": "thank you",
+          "id": "terima kasih"
+        },
+        "example": {
+          "target": "谢谢你的茶。",
+          "translit": "xièxie nǐ de chá.",
+          "tr": {
+            "ar": "شكرًا على الشاي.",
+            "en": "Thank you for the tea.",
+            "id": "Terima kasih atas tehnya."
+          }
+        },
+        "hint": {
+          "ar": "المقطع الثاني بنغمة خفيفة. ويمكن إضافة اسم الشيء بعد 谢谢.",
+          "en": "The second syllable has a neutral tone. You can add what you are thanking for after 谢谢.",
+          "id": "Suku kedua bernada netral. Anda bisa menambahkan hal yang disyukuri setelah 谢谢."
+        }
+      },
+      {
+        "id": "zh02n5",
+        "target": "不客气",
+        "translit": "bù kèqi",
+        "tr": {
+          "ar": "عفوًا؛ لا شكر على واجب",
+          "en": "you're welcome",
+          "id": "sama-sama"
+        },
+        "example": {
+          "target": "不客气，请喝茶。",
+          "translit": "bù kèqi, qǐng hē chá.",
+          "tr": {
+            "ar": "عفوًا، تفضّل اشرب الشاي.",
+            "en": "You're welcome, please have some tea.",
+            "id": "Sama-sama, silakan minum teh."
+          }
+        },
+        "hint": {
+          "ar": "تُنطق عادة bú kèqi، والمقطع الأخير خفيف. وهي الرد الأشهر على 谢谢.",
+          "en": "Usually pronounced bú kèqi, with a neutral last syllable. It is the most common reply to 谢谢.",
+          "id": "Biasanya dilafalkan bú kèqi, dengan suku terakhir netral. Ini balasan paling umum untuk 谢谢."
+        }
+      },
+      {
+        "id": "zh02n6",
+        "target": "对不起",
+        "translit": "duìbuqǐ",
+        "tr": {
+          "ar": "آسف",
+          "en": "sorry",
+          "id": "maaf"
+        },
+        "example": {
+          "target": "对不起，我迟到了。",
+          "translit": "duìbuqǐ, wǒ chídào le.",
+          "tr": {
+            "ar": "آسف، تأخرت.",
+            "en": "Sorry, I am late.",
+            "id": "Maaf, saya terlambat."
+          }
+        },
+        "hint": {
+          "ar": "في هذه الكلمة تُنطق 不 بنغمة خفيفة، والمقطع الأخير خفيف. استخدمها عند الخطأ أو الإزعاج.",
+          "en": "In this word 不 is neutral and the last syllable is light. Use it when you make a mistake or cause trouble.",
+          "id": "Dalam kata ini 不 bernada netral dan suku terakhir ringan. Pakai ketika Anda berbuat salah atau merepotkan."
+        }
+      },
+      {
+        "id": "zh02n7",
+        "target": "没关系",
+        "translit": "méi guānxi",
+        "tr": {
+          "ar": "لا بأس",
+          "en": "it doesn't matter",
+          "id": "tidak apa-apa"
+        },
+        "example": {
+          "target": "没关系，请进。",
+          "translit": "méi guānxi, qǐng jìn.",
+          "tr": {
+            "ar": "لا بأس، تفضّل بالدخول.",
+            "en": "It doesn't matter, please come in.",
+            "id": "Tidak apa-apa, silakan masuk."
+          }
+        },
+        "hint": {
+          "ar": "هي الرد على 对不起. 没 تعني «لا يوجد» وسنراها في الدرس العاشر.",
+          "en": "It is the reply to 对不起. 没 means \"not have\", and we will meet it again in lesson 10.",
+          "id": "Ini balasan untuk 对不起. 没 berarti \"tidak ada\", dan akan muncul lagi di pelajaran 10."
+        }
+      },
+      {
+        "id": "zh02n8",
+        "target": "再见",
+        "translit": "zàijiàn",
+        "tr": {
+          "ar": "إلى اللقاء",
+          "en": "goodbye",
+          "id": "sampai jumpa"
+        },
+        "example": {
+          "target": "老师，再见！",
+          "translit": "lǎoshī, zàijiàn!",
+          "tr": {
+            "ar": "إلى اللقاء يا معلّم!",
+            "en": "Goodbye, teacher!",
+            "id": "Sampai jumpa, Guru!"
+          }
+        },
+        "hint": {
+          "ar": "حرفيًا «نلتقي مرة أخرى». تُقال عند الوداع في أي موقف.",
+          "en": "Literally \"see again\". It is said when parting in any situation.",
+          "id": "Secara harfiah \"bertemu lagi\". Diucapkan saat berpisah dalam situasi apa pun."
+        }
+      }
+    ],
+    "cloze": [
+      {
+        "sentence": "别人说“谢谢”，你说“___”。",
+        "answer": "不客气",
+        "wrong": [
+          "对不起",
+          "再见"
+        ],
+        "tr": {
+          "ar": "إذا قال لك أحد «谢谢» فقل «不客气».",
+          "en": "When someone says \"谢谢\", you say \"不客气\".",
+          "id": "Ketika seseorang berkata \"谢谢\", Anda menjawab \"不客气\"."
+        },
+        "why": {
+          "ar": "不客气 هو الرد على الشكر. 对不起 اعتذار و再见 وداع، ولا يناسبان.",
+          "en": "不客气 is the reply to thanks. 对不起 is an apology and 再见 is goodbye, so they do not fit.",
+          "id": "不客气 adalah balasan untuk terima kasih. 对不起 adalah permintaan maaf dan 再见 adalah salam perpisahan, jadi tidak cocok."
+        }
+      },
+      {
+        "sentence": "A说：“对不起。”B说：“___。”",
+        "answer": "没关系",
+        "wrong": [
+          "不客气",
+          "你好"
+        ],
+        "tr": {
+          "ar": "يقول A: «آسف». ويقول B: «لا بأس».",
+          "en": "A says: \"Sorry.\" B says: \"It doesn't matter.\"",
+          "id": "A berkata: \"Maaf.\" B berkata: \"Tidak apa-apa.\""
+        },
+        "why": {
+          "ar": "الرد على 对不起 هو 没关系. 不客气 رد على الشكر لا الاعتذار، و你好 تحية.",
+          "en": "The reply to 对不起 is 没关系. 不客气 answers thanks, not an apology, and 你好 is a greeting.",
+          "id": "Balasan untuk 对不起 adalah 没关系. 不客气 menjawab terima kasih, bukan permintaan maaf, dan 你好 adalah sapaan."
+        }
+      }
+    ],
+    "conversation": {
+      "context": {
+        "ar": "في ممر المدرسة: طالب وصل متأخرًا يعتذر.",
+        "en": "In the school hallway: a student who arrived late apologises.",
+        "id": "Di lorong sekolah: seorang murid yang datang terlambat meminta maaf."
+      },
+      "turns": [
+        {
+          "who": "A",
+          "target": "对不起，我来晚了。",
+          "tr": {
+            "ar": "آسف، تأخرت.",
+            "en": "Sorry, I'm late.",
+            "id": "Maaf, saya terlambat."
+          }
+        },
+        {
+          "who": "B",
+          "target": "没关系。",
+          "tr": {
+            "ar": "لا بأس.",
+            "en": "It doesn't matter.",
+            "id": "Tidak apa-apa."
+          }
+        },
+        {
+          "who": "A",
+          "target": "谢谢！",
+          "tr": {
+            "ar": "شكرًا!",
+            "en": "Thank you!",
+            "id": "Terima kasih!"
+          }
+        }
+      ],
+      "gap": 1,
+      "wrong": [
+        "不客气。",
+        "再见。"
+      ],
+      "why": {
+        "ar": "الرد على الاعتذار هو 没关系. 不客气 رد على الشكر، و再见 وداع، وليس لهما مكان بعد الاعتذار مباشرة.",
+        "en": "The reply to an apology is 没关系. 不客气 answers thanks and 再见 is goodbye, so neither belongs right after an apology.",
+        "id": "Balasan untuk permintaan maaf adalah 没关系. 不客气 menjawab terima kasih dan 再见 adalah perpisahan, jadi keduanya tidak tepat setelah permintaan maaf."
+      }
+    },
+    "summary": {
+      "ar": "تعلّمت 你好 و您好 للتحية، و谢谢 و不客气 للشكر، و对不起 و没关系 للاعتذار، و再见 للوداع. استخدم 您 مع من تحترمه.",
+      "en": "You learned 你好 and 您好 for greetings, 谢谢 and 不客气 for thanks, 对不起 and 没关系 for apologies, and 再见 for goodbye. Use 您 with people you want to show respect to.",
+      "id": "Anda belajar 你好 dan 您好 untuk menyapa, 谢谢 dan 不客气 untuk terima kasih, 对不起 dan 没关系 untuk permintaan maaf, serta 再见 untuk berpamitan. Pakai 您 untuk orang yang Anda hormati."
+    }
+  },
+  {
+    "id": "zh-03",
+    "track": "zh",
+    "level": "beginner",
+    "order": 3,
+    "topic": "introducing-yourself",
+    "icon": "🙋",
+    "title": {
+      "ar": "التعريف بنفسك",
+      "en": "Introducing Yourself",
+      "id": "Memperkenalkan Diri"
+    },
+    "description": {
+      "ar": "قل اسمك وجنسيتك واسأل الآخرين عن أسمائهم وبلدانهم.",
+      "en": "Say your name and nationality and ask others about theirs.",
+      "id": "Sebutkan nama dan kewarganegaraan Anda dan tanyakan hal yang sama kepada orang lain."
+    },
+    "objectives": [
+      {
+        "ar": "أستطيع قول اسمي بـ 我叫… وسؤال 你叫什么名字？",
+        "en": "I can say my name with 我叫… and ask 你叫什么名字？",
+        "id": "Saya bisa menyebut nama dengan 我叫… dan bertanya 你叫什么名字？"
+      },
+      {
+        "ar": "أستطيع قول جنسيتي بـ 我是…人 أو 我来自…",
+        "en": "I can say my nationality with 我是…人 or 我来自…",
+        "id": "Saya bisa menyebut asal dengan 我是…人 atau 我来自…"
+      },
+      {
+        "ar": "أستطيع أن أرد السؤال بـ 你呢？",
+        "en": "I can return a question with 你呢？",
+        "id": "Saya bisa membalas pertanyaan dengan 你呢？"
+      }
+    ],
+    "intro": {
+      "ar": "عند اللقاء الأول يتبادل الناس الأسماء والبلد. الجمل هنا قصيرة وتصلح في الجامعة والعمل والسفر. ولاحظ أن ترتيب الجملة الصينية بسيط: الفاعل ثم الفعل ثم المفعول، بلا تصريف.",
+      "en": "When people first meet they exchange names and where they are from. The sentences here are short and useful at university, at work and when travelling. Chinese word order is simple: subject, verb, object, with no conjugation.",
+      "id": "Saat pertama bertemu, orang bertukar nama dan asal. Kalimat-kalimat di sini pendek dan berguna di kampus, di tempat kerja, dan saat bepergian. Urutan kata bahasa Mandarin sederhana: subjek, predikat, objek, tanpa perubahan bentuk kata kerja."
+    },
+    "culture": {
+      "ar": "في الصين يأتي اسم العائلة أولًا ثم الاسم الشخصي: في 李明 (Lǐ Míng) اسم العائلة هو 李 والاسم الشخصي 明. وفي مواقف العمل تُقدَّم بطاقات التعريف غالبًا باليدين احترامًا. ويمكن أن تُنادي الشخص بلقبه مثل 王老师 (الأستاذ وانغ).",
+      "en": "In China the family name comes first and the given name second: in 李明 (Lǐ Míng) the family name is 李 and the given name is 明. In business situations cards are often offered with both hands as a sign of respect. You can address someone with a title, such as 王老师 (Teacher Wang).",
+      "id": "Di Tiongkok nama keluarga ditulis lebih dulu, lalu nama pribadi: pada 李明 (Lǐ Míng) nama keluarganya 李 dan nama pribadinya 明. Dalam urusan bisnis, kartu nama sering diberikan dengan dua tangan sebagai tanda hormat. Anda bisa menyapa seseorang dengan gelarnya, misalnya 王老师 (Guru Wang)."
+    },
+    "grammar": {
+      "title": {
+        "ar": "الفاعل + 是 + المعلومة، وسؤال 你呢",
+        "en": "Subject + 是 + information, and 你呢",
+        "id": "Subjek + 是 + keterangan, dan 你呢"
+      },
+      "body": {
+        "ar": "للاسم نقول 我叫 + الاسم (حرفيًا «أُدعى»). للانتماء نقول 我是 + البلد + 人، أو 我来自 + البلد. و是 هي «يكون» ولا تتغير أبدًا. والأداة 呢 في آخر 你呢？ تعني «وأنت؟» وتُستخدم لإعادة السؤال نفسه دون تكراره. ومن اللطيف في البداية قول 认识你很高兴 (سررت بلقائك).",
+        "en": "For a name we say 我叫 + name (literally \"I am called\"). For origin we say 我是 + country + 人, or 我来自 + country. 是 means \"to be\" and never changes. The particle 呢 in 你呢？ means \"and you?\" and returns the same question without repeating it. A nice thing to say at the start is 认识你很高兴 (\"nice to meet you\").",
+        "id": "Untuk nama kita mengatakan 我叫 + nama (harfiahnya \"saya dipanggil\"). Untuk asal kita mengatakan 我是 + negara + 人, atau 我来自 + negara. 是 berarti \"adalah\" dan tidak pernah berubah. Partikel 呢 pada 你呢？ berarti \"kalau kamu?\" dan mengembalikan pertanyaan yang sama tanpa mengulang. Ucapan yang baik di awal adalah 认识你很高兴 (\"senang berkenalan\")."
+      }
+    },
+    "items": [
+      {
+        "id": "zh03n1",
+        "target": "我叫李明",
+        "translit": "wǒ jiào Lǐ Míng",
+        "tr": {
+          "ar": "اسمي لي مينغ",
+          "en": "my name is Li Ming",
+          "id": "nama saya Li Ming"
+        },
+        "example": {
+          "target": "你好，我叫王芳。",
+          "translit": "nǐ hǎo, wǒ jiào Wáng Fāng.",
+          "tr": {
+            "ar": "مرحبًا، اسمي وانغ فانغ.",
+            "en": "Hello, my name is Wang Fang.",
+            "id": "Halo, nama saya Wang Fang."
+          }
+        },
+        "hint": {
+          "ar": "غيّر 李明 باسمك. اسم العائلة أولًا ثم الاسم الشخصي.",
+          "en": "Replace 李明 with your own name. Family name first, then the given name.",
+          "id": "Ganti 李明 dengan nama Anda. Nama keluarga dulu, lalu nama pribadi."
+        }
+      },
+      {
+        "id": "zh03n2",
+        "target": "你叫什么名字？",
+        "translit": "nǐ jiào shénme míngzi?",
+        "tr": {
+          "ar": "ما اسمك؟",
+          "en": "What is your name?",
+          "id": "Siapa namamu?"
+        },
+        "example": {
+          "target": "请问，你叫什么名字？",
+          "translit": "qǐngwèn, nǐ jiào shénme míngzi?",
+          "tr": {
+            "ar": "لو سمحت، ما اسمك؟",
+            "en": "Excuse me, what is your name?",
+            "id": "Permisi, siapa namamu?"
+          }
+        },
+        "hint": {
+          "ar": "什么 تعني «ماذا». ولا يتغير ترتيب الجملة عند السؤال بـ 什么.",
+          "en": "什么 means \"what\". The word order does not change when you ask with 什么.",
+          "id": "什么 berarti \"apa\". Urutan kata tidak berubah ketika bertanya dengan 什么."
+        }
+      },
+      {
+        "id": "zh03n3",
+        "target": "我是学生",
+        "translit": "wǒ shì xuésheng",
+        "tr": {
+          "ar": "أنا طالب",
+          "en": "I am a student",
+          "id": "saya seorang pelajar"
+        },
+        "example": {
+          "target": "我是大学生。",
+          "translit": "wǒ shì dàxuésheng.",
+          "tr": {
+            "ar": "أنا طالب جامعي.",
+            "en": "I am a university student.",
+            "id": "Saya mahasiswa."
+          }
+        },
+        "hint": {
+          "ar": "لا حاجة إلى أداة تنكير قبل المهنة في الصينية: 我是学生 مباشرة.",
+          "en": "Do not add \"a\" before an occupation in Chinese: just 我是学生.",
+          "id": "Tidak perlu kata \"seorang\" sebelum profesi dalam bahasa Mandarin: cukup 我是学生."
+        }
+      },
+      {
+        "id": "zh03n4",
+        "target": "我是埃及人",
+        "translit": "wǒ shì Āijí rén",
+        "tr": {
+          "ar": "أنا مصري",
+          "en": "I am Egyptian",
+          "id": "saya orang Mesir"
+        },
+        "example": {
+          "target": "他是印度尼西亚人。",
+          "translit": "tā shì Yìndùníxīyà rén.",
+          "tr": {
+            "ar": "هو إندونيسي.",
+            "en": "He is Indonesian.",
+            "id": "Dia orang Indonesia."
+          }
+        },
+        "hint": {
+          "ar": "人 (rén) تعني «شخص». أضفها بعد اسم البلد لتصنع الجنسية.",
+          "en": "人 (rén) means \"person\". Add it after a country name to make a nationality.",
+          "id": "人 (rén) berarti \"orang\". Tambahkan setelah nama negara untuk menyatakan kebangsaan."
+        }
+      },
+      {
+        "id": "zh03n5",
+        "target": "我来自沙特阿拉伯",
+        "translit": "wǒ láizì Shātè Ālābó",
+        "tr": {
+          "ar": "أنا من السعودية",
+          "en": "I come from Saudi Arabia",
+          "id": "saya berasal dari Arab Saudi"
+        },
+        "example": {
+          "target": "我的朋友来自中国。",
+          "translit": "wǒ de péngyou láizì Zhōngguó.",
+          "tr": {
+            "ar": "صديقي من الصين.",
+            "en": "My friend comes from China.",
+            "id": "Teman saya berasal dari Tiongkok."
+          }
+        },
+        "hint": {
+          "ar": "来自 تعني «يأتي من». ويُذكر اسم الدولة وحده دون 人.",
+          "en": "来自 means \"to come from\". Say the country name alone, without 人.",
+          "id": "来自 berarti \"berasal dari\". Sebutkan nama negaranya saja, tanpa 人."
+        }
+      },
+      {
+        "id": "zh03n6",
+        "target": "你呢？",
+        "translit": "nǐ ne?",
+        "tr": {
+          "ar": "وأنت؟",
+          "en": "and you?",
+          "id": "kalau kamu?"
+        },
+        "example": {
+          "target": "我很好，你呢？",
+          "translit": "wǒ hěn hǎo, nǐ ne?",
+          "tr": {
+            "ar": "أنا بخير، وأنت؟",
+            "en": "I am fine, and you?",
+            "id": "Saya baik, kalau kamu?"
+          }
+        },
+        "hint": {
+          "ar": "呢 خفيفة ولا نغمة لها. ارفع الصوت قليلًا في آخر السؤال.",
+          "en": "呢 is neutral. Raise your voice slightly at the end of the question.",
+          "id": "呢 bernada netral. Naikkan suara sedikit di akhir pertanyaan."
+        }
+      },
+      {
+        "id": "zh03n7",
+        "target": "认识你很高兴",
+        "translit": "rènshi nǐ hěn gāoxìng",
+        "tr": {
+          "ar": "سررت بلقائك",
+          "en": "nice to meet you",
+          "id": "senang berkenalan denganmu"
+        },
+        "example": {
+          "target": "你好，认识你很高兴。",
+          "translit": "nǐ hǎo, rènshi nǐ hěn gāoxìng.",
+          "tr": {
+            "ar": "مرحبًا، سررت بلقائك.",
+            "en": "Hello, nice to meet you.",
+            "id": "Halo, senang berkenalan denganmu."
+          }
+        },
+        "hint": {
+          "ar": "حرفيًا «معرفتك سعيدة جدًا». تُقال بعد تبادل الأسماء.",
+          "en": "Literally \"knowing you is very happy\". Said after exchanging names.",
+          "id": "Harfiahnya \"mengenalmu sangat menyenangkan\". Diucapkan setelah bertukar nama."
+        }
+      },
+      {
+        "id": "zh03n8",
+        "target": "你是哪国人？",
+        "translit": "nǐ shì nǎ guó rén?",
+        "tr": {
+          "ar": "من أي بلد أنت؟",
+          "en": "Which country are you from?",
+          "id": "Kamu orang mana?"
+        },
+        "example": {
+          "target": "她是哪国人？",
+          "translit": "tā shì nǎ guó rén?",
+          "tr": {
+            "ar": "من أي بلد هي؟",
+            "en": "Which country is she from?",
+            "id": "Dia orang negara mana?"
+          }
+        },
+        "hint": {
+          "ar": "哪 (nǎ) بنغمة ثالثة تعني «أي». وتختلف عن 那 (nà) بنغمة رابعة وتعني «ذلك».",
+          "en": "哪 (nǎ, tone 3) means \"which\". It is different from 那 (nà, tone 4), which means \"that\".",
+          "id": "哪 (nǎ, nada 3) berarti \"yang mana\". Berbeda dari 那 (nà, nada 4) yang berarti \"itu\"."
+        }
+      }
+    ],
+    "cloze": [
+      {
+        "sentence": "我___李明。",
+        "answer": "叫",
+        "wrong": [
+          "吗",
+          "很"
+        ],
+        "tr": {
+          "ar": "اسمي لي مينغ.",
+          "en": "My name is Li Ming.",
+          "id": "Nama saya Li Ming."
+        },
+        "why": {
+          "ar": "للاسم نقول 我叫 + الاسم. 吗 أداة سؤال و很 تعني «جدًا» ولا تصحّان هنا.",
+          "en": "For a name we say 我叫 + name. 吗 is a question particle and 很 means \"very\", so neither works here.",
+          "id": "Untuk nama kita mengatakan 我叫 + nama. 吗 adalah partikel tanya dan 很 berarti \"sangat\", jadi keduanya tidak tepat."
+        }
+      },
+      {
+        "sentence": "我是埃及___。",
+        "answer": "人",
+        "wrong": [
+          "吗",
+          "岁"
+        ],
+        "tr": {
+          "ar": "أنا مصري.",
+          "en": "I am Egyptian.",
+          "id": "Saya orang Mesir."
+        },
+        "why": {
+          "ar": "الجنسية = البلد + 人. 吗 أداة سؤال و岁 للعمر.",
+          "en": "Nationality = country + 人. 吗 is a question particle and 岁 is for age.",
+          "id": "Kebangsaan = negara + 人. 吗 adalah partikel tanya dan 岁 untuk usia."
+        }
+      }
+    ],
+    "conversation": {
+      "context": {
+        "ar": "في حفل ترحيب: شخصان يتعارفان.",
+        "en": "At a welcome event: two people get to know each other.",
+        "id": "Pada acara penyambutan: dua orang berkenalan."
+      },
+      "turns": [
+        {
+          "who": "A",
+          "target": "你好，我叫王芳。你叫什么名字？",
+          "tr": {
+            "ar": "مرحبًا، اسمي وانغ فانغ. ما اسمك؟",
+            "en": "Hello, my name is Wang Fang. What is your name?",
+            "id": "Halo, nama saya Wang Fang. Siapa namamu?"
+          }
+        },
+        {
+          "who": "B",
+          "target": "我叫李明。",
+          "tr": {
+            "ar": "اسمي لي مينغ.",
+            "en": "My name is Li Ming.",
+            "id": "Nama saya Li Ming."
+          }
+        },
+        {
+          "who": "A",
+          "target": "认识你很高兴。",
+          "tr": {
+            "ar": "سررت بلقائك.",
+            "en": "Nice to meet you.",
+            "id": "Senang berkenalan denganmu."
+          }
+        }
+      ],
+      "gap": 1,
+      "wrong": [
+        "我二十岁。",
+        "不客气。"
+      ],
+      "why": {
+        "ar": "السؤال عن الاسم، فالرد الصحيح هو 我叫…. أما العمر وعبارة 不客气 فلا علاقة لهما بالسؤال.",
+        "en": "The question is about the name, so the correct reply is 我叫…. Age and 不客气 have nothing to do with the question.",
+        "id": "Pertanyaannya tentang nama, jadi jawaban yang benar adalah 我叫…. Usia dan 不客气 tidak berkaitan dengan pertanyaan."
+      }
+    },
+    "summary": {
+      "ar": "تعلّمت قول الاسم بـ 我叫 والجنسية بـ 我是…人 و我来自، والسؤال بـ 你叫什么名字？ و你呢？ تذكّر أن اسم العائلة يأتي أولًا.",
+      "en": "You learned to give your name with 我叫, your nationality with 我是…人 and 我来自, and to ask 你叫什么名字？ and 你呢？ Remember that the family name comes first.",
+      "id": "Anda belajar menyebut nama dengan 我叫, asal dengan 我是…人 dan 我来自, serta bertanya 你叫什么名字？ dan 你呢？ Ingat bahwa nama keluarga ditulis lebih dulu."
+    }
+  },
+  {
+    "id": "zh-04",
+    "track": "zh",
+    "level": "beginner",
+    "order": 4,
+    "topic": "numbers-age-phone",
+    "icon": "🔢",
+    "title": {
+      "ar": "الأرقام والعمر ورقم الهاتف",
+      "en": "Numbers, Age and Phone Numbers",
+      "id": "Angka, Usia, dan Nomor Telepon"
+    },
+    "description": {
+      "ar": "عدّ من 1 إلى 10 وقل عمرك ورقم هاتفك.",
+      "en": "Count from 1 to 10 and say your age and phone number.",
+      "id": "Berhitung dari 1 sampai 10 dan sebutkan usia serta nomor telepon Anda."
+    },
+    "objectives": [
+      {
+        "ar": "أستطيع العدّ من 一 إلى 十 وقول 零.",
+        "en": "I can count from 一 to 十 and say 零.",
+        "id": "Saya bisa berhitung dari 一 sampai 十 dan mengucapkan 零."
+      },
+      {
+        "ar": "أستطيع قول عمري بـ 我…岁 والسؤال 你多大？",
+        "en": "I can say my age with 我…岁 and ask 你多大？",
+        "id": "Saya bisa menyebut usia dengan 我…岁 dan bertanya 你多大？"
+      },
+      {
+        "ar": "أستطيع قراءة رقم الهاتف رقمًا رقمًا.",
+        "en": "I can read out a phone number digit by digit.",
+        "id": "Saya bisa membacakan nomor telepon angka demi angka."
+      }
+    ],
+    "intro": {
+      "ar": "الأرقام في الصينية منتظمة جدًا، وبعد 十 تتكوّن الأرقام بسهولة: 十一 (11) و二十 (20) و二十一 (21). سنتعلم أيضًا العمر ورقم الهاتف لأنهما يُطلبان كثيرًا عند التسجيل والحجز.",
+      "en": "Numbers in Chinese are very regular, and after 十 they build easily: 十一 (11), 二十 (20), 二十一 (21). We also learn age and phone numbers because they are often asked for when registering or booking.",
+      "id": "Angka dalam bahasa Mandarin sangat teratur, dan setelah 十 mudah dibentuk: 十一 (11), 二十 (20), 二十一 (21). Kita juga belajar usia dan nomor telepon karena sering diminta saat mendaftar atau memesan."
+    },
+    "culture": {
+      "ar": "يعتقد كثير من الناس أن الرقم 八 (bā) محظوظ لأن نطقه يشبه كلمة مرتبطة بالثروة والازدهار، وأن الرقم 四 (sì) يشبه نطق كلمة «الموت» فيتجنبه بعضهم، مثلًا في أرقام الطوابق أو الهواتف. وعند قراءة رقم الهاتف أو الغرفة يُقال الرقم 一 أحيانًا yāo لتمييزه عن 七.",
+      "en": "Many people consider the number 八 (bā) lucky because it sounds like a word linked to wealth and prosperity, while 四 (sì) sounds like the word for \"death\", so some people avoid it, for example in floor or phone numbers. When reading phone or room numbers, 一 is often said as yāo so that it is not confused with 七.",
+      "id": "Banyak orang menganggap angka 八 (bā) membawa keberuntungan karena bunyinya mirip kata yang berkaitan dengan kekayaan dan kemakmuran, sedangkan 四 (sì) mirip kata \"mati\" sehingga sebagian orang menghindarinya, misalnya pada nomor lantai atau telepon. Saat membacakan nomor telepon atau kamar, 一 sering dibaca yāo agar tidak tertukar dengan 七."
+    },
+    "grammar": {
+      "title": {
+        "ar": "الأعداد وكلمة 岁",
+        "en": "Numbers and the word 岁",
+        "id": "Angka dan kata 岁"
+      },
+      "body": {
+        "ar": "الأعداد 11–19 هي 十 + الرقم: 十五 = 15. والعشرات: الرقم + 十، فـ 二十 = 20 (حرفيًا «عشرتان»)، 三十 = 30، ثم 二十一 = 21. وللعمر نقول 我 + العدد + 岁 دون فعل: 我二十岁. وللسؤال: 你多大？ ويُسأل الأطفال: 你几岁？ والصفر هو 零 (líng). ويُقرأ رقم الهاتف رقمًا رقمًا.",
+        "en": "Numbers 11–19 are 十 + digit: 十五 = 15. Tens are digit + 十: 二十 = 20 (literally \"two tens\"), 三十 = 30, then 二十一 = 21. For age we say 我 + number + 岁 with no verb: 我二十岁. To ask: 你多大？ (children are asked 你几岁？). Zero is 零 (líng). Phone numbers are read digit by digit.",
+        "id": "Angka 11–19 adalah 十 + angka: 十五 = 15. Puluhan adalah angka + 十: 二十 = 20 (harfiahnya \"dua puluh\"), 三十 = 30, lalu 二十一 = 21. Untuk usia kita mengatakan 我 + angka + 岁 tanpa kata kerja: 我二十岁. Untuk bertanya: 你多大？ (anak kecil ditanya 你几岁？). Nol adalah 零 (líng). Nomor telepon dibaca angka demi angka."
+      }
+    },
+    "items": [
+      {
+        "id": "zh04n1",
+        "target": "一二三",
+        "translit": "yī èr sān",
+        "tr": {
+          "ar": "1 و2 و3",
+          "en": "one, two, three",
+          "id": "satu, dua, tiga"
+        },
+        "example": {
+          "target": "一二三，开始！",
+          "translit": "yī èr sān, kāishǐ!",
+          "tr": {
+            "ar": "واحد اثنان ثلاثة، ابدأ!",
+            "en": "One, two, three, start!",
+            "id": "Satu, dua, tiga, mulai!"
+          }
+        },
+        "hint": {
+          "ar": "二 (èr) هو الرقم اثنان للعدّ، لكن قبل كلمة العدّ نقول 两 (liǎng) كما سنرى لاحقًا.",
+          "en": "二 (èr) is the number two for counting, but before a measure word we say 两 (liǎng), as we will see later.",
+          "id": "二 (èr) adalah angka dua untuk berhitung, tetapi sebelum kata penggolong dipakai 两 (liǎng), seperti yang akan kita lihat nanti."
+        }
+      },
+      {
+        "id": "zh04n2",
+        "target": "四五六",
+        "translit": "sì wǔ liù",
+        "tr": {
+          "ar": "4 و5 و6",
+          "en": "four, five, six",
+          "id": "empat, lima, enam"
+        },
+        "example": {
+          "target": "我有五个朋友。",
+          "translit": "wǒ yǒu wǔ gè péngyou.",
+          "tr": {
+            "ar": "لدي خمسة أصدقاء.",
+            "en": "I have five friends.",
+            "id": "Saya punya lima teman."
+          }
+        },
+        "hint": {
+          "ar": "انتبه إلى النغمات: sì رابعة وwǔ ثالثة وliù رابعة.",
+          "en": "Notice the tones: sì is tone 4, wǔ tone 3, liù tone 4.",
+          "id": "Perhatikan nadanya: sì nada 4, wǔ nada 3, liù nada 4."
+        }
+      },
+      {
+        "id": "zh04n3",
+        "target": "七八九十",
+        "translit": "qī bā jiǔ shí",
+        "tr": {
+          "ar": "7 و8 و9 و10",
+          "en": "seven, eight, nine, ten",
+          "id": "tujuh, delapan, sembilan, sepuluh"
+        },
+        "example": {
+          "target": "我有十个朋友。",
+          "translit": "wǒ yǒu shí gè péngyou.",
+          "tr": {
+            "ar": "لدي عشرة أصدقاء.",
+            "en": "I have ten friends.",
+            "id": "Saya punya sepuluh teman."
+          }
+        },
+        "hint": {
+          "ar": "qī وbā بنغمة أولى، وjiǔ ثالثة، وshí ثانية.",
+          "en": "qī and bā are tone 1, jiǔ is tone 3 and shí is tone 2.",
+          "id": "qī dan bā nada 1, jiǔ nada 3, dan shí nada 2."
+        }
+      },
+      {
+        "id": "zh04n4",
+        "target": "零",
+        "translit": "líng",
+        "tr": {
+          "ar": "صفر",
+          "en": "zero",
+          "id": "nol"
+        },
+        "example": {
+          "target": "我的房间是二零二。",
+          "translit": "wǒ de fángjiān shì èr líng èr.",
+          "tr": {
+            "ar": "غرفتي هي 202.",
+            "en": "My room is 202.",
+            "id": "Kamar saya nomor 202."
+          }
+        },
+        "hint": {
+          "ar": "零 يُقرأ بين الأرقام في رقم الهاتف أو الغرفة، وهو أيضًا «الصفر».",
+          "en": "零 is read between digits in phone or room numbers, and it is also \"zero\".",
+          "id": "零 dibaca di antara angka pada nomor telepon atau kamar, dan juga berarti \"nol\"."
+        }
+      },
+      {
+        "id": "zh04n5",
+        "target": "我二十岁",
+        "translit": "wǒ èrshí suì",
+        "tr": {
+          "ar": "عمري عشرون سنة",
+          "en": "I am twenty years old",
+          "id": "usia saya dua puluh tahun"
+        },
+        "example": {
+          "target": "我哥哥三十岁。",
+          "translit": "wǒ gēge sānshí suì.",
+          "tr": {
+            "ar": "أخي الأكبر عمره ثلاثون سنة.",
+            "en": "My older brother is thirty.",
+            "id": "Kakak laki-laki saya berusia tiga puluh tahun."
+          }
+        },
+        "hint": {
+          "ar": "لا حاجة إلى فعل «أن يكون» في العمر: 我 + العدد + 岁.",
+          "en": "No verb \"to be\" is needed with age: 我 + number + 岁.",
+          "id": "Tidak perlu kata kerja \"adalah\" untuk usia: 我 + angka + 岁."
+        }
+      },
+      {
+        "id": "zh04n6",
+        "target": "你多大？",
+        "translit": "nǐ duō dà?",
+        "tr": {
+          "ar": "كم عمرك؟",
+          "en": "How old are you?",
+          "id": "Berapa usiamu?"
+        },
+        "example": {
+          "target": "你弟弟多大了？",
+          "translit": "nǐ dìdi duō dà le?",
+          "tr": {
+            "ar": "كم عمر أخيك الأصغر؟",
+            "en": "How old is your younger brother?",
+            "id": "Berapa usia adikmu (laki-laki)?"
+          }
+        },
+        "hint": {
+          "ar": "سؤال مناسب بين الأقران. ومع كبار السن قد يكون من الأفضل عدم السؤال.",
+          "en": "A fair question among peers. With older people it may be better not to ask.",
+          "id": "Pertanyaan yang wajar di antara sebaya. Dengan orang yang lebih tua sebaiknya tidak ditanyakan."
+        }
+      },
+      {
+        "id": "zh04n7",
+        "target": "电话号码",
+        "translit": "diànhuà hàomǎ",
+        "tr": {
+          "ar": "رقم الهاتف",
+          "en": "phone number",
+          "id": "nomor telepon"
+        },
+        "example": {
+          "target": "请给我你的电话号码。",
+          "translit": "qǐng gěi wǒ nǐ de diànhuà hàomǎ.",
+          "tr": {
+            "ar": "من فضلك أعطني رقم هاتفك.",
+            "en": "Please give me your phone number.",
+            "id": "Tolong beri saya nomor teleponmu."
+          }
+        },
+        "hint": {
+          "ar": "电话 تعني «هاتف» و号码 تعني «رقم».",
+          "en": "电话 means \"telephone\" and 号码 means \"number\".",
+          "id": "电话 berarti \"telepon\" dan 号码 berarti \"nomor\"."
+        }
+      },
+      {
+        "id": "zh04n8",
+        "target": "你的电话号码是多少？",
+        "translit": "nǐ de diànhuà hàomǎ shì duōshao?",
+        "tr": {
+          "ar": "ما رقم هاتفك؟",
+          "en": "What is your phone number?",
+          "id": "Berapa nomor teleponmu?"
+        },
+        "example": {
+          "target": "我的电话号码是五五五一二三四。",
+          "translit": "wǒ de diànhuà hàomǎ shì wǔ wǔ wǔ yī èr sān sì.",
+          "tr": {
+            "ar": "رقم هاتفي هو 5551234.",
+            "en": "My phone number is 5551234.",
+            "id": "Nomor telepon saya 5551234."
+          }
+        },
+        "hint": {
+          "ar": "多少 تُستخدم لسؤال الكمية أو الرقم الكبير. والمقطع الثاني منها خفيف.",
+          "en": "多少 is used to ask for a quantity or a larger number. Its second syllable is neutral.",
+          "id": "多少 dipakai untuk menanyakan jumlah atau angka yang besar. Suku keduanya netral."
+        }
+      }
+    ],
+    "cloze": [
+      {
+        "sentence": "我二十___。",
+        "answer": "岁",
+        "wrong": [
+          "个",
+          "点"
+        ],
+        "tr": {
+          "ar": "عمري عشرون سنة.",
+          "en": "I am twenty years old.",
+          "id": "Usia saya dua puluh tahun."
+        },
+        "why": {
+          "ar": "للعمر نستخدم 岁. 个 كلمة عدّ عامة و点 تعني الساعة، ولا يناسبان العمر.",
+          "en": "For age we use 岁. 个 is a general measure word and 点 means o'clock, so neither fits age.",
+          "id": "Untuk usia dipakai 岁. 个 adalah kata penggolong umum dan 点 berarti pukul, jadi keduanya tidak cocok untuk usia."
+        }
+      },
+      {
+        "sentence": "三加四是___。",
+        "answer": "七",
+        "wrong": [
+          "六",
+          "八"
+        ],
+        "tr": {
+          "ar": "ثلاثة زائد أربعة يساوي سبعة.",
+          "en": "Three plus four is seven.",
+          "id": "Tiga ditambah empat sama dengan tujuh."
+        },
+        "why": {
+          "ar": "加 تعني «زائد». 3 + 4 = 7 أي 七 (qī). 六 و八 خطأ حسابي.",
+          "en": "加 means \"plus\". 3 + 4 = 7, which is 七 (qī). 六 and 八 are wrong sums.",
+          "id": "加 berarti \"tambah\". 3 + 4 = 7, yaitu 七 (qī). 六 dan 八 adalah jumlah yang salah."
+        }
+      }
+    ],
+    "conversation": {
+      "context": {
+        "ar": "في الجامعة: زميلان يتعارفان.",
+        "en": "At university: two classmates get to know each other.",
+        "id": "Di kampus: dua teman sekelas berkenalan."
+      },
+      "turns": [
+        {
+          "who": "A",
+          "target": "你好！你今年多大？",
+          "tr": {
+            "ar": "مرحبًا! كم عمرك هذا العام؟",
+            "en": "Hello! How old are you this year?",
+            "id": "Halo! Berapa usiamu tahun ini?"
+          }
+        },
+        {
+          "who": "B",
+          "target": "我二十岁。",
+          "tr": {
+            "ar": "عمري عشرون سنة.",
+            "en": "I am twenty.",
+            "id": "Saya dua puluh tahun."
+          }
+        },
+        {
+          "who": "A",
+          "target": "我也二十岁！",
+          "tr": {
+            "ar": "وأنا أيضًا عشرون سنة!",
+            "en": "I am twenty too!",
+            "id": "Saya juga dua puluh tahun!"
+          }
+        }
+      ],
+      "gap": 1,
+      "wrong": [
+        "我是中国人。",
+        "我很好，谢谢。"
+      ],
+      "why": {
+        "ar": "السؤال عن العمر يُجاب عنه بـ 我…岁. الإجابتان الأخريان صحيحتان لغويًا لكنهما لا تجيبان عن السؤال.",
+        "en": "A question about age is answered with 我…岁. The other replies are correct Chinese but do not answer the question.",
+        "id": "Pertanyaan tentang usia dijawab dengan 我…岁. Dua jawaban lain benar secara bahasa tetapi tidak menjawab pertanyaan."
+      }
+    },
+    "summary": {
+      "ar": "تعلّمت الأرقام 零 و一 إلى 十، وقول العمر بـ 我…岁، وسؤال 你多大？ وقراءة رقم الهاتف رقمًا رقمًا. تدرّب على قراءة أرقام من حولك بصوت عالٍ.",
+      "en": "You learned the numbers 零 and 一 to 十, how to give your age with 我…岁, how to ask 你多大？ and how to read a phone number digit by digit. Practise reading numbers around you out loud.",
+      "id": "Anda belajar angka 零 dan 一 sampai 十, menyebut usia dengan 我…岁, bertanya 你多大？, dan membacakan nomor telepon angka demi angka. Berlatihlah membaca angka di sekitar Anda dengan suara keras."
+    }
+  },
+  {
+    "id": "zh-05",
+    "track": "zh",
+    "level": "beginner",
+    "order": 5,
+    "topic": "family-possession",
+    "icon": "👨‍👩‍👧‍👦",
+    "title": {
+      "ar": "العائلة والملكية",
+      "en": "Family and Possession",
+      "id": "Keluarga dan Kepemilikan"
+    },
+    "description": {
+      "ar": "تحدّث عن أفراد أسرتك وعمّا تملك.",
+      "en": "Talk about your family members and what you have.",
+      "id": "Bicara tentang anggota keluarga dan apa yang Anda miliki."
+    },
+    "objectives": [
+      {
+        "ar": "أستطيع تسمية أفراد الأسرة: 爸爸 و妈妈 و哥哥 و姐姐 و弟弟 و妹妹.",
+        "en": "I can name family members: 爸爸, 妈妈, 哥哥, 姐姐, 弟弟 and 妹妹.",
+        "id": "Saya bisa menyebut anggota keluarga: 爸爸, 妈妈, 哥哥, 姐姐, 弟弟, dan 妹妹."
+      },
+      {
+        "ar": "أستطيع قول «لي» و«لك» بـ 我的 و你的.",
+        "en": "I can say \"my\" and \"your\" with 我的 and 你的.",
+        "id": "Saya bisa mengatakan \"milik saya\" dan \"milikmu\" dengan 我的 dan 你的."
+      },
+      {
+        "ar": "أستطيع استخدام 有 و没有 وسؤال 吗.",
+        "en": "I can use 有 and 没有 and ask 吗 questions.",
+        "id": "Saya bisa memakai 有 dan 没有 serta mengajukan pertanyaan dengan 吗."
+      }
+    ],
+    "intro": {
+      "ar": "في الصينية تفرّق أسماء الإخوة بين الأكبر والأصغر: 哥哥 أخ أكبر و弟弟 أخ أصغر، 姐姐 أخت كبرى و妹妹 أخت صغرى. ونتعلم أيضًا كلمة 的 للملكية، و有 للامتلاك، و吗 لتحويل الجملة إلى سؤال.",
+      "en": "In Chinese, sibling words distinguish older from younger: 哥哥 is an older brother and 弟弟 a younger brother, 姐姐 an older sister and 妹妹 a younger sister. We also learn 的 for possession, 有 for having, and 吗 to turn a sentence into a question.",
+      "id": "Dalam bahasa Mandarin kata untuk saudara membedakan yang lebih tua dan lebih muda: 哥哥 kakak laki-laki, 弟弟 adik laki-laki, 姐姐 kakak perempuan, dan 妹妹 adik perempuan. Kita juga belajar 的 untuk kepemilikan, 有 untuk memiliki, dan 吗 untuk membuat pertanyaan."
+    },
+    "culture": {
+      "ar": "تحظى العائلة بمكانة كبيرة، ويُحترم الكبار في الأسرة. وفي عيد الربيع (春节) يقدّم الكبار للأطفال ظروفًا حمراء تُسمى 红包 (hóngbāo) فيها مال، وهي رمز للحظ الجيد والبركة. وتُقدَّم أيضًا في الأعراس وفي مناسبات أخرى.",
+      "en": "Family has an important place and elders are respected. At the Spring Festival (春节), elders give children red envelopes called 红包 (hóngbāo) with money inside, a symbol of good luck and blessing. They are also given at weddings and on other occasions.",
+      "id": "Keluarga memiliki tempat penting dan orang yang lebih tua dihormati. Pada Tahun Baru Imlek (春节), orang dewasa memberi anak-anak amplop merah bernama 红包 (hóngbāo) berisi uang, sebagai lambang keberuntungan dan berkah. Amplop merah juga diberikan di pernikahan dan pada kesempatan lain."
+    },
+    "grammar": {
+      "title": {
+        "ar": "的 و有 و吗",
+        "en": "的, 有 and 吗",
+        "id": "的, 有, dan 吗"
+      },
+      "body": {
+        "ar": "للملكية نضع 的 بعد صاحب الشيء: 我的书 (كتابي)، 你的家 (بيتك). ومع الأقارب المقرّبين يمكن حذف 的: 我妈妈 (أمي). و有 معناها «يملك/لديه»، ونفيها 没有 (لا يقال 不有): 我没有哥哥. ولتكوين سؤال «نعم/لا» نضيف 吗 في آخر الجملة دون تغيير الترتيب: 你有哥哥吗？",
+        "en": "For possession we put 的 after the owner: 我的书 (my book), 你的家 (your home). With close relatives 的 can be dropped: 我妈妈 (my mom). 有 means \"to have\" and its negative is 没有 (never 不有): 我没有哥哥. To make a yes/no question, add 吗 at the end without changing the word order: 你有哥哥吗？",
+        "id": "Untuk kepemilikan, 的 diletakkan setelah pemilik: 我的书 (buku saya), 你的家 (rumahmu). Dengan kerabat dekat 的 boleh dihilangkan: 我妈妈 (ibu saya). 有 berarti \"memiliki\" dan negatifnya 没有 (bukan 不有): 我没有哥哥. Untuk membuat pertanyaan ya/tidak, tambahkan 吗 di akhir kalimat tanpa mengubah urutan kata: 你有哥哥吗？"
+      }
+    },
+    "items": [
+      {
+        "id": "zh05n1",
+        "target": "爸爸",
+        "translit": "bàba",
+        "tr": {
+          "ar": "أبي",
+          "en": "dad",
+          "id": "ayah"
+        },
+        "example": {
+          "target": "我爸爸是老师。",
+          "translit": "wǒ bàba shì lǎoshī.",
+          "tr": {
+            "ar": "أبي معلّم.",
+            "en": "My dad is a teacher.",
+            "id": "Ayah saya seorang guru."
+          }
+        },
+        "hint": {
+          "ar": "المقطع الثاني خفيف. وتتكرر هذه الصيغة المزدوجة في أسماء كثيرة من الأقارب.",
+          "en": "The second syllable is neutral. This doubled form appears in many family words.",
+          "id": "Suku kedua netral. Bentuk ganda ini muncul pada banyak kata kekerabatan."
+        }
+      },
+      {
+        "id": "zh05n2",
+        "target": "妈妈",
+        "translit": "māma",
+        "tr": {
+          "ar": "أمي",
+          "en": "mom",
+          "id": "ibu"
+        },
+        "example": {
+          "target": "我妈妈在家。",
+          "translit": "wǒ māma zài jiā.",
+          "tr": {
+            "ar": "أمي في البيت.",
+            "en": "My mom is at home.",
+            "id": "Ibu saya ada di rumah."
+          }
+        },
+        "hint": {
+          "ar": "家 (jiā) تعني «بيت» أو «أسرة». و在 تعني «في» وسنراها في الدرس الثامن.",
+          "en": "家 (jiā) means \"home\" or \"family\". 在 means \"to be at\", which we meet again in lesson 8.",
+          "id": "家 (jiā) berarti \"rumah\" atau \"keluarga\". 在 berarti \"berada di\", yang akan muncul lagi di pelajaran 8."
+        }
+      },
+      {
+        "id": "zh05n3",
+        "target": "哥哥",
+        "translit": "gēge",
+        "tr": {
+          "ar": "أخ أكبر",
+          "en": "older brother",
+          "id": "kakak laki-laki"
+        },
+        "example": {
+          "target": "我有一个哥哥。",
+          "translit": "wǒ yǒu yī gè gēge.",
+          "tr": {
+            "ar": "لدي أخ أكبر.",
+            "en": "I have an older brother.",
+            "id": "Saya punya seorang kakak laki-laki."
+          }
+        },
+        "hint": {
+          "ar": "个 كلمة عدّ عامة نضعها بين العدد والاسم، وسنتوسع فيها في الدرس السابع.",
+          "en": "个 is a general measure word placed between number and noun; lesson 7 covers it in more depth.",
+          "id": "个 adalah kata penggolong umum antara angka dan benda; pelajaran 7 membahasnya lebih lanjut."
+        }
+      },
+      {
+        "id": "zh05n4",
+        "target": "姐姐",
+        "translit": "jiějie",
+        "tr": {
+          "ar": "أخت كبرى",
+          "en": "older sister",
+          "id": "kakak perempuan"
+        },
+        "example": {
+          "target": "我姐姐很高。",
+          "translit": "wǒ jiějie hěn gāo.",
+          "tr": {
+            "ar": "أختي الكبرى طويلة.",
+            "en": "My older sister is tall.",
+            "id": "Kakak perempuan saya tinggi."
+          }
+        },
+        "hint": {
+          "ar": "很 تعني «جدًا»، لكنها في الصينية تكون عادة رابطًا مع الصفة: 很高.",
+          "en": "很 means \"very\", but in Chinese it often just links the subject and adjective: 很高.",
+          "id": "很 berarti \"sangat\", tetapi dalam bahasa Mandarin sering hanya menghubungkan subjek dan kata sifat: 很高."
+        }
+      },
+      {
+        "id": "zh05n5",
+        "target": "弟弟",
+        "translit": "dìdi",
+        "tr": {
+          "ar": "أخ أصغر",
+          "en": "younger brother",
+          "id": "adik laki-laki"
+        },
+        "example": {
+          "target": "我弟弟十岁。",
+          "translit": "wǒ dìdi shí suì.",
+          "tr": {
+            "ar": "أخي الأصغر عمره عشر سنوات.",
+            "en": "My younger brother is ten.",
+            "id": "Adik laki-laki saya berusia sepuluh tahun."
+          }
+        },
+        "hint": {
+          "ar": "لاحظ أن 弟 (dì) نغمتها رابعة مثل 爸 (bà).",
+          "en": "Note that 弟 (dì) is tone 4, like 爸 (bà).",
+          "id": "Perhatikan 弟 (dì) bernada 4, seperti 爸 (bà)."
+        }
+      },
+      {
+        "id": "zh05n6",
+        "target": "妹妹",
+        "translit": "mèimei",
+        "tr": {
+          "ar": "أخت صغرى",
+          "en": "younger sister",
+          "id": "adik perempuan"
+        },
+        "example": {
+          "target": "我有两个妹妹。",
+          "translit": "wǒ yǒu liǎng gè mèimei.",
+          "tr": {
+            "ar": "لدي أختان صغريان.",
+            "en": "I have two younger sisters.",
+            "id": "Saya punya dua adik perempuan."
+          }
+        },
+        "hint": {
+          "ar": "قبل كلمة العدّ نقول 两 (liǎng) بدل 二 عند العدّ بالقطعة.",
+          "en": "Before a measure word we say 两 (liǎng) instead of 二 when counting things.",
+          "id": "Sebelum kata penggolong kita memakai 两 (liǎng), bukan 二, untuk menghitung benda."
+        }
+      },
+      {
+        "id": "zh05n7",
+        "target": "我的",
+        "translit": "wǒ de",
+        "tr": {
+          "ar": "لي؛ ملكي",
+          "en": "my; mine",
+          "id": "milik saya"
+        },
+        "example": {
+          "target": "这是我的家。",
+          "translit": "zhè shì wǒ de jiā.",
+          "tr": {
+            "ar": "هذا بيتي.",
+            "en": "This is my home.",
+            "id": "Ini rumah saya."
+          }
+        },
+        "hint": {
+          "ar": "的 خفيفة ولا نغمة لها. ضعها بعد «أنا» لتصنع الملكية.",
+          "en": "的 is neutral. Put it after \"I\" to make possession.",
+          "id": "的 bernada netral. Letakkan setelah \"saya\" untuk menyatakan kepemilikan."
+        }
+      },
+      {
+        "id": "zh05n8",
+        "target": "你的",
+        "translit": "nǐ de",
+        "tr": {
+          "ar": "لك؛ ملكك",
+          "en": "your; yours",
+          "id": "milikmu"
+        },
+        "example": {
+          "target": "这是你的书吗？",
+          "translit": "zhè shì nǐ de shū ma?",
+          "tr": {
+            "ar": "هل هذا كتابك؟",
+            "en": "Is this your book?",
+            "id": "Apakah ini bukumu?"
+          }
+        },
+        "hint": {
+          "ar": "وكذلك 他的 (له) و她的 (لها). 吗 في آخر الجملة تحوّلها إلى سؤال.",
+          "en": "Likewise 他的 (his) and 她的 (hers). 吗 at the end turns the sentence into a question.",
+          "id": "Demikian pula 他的 (miliknya, laki-laki) dan 她的 (miliknya, perempuan). 吗 di akhir mengubah kalimat menjadi pertanyaan."
+        }
+      }
+    ],
+    "cloze": [
+      {
+        "sentence": "这是我___书。",
+        "answer": "的",
+        "wrong": [
+          "吗",
+          "了"
+        ],
+        "tr": {
+          "ar": "هذا كتابي.",
+          "en": "This is my book.",
+          "id": "Ini buku saya."
+        },
+        "why": {
+          "ar": "للملكية نضع 的 بعد 我. 吗 للسؤال و了 للتغيير أو الماضي، ولا يصحان هنا.",
+          "en": "For possession we put 的 after 我. 吗 is for questions and 了 marks change or past, so they do not fit.",
+          "id": "Untuk kepemilikan, 的 diletakkan setelah 我. 吗 untuk pertanyaan dan 了 untuk perubahan atau lampau, jadi tidak cocok."
+        }
+      },
+      {
+        "sentence": "我___一个姐姐。",
+        "answer": "有",
+        "wrong": [
+          "在",
+          "很"
+        ],
+        "tr": {
+          "ar": "لدي أخت كبرى.",
+          "en": "I have an older sister.",
+          "id": "Saya punya seorang kakak perempuan."
+        },
+        "why": {
+          "ar": "للامتلاك نستخدم 有. 在 تعني «في مكان» و很 تعني «جدًا» ولا تعطيان المعنى.",
+          "en": "To express having we use 有. 在 means \"at a place\" and 很 means \"very\", so they do not give the meaning.",
+          "id": "Untuk menyatakan memiliki dipakai 有. 在 berarti \"di suatu tempat\" dan 很 berarti \"sangat\", jadi tidak memberi makna yang tepat."
+        }
+      }
+    ],
+    "conversation": {
+      "context": {
+        "ar": "في الصف: زميلان يتحدثان عن الأسرة.",
+        "en": "In class: two classmates talk about their families.",
+        "id": "Di kelas: dua teman sekelas berbicara tentang keluarga."
+      },
+      "turns": [
+        {
+          "who": "A",
+          "target": "你有哥哥吗？",
+          "tr": {
+            "ar": "هل لديك أخ أكبر؟",
+            "en": "Do you have an older brother?",
+            "id": "Apakah kamu punya kakak laki-laki?"
+          }
+        },
+        {
+          "who": "B",
+          "target": "有，我有一个哥哥。",
+          "tr": {
+            "ar": "نعم، لدي أخ أكبر.",
+            "en": "Yes, I have an older brother.",
+            "id": "Ya, saya punya seorang kakak laki-laki."
+          }
+        },
+        {
+          "who": "A",
+          "target": "他叫什么名字？",
+          "tr": {
+            "ar": "ما اسمه؟",
+            "en": "What is his name?",
+            "id": "Siapa namanya?"
+          }
+        }
+      ],
+      "gap": 1,
+      "wrong": [
+        "我是学生。",
+        "我叫李明。"
+      ],
+      "why": {
+        "ar": "السؤال بـ 有…吗 يُجاب عنه بـ 有 أو 没有. التعريف بالنفس أو بالمهنة لا يجيب عن سؤال الملكية.",
+        "en": "A 有…吗 question is answered with 有 or 没有. Introducing yourself or your job does not answer a question about having.",
+        "id": "Pertanyaan 有…吗 dijawab dengan 有 atau 没有. Memperkenalkan diri atau pekerjaan tidak menjawab pertanyaan tentang memiliki."
+      }
+    },
+    "summary": {
+      "ar": "تعلّمت أفراد الأسرة، وكلمة 的 للملكية، و有 و没有، وطريقة السؤال بـ 吗. تذكّر أن الأخ والأخت يُسمّيان حسب الأكبر والأصغر.",
+      "en": "You learned the family words, 的 for possession, 有 and 没有, and how to ask questions with 吗. Remember that siblings are named by older or younger.",
+      "id": "Anda belajar kata-kata keluarga, 的 untuk kepemilikan, 有 dan 没有, serta cara bertanya dengan 吗. Ingat bahwa saudara disebut menurut lebih tua atau lebih muda."
+    }
+  },
+  {
+    "id": "zh-06",
+    "track": "zh",
+    "level": "beginner",
+    "order": 6,
+    "topic": "food-ordering",
+    "icon": "🍜",
+    "title": {
+      "ar": "الطعام والطلب في المطعم",
+      "en": "Food and Ordering",
+      "id": "Makanan dan Memesan"
+    },
+    "description": {
+      "ar": "اطلب الطعام والشراب بأدب وعبّر عن رأيك فيه.",
+      "en": "Order food and drinks politely and give your opinion of them.",
+      "id": "Pesan makanan dan minuman dengan sopan dan sampaikan pendapat Anda."
+    },
+    "objectives": [
+      {
+        "ar": "أستطيع الطلب بـ 我想要… و请给我…",
+        "en": "I can order with 我想要… and 请给我…",
+        "id": "Saya bisa memesan dengan 我想要… dan 请给我…"
+      },
+      {
+        "ar": "أستطيع تسمية أطعمة ومشروبات شائعة: 米饭 و面条 و茶.",
+        "en": "I can name common food and drinks: 米饭, 面条 and 茶.",
+        "id": "Saya bisa menyebut makanan dan minuman umum: 米饭, 面条, dan 茶."
+      },
+      {
+        "ar": "أستطيع الحكم على الطعام بـ 好吃 والشراب بـ 好喝.",
+        "en": "I can say food is 好吃 and drinks are 好喝.",
+        "id": "Saya bisa menilai makanan dengan 好吃 dan minuman dengan 好喝."
+      }
+    ],
+    "intro": {
+      "ar": "في المطعم الصيني نطلب بجمل قصيرة ومهذبة. نتعلم 想 و要 للتعبير عن الرغبة، و请给我 للطلب، وكلمة 杯 (كوب) كمثال أول لكلمة العدّ. وتختلف الأوصاف: 好吃 للطعام و好喝 للشراب.",
+      "en": "In a Chinese restaurant we order with short, polite sentences. We learn 想 and 要 to express wanting, 请给我 to ask for something, and the word 杯 (cup) as a first example of a measure word. Adjectives vary: 好吃 for food and 好喝 for drinks.",
+      "id": "Di restoran Tiongkok kita memesan dengan kalimat pendek dan sopan. Kita belajar 想 dan 要 untuk menyatakan keinginan, 请给我 untuk meminta, dan kata 杯 (cangkir) sebagai contoh pertama kata penggolong. Kata sifatnya berbeda: 好吃 untuk makanan dan 好喝 untuk minuman."
+    },
+    "culture": {
+      "ar": "الشاي (茶 chá) جزء مهم من الضيافة في الصين، وغالبًا يُقدَّم الشاي للضيف عند وصوله. وتُؤكل الأطباق عادة مشتركة بين الجالسين على المائدة، ويُستعمل العيدان. وتختلف المأكولات كثيرًا من منطقة إلى أخرى، فالأرز أكثر شيوعًا في الجنوب والنودلز والمعجنات أكثر في الشمال.",
+      "en": "Tea (茶 chá) is an important part of hospitality in China, and guests are often offered tea when they arrive. Dishes are usually shared among everyone at the table and eaten with chopsticks. Food varies greatly from region to region: rice is more common in the south, while noodles and wheat foods are more common in the north.",
+      "id": "Teh (茶 chá) adalah bagian penting dari keramahan di Tiongkok, dan tamu sering ditawari teh saat tiba. Hidangan biasanya dinikmati bersama oleh semua orang di meja dan dimakan dengan sumpit. Makanan sangat beragam menurut daerah: nasi lebih umum di selatan, sedangkan mi dan makanan berbahan gandum lebih umum di utara."
+    },
+    "grammar": {
+      "title": {
+        "ar": "想 و要 و请",
+        "en": "想, 要 and 请",
+        "id": "想, 要, dan 请"
+      },
+      "body": {
+        "ar": "想 + فعل تعني «أريد أن» (رغبة): 我想吃面条. 要 + اسم تعني «أريد/أطلب»: 我要一杯茶، وهي أقوى قليلًا، لذا نلطّفها بـ 想要 أو 请给我. و请 تعني «من فضلك» وتأتي قبل الفعل: 请给我一杯水. ولا يتغير الفعل مع الضمير.",
+        "en": "想 + verb means \"would like to\" (a wish): 我想吃面条. 要 + noun means \"to want/order\": 我要一杯茶, which is a little stronger, so we soften it with 想要 or 请给我. 请 means \"please\" and goes before the verb: 请给我一杯水. The verb never changes with the pronoun.",
+        "id": "想 + kata kerja berarti \"ingin\" (keinginan): 我想吃面条. 要 + benda berarti \"mau/memesan\": 我要一杯茶, yang sedikit lebih tegas, jadi dilunakkan dengan 想要 atau 请给我. 请 berarti \"silakan/tolong\" dan diletakkan sebelum kata kerja: 请给我一杯水. Kata kerja tidak berubah mengikuti pronomina."
+      }
+    },
+    "items": [
+      {
+        "id": "zh06n1",
+        "target": "米饭",
+        "translit": "mǐfàn",
+        "tr": {
+          "ar": "أرز مطبوخ",
+          "en": "cooked rice",
+          "id": "nasi"
+        },
+        "example": {
+          "target": "我每天吃米饭。",
+          "translit": "wǒ měitiān chī mǐfàn.",
+          "tr": {
+            "ar": "آكل الأرز كل يوم.",
+            "en": "I eat rice every day.",
+            "id": "Saya makan nasi setiap hari."
+          }
+        },
+        "hint": {
+          "ar": "米 تعني الأرز غير المطبوخ و饭 تعني الطعام والوجبة. 每天 تعني «كل يوم».",
+          "en": "米 is raw rice and 饭 means meal or cooked food. 每天 means \"every day\".",
+          "id": "米 adalah beras dan 饭 berarti makanan atau nasi matang. 每天 berarti \"setiap hari\"."
+        }
+      },
+      {
+        "id": "zh06n2",
+        "target": "面条",
+        "translit": "miàntiáo",
+        "tr": {
+          "ar": "نودلز؛ شعيرية صينية",
+          "en": "noodles",
+          "id": "mi"
+        },
+        "example": {
+          "target": "这里的面条很好吃。",
+          "translit": "zhèlǐ de miàntiáo hěn hǎochī.",
+          "tr": {
+            "ar": "النودلز هنا لذيذة جدًا.",
+            "en": "The noodles here are delicious.",
+            "id": "Mi di sini enak sekali."
+          }
+        },
+        "hint": {
+          "ar": "这里 تعني «هنا». ويُنطق المقطع الأخير 条 بنغمة ثانية.",
+          "en": "这里 means \"here\". The last syllable 条 has tone 2.",
+          "id": "这里 berarti \"di sini\". Suku terakhir 条 bernada 2."
+        }
+      },
+      {
+        "id": "zh06n3",
+        "target": "茶",
+        "translit": "chá",
+        "tr": {
+          "ar": "شاي",
+          "en": "tea",
+          "id": "teh"
+        },
+        "example": {
+          "target": "中国人喜欢喝茶。",
+          "translit": "Zhōngguórén xǐhuan hē chá.",
+          "tr": {
+            "ar": "يحب الصينيون شرب الشاي.",
+            "en": "Chinese people like drinking tea.",
+            "id": "Orang Tionghoa suka minum teh."
+          }
+        },
+        "hint": {
+          "ar": "喝 (hē) تعني «يشرب». ولاحظ ch في chá.",
+          "en": "喝 (hē) means \"to drink\". Note the ch in chá.",
+          "id": "喝 (hē) berarti \"minum\". Perhatikan ch pada chá."
+        }
+      },
+      {
+        "id": "zh06n4",
+        "target": "好吃",
+        "translit": "hǎochī",
+        "tr": {
+          "ar": "لذيذ (للطعام)",
+          "en": "delicious (food)",
+          "id": "enak (makanan)"
+        },
+        "example": {
+          "target": "这个菜很好吃。",
+          "translit": "zhège cài hěn hǎochī.",
+          "tr": {
+            "ar": "هذا الطبق لذيذ جدًا.",
+            "en": "This dish is very tasty.",
+            "id": "Hidangan ini enak sekali."
+          }
+        },
+        "hint": {
+          "ar": "好 + فعل يعني «جيد في ...»: 好吃 جيد للأكل، 好喝 جيد للشرب.",
+          "en": "好 + verb means \"good to …\": 好吃 is good to eat, 好喝 is good to drink.",
+          "id": "好 + kata kerja berarti \"enak untuk …\": 好吃 enak dimakan, 好喝 enak diminum."
+        }
+      },
+      {
+        "id": "zh06n5",
+        "target": "好喝",
+        "translit": "hǎohē",
+        "tr": {
+          "ar": "لذيذ (للشراب)",
+          "en": "delicious (drink)",
+          "id": "enak (minuman)"
+        },
+        "example": {
+          "target": "这杯茶很好喝。",
+          "translit": "zhè bēi chá hěn hǎohē.",
+          "tr": {
+            "ar": "هذا الشاي لذيذ جدًا.",
+            "en": "This tea is very good.",
+            "id": "Teh ini enak sekali."
+          }
+        },
+        "hint": {
+          "ar": "杯 (bēi) هنا كلمة عدّ للكوب، وهي بين 这 و茶.",
+          "en": "杯 (bēi) is the measure word for a cup, here between 这 and 茶.",
+          "id": "杯 (bēi) di sini adalah kata penggolong untuk cangkir, antara 这 dan 茶."
+        }
+      },
+      {
+        "id": "zh06n6",
+        "target": "我想吃面条",
+        "translit": "wǒ xiǎng chī miàntiáo",
+        "tr": {
+          "ar": "أريد أن آكل نودلز",
+          "en": "I would like to eat noodles",
+          "id": "saya ingin makan mi"
+        },
+        "example": {
+          "target": "我想吃面条，你想吃什么？",
+          "translit": "wǒ xiǎng chī miàntiáo, nǐ xiǎng chī shénme?",
+          "tr": {
+            "ar": "أريد أن آكل نودلز، ماذا تريد أن تأكل؟",
+            "en": "I would like noodles, what would you like to eat?",
+            "id": "Saya ingin makan mi, kamu ingin makan apa?"
+          }
+        },
+        "hint": {
+          "ar": "想 + فعل = أريد أن أفعل. ويمكن تبديل 面条 بأي طعام آخر.",
+          "en": "想 + verb = I would like to do. You can replace 面条 with any other food.",
+          "id": "想 + kata kerja = ingin melakukan. 面条 bisa diganti makanan lain."
+        }
+      },
+      {
+        "id": "zh06n7",
+        "target": "我想要一杯茶",
+        "translit": "wǒ xiǎng yào yī bēi chá",
+        "tr": {
+          "ar": "أريد كوب شاي",
+          "en": "I would like a cup of tea",
+          "id": "saya mau secangkir teh"
+        },
+        "example": {
+          "target": "你好，我想要一杯茶。",
+          "translit": "nǐ hǎo, wǒ xiǎng yào yī bēi chá.",
+          "tr": {
+            "ar": "مرحبًا، أريد كوب شاي.",
+            "en": "Hello, I would like a cup of tea.",
+            "id": "Halo, saya mau secangkir teh."
+          }
+        },
+        "hint": {
+          "ar": "一杯 = كوب واحد. 想要 + اسم تعني «أريد» بلهجة مهذبة.",
+          "en": "一杯 = one cup. 想要 + noun means \"would like\" in a polite way.",
+          "id": "一杯 = secangkir. 想要 + benda berarti \"ingin\" dengan sopan."
+        }
+      },
+      {
+        "id": "zh06n8",
+        "target": "请给我一杯水",
+        "translit": "qǐng gěi wǒ yī bēi shuǐ",
+        "tr": {
+          "ar": "من فضلك أعطني كوب ماء",
+          "en": "please give me a glass of water",
+          "id": "tolong beri saya segelas air"
+        },
+        "example": {
+          "target": "服务员，请给我一杯水。",
+          "translit": "fúwùyuán, qǐng gěi wǒ yī bēi shuǐ.",
+          "tr": {
+            "ar": "يا نادل، من فضلك أعطني كوب ماء.",
+            "en": "Waiter, please give me a glass of water.",
+            "id": "Pelayan, tolong beri saya segelas air."
+          }
+        },
+        "hint": {
+          "ar": "给 تعني «يعطي». 服务员 كلمة مهذبة لمخاطبة النادل.",
+          "en": "给 means \"to give\". 服务员 is a polite word for addressing a waiter.",
+          "id": "给 berarti \"memberi\". 服务员 adalah kata sopan untuk memanggil pelayan."
+        }
+      }
+    ],
+    "cloze": [
+      {
+        "sentence": "我想___一杯茶。",
+        "answer": "要",
+        "wrong": [
+          "吃",
+          "是"
+        ],
+        "tr": {
+          "ar": "أريد كوب شاي.",
+          "en": "I would like a cup of tea.",
+          "id": "Saya mau secangkir teh."
+        },
+        "why": {
+          "ar": "想要 + اسم تعني «أريد». 吃 تعني «يأكل» ولا تناسب الشاي، و是 لا تناسب هنا.",
+          "en": "想要 + noun means \"would like\". 吃 means \"to eat\" and does not suit tea, and 是 does not fit here.",
+          "id": "想要 + benda berarti \"ingin\". 吃 berarti \"makan\" dan tidak cocok dengan teh, sedangkan 是 tidak cocok di sini."
+        }
+      },
+      {
+        "sentence": "这杯茶很___。",
+        "answer": "好喝",
+        "wrong": [
+          "好吃",
+          "好听"
+        ],
+        "tr": {
+          "ar": "هذا الشاي لذيذ جدًا.",
+          "en": "This tea is very good.",
+          "id": "Teh ini enak sekali."
+        },
+        "why": {
+          "ar": "الشاي يُشرب فنقول 好喝. 好吃 للطعام و好听 تعني «جميل الصوت».",
+          "en": "Tea is drunk, so we say 好喝. 好吃 is for food and 好听 means \"nice to listen to\".",
+          "id": "Teh diminum, jadi dipakai 好喝. 好吃 untuk makanan dan 好听 berarti \"enak didengar\"."
+        }
+      }
+    ],
+    "conversation": {
+      "context": {
+        "ar": "في مطعم: نادل يسأل الزبون عمّا يريد أن يشرب.",
+        "en": "In a restaurant: a waiter asks a customer what they would like to drink.",
+        "id": "Di restoran: pelayan menanyakan pelanggan ingin minum apa."
+      },
+      "turns": [
+        {
+          "who": "A",
+          "target": "你好，你想喝什么？",
+          "tr": {
+            "ar": "مرحبًا، ماذا تريد أن تشرب؟",
+            "en": "Hello, what would you like to drink?",
+            "id": "Halo, Anda ingin minum apa?"
+          }
+        },
+        {
+          "who": "B",
+          "target": "请给我一杯茶。",
+          "tr": {
+            "ar": "من فضلك أعطني كوب شاي.",
+            "en": "Please give me a cup of tea.",
+            "id": "Tolong beri saya secangkir teh."
+          }
+        },
+        {
+          "who": "A",
+          "target": "好的，请等一下。",
+          "tr": {
+            "ar": "حسنًا، انتظر قليلًا من فضلك.",
+            "en": "Okay, please wait a moment.",
+            "id": "Baik, mohon tunggu sebentar."
+          }
+        }
+      ],
+      "gap": 1,
+      "wrong": [
+        "我是中国人。",
+        "我家有四个人。"
+      ],
+      "why": {
+        "ar": "النادل سأل عمّا يريد أن يشربه، والرد المناسب هو طلب مشروب بأدب. الجنسية وعدد أفراد الأسرة لا علاقة لهما بالسؤال.",
+        "en": "The waiter asked what the customer wants to drink, so the natural reply is a polite order. Nationality and family size have nothing to do with it.",
+        "id": "Pelayan menanyakan minuman apa yang diinginkan, jadi jawaban yang wajar adalah pesanan yang sopan. Kebangsaan dan jumlah anggota keluarga tidak berkaitan."
+      }
+    },
+    "summary": {
+      "ar": "تعلّمت الطلب بـ 我想要 و请给我، وأسماء 米饭 و面条 و茶، والفرق بين 好吃 و好喝. تذكّر أن 请 تجعل الطلب مهذبًا.",
+      "en": "You learned to order with 我想要 and 请给我, the words 米饭, 面条 and 茶, and the difference between 好吃 and 好喝. Remember that 请 makes a request polite.",
+      "id": "Anda belajar memesan dengan 我想要 dan 请给我, kata 米饭, 面条, dan 茶, serta perbedaan 好吃 dan 好喝. Ingat bahwa 请 membuat permintaan menjadi sopan."
+    }
+  },
+  {
+    "id": "zh-07",
+    "track": "zh",
+    "level": "elementary",
+    "order": 7,
+    "topic": "shopping-prices",
+    "icon": "🛍️",
+    "title": {
+      "ar": "التسوّق والأسعار",
+      "en": "Shopping and Prices",
+      "id": "Belanja dan Harga"
+    },
+    "description": {
+      "ar": "اسأل عن الأسعار وتفاوض بلطف واستخدم كلمات العدّ الأولى.",
+      "en": "Ask about prices, bargain politely and use your first measure words.",
+      "id": "Tanyakan harga, menawar dengan sopan, dan gunakan kata penggolong pertama Anda."
+    },
+    "objectives": [
+      {
+        "ar": "أستطيع السؤال عن السعر بـ 多少钱？",
+        "en": "I can ask the price with 多少钱？",
+        "id": "Saya bisa menanyakan harga dengan 多少钱？"
+      },
+      {
+        "ar": "أستطيع قول 太贵了 وطلب 便宜一点.",
+        "en": "I can say 太贵了 and ask for 便宜一点.",
+        "id": "Saya bisa mengatakan 太贵了 dan meminta 便宜一点."
+      },
+      {
+        "ar": "أستطيع استخدام كلمات العدّ 个 و杯 و瓶 مع الأعداد.",
+        "en": "I can use the measure words 个, 杯 and 瓶 with numbers.",
+        "id": "Saya bisa memakai kata penggolong 个, 杯, dan 瓶 bersama angka."
+      }
+    ],
+    "intro": {
+      "ar": "في الأسواق والمتاجر الصغيرة نسأل عن السعر ونشتري بكلمات قليلة. هذا الدرس يقدّم الكلمة اليومية للعملة 块 (يوان)، وكلمات العدّ 个 و杯 و瓶 التي تأتي بين العدد والاسم، وهي من أهم ما يميز الصينية.",
+      "en": "In markets and small shops we ask the price and buy with a few words. This lesson introduces the everyday word for the currency, 块 (yuan), and the measure words 个, 杯 and 瓶, which sit between a number and a noun and are one of the most distinctive features of Chinese.",
+      "id": "Di pasar dan toko kecil kita menanyakan harga dan membeli dengan beberapa kata. Pelajaran ini memperkenalkan kata sehari-hari untuk mata uang, 块 (yuan), serta kata penggolong 个, 杯, dan 瓶 yang terletak di antara angka dan benda, salah satu ciri khas bahasa Mandarin."
+    },
+    "culture": {
+      "ar": "في الأسواق الصغيرة قد يكون التفاوض على السعر مقبولًا، أما في المتاجر الكبيرة والسوبرماركت فالأسعار ثابتة. وانتبه إلى أن العملة الرسمية هي 人民币 (rénmínbì)، ويُسمى اليوان 元 في الكتابة الرسمية و块 في الكلام اليومي. كما أن الدفع عبر الهاتف شائع جدًا في كثير من المدن، لكن من الجيد أن يكون لديك بعض النقود.",
+      "en": "In small markets bargaining may be accepted, but in large shops and supermarkets prices are fixed. The official currency is 人民币 (rénmínbì), and the yuan is written 元 formally but called 块 in everyday speech. Mobile payment is very common in many cities, but it is still wise to carry some cash.",
+      "id": "Di pasar kecil menawar mungkin diterima, tetapi di toko besar dan supermarket harga sudah tetap. Mata uang resminya 人民币 (rénmínbì), dan yuan ditulis 元 secara resmi tetapi disebut 块 dalam percakapan sehari-hari. Pembayaran lewat ponsel sangat umum di banyak kota, tetapi tetap bijak membawa sedikit uang tunai."
+    },
+    "grammar": {
+      "title": {
+        "ar": "كلمات العدّ: العدد + كلمة العدّ + الاسم",
+        "en": "Measure words: number + measure word + noun",
+        "id": "Kata penggolong: angka + penggolong + benda"
+      },
+      "body": {
+        "ar": "في الصينية لا نقول «ثلاثة تفاح» بل «ثلاث-قطع تفاح»: 三个苹果. الكلمة 个 (gè) هي الأعم وتناسب أشياء كثيرة، و杯 (bēi) للكؤوس والأكواب، و瓶 (píng) للزجاجات. للعدد اثنين قبل كلمة العدّ نقول 两: 两杯茶. وللتعبير عن «غالٍ جدًا» نقول 太…了: 太贵了. و一点 تعني «قليلًا»: 便宜一点 (أرخص قليلًا).",
+        "en": "In Chinese we do not say \"three apples\" directly but \"three-pieces apple\": 三个苹果. The word 个 (gè) is the most general and suits many things, 杯 (bēi) is for cups and glasses, and 瓶 (píng) for bottles. For the number two before a measure word we say 两: 两杯茶. To say \"too expensive\" we use 太…了: 太贵了. 一点 means \"a little\": 便宜一点 (a bit cheaper).",
+        "id": "Dalam bahasa Mandarin kita tidak langsung mengatakan \"tiga apel\" tetapi \"tiga-buah apel\": 三个苹果. Kata 个 (gè) paling umum dan cocok untuk banyak benda, 杯 (bēi) untuk cangkir dan gelas, dan 瓶 (píng) untuk botol. Untuk angka dua sebelum penggolong dipakai 两: 两杯茶. Untuk \"terlalu mahal\" dipakai 太…了: 太贵了. 一点 berarti \"sedikit\": 便宜一点 (sedikit lebih murah)."
+      }
+    },
+    "items": [
+      {
+        "id": "zh07n1",
+        "target": "多少钱？",
+        "translit": "duōshao qián?",
+        "tr": {
+          "ar": "بكم؟",
+          "en": "How much is it?",
+          "id": "Berapa harganya?"
+        },
+        "example": {
+          "target": "这个多少钱？",
+          "translit": "zhège duōshao qián?",
+          "tr": {
+            "ar": "بكم هذا؟",
+            "en": "How much is this?",
+            "id": "Berapa harga ini?"
+          }
+        },
+        "hint": {
+          "ar": "钱 تعني «مال». 这个 تعني «هذا». المقطع 少 في 多少 خفيف.",
+          "en": "钱 means \"money\". 这个 means \"this one\". The syllable 少 in 多少 is neutral.",
+          "id": "钱 berarti \"uang\". 这个 berarti \"yang ini\". Suku 少 pada 多少 netral."
+        }
+      },
+      {
+        "id": "zh07n2",
+        "target": "太贵了",
+        "translit": "tài guì le",
+        "tr": {
+          "ar": "غالٍ جدًا",
+          "en": "too expensive",
+          "id": "terlalu mahal"
+        },
+        "example": {
+          "target": "太贵了，我不买。",
+          "translit": "tài guì le, wǒ bù mǎi.",
+          "tr": {
+            "ar": "غالٍ جدًا، لن أشتري.",
+            "en": "Too expensive, I won't buy it.",
+            "id": "Terlalu mahal, saya tidak jadi beli."
+          }
+        },
+        "hint": {
+          "ar": "太…了 تعني «زيادة عن اللازم». 贵 نقيضها 便宜.",
+          "en": "太…了 means \"too much\". The opposite of 贵 is 便宜.",
+          "id": "太…了 berarti \"terlalu\". Lawan 贵 adalah 便宜."
+        }
+      },
+      {
+        "id": "zh07n3",
+        "target": "便宜一点",
+        "translit": "piányi yīdiǎn",
+        "tr": {
+          "ar": "أرخص قليلًا",
+          "en": "a little cheaper",
+          "id": "sedikit lebih murah"
+        },
+        "example": {
+          "target": "能便宜一点吗？",
+          "translit": "néng piányi yīdiǎn ma?",
+          "tr": {
+            "ar": "هل يمكن أن يكون أرخص قليلًا؟",
+            "en": "Can it be a little cheaper?",
+            "id": "Bisakah lebih murah sedikit?"
+          }
+        },
+        "hint": {
+          "ar": "能…吗 تعني «هل يمكن؟». قلها بابتسامة وبلطف.",
+          "en": "能…吗 means \"is it possible?\". Say it kindly and with a smile.",
+          "id": "能…吗 berarti \"bisakah?\". Ucapkan dengan ramah dan senyum."
+        }
+      },
+      {
+        "id": "zh07n4",
+        "target": "十块",
+        "translit": "shí kuài",
+        "tr": {
+          "ar": "عشرة يوان",
+          "en": "ten yuan",
+          "id": "sepuluh yuan"
+        },
+        "example": {
+          "target": "一共十块。",
+          "translit": "yīgòng shí kuài.",
+          "tr": {
+            "ar": "المجموع عشرة يوان.",
+            "en": "That is ten yuan in total.",
+            "id": "Totalnya sepuluh yuan."
+          }
+        },
+        "hint": {
+          "ar": "块 تأتي بعد العدد مباشرة. 一共 تعني «المجموع».",
+          "en": "块 comes right after the number. 一共 means \"in total\".",
+          "id": "块 langsung mengikuti angka. 一共 berarti \"totalnya\"."
+        }
+      },
+      {
+        "id": "zh07n5",
+        "target": "一个苹果",
+        "translit": "yī gè píngguǒ",
+        "tr": {
+          "ar": "تفاحة واحدة",
+          "en": "one apple",
+          "id": "satu buah apel"
+        },
+        "example": {
+          "target": "我想买一个苹果。",
+          "translit": "wǒ xiǎng mǎi yī gè píngguǒ.",
+          "tr": {
+            "ar": "أريد أن أشتري تفاحة.",
+            "en": "I want to buy an apple.",
+            "id": "Saya ingin membeli sebuah apel."
+          }
+        },
+        "hint": {
+          "ar": "个 هي كلمة العدّ العامة. 买 تعني «يشتري».",
+          "en": "个 is the general measure word. 买 means \"to buy\".",
+          "id": "个 adalah penggolong umum. 买 berarti \"membeli\"."
+        }
+      },
+      {
+        "id": "zh07n6",
+        "target": "一瓶水",
+        "translit": "yī píng shuǐ",
+        "tr": {
+          "ar": "زجاجة ماء",
+          "en": "a bottle of water",
+          "id": "sebotol air"
+        },
+        "example": {
+          "target": "请给我一瓶水。",
+          "translit": "qǐng gěi wǒ yī píng shuǐ.",
+          "tr": {
+            "ar": "من فضلك أعطني زجاجة ماء.",
+            "en": "Please give me a bottle of water.",
+            "id": "Tolong beri saya sebotol air."
+          }
+        },
+        "hint": {
+          "ar": "瓶 للزجاجات. أما الكوب فنقول 一杯水.",
+          "en": "瓶 is for bottles. For a glass we say 一杯水.",
+          "id": "瓶 untuk botol. Untuk segelas kita mengatakan 一杯水."
+        }
+      },
+      {
+        "id": "zh07n7",
+        "target": "两杯茶",
+        "translit": "liǎng bēi chá",
+        "tr": {
+          "ar": "كوبان من الشاي",
+          "en": "two cups of tea",
+          "id": "dua cangkir teh"
+        },
+        "example": {
+          "target": "我们要两杯茶。",
+          "translit": "wǒmen yào liǎng bēi chá.",
+          "tr": {
+            "ar": "نريد كوبين من الشاي.",
+            "en": "We would like two cups of tea.",
+            "id": "Kami mau dua cangkir teh."
+          }
+        },
+        "hint": {
+          "ar": "نقول 两 بدل 二 قبل كلمة العدّ. 我们 تعني «نحن».",
+          "en": "We say 两 instead of 二 before a measure word. 我们 means \"we\".",
+          "id": "Kita memakai 两, bukan 二, sebelum kata penggolong. 我们 berarti \"kami/kita\"."
+        }
+      },
+      {
+        "id": "zh07n8",
+        "target": "我要这个",
+        "translit": "wǒ yào zhège",
+        "tr": {
+          "ar": "أريد هذا",
+          "en": "I will take this one",
+          "id": "saya mau yang ini"
+        },
+        "example": {
+          "target": "我要这个，不要那个。",
+          "translit": "wǒ yào zhège, bù yào nàge.",
+          "tr": {
+            "ar": "أريد هذا ولا أريد ذاك.",
+            "en": "I want this one, not that one.",
+            "id": "Saya mau yang ini, bukan yang itu."
+          }
+        },
+        "hint": {
+          "ar": "这个 (هذا) و那个 (ذاك). و不要 تعني «لا أريد».",
+          "en": "这个 means \"this\" and 那个 means \"that\". 不要 means \"do not want\".",
+          "id": "这个 berarti \"ini\" dan 那个 berarti \"itu\". 不要 berarti \"tidak mau\"."
+        }
+      }
+    ],
+    "cloze": [
+      {
+        "sentence": "太贵___！",
+        "answer": "了",
+        "wrong": [
+          "吗",
+          "呢"
+        ],
+        "tr": {
+          "ar": "غالٍ جدًا!",
+          "en": "Too expensive!",
+          "id": "Terlalu mahal!"
+        },
+        "why": {
+          "ar": "التركيب هو 太…了. 吗 و呢 أدوات سؤال ولا تصلح في هذا التعبير.",
+          "en": "The pattern is 太…了. 吗 and 呢 are question particles and do not work in this expression.",
+          "id": "Polanya adalah 太…了. 吗 dan 呢 adalah partikel tanya dan tidak cocok dalam ungkapan ini."
+        }
+      },
+      {
+        "sentence": "我想买两___苹果。",
+        "answer": "个",
+        "wrong": [
+          "杯",
+          "瓶"
+        ],
+        "tr": {
+          "ar": "أريد أن أشتري تفاحتين.",
+          "en": "I want to buy two apples.",
+          "id": "Saya ingin membeli dua buah apel."
+        },
+        "why": {
+          "ar": "التفاح يُعدّ بالقطعة فنقول 个. 杯 للكؤوس و瓶 للزجاجات ولا تناسب التفاح.",
+          "en": "Apples are counted by piece, so we use 个. 杯 is for cups and 瓶 is for bottles, which do not suit apples.",
+          "id": "Apel dihitung per buah, jadi dipakai 个. 杯 untuk cangkir dan 瓶 untuk botol, yang tidak cocok untuk apel."
+        }
+      }
+    ],
+    "conversation": {
+      "context": {
+        "ar": "في سوق صغير: زبون يشتري تفاحًا.",
+        "en": "At a small market: a customer is buying apples.",
+        "id": "Di pasar kecil: seorang pembeli membeli apel."
+      },
+      "turns": [
+        {
+          "who": "A",
+          "target": "你好，这个苹果多少钱？",
+          "tr": {
+            "ar": "مرحبًا، بكم هذه التفاحة؟",
+            "en": "Hello, how much is this apple?",
+            "id": "Halo, berapa harga apel ini?"
+          }
+        },
+        {
+          "who": "B",
+          "target": "五块一个。",
+          "tr": {
+            "ar": "خمسة يوان للواحدة.",
+            "en": "Five yuan each.",
+            "id": "Lima yuan satu."
+          }
+        },
+        {
+          "who": "A",
+          "target": "太贵了，能便宜一点吗？",
+          "tr": {
+            "ar": "غالٍ جدًا، هل يمكن أن يكون أرخص قليلًا؟",
+            "en": "Too expensive, can it be a little cheaper?",
+            "id": "Terlalu mahal, bisakah lebih murah sedikit?"
+          }
+        },
+        {
+          "who": "B",
+          "target": "好的，四块吧。",
+          "tr": {
+            "ar": "حسنًا، أربعة يوان.",
+            "en": "Okay, four yuan then.",
+            "id": "Baik, empat yuan saja."
+          }
+        }
+      ],
+      "gap": 2,
+      "wrong": [
+        "我叫李明。",
+        "你好，不客气。"
+      ],
+      "why": {
+        "ar": "بعد أن ذكر البائع السعر، يقول الزبون إنه غالٍ ويطلب سعرًا أقل. الإجابتان الأخريان لا علاقة لهما بالسعر.",
+        "en": "After the seller gives the price, the customer says it is too expensive and asks for less. The other replies have nothing to do with price.",
+        "id": "Setelah penjual menyebut harga, pembeli mengatakan terlalu mahal dan meminta lebih murah. Dua jawaban lain tidak berkaitan dengan harga."
+      }
+    },
+    "summary": {
+      "ar": "تعلّمت السؤال عن السعر بـ 多少钱？ والتعليق بـ 太贵了 وطلب 便宜一点 واستخدام 个 و杯 و瓶 بين العدد والاسم. تذكّر 两 قبل كلمة العدّ.",
+      "en": "You learned to ask 多少钱？, comment with 太贵了, ask for 便宜一点 and use 个, 杯 and 瓶 between a number and a noun. Remember 两 before a measure word.",
+      "id": "Anda belajar menanyakan 多少钱？, berkomentar dengan 太贵了, meminta 便宜一点, dan memakai 个, 杯, dan 瓶 di antara angka dan benda. Ingat 两 sebelum kata penggolong."
+    }
+  },
+  {
+    "id": "zh-08",
+    "track": "zh",
+    "level": "elementary",
+    "order": 8,
+    "topic": "directions-places",
+    "icon": "🧭",
+    "title": {
+      "ar": "الاتجاهات والأماكن",
+      "en": "Directions and Places",
+      "id": "Arah dan Tempat"
+    },
+    "description": {
+      "ar": "اسأل عن الأماكن وافهم الاتجاهات البسيطة.",
+      "en": "Ask where places are and understand simple directions.",
+      "id": "Tanyakan letak tempat dan pahami petunjuk arah sederhana."
+    },
+    "objectives": [
+      {
+        "ar": "أستطيع السؤال بـ …在哪儿？",
+        "en": "I can ask …在哪儿？",
+        "id": "Saya bisa bertanya …在哪儿？"
+      },
+      {
+        "ar": "أستطيع فهم 左边 و右边 و前面 و后面.",
+        "en": "I can understand 左边, 右边, 前面 and 后面.",
+        "id": "Saya bisa memahami 左边, 右边, 前面, dan 后面."
+      },
+      {
+        "ar": "أعرف كلمتي 厕所 و地铁站.",
+        "en": "I know the words 厕所 and 地铁站.",
+        "id": "Saya mengenal kata 厕所 dan 地铁站."
+      }
+    ],
+    "intro": {
+      "ar": "عندما تسافر تحتاج أولًا إلى أن تسأل عن مكان: أين المرحاض؟ أين محطة المترو؟ في هذا الدرس نتعلم السؤال بـ 在哪儿 والإجابة عن الاتجاهات البسيطة، ونفرّق بين 在 (يكون في) و有 (يوجد).",
+      "en": "When you travel you first need to ask where something is: where is the toilet, where is the subway station? In this lesson we learn to ask with 在哪儿 and understand simple directions, and to tell 在 (to be at) apart from 有 (there is).",
+      "id": "Saat bepergian, hal pertama yang Anda butuhkan adalah bertanya letak sesuatu: di mana toilet, di mana stasiun kereta bawah tanah? Di pelajaran ini kita belajar bertanya dengan 在哪儿 dan memahami arah sederhana, serta membedakan 在 (berada di) dan 有 (ada)."
+    },
+    "culture": {
+      "ar": "في المدن الصينية الكبيرة يوجد مترو (地铁 dìtiě) واسع الانتشار، وغالبًا تكون اللافتات مكتوبة بالحروف الصينية والبينيين وأحيانًا بالإنجليزية. وفي وصف الاتجاهات يستخدم كثير من الناس الجهات الأصلية (东 南 西 北) إضافة إلى يسار ويمين. وكلمة 厕所 شائعة، وفي الأماكن الراقية قد ترى 洗手间 (xǐshǒujiān) أي «غرفة غسل اليدين».",
+      "en": "Big Chinese cities have extensive subway systems (地铁 dìtiě), and signs often show Chinese characters, pinyin and sometimes English. When giving directions many people use the compass points (东 南 西 北) as well as left and right. 厕所 is a common word for toilet, and in more upscale places you may also see 洗手间 (xǐshǒujiān), literally \"hand-washing room\".",
+      "id": "Kota-kota besar di Tiongkok memiliki jaringan kereta bawah tanah (地铁 dìtiě) yang luas, dan papan petunjuk sering memuat aksara Mandarin, pinyin, dan kadang bahasa Inggris. Saat memberi petunjuk arah, banyak orang memakai mata angin (东 南 西 北) di samping kiri dan kanan. 厕所 adalah kata umum untuk toilet, dan di tempat yang lebih mewah Anda mungkin juga melihat 洗手间 (xǐshǒujiān), harfiahnya \"ruang cuci tangan\"."
+    },
+    "grammar": {
+      "title": {
+        "ar": "在 تعني «يكون في» و有 تعني «يوجد»",
+        "en": "在 means \"to be at\", 有 means \"there is\"",
+        "id": "在 berarti \"berada di\", 有 berarti \"ada\""
+      },
+      "body": {
+        "ar": "نستخدم 在 للدلالة على مكان شيء معروف: 厕所在左边 (المرحاض على اليسار)، ولا نقول 厕所有左边. ونسأل 在哪儿？ (أين؟). وعندما نقدّم شيئًا جديدًا في مكان نبدأ بالمكان ونستخدم 有: 前面有一个商店 (أمامنا يوجد متجر). كلمات الاتجاه مثل 左边 و前面 تأتي بعد 在. و一直走 تعني «امشِ مباشرة».",
+        "en": "We use 在 for the location of something known: 厕所在左边 (the toilet is on the left), never 厕所有左边. We ask 在哪儿？ (where?). When we introduce something new in a place we start with the place and use 有: 前面有一个商店 (ahead there is a shop). Direction words such as 左边 and 前面 follow 在. 一直走 means \"go straight\".",
+        "id": "Kita memakai 在 untuk letak sesuatu yang sudah diketahui: 厕所在左边 (toilet ada di kiri), bukan 厕所有左边. Kita bertanya 在哪儿？ (di mana?). Saat memperkenalkan sesuatu yang baru di suatu tempat, kita mulai dengan tempat lalu memakai 有: 前面有一个商店 (di depan ada sebuah toko). Kata arah seperti 左边 dan 前面 mengikuti 在. 一直走 berarti \"jalan lurus\"."
+      }
+    },
+    "items": [
+      {
+        "id": "zh08n1",
+        "target": "在哪儿？",
+        "translit": "zài nǎr?",
+        "tr": {
+          "ar": "أين؟",
+          "en": "where?",
+          "id": "di mana?"
+        },
+        "example": {
+          "target": "请问，银行在哪儿？",
+          "translit": "qǐngwèn, yínháng zài nǎr?",
+          "tr": {
+            "ar": "لو سمحت، أين البنك؟",
+            "en": "Excuse me, where is the bank?",
+            "id": "Permisi, di mana bank?"
+          }
+        },
+        "hint": {
+          "ar": "儿 تُنطق كحرف r في نهاية الكلمة، وهي شائعة في الشمال. وفي الكتابة بالبينيين: nǎr.",
+          "en": "儿 is pronounced as an r sound at the end of the word, common in the north. In pinyin it is written nǎr.",
+          "id": "儿 diucapkan sebagai bunyi r di akhir kata, umum di utara. Dalam pinyin ditulis nǎr."
+        }
+      },
+      {
+        "id": "zh08n2",
+        "target": "厕所",
+        "translit": "cèsuǒ",
+        "tr": {
+          "ar": "مرحاض",
+          "en": "toilet",
+          "id": "toilet"
+        },
+        "example": {
+          "target": "请问，厕所在哪儿？",
+          "translit": "qǐngwèn, cèsuǒ zài nǎr?",
+          "tr": {
+            "ar": "لو سمحت، أين المرحاض؟",
+            "en": "Excuse me, where is the toilet?",
+            "id": "Permisi, di mana toilet?"
+          }
+        },
+        "hint": {
+          "ar": "请问 تعني «لو سمحت، هل لي أن أسأل». افتتح بها أي سؤال لغريب.",
+          "en": "请问 means \"excuse me, may I ask\". Open any question to a stranger with it.",
+          "id": "请问 berarti \"permisi, boleh saya bertanya\". Awali setiap pertanyaan kepada orang asing dengannya."
+        }
+      },
+      {
+        "id": "zh08n3",
+        "target": "地铁站",
+        "translit": "dìtiězhàn",
+        "tr": {
+          "ar": "محطة المترو",
+          "en": "subway station",
+          "id": "stasiun kereta bawah tanah"
+        },
+        "example": {
+          "target": "地铁站在前面。",
+          "translit": "dìtiězhàn zài qiánmian.",
+          "tr": {
+            "ar": "محطة المترو في الأمام.",
+            "en": "The subway station is ahead.",
+            "id": "Stasiun kereta bawah tanah ada di depan."
+          }
+        },
+        "hint": {
+          "ar": "站 تعني «محطة». وفيها zh كما تعلمنا في الدرس الأول.",
+          "en": "站 means \"station\". It contains the zh sound from lesson 1.",
+          "id": "站 berarti \"stasiun\". Mengandung bunyi zh dari pelajaran 1."
+        }
+      },
+      {
+        "id": "zh08n4",
+        "target": "左边",
+        "translit": "zuǒbian",
+        "tr": {
+          "ar": "اليسار",
+          "en": "left side",
+          "id": "sebelah kiri"
+        },
+        "example": {
+          "target": "厕所在左边。",
+          "translit": "cèsuǒ zài zuǒbian.",
+          "tr": {
+            "ar": "المرحاض على اليسار.",
+            "en": "The toilet is on the left.",
+            "id": "Toilet ada di sebelah kiri."
+          }
+        },
+        "hint": {
+          "ar": "边 تُنطق خفيفة هنا. يمكن أيضًا قول 左 فقط في بعض التعابير.",
+          "en": "边 is neutral here. In some expressions you can also say just 左.",
+          "id": "边 bernada netral di sini. Dalam beberapa ungkapan bisa juga cukup 左."
+        }
+      },
+      {
+        "id": "zh08n5",
+        "target": "右边",
+        "translit": "yòubian",
+        "tr": {
+          "ar": "اليمين",
+          "en": "right side",
+          "id": "sebelah kanan"
+        },
+        "example": {
+          "target": "银行在右边。",
+          "translit": "yínháng zài yòubian.",
+          "tr": {
+            "ar": "البنك على اليمين.",
+            "en": "The bank is on the right.",
+            "id": "Bank ada di sebelah kanan."
+          }
+        },
+        "hint": {
+          "ar": "تذكّر 右 (yòu) بنغمة رابعة و左 (zuǒ) بنغمة ثالثة.",
+          "en": "Remember 右 (yòu) is tone 4 and 左 (zuǒ) is tone 3.",
+          "id": "Ingat 右 (yòu) bernada 4 dan 左 (zuǒ) bernada 3."
+        }
+      },
+      {
+        "id": "zh08n6",
+        "target": "前面",
+        "translit": "qiánmian",
+        "tr": {
+          "ar": "الأمام",
+          "en": "in front; ahead",
+          "id": "depan"
+        },
+        "example": {
+          "target": "前面有一个商店。",
+          "translit": "qiánmian yǒu yī gè shāngdiàn.",
+          "tr": {
+            "ar": "في الأمام متجر.",
+            "en": "There is a shop ahead.",
+            "id": "Di depan ada sebuah toko."
+          }
+        },
+        "hint": {
+          "ar": "لاحظ 有 هنا: «يوجد». وفي 前 نجد q كما تعلمنا.",
+          "en": "Notice 有 here meaning \"there is\". In 前 we find the q sound we learned.",
+          "id": "Perhatikan 有 di sini yang berarti \"ada\". Pada 前 ada bunyi q yang sudah kita pelajari."
+        }
+      },
+      {
+        "id": "zh08n7",
+        "target": "后面",
+        "translit": "hòumian",
+        "tr": {
+          "ar": "الخلف",
+          "en": "behind; at the back",
+          "id": "belakang"
+        },
+        "example": {
+          "target": "我家在学校后面。",
+          "translit": "wǒ jiā zài xuéxiào hòumian.",
+          "tr": {
+            "ar": "بيتي خلف المدرسة.",
+            "en": "My home is behind the school.",
+            "id": "Rumah saya ada di belakang sekolah."
+          }
+        },
+        "hint": {
+          "ar": "اسم المكان يأتي قبل 后面: 学校后面 (خلف المدرسة).",
+          "en": "The place word comes before 后面: 学校后面 (behind the school).",
+          "id": "Kata tempat diletakkan sebelum 后面: 学校后面 (di belakang sekolah)."
+        }
+      },
+      {
+        "id": "zh08n8",
+        "target": "一直走",
+        "translit": "yīzhí zǒu",
+        "tr": {
+          "ar": "امشِ مباشرة",
+          "en": "go straight",
+          "id": "jalan lurus"
+        },
+        "example": {
+          "target": "一直走，地铁站就在前面。",
+          "translit": "yīzhí zǒu, dìtiězhàn jiù zài qiánmian.",
+          "tr": {
+            "ar": "امشِ مباشرة وستجد محطة المترو أمامك.",
+            "en": "Go straight and the subway station is right ahead.",
+            "id": "Jalan lurus, stasiun kereta bawah tanah ada tepat di depan."
+          }
+        },
+        "hint": {
+          "ar": "一 تُنطق yì قبل نغمة ثانية، وهنا نكتب نغمتها الأصلية. 就 تفيد هنا التأكيد، أي «تمامًا».",
+          "en": "一 is pronounced yì before a second tone, but we write the basic tone. 就 here means \"right\" or \"just\".",
+          "id": "一 dibaca yì sebelum nada kedua, tetapi kita menulis nada dasarnya. 就 di sini berarti \"tepat\"."
+        }
+      }
+    ],
+    "cloze": [
+      {
+        "sentence": "厕所___左边。",
+        "answer": "在",
+        "wrong": [
+          "有",
+          "很"
+        ],
+        "tr": {
+          "ar": "المرحاض على اليسار.",
+          "en": "The toilet is on the left.",
+          "id": "Toilet ada di sebelah kiri."
+        },
+        "why": {
+          "ar": "لموقع شيء معروف نستخدم 在. 有 تعني «يوجد» وتأتي بعد المكان، و很 لا تناسب.",
+          "en": "For the location of a known thing we use 在. 有 means \"there is\" and follows the place, and 很 does not fit.",
+          "id": "Untuk letak sesuatu yang sudah dikenal dipakai 在. 有 berarti \"ada\" dan mengikuti kata tempat, sedangkan 很 tidak cocok."
+        }
+      },
+      {
+        "sentence": "地铁站在哪___？",
+        "answer": "儿",
+        "wrong": [
+          "吗",
+          "个"
+        ],
+        "tr": {
+          "ar": "أين محطة المترو؟",
+          "en": "Where is the subway station?",
+          "id": "Di mana stasiun kereta bawah tanah?"
+        },
+        "why": {
+          "ar": "السؤال هو 在哪儿. 吗 لا تُستخدم مع كلمة استفهام مثل 哪儿، و个 لا تناسب هنا.",
+          "en": "The question is 在哪儿. 吗 is not used with a question word such as 哪儿, and 个 does not fit here.",
+          "id": "Pertanyaannya 在哪儿. 吗 tidak dipakai bersama kata tanya seperti 哪儿, dan 个 tidak cocok di sini."
+        }
+      }
+    ],
+    "conversation": {
+      "context": {
+        "ar": "في الشارع: سائح يسأل مارًّا عن محطة المترو.",
+        "en": "On the street: a tourist asks a passer-by about the subway station.",
+        "id": "Di jalan: seorang turis menanyakan stasiun kereta bawah tanah kepada pejalan kaki."
+      },
+      "turns": [
+        {
+          "who": "A",
+          "target": "请问，地铁站在哪儿？",
+          "tr": {
+            "ar": "لو سمحت، أين محطة المترو؟",
+            "en": "Excuse me, where is the subway station?",
+            "id": "Permisi, di mana stasiun kereta bawah tanah?"
+          }
+        },
+        {
+          "who": "B",
+          "target": "一直走，在右边。",
+          "tr": {
+            "ar": "امشِ مباشرة وستجدها على اليمين.",
+            "en": "Go straight, it is on the right.",
+            "id": "Jalan lurus, ada di sebelah kanan."
+          }
+        },
+        {
+          "who": "A",
+          "target": "谢谢！",
+          "tr": {
+            "ar": "شكرًا!",
+            "en": "Thank you!",
+            "id": "Terima kasih!"
+          }
+        }
+      ],
+      "gap": 1,
+      "wrong": [
+        "我叫李明。",
+        "我想要一杯茶。"
+      ],
+      "why": {
+        "ar": "السؤال عن المكان يُجاب عنه بوصف الاتجاه. ذكر الاسم أو طلب الشاي لا يجيب عن السؤال.",
+        "en": "A question about a place is answered with directions. Giving a name or ordering tea does not answer it.",
+        "id": "Pertanyaan tentang tempat dijawab dengan petunjuk arah. Menyebut nama atau memesan teh tidak menjawabnya."
+      }
+    },
+    "summary": {
+      "ar": "تعلّمت السؤال عن الأماكن بـ 在哪儿 وكلمات الاتجاه 左边 و右边 و前面 و后面، وكلمتي 厕所 و地铁站، والفرق بين 在 و有.",
+      "en": "You learned to ask about places with 在哪儿, the direction words 左边, 右边, 前面 and 后面, the words 厕所 and 地铁站, and the difference between 在 and 有.",
+      "id": "Anda belajar menanyakan tempat dengan 在哪儿, kata arah 左边, 右边, 前面, dan 后面, kata 厕所 dan 地铁站, serta perbedaan 在 dan 有."
+    }
+  },
+  {
+    "id": "zh-09",
+    "track": "zh",
+    "level": "elementary",
+    "order": 9,
+    "topic": "time-days-routine",
+    "icon": "⏰",
+    "title": {
+      "ar": "الوقت وأيام الأسبوع والروتين اليومي",
+      "en": "Time, Days and Daily Routine",
+      "id": "Waktu, Hari, dan Rutinitas Harian"
+    },
+    "description": {
+      "ar": "اسأل عن الساعة وتحدّث عن الأيام والروتين اليومي.",
+      "en": "Ask the time and talk about days and your daily routine.",
+      "id": "Tanyakan jam dan bicarakan hari serta rutinitas harian."
+    },
+    "objectives": [
+      {
+        "ar": "أستطيع السؤال 现在几点？ وقول الساعة.",
+        "en": "I can ask 现在几点？ and tell the time.",
+        "id": "Saya bisa bertanya 现在几点？ dan menyebut jam."
+      },
+      {
+        "ar": "أستطيع قول أيام الأسبوع بـ 星期 + الرقم.",
+        "en": "I can say the days of the week with 星期 + number.",
+        "id": "Saya bisa menyebut hari dengan 星期 + angka."
+      },
+      {
+        "ar": "أستطيع استخدام 今天 و明天 وكلمات الروتين مثل 起床 و上课.",
+        "en": "I can use 今天 and 明天 and routine words such as 起床 and 上课.",
+        "id": "Saya bisa memakai 今天 dan 明天 serta kata rutinitas seperti 起床 dan 上课."
+      }
+    ],
+    "intro": {
+      "ar": "نتحدث كثيرًا عن الوقت: متى الدرس؟ ماذا تفعل غدًا؟ في هذا الدرس نتعلم الساعة وأيام الأسبوع والكلمات الأولى للروتين اليومي. ترتيب الجملة الصينية يضع الوقت قبل الفعل، وهي قاعدة سهلة ومهمة.",
+      "en": "We talk about time all the time: when is the class, what are you doing tomorrow? In this lesson we learn the clock, the days of the week and the first words for a daily routine. Chinese puts the time before the verb, an easy and important rule.",
+      "id": "Kita sering membicarakan waktu: kapan kelasnya, apa yang Anda lakukan besok? Di pelajaran ini kita belajar jam, nama hari, dan kata pertama untuk rutinitas harian. Bahasa Mandarin meletakkan waktu sebelum kata kerja, aturan yang mudah dan penting."
+    },
+    "culture": {
+      "ar": "أيام الأسبوع في الصينية مرقّمة: 星期一 هو الاثنين، 星期二 الثلاثاء، وهكذا حتى 星期六 (السبت). ويُقال لليوم الأخير 星期天 أو 星期日. وفي الكلام والكتابة يُستخدم أيضًا 周 (zhōu) بمعنى الأسبوع، مثل 周一. وفي التقويمات الصينية غالبًا يبدأ الأسبوع بيوم الاثنين.",
+      "en": "The days of the week in Chinese are numbered: 星期一 is Monday, 星期二 Tuesday and so on up to 星期六 (Saturday). The last day is called 星期天 or 星期日. The shorter 周 (zhōu), meaning week, is also used, as in 周一. On Chinese calendars the week often starts on Monday.",
+      "id": "Hari dalam bahasa Mandarin diberi nomor: 星期一 adalah Senin, 星期二 Selasa, dan seterusnya sampai 星期六 (Sabtu). Hari terakhir disebut 星期天 atau 星期日. Bentuk lebih singkat 周 (zhōu), yang berarti pekan, juga dipakai, misalnya 周一. Pada kalender Tiongkok pekan sering dimulai pada hari Senin."
+    },
+    "grammar": {
+      "title": {
+        "ar": "الوقت قبل الفعل",
+        "en": "Time before the verb",
+        "id": "Waktu sebelum kata kerja"
+      },
+      "body": {
+        "ar": "كلمة الوقت تأتي بعد الفاعل وقبل الفعل: 我七点起床 (أستيقظ في الساعة السابعة)، و我们九点上课. الساعة = العدد + 点: 三点 (الثالثة)، و半 = «نصف»: 三点半. للسؤال عن الساعة 现在几点？، وللأيام 今天星期几？ (أي يوم اليوم؟) دون الحاجة إلى 是. وتُستعمل 几 لسؤال أعداد صغيرة (حتى عشرة تقريبًا).",
+        "en": "The time word comes after the subject and before the verb: 我七点起床 (I get up at seven), 我们九点上课. The hour = number + 点: 三点 (three o'clock), and 半 means \"half\": 三点半. To ask the time: 现在几点？; to ask the day: 今天星期几？ with no need for 是. 几 is used to ask about small numbers (roughly up to ten).",
+        "id": "Kata waktu diletakkan setelah subjek dan sebelum kata kerja: 我七点起床 (saya bangun pukul tujuh), 我们九点上课. Jam = angka + 点: 三点 (pukul tiga), dan 半 berarti \"setengah\": 三点半. Untuk menanyakan jam: 现在几点？; untuk hari: 今天星期几？ tanpa perlu 是. 几 dipakai untuk menanyakan bilangan kecil (kira-kira sampai sepuluh)."
+      }
+    },
+    "items": [
+      {
+        "id": "zh09n1",
+        "target": "现在几点？",
+        "translit": "xiànzài jǐ diǎn?",
+        "tr": {
+          "ar": "كم الساعة الآن؟",
+          "en": "What time is it now?",
+          "id": "Sekarang pukul berapa?"
+        },
+        "example": {
+          "target": "请问，现在几点？",
+          "translit": "qǐngwèn, xiànzài jǐ diǎn?",
+          "tr": {
+            "ar": "لو سمحت، كم الساعة الآن؟",
+            "en": "Excuse me, what time is it now?",
+            "id": "Permisi, sekarang pukul berapa?"
+          }
+        },
+        "hint": {
+          "ar": "现在 تعني «الآن». 几 (jǐ) بنغمة ثالثة تعني «كم» للأعداد الصغيرة.",
+          "en": "现在 means \"now\". 几 (jǐ, tone 3) means \"how many\" for small numbers.",
+          "id": "现在 berarti \"sekarang\". 几 (jǐ, nada 3) berarti \"berapa\" untuk bilangan kecil."
+        }
+      },
+      {
+        "id": "zh09n2",
+        "target": "三点半",
+        "translit": "sān diǎn bàn",
+        "tr": {
+          "ar": "الثالثة والنصف",
+          "en": "half past three",
+          "id": "pukul setengah empat (3.30)"
+        },
+        "example": {
+          "target": "现在是三点半。",
+          "translit": "xiànzài shì sān diǎn bàn.",
+          "tr": {
+            "ar": "الساعة الآن الثالثة والنصف.",
+            "en": "It is half past three now.",
+            "id": "Sekarang pukul setengah empat."
+          }
+        },
+        "hint": {
+          "ar": "半 تعني «نصف». وللدقائق نقول مثلًا 三点十分 (الثالثة وعشر دقائق).",
+          "en": "半 means \"half\". For minutes we say, for example, 三点十分 (ten past three).",
+          "id": "半 berarti \"setengah\". Untuk menit kita mengatakan, misalnya, 三点十分 (pukul tiga lewat sepuluh)."
+        }
+      },
+      {
+        "id": "zh09n3",
+        "target": "今天星期几？",
+        "translit": "jīntiān xīngqī jǐ?",
+        "tr": {
+          "ar": "أي يوم اليوم؟",
+          "en": "What day is it today?",
+          "id": "Hari ini hari apa?"
+        },
+        "example": {
+          "target": "你知道今天星期几吗？",
+          "translit": "nǐ zhīdào jīntiān xīngqī jǐ ma?",
+          "tr": {
+            "ar": "هل تعرف أي يوم هو اليوم؟",
+            "en": "Do you know what day it is today?",
+            "id": "Apakah kamu tahu hari ini hari apa?"
+          }
+        },
+        "hint": {
+          "ar": "لاحظ أن 吗 هنا تسأل عن «المعرفة» بينما 几 تسأل عن اليوم. 知道 تعني «يعرف».",
+          "en": "Note that 吗 here asks about \"knowing\", while 几 asks about the day. 知道 means \"to know\".",
+          "id": "Perhatikan bahwa 吗 di sini menanyakan \"tahu atau tidak\", sedangkan 几 menanyakan harinya. 知道 berarti \"tahu\"."
+        }
+      },
+      {
+        "id": "zh09n4",
+        "target": "星期一",
+        "translit": "xīngqīyī",
+        "tr": {
+          "ar": "يوم الاثنين",
+          "en": "Monday",
+          "id": "hari Senin"
+        },
+        "example": {
+          "target": "我星期一上课。",
+          "translit": "wǒ xīngqīyī shàngkè.",
+          "tr": {
+            "ar": "لدي درس يوم الاثنين.",
+            "en": "I have class on Monday.",
+            "id": "Saya ada kelas pada hari Senin."
+          }
+        },
+        "hint": {
+          "ar": "الأسبوع كله مرقّم: 星期二 الثلاثاء وهكذا. ويوم الأحد 星期天.",
+          "en": "The whole week is numbered: 星期二 is Tuesday and so on. Sunday is 星期天.",
+          "id": "Seluruh hari diberi nomor: 星期二 Selasa dan seterusnya. Hari Minggu adalah 星期天."
+        }
+      },
+      {
+        "id": "zh09n5",
+        "target": "今天",
+        "translit": "jīntiān",
+        "tr": {
+          "ar": "اليوم",
+          "en": "today",
+          "id": "hari ini"
+        },
+        "example": {
+          "target": "今天我很忙。",
+          "translit": "jīntiān wǒ hěn máng.",
+          "tr": {
+            "ar": "أنا مشغول اليوم.",
+            "en": "I am busy today.",
+            "id": "Hari ini saya sibuk."
+          }
+        },
+        "hint": {
+          "ar": "يمكن وضع كلمة الوقت في أول الجملة أو بعد الفاعل: 我今天很忙 أيضًا صحيحة.",
+          "en": "The time word can start the sentence or follow the subject: 我今天很忙 is also correct.",
+          "id": "Kata waktu boleh di awal kalimat atau setelah subjek: 我今天很忙 juga benar."
+        }
+      },
+      {
+        "id": "zh09n6",
+        "target": "明天",
+        "translit": "míngtiān",
+        "tr": {
+          "ar": "غدًا",
+          "en": "tomorrow",
+          "id": "besok"
+        },
+        "example": {
+          "target": "明天是星期天。",
+          "translit": "míngtiān shì xīngqītiān.",
+          "tr": {
+            "ar": "غدًا يوم الأحد.",
+            "en": "Tomorrow is Sunday.",
+            "id": "Besok hari Minggu."
+          }
+        },
+        "hint": {
+          "ar": "天 تعني «يوم» أو «سماء». لاحظ 今天 و明天 تنتهيان بـ 天.",
+          "en": "天 means \"day\" or \"sky\". Note that both 今天 and 明天 end in 天.",
+          "id": "天 berarti \"hari\" atau \"langit\". Perhatikan bahwa 今天 dan 明天 sama-sama berakhir dengan 天."
+        }
+      },
+      {
+        "id": "zh09n7",
+        "target": "起床",
+        "translit": "qǐchuáng",
+        "tr": {
+          "ar": "يستيقظ من النوم",
+          "en": "to get up",
+          "id": "bangun tidur"
+        },
+        "example": {
+          "target": "我每天七点起床。",
+          "translit": "wǒ měitiān qī diǎn qǐchuáng.",
+          "tr": {
+            "ar": "أستيقظ كل يوم في السابعة.",
+            "en": "I get up at seven every day.",
+            "id": "Saya bangun pukul tujuh setiap hari."
+          }
+        },
+        "hint": {
+          "ar": "رتّب الجملة: الفاعل + الوقت + الفعل.",
+          "en": "Order of the sentence: subject + time + verb.",
+          "id": "Urutan kalimat: subjek + waktu + kata kerja."
+        }
+      },
+      {
+        "id": "zh09n8",
+        "target": "上课",
+        "translit": "shàngkè",
+        "tr": {
+          "ar": "يحضر الدرس",
+          "en": "to go to class",
+          "id": "masuk kelas"
+        },
+        "example": {
+          "target": "我们九点上课。",
+          "translit": "wǒmen jiǔ diǎn shàngkè.",
+          "tr": {
+            "ar": "نبدأ الدرس في التاسعة.",
+            "en": "We have class at nine.",
+            "id": "Kami masuk kelas pukul sembilan."
+          }
+        },
+        "hint": {
+          "ar": "上课 فعل ومفعول معًا: «يصعد إلى الدرس». ويُقال 下课 عند انتهاء الدرس.",
+          "en": "上课 is a verb and object together. It is also used for class starting; 下课 means class is over.",
+          "id": "上课 terdiri atas kata kerja dan objek. 下课 berarti kelas selesai."
+        }
+      }
+    ],
+    "cloze": [
+      {
+        "sentence": "我每天七点___。",
+        "answer": "起床",
+        "wrong": [
+          "星期一",
+          "明天"
+        ],
+        "tr": {
+          "ar": "أستيقظ كل يوم في السابعة.",
+          "en": "I get up at seven every day.",
+          "id": "Saya bangun pukul tujuh setiap hari."
+        },
+        "why": {
+          "ar": "بعد الوقت نحتاج إلى فعل، فنقول 起床. 星期一 و明天 كلمات زمنية وليست أفعالًا.",
+          "en": "After the time we need a verb, so we say 起床. 星期一 and 明天 are time words, not verbs.",
+          "id": "Setelah waktu kita membutuhkan kata kerja, jadi dipakai 起床. 星期一 dan 明天 adalah kata waktu, bukan kata kerja."
+        }
+      },
+      {
+        "sentence": "今天是星期三，明天是星期___。",
+        "answer": "四",
+        "wrong": [
+          "二",
+          "五"
+        ],
+        "tr": {
+          "ar": "اليوم الأربعاء وغدًا الخميس.",
+          "en": "Today is Wednesday and tomorrow is Thursday.",
+          "id": "Hari ini Rabu dan besok Kamis."
+        },
+        "why": {
+          "ar": "星期三 هو الأربعاء، والتالي 星期四 (الخميس). 二 هو الثلاثاء (قبله) و五 الجمعة (بعد غد).",
+          "en": "星期三 is Wednesday, and the next day is 星期四 (Thursday). 二 would be Tuesday (before) and 五 Friday (the day after tomorrow).",
+          "id": "星期三 adalah Rabu, hari berikutnya 星期四 (Kamis). 二 berarti Selasa (sebelumnya) dan 五 Jumat (lusa)."
+        }
+      }
+    ],
+    "conversation": {
+      "context": {
+        "ar": "في الجامعة: طالب يسأل زميلًا عن الساعة.",
+        "en": "At university: a student asks a classmate for the time.",
+        "id": "Di kampus: seorang mahasiswa menanyakan jam kepada temannya."
+      },
+      "turns": [
+        {
+          "who": "A",
+          "target": "请问，现在几点？",
+          "tr": {
+            "ar": "لو سمحت، كم الساعة الآن؟",
+            "en": "Excuse me, what time is it now?",
+            "id": "Permisi, sekarang pukul berapa?"
+          }
+        },
+        {
+          "who": "B",
+          "target": "现在三点半。",
+          "tr": {
+            "ar": "الآن الثالثة والنصف.",
+            "en": "It is half past three.",
+            "id": "Sekarang pukul setengah empat."
+          }
+        },
+        {
+          "who": "A",
+          "target": "谢谢！",
+          "tr": {
+            "ar": "شكرًا!",
+            "en": "Thank you!",
+            "id": "Terima kasih!"
+          }
+        }
+      ],
+      "gap": 1,
+      "wrong": [
+        "今天星期一。",
+        "我二十岁。"
+      ],
+      "why": {
+        "ar": "السؤال عن الساعة يُجاب عنه بذكر الساعة. اليوم والعمر لا يجيبان عن هذا السؤال.",
+        "en": "A question about the time is answered with the time. The day and age do not answer this question.",
+        "id": "Pertanyaan tentang jam dijawab dengan menyebut jam. Hari dan usia tidak menjawab pertanyaan ini."
+      }
+    },
+    "summary": {
+      "ar": "تعلّمت السؤال بـ 现在几点？ وأيام الأسبوع بـ 星期 + الرقم، وكلمتي 今天 و明天، وكلمات الروتين 起床 و上课. تذكّر: الوقت قبل الفعل.",
+      "en": "You learned to ask 现在几点？, the days with 星期 + number, the words 今天 and 明天, and routine words 起床 and 上课. Remember: time goes before the verb.",
+      "id": "Anda belajar bertanya 现在几点？, hari dengan 星期 + angka, kata 今天 dan 明天, serta kata rutinitas 起床 dan 上课. Ingat: waktu diletakkan sebelum kata kerja."
+    }
+  },
+  {
+    "id": "zh-10",
+    "track": "zh",
+    "level": "elementary",
+    "order": 10,
+    "topic": "health-help-emergencies",
+    "icon": "🏥",
+    "title": {
+      "ar": "الصحة والمساعدة والطوارئ",
+      "en": "Health, Help and Emergencies",
+      "id": "Kesehatan, Bantuan, dan Keadaan Darurat"
+    },
+    "description": {
+      "ar": "قل إنك مريض واطلب المساعدة وأخبر الآخرين أنك لا تفهم.",
+      "en": "Say you are unwell, ask for help and tell people you do not understand.",
+      "id": "Katakan bahwa Anda sakit, minta bantuan, dan beri tahu orang bahwa Anda tidak mengerti."
+    },
+    "objectives": [
+      {
+        "ar": "أستطيع قول 我不舒服 و我头疼 وطلب 医院 و医生.",
+        "en": "I can say 我不舒服 and 我头疼 and ask for a 医院 or 医生.",
+        "id": "Saya bisa mengatakan 我不舒服 dan 我头疼 serta menyebut 医院 atau 医生."
+      },
+      {
+        "ar": "أستطيع طلب المساعدة بـ 请帮我 و救命.",
+        "en": "I can ask for help with 请帮我 and 救命.",
+        "id": "Saya bisa meminta bantuan dengan 请帮我 dan 救命."
+      },
+      {
+        "ar": "أستطيع القول 我不懂 وطلب 请再说一遍 وأعرف الفرق بين 不 و没.",
+        "en": "I can say 我不懂, ask 请再说一遍 and know the difference between 不 and 没.",
+        "id": "Saya bisa mengatakan 我不懂, meminta 请再说一遍, dan tahu perbedaan 不 dan 没."
+      }
+    ],
+    "intro": {
+      "ar": "أهم العبارات هي التي تحتاجها وقت الضيق: عندما تمرض أو تضيع أو لا تفهم. هذا الدرس يعطيك جملًا قصيرة وواضحة، ويشرح الفرق بين 不 و没 في النفي. لا تتردد في طلب المساعدة، فالناس غالبًا يردّون بلطف.",
+      "en": "The most important phrases are those you need when things go wrong: when you are ill, lost or do not understand. This lesson gives you short, clear sentences and explains the difference between 不 and 没 in negation. Do not hesitate to ask for help; people usually respond kindly.",
+      "id": "Ungkapan terpenting adalah yang Anda butuhkan saat ada masalah: ketika sakit, tersesat, atau tidak mengerti. Pelajaran ini memberi kalimat pendek dan jelas serta menjelaskan perbedaan 不 dan 没 dalam bentuk negatif. Jangan ragu meminta bantuan; orang biasanya menanggapi dengan ramah."
+    },
+    "culture": {
+      "ar": "في البر الرئيسي للصين رقم الإسعاف هو 120 ورقم الشرطة 110. تحقق دائمًا من الأرقام المحلية في المكان الذي تسافر إليه. وعند المرض يُنصح غالبًا بشرب الماء الدافئ والراحة، ويذهب الناس إلى المستشفى 医院 أو العيادة. كما يمكن أن تحمل معك ورقة بالعبارات الأساسية أو تستعين بتطبيق ترجمة.",
+      "en": "In mainland China the ambulance number is 120 and the police number is 110. Always check local numbers for the place you travel to. When people are unwell, warm water and rest are often recommended, and they go to a hospital (医院) or clinic. You can also carry a note with the basic phrases or use a translation app.",
+      "id": "Di daratan Tiongkok nomor ambulans adalah 120 dan nomor polisi 110. Selalu periksa nomor setempat di tempat yang Anda tuju. Saat sakit, air hangat dan istirahat sering dianjurkan, dan orang pergi ke rumah sakit (医院) atau klinik. Anda juga bisa membawa catatan berisi ungkapan dasar atau memakai aplikasi terjemahan."
+    },
+    "grammar": {
+      "title": {
+        "ar": "不 و没 في النفي",
+        "en": "不 vs 没 in negation",
+        "id": "不 vs 没 dalam penyangkalan"
+      },
+      "body": {
+        "ar": "没 تنفي 有: 我没有哥哥 (ليس لدي أخ)، وتنفي أيضًا ما حدث في الماضي: 我没去 (لم أذهب). أما 不 فتنفي الأفعال في الحاضر والعادات والمستقبل والصفات: 我不懂 (لا أفهم)، 我不舒服 (لا أشعر بالراحة)، 我不去 (لن أذهب). ولاحظ أن 请 + فعل تجعل الطلب مهذبًا: 请帮我 و请再说一遍.",
+        "en": "没 negates 有: 我没有哥哥 (I have no older brother), and it also negates what did not happen in the past: 我没去 (I did not go). 不 negates present actions, habits, future intentions and adjectives: 我不懂 (I do not understand), 我不舒服 (I do not feel well), 我不去 (I won't go). Note that 请 + verb makes a request polite: 请帮我 and 请再说一遍.",
+        "id": "没 menyangkal 有: 我没有哥哥 (saya tidak punya kakak laki-laki), dan juga menyangkal hal yang tidak terjadi di masa lampau: 我没去 (saya tidak pergi). 不 menyangkal tindakan sekarang, kebiasaan, niat masa depan, dan kata sifat: 我不懂 (saya tidak mengerti), 我不舒服 (saya merasa tidak enak badan), 我不去 (saya tidak akan pergi). Perhatikan bahwa 请 + kata kerja membuat permintaan sopan: 请帮我 dan 请再说一遍."
+      }
+    },
+    "items": [
+      {
+        "id": "zh10n1",
+        "target": "我不舒服",
+        "translit": "wǒ bù shūfu",
+        "tr": {
+          "ar": "لا أشعر بالراحة",
+          "en": "I don't feel well",
+          "id": "saya merasa tidak enak badan"
+        },
+        "example": {
+          "target": "我今天不舒服，不去上课。",
+          "translit": "wǒ jīntiān bù shūfu, bù qù shàngkè.",
+          "tr": {
+            "ar": "لا أشعر بالراحة اليوم ولن أذهب إلى الدرس.",
+            "en": "I don't feel well today and won't go to class.",
+            "id": "Hari ini saya tidak enak badan dan tidak masuk kelas."
+          }
+        },
+        "hint": {
+          "ar": "舒服 تعني «مريح». و不舒服 تُقال عند التعب أو المرض. المقطع الأخير خفيف.",
+          "en": "舒服 means \"comfortable\". 不舒服 is said when tired or ill. The last syllable is neutral.",
+          "id": "舒服 berarti \"nyaman\". 不舒服 dikatakan saat lelah atau sakit. Suku terakhir netral."
+        }
+      },
+      {
+        "id": "zh10n2",
+        "target": "我头疼",
+        "translit": "wǒ tóu téng",
+        "tr": {
+          "ar": "لدي صداع",
+          "en": "I have a headache",
+          "id": "kepala saya sakit"
+        },
+        "example": {
+          "target": "我头疼，想休息。",
+          "translit": "wǒ tóu téng, xiǎng xiūxi.",
+          "tr": {
+            "ar": "لدي صداع وأريد أن أرتاح.",
+            "en": "I have a headache and want to rest.",
+            "id": "Kepala saya sakit dan ingin istirahat."
+          }
+        },
+        "hint": {
+          "ar": "头 تعني «رأس» و疼 تعني «يؤلم». ويمكن استبدال 头 بـ 肚子 (البطن) مثلًا.",
+          "en": "头 means \"head\" and 疼 means \"to hurt\". You can replace 头 with 肚子 (stomach) for example.",
+          "id": "头 berarti \"kepala\" dan 疼 berarti \"sakit\". 头 bisa diganti misalnya dengan 肚子 (perut)."
+        }
+      },
+      {
+        "id": "zh10n3",
+        "target": "医院",
+        "translit": "yīyuàn",
+        "tr": {
+          "ar": "مستشفى",
+          "en": "hospital",
+          "id": "rumah sakit"
+        },
+        "example": {
+          "target": "我要去医院。",
+          "translit": "wǒ yào qù yīyuàn.",
+          "tr": {
+            "ar": "أريد الذهاب إلى المستشفى.",
+            "en": "I need to go to the hospital.",
+            "id": "Saya harus pergi ke rumah sakit."
+          }
+        },
+        "hint": {
+          "ar": "要 هنا تعني «يجب/سوف». وفي 院 نجد المقطع yuàn.",
+          "en": "要 here means \"need to / will\". The syllable yuàn appears in 院.",
+          "id": "要 di sini berarti \"harus/akan\". Suku yuàn muncul pada 院."
+        }
+      },
+      {
+        "id": "zh10n4",
+        "target": "请帮我",
+        "translit": "qǐng bāng wǒ",
+        "tr": {
+          "ar": "من فضلك ساعدني",
+          "en": "please help me",
+          "id": "tolong bantu saya"
+        },
+        "example": {
+          "target": "不好意思，请帮我一下。",
+          "translit": "bù hǎoyìsi, qǐng bāng wǒ yīxià.",
+          "tr": {
+            "ar": "عفوًا، هل يمكنك أن تساعدني قليلًا؟",
+            "en": "Excuse me, could you help me for a moment?",
+            "id": "Permisi, bisakah Anda membantu saya sebentar?"
+          }
+        },
+        "hint": {
+          "ar": "一下 تُخفّف الطلب وتعني «قليلًا». 帮 تعني «يساعد».",
+          "en": "一下 softens the request and means \"for a moment\". 帮 means \"to help\".",
+          "id": "一下 melunakkan permintaan dan berarti \"sebentar\". 帮 berarti \"membantu\"."
+        }
+      },
+      {
+        "id": "zh10n5",
+        "target": "我不懂",
+        "translit": "wǒ bù dǒng",
+        "tr": {
+          "ar": "لا أفهم",
+          "en": "I don't understand",
+          "id": "saya tidak mengerti"
+        },
+        "example": {
+          "target": "老师，我不懂这个字。",
+          "translit": "lǎoshī, wǒ bù dǒng zhège zì.",
+          "tr": {
+            "ar": "يا معلّم، لا أفهم هذا الحرف.",
+            "en": "Teacher, I don't understand this character.",
+            "id": "Guru, saya tidak mengerti aksara ini."
+          }
+        },
+        "hint": {
+          "ar": "不 + فعل للنفي: 不懂. ولا نقول 没懂 هنا في معنى عدم الفهم العام.",
+          "en": "不 + verb for negation: 不懂. Do not use 没 for a general lack of understanding.",
+          "id": "不 + kata kerja untuk penyangkalan: 不懂. Jangan memakai 没 untuk ketidakpahaman secara umum."
+        }
+      },
+      {
+        "id": "zh10n6",
+        "target": "请再说一遍",
+        "translit": "qǐng zài shuō yī biàn",
+        "tr": {
+          "ar": "من فضلك أعد ما قلت",
+          "en": "please say it again",
+          "id": "tolong ucapkan sekali lagi"
+        },
+        "example": {
+          "target": "对不起，请再说一遍。",
+          "translit": "duìbuqǐ, qǐng zài shuō yī biàn.",
+          "tr": {
+            "ar": "آسف، من فضلك أعد ما قلت.",
+            "en": "Sorry, please say that again.",
+            "id": "Maaf, tolong ucapkan sekali lagi."
+          }
+        },
+        "hint": {
+          "ar": "遍 كلمة عدّ للمرّات. ويمكن أن تضيف 慢一点 (ببطء أكثر).",
+          "en": "遍 is a measure word for times of doing something. You can add 慢一点 (more slowly).",
+          "id": "遍 adalah penggolong untuk berapa kali melakukan sesuatu. Anda bisa menambahkan 慢一点 (lebih pelan)."
+        }
+      },
+      {
+        "id": "zh10n7",
+        "target": "我要看医生",
+        "translit": "wǒ yào kàn yīshēng",
+        "tr": {
+          "ar": "أريد أن أرى طبيبًا",
+          "en": "I need to see a doctor",
+          "id": "saya perlu periksa ke dokter"
+        },
+        "example": {
+          "target": "我不舒服，我要看医生。",
+          "translit": "wǒ bù shūfu, wǒ yào kàn yīshēng.",
+          "tr": {
+            "ar": "لا أشعر بالراحة، أحتاج أن أرى طبيبًا.",
+            "en": "I don't feel well, I need to see a doctor.",
+            "id": "Saya tidak enak badan, saya perlu ke dokter."
+          }
+        },
+        "hint": {
+          "ar": "看医生 حرفيًا «ينظر إلى الطبيب» أي يذهب إلى الطبيب للفحص. 生 في 医生 بنغمة أولى.",
+          "en": "看医生 literally \"look at the doctor\", meaning go to a doctor for a check-up. 生 in 医生 is tone 1.",
+          "id": "看医生 harfiahnya \"melihat dokter\", artinya pergi periksa ke dokter. 生 pada 医生 bernada 1."
+        }
+      },
+      {
+        "id": "zh10n8",
+        "target": "救命！",
+        "translit": "jiùmìng!",
+        "tr": {
+          "ar": "النجدة!",
+          "en": "Help! (emergency)",
+          "id": "Tolong! (darurat)"
+        },
+        "example": {
+          "target": "救命！请帮我！",
+          "translit": "jiùmìng! qǐng bāng wǒ!",
+          "tr": {
+            "ar": "النجدة! ساعدني من فضلك!",
+            "en": "Help! Please help me!",
+            "id": "Tolong! Tolong bantu saya!"
+          }
+        },
+        "hint": {
+          "ar": "تُقال في حالات الخطر الحقيقي فقط. وليس في المواقف العادية.",
+          "en": "Said only in real danger, not in everyday situations.",
+          "id": "Hanya diucapkan dalam bahaya nyata, bukan dalam situasi sehari-hari."
+        }
+      }
+    ],
+    "cloze": [
+      {
+        "sentence": "对不起，我不___。",
+        "answer": "懂",
+        "wrong": [
+          "医院",
+          "星期一"
+        ],
+        "tr": {
+          "ar": "آسف، لا أفهم.",
+          "en": "Sorry, I don't understand.",
+          "id": "Maaf, saya tidak mengerti."
+        },
+        "why": {
+          "ar": "بعد 不 نحتاج فعلًا أو صفة، فنقول 不懂. 医院 و星期一 اسمان ولا يصحّان بعد 不.",
+          "en": "After 不 we need a verb or adjective, so we say 不懂. 医院 and 星期一 are nouns and do not work after 不.",
+          "id": "Setelah 不 diperlukan kata kerja atau kata sifat, jadi dipakai 不懂. 医院 dan 星期一 adalah kata benda dan tidak cocok setelah 不."
+        }
+      },
+      {
+        "sentence": "我___有姐姐。",
+        "answer": "没",
+        "wrong": [
+          "不",
+          "很"
+        ],
+        "tr": {
+          "ar": "ليس لدي أخت كبرى.",
+          "en": "I don't have an older sister.",
+          "id": "Saya tidak punya kakak perempuan."
+        },
+        "why": {
+          "ar": "نفي 有 يكون دائمًا بـ 没: 没有. لا نقول 不有، و很 لا تناسب.",
+          "en": "The negative of 有 is always 没: 没有. We never say 不有, and 很 does not fit.",
+          "id": "Negatif 有 selalu 没: 没有. Kita tidak mengatakan 不有, dan 很 tidak cocok."
+        }
+      }
+    ],
+    "conversation": {
+      "context": {
+        "ar": "في الجامعة: طالب لا يبدو بحال جيدة وزميل يسأله.",
+        "en": "At university: a student looks unwell and a classmate asks.",
+        "id": "Di kampus: seorang mahasiswa tampak tidak sehat dan temannya bertanya."
+      },
+      "turns": [
+        {
+          "who": "A",
+          "target": "你怎么了？",
+          "tr": {
+            "ar": "ما بك؟",
+            "en": "What's wrong?",
+            "id": "Kamu kenapa?"
+          }
+        },
+        {
+          "who": "B",
+          "target": "我不舒服，我头疼。",
+          "tr": {
+            "ar": "لا أشعر بالراحة، لدي صداع.",
+            "en": "I don't feel well, I have a headache.",
+            "id": "Saya tidak enak badan, kepala saya sakit."
+          }
+        },
+        {
+          "who": "A",
+          "target": "你去医院吧。",
+          "tr": {
+            "ar": "اذهب إلى المستشفى.",
+            "en": "You should go to the hospital.",
+            "id": "Sebaiknya kamu pergi ke rumah sakit."
+          }
+        }
+      ],
+      "gap": 1,
+      "wrong": [
+        "我想吃面条。",
+        "我是学生。"
+      ],
+      "why": {
+        "ar": "السؤال هو «ما بك؟»، والرد المناسب وصف الشكوى. طلب الطعام أو التعريف بالنفس لا يناسبان السؤال.",
+        "en": "The question is \"what's wrong?\", so the fitting reply describes the problem. Ordering food or introducing yourself does not fit the question.",
+        "id": "Pertanyaannya \"kamu kenapa?\", jadi jawaban yang pas menjelaskan keluhan. Memesan makanan atau memperkenalkan diri tidak sesuai dengan pertanyaan."
+      }
+    },
+    "summary": {
+      "ar": "تعلّمت قول 我不舒服 و我头疼، وطلب 请帮我 و请再说一遍، والتعبير عن 我不懂، والفرق بين 不 و没. احفظ أرقام الطوارئ المحلية قبل السفر.",
+      "en": "You learned to say 我不舒服 and 我头疼, to ask 请帮我 and 请再说一遍, to say 我不懂, and the difference between 不 and 没. Save the local emergency numbers before you travel.",
+      "id": "Anda belajar mengatakan 我不舒服 dan 我头疼, meminta 请帮我 dan 请再说一遍, mengatakan 我不懂, serta perbedaan 不 dan 没. Simpan nomor darurat setempat sebelum bepergian."
+    }
+  }
+]

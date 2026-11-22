@@ -11,7 +11,11 @@ const LOCALE_PREFS = {
   ar: ['ar-SA', 'ar-001', 'ar-AE', 'ar-EG', 'ar-JO', 'ar-KW', 'ar-QA'],
   'ar:sa': ['ar-SA', 'ar-AE', 'ar-KW', 'ar-QA', 'ar-001', 'ar-EG', 'ar-JO'],
   en: ['en-US', 'en-GB', 'en-AU', 'en-IN'],
+  'ar:eg': ['ar-EG', 'ar-SA', 'ar-001', 'ar-AE', 'ar-JO', 'ar-KW', 'ar-QA'],
   id: ['id-ID'],
+  fr: ['fr-FR', 'fr-CA', 'fr-BE', 'fr-CH'],
+  es: ['es-ES', 'es-MX', 'es-US', 'es-AR', 'es-CO'],
+  zh: ['zh-CN', 'zh-TW', 'zh-HK'],
 };
 
 const normLang = (l) => String(l || '').replace('_', '-').toLowerCase();
@@ -20,7 +24,7 @@ const normLang = (l) => String(l || '').replace('_', '-').toLowerCase();
 export function pickVoice(voices, lang, track) {
   const list = (voices || []).filter((v) => normLang(v.lang).startsWith(lang));
   if (!list.length) return null;
-  const prefs = LOCALE_PREFS[track === 'sa' && lang === 'ar' ? 'ar:sa' : lang] || [];
+  const prefs = LOCALE_PREFS[lang === 'ar' && track === 'sa' ? 'ar:sa' : lang === 'ar' && track === 'eg' ? 'ar:eg' : lang] || [];
   for (const p of prefs) {
     const hit = list.filter((v) => normLang(v.lang) === p.toLowerCase());
     if (hit.length) return { voice: hit.find((v) => v.default) || hit.find((v) => v.localService) || hit[0], exact: p === prefs[0] };
@@ -93,7 +97,7 @@ export class AudioService {
   }
 
   /**
-   * Play `text` spoken in `lang` ('ar' | 'en' | 'id'). `track` ('sa' for Saudi) only influences voice choice and labelling.
+   * Play `text` spoken in `lang` ('ar' | 'en' | 'id' | 'fr' | 'es' | 'zh'). `track` ('sa' Saudi, 'eg' Egyptian) only influences voice choice and labelling.
    * Resolves when playback ends. Replaces any clip that is currently playing.
    */
   async play({ text, lang, track, key: keyOverride }) {

@@ -2,15 +2,22 @@
 // Pure JS, no DOM: it can run in Node directly.
 
 export const UI_LANGS = ['ar', 'en', 'id'];
-export const TRACKS = ['ar', 'sa', 'en', 'id'];
+export const TRACKS = ['ar', 'sa', 'eg', 'en', 'id', 'fr', 'es', 'zh'];
+/** Dialect tracks teach a spoken variety of Arabic; their text is Arabic script and their audio is a Standard Arabic voice. */
+export const DIALECT_TRACKS = ['sa', 'eg'];
+/** Tracks not yet reviewed by a native speaker, and how many lessons each is expected to have in this release. */
+export const BETA_TRACKS = ['eg', 'fr', 'es', 'zh'];
+export const TRACK_SIZES = { ar: 30, sa: 30, en: 30, id: 30, eg: 10, fr: 10, es: 10, zh: 10 };
 export const LEVELS = ['beginner', 'elementary', 'intermediate'];
 const ARABIC = /[؀-ۿ]/;
+const CJK = /[\u3400-\u9fff]/;
+const PINYIN_TONE = /[āáǎàēéěèīíǐìōóǒòūúǔùǖǘǚǜ]/;
 const LATIN = /[A-Za-z]/;
 
 const isStr = (v) => typeof v === 'string' && v.trim().length > 0;
 
-/** The language a track teaches ('sa' teaches Arabic). */
-export const trackLang = (track) => (track === 'sa' ? 'ar' : track);
+/** The language a track teaches ('sa' and 'eg' teach Arabic). */
+export const trackLang = (track) => (track === 'sa' || track === 'eg' ? 'ar' : track);
 
 function checkTri(obj, path, errors, { allowSame } = {}) {
   if (!obj || typeof obj !== 'object') {
@@ -33,15 +40,16 @@ function checkTarget(text, track, path, errors) {
   }
   const lang = trackLang(track);
   if (lang === 'ar' && !ARABIC.test(text)) errors.push(`${path}: Arabic track text has no Arabic script`);
-  if (lang !== 'ar' && ARABIC.test(text)) errors.push(`${path}: Latin-script track text contains Arabic script`);
-  if (lang !== 'ar' && !LATIN.test(text)) errors.push(`${path}: no Latin letters`);
+  if (lang !== 'ar' && ARABIC.test(text)) errors.push(`${path}: non-Arabic track text contains Arabic script`);
+  if (lang === 'zh') { if (!CJK.test(text)) errors.push(`${path}: Chinese track text has no Chinese characters`); if (/\s/.test(text.trim())) errors.push(`${path}: Chinese text must not contain spaces`); }
+  else if (lang !== 'ar' && !LATIN.test(text)) errors.push(`${path}: no Latin letters`);
 }
 
 export function validateLesson(lesson, ctx = {}) {
   const errors = [];
   const p = `lesson ${lesson?.id ?? '?'}`;
   if (!lesson || typeof lesson !== 'object') return [`${p}: not an object`];
-  if (!isStr(lesson.id) || !/^(ar|sa|en|id)-\d{2}$/.test(lesson.id)) errors.push(`${p}: bad id`);
+  if (!isStr(lesson.id) || !/^(ar|sa|eg|en|id|fr|es|zh)-\d{2}$/.test(lesson.id)) errors.push(`${p}: bad id`);
   if (!TRACKS.includes(lesson.track)) errors.push(`${p}: bad track`);
   if (lesson.id && lesson.track && !lesson.id.startsWith(lesson.track + '-')) errors.push(`${p}: id/track mismatch`);
   if (!LEVELS.includes(lesson.level)) errors.push(`${p}: bad level ${lesson.level}`);
@@ -71,6 +79,8 @@ export function validateLesson(lesson, ctx = {}) {
       if (seenTargets.has(it.target)) errors.push(`${ip}: duplicate target within lesson`);
       seenTargets.add(it.target);
       if (!isStr(it.translit)) errors.push(`${ip}.translit missing`);
+      else if (trackLang(lesson.track) === 'zh' && it.target.length > 1 && !PINYIN_TONE.test(it.translit)) errors.push(`${ip}.translit: pinyin needs tone marks (e.g. nǐ hǎo)`);
+      else if (trackLang(lesson.track) === 'zh' && CJK.test(it.translit)) errors.push(`${ip}.translit: must be pinyin, not Chinese characters`);
       checkTri(it.tr, `${ip}.tr`, errors);
       const tl = trackLang(lesson.track);
       if (it.tr && isStr(it.tr[tl]) && it.tr[tl].trim() === it.target.trim()) {

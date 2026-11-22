@@ -7,6 +7,7 @@ import SpeakButton from '../../components/SpeakButton.jsx';
 import SpeakingPractice from '../speaking/SpeakingPractice.jsx';
 import { useProgress } from '../../app/ProgressContext.jsx';
 import { toggleSaved, ACHIEVEMENTS } from '../progress/engine.js';
+import { isDialect } from '../../data/content.js';
 import { useDerived } from '../progress/selectors.js';
 
 export function Overview({ lesson, ui, onStart }) {
@@ -49,7 +50,7 @@ export function LearnCards({ lesson, ui, onDone }) {
   const saved = state.saved[it.id] !== undefined;
   const last = i === lesson.items.length - 1;
   const track = lesson.track;
-  const isSa = track === 'sa';
+  const isSa = isDialect(track); // Saudi and Egyptian: read by a Standard Arabic voice
   const showMsa = isSa && ui !== 'ar';
   return (
     <section className="card word-card" aria-live="polite" data-testid="word-card">
@@ -67,7 +68,7 @@ export function LearnCards({ lesson, ui, onDone }) {
         <div className="speak-row">
           <SpeakButton text={it.target} track={track} variant="pill" label={t('lesson.listenWord')} />
         </div>
-        {isSa && <p className="note-small">{t('audio.saNote')}</p>}
+        {isSa && <p className="note-small">{t(track === 'eg' ? 'audio.egNote' : 'audio.saNote')}</p>}
       </div>
       <dl className="meaning-block">
         <dt>{t('lesson.meaning')}</dt>

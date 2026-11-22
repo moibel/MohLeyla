@@ -22,7 +22,7 @@ export default defineConfig(({ mode }) => ({
         id: '/',
         name: 'MohLeyla',
         short_name: 'MohLeyla',
-        description: 'Learn Modern Standard Arabic, Saudi Arabic, English and Indonesian.',
+        description: 'Learn Arabic (Standard, Saudi, Egyptian), English, Indonesian, French, Spanish and Chinese.',
         start_url: '/',
         scope: '/',
         display: 'standalone',
