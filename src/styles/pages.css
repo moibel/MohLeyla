@@ -233,3 +233,14 @@ html[data-theme='dark'] .motto,:root:not([data-theme='light']) .motto{color:var(
 .about-foot,.creator-card{min-inline-size:0}
 @media (prefers-reduced-motion:reduce){.content>.page{animation:none}}
 .stack-sm>.h-md{margin-block-end:0}
+
+/* ---- result: today's goal, streak, new achievements ---- */
+.today-card{display:flex;flex-direction:column;gap:12px}
+.today-row{display:flex;align-items:center;gap:14px}
+.today-row .stat-badge{inline-size:48px;block-size:48px;border-radius:16px}
+.today-streak{font-size:1.15rem}
+.ach-new{border:2px solid color-mix(in srgb,var(--sun) 70%,var(--border));background:color-mix(in srgb,var(--sun) 10%,var(--surface));animation:ach-pop .5s var(--ease) both}
+.ach-new ul{display:flex;flex-direction:column;gap:6px}
+.result-hero .confetti{animation:ach-pop .6s var(--ease) both}
+@keyframes ach-pop{from{transform:scale(.92)}to{transform:none}}
+@media (prefers-reduced-motion:reduce){.ach-new,.result-hero .confetti{animation:none}}

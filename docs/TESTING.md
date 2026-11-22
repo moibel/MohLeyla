@@ -9,7 +9,7 @@ Automated tests were run on **macOS, Node 26, Chromium (Playwright headless shel
 | Content validation (strict) | `npm run validate:content` | 120 lessons / 726 items OK |
 | i18n parity | `npm run validate:i18n` | 348 base keys, ar = en = id |
 | Unit tests (Vitest) | `npm test` | 114 passed |
-| Browser tests (Playwright) | `npm run test:e2e` | 117 passed |
+| Browser tests (Playwright) | `npm run test:e2e` | 121 passed |
 | Production build | `npm run build` | OK, PWA precache generated |
 
 ## What is covered
