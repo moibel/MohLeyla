@@ -4,6 +4,7 @@ import { ArrowRight, ArrowLeft, Flame, Target, Brain, Sparkles } from 'lucide-re
 import { Button, Ring, ProgressBar, Logo } from '../components/ui.jsx';
 import LessonCard from '../components/LessonCard.jsx';
 import { TRACKS, TRACK_META, lessonsOfTrack } from '../data/content.js';
+import { orderedTracks, defaultTrack } from '../data/trackOrder.js';
 import { useProgress } from '../app/ProgressContext.jsx';
 import { nextLessonOf, useDerived } from '../features/progress/selectors.js';
 import { useSync } from '../features/sync/useSync.js';
@@ -19,8 +20,8 @@ export default function Home() {
   const Arrow = rtl ? ArrowLeft : ArrowRight;
   const goal = state.settings.goal;
   const hasStarted = state.xp > 0 || d.completedCount > 0;
-  const focusTrack = state.settings.lastTrack || 'ar';
-  const next = nextLessonOf(state, focusTrack) || TRACKS.map((k) => nextLessonOf(state, k)).find(Boolean);
+  const focusTrack = state.settings.lastTrack || defaultTrack(i18n.language);
+  const next = nextLessonOf(state, focusTrack) || orderedTracks(i18n.language).map((k) => nextLessonOf(state, k)).find(Boolean);
   const pct = Math.min(100, Math.round((d.todayXp / goal) * 100));
 
   return (
@@ -79,7 +80,7 @@ export default function Home() {
           <p className="muted">{t('home.chooseTrackSub')}</p>
         </div>
         <div className="track-grid">
-          {TRACKS.map((k) => {
+          {orderedTracks(i18n.language).map((k) => {
             const list = lessonsOfTrack(k);
             const done = list.filter((l) => state.completed[l.id]).length;
             return (
@@ -104,7 +105,7 @@ export default function Home() {
           <Link className="link-strong" to="/learn">{t('common.seeAll')}</Link>
         </div>
         <div className="lesson-grid">
-          {TRACKS.map((k) => nextLessonOf(state, k)).filter(Boolean).map((m) => (
+          {orderedTracks(i18n.language).map((k) => nextLessonOf(state, k)).filter(Boolean).map((m) => (
             <LessonCard key={m.id} meta={m} completed={false} recommended={m.id === next?.id} />
           ))}
         </div>

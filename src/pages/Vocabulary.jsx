@@ -3,7 +3,8 @@ import { useTranslation } from 'react-i18next';
 import { Search, Bookmark, BookmarkCheck } from 'lucide-react';
 import { PageHeading, EmptyState, Chip, TargetText, Bidi, Spinner, Button } from '../components/ui.jsx';
 import SpeakButton from '../components/SpeakButton.jsx';
-import { loadItems, TRACKS } from '../data/content.js';
+import { loadItems } from '../data/content.js';
+import { orderedTracks } from '../data/trackOrder.js';
 import { useProgress } from '../app/ProgressContext.jsx';
 import { toggleSaved, isMastered, isDifficult } from '../features/progress/engine.js';
 import { diffDays, localDay } from '../utils/dates.js';
@@ -72,7 +73,7 @@ export default function Vocabulary() {
         <label className="select-wrap"><span className="sr-only">{t('vocab.language')}</span>
           <select value={lang} onChange={(e) => setLang(e.target.value)} aria-label={t('vocab.language')}>
             <option value="all">{t('common.all')}</option>
-            {TRACKS.map((k) => <option key={k} value={k}>{t(`tracks.${k}.short`)}</option>)}
+            {orderedTracks(i18n.language).map((k) => <option key={k} value={k}>{t(`tracks.${k}.short`)}</option>)}
           </select>
         </label>
         <label className="select-wrap"><span className="sr-only">{t('vocab.status')}</span>
