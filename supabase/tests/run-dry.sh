@@ -10,6 +10,7 @@ cd "$(dirname "$0")/.." || exit 1
 case "${1:-roles}" in
   announcements) cat migrations/002_roles_classes.sql migrations/003_rewards.sql migrations/004_announcements.sql migrations/006_announcements_pro.sql tests/announcements.test.sql ;;
   switch) cat migrations/002_roles_classes.sql migrations/005_content_switch.sql tests/content_switch.test.sql ;;
+  calls) cat migrations/002_roles_classes.sql migrations/007_chat.sql migrations/008_chat_attachments.sql migrations/010_calls.sql tests/calls.test.sql ;;
   attachments) cat migrations/002_roles_classes.sql migrations/007_chat.sql migrations/008_chat_attachments.sql tests/chat_attachments.test.sql ;;
   chat) cat migrations/002_roles_classes.sql migrations/007_chat.sql tests/chat.test.sql ;;
   rewards) cat migrations/002_roles_classes.sql migrations/003_rewards.sql tests/rewards.test.sql ;;

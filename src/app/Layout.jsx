@@ -17,6 +17,7 @@ import { useRewards } from '../features/rewards/store.js';
 import { useAvailabilitySync } from '../features/availability/sync.js';
 import { useNotifications } from '../features/notifications/useNotifications.js';
 import { useChatUnread } from '../features/chat/unread.js';
+import CallLayer from '../features/calls/CallLayer.jsx';
 import RewardNotice from '../features/rewards/RewardNotice.jsx';
 import AnnouncementPopup from '../features/announcements/AnnouncementPopup.jsx';
 
@@ -145,6 +146,7 @@ export default function Layout({ pwa }) {
       <NamePrompt />
       <RewardNotice />
       <AnnouncementPopup />
+      <CallLayer />
     </div>
   );
 }

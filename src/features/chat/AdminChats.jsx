@@ -4,6 +4,7 @@ import { Eye, Trash2 } from 'lucide-react';
 import { Button, Chip } from '../../components/ui.jsx';
 import { adminListChats, adminChatMessages, adminRemoveMessage, adminExpiredFiles } from '../classes/api.js';
 import ChatFile from './ChatFile.jsx';
+import { callText } from '../calls/format.js';
 import { removeFiles } from './files.js';
 import { LANG_META } from '../../i18n/index.js';
 
@@ -71,8 +72,8 @@ export default function AdminChats() {
             {(msgs || []).map((m) => (
               <li key={m.id} className={m.removed ? 'removed' : ''} data-testid="admin-msg-row">
                 <span className="muted small">{fmt(m.created_at)} · <bdi>{m.sender_name}</bdi></span>
-                {m.kind && m.kind !== 'text' && !m.removed && <ChatFile m={m} />}
-                <p><bdi>{m.body}</bdi>{m.removed && <Chip>{t('chat.admin.wasRemoved')}</Chip>}</p>
+                {m.kind && m.kind !== 'text' && m.kind !== 'call' && !m.removed && <ChatFile m={m} />}
+                <p><bdi>{m.kind === 'call' ? callText(t, m.body) : m.body}</bdi>{m.removed && <Chip>{t('chat.admin.wasRemoved')}</Chip>}</p>
                 {!m.removed && <Button variant="ghost" size="sm" icon={<Trash2 size={14} aria-hidden="true" />} onClick={() => { setPending(m); dlg.current?.showModal(); }} data-testid="admin-msg-remove">{t('chat.admin.remove')}</Button>}
               </li>
             ))}

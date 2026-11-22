@@ -10,6 +10,7 @@ import { useAnnouncements, pick } from '../features/announcements/store.js';
 import { describe } from '../features/rewards/format.js';
 import { lastOpened, markOpened } from '../features/notifications/store.js';
 import { myChats } from '../features/classes/api.js';
+import { callText } from '../features/calls/format.js';
 import { LANG_META } from '../i18n/index.js';
 
 function Inner() {
@@ -37,7 +38,7 @@ function Inner() {
           <ul className="notif-list">
             {unreadChats.map((c) => (
               <li key={c.conversation_id}><Link to={`/chat/${c.conversation_id}`} className="notif-item" data-testid="notif-chat">
-                <span><strong><bdi>{c.other_name}</bdi></strong> <span className="muted">· {t('chat.unreadCount', { count: c.unread })}</span><br /><span className="muted small"><bdi>{c.last_body}</bdi></span></span>
+                <span><strong><bdi>{c.other_name}</bdi></strong> <span className="muted">· {t('chat.unreadCount', { count: c.unread })}</span><br /><span className="muted small"><bdi>{c.last_kind === 'call' ? callText(t, c.last_body) : c.last_body}</bdi></span></span>
                 <Chip tone="brand">{t('notifications.new')}</Chip>
               </Link></li>
             ))}

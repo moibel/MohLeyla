@@ -1,11 +1,14 @@
 import { useCallback, useEffect, useRef, useState } from 'react';
 import { Link, useNavigate, useParams } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
-import { ArrowLeft, ArrowRight, Send, ShieldCheck, MessageCircle, Mic, ImagePlus, Square, X, Trash2 } from 'lucide-react';
+import { ArrowLeft, ArrowRight, Send, ShieldCheck, MessageCircle, Mic, ImagePlus, Square, X, Trash2, Phone, Video } from 'lucide-react';
 import { PageHeading, Button, Chip, EmptyState, Flip } from '../components/ui.jsx';
 import Avatar from '../components/Avatar.jsx';
 import RequireAccount from '../features/classes/RequireAccount.jsx';
-import { myChats, chatMessages, sendMessage, markChatRead, sendAttachment } from '../features/classes/api.js';
+import { myChats, chatMessages, sendMessage, markChatRead, sendAttachment, startCall } from '../features/classes/api.js';
+import { useSync } from '../features/sync/useSync.js';
+import { openCall } from '../features/calls/useCalls.js';
+import { callText } from '../features/calls/format.js';
 import ChatFile, { fmtDuration } from '../features/chat/ChatFile.jsx';
 import { uploadChatFile, shrinkImage, audioFormat, MAX_VOICE_MS, FileError } from '../features/chat/files.js';
 import { Recorder } from '../features/speaking/recorder.js';
@@ -26,7 +29,7 @@ const useVisibleInterval = (fn, ms, deps) => {
 
 function PrivacyNote() {
   const { t } = useTranslation();
-  return <p className="chat-privacy" data-testid="chat-privacy"><ShieldCheck size={16} aria-hidden="true" /> {t('chat.privacy')}</p>;
+  return <p className="chat-privacy" data-testid="chat-privacy"><ShieldCheck size={16} aria-hidden="true" /> {t('chat.privacy')} {t('calls.privacy')}</p>;
 }
 
 function ChatList() {
@@ -53,7 +56,7 @@ function ChatList() {
                 <Avatar profile={{ name: c.other_name, email: c.other_id }} size={44} />
                 <span className="chat-row-main">
                   <span className="chat-row-top"><strong><bdi>{c.other_name}</bdi></strong><Chip>{t(`admin.roles.${c.other_role}`)}</Chip></span>
-                  <span className="chat-preview muted"><bdi>{c.last_kind === 'voice' || c.last_kind === 'image' ? `${c.last_is_mine ? `${t('chat.you')}: ` : ''}${t(c.last_kind === 'voice' ? 'chat.voiceNote' : 'chat.photo')}${c.last_body ? ` · ${c.last_body}` : ''}` : c.last_body ? `${c.last_is_mine ? `${t('chat.you')}: ` : ''}${c.last_body}` : t('chat.noMessages')}</bdi></span>
+                  <span className="chat-preview muted"><bdi>{c.last_kind === 'call' ? callText(t, c.last_body) : c.last_kind === 'voice' || c.last_kind === 'image' ? `${c.last_is_mine ? `${t('chat.you')}: ` : ''}${t(c.last_kind === 'voice' ? 'chat.voiceNote' : 'chat.photo')}${c.last_body ? ` · ${c.last_body}` : ''}` : c.last_body ? `${c.last_is_mine ? `${t('chat.you')}: ` : ''}${c.last_body}` : t('chat.noMessages')}</bdi></span>
                 </span>
                 <span className="chat-row-side"><small className="muted">{time(c.last_at)}</small>{c.unread > 0 && <span className="count-badge" data-testid="chat-unread" aria-label={t('chat.unreadCount', { count: c.unread })}>{c.unread}</span>}</span>
               </Link>
@@ -73,6 +76,9 @@ function Thread({ id }) {
   const [text, setText] = useState('');
   const [busy, setBusy] = useState(false);
   const [err, setErr] = useState(null);
+  const sy = useSync();
+  const canCall = sy.role === 'admin' || sy.role === 'teacher'; // the database decides; this only hides buttons that would be refused
+  const [calling, setCalling] = useState(false);
   const [pending, setPending] = useState(null); // an attachment ready to send: { kind, blob, mime, ext, url, durationMs }
   const [recording, setRecording] = useState(null); // { startedAt }
   const [secs, setSecs] = useState(0);
@@ -134,6 +140,13 @@ function Thread({ id }) {
     } catch (ex) { failWith(ex); }
   };
 
+  const call = async (media) => {
+    if (calling) return;
+    setCalling(true); setErr(null);
+    try { const callId = await startCall(id, media); openCall({ callId, media, isCaller: true, name: other?.other_name || '', otherId: other?.other_id, conversationId: id }); }
+    catch (ex) { setErr(ex.code === 'notAllowed' ? 'callNotAllowed' : ex.code === 'slowDown' ? 'slowDown' : 'callFailed'); }
+    setCalling(false);
+  };
   const send = async (e) => {
     e?.preventDefault();
     const body = text.trim();
@@ -159,7 +172,13 @@ function Thread({ id }) {
       <Link to="/chat" className="back-link"><Flip><Arrow size={18} /></Flip> {t('chat.title')}</Link>
       <header className="chat-head">
         {other && <Avatar profile={{ name: other.other_name, email: other.other_id }} size={44} />}
-        <div><h1 className="chat-name"><bdi>{other?.other_name || '…'}</bdi></h1>{other && <Chip>{t(`admin.roles.${other.other_role}`)}</Chip>}</div>
+        <div className="chat-head-main"><h1 className="chat-name"><bdi>{other?.other_name || '…'}</bdi></h1>{other && <Chip>{t(`admin.roles.${other.other_role}`)}</Chip>}</div>
+        {canCall && other && (
+          <div className="chat-call-btns">
+            <button type="button" className="icon-btn" onClick={() => call('audio')} disabled={calling} aria-label={t('calls.startVoice')} title={t('calls.startVoice')} data-testid="start-voice-call"><Phone size={22} aria-hidden="true" /></button>
+            <button type="button" className="icon-btn" onClick={() => call('video')} disabled={calling} aria-label={t('calls.startVideo')} title={t('calls.startVideo')} data-testid="start-video-call"><Video size={22} aria-hidden="true" /></button>
+          </div>
+        )}
       </header>
       <PrivacyNote />
       <div className="chat-scroll card" ref={listRef} onScroll={onScroll} role="log" aria-live="polite" aria-label={t('chat.messages')} data-testid="chat-log">
@@ -168,11 +187,11 @@ function Thread({ id }) {
         {msgs && msgs.map((m, i) => (
           <div key={m.id}>
             {(i === 0 || day(msgs[i - 1].created_at) !== day(m.created_at)) && <p className="chat-day">{day(m.created_at)}</p>}
-            <div className={`bubble-msg ${m.mine ? 'mine' : 'theirs'} ${m.removed ? 'removed' : ''}`} data-testid="chat-msg">
+            {m.kind === 'call' ? <p className="call-line" data-testid="call-line"><Phone size={14} aria-hidden="true" /> {callText(t, m.body)} · {time(m.created_at)}</p> : <div className={`bubble-msg ${m.mine ? 'mine' : 'theirs'} ${m.removed ? 'removed' : ''}`} data-testid="chat-msg">
               {!m.removed && m.kind && m.kind !== 'text' && <ChatFile m={m} />}
               {(m.removed || m.body) && <p className="bubble-text">{m.removed ? <em>{t('chat.removed')}</em> : <bdi>{m.body}</bdi>}</p>}
               <small className="bubble-time">{time(m.created_at)}</small>
-            </div>
+            </div>}
           </div>
         ))}
         <div ref={endRef} />
