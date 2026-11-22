@@ -14,7 +14,8 @@
     "validate:i18n": "node scripts/validate-i18n.mjs",
     "generate:audio": "node scripts/generate-audio.mjs",
     "generate:icons": "node scripts/generate-icons.mjs",
-    "check": "npm run validate:content && npm run validate:i18n && npm test && npm run build",
+    "check:size": "node scripts/check-bundle-size.mjs",
+    "check": "npm run validate:content && npm run validate:i18n && npm test && npm run build && npm run check:size",
     "prebuild": "node scripts/build-manifest.mjs",
     "predev": "node scripts/build-manifest.mjs",
     "pretest": "node scripts/build-manifest.mjs"

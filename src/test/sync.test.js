@@ -336,3 +336,55 @@ describe('role', () => {
     expect(mgr.getSnapshot().role).toBeNull();
   });
 });
+
+describe('automatic retry after a failed sync', () => {
+  it('retries with growing waits, recovers by itself, and stops once synced', async () => {
+    vi.useFakeTimers();
+    try {
+      const server = makeServer();
+      const d = device(server, win('d1', 'ar-01'));
+      await signIn(d);
+      await d.mgr.syncNow();
+      expect(d.mgr.getSnapshot().status).toBe('synced');
+      d.state = win('d1', 'ar-02');
+      server.failNext = { message: 'boom' };
+      await d.mgr.syncNow();
+      expect(d.mgr.getSnapshot().status).toBe('error');
+      // still failing at the first retry: waits longer the second time
+      server.failNext = { message: 'boom again' };
+      await vi.advanceTimersByTimeAsync(5000);
+      expect(d.mgr.getSnapshot().status).toBe('error');
+      await vi.advanceTimersByTimeAsync(5000);
+      expect(d.mgr.getSnapshot().status).toBe('error'); // second wait is 15 s, not due yet
+      await vi.advanceTimersByTimeAsync(10000);
+      expect(d.mgr.getSnapshot().status).toBe('synced'); // server healthy again: recovered without any user action
+      const calls = server.calls.select;
+      await vi.advanceTimersByTimeAsync(600000);
+      expect(server.calls.select).toBe(calls); // no further retries once synced
+    } finally { vi.useRealTimers(); }
+  });
+
+  it('does not retry while offline (the online event handles it) and stops on sign-out', async () => {
+    vi.useFakeTimers();
+    try {
+      const server = makeServer();
+      let online = true;
+      const d = device(server, win('d1', 'ar-01'), { getOnline: () => online });
+      await signIn(d);
+      online = false;
+      await d.mgr.syncNow();
+      expect(d.mgr.getSnapshot().status).toBe('offline');
+      const before = server.calls.select;
+      await vi.advanceTimersByTimeAsync(600000);
+      expect(server.calls.select).toBe(before);
+      online = true;
+      server.failNext = { message: 'x' };
+      await d.mgr.syncNow();
+      expect(d.mgr.getSnapshot().status).toBe('error');
+      await d.mgr.signOut();
+      const after = server.calls.select;
+      await vi.advanceTimersByTimeAsync(600000);
+      expect(server.calls.select).toBe(after); // sign-out cancelled the pending retry
+    } finally { vi.useRealTimers(); }
+  });
+});

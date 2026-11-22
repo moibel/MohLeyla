@@ -612,6 +612,12 @@ export default {
     notFoundText: 'The page you are looking for does not exist.',
     goHome: 'Go to home',
     storageUnavailable: 'Your browser blocked local storage, so progress cannot be saved.',
+    crashTitle: 'Something went wrong',
+    crashText: 'The app hit an unexpected problem. Your progress is safe on this device.',
+    crashRetry: 'Try again',
+    crashReload: 'Reload',
+    crashFix: 'Clear cached copy and reload',
+    crashFixHint: 'Use this if reloading does not help. Your progress is kept.',
   },
   a11y: {
     progressbar: 'Progress',

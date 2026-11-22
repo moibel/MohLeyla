@@ -9,6 +9,8 @@ export const LINK_KEY = 'mohleyla-sync-link'; // user id whose cloud data this d
 export const HINT_KEY = 'mohleyla-session-hint'; // { userId, email, profile } of the last signed-in user, so reopening offline stays signed in
 export const NAME_ASKED_KEY = 'mohleyla-name-asked'; // user ids that were already asked for a display name
 const DEBOUNCE_MS = 2500;
+// After a failed sync while online (server hiccup, flaky network) try again by itself, waiting longer each time, then every 5 minutes.
+export const RETRY_MS = [5000, 15000, 45000, 120000, 300000];
 const hasProgress = (s) => s.xp > 0 || Object.keys(s.completed).length > 0 || Object.keys(s.saved).length > 0;
 const isEmail = (v) => /^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/.test(String(v).trim());
 
@@ -32,6 +34,8 @@ export class SyncManager {
     this.clientPromise = null;
     this.api = null; // { getState, apply }
     this.timer = null;
+    this.retryTimer = null;
+    this.retryIdx = 0;
     this.chain = Promise.resolve();
     const hint = this.readHint();
     // `restoring` is true until we know whether a stored session is still valid, so the UI never flashes a sign-in screen.
@@ -52,6 +56,7 @@ export class SyncManager {
     this.set({ userId: user.id, email: user.email || null, profile, role, ...extra });
   }
   clearUser(extra = {}) {
+    this.stopRetry();
     this.storage.removeItem(HINT_KEY);
     this.set({ status: 'signedOut', userId: null, email: null, profile: null, role: null, pendingChoice: false, restoring: false, ...extra });
   }
@@ -187,6 +192,14 @@ export class SyncManager {
     }
   }
 
+  stopRetry() { clearTimeout(this.retryTimer); this.retryTimer = null; this.retryIdx = 0; }
+  scheduleRetry() {
+    clearTimeout(this.retryTimer);
+    const wait = RETRY_MS[Math.min(this.retryIdx, RETRY_MS.length - 1)];
+    this.retryIdx++;
+    this.retryTimer = setTimeout(() => this.syncNow(), wait);
+  }
+
   async signOut() {
     clearTimeout(this.timer);
     try { if (this.client) await this.client.auth.signOut(); } catch { /* ignore: local sign-out below */ }
@@ -247,10 +260,13 @@ export class SyncManager {
         if (upErr) throw upErr;
       }
       this.storage.setItem(LINK_KEY, userId);
+      this.stopRetry();
       this.set({ status: 'synced', lastSyncedAt: Date.now(), pendingChoice: false });
       this.refreshRole();
     } catch (e) {
-      this.set({ status: this.getOnline() ? 'error' : 'offline', error: this.getOnline() ? 'syncFailed' : null, errorId: this.snapshot.errorId + 1 });
+      const online = this.getOnline();
+      this.set({ status: online ? 'error' : 'offline', error: online ? 'syncFailed' : null, errorId: this.snapshot.errorId + 1 });
+      if (online && this.snapshot.userId) this.scheduleRetry(); // offline: the 'online' event triggers the next try instead
     }
   }
 
