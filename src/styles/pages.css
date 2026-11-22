@@ -292,3 +292,13 @@ html[data-theme='dark'] .motto,:root:not([data-theme='light']) .motto{color:var(
 .switch-row{display:flex;gap:12px;align-items:flex-start;padding:10px 0;min-block-size:44px}
 .switch-row input{inline-size:22px;block-size:22px;margin-block-start:2px;flex:none;accent-color:var(--brand)}
 .content-lessons{display:grid;gap:0;padding-block-end:8px;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));column-gap:20px}
+
+/* ---- admin: tabs, and containment fixes ---- */
+.table-scroll{position:relative} /* keeps visually-hidden (position:absolute) cells inside the scroller instead of widening the whole page */
+.data-table th{position:relative}
+.admin-tabs{display:flex;gap:8px;overflow-x:auto;padding-block:2px 6px;scrollbar-width:thin;border-block-end:1px solid var(--border)}
+.admin-tab{padding:10px 16px;border:0;border-radius:999px 999px 0 0;background:transparent;font-weight:700;color:var(--muted);white-space:nowrap;min-block-size:44px;border-block-end:3px solid transparent}
+.admin-tab:hover{color:var(--text);background:var(--surface-2)}
+.admin-tab.on{color:var(--link);border-block-end-color:var(--brand)}
+.admin-panel{display:flex;flex-direction:column;gap:16px;min-inline-size:0}
+.admin-users-card{min-block-size:220px}

@@ -1,5 +1,6 @@
 import { useCallback, useEffect, useMemo, useRef, useState } from 'react';
 import { useTranslation } from 'react-i18next';
+import { useSearchParams } from 'react-router-dom';
 import { Search, Gift } from 'lucide-react';
 import AdminContent from '../features/availability/AdminContent.jsx';
 import AdminRewards from '../features/rewards/AdminRewards.jsx';
@@ -11,6 +12,7 @@ import { useSync } from '../features/sync/useSync.js';
 import { LANG_META } from '../i18n/index.js';
 
 const ROLES = ['student', 'teacher', 'admin'];
+const TABS = ['users', 'content', 'news', 'rewards'];
 
 /** Admin view: every user, their sign-in method, activity summary and role. Role changes are checked by the database. */
 function AdminInner() {
@@ -23,7 +25,18 @@ function AdminInner() {
   const [pending, setPending] = useState(null);
   const dlg = useRef(null);
   const [giveTo, setGiveTo] = useState('');
-  const rewardsRef = useRef(null);
+  const [params, setParams] = useSearchParams();
+  const tab = TABS.includes(params.get('tab')) ? params.get('tab') : 'users';
+  const setTab = (k) => setParams(k === 'users' ? {} : { tab: k }, { replace: true });
+  const onTabKey = (e) => {
+    const i = TABS.indexOf(tab);
+    const dir = { ArrowRight: 1, ArrowLeft: -1 }[e.key] * (document.dir === 'rtl' ? -1 : 1);
+    if (!dir) return;
+    e.preventDefault();
+    const k = TABS[(i + dir + TABS.length) % TABS.length];
+    setTab(k);
+    requestAnimationFrame(() => document.getElementById(`admin-tab-${k}`)?.focus());
+  };
 
   const load = useCallback(async () => {
     try { setUsers(await adminListUsers()); } catch (e) { setUsers([]); setMsg({ ok: false, text: t(`classes.errors.${e.code}`) }); }
@@ -51,54 +64,66 @@ function AdminInner() {
   return (
     <div className="page" data-testid="admin-page">
       <PageHeading title={t('admin.title')} subtitle={t('admin.subtitle')} />
-      {users && users.length > 0 && (
-        <dl className="admin-stats" data-testid="admin-stats">
-          {[['total', stats.total], ['students', stats.student], ['teachers', stats.teacher], ['admins', stats.admin], ['active', stats.active]].map(([k, n]) => (
-            <div key={k} className="stat-tile-lite"><dt>{t(`admin.stats.${k}`)}</dt><dd>{n}</dd></div>
-          ))}
-        </dl>
-      )}
-      <div className="toolbar">
-        <label className="searchbox"><Search size={20} aria-hidden="true" /><span className="sr-only">{t('common.search')}</span>
-          <input type="search" value={q} onChange={(e) => setQ(e.target.value)} placeholder={t('admin.search')} data-testid="admin-search" /></label>
-        <label><span className="sr-only">{t('admin.colRole')}</span>
-          <select className="role-select" value={roleFilter} onChange={(e) => setRoleFilter(e.target.value)} data-testid="role-filter">
-            <option value="all">{t('admin.filterAll')}</option>
-            {ROLES.map((r) => <option key={r} value={r}>{t(`admin.roles.${r}`)}</option>)}
-          </select></label>
+      <div className="admin-tabs" role="tablist" aria-label={t('admin.title')} onKeyDown={onTabKey}>
+        {TABS.map((k) => (
+          <button key={k} type="button" role="tab" id={`admin-tab-${k}`} aria-selected={tab === k} aria-controls="admin-panel" tabIndex={tab === k ? 0 : -1}
+            className={`admin-tab ${tab === k ? 'on' : ''}`} onClick={() => setTab(k)} data-testid={`admin-tab-${k}`}>{t(`admin.tabs.${k}`)}</button>
+        ))}
       </div>
-      {msg && <p className={msg.ok ? 'ok-text' : 'err-text'} role={msg.ok ? 'status' : 'alert'} data-testid="admin-msg">{msg.text}</p>}
-      {users === null && <p className="muted">{t('app.loading')}</p>}
-      {users && (
-        <div className="card table-scroll">
-          <p className="muted small" role="status">{t('admin.count', { count: shown.length, total: users.length })}</p>
-          <table className="data-table">
-            <thead><tr>
-              <th scope="col">{t('admin.colUser')}</th><th scope="col">{t('admin.colRole')}</th><th scope="col">{t('admin.colMethod')}</th>
-              <th scope="col">{t('admin.colSignIn')}</th><th scope="col">{t('teach.colXp')}</th><th scope="col">{t('teach.colLessons')}</th><th scope="col"><span className="sr-only">{t('rewards.admin.giveTo')}</span></th>
-            </tr></thead>
-            <tbody>
-              {shown.map((u) => (
-                <tr key={u.user_id} data-testid="user-row">
-                  <th scope="row"><bdi>{u.display_name || u.email}</bdi>{u.display_name && <small className="muted" dir="ltr"><br />{u.email}</small>}{u.user_id === me.userId && <Chip tone="brand">{t('admin.you')}</Chip>}</th>
-                  <td>
-                    <label><span className="sr-only">{t('admin.colRole')}: {u.display_name || u.email}</span>
-                      <select value={u.role} onChange={(e) => { setPending({ user: u, role: e.target.value }); dlg.current?.showModal(); }} data-testid="role-select" className="role-select">
-                        {ROLES.map((r) => <option key={r} value={r}>{t(`admin.roles.${r}`)}</option>)}
-                      </select></label>
-                  </td>
-                  <td>{(u.providers || '').split(',').filter(Boolean).map((p) => t(`admin.provider.${p}`, { defaultValue: p })).join(' + ') || '—'}</td>
-                  <td>{fmt(u.last_sign_in_at)}</td><td>{u.xp ?? 0}</td><td>{u.lessons_done ?? 0}</td>
-                  <td><button type="button" className="icon-btn" aria-label={`${t('rewards.admin.giveTo')}: ${u.display_name || u.email}`} title={t('rewards.admin.giveTo')} onClick={() => { setGiveTo(u.email); rewardsRef.current?.scrollIntoView({ behavior: 'smooth', block: 'start' }); }} data-testid="give-reward"><Gift size={20} aria-hidden="true" /></button></td>
-                </tr>
+      <div id="admin-panel" role="tabpanel" aria-labelledby={`admin-tab-${tab}`} className="admin-panel" data-testid={`admin-panel-${tab}`}>
+        {tab === 'users' && (
+          <>
+            <dl className="admin-stats" data-testid="admin-stats">
+              {[['total', stats.total], ['students', stats.student], ['teachers', stats.teacher], ['admins', stats.admin], ['active', stats.active]].map(([k, n]) => (
+                <div key={k} className="stat-tile-lite"><dt>{t(`admin.stats.${k}`)}</dt><dd>{users ? n : '–'}</dd></div>
               ))}
-            </tbody>
-          </table>
-        </div>
-      )}
-      <AdminContent />
-      <AdminAnnouncements />
-      <div ref={rewardsRef}><AdminRewards email={giveTo} /></div>
+            </dl>
+            <div className="toolbar">
+              <label className="searchbox"><Search size={20} aria-hidden="true" /><span className="sr-only">{t('common.search')}</span>
+                <input type="search" value={q} onChange={(e) => setQ(e.target.value)} placeholder={t('admin.search')} data-testid="admin-search" /></label>
+              <label><span className="sr-only">{t('admin.colRole')}</span>
+                <select className="role-select" value={roleFilter} onChange={(e) => setRoleFilter(e.target.value)} data-testid="role-filter">
+                  <option value="all">{t('admin.filterAll')}</option>
+                  {ROLES.map((r) => <option key={r} value={r}>{t(`admin.roles.${r}`)}</option>)}
+                </select></label>
+            </div>
+            {msg && <p className={msg.ok ? 'ok-text' : 'err-text'} role={msg.ok ? 'status' : 'alert'} data-testid="admin-msg">{msg.text}</p>}
+            <div className="card table-scroll admin-users-card">
+              {users === null && <p className="muted" role="status">{t('app.loading')}</p>}
+              {users && (
+                <>
+                  <p className="muted small" role="status">{t('admin.count', { shown: shown.length, total: users.length })}</p>
+                  <table className="data-table">
+                    <thead><tr>
+                      <th scope="col">{t('admin.colUser')}</th><th scope="col">{t('admin.colRole')}</th><th scope="col">{t('admin.colMethod')}</th>
+                      <th scope="col">{t('admin.colSignIn')}</th><th scope="col">{t('teach.colXp')}</th><th scope="col">{t('teach.colLessons')}</th><th scope="col"><span className="sr-only">{t('rewards.admin.giveTo')}</span></th>
+                    </tr></thead>
+                    <tbody>
+                      {shown.map((u) => (
+                        <tr key={u.user_id} data-testid="user-row">
+                          <th scope="row"><bdi>{u.display_name || u.email}</bdi>{u.display_name && <small className="muted" dir="ltr"><br />{u.email}</small>}{u.user_id === me.userId && <Chip tone="brand">{t('admin.you')}</Chip>}</th>
+                          <td>
+                            <label><span className="sr-only">{t('admin.colRole')}: {u.display_name || u.email}</span>
+                              <select value={u.role} onChange={(e) => { setPending({ user: u, role: e.target.value }); dlg.current?.showModal(); }} data-testid="role-select" className="role-select">
+                                {ROLES.map((r) => <option key={r} value={r}>{t(`admin.roles.${r}`)}</option>)}
+                              </select></label>
+                          </td>
+                          <td>{(u.providers || '').split(',').filter(Boolean).map((p) => t(`admin.provider.${p}`, { defaultValue: p })).join(' + ') || '—'}</td>
+                          <td>{fmt(u.last_sign_in_at)}</td><td>{u.xp ?? 0}</td><td>{u.lessons_done ?? 0}</td>
+                          <td><button type="button" className="icon-btn" aria-label={`${t('rewards.admin.giveTo')}: ${u.display_name || u.email}`} title={t('rewards.admin.giveTo')} onClick={() => { setGiveTo(u.email); setTab('rewards'); }} data-testid="give-reward"><Gift size={20} aria-hidden="true" /></button></td>
+                        </tr>
+                      ))}
+                    </tbody>
+                  </table>
+                </>
+              )}
+            </div>
+          </>
+        )}
+        {tab === 'content' && <AdminContent />}
+        {tab === 'news' && <AdminAnnouncements />}
+        {tab === 'rewards' && <AdminRewards email={giveTo} />}
+      </div>
       <dialog ref={dlg} className="dialog" aria-labelledby="ad-t" data-testid="admin-confirm">
         <h2 id="ad-t">{t('admin.changeTitle')}</h2>
         <p>{t('admin.changeText', { name: pending?.user.display_name || pending?.user.email || '', role: pending ? t(`admin.roles.${pending.role}`) : '' })}</p>

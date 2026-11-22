@@ -32,7 +32,7 @@ test.describe('admin announcements (mocked Supabase API; real rules in supabase/
     const backend = createMockBackend({ admins: ['boss@example.com'] });
     await backend.install(page);
     await signIn(page, 'boss@example.com');
-    await page.goto('/admin');
+    await page.goto('/admin?tab=news');
     const panel = page.locator('[data-testid="admin-news"]');
     await expect(panel).toBeVisible();
     await panel.locator('[data-testid="news-title-en"]').fill('Eid holiday');
@@ -75,7 +75,7 @@ test.describe('admin announcements (mocked Supabase API; real rules in supabase/
     backend.members.push({ class_id: 'class-1', student_id: inClass.id, joined_at: new Date().toISOString() });
     await backend.install(page);
     await signIn(page, 'boss@example.com');
-    await page.goto('/admin');
+    await page.goto('/admin?tab=news');
     const panel = page.locator('[data-testid="admin-news"]');
     await expect(panel.locator('[data-testid="news-audience"] option')).toHaveCount(2); // everyone + Beginners
     await panel.locator('[data-testid="news-audience"]').selectOption('class-1');
@@ -97,7 +97,7 @@ test.describe('admin announcements (mocked Supabase API; real rules in supabase/
     const backend = createMockBackend({ admins: ['boss@example.com'] });
     await backend.install(page);
     await signIn(page, 'boss@example.com');
-    await page.goto('/admin');
+    await page.goto('/admin?tab=news');
     const panel = page.locator('[data-testid="admin-news"]');
     await panel.locator('[data-testid="news-title-en"]').fill('Only a title');
     await panel.locator('[data-testid="news-post"]').click();
@@ -110,7 +110,7 @@ test.describe('admin announcements (mocked Supabase API; real rules in supabase/
       const backend = createMockBackend({ admins: ['boss@example.com'] });
       await backend.install(page);
       await signIn(page, 'boss@example.com', lang);
-      await page.goto('/admin');
+      await page.goto('/admin?tab=news');
       await expect(page.locator('[data-testid="admin-news"]')).toBeVisible();
       await axeOk(page);
       expect(await page.evaluate(() => document.documentElement.scrollWidth <= window.innerWidth)).toBe(true);

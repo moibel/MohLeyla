@@ -540,6 +540,7 @@ export default {
     needRole: 'This page is for admins only.',
     search: 'Search by name or email…',
     count: 'Showing {{shown}} of {{total}}',
+    tabs: { users: 'People', content: 'Lessons', news: 'Announcements', rewards: 'Rewards' },
     colUser: 'User',
     colRole: 'Role',
     colMethod: 'Sign-in',
