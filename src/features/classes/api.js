@@ -30,6 +30,12 @@ export const deleteClass = (classId) => rpc('delete_class', { p_class: classId }
 export const adminListUsers = () => rpc('admin_list_users');
 export const adminSetRole = (userId, role) => rpc('admin_set_role', { p_user: userId, p_role: role });
 
+// Rewards (supabase/migrations/003_rewards.sql): only admins can grant, list or revoke; everyone reads their own.
+export const myRewards = () => rpc('my_rewards');
+export const adminGrantReward = ({ email, kind, amount, label, reason }) => rpc('admin_grant_reward', { p_email: email, p_kind: kind, p_amount: amount, p_label: label || null, p_reason: reason || null });
+export const adminListRewards = (email) => rpc('admin_list_rewards', { p_email: email || null });
+export const adminRevokeReward = (id) => rpc('admin_revoke_reward', { p_id: id });
+
 /** A student leaves a class, or a teacher removes a student (row-level security allows exactly these two). */
 export async function removeMember(classId, studentId) {
   const c = await sync.ensureClient();

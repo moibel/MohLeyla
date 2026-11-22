@@ -1,7 +1,7 @@
 import { useEffect, useRef } from 'react';
 import { NavLink, Link, Outlet, useLocation } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
-import { Home, GraduationCap, Brain, Bookmark, BarChart3, Settings as Cog, Flame, Star, Users, ClipboardList, ShieldCheck, Heart } from 'lucide-react';
+import { Home, GraduationCap, Brain, Bookmark, BarChart3, Settings as Cog, Flame, Star, Users, ClipboardList, ShieldCheck, Heart, Zap } from 'lucide-react';
 import { Logo } from '../components/ui.jsx';
 import { LANG_META, UI_LANGS } from '../i18n/index.js';
 import { useDerived } from '../features/progress/selectors.js';
@@ -13,6 +13,8 @@ import NamePrompt from '../features/sync/NamePrompt.jsx';
 import Avatar from '../components/Avatar.jsx';
 import { useSync } from '../features/sync/useSync.js';
 import { displayName } from '../features/sync/profile.js';
+import { useRewards } from '../features/rewards/store.js';
+import RewardNotice from '../features/rewards/RewardNotice.jsx';
 
 const NAV = [
   { to: '/', key: 'home', Icon: Home, end: true },
@@ -66,6 +68,7 @@ export default function Layout({ pwa }) {
   const { state } = useProgress();
   const { streak, todayXp } = useDerived();
   const sy = useSync();
+  const rw = useRewards();
   const loc = useLocation();
   const main = useRef(null);
   const first = useRef(true);
@@ -94,7 +97,8 @@ export default function Layout({ pwa }) {
           <div className="topbar-spacer" />
           <div className="topbar-stats">
             <span className="stat-pill" title={t('home.streak')}><Flame size={16} aria-hidden="true" /><b>{streak}</b><span className="sr-only">{t('home.streak')}</span></span>
-            <span className="stat-pill stat-xp"><Star size={16} aria-hidden="true" /><b>{state.xp}</b><span className="pill-label" aria-hidden="true">{t('common.xp')}</span><span className="sr-only">{t('common.xp')}</span></span>
+            {rw.stars > 0 && <span className="stat-pill stat-star" title={t('rewards.stars')} data-testid="star-pill"><Star size={16} aria-hidden="true" /><b>{rw.stars}</b><span className="sr-only">{t('rewards.stars')}</span></span>}
+            <span className="stat-pill stat-xp"><Zap size={16} aria-hidden="true" /><b>{state.xp + rw.bonusXp}</b><span className="pill-label" aria-hidden="true">{t('common.xp')}</span><span className="sr-only">{t('common.xp')}</span></span>
           </div>
           <LangSwitcher />
           {sy.profile && (
@@ -117,6 +121,7 @@ export default function Layout({ pwa }) {
       <Onboarding />
       <SyncDialogs />
       <NamePrompt />
+      <RewardNotice />
     </div>
   );
 }
