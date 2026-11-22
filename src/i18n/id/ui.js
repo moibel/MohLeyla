@@ -606,6 +606,12 @@ export default {
     notFoundText: 'Halaman yang kamu cari tidak ada.',
     goHome: 'Ke beranda',
     storageUnavailable: 'Browser memblokir penyimpanan lokal, jadi progres tidak dapat disimpan.',
+    crashTitle: 'Terjadi kesalahan',
+    crashText: 'Aplikasi mengalami masalah tak terduga. Kemajuan Anda aman di perangkat ini.',
+    crashRetry: 'Coba lagi',
+    crashReload: 'Muat ulang',
+    crashFix: 'Hapus salinan tersimpan dan muat ulang',
+    crashFixHint: 'Gunakan ini jika memuat ulang tidak membantu. Kemajuan Anda tetap tersimpan.',
   },
   a11y: {
     progressbar: 'Progres',
