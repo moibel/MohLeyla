@@ -6,6 +6,8 @@ import SpeakButton from '../../components/SpeakButton.jsx';
 import { audio } from '../audio/audioService.js';
 import { trackLang } from '../../data/content.js';
 import { Recorder, MAX_RECORD_MS } from './recorder.js';
+import { diagnoseMicBlock } from './diagnose.js';
+import { refreshApp } from '../../utils/refreshApp.js';
 import { useProgress } from '../../app/ProgressContext.jsx';
 import { applySpeaking } from '../progress/engine.js';
 
@@ -23,6 +25,7 @@ export default function SpeakingPractice({ itemId, text, track }) {
   const [seconds, setSeconds] = useState(0);
   const [clip, setClip] = useState(null);
   const [error, setError] = useState(null);
+  const [errorDetail, setErrorDetail] = useState(null);
   const [rated, setRated] = useState(null);
   const [playing, setPlaying] = useState(false);
   const lang = trackLang(track);
@@ -73,13 +76,16 @@ export default function SpeakingPractice({ itemId, text, track }) {
     setError(null); setRated(null);
     audio.stop(); // never record the model voice through the speakers
     dropClip();
+    setErrorDetail(null);
     try {
       recorderRef.current.onAutoStop = finish;
       await recorderRef.current.start();
       setSeconds(0);
       setPhase('recording');
     } catch (e) {
-      setError(e.code || 'failed');
+      const code = e.code || 'failed';
+      setError(code);
+      if (code === 'denied') setErrorDetail(await diagnoseMicBlock());
       setPhase('idle');
     }
   };
@@ -150,7 +156,13 @@ export default function SpeakingPractice({ itemId, text, track }) {
         </div>
       )}
 
-      {error && <p className="err-text" role="alert" data-testid="rec-error">{t(`speaking.errors.${error}`)}</p>}
+      {phase === 'idle' && !error && <p className="note-small" data-testid="mic-hint">{t('speaking.permissionHint')}</p>}
+      {error && (
+        <div className="stack-sm" role="alert" data-testid="rec-error" data-detail={errorDetail || ''}>
+          <p className="err-text">{t(error === 'denied' && ['policy', 'blocked', 'dismissed'].includes(errorDetail) ? `speaking.errors.${errorDetail}` : `speaking.errors.${error}`)}</p>
+          {error === 'denied' && errorDetail === 'policy' && <Button size="sm" onClick={refreshApp} data-testid="fix-reload">{t('speaking.fixReload')}</Button>}
+        </div>
+      )}
       <p className="note-small">{t('speaking.privacy')}</p>
     </section>
   );
