@@ -1,0 +1,11 @@
+{
+  // Cloudflare Workers static assets: serves the Vite build in ./dist as a single-page app.
+  // Build command: npm run build   Deploy command: npx wrangler deploy
+  "name": "mohleyla",
+  "compatibility_date": "2025-11-01",
+  "assets": {
+    "directory": "./dist",
+    // Unknown page URLs (e.g. /lesson/ar-01) get index.html; missing files (e.g. a wrong /audio/x.mp3) stay 404.
+    "not_found_handling": "single-page-application"
+  }
+}
