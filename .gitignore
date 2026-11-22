@@ -13,3 +13,4 @@ graphify-out/
 legacy-v5/
 .claude/
 .env.local
+dist-gate

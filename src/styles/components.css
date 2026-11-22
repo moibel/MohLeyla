@@ -93,3 +93,8 @@
 .field{display:flex;flex-direction:column;gap:6px;font-weight:650}
 .field input{min-block-size:48px;padding:0 14px;border-radius:14px;border:1px solid var(--border);background:var(--surface);font-weight:500}
 .field input:focus-visible{outline:3px solid var(--focus)}
+
+.gate{min-block-size:100dvh;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:16px;padding:24px 16px;background:var(--bg)}
+.gate-lang{align-self:flex-end;max-inline-size:520px;inline-size:100%;display:flex;justify-content:flex-end}
+.gate-card{max-inline-size:520px;inline-size:100%;display:flex;flex-direction:column;gap:14px}
+.gate-card h1{font-size:1.6rem}

@@ -5,6 +5,7 @@ import { mergeStates, sameSynced, toRemote } from '../progress/merge.js';
 import { migrate } from '../progress/engine.js';
 
 export const LINK_KEY = 'mohleyla-sync-link'; // user id whose cloud data this device has already merged
+export const HINT_KEY = 'mohleyla-session-hint'; // { userId, email } of the last signed-in user, so reopening offline stays signed in
 const DEBOUNCE_MS = 2500;
 const hasProgress = (s) => s.xp > 0 || Object.keys(s.completed).length > 0 || Object.keys(s.saved).length > 0;
 const isEmail = (v) => /^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/.test(String(v).trim());
@@ -20,7 +21,7 @@ function mapAuthError(e, fallback) {
 
 export class SyncManager {
   /** @param {{createClient:()=>Promise<object>, configured:boolean, storage?:Storage, getOnline?:()=>boolean}} deps */
-  constructor({ createClient, configured, storage, getOnline } = {}) {
+  constructor({ createClient, configured, storage, getOnline, authInUrl } = {}) {
     this.createClient = createClient;
     this.storage = storage || (typeof localStorage !== 'undefined' ? localStorage : { getItem: () => null, setItem() {}, removeItem() {} });
     this.getOnline = getOnline || (() => (typeof navigator === 'undefined' ? true : navigator.onLine !== false));
@@ -30,7 +31,25 @@ export class SyncManager {
     this.api = null; // { getState, apply }
     this.timer = null;
     this.chain = Promise.resolve();
-    this.snapshot = { configured: !!configured, status: 'signedOut', userId: null, email: null, lastSyncedAt: null, error: null, pendingChoice: false, codeSentTo: null, errorId: 0 };
+    const hint = this.readHint();
+    // `restoring` is true until we know whether a stored session is still valid, so the UI never flashes a sign-in screen.
+    this.snapshot = {
+      configured: !!configured, status: hint ? 'idle' : 'signedOut', userId: hint?.userId ?? null, email: hint?.email ?? null,
+      lastSyncedAt: null, error: null, pendingChoice: false, codeSentTo: null, errorId: 0,
+      restoring: !!configured && (!!hint || !!authInUrl),
+    };
+  }
+
+  readHint() {
+    try { const h = JSON.parse(this.storage.getItem(HINT_KEY) || 'null'); return h && h.userId ? h : null; } catch { return null; }
+  }
+  setUser(user, extra = {}) {
+    this.storage.setItem(HINT_KEY, JSON.stringify({ userId: user.id, email: user.email || null }));
+    this.set({ userId: user.id, email: user.email || null, ...extra });
+  }
+  clearUser(extra = {}) {
+    this.storage.removeItem(HINT_KEY);
+    this.set({ status: 'signedOut', userId: null, email: null, pendingChoice: false, restoring: false, ...extra });
   }
 
   subscribe = (fn) => { this.listeners.add(fn); return () => this.listeners.delete(fn); };
@@ -38,7 +57,7 @@ export class SyncManager {
   set(patch) { this.snapshot = { ...this.snapshot, ...patch }; this.listeners.forEach((l) => l()); }
   fail(code) { this.set({ error: code, errorId: this.snapshot.errorId + 1 }); return false; }
 
-  /** Connect the app state: `getState()` returns the current progress, `apply(state)` replaces it. */
+  /** Connect the app state: `getState()` returns the current progress, `apply(state)` replaces it, `clearLocal()` empties it. */
   attach(api) { this.api = api; }
 
   async ensureClient() {
@@ -48,10 +67,10 @@ export class SyncManager {
       this.clientPromise = this.createClient().then((c) => {
         this.client = c;
         c.auth.onAuthStateChange((event, session) => {
-          if (event === 'SIGNED_OUT') this.set({ status: 'signedOut', userId: null, email: null, pendingChoice: false });
+          if (event === 'SIGNED_OUT') this.clearUser();
           else if (session?.user) {
-            const first = this.snapshot.userId !== session.user.id;
-            this.set({ userId: session.user.id, email: session.user.email || null, status: this.snapshot.status === 'signedOut' ? 'idle' : this.snapshot.status, codeSentTo: null });
+            const first = this.snapshot.userId !== session.user.id || this.snapshot.status === 'signedOut';
+            this.setUser(session.user, { status: this.snapshot.status === 'signedOut' ? 'idle' : this.snapshot.status, codeSentTo: null, restoring: false });
             if (first) setTimeout(() => this.syncNow(), 0);
           }
         });
@@ -66,12 +85,20 @@ export class SyncManager {
     if (!this.snapshot.configured) return;
     try {
       const c = await this.ensureClient();
-      const { data } = await c.auth.getSession();
+      const { data, error } = await c.auth.getSession();
       if (data?.session?.user) {
-        this.set({ userId: data.session.user.id, email: data.session.user.email || null, status: 'idle' });
+        this.setUser(data.session.user, { status: 'idle', restoring: false });
         await this.syncNow();
+      } else if (this.getOnline() && !error) {
+        this.clearUser(); // online and there is no valid session any more: sign in again
+      } else {
+        this.set({ restoring: false }); // offline: trust the stored sign-in, sync later
       }
-    } catch { /* offline at startup: stays signed out until the next try */ }
+    } catch {
+      // could not reach the auth server (offline): keep the remembered user so the app stays usable
+      if (this.getOnline() && !this.readHint()) this.clearUser();
+      else this.set({ restoring: false });
+    }
   }
 
   async sendCode(email) {
@@ -93,7 +120,7 @@ export class SyncManager {
       const c = await this.ensureClient();
       const { data, error } = await c.auth.verifyOtp({ email: String(email).trim(), token: String(code).replace(/\s+/g, ''), type: 'email' });
       if (error || !data?.session) return this.fail(mapAuthError(error, 'badCode'));
-      this.set({ userId: data.session.user.id, email: data.session.user.email || null, status: 'idle', codeSentTo: null, error: null });
+      this.setUser(data.session.user, { status: 'idle', codeSentTo: null, error: null, restoring: false });
       await this.syncNow();
       return true;
     } catch (e) {
@@ -105,7 +132,22 @@ export class SyncManager {
     clearTimeout(this.timer);
     try { if (this.client) await this.client.auth.signOut(); } catch { /* ignore: local sign-out below */ }
     this.storage.removeItem(LINK_KEY);
-    this.set({ status: 'signedOut', userId: null, email: null, pendingChoice: false, lastSyncedAt: null, error: null });
+    this.clearUser({ lastSyncedAt: null, error: null });
+  }
+
+  /**
+   * Sign out of a shared/required-sign-in device: make sure the cloud has everything first, then remove the progress from
+   * this device so the next person never sees or merges it. Returns { ok } or { ok:false, reason:'unsynced' } so the UI can
+   * ask before discarding progress that could not be saved (for example when offline).
+   */
+  async signOutAndClear({ force = false } = {}) {
+    if (!force) {
+      await this.syncNow();
+      if (this.snapshot.status !== 'synced') return { ok: false, reason: 'unsynced' };
+    }
+    await this.signOut();
+    this.api?.clearLocal?.();
+    return { ok: true };
   }
 
   /** Debounced trigger used after every local change. */
