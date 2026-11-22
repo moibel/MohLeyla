@@ -5,12 +5,14 @@ import { PageHeading, EmptyState, Chip, TargetText, Bidi, Spinner, Button } from
 import SpeakButton from '../components/SpeakButton.jsx';
 import { loadItems } from '../data/content.js';
 import { orderedTracks } from '../data/trackOrder.js';
+import { useAvailability } from '../data/availability.js';
 import { useProgress } from '../app/ProgressContext.jsx';
 import { toggleSaved, isMastered, isDifficult } from '../features/progress/engine.js';
 import { diffDays, localDay } from '../utils/dates.js';
 
 export default function Vocabulary() {
   const { t, i18n } = useTranslation();
+  useAvailability();
   const ui = i18n.language;
   const { state, commit } = useProgress();
   const [rows, setRows] = useState(null);

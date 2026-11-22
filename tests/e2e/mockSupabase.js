@@ -17,6 +17,7 @@ export function createMockBackend(opts = {}) {
   const known = new Map(); // userId -> { id, email, display_name, providers, role, summary }
   const classes = []; // { id, name, code, teacher_id, created_at }
   const members = []; // { class_id, student_id, joined_at }
+  const contentOff = []; // [{ kind, key }] hidden lessons/paths (mirrors 005_content_switch.sql)
   const announcements = []; // mirrors 004_announcements.sql
   const rewards = []; // { id, email, kind, amount, label, reason, created_at, granted_by_email, revoked_at } (mirrors 003_rewards.sql)
   const adminEmails = new Set(Array.isArray(opts.admins) ? opts.admins : []);
@@ -76,6 +77,7 @@ export function createMockBackend(opts = {}) {
     }
     if (url.pathname === '/auth/v1/logout') return route.fulfill({ status: 204, headers: cors });
     if (url.pathname.startsWith('/rest/v1/rpc/') || url.pathname === '/rest/v1/class_members' || url.pathname === '/rest/v1/classes') {
+      if (url.pathname === '/rest/v1/rpc/content_disabled') return json(200, contentOff); // public: no sign-in needed
       const tok = (req.headers()['authorization'] || '').replace('Bearer ', '');
       let claims;
       try { claims = JSON.parse(Buffer.from(tok.split('.')[1], 'base64url').toString()); } catch { return json(401, { message: 'bad token' }); }
@@ -165,6 +167,16 @@ export function createMockBackend(opts = {}) {
         r.revoked_at = new Date().toISOString();
         return json(200, null);
       }
+      if (fn === 'admin_set_content_enabled') {
+        if (me.role !== 'admin') return deny();
+        const { p_kind: kind, p_key: key, p_enabled: on } = args;
+        const ok = (kind === 'track' && /^(ar|sa|en|id)$/.test(key || '')) || (kind === 'lesson' && /^(ar|sa|en|id)-[0-9]{2}$/.test(key || ''));
+        if (!ok || typeof on !== 'boolean') return json(400, { code: '22023', message: 'unknown content item' });
+        const i = contentOff.findIndex((x) => x.kind === kind && x.key === key);
+        if (on && i >= 0) contentOff.splice(i, 1);
+        if (!on && i < 0) contentOff.push({ kind, key });
+        return json(200, null);
+      }
       if (fn === 'my_announcements') {
         const now = Date.now();
         return json(200, announcements.filter((a) => !a.archived_at && (!a.expires_at || new Date(a.expires_at) > now) && (a.audience === 'all' || members.some((m) => m.class_id === a.class_id && m.student_id === me.id)))
@@ -217,5 +229,5 @@ export function createMockBackend(opts = {}) {
     }
     return json(404, { message: 'not mocked: ' + url.pathname });
   }
-  return { rows, stats, state, install: (ctxOrPage) => ctxOrPage.route(`${MOCK_URL}/**`, handle), code, profiles, known, classes, members, rewards, announcements, addUser: (email, extra = {}) => { const u = know(email); Object.assign(u, extra); return u; } };
+  return { rows, stats, state, install: (ctxOrPage) => ctxOrPage.route(`${MOCK_URL}/**`, handle), code, profiles, known, classes, members, rewards, announcements, contentOff, addUser: (email, extra = {}) => { const u = know(email); Object.assign(u, extra); return u; } };
 }

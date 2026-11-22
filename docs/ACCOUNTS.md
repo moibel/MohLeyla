@@ -125,6 +125,15 @@ An admin can post a message from *Admin -> Announcements* to **everyone** or to 
 - Stored behind admin-checked functions (`supabase/migrations/004_announcements.sql`, 27 permission checks): nobody but an admin can post, and a learner only reads what is meant for them.
 - Setup: run `supabase/migrations/004_announcements.sql` once (after 002). Tests: `sh supabase/tests/run-local.sh announcements`.
 
+## Switching lessons and paths on or off
+*Admin -> Lessons and paths* lists the four learning paths. Each has a switch (hides the whole path) and a list of its lessons with a switch each. A hidden lesson or path disappears for every learner: from Home, Courses, the progress by language, the "Continue" button and the next-lesson suggestions; opening its link shows "This lesson is not available right now."
+
+- Hiding never deletes anything. Learners keep their progress for hidden lessons, which return when switched on. Counts such as "N of 30 lessons" only count visible lessons.
+- The hidden list is public configuration (even signed-out visitors read it) and is changed only by admins. It is stored behind admin-checked functions (`supabase/migrations/005_content_switch.sql`, 21 checks).
+- A copy is kept on each device, so hidden items stay hidden offline. A device that has never reached the server shows everything until its first successful check.
+- Words already learned from a hidden lesson still appear in review and the word list (they are the learner's own progress).
+- Setup: run `supabase/migrations/005_content_switch.sql` once (after 002). Tests: `sh supabase/tests/run-local.sh switch`.
+
 ## Testing status
 Unit tests cover the merge rules and the sync manager against an in-memory fake. Browser tests run the full sign-in and
 two-device flow against a **mocked** Supabase API. Not yet exercised against a real Supabase project, real emails, or real

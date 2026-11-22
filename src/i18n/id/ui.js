@@ -101,6 +101,7 @@ export default {
   },
   lesson: {
     notFound: 'Pelajaran ini tidak ditemukan.',
+    unavailable: 'Pelajaran ini sedang tidak tersedia.',
     stepOverview: 'Ringkasan',
     stepLearn: 'Kata',
     stepPractice: 'Latihan',
@@ -514,6 +515,18 @@ export default {
       archiveText: '“{{title}}” tidak akan tampil lagi bagi pelajar. Tetap ada di riwayat.',
       archivedMsg: 'Pengumuman diarsipkan.',
     },
+  },
+  content: {
+    title: 'Pelajaran dan jalur',
+    subtitle: 'Nyalakan atau matikan seluruh jalur belajar, atau pelajaran tertentu, untuk semua pelajar. Menyembunyikan tidak menghapus apa pun: pelajar tetap menyimpan kemajuan dan pelajaran kembali saat dinyalakan.',
+    showPath: 'Tampilkan jalur ini',
+    showPathHelp: 'Mati menyembunyikan seluruh jalur dan semua pelajarannya.',
+    showLesson: 'Tampilkan pelajaran',
+    pathHidden: 'Disembunyikan',
+    someHidden: '{{n}} dari {{total}} pelajaran disembunyikan',
+    allShown: 'Semua {{total}} pelajaran tampil',
+    hiddenMsg: '{{name}} kini disembunyikan dari pelajar.',
+    shownMsg: '{{name}} kini ditampilkan kepada pelajar.',
   },
   admin: {
     title: 'Admin',

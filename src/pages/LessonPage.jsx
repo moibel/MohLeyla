@@ -2,7 +2,8 @@ import { useCallback, useEffect, useMemo, useRef, useState } from 'react';
 import { Link, useParams } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 import { ArrowLeft } from 'lucide-react';
-import { loadLesson, lessonMeta, lessonsOfTrack, TRACK_META } from '../data/content.js';
+import { loadLesson, lessonMeta, TRACK_META } from '../data/content.js';
+import { visibleLessonsOfTrack, isLessonVisible, useAvailability } from '../data/availability.js';
 import { Spinner, EmptyState, Button, Chip, Flip } from '../components/ui.jsx';
 import { Overview, LearnCards, Result } from '../features/lessons/Stages.jsx';
 import ExerciseRunner from '../features/quizzes/ExerciseRunner.jsx';
@@ -25,6 +26,7 @@ export default function LessonPage() {
   const [result, setResult] = useState(null);
   const [attempt, setAttempt] = useState(0);
   const meta = lessonMeta(id);
+  const availability = useAvailability();
   const derived = useDerived();
   const unlockedRef = useRef(derived.unlocked);
   if (stage !== 'result') unlockedRef.current = derived.unlocked; // achievements before this lesson's result is applied
@@ -45,9 +47,9 @@ export default function LessonPage() {
 
   const nextLesson = useMemo(() => {
     if (!meta) return null;
-    const list = lessonsOfTrack(meta.track);
+    const list = visibleLessonsOfTrack(meta.track);
     return list.find((l) => l.order > meta.order) || null;
-  }, [meta]);
+  }, [meta, availability]);
 
   const finish = (summary) => {
     const r = commit((s) => applyLessonResult(s, { lessonId: lesson.id, itemIds: lesson.items.map((i) => i.id), correct: summary.correct, total: summary.total, firstTryCorrect: summary.firstTryCorrect }));
@@ -56,6 +58,7 @@ export default function LessonPage() {
     window.scrollTo(0, 0);
   };
 
+  if (meta && !isLessonVisible(id)) return <EmptyState icon="🚧" title={t('lesson.unavailable')} action={<Button to="/learn">{t('lesson.allLessons')}</Button>} />;
   if (status === 'loading') return <Spinner label={t('app.loadingLesson')} />;
   if (status === 'missing') return <EmptyState icon="🔎" title={t('lesson.notFound')} action={<Button to="/learn">{t('lesson.allLessons')}</Button>} />;
   if (status === 'error') return <EmptyState icon="⚠️" title={t('errors.loadFailed')} action={<Button onClick={() => setAttempt((a) => a + 1)}>{t('common.retry')}</Button>} />;

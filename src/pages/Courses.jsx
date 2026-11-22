@@ -3,18 +3,21 @@ import { useTranslation } from 'react-i18next';
 import { ArrowRight } from 'lucide-react';
 import { PageHeading, EmptyState, ProgressBar, Button, Flip } from '../components/ui.jsx';
 import LessonCard from '../components/LessonCard.jsx';
-import { TRACKS, TRACK_META, lessonsOfTrack } from '../data/content.js';
+import { TRACK_META } from '../data/content.js';
+import { visibleLessonsOfTrack, useAvailability } from '../data/availability.js';
 import { orderedTracks, defaultTrack } from '../data/trackOrder.js';
 import { useProgress } from '../app/ProgressContext.jsx';
 import { nextLessonOf } from '../features/progress/selectors.js';
 
 export default function Courses() {
   const { t, i18n } = useTranslation();
+  useAvailability();
   const { state, updateSettings } = useProgress();
   const [params, setParams] = useSearchParams();
   const param = params.get('track');
-  const track = TRACKS.includes(param) ? param : state.settings.lastTrack && TRACKS.includes(state.settings.lastTrack) ? state.settings.lastTrack : defaultTrack(i18n.language);
-  const list = lessonsOfTrack(track);
+  const offered = orderedTracks(i18n.language);
+  const track = offered.includes(param) ? param : offered.includes(state.settings.lastTrack) ? state.settings.lastTrack : defaultTrack(i18n.language);
+  const list = visibleLessonsOfTrack(track);
   const next = nextLessonOf(state, track);
   const groups = ['beginner', 'elementary', 'intermediate'].map((lv) => ({ lv, items: list.filter((l) => l.level === lv) })).filter((g) => g.items.length);
 

@@ -3,7 +3,8 @@ import { useTranslation } from 'react-i18next';
 import { ArrowRight, ArrowLeft, Flame, Target, Brain, Sparkles } from 'lucide-react';
 import { Button, Ring, ProgressBar, Logo } from '../components/ui.jsx';
 import LessonCard from '../components/LessonCard.jsx';
-import { TRACKS, TRACK_META, lessonsOfTrack } from '../data/content.js';
+import { TRACK_META } from '../data/content.js';
+import { visibleLessonsOfTrack, useAvailability } from '../data/availability.js';
 import { orderedTracks, defaultTrack } from '../data/trackOrder.js';
 import { useProgress } from '../app/ProgressContext.jsx';
 import { nextLessonOf, useDerived } from '../features/progress/selectors.js';
@@ -16,6 +17,7 @@ export default function Home() {
   const { state } = useProgress();
   const d = useDerived();
   const sy = useSync();
+  useAvailability();
   const who = sy.profile ? displayName(sy.profile) : '';
   const rtl = i18n.dir() === 'rtl';
   const Arrow = rtl ? ArrowLeft : ArrowRight;
@@ -83,7 +85,7 @@ export default function Home() {
         </div>
         <div className="track-grid">
           {orderedTracks(i18n.language).map((k) => {
-            const list = lessonsOfTrack(k);
+            const list = visibleLessonsOfTrack(k);
             const done = list.filter((l) => state.completed[l.id]).length;
             return (
               <Link key={k} to={`/learn?track=${k}`} className="track-card" style={{ '--tile': TRACK_META[k].color }} onClick={() => undefined}>

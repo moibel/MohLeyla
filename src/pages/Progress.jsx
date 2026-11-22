@@ -2,7 +2,8 @@ import { useTranslation } from 'react-i18next';
 import { Link } from 'react-router-dom';
 import { Sprout, Rocket, Medal, Mic, Sparkles, Flame, Brain, BookMarked, Star, Languages, Trophy, Lock } from 'lucide-react';
 import { PageHeading, Ring, ProgressBar, Button } from '../components/ui.jsx';
-import { TRACK_META, lessonsOfTrack } from '../data/content.js';
+import { TRACK_META } from '../data/content.js';
+import { visibleLessonsOfTrack, useAvailability } from '../data/availability.js';
 import { orderedTracks } from '../data/trackOrder.js';
 import { useProgress } from '../app/ProgressContext.jsx';
 import { useDerived } from '../features/progress/selectors.js';
@@ -17,6 +18,7 @@ export default function Progress() {
   const { state } = useProgress();
   const d = useDerived();
   const rw = useRewards();
+  useAvailability();
   const pct = d.totalLessons ? Math.round((d.completedCount / d.totalLessons) * 100) : 0;
   const goal = state.settings.goal;
   const week = Array.from({ length: 7 }, (_, i) => {
@@ -66,7 +68,7 @@ export default function Progress() {
         <h2 id="bylang-h" className="h-sm">{t('progress.byLanguage')}</h2>
         <div className="by-lang">
           {orderedTracks(i18n.language).map((k) => {
-            const list = lessonsOfTrack(k);
+            const list = visibleLessonsOfTrack(k);
             const done = list.filter((l) => state.completed[l.id]).length;
             return (
               <div key={k} className="by-lang-row">

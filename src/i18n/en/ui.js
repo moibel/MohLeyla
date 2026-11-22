@@ -106,6 +106,7 @@ export default {
   },
   lesson: {
     notFound: 'This lesson could not be found.',
+    unavailable: 'This lesson is not available right now.',
     stepOverview: 'Overview',
     stepLearn: 'Words',
     stepPractice: 'Practice',
@@ -520,6 +521,18 @@ export default {
       archiveText: '“{{title}}” will stop showing to learners. It stays in the history.',
       archivedMsg: 'Announcement archived.',
     },
+  },
+  content: {
+    title: 'Lessons and paths',
+    subtitle: 'Switch a whole learning path, or single lessons, on or off for every learner. Hiding never deletes anything: learners keep their progress and the lesson comes back when you switch it on.',
+    showPath: 'Show this path',
+    showPathHelp: 'Off hides the whole path and all its lessons.',
+    showLesson: 'Show lesson',
+    pathHidden: 'Hidden',
+    someHidden: '{{n}} of {{total}} lessons hidden',
+    allShown: 'All {{total}} lessons shown',
+    hiddenMsg: '{{name}} is now hidden from learners.',
+    shownMsg: '{{name}} is now shown to learners.',
   },
   admin: {
     title: 'Admin',

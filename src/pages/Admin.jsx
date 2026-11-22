@@ -1,6 +1,7 @@
 import { useCallback, useEffect, useMemo, useRef, useState } from 'react';
 import { useTranslation } from 'react-i18next';
 import { Search, Gift } from 'lucide-react';
+import AdminContent from '../features/availability/AdminContent.jsx';
 import AdminRewards from '../features/rewards/AdminRewards.jsx';
 import AdminAnnouncements from '../features/announcements/AdminAnnouncements.jsx';
 import { PageHeading, Button, Chip } from '../components/ui.jsx';
@@ -95,6 +96,7 @@ function AdminInner() {
           </table>
         </div>
       )}
+      <AdminContent />
       <AdminAnnouncements />
       <div ref={rewardsRef}><AdminRewards email={giveTo} /></div>
       <dialog ref={dlg} className="dialog" aria-labelledby="ad-t" data-testid="admin-confirm">

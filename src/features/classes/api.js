@@ -50,6 +50,10 @@ export async function adminClasses() {
   return res.data || [];
 }
 
+// Content switches (supabase/migrations/005_content_switch.sql): everyone reads which paths/lessons are hidden; only admins change it.
+export const contentDisabled = () => rpc('content_disabled');
+export const adminSetContentEnabled = (kind, key, enabled) => rpc('admin_set_content_enabled', { p_kind: kind, p_key: key, p_enabled: enabled });
+
 /** A student leaves a class, or a teacher removes a student (row-level security allows exactly these two). */
 export async function removeMember(classId, studentId) {
   const c = await sync.ensureClient();
