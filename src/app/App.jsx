@@ -15,6 +15,9 @@ const Vocabulary = lazy(() => import('../pages/Vocabulary.jsx'));
 const Progress = lazy(() => import('../pages/Progress.jsx'));
 const Settings = lazy(() => import('../pages/Settings.jsx'));
 const Profile = lazy(() => import('../pages/Profile.jsx'));
+const Classes = lazy(() => import('../pages/Classes.jsx'));
+const Teach = lazy(() => import('../pages/Teach.jsx'));
+const Admin = lazy(() => import('../pages/Admin.jsx'));
 const NotFound = lazy(() => import('../pages/NotFound.jsx'));
 
 export default function App() {
@@ -34,6 +37,9 @@ export default function App() {
               <Route path="words" element={<Vocabulary />} />
               <Route path="progress" element={<Progress />} />
               <Route path="profile" element={<Profile />} />
+              <Route path="classes" element={<Classes />} />
+              <Route path="teach" element={<Teach />} />
+              <Route path="admin" element={<Admin />} />
               <Route path="settings" element={<Settings pwa={pwa} />} />
               <Route path="*" element={<NotFound />} />
             </Route>

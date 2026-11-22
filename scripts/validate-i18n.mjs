@@ -26,7 +26,7 @@ for (const lang of ['ar', 'en', 'id']) {
     if (typeof v !== 'string' || !v.trim()) errors.push(`[${lang}] empty value: ${k}`);
     const hasAr = /[؀-ۿ]/.test(v);
     if (lang !== 'ar' && hasAr) errors.push(`[${lang}] Arabic script in ${k}`);
-    if (lang === 'ar' && !hasAr && !/^(app\.name|app\.footer|settings\.version)/.test(k) && !/^\{\{/.test(v)) {
+    if (lang === 'ar' && !hasAr && !/^(app\.name|app\.footer|settings\.version|admin\.provider\.google)/.test(k) && !/^\{\{/.test(v)) {
       // allow strings made only of placeholders / brand
       if (!/MohLeyla|^\W*\{\{/.test(v)) errors.push(`[ar] no Arabic script in ${k}: ${v}`);
     }

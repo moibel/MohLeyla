@@ -182,3 +182,14 @@ html[lang='ar'] .label{letter-spacing:0;text-transform:none;font-size:.85rem}
 .rec-dot{inline-size:12px;block-size:12px;border-radius:50%;background:#E5484D;animation:pulse 1s ease-in-out infinite}
 @keyframes pulse{50%{transform:scale(1.5);opacity:.6}}
 .rec-review{display:flex;flex-direction:column;gap:12px}
+
+/* classes, teaching, admin */
+.code-chip{display:inline-flex;align-items:center;gap:8px;padding:4px 6px 4px 14px;border-radius:12px;background:var(--surface-2);border:1px dashed var(--border);font-weight:800;letter-spacing:.12em}
+.code-chip code{font-family:ui-monospace,SFMono-Regular,Menlo,monospace;font-size:1.15rem}
+.code-input{font-family:ui-monospace,SFMono-Regular,Menlo,monospace;letter-spacing:.14em;text-transform:uppercase}
+.table-scroll{overflow-x:auto;max-inline-size:100%}
+.data-table{inline-size:100%;border-collapse:collapse;min-inline-size:560px}
+.data-table th,.data-table td{padding:10px 12px;border-block-end:1px solid var(--border);text-align:start;vertical-align:middle}
+.data-table thead th{font-size:.8rem;color:var(--muted);font-weight:700;white-space:nowrap}
+.data-table tbody th{font-weight:650}
+.role-select{min-block-size:40px;border:1px solid var(--border);background:var(--surface);border-radius:10px;padding:0 10px}

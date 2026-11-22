@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
-import { Settings as Cog, Flame, Star, GraduationCap, BookMarked, Target } from 'lucide-react';
+import { Settings as Cog, Flame, Star, GraduationCap, BookMarked, Target, Users, ClipboardList, ShieldCheck } from 'lucide-react';
 import { PageHeading, Button } from '../components/ui.jsx';
 import Avatar from '../components/Avatar.jsx';
 import SignInForm from '../features/sync/SignInForm.jsx';
@@ -82,6 +82,9 @@ export default function Profile() {
         ))}
       </section>
       <div className="btn-row">
+        <Button variant="secondary" to="/classes" icon={<Users size={18} aria-hidden="true" />} data-testid="link-classes">{t('nav.classes')}</Button>
+        {(s.role === 'teacher' || s.role === 'admin') && <Button variant="secondary" to="/teach" icon={<ClipboardList size={18} aria-hidden="true" />} data-testid="link-teach">{t('nav.teach')}</Button>}
+        {s.role === 'admin' && <Button variant="secondary" to="/admin" icon={<ShieldCheck size={18} aria-hidden="true" />} data-testid="link-admin">{t('nav.admin')}</Button>}
         <Button variant="secondary" to="/settings" icon={<Cog size={18} aria-hidden="true" />}>{t('nav.settings')}</Button>
         <Link className="link-strong" to="/progress">{t('nav.progress')}</Link>
       </div>

@@ -302,3 +302,37 @@ describe('Google sign-in', () => {
     expect(off.getSnapshot().error).toBe('notConfigured');
   });
 });
+
+describe('role', () => {
+  const mk = (rpc) => {
+    const storage = memStorage();
+    const mgr = new SyncManager({ createClient: async () => ({ auth: { onAuthStateChange() {} }, rpc }), configured: true, storage });
+    mgr.client = { rpc };
+    mgr.setUser({ id: 'u1', email: 'a@b.co', user_metadata: {} }, { status: 'idle' });
+    return { mgr, storage };
+  };
+  it('refreshRole stores the role in the snapshot and in the remembered session', async () => {
+    const { mgr, storage } = mk(async (fn) => ({ data: fn === 'my_role' ? 'teacher' : null, error: null }));
+    await mgr.refreshRole();
+    expect(mgr.getSnapshot().role).toBe('teacher');
+    expect(JSON.parse(storage.getItem('mohleyla-session-hint')).role).toBe('teacher');
+  });
+  it('keeps the remembered role when the call fails (offline) and ignores odd values', async () => {
+    const { mgr } = mk(async () => ({ data: 'teacher', error: null }));
+    await mgr.refreshRole();
+    mgr.client.rpc = async () => ({ data: null, error: { message: 'offline' } });
+    await mgr.refreshRole();
+    expect(mgr.getSnapshot().role).toBe('teacher');
+    mgr.client.rpc = async () => ({ data: { role: 'admin' }, error: null });
+    await mgr.refreshRole();
+    expect(mgr.getSnapshot().role).toBe('teacher');
+  });
+  it('the role is forgotten on sign-out and restored from the remembered session', async () => {
+    const { mgr, storage } = mk(async () => ({ data: 'admin', error: null }));
+    await mgr.refreshRole();
+    const restored = new SyncManager({ createClient: async () => ({}), configured: true, storage });
+    expect(restored.getSnapshot().role).toBe('admin');
+    await mgr.signOut();
+    expect(mgr.getSnapshot().role).toBeNull();
+  });
+});

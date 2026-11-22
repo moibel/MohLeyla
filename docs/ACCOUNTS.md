@@ -93,6 +93,20 @@ Then nothing in the app is shown until the learner has signed in with their own 
 device stays). The sign-in identity (email) itself can be deleted by the project owner in *Authentication -> Users*.
 "Reset all progress" also deletes the cloud copy when signed in, so it cannot come back on the next sync.
 
+## Roles, classes and the admin page
+Every account has one role: **student** (default), **teacher** or **admin**. Roles live in the database (`public.profiles`) and
+can only be changed through `admin_set_role()`, which checks that the caller is an admin; the browser cannot change them.
+
+- **Admin** (`/admin`): searchable list of every account (name, email, sign-in method, role, XP, lessons, last active) and a role
+  selector with a confirmation step. The last admin cannot be demoted.
+- **Teacher** (`/teach`): create a class, share its 8-character join code, see each student's summary (name, email, XP, lessons,
+  streak, accuracy, last active), remove a student or delete a class. A teacher never receives a student's raw progress document.
+- **Student** (`/classes`): join a class with a code (joining is the consent to be seen by that teacher) and leave at any time.
+
+Setup: run `supabase/migrations/002_roles_classes.sql` once in the Supabase SQL editor, then make yourself admin
+(Table editor -> `profiles` -> set your row's `role` to `admin`). After that, assign teachers from the Admin page.
+`supabase/tests/roles_classes.test.sql` checks 39 permission rules as real database users and rolls itself back; see `supabase/README.md`.
+
 ## Testing status
 Unit tests cover the merge rules and the sync manager against an in-memory fake. Browser tests run the full sign-in and
 two-device flow against a **mocked** Supabase API. Not yet exercised against a real Supabase project, real emails, or real

@@ -36,7 +36,7 @@ export class SyncManager {
     const hint = this.readHint();
     // `restoring` is true until we know whether a stored session is still valid, so the UI never flashes a sign-in screen.
     this.snapshot = {
-      configured: !!configured, status: hint ? 'idle' : 'signedOut', userId: hint?.userId ?? null, email: hint?.email ?? null, profile: hint?.profile ?? null,
+      configured: !!configured, status: hint ? 'idle' : 'signedOut', userId: hint?.userId ?? null, email: hint?.email ?? null, profile: hint?.profile ?? null, role: hint?.role ?? null,
       lastSyncedAt: null, error: null, pendingChoice: false, codeSentTo: null, errorId: 0, nameAskedAt: 0,
       restoring: !!configured && (!!hint || !!authInUrl),
     };
@@ -47,12 +47,28 @@ export class SyncManager {
   }
   setUser(user, extra = {}) {
     const profile = profileFromUser(user);
-    this.storage.setItem(HINT_KEY, JSON.stringify({ userId: user.id, email: user.email || null, profile }));
-    this.set({ userId: user.id, email: user.email || null, profile, ...extra });
+    const role = this.snapshot.userId === user.id ? this.snapshot.role : null; // keep the known role while the same user refreshes
+    this.storage.setItem(HINT_KEY, JSON.stringify({ userId: user.id, email: user.email || null, profile, role }));
+    this.set({ userId: user.id, email: user.email || null, profile, role, ...extra });
   }
   clearUser(extra = {}) {
     this.storage.removeItem(HINT_KEY);
-    this.set({ status: 'signedOut', userId: null, email: null, profile: null, pendingChoice: false, restoring: false, ...extra });
+    this.set({ status: 'signedOut', userId: null, email: null, profile: null, role: null, pendingChoice: false, restoring: false, ...extra });
+  }
+
+  /**
+   * Ask the database for this user's role (student | teacher | admin). The page uses it only to decide which links to show;
+   * every permission is enforced by the database itself, so a wrong or tampered value here gives no extra access.
+   */
+  async refreshRole() {
+    if (!this.snapshot.userId || !this.client) return;
+    try {
+      const { data, error } = await this.client.rpc('my_role');
+      if (error || typeof data !== 'string' || data === this.snapshot.role) return;
+      const hint = this.readHint();
+      if (hint) this.storage.setItem(HINT_KEY, JSON.stringify({ ...hint, role: data }));
+      this.set({ role: data });
+    } catch { /* offline or functions not installed: keep the remembered role */ }
   }
 
   /** Has this user already been asked "What should we call you?" (or skipped)? */
@@ -232,6 +248,7 @@ export class SyncManager {
       }
       this.storage.setItem(LINK_KEY, userId);
       this.set({ status: 'synced', lastSyncedAt: Date.now(), pendingChoice: false });
+      this.refreshRole();
     } catch (e) {
       this.set({ status: this.getOnline() ? 'error' : 'offline', error: this.getOnline() ? 'syncFailed' : null, errorId: this.snapshot.errorId + 1 });
     }
