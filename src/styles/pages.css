@@ -302,3 +302,31 @@ html[data-theme='dark'] .motto,:root:not([data-theme='light']) .motto{color:var(
 .admin-tab.on{color:var(--link);border-block-end-color:var(--brand)}
 .admin-panel{display:flex;flex-direction:column;gap:16px;min-inline-size:0}
 .admin-users-card{min-block-size:220px}
+
+/* ---- special announcements: pop-up with graphics ---- */
+.announce{position:fixed;border:0;padding:0;margin:auto;border-radius:28px;inline-size:min(440px,92vw);background:var(--surface);color:var(--text);box-shadow:0 30px 80px rgba(0,0,0,.45);overflow:hidden;animation:ann-in .5s cubic-bezier(.2,1.2,.3,1) both}
+.announce::backdrop{background:rgba(8,16,40,.62);backdrop-filter:blur(3px)}
+.announce-celebrate{--hero:linear-gradient(135deg,#F59E0B,#E0457B 60%,#6D4AFF);--ico:#C2410C}
+.announce-alert{--hero:linear-gradient(135deg,#9F1D12,#D4600A);--ico:#B42318}
+.announce-info{--hero:var(--grad-brand);--ico:#0F4BB0}
+.announce-head{position:relative;display:flex;flex-direction:column;align-items:center;gap:12px;padding:30px 20px 24px;background:var(--hero)}
+.announce-badge{display:grid;place-items:center;inline-size:76px;block-size:76px;border-radius:50%;background:#fff;color:var(--ico);box-shadow:0 8px 24px rgba(0,0,0,.25)}
+.announce-celebrate .announce-badge{animation:ann-bounce 1.2s .3s ease-in-out 2 both}
+.announce-alert .announce-badge{animation:ann-ring 1.4s ease-out infinite}
+.announce-tag{background:#1A1F36;color:#fff;padding:4px 14px;border-radius:999px;font-weight:700;font-size:.82rem}
+.announce-title{text-align:center;font-size:1.55rem;padding:20px 22px 0;text-wrap:balance}
+.announce-body{text-align:center;padding:10px 24px 0;white-space:pre-line;overflow-wrap:anywhere;color:var(--text)}
+.announce-actions{display:flex;flex-direction:column;align-items:center;gap:10px;padding:22px 22px 26px}
+.link-btn{background:none;border:0;color:var(--link);font-weight:650;display:inline-flex;gap:6px;align-items:center;padding:8px;min-block-size:44px}
+.confetti-burst{position:absolute;inset:0;pointer-events:none;overflow:hidden;z-index:2}
+.confetti-burst span{position:absolute;inset-block-start:-14px;inset-inline-start:var(--x);inline-size:var(--s);block-size:calc(var(--s) * 1.6);background:var(--c);border-radius:2px;transform:rotate(var(--r));animation:confetti-fall 2.6s var(--d) cubic-bezier(.2,.6,.4,1) both}
+.confetti-burst span.round{border-radius:50%;block-size:var(--s)}
+@keyframes confetti-fall{0%{opacity:0;transform:translateY(0) rotate(var(--r))}8%{opacity:1}100%{opacity:0;transform:translateY(560px) rotate(calc(var(--r) + 560deg))}}
+@keyframes ann-in{from{transform:translateY(24px) scale(.94)}to{transform:none}}
+@keyframes ann-bounce{0%,100%{transform:translateY(0) scale(1)}35%{transform:translateY(-10px) scale(1.08)}60%{transform:translateY(0) scale(.97)}}
+@keyframes ann-ring{0%{box-shadow:0 0 0 0 rgba(255,255,255,.7),0 8px 24px rgba(0,0,0,.25)}100%{box-shadow:0 0 0 22px rgba(255,255,255,0),0 8px 24px rgba(0,0,0,.25)}}
+.news-celebrate{border-color:color-mix(in srgb,var(--sun) 70%,var(--border));background:color-mix(in srgb,var(--sun) 12%,var(--surface))}
+.news-celebrate .news-ico{background:color-mix(in srgb,var(--sun) 35%,var(--surface));color:#9A4A00}
+.news-alert{border-color:var(--bad);background:color-mix(in srgb,var(--bad) 6%,var(--surface))}
+.news-alert .news-ico{background:var(--bad-bg);color:var(--bad)}
+@media (prefers-reduced-motion:reduce){.confetti-burst{display:none}.announce,.announce-badge{animation:none!important}}

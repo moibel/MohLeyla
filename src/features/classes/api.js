@@ -38,7 +38,7 @@ export const adminRevokeReward = (id) => rpc('admin_revoke_reward', { p_id: id }
 
 // Announcements (supabase/migrations/004_announcements.sql): only admins post, list or archive; learners read what is meant for them.
 export const myAnnouncements = () => rpc('my_announcements');
-export const adminCreateAnnouncement = ({ title, body, classId, expires }) => rpc('admin_create_announcement', { p_title: title, p_body: body, p_class: classId || null, p_expires: expires || null });
+export const adminCreateAnnouncement = ({ title, body, classId, expires, userEmail, style }) => rpc('admin_create_announcement', { p_title: title, p_body: body, p_class: classId || null, p_expires: expires || null, p_user_email: userEmail || null, p_style: style || 'info' });
 export const adminListAnnouncements = () => rpc('admin_list_announcements');
 export const adminArchiveAnnouncement = (id) => rpc('admin_archive_announcement', { p_id: id });
 /** Every class, for the admin's audience picker (row-level security lets admins read all classes). */
