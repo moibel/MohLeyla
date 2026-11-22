@@ -119,6 +119,35 @@ test.describe('required sign-in', () => {
   });
 });
 
+test.describe('Google sign-in', () => {
+  test('the gate offers Google first, then email; choosing Google signs in and creates the account', async ({ page }) => {
+    const backend = createMockBackend({ googleEmail: 'google.learner@gmail.com' });
+    await backend.install(page);
+    await seed(page, { lang: 'en', legacy: { completed: ['ar-01'], saved: ['a1'], xp: 70 } });
+    await page.goto('/');
+    await expect(page.locator('[data-testid="acc-google"]')).toBeVisible();
+    await expect(page.locator('[data-testid="acc-google"]')).toContainText('Continue with Google');
+    await expect(page.locator('[data-testid="acc-email"]')).toBeVisible(); // email stays available
+    await page.locator('[data-testid="acc-google"]').click();
+    await expect(page.locator('[data-testid="gate"]')).toHaveCount(0);
+    expect(backend.stats.oauth).toBe(1);
+    await expect.poll(() => backend.rows.size).toBe(1);
+    expect([...backend.rows.values()][0].xp).toBe(70); // the device's existing progress went to the Google account
+    await page.reload();
+    await expect(page.locator('[data-testid="gate"]')).toHaveCount(0);
+    expect(page.url()).not.toContain('access_token'); // tokens are cleaned out of the address bar
+  });
+  test('the Google button is translated (ar) and passes axe', async ({ page }) => {
+    const backend = createMockBackend();
+    await backend.install(page);
+    await seed(page, { lang: 'ar' });
+    await page.goto('/');
+    await expect(page.locator('[data-testid="acc-google"]')).toContainText('المتابعة باستخدام Google');
+    const r = await new AxeBuilder({ page }).withTags(['wcag2a', 'wcag2aa']).analyze();
+    expect(r.violations.map((v) => v.id + ': ' + v.nodes[0].target.join(' '))).toEqual([]);
+  });
+});
+
 test.describe('required sign-in offline', () => {
   test.use({ serviceWorkers: 'allow' });
   test('a learner who has signed in can reopen the app without internet', async ({ page, context }) => {

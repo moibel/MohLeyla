@@ -98,3 +98,6 @@
 .gate-lang{align-self:flex-end;max-inline-size:520px;inline-size:100%;display:flex;justify-content:flex-end}
 .gate-card{max-inline-size:520px;inline-size:100%;display:flex;flex-direction:column;gap:14px}
 .gate-card h1{font-size:1.6rem}
+
+.or-divider{display:flex;align-items:center;gap:12px;color:var(--muted);font-size:.85rem;margin:0}
+.or-divider::before,.or-divider::after{content:'';flex:1;block-size:1px;background:var(--border)}

@@ -101,6 +101,18 @@ export class SyncManager {
     }
   }
 
+  /** Redirects to Google, then back to the app with a session in the URL (same path as an emailed link). */
+  async signInWithGoogle() {
+    try {
+      const c = await this.ensureClient();
+      const { error } = await c.auth.signInWithOAuth({ provider: 'google', options: { redirectTo: `${location.origin}/` } });
+      if (error) return this.fail(mapAuthError(error, 'oauthFailed') === 'network' ? 'network' : 'oauthFailed');
+      return true;
+    } catch (e) {
+      return this.fail(e.code === 'notConfigured' ? 'notConfigured' : 'oauthFailed');
+    }
+  }
+
   async sendCode(email) {
     const clean = String(email).trim();
     if (!isEmail(clean)) return this.fail('invalidEmail');

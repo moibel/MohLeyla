@@ -1,6 +1,7 @@
 # Changelog
 
 ## Unreleased
+- **Continue with Google**: optional (`VITE_GOOGLE_SIGN_IN=true`) one-tap Google sign-in / registration next to the email option, on the sign-in screen and in Settings. Needs the Google provider enabled in Supabase (see docs/ACCOUNTS.md). Same-email accounts are linked by Supabase.
 - **Required sign-in (optional switch)**: with `VITE_REQUIRE_SIGN_IN=true` every learner must sign in with their own email before using the app. Remembered sign-in works offline; first sign-in needs internet. Existing progress on a device is kept and uploaded at first sign-in. Sign-out on a shared device saves to the cloud first, then clears the device (asks before discarding unsaved progress); the next person starts clean. A cleared device gets a new device id so per-device XP counters never collide.
 - **Microphone help**: when the microphone request is refused the app now works out why and says so: an out-of-date cached copy that blocks the microphone (with a "Fix and reload" button that clears the app cache and keeps progress), a blocked site (how to open site settings), or a dismissed pop-up (tap Record again and choose Allow). A hint before the first recording tells the learner to tap Allow.
 - **Fix**: the Netlify `Permissions-Policy` header disabled the microphone (`microphone=()`), so speaking practice could not record on the live site. It is now `microphone=(self)`; a unit test guards it.
