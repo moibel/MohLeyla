@@ -1,6 +1,7 @@
 # Changelog
 
 ## Unreleased
+- **New logo**: a speech bubble (conversation) holding an "M" with a smile and a gold star (joy and rewards). Source is `assets-src/logo-master.svg`; `npm run generate:icons` rebuilds the app icons, favicon, PWA icons and social preview from it.
 - **Course map**: each path shows "N of 30 lessons complete" with a progress bar and a one-tap "Continue: <next lesson>" button; each level heading shows its own progress.
 - **Review**: keyboard support (Enter or Space reveals the answer, 1 = didn't know, 2 = knew) and a "words learned · mastered" line on the start screen. Review badge in the sidebar darkened to meet contrast requirements.
 - **Exercise screens**: press 1-9 to answer multiple-choice questions and Enter to continue (keyboard users and desktop learners); an "In a row: N" chip appears after three correct answers in a row and clears on a mistake; the correct option and the chip pop in (no motion when reduced motion is on). Translated in ar, en, id.
