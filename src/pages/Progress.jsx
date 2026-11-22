@@ -2,7 +2,8 @@ import { useTranslation } from 'react-i18next';
 import { Link } from 'react-router-dom';
 import { Sprout, Rocket, Medal, Mic, Sparkles, Flame, Brain, BookMarked, Star, Languages, Trophy, Lock } from 'lucide-react';
 import { PageHeading, Ring, ProgressBar, Button } from '../components/ui.jsx';
-import { TRACKS, TRACK_META, lessonsOfTrack } from '../data/content.js';
+import { TRACK_META, lessonsOfTrack } from '../data/content.js';
+import { orderedTracks } from '../data/trackOrder.js';
 import { useProgress } from '../app/ProgressContext.jsx';
 import { useDerived } from '../features/progress/selectors.js';
 import { ACHIEVEMENTS } from '../features/progress/engine.js';
@@ -62,7 +63,7 @@ export default function Progress() {
       <section className="card" aria-labelledby="bylang-h">
         <h2 id="bylang-h" className="h-sm">{t('progress.byLanguage')}</h2>
         <div className="by-lang">
-          {TRACKS.map((k) => {
+          {orderedTracks(i18n.language).map((k) => {
             const list = lessonsOfTrack(k);
             const done = list.filter((l) => state.completed[l.id]).length;
             return (

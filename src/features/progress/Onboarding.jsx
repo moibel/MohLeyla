@@ -2,7 +2,7 @@ import { useEffect, useRef, useState } from 'react';
 import { useTranslation } from 'react-i18next';
 import { Logo, Button } from '../../components/ui.jsx';
 import { LANG_META, UI_LANGS } from '../../i18n/index.js';
-import { TRACKS } from '../../data/content.js';
+import { orderedTracks, defaultTrack } from '../../data/trackOrder.js';
 import { useProgress } from '../../app/ProgressContext.jsx';
 
 /** First-run dialog. Existing learners (any progress) are never interrupted. */
@@ -13,7 +13,9 @@ export default function Onboarding() {
   const hasProgress = state.xp > 0 || Object.keys(state.completed).length > 0 || Object.keys(state.saved).length > 0;
   const needed = !state.settings.onboarded && !hasProgress;
   const [goal, setGoal] = useState(50);
-  const [track, setTrack] = useState('ar');
+  const [pickedTrack, setPickedTrack] = useState(null); // until the learner chooses, the suggested path follows the interface language
+  const track = pickedTrack || defaultTrack(i18n.language);
+  const setTrack = setPickedTrack;
 
   useEffect(() => {
     if (!state.settings.onboarded && hasProgress) updateSettings({ onboarded: true });
@@ -56,7 +58,7 @@ export default function Onboarding() {
       <fieldset className="choice-group">
         <legend>{t('onboarding.trackQ')}</legend>
         <div className="seg seg-wrap">
-          {TRACKS.map((k) => (
+          {orderedTracks(i18n.language).map((k) => (
             <label key={k} className={track === k ? 'on' : ''}>
               <input type="radio" name="ob-track" checked={track === k} onChange={() => setTrack(k)} />
               <span>{t(`tracks.${k}.short`)}</span>

@@ -4,6 +4,7 @@ import { ArrowRight } from 'lucide-react';
 import { PageHeading, EmptyState, ProgressBar, Button, Flip } from '../components/ui.jsx';
 import LessonCard from '../components/LessonCard.jsx';
 import { TRACKS, TRACK_META, lessonsOfTrack } from '../data/content.js';
+import { orderedTracks, defaultTrack } from '../data/trackOrder.js';
 import { useProgress } from '../app/ProgressContext.jsx';
 import { nextLessonOf } from '../features/progress/selectors.js';
 
@@ -12,7 +13,7 @@ export default function Courses() {
   const { state, updateSettings } = useProgress();
   const [params, setParams] = useSearchParams();
   const param = params.get('track');
-  const track = TRACKS.includes(param) ? param : state.settings.lastTrack && TRACKS.includes(state.settings.lastTrack) ? state.settings.lastTrack : 'ar';
+  const track = TRACKS.includes(param) ? param : state.settings.lastTrack && TRACKS.includes(state.settings.lastTrack) ? state.settings.lastTrack : defaultTrack(i18n.language);
   const list = lessonsOfTrack(track);
   const next = nextLessonOf(state, track);
   const groups = ['beginner', 'elementary', 'intermediate'].map((lv) => ({ lv, items: list.filter((l) => l.level === lv) })).filter((g) => g.items.length);
@@ -23,7 +24,7 @@ export default function Courses() {
     <div className="page">
       <PageHeading title={t('courses.title')} subtitle={t('courses.subtitle')} />
       <div className="filters" role="tablist" aria-label={t('courses.title')}>
-        {TRACKS.map((k) => (
+        {orderedTracks(i18n.language).map((k) => (
           <button key={k} role="tab" aria-selected={track === k} className={`filter ${track === k ? 'on' : ''}`} style={{ '--tile': TRACK_META[k].color }}
             onClick={() => { setParams({ track: k }, { replace: true }); updateSettings({ lastTrack: k }); }} data-testid={`track-${k}`}>
             <span className="filter-glyph" aria-hidden="true" lang={k === 'ar' || k === 'sa' ? 'ar' : 'en'}>{TRACK_META[k].glyph}</span>
