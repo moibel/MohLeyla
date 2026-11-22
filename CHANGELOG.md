@@ -1,6 +1,7 @@
 # Changelog
 
 ## Unreleased
+- **Fix**: the Netlify `Permissions-Policy` header disabled the microphone (`microphone=()`), so speaking practice could not record on the live site. It is now `microphone=(self)`; a unit test guards it.
 - **Accounts and cloud sync (optional, Supabase)**: email one-time-code sign-in, local-first background sync, conflict-free merge of progress between devices (XP counted per device and summed, un-saves propagate), shared-device prompt (combine / use account / cancel), delete cloud data, reset also clears the cloud copy. Needs `VITE_SUPABASE_URL` and `VITE_SUPABASE_ANON_KEY`; without them the app is unchanged. Setup: `docs/ACCOUNTS.md`, schema: `supabase/schema.sql`.
 - **Speaking practice**: record yourself on every word card, compare with the model voice, self-rate ("close" / "needs practice"). Recordings stay in memory on the device and are never stored or uploaded. +1 XP per "close" rating (max 20/day), new "Speaker" achievement. Mapped microphone errors (blocked / no mic / unsupported / too short) in ar, en, id.
 
