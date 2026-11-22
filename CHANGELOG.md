@@ -1,6 +1,7 @@
 # Changelog
 
 ## Unreleased
+- **Roles, classes and an admin page**: student / teacher / admin roles enforced in the database (row-level security + admin-checked functions). Admin page to list accounts and assign roles; teachers create classes with a join code and see a progress summary per student; students join or leave with a code. New `supabase/migrations/002_roles_classes.sql` with a 39-check rolled-back permission test. Fully translated (ar, en, id).
 - **Hosting moved to Cloudflare Pages** (`https://mohleyla.pages.dev`): free, no credit counter. Netlify builds stopped; Supabase Site URL and redirect list updated; docs updated.
 - **Public build settings in the repo**: committed `.env.production` (Supabase URL, publishable key, required sign-in, Google sign-in) so Cloudflare, Netlify and local builds are identical without dashboard variables. Guard tests forbid secrets in it. `.env.example` is now tracked (it had been ignored by mistake).
 - **Cloudflare-ready hosting**: `wrangler.jsonc` (static assets, single-page-app fallback) and `public/_headers` (security headers incl. `microphone=(self)`, caching) so the same repo deploys on Cloudflare as well as Netlify; `docs/HOSTING.md` has the steps. Unit tests keep netlify.toml and _headers in agreement.

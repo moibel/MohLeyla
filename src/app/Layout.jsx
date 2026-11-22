@@ -1,7 +1,7 @@
 import { useEffect, useRef } from 'react';
 import { NavLink, Link, Outlet, useLocation } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
-import { Home, GraduationCap, Brain, Bookmark, BarChart3, Settings as Cog, Flame, Star } from 'lucide-react';
+import { Home, GraduationCap, Brain, Bookmark, BarChart3, Settings as Cog, Flame, Star, Users, ClipboardList, ShieldCheck } from 'lucide-react';
 import { Logo } from '../components/ui.jsx';
 import { LANG_META, UI_LANGS } from '../i18n/index.js';
 import { useDerived } from '../features/progress/selectors.js';
@@ -36,10 +36,21 @@ export function LangSwitcher() {
   );
 }
 
+/** Extra links for signed-in learners, teachers and admins. Hiding a link is only convenience: the database enforces who may do what. */
+function extraNav(sy) {
+  const out = [];
+  if (sy.userId) out.push({ to: '/classes', key: 'classes', Icon: Users });
+  if (sy.role === 'teacher' || sy.role === 'admin') out.push({ to: '/teach', key: 'teach', Icon: ClipboardList });
+  if (sy.role === 'admin') out.push({ to: '/admin', key: 'admin', Icon: ShieldCheck });
+  return out;
+}
+
 function NavItems({ variant }) {
   const { t } = useTranslation();
   const { dueCount } = useDerived();
-  return NAV.map(({ to, key, Icon, end, badge }) => (
+  const sy = useSync();
+  const items = variant === 'side' ? [...NAV, ...extraNav(sy)] : NAV; // the phone bar keeps its 5 learning tabs; more links live on the profile page
+  return items.map(({ to, key, Icon, end, badge }) => (
     <NavLink key={to} to={to} end={end} className={({ isActive }) => `nav-item nav-${variant} ${isActive ? 'active' : ''}`}>
       <span className="nav-icon">
         <Icon size={variant === 'side' ? 20 : 22} aria-hidden="true" />
