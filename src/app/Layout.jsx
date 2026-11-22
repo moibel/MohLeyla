@@ -14,6 +14,7 @@ import Avatar from '../components/Avatar.jsx';
 import { useSync } from '../features/sync/useSync.js';
 import { displayName } from '../features/sync/profile.js';
 import { useRewards } from '../features/rewards/store.js';
+import { useAvailabilitySync } from '../features/availability/sync.js';
 import RewardNotice from '../features/rewards/RewardNotice.jsx';
 
 const NAV = [
@@ -69,6 +70,7 @@ export default function Layout({ pwa }) {
   const { streak, todayXp } = useDerived();
   const sy = useSync();
   const rw = useRewards();
+  useAvailabilitySync();
   const loc = useLocation();
   const main = useRef(null);
   const first = useRef(true);

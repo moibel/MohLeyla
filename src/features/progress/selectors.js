@@ -1,6 +1,7 @@
 import { useMemo } from 'react';
 import { useProgress } from '../../app/ProgressContext.jsx';
 import { allLessonMeta, lessonMeta, lessonsOfTrack, TRACKS } from '../../data/content.js';
+import { visibleLessonsOfTrack, isLessonVisible, useAvailability } from '../../data/availability.js';
 import { accuracy, achievementContext, dueItems, learnedItems, liveStreak, reviewPool, unlockedAchievements, isMastered } from './engine.js';
 import { localDay } from '../../utils/dates.js';
 
@@ -9,13 +10,14 @@ export const lessonsByTrack = Object.fromEntries(TRACKS.map((t) => [t, lessonsOf
 
 /** First lesson in path order that is not yet completed, for a track. */
 export function nextLessonOf(state, track) {
-  const list = lessonsOfTrack(track);
+  const list = visibleLessonsOfTrack(track);
   return list.find((l) => !state.completed[l.id]) || null;
 }
 
 export function useDerived() {
   const { state } = useProgress();
   const today = localDay();
+  const availability = useAvailability(); // lessons the admin hid are left out of the counts
   return useMemo(() => {
     const pool = reviewPool(state, lessonItems);
     const due = dueItems(state, pool, today);
@@ -23,7 +25,8 @@ export function useDerived() {
     const ctx = achievementContext(state, { lessonsByTrack, lessonItems });
     const mastered = Object.entries(state.srs).filter(([, e]) => isMastered(e)).length;
     const todayXp = state.days[today]?.xp || 0;
-    const completedCount = allLessonMeta.filter((l) => state.completed[l.id]).length;
+    const shown = allLessonMeta.filter((l) => isLessonVisible(l.id));
+    const completedCount = shown.filter((l) => state.completed[l.id]).length;
     return {
       today,
       pool,
@@ -36,7 +39,7 @@ export function useDerived() {
       accuracy: accuracy(state),
       unlocked: unlockedAchievements(state, ctx),
       completedCount,
-      totalLessons: allLessonMeta.length,
+      totalLessons: shown.length,
     };
-  }, [state, today]);
+  }, [state, today, availability]);
 }

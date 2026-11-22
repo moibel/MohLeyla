@@ -1,4 +1,5 @@
 import { TRACKS } from './content.js';
+import { isTrackVisible } from './availability.js';
 
 /**
  * Which learning paths come first for a given interface language.
@@ -8,5 +9,6 @@ import { TRACKS } from './content.js';
 export function trackOrder(uiLang) {
   return uiLang === 'ar' ? ['en', 'id', 'ar', 'sa'] : ['ar', 'sa', 'en', 'id'];
 }
-export const defaultTrack = (uiLang) => trackOrder(uiLang)[0];
-export const orderedTracks = (uiLang) => trackOrder(uiLang).filter((k) => TRACKS.includes(k));
+export const defaultTrack = (uiLang) => orderedTracks(uiLang)[0] || trackOrder(uiLang)[0];
+/** The paths to offer, in order: only the ones the admin has not hidden. */
+export const orderedTracks = (uiLang) => trackOrder(uiLang).filter((k) => TRACKS.includes(k) && isTrackVisible(k));
