@@ -92,7 +92,7 @@ export default {
     reviewNone: 'Nothing due right now. Learn new words to build your review list.',
     reviewCta: 'Review now',
     chooseTrack: 'Choose what you want to learn',
-    chooseTrackSub: 'Four learning paths, one goal: speak with confidence.',
+    chooseTrackSub: 'Eight learning paths, one goal: speak with confidence.',
     trackProgress: '{{done}} of {{total}} lessons',
     openPath: 'Open path',
     startHere: 'Start here',

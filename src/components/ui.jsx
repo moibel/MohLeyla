@@ -3,8 +3,9 @@ import { useTranslation } from 'react-i18next';
 import { trackLang } from '../data/content.js';
 
 /** Brand logo. `compact` shows only the mark. Always the same bundled asset: no external paths that can break. */
-export function Logo({ compact = false, size = 40, onDark = false, className = '' }) {
-  const src = onDark ? '/icons/logo-mark-on-dark-128.png' : '/icons/logo-mark-128.webp';
+export function Logo({ compact = false, size = 40, className = '' }) {
+  // Small sizes use the simplified drawing of the mark (the detailed artwork turns to mush under about 64 px); large sizes use the full artwork.
+  const src = size < 64 ? '/icons/logo-mark-simple-128.webp' : '/icons/logo-mark-128.webp';
   return (
     <span className={`logo ${className}`}>
       <img src={src} width={size} height={size} alt="" decoding="async" />
