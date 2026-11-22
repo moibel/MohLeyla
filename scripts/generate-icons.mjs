@@ -92,7 +92,7 @@ fs.writeFileSync(path.join(root, 'public/favicon.ico'), Buffer.concat([header, p
 
 // Social preview 1200x630
 const og = await sharp(gradientTile(1200, 0)).extract({ left: 0, top: 0, width: 1200, height: 630 }).toBuffer();
-const ogMark = await mark(420, 0.04).png().toBuffer();
+const ogMark = await (await tiled(420, { tile: 'light', pad: 0.1, radiusPct: 0.22 })).png().toBuffer(); // white tile so the blue bubble stands out on the blue card
 const ogText = Buffer.from(
   `<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630"><text x="560" y="300" font-family="Arial, Helvetica, sans-serif" font-size="108" font-weight="800" fill="#fff">MohLeyla</text><text x="564" y="370" font-family="Arial, Helvetica, sans-serif" font-size="32" fill="#CFE8FF">Arabic · Saudi · English · Indonesian</text></svg>`,
 );
@@ -104,6 +104,6 @@ await sharp(og)
 // Vector tile reused for the SVG favicon fallback
 fs.writeFileSync(
   path.join(root, 'public/icons/favicon.svg'),
-  `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64"><defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="${BRAND_DEEP}"/><stop offset=".55" stop-color="${BRAND_BLUE}"/><stop offset="1" stop-color="${BRAND_TEAL}"/></linearGradient></defs><rect width="64" height="64" rx="16" fill="url(#g)"/><path d="M13 20h16q4 0 4 5v22q0-5-4-5H13zm38 0H35q-4 0-4 5v22q0-5 4-5h16z" fill="#fff"/><circle cx="48" cy="14" r="3.2" fill="#FFC83D"/></svg>`,
+  `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64"><defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="${BRAND_DEEP}"/><stop offset=".55" stop-color="${BRAND_BLUE}"/><stop offset="1" stop-color="${BRAND_TEAL}"/></linearGradient></defs><rect width="64" height="64" rx="16" fill="url(#g)"/><rect x="6" y="6" width="52" height="44" rx="15" fill="#fff"/><path d="M18 36V19l14 12 14-12v17" fill="none" stroke="url(#g)" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/><path d="M17 49l-3 9 14-8z" fill="#fff"/><path d="M49 4l1.6 4.4L55 10l-4.400 1.600L49 16l-1.600-4.400L43 10l4.400-1.600z" fill="#FFC83D"/></svg>`,
 );
 console.log('Icons generated in public/icons');
