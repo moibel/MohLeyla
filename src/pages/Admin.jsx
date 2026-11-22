@@ -15,6 +15,7 @@ function AdminInner() {
   const me = useSync();
   const [users, setUsers] = useState(null);
   const [q, setQ] = useState('');
+  const [roleFilter, setRoleFilter] = useState('all');
   const [msg, setMsg] = useState(null);
   const [pending, setPending] = useState(null);
   const dlg = useRef(null);
@@ -26,8 +27,13 @@ function AdminInner() {
 
   const shown = useMemo(() => {
     const n = q.trim().toLowerCase();
-    return (users || []).filter((u) => !n || [u.email, u.display_name].some((s) => (s || '').toLowerCase().includes(n)));
-  }, [users, q]);
+    return (users || []).filter((u) => (roleFilter === 'all' || u.role === roleFilter) && (!n || [u.email, u.display_name].some((s) => (s || '').toLowerCase().includes(n))));
+  }, [users, q, roleFilter]);
+  const stats = useMemo(() => {
+    const us = users || [];
+    const weekAgo = new Date(Date.now() - 7 * 864e5).toISOString();
+    return { total: us.length, student: us.filter((u) => u.role === 'student').length, teacher: us.filter((u) => u.role === 'teacher').length, admin: us.filter((u) => u.role === 'admin').length, active: us.filter((u) => u.last_sign_in_at && u.last_sign_in_at >= weekAgo).length };
+  }, [users]);
 
   const apply = async () => {
     const p = pending;
@@ -40,9 +46,21 @@ function AdminInner() {
   return (
     <div className="page" data-testid="admin-page">
       <PageHeading title={t('admin.title')} subtitle={t('admin.subtitle')} />
+      {users && users.length > 0 && (
+        <dl className="admin-stats" data-testid="admin-stats">
+          {[['total', stats.total], ['students', stats.student], ['teachers', stats.teacher], ['admins', stats.admin], ['active', stats.active]].map(([k, n]) => (
+            <div key={k} className="stat-tile-lite"><dt>{t(`admin.stats.${k}`)}</dt><dd>{n}</dd></div>
+          ))}
+        </dl>
+      )}
       <div className="toolbar">
         <label className="searchbox"><Search size={20} aria-hidden="true" /><span className="sr-only">{t('common.search')}</span>
           <input type="search" value={q} onChange={(e) => setQ(e.target.value)} placeholder={t('admin.search')} data-testid="admin-search" /></label>
+        <label><span className="sr-only">{t('admin.colRole')}</span>
+          <select className="role-select" value={roleFilter} onChange={(e) => setRoleFilter(e.target.value)} data-testid="role-filter">
+            <option value="all">{t('admin.filterAll')}</option>
+            {ROLES.map((r) => <option key={r} value={r}>{t(`admin.roles.${r}`)}</option>)}
+          </select></label>
       </div>
       {msg && <p className={msg.ok ? 'ok-text' : 'err-text'} role={msg.ok ? 'status' : 'alert'} data-testid="admin-msg">{msg.text}</p>}
       {users === null && <p className="muted">{t('app.loading')}</p>}

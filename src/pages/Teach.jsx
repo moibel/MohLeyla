@@ -85,6 +85,12 @@ function TeachInner() {
             <div className="table-scroll" data-testid="roster">
               {roster === null && <p className="muted">{t('app.loading')}</p>}
               {roster && roster.length === 0 && <p className="muted" dir="auto">{t('teach.empty', { code: c.code })}</p>}
+              {roster && roster.length > 0 && (() => {
+                const weekAgo = new Date(Date.now() - 7 * 864e5).toISOString().slice(0, 10);
+                const active = roster.filter((r) => r.last_active && r.last_active >= weekAgo).length;
+                const avg = Math.round(roster.reduce((a, r) => a + (r.xp || 0), 0) / roster.length);
+                return <p className="roster-summary" data-testid="roster-summary">{t('teach.summary', { active, n: roster.length, xp: avg })}</p>;
+              })()}
               {roster && roster.length > 0 && (
                 <table className="data-table">
                   <thead><tr>

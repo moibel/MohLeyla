@@ -18,6 +18,7 @@ const Profile = lazy(() => import('../pages/Profile.jsx'));
 const Classes = lazy(() => import('../pages/Classes.jsx'));
 const Teach = lazy(() => import('../pages/Teach.jsx'));
 const Admin = lazy(() => import('../pages/Admin.jsx'));
+const About = lazy(() => import('../pages/About.jsx'));
 const NotFound = lazy(() => import('../pages/NotFound.jsx'));
 
 export default function App() {
@@ -40,6 +41,7 @@ export default function App() {
               <Route path="classes" element={<Classes />} />
               <Route path="teach" element={<Teach />} />
               <Route path="admin" element={<Admin />} />
+              <Route path="about" element={<About />} />
               <Route path="settings" element={<Settings pwa={pwa} />} />
               <Route path="*" element={<NotFound />} />
             </Route>

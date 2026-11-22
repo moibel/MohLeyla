@@ -193,3 +193,43 @@ html[lang='ar'] .label{letter-spacing:0;text-transform:none;font-size:.85rem}
 .data-table thead th{font-size:.8rem;color:var(--muted);font-weight:700;white-space:nowrap}
 .data-table tbody th{font-weight:650}
 .role-select{min-block-size:40px;border:1px solid var(--border);background:var(--surface);border-radius:10px;padding:0 10px}
+
+/* ---- polish: browser surfaces, motion, credit, about, admin ---- */
+::selection{background:color-mix(in srgb,var(--brand) 28%,transparent);color:inherit}
+html{scrollbar-color:color-mix(in srgb,var(--muted) 45%,transparent) transparent;scrollbar-width:thin}
+input,textarea,select{caret-color:var(--brand)}
+.big-num,.stat-pill b,.stat-tile b,.data-table td,.admin-stats dd{font-variant-numeric:tabular-nums}
+.eyebrow{display:inline-flex;align-items:center;gap:6px}
+.content>.page{animation:page-in .45s var(--ease) both}
+@keyframes page-in{from{transform:translateY(10px)}to{transform:none}}
+.track-card,.lesson-card,.stat-card{transition:transform .25s var(--ease),box-shadow .25s var(--ease),border-color .2s}
+.track-card:active,.lesson-card:active{transform:translateY(0) scale(.99)}
+.track-card:hover .go{background:var(--brand);color:#fff}
+.hero{background:var(--grad-brand),radial-gradient(circle at 20% 0,rgba(255,255,255,.12),transparent 40%)}
+.hero h1{text-wrap:balance}
+.hero p{text-wrap:pretty}
+.footer{display:flex;flex-direction:column;align-items:center;gap:4px}
+.made-by{display:inline-flex;align-items:center;gap:6px;color:var(--muted);text-decoration:none;font-weight:600;padding:6px 10px;border-radius:999px;transition:background .2s,color .2s}
+.made-by svg{color:#E5484D}
+.made-by:hover{background:var(--surface-2);color:var(--text)}
+.side-credit{display:block;text-align:center;font-size:.8rem;color:var(--muted);text-decoration:none;font-weight:600;padding:6px}
+.side-credit:hover{color:var(--text)}
+.gate-credit{color:var(--muted);font-size:.85rem;font-weight:600}
+.creator-card{display:flex;gap:18px;align-items:center;flex-wrap:wrap}
+.creator-name{font-size:1.4rem;font-weight:800;line-height:1.3}
+.motto{display:inline-flex;gap:8px;align-items:center;font-weight:700;color:var(--brand)}
+html[data-theme='dark'] .motto,:root:not([data-theme='light']) .motto{color:var(--link)}
+.motto svg{color:#E5484D}
+.about-points{display:grid;gap:10px}
+.about-points li{display:flex;gap:14px;align-items:center;padding:14px 16px;border-radius:var(--r);background:var(--surface);border:1px solid var(--border)}
+.about-ico{display:grid;place-items:center;inline-size:40px;block-size:40px;border-radius:12px;background:var(--brand-soft);color:var(--brand);flex:none}
+.about-foot{display:flex;flex-direction:column;gap:8px;align-items:flex-start}
+.about-foot .link-strong{display:inline-flex;gap:8px;align-items:center}
+.admin-stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(130px,1fr));gap:12px;margin:0}
+.stat-tile-lite{padding:14px 16px;border-radius:var(--r);background:var(--surface);border:1px solid var(--border)}
+.stat-tile-lite dt{font-size:.8rem;color:var(--muted);font-weight:650}
+.stat-tile-lite dd{margin:2px 0 0;font-size:1.6rem;font-weight:800}
+.roster-summary{font-weight:650;color:var(--muted);margin-block-end:8px}
+.about-foot,.creator-card{min-inline-size:0}
+@media (prefers-reduced-motion:reduce){.content>.page{animation:none}}
+.stack-sm>.h-md{margin-block-end:0}
