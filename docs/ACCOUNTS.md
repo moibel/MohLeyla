@@ -117,6 +117,14 @@ with an optional reason, and can take a reward back (it stays in the history, ma
 - Bonus XP is added to the XP totals shown in the app but **not** to the daily goal, the streak or the learning achievements. The learner is told once, and sees stars, bonus XP and badges on the profile page.
 - Setup: run `supabase/migrations/003_rewards.sql` once (after 002). Tests: `sh supabase/tests/run-local.sh rewards`.
 
+## Announcements
+An admin can post a message from *Admin -> Announcements* to **everyone** or to the students of **one class**. Write the title and message in one, two or all three languages: each learner sees their own language, else English, else the first one written. Optionally choose a date after which it stops showing; an announcement can be archived at any time (it stays in the history).
+
+- Learners see the two newest on the home page (each can be closed there) and all current ones on their profile page.
+- Titles up to 80 characters, messages up to 600, shown as plain text only.
+- Stored behind admin-checked functions (`supabase/migrations/004_announcements.sql`, 27 permission checks): nobody but an admin can post, and a learner only reads what is meant for them.
+- Setup: run `supabase/migrations/004_announcements.sql` once (after 002). Tests: `sh supabase/tests/run-local.sh announcements`.
+
 ## Testing status
 Unit tests cover the merge rules and the sync manager against an in-memory fake. Browser tests run the full sign-in and
 two-device flow against a **mocked** Supabase API. Not yet exercised against a real Supabase project, real emails, or real

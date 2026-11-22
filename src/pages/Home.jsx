@@ -9,6 +9,7 @@ import { useProgress } from '../app/ProgressContext.jsx';
 import { nextLessonOf, useDerived } from '../features/progress/selectors.js';
 import { useSync } from '../features/sync/useSync.js';
 import { displayName } from '../features/sync/profile.js';
+import AnnouncementCards from '../features/announcements/AnnouncementCards.jsx';
 
 export default function Home() {
   const { t, i18n } = useTranslation();
@@ -26,6 +27,7 @@ export default function Home() {
 
   return (
     <div className="page home">
+      <AnnouncementCards compact />
       <section className="hero" aria-labelledby="hero-title">
         <div className="hero-copy">
           <span className="eyebrow" data-testid="greeting"><Sparkles size={15} aria-hidden="true" /> {who ? <>{t('home.hi')} <bdi>{who}</bdi>!</> : t('home.welcome')}</span>

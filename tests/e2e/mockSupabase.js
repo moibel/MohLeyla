@@ -17,6 +17,7 @@ export function createMockBackend(opts = {}) {
   const known = new Map(); // userId -> { id, email, display_name, providers, role, summary }
   const classes = []; // { id, name, code, teacher_id, created_at }
   const members = []; // { class_id, student_id, joined_at }
+  const announcements = []; // mirrors 004_announcements.sql
   const rewards = []; // { id, email, kind, amount, label, reason, created_at, granted_by_email, revoked_at } (mirrors 003_rewards.sql)
   const adminEmails = new Set(Array.isArray(opts.admins) ? opts.admins : []);
   const teacherEmails = new Set(Array.isArray(opts.teachers) ? opts.teachers : []);
@@ -74,7 +75,7 @@ export function createMockBackend(opts = {}) {
       return route.fulfill({ status: 302, headers: { ...cors, location: `${redirect}#${hash}` }, body: '' });
     }
     if (url.pathname === '/auth/v1/logout') return route.fulfill({ status: 204, headers: cors });
-    if (url.pathname.startsWith('/rest/v1/rpc/') || url.pathname === '/rest/v1/class_members') {
+    if (url.pathname.startsWith('/rest/v1/rpc/') || url.pathname === '/rest/v1/class_members' || url.pathname === '/rest/v1/classes') {
       const tok = (req.headers()['authorization'] || '').replace('Bearer ', '');
       let claims;
       try { claims = JSON.parse(Buffer.from(tok.split('.')[1], 'base64url').toString()); } catch { return json(401, { message: 'bad token' }); }
@@ -82,6 +83,10 @@ export function createMockBackend(opts = {}) {
       const deny = () => json(403, { code: '42501', message: 'not allowed' });
       const args = req.postData() ? JSON.parse(req.postData()) : {};
       stats.rpc = stats.rpc || {};
+      if (url.pathname === '/rest/v1/classes') {
+        if (me.role !== 'admin') return json(200, classes.filter((c) => c.teacher_id === me.id).map((c) => ({ id: c.id, name: c.name })));
+        return json(200, classes.map((c) => ({ id: c.id, name: c.name })).sort((x, y) => x.name.localeCompare(y.name)));
+      }
       if (url.pathname === '/rest/v1/class_members' && req.method() === 'DELETE') {
         const cid = (url.searchParams.get('class_id') || '').replace('eq.', '');
         const sid = (url.searchParams.get('student_id') || '').replace('eq.', '');
@@ -160,6 +165,34 @@ export function createMockBackend(opts = {}) {
         r.revoked_at = new Date().toISOString();
         return json(200, null);
       }
+      if (fn === 'my_announcements') {
+        const now = Date.now();
+        return json(200, announcements.filter((a) => !a.archived_at && (!a.expires_at || new Date(a.expires_at) > now) && (a.audience === 'all' || members.some((m) => m.class_id === a.class_id && m.student_id === me.id)))
+          .reverse().map((a) => ({ id: a.id, title: a.title, body: a.body, class_name: a.class_id ? classes.find((c) => c.id === a.class_id)?.name : null, created_at: a.created_at })));
+      }
+      if (fn === 'admin_create_announcement') {
+        if (me.role !== 'admin') return deny();
+        const clean = (o) => { const out = {}; for (const [k, v] of Object.entries(o || {})) { if (!['ar', 'en', 'id'].includes(k) || typeof v !== 'string') return null; if (v.trim()) out[k] = v.trim(); } return Object.keys(out).length ? out : null; };
+        const title = clean(args.p_title); const body = clean(args.p_body);
+        const same = title && body && Object.keys(title).sort().join() === Object.keys(body).sort().join();
+        if (!same || Object.values(title).some((v) => v.length > 80) || Object.values(body).some((v) => v.length > 600)) return json(400, { code: '22023', message: 'invalid' });
+        if (args.p_class && !classes.some((c) => c.id === args.p_class)) return json(400, { code: 'P0002', message: 'class not found' });
+        if (args.p_expires && new Date(args.p_expires) <= new Date()) return json(400, { code: '22023', message: 'expiry in the past' });
+        const a = { id: 'an-' + (announcements.length + 1), title, body, audience: args.p_class ? 'class' : 'all', class_id: args.p_class || null, created_at: new Date().toISOString(), expires_at: args.p_expires || null, archived_at: null };
+        announcements.push(a);
+        return json(200, a.id);
+      }
+      if (fn === 'admin_list_announcements') {
+        if (me.role !== 'admin') return deny();
+        return json(200, [...announcements].reverse().map((a) => ({ ...a, class_name: a.class_id ? classes.find((c) => c.id === a.class_id)?.name : null })));
+      }
+      if (fn === 'admin_archive_announcement') {
+        if (me.role !== 'admin') return deny();
+        const a = announcements.find((x) => x.id === args.p_id && !x.archived_at);
+        if (!a) return json(400, { code: 'P0002', message: 'not found' });
+        a.archived_at = new Date().toISOString();
+        return json(200, null);
+      }
       return json(404, { message: 'rpc not mocked: ' + fn });
     }
     if (url.pathname === '/rest/v1/progress') {
@@ -184,5 +217,5 @@ export function createMockBackend(opts = {}) {
     }
     return json(404, { message: 'not mocked: ' + url.pathname });
   }
-  return { rows, stats, state, install: (ctxOrPage) => ctxOrPage.route(`${MOCK_URL}/**`, handle), code, profiles, known, classes, members, rewards, addUser: (email, extra = {}) => { const u = know(email); Object.assign(u, extra); return u; } };
+  return { rows, stats, state, install: (ctxOrPage) => ctxOrPage.route(`${MOCK_URL}/**`, handle), code, profiles, known, classes, members, rewards, announcements, addUser: (email, extra = {}) => { const u = know(email); Object.assign(u, extra); return u; } };
 }

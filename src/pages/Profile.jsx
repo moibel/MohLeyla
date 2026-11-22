@@ -12,6 +12,7 @@ import { useProgress } from '../app/ProgressContext.jsx';
 import { useDerived } from '../features/progress/selectors.js';
 import { LANG_META } from '../i18n/index.js';
 import RewardsSummary from '../features/rewards/RewardsSummary.jsx';
+import AnnouncementCards from '../features/announcements/AnnouncementCards.jsx';
 import { useRewards } from '../features/rewards/store.js';
 
 export default function Profile() {
@@ -85,6 +86,7 @@ export default function Profile() {
         ))}
       </section>
       <RewardsSummary />
+      <AnnouncementCards />
       <div className="btn-row">
         <Button variant="secondary" to="/classes" icon={<Users size={18} aria-hidden="true" />} data-testid="link-classes">{t('nav.classes')}</Button>
         {(s.role === 'teacher' || s.role === 'admin') && <Button variant="secondary" to="/teach" icon={<ClipboardList size={18} aria-hidden="true" />} data-testid="link-teach">{t('nav.teach')}</Button>}
