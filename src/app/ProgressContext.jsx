@@ -32,8 +32,14 @@ export function ProgressProvider({ children }) {
 
   // Optional cloud sync: restore a stored session at startup, re-sync when coming back online / to the foreground.
   useEffect(() => {
-    sync.attach({ getState: () => ref.current, apply: (s) => commit(() => ({ state: s })) });
-    if (sync.getSnapshot().configured && shouldConnectAtStartup()) sync.init();
+    sync.attach({
+      getState: () => ref.current,
+      apply: (s) => commit(() => ({ state: s })),
+      // a NEW device id: XP counters restart from zero, so they must not collide with the old id's counters in the cloud
+      clearLocal: () => commit((cur) => ({ state: { ...emptyState(), settings: { ...cur.settings, onboarded: true } } })),
+    });
+    const snap = sync.getSnapshot();
+    if (snap.configured && (snap.restoring || shouldConnectAtStartup())) sync.init();
     const resync = () => sync.getSnapshot().userId && sync.syncNow();
     const onVisible = () => document.visibilityState === 'visible' && resync();
     window.addEventListener('online', resync);
@@ -62,7 +68,7 @@ export function ProgressProvider({ children }) {
       storageBlocked,
       updateSettings: (patch) => commit((s) => ({ state: { ...s, settings: { ...s.settings, ...patch } } })),
       replaceState: (raw) => commit((cur) => ({ state: { ...migrate(raw), device: cur.device } })),
-      resetAll: () => commit(() => ({ state: { ...emptyState(ref.current.device), settings: { ...ref.current.settings } } })),
+      resetAll: () => commit(() => ({ state: { ...emptyState(), settings: { ...ref.current.settings } } })),
     }),
     [state, commit, storageBlocked],
   );

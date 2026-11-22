@@ -8,6 +8,7 @@ import { useDerived } from '../features/progress/selectors.js';
 import { useProgress } from './ProgressContext.jsx';
 import { AudioNotice, OfflineBar, UpdateBanner } from '../components/Notices.jsx';
 import Onboarding from '../features/progress/Onboarding.jsx';
+import SyncDialogs from '../features/sync/SyncDialogs.jsx';
 
 const NAV = [
   { to: '/', key: 'home', Icon: Home, end: true },
@@ -91,6 +92,7 @@ export default function Layout({ pwa }) {
       <AudioNotice />
       <UpdateBanner pwa={pwa} />
       <Onboarding />
+      <SyncDialogs />
     </div>
   );
 }

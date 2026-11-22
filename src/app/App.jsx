@@ -6,6 +6,7 @@ import Layout from './Layout.jsx';
 import { usePwa } from './usePwa.js';
 import { Spinner } from '../components/ui.jsx';
 import Home from '../pages/Home.jsx';
+import Gate from '../features/sync/SignInGate.jsx';
 
 const Courses = lazy(() => import('../pages/Courses.jsx'));
 const LessonPage = lazy(() => import('../pages/LessonPage.jsx'));
@@ -21,6 +22,7 @@ export default function App() {
   return (
     <ProgressProvider>
       <BrowserRouter>
+        <Gate>
         <Suspense fallback={<Spinner label={t('app.loading')} />}>
           <Routes>
             <Route element={<Layout pwa={pwa} />}>
@@ -35,6 +37,7 @@ export default function App() {
             </Route>
           </Routes>
         </Suspense>
+        </Gate>
       </BrowserRouter>
     </ProgressProvider>
   );

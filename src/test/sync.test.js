@@ -207,3 +207,77 @@ describe('no empty cloud rows', () => {
     expect(server.rows.size).toBe(0);
   });
 });
+
+describe('required sign-in support', () => {
+  it('remembers the signed-in user so reopening (even offline) does not ask again', async () => {
+    const server = makeServer();
+    const storage = memStorage();
+    const d = device(server, win('phone', 'ar-01'), { storage });
+    await signIn(d);
+    expect(JSON.parse(storage.getItem('mohleyla-session-hint'))).toMatchObject({ userId: 'u1', email: 'a@b.co' });
+    // new app start, offline: the manager starts restoring with the remembered user and never falls back to signed-out
+    const mgr = new SyncManager({ createClient: async () => { throw new Error('offline'); }, configured: true, storage, getOnline: () => false });
+    expect(mgr.getSnapshot()).toMatchObject({ userId: 'u1', restoring: true });
+    await mgr.init();
+    expect(mgr.getSnapshot()).toMatchObject({ userId: 'u1', restoring: false });
+  });
+  it('online with no valid session any more: signed out so the sign-in screen appears', async () => {
+    const server = makeServer();
+    const storage = memStorage();
+    storage.setItem('mohleyla-session-hint', JSON.stringify({ userId: 'u1', email: 'a@b.co' }));
+    const mgr = new SyncManager({ createClient: async () => fakeClient(server), configured: true, storage });
+    expect(mgr.getSnapshot().restoring).toBe(true);
+    await mgr.init();
+    expect(mgr.getSnapshot()).toMatchObject({ userId: null, status: 'signedOut', restoring: false });
+    expect(storage.getItem('mohleyla-session-hint')).toBeNull();
+  });
+  it('a fresh start with no hint and nothing in the URL is not "restoring"', () => {
+    const mgr = new SyncManager({ createClient: async () => ({}), configured: true, storage: memStorage() });
+    expect(mgr.getSnapshot()).toMatchObject({ restoring: false, userId: null });
+    expect(new SyncManager({ createClient: async () => ({}), configured: true, storage: memStorage(), authInUrl: true }).getSnapshot().restoring).toBe(true);
+    expect(new SyncManager({ createClient: async () => ({}), configured: false, storage: memStorage(), authInUrl: true }).getSnapshot().restoring).toBe(false);
+  });
+  it('signOutAndClear saves to the cloud first, then empties this device', async () => {
+    const server = makeServer();
+    const d = device(server, win('phone', 'ar-01'));
+    let cleared = false;
+    d.mgr.attach({ getState: () => d.state, apply: (s) => { d.state = s; }, clearLocal: () => { cleared = true; d.state = emptyState('new'); } });
+    await signIn(d);
+    d.state = applyLessonResult(d.state, { lessonId: 'en-01', itemIds: ['x'], correct: 16, total: 16, firstTryCorrect: 16, now: T }).state; // not yet synced
+    const r = await d.mgr.signOutAndClear();
+    expect(r.ok).toBe(true);
+    expect(cleared).toBe(true);
+    expect(server.rows.get('u1').xp).toBe(140); // the unsynced lesson reached the cloud before the device was cleared
+    expect(d.mgr.getSnapshot().status).toBe('signedOut');
+    expect(d.mgr.readHint()).toBeNull();
+  });
+  it('signOutAndClear refuses to discard unsynced progress unless forced', async () => {
+    const server = makeServer();
+    let online = true;
+    const d = device(server, win('phone', 'ar-01'), { getOnline: () => online });
+    let cleared = false;
+    d.mgr.attach({ getState: () => d.state, apply: (s) => { d.state = s; }, clearLocal: () => { cleared = true; } });
+    await signIn(d);
+    online = false;
+    const r = await d.mgr.signOutAndClear();
+    expect(r).toEqual({ ok: false, reason: 'unsynced' });
+    expect(cleared).toBe(false);
+    expect(d.mgr.getSnapshot().userId).toBe('u1');
+    expect((await d.mgr.signOutAndClear({ force: true })).ok).toBe(true);
+    expect(cleared).toBe(true);
+  });
+  it('after clearing, the same account can sign back in on the device and get everything back (XP not lost)', async () => {
+    const server = makeServer();
+    const storage = memStorage();
+    const d = device(server, win('phone', 'ar-01'), { storage });
+    await signIn(d);
+    d.mgr.attach({ getState: () => d.state, apply: (s) => { d.state = s; }, clearLocal: () => { d.state = emptyState('phone-2'); } });
+    await d.mgr.signOutAndClear();
+    expect(d.state.xp).toBe(0);
+    await signIn(d);
+    expect(d.state.xp).toBe(70);
+    d.state = applyLessonResult(d.state, { lessonId: 'en-01', itemIds: ['x'], correct: 16, total: 16, firstTryCorrect: 16, now: T }).state;
+    await d.mgr.syncNow();
+    expect(server.rows.get('u1').xp).toBe(140);
+  });
+});
