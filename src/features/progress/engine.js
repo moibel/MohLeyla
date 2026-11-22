@@ -12,11 +12,21 @@ export const SRS_INTERVALS = [0, 0, 1, 2, 4, 8, 16]; // days, indexed by box (1.
 export const MAX_BOX = 6;
 export const MASTERED_BOX = 5;
 
+export const newDeviceId = () => {
+  try {
+    if (globalThis.crypto?.randomUUID) return globalThis.crypto.randomUUID();
+  } catch { /* fall through */ }
+  return 'dev-' + Math.random().toString(36).slice(2) + Date.now().toString(36);
+};
+
 export const defaultSettings = () => ({ speed: 'normal', source: 'auto', goal: 50, theme: 'system', onboarded: false, lastTrack: null });
 
-export function emptyState() {
+export function emptyState(device = newDeviceId()) {
   return {
     schema: SCHEMA,
+    device, // id of THIS browser; never synced. XP is counted per device so merging two devices never loses or double-counts XP
+    xpLedger: {}, // deviceId -> xp earned on that device (xp = sum)
+    unsaved: {}, // itemId -> timestamp of removal (tombstones, so un-saving syncs correctly)
     completed: {}, // lessonId -> { first, last, best, attempts, perfect }
     saved: {}, // itemId -> timestamp
     srs: {}, // itemId -> { box, due, reps, lapses, last }
@@ -30,7 +40,21 @@ export function emptyState() {
 }
 
 /** Upgrade any stored value (v6 object, legacy v1 object, or junk) to a valid v6 state. Never throws, never loses data. */
+/** Normalise device id, XP ledger and tombstones on any state. xp is always the sum of the ledger. */
+function finalize(s) {
+  const device = s.device || newDeviceId();
+  // An empty/missing ledger with xp > 0 means legacy (v1-v5) or pre-sync XP: attribute it to this device.
+  let ledger = s.xpLedger && typeof s.xpLedger === 'object' && Object.keys(s.xpLedger).length ? s.xpLedger : null;
+  if (!ledger) ledger = s.xp > 0 ? { [device]: Math.floor(s.xp) } : {};
+  const xp = Object.values(ledger).reduce((a, b) => a + (Number(b) || 0), 0);
+  return { ...s, device, xpLedger: ledger, unsaved: s.unsaved || {}, xp };
+}
+
 export function migrate(raw, legacy) {
+  return finalize(migrateRaw(raw, legacy));
+}
+
+function migrateRaw(raw, legacy) {
   const base = emptyState();
   const src = raw && typeof raw === 'object' ? raw : null;
   if (src && src.schema === SCHEMA) {
@@ -79,6 +103,7 @@ export function liveStreak(state, today) {
 const addXp = (state, today, amount, extra = {}) => ({
   ...state,
   xp: state.xp + amount,
+  xpLedger: amount ? { ...state.xpLedger, [state.device]: (state.xpLedger?.[state.device] || 0) + amount } : state.xpLedger,
   days: { ...state.days, [today]: { ...state.days[today], xp: (state.days[today]?.xp || 0) + amount, ...extra } },
 });
 
@@ -120,9 +145,14 @@ export function applyLessonResult(state, { lessonId, itemIds, correct, total, fi
 
 export function toggleSaved(state, itemId, now = Date.now()) {
   const saved = { ...state.saved };
-  if (saved[itemId] !== undefined) delete saved[itemId];
-  else saved[itemId] = now;
-  return { ...state, saved };
+  const unsaved = { ...(state.unsaved || {}) };
+  if (saved[itemId] !== undefined) {
+    delete saved[itemId];
+    unsaved[itemId] = now;
+  } else {
+    saved[itemId] = now;
+  }
+  return { ...state, saved, unsaved };
 }
 
 // ----- spaced repetition (Leitner boxes) -----

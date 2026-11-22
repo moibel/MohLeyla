@@ -22,6 +22,7 @@
   "dependencies": {
     "@fontsource-variable/cairo": "^5.1.0",
     "@fontsource-variable/inter": "^5.1.0",
+    "@supabase/supabase-js": "^2.119.2",
     "i18next": "^23.16.8",
     "lucide-react": "^0.468.0",
     "react": "^18.3.1",

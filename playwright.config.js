@@ -9,7 +9,7 @@ export default defineConfig({
   reporter: [['list']],
   use: { baseURL: 'http://127.0.0.1:4173', trace: 'off', serviceWorkers: 'allow' },
   webServer: {
-    command: 'npm run build && npx vite preview --host 127.0.0.1 --port 4173 --strictPort',
+    command: 'VITE_SUPABASE_URL=https://mohleyla-test.supabase.co VITE_SUPABASE_ANON_KEY=test-anon-key npm run build && npx vite preview --host 127.0.0.1 --port 4173 --strictPort',
     url: 'http://127.0.0.1:4173',
     reuseExistingServer: true,
     timeout: 180_000,

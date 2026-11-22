@@ -3,6 +3,8 @@ import { loadState, saveState } from '../features/progress/storage.js';
 import { emptyState, migrate } from '../features/progress/engine.js';
 import { audio } from '../features/audio/audioService.js';
 import { SPEEDS } from '../features/audio/audioService.js';
+import { sync } from '../features/sync/index.js';
+import { shouldConnectAtStartup } from '../services/supabaseClient.js';
 
 const Ctx = createContext(null);
 export const useProgress = () => useContext(Ctx);
@@ -25,7 +27,22 @@ export function ProgressProvider({ children }) {
 
   useEffect(() => {
     if (!saveState(state)) setBlocked(true);
+    sync.schedule(); // no-op unless signed in
   }, [state]);
+
+  // Optional cloud sync: restore a stored session at startup, re-sync when coming back online / to the foreground.
+  useEffect(() => {
+    sync.attach({ getState: () => ref.current, apply: (s) => commit(() => ({ state: s })) });
+    if (sync.getSnapshot().configured && shouldConnectAtStartup()) sync.init();
+    const resync = () => sync.getSnapshot().userId && sync.syncNow();
+    const onVisible = () => document.visibilityState === 'visible' && resync();
+    window.addEventListener('online', resync);
+    document.addEventListener('visibilitychange', onVisible);
+    return () => {
+      window.removeEventListener('online', resync);
+      document.removeEventListener('visibilitychange', onVisible);
+    };
+  }, [commit]);
 
   useEffect(() => {
     audio.setPrefs({ speed: SPEEDS[state.settings.speed] ?? 1, source: state.settings.source });
@@ -44,8 +61,8 @@ export function ProgressProvider({ children }) {
       commit,
       storageBlocked,
       updateSettings: (patch) => commit((s) => ({ state: { ...s, settings: { ...s.settings, ...patch } } })),
-      replaceState: (raw) => commit(() => ({ state: migrate(raw) })),
-      resetAll: () => commit(() => ({ state: { ...emptyState(), settings: { ...ref.current.settings } } })),
+      replaceState: (raw) => commit((cur) => ({ state: { ...migrate(raw), device: cur.device } })),
+      resetAll: () => commit(() => ({ state: { ...emptyState(ref.current.device), settings: { ...ref.current.settings } } })),
     }),
     [state, commit, storageBlocked],
   );
