@@ -11,7 +11,6 @@ async function signIn(page, email = 'amina@example.com', code = '123456') {
   await page.locator('[data-testid="acc-email"]').fill(email);
   await page.locator('[data-testid="acc-send"]').click();
   await expect(page.locator('[data-testid="acc-sent"]')).toContainText(email);
-  await page.locator('[data-testid="acc-use-code"]').click();
   await page.locator('[data-testid="acc-code"]').fill(code);
   await page.locator('[data-testid="acc-verify"]').click();
 }
@@ -33,15 +32,15 @@ test.describe('accounts & sync (mocked Supabase API)', () => {
     expect((await page.evaluate(state)).xp).toBe(150);
   });
 
-  test('link-only sign-in: after sending, the screen says to open the link; following the emailed link signs in and syncs', async ({ page }) => {
+  test('after sending, the screen offers the code box and the link; following the emailed link signs in and syncs', async ({ page }) => {
     const backend = createMockBackend();
     await backend.install(page);
     await seed(page, { lang: 'en', state: { xp: 70, xpLedger: { d: 70 }, completed: { 'ar-01': { best: 100, attempts: 1 } } } });
     await page.goto('/settings');
     await page.locator('[data-testid="acc-email"]').fill('amina@example.com');
     await page.locator('[data-testid="acc-send"]').click();
-    await expect(page.locator('[data-testid="acc-sent"]')).toContainText('Open the link in it on this device');
-    await expect(page.locator('[data-testid="acc-code"]')).toBeHidden(); // code box stays collapsed unless asked for
+    await expect(page.locator('[data-testid="acc-sent"]')).toContainText('open the link in it on this device');
+    await expect(page.locator('[data-testid="acc-code"]')).toBeVisible();
     await page.locator('[data-testid="acc-resend"]').click();
     expect(backend.stats.otps).toBe(2);
     // the user opens the link from the email: Supabase redirects to /settings with the session in the URL hash
@@ -66,8 +65,7 @@ test.describe('accounts & sync (mocked Supabase API)', () => {
     await expect(page.locator('[data-testid="acc-error"]')).toContainText('Terlalu banyak email');
     backend.state.rateLimit = false;
     await page.locator('[data-testid="acc-send"]').click();
-    await page.locator('[data-testid="acc-use-code"]').click();
-    await page.locator('[data-testid="acc-code"]').fill('999999');
+      await page.locator('[data-testid="acc-code"]').fill('999999');
     await page.locator('[data-testid="acc-verify"]').click();
     await expect(page.locator('[data-testid="acc-error"]')).toContainText('Kode salah');
   });

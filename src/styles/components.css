@@ -93,5 +93,3 @@
 .field{display:flex;flex-direction:column;gap:6px;font-weight:650}
 .field input{min-block-size:48px;padding:0 14px;border-radius:14px;border:1px solid var(--border);background:var(--surface);font-weight:500}
 .field input:focus-visible{outline:3px solid var(--focus)}
-.code-details summary{cursor:pointer;font-weight:650;color:var(--link);padding:8px 0;min-block-size:44px;display:flex;align-items:center}
-.code-details[open] summary{margin-block-end:8px}
