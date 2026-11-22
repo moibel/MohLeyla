@@ -13,8 +13,8 @@ fs.mkdirSync(out, { recursive: true });
 const cell = (s) => String(s ?? '').replace(/\|/g, '\\|').replace(/\n/g, ' ');
 
 for (const track of Object.keys(NAMES)) {
-  const file = path.join(root, 'src/data/content', track, 'part1.json');
-  const lessons = JSON.parse(fs.readFileSync(file, 'utf8')).sort((a, b) => a.order - b.order);
+  const dir = path.join(root, 'src/data/content', track);
+  const lessons = fs.readdirSync(dir).filter((f) => /^part\d+\.json$/.test(f)).flatMap((f) => JSON.parse(fs.readFileSync(path.join(dir, f), 'utf8'))).sort((a, b) => a.order - b.order);
   let md = `# ${NAMES[track]}: review sheet for a native speaker\n\n`;
   md += 'These lessons are a **beta**: written carefully and checked by scripts and a second linguistic pass, but not yet by a native speaker.\n\n';
   md += '**How to review.** For each row: is the target natural and correct? does the pronunciation guide match? do the Arabic, English and Indonesian meanings match? Tick the box when it is right; write the correction in the last column when it is not. Send the sheet back and the lessons are fixed and the Beta label can be removed.\n\n';

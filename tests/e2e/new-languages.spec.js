@@ -19,12 +19,12 @@ test.describe('new beta languages: Egyptian Arabic, French, Spanish, Chinese', (
   }
 
   for (const track of NEW) {
-    test(`${track}: the course page shows 10 lessons and the Beta note; a lesson plays through to a result`, async ({ page }) => {
+    test(`${track}: the course page shows 30 lessons and the Beta note; a lesson plays through to a result`, async ({ page }) => {
       test.setTimeout(120_000);
       await seed(page, { lang: 'en' });
       await page.goto(`/learn?track=${track}`);
       await expect(page.locator('[data-testid="beta-note"]')).toContainText('not yet been reviewed by a native speaker');
-      await expect(page.locator('[data-testid="track-progress"]')).toContainText('10');
+      await expect(page.locator('[data-testid="track-progress"]')).toContainText('30');
       const lesson = getLesson(`${track}-01`);
       await page.goto(`/lesson/${track}-01`);
       await expect(page.locator('h1')).toHaveText(lesson.title.en);

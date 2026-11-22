@@ -1,6 +1,6 @@
 # MohLeyla v6
 
-Multilingual language-learning app: **Modern Standard Arabic**, **Saudi Arabic**, **English** and **Indonesian** (30 lessons each) plus four **beta** paths, **Egyptian Arabic**, **French**, **Spanish** and **Chinese** (10 lessons each, see [docs/NEW_LANGUAGES.md](docs/NEW_LANGUAGES.md)), with the interface in **Arabic, English or Indonesian**.
+Multilingual language-learning app: **Modern Standard Arabic**, **Saudi Arabic**, **English** and **Indonesian** (30 lessons each) plus four **beta** paths, **Egyptian Arabic**, **French**, **Spanish** and **Chinese** (30 lessons each, see [docs/NEW_LANGUAGES.md](docs/NEW_LANGUAGES.md)), with the interface in **Arabic, English or Indonesian**.
 
 - Live site: https://mohleyla.pages.dev
 - Repository: https://github.com/moibel/MohLeyla
@@ -11,10 +11,10 @@ Multilingual language-learning app: **Modern Standard Arabic**, **Saudi Arabic**
 
 | Area | Status |
 | --- | --- |
-| Courses | **160 lessons** (30 per original track, 10 per beta track), 1,029 vocabulary items, each lesson with objectives, intro, real-world context, grammar note, 6 words + examples, 2 cloze items and 1 conversation |
+| Courses | **240 lessons** (30 per track, eight tracks), 1,669 vocabulary items, each lesson with objectives, intro, real-world context, grammar note, 6 words + examples, 2 cloze items and 1 conversation |
 | Exercises | multiple choice, match, fill in the blank, arrange words, listening, translation, conversation completion, spaced-repetition vocabulary review |
 | Interface languages | Arabic (RTL), English, Indonesian – every string is translated; no fallback to another language |
-| Audio | 2,900+ pre-generated mp3 clips (content-addressed, cached) + Web Speech API fallback with explicit voice selection |
+| Audio | 4,700 pre-generated mp3 clips (content-addressed, cached) + Web Speech API fallback with explicit voice selection |
 | Progress | XP, streak, daily goal, accuracy, words learned/mastered, achievements, Leitner spaced repetition, backup/restore |
 | Existing users | v1–v5 progress (`mohleyla-v1`) is migrated automatically, never deleted, and never re-awards XP |
 | PWA | manifest, icons, maskable icons, service worker, update prompt, install button |
@@ -102,7 +102,7 @@ Sign-in and cross-device sync use Supabase (and `VITE_REQUIRE_SIGN_IN=true` make
 
 ## Offline use (honest limits)
 
-The service worker precaches the app shell, fonts, icons and **all lesson text** (about 4 MB). Audio is **not** precached (about 25 MB); a clip is saved after it has been played once, so previously played audio replays offline. Unplayed audio offline falls back to your device voice if it has one. Progress is stored in `localStorage` and works offline.
+The service worker precaches the app shell, fonts, icons and **all lesson text** (about 5 MB). Audio is **not** precached (about 50 MB); a clip is saved after it has been played once, so previously played audio replays offline. Unplayed audio offline falls back to your device voice if it has one. Progress is stored in `localStorage` and works offline.
 
 ## Deployment
 

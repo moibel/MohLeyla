@@ -1,0 +1,3429 @@
+[
+  {
+    "id": "zh-11",
+    "track": "zh",
+    "level": "elementary",
+    "order": 11,
+    "topic": "measure-words-things",
+    "icon": "📚",
+    "title": {
+      "ar": "كلمات العدّ للأشياء",
+      "en": "Measure Words in Depth",
+      "id": "Penggolong untuk Benda"
+    },
+    "description": {
+      "ar": "تعلّم كلمات العدّ مثل 本 و张 و只 لتعدّ الأشياء بدقة.",
+      "en": "Learn measure words such as 本, 张 and 只 to count things precisely.",
+      "id": "Pelajari penggolong seperti 本, 张, dan 只 untuk menghitung benda dengan tepat."
+    },
+    "objectives": [
+      {
+        "ar": "أستطيع استخدام 本 و张 و件 و条 و只 و辆 مع الأسماء المناسبة.",
+        "en": "I can use 本, 张, 件, 条, 只 and 辆 with the right nouns.",
+        "id": "Saya bisa memakai 本, 张, 件, 条, 只, dan 辆 dengan kata benda yang tepat."
+      },
+      {
+        "ar": "أستطيع القول 这本书 و那只猫 للإشارة إلى شيء محدد.",
+        "en": "I can say 这本书 and 那只猫 to point to a specific thing.",
+        "id": "Saya bisa mengatakan 这本书 dan 那只猫 untuk menunjuk benda tertentu."
+      },
+      {
+        "ar": "أستطيع السؤال بـ 几 + كلمة عدّ، واستخدام 一些 و每.",
+        "en": "I can ask with 几 + measure word, and use 一些 and 每.",
+        "id": "Saya bisa bertanya dengan 几 + penggolong, dan memakai 一些 dan 每."
+      }
+    ],
+    "intro": {
+      "ar": "في الصينية لا نقول «ثلاثة كتب» مباشرة، بل نضع كلمة عدّ بين الرقم والاسم: 三本书. في الدرس السابع رأيت 个 و杯 و瓶، وهنا نتعلم كلمات عدّ أكثر دقة. الأفضل أن تحفظ الاسم مع كلمة عدّه معًا، فإذا نسيتها فكلمة 个 تصلح في كثير من الحالات.",
+      "en": "In Chinese you do not say \"three books\" directly; a measure word goes between the number and the noun: 三本书. In lesson 7 you met 个, 杯 and 瓶, and here you learn more precise ones. It helps to memorise each noun together with its measure word, and if you forget, 个 works in many cases.",
+      "id": "Dalam bahasa Mandarin kita tidak mengatakan \"tiga buku\" begitu saja; sebuah penggolong diletakkan di antara angka dan kata benda: 三本书. Di pelajaran 7 Anda sudah mengenal 个, 杯, dan 瓶, dan di sini Anda belajar yang lebih tepat. Sebaiknya hafalkan setiap kata benda bersama penggolongnya, dan jika lupa, 个 bisa dipakai dalam banyak kasus."
+    },
+    "culture": {
+      "ar": "غالبًا ما تدلّ كلمة العدّ على شكل الشيء: 张 للأشياء المسطحة كالورق والتذاكر، و条 للأشياء الطويلة كالطرق والأسماك والبناطيل. حين تتعلم كلمة عدّ جديدة اسأل نفسك عن الشكل المشترك بين الأسماء التي تستعملها. وتسمع الصينيين يستعملون 个 في الكلام اليومي كثيرًا، ولن يستغرب أحد إن أخطأت في كلمة عدّ.",
+      "en": "A measure word often hints at the shape of the thing: 张 is for flat things such as paper and tickets, and 条 is for long things such as roads, fish and trousers. When you learn a new measure word, ask what shape the nouns it goes with share. You will hear 个 a lot in everyday speech, and nobody will be surprised if you pick the wrong measure word now and then.",
+      "id": "Penggolong sering memberi petunjuk bentuk benda: 张 untuk benda pipih seperti kertas dan tiket, 条 untuk benda panjang seperti jalan, ikan, dan celana. Saat belajar penggolong baru, tanyakan bentuk apa yang sama pada kata benda yang dipakainya. Anda akan sering mendengar 个 dalam tuturan sehari-hari, dan tidak ada yang heran jika sesekali Anda keliru memilih penggolong."
+    },
+    "grammar": {
+      "title": {
+        "ar": "这/那 + العدد + كلمة العدّ + الاسم",
+        "en": "这/那 + number + measure word + noun",
+        "id": "这/那 + angka + penggolong + kata benda"
+      },
+      "body": {
+        "ar": "للإشارة إلى شيء محدد نقول 这 (هذا) أو 那 (ذاك) ثم كلمة العدّ ثم الاسم: 这本书 (هذا الكتاب)، 那只猫 (تلك القطة). وإن كان هناك عدد وضعناه بين الإشارة وكلمة العدّ: 这两只猫 (هاتان القطتان). ونسأل عن العدد بـ 几 + كلمة العدّ: 你有几只猫؟ (كم قطة لديك؟). ويُقال 一 في النطق السريع yí قبل النغمة الرابعة مثل 一辆 yí liàng، ويُكتب هنا بنغمته الأصلية yī. وتعني 一些 «بعض» و每 «كل» وتأتي مع كلمة العدّ: 每本书.",
+        "en": "To point at a specific thing we say 这 (this) or 那 (that), then the measure word, then the noun: 这本书 (this book), 那只猫 (that cat). If there is a number it goes between the pointer and the measure word: 这两只猫 (these two cats). We ask about quantity with 几 + measure word: 你有几只猫? (How many cats do you have?). In fast speech 一 becomes yí before a fourth tone, as in 一辆 yí liàng, but here it is written with its base tone yī. 一些 means \"some\" and 每 means \"every\" and it also takes a measure word: 每本书.",
+        "id": "Untuk menunjuk benda tertentu kita mengatakan 这 (ini) atau 那 (itu), lalu penggolong, lalu kata benda: 这本书 (buku ini), 那只猫 (kucing itu). Jika ada angka, letaknya di antara kata tunjuk dan penggolong: 这两只猫 (kedua kucing ini). Kita bertanya jumlah dengan 几 + penggolong: 你有几只猫? (Berapa kucing yang Anda punya?). Dalam tuturan cepat 一 menjadi yí sebelum nada 4, seperti 一辆 yí liàng, tetapi di sini ditulis dengan nada dasarnya yī. 一些 berarti \"beberapa\" dan 每 berarti \"setiap\" dan juga memakai penggolong: 每本书."
+      }
+    },
+    "items": [
+      {
+        "id": "zh11n1",
+        "target": "本",
+        "translit": "běn",
+        "tr": {
+          "ar": "كلمة عدّ للكتب",
+          "en": "measure word for books",
+          "id": "penggolong untuk buku"
+        },
+        "example": {
+          "target": "我有三本书。",
+          "translit": "wǒ yǒu sān běn shū.",
+          "tr": {
+            "ar": "لدي ثلاثة كتب.",
+            "en": "I have three books.",
+            "id": "Saya punya tiga buku."
+          }
+        },
+        "hint": {
+          "ar": "تُستعمل 本 مع الكتب والمجلات والدفاتر: 一本书، 一本杂志.",
+          "en": "本 is used for books, magazines and notebooks: 一本书. Say it with tone 3: běn.",
+          "id": "本 dipakai untuk buku, majalah, dan buku catatan: 一本书. Ucapkan dengan nada 3: běn."
+        }
+      },
+      {
+        "id": "zh11n2",
+        "target": "张",
+        "translit": "zhāng",
+        "tr": {
+          "ar": "كلمة عدّ للأشياء المسطحة",
+          "en": "measure word for flat things",
+          "id": "penggolong untuk benda pipih"
+        },
+        "example": {
+          "target": "这张纸很大。",
+          "translit": "zhè zhāng zhǐ hěn dà.",
+          "tr": {
+            "ar": "هذه الورقة كبيرة جدًا.",
+            "en": "This sheet of paper is very big.",
+            "id": "Kertas ini sangat besar."
+          }
+        },
+        "hint": {
+          "ar": "تُستعمل 张 مع الورق والتذاكر والصور والطاولات: 一张票.",
+          "en": "张 is used for paper, tickets, photos and tables: 一张票.",
+          "id": "张 dipakai untuk kertas, tiket, foto, dan meja: 一张票."
+        }
+      },
+      {
+        "id": "zh11n3",
+        "target": "件",
+        "translit": "jiàn",
+        "tr": {
+          "ar": "كلمة عدّ للملابس والأمور",
+          "en": "measure word for clothes and matters",
+          "id": "penggolong untuk pakaian dan urusan"
+        },
+        "example": {
+          "target": "这件衣服很便宜。",
+          "translit": "zhè jiàn yīfu hěn piányi.",
+          "tr": {
+            "ar": "هذا الثوب رخيص جدًا.",
+            "en": "This piece of clothing is very cheap.",
+            "id": "Pakaian ini sangat murah."
+          }
+        },
+        "hint": {
+          "ar": "件 للملابس العلوية والقطع عمومًا، وللأمور أيضًا مثل 一件事 (أمر).",
+          "en": "件 is for tops and clothes in general, and also for matters, as in 一件事 (one matter).",
+          "id": "件 untuk pakaian atas dan pakaian pada umumnya, juga untuk urusan, seperti 一件事 (satu urusan)."
+        }
+      },
+      {
+        "id": "zh11n4",
+        "target": "条",
+        "translit": "tiáo",
+        "tr": {
+          "ar": "كلمة عدّ للأشياء الطويلة",
+          "en": "measure word for long things",
+          "id": "penggolong untuk benda panjang"
+        },
+        "example": {
+          "target": "这条路很长。",
+          "translit": "zhè tiáo lù hěn cháng.",
+          "tr": {
+            "ar": "هذا الطريق طويل جدًا.",
+            "en": "This road is very long.",
+            "id": "Jalan ini sangat panjang."
+          }
+        },
+        "hint": {
+          "ar": "条 للطرق والأسماك والبناطيل والأنهار: 一条鱼 (سمكة)، 一条路 (طريق).",
+          "en": "条 is for roads, fish, trousers and rivers: 一条鱼 (a fish), 一条路 (a road).",
+          "id": "条 untuk jalan, ikan, celana, dan sungai: 一条鱼 (seekor ikan), 一条路 (sebuah jalan)."
+        }
+      },
+      {
+        "id": "zh11n5",
+        "target": "只",
+        "translit": "zhī",
+        "tr": {
+          "ar": "كلمة عدّ للحيوانات الصغيرة",
+          "en": "measure word for small animals",
+          "id": "penggolong untuk hewan kecil"
+        },
+        "example": {
+          "target": "那只猫很小。",
+          "translit": "nà zhī māo hěn xiǎo.",
+          "tr": {
+            "ar": "تلك القطة صغيرة جدًا.",
+            "en": "That cat is very small.",
+            "id": "Kucing itu sangat kecil."
+          }
+        },
+        "hint": {
+          "ar": "只 للقطط والطيور والحيوانات الصغيرة، وهي بنغمة أولى zhī. 那 هنا بنغمة رابعة.",
+          "en": "只 is for cats, birds and other small animals, with tone 1: zhī. 那 here has tone 4.",
+          "id": "只 untuk kucing, burung, dan hewan kecil lainnya, dengan nada 1: zhī. 那 di sini bernada 4."
+        }
+      },
+      {
+        "id": "zh11n6",
+        "target": "辆",
+        "translit": "liàng",
+        "tr": {
+          "ar": "كلمة عدّ للمركبات",
+          "en": "measure word for vehicles",
+          "id": "penggolong untuk kendaraan"
+        },
+        "example": {
+          "target": "他有一辆新车。",
+          "translit": "tā yǒu yī liàng xīn chē.",
+          "tr": {
+            "ar": "لديه سيارة جديدة.",
+            "en": "He has a new car.",
+            "id": "Dia punya sebuah mobil baru."
+          }
+        },
+        "hint": {
+          "ar": "辆 للسيارات والدراجات والحافلات. في الكلام تُنطق 一辆 غالبًا yí liàng.",
+          "en": "辆 is for cars, bikes and buses. In speech 一辆 is usually pronounced yí liàng.",
+          "id": "辆 untuk mobil, sepeda, dan bus. Dalam tuturan 一辆 biasanya diucapkan yí liàng."
+        }
+      },
+      {
+        "id": "zh11n7",
+        "target": "每",
+        "translit": "měi",
+        "tr": {
+          "ar": "كل؛ كل واحد",
+          "en": "every, each",
+          "id": "setiap"
+        },
+        "example": {
+          "target": "我每天都学汉语。",
+          "translit": "wǒ měitiān dōu xué Hànyǔ.",
+          "tr": {
+            "ar": "أتعلم الصينية كل يوم.",
+            "en": "I study Chinese every day.",
+            "id": "Saya belajar bahasa Mandarin setiap hari."
+          }
+        },
+        "hint": {
+          "ar": "كثيرًا ما تأتي 每天 مع 都 في الجملة. 每 بنغمة ثالثة.",
+          "en": "每天 is often used together with 都 in a sentence. 每 has tone 3.",
+          "id": "每天 sering dipakai bersama 都 dalam kalimat. 每 bernada 3."
+        }
+      },
+      {
+        "id": "zh11n8",
+        "target": "一些",
+        "translit": "yīxiē",
+        "tr": {
+          "ar": "بعض؛ قليل من",
+          "en": "some",
+          "id": "beberapa"
+        },
+        "example": {
+          "target": "我有一些中国朋友。",
+          "translit": "wǒ yǒu yīxiē Zhōngguó péngyou.",
+          "tr": {
+            "ar": "لدي بعض الأصدقاء الصينيين.",
+            "en": "I have some Chinese friends.",
+            "id": "Saya punya beberapa teman Tionghoa."
+          }
+        },
+        "hint": {
+          "ar": "一些 تعني كمية غير محددة ولا تحتاج كلمة عدّ بعدها. و朋友 المقطع الثاني خفيف.",
+          "en": "一些 means an indefinite amount and needs no measure word after it. The second syllable of 朋友 is neutral.",
+          "id": "一些 berarti jumlah yang tidak tentu dan tidak memerlukan penggolong setelahnya. Suku kedua 朋友 netral."
+        }
+      }
+    ],
+    "cloze": [
+      {
+        "sentence": "我有两___猫。",
+        "answer": "只",
+        "wrong": [
+          "个",
+          "本"
+        ],
+        "tr": {
+          "ar": "لدي قطتان.",
+          "en": "I have two cats.",
+          "id": "Saya punya dua ekor kucing."
+        },
+        "why": {
+          "ar": "القطط تُعدّ بكلمة 只، فنقول 两只猫. أما 本 فللكتب، ولا نستعمل 个 مع القطط في الكلام الصحيح.",
+          "en": "Cats are counted with 只, so we say 两只猫. 本 is for books, and 个 is not the proper measure word for cats.",
+          "id": "Kucing dihitung dengan 只, jadi dikatakan 两只猫. 本 untuk buku, dan 个 bukan penggolong yang tepat untuk kucing."
+        }
+      },
+      {
+        "sentence": "我想买一___车。",
+        "answer": "辆",
+        "wrong": [
+          "本",
+          "条"
+        ],
+        "tr": {
+          "ar": "أريد أن أشتري سيارة.",
+          "en": "I want to buy a car.",
+          "id": "Saya ingin membeli sebuah mobil."
+        },
+        "why": {
+          "ar": "المركبات تُعدّ بـ 辆: 一辆车. 本 للكتب و条 للأشياء الطويلة كالطرق.",
+          "en": "Vehicles are counted with 辆: 一辆车. 本 is for books and 条 for long things like roads.",
+          "id": "Kendaraan dihitung dengan 辆: 一辆车. 本 untuk buku dan 条 untuk benda panjang seperti jalan."
+        }
+      }
+    ],
+    "conversation": {
+      "context": {
+        "ar": "في شقة صديق: تسأله عن القطط التي يملكها.",
+        "en": "In a friend's flat: you ask him about his cats.",
+        "id": "Di apartemen seorang teman: Anda bertanya tentang kucingnya."
+      },
+      "turns": [
+        {
+          "who": "A",
+          "target": "你有几只猫？",
+          "tr": {
+            "ar": "كم قطة لديك؟",
+            "en": "How many cats do you have?",
+            "id": "Berapa kucing yang kamu punya?"
+          }
+        },
+        {
+          "who": "B",
+          "target": "我有两只猫。",
+          "tr": {
+            "ar": "لدي قطتان.",
+            "en": "I have two cats.",
+            "id": "Saya punya dua ekor kucing."
+          }
+        },
+        {
+          "who": "A",
+          "target": "我也想有一只猫。",
+          "tr": {
+            "ar": "وأنا أيضًا أريد أن تكون لدي قطة.",
+            "en": "I want to have a cat too.",
+            "id": "Saya juga ingin punya seekor kucing."
+          }
+        }
+      ],
+      "gap": 1,
+      "wrong": [
+        "我每天都学汉语。",
+        "这张纸很大。"
+      ],
+      "why": {
+        "ar": "السؤال 几只猫 يسأل عن عدد القطط، فالجواب المناسب يذكر العدد. الجملتان الأخريان لا علاقة لهما بالسؤال.",
+        "en": "The question 几只猫 asks how many cats, so the fitting answer gives a number. The other two sentences have nothing to do with the question.",
+        "id": "Pertanyaan 几只猫 menanyakan jumlah kucing, jadi jawaban yang pas menyebut angka. Dua kalimat lain tidak berkaitan dengan pertanyaan."
+      }
+    },
+    "summary": {
+      "ar": "تعلّمت كلمات العدّ 本 و张 و件 و条 و只 و辆، وقول 这本书 و那只猫، والسؤال بـ 几، واستخدام 每 و一些. احفظ كل اسم مع كلمة عدّه.",
+      "en": "You learned the measure words 本, 张, 件, 条, 只 and 辆, how to say 这本书 and 那只猫, how to ask with 几, and how to use 每 and 一些. Memorise each noun with its measure word.",
+      "id": "Anda belajar penggolong 本, 张, 件, 条, 只, dan 辆, cara mengatakan 这本书 dan 那只猫, bertanya dengan 几, serta memakai 每 dan 一些. Hafalkan setiap kata benda bersama penggolongnya."
+    }
+  },
+  {
+    "id": "zh-12",
+    "track": "zh",
+    "level": "elementary",
+    "order": 12,
+    "topic": "abilities-permission",
+    "icon": "💪",
+    "title": {
+      "ar": "ماذا أستطيع أن أفعل",
+      "en": "What I Can Do",
+      "id": "Apa yang Bisa Saya Lakukan"
+    },
+    "description": {
+      "ar": "تعلّم 会 و能 و可以 و应该 للتعبير عن المهارة والقدرة والإذن والنصيحة.",
+      "en": "Learn 会, 能, 可以 and 应该 to talk about skill, ability, permission and advice.",
+      "id": "Pelajari 会, 能, 可以, dan 应该 untuk membicarakan keterampilan, kemampuan, izin, dan saran."
+    },
+    "objectives": [
+      {
+        "ar": "أستطيع القول 我会游泳 و我会开车 للتعبير عن مهارة تعلمتها.",
+        "en": "I can say 我会游泳 and 我会开车 to talk about learned skills.",
+        "id": "Saya bisa mengatakan 我会游泳 dan 我会开车 untuk keterampilan yang dipelajari."
+      },
+      {
+        "ar": "أستطيع طلب الإذن بـ 可以...吗 والتعبير عن الظرف بـ 能.",
+        "en": "I can ask permission with 可以...吗 and talk about circumstances with 能.",
+        "id": "Saya bisa meminta izin dengan 可以...吗 dan membicarakan keadaan dengan 能."
+      },
+      {
+        "ar": "أستطيع إعطاء نصيحة بـ 应该 والسؤال 你会说汉语吗؟",
+        "en": "I can give advice with 应该 and ask 你会说汉语吗?",
+        "id": "Saya bisa memberi saran dengan 应该 dan bertanya 你会说汉语吗?"
+      }
+    ],
+    "intro": {
+      "ar": "في العربية نقول «أستطيع» لكل شيء، أما في الصينية فهناك أكثر من فعل: 会 لما تعلمته، و能 للقدرة أو الظرف، و可以 للإذن، و应该 لما ينبغي. الاختيار بينها هو أهم مهارة في هذا الدرس. تأتي هذه الأفعال قبل الفعل الرئيسي مباشرة، ونفيها بـ 不: 不会 و不能 و不可以.",
+      "en": "In English we say \"can\" for many things, but Chinese has several verbs: 会 for what you have learned, 能 for ability or circumstance, 可以 for permission, and 应该 for what you should do. Choosing between them is the key skill in this lesson. These verbs come right before the main verb, and they are negated with 不: 不会, 不能, 不可以.",
+      "id": "Dalam bahasa Indonesia kita memakai \"bisa\" untuk banyak hal, tetapi bahasa Mandarin punya beberapa kata kerja: 会 untuk yang sudah dipelajari, 能 untuk kemampuan atau keadaan, 可以 untuk izin, dan 应该 untuk yang sebaiknya dilakukan. Memilih di antaranya adalah keterampilan kunci pelajaran ini. Kata kerja ini diletakkan tepat sebelum kata kerja utama, dan dinegasikan dengan 不: 不会, 不能, 不可以."
+    },
+    "culture": {
+      "ar": "عند تعلّم الصينية يسألك الناس غالبًا 你会说汉语吗؟ والجواب المتواضع المعتاد هو 会一点儿 (أعرف قليلًا)، حتى لو كان مستواك جيدًا. وفي الأماكن العامة مثل المتاحف تجد لافتات تمنع التصوير أو تسمح به، فاسأل بلطف 这里可以拍照吗؟ إن لم تكن متأكدًا. كما أن 能 تُستعمل كثيرًا في الاعتذار: 我今天不能去.",
+      "en": "When you are learning Chinese, people often ask 你会说汉语吗? The usual modest answer is 会一点儿 (a little), even when your level is good. In public places such as museums, signs may allow or forbid photos, so ask politely 这里可以拍照吗? if you are not sure. 能 is also common in apologies: 我今天不能去.",
+      "id": "Saat Anda belajar bahasa Mandarin, orang sering bertanya 你会说汉语吗? Jawaban sederhana yang biasa adalah 会一点儿 (sedikit), bahkan ketika kemampuan Anda sudah baik. Di tempat umum seperti museum, papan bisa mengizinkan atau melarang foto, jadi tanyakan dengan sopan 这里可以拍照吗? jika Anda tidak yakin. 能 juga sering dipakai saat meminta maaf: 我今天不能去."
+    },
+    "grammar": {
+      "title": {
+        "ar": "会 و能 و可以 و应该",
+        "en": "会, 能, 可以 and 应该",
+        "id": "会, 能, 可以, dan 应该"
+      },
+      "body": {
+        "ar": "会 = تعلمت كيف أفعل: 我会游泳 (أعرف السباحة). 能 = أستطيع بحكم القدرة أو الظرف: 我今天不能去 (لا أستطيع الذهاب اليوم). 可以 = مسموح: 这里可以坐吗؟ (هل يجوز الجلوس هنا؟). 应该 = ينبغي: 你应该休息 (ينبغي أن ترتاح). في الجملة الاستفهامية نضع 吗 في النهاية، وللنفي نضع 不 قبل الفعل المساعد: 我不会开车.",
+        "en": "会 = you have learned how to: 我会游泳 (I can swim). 能 = you are able because of ability or circumstances: 我今天不能去 (I can't go today). 可以 = it is allowed: 这里可以坐吗? (May I sit here?). 应该 = you should: 你应该休息 (You should rest). For questions we put 吗 at the end, and for negation 不 goes before the modal verb: 我不会开车.",
+        "id": "会 = Anda sudah belajar caranya: 我会游泳 (saya bisa berenang). 能 = Anda mampu karena kemampuan atau keadaan: 我今天不能去 (saya tidak bisa pergi hari ini). 可以 = diperbolehkan: 这里可以坐吗? (bolehkah duduk di sini?). 应该 = sebaiknya: 你应该休息 (Anda sebaiknya istirahat). Pada pertanyaan 吗 ditaruh di akhir, dan untuk negasi 不 diletakkan sebelum kata kerja bantu: 我不会开车."
+      }
+    },
+    "items": [
+      {
+        "id": "zh12n1",
+        "target": "会",
+        "translit": "huì",
+        "tr": {
+          "ar": "يعرف (مهارة متعلَّمة)",
+          "en": "can, know how to",
+          "id": "bisa (keterampilan yang dipelajari)"
+        },
+        "example": {
+          "target": "他会做饭。",
+          "translit": "tā huì zuòfàn.",
+          "tr": {
+            "ar": "هو يعرف الطبخ.",
+            "en": "He knows how to cook.",
+            "id": "Dia bisa memasak."
+          }
+        },
+        "hint": {
+          "ar": "会 تدل على مهارة تعلمتها. و做饭 تعني «يطبخ».",
+          "en": "会 shows a skill you have learned. 做饭 means \"to cook\".",
+          "id": "会 menunjukkan keterampilan yang dipelajari. 做饭 berarti \"memasak\"."
+        }
+      },
+      {
+        "id": "zh12n2",
+        "target": "能",
+        "translit": "néng",
+        "tr": {
+          "ar": "يستطيع (بحكم القدرة أو الظرف)",
+          "en": "can, be able to",
+          "id": "dapat (karena kemampuan atau keadaan)"
+        },
+        "example": {
+          "target": "我今天不能去，我很忙。",
+          "translit": "wǒ jīntiān bù néng qù, wǒ hěn máng.",
+          "tr": {
+            "ar": "لا أستطيع الذهاب اليوم، أنا مشغول جدًا.",
+            "en": "I can't go today, I am very busy.",
+            "id": "Hari ini saya tidak bisa pergi, saya sangat sibuk."
+          }
+        },
+        "hint": {
+          "ar": "能 تتحدث عن الظروف: الوقت والصحة والمكان. 不能 تُقال كثيرًا للاعتذار.",
+          "en": "能 talks about circumstances: time, health, place. 不能 is often used to decline politely.",
+          "id": "能 membicarakan keadaan: waktu, kesehatan, tempat. 不能 sering dipakai untuk menolak dengan sopan."
+        }
+      },
+      {
+        "id": "zh12n3",
+        "target": "可以",
+        "translit": "kěyǐ",
+        "tr": {
+          "ar": "يجوز؛ مسموح",
+          "en": "may, can (permission)",
+          "id": "boleh"
+        },
+        "example": {
+          "target": "我可以坐这里吗？",
+          "translit": "wǒ kěyǐ zuò zhèlǐ ma?",
+          "tr": {
+            "ar": "هل يمكنني الجلوس هنا؟",
+            "en": "May I sit here?",
+            "id": "Bolehkah saya duduk di sini?"
+          }
+        },
+        "hint": {
+          "ar": "可以 تُستعمل لطلب الإذن. الجواب المعتاد: 可以 أو 不可以.",
+          "en": "可以 is used to ask for permission. Usual answers: 可以 or 不可以.",
+          "id": "可以 dipakai untuk meminta izin. Jawaban yang biasa: 可以 atau 不可以."
+        }
+      },
+      {
+        "id": "zh12n4",
+        "target": "应该",
+        "translit": "yīnggāi",
+        "tr": {
+          "ar": "ينبغي",
+          "en": "should",
+          "id": "sebaiknya; seharusnya"
+        },
+        "example": {
+          "target": "你不舒服，应该休息。",
+          "translit": "nǐ bù shūfu, yīnggāi xiūxi.",
+          "tr": {
+            "ar": "أنت لا تشعر بالراحة، ينبغي أن ترتاح.",
+            "en": "You don't feel well, you should rest.",
+            "id": "Kamu tidak enak badan, sebaiknya istirahat."
+          }
+        },
+        "hint": {
+          "ar": "应该 تعطي نصيحة أو تذكّر بواجب. نغمة المقطعين الأولى: yīnggāi.",
+          "en": "应该 gives advice or a reminder of duty. Both syllables are tone 1: yīnggāi.",
+          "id": "应该 memberi saran atau pengingat kewajiban. Kedua suku bernada 1: yīnggāi."
+        }
+      },
+      {
+        "id": "zh12n5",
+        "target": "说",
+        "translit": "shuō",
+        "tr": {
+          "ar": "يتكلم؛ يقول",
+          "en": "to speak, to say",
+          "id": "berbicara; mengatakan"
+        },
+        "example": {
+          "target": "请你说慢一点儿。",
+          "translit": "qǐng nǐ shuō màn yīdiǎnr.",
+          "tr": {
+            "ar": "من فضلك تكلّم ببطء أكثر.",
+            "en": "Please speak a little more slowly.",
+            "id": "Tolong bicara sedikit lebih pelan."
+          }
+        },
+        "hint": {
+          "ar": "说 بنغمة أولى. 一点儿 تعني «قليلًا» وتُنطق غالبًا yìdiǎnr.",
+          "en": "说 has tone 1. 一点儿 means \"a little\" and is usually pronounced yìdiǎnr.",
+          "id": "说 bernada 1. 一点儿 berarti \"sedikit\" dan biasanya diucapkan yìdiǎnr."
+        }
+      },
+      {
+        "id": "zh12n6",
+        "target": "汉语",
+        "translit": "Hànyǔ",
+        "tr": {
+          "ar": "اللغة الصينية",
+          "en": "Chinese language",
+          "id": "bahasa Mandarin"
+        },
+        "example": {
+          "target": "汉语很有意思。",
+          "translit": "Hànyǔ hěn yǒuyìsi.",
+          "tr": {
+            "ar": "الصينية ممتعة جدًا.",
+            "en": "Chinese is very interesting.",
+            "id": "Bahasa Mandarin sangat menarik."
+          }
+        },
+        "hint": {
+          "ar": "汉 تعني «هان» و语 تعني «لغة». 有意思 تعني «ممتع».",
+          "en": "汉 refers to the Han people and 语 means \"language\". 有意思 means \"interesting\".",
+          "id": "汉 merujuk pada suku Han dan 语 berarti \"bahasa\". 有意思 berarti \"menarik\"."
+        }
+      },
+      {
+        "id": "zh12n7",
+        "target": "游泳",
+        "translit": "yóuyǒng",
+        "tr": {
+          "ar": "يسبح",
+          "en": "to swim",
+          "id": "berenang"
+        },
+        "example": {
+          "target": "我会游泳，你呢？",
+          "translit": "wǒ huì yóuyǒng, nǐ ne?",
+          "tr": {
+            "ar": "أنا أعرف السباحة، وأنت؟",
+            "en": "I can swim, and you?",
+            "id": "Saya bisa berenang, kamu?"
+          }
+        },
+        "hint": {
+          "ar": "游泳 فعل يعني «يسبح»، وفيه 游 و泳 بمعنى متقارب. نغمتاها الثانية ثم الثالثة: yóuyǒng.",
+          "en": "游泳 is a verb whose two characters 游 and 泳 both relate to swimming. Tones: second then third, yóuyǒng.",
+          "id": "游泳 adalah kata kerja yang kedua aksaranya, 游 dan 泳, sama-sama berkaitan dengan berenang. Nadanya: 2 lalu 3, yóuyǒng."
+        }
+      },
+      {
+        "id": "zh12n8",
+        "target": "开车",
+        "translit": "kāichē",
+        "tr": {
+          "ar": "يقود سيارة",
+          "en": "to drive",
+          "id": "mengemudi"
+        },
+        "example": {
+          "target": "我不会开车。",
+          "translit": "wǒ bù huì kāichē.",
+          "tr": {
+            "ar": "لا أعرف قيادة السيارة.",
+            "en": "I can't drive.",
+            "id": "Saya tidak bisa mengemudi."
+          }
+        },
+        "hint": {
+          "ar": "开 تعني «يفتح/يشغّل» و车 تعني «سيارة». 开车 تعني «يقود».",
+          "en": "开 means \"to open/operate\" and 车 means \"vehicle\". 开车 means \"to drive\".",
+          "id": "开 berarti \"membuka/mengoperasikan\" dan 车 berarti \"kendaraan\". 开车 berarti \"mengemudi\"."
+        }
+      }
+    ],
+    "cloze": [
+      {
+        "sentence": "我___说一点儿汉语。",
+        "answer": "会",
+        "wrong": [
+          "吗",
+          "的"
+        ],
+        "tr": {
+          "ar": "أستطيع أن أتكلم قليلًا من الصينية.",
+          "en": "I can speak a little Chinese.",
+          "id": "Saya bisa berbicara sedikit bahasa Mandarin."
+        },
+        "why": {
+          "ar": "الكلام بلغة تعلمتها يُعبَّر عنه بـ 会. و吗 أداة سؤال تأتي في آخر الجملة، و的 لا تناسب هنا.",
+          "en": "Speaking a language you have learned takes 会. 吗 is a question particle that goes at the end, and 的 does not fit here.",
+          "id": "Berbicara dalam bahasa yang dipelajari memakai 会. 吗 adalah partikel tanya di akhir kalimat, dan 的 tidak cocok di sini."
+        }
+      },
+      {
+        "sentence": "请问，我___坐这里吗？",
+        "answer": "可以",
+        "wrong": [
+          "了",
+          "很"
+        ],
+        "tr": {
+          "ar": "عفوًا، هل يمكنني الجلوس هنا؟",
+          "en": "Excuse me, may I sit here?",
+          "id": "Permisi, bolehkah saya duduk di sini?"
+        },
+        "why": {
+          "ar": "لطلب الإذن نقول 可以...吗. و了 و很 لا تأتيان قبل الفعل بهذا المعنى.",
+          "en": "To ask for permission we say 可以...吗. 了 and 很 cannot take this place before the verb.",
+          "id": "Untuk meminta izin dipakai 可以...吗. 了 dan 很 tidak bisa menempati posisi ini sebelum kata kerja."
+        }
+      }
+    ],
+    "conversation": {
+      "context": {
+        "ar": "في لقاء لتبادل اللغات: شخص يسألك عن الصينية.",
+        "en": "At a language exchange meetup: someone asks about your Chinese.",
+        "id": "Di pertemuan pertukaran bahasa: seseorang bertanya tentang bahasa Mandarin Anda."
+      },
+      "turns": [
+        {
+          "who": "A",
+          "target": "你会说汉语吗？",
+          "tr": {
+            "ar": "هل تتكلم الصينية؟",
+            "en": "Do you speak Chinese?",
+            "id": "Apakah kamu bisa berbahasa Mandarin?"
+          }
+        },
+        {
+          "who": "B",
+          "target": "我会一点儿。",
+          "tr": {
+            "ar": "أعرف قليلًا.",
+            "en": "I know a little.",
+            "id": "Saya bisa sedikit."
+          }
+        },
+        {
+          "who": "A",
+          "target": "太好了，我们可以一起学汉语。",
+          "tr": {
+            "ar": "رائع، يمكننا أن نتعلم الصينية معًا.",
+            "en": "Great, we can learn Chinese together.",
+            "id": "Bagus sekali, kita bisa belajar bahasa Mandarin bersama."
+          }
+        }
+      ],
+      "gap": 1,
+      "wrong": [
+        "我想吃苹果。",
+        "我在北京。"
+      ],
+      "why": {
+        "ar": "السؤال «هل تتكلم الصينية؟» يُجاب عنه بـ 会 أو 不会 مع المستوى. الأكل والمكان لا يجيبان عن السؤال.",
+        "en": "The question asks whether you speak Chinese, so the answer uses 会 or 不会 with your level. Food and place do not answer it.",
+        "id": "Pertanyaannya menanyakan apakah Anda bisa berbahasa Mandarin, jadi jawabannya memakai 会 atau 不会 dengan tingkat kemampuan. Makanan dan tempat tidak menjawabnya."
+      }
+    },
+    "summary": {
+      "ar": "تعلمت الفرق بين 会 و能 و可以 و应该، وكلمات 说 و汉语 و游泳 و开车. اسأل 你会说汉语吗؟ وجرّب الجواب 会一点儿.",
+      "en": "You learned the difference between 会, 能, 可以 and 应该, plus the words 说, 汉语, 游泳 and 开车. Ask 你会说汉语吗? and try the answer 会一点儿.",
+      "id": "Anda belajar perbedaan 会, 能, 可以, dan 应该, serta kata 说, 汉语, 游泳, dan 开车. Tanyakan 你会说汉语吗? dan coba jawaban 会一点儿."
+    }
+  },
+  {
+    "id": "zh-13",
+    "track": "zh",
+    "level": "elementary",
+    "order": 13,
+    "topic": "hobbies-sports",
+    "icon": "⚽",
+    "title": {
+      "ar": "الهوايات والرياضة",
+      "en": "Hobbies and Sports",
+      "id": "Hobi dan Olahraga"
+    },
+    "description": {
+      "ar": "تحدّث عن هواياتك وقل ماذا تفعل الآن بـ 在 و正在.",
+      "en": "Talk about your hobbies and say what you are doing right now with 在 and 正在.",
+      "id": "Bicarakan hobi Anda dan katakan apa yang sedang Anda lakukan dengan 在 dan 正在."
+    },
+    "objectives": [
+      {
+        "ar": "أستطيع القول 我喜欢... وسؤال 你有什么爱好؟",
+        "en": "I can say 我喜欢... and ask 你有什么爱好?",
+        "id": "Saya bisa mengatakan 我喜欢... dan bertanya 你有什么爱好?"
+      },
+      {
+        "ar": "أستطيع تسمية رياضات مثل 踢足球 و打篮球 و跑步.",
+        "en": "I can name sports such as 踢足球, 打篮球 and 跑步.",
+        "id": "Saya bisa menyebut olahraga seperti 踢足球, 打篮球, dan 跑步."
+      },
+      {
+        "ar": "أستطيع القول ما أفعله الآن بـ 正在...呢.",
+        "en": "I can say what I am doing now with 正在...呢.",
+        "id": "Saya bisa mengatakan apa yang sedang saya lakukan dengan 正在...呢."
+      }
+    ],
+    "intro": {
+      "ar": "عندما تتعرف على شخص جديد فمن الطبيعي أن تسأله عن هواياته. في هذا الدرس تتعلم أن تقول ما تحبه وما تفعله الآن. لإظهار أن الفعل يحدث الآن نضع 在 أو 正在 قبل الفعل، وغالبًا نضيف 呢 في آخر الجملة.",
+      "en": "When you meet someone new it is natural to ask about their hobbies. In this lesson you learn to say what you like and what you are doing right now. To show that an action is happening now we put 在 or 正在 before the verb, and we often add 呢 at the end of the sentence.",
+      "id": "Saat bertemu orang baru, wajar menanyakan hobinya. Di pelajaran ini Anda belajar mengatakan apa yang Anda sukai dan apa yang sedang Anda lakukan. Untuk menunjukkan bahwa suatu tindakan sedang berlangsung, kita menaruh 在 atau 正在 sebelum kata kerja, dan sering menambahkan 呢 di akhir kalimat."
+    },
+    "culture": {
+      "ar": "في الصين يمارس كثير من الناس الرياضة في الحدائق والساحات صباحًا ومساءً، مثل المشي والتاي تشي والرقص الجماعي. وكرة الطاولة وريشة الطائر والكرة الطائرة والسلة وكرة القدم شائعة أيضًا. ويكثر ذكر 看电影 و唱歌 في الحديث عن الهوايات، وقد يدعوك الأصدقاء إلى الغناء في مكان للكاريوكي يُسمّى KTV.",
+      "en": "In China many people exercise in parks and squares in the morning and evening, for example walking, tai chi and group dancing. Table tennis, badminton, volleyball, basketball and football are also popular. 看电影 and 唱歌 come up often when people talk about hobbies, and friends may invite you to sing at a karaoke place called a KTV.",
+      "id": "Di Tiongkok banyak orang berolahraga di taman dan lapangan pada pagi dan sore hari, misalnya berjalan, tai chi, dan menari bersama. Tenis meja, bulu tangkis, bola voli, basket, dan sepak bola juga populer. 看电影 dan 唱歌 sering disebut saat membahas hobi, dan teman bisa mengajak Anda bernyanyi di tempat karaoke yang disebut KTV."
+    },
+    "grammar": {
+      "title": {
+        "ar": "在 و正在 للفعل الجاري",
+        "en": "在 and 正在 for an action in progress",
+        "id": "在 dan 正在 untuk tindakan yang sedang berlangsung"
+      },
+      "body": {
+        "ar": "نضع 在 أو 正在 قبل الفعل لنقول إن الفعل يحدث الآن: 我在看书 (أنا أقرأ الآن)، 他正在跑步呢 (هو يجري الآن). 呢 في آخر الجملة اختيارية وتعطي إحساسًا بأن الأمر مستمر. وللسؤال نقول 你在做什么؟ (ماذا تفعل؟). وللنفي نستعمل 没在: 我没在看书. وللعب بالكرة نقول 打 للكرات التي تُضرب باليد أو بالمضرب مثل 打篮球، و踢 للكرة التي تُركل بالقدم: 踢足球.",
+        "en": "We put 在 or 正在 before the verb to say that the action is happening now: 我在看书 (I am reading), 他正在跑步呢 (He is jogging right now). 呢 at the end is optional and gives a feeling that the action is ongoing. To ask we say 你在做什么? (What are you doing?). The negative is 没在: 我没在看书. For ball games, 打 goes with balls that are hit or thrown by hand or racket, such as 打篮球, and 踢 with balls that are kicked: 踢足球.",
+        "id": "Kita menaruh 在 atau 正在 sebelum kata kerja untuk mengatakan tindakan itu sedang terjadi: 我在看书 (saya sedang membaca), 他正在跑步呢 (dia sedang berlari sekarang). 呢 di akhir kalimat bersifat opsional dan memberi kesan tindakan berlangsung. Untuk bertanya kita mengatakan 你在做什么? (Kamu sedang apa?). Negatifnya 没在: 我没在看书. Untuk permainan bola, 打 dipakai untuk bola yang dipukul atau dilempar dengan tangan atau raket, seperti 打篮球, dan 踢 untuk bola yang ditendang: 踢足球."
+      }
+    },
+    "items": [
+      {
+        "id": "zh13n1",
+        "target": "喜欢",
+        "translit": "xǐhuan",
+        "tr": {
+          "ar": "يحب؛ يعجبه",
+          "en": "to like",
+          "id": "suka"
+        },
+        "example": {
+          "target": "我喜欢喝茶。",
+          "translit": "wǒ xǐhuan hē chá.",
+          "tr": {
+            "ar": "أحب شرب الشاي.",
+            "en": "I like drinking tea.",
+            "id": "Saya suka minum teh."
+          }
+        },
+        "hint": {
+          "ar": "喜欢 + فعل أو اسم. المقطع الثاني خفيف: xǐhuan.",
+          "en": "喜欢 + verb or noun. The second syllable is neutral: xǐhuan.",
+          "id": "喜欢 + kata kerja atau kata benda. Suku kedua netral: xǐhuan."
+        }
+      },
+      {
+        "id": "zh13n2",
+        "target": "爱好",
+        "translit": "àihào",
+        "tr": {
+          "ar": "هواية",
+          "en": "hobby",
+          "id": "hobi"
+        },
+        "example": {
+          "target": "你有什么爱好？",
+          "translit": "nǐ yǒu shénme àihào?",
+          "tr": {
+            "ar": "ما هواياتك؟",
+            "en": "What are your hobbies?",
+            "id": "Apa hobimu?"
+          }
+        },
+        "hint": {
+          "ar": "爱好 اسم، وهو أيضًا فعل بمعنى «يحب». السؤال المعتاد: 你有什么爱好؟",
+          "en": "爱好 is a noun (it can also be a verb meaning \"to be fond of\"). The usual question: 你有什么爱好?",
+          "id": "爱好 adalah kata benda (bisa juga kata kerja yang berarti \"gemar\"). Pertanyaan yang biasa: 你有什么爱好?"
+        }
+      },
+      {
+        "id": "zh13n3",
+        "target": "踢足球",
+        "translit": "tī zúqiú",
+        "tr": {
+          "ar": "يلعب كرة القدم",
+          "en": "to play football",
+          "id": "bermain sepak bola"
+        },
+        "example": {
+          "target": "他喜欢踢足球。",
+          "translit": "tā xǐhuan tī zúqiú.",
+          "tr": {
+            "ar": "هو يحب لعب كرة القدم.",
+            "en": "He likes playing football.",
+            "id": "Dia suka bermain sepak bola."
+          }
+        },
+        "hint": {
+          "ar": "踢 تعني «يركل». 足 تعني «قدم» و球 «كرة».",
+          "en": "踢 means \"to kick\". 足 means \"foot\" and 球 means \"ball\".",
+          "id": "踢 berarti \"menendang\". 足 berarti \"kaki\" dan 球 \"bola\"."
+        }
+      },
+      {
+        "id": "zh13n4",
+        "target": "打篮球",
+        "translit": "dǎ lánqiú",
+        "tr": {
+          "ar": "يلعب كرة السلة",
+          "en": "to play basketball",
+          "id": "bermain basket"
+        },
+        "example": {
+          "target": "我们明天打篮球吧。",
+          "translit": "wǒmen míngtiān dǎ lánqiú ba.",
+          "tr": {
+            "ar": "لنلعب كرة السلة غدًا.",
+            "en": "Let's play basketball tomorrow.",
+            "id": "Ayo kita main basket besok."
+          }
+        },
+        "hint": {
+          "ar": "نقول 打篮球 وليس 踢篮球. و吧 في آخر الجملة تقترح.",
+          "en": "We say 打篮球, not 踢篮球. 吧 at the end of the sentence makes a suggestion.",
+          "id": "Dikatakan 打篮球, bukan 踢篮球. 吧 di akhir kalimat menyatakan ajakan."
+        }
+      },
+      {
+        "id": "zh13n5",
+        "target": "看电影",
+        "translit": "kàn diànyǐng",
+        "tr": {
+          "ar": "يشاهد فيلمًا",
+          "en": "to watch a film",
+          "id": "menonton film"
+        },
+        "example": {
+          "target": "我们晚上去看电影吧。",
+          "translit": "wǒmen wǎnshang qù kàn diànyǐng ba.",
+          "tr": {
+            "ar": "لنذهب لمشاهدة فيلم مساءً.",
+            "en": "Let's go and see a film this evening.",
+            "id": "Ayo kita menonton film malam ini."
+          }
+        },
+        "hint": {
+          "ar": "看 تعني «ينظر/يشاهد» و电影 «فيلم». و晚上 المقطع الثاني خفيف.",
+          "en": "看 means \"to look/watch\" and 电影 means \"film\". The second syllable of 晚上 is neutral.",
+          "id": "看 berarti \"melihat/menonton\" dan 电影 \"film\". Suku kedua 晚上 netral."
+        }
+      },
+      {
+        "id": "zh13n6",
+        "target": "唱歌",
+        "translit": "chànggē",
+        "tr": {
+          "ar": "يغني",
+          "en": "to sing",
+          "id": "bernyanyi"
+        },
+        "example": {
+          "target": "她很喜欢唱歌。",
+          "translit": "tā hěn xǐhuan chànggē.",
+          "tr": {
+            "ar": "هي تحب الغناء كثيرًا.",
+            "en": "She really likes singing.",
+            "id": "Dia sangat suka bernyanyi."
+          }
+        },
+        "hint": {
+          "ar": "唱 تعني «يغني» و歌 «أغنية». 很喜欢 تعني «تحب كثيرًا».",
+          "en": "唱 means \"to sing\" and 歌 means \"song\". 很喜欢 means \"like a lot\".",
+          "id": "唱 berarti \"menyanyi\" dan 歌 \"lagu\". 很喜欢 berarti \"sangat suka\"."
+        }
+      },
+      {
+        "id": "zh13n7",
+        "target": "跑步",
+        "translit": "pǎobù",
+        "tr": {
+          "ar": "يجري",
+          "en": "to jog, to run",
+          "id": "berlari; jogging"
+        },
+        "example": {
+          "target": "我每天早上跑步。",
+          "translit": "wǒ měitiān zǎoshang pǎobù.",
+          "tr": {
+            "ar": "أنا أجري كل صباح.",
+            "en": "I jog every morning.",
+            "id": "Saya jogging setiap pagi."
+          }
+        },
+        "hint": {
+          "ar": "跑 تعني «يركض» و步 «خطوة». 早上 المقطع الثاني خفيف.",
+          "en": "跑 means \"to run\" and 步 means \"step\". The second syllable of 早上 is neutral.",
+          "id": "跑 berarti \"berlari\" dan 步 \"langkah\". Suku kedua 早上 netral."
+        }
+      },
+      {
+        "id": "zh13n8",
+        "target": "正在",
+        "translit": "zhèngzài",
+        "tr": {
+          "ar": "يفعل الآن",
+          "en": "in the middle of doing",
+          "id": "sedang"
+        },
+        "example": {
+          "target": "他正在看书。",
+          "translit": "tā zhèngzài kàn shū.",
+          "tr": {
+            "ar": "هو يقرأ الآن.",
+            "en": "He is reading right now.",
+            "id": "Dia sedang membaca sekarang."
+          }
+        },
+        "hint": {
+          "ar": "正在 تضع الفعل في حالة جريان. يمكن الاكتفاء بـ 在: 他在看书.",
+          "en": "正在 puts the verb in progress. You can also use just 在: 他在看书.",
+          "id": "正在 menempatkan kata kerja dalam keadaan berlangsung. Bisa juga hanya memakai 在: 他在看书."
+        }
+      }
+    ],
+    "cloze": [
+      {
+        "sentence": "他___踢足球呢。",
+        "answer": "正在",
+        "wrong": [
+          "吗",
+          "很"
+        ],
+        "tr": {
+          "ar": "هو يلعب كرة القدم الآن.",
+          "en": "He is playing football right now.",
+          "id": "Dia sedang bermain sepak bola."
+        },
+        "why": {
+          "ar": "الفعل الجاري يحتاج 在 أو 正在 قبل الفعل مع 呢 في النهاية. 吗 للسؤال و很 للصفات.",
+          "en": "An action in progress needs 在 or 正在 before the verb, with 呢 at the end. 吗 is for questions and 很 is for adjectives.",
+          "id": "Tindakan yang sedang berlangsung memerlukan 在 atau 正在 sebelum kata kerja, dengan 呢 di akhir. 吗 untuk pertanyaan dan 很 untuk kata sifat."
+        }
+      },
+      {
+        "sentence": "明天我们去打___吧。",
+        "answer": "篮球",
+        "wrong": [
+          "足球",
+          "电影"
+        ],
+        "tr": {
+          "ar": "لنذهب غدًا لنلعب كرة السلة.",
+          "en": "Let's go and play basketball tomorrow.",
+          "id": "Ayo besok kita main basket."
+        },
+        "why": {
+          "ar": "打 تأتي مع 篮球، أما كرة القدم فنقول 踢足球. و打电影 لا معنى لها.",
+          "en": "打 goes with 篮球, while for football we say 踢足球. 打电影 makes no sense.",
+          "id": "打 dipakai dengan 篮球, sedangkan sepak bola dikatakan 踢足球. 打电影 tidak bermakna."
+        }
+      }
+    ],
+    "conversation": {
+      "context": {
+        "ar": "مكالمة هاتفية بين صديقين.",
+        "en": "A phone call between two friends.",
+        "id": "Percakapan telepon antara dua teman."
+      },
+      "turns": [
+        {
+          "who": "A",
+          "target": "喂，你在做什么？",
+          "tr": {
+            "ar": "ألو، ماذا تفعل؟",
+            "en": "Hello, what are you doing?",
+            "id": "Halo, kamu sedang apa?"
+          }
+        },
+        {
+          "who": "B",
+          "target": "我正在跑步呢。",
+          "tr": {
+            "ar": "أنا أجري الآن.",
+            "en": "I am jogging right now.",
+            "id": "Saya sedang jogging."
+          }
+        },
+        {
+          "who": "A",
+          "target": "明天我们去打篮球，你想去吗？",
+          "tr": {
+            "ar": "غدًا سنذهب للعب كرة السلة، هل تريد أن تأتي؟",
+            "en": "Tomorrow we are going to play basketball, do you want to come?",
+            "id": "Besok kami main basket, kamu mau ikut?"
+          }
+        }
+      ],
+      "gap": 1,
+      "wrong": [
+        "我明天去北京。",
+        "我喜欢喝茶。"
+      ],
+      "why": {
+        "ar": "السؤال «ماذا تفعل؟» يُجاب عنه بوصف الفعل الجاري بـ 正在. والجملتان الأخريان لا تصفان ما تفعله الآن.",
+        "en": "The question \"what are you doing?\" is answered by describing the action in progress with 正在. The other two sentences do not describe what you are doing now.",
+        "id": "Pertanyaan \"sedang apa?\" dijawab dengan menjelaskan tindakan yang sedang berlangsung memakai 正在. Dua kalimat lain tidak menggambarkan apa yang sedang dilakukan sekarang."
+      }
+    },
+    "summary": {
+      "ar": "تعلمت 喜欢 و爱好 وأسماء رياضات، وقول ما تفعله الآن بـ 在 و正在...呢. اسأل صديقًا 你在做什么؟",
+      "en": "You learned 喜欢 and 爱好, sports names, and how to say what you are doing now with 在 and 正在...呢. Ask a friend 你在做什么?",
+      "id": "Anda belajar 喜欢 dan 爱好, nama olahraga, dan cara mengatakan apa yang sedang dilakukan dengan 在 dan 正在...呢. Tanyakan pada teman 你在做什么?"
+    }
+  },
+  {
+    "id": "zh-14",
+    "track": "zh",
+    "level": "elementary",
+    "order": 14,
+    "topic": "weather-seasons",
+    "icon": "🌦️",
+    "title": {
+      "ar": "الطقس والفصول",
+      "en": "Weather and Seasons",
+      "id": "Cuaca dan Musim"
+    },
+    "description": {
+      "ar": "تحدّث عن الطقس والفصول واستخدم 了 للتغيّر.",
+      "en": "Talk about the weather and seasons and use 了 for change.",
+      "id": "Bicarakan cuaca dan musim, dan pakai 了 untuk perubahan."
+    },
+    "objectives": [
+      {
+        "ar": "أستطيع القول 下雨 و下雪 و刮风 و冷 و热.",
+        "en": "I can say 下雨, 下雪, 刮风, 冷 and 热.",
+        "id": "Saya bisa mengatakan 下雨, 下雪, 刮风, 冷, dan 热."
+      },
+      {
+        "ar": "أستطيع سؤال 今天天气怎么样؟ والجواب عنه.",
+        "en": "I can ask 今天天气怎么样? and answer it.",
+        "id": "Saya bisa bertanya 今天天气怎么样? dan menjawabnya."
+      },
+      {
+        "ar": "أستطيع استخدام 了 في آخر الجملة للتعبير عن تغيّر الحال، مثل 下雨了.",
+        "en": "I can use 了 at the end of a sentence for a change, as in 下雨了.",
+        "id": "Saya bisa memakai 了 di akhir kalimat untuk perubahan keadaan, seperti 下雨了."
+      }
+    ],
+    "intro": {
+      "ar": "الطقس موضوع محادثة يومي في كل لغة. في الصينية نسأل 今天天气怎么样؟ ونجيب بجمل قصيرة مثل 很冷 أو 下雨了. وفي هذا الدرس تتعلم أيضًا الاستعمال الجديد لـ 了 في نهاية الجملة، وهو يدل على أن الحال قد تغيّر أو بدأت حالة جديدة.",
+      "en": "Weather is an everyday topic in any language. In Chinese we ask 今天天气怎么样? and answer with short sentences such as 很冷 or 下雨了. In this lesson you also learn a new use of 了 at the end of a sentence, which shows that the situation has changed or a new situation has begun.",
+      "id": "Cuaca adalah topik harian dalam bahasa apa pun. Dalam bahasa Mandarin kita bertanya 今天天气怎么样? dan menjawab dengan kalimat pendek seperti 很冷 atau 下雨了. Di pelajaran ini Anda juga belajar penggunaan baru 了 di akhir kalimat, yang menunjukkan keadaan telah berubah atau keadaan baru telah dimulai."
+    },
+    "culture": {
+      "ar": "الصين بلد واسع فيختلف الطقس كثيرًا بين مدنه. في شمال الصين شتاء بارد وجاف وقد يتساقط الثلج، وفي الجنوب شتاء أرطب وأخفّ برودة. وتُعلَن درجات الحرارة في تقارير الطقس بالدرجة المئوية. ويتحدث الناس عن الطقس كثيرًا قبل السفر، ويستعملون تطبيقات الطقس على الهاتف.",
+      "en": "China is a large country, so the weather differs a lot between cities. In the north winters are cold and dry and it may snow, while in the south winters are damper and milder. Weather reports give temperatures in degrees Celsius. People often talk about the weather before a trip, and they use weather apps on their phones.",
+      "id": "Tiongkok adalah negara yang luas, sehingga cuaca sangat berbeda antarkota. Di utara musim dingin dingin dan kering dan bisa turun salju, sedangkan di selatan musim dinginnya lebih lembap dan lebih sejuk. Laporan cuaca memberi suhu dalam derajat Celsius. Orang sering membicarakan cuaca sebelum bepergian dan memakai aplikasi cuaca di ponsel."
+    },
+    "grammar": {
+      "title": {
+        "ar": "了 في آخر الجملة للتغيّر",
+        "en": "Sentence-final 了 for change",
+        "id": "了 di akhir kalimat untuk perubahan"
+      },
+      "body": {
+        "ar": "نضع 了 في آخر الجملة لنقول إن حالة جديدة بدأت: 下雨了 (بدأ المطر)، 冷了 (صار الجو باردًا)، 春天了 (جاء الربيع). ولا تدل 了 هنا على الماضي فقط، بل على التغيّر. وللنفي نقول 没下雨 (لم تمطر) أو 不下雨 (لا تمطر عادة). وهناك صيغة إضافية: 越来越 + صفة تعني «أكثر فأكثر»: 越来越冷 (يزداد برودة).",
+        "en": "We put 了 at the end of a sentence to say that a new situation has begun: 下雨了 (it has started to rain), 冷了 (it has turned cold). 了 here does not simply mean the past; it marks change. For the negative we say 没下雨 (it did not rain) or 不下雨 (it doesn't rain, as a habit). There is also a bonus pattern: 越来越 + adjective means \"more and more\": 越来越冷 (getting colder and colder).",
+        "id": "Kita menaruh 了 di akhir kalimat untuk mengatakan keadaan baru telah dimulai: 下雨了 (hujan mulai turun), 冷了 (cuaca menjadi dingin). 了 di sini tidak sekadar berarti masa lampau, tetapi menandai perubahan. Untuk negatif dikatakan 没下雨 (tidak turun hujan) atau 不下雨 (tidak hujan, sebagai kebiasaan). Ada juga pola tambahan: 越来越 + kata sifat berarti \"semakin\": 越来越冷 (semakin dingin)."
+      }
+    },
+    "items": [
+      {
+        "id": "zh14n1",
+        "target": "天气",
+        "translit": "tiānqì",
+        "tr": {
+          "ar": "الطقس",
+          "en": "weather",
+          "id": "cuaca"
+        },
+        "example": {
+          "target": "今天天气很好。",
+          "translit": "jīntiān tiānqì hěn hǎo.",
+          "tr": {
+            "ar": "الطقس جميل اليوم.",
+            "en": "The weather is nice today.",
+            "id": "Cuaca hari ini bagus."
+          }
+        },
+        "hint": {
+          "ar": "天 تعني «سماء/يوم» و气 «هواء». السؤال: 天气怎么样؟",
+          "en": "天 means \"sky/day\" and 气 means \"air\". The question: 天气怎么样?",
+          "id": "天 berarti \"langit/hari\" dan 气 \"udara\". Pertanyaannya: 天气怎么样?"
+        }
+      },
+      {
+        "id": "zh14n2",
+        "target": "下雨",
+        "translit": "xià yǔ",
+        "tr": {
+          "ar": "تمطر",
+          "en": "to rain",
+          "id": "hujan turun"
+        },
+        "example": {
+          "target": "外面下雨了。",
+          "translit": "wàimian xià yǔ le.",
+          "tr": {
+            "ar": "بدأ المطر في الخارج.",
+            "en": "It has started raining outside.",
+            "id": "Di luar hujan turun."
+          }
+        },
+        "hint": {
+          "ar": "下 تعني «ينزل» و雨 «مطر». 外面 المقطع الثاني خفيف: wàimian.",
+          "en": "下 means \"to fall\" and 雨 means \"rain\". In 外面 the second syllable is neutral: wàimian.",
+          "id": "下 berarti \"turun\" dan 雨 \"hujan\". Pada 外面 suku kedua netral: wàimian."
+        }
+      },
+      {
+        "id": "zh14n3",
+        "target": "下雪",
+        "translit": "xià xuě",
+        "tr": {
+          "ar": "يتساقط الثلج",
+          "en": "to snow",
+          "id": "turun salju"
+        },
+        "example": {
+          "target": "北京下雪了。",
+          "translit": "Běijīng xià xuě le.",
+          "tr": {
+            "ar": "بدأ الثلج يتساقط في بكين.",
+            "en": "It has started snowing in Beijing.",
+            "id": "Di Beijing salju mulai turun."
+          }
+        },
+        "hint": {
+          "ar": "雪 تعني «ثلج». نقول 下雪 مثل 下雨.",
+          "en": "雪 means \"snow\". We say 下雪 like 下雨.",
+          "id": "雪 berarti \"salju\". Kita mengatakan 下雪 seperti 下雨."
+        }
+      },
+      {
+        "id": "zh14n4",
+        "target": "刮风",
+        "translit": "guāfēng",
+        "tr": {
+          "ar": "تهبّ الرياح",
+          "en": "to be windy",
+          "id": "berangin"
+        },
+        "example": {
+          "target": "今天刮风，很冷。",
+          "translit": "jīntiān guāfēng, hěn lěng.",
+          "tr": {
+            "ar": "اليوم رياح والجو بارد جدًا.",
+            "en": "It's windy today and very cold.",
+            "id": "Hari ini berangin dan sangat dingin."
+          }
+        },
+        "hint": {
+          "ar": "刮 تعني «يهبّ» و风 «ريح». ويمكن أن تقول 风很大 (الريح قوية).",
+          "en": "刮 means \"to blow\" and 风 means \"wind\". You can also say 风很大 (the wind is strong).",
+          "id": "刮 berarti \"bertiup\" dan 风 \"angin\". Bisa juga dikatakan 风很大 (anginnya kencang)."
+        }
+      },
+      {
+        "id": "zh14n5",
+        "target": "冷",
+        "translit": "lěng",
+        "tr": {
+          "ar": "بارد",
+          "en": "cold",
+          "id": "dingin"
+        },
+        "example": {
+          "target": "天气冷了。",
+          "translit": "tiānqì lěng le.",
+          "tr": {
+            "ar": "صار الطقس باردًا.",
+            "en": "The weather has turned cold.",
+            "id": "Cuaca sudah menjadi dingin."
+          }
+        },
+        "hint": {
+          "ar": "冷 صفة، فلا تحتاج 是 قبلها. و了 تدل على التغيّر.",
+          "en": "冷 is an adjective, so it does not need 是 before it. 了 marks the change.",
+          "id": "冷 adalah kata sifat, jadi tidak memerlukan 是 sebelumnya. 了 menandai perubahan."
+        }
+      },
+      {
+        "id": "zh14n6",
+        "target": "热",
+        "translit": "rè",
+        "tr": {
+          "ar": "حار",
+          "en": "hot",
+          "id": "panas"
+        },
+        "example": {
+          "target": "今天太热了！",
+          "translit": "jīntiān tài rè le!",
+          "tr": {
+            "ar": "اليوم حار جدًا!",
+            "en": "It is too hot today!",
+            "id": "Hari ini panas sekali!"
+          }
+        },
+        "hint": {
+          "ar": "热 بنغمة رابعة. 太…了 تعني «جدًا».",
+          "en": "热 has tone 4. 太…了 means \"too / so\".",
+          "id": "热 bernada 4. 太…了 berarti \"terlalu / sekali\"."
+        }
+      },
+      {
+        "id": "zh14n7",
+        "target": "夏天",
+        "translit": "xiàtiān",
+        "tr": {
+          "ar": "الصيف",
+          "en": "summer",
+          "id": "musim panas"
+        },
+        "example": {
+          "target": "开罗的夏天很热。",
+          "translit": "Kāiluó de xiàtiān hěn rè.",
+          "tr": {
+            "ar": "صيف القاهرة حار جدًا.",
+            "en": "Summer in Cairo is very hot.",
+            "id": "Musim panas di Kairo sangat panas."
+          }
+        },
+        "hint": {
+          "ar": "夏 تعني «صيف» و天 تعني «يوم/سماء». تُنطق 夏天 xiàtiān.",
+          "en": "夏 means \"summer\" and 天 means \"day/sky\": xiàtiān.",
+          "id": "夏 berarti \"musim panas\" dan 天 berarti \"hari/langit\": xiàtiān."
+        }
+      },
+      {
+        "id": "zh14n8",
+        "target": "冬天",
+        "translit": "dōngtiān",
+        "tr": {
+          "ar": "الشتاء",
+          "en": "winter",
+          "id": "musim dingin"
+        },
+        "example": {
+          "target": "我不喜欢冬天，太冷了。",
+          "translit": "wǒ bù xǐhuan dōngtiān, tài lěng le.",
+          "tr": {
+            "ar": "لا أحب الشتاء، إنه بارد جدًا.",
+            "en": "I don't like winter, it is too cold.",
+            "id": "Saya tidak suka musim dingin, terlalu dingin."
+          }
+        },
+        "hint": {
+          "ar": "冬 تعني «شتاء». وللفصلين الآخرين: 春天 (الربيع) و秋天 (الخريف).",
+          "en": "冬 means \"winter\". The other two seasons are 春天 (spring) and 秋天 (autumn).",
+          "id": "冬 berarti \"musim dingin\". Dua musim lainnya: 春天 (musim semi) dan 秋天 (musim gugur)."
+        }
+      }
+    ],
+    "cloze": [
+      {
+        "sentence": "下雨___，我们回家吧。",
+        "answer": "了",
+        "wrong": [
+          "吗",
+          "很"
+        ],
+        "tr": {
+          "ar": "بدأ المطر، لنعد إلى البيت.",
+          "en": "It has started raining, let's go home.",
+          "id": "Hujan sudah turun, ayo kita pulang."
+        },
+        "why": {
+          "ar": "بدأ المطر للتو، فنستعمل 了 للدلالة على التغيّر. أما 吗 فأداة سؤال، و很 تأتي قبل الصفة.",
+          "en": "The rain has just started, so we use 了 for the change. 吗 is a question particle and 很 goes before an adjective.",
+          "id": "Hujan baru mulai turun, jadi dipakai 了 untuk perubahan. 吗 adalah partikel tanya dan 很 dipakai sebelum kata sifat."
+        }
+      },
+      {
+        "sentence": "今天太___了，我想喝冷水。",
+        "answer": "热",
+        "wrong": [
+          "冬天",
+          "下雨"
+        ],
+        "tr": {
+          "ar": "اليوم حار جدًا، أريد أن أشرب ماءً باردًا.",
+          "en": "It is too hot today, I want to drink cold water.",
+          "id": "Hari ini panas sekali, saya ingin minum air dingin."
+        },
+        "why": {
+          "ar": "太…了 يحتاج صفة في الوسط، و热 صفة. 冬天 و下雨 اسم وفعل لا يناسبان.",
+          "en": "太…了 needs an adjective in the middle, and 热 is an adjective. 冬天 and 下雨 are a noun and a verb phrase and do not fit.",
+          "id": "太…了 memerlukan kata sifat di tengah, dan 热 adalah kata sifat. 冬天 dan 下雨 adalah kata benda dan frasa kerja sehingga tidak cocok."
+        }
+      }
+    ],
+    "conversation": {
+      "context": {
+        "ar": "تستعدّ لسفر إلى بكين وتسأل صديقًا هناك.",
+        "en": "You are getting ready to travel to Beijing and ask a friend there.",
+        "id": "Anda bersiap bepergian ke Beijing dan bertanya pada teman di sana."
+      },
+      "turns": [
+        {
+          "who": "A",
+          "target": "你好，北京今天天气怎么样？",
+          "tr": {
+            "ar": "مرحبًا، كيف الطقس في بكين اليوم؟",
+            "en": "Hello, what's the weather like in Beijing today?",
+            "id": "Halo, bagaimana cuaca Beijing hari ini?"
+          }
+        },
+        {
+          "who": "B",
+          "target": "下雪了，很冷。",
+          "tr": {
+            "ar": "بدأ الثلج يتساقط والجو بارد جدًا.",
+            "en": "It has started to snow and it is very cold.",
+            "id": "Salju mulai turun dan sangat dingin."
+          }
+        },
+        {
+          "who": "A",
+          "target": "谢谢！我明天要去北京。",
+          "tr": {
+            "ar": "شكرًا! سأذهب إلى بكين غدًا.",
+            "en": "Thanks! I am going to Beijing tomorrow.",
+            "id": "Terima kasih! Besok saya akan pergi ke Beijing."
+          }
+        }
+      ],
+      "gap": 1,
+      "wrong": [
+        "我不会游泳。",
+        "我们打篮球吧。"
+      ],
+      "why": {
+        "ar": "السؤال عن الطقس يُجاب عنه بوصف الطقس. السباحة ولعب السلة لا تجيبان عن السؤال.",
+        "en": "A question about the weather is answered by describing the weather. Swimming and playing basketball do not answer it.",
+        "id": "Pertanyaan tentang cuaca dijawab dengan menggambarkan cuaca. Berenang dan bermain basket tidak menjawabnya."
+      }
+    },
+    "summary": {
+      "ar": "تعلمت 天气 و下雨 و下雪 و刮风 و冷 و热 وأسماء فصول، واستخدام 了 للتغيّر مثل 下雨了. وسّع ما تعرف بـ 越来越冷.",
+      "en": "You learned 天气, 下雨, 下雪, 刮风, 冷, 热 and season names, and the use of 了 for change, as in 下雨了. Extend it with 越来越冷.",
+      "id": "Anda belajar 天气, 下雨, 下雪, 刮风, 冷, 热 dan nama musim, serta pemakaian 了 untuk perubahan, seperti 下雨了. Kembangkan dengan 越来越冷."
+    }
+  },
+  {
+    "id": "zh-15",
+    "track": "zh",
+    "level": "elementary",
+    "order": 15,
+    "topic": "clothes-colours",
+    "icon": "👕",
+    "title": {
+      "ar": "الملابس والألوان",
+      "en": "Clothes and Colours",
+      "id": "Pakaian dan Warna"
+    },
+    "description": {
+      "ar": "اطلب ملابس بألوان مختلفة واستخدم 的 لوصف الأشياء.",
+      "en": "Ask for clothes in different colours and use 的 to describe things.",
+      "id": "Mintalah pakaian dengan warna berbeda dan pakai 的 untuk menggambarkan benda."
+    },
+    "objectives": [
+      {
+        "ar": "أستطيع القول 红色的鞋 و白色的衣服 لوصف الأشياء بالألوان.",
+        "en": "I can say 红色的鞋 and 白色的衣服 to describe things by colour.",
+        "id": "Saya bisa mengatakan 红色的鞋 dan 白色的衣服 untuk menggambarkan benda menurut warna."
+      },
+      {
+        "ar": "أستطيع القول 我要红的 عندما يكون الاسم مفهومًا.",
+        "en": "I can say 我要红的 when the noun is understood.",
+        "id": "Saya bisa mengatakan 我要红的 ketika kata bendanya sudah jelas."
+      },
+      {
+        "ar": "أستطيع طلب 我可以试一下吗؟ والسؤال 有别的颜色吗؟",
+        "en": "I can ask 我可以试一下吗? and 有别的颜色吗?",
+        "id": "Saya bisa bertanya 我可以试一下吗? dan 有别的颜色吗?"
+      }
+    ],
+    "intro": {
+      "ar": "في محلات الملابس تحتاج إلى وصف ما تريده: اللون والنوع. في الصينية نضع الوصف قبل الاسم ونربطه بـ 的: 红色的鞋 (حذاء أحمر). وإذا كان الاسم معروفًا من الكلام السابق حذفناه وبقيت 的: 我要红的 (أريد الأحمر). وتتعلم في هذا الدرس 件 و条 مرة أخرى مع الملابس.",
+      "en": "In clothes shops you need to describe what you want: colour and kind. In Chinese the description goes before the noun and is linked with 的: 红色的鞋 (red shoes). If the noun is clear from what was said before, we drop it and keep 的: 我要红的 (I want the red one). This lesson also reuses 件 and 条 with clothes.",
+      "id": "Di toko pakaian Anda perlu menjelaskan apa yang diinginkan: warna dan jenis. Dalam bahasa Mandarin keterangan diletakkan sebelum kata benda dan dihubungkan dengan 的: 红色的鞋 (sepatu merah). Jika kata benda sudah jelas dari ucapan sebelumnya, kata bendanya dihilangkan dan 的 tetap ada: 我要红的 (saya mau yang merah). Pelajaran ini juga memakai lagi 件 dan 条 dengan pakaian."
+    },
+    "culture": {
+      "ar": "في الصين اللون الأحمر مرتبط بالحظ والفرح، ولذلك يظهر كثيرًا في رأس السنة الصينية وفي الأعراس. أما الأبيض فيرتبط تقليديًا بالحداد، لكنه لون عادي جدًا في الملابس اليومية. وفي المراكز التجارية الأسعار ثابتة عادة، أما في بعض الأسواق الشعبية فقد يُقبل المساومة. ويمكنك طلب تجربة القطعة بقول 可以试一下吗؟",
+      "en": "In China red is linked with luck and joy, which is why it appears so often at Spring Festival and at weddings. White is traditionally linked with mourning, but it is a perfectly ordinary colour in everyday clothes. In shopping malls prices are usually fixed, while in some street markets bargaining may be accepted. You can ask to try something on by saying 可以试一下吗?",
+      "id": "Di Tiongkok warna merah dikaitkan dengan keberuntungan dan kegembiraan, sehingga sering muncul pada Tahun Baru Imlek dan pernikahan. Putih secara tradisional dikaitkan dengan perkabungan, tetapi merupakan warna biasa pada pakaian sehari-hari. Di pusat perbelanjaan harga biasanya tetap, sedangkan di beberapa pasar rakyat tawar-menawar mungkin diterima. Anda bisa meminta mencoba pakaian dengan mengatakan 可以试一下吗?"
+    },
+    "grammar": {
+      "title": {
+        "ar": "的 بين الوصف والاسم",
+        "en": "的 between a describer and a noun",
+        "id": "的 antara keterangan dan kata benda"
+      },
+      "body": {
+        "ar": "الوصف + 的 + الاسم: 红色的鞋 (حذاء أحمر)، 我买的衣服 (الثياب التي اشتريتها)، 很大的房子 (بيت كبير جدًا). ومع الصفة المفردة التي تتألف من مقطع واحد قد لا نحتاج 的: 大房子. وعندما يكون الاسم مفهومًا نحذفه: 这条裤子有黑色的吗؟ (هل يوجد بنطال أسود؟) و我要红的 (أريد الأحمر). وتذكّر 的 الملكية من الدرس الخامس: 我的鞋 (حذائي).",
+        "en": "Describer + 的 + noun: 红色的鞋 (red shoes), 我买的衣服 (the clothes I bought), 很大的房子 (a very big house). With a single one-syllable adjective, 的 is often not needed: 大房子. When the noun is understood we drop it: 有黑色的吗? (Is there a black one?) and 我要红的 (I want the red one). Remember the possessive 的 from lesson 5: 我的鞋 (my shoes).",
+        "id": "Keterangan + 的 + kata benda: 红色的鞋 (sepatu merah), 我买的衣服 (pakaian yang saya beli), 很大的房子 (rumah yang sangat besar). Dengan satu kata sifat bersuku satu, 的 sering tidak diperlukan: 大房子. Bila kata benda sudah jelas, kata bendanya dihilangkan: 有黑色的吗? (ada yang hitam?) dan 我要红的 (saya mau yang merah). Ingat 的 kepemilikan dari pelajaran 5: 我的鞋 (sepatu saya)."
+      }
+    },
+    "items": [
+      {
+        "id": "zh15n1",
+        "target": "裤子",
+        "translit": "kùzi",
+        "tr": {
+          "ar": "بنطال",
+          "en": "trousers",
+          "id": "celana"
+        },
+        "example": {
+          "target": "这条裤子很便宜。",
+          "translit": "zhè tiáo kùzi hěn piányi.",
+          "tr": {
+            "ar": "هذا البنطال رخيص جدًا.",
+            "en": "These trousers are very cheap.",
+            "id": "Celana ini sangat murah."
+          }
+        },
+        "hint": {
+          "ar": "البنطال يُعدّ بـ 条. و子 المقطع الأخير خفيف: kùzi.",
+          "en": "Trousers take 条. The last syllable 子 is neutral: kùzi.",
+          "id": "Celana memakai 条. Suku terakhir 子 netral: kùzi."
+        }
+      },
+      {
+        "id": "zh15n2",
+        "target": "鞋",
+        "translit": "xié",
+        "tr": {
+          "ar": "حذاء",
+          "en": "shoes",
+          "id": "sepatu"
+        },
+        "example": {
+          "target": "我想买一双鞋。",
+          "translit": "wǒ xiǎng mǎi yī shuāng xié.",
+          "tr": {
+            "ar": "أريد أن أشتري زوج أحذية.",
+            "en": "I want to buy a pair of shoes.",
+            "id": "Saya ingin membeli sepasang sepatu."
+          }
+        },
+        "hint": {
+          "ar": "الأحذية تُعدّ بـ 双 (زوج). 鞋 بنغمة ثانية.",
+          "en": "Shoes are counted with 双 (pair). 鞋 has tone 2.",
+          "id": "Sepatu dihitung dengan 双 (pasang). 鞋 bernada 2."
+        }
+      },
+      {
+        "id": "zh15n3",
+        "target": "穿",
+        "translit": "chuān",
+        "tr": {
+          "ar": "يلبس",
+          "en": "to wear",
+          "id": "memakai (pakaian)"
+        },
+        "example": {
+          "target": "今天很冷，多穿一点儿。",
+          "translit": "jīntiān hěn lěng, duō chuān yīdiǎnr.",
+          "tr": {
+            "ar": "الجو بارد اليوم، البس أكثر قليلًا.",
+            "en": "It's cold today, wear a bit more.",
+            "id": "Hari ini dingin, pakailah lebih banyak."
+          }
+        },
+        "hint": {
+          "ar": "穿 للملابس والأحذية. وللقبعة والنظارة نقول 戴 (يلبس على الرأس والوجه).",
+          "en": "穿 is for clothes and shoes. For hats and glasses we say 戴.",
+          "id": "穿 untuk pakaian dan sepatu. Untuk topi dan kacamata dikatakan 戴."
+        }
+      },
+      {
+        "id": "zh15n4",
+        "target": "试",
+        "translit": "shì",
+        "tr": {
+          "ar": "يجرّب",
+          "en": "to try",
+          "id": "mencoba"
+        },
+        "example": {
+          "target": "我可以试一下吗？",
+          "translit": "wǒ kěyǐ shì yīxià ma?",
+          "tr": {
+            "ar": "هل يمكنني تجربته؟",
+            "en": "May I try it on?",
+            "id": "Bolehkah saya mencobanya?"
+          }
+        },
+        "hint": {
+          "ar": "试 بنغمة رابعة. 试一下 تعني «يجرب قليلًا».",
+          "en": "试 has tone 4. 试一下 means \"try it for a moment\".",
+          "id": "试 bernada 4. 试一下 berarti \"mencoba sebentar\"."
+        }
+      },
+      {
+        "id": "zh15n5",
+        "target": "颜色",
+        "translit": "yánsè",
+        "tr": {
+          "ar": "لون",
+          "en": "colour",
+          "id": "warna"
+        },
+        "example": {
+          "target": "你喜欢什么颜色？",
+          "translit": "nǐ xǐhuan shénme yánsè?",
+          "tr": {
+            "ar": "ما اللون الذي تحبه؟",
+            "en": "What colour do you like?",
+            "id": "Kamu suka warna apa?"
+          }
+        },
+        "hint": {
+          "ar": "什么颜色 تعني «أي لون». 颜 بنغمة ثانية و色 بنغمة رابعة.",
+          "en": "什么颜色 means \"what colour\". 颜 has tone 2 and 色 has tone 4.",
+          "id": "什么颜色 berarti \"warna apa\". 颜 bernada 2 dan 色 bernada 4."
+        }
+      },
+      {
+        "id": "zh15n6",
+        "target": "红色",
+        "translit": "hóngsè",
+        "tr": {
+          "ar": "أحمر",
+          "en": "red",
+          "id": "merah"
+        },
+        "example": {
+          "target": "我喜欢红色的鞋。",
+          "translit": "wǒ xǐhuan hóngsè de xié.",
+          "tr": {
+            "ar": "أحب الأحذية الحمراء.",
+            "en": "I like red shoes.",
+            "id": "Saya suka sepatu merah."
+          }
+        },
+        "hint": {
+          "ar": "红色 + 的 + اسم. ويمكن حذف 色 فنقول 红的.",
+          "en": "红色 + 的 + noun. The 色 can also be dropped: 红的.",
+          "id": "红色 + 的 + kata benda. 色 juga bisa dihilangkan: 红的."
+        }
+      },
+      {
+        "id": "zh15n7",
+        "target": "白色",
+        "translit": "báisè",
+        "tr": {
+          "ar": "أبيض",
+          "en": "white",
+          "id": "putih"
+        },
+        "example": {
+          "target": "这件白色的衣服很好看。",
+          "translit": "zhè jiàn báisè de yīfu hěn hǎokàn.",
+          "tr": {
+            "ar": "هذا الثوب الأبيض جميل جدًا.",
+            "en": "This white piece of clothing looks very nice.",
+            "id": "Pakaian putih ini sangat bagus."
+          }
+        },
+        "hint": {
+          "ar": "好看 تعني «جميل المنظر». 白 بنغمة ثانية.",
+          "en": "好看 means \"good-looking\". 白 has tone 2.",
+          "id": "好看 berarti \"enak dilihat\". 白 bernada 2."
+        }
+      },
+      {
+        "id": "zh15n8",
+        "target": "黑色",
+        "translit": "hēisè",
+        "tr": {
+          "ar": "أسود",
+          "en": "black",
+          "id": "hitam"
+        },
+        "example": {
+          "target": "我有一条黑色的裤子。",
+          "translit": "wǒ yǒu yī tiáo hēisè de kùzi.",
+          "tr": {
+            "ar": "لدي بنطال أسود.",
+            "en": "I have a pair of black trousers.",
+            "id": "Saya punya sebuah celana hitam."
+          }
+        },
+        "hint": {
+          "ar": "黑 بنغمة أولى. و一条 تُنطق غالبًا yì tiáo.",
+          "en": "黑 has tone 1. 一条 is usually pronounced yì tiáo.",
+          "id": "黑 bernada 1. 一条 biasanya diucapkan yì tiáo."
+        }
+      }
+    ],
+    "cloze": [
+      {
+        "sentence": "我要红色___鞋。",
+        "answer": "的",
+        "wrong": [
+          "了",
+          "吗"
+        ],
+        "tr": {
+          "ar": "أريد حذاءً أحمر.",
+          "en": "I want red shoes.",
+          "id": "Saya mau sepatu merah."
+        },
+        "why": {
+          "ar": "وصف الاسم يحتاج 的: 红色的鞋. 了 و吗 لا تربطان الوصف بالاسم.",
+          "en": "A describer needs 的 before the noun: 红色的鞋. 了 and 吗 do not link a describer to a noun.",
+          "id": "Keterangan memerlukan 的 sebelum kata benda: 红色的鞋. 了 dan 吗 tidak menghubungkan keterangan dengan kata benda."
+        }
+      },
+      {
+        "sentence": "这件太大了，有小___吗？",
+        "answer": "的",
+        "wrong": [
+          "着",
+          "过"
+        ],
+        "tr": {
+          "ar": "هذا كبير جدًا، هل لديكم أصغر؟",
+          "en": "This one is too big, do you have a smaller one?",
+          "id": "Yang ini terlalu besar, apakah ada yang lebih kecil?"
+        },
+        "why": {
+          "ar": "عندما يكون الاسم مفهومًا نكتفي بـ 的 بعد الصفة: 小的. 着 و过 لا تؤدّيان هذا المعنى.",
+          "en": "When the noun is understood we just use 的 after the adjective: 小的. 着 and 过 do not do this job.",
+          "id": "Jika kata benda sudah jelas, cukup 的 setelah kata sifat: 小的. 着 dan 过 tidak berfungsi demikian."
+        }
+      }
+    ],
+    "conversation": {
+      "context": {
+        "ar": "في محل ملابس: زبون يسأل البائع.",
+        "en": "In a clothes shop: a customer asks the shop assistant.",
+        "id": "Di toko pakaian: seorang pembeli bertanya pada penjual."
+      },
+      "turns": [
+        {
+          "who": "A",
+          "target": "这条裤子有别的颜色吗？",
+          "tr": {
+            "ar": "هل لهذا البنطال ألوان أخرى؟",
+            "en": "Does this pair of trousers come in other colours?",
+            "id": "Apakah celana ini ada warna lain?"
+          }
+        },
+        {
+          "who": "B",
+          "target": "有黑色的和白色的。",
+          "tr": {
+            "ar": "لدينا الأسود والأبيض.",
+            "en": "We have black and white.",
+            "id": "Ada yang hitam dan yang putih."
+          }
+        },
+        {
+          "who": "A",
+          "target": "我可以试一下白色的吗？",
+          "tr": {
+            "ar": "هل يمكنني تجربة الأبيض؟",
+            "en": "May I try the white one?",
+            "id": "Bolehkah saya mencoba yang putih?"
+          }
+        },
+        {
+          "who": "B",
+          "target": "可以，请。",
+          "tr": {
+            "ar": "طبعًا، تفضّل.",
+            "en": "Of course, please.",
+            "id": "Boleh, silakan."
+          }
+        }
+      ],
+      "gap": 1,
+      "wrong": [
+        "我们明天打篮球。",
+        "我每天早上跑步。"
+      ],
+      "why": {
+        "ar": "السؤال عن ألوان أخرى يُجاب عنه بذكر الألوان المتوفرة. الجملتان الأخريان خارج الموضوع.",
+        "en": "A question about other colours is answered by naming the available colours. The other two sentences are off topic.",
+        "id": "Pertanyaan tentang warna lain dijawab dengan menyebut warna yang tersedia. Dua kalimat lain tidak sesuai topik."
+      }
+    },
+    "summary": {
+      "ar": "تعلمت 裤子 و鞋 و穿 و试 والألوان، واستخدام 的 مع الوصف مثل 红色的鞋 وبدون اسم مثل 我要红的. اسأل في المحل 可以试一下吗؟",
+      "en": "You learned 裤子, 鞋, 穿, 试 and the colours, and how to use 的 with a describer, as in 红色的鞋, and without a noun, as in 我要红的. In a shop, ask 可以试一下吗?",
+      "id": "Anda belajar 裤子, 鞋, 穿, 试, dan warna, serta pemakaian 的 dengan keterangan seperti 红色的鞋 dan tanpa kata benda seperti 我要红的. Di toko, tanyakan 可以试一下吗?"
+    }
+  },
+  {
+    "id": "zh-16",
+    "track": "zh",
+    "level": "elementary",
+    "order": 16,
+    "topic": "comparisons",
+    "icon": "⚖️",
+    "title": {
+      "ar": "المقارنة بين الأشياء",
+      "en": "Comparing Things",
+      "id": "Membandingkan Hal"
+    },
+    "description": {
+      "ar": "قارن بين شيئين بـ 比 و一样 و没有.",
+      "en": "Compare two things with 比, 一样 and 没有.",
+      "id": "Bandingkan dua hal dengan 比, 一样, dan 没有."
+    },
+    "objectives": [
+      {
+        "ar": "أستطيع القول A 比 B + صفة مثل 他比我高.",
+        "en": "I can say A 比 B + adjective, such as 他比我高.",
+        "id": "Saya bisa mengatakan A 比 B + kata sifat, seperti 他比我高."
+      },
+      {
+        "ar": "أستطيع استخدام 更 و最 للمقارنة والتفضيل.",
+        "en": "I can use 更 and 最 for comparison and superlatives.",
+        "id": "Saya bisa memakai 更 dan 最 untuk perbandingan dan superlatif."
+      },
+      {
+        "ar": "أستطيع القول 跟...一样 و没有 للتشابه ونفي المقارنة.",
+        "en": "I can say 跟...一样 and 没有 for similarity and negative comparison.",
+        "id": "Saya bisa mengatakan 跟...一样 dan 没有 untuk kesamaan dan perbandingan negatif."
+      }
+    ],
+    "intro": {
+      "ar": "نقارن في الحياة كل يوم: هذا أرخص، وذاك أسرع، وهذه المدينة أبرد. المقارنة في الصينية سهلة: نضع 比 بين الشيئين ثم الصفة. والملاحظة المهمة أن جملة 比 لا تأخذ 很 قبل الصفة. وتتعلم أيضًا 一样 للتشابه و没有 لنفي المقارنة.",
+      "en": "We compare things every day: this one is cheaper, that one is faster, this city is colder. Comparison in Chinese is simple: we put 比 between the two things and then the adjective. The important point is that a 比 sentence does not take 很 before the adjective. You also learn 一样 for similarity and 没有 for negative comparison.",
+      "id": "Kita membandingkan hal setiap hari: ini lebih murah, itu lebih cepat, kota ini lebih dingin. Perbandingan dalam bahasa Mandarin sederhana: kita menaruh 比 di antara dua hal lalu kata sifat. Poin pentingnya adalah kalimat 比 tidak memakai 很 sebelum kata sifat. Anda juga belajar 一样 untuk kesamaan dan 没有 untuk perbandingan negatif."
+    },
+    "culture": {
+      "ar": "كثيرًا ما يقارن الناس بين شمال الصين وجنوبها: في الشتاء يكون الشمال أبرد من الجنوب، ويُقال عادة إن المعكرونة أكثر انتشارًا في الشمال والأرز في الجنوب. هذه تعميمات بسيطة وليست قاعدة ثابتة. وفي الأسواق قد تسمع من يقول 这个比那个便宜 لتشجيعك على الشراء.",
+      "en": "People often compare northern and southern China: in winter the north is colder than the south, and it is often said that noodles are more common in the north and rice in the south. These are simple generalisations rather than fixed rules. In markets you may hear 这个比那个便宜 to encourage you to buy.",
+      "id": "Orang sering membandingkan Tiongkok utara dan selatan: pada musim dingin utara lebih dingin daripada selatan, dan sering dikatakan bahwa mi lebih umum di utara dan nasi di selatan. Ini generalisasi sederhana, bukan aturan pasti. Di pasar Anda mungkin mendengar 这个比那个便宜 untuk mendorong Anda membeli."
+    },
+    "grammar": {
+      "title": {
+        "ar": "比 و一样 و没有",
+        "en": "比, 一样 and 没有",
+        "id": "比, 一样, dan 没有"
+      },
+      "body": {
+        "ar": "A 比 B + صفة: 他比我高 (هو أطول مني). لا نقول 他比我很高. ولإظهار الفرق نضع بعد الصفة: 高一点儿 (أطول قليلًا) أو 高很多 (أطول بكثير). 更 تعني «أكثر» وتأتي قبل الصفة: 更便宜. وللتشابه: A 跟 B 一样 (+ صفة): 我的手机跟你的一样. ولنفي المقارنة: A 没有 B + صفة: 开罗没有北京冷 (القاهرة ليست باردة مثل بكين). وللتفضيل المطلق نضع 最 قبل الصفة أو الفعل: 最好، 我最喜欢红色.",
+        "en": "A 比 B + adjective: 他比我高 (He is taller than me). We do not say 他比我很高. To show the size of the difference we put it after the adjective: 高一点儿 (a bit taller) or 高很多 (much taller). 更 means \"even more\" and comes before the adjective: 更便宜. For similarity: A 跟 B 一样 (+ adjective): 我的手机跟你的一样. For negative comparison: A 没有 B + adjective: 开罗没有北京冷 (Cairo is not as cold as Beijing). For the superlative we put 最 before the adjective or verb: 最好, 我最喜欢红色.",
+        "id": "A 比 B + kata sifat: 他比我高 (dia lebih tinggi daripada saya). Kita tidak mengatakan 他比我很高. Untuk menunjukkan besarnya perbedaan, ditaruh setelah kata sifat: 高一点儿 (sedikit lebih tinggi) atau 高很多 (jauh lebih tinggi). 更 berarti \"lebih lagi\" dan ditaruh sebelum kata sifat: 更便宜. Untuk kesamaan: A 跟 B 一样 (+ kata sifat): 我的手机跟你的一样. Untuk perbandingan negatif: A 没有 B + kata sifat: 开罗没有北京冷 (Kairo tidak sedingin Beijing). Untuk superlatif, 最 ditaruh sebelum kata sifat atau kata kerja: 最好, 我最喜欢红色."
+      }
+    },
+    "items": [
+      {
+        "id": "zh16n1",
+        "target": "比",
+        "translit": "bǐ",
+        "tr": {
+          "ar": "من (في المقارنة)",
+          "en": "than, compared to",
+          "id": "daripada"
+        },
+        "example": {
+          "target": "今天比昨天冷。",
+          "translit": "jīntiān bǐ zuótiān lěng.",
+          "tr": {
+            "ar": "اليوم أبرد من أمس.",
+            "en": "Today is colder than yesterday.",
+            "id": "Hari ini lebih dingin daripada kemarin."
+          }
+        },
+        "hint": {
+          "ar": "A 比 B + صفة. لا نضع 很 قبل الصفة.",
+          "en": "A 比 B + adjective. Do not put 很 before the adjective.",
+          "id": "A 比 B + kata sifat. Jangan menaruh 很 sebelum kata sifat."
+        }
+      },
+      {
+        "id": "zh16n2",
+        "target": "更",
+        "translit": "gèng",
+        "tr": {
+          "ar": "أكثر (أكثر من ذلك)",
+          "en": "even more",
+          "id": "lebih lagi"
+        },
+        "example": {
+          "target": "这件比那件更便宜。",
+          "translit": "zhè jiàn bǐ nà jiàn gèng piányi.",
+          "tr": {
+            "ar": "هذه القطعة أرخص من تلك.",
+            "en": "This piece is even cheaper than that one.",
+            "id": "Yang ini lebih murah lagi daripada yang itu."
+          }
+        },
+        "hint": {
+          "ar": "更 تأتي قبل الصفة وتفيد زيادة على شيء معروف. 更 بنغمة رابعة.",
+          "en": "更 goes before the adjective and adds to something already known. 更 has tone 4.",
+          "id": "更 ditaruh sebelum kata sifat dan menambah sesuatu yang sudah diketahui. 更 bernada 4."
+        }
+      },
+      {
+        "id": "zh16n3",
+        "target": "最",
+        "translit": "zuì",
+        "tr": {
+          "ar": "الأكثر",
+          "en": "most",
+          "id": "paling"
+        },
+        "example": {
+          "target": "我最喜欢红色。",
+          "translit": "wǒ zuì xǐhuan hóngsè.",
+          "tr": {
+            "ar": "لوني المفضل هو الأحمر.",
+            "en": "Red is my favourite colour.",
+            "id": "Warna kesukaan saya adalah merah."
+          }
+        },
+        "hint": {
+          "ar": "最 + صفة أو فعل مثل 最好 و最喜欢. 最 بنغمة رابعة.",
+          "en": "最 + adjective or verb, as in 最好 and 最喜欢. 最 has tone 4.",
+          "id": "最 + kata sifat atau kata kerja, seperti 最好 dan 最喜欢. 最 bernada 4."
+        }
+      },
+      {
+        "id": "zh16n4",
+        "target": "一样",
+        "translit": "yīyàng",
+        "tr": {
+          "ar": "نفسه؛ مثل",
+          "en": "the same",
+          "id": "sama"
+        },
+        "example": {
+          "target": "我的手机跟你的一样。",
+          "translit": "wǒ de shǒujī gēn nǐ de yīyàng.",
+          "tr": {
+            "ar": "هاتفي مثل هاتفك.",
+            "en": "My phone is the same as yours.",
+            "id": "Ponsel saya sama dengan milikmu."
+          }
+        },
+        "hint": {
+          "ar": "跟 + اسم + 一样. وتُنطق 一样 غالبًا yíyàng.",
+          "en": "跟 + noun + 一样. 一样 is usually pronounced yíyàng.",
+          "id": "跟 + kata benda + 一样. 一样 biasanya diucapkan yíyàng."
+        }
+      },
+      {
+        "id": "zh16n5",
+        "target": "高",
+        "translit": "gāo",
+        "tr": {
+          "ar": "طويل؛ عالٍ",
+          "en": "tall, high",
+          "id": "tinggi"
+        },
+        "example": {
+          "target": "我哥哥很高。",
+          "translit": "wǒ gēge hěn gāo.",
+          "tr": {
+            "ar": "أخي الأكبر طويل جدًا.",
+            "en": "My older brother is very tall.",
+            "id": "Kakak laki-laki saya sangat tinggi."
+          }
+        },
+        "hint": {
+          "ar": "高 للقامة وللارتفاع. أما في المقارنة فنقول 比我高 بدون 很.",
+          "en": "高 is used for height and for anything high. In a comparison we say 比我高 without 很.",
+          "id": "高 dipakai untuk tinggi badan dan ketinggian. Dalam perbandingan dikatakan 比我高 tanpa 很."
+        }
+      },
+      {
+        "id": "zh16n6",
+        "target": "快",
+        "translit": "kuài",
+        "tr": {
+          "ar": "سريع",
+          "en": "fast, quick",
+          "id": "cepat"
+        },
+        "example": {
+          "target": "坐飞机比坐火车快。",
+          "translit": "zuò fēijī bǐ zuò huǒchē kuài.",
+          "tr": {
+            "ar": "السفر بالطائرة أسرع من القطار.",
+            "en": "Taking a plane is faster than taking a train.",
+            "id": "Naik pesawat lebih cepat daripada naik kereta."
+          }
+        },
+        "hint": {
+          "ar": "快 بنغمة رابعة. ونحصل على 快乐 (سعيد) بإضافة 乐.",
+          "en": "快 has tone 4. Adding 乐 gives 快乐 (happy).",
+          "id": "快 bernada 4. Dengan menambah 乐 menjadi 快乐 (bahagia)."
+        }
+      },
+      {
+        "id": "zh16n7",
+        "target": "慢",
+        "translit": "màn",
+        "tr": {
+          "ar": "بطيء",
+          "en": "slow",
+          "id": "lambat"
+        },
+        "example": {
+          "target": "他开车很慢。",
+          "translit": "tā kāichē hěn màn.",
+          "tr": {
+            "ar": "هو يقود ببطء.",
+            "en": "He drives slowly.",
+            "id": "Dia mengemudi dengan pelan."
+          }
+        },
+        "hint": {
+          "ar": "慢 عكس 快. و慢慢 تعني «ببطء».",
+          "en": "慢 is the opposite of 快. 慢慢 means \"slowly\".",
+          "id": "慢 lawan dari 快. 慢慢 berarti \"pelan-pelan\"."
+        }
+      },
+      {
+        "id": "zh16n8",
+        "target": "远",
+        "translit": "yuǎn",
+        "tr": {
+          "ar": "بعيد",
+          "en": "far",
+          "id": "jauh"
+        },
+        "example": {
+          "target": "机场离这里很远。",
+          "translit": "jīchǎng lí zhèlǐ hěn yuǎn.",
+          "tr": {
+            "ar": "المطار بعيد عن هنا.",
+            "en": "The airport is far from here.",
+            "id": "Bandara jauh dari sini."
+          }
+        },
+        "hint": {
+          "ar": "离 تعني «بعيدًا عن» وتأتي قبل المكان. عكس 远 هو 近 (قريب).",
+          "en": "离 means \"away from\" and comes before the place. The opposite of 远 is 近 (near).",
+          "id": "离 berarti \"dari (jarak)\" dan ditaruh sebelum tempat. Lawan 远 adalah 近 (dekat)."
+        }
+      }
+    ],
+    "cloze": [
+      {
+        "sentence": "他比我___。",
+        "answer": "高",
+        "wrong": [
+          "很高",
+          "太高"
+        ],
+        "tr": {
+          "ar": "هو أطول مني.",
+          "en": "He is taller than me.",
+          "id": "Dia lebih tinggi daripada saya."
+        },
+        "why": {
+          "ar": "بعد 比 نضع الصفة وحدها: 比我高. لا نقول 比我很高 ولا 比我太高 بهذا المعنى.",
+          "en": "After 比 we put the bare adjective: 比我高. We do not say 比我很高 or 比我太高 with this meaning.",
+          "id": "Setelah 比 kata sifat ditaruh sendirian: 比我高. Tidak dikatakan 比我很高 atau 比我太高 dengan makna ini."
+        }
+      },
+      {
+        "sentence": "我的手机跟你的___。",
+        "answer": "一样",
+        "wrong": [
+          "比",
+          "最"
+        ],
+        "tr": {
+          "ar": "هاتفي مثل هاتفك.",
+          "en": "My phone is the same as yours.",
+          "id": "Ponsel saya sama dengan milikmu."
+        },
+        "why": {
+          "ar": "نقول 跟...一样 للتشابه. 比 و最 لا تأتيان بعد 跟 + اسم في هذا التركيب.",
+          "en": "For similarity we say 跟...一样. 比 and 最 do not follow 跟 + noun in this pattern.",
+          "id": "Untuk kesamaan dikatakan 跟...一样. 比 dan 最 tidak mengikuti 跟 + kata benda dalam pola ini."
+        }
+      }
+    ],
+    "conversation": {
+      "context": {
+        "ar": "تتحدثان عن السفر: تسأل صديقًا عن بكين.",
+        "en": "Talking about travel: you ask a friend about Beijing.",
+        "id": "Membicarakan perjalanan: Anda bertanya pada teman tentang Beijing."
+      },
+      "turns": [
+        {
+          "who": "A",
+          "target": "我想去北京，那里冷吗？",
+          "tr": {
+            "ar": "أريد أن أذهب إلى بكين، هل الجو بارد هناك؟",
+            "en": "I want to go to Beijing, is it cold there?",
+            "id": "Saya ingin pergi ke Beijing, apakah di sana dingin?"
+          }
+        },
+        {
+          "who": "B",
+          "target": "北京比开罗冷。",
+          "tr": {
+            "ar": "بكين أبرد من القاهرة.",
+            "en": "Beijing is colder than Cairo.",
+            "id": "Beijing lebih dingin daripada Kairo."
+          }
+        },
+        {
+          "who": "A",
+          "target": "那我要多穿一点儿。",
+          "tr": {
+            "ar": "إذن يجب أن ألبس أكثر.",
+            "en": "Then I need to wear a bit more.",
+            "id": "Kalau begitu saya harus memakai lebih banyak."
+          }
+        }
+      ],
+      "gap": 1,
+      "wrong": [
+        "我的手机跟你的一样。",
+        "我最喜欢红色。"
+      ],
+      "why": {
+        "ar": "السؤال عن البرد يُجاب عنه بمقارنة الطقس. الجملتان الأخريان لا تتحدثان عن الطقس.",
+        "en": "The question is about the cold, so the answer compares the weather. The other two sentences are not about the weather.",
+        "id": "Pertanyaannya tentang dingin, jadi jawabannya membandingkan cuaca. Dua kalimat lain tidak membahas cuaca."
+      }
+    },
+    "summary": {
+      "ar": "تعلمت 比 و更 و最 و一样 و没有 وكلمات 高 و快 و慢 و远. تذكّر أن جملة 比 لا تأخذ 很.",
+      "en": "You learned 比, 更, 最, 一样, 没有 and the words 高, 快, 慢 and 远. Remember that a 比 sentence does not take 很.",
+      "id": "Anda belajar 比, 更, 最, 一样, 没有 dan kata 高, 快, 慢, dan 远. Ingat bahwa kalimat 比 tidak memakai 很."
+    }
+  },
+  {
+    "id": "zh-17",
+    "track": "zh",
+    "level": "elementary",
+    "order": 17,
+    "topic": "past-experiences",
+    "icon": "🏯",
+    "title": {
+      "ar": "أشياء فعلتها",
+      "en": "Things I Have Done",
+      "id": "Hal yang Pernah Saya Lakukan"
+    },
+    "description": {
+      "ar": "تحدّث عما فعلته وعما جرّبته من قبل بـ 了 و过.",
+      "en": "Talk about what you did and what you have tried before with 了 and 过.",
+      "id": "Bicarakan apa yang telah Anda lakukan dan pernah Anda coba dengan 了 dan 过."
+    },
+    "objectives": [
+      {
+        "ar": "أستطيع القول 我买了一本书 للتعبير عن فعل تمّ.",
+        "en": "I can say 我买了一本书 for a completed action.",
+        "id": "Saya bisa mengatakan 我买了一本书 untuk tindakan yang sudah selesai."
+      },
+      {
+        "ar": "أستطيع القول 我去过长城 للتعبير عن تجربة سابقة.",
+        "en": "I can say 我去过长城 for a past experience.",
+        "id": "Saya bisa mengatakan 我去过长城 untuk pengalaman masa lalu."
+      },
+      {
+        "ar": "أستطيع القول 我没去过 وأستعمل 已经 و以前 و去年.",
+        "en": "I can say 我没去过 and use 已经, 以前 and 去年.",
+        "id": "Saya bisa mengatakan 我没去过 dan memakai 已经, 以前, dan 去年."
+      }
+    ],
+    "intro": {
+      "ar": "في الصينية لا تتغير صورة الفعل بحسب الزمن، بل تُضاف أدوات صغيرة بعده. في هذا الدرس أداتان: 了 بعد الفعل تدل على أن الفعل تمّ، و过 بعد الفعل تدل على أنك جرّبت ذلك مرة على الأقل في حياتك. وللنفي نستعمل 没 (و没有) وليس 不.",
+      "en": "In Chinese the verb does not change with tense; small particles follow it instead. This lesson has two: 了 after the verb shows that the action was completed, and 过 after the verb shows that you have done it at least once in your life. For the negative we use 没 (or 没有), not 不.",
+      "id": "Dalam bahasa Mandarin kata kerja tidak berubah menurut waktu; partikel kecil mengikutinya. Pelajaran ini memiliki dua: 了 setelah kata kerja menunjukkan tindakan telah selesai, dan 过 setelah kata kerja menunjukkan Anda pernah melakukannya setidaknya sekali. Untuk negatif dipakai 没 (atau 没有), bukan 不."
+    },
+    "culture": {
+      "ar": "سور الصين العظيم 长城 من أشهر المعالم في الصين، وهو سلسلة أسوار بُنيت في عصور مختلفة. ويزور كثير من الناس أجزاء قريبة من بكين مثل 八达岭 (Bādálǐng) و慕田峪 (Mùtiányù). وسؤال 你去过长城吗؟ مألوف جدًا عند التعرف على أجنبي. وإن أجبت 没去过 فيمكنك أن تضيف 我很想去.",
+      "en": "The Great Wall (长城) is one of China's best-known sights; it is a series of walls built in different eras. Many visitors go to sections near Beijing such as 八达岭 (Bādálǐng) and 慕田峪 (Mùtiányù). The question 你去过长城吗? is very common when people meet a foreigner. If your answer is 没去过, you can add 我很想去.",
+      "id": "Tembok Besar (长城) adalah salah satu tempat paling terkenal di Tiongkok; ia berupa rangkaian tembok yang dibangun di berbagai zaman. Banyak pengunjung pergi ke bagian dekat Beijing seperti 八达岭 (Bādálǐng) dan 慕田峪 (Mùtiányù). Pertanyaan 你去过长城吗? sangat umum saat orang bertemu orang asing. Jika jawabannya 没去过, Anda bisa menambahkan 我很想去."
+    },
+    "grammar": {
+      "title": {
+        "ar": "了 بعد الفعل و过 للتجربة",
+        "en": "Verb + 了 and verb + 过",
+        "id": "Kata kerja + 了 dan kata kerja + 过"
+      },
+      "body": {
+        "ar": "الفعل + 了 يدل على الاكتمال: 我昨天买了一本书 (اشتريت كتابًا أمس). الفعل + 过 يدل على التجربة: 我去过长城 (ذهبت إلى سور الصين من قبل). وللنفي بالتجربة نقول 没(有)去过: 我没去过长城 (لم أذهب قط). وللنفي بالاكتمال نقول 没 فقط من دون 了: 我昨天没买书. 已经...了 تعني «بالفعل»: 我已经吃饭了. وتأتي كلمات الزمن مثل 昨天 و去年 و以前 قبل الفعل.",
+        "en": "Verb + 了 shows completion: 我昨天买了一本书 (I bought a book yesterday). Verb + 过 shows experience: 我去过长城 (I have been to the Great Wall). To say you have never done something we use 没(有)...过: 我没去过长城 (I have never been). To negate a completed action we use 没 alone, without 了: 我昨天没买书. 已经...了 means \"already\": 我已经吃饭了. Time words such as 昨天, 去年 and 以前 go before the verb.",
+        "id": "Kata kerja + 了 menunjukkan selesai: 我昨天买了一本书 (kemarin saya membeli sebuah buku). Kata kerja + 过 menunjukkan pengalaman: 我去过长城 (saya pernah ke Tembok Besar). Untuk mengatakan belum pernah dipakai 没(有)...过: 我没去过长城 (saya belum pernah ke sana). Untuk menegasikan tindakan yang selesai dipakai 没 saja, tanpa 了: 我昨天没买书. 已经...了 berarti \"sudah\": 我已经吃饭了. Kata waktu seperti 昨天, 去年, dan 以前 ditaruh sebelum kata kerja."
+      }
+    },
+    "items": [
+      {
+        "id": "zh17n1",
+        "target": "了",
+        "translit": "le",
+        "tr": {
+          "ar": "علامة اكتمال الفعل",
+          "en": "particle for a completed action",
+          "id": "partikel tindakan selesai"
+        },
+        "example": {
+          "target": "我昨天买了一本书。",
+          "translit": "wǒ zuótiān mǎi le yī běn shū.",
+          "tr": {
+            "ar": "اشتريت كتابًا أمس.",
+            "en": "I bought a book yesterday.",
+            "id": "Kemarin saya membeli sebuah buku."
+          }
+        },
+        "hint": {
+          "ar": "了 بعد الفعل مباشرة، وهي نغمة خفيفة. وللنفي نحذفها ونضع 没.",
+          "en": "了 comes right after the verb and is neutral. To negate we drop it and use 没.",
+          "id": "了 ditaruh tepat setelah kata kerja dan bernada netral. Untuk negatif, 了 dihilangkan dan dipakai 没."
+        }
+      },
+      {
+        "id": "zh17n2",
+        "target": "过",
+        "translit": "guo",
+        "tr": {
+          "ar": "علامة التجربة (سبق أن)",
+          "en": "particle for past experience",
+          "id": "partikel pengalaman (pernah)"
+        },
+        "example": {
+          "target": "我去过北京。",
+          "translit": "wǒ qù guo Běijīng.",
+          "tr": {
+            "ar": "سبق أن ذهبت إلى بكين.",
+            "en": "I have been to Beijing.",
+            "id": "Saya pernah ke Beijing."
+          }
+        },
+        "hint": {
+          "ar": "过 بعد الفعل بنغمة خفيفة guo. وكفعل مستقل تُنطق guò (يمرّ).",
+          "en": "过 after a verb is neutral: guo. As a verb on its own it is guò (to pass).",
+          "id": "过 setelah kata kerja bernada netral: guo. Sebagai kata kerja tersendiri dibaca guò (melewati)."
+        }
+      },
+      {
+        "id": "zh17n3",
+        "target": "已经",
+        "translit": "yǐjīng",
+        "tr": {
+          "ar": "بالفعل؛ قد",
+          "en": "already",
+          "id": "sudah"
+        },
+        "example": {
+          "target": "我已经吃饭了。",
+          "translit": "wǒ yǐjīng chīfàn le.",
+          "tr": {
+            "ar": "لقد أكلت بالفعل.",
+            "en": "I have already eaten.",
+            "id": "Saya sudah makan."
+          }
+        },
+        "hint": {
+          "ar": "已经 تأتي قبل الفعل، وفي الغالب مع 了 في آخر الجملة.",
+          "en": "已经 goes before the verb, and usually with 了 at the end of the sentence.",
+          "id": "已经 ditaruh sebelum kata kerja, dan biasanya dengan 了 di akhir kalimat."
+        }
+      },
+      {
+        "id": "zh17n4",
+        "target": "昨天",
+        "translit": "zuótiān",
+        "tr": {
+          "ar": "أمس",
+          "en": "yesterday",
+          "id": "kemarin"
+        },
+        "example": {
+          "target": "昨天我没去上课。",
+          "translit": "zuótiān wǒ méi qù shàngkè.",
+          "tr": {
+            "ar": "لم أذهب إلى الدرس أمس.",
+            "en": "I didn't go to class yesterday.",
+            "id": "Kemarin saya tidak masuk kelas."
+          }
+        },
+        "hint": {
+          "ar": "昨天 كلمة زمن تأتي قبل الفعل. 没 تنفي حدثًا لم يحصل.",
+          "en": "昨天 is a time word that goes before the verb. 没 negates something that did not happen.",
+          "id": "昨天 adalah kata waktu yang ditaruh sebelum kata kerja. 没 menegasikan sesuatu yang tidak terjadi."
+        }
+      },
+      {
+        "id": "zh17n5",
+        "target": "去年",
+        "translit": "qùnián",
+        "tr": {
+          "ar": "العام الماضي",
+          "en": "last year",
+          "id": "tahun lalu"
+        },
+        "example": {
+          "target": "我去年去过中国。",
+          "translit": "wǒ qùnián qù guo Zhōngguó.",
+          "tr": {
+            "ar": "زرت الصين العام الماضي.",
+            "en": "I went to China last year.",
+            "id": "Tahun lalu saya pernah pergi ke Tiongkok."
+          }
+        },
+        "hint": {
+          "ar": "نغمة 去 رابعة ونغمة 年 ثانية: qùnián. والعام القادم 明年.",
+          "en": "去年 is qù (tone 4) + nián (tone 2): qùnián. Next year is 明年.",
+          "id": "去年 adalah qù (nada 4) + nián (nada 2). Tahun depan adalah 明年."
+        }
+      },
+      {
+        "id": "zh17n6",
+        "target": "以前",
+        "translit": "yǐqián",
+        "tr": {
+          "ar": "من قبل؛ سابقًا",
+          "en": "before, in the past",
+          "id": "dulu; sebelumnya"
+        },
+        "example": {
+          "target": "我以前不会说汉语。",
+          "translit": "wǒ yǐqián bù huì shuō Hànyǔ.",
+          "tr": {
+            "ar": "لم أكن أعرف الصينية من قبل.",
+            "en": "I couldn't speak Chinese before.",
+            "id": "Dulu saya tidak bisa berbahasa Mandarin."
+          }
+        },
+        "hint": {
+          "ar": "以前 تأتي في أول الجملة أو بعد الفاعل. وفي النطق 不会 تصبح bú huì.",
+          "en": "以前 goes at the start of the sentence or after the subject. In speech 不会 becomes bú huì.",
+          "id": "以前 ditaruh di awal kalimat atau setelah subjek. Dalam tuturan 不会 menjadi bú huì."
+        }
+      },
+      {
+        "id": "zh17n7",
+        "target": "第一次",
+        "translit": "dì yī cì",
+        "tr": {
+          "ar": "المرة الأولى",
+          "en": "the first time",
+          "id": "pertama kali"
+        },
+        "example": {
+          "target": "这是我第一次来中国。",
+          "translit": "zhè shì wǒ dì yī cì lái Zhōngguó.",
+          "tr": {
+            "ar": "هذه أول مرة آتي فيها إلى الصين.",
+            "en": "This is my first time coming to China.",
+            "id": "Ini pertama kalinya saya datang ke Tiongkok."
+          }
+        },
+        "hint": {
+          "ar": "第 تعني «رقم ترتيبي» و次 «مرة». 来 تعني «يأتي».",
+          "en": "第 makes an ordinal number and 次 means \"time\". 来 means \"to come\".",
+          "id": "第 membentuk bilangan urutan dan 次 berarti \"kali\". 来 berarti \"datang\"."
+        }
+      },
+      {
+        "id": "zh17n8",
+        "target": "长城",
+        "translit": "Chángchéng",
+        "tr": {
+          "ar": "سور الصين العظيم",
+          "en": "the Great Wall",
+          "id": "Tembok Besar"
+        },
+        "example": {
+          "target": "我想去长城。",
+          "translit": "wǒ xiǎng qù Chángchéng.",
+          "tr": {
+            "ar": "أريد أن أذهب إلى سور الصين العظيم.",
+            "en": "I want to go to the Great Wall.",
+            "id": "Saya ingin pergi ke Tembok Besar."
+          }
+        },
+        "hint": {
+          "ar": "长 تعني «طويل» و城 «سور/مدينة». ولأنه اسم علم نكتبه بحرف كبير في البينيين.",
+          "en": "长 means \"long\" and 城 means \"wall/city\". As a proper name it is capitalised in pinyin.",
+          "id": "长 berarti \"panjang\" dan 城 \"tembok/kota\". Sebagai nama diri, ditulis dengan huruf kapital dalam pinyin."
+        }
+      }
+    ],
+    "cloze": [
+      {
+        "sentence": "我去___长城。",
+        "answer": "过",
+        "wrong": [
+          "着",
+          "呢"
+        ],
+        "tr": {
+          "ar": "سبق أن ذهبت إلى سور الصين العظيم.",
+          "en": "I have been to the Great Wall.",
+          "id": "Saya pernah ke Tembok Besar."
+        },
+        "why": {
+          "ar": "التجربة السابقة تُعبَّر عنها بـ 过 بعد الفعل. 着 و呢 تدلان على حالة أو فعل جارٍ.",
+          "en": "A past experience is expressed with 过 after the verb. 着 and 呢 show a state or an ongoing action.",
+          "id": "Pengalaman masa lalu dinyatakan dengan 过 setelah kata kerja. 着 dan 呢 menunjukkan keadaan atau tindakan yang sedang berlangsung."
+        }
+      },
+      {
+        "sentence": "我___吃饭了。",
+        "answer": "已经",
+        "wrong": [
+          "第一次",
+          "长城"
+        ],
+        "tr": {
+          "ar": "لقد أكلت بالفعل.",
+          "en": "I have already eaten.",
+          "id": "Saya sudah makan."
+        },
+        "why": {
+          "ar": "已经 + فعل + 了 تعني «بالفعل». 第一次 و长城 اسمان ولا يصحّان قبل الفعل هنا.",
+          "en": "已经 + verb + 了 means \"already\". 第一次 and 长城 are nouns and do not work before the verb here.",
+          "id": "已经 + kata kerja + 了 berarti \"sudah\". 第一次 dan 长城 adalah kata benda dan tidak cocok sebelum kata kerja di sini."
+        }
+      }
+    ],
+    "conversation": {
+      "context": {
+        "ar": "محادثة مع صديق جديد.",
+        "en": "A chat with a new friend.",
+        "id": "Obrolan dengan teman baru."
+      },
+      "turns": [
+        {
+          "who": "A",
+          "target": "你去过长城吗？",
+          "tr": {
+            "ar": "هل ذهبت إلى سور الصين العظيم من قبل؟",
+            "en": "Have you ever been to the Great Wall?",
+            "id": "Apakah kamu pernah ke Tembok Besar?"
+          }
+        },
+        {
+          "who": "B",
+          "target": "去过，我去年去过一次。",
+          "tr": {
+            "ar": "نعم، ذهبت مرة واحدة العام الماضي.",
+            "en": "Yes, I went once last year.",
+            "id": "Pernah, tahun lalu saya pergi satu kali."
+          }
+        },
+        {
+          "who": "A",
+          "target": "我没去过，我很想去。",
+          "tr": {
+            "ar": "أنا لم أذهب، وأريد أن أذهب كثيرًا.",
+            "en": "I haven't been, and I would really like to go.",
+            "id": "Saya belum pernah, saya sangat ingin pergi."
+          }
+        }
+      ],
+      "gap": 1,
+      "wrong": [
+        "我不会游泳。",
+        "我正在跑步。"
+      ],
+      "why": {
+        "ar": "السؤال عن التجربة يُجاب عنه بـ 去过 أو 没去过. الجملتان الأخريان لا تتعلقان بالسؤال.",
+        "en": "A question about experience is answered with 去过 or 没去过. The other two sentences are unrelated to the question.",
+        "id": "Pertanyaan tentang pengalaman dijawab dengan 去过 atau 没去过. Dua kalimat lain tidak berkaitan dengan pertanyaan."
+      }
+    },
+    "summary": {
+      "ar": "تعلمت الفرق بين 了 للاكتمال و过 للتجربة، وكلمات 已经 و昨天 و去年 و以前 و第一次. اسأل 你去过...吗؟ وأجب 去过 أو 没去过.",
+      "en": "You learned the difference between 了 for completion and 过 for experience, plus 已经, 昨天, 去年, 以前 and 第一次. Ask 你去过...吗? and answer 去过 or 没去过.",
+      "id": "Anda belajar perbedaan 了 untuk selesai dan 过 untuk pengalaman, serta 已经, 昨天, 去年, 以前, dan 第一次. Tanyakan 你去过...吗? dan jawab 去过 atau 没去过."
+    }
+  },
+  {
+    "id": "zh-18",
+    "track": "zh",
+    "level": "elementary",
+    "order": 18,
+    "topic": "duration-frequency",
+    "icon": "⏱️",
+    "title": {
+      "ar": "كم من الوقت وكم مرة",
+      "en": "How Long, How Often",
+      "id": "Berapa Lama, Seberapa Sering"
+    },
+    "description": {
+      "ar": "قل كم من الوقت تفعل شيئًا وكم مرة تفعله.",
+      "en": "Say how long you do something and how often you do it.",
+      "id": "Katakan berapa lama Anda melakukan sesuatu dan seberapa sering."
+    },
+    "objectives": [
+      {
+        "ar": "أستطيع القول 我学了一年汉语 لذكر المدة.",
+        "en": "I can say 我学了一年汉语 to give a duration.",
+        "id": "Saya bisa mengatakan 我学了一年汉语 untuk menyebut durasi."
+      },
+      {
+        "ar": "أستطيع القول 一个星期上三次课 لذكر التكرار.",
+        "en": "I can say 一个星期上三次课 to give a frequency.",
+        "id": "Saya bisa mengatakan 一个星期上三次课 untuk menyebut frekuensi."
+      },
+      {
+        "ar": "أستطيع السؤال 多长时间؟ واستخدام 常常 و一直 و以后 و的时候.",
+        "en": "I can ask 多长时间? and use 常常, 一直, 以后 and 的时候.",
+        "id": "Saya bisa bertanya 多长时间? dan memakai 常常, 一直, 以后, dan 的时候."
+      }
+    ],
+    "intro": {
+      "ar": "في الدرس التاسع تعلمت أن كلمات «متى» تأتي قبل الفعل: 我八点起床. أما المدة وعدد المرات فتأتي بعد الفعل: 我学了两年汉语. هذا الفرق مهم جدًا. ولسؤال «كم من الوقت؟» نقول 多长时间. وتتعلم أيضًا كلمات تُستعمل كثيرًا مع الزمن مثل 常常 و一直 و以后.",
+      "en": "In lesson 9 you learned that time-when words come before the verb: 我八点起床. Duration and number of times come after the verb: 我学了两年汉语. This difference is very important. To ask \"how long?\" we say 多长时间. You also learn words often used with time such as 常常, 一直 and 以后.",
+      "id": "Di pelajaran 9 Anda belajar bahwa kata \"kapan\" ditaruh sebelum kata kerja: 我八点起床. Durasi dan jumlah kali ditaruh setelah kata kerja: 我学了两年汉语. Perbedaan ini sangat penting. Untuk bertanya \"berapa lama?\" kita mengatakan 多长时间. Anda juga belajar kata yang sering dipakai dengan waktu seperti 常常, 一直, dan 以后."
+    },
+    "culture": {
+      "ar": "عند الحديث عن الوقت يقول الصينيون 半个小时 لنصف ساعة و一刻钟 لربع ساعة (خمس عشرة دقيقة). ويُقال 一个星期 أو 一周 للأسبوع.",
+      "en": "When talking about time, Chinese speakers say 半个小时 for half an hour and 一刻钟 for a quarter of an hour (fifteen minutes). A week can be 一个星期 or 一周.",
+      "id": "Saat membicarakan waktu, orang Tionghoa mengatakan 半个小时 untuk setengah jam dan 一刻钟 untuk seperempat jam (lima belas menit). Satu minggu bisa 一个星期 atau 一周."
+    },
+    "grammar": {
+      "title": {
+        "ar": "المدة والتكرار بعد الفعل",
+        "en": "Duration and frequency after the verb",
+        "id": "Durasi dan frekuensi setelah kata kerja"
+      },
+      "body": {
+        "ar": "المدة تأتي بعد الفعل: 我学了两年 (تعلمت سنتين)، 我等了十分钟 (انتظرت عشر دقائق). وإن كان هناك مفعول به فالترتيب: فعل + 了 + مدة + مفعول: 我学了两年汉语، أو نكرر الفعل: 我学汉语学了两年. والتكرار يأتي بعد الفعل أيضًا: 我一个星期上三次课. ونسأل 多长时间؟ للمدة و几次؟ للتكرار. وبالمقارنة تأتي 常常 و一直 قبل الفعل: 我常常喝茶.",
+        "en": "Duration comes after the verb: 我学了两年 (I studied for two years), 我等了十分钟 (I waited for ten minutes). If there is an object the order is verb + 了 + duration + object: 我学了两年汉语, or we repeat the verb: 我学汉语学了两年. Frequency also comes after the verb: 我一个星期上三次课. We ask 多长时间? for duration and 几次? for frequency. By contrast, 常常 and 一直 come before the verb: 我常常喝茶.",
+        "id": "Durasi ditaruh setelah kata kerja: 我学了两年 (saya belajar selama dua tahun), 我等了十分钟 (saya menunggu sepuluh menit). Jika ada objek, urutannya kata kerja + 了 + durasi + objek: 我学了两年汉语, atau kata kerja diulang: 我学汉语学了两年. Frekuensi juga ditaruh setelah kata kerja: 我一个星期上三次课. Kita bertanya 多长时间? untuk durasi dan 几次? untuk frekuensi. Sebaliknya, 常常 dan 一直 ditaruh sebelum kata kerja: 我常常喝茶."
+      }
+    },
+    "items": [
+      {
+        "id": "zh18n1",
+        "target": "小时",
+        "translit": "xiǎoshí",
+        "tr": {
+          "ar": "ساعة (مدة)",
+          "en": "hour (duration)",
+          "id": "jam (durasi)"
+        },
+        "example": {
+          "target": "我每天学一个小时汉语。",
+          "translit": "wǒ měitiān xué yī gè xiǎoshí Hànyǔ.",
+          "tr": {
+            "ar": "أدرس الصينية ساعة كل يوم.",
+            "en": "I study Chinese for an hour every day.",
+            "id": "Saya belajar bahasa Mandarin satu jam setiap hari."
+          }
+        },
+        "hint": {
+          "ar": "小时 للمدة، وللساعة على الجدول نقول 点. وفي الكلام يُقال 一个小时.",
+          "en": "小时 is for duration, while for clock time we say 点. In speech it is 一个小时.",
+          "id": "小时 untuk durasi, sedangkan untuk jam di jadwal dipakai 点. Dalam tuturan dikatakan 一个小时."
+        }
+      },
+      {
+        "id": "zh18n2",
+        "target": "分钟",
+        "translit": "fēnzhōng",
+        "tr": {
+          "ar": "دقيقة",
+          "en": "minute",
+          "id": "menit"
+        },
+        "example": {
+          "target": "我等了十分钟。",
+          "translit": "wǒ děng le shí fēnzhōng.",
+          "tr": {
+            "ar": "انتظرت عشر دقائق.",
+            "en": "I waited for ten minutes.",
+            "id": "Saya menunggu sepuluh menit."
+          }
+        },
+        "hint": {
+          "ar": "等 تعني «ينتظر». المدة 十分钟 تأتي بعد 了.",
+          "en": "等 means \"to wait\". The duration 十分钟 comes after 了.",
+          "id": "等 berarti \"menunggu\". Durasi 十分钟 ditaruh setelah 了."
+        }
+      },
+      {
+        "id": "zh18n3",
+        "target": "次",
+        "translit": "cì",
+        "tr": {
+          "ar": "مرة (عدّ)",
+          "en": "time, occasion",
+          "id": "kali"
+        },
+        "example": {
+          "target": "我一个星期上三次课。",
+          "translit": "wǒ yī gè xīngqī shàng sān cì kè.",
+          "tr": {
+            "ar": "أحضر ثلاث حصص في الأسبوع.",
+            "en": "I have class three times a week.",
+            "id": "Saya masuk kelas tiga kali seminggu."
+          }
+        },
+        "hint": {
+          "ar": "次 كلمة عدّ للمرات وتأتي بعد الفعل. و上课 فعل «يحضر الدرس».",
+          "en": "次 is the measure word for times and comes after the verb. 上课 is the verb \"to attend class\".",
+          "id": "次 adalah penggolong untuk jumlah kali dan ditaruh setelah kata kerja. 上课 adalah kata kerja \"masuk kelas\"."
+        }
+      },
+      {
+        "id": "zh18n4",
+        "target": "常常",
+        "translit": "chángcháng",
+        "tr": {
+          "ar": "غالبًا",
+          "en": "often",
+          "id": "sering"
+        },
+        "example": {
+          "target": "我常常喝茶。",
+          "translit": "wǒ chángcháng hē chá.",
+          "tr": {
+            "ar": "أشرب الشاي كثيرًا.",
+            "en": "I often drink tea.",
+            "id": "Saya sering minum teh."
+          }
+        },
+        "hint": {
+          "ar": "常常 تأتي قبل الفعل. ومعناها قريب من 经常.",
+          "en": "常常 goes before the verb. Its meaning is close to 经常.",
+          "id": "常常 ditaruh sebelum kata kerja. Maknanya dekat dengan 经常."
+        }
+      },
+      {
+        "id": "zh18n5",
+        "target": "一直",
+        "translit": "yīzhí",
+        "tr": {
+          "ar": "طوال الوقت؛ باستمرار",
+          "en": "all along, continuously",
+          "id": "terus; selalu"
+        },
+        "example": {
+          "target": "他一直在看书。",
+          "translit": "tā yīzhí zài kàn shū.",
+          "tr": {
+            "ar": "هو يقرأ طوال الوقت.",
+            "en": "He has been reading all along.",
+            "id": "Dia terus membaca."
+          }
+        },
+        "hint": {
+          "ar": "一直 تأتي قبل الفعل. وتُنطق في الكلام غالبًا yìzhí. وهي أيضًا في 一直走 («امش مباشرة»).",
+          "en": "一直 goes before the verb and is usually pronounced yìzhí. It is also in 一直走 (\"go straight\").",
+          "id": "一直 ditaruh sebelum kata kerja dan biasanya diucapkan yìzhí. Kata ini juga ada pada 一直走 (\"jalan terus\")."
+        }
+      },
+      {
+        "id": "zh18n6",
+        "target": "以后",
+        "translit": "yǐhòu",
+        "tr": {
+          "ar": "بعد؛ فيما بعد",
+          "en": "afterwards, later",
+          "id": "setelah; nanti"
+        },
+        "example": {
+          "target": "下课以后，我去跑步。",
+          "translit": "xiàkè yǐhòu, wǒ qù pǎobù.",
+          "tr": {
+            "ar": "بعد الدرس أذهب للجري.",
+            "en": "After class I go jogging.",
+            "id": "Setelah kelas, saya pergi jogging."
+          }
+        },
+        "hint": {
+          "ar": "以后 تأتي بعد الجملة: 下课以后. ومثلها 以前 (قبل).",
+          "en": "以后 comes after the clause: 下课以后. Its pair is 以前 (before).",
+          "id": "以后 ditaruh setelah klausa: 下课以后. Pasangannya 以前 (sebelum)."
+        }
+      },
+      {
+        "id": "zh18n7",
+        "target": "的时候",
+        "translit": "de shíhou",
+        "tr": {
+          "ar": "عندما؛ وقت",
+          "en": "when, at the time of",
+          "id": "ketika"
+        },
+        "example": {
+          "target": "吃饭的时候不要看手机。",
+          "translit": "chīfàn de shíhou bù yào kàn shǒujī.",
+          "tr": {
+            "ar": "لا تنظر إلى الهاتف أثناء الأكل.",
+            "en": "Don't look at your phone while eating.",
+            "id": "Jangan melihat ponsel ketika makan."
+          }
+        },
+        "hint": {
+          "ar": "نضع 的时候 بعد الفعل أو الجملة. 不要 تعني «لا». و手机 المقطع الأول بنغمة ثالثة.",
+          "en": "We put 的时候 after a verb or a clause. 不要 means \"don't\". In 手机 the first syllable is tone 3.",
+          "id": "的时候 ditaruh setelah kata kerja atau klausa. 不要 berarti \"jangan\". Pada 手机 suku pertama bernada 3."
+        }
+      },
+      {
+        "id": "zh18n8",
+        "target": "多长时间",
+        "translit": "duō cháng shíjiān",
+        "tr": {
+          "ar": "كم من الوقت؟",
+          "en": "how long?",
+          "id": "berapa lama?"
+        },
+        "example": {
+          "target": "你学汉语学了多长时间？",
+          "translit": "nǐ xué Hànyǔ xué le duō cháng shíjiān?",
+          "tr": {
+            "ar": "منذ متى تتعلم الصينية؟",
+            "en": "How long have you studied Chinese?",
+            "id": "Sudah berapa lama kamu belajar bahasa Mandarin?"
+          }
+        },
+        "hint": {
+          "ar": "多长 تعني «كم طولًا» و时间 «وقت». نضعها بعد الفعل.",
+          "en": "多长 means \"how long\" and 时间 means \"time\". We put it after the verb.",
+          "id": "多长 berarti \"seberapa panjang\" dan 时间 \"waktu\". Kita menaruhnya setelah kata kerja."
+        }
+      }
+    ],
+    "cloze": [
+      {
+        "sentence": "我学汉语学了两___。",
+        "answer": "年",
+        "wrong": [
+          "点",
+          "号"
+        ],
+        "tr": {
+          "ar": "تعلمت الصينية لمدة سنتين.",
+          "en": "I have studied Chinese for two years.",
+          "id": "Saya sudah belajar bahasa Mandarin selama dua tahun."
+        },
+        "why": {
+          "ar": "بعد الفعل نضع مدة مثل 两年. أما 点 و号 فتدلان على وقت أو تاريخ محدد ولا تقيسان المدة.",
+          "en": "After the verb we put a duration such as 两年. 点 and 号 refer to a point on the clock or a date, not a length of time.",
+          "id": "Setelah kata kerja dipakai durasi seperti 两年. 点 dan 号 menunjuk pada jam atau tanggal tertentu, bukan lamanya waktu."
+        }
+      },
+      {
+        "sentence": "你学汉语学了多长___？",
+        "answer": "时间",
+        "wrong": [
+          "次",
+          "点"
+        ],
+        "tr": {
+          "ar": "منذ متى تتعلم الصينية؟",
+          "en": "How long have you studied Chinese?",
+          "id": "Sudah berapa lama kamu belajar bahasa Mandarin?"
+        },
+        "why": {
+          "ar": "السؤال عن المدة هو 多长时间. 次 و点 لا تأتيان بعد 多长.",
+          "en": "The question about duration is 多长时间. 次 and 点 do not follow 多长.",
+          "id": "Pertanyaan tentang durasi adalah 多长时间. 次 dan 点 tidak mengikuti 多长."
+        }
+      }
+    ],
+    "conversation": {
+      "context": {
+        "ar": "في مدرسة لغة: موظف يسألك عن دراستك.",
+        "en": "At a language school: a member of staff asks about your studies.",
+        "id": "Di sekolah bahasa: seorang staf bertanya tentang belajar Anda."
+      },
+      "turns": [
+        {
+          "who": "A",
+          "target": "你学了多长时间汉语？",
+          "tr": {
+            "ar": "منذ متى تدرس الصينية؟",
+            "en": "How long have you studied Chinese?",
+            "id": "Sudah berapa lama kamu belajar bahasa Mandarin?"
+          }
+        },
+        {
+          "who": "B",
+          "target": "我学了一年。",
+          "tr": {
+            "ar": "درست سنة واحدة.",
+            "en": "I have studied for a year.",
+            "id": "Saya sudah belajar satu tahun."
+          }
+        },
+        {
+          "who": "A",
+          "target": "一个星期上几次课？",
+          "tr": {
+            "ar": "كم حصة تحضر في الأسبوع؟",
+            "en": "How many classes do you have a week?",
+            "id": "Berapa kali kamu masuk kelas seminggu?"
+          }
+        },
+        {
+          "who": "B",
+          "target": "一个星期上三次。",
+          "tr": {
+            "ar": "ثلاث مرات في الأسبوع.",
+            "en": "Three times a week.",
+            "id": "Tiga kali seminggu."
+          }
+        }
+      ],
+      "gap": 1,
+      "wrong": [
+        "我明天去北京。",
+        "我有两只猫。"
+      ],
+      "why": {
+        "ar": "السؤال عن مدة الدراسة يُجاب عنه بذكر المدة. الجملتان الأخريان لا تذكران مدة.",
+        "en": "A question about how long you have studied is answered with a duration. The other two sentences do not give a duration.",
+        "id": "Pertanyaan tentang lama belajar dijawab dengan menyebut durasi. Dua kalimat lain tidak menyebut durasi."
+      }
+    },
+    "summary": {
+      "ar": "تعلمت أن المدة والتكرار تأتي بعد الفعل، وكلمات 小时 و分钟 و次 و常常 و一直 و以后 و的时候 و多长时间. اسأل 学了多长时间؟",
+      "en": "You learned that duration and frequency come after the verb, plus 小时, 分钟, 次, 常常, 一直, 以后, 的时候 and 多长时间. Ask 学了多长时间?",
+      "id": "Anda belajar bahwa durasi dan frekuensi ditaruh setelah kata kerja, serta 小时, 分钟, 次, 常常, 一直, 以后, 的时候, dan 多长时间. Tanyakan 学了多长时间?"
+    }
+  },
+  {
+    "id": "zh-19",
+    "track": "zh",
+    "level": "elementary",
+    "order": 19,
+    "topic": "home-furniture",
+    "icon": "🏠",
+    "title": {
+      "ar": "بيتي",
+      "en": "My Home",
+      "id": "Rumah Saya"
+    },
+    "description": {
+      "ar": "صِف البيت والغرف والأثاث وكيف توضع الأشياء بـ 着.",
+      "en": "Describe your home, rooms and furniture and how things are placed with 着.",
+      "id": "Gambarkan rumah, ruangan, dan perabot serta cara benda diletakkan dengan 着."
+    },
+    "objectives": [
+      {
+        "ar": "أستطيع تسمية 房子 و房间 و客厅 و厨房.",
+        "en": "I can name 房子, 房间, 客厅 and 厨房.",
+        "id": "Saya bisa menyebut 房子, 房间, 客厅, dan 厨房."
+      },
+      {
+        "ar": "أستطيع تسمية 桌子 و床 و门 والفعل 放.",
+        "en": "I can name 桌子, 床 and 门 and the verb 放.",
+        "id": "Saya bisa menyebut 桌子, 床, dan 门 serta kata kerja 放."
+      },
+      {
+        "ar": "أستطيع القول 桌子上放着一本书 لوصف كيف توضع الأشياء.",
+        "en": "I can say 桌子上放着一本书 to describe how things are placed.",
+        "id": "Saya bisa mengatakan 桌子上放着一本书 untuk menggambarkan bagaimana benda diletakkan."
+      }
+    ],
+    "intro": {
+      "ar": "عندما تصف بيتك تقول أين الأشياء وكيف هي. في الدرس الثامن تعلمت 在 و有 والمكان، وهنا تضيف تركيبًا جديدًا: المكان + فعل + 着 + اسم. هذا التركيب يصف حالة مستمرة، مثل 桌子上放着一本书 (على الطاولة كتاب موضوع). وتتعلم أيضًا أسماء الغرف والأثاث الأساسية.",
+      "en": "When you describe your home you say where things are and what state they are in. In lesson 8 you learned 在, 有 and place words, and here you add a new pattern: place + verb + 着 + noun. This pattern describes a continuing state, as in 桌子上放着一本书 (there is a book lying on the table). You also learn the basic names of rooms and furniture.",
+      "id": "Saat menggambarkan rumah, Anda mengatakan di mana benda berada dan bagaimana keadaannya. Di pelajaran 8 Anda belajar 在, 有, dan kata tempat, dan di sini ditambahkan pola baru: tempat + kata kerja + 着 + kata benda. Pola ini menggambarkan keadaan yang berlanjut, seperti 桌子上放着一本书 (di atas meja ada sebuah buku yang tergeletak). Anda juga belajar nama dasar ruangan dan perabot."
+    },
+    "culture": {
+      "ar": "يعيش كثير من سكان المدن الصينية في شقق داخل مجمعات سكنية تُسمّى 小区. وتُوصَف الشقة عادة بعدد الغرف: 两室一厅 تعني غرفتي نوم وصالة واحدة. وفي كثير من البيوت يخلع الناس أحذيتهم عند الباب، وقد يعطيك المضيف خُفًّا للبيت. فإذا زرت بيت أحد فانتبه إلى ذلك ولا تتردد في السؤال.",
+      "en": "Many people in Chinese cities live in flats inside residential compounds called 小区. A flat is usually described by its rooms: 两室一厅 means two bedrooms and one living room. In many homes people take their shoes off at the door, and the host may give you house slippers. If you visit someone's home, watch for this and do not hesitate to ask.",
+      "id": "Banyak penduduk kota di Tiongkok tinggal di apartemen dalam kompleks hunian yang disebut 小区. Apartemen biasanya dijelaskan dengan jumlah ruangannya: 两室一厅 berarti dua kamar tidur dan satu ruang tamu. Di banyak rumah orang melepas sepatu di pintu, dan tuan rumah mungkin memberi sandal rumah. Jika Anda berkunjung, perhatikan hal ini dan jangan ragu bertanya."
+    },
+    "grammar": {
+      "title": {
+        "ar": "المكان + فعل + 着 + اسم",
+        "en": "Place + verb + 着 + noun",
+        "id": "Tempat + kata kerja + 着 + kata benda"
+      },
+      "body": {
+        "ar": "نبدأ بالمكان ثم الفعل ثم 着 ثم الاسم: 桌子上放着一本书 (على الطاولة كتاب)، 床上坐着一个人 (على السرير شخص جالس). وتدل 着 على حالة مستمرة، وهي بنغمة خفيفة zhe. ومع الفعل 开 نقول 门开着 (الباب مفتوح). والفرق عن 在: 书在桌子上 تعني أن الكتاب المعروف موجود على الطاولة، أما 桌子上放着一本书 فتصف ما يوجد عليها. وللسؤال عن العدد: 有几个房间؟ (كم غرفة فيه؟).",
+        "en": "We start with the place, then the verb, then 着, then the noun: 桌子上放着一本书 (there is a book lying on the table), 床上坐着一个人 (a person is sitting on the bed). 着 shows a continuing state and is neutral: zhe. With the verb 开 we get 门开着 (the door is open). The difference from 在: 书在桌子上 says that a known book is on the table, while 桌子上放着一本书 describes what is on it. To ask about the number: 有几个房间? (How many rooms does it have?).",
+        "id": "Kita mulai dengan tempat, lalu kata kerja, lalu 着, lalu kata benda: 桌子上放着一本书 (di atas meja ada sebuah buku), 床上坐着一个人 (di tempat tidur duduk seseorang). 着 menunjukkan keadaan yang berlanjut dan bernada netral: zhe. Dengan kata kerja 开 kita mengatakan 门开着 (pintunya terbuka). Perbedaan dengan 在: 书在桌子上 menyatakan buku tertentu ada di meja, sedangkan 桌子上放着一本书 menggambarkan apa yang ada di atasnya. Untuk menanyakan jumlah: 有几个房间? (ada berapa kamar?)."
+      }
+    },
+    "items": [
+      {
+        "id": "zh19n1",
+        "target": "房子",
+        "translit": "fángzi",
+        "tr": {
+          "ar": "بيت؛ مبنى سكني",
+          "en": "house, building",
+          "id": "rumah; bangunan"
+        },
+        "example": {
+          "target": "这个房子很大。",
+          "translit": "zhège fángzi hěn dà.",
+          "tr": {
+            "ar": "هذا البيت كبير جدًا.",
+            "en": "This house is very big.",
+            "id": "Rumah ini sangat besar."
+          }
+        },
+        "hint": {
+          "ar": "房子 للمبنى كله. 子 في آخره خفيفة: fángzi.",
+          "en": "房子 is the whole building. The last syllable 子 is neutral: fángzi.",
+          "id": "房子 adalah seluruh bangunan. Suku terakhir 子 netral: fángzi."
+        }
+      },
+      {
+        "id": "zh19n2",
+        "target": "房间",
+        "translit": "fángjiān",
+        "tr": {
+          "ar": "غرفة",
+          "en": "room",
+          "id": "kamar; ruangan"
+        },
+        "example": {
+          "target": "我的房间很小。",
+          "translit": "wǒ de fángjiān hěn xiǎo.",
+          "tr": {
+            "ar": "غرفتي صغيرة جدًا.",
+            "en": "My room is very small.",
+            "id": "Kamar saya sangat kecil."
+          }
+        },
+        "hint": {
+          "ar": "房间 للغرفة داخل البيت. ويُعدّ بـ 个: 三个房间.",
+          "en": "房间 is a room inside a home. It is counted with 个: 三个房间.",
+          "id": "房间 adalah ruangan di dalam rumah. Dihitung dengan 个: 三个房间."
+        }
+      },
+      {
+        "id": "zh19n3",
+        "target": "客厅",
+        "translit": "kètīng",
+        "tr": {
+          "ar": "غرفة الجلوس",
+          "en": "living room",
+          "id": "ruang tamu"
+        },
+        "example": {
+          "target": "我们在客厅看电视。",
+          "translit": "wǒmen zài kètīng kàn diànshì.",
+          "tr": {
+            "ar": "نحن نشاهد التلفاز في غرفة الجلوس.",
+            "en": "We watch TV in the living room.",
+            "id": "Kami menonton televisi di ruang tamu."
+          }
+        },
+        "hint": {
+          "ar": "客 تعني «ضيف» و厅 «صالة». فهي «صالة الضيوف». 电视 تعني «تلفاز».",
+          "en": "客 means \"guest\" and 厅 means \"hall\", so it is the \"guest hall\". 电视 means \"TV\".",
+          "id": "客 berarti \"tamu\" dan 厅 \"aula\", jadi ini adalah \"ruang tamu\". 电视 berarti \"televisi\"."
+        }
+      },
+      {
+        "id": "zh19n4",
+        "target": "厨房",
+        "translit": "chúfáng",
+        "tr": {
+          "ar": "مطبخ",
+          "en": "kitchen",
+          "id": "dapur"
+        },
+        "example": {
+          "target": "妈妈在厨房做饭。",
+          "translit": "māma zài chúfáng zuòfàn.",
+          "tr": {
+            "ar": "أمي تطبخ في المطبخ.",
+            "en": "Mom is cooking in the kitchen.",
+            "id": "Ibu memasak di dapur."
+          }
+        },
+        "hint": {
+          "ar": "在 + مكان + فعل: 在厨房做饭. 厨 بنغمة ثانية.",
+          "en": "在 + place + verb: 在厨房做饭. 厨 has tone 2.",
+          "id": "在 + tempat + kata kerja: 在厨房做饭. 厨 bernada 2."
+        }
+      },
+      {
+        "id": "zh19n5",
+        "target": "桌子",
+        "translit": "zhuōzi",
+        "tr": {
+          "ar": "طاولة",
+          "en": "table",
+          "id": "meja"
+        },
+        "example": {
+          "target": "桌子上有两个苹果。",
+          "translit": "zhuōzi shang yǒu liǎng gè píngguǒ.",
+          "tr": {
+            "ar": "على الطاولة تفاحتان.",
+            "en": "There are two apples on the table.",
+            "id": "Di atas meja ada dua apel."
+          }
+        },
+        "hint": {
+          "ar": "桌子上 تعني «على الطاولة». والطاولة تُعدّ بـ 张: 一张桌子.",
+          "en": "桌子上 means \"on the table\". A table is counted with 张: 一张桌子.",
+          "id": "桌子上 berarti \"di atas meja\". Meja dihitung dengan 张: 一张桌子."
+        }
+      },
+      {
+        "id": "zh19n6",
+        "target": "床",
+        "translit": "chuáng",
+        "tr": {
+          "ar": "سرير",
+          "en": "bed",
+          "id": "tempat tidur"
+        },
+        "example": {
+          "target": "床上有一只猫。",
+          "translit": "chuáng shang yǒu yī zhī māo.",
+          "tr": {
+            "ar": "على السرير قطة.",
+            "en": "There is a cat on the bed.",
+            "id": "Di tempat tidur ada seekor kucing."
+          }
+        },
+        "hint": {
+          "ar": "床 تُعدّ بـ 张 أيضًا: 一张床. ونقول 床上 للدلالة على المكان.",
+          "en": "床 also takes 张: 一张床. We say 床上 for \"on the bed\".",
+          "id": "床 juga memakai 张: 一张床. Dikatakan 床上 untuk \"di atas tempat tidur\"."
+        }
+      },
+      {
+        "id": "zh19n7",
+        "target": "门",
+        "translit": "mén",
+        "tr": {
+          "ar": "باب",
+          "en": "door",
+          "id": "pintu"
+        },
+        "example": {
+          "target": "请关门。",
+          "translit": "qǐng guān mén.",
+          "tr": {
+            "ar": "من فضلك أغلق الباب.",
+            "en": "Please close the door.",
+            "id": "Tolong tutup pintu."
+          }
+        },
+        "hint": {
+          "ar": "关 تعني «يغلق» وعكسها 开. ونقول 门开着 (الباب مفتوح).",
+          "en": "关 means \"to close\" and its opposite is 开. We say 门开着 (the door is open).",
+          "id": "关 berarti \"menutup\" dan lawannya 开. Dikatakan 门开着 (pintunya terbuka)."
+        }
+      },
+      {
+        "id": "zh19n8",
+        "target": "放",
+        "translit": "fàng",
+        "tr": {
+          "ar": "يضع",
+          "en": "to put, to place",
+          "id": "meletakkan"
+        },
+        "example": {
+          "target": "书放在桌子上。",
+          "translit": "shū fàng zài zhuōzi shang.",
+          "tr": {
+            "ar": "الكتاب موضوع على الطاولة.",
+            "en": "The book is put on the table.",
+            "id": "Buku diletakkan di atas meja."
+          }
+        },
+        "hint": {
+          "ar": "放在 + مكان تعني «يضع في». أما 放着 فتصف حالة موجودة.",
+          "en": "放在 + place means \"put at\". 放着 describes a state that exists.",
+          "id": "放在 + tempat berarti \"meletakkan di\". 放着 menggambarkan keadaan yang ada."
+        }
+      }
+    ],
+    "cloze": [
+      {
+        "sentence": "桌子上放___一本书。",
+        "answer": "着",
+        "wrong": [
+          "过",
+          "吗"
+        ],
+        "tr": {
+          "ar": "على الطاولة كتاب موضوع.",
+          "en": "There is a book lying on the table.",
+          "id": "Di atas meja ada sebuah buku."
+        },
+        "why": {
+          "ar": "وصف الحالة الموجودة يحتاج 着 بعد الفعل. 过 للتجربة و吗 للسؤال.",
+          "en": "Describing an existing state needs 着 after the verb. 过 is for experience and 吗 is for questions.",
+          "id": "Menggambarkan keadaan yang ada memerlukan 着 setelah kata kerja. 过 untuk pengalaman dan 吗 untuk pertanyaan."
+        }
+      },
+      {
+        "sentence": "请关___。",
+        "answer": "门",
+        "wrong": [
+          "床",
+          "桌子"
+        ],
+        "tr": {
+          "ar": "من فضلك أغلق الباب.",
+          "en": "Please close the door.",
+          "id": "Tolong tutup pintu."
+        },
+        "why": {
+          "ar": "نغلق 门 (الباب). لا نقول 关床 ولا 关桌子.",
+          "en": "We close a 门 (door). We do not say 关床 or 关桌子.",
+          "id": "Yang ditutup adalah 门 (pintu). Tidak dikatakan 关床 atau 关桌子."
+        }
+      }
+    ],
+    "conversation": {
+      "context": {
+        "ar": "زيارة شقة للإيجار: تسأل الوسيط.",
+        "en": "Viewing a flat to rent: you ask the agent.",
+        "id": "Melihat apartemen yang disewakan: Anda bertanya pada agen."
+      },
+      "turns": [
+        {
+          "who": "A",
+          "target": "这个房子有几个房间？",
+          "tr": {
+            "ar": "كم غرفة في هذا البيت؟",
+            "en": "How many rooms does this house have?",
+            "id": "Rumah ini ada berapa kamar?"
+          }
+        },
+        {
+          "who": "B",
+          "target": "有三个房间，客厅也很大。",
+          "tr": {
+            "ar": "فيه ثلاث غرف وصالة الجلوس كبيرة أيضًا.",
+            "en": "It has three rooms and the living room is big too.",
+            "id": "Ada tiga kamar dan ruang tamunya juga besar."
+          }
+        },
+        {
+          "who": "A",
+          "target": "桌子上放着什么？",
+          "tr": {
+            "ar": "ماذا يوجد على الطاولة؟",
+            "en": "What is there on the table?",
+            "id": "Apa yang ada di atas meja?"
+          }
+        },
+        {
+          "who": "B",
+          "target": "桌子上放着一本书。",
+          "tr": {
+            "ar": "على الطاولة كتاب.",
+            "en": "There is a book on the table.",
+            "id": "Di atas meja ada sebuah buku."
+          }
+        }
+      ],
+      "gap": 1,
+      "wrong": [
+        "我每天早上跑步。",
+        "今天太热了。"
+      ],
+      "why": {
+        "ar": "السؤال عن عدد الغرف يُجاب عنه بذكر العدد. الجملتان الأخريان لا علاقة لهما بالبيت.",
+        "en": "A question about the number of rooms is answered by giving a number. The other two sentences have nothing to do with the house.",
+        "id": "Pertanyaan tentang jumlah kamar dijawab dengan menyebut jumlah. Dua kalimat lain tidak berhubungan dengan rumah."
+      }
+    },
+    "summary": {
+      "ar": "تعلمت 房子 و房间 و客厅 و厨房 و桌子 و床 و门 و放، والتركيب المكان + فعل + 着 + اسم مثل 桌子上放着一本书.",
+      "en": "You learned 房子, 房间, 客厅, 厨房, 桌子, 床, 门 and 放, and the pattern place + verb + 着 + noun, as in 桌子上放着一本书.",
+      "id": "Anda belajar 房子, 房间, 客厅, 厨房, 桌子, 床, 门, dan 放, serta pola tempat + kata kerja + 着 + kata benda seperti 桌子上放着一本书."
+    }
+  },
+  {
+    "id": "zh-20",
+    "track": "zh",
+    "level": "elementary",
+    "order": 20,
+    "topic": "city-transport",
+    "icon": "🚇",
+    "title": {
+      "ar": "التنقل في المدينة",
+      "en": "Getting Around the City",
+      "id": "Bepergian di Kota"
+    },
+    "description": {
+      "ar": "اسأل عن الطريق وتنقّل بالمترو والحافلة وسيارة الأجرة واستخدم 来 و去 بعد الفعل.",
+      "en": "Ask the way, travel by metro, bus and taxi, and use 来 and 去 after a verb.",
+      "id": "Tanyakan jalan, naik metro, bus, dan taksi, dan pakai 来 dan 去 setelah kata kerja."
+    },
+    "objectives": [
+      {
+        "ar": "أستطيع القول 坐地铁 و坐公共汽车 و打车 و坐高铁.",
+        "en": "I can say 坐地铁, 坐公共汽车, 打车 and 坐高铁.",
+        "id": "Saya bisa mengatakan 坐地铁, 坐公共汽车, 打车, dan 坐高铁."
+      },
+      {
+        "ar": "أستطيع السؤال 怎么去机场؟ وقول 换一次车.",
+        "en": "I can ask 怎么去机场? and say 换一次车.",
+        "id": "Saya bisa bertanya 怎么去机场? dan mengatakan 换一次车."
+      },
+      {
+        "ar": "أستطيع استخدام 回来 و进去 للدلالة على اتجاه الحركة.",
+        "en": "I can use 回来 and 进去 to show the direction of movement.",
+        "id": "Saya bisa memakai 回来 dan 进去 untuk menunjukkan arah gerakan."
+      }
+    ],
+    "intro": {
+      "ar": "المدن الصينية الكبيرة فيها مترو وحافلات وقطارات سريعة، وتحتاج إلى عبارات بسيطة للتنقل. في هذا الدرس تتعلم أن تسأل 怎么去…؟ وأن تقول بأي وسيلة تذهب بـ 坐. وتتعلم أيضًا أن 来 و去 تأتيان بعد فعل الحركة لتبيّنا اتجاهه: نحو المتكلم أو بعيدًا عنه.",
+      "en": "Large Chinese cities have metros, buses and fast trains, and you need simple phrases to get around. In this lesson you learn to ask 怎么去…? and to say how you travel with 坐. You also learn that 来 and 去 come after a movement verb to show its direction: toward the speaker or away from the speaker.",
+      "id": "Kota besar di Tiongkok memiliki metro, bus, dan kereta cepat, dan Anda memerlukan frasa sederhana untuk bepergian. Di pelajaran ini Anda belajar bertanya 怎么去…? dan mengatakan naik apa dengan 坐. Anda juga belajar bahwa 来 dan 去 ditaruh setelah kata kerja gerakan untuk menunjukkan arahnya: menuju pembicara atau menjauhi pembicara."
+    },
+    "culture": {
+      "ar": "لدى الصين شبكة واسعة من القطارات السريعة 高铁 تربط مدنًا كثيرة، ويحجز كثيرون التذاكر عبر الهاتف. وفي محطات المترو في المدن الكبيرة توجد غالبًا نقاط تفتيش لحقائب الركاب. ويستعمل كثيرون تطبيقات الخرائط مثل 高德地图 و百度地图 لمعرفة الطريق، وتطبيقات طلب السيارات مثل 滴滴 لطلب سيارة. وإذا ضعت فاسأل بلطف 请问...",
+      "en": "China has a large network of fast trains, 高铁, linking many cities, and many people book tickets on their phones. Metro stations in big cities often have security checks for passengers' bags. Many people use map apps such as 高德地图 and 百度地图 to find the way, and ride-hailing apps such as 滴滴 to call a car. If you get lost, ask politely with 请问...",
+      "id": "Tiongkok memiliki jaringan kereta cepat 高铁 yang luas dan menghubungkan banyak kota, dan banyak orang memesan tiket lewat ponsel. Stasiun metro di kota besar sering memiliki pemeriksaan keamanan untuk tas penumpang. Banyak orang memakai aplikasi peta seperti 高德地图 dan 百度地图 untuk mencari jalan, dan aplikasi pemesanan kendaraan seperti 滴滴 untuk memanggil mobil. Jika tersesat, bertanyalah dengan sopan memakai 请问..."
+    },
+    "grammar": {
+      "title": {
+        "ar": "来 و去 بعد فعل الحركة",
+        "en": "来 and 去 after a movement verb",
+        "id": "来 dan 去 setelah kata kerja gerakan"
+      },
+      "body": {
+        "ar": "بعد أفعال الحركة مثل 回 (يعود) و进 (يدخل) و出 (يخرج) نضيف 来 إذا كانت الحركة نحو المتكلم، و去 إذا كانت بعيدة عنه: 他回来了 (عاد إلى هنا)، 我进去 (أدخل إلى هناك)، 请进来 (تفضّل بالدخول إلى هنا). فنفس الحركة قد تأخذ 来 أو 去 بحسب مكان المتكلم. وللوسيلة نقول 坐 + وسيلة: 坐地铁 (يركب المترو)، 坐公共汽车، 坐高铁؛ أما سيارة الأجرة فنقول 打车. وللسؤال عن الطريق: 怎么去机场؟ (كيف أذهب إلى المطار؟).",
+        "en": "After movement verbs such as 回 (to return), 进 (to enter) and 出 (to exit) we add 来 if the movement is toward the speaker and 去 if it is away from the speaker: 他回来了 (he has come back here), 我进去 (I will go in there), 请进来 (please come in). The same movement can take 来 or 去 depending on where the speaker is. For the vehicle we say 坐 + vehicle: 坐地铁 (take the metro), 坐公共汽车, 坐高铁; for a taxi we say 打车. To ask the way: 怎么去机场? (How do I get to the airport?).",
+        "id": "Setelah kata kerja gerakan seperti 回 (kembali), 进 (masuk), dan 出 (keluar) kita menambahkan 来 jika gerakan menuju pembicara dan 去 jika menjauhi pembicara: 他回来了 (dia sudah kembali ke sini), 我进去 (saya masuk ke sana), 请进来 (silakan masuk ke sini). Gerakan yang sama bisa memakai 来 atau 去 tergantung posisi pembicara. Untuk kendaraan dikatakan 坐 + kendaraan: 坐地铁 (naik metro), 坐公共汽车, 坐高铁; untuk taksi dikatakan 打车. Untuk menanyakan jalan: 怎么去机场? (bagaimana pergi ke bandara?)."
+      }
+    },
+    "items": [
+      {
+        "id": "zh20n1",
+        "target": "地铁",
+        "translit": "dìtiě",
+        "tr": {
+          "ar": "مترو الأنفاق",
+          "en": "subway, metro",
+          "id": "metro; kereta bawah tanah"
+        },
+        "example": {
+          "target": "我每天坐地铁上班。",
+          "translit": "wǒ měitiān zuò dìtiě shàngbān.",
+          "tr": {
+            "ar": "أركب المترو إلى العمل كل يوم.",
+            "en": "I take the metro to work every day.",
+            "id": "Saya naik metro ke tempat kerja setiap hari."
+          }
+        },
+        "hint": {
+          "ar": "地 تعني «أرض» و铁 «حديد». 上班 تعني «يذهب إلى العمل».",
+          "en": "地 means \"ground\" and 铁 means \"iron\". 上班 means \"to go to work\".",
+          "id": "地 berarti \"tanah\" dan 铁 \"besi\". 上班 berarti \"pergi bekerja\"."
+        }
+      },
+      {
+        "id": "zh20n2",
+        "target": "打车",
+        "translit": "dǎchē",
+        "tr": {
+          "ar": "يأخذ سيارة أجرة",
+          "en": "to take a taxi",
+          "id": "naik taksi"
+        },
+        "example": {
+          "target": "太晚了，我们打车回家吧。",
+          "translit": "tài wǎn le, wǒmen dǎchē huí jiā ba.",
+          "tr": {
+            "ar": "الوقت متأخر جدًا، لنأخذ سيارة أجرة إلى البيت.",
+            "en": "It's too late, let's take a taxi home.",
+            "id": "Sudah terlalu malam, ayo kita naik taksi pulang."
+          }
+        },
+        "hint": {
+          "ar": "打车 فعل ومفعول (打 + 车)، ولا نضيف 坐 قبله. 回家 تعني «يعود إلى البيت».",
+          "en": "打车 is a verb-object phrase (打 + 车), so we do not add 坐 before it. 回家 means \"to go home\".",
+          "id": "打车 adalah frasa kata kerja-objek (打 + 车), sehingga tidak ditambah 坐 sebelumnya. 回家 berarti \"pulang\"."
+        }
+      },
+      {
+        "id": "zh20n3",
+        "target": "高铁",
+        "translit": "gāotiě",
+        "tr": {
+          "ar": "قطار فائق السرعة",
+          "en": "high-speed rail",
+          "id": "kereta cepat"
+        },
+        "example": {
+          "target": "坐高铁很快。",
+          "translit": "zuò gāotiě hěn kuài.",
+          "tr": {
+            "ar": "السفر بالقطار السريع سريع جدًا.",
+            "en": "Taking the high-speed train is very fast.",
+            "id": "Naik kereta cepat itu sangat cepat."
+          }
+        },
+        "hint": {
+          "ar": "高铁 اختصار لـ 高速铁路. ونقول 坐高铁.",
+          "en": "高铁 is short for 高速铁路 (high-speed railway). We say 坐高铁.",
+          "id": "高铁 adalah singkatan dari 高速铁路 (jalur kereta cepat). Dikatakan 坐高铁."
+        }
+      },
+      {
+        "id": "zh20n4",
+        "target": "公共汽车",
+        "translit": "gōnggòng qìchē",
+        "tr": {
+          "ar": "حافلة",
+          "en": "bus",
+          "id": "bus"
+        },
+        "example": {
+          "target": "公共汽车比地铁慢。",
+          "translit": "gōnggòng qìchē bǐ dìtiě màn.",
+          "tr": {
+            "ar": "الحافلة أبطأ من المترو.",
+            "en": "The bus is slower than the metro.",
+            "id": "Bus lebih lambat daripada metro."
+          }
+        },
+        "hint": {
+          "ar": "يُختصر أحيانًا إلى 公交车. المقطع 汽车 يعني «سيارة».",
+          "en": "It is sometimes shortened to 公交车. The syllables 汽车 mean \"motor vehicle\".",
+          "id": "Kadang disingkat menjadi 公交车. 汽车 berarti \"kendaraan bermotor\"."
+        }
+      },
+      {
+        "id": "zh20n5",
+        "target": "坐",
+        "translit": "zuò",
+        "tr": {
+          "ar": "يركب؛ يجلس",
+          "en": "to travel by; to sit",
+          "id": "naik; duduk"
+        },
+        "example": {
+          "target": "我坐飞机去北京。",
+          "translit": "wǒ zuò fēijī qù Běijīng.",
+          "tr": {
+            "ar": "أسافر إلى بكين بالطائرة.",
+            "en": "I am going to Beijing by plane.",
+            "id": "Saya pergi ke Beijing naik pesawat."
+          }
+        },
+        "hint": {
+          "ar": "坐 + وسيلة نقل + 去 + مكان. وتأتي 坐 أيضًا بمعنى «يجلس»: 请坐.",
+          "en": "坐 + vehicle + 去 + place. 坐 also means \"to sit\": 请坐.",
+          "id": "坐 + kendaraan + 去 + tempat. 坐 juga berarti \"duduk\": 请坐."
+        }
+      },
+      {
+        "id": "zh20n6",
+        "target": "换",
+        "translit": "huàn",
+        "tr": {
+          "ar": "يغيّر؛ يبدّل",
+          "en": "to change, to transfer",
+          "id": "mengganti; transit"
+        },
+        "example": {
+          "target": "在这儿换一次车。",
+          "translit": "zài zhèr huàn yī cì chē.",
+          "tr": {
+            "ar": "بدّل القطار هنا مرة واحدة.",
+            "en": "Change here, once.",
+            "id": "Ganti kendaraan satu kali di sini."
+          }
+        },
+        "hint": {
+          "ar": "换车 تعني تبديل الخط أو الحافلة. 这儿 تعني «هنا» وهي قريبة من 这里.",
+          "en": "换车 means to change lines or buses. 这儿 means \"here\", close to 这里.",
+          "id": "换车 berarti pindah jalur atau bus. 这儿 berarti \"di sini\", dekat dengan 这里."
+        }
+      },
+      {
+        "id": "zh20n7",
+        "target": "回来",
+        "translit": "huílai",
+        "tr": {
+          "ar": "يعود (إلى هنا)",
+          "en": "to come back",
+          "id": "kembali (ke sini)"
+        },
+        "example": {
+          "target": "你几点回来？",
+          "translit": "nǐ jǐ diǎn huílai?",
+          "tr": {
+            "ar": "متى ستعود؟",
+            "en": "What time will you come back?",
+            "id": "Jam berapa kamu kembali?"
+          }
+        },
+        "hint": {
+          "ar": "回 تعني «يعود» و来 تعني نحو المتكلم. وبالعكس 回去 (يعود إلى هناك).",
+          "en": "回 means \"to return\" and 来 means toward the speaker. The opposite is 回去 (to go back there).",
+          "id": "回 berarti \"kembali\" dan 来 berarti menuju pembicara. Kebalikannya 回去 (kembali ke sana)."
+        }
+      },
+      {
+        "id": "zh20n8",
+        "target": "进去",
+        "translit": "jìnqu",
+        "tr": {
+          "ar": "يدخل (إلى هناك)",
+          "en": "to go in",
+          "id": "masuk (ke sana)"
+        },
+        "example": {
+          "target": "门开着，我们进去吧。",
+          "translit": "mén kāizhe, wǒmen jìnqu ba.",
+          "tr": {
+            "ar": "الباب مفتوح، لندخل.",
+            "en": "The door is open, let's go in.",
+            "id": "Pintunya terbuka, ayo kita masuk."
+          }
+        },
+        "hint": {
+          "ar": "进 تعني «يدخل» و去 بعيدًا عن المتكلم. وإذا كان المتكلم في الداخل فنقول 进来.",
+          "en": "进 means \"to enter\" and 去 means away from the speaker. If the speaker is inside we say 进来.",
+          "id": "进 berarti \"masuk\" dan 去 berarti menjauhi pembicara. Jika pembicara berada di dalam, dikatakan 进来."
+        }
+      }
+    ],
+    "cloze": [
+      {
+        "sentence": "我在家里，他在外面，请他进___。",
+        "answer": "来",
+        "wrong": [
+          "去",
+          "着"
+        ],
+        "tr": {
+          "ar": "أنا في البيت وهو في الخارج، قل له أن يدخل.",
+          "en": "I am at home and he is outside, ask him to come in.",
+          "id": "Saya di rumah dan dia di luar, suruh dia masuk."
+        },
+        "why": {
+          "ar": "المتكلم في الداخل والشخص يتحرك نحوه، لذلك نقول 进来. أما 进去 فتُقال إذا كان المتكلم في الخارج. و着 لا تناسب.",
+          "en": "The speaker is inside and the person moves toward him, so we say 进来. 进去 is used when the speaker is outside. 着 does not fit.",
+          "id": "Pembicara berada di dalam dan orang itu bergerak menuju dia, jadi dikatakan 进来. 进去 dipakai jika pembicara berada di luar. 着 tidak cocok."
+        }
+      },
+      {
+        "sentence": "我们坐___去机场吧。",
+        "answer": "地铁",
+        "wrong": [
+          "鞋",
+          "门"
+        ],
+        "tr": {
+          "ar": "لنذهب إلى المطار بالمترو.",
+          "en": "Let's go to the airport by metro.",
+          "id": "Ayo kita pergi ke bandara naik metro."
+        },
+        "why": {
+          "ar": "بعد 坐 نضع وسيلة نقل مثل 地铁. 鞋 و门 ليستا وسيلة نقل.",
+          "en": "After 坐 we put a means of transport such as 地铁. 鞋 and 门 are not vehicles.",
+          "id": "Setelah 坐 ditaruh kendaraan seperti 地铁. 鞋 dan 门 bukan kendaraan."
+        }
+      }
+    ],
+    "conversation": {
+      "context": {
+        "ar": "في الشارع: سائح يسأل عن الطريق إلى المطار.",
+        "en": "In the street: a tourist asks the way to the airport.",
+        "id": "Di jalan: seorang turis menanyakan jalan ke bandara."
+      },
+      "turns": [
+        {
+          "who": "A",
+          "target": "请问，怎么去机场？",
+          "tr": {
+            "ar": "عفوًا، كيف أذهب إلى المطار؟",
+            "en": "Excuse me, how do I get to the airport?",
+            "id": "Permisi, bagaimana cara pergi ke bandara?"
+          }
+        },
+        {
+          "who": "B",
+          "target": "坐地铁，在这儿换一次车，比打车便宜。",
+          "tr": {
+            "ar": "اركب المترو وبدّل مرة واحدة هنا، فهو أرخص من سيارة الأجرة.",
+            "en": "Take the metro and change once here; it's cheaper than a taxi.",
+            "id": "Naik metro dan ganti sekali di sini, lebih murah daripada taksi."
+          }
+        },
+        {
+          "who": "A",
+          "target": "谢谢你！",
+          "tr": {
+            "ar": "شكرًا لك!",
+            "en": "Thank you!",
+            "id": "Terima kasih!"
+          }
+        }
+      ],
+      "gap": 1,
+      "wrong": [
+        "今天太热了。",
+        "我在看电影。"
+      ],
+      "why": {
+        "ar": "السؤال عن الطريق يُجاب عنه بذكر وسيلة النقل والطريق. الجملتان الأخريان لا تجيبان عن السؤال.",
+        "en": "A question about the way is answered by naming the transport and route. The other two sentences do not answer the question.",
+        "id": "Pertanyaan tentang jalan dijawab dengan menyebut kendaraan dan rutenya. Dua kalimat lain tidak menjawab pertanyaan."
+      }
+    },
+    "summary": {
+      "ar": "تعلمت 地铁 و打车 و高铁 و公共汽车 و坐 و换، واستخدام 来 و去 بعد فعل الحركة مثل 回来 و进去. اسأل 怎么去…؟ عندما تحتاج الطريق.",
+      "en": "You learned 地铁, 打车, 高铁, 公共汽车, 坐 and 换, and the use of 来 and 去 after a movement verb, as in 回来 and 进去. Ask 怎么去…? when you need directions.",
+      "id": "Anda belajar 地铁, 打车, 高铁, 公共汽车, 坐, dan 换, serta pemakaian 来 dan 去 setelah kata kerja gerakan seperti 回来 dan 进去. Tanyakan 怎么去…? saat butuh arah."
+    }
+  }
+]

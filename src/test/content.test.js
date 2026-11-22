@@ -10,10 +10,10 @@ const lessons = fs.readdirSync(dir).flatMap((t) => fs.readdirSync(path.join(dir,
 const legacy = JSON.parse(fs.readFileSync(path.resolve(__dirname, '../../docs/legacy-v5-lessons.json'), 'utf8'));
 
 describe('content', () => {
-  it('has the expected number of lessons for every track (30 for the original four, 10 for each beta track; 160 in all)', () => {
+  it('has the expected number of lessons for every track (30 for every track; 240 in all)', () => {
     for (const t of TRACKS) expect(lessons.filter((l) => l.track === t), t).toHaveLength(TRACK_SIZES[t]);
     expect(lessons).toHaveLength(Object.values(TRACK_SIZES).reduce((a, b) => a + b, 0));
-    expect(lessons).toHaveLength(160);
+    expect(lessons).toHaveLength(240);
   });
   it('passes structural validation (trilingual, scripts, unique ids, distractors)', () => {
     expect(validateLessons(lessons)).toEqual([]);

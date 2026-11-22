@@ -1,0 +1,3492 @@
+[
+  {
+    "id": "fr-21",
+    "track": "fr",
+    "level": "intermediate",
+    "order": 21,
+    "topic": "past-avoir",
+    "icon": "📅",
+    "title": {
+      "ar": "ماذا فعلتُ أمس؟",
+      "en": "What I Did Yesterday",
+      "id": "Apa yang Saya Lakukan Kemarin"
+    },
+    "description": {
+      "ar": "تعلّم الماضي المركّب مع «avoir» لتحكي ما فعلتَه أمس وفي نهاية الأسبوع.",
+      "en": "Learn the passé composé with avoir to tell what you did yesterday and at the weekend.",
+      "id": "Pelajari passé composé dengan avoir untuk menceritakan apa yang Anda lakukan kemarin dan akhir pekan."
+    },
+    "objectives": [
+      {
+        "ar": "أستطيع تكوين الماضي المركّب بـ«avoir» واسم المفعول: «j'ai travaillé».",
+        "en": "I can form the passé composé with avoir and a past participle: j'ai travaillé.",
+        "id": "Saya bisa membentuk passé composé dengan avoir dan participe passé: j'ai travaillé."
+      },
+      {
+        "ar": "أعرف أسماء المفعول الشائعة غير المنتظمة: fait وpris وvu.",
+        "en": "I know common irregular participles: fait, pris, vu.",
+        "id": "Saya tahu participe passé tak beraturan yang umum: fait, pris, vu."
+      },
+      {
+        "ar": "أستطيع النفي في الماضي وذكر الزمن: «hier» و«la semaine dernière».",
+        "en": "I can make a past negative and give time markers such as hier and la semaine dernière.",
+        "id": "Saya bisa membuat kalimat lampau negatif dan menyebut penanda waktu seperti hier dan la semaine dernière."
+      }
+    ],
+    "intro": {
+      "ar": "الماضي المركّب هو الزمن الذي يستعمله الفرنسيون في الكلام اليومي ليحكوا ما حدث. يتكوّن من فعل مساعد (هنا «avoir») واسم مفعول. في هذا الدرس تتعلم كيف تقول ما فعلته أمس، وماذا أكلتَ، وماذا شاهدتَ، وكيف تنفي.",
+      "en": "The passé composé is the tense French people use in everyday speech to say what happened. It is made of an auxiliary verb (here avoir) and a past participle. In this lesson you learn to say what you did yesterday, what you ate, what you saw, and how to make it negative.",
+      "id": "Passé composé adalah kala yang dipakai orang Prancis dalam percakapan sehari-hari untuk menceritakan kejadian. Bentuknya terdiri dari kata kerja bantu (di sini avoir) dan participe passé. Di pelajaran ini Anda belajar menyebut apa yang Anda lakukan kemarin, apa yang dimakan, apa yang ditonton, dan cara membuatnya negatif."
+    },
+    "culture": {
+      "ar": "في فرنسا يسأل الناس بعضهم صباح الاثنين غالبًا: «Tu as passé un bon week-end ?» أي هل قضيت عطلة نهاية أسبوع جيدة؟ وهي بداية جيدة للحديث. لاحظ أن المحادثة اليومية تستعمل الماضي المركّب، أما الماضي البسيط (passé simple) يُستعمل غالبًا في الأدب.",
+      "en": "On Monday morning people in France often ask each other Tu as passé un bon week-end ?, did you have a good weekend? It is a friendly way to start a chat. Everyday speech uses the passé composé, while the passé simple appears almost only in literature.",
+      "id": "Pada Senin pagi orang di Prancis sering bertanya Tu as passé un bon week-end ?, apakah akhir pekanmu menyenangkan? Itu cara ramah membuka obrolan. Percakapan sehari-hari memakai passé composé, sedangkan passé simple hampir hanya muncul dalam sastra."
+    },
+    "grammar": {
+      "title": {
+        "ar": "الماضي المركّب مع «avoir»",
+        "en": "The passé composé with avoir",
+        "id": "Passé composé dengan avoir"
+      },
+      "body": {
+        "ar": "نأخذ فعل «avoir» في المضارع (j'ai, tu as, il a, nous avons, vous avez, ils ont) ثم اسم المفعول. في أفعال -er يصبح اسم المفعول -é: «travailler» ← «travaillé»، وفي أفعال -ir -i: «dormir» ← «dormi»، وفي بعض الأفعال -u: «voir» ← «vu». وهناك أسماء مفعول غير منتظمة يجب حفظها: faire ← fait، prendre ← pris، avoir ← eu، dire ← dit، boire ← bu. وفي النفي تحيط «ne ... pas» بفعل «avoir»: «Je n'ai pas dormi». ومن كلمات الزمن: hier وce matin وla semaine dernière وil y a deux jours.",
+        "en": "Take avoir in the present (j'ai, tu as, il a, nous avons, vous avez, ils ont) and add the past participle. For -er verbs the participle ends in -é: travailler becomes travaillé; for many -ir verbs it ends in -i: dormir becomes dormi; for some verbs it ends in -u: voir becomes vu. Some participles are irregular and must be learned: faire is fait, prendre is pris, avoir is eu, dire is dit, boire is bu. In the negative, ne ... pas wraps around avoir: Je n'ai pas dormi. Useful time markers are hier, ce matin, la semaine dernière and il y a deux jours.",
+        "id": "Ambil avoir dalam kala sekarang (j'ai, tu as, il a, nous avons, vous avez, ils ont), lalu tambahkan participe passé. Pada kata kerja -er, participenya berakhiran -é: travailler menjadi travaillé; pada banyak kata kerja -ir berakhiran -i: dormir menjadi dormi; pada sebagian kata kerja berakhiran -u: voir menjadi vu. Ada participe tak beraturan yang harus dihafal: faire menjadi fait, prendre menjadi pris, avoir menjadi eu, dire menjadi dit, boire menjadi bu. Pada kalimat negatif, ne ... pas mengapit avoir: Je n'ai pas dormi. Penanda waktu yang berguna: hier, ce matin, la semaine dernière, dan il y a deux jours."
+      }
+    },
+    "items": [
+      {
+        "id": "fr21n1",
+        "target": "Hier, j'ai travaillé.",
+        "translit": "yehr zhay trah-vah-YAY",
+        "tr": {
+          "ar": "أمس عملتُ.",
+          "en": "Yesterday I worked.",
+          "id": "Kemarin saya bekerja."
+        },
+        "example": {
+          "target": "Hier, j'ai travaillé à la maison.",
+          "translit": "yehr zhay trah-vah-YAY ah lah may-ZO(n)",
+          "tr": {
+            "ar": "أمس عملتُ في البيت.",
+            "en": "Yesterday I worked at home.",
+            "id": "Kemarin saya bekerja di rumah."
+          }
+        },
+        "hint": {
+          "ar": "«j'ai» بعد j يُنطق «zhay». والفعل «travaillé» ينتهي بصوت «ay» ولا يُنطق حرف r الأخير في «-er».",
+          "en": "J'ai is said zhay. The ending -é is said ay; the r of the infinitive -er is gone.",
+          "id": "J'ai dibaca zhay. Akhiran -é dibaca ay, tanpa bunyi r."
+        }
+      },
+      {
+        "id": "fr21n2",
+        "target": "Qu'est-ce que tu as fait ?",
+        "translit": "kehs-kuh tew ah FEH",
+        "tr": {
+          "ar": "ماذا فعلتَ؟",
+          "en": "What did you do?",
+          "id": "Apa yang kamu lakukan?"
+        },
+        "example": {
+          "target": "Qu'est-ce que tu as fait ce matin ?",
+          "translit": "kehs-kuh tew ah feh suh mah-TEH(n)",
+          "tr": {
+            "ar": "ماذا فعلتَ هذا الصباح؟",
+            "en": "What did you do this morning?",
+            "id": "Apa yang kamu lakukan pagi ini?"
+          }
+        },
+        "hint": {
+          "ar": "«fait» هو اسم المفعول من «faire» ويُنطق «feh» والحرف t الأخير صامت.",
+          "en": "Fait is the participle of faire. It is said feh; the final t is silent.",
+          "id": "Fait adalah participe dari faire. Dibaca feh; huruf t di akhir tidak dibunyikan."
+        }
+      },
+      {
+        "id": "fr21n3",
+        "target": "J'ai mangé au restaurant.",
+        "translit": "zhay mah(n)-ZHAY oh rehs-toh-RAH(n)",
+        "tr": {
+          "ar": "أكلتُ في المطعم.",
+          "en": "I ate at a restaurant.",
+          "id": "Saya makan di restoran."
+        },
+        "example": {
+          "target": "Samedi, j'ai mangé au restaurant avec Léa.",
+          "translit": "sahm-DEE zhay mah(n)-ZHAY oh rehs-toh-RAH(n) ah-VEHK lay-AH",
+          "tr": {
+            "ar": "يوم السبت أكلتُ في المطعم مع ليا.",
+            "en": "On Saturday I ate at a restaurant with Léa.",
+            "id": "Hari Sabtu saya makan di restoran bersama Léa."
+          }
+        },
+        "hint": {
+          "ar": "«mangé» يُنطق «mah(n)-ZHAY»: حرف an أنفي وحرف g قبل e يُنطق «zh».",
+          "en": "Mangé is mah(n)-ZHAY: the an is nasal, and g before e sounds like zh.",
+          "id": "Mangé dibaca mah(n)-ZHAY: an sengau, dan g sebelum e dibaca zh."
+        }
+      },
+      {
+        "id": "fr21n4",
+        "target": "Nous avons vu un film.",
+        "translit": "noo zah-vo(n) vew uh(n) FEELM",
+        "tr": {
+          "ar": "شاهدنا فيلمًا.",
+          "en": "We saw a film.",
+          "id": "Kami menonton sebuah film."
+        },
+        "example": {
+          "target": "Nous avons vu un film très drôle.",
+          "translit": "noo zah-vo(n) vew uh(n) feelm treh DROHL",
+          "tr": {
+            "ar": "شاهدنا فيلمًا مضحكًا جدًا.",
+            "en": "We saw a very funny film.",
+            "id": "Kami menonton film yang sangat lucu."
+          }
+        },
+        "hint": {
+          "ar": "«nous avons» يُربط بـ z: «noo-zah-vo(n)». و«vu» هو اسم مفعول «voir» ويُنطق بحرف u الفرنسي.",
+          "en": "Nous avons has a liaison: noo-zah-vo(n). Vu is the participle of voir and has the French u.",
+          "id": "Nous avons memakai liaison: noo-zah-vo(n). Vu adalah participe dari voir dan memakai bunyi u Prancis."
+        }
+      },
+      {
+        "id": "fr21n5",
+        "target": "Je n'ai pas dormi.",
+        "translit": "zhuh nay pah dohr-MEE",
+        "tr": {
+          "ar": "لم أنم.",
+          "en": "I did not sleep.",
+          "id": "Saya tidak tidur."
+        },
+        "example": {
+          "target": "Je n'ai pas dormi cette nuit.",
+          "translit": "zhuh nay pah dohr-MEE seht NWEE",
+          "tr": {
+            "ar": "لم أنم الليلة الماضية.",
+            "en": "I did not sleep last night.",
+            "id": "Saya tidak tidur semalam."
+          }
+        },
+        "hint": {
+          "ar": "في النفي نضع «ne» قبل «ai» و«pas» بعده، ثم اسم المفعول: «n'ai pas dormi».",
+          "en": "In the negative ne goes before ai and pas after it, then the participle: n'ai pas dormi.",
+          "id": "Pada negatif, ne diletakkan sebelum ai dan pas sesudahnya, lalu participe: n'ai pas dormi."
+        }
+      },
+      {
+        "id": "fr21n6",
+        "target": "J'ai pris le train.",
+        "translit": "zhay pree luh TREH(n)",
+        "tr": {
+          "ar": "ركبتُ القطار.",
+          "en": "I took the train.",
+          "id": "Saya naik kereta."
+        },
+        "example": {
+          "target": "Ce matin, j'ai pris le train à huit heures.",
+          "translit": "suh mah-TEH(n) zhay pree luh treh(n) ah wee-TUHR",
+          "tr": {
+            "ar": "هذا الصباح ركبتُ القطار في الثامنة.",
+            "en": "This morning I took the train at eight.",
+            "id": "Pagi ini saya naik kereta pukul delapan."
+          }
+        },
+        "hint": {
+          "ar": "«pris» هو اسم مفعول غير منتظم من «prendre». الحرف s الأخير صامت.",
+          "en": "Pris is the irregular participle of prendre. The final s is silent.",
+          "id": "Pris adalah participe tak beraturan dari prendre. Huruf s di akhir tidak dibunyikan."
+        }
+      },
+      {
+        "id": "fr21n7",
+        "target": "la semaine dernière",
+        "translit": "lah suh-MEHN dehr-NYEHR",
+        "tr": {
+          "ar": "الأسبوع الماضي",
+          "en": "last week",
+          "id": "minggu lalu"
+        },
+        "example": {
+          "target": "La semaine dernière, nous avons visité Lyon.",
+          "translit": "lah suh-MEHN dehr-NYEHR noo zah-vo(n) vee-zee-TAY lee-O(n)",
+          "tr": {
+            "ar": "الأسبوع الماضي زرنا ليون.",
+            "en": "Last week we visited Lyon.",
+            "id": "Minggu lalu kami mengunjungi Lyon."
+          }
+        },
+        "hint": {
+          "ar": "«dernière» مؤنث لأن «semaine» مؤنثة. وتقول المذكر: «le mois dernier».",
+          "en": "Dernière is feminine because semaine is feminine. For a masculine noun: le mois dernier.",
+          "id": "Dernière feminin karena semaine feminin. Untuk maskulin: le mois dernier."
+        }
+      },
+      {
+        "id": "fr21n8",
+        "target": "il y a deux jours",
+        "translit": "eel yah duh ZHOOR",
+        "tr": {
+          "ar": "منذ يومين",
+          "en": "two days ago",
+          "id": "dua hari yang lalu"
+        },
+        "example": {
+          "target": "Il y a deux jours, j'ai eu un rendez-vous.",
+          "translit": "eel yah duh ZHOOR zhay ew uh(n) rah(n)-day-VOO",
+          "tr": {
+            "ar": "منذ يومين كان عندي موعد.",
+            "en": "Two days ago I had an appointment.",
+            "id": "Dua hari yang lalu saya punya janji temu."
+          }
+        },
+        "hint": {
+          "ar": "«il y a» + مدة تعني «منذ». و«eu» هو اسم مفعول «avoir» ويُنطق «ew».",
+          "en": "Il y a + a duration means ago. Eu is the participle of avoir and is said ew.",
+          "id": "Il y a + durasi berarti yang lalu. Eu adalah participe dari avoir dan dibaca ew."
+        }
+      }
+    ],
+    "cloze": [
+      {
+        "sentence": "Hier, nous avons ___ un film.",
+        "answer": "vu",
+        "wrong": [
+          "voir",
+          "vois"
+        ],
+        "tr": {
+          "ar": "أمس شاهدنا فيلمًا.",
+          "en": "Yesterday we saw a film.",
+          "id": "Kemarin kami menonton sebuah film."
+        },
+        "why": {
+          "ar": "بعد «avons» نحتاج اسم مفعول: «vu». أما «voir» فمصدر و«vois» مضارع.",
+          "en": "After avons we need a past participle: vu. Voir is the infinitive and vois is the present.",
+          "id": "Setelah avons dibutuhkan participe passé: vu. Voir adalah infinitif dan vois kala sekarang."
+        }
+      },
+      {
+        "sentence": "Elle n'a pas ___ hier soir.",
+        "answer": "dormi",
+        "wrong": [
+          "dormir",
+          "dort"
+        ],
+        "tr": {
+          "ar": "لم تنم أمس مساءً.",
+          "en": "She did not sleep last night.",
+          "id": "Dia tidak tidur tadi malam."
+        },
+        "why": {
+          "ar": "في الماضي المركّب يأتي اسم المفعول بعد «pas»: «n'a pas dormi».",
+          "en": "In the passé composé the participle comes after pas: n'a pas dormi.",
+          "id": "Dalam passé composé participe berada setelah pas: n'a pas dormi."
+        }
+      }
+    ],
+    "conversation": {
+      "context": {
+        "ar": "بين صديقين صباح الاثنين: كل واحد يحكي ما فعله في عطلة نهاية الأسبوع.",
+        "en": "Between two friends on Monday morning: each tells what they did at the weekend.",
+        "id": "Antara dua teman pada Senin pagi: masing-masing menceritakan apa yang dilakukan pada akhir pekan."
+      },
+      "turns": [
+        {
+          "who": "A",
+          "target": "Salut Léa ! Qu'est-ce que tu as fait ce week-end ?",
+          "tr": {
+            "ar": "مرحبًا ليا! ماذا فعلتِ في نهاية الأسبوع؟",
+            "en": "Hi Léa! What did you do this weekend?",
+            "id": "Hai Léa! Apa yang kamu lakukan akhir pekan ini?"
+          }
+        },
+        {
+          "who": "B",
+          "target": "Samedi, j'ai mangé au restaurant avec mes amis.",
+          "tr": {
+            "ar": "يوم السبت أكلتُ في المطعم مع أصدقائي.",
+            "en": "On Saturday I ate at a restaurant with my friends.",
+            "id": "Hari Sabtu saya makan di restoran bersama teman-teman."
+          }
+        },
+        {
+          "who": "A",
+          "target": "Super ! Moi, j'ai regardé un film.",
+          "tr": {
+            "ar": "رائع! أما أنا فشاهدتُ فيلمًا.",
+            "en": "Great! I watched a film.",
+            "id": "Bagus! Kalau saya, saya menonton film."
+          }
+        }
+      ],
+      "gap": 1,
+      "wrong": [
+        "Je vais manger au restaurant.",
+        "Oui, j'aime beaucoup le restaurant."
+      ],
+      "why": {
+        "ar": "السؤال عن الماضي («as fait») يُجاب عنه بالماضي المركّب: «j'ai mangé». «Je vais manger» مستقبل قريب، والرد الآخر لا يحكي ما فعلته.",
+        "en": "A question about the past (as fait) is answered in the passé composé: j'ai mangé. Je vais manger is the near future, and the other reply does not tell what you did.",
+        "id": "Pertanyaan tentang masa lalu (as fait) dijawab dengan passé composé: j'ai mangé. Je vais manger adalah futur proche, dan jawaban lain tidak menceritakan apa yang dilakukan."
+      }
+    },
+    "summary": {
+      "ar": "تعلمت تكوين الماضي المركّب بـ«avoir»: ai/as/a/avons/avez/ont + اسم المفعول، وأسماء المفعول fait وpris وvu، والنفي «n'ai pas». احكِ لنفسك ثلاث جمل عمّا فعلته أمس.",
+      "en": "You learned to build the passé composé with avoir: ai/as/a/avons/avez/ont plus a participle, the participles fait, pris, vu, and the negative n'ai pas. Tell yourself three sentences about what you did yesterday.",
+      "id": "Anda mempelajari passé composé dengan avoir: ai/as/a/avons/avez/ont ditambah participe, participe fait, pris, vu, dan negatif n'ai pas. Ucapkan tiga kalimat tentang apa yang Anda lakukan kemarin."
+    }
+  },
+  {
+    "id": "fr-22",
+    "track": "fr",
+    "level": "intermediate",
+    "order": 22,
+    "topic": "past-etre-trip",
+    "icon": "🚆",
+    "title": {
+      "ar": "رحلة ليوم واحد",
+      "en": "A Day Trip",
+      "id": "Perjalanan Sehari"
+    },
+    "description": {
+      "ar": "تعلّم الماضي المركّب مع «être» ومطابقة اسم المفعول مع الفاعل لتحكي عن رحلة.",
+      "en": "Learn the passé composé with être and agreement with the subject to tell about a trip.",
+      "id": "Pelajari passé composé dengan être dan kesesuaian dengan subjek untuk menceritakan sebuah perjalanan."
+    },
+    "objectives": [
+      {
+        "ar": "أستطيع استعمال «être» مع أفعال الحركة: aller وpartir وarriver وrester.",
+        "en": "I can use être with verbs of movement: aller, partir, arriver, rester.",
+        "id": "Saya bisa memakai être dengan kata kerja gerak: aller, partir, arriver, rester."
+      },
+      {
+        "ar": "أطابق اسم المفعول مع الفاعل: «elle est partie».",
+        "en": "I can make the participle agree with the subject: elle est partie.",
+        "id": "Saya bisa menyesuaikan participe dengan subjek: elle est partie."
+      },
+      {
+        "ar": "أستطيع الماضي المركّب للأفعال الانعكاسية: «je me suis levé».",
+        "en": "I can use the passé composé of reflexive verbs: je me suis levé.",
+        "id": "Saya bisa memakai passé composé untuk kata kerja refleksif: je me suis levé."
+      }
+    ],
+    "intro": {
+      "ar": "بعض الأفعال، وخاصة أفعال الحركة والأفعال الانعكاسية، تأخذ «être» في الماضي المركّب بدل «avoir». ويتفق اسم المفعول مع الفاعل في الجنس والعدد. في هذا الدرس تحكي رحلة إلى مدينة: متى ذهبتَ، ومتى وصلتَ، وكم بقيتَ، ومتى عدتَ.",
+      "en": "Some verbs, mainly verbs of movement and reflexive verbs, take être instead of avoir in the passé composé. The participle then agrees with the subject in gender and number. In this lesson you tell about a trip to a city: when you went, when you arrived, how long you stayed and when you came back.",
+      "id": "Beberapa kata kerja, terutama kata kerja gerak dan kata kerja refleksif, memakai être dan bukan avoir dalam passé composé. Participenya lalu menyesuaikan diri dengan subjek dalam gender dan jumlah. Di pelajaran ini Anda menceritakan perjalanan ke sebuah kota: kapan pergi, kapan tiba, berapa lama tinggal, dan kapan pulang."
+    },
+    "culture": {
+      "ar": "القطار السريع TGV يربط باريس بمدينة ليون في نحو ساعتين، ولذلك تُعدّ رحلة اليوم الواحد بين المدينتين ممكنة. وليون معروفة بمطبخها وبمطاعمها الصغيرة التقليدية. وعند الحكاية يقول الناس عادة «On est allés à Lyon» في الكلام اليومي بدل «nous sommes allés».",
+      "en": "The high-speed TGV links Paris and Lyon in about two hours, so a day trip between the two cities is possible. Lyon is known for its cooking and its small traditional restaurants. In everyday speech people often say On est allés à Lyon instead of nous sommes allés.",
+      "id": "Kereta cepat TGV menghubungkan Paris dan Lyon dalam sekitar dua jam, sehingga perjalanan sehari antara dua kota itu mungkin dilakukan. Lyon dikenal karena masakannya dan restoran kecil tradisionalnya. Dalam percakapan sehari-hari orang sering berkata On est allés à Lyon sebagai ganti nous sommes allés."
+    },
+    "grammar": {
+      "title": {
+        "ar": "«être» والمطابقة",
+        "en": "Être and agreement",
+        "id": "Être dan kesesuaian"
+      },
+      "body": {
+        "ar": "مع «être» نأخذ الفعل في المضارع (je suis, tu es, il est, nous sommes, vous êtes, ils sont) ثم اسم المفعول. أفعال شائعة: aller وvenir وarriver وpartir وrester وrentrer وsortir وnaître. ويتفق اسم المفعول مع الفاعل: «Il est parti» و«Elle est partie» و«Ils sont partis» و«Elles sont parties». كل الأفعال الانعكاسية تأخذ «être»: «Je me suis levé». وفي النفي: «Je ne suis pas sorti».",
+        "en": "With être, take the verb in the present (je suis, tu es, il est, nous sommes, vous êtes, ils sont) plus the participle. Common verbs: aller, venir, arriver, partir, rester, rentrer, sortir, naître. The participle agrees with the subject: Il est parti, Elle est partie, Ils sont partis, Elles sont parties. All reflexive verbs take être: Je me suis levé. Negative: Je ne suis pas sorti.",
+        "id": "Dengan être, ambil kata kerja dalam kala sekarang (je suis, tu es, il est, nous sommes, vous êtes, ils sont) ditambah participe. Kata kerja umum: aller, venir, arriver, partir, rester, rentrer, sortir, naître. Participe menyesuaikan dengan subjek: Il est parti, Elle est partie, Ils sont partis, Elles sont parties. Semua kata kerja refleksif memakai être: Je me suis levé. Negatif: Je ne suis pas sorti."
+      }
+    },
+    "items": [
+      {
+        "id": "fr22n1",
+        "target": "Je suis allé à Lyon.",
+        "translit": "zhuh swee zah-LAY ah lee-O(n)",
+        "tr": {
+          "ar": "ذهبتُ إلى ليون (المتكلم مذكر).",
+          "en": "I went to Lyon.",
+          "id": "Saya pergi ke Lyon."
+        },
+        "example": {
+          "target": "Samedi, je suis allé à Lyon en train.",
+          "translit": "sahm-DEE zhuh swee zah-LAY ah lee-O(n) ah(n) TREH(n)",
+          "tr": {
+            "ar": "يوم السبت ذهبتُ إلى ليون بالقطار.",
+            "en": "On Saturday I went to Lyon by train.",
+            "id": "Hari Sabtu saya pergi ke Lyon naik kereta."
+          }
+        },
+        "hint": {
+          "ar": "المتكلمة تقول «je suis allée». النطق واحد، لكن الكتابة فيها e زائدة.",
+          "en": "A woman writes je suis allée. The sound is the same; only the spelling has an extra e.",
+          "id": "Penutur perempuan menulis je suis allée. Bunyinya sama; hanya ejaannya ada e tambahan."
+        }
+      },
+      {
+        "id": "fr22n2",
+        "target": "Elle est partie hier.",
+        "translit": "ehl eh pahr-TEE yehr",
+        "tr": {
+          "ar": "غادرت أمس.",
+          "en": "She left yesterday.",
+          "id": "Dia berangkat kemarin."
+        },
+        "example": {
+          "target": "Elle est partie à huit heures.",
+          "translit": "ehl eh pahr-TEE ah wee-TUHR",
+          "tr": {
+            "ar": "غادرت في الساعة الثامنة.",
+            "en": "She left at eight o'clock.",
+            "id": "Dia berangkat pukul delapan."
+          }
+        },
+        "hint": {
+          "ar": "الفاعل مؤنث فنكتب «partie» بـ e في آخرها. في النطق لا فرق بين «parti» و«partie» لأن الحرف الأخير صامت.",
+          "en": "The subject is feminine, so we write partie with a final e. The sound does not change between parti and partie.",
+          "id": "Subjeknya feminin, jadi ditulis partie dengan e di akhir. Bunyinya tidak berbeda antara parti dan partie."
+        }
+      },
+      {
+        "id": "fr22n3",
+        "target": "Nous sommes arrivés à midi.",
+        "translit": "noo sohm zah-ree-VAY ah mee-DEE",
+        "tr": {
+          "ar": "وصلنا عند الظهر.",
+          "en": "We arrived at noon.",
+          "id": "Kami tiba tengah hari."
+        },
+        "example": {
+          "target": "Nous sommes arrivés à la gare à midi.",
+          "translit": "noo sohm zah-ree-VAY ah lah GAHR ah mee-DEE",
+          "tr": {
+            "ar": "وصلنا إلى المحطة عند الظهر.",
+            "en": "We arrived at the station at noon.",
+            "id": "Kami tiba di stasiun pada tengah hari."
+          }
+        },
+        "hint": {
+          "ar": "«nous sommes» يُربط بـ z قبل المتحرك: «noo sohm zah-ree-VAY». وفاعل الجمع يطلب s في «arrivés».",
+          "en": "There is liaison before the vowel: noo sohm zah-ree-VAY. A plural subject adds s to arrivés.",
+          "id": "Ada liaison sebelum vokal: noo sohm zah-ree-VAY. Subjek jamak menambah s pada arrivés."
+        }
+      },
+      {
+        "id": "fr22n4",
+        "target": "Ils sont restés deux jours.",
+        "translit": "eel so(n) rehs-TAY duh ZHOOR",
+        "tr": {
+          "ar": "بقوا يومين.",
+          "en": "They stayed two days.",
+          "id": "Mereka tinggal dua hari."
+        },
+        "example": {
+          "target": "Ils sont restés deux jours à Nice.",
+          "translit": "eel so(n) rehs-TAY duh ZHOOR ah NEES",
+          "tr": {
+            "ar": "بقوا يومين في نيس.",
+            "en": "They stayed two days in Nice.",
+            "id": "Mereka tinggal dua hari di Nice."
+          }
+        },
+        "hint": {
+          "ar": "«restés» جمع مذكر. «sont» تُنطق «so(n)» بصوت أنفي.",
+          "en": "Restés is masculine plural. Sont is said so(n) with a nasal vowel.",
+          "id": "Restés adalah maskulin jamak. Sont dibaca so(n) dengan vokal sengau."
+        }
+      },
+      {
+        "id": "fr22n5",
+        "target": "Je suis rentrée tard.",
+        "translit": "zhuh swee rah(n)-TRAY TAHR",
+        "tr": {
+          "ar": "عدتُ متأخرة (المتكلمة مؤنث).",
+          "en": "I got home late.",
+          "id": "Saya pulang larut (penutur perempuan)."
+        },
+        "example": {
+          "target": "Hier soir, je suis rentrée très tard.",
+          "translit": "yehr SWAHR zhuh swee rah(n)-TRAY treh TAHR",
+          "tr": {
+            "ar": "أمس مساءً عدتُ إلى البيت متأخرة جدًا.",
+            "en": "Last night I got home very late.",
+            "id": "Tadi malam saya pulang sangat larut."
+          }
+        },
+        "hint": {
+          "ar": "هنا المتكلمة امرأة فنكتب «rentrée». المتكلم الرجل يكتب «rentré».",
+          "en": "Here the speaker is a woman, so we write rentrée. A man writes rentré.",
+          "id": "Di sini penuturnya perempuan, jadi ditulis rentrée. Laki-laki menulis rentré."
+        }
+      },
+      {
+        "id": "fr22n6",
+        "target": "Je me suis levé tôt.",
+        "translit": "zhuh muh swee luh-VAY TOH",
+        "tr": {
+          "ar": "استيقظتُ باكرًا (المتكلم مذكر).",
+          "en": "I got up early.",
+          "id": "Saya bangun pagi-pagi (penutur laki-laki)."
+        },
+        "example": {
+          "target": "Ce matin, je me suis levé à six heures.",
+          "translit": "suh mah-TEH(n) zhuh muh swee luh-VAY ah see-ZUHR",
+          "tr": {
+            "ar": "هذا الصباح استيقظتُ في السادسة.",
+            "en": "This morning I got up at six.",
+            "id": "Pagi ini saya bangun pukul enam."
+          }
+        },
+        "hint": {
+          "ar": "الفعل الانعكاسي «se lever» يأخذ «être»: «je me suis levé». المرأة تكتب «levée».",
+          "en": "The reflexive verb se lever takes être: je me suis levé. A woman writes levée.",
+          "id": "Kata kerja refleksif se lever memakai être: je me suis levé. Perempuan menulis levée."
+        }
+      },
+      {
+        "id": "fr22n7",
+        "target": "Tu es venu seul ?",
+        "translit": "tew eh vuh-NEW SUHL",
+        "tr": {
+          "ar": "هل جئتَ وحدك؟",
+          "en": "Did you come alone?",
+          "id": "Apakah kamu datang sendiri?"
+        },
+        "example": {
+          "target": "Tu es venu seul à la fête ?",
+          "translit": "tew eh vuh-NEW SUHL ah lah FEHT",
+          "tr": {
+            "ar": "هل جئتَ وحدك إلى الحفلة؟",
+            "en": "Did you come to the party alone?",
+            "id": "Apakah kamu datang sendiri ke pesta?"
+          }
+        },
+        "hint": {
+          "ar": "«venu» اسم مفعول «venir»، ويُنطق «vuh-NEW» بحرف u الفرنسي. للمؤنث «venue».",
+          "en": "Venu is the participle of venir, said vuh-NEW with the French u. The feminine is venue.",
+          "id": "Venu adalah participe dari venir, dibaca vuh-NEW dengan u Prancis. Femininnya venue."
+        }
+      },
+      {
+        "id": "fr22n8",
+        "target": "Je ne suis pas sorti.",
+        "translit": "zhuh nuh swee pah sohr-TEE",
+        "tr": {
+          "ar": "لم أخرج.",
+          "en": "I did not go out.",
+          "id": "Saya tidak keluar."
+        },
+        "example": {
+          "target": "Hier, je ne suis pas sorti à cause de la pluie.",
+          "translit": "yehr zhuh nuh swee pah sohr-TEE ah KOHZ duh lah PLWEE",
+          "tr": {
+            "ar": "أمس لم أخرج بسبب المطر.",
+            "en": "Yesterday I did not go out because of the rain.",
+            "id": "Kemarin saya tidak keluar karena hujan."
+          }
+        },
+        "hint": {
+          "ar": "في النفي: «ne» قبل «suis» و«pas» بعده. و«à cause de» تعني «بسبب».",
+          "en": "In the negative: ne before suis and pas after it. À cause de means because of.",
+          "id": "Pada negatif: ne sebelum suis dan pas sesudahnya. À cause de berarti karena."
+        }
+      }
+    ],
+    "cloze": [
+      {
+        "sentence": "Marie est ___ à Paris.",
+        "answer": "allée",
+        "wrong": [
+          "allé",
+          "aller"
+        ],
+        "tr": {
+          "ar": "ماري ذهبت إلى باريس.",
+          "en": "Marie went to Paris.",
+          "id": "Marie pergi ke Paris."
+        },
+        "why": {
+          "ar": "ماري مؤنث، فيجب أن يتفق اسم المفعول: «allée». «allé» للمذكر و«aller» مصدر.",
+          "en": "Marie is feminine, so the participle must agree: allée. Allé is masculine and aller is the infinitive.",
+          "id": "Marie feminin, jadi participe harus menyesuaikan: allée. Allé maskulin dan aller adalah infinitif."
+        }
+      },
+      {
+        "sentence": "Nous ___ arrivés à midi.",
+        "answer": "sommes",
+        "wrong": [
+          "avons",
+          "sont"
+        ],
+        "tr": {
+          "ar": "وصلنا عند الظهر.",
+          "en": "We arrived at noon.",
+          "id": "Kami tiba tengah hari."
+        },
+        "why": {
+          "ar": "«arriver» يأخذ «être»، ومع «nous» نقول «sommes». «avons» يُستعمل مع أفعال مثل «manger».",
+          "en": "Arriver takes être, and with nous we say sommes. Avons is used with verbs such as manger.",
+          "id": "Arriver memakai être, dan dengan nous dikatakan sommes. Avons dipakai dengan kata kerja seperti manger."
+        }
+      }
+    ],
+    "conversation": {
+      "context": {
+        "ar": "بين صديقين: واحد يحكي رحلته ليوم واحد إلى ليون.",
+        "en": "Between two friends: one tells about a day trip to Lyon.",
+        "id": "Antara dua teman: satu menceritakan perjalanan sehari ke Lyon."
+      },
+      "turns": [
+        {
+          "who": "A",
+          "target": "Tu es allé où samedi ?",
+          "tr": {
+            "ar": "إلى أين ذهبتَ يوم السبت؟",
+            "en": "Where did you go on Saturday?",
+            "id": "Ke mana kamu pergi hari Sabtu?"
+          }
+        },
+        {
+          "who": "B",
+          "target": "Je suis allé à Lyon en train.",
+          "tr": {
+            "ar": "ذهبتُ إلى ليون بالقطار.",
+            "en": "I went to Lyon by train.",
+            "id": "Saya pergi ke Lyon naik kereta."
+          }
+        },
+        {
+          "who": "A",
+          "target": "Et tu es rentré tard ?",
+          "tr": {
+            "ar": "وهل عدتَ متأخرًا؟",
+            "en": "And did you get home late?",
+            "id": "Dan apakah kamu pulang larut?"
+          }
+        },
+        {
+          "who": "B",
+          "target": "Oui, je suis rentré à minuit.",
+          "tr": {
+            "ar": "نعم، عدتُ عند منتصف الليل.",
+            "en": "Yes, I got home at midnight.",
+            "id": "Ya, saya pulang tengah malam."
+          }
+        }
+      ],
+      "gap": 1,
+      "wrong": [
+        "J'ai allé à Lyon en train.",
+        "Je suis aller à Lyon en train."
+      ],
+      "why": {
+        "ar": "«aller» يأخذ «être» وليس «avoir»، ونستعمل اسم المفعول «allé» لا المصدر «aller».",
+        "en": "Aller takes être, not avoir, and we use the participle allé, not the infinitive aller.",
+        "id": "Aller memakai être, bukan avoir, dan dipakai participe allé, bukan infinitif aller."
+      }
+    },
+    "summary": {
+      "ar": "تعلمت «être» في الماضي المركّب: je suis allé(e)، elle est partie، nous sommes arrivés، والأفعال الانعكاسية. تذكّر أن اسم المفعول يتفق مع الفاعل. احكِ رحلة قمتَ بها.",
+      "en": "You learned the passé composé with être: je suis allé(e), elle est partie, nous sommes arrivés, and reflexive verbs. Remember that the participle agrees with the subject. Tell about a trip you took.",
+      "id": "Anda mempelajari passé composé dengan être: je suis allé(e), elle est partie, nous sommes arrivés, dan kata kerja refleksif. Ingat bahwa participe menyesuaikan dengan subjek. Ceritakan perjalanan yang pernah Anda lakukan."
+    }
+  },
+  {
+    "id": "fr-23",
+    "track": "fr",
+    "level": "intermediate",
+    "order": 23,
+    "topic": "childhood-memories",
+    "icon": "🧒",
+    "title": {
+      "ar": "عندما كنتُ صغيرًا",
+      "en": "When I Was Young",
+      "id": "Ketika Saya Masih Kecil"
+    },
+    "description": {
+      "ar": "تعلّم الماضي الناقص (imparfait) لوصف العادات والذكريات، وقارنه بالماضي المركّب.",
+      "en": "Learn the imparfait to describe habits and memories, and compare it with the passé composé.",
+      "id": "Pelajari imparfait untuk menggambarkan kebiasaan dan kenangan, lalu bandingkan dengan passé composé."
+    },
+    "objectives": [
+      {
+        "ar": "أستطيع تصريف «imparfait» في أفعال مثل être وavoir وfaire وجميع أفعال -er.",
+        "en": "I can form the imparfait for être, avoir, faire and -er verbs.",
+        "id": "Saya bisa membentuk imparfait untuk être, avoir, faire, dan kata kerja -er."
+      },
+      {
+        "ar": "أستطيع وصف عادة قديمة أو حال قديمة: «j'habitais à la campagne».",
+        "en": "I can describe an old habit or situation: j'habitais à la campagne.",
+        "id": "Saya bisa menggambarkan kebiasaan atau keadaan lama: j'habitais à la campagne."
+      },
+      {
+        "ar": "أميّز بين الحال («il pleuvait») والحدث («je suis sorti»).",
+        "en": "I can tell a background (il pleuvait) from an event (je suis sorti).",
+        "id": "Saya bisa membedakan latar (il pleuvait) dari kejadian (je suis sorti)."
+      }
+    ],
+    "intro": {
+      "ar": "الماضي الناقص (imparfait) يصف كيف كانت الأشياء: العادات والأماكن والطقس والأشخاص. يستعمله الفرنسيون عندما يتذكرون الطفولة، ويُستعمل معه الماضي المركّب لذكر حدث محدد. في هذا الدرس تحكي كيف كانت حياتك قديمًا.",
+      "en": "The imparfait describes how things used to be: habits, places, weather and people. French speakers use it when they remember childhood, and they pair it with the passé composé to mention a specific event. In this lesson you tell how life used to be.",
+      "id": "Imparfait menggambarkan bagaimana keadaan dahulu: kebiasaan, tempat, cuaca, dan orang. Penutur Prancis memakainya saat mengenang masa kecil, dan memadukannya dengan passé composé untuk menyebut kejadian tertentu. Di pelajaran ini Anda menceritakan bagaimana kehidupan dahulu."
+    },
+    "culture": {
+      "ar": "تبدأ الحكايات الفرنسية التقليدية بعبارة «Il était une fois...» أي «كان يا ما كان». وكل جملة فيها بالماضي الناقص. وفي الحياة اليومية يقول الجدّان لأحفادهما: «Autrefois, c'était différent», أي كان الأمر مختلفًا في الماضي.",
+      "en": "Traditional French stories begin with Il était une fois..., once upon a time, and the sentences that follow use the imparfait. In daily life grandparents often tell their grandchildren Autrefois, c'était différent, in the past things were different.",
+      "id": "Dongeng tradisional Prancis dimulai dengan Il était une fois..., pada zaman dahulu, dan kalimat berikutnya memakai imparfait. Dalam kehidupan sehari-hari kakek-nenek sering berkata kepada cucunya Autrefois, c'était différent, dahulu segalanya berbeda."
+    },
+    "grammar": {
+      "title": {
+        "ar": "الماضي الناقص (imparfait)",
+        "en": "The imparfait",
+        "id": "Imparfait"
+      },
+      "body": {
+        "ar": "نكوّن الـ imparfait من جذر الفعل مع «nous» في المضارع بعد حذف «-ons»، ثم نضيف: -ais, -ais, -ait, -ions, -iez, -aient. مثال: «nous jouons» ← «je jouais». استثناء واحد مهم هو «être»: j'étais, tu étais, il était, nous étions, vous étiez, ils étaient. ونستعمله لـ: العادة في الماضي (nous jouions dans le jardin)، والوصف (elle avait les cheveux longs)، والطقس (il faisait beau). وعندما يقع حدث قصير وسط الحال نستعمل الماضي المركّب: «Il pleuvait quand je suis sorti».",
+        "en": "Form the imparfait from the nous form of the present, remove -ons, and add -ais, -ais, -ait, -ions, -iez, -aient. Example: nous jouons gives je jouais. The one important exception is être: j'étais, tu étais, il était, nous étions, vous étiez, ils étaient. Use it for habits in the past (nous jouions dans le jardin), descriptions (elle avait les cheveux longs) and weather (il faisait beau). When a short event happens in the middle of a background, use the passé composé: Il pleuvait quand je suis sorti.",
+        "id": "Bentuk imparfait dibuat dari bentuk nous kala sekarang, hilangkan -ons, lalu tambahkan -ais, -ais, -ait, -ions, -iez, -aient. Contoh: nous jouons menjadi je jouais. Satu pengecualian penting adalah être: j'étais, tu étais, il était, nous étions, vous étiez, ils étaient. Dipakai untuk kebiasaan di masa lalu (nous jouions dans le jardin), deskripsi (elle avait les cheveux longs), dan cuaca (il faisait beau). Jika sebuah kejadian singkat terjadi di tengah latar, pakai passé composé: Il pleuvait quand je suis sorti."
+      }
+    },
+    "items": [
+      {
+        "id": "fr23n1",
+        "target": "Quand j'étais petit...",
+        "translit": "kah(n) zhay-TEH puh-TEE",
+        "tr": {
+          "ar": "عندما كنتُ صغيرًا...",
+          "en": "When I was little...",
+          "id": "Ketika saya masih kecil..."
+        },
+        "example": {
+          "target": "Quand j'étais petit, j'aimais les animaux.",
+          "translit": "kah(n) zhay-TEH puh-TEE zhay-MEH lay zah-nee-MOH",
+          "tr": {
+            "ar": "عندما كنتُ صغيرًا كنتُ أحب الحيوانات.",
+            "en": "When I was little, I loved animals.",
+            "id": "Ketika saya masih kecil, saya suka hewan."
+          }
+        },
+        "hint": {
+          "ar": "«étais» تُنطق «ay-TEH». الحرفان -ais في الآخر يُنطقان «eh» ولا يُنطق s.",
+          "en": "Étais is said ay-TEH. The ending -ais sounds like eh, with no s.",
+          "id": "Étais dibaca ay-TEH. Akhiran -ais berbunyi eh, tanpa s."
+        }
+      },
+      {
+        "id": "fr23n2",
+        "target": "J'habitais à la campagne.",
+        "translit": "zhah-bee-TEH ah lah kah(n)-PAH-nyuh",
+        "tr": {
+          "ar": "كنتُ أسكن في الريف.",
+          "en": "I used to live in the countryside.",
+          "id": "Dulu saya tinggal di desa."
+        },
+        "example": {
+          "target": "J'habitais à la campagne avec mes grands-parents.",
+          "translit": "zhah-bee-TEH ah lah kah(n)-PAH-nyuh ah-VEHK may grah(n)-pah-RAH(n)",
+          "tr": {
+            "ar": "كنتُ أسكن في الريف مع جدّيّ وجدّتي.",
+            "en": "I used to live in the countryside with my grandparents.",
+            "id": "Dulu saya tinggal di desa bersama kakek dan nenek."
+          }
+        },
+        "hint": {
+          "ar": "حرف h في «habitais» صامت. و«gn» في «campagne» يُنطق «ny».",
+          "en": "The h in habitais is silent. The gn in campagne sounds like ny.",
+          "id": "Huruf h dalam habitais tidak dibunyikan. Gn dalam campagne berbunyi ny."
+        }
+      },
+      {
+        "id": "fr23n3",
+        "target": "Nous jouions dans le jardin.",
+        "translit": "noo zhoo-YO(n) dah(n) luh zhahr-DEH(n)",
+        "tr": {
+          "ar": "كنا نلعب في الحديقة.",
+          "en": "We used to play in the garden.",
+          "id": "Dulu kami bermain di kebun."
+        },
+        "example": {
+          "target": "Le dimanche, nous jouions dans le jardin.",
+          "translit": "luh dee-MAH(n)SH noo zhoo-YO(n) dah(n) luh zhahr-DEH(n)",
+          "tr": {
+            "ar": "أيام الأحد كنا نلعب في الحديقة.",
+            "en": "On Sundays we used to play in the garden.",
+            "id": "Pada hari Minggu kami biasa bermain di kebun."
+          }
+        },
+        "hint": {
+          "ar": "مع «nous» نلحق -ions: «jouions». ويُنطق «zhoo-YO(n)» ولا يُنطق حرف s.",
+          "en": "With nous we add -ions: jouions, said zhoo-YO(n). The s is silent.",
+          "id": "Dengan nous ditambah -ions: jouions, dibaca zhoo-YO(n). Huruf s tidak dibunyikan."
+        }
+      },
+      {
+        "id": "fr23n4",
+        "target": "Il faisait beau.",
+        "translit": "eel fuh-ZEH BOH",
+        "tr": {
+          "ar": "كان الجو جميلًا.",
+          "en": "The weather was nice.",
+          "id": "Cuacanya bagus."
+        },
+        "example": {
+          "target": "En été, il faisait toujours beau.",
+          "translit": "ah(n) nay-TAY eel fuh-ZEH too-ZHOOR BOH",
+          "tr": {
+            "ar": "في الصيف كان الجو جميلًا دائمًا.",
+            "en": "In summer the weather was always nice.",
+            "id": "Pada musim panas cuacanya selalu bagus."
+          }
+        },
+        "hint": {
+          "ar": "«faisait» تُنطق «fuh-ZEH»: الحرفان ai في «fai» يُنطقان e خفيفًا.",
+          "en": "Faisait is said fuh-ZEH: the ai at the start is a weak e sound.",
+          "id": "Faisait dibaca fuh-ZEH: ai di awal berbunyi e lemah."
+        }
+      },
+      {
+        "id": "fr23n5",
+        "target": "Elle avait les cheveux longs.",
+        "translit": "ehl ah-VEH lay shuh-VUH LO(n)",
+        "tr": {
+          "ar": "كان شعرها طويلًا.",
+          "en": "She had long hair.",
+          "id": "Rambutnya panjang."
+        },
+        "example": {
+          "target": "Ma grand-mère avait les cheveux longs.",
+          "translit": "mah grah(n)-MEHR ah-VEH lay shuh-VUH LO(n)",
+          "tr": {
+            "ar": "كانت جدّتي ذات شعر طويل.",
+            "en": "My grandmother had long hair.",
+            "id": "Nenek saya berambut panjang."
+          }
+        },
+        "hint": {
+          "ar": "«cheveux» جمع ويُنطق «shuh-VUH»، والحرف x صامت. و«les cheveux» تعني الشعر.",
+          "en": "Cheveux is plural and said shuh-VUH; the x is silent. Les cheveux means hair.",
+          "id": "Cheveux adalah jamak dan dibaca shuh-VUH; huruf x tidak dibunyikan. Les cheveux berarti rambut."
+        }
+      },
+      {
+        "id": "fr23n6",
+        "target": "Avant, je ne travaillais pas.",
+        "translit": "ah-VAH(n) zhuh nuh trah-vah-YEH PAH",
+        "tr": {
+          "ar": "قبل ذلك لم أكن أعمل.",
+          "en": "Before, I did not work.",
+          "id": "Dulu saya tidak bekerja."
+        },
+        "example": {
+          "target": "Avant, je ne travaillais pas le samedi.",
+          "translit": "ah-VAH(n) zhuh nuh trah-vah-YEH pah luh sahm-DEE",
+          "tr": {
+            "ar": "قبل ذلك لم أكن أعمل يوم السبت.",
+            "en": "Before, I did not work on Saturdays.",
+            "id": "Dulu saya tidak bekerja pada hari Sabtu."
+          }
+        },
+        "hint": {
+          "ar": "«avant» تعني «قبل». وفي النفي نضع «ne ... pas» حول الفعل في الـ imparfait.",
+          "en": "Avant means before. In the negative, ne ... pas wraps around the imparfait verb.",
+          "id": "Avant berarti dulu atau sebelum. Pada negatif, ne ... pas mengapit kata kerja imparfait."
+        }
+      },
+      {
+        "id": "fr23n7",
+        "target": "Il pleuvait quand je suis sorti.",
+        "translit": "eel pluh-VEH kah(n) zhuh swee sohr-TEE",
+        "tr": {
+          "ar": "كان المطر ينزل عندما خرجتُ.",
+          "en": "It was raining when I went out.",
+          "id": "Hujan sedang turun ketika saya keluar."
+        },
+        "example": {
+          "target": "Il pleuvait quand je suis sorti de la maison.",
+          "translit": "eel pluh-VEH kah(n) zhuh swee sohr-TEE duh lah may-ZO(n)",
+          "tr": {
+            "ar": "كان المطر ينزل عندما خرجتُ من البيت.",
+            "en": "It was raining when I left the house.",
+            "id": "Hujan sedang turun ketika saya keluar dari rumah."
+          }
+        },
+        "hint": {
+          "ar": "«il pleuvait» هي الحال (imparfait)، و«je suis sorti» هو الحدث (passé composé).",
+          "en": "Il pleuvait is the background (imparfait) and je suis sorti is the event (passé composé).",
+          "id": "Il pleuvait adalah latar (imparfait) dan je suis sorti adalah kejadian (passé composé)."
+        }
+      },
+      {
+        "id": "fr23n8",
+        "target": "autrefois",
+        "translit": "oh-truh-FWAH",
+        "tr": {
+          "ar": "في الماضي، قديمًا",
+          "en": "in the past",
+          "id": "dahulu"
+        },
+        "example": {
+          "target": "Autrefois, il n'y avait pas de télévision.",
+          "translit": "oh-truh-FWAH eel nyah-VEH pah duh tay-lay-vee-ZYO(n)",
+          "tr": {
+            "ar": "قديمًا لم يكن هناك تلفاز.",
+            "en": "In the past there was no television.",
+            "id": "Dahulu tidak ada televisi."
+          }
+        },
+        "hint": {
+          "ar": "«il n'y avait pas de» تعني «لم يكن هناك». بعد «pas» نستعمل «de» دون أداة تعريف.",
+          "en": "Il n'y avait pas de means there was no. After pas we use de with no article.",
+          "id": "Il n'y avait pas de berarti tidak ada. Setelah pas dipakai de tanpa artikel."
+        }
+      }
+    ],
+    "cloze": [
+      {
+        "sentence": "Quand j'___ petit, je jouais dehors.",
+        "answer": "étais",
+        "wrong": [
+          "ai été",
+          "suis"
+        ],
+        "tr": {
+          "ar": "عندما كنتُ صغيرًا كنتُ ألعب في الخارج.",
+          "en": "When I was little I used to play outside.",
+          "id": "Ketika saya kecil, saya biasa bermain di luar."
+        },
+        "why": {
+          "ar": "نصف حالة قديمة، فنستعمل الـ imparfait: «j'étais». «je suis» مضارع.",
+          "en": "We describe an old state, so we use the imparfait: j'étais. Je suis is the present.",
+          "id": "Kita menggambarkan keadaan lama, jadi dipakai imparfait: j'étais. Je suis adalah kala sekarang."
+        }
+      },
+      {
+        "sentence": "Il ___ beau quand nous sommes partis.",
+        "answer": "faisait",
+        "wrong": [
+          "fait",
+          "fera"
+        ],
+        "tr": {
+          "ar": "كان الجو جميلًا عندما غادرنا.",
+          "en": "The weather was nice when we left.",
+          "id": "Cuacanya bagus ketika kami berangkat."
+        },
+        "why": {
+          "ar": "الطقس هنا حال في الماضي، فنقول «faisait». «fait» مضارع و«fera» مستقبل.",
+          "en": "Here the weather is a background in the past, so we say faisait. Fait is the present and fera is the future.",
+          "id": "Cuaca di sini adalah latar di masa lalu, jadi dipakai faisait. Fait kala sekarang dan fera masa depan."
+        }
+      }
+    ],
+    "conversation": {
+      "context": {
+        "ar": "بين جدّ وحفيده: الحفيد يسأل عن طفولة جدّه.",
+        "en": "Between a grandfather and his grandson: the grandson asks about his grandfather's childhood.",
+        "id": "Antara kakek dan cucunya: cucu bertanya tentang masa kecil kakeknya."
+      },
+      "turns": [
+        {
+          "who": "A",
+          "target": "Grand-père, qu'est-ce que tu faisais quand tu étais petit ?",
+          "tr": {
+            "ar": "يا جدّي، ماذا كنتَ تفعل عندما كنتَ صغيرًا؟",
+            "en": "Grandpa, what did you do when you were little?",
+            "id": "Kakek, apa yang Kakek lakukan ketika kecil?"
+          }
+        },
+        {
+          "who": "B",
+          "target": "Je jouais dans le jardin avec mes frères.",
+          "tr": {
+            "ar": "كنتُ ألعب في الحديقة مع إخوتي.",
+            "en": "I used to play in the garden with my brothers.",
+            "id": "Saya dulu bermain di kebun bersama saudara-saudara saya."
+          }
+        },
+        {
+          "who": "A",
+          "target": "Tu avais beaucoup d'amis ?",
+          "tr": {
+            "ar": "هل كان عندك أصدقاء كثيرون؟",
+            "en": "Did you have a lot of friends?",
+            "id": "Apakah Kakek punya banyak teman?"
+          }
+        },
+        {
+          "who": "B",
+          "target": "Oui, nous étions toujours ensemble.",
+          "tr": {
+            "ar": "نعم، كنا دائمًا معًا.",
+            "en": "Yes, we were always together.",
+            "id": "Ya, kami selalu bersama."
+          }
+        }
+      ],
+      "gap": 1,
+      "wrong": [
+        "J'ai joué dans le jardin hier.",
+        "Je vais jouer dans le jardin."
+      ],
+      "why": {
+        "ar": "السؤال عن عادة قديمة يُجاب عنه بالـ imparfait: «je jouais». «j'ai joué hier» حدث واحد، و«je vais jouer» مستقبل.",
+        "en": "A question about an old habit is answered with the imparfait: je jouais. J'ai joué hier is one single event, and je vais jouer is the future.",
+        "id": "Pertanyaan tentang kebiasaan lama dijawab dengan imparfait: je jouais. J'ai joué hier adalah satu kejadian, dan je vais jouer adalah masa depan."
+      }
+    },
+    "summary": {
+      "ar": "تعلمت الـ imparfait: j'étais، j'habitais، nous jouions، il faisait. استعمله للعادات وللوصف، واستعمل الماضي المركّب للحدث. اكتب ثلاث جمل عن طفولتك.",
+      "en": "You learned the imparfait: j'étais, j'habitais, nous jouions, il faisait. Use it for habits and descriptions, and the passé composé for an event. Write three sentences about your childhood.",
+      "id": "Anda mempelajari imparfait: j'étais, j'habitais, nous jouions, il faisait. Pakai untuk kebiasaan dan deskripsi, dan pakai passé composé untuk kejadian. Tulislah tiga kalimat tentang masa kecil Anda."
+    }
+  },
+  {
+    "id": "fr-24",
+    "track": "fr",
+    "level": "intermediate",
+    "order": 24,
+    "topic": "health-advice",
+    "icon": "💊",
+    "title": {
+      "ar": "عند الطبيب والصيدلية",
+      "en": "At the Doctor and Pharmacy",
+      "id": "Di Dokter dan Apotek"
+    },
+    "description": {
+      "ar": "تعلّم وصف الأعراض وفهم النصائح بصيغة الأمر و«il faut».",
+      "en": "Learn to describe symptoms and understand advice with the imperative and il faut.",
+      "id": "Pelajari cara menggambarkan gejala dan memahami saran dengan imperatif dan il faut."
+    },
+    "objectives": [
+      {
+        "ar": "أستطيع وصف أعراض بسيطة: «j'ai de la fièvre» و«je tousse».",
+        "en": "I can describe simple symptoms: j'ai de la fièvre and je tousse.",
+        "id": "Saya bisa menggambarkan gejala sederhana: j'ai de la fièvre dan je tousse."
+      },
+      {
+        "ar": "أفهم صيغة الأمر مع «vous»: «Prenez» و«Buvez».",
+        "en": "I can understand the imperative with vous: Prenez and Buvez.",
+        "id": "Saya bisa memahami imperatif dengan vous: Prenez dan Buvez."
+      },
+      {
+        "ar": "أستعمل «il faut» + مصدر لأقول ما يجب فعله.",
+        "en": "I can use il faut plus an infinitive to say what must be done.",
+        "id": "Saya bisa memakai il faut + infinitif untuk menyatakan apa yang harus dilakukan."
+      }
+    ],
+    "intro": {
+      "ar": "عندما تكون مريضًا في فرنسا تحتاج إلى وصف الأعراض وفهم تعليمات الطبيب والصيدلاني. التعليمات تأتي غالبًا بصيغة الأمر: «Prenez ce médicament». وفي هذا الدرس تتعلم أهم الكلمات لتفهم متى وكيف تأخذ الدواء.",
+      "en": "When you are ill in France you need to describe your symptoms and understand the instructions of the doctor and the pharmacist. Instructions often use the imperative: Prenez ce médicament. In this lesson you learn the key words to understand when and how to take a medicine.",
+      "id": "Ketika sakit di Prancis, Anda perlu menggambarkan gejala dan memahami petunjuk dokter dan apoteker. Petunjuk sering memakai imperatif: Prenez ce médicament. Di pelajaran ini Anda mempelajari kata-kata kunci untuk memahami kapan dan bagaimana meminum obat."
+    },
+    "culture": {
+      "ar": "في فرنسا يُعطى المريض ورقة تُسمّى «ordonnance» (وصفة طبية) يقدمها للصيدلية. والصيدلية تحمل علامة صليب أخضر، ويستطيع الصيدلاني أن ينصح في المشكلات الصحية البسيطة. وتُستعمل بطاقة «carte Vitale» وهي بطاقة التأمين الصحي عند زيارة الطبيب.",
+      "en": "In France the patient receives a paper called an ordonnance, a prescription, and brings it to the pharmacy. Pharmacies are marked with a green cross, and the pharmacist can advise on minor health problems. The carte Vitale, the health insurance card, is used when you visit a doctor.",
+      "id": "Di Prancis pasien menerima kertas yang disebut ordonnance, yaitu resep, dan membawanya ke apotek. Apotek ditandai dengan salib hijau, dan apoteker dapat memberi saran untuk masalah kesehatan ringan. Carte Vitale, kartu asuransi kesehatan, dipakai saat berkunjung ke dokter."
+    },
+    "grammar": {
+      "title": {
+        "ar": "الأمر و«il faut»",
+        "en": "The imperative and il faut",
+        "id": "Imperatif dan il faut"
+      },
+      "body": {
+        "ar": "صيغة الأمر تأخذ المضارع بلا فاعل: «Vous prenez» ← «Prenez !». مع «tu» في أفعال -er نحذف s: «Tu te reposes» ← «Repose-toi !». ومع «vous» نقول: «Prenez» و«Buvez». وللنفي: «Ne fumez pas». ونستعمل «il faut» + مصدر لنقول ما يجب فعله: «Il faut se reposer». ويمكن أيضًا أن نقول بأدب «Vous devez vous reposer». ولاحظ أن «depuis quand» تسأل عن بداية الحالة: «Depuis quand avez-vous mal ?».",
+        "en": "The imperative uses the present tense without the subject: Vous prenez becomes Prenez ! With tu and -er verbs, drop the s: Tu te reposes becomes Repose-toi ! With vous we say Prenez and Buvez. The negative is Ne fumez pas. Use il faut plus an infinitive to say what must be done: Il faut se reposer. With vous you can also say politely Vous devez vous reposer. Depuis quand asks about the start of a state: Depuis quand avez-vous mal ?",
+        "id": "Imperatif memakai kala sekarang tanpa subjek: Vous prenez menjadi Prenez ! Dengan tu pada kata kerja -er, hilangkan s: Tu te reposes menjadi Repose-toi ! Dengan vous dikatakan Prenez dan Buvez. Negatifnya Ne fumez pas. Pakai il faut + infinitif untuk menyatakan apa yang harus dilakukan: Il faut se reposer. Dengan vous juga bisa dikatakan dengan sopan Vous devez vous reposer. Depuis quand menanyakan awal suatu keadaan: Depuis quand avez-vous mal ?"
+      }
+    },
+    "items": [
+      {
+        "id": "fr24n1",
+        "target": "J'ai de la fièvre.",
+        "translit": "zhay duh lah FYEH-vruh",
+        "tr": {
+          "ar": "عندي حمّى.",
+          "en": "I have a fever.",
+          "id": "Saya demam."
+        },
+        "example": {
+          "target": "Depuis hier, j'ai de la fièvre.",
+          "translit": "duh-PWEE yehr zhay duh lah FYEH-vruh",
+          "tr": {
+            "ar": "منذ أمس عندي حمّى.",
+            "en": "Since yesterday I have had a fever.",
+            "id": "Sejak kemarin saya demam."
+          }
+        },
+        "hint": {
+          "ar": "«fièvre» تُنطق «FYEH-vruh» ويُنطق الحرفان «vre» في الآخر خفيفًا.",
+          "en": "Fièvre is said FYEH-vruh, with a light ending.",
+          "id": "Fièvre dibaca FYEH-vruh, dengan akhiran yang ringan."
+        }
+      },
+      {
+        "id": "fr24n2",
+        "target": "Je tousse.",
+        "translit": "zhuh TOOS",
+        "tr": {
+          "ar": "أسعل.",
+          "en": "I am coughing.",
+          "id": "Saya batuk."
+        },
+        "example": {
+          "target": "Je tousse beaucoup la nuit.",
+          "translit": "zhuh toos boh-KOO lah NWEE",
+          "tr": {
+            "ar": "أسعل كثيرًا في الليل.",
+            "en": "I cough a lot at night.",
+            "id": "Saya banyak batuk di malam hari."
+          }
+        },
+        "hint": {
+          "ar": "«tousse» تُنطق «toos»: الحرفان «ou» يُنطقان دائمًا «oo» كالواو، وليس u الفرنسي.",
+          "en": "Tousse is said toos: ou is always the oo sound.",
+          "id": "Tousse dibaca toos: ou selalu berbunyi oo."
+        }
+      },
+      {
+        "id": "fr24n3",
+        "target": "Depuis quand avez-vous mal ?",
+        "translit": "duh-PWEE kah(n) ah-vay-VOO MAHL",
+        "tr": {
+          "ar": "منذ متى تشعر بالألم؟",
+          "en": "Since when have you been in pain?",
+          "id": "Sejak kapan Anda merasa sakit?"
+        },
+        "example": {
+          "target": "Depuis quand avez-vous mal à la gorge ?",
+          "translit": "duh-PWEE kah(n) ah-vay-VOO mahl ah lah GOHRZH",
+          "tr": {
+            "ar": "منذ متى تشعر بألم في الحلق؟",
+            "en": "Since when have you had a sore throat?",
+            "id": "Sejak kapan Anda sakit tenggorokan?"
+          }
+        },
+        "hint": {
+          "ar": "«avez-vous» سؤال مع «vous» بقلب الفاعل. و«la gorge» تعني الحلق.",
+          "en": "Avez-vous is a question with vous and the subject after the verb. La gorge means the throat.",
+          "id": "Avez-vous adalah pertanyaan dengan vous dan subjek setelah kata kerja. La gorge berarti tenggorokan."
+        }
+      },
+      {
+        "id": "fr24n4",
+        "target": "Prenez ce médicament deux fois par jour.",
+        "translit": "pruh-NAY suh may-dee-kah-MAH(n) duh FWAH pahr ZHOOR",
+        "tr": {
+          "ar": "تناول هذا الدواء مرتين في اليوم.",
+          "en": "Take this medicine twice a day.",
+          "id": "Minumlah obat ini dua kali sehari."
+        },
+        "example": {
+          "target": "Prenez ce médicament après le repas.",
+          "translit": "pruh-NAY suh may-dee-kah-MAH(n) ah-PREH luh ruh-PAH",
+          "tr": {
+            "ar": "تناول هذا الدواء بعد الوجبة.",
+            "en": "Take this medicine after the meal.",
+            "id": "Minumlah obat ini setelah makan."
+          }
+        },
+        "hint": {
+          "ar": "«Prenez» هي صيغة الأمر مع vous. و«deux fois par jour» تعني «مرتين في اليوم».",
+          "en": "Prenez is the imperative with vous. Deux fois par jour means twice a day.",
+          "id": "Prenez adalah imperatif dengan vous. Deux fois par jour berarti dua kali sehari."
+        }
+      },
+      {
+        "id": "fr24n5",
+        "target": "Il faut se reposer.",
+        "translit": "eel FOH suh ruh-poh-ZAY",
+        "tr": {
+          "ar": "يجب أن ترتاح.",
+          "en": "You need to rest.",
+          "id": "Perlu beristirahat."
+        },
+        "example": {
+          "target": "Il faut se reposer pendant trois jours.",
+          "translit": "eel foh suh ruh-poh-ZAY pah(n)-DAH(n) trwah ZHOOR",
+          "tr": {
+            "ar": "يجب أن ترتاح ثلاثة أيام.",
+            "en": "You need to rest for three days.",
+            "id": "Perlu beristirahat selama tiga hari."
+          }
+        },
+        "hint": {
+          "ar": "«il faut» لا تتغير، ويأتي بعدها المصدر. و«se reposer» فعل انعكاسي.",
+          "en": "Il faut never changes, and an infinitive follows. Se reposer is a reflexive verb.",
+          "id": "Il faut tidak berubah, dan infinitif mengikutinya. Se reposer adalah kata kerja refleksif."
+        }
+      },
+      {
+        "id": "fr24n6",
+        "target": "Buvez beaucoup d'eau.",
+        "translit": "bew-VAY boh-KOO DOH",
+        "tr": {
+          "ar": "اشرب ماءً كثيرًا.",
+          "en": "Drink lots of water.",
+          "id": "Minumlah banyak air."
+        },
+        "example": {
+          "target": "Buvez beaucoup d'eau et ne fumez pas.",
+          "translit": "bew-VAY boh-KOO DOH ay nuh few-MAY PAH",
+          "tr": {
+            "ar": "اشرب ماءً كثيرًا ولا تدخّن.",
+            "en": "Drink lots of water and do not smoke.",
+            "id": "Minumlah banyak air dan jangan merokok."
+          }
+        },
+        "hint": {
+          "ar": "بعد «beaucoup» نستعمل «de» دون أداة: «beaucoup d'eau». وقبل متحرك تصبح «de» «d'».",
+          "en": "After beaucoup we use de with no article: beaucoup d'eau. Before a vowel de becomes d'.",
+          "id": "Setelah beaucoup dipakai de tanpa artikel: beaucoup d'eau. Sebelum vokal de menjadi d'."
+        }
+      },
+      {
+        "id": "fr24n7",
+        "target": "une ordonnance",
+        "translit": "ewn ohr-doh-NAH(n)S",
+        "tr": {
+          "ar": "وصفة طبية",
+          "en": "a prescription",
+          "id": "sebuah resep"
+        },
+        "example": {
+          "target": "Voici votre ordonnance.",
+          "translit": "vwah-SEE VOH-truh ohr-doh-NAH(n)S",
+          "tr": {
+            "ar": "هذه وصفتك الطبية.",
+            "en": "Here is your prescription.",
+            "id": "Ini resep Anda."
+          }
+        },
+        "hint": {
+          "ar": "الكلمة مؤنثة: «une ordonnance». وحرف an أنفي في «nance».",
+          "en": "The word is feminine: une ordonnance. The an in nance is nasal.",
+          "id": "Kata ini feminin: une ordonnance. An dalam nance adalah sengau."
+        }
+      },
+      {
+        "id": "fr24n8",
+        "target": "Ça va mieux.",
+        "translit": "sah vah MYUH",
+        "tr": {
+          "ar": "أنا أحسن حالًا.",
+          "en": "I feel better.",
+          "id": "Sudah lebih baik."
+        },
+        "example": {
+          "target": "Merci, docteur, ça va mieux.",
+          "translit": "mehr-SEE dohk-TUHR sah vah MYUH",
+          "tr": {
+            "ar": "شكرًا يا دكتور، أنا أحسن حالًا.",
+            "en": "Thank you, doctor, I feel better.",
+            "id": "Terima kasih, Dok, sudah lebih baik."
+          }
+        },
+        "hint": {
+          "ar": "«mieux» تُنطق «myuh». وهي تعني «أفضل» بعد فعل مثل «aller».",
+          "en": "Mieux is said myuh. It means better after a verb such as aller.",
+          "id": "Mieux dibaca myuh. Artinya lebih baik setelah kata kerja seperti aller."
+        }
+      }
+    ],
+    "cloze": [
+      {
+        "sentence": "Madame, ___ ce sirop trois fois par jour.",
+        "answer": "Prenez",
+        "wrong": [
+          "Prends",
+          "Prendre"
+        ],
+        "tr": {
+          "ar": "يا سيدتي، تناولي هذا الشراب ثلاث مرات في اليوم.",
+          "en": "Madam, take this syrup three times a day.",
+          "id": "Bu, minumlah sirop ini tiga kali sehari."
+        },
+        "why": {
+          "ar": "نخاطب السيدة بـ«vous»، فصيغة الأمر هي «Prenez». «Prends» مع tu، و«Prendre» مصدر.",
+          "en": "We address a lady with vous, so the imperative is Prenez. Prends is for tu and Prendre is the infinitive.",
+          "id": "Kepada seorang ibu dipakai vous, jadi imperatifnya Prenez. Prends untuk tu dan Prendre adalah infinitif."
+        }
+      },
+      {
+        "sentence": "Il ___ boire beaucoup d'eau.",
+        "answer": "faut",
+        "wrong": [
+          "est",
+          "a"
+        ],
+        "tr": {
+          "ar": "يجب شرب ماء كثير.",
+          "en": "You must drink a lot of water.",
+          "id": "Harus minum banyak air."
+        },
+        "why": {
+          "ar": "التعبير الثابت «il faut» + مصدر يعني «يجب».",
+          "en": "The fixed phrase il faut plus an infinitive means one must.",
+          "id": "Ungkapan tetap il faut + infinitif berarti harus."
+        }
+      }
+    ],
+    "conversation": {
+      "context": {
+        "ar": "عند الطبيب: مريض يشكو من الحمّى والسعال.",
+        "en": "At the doctor's: a patient complains of fever and a cough.",
+        "id": "Di praktik dokter: seorang pasien mengeluh demam dan batuk."
+      },
+      "turns": [
+        {
+          "who": "A",
+          "target": "Bonjour, qu'est-ce qui ne va pas ?",
+          "tr": {
+            "ar": "مرحبًا، ما المشكلة؟",
+            "en": "Hello, what is the matter?",
+            "id": "Selamat siang, apa keluhan Anda?"
+          }
+        },
+        {
+          "who": "B",
+          "target": "J'ai de la fièvre et je tousse.",
+          "tr": {
+            "ar": "عندي حمّى وأسعل.",
+            "en": "I have a fever and I cough.",
+            "id": "Saya demam dan batuk."
+          }
+        },
+        {
+          "who": "A",
+          "target": "Prenez ce médicament deux fois par jour.",
+          "tr": {
+            "ar": "تناول هذا الدواء مرتين في اليوم.",
+            "en": "Take this medicine twice a day.",
+            "id": "Minumlah obat ini dua kali sehari."
+          }
+        },
+        {
+          "who": "B",
+          "target": "Merci, docteur.",
+          "tr": {
+            "ar": "شكرًا يا دكتور.",
+            "en": "Thank you, doctor.",
+            "id": "Terima kasih, Dok."
+          }
+        }
+      ],
+      "gap": 2,
+      "wrong": [
+        "J'ai pris ce médicament hier.",
+        "Ça va mieux, merci."
+      ],
+      "why": {
+        "ar": "الطبيب يعطي تعليمات بصيغة الأمر مع «vous»: «Prenez ...». الردان الآخران لا يعطيان تعليمات.",
+        "en": "A doctor gives instructions in the imperative with vous: Prenez ... The other two replies do not give instructions.",
+        "id": "Dokter memberi petunjuk dengan imperatif vous: Prenez ... Dua jawaban lain tidak memberi petunjuk."
+      }
+    },
+    "summary": {
+      "ar": "تعلمت وصف الأعراض، وصيغة الأمر مع vous، وتعبير «il faut». تدرّب على قول «J'ai mal à ...» و«Prenez ...» حتى تفهم الطبيب بسهولة.",
+      "en": "You learned to describe symptoms, the imperative with vous and the phrase il faut. Practise J'ai mal à ... and Prenez ... so that you understand a doctor easily.",
+      "id": "Anda mempelajari cara menggambarkan gejala, imperatif dengan vous, dan ungkapan il faut. Latihlah J'ai mal à ... dan Prenez ... agar mudah memahami dokter."
+    }
+  },
+  {
+    "id": "fr-25",
+    "track": "fr",
+    "level": "intermediate",
+    "order": 25,
+    "topic": "work-studies",
+    "icon": "💼",
+    "title": {
+      "ar": "العمل والدراسة",
+      "en": "Work and Studies",
+      "id": "Pekerjaan dan Studi"
+    },
+    "description": {
+      "ar": "تعلّم الكلام عن مهنتك ودراستك واستعمال «depuis» و«pendant» و«il y a».",
+      "en": "Learn to talk about your job and studies and to use depuis, pendant and il y a.",
+      "id": "Pelajari cara membicarakan pekerjaan dan studi serta memakai depuis, pendant, dan il y a."
+    },
+    "objectives": [
+      {
+        "ar": "أستطيع أن أذكر مهنتي أو دراستي: «je suis étudiant» و«je travaille dans une banque».",
+        "en": "I can give my job or studies: je suis étudiant and je travaille dans une banque.",
+        "id": "Saya bisa menyebut pekerjaan atau studi saya: je suis étudiant dan je travaille dans une banque."
+      },
+      {
+        "ar": "أفرّق بين «je suis médecin» و«c'est un médecin».",
+        "en": "I can tell je suis médecin from c'est un médecin.",
+        "id": "Saya bisa membedakan je suis médecin dari c'est un médecin."
+      },
+      {
+        "ar": "أستعمل «depuis» و«pendant» و«il y a» للمدة.",
+        "en": "I can use depuis, pendant and il y a for time.",
+        "id": "Saya bisa memakai depuis, pendant, dan il y a untuk menyatakan waktu."
+      }
+    ],
+    "intro": {
+      "ar": "في المقابلات والتعارف يسأل الناس: «Qu'est-ce que vous faites dans la vie ?» أي ماذا تعمل؟ في هذا الدرس تتعلم أن تتكلم عن عملك ودراستك، وأن تقول منذ متى وكم مدة وكم مضى من الوقت.",
+      "en": "In interviews and when meeting people, you are asked Qu'est-ce que vous faites dans la vie ?, what do you do for a living? In this lesson you learn to talk about your job and studies and to say since when, for how long and how long ago.",
+      "id": "Dalam wawancara dan perkenalan, orang bertanya Qu'est-ce que vous faites dans la vie ?, apa pekerjaan Anda? Di pelajaran ini Anda belajar membicarakan pekerjaan dan studi serta menyatakan sejak kapan, selama berapa lama, dan berapa lama yang lalu."
+    },
+    "culture": {
+      "ar": "في فرنسا يسمّى العقد الدائم «CDI» والعقد المحدد المدة «CDD»، وفترة التدريب تسمى «stage». وعند طلب عمل يُقدَّم «CV» ورسالة تحفيز، ثم تأتي مقابلة العمل «entretien d'embauche». وفي العمل تُستعمل «vous» غالبًا مع الرئيس ومع من لا تعرفه بعد، لكن كثيرًا من الزملاء ينتقلون سريعًا إلى «tu».",
+      "en": "In France a permanent contract is called a CDI, a fixed-term contract a CDD, and an internship a stage. When applying for a job you send a CV and a cover letter, and then comes a job interview, an entretien d'embauche. At work vous is common with a boss and with people you do not know yet, but many colleagues quickly switch to tu.",
+      "id": "Di Prancis kontrak tetap disebut CDI, kontrak berjangka CDD, dan magang disebut stage. Saat melamar kerja Anda mengirim CV dan surat motivasi, lalu ada wawancara kerja, entretien d'embauche. Di tempat kerja vous umum dipakai kepada atasan dan orang yang belum dikenal, tetapi banyak rekan kerja cepat beralih ke tu."
+    },
+    "grammar": {
+      "title": {
+        "ar": "المهنة بلا أداة، و«depuis» و«pendant» و«il y a»",
+        "en": "Jobs without an article; depuis, pendant, il y a",
+        "id": "Pekerjaan tanpa artikel; depuis, pendant, il y a"
+      },
+      "body": {
+        "ar": "نذكر المهنة بدون أداة بعد «être»: «Je suis étudiant» و«Elle est médecin». لكن مع «c'est» نستعمل أداة: «C'est un étudiant». أما المدة: «depuis» + مدة مع المضارع تعني أن الحالة مستمرة حتى الآن: «Je travaille ici depuis deux ans». و«pendant» + مدة تعني مدة منتهية غالبًا مع الماضي: «J'ai étudié pendant trois ans». و«il y a» + مدة + ماضٍ تعني «منذ»: «J'ai commencé il y a trois ans».",
+        "en": "We give a job with no article after être: Je suis étudiant and Elle est médecin. But with c'est we use an article: C'est un étudiant. For duration: depuis plus a period with the present means the state continues until now: Je travaille ici depuis deux ans. Pendant plus a period means a finished period, often with a past tense: J'ai étudié pendant trois ans. Il y a plus a period plus a past tense means ago: J'ai commencé il y a trois ans.",
+        "id": "Pekerjaan disebut tanpa artikel setelah être: Je suis étudiant dan Elle est médecin. Tetapi dengan c'est dipakai artikel: C'est un étudiant. Untuk durasi: depuis + periode dengan kala sekarang berarti keadaan masih berlangsung hingga kini: Je travaille ici depuis deux ans. Pendant + periode berarti periode yang sudah selesai, sering dengan kala lampau: J'ai étudié pendant trois ans. Il y a + periode + kala lampau berarti yang lalu: J'ai commencé il y a trois ans."
+      }
+    },
+    "items": [
+      {
+        "id": "fr25n1",
+        "target": "Je suis étudiant en droit.",
+        "translit": "zhuh swee zay-tew-DYAH(n) ah(n) DRWAH",
+        "tr": {
+          "ar": "أنا طالب حقوق.",
+          "en": "I am a law student.",
+          "id": "Saya mahasiswa hukum."
+        },
+        "example": {
+          "target": "Je suis étudiant en droit à Lyon.",
+          "translit": "zhuh swee zay-tew-DYAH(n) ah(n) drwah ah lee-O(n)",
+          "tr": {
+            "ar": "أنا طالب حقوق في ليون.",
+            "en": "I am a law student in Lyon.",
+            "id": "Saya mahasiswa hukum di Lyon."
+          }
+        },
+        "hint": {
+          "ar": "لا نضع أداة قبل «étudiant». وتُنطق «je suis étudiant» بربط: «zhuh swee zay-tew-DYAH(n)». وللطالبة «étudiante».",
+          "en": "No article before étudiant. There is a liaison: zhuh swee zay-tew-DYAH(n). A female student is étudiante.",
+          "id": "Tidak ada artikel sebelum étudiant. Ada liaison: zhuh swee zay-tew-DYAH(n). Mahasiswi adalah étudiante."
+        }
+      },
+      {
+        "id": "fr25n2",
+        "target": "Je travaille dans une banque.",
+        "translit": "zhuh trah-VAHY dah(n) zewn BAH(n)K",
+        "tr": {
+          "ar": "أعمل في مصرف.",
+          "en": "I work in a bank.",
+          "id": "Saya bekerja di sebuah bank."
+        },
+        "example": {
+          "target": "Mon père travaille dans une banque à Paris.",
+          "translit": "mo(n) PEHR trah-VAHY dah(n) zewn bah(n)k ah pah-REE",
+          "tr": {
+            "ar": "أبي يعمل في مصرف في باريس.",
+            "en": "My father works in a bank in Paris.",
+            "id": "Ayah saya bekerja di sebuah bank di Paris."
+          }
+        },
+        "hint": {
+          "ar": "«travaille» تُنطق «trah-VAHY»: الحرفان ill يُنطقان y. و«dans une» يُربط بـ z.",
+          "en": "Travaille is said trah-VAHY: ill sounds like y. Dans une has a liaison with z.",
+          "id": "Travaille dibaca trah-VAHY: ill berbunyi y. Dans une memakai liaison dengan z."
+        }
+      },
+      {
+        "id": "fr25n3",
+        "target": "Je cherche du travail.",
+        "translit": "zhuh SHEHRSH dew trah-VAHY",
+        "tr": {
+          "ar": "أبحث عن عمل.",
+          "en": "I am looking for work.",
+          "id": "Saya mencari pekerjaan."
+        },
+        "example": {
+          "target": "Je cherche du travail depuis un mois.",
+          "translit": "zhuh shehrsh dew trah-VAHY duh-PWEE uh(n) MWAH",
+          "tr": {
+            "ar": "أبحث عن عمل منذ شهر.",
+            "en": "I have been looking for work for a month.",
+            "id": "Saya sudah mencari pekerjaan selama sebulan."
+          }
+        },
+        "hint": {
+          "ar": "«du travail» هنا بمعنى «عمل» بوجه عام. و«ch» تُنطق «sh».",
+          "en": "Du travail means work in general. The ch is said sh.",
+          "id": "Du travail berarti pekerjaan secara umum. Ch dibaca sh."
+        }
+      },
+      {
+        "id": "fr25n4",
+        "target": "Il est infirmier.",
+        "translit": "eel eh teh(n)-feer-MYAY",
+        "tr": {
+          "ar": "هو ممرض.",
+          "en": "He is a nurse.",
+          "id": "Dia perawat laki-laki."
+        },
+        "example": {
+          "target": "Il est infirmier dans un hôpital.",
+          "translit": "eel eh teh(n)-feer-MYAY dah(n) zuh(n) noh-pee-TAHL",
+          "tr": {
+            "ar": "هو ممرض في مستشفى.",
+            "en": "He is a nurse in a hospital.",
+            "id": "Dia perawat di sebuah rumah sakit."
+          }
+        },
+        "hint": {
+          "ar": "للمؤنث «infirmière». ولا نضع أداة بعد «est» مع المهنة.",
+          "en": "The feminine is infirmière. No article after est with a job.",
+          "id": "Femininnya infirmière. Tidak ada artikel setelah est untuk pekerjaan."
+        }
+      },
+      {
+        "id": "fr25n5",
+        "target": "Je travaille ici depuis deux ans.",
+        "translit": "zhuh trah-VAHY ee-SEE duh-PWEE duh ZAH(n)",
+        "tr": {
+          "ar": "أعمل هنا منذ سنتين.",
+          "en": "I have worked here for two years.",
+          "id": "Saya sudah bekerja di sini selama dua tahun."
+        },
+        "example": {
+          "target": "Elle habite à Paris depuis cinq ans.",
+          "translit": "ehl ah-BEET ah pah-REE duh-PWEE seh(n)-KAH(n)",
+          "tr": {
+            "ar": "تسكن في باريس منذ خمس سنوات.",
+            "en": "She has lived in Paris for five years.",
+            "id": "Dia sudah tinggal di Paris selama lima tahun."
+          }
+        },
+        "hint": {
+          "ar": "مع «depuis» نستعمل المضارع لأن الحالة مستمرة. و«deux ans» تُربط: «duh ZAH(n)».",
+          "en": "With depuis we use the present because the state continues. Deux ans has a liaison: duh ZAH(n).",
+          "id": "Dengan depuis dipakai kala sekarang karena keadaan berlanjut. Deux ans memakai liaison: duh ZAH(n)."
+        }
+      },
+      {
+        "id": "fr25n6",
+        "target": "J'ai étudié pendant trois ans.",
+        "translit": "zhay ay-tew-DYAY pah(n)-DAH(n) trwah ZAH(n)",
+        "tr": {
+          "ar": "درستُ مدة ثلاث سنوات.",
+          "en": "I studied for three years.",
+          "id": "Saya belajar selama tiga tahun."
+        },
+        "example": {
+          "target": "J'ai travaillé à Marseille pendant un an.",
+          "translit": "zhay trah-vah-YAY ah mahr-SEHY pah(n)-DAH(n) uh(n) AH(n)",
+          "tr": {
+            "ar": "عملتُ في مرسيليا مدة سنة.",
+            "en": "I worked in Marseille for a year.",
+            "id": "Saya bekerja di Marseille selama setahun."
+          }
+        },
+        "hint": {
+          "ar": "«pendant» تُنطق «pah(n)-DAH(n)» بصوتين أنفيين. وتأتي مع مدة انتهت.",
+          "en": "Pendant has two nasal sounds: pah(n)-DAH(n). It is used with a period that has ended.",
+          "id": "Pendant punya dua bunyi sengau: pah(n)-DAH(n). Dipakai untuk periode yang sudah selesai."
+        }
+      },
+      {
+        "id": "fr25n7",
+        "target": "un entretien d'embauche",
+        "translit": "uh(n) nah(n)-truh-TYEH(n) dah(n)-BOHSH",
+        "tr": {
+          "ar": "مقابلة عمل",
+          "en": "a job interview",
+          "id": "wawancara kerja"
+        },
+        "example": {
+          "target": "J'ai un entretien d'embauche demain.",
+          "translit": "zhay uh(n) nah(n)-truh-TYEH(n) dah(n)-BOHSH duh-MEH(n)",
+          "tr": {
+            "ar": "عندي مقابلة عمل غدًا.",
+            "en": "I have a job interview tomorrow.",
+            "id": "Besok saya ada wawancara kerja."
+          }
+        },
+        "hint": {
+          "ar": "«un entretien» تُربط بـ n: «uh(n) nah(n)-...». والكلمة مذكرة.",
+          "en": "Un entretien has a liaison with n. The noun is masculine.",
+          "id": "Un entretien memakai liaison dengan n. Kata benda ini maskulin."
+        }
+      },
+      {
+        "id": "fr25n8",
+        "target": "il y a trois ans",
+        "translit": "eel yah trwah ZAH(n)",
+        "tr": {
+          "ar": "منذ ثلاث سنوات",
+          "en": "three years ago",
+          "id": "tiga tahun yang lalu"
+        },
+        "example": {
+          "target": "J'ai commencé ici il y a trois ans.",
+          "translit": "zhay koh-mah(n)-SAY ee-SEE eel yah trwah ZAH(n)",
+          "tr": {
+            "ar": "بدأتُ هنا منذ ثلاث سنوات.",
+            "en": "I started here three years ago.",
+            "id": "Saya mulai di sini tiga tahun yang lalu."
+          }
+        },
+        "hint": {
+          "ar": "«il y a» + مدة بمعنى «منذ» مع حدث في الماضي. وهي العبارة نفسها «il y a» التي تعني «يوجد».",
+          "en": "Il y a plus a period means ago with a past event. It is the same phrase as il y a, there is.",
+          "id": "Il y a + periode berarti yang lalu dengan kejadian lampau. Frasa ini sama dengan il y a yang berarti ada."
+        }
+      }
+    ],
+    "cloze": [
+      {
+        "sentence": "Elle est ___ depuis un an.",
+        "answer": "médecin",
+        "wrong": [
+          "un médecin",
+          "le médecin"
+        ],
+        "tr": {
+          "ar": "هي طبيبة منذ سنة.",
+          "en": "She has been a doctor for a year.",
+          "id": "Dia sudah menjadi dokter selama setahun."
+        },
+        "why": {
+          "ar": "بعد «est» تأتي المهنة بلا أداة: «est médecin».",
+          "en": "After est the job has no article: est médecin.",
+          "id": "Setelah est pekerjaan tidak memakai artikel: est médecin."
+        }
+      },
+      {
+        "sentence": "J'habite ici ___ trois ans.",
+        "answer": "depuis",
+        "wrong": [
+          "pendant",
+          "il y a"
+        ],
+        "tr": {
+          "ar": "أسكن هنا منذ ثلاث سنوات.",
+          "en": "I have lived here for three years.",
+          "id": "Saya sudah tinggal di sini selama tiga tahun."
+        },
+        "why": {
+          "ar": "حالة مستمرة حتى الآن مع المضارع: «depuis». «pendant» لمدة منتهية و«il y a» مع حدث ماضٍ.",
+          "en": "A state that continues until now with the present: depuis. Pendant is for a finished period and il y a goes with a past event.",
+          "id": "Keadaan yang berlanjut sampai sekarang dengan kala sekarang: depuis. Pendant untuk periode selesai dan il y a untuk kejadian lampau."
+        }
+      }
+    ],
+    "conversation": {
+      "context": {
+        "ar": "في مقابلة عمل قصيرة: المسؤول يسأل المرشح.",
+        "en": "In a short job interview: the manager asks the candidate.",
+        "id": "Dalam wawancara kerja singkat: manajer bertanya kepada pelamar."
+      },
+      "turns": [
+        {
+          "who": "A",
+          "target": "Vous travaillez où maintenant ?",
+          "tr": {
+            "ar": "أين تعمل الآن؟",
+            "en": "Where do you work now?",
+            "id": "Sekarang Anda bekerja di mana?"
+          }
+        },
+        {
+          "who": "B",
+          "target": "Je travaille dans une banque depuis deux ans.",
+          "tr": {
+            "ar": "أعمل في مصرف منذ سنتين.",
+            "en": "I have worked in a bank for two years.",
+            "id": "Saya sudah bekerja di sebuah bank selama dua tahun."
+          }
+        },
+        {
+          "who": "A",
+          "target": "Et avant, qu'est-ce que vous avez fait ?",
+          "tr": {
+            "ar": "وماذا فعلتَ قبل ذلك؟",
+            "en": "And before that, what did you do?",
+            "id": "Dan sebelumnya, apa yang Anda kerjakan?"
+          }
+        },
+        {
+          "who": "B",
+          "target": "J'ai étudié le droit pendant trois ans.",
+          "tr": {
+            "ar": "درستُ الحقوق مدة ثلاث سنوات.",
+            "en": "I studied law for three years.",
+            "id": "Saya belajar hukum selama tiga tahun."
+          }
+        }
+      ],
+      "gap": 1,
+      "wrong": [
+        "Je travaille dans une banque il y a deux ans.",
+        "J'étudie le droit à Lyon."
+      ],
+      "why": {
+        "ar": "السؤال «où» عن مكان العمل، والجواب «dans une banque ... depuis deux ans». «il y a deux ans» تخص حدثًا ماضيًا، والرد الأخير لا يذكر مكان العمل.",
+        "en": "The question où asks about the workplace, and the answer is dans une banque ... depuis deux ans. Il y a deux ans goes with a past event, and the last reply does not give a workplace.",
+        "id": "Pertanyaan où menanyakan tempat kerja, dan jawabannya dans une banque ... depuis deux ans. Il y a deux ans untuk kejadian lampau, dan jawaban terakhir tidak menyebut tempat kerja."
+      }
+    },
+    "summary": {
+      "ar": "تعلمت الكلام عن مهنتك: «je suis étudiant» و«je travaille dans ...»، واستعمال «depuis» مع المضارع و«pendant» و«il y a» مع الماضي. قدّم نفسك في جملتين مع المدة.",
+      "en": "You learned to talk about your job with je suis étudiant and je travaille dans ..., and to use depuis with the present and pendant and il y a with the past. Introduce yourself in two sentences with a duration.",
+      "id": "Anda mempelajari cara membicarakan pekerjaan dengan je suis étudiant dan je travaille dans ..., serta memakai depuis dengan kala sekarang, dan pendant serta il y a dengan kala lampau. Perkenalkan diri Anda dalam dua kalimat dengan durasi."
+    }
+  },
+  {
+    "id": "fr-26",
+    "track": "fr",
+    "level": "intermediate",
+    "order": 26,
+    "topic": "comparing-choices",
+    "icon": "⚖️",
+    "title": {
+      "ar": "المقارنة والاختيار",
+      "en": "Comparing and Choosing",
+      "id": "Membandingkan dan Memilih"
+    },
+    "description": {
+      "ar": "تعلّم المقارنة بـ«plus» و«moins» و«aussi» وصيغة التفضيل «le plus».",
+      "en": "Learn to compare with plus, moins and aussi and the superlative le plus.",
+      "id": "Pelajari cara membandingkan dengan plus, moins, dan aussi serta superlatif le plus."
+    },
+    "objectives": [
+      {
+        "ar": "أستطيع المقارنة: «plus grand que» و«moins cher que» و«aussi bon que».",
+        "en": "I can compare: plus grand que, moins cher que, aussi bon que.",
+        "id": "Saya bisa membandingkan: plus grand que, moins cher que, aussi bon que."
+      },
+      {
+        "ar": "أستطيع صيغة التفضيل: «le plus beau» و«la meilleure».",
+        "en": "I can use the superlative: le plus beau and la meilleure.",
+        "id": "Saya bisa memakai superlatif: le plus beau dan la meilleure."
+      },
+      {
+        "ar": "أفرّق بين «meilleur» و«mieux».",
+        "en": "I can tell meilleur from mieux.",
+        "id": "Saya bisa membedakan meilleur dari mieux."
+      }
+    ],
+    "intro": {
+      "ar": "عندما تختار شقة أو هاتفًا أو رحلة فأنت تقارن بين الأشياء. في الفرنسية نقارن بكلمات صغيرة: plus (أكثر) وmoins (أقل) وaussi (بالقدر نفسه) ثم «que». وفي هذا الدرس تتعلم أن تقارن وتختار.",
+      "en": "When you choose a flat, a phone or a trip, you compare things. In French we compare with small words: plus (more), moins (less) and aussi (as) followed by que. In this lesson you learn to compare and to choose.",
+      "id": "Ketika memilih apartemen, ponsel, atau perjalanan, Anda membandingkan berbagai hal. Dalam bahasa Prancis kita membandingkan dengan kata-kata kecil: plus (lebih), moins (kurang), dan aussi (sama) diikuti que. Di pelajaran ini Anda belajar membandingkan dan memilih."
+    },
+    "culture": {
+      "ar": "لإبداء الرأي يقول الناس «à mon avis» أي في رأيي. وتُقام «les soldes» أي التخفيضات الرسمية مرتين في السنة، في الشتاء والصيف، وفيها يقارن الناس الأسعار كثيرًا. وعبارة «rapport qualité-prix» تعني نسبة الجودة إلى السعر.",
+      "en": "To give an opinion people say à mon avis, in my opinion. Les soldes, the official sales, take place twice a year, in winter and in summer, and people compare prices a lot. The phrase rapport qualité-prix means value for money.",
+      "id": "Untuk menyampaikan pendapat orang berkata à mon avis, menurut saya. Les soldes, obral resmi, berlangsung dua kali setahun, pada musim dingin dan musim panas, dan orang banyak membandingkan harga. Ungkapan rapport qualité-prix berarti kesesuaian mutu dengan harga."
+    },
+    "grammar": {
+      "title": {
+        "ar": "المقارنة والتفضيل",
+        "en": "Comparatives and superlatives",
+        "id": "Komparatif dan superlatif"
+      },
+      "body": {
+        "ar": "مع الصفة: «plus + صفة + que» (أكثر)، «moins + صفة + que» (أقل)، «aussi + صفة + que» (مثل). مع الاسم: «plus de» و«moins de» و«autant de». التفضيل: «le/la/les plus + صفة»: «C'est le plus beau». ومع «bon» نقول «meilleur»: «Ce plan est meilleur», وليس «plus bon». ومع الفعل نقول «mieux» (من «bien»): «Elle chante mieux». وتتفق الصفة مع الاسم: «la meilleure solution».",
+        "en": "With an adjective: plus + adjective + que (more), moins + adjective + que (less), aussi + adjective + que (as). With a noun: plus de, moins de, autant de. The superlative is le/la/les plus + adjective: C'est le plus beau. With bon we say meilleur: Ce plan est meilleur, not plus bon. With a verb we say mieux (from bien): Elle chante mieux. The adjective agrees with the noun: la meilleure solution.",
+        "id": "Dengan kata sifat: plus + kata sifat + que (lebih), moins + kata sifat + que (kurang), aussi + kata sifat + que (sama). Dengan kata benda: plus de, moins de, autant de. Superlatif adalah le/la/les plus + kata sifat: C'est le plus beau. Dengan bon dikatakan meilleur: Ce plan est meilleur, bukan plus bon. Dengan kata kerja dikatakan mieux (dari bien): Elle chante mieux. Kata sifat menyesuaikan dengan kata benda: la meilleure solution."
+      }
+    },
+    "items": [
+      {
+        "id": "fr26n1",
+        "target": "plus grand que",
+        "translit": "plew GRAH(n) kuh",
+        "tr": {
+          "ar": "أكبر من",
+          "en": "bigger than",
+          "id": "lebih besar dari"
+        },
+        "example": {
+          "target": "Cet appartement est plus grand que l'autre.",
+          "translit": "seh-tah-pahr-tuh-MAH(n) eh plew grah(n) kuh LOH-truh",
+          "tr": {
+            "ar": "هذه الشقة أكبر من الأخرى.",
+            "en": "This flat is bigger than the other one.",
+            "id": "Apartemen ini lebih besar daripada yang lain."
+          }
+        },
+        "hint": {
+          "ar": "«plus» قبل صفة تُنطق «plew» دون s. و«que» قبل متحرك تصبح «qu'».",
+          "en": "Before an adjective plus is said plew with no s. Que becomes qu' before a vowel.",
+          "id": "Sebelum kata sifat plus dibaca plew tanpa s. Que menjadi qu' sebelum vokal."
+        }
+      },
+      {
+        "id": "fr26n2",
+        "target": "moins cher que",
+        "translit": "mwah(n) SHEHR kuh",
+        "tr": {
+          "ar": "أرخص من",
+          "en": "cheaper than",
+          "id": "lebih murah dari"
+        },
+        "example": {
+          "target": "Le train est moins cher que l'avion.",
+          "translit": "luh TREH(n) eh mwah(n) shehr kuh lah-VYO(n)",
+          "tr": {
+            "ar": "القطار أرخص من الطائرة.",
+            "en": "The train is cheaper than the plane.",
+            "id": "Kereta lebih murah daripada pesawat."
+          }
+        },
+        "hint": {
+          "ar": "«moins cher» تعني حرفيًا «أقل غلاءً»، أي «أرخص».",
+          "en": "Moins cher literally means less expensive, so cheaper.",
+          "id": "Moins cher secara harfiah berarti kurang mahal, jadi lebih murah."
+        }
+      },
+      {
+        "id": "fr26n3",
+        "target": "aussi bon que",
+        "translit": "oh-SEE bo(n) kuh",
+        "tr": {
+          "ar": "بنفس جودة",
+          "en": "as good as",
+          "id": "sama bagusnya dengan"
+        },
+        "example": {
+          "target": "Ce café est aussi bon que celui-là.",
+          "translit": "suh kah-FAY eh oh-see BO(n) kuh suh-lwee-LAH",
+          "tr": {
+            "ar": "هذه القهوة جيدة مثل تلك.",
+            "en": "This coffee is as good as that one.",
+            "id": "Kopi ini sama enaknya dengan yang itu."
+          }
+        },
+        "hint": {
+          "ar": "«aussi ... que» تعني التساوي. و«celui-là» تعني «ذاك» للمذكر.",
+          "en": "Aussi ... que means equality. Celui-là means that one for a masculine noun.",
+          "id": "Aussi ... que menyatakan kesamaan. Celui-là berarti yang itu untuk kata benda maskulin."
+        }
+      },
+      {
+        "id": "fr26n4",
+        "target": "C'est le plus beau.",
+        "translit": "seh luh plew BOH",
+        "tr": {
+          "ar": "هو الأجمل.",
+          "en": "It is the most beautiful.",
+          "id": "Itu yang paling indah."
+        },
+        "example": {
+          "target": "C'est le plus beau quartier de la ville.",
+          "translit": "seh luh plew boh kahr-TYAY duh lah VEEL",
+          "tr": {
+            "ar": "إنه أجمل حيّ في المدينة.",
+            "en": "It is the most beautiful district of the city.",
+            "id": "Itu lingkungan terindah di kota."
+          }
+        },
+        "hint": {
+          "ar": "للتفضيل نضع «le plus» قبل الصفة. والصفة «beau» تتفق مع الاسم.",
+          "en": "For the superlative we put le plus before the adjective. The adjective beau agrees with the noun.",
+          "id": "Untuk superlatif, le plus diletakkan sebelum kata sifat. Kata sifat beau menyesuaikan dengan kata benda."
+        }
+      },
+      {
+        "id": "fr26n5",
+        "target": "C'est la meilleure solution.",
+        "translit": "seh lah meh-YUHR soh-lew-SYO(n)",
+        "tr": {
+          "ar": "هذا هو أفضل حل.",
+          "en": "It is the best solution.",
+          "id": "Itu solusi terbaik."
+        },
+        "example": {
+          "target": "Ce plan est meilleur que l'autre.",
+          "translit": "suh PLAH(n) eh meh-YUHR kuh LOH-truh",
+          "tr": {
+            "ar": "هذه الخطة أفضل من الأخرى.",
+            "en": "This plan is better than the other one.",
+            "id": "Rencana ini lebih baik daripada yang lain."
+          }
+        },
+        "hint": {
+          "ar": "«meilleur» هي صيغة «bon» للمقارنة، ومؤنثها «meilleure». و«ill» تُنطق «y».",
+          "en": "Meilleur is the comparative of bon; the feminine is meilleure. The ill sounds like y.",
+          "id": "Meilleur adalah bentuk komparatif bon; femininnya meilleure. Ill berbunyi y."
+        }
+      },
+      {
+        "id": "fr26n6",
+        "target": "Je cours plus vite que toi.",
+        "translit": "zhuh KOOR plew VEET kuh TWAH",
+        "tr": {
+          "ar": "أركض أسرع منك.",
+          "en": "I run faster than you.",
+          "id": "Saya berlari lebih cepat darimu."
+        },
+        "example": {
+          "target": "Mon frère court plus vite que moi.",
+          "translit": "mo(n) FREHR KOOR plew veet kuh MWAH",
+          "tr": {
+            "ar": "أخي يركض أسرع مني.",
+            "en": "My brother runs faster than me.",
+            "id": "Saudara laki-laki saya berlari lebih cepat dari saya."
+          }
+        },
+        "hint": {
+          "ar": "بعد «que» نستعمل ضمائر الانفصال: «moi» و«toi» وليس «je» و«tu».",
+          "en": "After que we use stressed pronouns: moi and toi, not je and tu.",
+          "id": "Setelah que dipakai kata ganti tonik: moi dan toi, bukan je dan tu."
+        }
+      },
+      {
+        "id": "fr26n7",
+        "target": "Il y a moins de bruit.",
+        "translit": "eel yah mwah(n) duh BRWEE",
+        "tr": {
+          "ar": "هناك ضجيج أقل.",
+          "en": "There is less noise.",
+          "id": "Ada lebih sedikit kebisingan."
+        },
+        "example": {
+          "target": "Dans ce quartier, il y a moins de bruit.",
+          "translit": "dah(n) suh kahr-TYAY eel yah mwah(n) duh BRWEE",
+          "tr": {
+            "ar": "في هذا الحي ضجيج أقل.",
+            "en": "In this district there is less noise.",
+            "id": "Di lingkungan ini ada lebih sedikit kebisingan."
+          }
+        },
+        "hint": {
+          "ar": "مع الاسم نقول «moins de» و«plus de» بلا أداة تعريف.",
+          "en": "With a noun we say moins de and plus de with no article.",
+          "id": "Dengan kata benda dikatakan moins de dan plus de tanpa artikel."
+        }
+      },
+      {
+        "id": "fr26n8",
+        "target": "Lequel est le moins cher ?",
+        "translit": "luh-KEHL eh luh mwah(n) SHEHR",
+        "tr": {
+          "ar": "أيّها الأرخص؟",
+          "en": "Which one is the cheapest?",
+          "id": "Yang mana yang paling murah?"
+        },
+        "example": {
+          "target": "Lequel est le plus grand ?",
+          "translit": "luh-KEHL eh luh plew GRAH(n)",
+          "tr": {
+            "ar": "أيّها الأكبر؟",
+            "en": "Which one is the biggest?",
+            "id": "Yang mana yang paling besar?"
+          }
+        },
+        "hint": {
+          "ar": "«lequel» تسأل عن واحد من بين اثنين أو أكثر للمذكر. وللمؤنث «laquelle».",
+          "en": "Lequel asks which one of two or more, masculine. The feminine is laquelle.",
+          "id": "Lequel menanyakan yang mana dari dua atau lebih, maskulin. Femininnya laquelle."
+        }
+      }
+    ],
+    "cloze": [
+      {
+        "sentence": "Cet appartement est ___ grand que l'autre.",
+        "answer": "plus",
+        "wrong": [
+          "très",
+          "plus de"
+        ],
+        "tr": {
+          "ar": "هذه الشقة أكبر من الأخرى.",
+          "en": "This flat is bigger than the other one.",
+          "id": "Apartemen ini lebih besar daripada yang lain."
+        },
+        "why": {
+          "ar": "المقارنة مع صفة: «plus + صفة + que». «très» لا تأتي مع «que». و«plus de» للأسماء.",
+          "en": "A comparison with an adjective: plus + adjective + que. Très does not go with que, and plus de is for nouns.",
+          "id": "Perbandingan dengan kata sifat: plus + kata sifat + que. Très tidak dipakai dengan que, dan plus de untuk kata benda."
+        }
+      },
+      {
+        "sentence": "Elle chante ___ que moi.",
+        "answer": "mieux",
+        "wrong": [
+          "meilleur",
+          "plus bon"
+        ],
+        "tr": {
+          "ar": "هي تغني أفضل مني.",
+          "en": "She sings better than me.",
+          "id": "Dia bernyanyi lebih baik dariku."
+        },
+        "why": {
+          "ar": "مع الفعل «chanter» نقول «mieux». «meilleur» مع الاسم و«plus bon» خطأ.",
+          "en": "With the verb chanter we say mieux. Meilleur goes with nouns and plus bon is wrong.",
+          "id": "Dengan kata kerja chanter dikatakan mieux. Meilleur untuk kata benda dan plus bon salah."
+        }
+      }
+    ],
+    "conversation": {
+      "context": {
+        "ar": "زوجان يقارنان شقتين ثم يختاران.",
+        "en": "Two people compare two flats and then choose.",
+        "id": "Dua orang membandingkan dua apartemen lalu memilih."
+      },
+      "turns": [
+        {
+          "who": "A",
+          "target": "Cet appartement est plus grand que l'autre.",
+          "tr": {
+            "ar": "هذه الشقة أكبر من الأخرى.",
+            "en": "This flat is bigger than the other one.",
+            "id": "Apartemen ini lebih besar daripada yang lain."
+          }
+        },
+        {
+          "who": "B",
+          "target": "Oui, mais il est plus cher.",
+          "tr": {
+            "ar": "نعم، لكنها أغلى.",
+            "en": "Yes, but it is more expensive.",
+            "id": "Ya, tetapi lebih mahal."
+          }
+        },
+        {
+          "who": "A",
+          "target": "Il y a aussi moins de bruit.",
+          "tr": {
+            "ar": "وفيها ضجيج أقل أيضًا.",
+            "en": "There is also less noise.",
+            "id": "Selain itu ada lebih sedikit kebisingan."
+          }
+        },
+        {
+          "who": "B",
+          "target": "Alors, c'est le meilleur choix !",
+          "tr": {
+            "ar": "إذن هو أفضل خيار!",
+            "en": "Then it is the best choice!",
+            "id": "Kalau begitu, itu pilihan terbaik!"
+          }
+        }
+      ],
+      "gap": 3,
+      "wrong": [
+        "Alors, c'est le plus bon choix !",
+        "Alors, c'est la meilleure choix !"
+      ],
+      "why": {
+        "ar": "«bon» لا يقبل «plus» للتفضيل: نقول «le meilleur». و«choix» مذكر، فنقول «le meilleur choix» لا «la meilleure».",
+        "en": "Bon does not take plus for the superlative: we say le meilleur. Choix is masculine, so le meilleur choix, not la meilleure.",
+        "id": "Bon tidak memakai plus untuk superlatif: dikatakan le meilleur. Choix maskulin, jadi le meilleur choix, bukan la meilleure."
+      }
+    },
+    "summary": {
+      "ar": "تعلمت المقارنة بـ plus وmoins وaussi، والتفضيل بـ«le plus»، والفرق بين meilleur وmieux. قارن بين مدينتين تعرفهما في ثلاث جمل.",
+      "en": "You learned comparison with plus, moins and aussi, the superlative with le plus, and the difference between meilleur and mieux. Compare two cities you know in three sentences.",
+      "id": "Anda mempelajari perbandingan dengan plus, moins, dan aussi, superlatif dengan le plus, serta perbedaan meilleur dan mieux. Bandingkan dua kota yang Anda kenal dalam tiga kalimat."
+    }
+  },
+  {
+    "id": "fr-27",
+    "track": "fr",
+    "level": "intermediate",
+    "order": 27,
+    "topic": "favours-gifts",
+    "icon": "🎁",
+    "title": {
+      "ar": "خدمات وهدايا",
+      "en": "Favours and Gifts",
+      "id": "Bantuan dan Hadiah"
+    },
+    "description": {
+      "ar": "تعلّم ضمائر المفعول «le, la, les, lui, leur» وكذلك «y» و«en» لتتجنب التكرار.",
+      "en": "Learn the object pronouns le, la, les, lui, leur and also y and en to avoid repetition.",
+      "id": "Pelajari kata ganti objek le, la, les, lui, leur serta y dan en agar tidak mengulang kata."
+    },
+    "objectives": [
+      {
+        "ar": "أستعمل «le/la/les» مكان المفعول المباشر: «je le connais».",
+        "en": "I can use le/la/les instead of a direct object: je le connais.",
+        "id": "Saya bisa memakai le/la/les sebagai pengganti objek langsung: je le connais."
+      },
+      {
+        "ar": "أستعمل «lui» و«leur» لمفعول به بحرف الجر «à»: «je lui téléphone».",
+        "en": "I can use lui and leur for an object with à: je lui téléphone.",
+        "id": "Saya bisa memakai lui dan leur untuk objek dengan à: je lui téléphone."
+      },
+      {
+        "ar": "أستعمل «y» و«en» في جمل قصيرة: «j'y vais» و«j'en veux».",
+        "en": "I can use y and en in short sentences: j'y vais and j'en veux.",
+        "id": "Saya bisa memakai y dan en dalam kalimat pendek: j'y vais dan j'en veux."
+      }
+    ],
+    "intro": {
+      "ar": "عندما تتحدث بالفرنسية لا تكرر الاسم كثيرًا، بل تستبدله بضمير صغير يوضع قبل الفعل: «Je le connais». وفي هذا الدرس تستعمل هذه الضمائر وأنت تطلب خدمة أو تحضّر حفلة أو تعطي هدية.",
+      "en": "When you speak French you do not repeat a noun again and again; you replace it with a small pronoun placed before the verb: Je le connais. In this lesson you use these pronouns while asking for a favour, preparing a party or giving a gift.",
+      "id": "Ketika berbicara bahasa Prancis, Anda tidak mengulang kata benda terus-menerus; Anda menggantinya dengan kata ganti kecil yang ditaruh sebelum kata kerja: Je le connais. Di pelajaran ini Anda memakai kata ganti itu saat meminta bantuan, menyiapkan pesta, atau memberi hadiah."
+    },
+    "culture": {
+      "ar": "عند دعوتك إلى عشاء في بيت فرنسي من اللطيف أن تحضر معك باقة زهور أو شوكولاتة أو حلوى. وتجنب زهور الأقحوان (chrysanthèmes) لأنها ترتبط بالمقابر. وغالبًا يُحيّي الأصدقاء بعضهم بـ«la bise» أي القبلات على الخد.",
+      "en": "When you are invited to dinner in a French home it is kind to bring flowers, chocolates or a dessert. Avoid chrysanthemums, which are associated with cemeteries. Friends often greet each other with la bise, kisses on the cheek.",
+      "id": "Saat diundang makan malam di rumah orang Prancis, membawa bunga, cokelat, atau makanan penutup adalah sikap yang baik. Hindari bunga krisan (chrysanthèmes) karena diasosiasikan dengan pemakaman. Teman sering saling menyapa dengan la bise, cium pipi."
+    },
+    "grammar": {
+      "title": {
+        "ar": "ضمائر المفعول و«y» و«en»",
+        "en": "Object pronouns, y and en",
+        "id": "Kata ganti objek, y, dan en"
+      },
+      "body": {
+        "ar": "المفعول المباشر: me, te, le/la/l', nous, vous, les. والمفعول بحرف «à»: me, te, lui, nous, vous, leur. توضع قبل الفعل: «Je le vois». «Je lui téléphone» (téléphoner à quelqu'un). وفي النفي: «Je ne les vois pas». ومع المستقبل القريب تأتي قبل المصدر: «Je vais l'acheter». ونستعمل «y» للمكان: «Tu vas au marché ? Oui, j'y vais». ونستعمل «en» للكمية أو بدلاً من «du/de la/des + اسم»: «Tu veux du café ? J'en veux».",
+        "en": "Direct objects: me, te, le/la/l', nous, vous, les. Objects with à: me, te, lui, nous, vous, leur. They go before the verb: Je le vois. Je lui téléphone (téléphoner à quelqu'un). In the negative: Je ne les vois pas. With the near future they go before the infinitive: Je vais l'acheter. Use y for a place: Tu vas au marché ? Oui, j'y vais. Use en for a quantity or to replace du/de la/des + noun: Tu veux du café ? J'en veux.",
+        "id": "Objek langsung: me, te, le/la/l', nous, vous, les. Objek dengan à: me, te, lui, nous, vous, leur. Letaknya sebelum kata kerja: Je le vois. Je lui téléphone (téléphoner à quelqu'un). Pada negatif: Je ne les vois pas. Dengan futur proche letaknya sebelum infinitif: Je vais l'acheter. Pakai y untuk tempat: Tu vas au marché ? Oui, j'y vais. Pakai en untuk jumlah atau pengganti du/de la/des + kata benda: Tu veux du café ? J'en veux."
+      }
+    },
+    "items": [
+      {
+        "id": "fr27n1",
+        "target": "Je le connais.",
+        "translit": "zhuh luh koh-NEH",
+        "tr": {
+          "ar": "أعرفه.",
+          "en": "I know him.",
+          "id": "Saya mengenalnya."
+        },
+        "example": {
+          "target": "Tu connais Paul ? Oui, je le connais.",
+          "translit": "tew koh-NEH POHL wee zhuh luh koh-NEH",
+          "tr": {
+            "ar": "هل تعرف بول؟ نعم، أعرفه.",
+            "en": "Do you know Paul? Yes, I know him.",
+            "id": "Kamu kenal Paul? Ya, saya mengenalnya."
+          }
+        },
+        "hint": {
+          "ar": "«le» تحل محل شخص أو شيء مذكر وتوضع قبل الفعل. وللمؤنث «la».",
+          "en": "Le replaces a masculine person or thing and goes before the verb. For a feminine it is la.",
+          "id": "Le menggantikan orang atau benda maskulin dan diletakkan sebelum kata kerja. Untuk feminin dipakai la."
+        }
+      },
+      {
+        "id": "fr27n2",
+        "target": "Je lui téléphone.",
+        "translit": "zhuh lwee tay-lay-FOHN",
+        "tr": {
+          "ar": "أتصل به أو بها هاتفيًا.",
+          "en": "I phone him or her.",
+          "id": "Saya meneleponnya."
+        },
+        "example": {
+          "target": "Ma sœur est malade. Je lui téléphone ce soir.",
+          "translit": "mah SUHR eh mah-LAHD zhuh lwee tay-lay-FOHN suh SWAHR",
+          "tr": {
+            "ar": "أختي مريضة. سأتصل بها الليلة.",
+            "en": "My sister is ill. I will phone her tonight.",
+            "id": "Saudari saya sakit. Saya meneleponnya malam ini."
+          }
+        },
+        "hint": {
+          "ar": "«téléphoner à» يأخذ «lui» للمفرد مذكرًا أو مؤنثًا. و«lui» تُنطق «lwee».",
+          "en": "Téléphoner à takes lui for a singular masculine or feminine. Lui is said lwee.",
+          "id": "Téléphoner à memakai lui untuk tunggal maskulin atau feminin. Lui dibaca lwee."
+        }
+      },
+      {
+        "id": "fr27n3",
+        "target": "Je leur donne un cadeau.",
+        "translit": "zhuh LUHR dohn uh(n) kah-DOH",
+        "tr": {
+          "ar": "أعطيهم هدية.",
+          "en": "I give them a gift.",
+          "id": "Saya memberi mereka hadiah."
+        },
+        "example": {
+          "target": "Pour Noël, je leur donne un livre.",
+          "translit": "poor noh-EHL zhuh luhr DOHN uh(n) LEE-vruh",
+          "tr": {
+            "ar": "في عيد الميلاد أعطيهم كتابًا.",
+            "en": "For Christmas I give them a book.",
+            "id": "Untuk Natal saya memberi mereka sebuah buku."
+          }
+        },
+        "hint": {
+          "ar": "«leur» ضمير للجمع بعد «à». وليس له «s». ولا نخلط بينه وبين «leur» الملكية.",
+          "en": "Leur is the plural pronoun for à. It takes no s. Do not confuse it with the possessive leur.",
+          "id": "Leur adalah kata ganti jamak untuk à. Tidak ada s. Jangan dikacaukan dengan leur kepemilikan."
+        }
+      },
+      {
+        "id": "fr27n4",
+        "target": "Tu m'aides ?",
+        "translit": "tew MEHD",
+        "tr": {
+          "ar": "هل تساعدني؟",
+          "en": "Will you help me?",
+          "id": "Maukah kamu menolong saya?"
+        },
+        "example": {
+          "target": "J'ai un problème : tu m'aides ?",
+          "translit": "zhay uh(n) proh-BLEHM tew MEHD",
+          "tr": {
+            "ar": "عندي مشكلة: هل تساعدني؟",
+            "en": "I have a problem: will you help me?",
+            "id": "Saya punya masalah: maukah kamu menolong saya?"
+          }
+        },
+        "hint": {
+          "ar": "«me» تصبح «m'» قبل متحرك: «m'aides». ونبرة الصوت المرتفعة في الآخر تجعل الجملة سؤالًا.",
+          "en": "Me becomes m' before a vowel: m'aides. A rising voice at the end turns it into a question.",
+          "id": "Me menjadi m' sebelum vokal: m'aides. Nada naik di akhir membuatnya menjadi pertanyaan."
+        }
+      },
+      {
+        "id": "fr27n5",
+        "target": "Oui, j'y vais.",
+        "translit": "wee zhee VEH",
+        "tr": {
+          "ar": "نعم، أذهب إلى هناك.",
+          "en": "Yes, I am going there.",
+          "id": "Ya, saya pergi ke sana."
+        },
+        "example": {
+          "target": "Tu vas au marché ? Oui, j'y vais.",
+          "translit": "tew vah oh mahr-SHAY wee zhee VEH",
+          "tr": {
+            "ar": "هل ستذهب إلى السوق؟ نعم، أذهب إلى هناك.",
+            "en": "Are you going to the market? Yes, I am going there.",
+            "id": "Kamu pergi ke pasar? Ya, saya pergi ke sana."
+          }
+        },
+        "hint": {
+          "ar": "«y» تحل محل مكان، وتُنطق «ee». و«j'y vais» تُنطق «zhee VEH».",
+          "en": "Y replaces a place and is said ee. J'y vais is said zhee VEH.",
+          "id": "Y menggantikan tempat dan dibaca ee. J'y vais dibaca zhee VEH."
+        }
+      },
+      {
+        "id": "fr27n6",
+        "target": "J'en veux, merci.",
+        "translit": "zhah(n) VUH mehr-SEE",
+        "tr": {
+          "ar": "أريد منه، شكرًا.",
+          "en": "I would like some, thank you.",
+          "id": "Saya mau, terima kasih."
+        },
+        "example": {
+          "target": "Tu veux du gâteau ? Oui, j'en veux un peu.",
+          "translit": "tew vuh dew gah-TOH wee zhah(n) vuh zuh(n) PUH",
+          "tr": {
+            "ar": "هل تريد قطعة كعك؟ نعم، أريد قليلًا.",
+            "en": "Do you want some cake? Yes, I want a little.",
+            "id": "Kamu mau kue? Ya, saya mau sedikit."
+          }
+        },
+        "hint": {
+          "ar": "«en» تحل محل «du gâteau» وتُنطق «ah(n)». وتوضع قبل الفعل.",
+          "en": "En replaces du gâteau and is said ah(n). It goes before the verb.",
+          "id": "En menggantikan du gâteau dan dibaca ah(n). Letaknya sebelum kata kerja."
+        }
+      },
+      {
+        "id": "fr27n7",
+        "target": "Je ne les vois pas.",
+        "translit": "zhuh nuh lay VWAH PAH",
+        "tr": {
+          "ar": "لا أراهم.",
+          "en": "I do not see them.",
+          "id": "Saya tidak melihat mereka."
+        },
+        "example": {
+          "target": "Où sont les clés ? Je ne les vois pas.",
+          "translit": "oo so(n) lay KLAY zhuh nuh lay vwah PAH",
+          "tr": {
+            "ar": "أين المفاتيح؟ لا أراها.",
+            "en": "Where are the keys? I do not see them.",
+            "id": "Di mana kunci-kuncinya? Saya tidak melihatnya."
+          }
+        },
+        "hint": {
+          "ar": "في النفي يوضع الضمير بين «ne» والفعل: «ne les vois pas».",
+          "en": "In the negative the pronoun sits between ne and the verb: ne les vois pas.",
+          "id": "Pada negatif kata ganti berada di antara ne dan kata kerja: ne les vois pas."
+        }
+      },
+      {
+        "id": "fr27n8",
+        "target": "Je vais l'acheter.",
+        "translit": "zhuh veh lah-shuh-TAY",
+        "tr": {
+          "ar": "سأشتريه.",
+          "en": "I am going to buy it.",
+          "id": "Saya akan membelinya."
+        },
+        "example": {
+          "target": "Ce gâteau est bon : je vais l'acheter.",
+          "translit": "suh gah-TOH eh BO(n) zhuh veh lah-shuh-TAY",
+          "tr": {
+            "ar": "هذه الحلوى لذيذة: سأشتريها.",
+            "en": "This cake is good: I am going to buy it.",
+            "id": "Kue ini enak: saya akan membelinya."
+          }
+        },
+        "hint": {
+          "ar": "مع «aller + مصدر» يوضع الضمير قبل المصدر: «l'acheter». وقبل متحرك تصبح «le» «l'».",
+          "en": "With aller plus an infinitive the pronoun goes before the infinitive: l'acheter. Le becomes l' before a vowel.",
+          "id": "Dengan aller + infinitif, kata ganti diletakkan sebelum infinitif: l'acheter. Le menjadi l' sebelum vokal."
+        }
+      }
+    ],
+    "cloze": [
+      {
+        "sentence": "Ma sœur est malade. Je ___ téléphone ce soir.",
+        "answer": "lui",
+        "wrong": [
+          "la",
+          "leur"
+        ],
+        "tr": {
+          "ar": "أختي مريضة. سأتصل بها الليلة.",
+          "en": "My sister is ill. I will phone her tonight.",
+          "id": "Saudari saya sakit. Saya akan meneleponnya malam ini."
+        },
+        "why": {
+          "ar": "«téléphoner à» + شخص مفرد يأخذ «lui». «la» للمفعول المباشر و«leur» للجمع.",
+          "en": "Téléphoner à plus a singular person takes lui. La is for a direct object and leur is for the plural.",
+          "id": "Téléphoner à + orang tunggal memakai lui. La untuk objek langsung dan leur untuk jamak."
+        }
+      },
+      {
+        "sentence": "Tu veux du café ? Oui, j'___ veux.",
+        "answer": "en",
+        "wrong": [
+          "y",
+          "le"
+        ],
+        "tr": {
+          "ar": "هل تريد قهوة؟ نعم، أريد منها.",
+          "en": "Do you want some coffee? Yes, I want some.",
+          "id": "Kamu mau kopi? Ya, saya mau."
+        },
+        "why": {
+          "ar": "«en» يحل محل «du café» أي الكمية غير المحددة. «y» للمكان و«le» لا يأتي مع الجزء.",
+          "en": "En replaces du café, an unspecified quantity. Y is for a place and le does not replace a partitive.",
+          "id": "En menggantikan du café, jumlah tak tentu. Y untuk tempat dan le tidak menggantikan partitif."
+        }
+      }
+    ],
+    "conversation": {
+      "context": {
+        "ar": "صديقان يحضّران حفلة: من يُدعى ومن يشتري الكعكة.",
+        "en": "Two friends prepare a party: who is invited and who buys the cake.",
+        "id": "Dua teman menyiapkan pesta: siapa yang diundang dan siapa yang membeli kue."
+      },
+      "turns": [
+        {
+          "who": "A",
+          "target": "On organise une fête samedi. Tu invites Paul ?",
+          "tr": {
+            "ar": "سننظم حفلة يوم السبت. هل تدعو بول؟",
+            "en": "We are having a party on Saturday. Are you inviting Paul?",
+            "id": "Kita mengadakan pesta hari Sabtu. Apakah kamu mengundang Paul?"
+          }
+        },
+        {
+          "who": "B",
+          "target": "Oui, je l'invite.",
+          "tr": {
+            "ar": "نعم، سأدعوه.",
+            "en": "Yes, I am inviting him.",
+            "id": "Ya, saya mengundangnya."
+          }
+        },
+        {
+          "who": "A",
+          "target": "Et le gâteau ? Qui l'achète ?",
+          "tr": {
+            "ar": "والكعكة؟ من يشتريها؟",
+            "en": "And the cake? Who buys it?",
+            "id": "Dan kuenya? Siapa yang membelinya?"
+          }
+        },
+        {
+          "who": "B",
+          "target": "Moi, je vais l'acheter.",
+          "tr": {
+            "ar": "أنا، سأشتريها.",
+            "en": "Me, I am going to buy it.",
+            "id": "Saya, saya akan membelinya."
+          }
+        }
+      ],
+      "gap": 1,
+      "wrong": [
+        "Oui, je lui invite.",
+        "Oui, j'y invite."
+      ],
+      "why": {
+        "ar": "«inviter» يأخذ مفعولًا مباشرًا، فنقول «je l'invite». «lui» تخص المفعول بحرف «à»، و«y» للمكان.",
+        "en": "Inviter takes a direct object, so we say je l'invite. Lui is for an object with à, and y is for a place.",
+        "id": "Inviter memakai objek langsung, jadi dikatakan je l'invite. Lui untuk objek dengan à, dan y untuk tempat."
+      }
+    },
+    "summary": {
+      "ar": "تعلمت استعمال الضمائر: le/la/les وlui/leur وy وen. وضعها قبل الفعل أو قبل المصدر بعد «aller». اجب عن ثلاثة أسئلة بضمير بدل الاسم.",
+      "en": "You learned the pronouns le/la/les, lui/leur, y and en, and to place them before the verb or before the infinitive after aller. Answer three questions with a pronoun instead of the noun.",
+      "id": "Anda mempelajari kata ganti le/la/les, lui/leur, y, dan en, serta menaruhnya sebelum kata kerja atau sebelum infinitif setelah aller. Jawablah tiga pertanyaan dengan kata ganti sebagai pengganti kata benda."
+    }
+  },
+  {
+    "id": "fr-28",
+    "track": "fr",
+    "level": "intermediate",
+    "order": 28,
+    "topic": "travel-hotel",
+    "icon": "🏨",
+    "title": {
+      "ar": "السفر والفندق",
+      "en": "Travel and Hotel",
+      "id": "Perjalanan dan Hotel"
+    },
+    "description": {
+      "ar": "تعلّم المستقبل البسيط (futur simple) لحجز غرفة وتحديد موعد الوصول.",
+      "en": "Learn the futur simple to book a room and give your arrival time.",
+      "id": "Pelajari futur simple untuk memesan kamar dan menyebut waktu kedatangan."
+    },
+    "objectives": [
+      {
+        "ar": "أستطيع حجز غرفة في فندق بالهاتف.",
+        "en": "I can book a hotel room by phone.",
+        "id": "Saya bisa memesan kamar hotel lewat telepon."
+      },
+      {
+        "ar": "أستطيع تكوين المستقبل البسيط: «nous arriverons».",
+        "en": "I can form the futur simple: nous arriverons.",
+        "id": "Saya bisa membentuk futur simple: nous arriverons."
+      },
+      {
+        "ar": "أعرف جذور المستقبل غير المنتظمة: «je serai» و«j'aurai» و«j'irai».",
+        "en": "I know the irregular future stems: je serai, j'aurai, j'irai.",
+        "id": "Saya tahu bentuk dasar futur tak beraturan: je serai, j'aurai, j'irai."
+      }
+    ],
+    "intro": {
+      "ar": "عند السفر تحتاج إلى حجز غرفة وإعطاء تفاصيل: كم ليلة، ومتى ستصل. المستقبل البسيط يُستعمل كثيرًا للحجوزات والوعود: «Nous arriverons à six heures». في هذا الدرس تتصل بفندق وتسجّل الدخول.",
+      "en": "When you travel you need to book a room and give details: how many nights and when you will arrive. The futur simple is often used for bookings and promises: Nous arriverons à six heures. In this lesson you phone a hotel and check in.",
+      "id": "Saat bepergian Anda perlu memesan kamar dan memberi rincian: berapa malam dan kapan Anda tiba. Futur simple sering dipakai untuk pemesanan dan janji: Nous arriverons à six heures. Di pelajaran ini Anda menelepon hotel dan melakukan check-in."
+    },
+    "culture": {
+      "ar": "في فنادق فرنسا غالبًا لا يكون الفطور مشمولًا في السعر، لذلك يُسأل: «Le petit déjeuner est compris ?». وتُضاف أحيانًا «taxe de séjour» أي ضريبة إقامة عن كل شخص وكل ليلة. وعند الوصول يطلب الفندق عادةً وثيقة هوية. وموعد مغادرة الغرفة يكون غالبًا قبل الظهر أو عنده تقريبًا.",
+      "en": "In French hotels breakfast is often not included in the price, so people ask Le petit déjeuner est compris ? A taxe de séjour, a tourist tax per person and per night, is sometimes added. At arrival the hotel usually asks for an ID document. Check-out is often around late morning or midday.",
+      "id": "Di hotel Prancis sarapan sering tidak termasuk dalam harga, jadi orang bertanya Le petit déjeuner est compris ? Kadang ditambahkan taxe de séjour, pajak wisatawan per orang per malam. Saat tiba, hotel biasanya meminta dokumen identitas. Check-out sering sekitar akhir pagi atau tengah hari."
+    },
+    "grammar": {
+      "title": {
+        "ar": "المستقبل البسيط",
+        "en": "The futur simple",
+        "id": "Futur simple"
+      },
+      "body": {
+        "ar": "نكوّن المستقبل البسيط من المصدر ثم نضيف: -ai, -as, -a, -ons, -ez, -ont. مثال: «arriver» ← «j'arriverai, nous arriverons». وفي أفعال -re نحذف e: «prendre» ← «je prendrai». وبعض الجذور غير منتظمة: être ← ser- (je serai)، avoir ← aur- (j'aurai)، aller ← ir- (j'irai)، faire ← fer- (je ferai)، venir ← viendr- (je viendrai). وهذه النهايات هي نفسها مضارع «avoir» تقريبًا. ونستعمله للحجوزات والوعود.",
+        "en": "Form the futur simple from the infinitive and add -ai, -as, -a, -ons, -ez, -ont. Example: arriver gives j'arriverai, nous arriverons. With -re verbs drop the e: prendre gives je prendrai. Some stems are irregular: être is ser- (je serai), avoir is aur- (j'aurai), aller is ir- (j'irai), faire is fer- (je ferai), venir is viendr- (je viendrai). These endings are almost the present of avoir. We use it for bookings and promises.",
+        "id": "Futur simple dibentuk dari infinitif lalu ditambahkan -ai, -as, -a, -ons, -ez, -ont. Contoh: arriver menjadi j'arriverai, nous arriverons. Pada kata kerja -re, huruf e dihilangkan: prendre menjadi je prendrai. Beberapa bentuk dasar tak beraturan: être menjadi ser- (je serai), avoir menjadi aur- (j'aurai), aller menjadi ir- (j'irai), faire menjadi fer- (je ferai), venir menjadi viendr- (je viendrai). Akhiran ini hampir sama dengan kala sekarang avoir. Dipakai untuk pemesanan dan janji."
+      }
+    },
+    "items": [
+      {
+        "id": "fr28n1",
+        "target": "Je voudrais réserver une chambre double.",
+        "translit": "zhuh voo-DREH ray-zehr-VAY ewn SHAH(n)-bruh DOO-bluh",
+        "tr": {
+          "ar": "أريد حجز غرفة مزدوجة.",
+          "en": "I would like to book a double room.",
+          "id": "Saya ingin memesan kamar double."
+        },
+        "example": {
+          "target": "Je voudrais réserver une chambre pour vendredi.",
+          "translit": "zhuh voo-DREH ray-zehr-VAY ewn SHAH(n)-bruh poor vah(n)-druh-DEE",
+          "tr": {
+            "ar": "أريد حجز غرفة ليوم الجمعة.",
+            "en": "I would like to book a room for Friday.",
+            "id": "Saya ingin memesan kamar untuk hari Jumat."
+          }
+        },
+        "hint": {
+          "ar": "«voudrais» تُنطق «voo-DREH» ولا يُنطق حرف s. و«chambre» فيها an أنفي.",
+          "en": "Voudrais is said voo-DREH with no s. Chambre has a nasal an.",
+          "id": "Voudrais dibaca voo-DREH tanpa s. Chambre memiliki an sengau."
+        }
+      },
+      {
+        "id": "fr28n2",
+        "target": "Pour combien de nuits ?",
+        "translit": "poor ko(n)-BYEH(n) duh NWEE",
+        "tr": {
+          "ar": "لكم ليلة؟",
+          "en": "For how many nights?",
+          "id": "Untuk berapa malam?"
+        },
+        "example": {
+          "target": "Pour trois nuits, s'il vous plaît.",
+          "translit": "poor trwah NWEE seel voo PLEH",
+          "tr": {
+            "ar": "لثلاث ليالٍ، من فضلك.",
+            "en": "For three nights, please.",
+            "id": "Untuk tiga malam, tolong."
+          }
+        },
+        "hint": {
+          "ar": "«combien de» تسأل عن الكمية. و«nuit» مؤنثة وتُنطق «nwee».",
+          "en": "Combien de asks about quantity. Nuit is feminine and said nwee.",
+          "id": "Combien de menanyakan jumlah. Nuit feminin dan dibaca nwee."
+        }
+      },
+      {
+        "id": "fr28n3",
+        "target": "Le petit déjeuner est compris.",
+        "translit": "luh puh-TEE day-zhuh-NAY eh ko(n)-PREE",
+        "tr": {
+          "ar": "الفطور مشمول.",
+          "en": "Breakfast is included.",
+          "id": "Sarapan sudah termasuk."
+        },
+        "example": {
+          "target": "Le petit déjeuner est compris dans le prix.",
+          "translit": "luh puh-TEE day-zhuh-NAY eh ko(n)-PREE dah(n) luh PREE",
+          "tr": {
+            "ar": "الفطور مشمول في السعر.",
+            "en": "Breakfast is included in the price.",
+            "id": "Sarapan sudah termasuk dalam harga."
+          }
+        },
+        "hint": {
+          "ar": "«compris» اسم مفعول «comprendre» ويعني هنا «مشمول». والحرف s الأخير صامت.",
+          "en": "Compris is the participle of comprendre and here means included. The final s is silent.",
+          "id": "Compris adalah participe dari comprendre dan di sini berarti termasuk. Huruf s di akhir tidak dibunyikan."
+        }
+      },
+      {
+        "id": "fr28n4",
+        "target": "Nous arriverons vers six heures.",
+        "translit": "noo zah-reev-RO(n) vehr see-ZUHR",
+        "tr": {
+          "ar": "سنصل نحو الساعة السادسة.",
+          "en": "We will arrive around six.",
+          "id": "Kami akan tiba sekitar pukul enam."
+        },
+        "example": {
+          "target": "Nous arriverons en train vers six heures.",
+          "translit": "noo zah-reev-RO(n) ah(n) TREH(n) vehr see-ZUHR",
+          "tr": {
+            "ar": "سنصل بالقطار نحو الساعة السادسة.",
+            "en": "We will arrive by train around six.",
+            "id": "Kami akan tiba dengan kereta sekitar pukul enam."
+          }
+        },
+        "hint": {
+          "ar": "النهاية -ons للجمع «nous»: «arriverons». ولا يُنطق حرف e في الوسط: «ah-reev-RO(n)».",
+          "en": "The ending -ons is for nous: arriverons. The middle e is silent: ah-reev-RO(n).",
+          "id": "Akhiran -ons untuk nous: arriverons. Huruf e di tengah tidak dibunyikan: ah-reev-RO(n)."
+        }
+      },
+      {
+        "id": "fr28n5",
+        "target": "Je serai là demain.",
+        "translit": "zhuh suh-RAY lah duh-MEH(n)",
+        "tr": {
+          "ar": "سأكون هناك غدًا.",
+          "en": "I will be there tomorrow.",
+          "id": "Saya akan ada di sana besok."
+        },
+        "example": {
+          "target": "Je serai là à huit heures.",
+          "translit": "zhuh suh-RAY lah ah wee-TUHR",
+          "tr": {
+            "ar": "سأكون هناك في الثامنة.",
+            "en": "I will be there at eight.",
+            "id": "Saya akan ada di sana pukul delapan."
+          }
+        },
+        "hint": {
+          "ar": "«serai» هو مستقبل «être»، وجذره «ser-». ويُنطق «suh-RAY».",
+          "en": "Serai is the future of être, with the stem ser-. It is said suh-RAY.",
+          "id": "Serai adalah futur dari être, dengan dasar ser-. Dibaca suh-RAY."
+        }
+      },
+      {
+        "id": "fr28n6",
+        "target": "un billet d'avion",
+        "translit": "uh(n) bee-YEH dah-VYO(n)",
+        "tr": {
+          "ar": "تذكرة طائرة",
+          "en": "a plane ticket",
+          "id": "tiket pesawat"
+        },
+        "example": {
+          "target": "J'ai acheté un billet d'avion pour Paris.",
+          "translit": "zhay ahsh-TAY uh(n) bee-YEH dah-VYO(n) poor pah-REE",
+          "tr": {
+            "ar": "اشتريتُ تذكرة طائرة إلى باريس.",
+            "en": "I bought a plane ticket to Paris.",
+            "id": "Saya membeli tiket pesawat ke Paris."
+          }
+        },
+        "hint": {
+          "ar": "«billet» تُنطق «bee-YEH»: الحرفان ill يُنطقان y. و«d'avion» تعني «للطائرة».",
+          "en": "Billet is said bee-YEH: ill sounds like y. D'avion means of plane.",
+          "id": "Billet dibaca bee-YEH: ill berbunyi y. D'avion berarti pesawat."
+        }
+      },
+      {
+        "id": "fr28n7",
+        "target": "Le passeport, s'il vous plaît.",
+        "translit": "luh pahs-POHR seel voo PLEH",
+        "tr": {
+          "ar": "جواز السفر من فضلك.",
+          "en": "The passport, please.",
+          "id": "Paspornya, tolong."
+        },
+        "example": {
+          "target": "Voici mon passeport.",
+          "translit": "vwah-SEE mo(n) pahs-POHR",
+          "tr": {
+            "ar": "هذا جواز سفري.",
+            "en": "Here is my passport.",
+            "id": "Ini paspor saya."
+          }
+        },
+        "hint": {
+          "ar": "«passeport» تُنطق «pahs-POHR» ولا يُنطق t الأخير.",
+          "en": "Passeport is said pahs-POHR; the final t is silent.",
+          "id": "Passeport dibaca pahs-POHR; huruf t di akhir tidak dibunyikan."
+        }
+      },
+      {
+        "id": "fr28n8",
+        "target": "Je visiterai le musée.",
+        "translit": "zhuh vee-zeet-RAY luh mew-ZAY",
+        "tr": {
+          "ar": "سأزور المتحف.",
+          "en": "I will visit the museum.",
+          "id": "Saya akan mengunjungi museum."
+        },
+        "example": {
+          "target": "Samedi, je visiterai le musée du Louvre.",
+          "translit": "sahm-DEE zhuh vee-zeet-RAY luh mew-ZAY dew LOO-vruh",
+          "tr": {
+            "ar": "يوم السبت سأزور متحف اللوفر.",
+            "en": "On Saturday I will visit the Louvre museum.",
+            "id": "Hari Sabtu saya akan mengunjungi museum Louvre."
+          }
+        },
+        "hint": {
+          "ar": "«visiter» + -ai = «visiterai». وفي «musée» الحرف u فرنسي: «mew-ZAY».",
+          "en": "Visiter plus -ai gives visiterai. In musée the u is French: mew-ZAY.",
+          "id": "Visiter + -ai menjadi visiterai. Dalam musée huruf u adalah u Prancis: mew-ZAY."
+        }
+      }
+    ],
+    "cloze": [
+      {
+        "sentence": "Demain, nous ___ à l'hôtel à six heures.",
+        "answer": "arriverons",
+        "wrong": [
+          "arriverez",
+          "arriveront"
+        ],
+        "tr": {
+          "ar": "غدًا سنصل إلى الفندق في السادسة.",
+          "en": "Tomorrow we will arrive at the hotel at six.",
+          "id": "Besok kami akan tiba di hotel pukul enam."
+        },
+        "why": {
+          "ar": "الفاعل «nous» يأخذ النهاية -ons في المستقبل: «arriverons». «arriverez» مع vous و«arriveront» مع ils.",
+          "en": "The subject nous takes -ons in the future: arriverons. Arriverez goes with vous and arriveront with ils.",
+          "id": "Subjek nous memakai -ons dalam futur: arriverons. Arriverez untuk vous dan arriveront untuk ils."
+        }
+      },
+      {
+        "sentence": "Je ___ là à huit heures demain.",
+        "answer": "serai",
+        "wrong": [
+          "étais",
+          "serez"
+        ],
+        "tr": {
+          "ar": "سأكون هناك غدًا في الثامنة.",
+          "en": "I will be there tomorrow at eight.",
+          "id": "Saya akan ada di sana besok pukul delapan."
+        },
+        "why": {
+          "ar": "مستقبل «être» مع je هو «serai». «étais» ماضٍ و«serez» مع vous.",
+          "en": "The future of être with je is serai. Étais is past and serez goes with vous.",
+          "id": "Futur être dengan je adalah serai. Étais adalah lampau dan serez untuk vous."
+        }
+      }
+    ],
+    "conversation": {
+      "context": {
+        "ar": "بالهاتف مع فندق: حجز غرفة.",
+        "en": "On the phone with a hotel: booking a room.",
+        "id": "Di telepon dengan hotel: memesan kamar."
+      },
+      "turns": [
+        {
+          "who": "A",
+          "target": "Hôtel du Parc, bonjour.",
+          "tr": {
+            "ar": "فندق دو بارك، مرحبًا.",
+            "en": "Hôtel du Parc, hello.",
+            "id": "Hôtel du Parc, selamat siang."
+          }
+        },
+        {
+          "who": "B",
+          "target": "Bonjour, je voudrais réserver une chambre double.",
+          "tr": {
+            "ar": "مرحبًا، أريد حجز غرفة مزدوجة.",
+            "en": "Hello, I would like to book a double room.",
+            "id": "Selamat siang, saya ingin memesan kamar double."
+          }
+        },
+        {
+          "who": "A",
+          "target": "Pour combien de nuits ?",
+          "tr": {
+            "ar": "لكم ليلة؟",
+            "en": "For how many nights?",
+            "id": "Untuk berapa malam?"
+          }
+        },
+        {
+          "who": "B",
+          "target": "Pour deux nuits. Nous arriverons vers six heures.",
+          "tr": {
+            "ar": "لليلتين. سنصل نحو الساعة السادسة.",
+            "en": "For two nights. We will arrive around six.",
+            "id": "Untuk dua malam. Kami akan tiba sekitar pukul enam."
+          }
+        },
+        {
+          "who": "A",
+          "target": "Très bien. Le petit déjeuner est compris.",
+          "tr": {
+            "ar": "حسنًا. الفطور مشمول.",
+            "en": "Very well. Breakfast is included.",
+            "id": "Baik. Sarapan sudah termasuk."
+          }
+        }
+      ],
+      "gap": 3,
+      "wrong": [
+        "Il y a deux nuits.",
+        "Oui, le petit déjeuner est compris."
+      ],
+      "why": {
+        "ar": "السؤال «Pour combien de nuits ?» يُجاب بـ«Pour deux nuits». «il y a deux nuits» تعني منذ ليلتين، والرد الآخر لا يجيب عن السؤال.",
+        "en": "The question Pour combien de nuits ? is answered with Pour deux nuits. Il y a deux nuits means two nights ago, and the other reply does not answer the question.",
+        "id": "Pertanyaan Pour combien de nuits ? dijawab dengan Pour deux nuits. Il y a deux nuits berarti dua malam yang lalu, dan jawaban lain tidak menjawab pertanyaan."
+      }
+    },
+    "summary": {
+      "ar": "تعلمت المستقبل البسيط: j'arriverai وnous arriverons وje serai وje visiterai. وعرفت عبارات حجز الفندق. اتصل في خيالك بفندق واحجز غرفة لثلاث ليالٍ.",
+      "en": "You learned the futur simple: j'arriverai, nous arriverons, je serai, je visiterai, and the phrases for booking a hotel. Imagine phoning a hotel and booking a room for three nights.",
+      "id": "Anda mempelajari futur simple: j'arriverai, nous arriverons, je serai, je visiterai, serta ungkapan untuk memesan hotel. Bayangkan Anda menelepon hotel dan memesan kamar untuk tiga malam."
+    }
+  },
+  {
+    "id": "fr-29",
+    "track": "fr",
+    "level": "intermediate",
+    "order": 29,
+    "topic": "writing-messages",
+    "icon": "✉️",
+    "title": {
+      "ar": "كتابة رسالة قصيرة",
+      "en": "Writing a Short Message",
+      "id": "Menulis Pesan Singkat"
+    },
+    "description": {
+      "ar": "تعلّم كتابة رسالة ودّية قصيرة بكلمات الربط وصيغ البداية والنهاية.",
+      "en": "Learn to write a short friendly message with connectors and opening and closing formulas.",
+      "id": "Pelajari cara menulis pesan singkat yang ramah dengan kata penghubung serta salam pembuka dan penutup."
+    },
+    "objectives": [
+      {
+        "ar": "أستطيع بدء رسالة وإنهاءها بصيغ ودّية: «Cher Paul» و«À bientôt».",
+        "en": "I can open and close a message with friendly formulas: Cher Paul and À bientôt.",
+        "id": "Saya bisa membuka dan menutup pesan dengan ungkapan ramah: Cher Paul dan À bientôt."
+      },
+      {
+        "ar": "أستعمل «parce que» و«mais» و«donc» و«ensuite» لربط الجمل.",
+        "en": "I can link sentences with parce que, mais, donc and ensuite.",
+        "id": "Saya bisa menghubungkan kalimat dengan parce que, mais, donc, dan ensuite."
+      },
+      {
+        "ar": "أستطيع تركيب «si + مضارع + مستقبل»: «Si tu veux, nous irons».",
+        "en": "I can use si + present + future: Si tu veux, nous irons.",
+        "id": "Saya bisa memakai si + kala sekarang + futur: Si tu veux, nous irons."
+      }
+    ],
+    "intro": {
+      "ar": "كثيرًا ما نكتب رسالة قصيرة لصديق: نشكره، ونقبل أو نعتذر، ونعطي تفاصيل. تحتاج إلى كلمات ربط وصيغ ثابتة في البداية والنهاية. وفي هذا الدرس تكتب وتقرأ رسائل ودّية قصيرة.",
+      "en": "We often write a short message to a friend: we thank them, accept or decline, and give details. For this you need connectors and set formulas for the opening and the end. In this lesson you read and write short friendly messages.",
+      "id": "Kita sering menulis pesan singkat untuk teman: berterima kasih, menerima atau menolak, dan memberi rincian. Untuk itu Anda memerlukan kata penghubung dan ungkapan tetap untuk pembuka dan penutup. Di pelajaran ini Anda membaca dan menulis pesan ramah yang singkat."
+    },
+    "culture": {
+      "ar": "في الرسائل بين الأصدقاء نبدأ بـ«Cher/Chère» ونُنهي بـ«À bientôt» أو «Bises» أو «Je t'embrasse». أما في الرسائل الرسمية فنكتب «Madame, Monsieur» وننتهي بـ«Cordialement». وتُستعمل «tu» مع الأصدقاء و«vous» مع الغرباء.",
+      "en": "In messages between friends we open with Cher/Chère and close with À bientôt, Bises or Je t'embrasse. In formal messages we write Madame, Monsieur and close with Cordialement. Tu is used with friends and vous with strangers.",
+      "id": "Dalam pesan antarteman kita membuka dengan Cher/Chère dan menutup dengan À bientôt, Bises, atau Je t'embrasse. Dalam pesan resmi ditulis Madame, Monsieur dan ditutup dengan Cordialement. Tu dipakai untuk teman dan vous untuk orang asing."
+    },
+    "grammar": {
+      "title": {
+        "ar": "كلمات الربط و«si + مضارع + مستقبل»",
+        "en": "Connectors and si + present + future",
+        "id": "Kata penghubung dan si + kala sekarang + futur"
+      },
+      "body": {
+        "ar": "نربط الجمل بكلمات: «parce que» (لأن) تعطي السبب، «mais» (لكن) تعبّر عن تعارض، «donc» (إذن) تعطي النتيجة، «ensuite» (بعد ذلك) تعطي الترتيب، و«pour + مصدر» (من أجل) تعطي الهدف. ونستعمل «si» لوضع شرط ممكن: «si + مضارع، مستقبل»: «S'il fait beau, nous irons au parc». وقبل «il» تصبح «si» «s'il». والرسالة الجيدة تحتوي على شكر وسبب وتفاصيل وتحية ختامية.",
+        "en": "We link sentences with words: parce que (because) gives a reason, mais (but) shows contrast, donc (so) gives a result, ensuite (then) gives order, and pour plus an infinitive (in order to) gives a purpose. We use si for a possible condition: si + present, future: S'il fait beau, nous irons au parc. Before il, si becomes s'il. A good message has thanks, a reason, details and a closing.",
+        "id": "Kalimat dihubungkan dengan kata: parce que (karena) memberi alasan, mais (tetapi) menunjukkan pertentangan, donc (jadi) memberi akibat, ensuite (kemudian) memberi urutan, dan pour + infinitif (untuk) memberi tujuan. Si dipakai untuk syarat yang mungkin: si + kala sekarang, futur: S'il fait beau, nous irons au parc. Sebelum il, si menjadi s'il. Pesan yang baik berisi ucapan terima kasih, alasan, rincian, dan penutup."
+      }
+    },
+    "items": [
+      {
+        "id": "fr29n1",
+        "target": "Cher Paul,",
+        "translit": "SHEHR POHL",
+        "tr": {
+          "ar": "عزيزي بول،",
+          "en": "Dear Paul,",
+          "id": "Paul yang baik,"
+        },
+        "example": {
+          "target": "Chère Marie, comment vas-tu ?",
+          "translit": "shehr mah-REE koh-mah(n) vah TEW",
+          "tr": {
+            "ar": "عزيزتي ماري، كيف حالك؟",
+            "en": "Dear Marie, how are you?",
+            "id": "Marie yang baik, apa kabar?"
+          }
+        },
+        "hint": {
+          "ar": "«Cher» للمذكر و«Chère» للمؤنث. وتُنطق الاثنتان تقريبًا «shehr».",
+          "en": "Cher is masculine and Chère is feminine. Both are said about shehr.",
+          "id": "Cher untuk maskulin dan Chère untuk feminin. Keduanya dibaca kira-kira shehr."
+        }
+      },
+      {
+        "id": "fr29n2",
+        "target": "Merci pour ton message.",
+        "translit": "mehr-SEE poor to(n) meh-SAHZH",
+        "tr": {
+          "ar": "شكرًا على رسالتك.",
+          "en": "Thanks for your message.",
+          "id": "Terima kasih atas pesanmu."
+        },
+        "example": {
+          "target": "Merci pour ton message et pour l'invitation.",
+          "translit": "mehr-SEE poor to(n) meh-SAHZH ay poor leh(n)-vee-tah-SYO(n)",
+          "tr": {
+            "ar": "شكرًا على رسالتك وعلى الدعوة.",
+            "en": "Thanks for your message and for the invitation.",
+            "id": "Terima kasih atas pesanmu dan undangannya."
+          }
+        },
+        "hint": {
+          "ar": "«message» تُنطق «meh-SAHZH» والحرف g يُنطق «zh». و«ton» يعني «رسالتك» لأن message مذكر.",
+          "en": "Message is said meh-SAHZH with g as zh. Ton is used because message is masculine.",
+          "id": "Message dibaca meh-SAHZH dengan g sebagai zh. Ton dipakai karena message maskulin."
+        }
+      },
+      {
+        "id": "fr29n3",
+        "target": "Je t'écris parce que...",
+        "translit": "zhuh tay-KREE pahrs-kuh",
+        "tr": {
+          "ar": "أكتب إليك لأن...",
+          "en": "I am writing to you because...",
+          "id": "Saya menulis kepadamu karena..."
+        },
+        "example": {
+          "target": "Je t'écris parce que je ne peux pas venir.",
+          "translit": "zhuh tay-KREE pahrs-kuh zhuh nuh PUH pah vuh-NEER",
+          "tr": {
+            "ar": "أكتب إليك لأني لا أستطيع الحضور.",
+            "en": "I am writing to you because I cannot come.",
+            "id": "Saya menulis kepadamu karena saya tidak bisa datang."
+          }
+        },
+        "hint": {
+          "ar": "«parce que» تُنطق «pahrs-kuh». و«écris» من «écrire».",
+          "en": "Parce que is said pahrs-kuh. Écris comes from écrire.",
+          "id": "Parce que dibaca pahrs-kuh. Écris berasal dari écrire."
+        }
+      },
+      {
+        "id": "fr29n4",
+        "target": "Si tu veux, nous irons au musée.",
+        "translit": "see tew VUH noo zee-RO(n) oh mew-ZAY",
+        "tr": {
+          "ar": "إن شئتَ سنذهب إلى المتحف.",
+          "en": "If you want, we will go to the museum.",
+          "id": "Kalau kamu mau, kita akan pergi ke museum."
+        },
+        "example": {
+          "target": "S'il fait beau, nous irons au parc.",
+          "translit": "seel feh BOH noo zee-RO(n) oh PAHRK",
+          "tr": {
+            "ar": "إن كان الجو جميلًا سنذهب إلى الحديقة.",
+            "en": "If the weather is nice, we will go to the park.",
+            "id": "Kalau cuacanya bagus, kita akan pergi ke taman."
+          }
+        },
+        "hint": {
+          "ar": "بعد «si» نستعمل المضارع، وفي الجزء الثاني المستقبل: «irons» من «aller».",
+          "en": "After si we use the present, and the second part is in the future: irons from aller.",
+          "id": "Setelah si dipakai kala sekarang, dan bagian kedua memakai futur: irons dari aller."
+        }
+      },
+      {
+        "id": "fr29n5",
+        "target": "Ensuite, nous avons visité la ville.",
+        "translit": "ah(n)-SWEET noo zah-vo(n) vee-zee-TAY lah VEEL",
+        "tr": {
+          "ar": "بعد ذلك زرنا المدينة.",
+          "en": "Then we visited the city.",
+          "id": "Kemudian kami mengunjungi kota."
+        },
+        "example": {
+          "target": "Ensuite, nous avons mangé dans un petit restaurant.",
+          "translit": "ah(n)-SWEET noo zah-vo(n) mah(n)-ZHAY dah(n) zuh(n) puh-TEE rehs-toh-RAH(n)",
+          "tr": {
+            "ar": "بعد ذلك أكلنا في مطعم صغير.",
+            "en": "Then we ate in a small restaurant.",
+            "id": "Kemudian kami makan di restoran kecil."
+          }
+        },
+        "hint": {
+          "ar": "«ensuite» تُنطق «ah(n)-SWEET». وتأتي بعدها الأحداث بالماضي المركّب عندما نحكي رحلة.",
+          "en": "Ensuite is said ah(n)-SWEET. When we tell about a trip, the events that follow are in the passé composé.",
+          "id": "Ensuite dibaca ah(n)-SWEET. Ketika menceritakan perjalanan, kejadian berikutnya memakai passé composé."
+        }
+      },
+      {
+        "id": "fr29n6",
+        "target": "J'espère te voir bientôt.",
+        "translit": "zheh-SPEHR tuh VWAHR byeh(n)-TOH",
+        "tr": {
+          "ar": "آمل أن أراك قريبًا.",
+          "en": "I hope to see you soon.",
+          "id": "Saya berharap segera bertemu denganmu."
+        },
+        "example": {
+          "target": "J'espère te voir bientôt à Paris.",
+          "translit": "zheh-SPEHR tuh VWAHR byeh(n)-TOH ah pah-REE",
+          "tr": {
+            "ar": "آمل أن أراك قريبًا في باريس.",
+            "en": "I hope to see you soon in Paris.",
+            "id": "Saya berharap segera bertemu denganmu di Paris."
+          }
+        },
+        "hint": {
+          "ar": "«te» ضمير مفعول قبل المصدر «voir». وتُنطق «bientôt» «byeh(n)-TOH».",
+          "en": "Te is an object pronoun before the infinitive voir. Bientôt is said byeh(n)-TOH.",
+          "id": "Te adalah kata ganti objek sebelum infinitif voir. Bientôt dibaca byeh(n)-TOH."
+        }
+      },
+      {
+        "id": "fr29n7",
+        "target": "À bientôt !",
+        "translit": "ah byeh(n)-TOH",
+        "tr": {
+          "ar": "إلى اللقاء قريبًا!",
+          "en": "See you soon!",
+          "id": "Sampai jumpa segera!"
+        },
+        "example": {
+          "target": "Je pars demain. À bientôt !",
+          "translit": "zhuh PAHR duh-MEH(n) ah byeh(n)-TOH",
+          "tr": {
+            "ar": "أسافر غدًا. إلى اللقاء قريبًا!",
+            "en": "I am leaving tomorrow. See you soon!",
+            "id": "Saya berangkat besok. Sampai jumpa segera!"
+          }
+        },
+        "hint": {
+          "ar": "هذه تحية ختامية شائعة جدًا في الرسائل وفي الكلام.",
+          "en": "This is a very common closing both in messages and in speech.",
+          "id": "Ini penutup yang sangat umum, baik dalam pesan maupun lisan."
+        }
+      },
+      {
+        "id": "fr29n8",
+        "target": "Je t'embrasse.",
+        "translit": "zhuh tah(n)-BRAHS",
+        "tr": {
+          "ar": "مع قبلاتي (ختام ودّي).",
+          "en": "Love (closing).",
+          "id": "Peluk sayang (penutup akrab)."
+        },
+        "example": {
+          "target": "À samedi ! Je t'embrasse.",
+          "translit": "ah sahm-DEE zhuh tah(n)-BRAHS",
+          "tr": {
+            "ar": "إلى السبت! مع قبلاتي.",
+            "en": "See you Saturday! Love.",
+            "id": "Sampai Sabtu! Peluk sayang."
+          }
+        },
+        "hint": {
+          "ar": "حرفيًا «أقبّلك». لا تستعمله إلا مع صديق أو قريب، وليس في رسالة رسمية.",
+          "en": "Literally I kiss you (on the cheek). Use it only with a friend or relative, not in a formal message.",
+          "id": "Secara harfiah saya menciummu (di pipi). Pakailah hanya untuk teman atau kerabat, bukan dalam pesan resmi."
+        }
+      }
+    ],
+    "cloze": [
+      {
+        "sentence": "Je ne peux pas venir, ___ je travaille.",
+        "answer": "parce que",
+        "wrong": [
+          "mais",
+          "donc"
+        ],
+        "tr": {
+          "ar": "لا أستطيع الحضور لأنني أعمل.",
+          "en": "I cannot come because I am working.",
+          "id": "Saya tidak bisa datang karena saya bekerja."
+        },
+        "why": {
+          "ar": "نحتاج سببًا لعدم الحضور: «parce que». «mais» تعبّر عن تعارض و«donc» عن نتيجة.",
+          "en": "We need a reason for not coming: parce que. Mais shows contrast and donc shows a result.",
+          "id": "Dibutuhkan alasan untuk tidak datang: parce que. Mais menyatakan pertentangan dan donc menyatakan akibat."
+        }
+      },
+      {
+        "sentence": "S'il fait beau demain, nous ___ au parc.",
+        "answer": "irons",
+        "wrong": [
+          "irions",
+          "sommes allés"
+        ],
+        "tr": {
+          "ar": "إن كان الجو جميلًا غدًا فسنذهب إلى الحديقة.",
+          "en": "If the weather is nice tomorrow, we will go to the park.",
+          "id": "Kalau besok cuacanya bagus, kita akan pergi ke taman."
+        },
+        "why": {
+          "ar": "بعد «si» + مضارع نستعمل المستقبل: «irons». «irions» للشرط غير الواقعي و«sommes allés» ماضٍ.",
+          "en": "After si plus the present we use the future: irons. Irions is for an unreal condition and sommes allés is past.",
+          "id": "Setelah si + kala sekarang dipakai futur: irons. Irions untuk syarat yang tidak nyata dan sommes allés adalah lampau."
+        }
+      }
+    ],
+    "conversation": {
+      "context": {
+        "ar": "رسالتان بين صديقين: دعوة إلى حفلة ثم رد عليها.",
+        "en": "Two messages between friends: an invitation to a party and a reply.",
+        "id": "Dua pesan antarteman: undangan ke pesta dan balasannya."
+      },
+      "turns": [
+        {
+          "who": "A",
+          "target": "Salut Marie ! Tu viens à ma fête samedi ?",
+          "tr": {
+            "ar": "مرحبًا ماري! هل ستأتين إلى حفلتي يوم السبت؟",
+            "en": "Hi Marie! Are you coming to my party on Saturday?",
+            "id": "Hai Marie! Apakah kamu datang ke pestaku hari Sabtu?"
+          }
+        },
+        {
+          "who": "B",
+          "target": "Merci pour ton message ! Je ne peux pas venir, parce que je travaille.",
+          "tr": {
+            "ar": "شكرًا على رسالتك! لا أستطيع الحضور لأنني أعمل.",
+            "en": "Thanks for your message! I cannot come because I am working.",
+            "id": "Terima kasih atas pesanmu! Saya tidak bisa datang karena saya bekerja."
+          }
+        },
+        {
+          "who": "A",
+          "target": "Dommage ! Si tu veux, nous irons au cinéma dimanche.",
+          "tr": {
+            "ar": "يا للأسف! إن شئتِ سنذهب إلى السينما يوم الأحد.",
+            "en": "Too bad! If you want, we will go to the cinema on Sunday.",
+            "id": "Sayang sekali! Kalau kamu mau, kita akan pergi ke bioskop hari Minggu."
+          }
+        },
+        {
+          "who": "B",
+          "target": "Super idée ! À bientôt !",
+          "tr": {
+            "ar": "فكرة رائعة! إلى اللقاء قريبًا!",
+            "en": "Great idea! See you soon!",
+            "id": "Ide bagus! Sampai jumpa segera!"
+          }
+        }
+      ],
+      "gap": 1,
+      "wrong": [
+        "Merci pour ton message ! Je ne peux pas venir, donc je travaille.",
+        "Merci pour ton message ! Je ne peux pas venir, alors que je travaille."
+      ],
+      "why": {
+        "ar": "«parce que» تعطي سبب عدم الحضور. «donc» تعكس السبب والنتيجة، و«alors que» تعني «بينما» ولا تناسب المعنى.",
+        "en": "Parce que gives the reason for not coming. Donc reverses cause and result, and alors que means whereas and does not fit the meaning.",
+        "id": "Parce que memberi alasan tidak datang. Donc membalik sebab dan akibat, dan alors que berarti sedangkan sehingga tidak cocok dengan maknanya."
+      }
+    },
+    "summary": {
+      "ar": "تعلمت صيغ الرسائل: Cher/Chère وMerci pour ton message وÀ bientôt وJe t'embrasse، وكلمات الربط parce que وmais وdonc وensuite، وتركيب si + مضارع + مستقبل. اكتب رسالة من خمس جمل لصديق.",
+      "en": "You learned message formulas: Cher/Chère, Merci pour ton message, À bientôt, Je t'embrasse, the connectors parce que, mais, donc, ensuite, and the pattern si + present + future. Write a five-sentence message to a friend.",
+      "id": "Anda mempelajari ungkapan pesan: Cher/Chère, Merci pour ton message, À bientôt, Je t'embrasse, kata penghubung parce que, mais, donc, ensuite, serta pola si + kala sekarang + futur. Tulislah pesan lima kalimat untuk seorang teman."
+    }
+  },
+  {
+    "id": "fr-30",
+    "track": "fr",
+    "level": "intermediate",
+    "order": 30,
+    "topic": "review-final",
+    "icon": "🗼",
+    "title": {
+      "ar": "مراجعة: رحلة إلى فرنسا",
+      "en": "Review: A Trip to France",
+      "id": "Ulasan: Perjalanan ke Prancis"
+    },
+    "description": {
+      "ar": "راجع أزمنة الفرنسية وعبارات الرأي والرحلة في حوار واحد.",
+      "en": "Review French tenses and expressions of opinion and travel in one dialogue.",
+      "id": "Tinjau kala dalam bahasa Prancis serta ungkapan pendapat dan perjalanan dalam satu dialog."
+    },
+    "objectives": [
+      {
+        "ar": "أستطيع الجمع بين الحاضر والماضي المركّب والناقص والمستقبل في رواية رحلة.",
+        "en": "I can combine the present, passé composé, imparfait and future to tell about a trip.",
+        "id": "Saya bisa memadukan kala sekarang, passé composé, imparfait, dan futur untuk menceritakan perjalanan."
+      },
+      {
+        "ar": "أستطيع إبداء رأي وطلب إعادة الكلام: «à mon avis» و«Pourriez-vous répéter ?».",
+        "en": "I can give an opinion and ask someone to repeat: à mon avis and Pourriez-vous répéter ?",
+        "id": "Saya bisa menyampaikan pendapat dan meminta pengulangan: à mon avis dan Pourriez-vous répéter ?"
+      },
+      {
+        "ar": "أستطيع ترتيب الأحداث بـ«d'abord» و«ensuite» و«enfin».",
+        "en": "I can order events with d'abord, ensuite and enfin.",
+        "id": "Saya bisa mengurutkan kejadian dengan d'abord, ensuite, dan enfin."
+      }
+    ],
+    "intro": {
+      "ar": "هذا الدرس الأخير يجمع ما تعلمته. تحتاج إلى معرفة أي زمن تستعمل: المضارع للحقائق، والمستقبل القريب أو البسيط للخطط، والماضي المركّب للأحداث، والماضي الناقص للخلفية والوصف. وتتعلم أيضًا عبارات تساعدك في رحلة حقيقية.",
+      "en": "This last lesson brings together what you have learned. You need to know which tense to use: the present for facts, the near or simple future for plans, the passé composé for events and the imparfait for background and description. You also learn phrases that help you on a real trip.",
+      "id": "Pelajaran terakhir ini menggabungkan semua yang telah Anda pelajari. Anda perlu tahu kala mana yang dipakai: kala sekarang untuk fakta, futur proche atau futur simple untuk rencana, passé composé untuk kejadian, dan imparfait untuk latar dan deskripsi. Anda juga mempelajari ungkapan yang membantu dalam perjalanan nyata."
+    },
+    "culture": {
+      "ar": "في فرنسا يُنتظر من الزائر أن يقول «Bonjour» عند دخول المتجر أو المطعم، وأن يقول «Merci» و«Au revoir» عند الخروج. وتُستعمل «vous» مع الغرباء. وإذا لم تفهم فقل بلطف: «Pardon, pourriez-vous répéter ?». والناس يقدّرون المحاولة بالفرنسية.",
+      "en": "In France visitors are expected to say Bonjour when entering a shop or restaurant and Merci and Au revoir when leaving. Vous is used with strangers. If you do not understand, say politely Pardon, pourriez-vous répéter ? People appreciate an effort to speak French.",
+      "id": "Di Prancis pengunjung diharapkan mengucapkan Bonjour saat masuk toko atau restoran, serta Merci dan Au revoir saat keluar. Vous dipakai untuk orang asing. Jika tidak mengerti, katakan dengan sopan Pardon, pourriez-vous répéter ? Orang menghargai upaya berbicara bahasa Prancis."
+    },
+    "grammar": {
+      "title": {
+        "ar": "خريطة الأزمنة",
+        "en": "The tense map",
+        "id": "Peta kala"
+      },
+      "body": {
+        "ar": "المضارع للحقائق والعادات الحالية: «J'habite à Lyon». المستقبل القريب والبسيط للخطط: «Demain, je vais aller au marché» و«Je visiterai Lyon». الماضي المركّب للأحداث: «Hier, je suis allé au cinéma». الماضي الناقص للوصف والخلفية: «Il faisait beau» و«C'était super». وهناك تركيب صغير للأمنية: «Si j'avais le temps, je voyagerais» أي «لو كان عندي وقت لسافرتُ». نتعلمه هنا كعبارة جاهزة فقط.",
+        "en": "The present is for facts and current habits: J'habite à Lyon. The near and simple future are for plans: Demain, je vais aller au marché and Je visiterai Lyon. The passé composé is for events: Hier, je suis allé au cinéma. The imparfait is for description and background: Il faisait beau and C'était super. There is also a small pattern for a wish: Si j'avais le temps, je voyagerais, meaning if I had time I would travel. Here we learn it only as a ready phrase.",
+        "id": "Kala sekarang untuk fakta dan kebiasaan saat ini: J'habite à Lyon. Futur proche dan futur simple untuk rencana: Demain, je vais aller au marché dan Je visiterai Lyon. Passé composé untuk kejadian: Hier, je suis allé au cinéma. Imparfait untuk deskripsi dan latar: Il faisait beau dan C'était super. Ada juga pola kecil untuk pengandaian: Si j'avais le temps, je voyagerais, artinya jika saya punya waktu, saya akan bepergian. Di sini kita mempelajarinya hanya sebagai ungkapan siap pakai."
+      }
+    },
+    "items": [
+      {
+        "id": "fr30n1",
+        "target": "Pourriez-vous répéter, s'il vous plaît ?",
+        "translit": "poo-ryay-VOO ray-pay-TAY seel voo PLEH",
+        "tr": {
+          "ar": "هل يمكنك أن تعيد من فضلك؟",
+          "en": "Could you repeat, please?",
+          "id": "Bisakah Anda mengulangnya, tolong?"
+        },
+        "example": {
+          "target": "Pardon, pourriez-vous répéter, s'il vous plaît ?",
+          "translit": "pahr-DO(n) poo-ryay-VOO ray-pay-TAY seel voo PLEH",
+          "tr": {
+            "ar": "عفوًا، هل يمكنك أن تعيد من فضلك؟",
+            "en": "Sorry, could you repeat, please?",
+            "id": "Maaf, bisakah Anda mengulangnya, tolong?"
+          }
+        },
+        "hint": {
+          "ar": "«pourriez» هي صيغة مهذبة جدًا من «pouvoir». وتُنطق «poo-ryay».",
+          "en": "Pourriez is a very polite form of pouvoir. It is said poo-ryay.",
+          "id": "Pourriez adalah bentuk yang sangat sopan dari pouvoir. Dibaca poo-ryay."
+        }
+      },
+      {
+        "id": "fr30n2",
+        "target": "Je me suis perdu.",
+        "translit": "zhuh muh swee pehr-DEW",
+        "tr": {
+          "ar": "لقد ضللتُ الطريق.",
+          "en": "I got lost.",
+          "id": "Saya tersesat."
+        },
+        "example": {
+          "target": "Excusez-moi, je me suis perdu. Où est la gare ?",
+          "translit": "ehk-skew-zay-MWAH zhuh muh swee pehr-DEW oo eh lah GAHR",
+          "tr": {
+            "ar": "عفوًا، ضللتُ الطريق. أين المحطة؟",
+            "en": "Excuse me, I got lost. Where is the station?",
+            "id": "Permisi, saya tersesat. Di mana stasiun?"
+          }
+        },
+        "hint": {
+          "ar": "فعل انعكاسي مع «être». وتقول المرأة «Je me suis perdue». وهو ماضٍ مركّب.",
+          "en": "A reflexive verb with être. A woman says Je me suis perdue. It is a passé composé.",
+          "id": "Kata kerja refleksif dengan être. Perempuan berkata Je me suis perdue. Ini passé composé."
+        }
+      },
+      {
+        "id": "fr30n3",
+        "target": "À mon avis, c'est mieux.",
+        "translit": "ah mo(n) nah-VEE seh MYUH",
+        "tr": {
+          "ar": "في رأيي هذا أفضل.",
+          "en": "In my opinion, it is better.",
+          "id": "Menurut saya, ini lebih baik."
+        },
+        "example": {
+          "target": "À mon avis, le train, c'est mieux que le bus.",
+          "translit": "ah mo(n) nah-VEE luh TREH(n) seh MYUH kuh luh BEWS",
+          "tr": {
+            "ar": "في رأيي القطار أفضل من الحافلة.",
+            "en": "In my opinion the train is better than the bus.",
+            "id": "Menurut saya, kereta lebih baik daripada bus."
+          }
+        },
+        "hint": {
+          "ar": "«à mon avis» تُربط: «ah mo(n) nah-VEE». ونستعمل «mieux» هنا بعد الفعل «être».",
+          "en": "À mon avis has a liaison: ah mo(n) nah-VEE. Mieux is used here after the verb être.",
+          "id": "À mon avis memakai liaison: ah mo(n) nah-VEE. Mieux dipakai di sini setelah kata kerja être."
+        }
+      },
+      {
+        "id": "fr30n4",
+        "target": "Je pense que c'est une bonne idée.",
+        "translit": "zhuh pah(n)s kuh seh tewn bohn ee-DAY",
+        "tr": {
+          "ar": "أظن أنها فكرة جيدة.",
+          "en": "I think it is a good idea.",
+          "id": "Saya pikir itu ide yang bagus."
+        },
+        "example": {
+          "target": "Je pense que c'est une bonne idée de partir tôt.",
+          "translit": "zhuh pah(n)s kuh seh tewn bohn ee-DAY duh pahr-TEER TOH",
+          "tr": {
+            "ar": "أظن أن الرحيل باكرًا فكرة جيدة.",
+            "en": "I think it is a good idea to leave early.",
+            "id": "Saya pikir berangkat pagi adalah ide yang bagus."
+          }
+        },
+        "hint": {
+          "ar": "«je pense que» + جملة تعبّر عن رأي. و«idée» مؤنثة، فنقول «une bonne idée».",
+          "en": "Je pense que plus a clause gives an opinion. Idée is feminine, so une bonne idée.",
+          "id": "Je pense que + klausa menyatakan pendapat. Idée feminin, jadi une bonne idée."
+        }
+      },
+      {
+        "id": "fr30n5",
+        "target": "Si j'avais le temps, je voyagerais.",
+        "translit": "see zhah-VEH luh TAH(n) zhuh vwah-yahzh-REH",
+        "tr": {
+          "ar": "لو كان عندي وقت لسافرتُ.",
+          "en": "If I had time, I would travel.",
+          "id": "Kalau saya punya waktu, saya akan bepergian."
+        },
+        "example": {
+          "target": "Si j'avais le temps, je visiterais Marseille.",
+          "translit": "see zhah-VEH luh TAH(n) zhuh vee-zeet-REH mahr-SEHY",
+          "tr": {
+            "ar": "لو كان عندي وقت لزرتُ مرسيليا.",
+            "en": "If I had time, I would visit Marseille.",
+            "id": "Kalau saya punya waktu, saya akan mengunjungi Marseille."
+          }
+        },
+        "hint": {
+          "ar": "هذا تركيب للأمنية: «si + imparfait» ثم «conditionnel» (-rais). تعلّمه كعبارة جاهزة الآن.",
+          "en": "This is a wish pattern: si + imparfait, then the conditionnel (-rais). Learn it now as a ready phrase.",
+          "id": "Ini pola pengandaian: si + imparfait, lalu conditionnel (-rais). Pelajari sekarang sebagai ungkapan siap pakai."
+        }
+      },
+      {
+        "id": "fr30n6",
+        "target": "D'abord, ensuite, enfin",
+        "translit": "dah-BOHR ah(n)-SWEET ah(n)-FEH(n)",
+        "tr": {
+          "ar": "أولًا، ثم، وأخيرًا",
+          "en": "first, then, finally",
+          "id": "pertama, kemudian, akhirnya"
+        },
+        "example": {
+          "target": "D'abord, nous avons visité Paris ; ensuite, Lyon ; enfin, Nice.",
+          "translit": "dah-BOHR noo zah-vo(n) vee-zee-TAY pah-REE ah(n)-SWEET lee-O(n) ah(n)-FEH(n) NEES",
+          "tr": {
+            "ar": "أولًا زرنا باريس، ثم ليون، وأخيرًا نيس.",
+            "en": "First we visited Paris, then Lyon, and finally Nice.",
+            "id": "Pertama kami mengunjungi Paris, kemudian Lyon, dan akhirnya Nice."
+          }
+        },
+        "hint": {
+          "ar": "هذه كلمات ترتيب تستعمل لحكاية رحلة. وتُنطق «enfin» «ah(n)-FEH(n)» بصوتين أنفيين.",
+          "en": "These are order words used to tell about a trip. Enfin is said ah(n)-FEH(n) with two nasal sounds.",
+          "id": "Ini kata urutan untuk menceritakan perjalanan. Enfin dibaca ah(n)-FEH(n) dengan dua bunyi sengau."
+        }
+      },
+      {
+        "id": "fr30n7",
+        "target": "Qu'est-ce qui s'est passé ?",
+        "translit": "kehs-kee seh pah-SAY",
+        "tr": {
+          "ar": "ماذا حدث؟",
+          "en": "What happened?",
+          "id": "Apa yang terjadi?"
+        },
+        "example": {
+          "target": "Tu es en retard : qu'est-ce qui s'est passé ?",
+          "translit": "tew eh zah(n) ruh-TAHR kehs-kee seh pah-SAY",
+          "tr": {
+            "ar": "أنت متأخر: ماذا حدث؟",
+            "en": "You are late: what happened?",
+            "id": "Kamu terlambat: apa yang terjadi?"
+          }
+        },
+        "hint": {
+          "ar": "«se passer» فعل انعكاسي، فيأخذ «être»: «s'est passé». وتُنطق «seh pah-SAY».",
+          "en": "Se passer is reflexive and takes être: s'est passé. It is said seh pah-SAY.",
+          "id": "Se passer adalah refleksif dan memakai être: s'est passé. Dibaca seh pah-SAY."
+        }
+      },
+      {
+        "id": "fr30n8",
+        "target": "C'était super !",
+        "translit": "say-TEH sew-PEHR",
+        "tr": {
+          "ar": "كان رائعًا!",
+          "en": "It was great!",
+          "id": "Itu sangat bagus!"
+        },
+        "example": {
+          "target": "Il faisait beau et c'était super !",
+          "translit": "eel fuh-ZEH BOH ay say-TEH sew-PEHR",
+          "tr": {
+            "ar": "كان الجو جميلًا وكان رائعًا!",
+            "en": "The weather was nice and it was great!",
+            "id": "Cuacanya bagus dan itu sangat bagus!"
+          }
+        },
+        "hint": {
+          "ar": "«c'était» هو الـ imparfait من «être» ويصف الخلفية. و«super» تعني «رائع» في الكلام اليومي.",
+          "en": "C'était is the imparfait of être and describes the background. Super means great in everyday speech.",
+          "id": "C'était adalah imparfait dari être dan menggambarkan latar. Super berarti bagus sekali dalam percakapan sehari-hari."
+        }
+      }
+    ],
+    "cloze": [
+      {
+        "sentence": "Hier, je ___ au cinéma.",
+        "answer": "suis allé",
+        "wrong": [
+          "vais",
+          "irai"
+        ],
+        "tr": {
+          "ar": "أمس ذهبتُ إلى السينما.",
+          "en": "Yesterday I went to the cinema.",
+          "id": "Kemarin saya pergi ke bioskop."
+        },
+        "why": {
+          "ar": "«hier» يطلب الماضي المركّب، و«aller» يأخذ «être»: «je suis allé». «vais» مضارع و«irai» مستقبل.",
+          "en": "Hier calls for the passé composé, and aller takes être: je suis allé. Vais is present and irai is future.",
+          "id": "Hier menuntut passé composé, dan aller memakai être: je suis allé. Vais kala sekarang dan irai futur."
+        }
+      },
+      {
+        "sentence": "Demain, je ___ au marché.",
+        "answer": "vais",
+        "wrong": [
+          "suis allé",
+          "allais"
+        ],
+        "tr": {
+          "ar": "غدًا سأذهب إلى السوق.",
+          "en": "Tomorrow I am going to the market.",
+          "id": "Besok saya pergi ke pasar."
+        },
+        "why": {
+          "ar": "«demain» يدل على المستقبل، فنستعمل «vais» أو المستقبل القريب. «suis allé» ماضٍ و«allais» imparfait.",
+          "en": "Demain points to the future, so we use vais or the near future. Suis allé is past and allais is imparfait.",
+          "id": "Demain menunjukkan masa depan, jadi dipakai vais atau futur proche. Suis allé adalah lampau dan allais adalah imparfait."
+        }
+      }
+    ],
+    "conversation": {
+      "context": {
+        "ar": "مسافر يحكي رحلته إلى فرنسا لمضيفه الفرنسي.",
+        "en": "A visitor tells his French host about his trip to France.",
+        "id": "Seorang pengunjung menceritakan perjalanannya ke Prancis kepada tuan rumah Prancisnya."
+      },
+      "turns": [
+        {
+          "who": "A",
+          "target": "Alors, comment était ton voyage en France ?",
+          "tr": {
+            "ar": "إذن، كيف كانت رحلتك إلى فرنسا؟",
+            "en": "So, how was your trip to France?",
+            "id": "Jadi, bagaimana perjalananmu di Prancis?"
+          }
+        },
+        {
+          "who": "B",
+          "target": "C'était super ! Il faisait beau et nous avons visité Lyon.",
+          "tr": {
+            "ar": "كانت رائعة! كان الجو جميلًا وزرنا ليون.",
+            "en": "It was great! The weather was nice and we visited Lyon.",
+            "id": "Sangat bagus! Cuacanya bagus dan kami mengunjungi Lyon."
+          }
+        },
+        {
+          "who": "A",
+          "target": "Et demain, qu'est-ce que vous allez faire ?",
+          "tr": {
+            "ar": "وغدًا ماذا ستفعلون؟",
+            "en": "And tomorrow, what are you going to do?",
+            "id": "Dan besok, apa yang akan kalian lakukan?"
+          }
+        },
+        {
+          "who": "B",
+          "target": "Demain, nous allons à Marseille.",
+          "tr": {
+            "ar": "غدًا سنذهب إلى مرسيليا.",
+            "en": "Tomorrow we are going to Marseille.",
+            "id": "Besok kami pergi ke Marseille."
+          }
+        }
+      ],
+      "gap": 3,
+      "wrong": [
+        "Demain, nous sommes allés à Marseille.",
+        "Demain, nous allions à Marseille."
+      ],
+      "why": {
+        "ar": "السؤال عن المستقبل («demain») يُجاب عنه بالحاضر أو بالمستقبل القريب. «sommes allés» ماضٍ مركّب و«allions» imparfait، ولا يناسبان «demain».",
+        "en": "A question about the future (demain) is answered with the present or the near future. Sommes allés is a passé composé and allions is an imparfait, and neither fits demain.",
+        "id": "Pertanyaan tentang masa depan (demain) dijawab dengan kala sekarang atau futur proche. Sommes allés adalah passé composé dan allions adalah imparfait, dan keduanya tidak cocok dengan demain."
+      }
+    },
+    "summary": {
+      "ar": "أنهيت الدروس الثلاثين. الآن تستطيع الجمع بين الأزمنة: المضارع للحقائق، والماضي المركّب للأحداث، والماضي الناقص للخلفية، والمستقبل للخطط. احكِ رحلة حقيقية أو متخيلة بالفرنسية.",
+      "en": "You have finished all thirty lessons. Now you can combine tenses: the present for facts, the passé composé for events, the imparfait for background and the future for plans. Tell about a real or imagined trip in French.",
+      "id": "Anda telah menyelesaikan ketiga puluh pelajaran. Kini Anda dapat memadukan kala: kala sekarang untuk fakta, passé composé untuk kejadian, imparfait untuk latar, dan futur untuk rencana. Ceritakan perjalanan nyata atau bayangan dalam bahasa Prancis."
+    }
+  }
+]
