@@ -25,7 +25,7 @@
 .nav-item.active{color:var(--brand)}
 .nav-item.active .nav-icon{background:var(--brand-soft)}
 html[data-theme='dark'] .nav-item.active,:root:not([data-theme='light']) .nav-item.active{color:var(--link)}
-.nav-badge{position:absolute;inset-block-start:-4px;inset-inline-end:2px;min-inline-size:18px;block-size:18px;padding:0 5px;border-radius:9px;background:#E5484D;color:#fff;font-size:.68rem;font-weight:800;display:grid;place-items:center}
+.nav-badge{position:absolute;inset-block-start:-4px;inset-inline-end:2px;min-inline-size:18px;block-size:18px;padding:0 5px;border-radius:9px;background:#C62F36;color:#fff;font-size:.68rem;font-weight:800;display:grid;place-items:center}
 .offline-bar{background:var(--warn-bg);color:var(--warn);padding:8px 16px;text-align:center;font-size:.9rem;font-weight:600}
 @media (min-width:640px){.content{padding-inline:28px}}
 @media (min-width:1024px){

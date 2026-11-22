@@ -94,6 +94,9 @@ export default {
     wordsInLesson: '{{count}} kata',
     pathOf: 'Pelajaran {{n}} dari {{total}}',
     levelHeading: 'Tingkat {{level}}',
+    trackProgress: '{{done}} dari {{total}} pelajaran selesai',
+    continueTrack: 'Lanjutkan: {{lesson}}',
+    levelProgress: '{{done}}/{{total}} selesai',
     noLessons: 'Pelajaran tidak ditemukan.',
   },
   lesson: {
@@ -241,6 +244,7 @@ export default {
     nextSession: 'Sesi lain',
     typeChoose: 'Pilih arti yang benar',
     stepDesc: 'Kata yang kamu jawab benar akan muncul lagi dengan jeda yang lebih panjang.',
+    learnedLine: '{{learned}} kata dipelajari · {{mastered}} dikuasai',
   },
   progress: {
     title: 'Progresmu',

@@ -1,6 +1,8 @@
 # Changelog
 
 ## Unreleased
+- **Course map**: each path shows "N of 30 lessons complete" with a progress bar and a one-tap "Continue: <next lesson>" button; each level heading shows its own progress.
+- **Review**: keyboard support (Enter or Space reveals the answer, 1 = didn't know, 2 = knew) and a "words learned · mastered" line on the start screen. Review badge in the sidebar darkened to meet contrast requirements.
 - **Exercise screens**: press 1-9 to answer multiple-choice questions and Enter to continue (keyboard users and desktop learners); an "In a row: N" chip appears after three correct answers in a row and clears on a mistake; the correct option and the chip pop in (no motion when reduced motion is on). Translated in ar, en, id.
 - **Lesson result screen**: after a lesson you now see your streak, progress toward today's XP goal (with how much is left, or that it is reached), any achievements the lesson unlocked (not repeated on a replay), and a button to review due words. Success green darkened for better contrast. Translated in ar, en, id.
 - **Creator signature and About page**: "Made with care by Mohamed Ebrahim" in the footer, the sidebar and the sign-in screen, linking to a new About page (`/about`) with the creator's name in English and Arabic, the story, what the app offers and the project link. Translated in ar, en and id.
