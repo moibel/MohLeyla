@@ -64,6 +64,14 @@ export const markChatRead = (conv) => rpc('mark_chat_read', { p_conv: conv });
 export const chatUnreadTotal = () => rpc('chat_unread_total');
 export const sendAttachment = ({ conv, kind, path, mime, size, durationMs, caption }) => rpc('send_attachment', { p_conv: conv, p_kind: kind, p_path: path, p_mime: mime, p_size: size, p_duration_ms: durationMs ?? null, p_caption: caption || null });
 export const adminExpiredFiles = () => rpc('admin_expired_files');
+// Calls (supabase/migrations/010_calls.sql): the media goes directly between the two browsers; the database only keeps the call state
+// and passes the small connection messages. Admins and teachers (for their own students) can start calls; everyone in the chat can answer.
+export const startCall = (conv, media) => rpc('start_call', { p_conv: conv, p_media: media });
+export const answerCall = (id) => rpc('answer_call', { p_call: id });
+export const endCall = (id) => rpc('end_call', { p_call: id });
+export const callSignalSend = (id, kind, payload) => rpc('call_signal_send', { p_call: id, p_kind: kind, p_payload: payload });
+export const callPoll = (id, after = 0) => rpc('call_poll', { p_call: id, p_after: after });
+export const myIncomingCalls = () => rpc('my_incoming_calls');
 export const adminListChats = () => rpc('admin_list_chats');
 export const adminChatMessages = (conv) => rpc('admin_chat_messages', { p_conv: conv });
 export const adminRemoveMessage = (id) => rpc('admin_remove_message', { p_msg: id });

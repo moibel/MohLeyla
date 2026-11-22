@@ -6,6 +6,7 @@ const NOTES = {
   alert: [[880, 0, 0.22], [622.25, 0.2, 0.22], [880, 0.4, 0.34]], // two clear tones that ask for attention
   info: [[659.25, 0, 0.25], [880, 0.12, 0.4]], // a soft ding
   reward: [[698.46, 0, 0.25], [880, 0.1, 0.25], [1174.66, 0.2, 0.5]],
+  ring: [[784, 0, 0.18], [988, 0.2, 0.18], [784, 0.6, 0.18], [988, 0.8, 0.18]], // a phone-like double ring, repeated while a call is ringing
 };
 
 let ctx = null;

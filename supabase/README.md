@@ -14,10 +14,12 @@
 | `tests/chat.test.sql` | 40 permission checks for chat (who can start, read, write; outsiders; admin read-only; removal; rate limit). |
 | `migrations/008_chat_attachments.sql` | Voice notes and photos in chat: a private storage bucket with per-conversation access, 90-day expiry, `send_attachment`, admin clean-up list. Needs 007. |
 | `tests/chat_attachments.test.sql` | 43 checks for attachments (uploads, reads, expiry, validation). Locally it uses a storage stand-in in `local-stub.sql`. |
+| `migrations/010_calls.sql` | Private one-to-one voice and video calls started from a chat (admin: anyone; teacher: own students); call state and connection messages only, nothing recorded. Needs 007 and 008. |
+| `tests/calls.test.sql` | 44 checks for calls (who can start, answer, poll; outsiders and admins cannot listen in; chat lines; rate limit). |
 | `tests/roles_classes.test.sql` | 39 permission checks run as real database users (student, teacher, admin, signed-out). |
 | `tests/rewards.test.sql` | 29 permission checks for the rewards (who can grant / list / revoke, validation, matching by email, revoke). |
-| `tests/run-dry.sh [roles\|rewards\|announcements\|switch\|chat\|attachments]` | Builds `migration + tests` into one script. |
-| `tests/run-local.sh [roles\|rewards\|announcements\|switch\|chat\|attachments]` | Runs the same tests on a throwaway local Postgres (stand-in for Supabase in `tests/local-stub.sql`); no Supabase needed. |
+| `tests/run-dry.sh [roles\|rewards\|announcements\|switch\|chat\|attachments\|calls]` | Builds `migration + tests` into one script. |
+| `tests/run-local.sh [roles\|rewards\|announcements\|switch\|chat\|attachments\|calls]` | Runs the same tests on a throwaway local Postgres (stand-in for Supabase in `tests/local-stub.sql`); no Supabase needed. |
 
 ## Test the permissions without changing anything
 1. `sh supabase/tests/run-dry.sh` prints the combined script.

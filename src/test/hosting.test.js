@@ -12,9 +12,10 @@ describe('deployment headers', () => {
     expect(m[1]).toMatch(/microphone=\(self\)/);
     expect(m[1]).not.toMatch(/microphone=\(\)/);
   });
-  it('keeps camera and geolocation disabled', () => {
+  it('allows the camera for the app itself (video calls) and keeps geolocation disabled', () => {
     const policy = toml.match(/Permissions-Policy\s*=\s*"([^"]*)"/)[1];
-    expect(policy).toMatch(/camera=\(\)/);
+    expect(policy).toMatch(/camera=\(self\)/);
+    expect(policy).not.toMatch(/camera=\(\)/);
     expect(policy).toMatch(/geolocation=\(\)/);
   });
 });
@@ -22,11 +23,11 @@ describe('deployment headers', () => {
 // Cloudflare (and Netlify) read public/_headers; netlify.toml is only read by Netlify. The two must agree on the microphone policy.
 describe('public/_headers (Cloudflare)', () => {
   const headers = fs.readFileSync(path.resolve(__dirname, '../../public/_headers'), 'utf8');
-  it('allows the microphone for the app and keeps camera and geolocation off', () => {
+  it('allows the microphone and camera for the app (speaking practice, video calls) and keeps geolocation off', () => {
     const m = headers.match(/Permissions-Policy:\s*(.*)/);
     expect(m).toBeTruthy();
     expect(m[1]).toMatch(/microphone=\(self\)/);
-    expect(m[1]).toMatch(/camera=\(\)/);
+    expect(m[1]).toMatch(/camera=\(self\)/);
     expect(m[1]).toMatch(/geolocation=\(\)/);
   });
   it('serves the service worker and index.html uncached so updates are noticed', () => {

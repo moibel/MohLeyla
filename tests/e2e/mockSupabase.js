@@ -20,6 +20,8 @@ export function createMockBackend(opts = {}) {
   const conversations = []; // { id, a, b, last_at } (mirrors 007_chat.sql)
   const chatMsgs = []; // { id, conv, sender, body, created_at, removed_at, kind, file_path, file_mime, duration_ms }
   const files = new Map(); // storage path -> { owner, mime, size, created_at }
+  const calls = []; // { id, conv, caller, media, status, created_at, answered_at } (mirrors 010_calls.sql)
+  const signals = []; // { id, call, sender, kind, payload }
   const tinyJpeg = Buffer.from('/9j/4AAQSkZJRgABAQEASABIAAD/2wBDAP//////////////////////////////////////////////////////////////////////////////////////wgALCAABAAEBAREA/8QAFBABAAAAAAAAAAAAAAAAAAAAAP/aAAgBAQABPxA=', 'base64');
   const chatReads = new Map(); // `${conv}:${userId}` -> ISO time
   let clock = Date.now();
@@ -251,6 +253,62 @@ export function createMockBackend(opts = {}) {
         chatReads.set(`${c.id}:${me.id}`, tick());
         return json(200, null);
       }
+      const callOf = (id) => calls.find((k) => k.id === id);
+      const callMember = (k) => !!k && memberOf(conversations.find((c) => c.id === k.conv));
+      const finishCall = (k, status) => {
+        k.status = status; k.ended_at = new Date().toISOString();
+        const mins = status === 'ended' && k.answered_at ? Math.max(1, Math.round((Date.now() - new Date(k.answered_at).getTime()) / 60000)) : null;
+        chatMsgs.push({ id: 'msg-' + (chatMsgs.length + 1), conv: k.conv, sender: k.caller, body: `${k.media}:${status}${mins ? ':' + mins : ''}`, created_at: tick(), removed_at: null, kind: 'call' });
+        conversations.find((c) => c.id === k.conv).last_at = tick();
+      };
+      if (fn === 'start_call') {
+        const c = conversations.find((x) => x.id === args.p_conv);
+        if (!memberOf(c)) return deny();
+        if (!['audio', 'video'].includes(args.p_media)) return json(400, { code: '22023', message: 'unknown call type' });
+        const other = c.a === me.id ? c.b : c.a;
+        const mine = classes.some((cl) => cl.teacher_id === me.id && members.some((m) => m.class_id === cl.id && m.student_id === other));
+        if (!(me.role === 'admin' || mine)) return deny();
+        for (const k of calls.filter((x) => x.conv === c.id && ['ringing', 'active'].includes(x.status))) {
+          if ((k.status === 'ringing' && Date.now() - new Date(k.created_at).getTime() > 60000) || Date.now() - new Date(k.created_at).getTime() > 6 * 3600e3) finishCall(k, k.status === 'ringing' ? 'missed' : 'ended');
+        }
+        if (calls.some((x) => x.conv === c.id && ['ringing', 'active'].includes(x.status))) return json(400, { code: '55000', message: 'a call is already in progress' });
+        const k = { id: 'call-' + (calls.length + 1), conv: c.id, caller: me.id, media: args.p_media, status: 'ringing', created_at: new Date().toISOString(), answered_at: null };
+        calls.push(k);
+        return json(200, k.id);
+      }
+      if (fn === 'my_incoming_calls') {
+        return json(200, calls.filter((k) => callMember(k) && k.caller !== me.id && k.status === 'ringing' && Date.now() - new Date(k.created_at).getTime() < 60000).map((k) => ({ call_id: k.id, conversation_id: k.conv, caller_id: k.caller, caller_name: nameFor(k.caller), media: k.media, created_at: k.created_at })));
+      }
+      if (fn === 'answer_call') {
+        const k = callOf(args.p_call);
+        if (!callMember(k)) return deny();
+        if (k.caller === me.id) return json(400, { code: '22023', message: 'you started this call' });
+        if (k.status !== 'ringing' || Date.now() - new Date(k.created_at).getTime() > 90000) return json(400, { code: '55000', message: 'call is over' });
+        k.status = 'active'; k.answered_at = new Date().toISOString();
+        return json(200, null);
+      }
+      if (fn === 'end_call') {
+        const k = callOf(args.p_call);
+        if (!callMember(k)) return deny();
+        if (['ended', 'declined', 'missed'].includes(k.status)) return json(200, null);
+        finishCall(k, k.status === 'active' ? 'ended' : k.caller === me.id ? 'missed' : 'declined');
+        signals.push({ id: signals.length + 1, call: k.id, sender: me.id, kind: 'bye', payload: {} });
+        return json(200, null);
+      }
+      if (fn === 'call_signal_send') {
+        const k = callOf(args.p_call);
+        if (!callMember(k)) return deny();
+        if (!['offer', 'answer', 'ice'].includes(args.p_kind) || !args.p_payload || typeof args.p_payload !== 'object') return json(400, { code: '22023', message: 'bad message' });
+        if (!['ringing', 'active'].includes(k.status)) return json(400, { code: '55000', message: 'call is over' });
+        signals.push({ id: signals.length + 1, call: k.id, sender: me.id, kind: args.p_kind, payload: args.p_payload });
+        return json(200, signals.length);
+      }
+      if (fn === 'call_poll') {
+        const k = callOf(args.p_call);
+        if (!callMember(k)) return deny();
+        const head = { status: k.status, media: k.media, i_am_caller: k.caller === me.id, signal_id: null, kind: null, payload: null };
+        return json(200, [head, ...signals.filter((s2) => s2.call === k.id && s2.sender !== me.id && s2.id > (args.p_after || 0)).map((s2) => ({ status: k.status, media: k.media, i_am_caller: k.caller === me.id, signal_id: s2.id, kind: s2.kind, payload: s2.payload }))]);
+      }
       if (fn === 'send_attachment') {
         const c = conversations.find((x) => x.id === args.p_conv);
         if (!memberOf(c)) return deny();
@@ -350,5 +408,5 @@ export function createMockBackend(opts = {}) {
     }
     return json(404, { message: 'not mocked: ' + url.pathname });
   }
-  return { rows, stats, state, install: (ctxOrPage) => ctxOrPage.route(`${MOCK_URL}/**`, handle), code, profiles, known, classes, members, rewards, announcements, contentOff, conversations, chatMsgs, files, addUser: (email, extra = {}) => { const u = know(email); Object.assign(u, extra); return u; } };
+  return { rows, stats, state, install: (ctxOrPage) => ctxOrPage.route(`${MOCK_URL}/**`, handle), code, profiles, known, classes, members, rewards, announcements, contentOff, conversations, chatMsgs, files, calls, signals, addUser: (email, extra = {}) => { const u = know(email); Object.assign(u, extra); return u; } };
 }
