@@ -96,6 +96,10 @@ Details are in [docs/AUDIO.md](docs/AUDIO.md). In short:
 
 **Licensing note:** the clips were produced with Apple system voices. Review Apple's licence terms for redistributing synthesized speech in a public product before relying on them commercially; swap in licensed recordings or a TTS service whose terms allow redistribution if in doubt. If you want a cloud TTS later (e.g. Azure Speech `ar-SA-HamedNeural`, Google Cloud TTS, ElevenLabs), generate the files offline with a script like `scripts/generate-audio.mjs` so **no API key ever ships in the frontend**; a Netlify Function is only needed for on-demand generation and is not required for v6.
 
+## Accounts and sync (optional)
+
+Sign-in and cross-device sync use Supabase and stay switched off until `VITE_SUPABASE_URL` and `VITE_SUPABASE_ANON_KEY` are set (see `.env.example`). Setup, privacy notes and the merge rules are in [docs/ACCOUNTS.md](docs/ACCOUNTS.md); the database schema is `supabase/schema.sql`.
+
 ## Offline use (honest limits)
 
 The service worker precaches the app shell, fonts, icons and **all lesson text** (about 2.4 MB). Audio is **not** precached (about 25 MB); a clip is saved after it has been played once, so previously played audio replays offline. Unplayed audio offline falls back to your device voice if it has one. Progress is stored in `localStorage` and works offline.

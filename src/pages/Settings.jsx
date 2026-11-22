@@ -3,6 +3,8 @@ import { useTranslation } from 'react-i18next';
 import { Download, Upload, Trash2, Smartphone } from 'lucide-react';
 import { PageHeading, Button } from '../components/ui.jsx';
 import SpeakButton from '../components/SpeakButton.jsx';
+import AccountSection from '../features/sync/AccountSection.jsx';
+import { sync } from '../features/sync/index.js';
 import { LANG_META, UI_LANGS } from '../i18n/index.js';
 import { useProgress } from '../app/ProgressContext.jsx';
 import { exportBackup, parseBackup, GOALS } from '../features/progress/engine.js';
@@ -75,6 +77,7 @@ export default function Settings({ pwa }) {
         <Radios legend={t('settings.appearance')} name="theme" value={s.theme} onChange={(v) => updateSettings({ theme: v })}
           options={[['system', t('settings.themeSystem')], ['light', t('settings.themeLight')], ['dark', t('settings.themeDark')]]} />
       </section>
+      <AccountSection />
       <section className="card stack-sm">
         <h2 className="h-sm">{t('settings.data')}</h2>
         <p className="muted small">{t('settings.dataHelp')}</p>
@@ -98,7 +101,7 @@ export default function Settings({ pwa }) {
         <p>{t('settings.resetConfirmText')}</p>
         <div className="btn-row">
           <Button variant="ghost" onClick={() => dlg.current?.close()}>{t('common.cancel')}</Button>
-          <Button variant="danger" onClick={() => { resetAll(); dlg.current?.close(); setMsg({ ok: true, text: t('settings.resetDone') }); }}>{t('settings.reset')}</Button>
+          <Button variant="danger" onClick={async () => { if (sync.getSnapshot().userId) await sync.deleteCloudData(); resetAll(); dlg.current?.close(); setMsg({ ok: true, text: t('settings.resetDone') }); }}>{t('settings.reset')}</Button>
         </div>
       </dialog>
     </div>

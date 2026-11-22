@@ -12,3 +12,4 @@ graphify-out/
 .impeccable/
 legacy-v5/
 .claude/
+.env.local

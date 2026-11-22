@@ -90,3 +90,6 @@
 .notice-soft{background:var(--brand-soft);color:var(--text);padding:10px 14px;border-radius:12px;font-size:.92rem}
 .note-small{font-size:.8rem;color:var(--muted)}
 .ok-text{color:var(--ok);font-weight:600}.err-text{color:var(--bad);font-weight:600}
+.field{display:flex;flex-direction:column;gap:6px;font-weight:650}
+.field input{min-block-size:48px;padding:0 14px;border-radius:14px;border:1px solid var(--border);background:var(--surface);font-weight:500}
+.field input:focus-visible{outline:3px solid var(--focus)}

@@ -8,8 +8,8 @@ Automated tests were run on **macOS, Node 26, Chromium (Playwright headless shel
 | --- | --- | --- |
 | Content validation (strict) | `npm run validate:content` | 120 lessons / 726 items OK |
 | i18n parity | `npm run validate:i18n` | 348 base keys, ar = en = id |
-| Unit tests (Vitest) | `npm test` | 42 passed |
-| Browser tests (Playwright) | `npm run test:e2e` | 79 passed |
+| Unit tests (Vitest) | `npm test` | 65 passed |
+| Browser tests (Playwright) | `npm run test:e2e` | 86 passed |
 | Production build | `npm run build` | OK, PWA precache generated |
 
 ## What is covered
@@ -35,9 +35,11 @@ Automated tests were run on **macOS, Node 26, Chromium (Playwright headless shel
 - PWA: service worker registers; app shell and a visited lesson load while offline.
 
 - **Speaking practice**: real recording through Chromium's fake microphone (MediaRecorder), playback of the user's clip, microphone released after stop and on navigation, denied-mic errors in en/ar/id, unsupported browsers, axe in RTL.
+- **Accounts and sync**: merge rules as property tests (commutative, associative, idempotent), sync manager against an in-memory fake, and browser tests of sign-in with a code, two devices converging, session restore, shared-device prompt, delete/reset and translated errors, all against a **mocked** Supabase API.
 
 ## NOT tested (be honest with users)
 
+- **Real Supabase**: nothing has run against a real project, real emails (templates, rate limits), or row-level-security policies. Test with two real devices and a real inbox before enrolling students.
 - **Real devices**: no iPhone/iPad Safari, no Android Chrome, no desktop Safari/Firefox. Only Chromium (desktop viewport emulation for phone sizes, which does not reproduce touch, safe-area, or iOS audio-unlock behaviour).
 - **Speaking on real hardware**: only Chromium's synthetic microphone tone was used; real voices, iOS Safari (mp4 recording) and Android permission prompts are untested.
 - **Audio quality**: playback was verified technically (events/time/duration). Nobody has listened to all clips for pronunciation accuracy, and the Arabic voice reading Saudi dialect text is *not* a Saudi accent.
