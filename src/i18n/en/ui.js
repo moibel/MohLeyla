@@ -324,6 +324,8 @@ export default {
     more: 'Needs more practice',
     thanksClose: 'Great! Keep it up.',
     thanksMore: 'No problem. Listen again and try once more.',
+    permissionHint: 'Your browser will ask to use the microphone. Tap Allow.',
+    fixReload: 'Fix and reload',
     privacy: 'Your recording stays on this device. It is not saved or uploaded and disappears when you leave this word.',
     errors: {
       unsupported: 'This browser cannot record audio, so speaking practice is unavailable here.',
@@ -331,6 +333,9 @@ export default {
       noMic: 'No microphone was found on this device.',
       failed: 'Recording failed. Please try again.',
       tooShort: 'That was too short. Hold on a little longer and try again.',
+      policy: 'This copy of the app is out of date and blocks the microphone. Tap “Fix and reload”. Your progress is kept.',
+      blocked: 'The microphone is blocked for this site. Open your browser’s site settings (the lock or settings icon next to the address), set Microphone to Allow, then try again.',
+      dismissed: 'The microphone was not allowed. Tap Record again and choose Allow in the pop-up.',
     },
   },
   settings: {

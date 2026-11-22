@@ -318,6 +318,8 @@ export default {
     more: 'Perlu latihan lagi',
     thanksClose: 'Bagus! Pertahankan.',
     thanksMore: 'Tidak apa-apa. Dengarkan lagi dan coba sekali lagi.',
+    permissionHint: 'Browser akan meminta izin memakai mikrofon. Ketuk Izinkan.',
+    fixReload: 'Perbaiki dan muat ulang',
     privacy: 'Rekamanmu tetap di perangkat ini. Tidak disimpan atau diunggah, dan hilang saat kamu meninggalkan kata ini.',
     errors: {
       unsupported: 'Browser ini tidak dapat merekam suara, jadi latihan berbicara tidak tersedia di sini.',
@@ -325,6 +327,9 @@ export default {
       noMic: 'Mikrofon tidak ditemukan di perangkat ini.',
       failed: 'Perekaman gagal. Silakan coba lagi.',
       tooShort: 'Terlalu singkat. Tahan sedikit lebih lama lalu coba lagi.',
+      policy: 'Salinan aplikasi ini sudah usang dan memblokir mikrofon. Ketuk “Perbaiki dan muat ulang”. Progresmu tetap aman.',
+      blocked: 'Mikrofon diblokir untuk situs ini. Buka pengaturan situs di browser (ikon gembok atau pengaturan di samping alamat), setel Mikrofon ke Izinkan, lalu coba lagi.',
+      dismissed: 'Mikrofon belum diizinkan. Ketuk Rekam lagi dan pilih Izinkan di jendela pop-up.',
     },
   },
   settings: {

@@ -100,3 +100,56 @@ test('speaking card passes axe in RTL and has a privacy note', async ({ page }) 
   const r = await new AxeBuilder({ page }).withTags(['wcag2a', 'wcag2aa']).analyze();
   expect(r.violations.map((v) => v.id + ': ' + v.nodes[0].target.join(' '))).toEqual([]);
 });
+
+const reject = () => { navigator.mediaDevices.getUserMedia = async () => { throw Object.assign(new Error('denied'), { name: 'NotAllowedError' }); }; };
+
+test('before the first recording the screen tells the learner to tap Allow', async ({ page }) => {
+  await seed(page, { lang: 'en' });
+  await openCard(page);
+  await expect(page.locator('[data-testid="mic-hint"]')).toContainText('Tap Allow');
+});
+
+test('a blocked microphone explains how to unblock it (site settings), in Arabic', async ({ page }) => {
+  await page.addInitScript(reject);
+  await page.addInitScript(() => {
+    const q = navigator.permissions.query.bind(navigator.permissions);
+    navigator.permissions.query = (d) => (d && d.name === 'microphone' ? Promise.resolve({ state: 'denied' }) : q(d));
+  });
+  await seed(page, { lang: 'ar' });
+  await openCard(page, 'ar-01');
+  await page.locator('[data-testid="rec-start"]').click();
+  await expect(page.locator('[data-testid="rec-error"]')).toHaveAttribute('data-detail', 'blocked');
+  await expect(page.locator('[data-testid="rec-error"]')).toContainText('إعدادات الموقع');
+  await expect(page.locator('[data-testid="fix-reload"]')).toHaveCount(0);
+});
+
+test('a dismissed permission pop-up says to tap Record again and choose Allow', async ({ page }) => {
+  await page.addInitScript(reject);
+  await page.addInitScript(() => {
+    const q = navigator.permissions.query.bind(navigator.permissions);
+    navigator.permissions.query = (d) => (d && d.name === 'microphone' ? Promise.resolve({ state: 'prompt' }) : q(d));
+  });
+  await seed(page, { lang: 'en' });
+  await openCard(page);
+  await page.locator('[data-testid="rec-start"]').click();
+  await expect(page.locator('[data-testid="rec-error"]')).toHaveAttribute('data-detail', 'dismissed');
+  await expect(page.locator('[data-testid="rec-error"]')).toContainText('choose Allow in the pop-up');
+});
+
+test('an old copy that blocks the microphone by policy offers "Fix and reload", which clears caches and keeps progress', async ({ page }) => {
+  await page.addInitScript(reject);
+  await page.addInitScript(() => {
+    Object.defineProperty(document, 'permissionsPolicy', { value: { allowsFeature: (f) => f !== 'microphone' }, configurable: true });
+  });
+  await seed(page, { lang: 'id', state: { xp: 70, xpLedger: { d: 70 } } });
+  await openCard(page);
+  await page.evaluate(async () => { const c = await caches.open('mohleyla-test-old'); await c.put('/x', new Response('old')); window.__marker = 1; });
+  await page.locator('[data-testid="rec-start"]').click();
+  await expect(page.locator('[data-testid="rec-error"]')).toHaveAttribute('data-detail', 'policy');
+  await expect(page.locator('[data-testid="rec-error"]')).toContainText('sudah usang');
+  await page.locator('[data-testid="fix-reload"]').click();
+  await page.waitForLoadState('load');
+  await expect.poll(() => page.evaluate(() => window.__marker)).toBeUndefined(); // the page really reloaded
+  expect(await page.evaluate(async () => (await caches.keys()).includes('mohleyla-test-old'))).toBe(false);
+  expect((await page.evaluate(state)).xp).toBe(70);
+});
