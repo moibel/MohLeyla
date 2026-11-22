@@ -171,6 +171,7 @@ export default function ExerciseRunner({ lesson, exercises, ui, onFinish }) {
   const [round, setRound] = useState(0);
   const [resp, setResp] = useState(undefined);
   const [result, setResult] = useState(null);
+  const [combo, setCombo] = useState(0); // correct answers in a row
   const firstTry = useRef(new Map()); // exerciseId -> boolean
   const finalOk = useRef(new Map());
   const missed = useRef(new Set());
@@ -192,6 +193,7 @@ export default function ExerciseRunner({ lesson, exercises, ui, onFinish }) {
     if (correct) finalOk.current.set(ex.id, true);
     else if (ex.itemId) missed.current.add(ex.itemId);
     else if (ex.itemIds) ex.itemIds.forEach((i) => missed.current.add(i));
+    setCombo((c) => (correct ? c + 1 : 0));
     setResult({ correct });
   };
 
@@ -212,6 +214,24 @@ export default function ExerciseRunner({ lesson, exercises, ui, onFinish }) {
     setResp(undefined); setResult(null);
   };
 
+  // Keyboard: 1-9 picks an option on multiple-choice questions, Enter continues after feedback.
+  const live = useRef({});
+  live.current = { ex, result, answer, next };
+  useEffect(() => {
+    const onKey = (e) => {
+      if (e.ctrlKey || e.metaKey || e.altKey || e.target.closest?.('input,textarea,select,[contenteditable]')) return;
+      const { ex: cur, result: res, answer: ans, next: nxt } = live.current;
+      if (res) {
+        if (e.key === 'Enter' && !e.target.closest?.('button,a')) { e.preventDefault(); nxt(); }
+      } else if (cur?.choices && /^[1-9]$/.test(e.key)) {
+        const c = cur.choices[Number(e.key) - 1];
+        if (c) { e.preventDefault(); ans(c.id); }
+      }
+    };
+    window.addEventListener('keydown', onKey);
+    return () => window.removeEventListener('keydown', onKey);
+  }, []);
+
   const praise = useMemo(() => {
     const list = t('quiz.praise', { returnObjects: true });
     return Array.isArray(list) ? list[index % list.length] : t('quiz.correct');
@@ -229,6 +249,7 @@ export default function ExerciseRunner({ lesson, exercises, ui, onFinish }) {
         <span className="muted">{round === 1 ? t('lesson.retryRound') : t('lesson.questionOf', { n: position, total: round === 0 ? total : queue.length })}</span>
         <ProgressBar value={barValue} max={total} label={t('lesson.questionOf', { n: position, total })} />
       </div>
+      {combo >= 3 && <p className={`combo ${result?.correct ? 'pop' : ''}`} role="status" data-testid="combo">{t('quiz.combo', { count: combo })}</p>}
       {round === 1 && index === 0 && !result && <p className="notice-soft">{t('lesson.retryRoundHelp')}</p>}
       {ex.type === 'match' ? <MatchExercise key={ex.id} {...common} /> : ex.type === 'arrange' ? <ArrangeExercise key={ex.id} {...common} /> : <ChoiceExercise key={ex.id} {...common} picked={resp} />}
       {result && (

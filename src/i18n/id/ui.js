@@ -155,6 +155,7 @@ export default {
     correctAnswer: 'Jawaban benar: {{answer}}',
     yourAnswer: 'Jawabanmu: {{answer}}',
     comesBack: 'Pertanyaan ini akan ditanyakan lagi di akhir.',
+    combo: 'Berturut-turut: {{count}}',
     pickAnswer: 'Pilih jawaban',
     types: {
       meaning: 'Apa artinya?',
