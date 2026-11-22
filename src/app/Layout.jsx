@@ -58,15 +58,21 @@ function NavItems({ variant }) {
   const { dueCount } = useDerived();
   const sy = useSync();
   const chatUnread = useChatUnread();
-  const items = variant === 'side' ? [...NAV, ...extraNav(sy)] : NAV; // the phone bar keeps its 5 learning tabs; more links live on the profile page
-  return items.map(({ to, key, Icon, end, badge, chat }) => (
+  const notif = useNotifications();
+  // Desktop sidebar: everything. Phone bar: the learning tabs, plus Messages and Notifications once signed in (My words moves to the Learn page).
+  const phoneTabs = sy.userId ? [...NAV.filter((n) => n.key !== 'vocabulary'), { to: '/chat', key: 'chat', Icon: MessageCircle, chat: true }, { to: '/notifications', key: 'notifications', Icon: Bell, bell: true }] : NAV;
+  const items = variant === 'side' ? [...NAV, ...extraNav(sy)] : phoneTabs;
+  // On the phone bar Messages and Notifications use shorter labels so every tab fits.
+  const label = (key) => (variant === 'bottom' && key === 'chat' ? t('nav.chatTab') : variant === 'bottom' && key === 'notifications' ? t('nav.alertsTab') : t(`nav.${key}`));
+  return items.map(({ to, key, Icon, end, badge, chat, bell }) => (
     <NavLink key={to} to={to} end={end} className={({ isActive }) => `nav-item nav-${variant} ${isActive ? 'active' : ''}`}>
       <span className="nav-icon">
         <Icon size={variant === 'side' ? 20 : 22} aria-hidden="true" />
         {badge && dueCount > 0 && <span className="nav-badge" aria-hidden="true">{dueCount > 9 ? '9+' : dueCount}</span>}
         {chat && chatUnread > 0 && <span className="nav-badge" aria-hidden="true">{chatUnread > 9 ? '9+' : chatUnread}</span>}
+        {bell && notif.count > 0 && <span className="nav-badge" aria-hidden="true">{notif.count > 9 ? '9+' : notif.count}</span>}
       </span>
-      <span>{t(`nav.${key}`)}</span>
+      <span>{label(key)}</span>
     </NavLink>
   ));
 }
@@ -112,7 +118,7 @@ export default function Layout({ pwa }) {
           </div>
           <LangSwitcher />
           {sy.userId && (
-            <NavLink to="/notifications" className="icon-btn bell" aria-label={notif.count > 0 ? `${t('nav.notifications')}: ${t('notifications.countLabel', { n: notif.count })}` : t('nav.notifications')} data-testid="bell">
+            <NavLink to="/notifications" className="icon-btn bell bell-top" aria-label={notif.count > 0 ? `${t('nav.notifications')}: ${t('notifications.countLabel', { n: notif.count })}` : t('nav.notifications')} data-testid="bell">
               <Bell size={22} aria-hidden="true" />
               {notif.count > 0 && <span className="bell-badge" aria-hidden="true" data-testid="bell-count">{notif.count > 9 ? '9+' : notif.count}</span>}
             </NavLink>

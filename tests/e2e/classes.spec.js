@@ -161,7 +161,7 @@ test.describe('roles, classes, teacher and admin pages (mocked Supabase API; the
     await admin.page.goto('/');
     for (const href of ['/classes', '/teach', '/admin']) await expect(admin.page.locator(`.sidebar a[href="${href}"]`)).toBeVisible();
     await admin.page.setViewportSize({ width: 390, height: 844 });
-    await expect(admin.page.locator('.bottom-nav a')).toHaveCount(5);
+    await expect(admin.page.locator('.bottom-nav a')).toHaveCount(6); // Home, Learn, Review, Progress, Messages, Notifications
     for (const url of ['/classes', '/teach', '/admin']) {
       await admin.page.goto(url);
       expect(await admin.page.evaluate(() => document.documentElement.scrollWidth - document.documentElement.clientWidth), url).toBeLessThanOrEqual(0);

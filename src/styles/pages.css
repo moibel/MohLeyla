@@ -365,3 +365,12 @@ html[data-theme='dark'] .motto,:root:not([data-theme='light']) .motto{color:var(
 .transcript li.removed{opacity:.7}
 .transcript p{white-space:pre-wrap;overflow-wrap:anywhere}
 tr.is-open{background:var(--brand-soft)}
+
+/* ---- spacing and navigation fixes ---- */
+.eyebrow>span{display:inline}
+.stat-pill+.stat-pill{margin-inline-start:0}
+.data-table th .chip{margin-inline-start:8px}
+.bottom-nav .nav-bottom{font-size:.68rem}
+.bell-top{display:none}
+@media (min-width:1024px){.bell-top{display:inline-grid}}
+.bottom-nav .nav-bottom span:last-child{display:block}

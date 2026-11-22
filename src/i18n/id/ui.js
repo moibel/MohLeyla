@@ -27,6 +27,8 @@ export default {
     about: 'Tentang',
     chat: 'Pesan',
     notifications: 'Notifikasi',
+    chatTab: 'Pesan',
+    alertsTab: 'Kabar',
   },
   common: {
     back: 'Kembali',

@@ -1,6 +1,6 @@
 import { useSearchParams } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
-import { ArrowRight } from 'lucide-react';
+import { ArrowRight, Bookmark } from 'lucide-react';
 import { PageHeading, EmptyState, ProgressBar, Button, Flip } from '../components/ui.jsx';
 import LessonCard from '../components/LessonCard.jsx';
 import { TRACK_META } from '../data/content.js';
@@ -25,7 +25,7 @@ export default function Courses() {
   const pct = list.length ? Math.round((doneCount / list.length) * 100) : 0;
   return (
     <div className="page">
-      <PageHeading title={t('courses.title')} subtitle={t('courses.subtitle')} />
+      <PageHeading title={t('courses.title')} subtitle={t('courses.subtitle')} actions={<Button variant="secondary" to="/words" icon={<Bookmark size={18} aria-hidden="true" />} data-testid="my-words-link">{t('nav.vocabulary')}</Button>} />
       <div className="filters" role="tablist" aria-label={t('courses.title')}>
         {orderedTracks(i18n.language).map((k) => (
           <button key={k} role="tab" aria-selected={track === k} className={`filter ${track === k ? 'on' : ''}`} style={{ '--tile': TRACK_META[k].color }}
