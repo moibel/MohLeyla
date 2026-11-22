@@ -175,3 +175,10 @@ html[lang='ar'] .label{letter-spacing:0;text-transform:none;font-size:.85rem}
 .ach.on .ach-icon{background:linear-gradient(135deg,#FFE08A,#FFC83D);color:#7A4B00}
 .ach.off .ach-icon{opacity:.8}
 .test-audio{display:flex;gap:12px;align-items:center}
+
+/* speaking practice */
+.speaking{display:flex;flex-direction:column;gap:10px;padding:16px;border-radius:var(--r);background:var(--surface-2);border:1px solid var(--border)}
+.rec-live{display:flex;align-items:center;gap:12px;flex-wrap:wrap}
+.rec-dot{inline-size:12px;block-size:12px;border-radius:50%;background:#E5484D;animation:pulse 1s ease-in-out infinite}
+@keyframes pulse{50%{transform:scale(1.5);opacity:.6}}
+.rec-review{display:flex;flex-direction:column;gap:12px}

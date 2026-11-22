@@ -1,5 +1,8 @@
 # Changelog
 
+## Unreleased
+- **Speaking practice**: record yourself on every word card, compare with the model voice, self-rate ("close" / "needs practice"). Recordings stay in memory on the device and are never stored or uploaded. +1 XP per "close" rating (max 20/day), new "Speaker" achievement. Mapped microphone errors (blocked / no mic / unsupported / too short) in ar, en, id.
+
 ## 6.0.0 — MohLeyla v6
 
 ### Critical fixes
