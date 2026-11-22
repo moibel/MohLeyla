@@ -62,6 +62,8 @@ export const myChats = () => rpc('my_chats');
 export const chatMessages = (conv) => rpc('chat_messages_of', { p_conv: conv });
 export const markChatRead = (conv) => rpc('mark_chat_read', { p_conv: conv });
 export const chatUnreadTotal = () => rpc('chat_unread_total');
+export const sendAttachment = ({ conv, kind, path, mime, size, durationMs, caption }) => rpc('send_attachment', { p_conv: conv, p_kind: kind, p_path: path, p_mime: mime, p_size: size, p_duration_ms: durationMs ?? null, p_caption: caption || null });
+export const adminExpiredFiles = () => rpc('admin_expired_files');
 export const adminListChats = () => rpc('admin_list_chats');
 export const adminChatMessages = (conv) => rpc('admin_chat_messages', { p_conv: conv });
 export const adminRemoveMessage = (id) => rpc('admin_remove_message', { p_msg: id });

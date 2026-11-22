@@ -374,3 +374,27 @@ tr.is-open{background:var(--brand-soft)}
 .bell-top{display:none}
 @media (min-width:1024px){.bell-top{display:inline-grid}}
 .bottom-nav .nav-bottom span:last-child{display:block}
+
+/* ---- chat attachments ---- */
+.chat-form .icon-btn{flex:none;border:1px solid var(--border);background:var(--surface)}
+.chat-form .icon-btn:disabled{opacity:.5}
+.rec-bar{display:flex;align-items:center;gap:10px;flex-wrap:wrap;padding:10px 14px;border-radius:var(--r);background:var(--bad-bg);color:var(--bad)}
+.rec-bar strong{font-weight:800}
+.rec-actions{margin-inline-start:auto;display:flex;gap:6px}
+.rec-dot{inline-size:12px;block-size:12px;border-radius:50%;background:var(--bad);animation:rec-pulse 1s ease-in-out infinite}
+@keyframes rec-pulse{50%{transform:scale(1.4);opacity:.6}}
+@media (prefers-reduced-motion:reduce){.rec-dot{animation:none}}
+.pending-file{display:flex;align-items:center;gap:10px;padding:8px 12px;border-radius:var(--r);background:var(--surface-2);border:1px dashed var(--border)}
+.pending-file img{inline-size:72px;block-size:72px;object-fit:cover;border-radius:10px}
+.pending-file audio,.voice-note audio{max-inline-size:100%;block-size:40px}
+.voice-note{display:flex;align-items:center;gap:8px;flex-wrap:wrap}
+.photo-btn{display:block;padding:0;border:0;background:transparent;border-radius:12px;overflow:hidden;cursor:zoom-in}
+.photo-btn img{display:block;inline-size:min(240px,60vw);max-block-size:260px;object-fit:cover;border-radius:12px}
+.photo-ph{display:grid;place-items:center;inline-size:160px;block-size:120px;background:var(--surface-2);color:var(--muted);border-radius:12px}
+.photo-dialog{border:0;padding:0;background:transparent;max-inline-size:96vw;max-block-size:92vh;overflow:visible}
+.photo-dialog::backdrop{background:rgba(8,16,40,.8)}
+.photo-dialog img{display:block;max-inline-size:96vw;max-block-size:88vh;border-radius:12px;margin:auto}
+.photo-close{position:absolute;inset-block-start:8px;inset-inline-end:8px;background:rgba(0,0,0,.55);color:#fff}
+.file-note{display:flex;gap:6px;align-items:center;font-size:.85rem;opacity:.9}
+.bubble-msg.mine .voice-note audio{filter:none}
+.bubble-msg.mine .muted,.bubble-msg.mine .voice-note small{color:inherit;opacity:.9}

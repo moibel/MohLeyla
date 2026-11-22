@@ -30,6 +30,7 @@ export class Recorder {
       : typeof navigator !== 'undefined' && navigator.mediaDevices && navigator.mediaDevices.getUserMedia
         ? (c) => navigator.mediaDevices.getUserMedia(c)
         : null;
+    this.maxMs = env.maxMs || MAX_RECORD_MS; // chat voice notes allow longer recordings than speaking practice
     this.now = env.now || (() => Date.now());
     this.setTimeout = env.setTimeout || ((fn, ms) => setTimeout(fn, ms));
     this.clearTimeout = env.clearTimeout || ((id) => clearTimeout(id));
@@ -70,7 +71,7 @@ export class Recorder {
       this.startedAt = this.now();
       this.timer = this.setTimeout(() => {
         if (this.onAutoStop) this.onAutoStop();
-      }, MAX_RECORD_MS);
+      }, this.maxMs);
     } catch (e) {
       this.cleanup();
       throw Object.assign(new Error(String(e && e.message)), { code: 'failed' });
