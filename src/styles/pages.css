@@ -244,3 +244,12 @@ html[data-theme='dark'] .motto,:root:not([data-theme='light']) .motto{color:var(
 .result-hero .confetti{animation:ach-pop .6s var(--ease) both}
 @keyframes ach-pop{from{transform:scale(.92)}to{transform:none}}
 @media (prefers-reduced-motion:reduce){.ach-new,.result-hero .confetti{animation:none}}
+
+/* ---- exercise polish ---- */
+.combo{align-self:flex-start;display:inline-flex;padding:4px 12px;border-radius:999px;background:var(--warn-bg);color:var(--warn);font-weight:800;font-size:.85rem;font-variant-numeric:tabular-nums}
+.combo.pop{animation:ach-pop .35s var(--ease) both}
+.option.correct{animation:ach-pop .3s var(--ease) both}
+.option:active:not(:disabled){transform:scale(.985)}
+.option.correct .opt-key,.option.wrong .opt-key{background:transparent;color:inherit}
+@media (hover:none){.opt-key{display:none}}
+@media (prefers-reduced-motion:reduce){.combo.pop,.option.correct{animation:none}}

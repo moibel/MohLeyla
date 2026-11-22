@@ -180,6 +180,7 @@ export default {
     correctAnswer: 'الإجابة الصحيحة: {{answer}}',
     yourAnswer: 'إجابتك: {{answer}}',
     comesBack: 'سنسألك هذا السؤال مرة أخرى في النهاية.',
+    combo: 'إجابات متتالية: {{count}}',
     pickAnswer: 'اختر إجابة',
     types: {
       meaning: 'ما معنى هذا؟',

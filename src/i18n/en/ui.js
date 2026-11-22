@@ -160,6 +160,7 @@ export default {
     correctAnswer: 'Correct answer: {{answer}}',
     yourAnswer: 'Your answer: {{answer}}',
     comesBack: "We'll ask this one again at the end.",
+    combo: 'In a row: {{count}}',
     pickAnswer: 'Choose an answer',
     types: {
       meaning: 'What does this mean?',
