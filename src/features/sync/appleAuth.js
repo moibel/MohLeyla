@@ -15,6 +15,13 @@ export async function sha256Hex(text) {
   return [...new Uint8Array(d)].map((b) => b.toString(16).padStart(2, '0')).join('');
 }
 
+/** Account deletion: opens Apple's sheet again and returns the one-time code the server needs to revoke the Apple token. */
+export async function appleAuthorizationCode() {
+  const { registerPlugin } = await import('@capacitor/core');
+  const res = await registerPlugin('AppleSignIn').authorize({});
+  return res.authorizationCode || null;
+}
+
 /** Opens Apple's sign-in sheet. Resolves { identityToken, rawNonce, givenName, familyName }; rejects with code 'canceled' if the person closes it. */
 export async function appleNativeAuthorize() {
   const { registerPlugin } = await import('@capacitor/core');

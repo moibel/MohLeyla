@@ -9,6 +9,9 @@
 - Apple sign-in: the native sheet returns a signed token that contains the SHA-256 of a one-time random value; Supabase checks it against the raw value, so a stolen token cannot be replayed. Only the Apple "Services"/bundle id that you list in Supabase can sign in.
 - Push: device tokens live in a table nobody can read from the app (only register/remove your own, at most 10 per person; a token moves if another person signs in on that phone). The database tells the Edge Function through a shared secret (checked in constant time before anything is read); keys (`.p8`, Firebase) exist only as Edge Function secrets. Notifications never contain message text; a tap can only open `/chat`, `/chat/<id>` or `/notifications`. A push failure can never block the original action. Checked by `supabase/tests/push.test.sql` (39), `src/test/push-function.test.js` (15), `src/test/push.test.js` (22) and the checks in `src/test/security.test.js`.
 
+## Account deletion
+The Edge Function takes the person from their own sign-in token (never from the request) and keeps JWT verification on. The database helpers can be called only by the service role (tested: signed-in people, admins and visitors are refused). The last administrator cannot be deleted. Only well-formed chat file paths are removed from storage. Apple's token is revoked when the Apple secrets are configured. See `docs/ACCOUNT_DELETION.md`; checks in `supabase/tests/account_deletion.test.sql`, `src/test/delete-account.test.js`, `src/test/security.test.js`, `tests/e2e/delete-account.spec.js`.
+
 ## Headers (website)
 `public/_headers` (Cloudflare) and `netlify.toml` send: Content-Security-Policy (same policy as the build, plus `frame-ancestors 'none'`), `X-Frame-Options: DENY`, `X-Content-Type-Options: nosniff`, HSTS, Referrer-Policy, Permissions-Policy. Change the policy only in `scripts/csp.mjs`; the test fails if the headers drift from it.
 

@@ -53,4 +53,4 @@ on conflict (id) do update set url = excluded.url, secret = excluded.secret;
 - Not tested on a real iPhone or Android phone (this was built and tested with fakes, SQL tests and the iPhone simulator). The Apple sign-in sheet opens in the simulator; the full sign-in and the notification delivery need a real Apple ID / device and the accounts above.
 - A notification is "best effort": phones in battery saver or with notifications blocked in system settings will not show it. The app notices a blocked permission and switches the setting off.
 - Announcements to *everyone* send to every registered phone from one function call (fine for hundreds of people; revisit for many thousands).
-- Apple requires an in-app **account deletion** option for apps with accounts, and deleting an Apple-linked account should also revoke the Apple token. Not built yet.
+- Account deletion (an Apple and Google Play requirement) is built: see `docs/ACCOUNT_DELETION.md`.
