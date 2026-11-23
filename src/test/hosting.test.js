@@ -66,3 +66,32 @@ describe('.env.production (public build settings)', () => {
     expect(vars.VITE_GOOGLE_SIGN_IN).toBe('true');
   });
 });
+
+// Regression: the audio clip list was cached "immutable" for a year, so browsers kept an old copy and the new languages' recordings were never used.
+describe('audio caching', () => {
+  const headers = fs.readFileSync(path.resolve(__dirname, '../../public/_headers'), 'utf8');
+  const toml = fs.readFileSync(path.resolve(__dirname, '../../netlify.toml'), 'utf8');
+  const block = (text, p) => (text.split(/\n(?=\S)/).find((b) => b.startsWith(p + '\n')) || '');
+  const LANGS = ['ar', 'en', 'id', 'fr', 'es', 'zh'];
+  it('the list of clips (manifest.json) is always revalidated, never cached forever', () => {
+    expect(block(headers, '/audio/manifest.json')).toMatch(/Cache-Control: no-cache/);
+    expect(toml).toMatch(/for = "\/audio\/manifest\.json"\s+\[headers\.values\]\s+Cache-Control = "no-cache"/);
+  });
+  it('no rule that also matches manifest.json (like /audio/*) may set a long cache', () => {
+    expect(block(headers, '/audio/*')).not.toMatch(/Cache-Control/);
+    expect(toml.match(/for = "\/audio\/\*"\s+\[headers\.values\]([^[]*)/)[1]).not.toMatch(/Cache-Control/);
+  });
+  it('the clips themselves (named by a hash of their text) are cached for a year, for every language', () => {
+    for (const l of LANGS) {
+      expect(block(headers, `/audio/${l}/*`), l).toMatch(/Cache-Control: public, max-age=31536000, immutable/);
+      expect(toml).toContain(`for = "/audio/${l}/*"`);
+    }
+  });
+  it('every audio folder that exists has a caching rule (a new language must not silently lose its cache or CORS header)', () => {
+    const dirs = fs.readdirSync(path.resolve(__dirname, '../../public/audio'), { withFileTypes: true }).filter((d) => d.isDirectory()).map((d) => d.name);
+    for (const d of dirs) expect(LANGS, `public/audio/${d} has no cache rule in _headers / netlify.toml`).toContain(d);
+  });
+  it('clips can be fetched cross-origin (the phone apps load them from the website)', () => {
+    expect(block(headers, '/audio/*')).toMatch(/Access-Control-Allow-Origin: \*/);
+  });
+});

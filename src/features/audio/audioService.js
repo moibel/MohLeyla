@@ -32,6 +32,9 @@ export function pickVoice(voices, lang, track) {
   return { voice: list.find((v) => v.default) || list[0], exact: false };
 }
 
+// Fingerprint of the clip list, set at build time (vite.config.js); empty in tests.
+const AUDIO_VERSION = typeof __AUDIO_VERSION__ !== 'undefined' ? __AUDIO_VERSION__ : '';
+
 export class AudioService {
   /**
    * @param {object} env injectable environment (for tests): { AudioCtor, synth, Utterance, fetchFn, base }
@@ -70,14 +73,30 @@ export class AudioService {
     if (this.state.error) this.setState({ error: null });
   }
 
+  manifestUrl() {
+    return `${this.base}/audio/manifest.json${AUDIO_VERSION ? `?v=${AUDIO_VERSION}` : ''}`;
+  }
+
+  fetchManifest(init) {
+    return (this.fetchFn ? this.fetchFn(this.manifestUrl(), init).then((r) => (r.ok ? r.json() : null)) : Promise.resolve(null))
+      .then((m) => (m && m.clips ? Object.fromEntries(Object.entries(m.clips).map(([k, v]) => [k, new Set(v)])) : null))
+      .catch(() => null);
+  }
+
   loadManifest() {
-    if (!this.manifestPromise) {
-      this.manifestPromise = (this.fetchFn
-        ? this.fetchFn(`${this.base}/audio/manifest.json`).then((r) => (r.ok ? r.json() : null))
-        : Promise.resolve(null)
-      )
-        .then((m) => (m && m.clips ? Object.fromEntries(Object.entries(m.clips).map(([k, v]) => [k, new Set(v)])) : null))
-        .catch(() => null);
+    if (!this.manifestPromise) this.manifestPromise = this.fetchManifest();
+    return this.manifestPromise;
+  }
+
+  /**
+   * The list of clips may be an OLD copy kept by the browser or a proxy (clips are added with every release). When a clip looks missing,
+   * look once, per session, at a fresh copy (bypassing every cache) before giving up on the recording.
+   */
+  refreshManifest() {
+    if (!this.manifestRefreshed) {
+      this.manifestRefreshed = true;
+      const old = this.manifestPromise;
+      this.manifestPromise = this.fetchManifest({ cache: 'reload' }).then((fresh) => fresh || old);
     }
     return this.manifestPromise;
   }
@@ -127,9 +146,13 @@ export class AudioService {
 
   async playRecording(text, lang, key, token) {
     if (!this.AudioCtor) return { ok: false, error: 'unsupported' };
-    const clips = await this.loadManifest();
+    let clips = await this.loadManifest();
     if (token !== this.token) return { ok: false, superseded: true };
     const hash = audioKey(text, lang);
+    if (clips && !clips[lang]?.has(hash)) {
+      clips = await this.refreshManifest();
+      if (token !== this.token) return { ok: false, superseded: true };
+    }
     if (clips && !clips[lang]?.has(hash)) return { ok: false, error: 'noAudioFile' };
     const url = `${this.base}/audio/${lang}/${hash}.mp3`;
     if (!this.element) this.element = new this.AudioCtor();

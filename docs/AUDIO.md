@@ -24,6 +24,7 @@ Errors (`unsupported`, `noVoice`, `blocked`, `network`, `failed`, `noAudioFile`)
 - `src/features/audio/hash.js` – `audioKey(text, lang)`; shared by the app and the generator, so file names are content-addressed: change a sentence → it gets a new hash → regenerate.
 - `scripts/generate-audio.mjs` – offline generator (macOS `say` + `ffmpeg`/libmp3lame, mono 24 kHz 40 kbps). Idempotent; `--force` redoes all.
 - `public/audio/manifest.json` – list of existing hashes per language (lets the app know a clip exists before requesting it).
+  The list changes with every release, so it is **never cached for long**: hosting sends `no-cache` for it (only the clips, named by a hash of their text, are cached for a year), the app requests it as `manifest.json?v=<fingerprint>` (set in `vite.config.js`), and when a clip looks missing it re-reads the list once with the cache bypassed. History: it used to be `immutable` for a year, which hid the new languages' recordings from browsers that had used the app before.
 
 ## Voices used for the bundled clips
 

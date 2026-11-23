@@ -143,3 +143,31 @@ test('settings: playback speed is applied to recordings', async ({ page }) => {
   await expect.poll(() => page.evaluate(() => window.__rates.length)).toBeGreaterThan(0);
   expect(await page.evaluate(() => window.__rates[0])).toBe(0.75);
 });
+
+// Regression: a browser that kept an OLD copy of /audio/manifest.json (it used to be cached "immutable" for a year, and it gains entries
+// with every release) listed no French, Spanish, Chinese or Egyptian clips, so those languages never got their recordings.
+// Here the FIRST request for the list is answered with that old copy (what the stale cache would hand out); the app must then ask once
+// more, bypassing the cache, and use the real list.
+const oldList = { ar: [], en: [], id: [] };
+for (const [track, lessonId, label] of [['fr', 'fr-01', 'French'], ['es', 'es-01', 'Spanish'], ['zh', 'zh-01', 'Chinese'], ['eg', 'eg-01', 'Egyptian Arabic'], ['fr', 'fr-25', 'French lesson 25 (added later)']]) {
+  test(`stale cached clip list: ${label} still plays its recording`, async ({ page }) => {
+    await page.addInitScript(instrument);
+    let requests = 0;
+    await page.route('**/audio/manifest.json*', (route) => {
+      requests++;
+      if (requests === 1) return route.fulfill({ status: 200, contentType: 'application/json', body: JSON.stringify({ clips: oldList }) });
+      return route.continue();
+    });
+    await seed(page, { lang: 'en' });
+    await page.goto(`/lesson/${lessonId}`);
+    await page.locator('[data-testid="start-learn"]').click();
+    await page.getByRole('button', { name: 'Listen to the word' }).click();
+    await expect.poll(() => page.evaluate(() => window.__media.some((m) => m.ended)), { timeout: 15000 }).toBe(true);
+    const rec = await page.evaluate(() => window.__media[0]);
+    expect(rec.src).toContain(track === 'eg' ? '/audio/ar/' : `/audio/${track}/`);
+    expect(rec.error).toBeNull();
+    expect(rec.duration).toBeGreaterThan(0.3);
+    await expect(page.locator('.toast-error')).toHaveCount(0);
+    expect(requests).toBe(2); // the stale copy, then one fresh look
+  });
+}

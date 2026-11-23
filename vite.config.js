@@ -1,3 +1,5 @@
+import fs from 'node:fs';
+import { createHash } from 'node:crypto';
 import { defineConfig, loadEnv } from 'vite';
 import react from '@vitejs/plugin-react';
 import { VitePWA } from 'vite-plugin-pwa';
@@ -18,11 +20,17 @@ const cspMeta = (env) => ({
   transformIndexHtml: () => [{ tag: 'meta', attrs: { 'http-equiv': 'Content-Security-Policy', content: buildCsp({ supabaseUrl: env.VITE_SUPABASE_URL, audioBase: env.VITE_AUDIO_BASE }) }, injectTo: 'head-prepend' }],
 });
 
+// A short fingerprint of the list of audio clips. It goes into the manifest's address (manifest.json?v=...), so a browser that cached an
+// older list can never be handed it again: when the list changes, the address changes.
+const audioVersion = (() => {
+  try { return createHash('md5').update(fs.readFileSync('public/audio/manifest.json')).digest('hex').slice(0, 10); } catch { return ''; }
+})();
+
 export default defineConfig(({ mode }) => {
   const env = loadEnv(mode, process.cwd(), 'VITE_');
   const native = process.env.VITE_NATIVE === 'true';
   return {
-  define: { __APP_VERSION__: JSON.stringify(pkg.version) },
+  define: { __APP_VERSION__: JSON.stringify(pkg.version), __AUDIO_VERSION__: JSON.stringify(audioVersion) },
   plugins: [
     react(),
     cspMeta({ ...env, VITE_AUDIO_BASE: process.env.VITE_AUDIO_BASE || env.VITE_AUDIO_BASE }),

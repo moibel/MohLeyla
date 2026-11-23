@@ -13,9 +13,32 @@
 /fonts/*
   Cache-Control: public, max-age=31536000, immutable
 
+# The clips never change (their file name is a hash of the text), so they are cached for a year. The LIST of clips
+# (manifest.json) changes every time lessons are added, so it must always be revalidated: it used to be cached for a year
+# too, which left old browsers believing the French, Spanish, Chinese and Egyptian clips did not exist.
 /audio/*
-  Cache-Control: public, max-age=31536000, immutable
   Access-Control-Allow-Origin: *
+
+/audio/manifest.json
+  Cache-Control: no-cache
+
+/audio/ar/*
+  Cache-Control: public, max-age=31536000, immutable
+
+/audio/en/*
+  Cache-Control: public, max-age=31536000, immutable
+
+/audio/id/*
+  Cache-Control: public, max-age=31536000, immutable
+
+/audio/fr/*
+  Cache-Control: public, max-age=31536000, immutable
+
+/audio/es/*
+  Cache-Control: public, max-age=31536000, immutable
+
+/audio/zh/*
+  Cache-Control: public, max-age=31536000, immutable
 
 /icons/*
   Cache-Control: public, max-age=604800
