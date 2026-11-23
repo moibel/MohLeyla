@@ -1,4 +1,6 @@
 // Are we running inside the iOS / Android app (Capacitor) or in a normal browser? The app is the same code either way.
+/** 'ios' | 'android' | 'web' */
+export const nativePlatform = () => (typeof window !== 'undefined' && window.Capacitor?.getPlatform?.()) || 'web';
 export const isNativeApp = () => typeof window !== 'undefined' && !!window.Capacitor?.isNativePlatform?.();
 /** The address social sign-in returns to. In the app this is the app's own link scheme (registered in the iOS and Android projects). */
 export const NATIVE_AUTH_REDIRECT = 'com.mohleyla.app://auth';

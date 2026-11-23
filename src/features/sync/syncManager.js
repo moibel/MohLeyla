@@ -5,6 +5,7 @@ import { mergeStates, sameSynced, toRemote } from '../progress/merge.js';
 import { migrate } from '../progress/engine.js';
 import { profileFromUser, cleanName } from './profile.js';
 import { isNativeApp, NATIVE_AUTH_REDIRECT, parseNativeAuthUrl } from '../../utils/platform.js';
+import { appleNativeAuthorize, canUseNativeApple } from './appleAuth.js';
 
 export const LINK_KEY = 'mohleyla-sync-link'; // user id whose cloud data this device has already merged
 export const HINT_KEY = 'mohleyla-session-hint'; // { userId, email, profile } of the last signed-in user, so reopening offline stays signed in
@@ -158,7 +159,7 @@ export class SyncManager {
   async signInWithGoogle() {
     try {
       const c = await this.ensureClient();
-      if (isNativeApp()) return await this.signInWithGoogleNative(c);
+      if (isNativeApp()) return await this.signInWithProviderNative(c, 'google');
       const { error } = await c.auth.signInWithOAuth({ provider: 'google', options: { redirectTo: `${location.origin}/` } });
       if (error) return this.fail(mapAuthError(error, 'oauthFailed') === 'network' ? 'network' : 'oauthFailed');
       return true;
@@ -167,10 +168,33 @@ export class SyncManager {
     }
   }
 
-  /** In the app, Google sign-in opens the system browser (Google refuses embedded web views) and comes back through the app's own link. */
-  async signInWithGoogleNative(c) {
+  /** Apple: the native sheet on iPhone (no browser), the browser redirect elsewhere (needs the Apple "Services ID" set up in Supabase). */
+  async signInWithApple() {
+    try {
+      const c = await this.ensureClient();
+      if (isNativeApp() && canUseNativeApple()) {
+        const r = await appleNativeAuthorize();
+        const { data, error } = await c.auth.signInWithIdToken({ provider: 'apple', token: r.identityToken, nonce: r.rawNonce });
+        if (error || !data?.session) return this.fail(mapAuthError(error, 'oauthFailed') === 'network' ? 'network' : 'oauthFailed');
+        // Apple only tells us the name the first time: keep it (the person can still change it afterwards).
+        const name = cleanName(`${r.givenName} ${r.familyName}`);
+        if (name && !profileFromUser(data.session.user).name) await c.auth.updateUser({ data: { full_name: name } }).catch(() => {});
+        return true;
+      }
+      if (isNativeApp()) return await this.signInWithProviderNative(c, 'apple');
+      const { error } = await c.auth.signInWithOAuth({ provider: 'apple', options: { redirectTo: `${location.origin}/` } });
+      if (error) return this.fail(mapAuthError(error, 'oauthFailed') === 'network' ? 'network' : 'oauthFailed');
+      return true;
+    } catch (e) {
+      if (e?.code === 'canceled') return false; // closed the Apple sheet: not an error
+      return this.fail(e.code === 'notConfigured' ? 'notConfigured' : mapAuthError(e, 'oauthFailed') === 'network' ? 'network' : 'oauthFailed');
+    }
+  }
+
+  /** In the app, social sign-in opens the system browser (Google refuses embedded web views) and comes back through the app's own link. */
+  async signInWithProviderNative(c, provider) {
     const [{ Browser }, { App }] = await Promise.all([import('@capacitor/browser'), import('@capacitor/app')]);
-    const { data, error } = await c.auth.signInWithOAuth({ provider: 'google', options: { redirectTo: NATIVE_AUTH_REDIRECT, skipBrowserRedirect: true } });
+    const { data, error } = await c.auth.signInWithOAuth({ provider, options: { redirectTo: NATIVE_AUTH_REDIRECT, skipBrowserRedirect: true } });
     if (error || !data?.url) return this.fail('oauthFailed');
     const handle = await App.addListener('appUrlOpen', async ({ url }) => {
       const result = parseNativeAuthUrl(url);
@@ -221,6 +245,8 @@ export class SyncManager {
 
   async signOut() {
     clearTimeout(this.timer);
+    // the phone must stop getting this person's notifications (only in the phone apps; the code is not loaded on the web)
+    if (isNativeApp()) { try { await (await (await import('../push/pushService.js')).getPushService()).forgetToken(); } catch { /* ignore */ } }
     try { if (this.client) await this.client.auth.signOut(); } catch { /* ignore: local sign-out below */ }
     this.storage.removeItem(LINK_KEY);
     this.clearUser({ lastSyncedAt: null, error: null });

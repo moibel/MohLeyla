@@ -4,6 +4,7 @@ import { Download, Upload, Trash2, Smartphone } from 'lucide-react';
 import { PageHeading, Button } from '../components/ui.jsx';
 import SpeakButton from '../components/SpeakButton.jsx';
 import AccountSection from '../features/sync/AccountSection.jsx';
+import PushCard from '../features/push/PushCard.jsx';
 import { sync } from '../features/sync/index.js';
 import { LANG_META, UI_LANGS } from '../i18n/index.js';
 import { useProgress } from '../app/ProgressContext.jsx';
@@ -80,6 +81,7 @@ export default function Settings({ pwa }) {
           options={[['system', t('settings.themeSystem')], ['light', t('settings.themeLight')], ['dark', t('settings.themeDark')]]} />
       </section>
       <AccountSection />
+      <PushCard />
       <section className="card stack-sm">
         <h2 className="h-sm">{t('settings.data')}</h2>
         <p className="muted small">{t('settings.dataHelp')}</p>

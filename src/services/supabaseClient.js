@@ -9,6 +9,8 @@ export const isSyncConfigured = () => !!(SUPABASE_URL && SUPABASE_ANON_KEY);
 export const REQUIRE_SIGN_IN = import.meta.env.VITE_REQUIRE_SIGN_IN === 'true' && isSyncConfigured();
 /** Build-time switch (VITE_GOOGLE_SIGN_IN=true): shows "Continue with Google". The Google provider must also be enabled in Supabase. */
 export const GOOGLE_SIGN_IN = import.meta.env.VITE_GOOGLE_SIGN_IN === 'true' && isSyncConfigured();
+/** Build-time switch (VITE_APPLE_SIGN_IN=true): shows "Continue with Apple" on the web and Android too. Always shown in the iOS app (Apple requires it next to Google). */
+export const APPLE_SIGN_IN_WEB = import.meta.env.VITE_APPLE_SIGN_IN === 'true' && isSyncConfigured();
 export const authInUrl = () => typeof location !== 'undefined' && /access_token=|[?&]code=|type=magiclink/.test(location.hash + location.search);
 
 /** Loads supabase-js on demand (kept out of the main bundle). */

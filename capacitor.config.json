@@ -3,6 +3,9 @@
   "appName": "MohLeyla",
   "webDir": "dist-native",
   "loggingBehavior": "none",
+  "plugins": {
+    "PushNotifications": { "presentationOptions": [] }
+  },
   "server": {
     "androidScheme": "https",
     "cleartext": false
