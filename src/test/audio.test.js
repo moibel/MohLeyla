@@ -118,3 +118,56 @@ describe('audioKey', () => {
     expect(audioKey('a', 'en')).not.toBe(audioKey('a', 'id'));
   });
 });
+
+// Regression: /audio/manifest.json used to be served "immutable for a year". A browser that had loaded the list before the French, Spanish,
+// Chinese and Egyptian clips (or lessons 11-30) existed kept that old copy and never offered those recordings.
+describe('a stale clip list kept by the browser', () => {
+  const fr = 'Bonjour, comment ça va ?';
+  const setup = ({ fresh, freshFails = false }) => {
+    const calls = [];
+    const base = makeEnv({ clips: {} , voiceList: voices('fr-FR') });
+    const fetchFn = async (url, init) => {
+      calls.push({ url, init });
+      if (init?.cache === 'reload') { if (freshFails) throw new Error('offline'); return { ok: true, json: async () => ({ clips: fresh }) }; }
+      return { ok: true, json: async () => ({ clips: { ar: [], en: [], id: [] } }) }; // the OLD list: no fr / es / zh
+    };
+    return { ...base, env: { ...base.env, fetchFn }, calls };
+  };
+
+  it('looks once at a fresh copy and then plays the recording instead of falling back to the device voice', async () => {
+    const { env, spoken, calls } = setup({ fresh: { fr: [audioKey(fr, 'fr')] } });
+    const svc = new AudioService(env);
+    const r = await svc.play({ text: fr, lang: 'fr', track: 'fr' });
+    expect(r).toMatchObject({ ok: true, kind: 'recorded' });
+    expect(spoken).toHaveLength(0);
+    expect(calls.filter((c) => c.init?.cache === 'reload')).toHaveLength(1);
+  });
+  it('only refreshes once per session, even for several missing clips', async () => {
+    const { env, calls } = setup({ fresh: { fr: [] } });
+    const svc = new AudioService(env);
+    await svc.play({ text: 'un', lang: 'fr', track: 'fr' });
+    await svc.play({ text: 'deux', lang: 'fr', track: 'fr' });
+    await svc.play({ text: 'trois', lang: 'fr', track: 'fr' });
+    expect(calls.filter((c) => c.init?.cache === 'reload')).toHaveLength(1);
+  });
+  it('a clip that really has no recording still falls back to the device voice', async () => {
+    const { env, spoken } = setup({ fresh: { fr: [] } });
+    const svc = new AudioService(env);
+    const r = await svc.play({ text: fr, lang: 'fr', track: 'fr' });
+    expect(r).toMatchObject({ ok: true, kind: 'device' });
+    expect(spoken).toHaveLength(1);
+  });
+  it('keeps working when the fresh copy cannot be fetched (offline)', async () => {
+    const { env } = setup({ fresh: {}, freshFails: true });
+    const svc = new AudioService(env);
+    const r = await svc.play({ text: fr, lang: 'fr', track: 'fr' });
+    expect(r.ok).toBe(true); // device voice
+  });
+  it('asks for the list at an address that carries the build\'s version (so a new release can never be served an old copy)', async () => {
+    const urls = [];
+    const base = makeEnv({ clips: { ar: [] } });
+    const svc = new AudioService({ ...base.env, fetchFn: async (u) => { urls.push(u); return { ok: true, json: async () => ({ clips: {} }) }; }, base: 'https://example.test' });
+    await svc.loadManifest();
+    expect(urls[0]).toMatch(/^https:\/\/example\.test\/audio\/manifest\.json(\?v=[0-9a-f]{10})?$/);
+  });
+});
