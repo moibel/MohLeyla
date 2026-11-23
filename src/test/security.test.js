@@ -209,9 +209,10 @@ describe('account deletion', () => {
     expect(sql).not.toMatch(/grant execute[^;]*to[^;]*\b(authenticated|anon|public)\b/i);
     expect(sql).toMatch(/set search_path/);
   });
-  it('JWT verification stays on for this function (it is called by signed-in people, unlike push)', () => {
-    for (const f of ['docs/ACCOUNT_DELETION.md']) expect(read(f)).not.toMatch(/delete-account --no-verify-jwt/);
-    expect(read('docs/ACCOUNT_DELETION.md')).toMatch(/supabase functions deploy delete-account\s*(\n|`)/);
+  it('the platform JWT switch is off for this function, so the function itself must refuse everything that is not a verified person', () => {
+    expect(read('docs/ACCOUNT_DELETION.md')).toMatch(/delete-account --no-verify-jwt/);
+    expect(fn()).toMatch(/if \(!jwt\) return json\(401/);
+    expect(fn()).toMatch(/whoErr \|\| !who\?\.user\) return json\(401/);
   });
   it('removes only well-formed chat file paths, and Apple keys come only from the environment', () => {
     expect(fn()).toMatch(/safeFilePaths\(paths\)/);

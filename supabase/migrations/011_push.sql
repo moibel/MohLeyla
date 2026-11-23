@@ -146,3 +146,11 @@ create trigger push_reward after insert on public.rewards for each row execute f
 revoke all on function public.register_push_token(text, text, text), public.unregister_push_token(text), public.push_send(uuid[], text, jsonb),
   public.push_on_chat_message(), public.push_on_call(), public.push_on_announcement(), public.push_on_reward() from public, anon, authenticated;
 grant execute on function public.register_push_token(text, text, text), public.unregister_push_token(text) to authenticated;
+
+-- The Edge Function (service role) reads the tokens of the people to notify and deletes tokens the phone service says are dead.
+-- Newer Supabase projects no longer grant the service role access to new tables automatically, so this is explicit.
+do $$ begin
+  if exists (select 1 from pg_roles where rolname = 'service_role') then
+    grant select, delete on public.push_tokens to service_role;
+  end if;
+end $$;
