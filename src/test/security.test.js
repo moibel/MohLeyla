@@ -137,7 +137,7 @@ describe('Android project', () => {
   });
   it('asks only for the permissions the app uses', () => {
     const perms = [...manifest().matchAll(/<uses-permission android:name="android\.permission\.(\w+)"/g)].map((x) => x[1]).sort();
-    expect(perms).toEqual(['CAMERA', 'INTERNET', 'MODIFY_AUDIO_SETTINGS', 'RECORD_AUDIO']);
+    expect(perms).toEqual(['CAMERA', 'INTERNET', 'MODIFY_AUDIO_SETTINGS', 'POST_NOTIFICATIONS', 'RECORD_AUDIO']);
   });
   it('registers only its own sign-in link scheme', () => {
     const schemes = [...manifest().matchAll(/android:scheme="([^"]+)"/g)].map((x) => x[1]);
@@ -156,6 +156,42 @@ describe('iOS project', () => {
     expect(p).toMatch(/ITSAppUsesNonExemptEncryption<\/key>\s*<false\/>/);
     expect([...p.matchAll(/<string>(com\.mohleyla\.app)<\/string>/g)].length).toBeGreaterThan(0);
     expect(p).not.toMatch(/NSLocation|NSContacts|NSBluetooth/);
+  });
+});
+
+describe('push notifications and Sign in with Apple', () => {
+  it('iOS has the push and Sign in with Apple capabilities, and only the background mode push needs', () => {
+    const ent = read('ios/App/App/App.entitlements');
+    expect(ent).toContain('aps-environment');
+    expect(ent).toContain('com.apple.developer.applesignin');
+    expect(read('ios/App/App.xcodeproj/project.pbxproj').match(/CODE_SIGN_ENTITLEMENTS = App\/App\.entitlements;/g)).toHaveLength(2);
+    const modes = [...read('ios/App/App/Info.plist').matchAll(/UIBackgroundModes<\/key>\s*<array>([\s\S]*?)<\/array>/g)].flatMap((m) => [...m[1].matchAll(/<string>([^<]+)<\/string>/g)].map((x) => x[1]));
+    expect(modes).toEqual(['remote-notification']);
+  });
+  it('the Apple sign-in plugin always sends a nonce to Apple and never logs tokens', () => {
+    const swift = read('ios/App/App/AppleSignInPlugin.swift');
+    expect(swift).toMatch(/request\.nonce = nonce/);
+    // regression: the scene delegate must create OUR view controller, or the plugin is never registered (found in the simulator)
+    expect(read('ios/App/App/SceneDelegate.swift')).toMatch(/rootViewController = MainViewController\(\)/);
+    expect(read('ios/App/App/MainViewController.swift')).toMatch(/registerPluginInstance\(AppleSignInPlugin\(\)\)/);
+    expect(swift).not.toMatch(/print\(|NSLog\(/);
+    for (const f of ['src/features/push/pushService.js', 'src/features/sync/appleAuth.js', 'src/features/sync/syncManager.js']) expect(read(f).replace(/\/\/.*$/gm, ''), f).not.toMatch(/console\.(log|info|debug)/);
+  });
+  it('every push trigger swallows its own errors, so a push problem can never block a message, call, announcement or reward', () => {
+    const sql = read('supabase/migrations/011_push.sql');
+    const triggers = sql.split(/create or replace function /i).filter((b) => /^public\.push_on_/.test(b));
+    expect(triggers).toHaveLength(4);
+    for (const b of triggers) expect(b.split(/\nend \$\$;/)[0], b.slice(0, 40)).toMatch(/exception when others then null/);
+  });
+  it('the Edge Function checks the shared secret before it reads anything, and the secret is only read from the environment', () => {
+    const fn = read('supabase/functions/push/index.ts');
+    expect(fn.indexOf('safeEqual(')).toBeGreaterThan(-1);
+    expect(fn.indexOf('safeEqual(')).toBeLessThan(fn.indexOf('req.json()'));
+    expect(fn).not.toMatch(/PUSH_SECRET\s*=\s*['"]/);
+    expect(fn).not.toMatch(/BEGIN (EC |RSA )?PRIVATE KEY/);
+  });
+  it('the notification builder never reads a message body', () => {
+    expect(read('supabase/functions/push/lib.js')).not.toMatch(/payload\.(body|text)|p\.(body|text)\b/);
   });
 });
 
@@ -195,6 +231,6 @@ describe('database rules (supabase/migrations)', () => {
     }
   });
   it('tables hold no direct access for signed-in users where the app goes through checked functions', () => {
-    for (const t of ['rewards', 'conversations', 'chat_messages', 'calls', 'call_signals', 'chat_reads']) expect(sql, t).toMatch(new RegExp(`revoke all on[^;]*public\\.${t}\\b[^;]*from anon, authenticated`, 'i'));
+    for (const t of ['rewards', 'conversations', 'chat_messages', 'calls', 'call_signals', 'chat_reads', 'push_tokens', 'push_config']) expect(sql, t).toMatch(new RegExp(`revoke all on[^;]*public\\.${t}\\b[^;]*from anon, authenticated`, 'i'));
   });
 });

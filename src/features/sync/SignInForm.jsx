@@ -4,7 +4,8 @@ import { Mail, KeyRound } from 'lucide-react';
 import { Button } from '../../components/ui.jsx';
 import { sync } from './index.js';
 import { useSync } from './useSync.js';
-import { GOOGLE_SIGN_IN } from '../../services/supabaseClient.js';
+import { GOOGLE_SIGN_IN, APPLE_SIGN_IN_WEB, isSyncConfigured } from '../../services/supabaseClient.js';
+import { nativePlatform } from '../../utils/platform.js';
 
 const GoogleG = () => (
   <svg width="18" height="18" viewBox="0 0 48 48" aria-hidden="true">
@@ -12,6 +13,12 @@ const GoogleG = () => (
     <path fill="#4285F4" d="M46.5 24.5c0-1.6-.1-3.1-.4-4.5H24v9h12.7c-.6 3-2.3 5.5-4.8 7.2l7.6 5.9c4.4-4.1 7-10.1 7-17.6z"/>
     <path fill="#FBBC05" d="M10.5 28.7c-.5-1.5-.8-3-.8-4.7s.3-3.2.8-4.7l-7.9-6.1C.9 16.4 0 20.1 0 24s.9 7.6 2.6 10.8l7.9-6.1z"/>
     <path fill="#34A853" d="M24 48c6.5 0 11.9-2.1 15.9-5.8l-7.6-5.9c-2.1 1.4-4.9 2.3-8.3 2.3-6.3 0-11.6-4.1-13.5-9.8l-7.9 6.1C6.5 42.6 14.6 48 24 48z"/>
+  </svg>
+);
+
+const AppleLogo = () => (
+  <svg width="18" height="18" viewBox="0 0 24 24" aria-hidden="true" fill="currentColor">
+    <path d="M16.37 1.43c0 1.14-.46 2.2-1.2 3-.8.86-2.1 1.52-3.16 1.43-.13-1.1.42-2.25 1.15-3 .82-.86 2.2-1.5 3.2-1.43zM20.5 17.2c-.55 1.27-.82 1.84-1.52 2.96-.98 1.57-2.37 3.53-4.08 3.54-1.52.02-1.9-1-3.97-.99-2.06.01-2.49 1.01-4.01.99-1.71-.02-3.02-1.79-4-3.36C-.15 15.9-.43 10.77 1.27 8.17c1.2-1.84 3.1-2.92 4.88-2.92 1.81 0 2.95 1 4.45 1 1.45 0 2.34-1 4.44-1 1.58 0 3.26.86 4.46 2.35-3.92 2.15-3.29 7.76.0 9.6z" />
   </svg>
 );
 
@@ -24,11 +31,15 @@ export default function SignInForm() {
   const [busy, setBusy] = useState(false);
   const run = async (fn) => { setBusy(true); try { return await fn(); } finally { setBusy(false); } };
 
+  const showApple = !s.codeSentTo && isSyncConfigured() && (nativePlatform() === 'ios' || APPLE_SIGN_IN_WEB);
   return (
     <div className="stack-sm">
-      {GOOGLE_SIGN_IN && !s.codeSentTo && (
+      {showApple && (
+        <Button variant="secondary" size="lg" icon={<AppleLogo />} disabled={busy} onClick={() => run(() => sync.signInWithApple())} data-testid="acc-apple">{t('account.apple')}</Button>
+      )}
+      {(GOOGLE_SIGN_IN || showApple) && !s.codeSentTo && (
         <>
-          <Button variant="secondary" size="lg" icon={<GoogleG />} disabled={busy} onClick={() => run(() => sync.signInWithGoogle())} data-testid="acc-google">{t('account.google')}</Button>
+          {GOOGLE_SIGN_IN && <Button variant="secondary" size="lg" icon={<GoogleG />} disabled={busy} onClick={() => run(() => sync.signInWithGoogle())} data-testid="acc-google">{t('account.google')}</Button>}
           <p className="or-divider" aria-hidden="true"><span>{t('account.orEmail')}</span></p>
         </>
       )}

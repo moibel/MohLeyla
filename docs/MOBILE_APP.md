@@ -21,7 +21,7 @@ npm run android        # build + open Android Studio (needs JDK 17+ and the Andr
 
 ## Still to do before a store release
 1. Test on a real iPhone and a real Android phone (microphone, camera, calls, voice notes, Google sign-in return).
-2. Apple: Developer account ($99/year), App Store Connect record, **Sign in with Apple** (required because Google sign-in is offered), an **in-app account deletion** button (required by Apple and Google Play), privacy "nutrition label", screenshots, review notes with a test account.
+2. Apple: Developer account ($99/year), App Store Connect record, an **in-app account deletion** button (Sign in with Apple is built, see `docs/PUSH_NOTIFICATIONS.md`) (required by Apple and Google Play), privacy "nutrition label", screenshots, review notes with a test account.
 3. Google Play: developer account ($25 once), Data safety form, release keystore (keep it out of git; `.gitignore` already excludes it).
-4. Push notifications (APNs/FCM) for messages and calls, and CallKit for incoming calls: a separate piece of work.
+4. Push notifications and Sign in with Apple are built; they need your accounts and keys before they work: follow `docs/PUSH_NOTIFICATIONS.md`. CallKit (a native phone-call screen for incoming calls) is a separate piece of work.
 5. Native-speaker review of the beta languages; a decision on the Apple system-voice licence for the audio clips (see README).

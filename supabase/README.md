@@ -16,10 +16,13 @@
 | `tests/chat_attachments.test.sql` | 43 checks for attachments (uploads, reads, expiry, validation). Locally it uses a storage stand-in in `local-stub.sql`. |
 | `migrations/010_calls.sql` | Private one-to-one voice and video calls started from a chat (admin: anyone; teacher: own students); call state and connection messages only, nothing recorded. Needs 007 and 008. |
 | `tests/calls.test.sql` | 44 checks for calls (who can start, answer, poll; outsiders and admins cannot listen in; chat lines; rate limit). |
+| `migrations/011_push.sql` | Phone notification tokens and the hooks that tell the push Edge Function about new messages, incoming calls, announcements and rewards. Needs 002-010 and the `pg_net` extension. Does nothing until a push address is stored in `push_config`; setup in `docs/PUSH_NOTIFICATIONS.md`. |
+| `functions/push/` | The Edge Function that sends to Apple (APNs) and Google (FCM). |
+| `tests/push.test.sql` | 39 checks for push (tokens, who is notified, no message text in notifications, failures never block the action). Needs the `net` stand-in in `local-stub.sql` locally. |
 | `tests/roles_classes.test.sql` | 39 permission checks run as real database users (student, teacher, admin, signed-out). |
 | `tests/rewards.test.sql` | 29 permission checks for the rewards (who can grant / list / revoke, validation, matching by email, revoke). |
-| `tests/run-dry.sh [roles\|rewards\|announcements\|switch\|chat\|attachments\|calls]` | Builds `migration + tests` into one script. |
-| `tests/run-local.sh [roles\|rewards\|announcements\|switch\|chat\|attachments\|calls]` | Runs the same tests on a throwaway local Postgres (stand-in for Supabase in `tests/local-stub.sql`); no Supabase needed. |
+| `tests/run-dry.sh [roles\|rewards\|announcements\|switch\|chat\|attachments\|calls\|push]` | Builds `migration + tests` into one script. |
+| `tests/run-local.sh [roles\|rewards\|announcements\|switch\|chat\|attachments\|calls\|push]` | Runs the same tests on a throwaway local Postgres (stand-in for Supabase in `tests/local-stub.sql`); no Supabase needed. |
 
 ## Test the permissions without changing anything
 1. `sh supabase/tests/run-dry.sh` prints the combined script.
