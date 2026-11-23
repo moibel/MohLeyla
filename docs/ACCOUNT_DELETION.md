@@ -15,9 +15,9 @@ App -> Edge Function **`delete-account`** (`supabase/functions/delete-account`) 
 
 ## Setup
 1. Apply `supabase/migrations/012_account_deletion.sql` (SQL editor; additive, needs 002-011).
-2. Deploy the function (**do not** use `--no-verify-jwt` here: it is called by signed-in people):
+2. Deploy the function and **turn off the platform's "Verify JWT" check** for it (Dashboard -> Edge Functions -> delete-account -> Settings, or `--no-verify-jwt`). Reason: that check only understands the old legacy-secret signature, and projects on the newer ES256 signing keys (check `https://<project-ref>.supabase.co/auth/v1/.well-known/jwks.json`) would have every real sign-in rejected. This is safe because the function verifies the token itself: it asks Supabase Auth who the token belongs to and refuses anything else (no header, the public anon key, a garbage token: all return 401, tested live).
 ```bash
-supabase functions deploy delete-account
+supabase functions deploy delete-account --no-verify-jwt
 ```
 3. **Apple accounts only** (so the Apple token is revoked, as the App Store requires): in developer.apple.com create (or reuse) a key with **Sign in with Apple** enabled, then:
 ```bash

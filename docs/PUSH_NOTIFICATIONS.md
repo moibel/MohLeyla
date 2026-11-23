@@ -2,6 +2,9 @@
 
 The code for both is finished and tested as far as it can be without your accounts. **Nothing works end to end until you do the steps below**, because they need your Apple Developer, Firebase and Supabase accounts. Until then the app behaves as before: the Settings switch only appears in the phone apps, and nothing is sent because no push address is stored.
 
+## Current state of the live project (23 Nov 2026)
+Done and verified: migrations 011 and 012 applied; Edge Functions `push` (Verify JWT off, it uses the shared secret) and `delete-account` deployed from this repo; `pg_net` enabled; `push_config` row created with a database-generated secret that matches the `PUSH_SECRET` Edge Function secret; the server role granted read/delete on `push_tokens`. A test call from the database through pg_net to the function returned `200 {"sent":0,...}` (secret accepted, token lookup working). **Still needed from you:** the Apple, Firebase and `FCM_SERVICE_ACCOUNT` / `APNS_*` / `APPLE_*` secrets (steps below), then a real-device test.
+
 ## What people get
 - A notification on the phone for: a new chat message, an incoming call, an announcement, a reward.
 - It only names the sender ("Sara sent you a message", "Tariq is video calling you") in the person's app language (ar/en/id). **The text of a chat message is never put in a notification.** Rewards say what was received, not why.
