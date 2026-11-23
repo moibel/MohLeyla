@@ -84,6 +84,25 @@ export function createMockBackend(opts = {}) {
       const hash = `access_token=${s.access_token}&refresh_token=${s.refresh_token}&expires_in=3600&expires_at=${s.expires_at}&token_type=bearer&provider_token=google-token`;
       return route.fulfill({ status: 302, headers: { ...cors, location: `${redirect}#${hash}` }, body: '' });
     }
+    if (url.pathname === '/functions/v1/delete-account') {
+      if (req.method() !== 'POST') return route.fulfill({ status: 204, headers: cors });
+      const bearer = (req.headers().authorization || '').replace(/^Bearer /, '');
+      let sub = null;
+      try { sub = JSON.parse(Buffer.from(bearer.split('.')[1], 'base64url').toString()).sub; } catch { /* no token */ }
+      const body = JSON.parse(req.postData() || '{}');
+      stats.deleteCalls = (stats.deleteCalls || []).concat([{ confirm: body.confirm, appleCode: body.appleCode ?? null, hasToken: !!sub }]);
+      if (!sub) return json(401, { error: 'unauthorised' });
+      if (body.confirm !== true) return json(400, { error: 'confirm' });
+      if (state.deleteAccount === 'lastAdmin') return json(409, { error: 'lastAdmin' });
+      if (state.deleteAccount === 'fail') return json(500, { error: 'delete' });
+      // what the real function and the database cascade remove (rules tested in supabase/tests/account_deletion.test.sql)
+      rows.delete(sub);
+      known.delete(sub);
+      for (let i = members.length - 1; i >= 0; i--) if (members[i].student_id === sub) members.splice(i, 1);
+      for (let i = conversations.length - 1; i >= 0; i--) if (conversations[i].a === sub || conversations[i].b === sub) { const id = conversations[i].id; conversations.splice(i, 1); for (let j = chatMsgs.length - 1; j >= 0; j--) if (chatMsgs[j].conv === id) chatMsgs.splice(j, 1); }
+      state.deletedUsers = (state.deletedUsers || []).concat([sub]);
+      return json(200, { ok: true, appleRevoked: null, filesRemoved: 0 });
+    }
     if (url.pathname === '/auth/v1/logout') return route.fulfill({ status: 204, headers: cors });
     if (url.pathname.startsWith('/storage/v1/')) {
       const tok = (req.headers()['authorization'] || '').replace('Bearer ', '');

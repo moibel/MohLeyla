@@ -1,6 +1,6 @@
 import { useRef, useState } from 'react';
 import { useTranslation } from 'react-i18next';
-import { Cloud, CloudOff, RefreshCw, LogOut, Trash2, Check } from 'lucide-react';
+import { Cloud, CloudOff, RefreshCw, LogOut, Trash2, Check, UserX } from 'lucide-react';
 import { Button } from '../../components/ui.jsx';
 import { sync } from './index.js';
 import { useSync } from './useSync.js';
@@ -13,7 +13,19 @@ export default function AccountSection() {
   const s = useSync();
   const deleteRef = useRef(null);
   const unsyncedRef = useRef(null);
+  const accountRef = useRef(null);
   const [deleted, setDeleted] = useState(false);
+  const [accountDeleted, setAccountDeleted] = useState(false);
+  const [sure, setSure] = useState(false);
+  const [deleting, setDeleting] = useState(false);
+  const closeAccountDialog = () => { accountRef.current?.close(); setSure(false); };
+  const deleteAccount = async () => {
+    setDeleting(true);
+    sync.set({ error: null });
+    const ok = await sync.deleteAccount({ clearDevice: REQUIRE_SIGN_IN });
+    setDeleting(false);
+    if (ok) { closeAccountDialog(); setAccountDeleted(true); }
+  };
 
   if (!s.configured) {
     return (
@@ -47,10 +59,14 @@ export default function AccountSection() {
             <Button variant="ghost" icon={<LogOut size={18} aria-hidden="true" />} onClick={signOut} data-testid="acc-signout">{t('account.signOut')}</Button>
             <Button variant="danger" icon={<Trash2 size={18} aria-hidden="true" />} onClick={() => deleteRef.current?.showModal()}>{t('account.deleteCloud')}</Button>
           </div>
+          <div className="btn-row">
+            <Button variant="danger" icon={<UserX size={18} aria-hidden="true" />} onClick={() => { sync.set({ error: null }); accountRef.current?.showModal(); }} data-testid="acc-delete-account">{t('account.deleteAccount')}</Button>
+          </div>
           <p className="note-small">{REQUIRE_SIGN_IN ? t('account.signOutNoteShared') : t('account.signOutNote')}</p>
           {deleted && <p className="ok-text" role="status">{t('account.deleted')}</p>}
         </>
       )}
+      {accountDeleted && !signedIn && <p className="ok-text" role="status" data-testid="acc-account-deleted">{t('account.accountDeleted')}</p>}
       {signedIn && s.error && <p className="err-text" role="alert" data-testid="acc-error">{t(`account.errors.${s.error}`)}</p>}
       <p className="note-small">{t('account.privacy')}</p>
 
@@ -60,6 +76,23 @@ export default function AccountSection() {
         <div className="btn-row">
           <Button variant="ghost" onClick={() => deleteRef.current?.close()}>{t('common.cancel')}</Button>
           <Button variant="danger" onClick={async () => { const ok = await sync.deleteCloudData(); deleteRef.current?.close(); if (ok) { await (REQUIRE_SIGN_IN ? sync.signOutAndClear({ force: true }) : sync.signOut()); setDeleted(true); } }} data-testid="acc-delete-confirm">{t('account.deleteCloud')}</Button>
+        </div>
+      </dialog>
+      <dialog ref={accountRef} className="dialog" aria-labelledby="delacc-t" data-testid="acc-delete-account-dialog" onClose={() => setSure(false)}>
+        <h2 id="delacc-t">{t('account.deleteAccountTitle')}</h2>
+        <p>{t('account.deleteAccountIntro')}</p>
+        <ul>
+          {t('account.deleteAccountList', { returnObjects: true }).map((line) => <li key={line}>{line}</li>)}
+        </ul>
+        <p className="note-small">{REQUIRE_SIGN_IN ? t('account.deleteAccountDeviceShared') : t('account.deleteAccountDevice')}</p>
+        <label className="switch-row">
+          <input type="checkbox" checked={sure} onChange={(e) => setSure(e.target.checked)} data-testid="acc-delete-account-check" />
+          <span>{t('account.deleteAccountCheck')}</span>
+        </label>
+        {s.error && accountRef.current?.open && <p className="err-text" role="alert" data-testid="acc-delete-account-error">{t(`account.errors.${s.error}`)}</p>}
+        <div className="btn-row">
+          <Button variant="ghost" onClick={closeAccountDialog} disabled={deleting}>{t('common.cancel')}</Button>
+          <Button variant="danger" disabled={!sure || deleting} onClick={deleteAccount} data-testid="acc-delete-account-confirm">{deleting ? t('account.deleteAccountBusy') : t('account.deleteAccountConfirm')}</Button>
         </div>
       </dialog>
       <dialog ref={unsyncedRef} className="dialog" aria-labelledby="uns-t" data-testid="acc-unsynced">

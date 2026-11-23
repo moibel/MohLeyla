@@ -195,6 +195,36 @@ describe('push notifications and Sign in with Apple', () => {
   });
 });
 
+describe('account deletion', () => {
+  const fn = () => read('supabase/functions/delete-account/index.ts');
+  it('the person is whoever the sign-in token says: the function never reads a user id from the request', () => {
+    expect(fn()).toMatch(/auth\.getUser\(jwt\)/);
+    expect(fn()).not.toMatch(/body\.(userId|user_id|id)\b|\.userId\b/);
+    expect(fn().indexOf('getUser(jwt)')).toBeLessThan(fn().indexOf('req.json()'));
+    expect(fn()).toMatch(/\.deleteUser\(user\.id\)/);
+  });
+  it('the database helpers can only be used by the service role (never by signed-in people, admins or visitors)', () => {
+    const sql = read('supabase/migrations/012_account_deletion.sql');
+    expect(sql).toMatch(/revoke all on function public\.account_delete_prepare\(uuid\), public\.account_delete_cleanup\(text\) from public, anon, authenticated/);
+    expect(sql).not.toMatch(/grant execute[^;]*to[^;]*\b(authenticated|anon|public)\b/i);
+    expect(sql).toMatch(/set search_path/);
+  });
+  it('JWT verification stays on for this function (it is called by signed-in people, unlike push)', () => {
+    for (const f of ['docs/ACCOUNT_DELETION.md']) expect(read(f)).not.toMatch(/delete-account --no-verify-jwt/);
+    expect(read('docs/ACCOUNT_DELETION.md')).toMatch(/supabase functions deploy delete-account\s*(\n|`)/);
+  });
+  it('removes only well-formed chat file paths, and Apple keys come only from the environment', () => {
+    expect(fn()).toMatch(/safeFilePaths\(paths\)/);
+    expect(fn()).not.toMatch(/BEGIN (EC |RSA )?PRIVATE KEY/);
+    expect(fn()).not.toMatch(/console\.(log|info)\(/);
+  });
+  it('a public page explains how to delete an account without signing in (Google Play asks for a web link)', () => {
+    const page = read('public/delete-account.html');
+    expect(page).toMatch(/Settings/);
+    expect(page).not.toMatch(/<script/i);
+  });
+});
+
 describe('Capacitor settings', () => {
   const cfg = JSON.parse(read('capacitor.config.json'));
   it('loads the bundled app only: no remote server, no plain http, no extra navigation, no debugging', () => {

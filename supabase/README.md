@@ -19,6 +19,9 @@
 | `migrations/011_push.sql` | Phone notification tokens and the hooks that tell the push Edge Function about new messages, incoming calls, announcements and rewards. Needs 002-010 and the `pg_net` extension. Does nothing until a push address is stored in `push_config`; setup in `docs/PUSH_NOTIFICATIONS.md`. |
 | `functions/push/` | The Edge Function that sends to Apple (APNs) and Google (FCM). |
 | `tests/push.test.sql` | 39 checks for push (tokens, who is notified, no message text in notifications, failures never block the action). Needs the `net` stand-in in `local-stub.sql` locally. |
+| `migrations/012_account_deletion.sql` | Helpers for deleting an account (service role only): list chat files, refuse the last admin, remove data stored by e-mail. Needs 002-011. Setup in `docs/ACCOUNT_DELETION.md`. |
+| `functions/delete-account/` | The Edge Function behind Settings -> Delete my account (also revokes the Apple token). |
+| `tests/account_deletion.test.sql` | 25 checks: only the service role can call the helpers, last-admin guard, the file list, and exactly what the cascade removes and keeps. |
 | `tests/roles_classes.test.sql` | 39 permission checks run as real database users (student, teacher, admin, signed-out). |
 | `tests/rewards.test.sql` | 29 permission checks for the rewards (who can grant / list / revoke, validation, matching by email, revoke). |
 | `tests/run-dry.sh [roles\|rewards\|announcements\|switch\|chat\|attachments\|calls\|push]` | Builds `migration + tests` into one script. |

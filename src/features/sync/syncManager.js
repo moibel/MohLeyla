@@ -5,7 +5,7 @@ import { mergeStates, sameSynced, toRemote } from '../progress/merge.js';
 import { migrate } from '../progress/engine.js';
 import { profileFromUser, cleanName } from './profile.js';
 import { isNativeApp, NATIVE_AUTH_REDIRECT, parseNativeAuthUrl } from '../../utils/platform.js';
-import { appleNativeAuthorize, canUseNativeApple } from './appleAuth.js';
+import { appleNativeAuthorize, appleAuthorizationCode, canUseNativeApple } from './appleAuth.js';
 
 export const LINK_KEY = 'mohleyla-sync-link'; // user id whose cloud data this device has already merged
 export const HINT_KEY = 'mohleyla-session-hint'; // { userId, email, profile } of the last signed-in user, so reopening offline stays signed in
@@ -323,6 +323,38 @@ export class SyncManager {
   }
 
   /** Permanently deletes this account's cloud progress (the sign-in identity itself can be removed in the Supabase dashboard). */
+  /**
+   * Delete the whole account (sign-in, progress, chats, classes...) through the "delete-account" Edge Function, then sign out here.
+   * Returns true when it is gone; false otherwise with an error code in the snapshot (lastAdmin / network / deleteAccountFailed).
+   * On iPhone, an Apple account first shows Apple's sheet again: Apple needs a fresh code to revoke its token.
+   * Progress that is only on this device is kept unless this device requires sign-in (shared devices): then it is cleared too.
+   */
+  async deleteAccount({ clearDevice = false } = {}) {
+    if (!this.snapshot.userId) return false;
+    try {
+      const c = await this.ensureClient();
+      let appleCode;
+      if (isNativeApp() && canUseNativeApple()) {
+        const { data } = await c.auth.getUser();
+        if ((data?.user?.identities || []).some((i) => i.provider === 'apple')) appleCode = await appleAuthorizationCode();
+      }
+      const { data, error } = await c.functions.invoke('delete-account', { body: { confirm: true, appleCode } });
+      if (error || !data?.ok) {
+        const status = error?.context?.status;
+        const body = await error?.context?.json?.().catch(() => null);
+        if (status === 409 || body?.error === 'lastAdmin') return this.fail('lastAdmin');
+        return this.fail(status ? 'deleteAccountFailed' : this.getOnline() ? 'deleteAccountFailed' : 'network');
+      }
+      this.storage.removeItem(LINK_KEY);
+      await this.signOut();
+      if (clearDevice) this.api?.clearLocal?.();
+      return true;
+    } catch (e) {
+      if (e?.code === 'canceled') return false; // closed Apple's sheet: nothing was deleted
+      return this.fail(this.getOnline() ? 'deleteAccountFailed' : 'network');
+    }
+  }
+
   async deleteCloudData() {
     const { userId } = this.snapshot;
     if (!userId || !this.client) return false;

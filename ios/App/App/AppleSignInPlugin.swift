@@ -31,8 +31,10 @@ public class AppleSignInPlugin: CAPPlugin, CAPBridgedPlugin, ASAuthorizationCont
               let tokenData = credential.identityToken, let token = String(data: tokenData, encoding: .utf8) else {
             call.reject("Apple did not return a sign-in token", "failed"); return
         }
+        let code = credential.authorizationCode.flatMap { String(data: $0, encoding: .utf8) }
         call.resolve([
             "identityToken": token,
+            "authorizationCode": code ?? NSNull(),
             "user": credential.user,
             "email": credential.email ?? NSNull(),
             "givenName": credential.fullName?.givenName ?? NSNull(),
