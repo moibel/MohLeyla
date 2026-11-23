@@ -4,6 +4,7 @@
 import { mergeStates, sameSynced, toRemote } from '../progress/merge.js';
 import { migrate } from '../progress/engine.js';
 import { profileFromUser, cleanName } from './profile.js';
+import { isNativeApp, NATIVE_AUTH_REDIRECT, parseNativeAuthUrl } from '../../utils/platform.js';
 
 export const LINK_KEY = 'mohleyla-sync-link'; // user id whose cloud data this device has already merged
 export const HINT_KEY = 'mohleyla-session-hint'; // { userId, email, profile } of the last signed-in user, so reopening offline stays signed in
@@ -157,6 +158,7 @@ export class SyncManager {
   async signInWithGoogle() {
     try {
       const c = await this.ensureClient();
+      if (isNativeApp()) return await this.signInWithGoogleNative(c);
       const { error } = await c.auth.signInWithOAuth({ provider: 'google', options: { redirectTo: `${location.origin}/` } });
       if (error) return this.fail(mapAuthError(error, 'oauthFailed') === 'network' ? 'network' : 'oauthFailed');
       return true;
@@ -165,12 +167,29 @@ export class SyncManager {
     }
   }
 
+  /** In the app, Google sign-in opens the system browser (Google refuses embedded web views) and comes back through the app's own link. */
+  async signInWithGoogleNative(c) {
+    const [{ Browser }, { App }] = await Promise.all([import('@capacitor/browser'), import('@capacitor/app')]);
+    const { data, error } = await c.auth.signInWithOAuth({ provider: 'google', options: { redirectTo: NATIVE_AUTH_REDIRECT, skipBrowserRedirect: true } });
+    if (error || !data?.url) return this.fail('oauthFailed');
+    const handle = await App.addListener('appUrlOpen', async ({ url }) => {
+      const result = parseNativeAuthUrl(url);
+      if (!result) return; // not our link: ignore it
+      handle.remove();
+      await Browser.close().catch(() => {});
+      const done = result.code ? await c.auth.exchangeCodeForSession(result.code) : await c.auth.setSession(result);
+      if (done.error) this.fail('oauthFailed');
+    });
+    await Browser.open({ url: data.url });
+    return true;
+  }
+
   async sendCode(email) {
     const clean = String(email).trim();
     if (!isEmail(clean)) return this.fail('invalidEmail');
     try {
       const c = await this.ensureClient();
-      const { error } = await c.auth.signInWithOtp({ email: clean, options: { shouldCreateUser: true, emailRedirectTo: typeof location !== 'undefined' ? `${location.origin}/settings` : undefined } });
+      const { error } = await c.auth.signInWithOtp({ email: clean, options: { shouldCreateUser: true, emailRedirectTo: typeof location !== 'undefined' && !isNativeApp() ? `${location.origin}/settings` : undefined } });
       if (error) return this.fail(mapAuthError(error, 'sendFailed'));
       this.set({ codeSentTo: clean, error: null });
       return true;

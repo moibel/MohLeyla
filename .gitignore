@@ -16,3 +16,8 @@ legacy-v5/
 .claude/
 .env.local
 dist-gate
+
+# native builds
+dist-native
+ios/App/build
+ios/DerivedData

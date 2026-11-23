@@ -1,0 +1,20 @@
+{
+  "appId": "com.mohleyla.app",
+  "appName": "MohLeyla",
+  "webDir": "dist-native",
+  "loggingBehavior": "none",
+  "server": {
+    "androidScheme": "https",
+    "cleartext": false
+  },
+  "ios": {
+    "contentInset": "never",
+    "scheme": "MohLeyla",
+    "backgroundColor": "#171E33"
+  },
+  "android": {
+    "allowMixedContent": false,
+    "backgroundColor": "#171E33",
+    "webContentsDebuggingEnabled": false
+  }
+}

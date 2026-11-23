@@ -3,6 +3,7 @@ import react from '@vitejs/plugin-react';
 import { VitePWA } from 'vite-plugin-pwa';
 
 import pkg from './package.json' with { type: 'json' };
+import { buildCsp } from './scripts/csp.mjs';
 
 // When accounts are switched on, open the connection to Supabase while the page is still loading (saves a round trip at sign-in / sync).
 const supabasePreconnect = (url) => ({
@@ -10,12 +11,24 @@ const supabasePreconnect = (url) => ({
   transformIndexHtml: () => (/^https:\/\/[\w.-]+$/.test(url || '') ? [{ tag: 'link', attrs: { rel: 'preconnect', href: url, crossorigin: '' }, injectTo: 'head-prepend' }] : []),
 });
 
-export default defineConfig(({ mode }) => ({
+// Production builds carry the content security policy in the page itself, so it also applies inside the iOS / Android apps.
+const cspMeta = (env) => ({
+  name: 'csp-meta',
+  apply: 'build',
+  transformIndexHtml: () => [{ tag: 'meta', attrs: { 'http-equiv': 'Content-Security-Policy', content: buildCsp({ supabaseUrl: env.VITE_SUPABASE_URL, audioBase: env.VITE_AUDIO_BASE }) }, injectTo: 'head-prepend' }],
+});
+
+export default defineConfig(({ mode }) => {
+  const env = loadEnv(mode, process.cwd(), 'VITE_');
+  const native = process.env.VITE_NATIVE === 'true';
+  return {
   define: { __APP_VERSION__: JSON.stringify(pkg.version) },
   plugins: [
     react(),
+    cspMeta({ ...env, VITE_AUDIO_BASE: process.env.VITE_AUDIO_BASE || env.VITE_AUDIO_BASE }),
     supabasePreconnect(loadEnv(mode, process.cwd(), 'VITE_').VITE_SUPABASE_URL),
     VitePWA({
+      disable: native, // the store apps need no service worker
       registerType: 'prompt', // the app shows an "update available" toast
       includeAssets: ['favicon.ico', 'icons/favicon.svg', 'icons/apple-touch-icon.png'],
       manifest: {
@@ -77,4 +90,5 @@ export default defineConfig(({ mode }) => ({
     include: ['src/**/*.test.{js,jsx}'],
     setupFiles: ['src/test/setup.js'],
   },
-}));
+  };
+});
