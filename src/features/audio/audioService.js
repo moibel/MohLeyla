@@ -43,7 +43,8 @@ export class AudioService {
     this.synth = has('synth') ? env.synth : w.speechSynthesis;
     this.Utterance = has('Utterance') ? env.Utterance : w.SpeechSynthesisUtterance;
     this.fetchFn = has('fetchFn') ? env.fetchFn : typeof fetch !== 'undefined' ? fetch.bind(globalThis) : null;
-    this.base = env.base ?? '';
+    // In the store apps the 50 MB of audio is not bundled: it is fetched on demand from the website (VITE_AUDIO_BASE).
+    this.base = env.base ?? (import.meta.env?.VITE_AUDIO_BASE || '');
     this.prefs = { speed: 1, source: 'auto' };
     this.listeners = new Set();
     this.token = 0;
