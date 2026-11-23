@@ -752,7 +752,7 @@ export default {
       failed: 'Pemutaran audio gagal. Silakan coba lagi.',
       noAudioFile: 'Belum ada rekaman untuk teks ini.',
     },
-    voiceLang: { ar: 'Arab', en: 'Inggris', id: 'Indonesia', fr: 'Prancis', es: 'Spanyol', zh: 'Mandarin' },
+    voiceLang: { ar: 'Arab', en: 'Inggris', id: 'Indonesia', fr: 'Prancis', es: 'Spanyol', zh: 'Mandarin', eg: 'Arab Mesir' },
     egNote: 'Audio memakai suara Arab Fusha. Suara ini tidak meniru aksen dialek Mesir.',
   },
   onboarding: {

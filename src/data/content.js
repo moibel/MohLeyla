@@ -5,6 +5,8 @@ import manifest from './manifest.json';
 export const TRACKS = ['ar', 'sa', 'eg', 'en', 'id', 'fr', 'es', 'zh'];
 /** The language a track teaches ('sa' and 'eg' teach Arabic). */
 export const trackLang = (track) => (track === 'sa' || track === 'eg' ? 'ar' : track);
+/** Which recordings a track uses: like trackLang, but Egyptian Arabic has its OWN recordings ('eg'), not the Standard Arabic ones. */
+export const speechLang = (track) => (track === 'sa' ? 'ar' : track);
 /** Dialect tracks: Arabic text, read aloud by a Standard Arabic voice (not a regional accent). */
 export const DIALECT_TRACKS = ['sa', 'eg'];
 /** Tracks whose lessons are not yet reviewed by a native speaker (shown with a Beta label). */

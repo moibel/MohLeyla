@@ -2,7 +2,7 @@ import { Volume2, Square, Loader2 } from 'lucide-react';
 import { useTranslation } from 'react-i18next';
 import { audio } from '../features/audio/audioService.js';
 import { speechKey, useAudioState } from '../features/audio/useAudio.js';
-import { trackLang } from '../data/content.js';
+import { speechLang } from '../data/content.js';
 
 /**
  * Speaker button. `track` is the lesson track (ar | sa | en | id) so Saudi text is labelled honestly.
@@ -10,7 +10,7 @@ import { trackLang } from '../data/content.js';
  */
 export default function SpeakButton({ text, track, label, variant = 'icon', className = '' }) {
   const { t } = useTranslation();
-  const lang = trackLang(track);
+  const lang = speechLang(track);
   const st = useAudioState();
   const active = st.key === speechKey(text, lang);
   const status = active ? st.status : 'idle';

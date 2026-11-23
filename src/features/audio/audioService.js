@@ -18,6 +18,10 @@ const LOCALE_PREFS = {
   zh: ['zh-CN', 'zh-TW', 'zh-HK'],
 };
 
+// Recordings to try, best first. Egyptian Arabic has its own recordings; until a line has one, the Standard Arabic recording of the
+// same text is used (clearly labelled in the lesson), and only after that the device voice.
+const CLIP_LANGS = { eg: ['eg', 'ar'] };
+
 const normLang = (l) => String(l || '').replace('_', '-').toLowerCase();
 
 /** Pick the best installed voice. Returns { voice, exact } or null. Pure: easy to unit-test. */
@@ -148,13 +152,17 @@ export class AudioService {
     if (!this.AudioCtor) return { ok: false, error: 'unsupported' };
     let clips = await this.loadManifest();
     if (token !== this.token) return { ok: false, superseded: true };
-    const hash = audioKey(text, lang);
-    if (clips && !clips[lang]?.has(hash)) {
+    const candidates = CLIP_LANGS[lang] || [lang];
+    const find = (list) => (list ? candidates.find((l) => list[l]?.has(audioKey(text, l))) : undefined);
+    let clipLang = find(clips);
+    if (clips && !clipLang) {
       clips = await this.refreshManifest();
       if (token !== this.token) return { ok: false, superseded: true };
+      clipLang = find(clips);
     }
-    if (clips && !clips[lang]?.has(hash)) return { ok: false, error: 'noAudioFile' };
-    const url = `${this.base}/audio/${lang}/${hash}.mp3`;
+    if (clips && !clipLang) return { ok: false, error: 'noAudioFile' };
+    clipLang = clipLang || candidates[0]; // no list at all (could not be fetched): just try the best recording
+    const url = `${this.base}/audio/${clipLang}/${audioKey(text, clipLang)}.mp3`;
     if (!this.element) this.element = new this.AudioCtor();
     const el = this.element;
     el.preservesPitch = true;
@@ -213,13 +221,14 @@ export class AudioService {
     if (!this.synth || !this.Utterance) return this.fail('unsupported', token);
     const voices = await this.getVoices();
     if (token !== this.token) return { ok: false, superseded: true };
-    const picked = pickVoice(voices, lang, track);
+    const voiceLang = lang === 'eg' ? 'ar' : lang; // device voices are per language; Egyptian prefers an ar-EG voice (see LOCALE_PREFS)
+    const picked = pickVoice(voices, voiceLang, lang === 'eg' ? 'eg' : track);
     if (!picked) return this.fail('noVoice', token);
     return new Promise((resolve) => {
       const u = new this.Utterance(text);
       u.voice = picked.voice;
       u.lang = picked.voice.lang;
-      u.rate = Math.min(1.5, Math.max(0.5, this.prefs.speed * (lang === 'ar' ? 0.9 : 0.95)));
+      u.rate = Math.min(1.5, Math.max(0.5, this.prefs.speed * (voiceLang === 'ar' ? 0.9 : 0.95)));
       u.pitch = 1;
       let settled = false;
       const finish = (res) => {

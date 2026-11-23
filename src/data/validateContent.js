@@ -18,6 +18,8 @@ const isStr = (v) => typeof v === 'string' && v.trim().length > 0;
 
 /** The language a track teaches ('sa' and 'eg' teach Arabic). */
 export const trackLang = (track) => (track === 'sa' || track === 'eg' ? 'ar' : track);
+/** Which recordings a track uses: like trackLang, but Egyptian Arabic has its OWN recordings ('eg'), not the Standard Arabic ones. */
+export const speechLang = (track) => (track === 'sa' ? 'ar' : track);
 
 function checkTri(obj, path, errors, { allowSame } = {}) {
   if (!obj || typeof obj !== 'object') {
