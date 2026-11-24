@@ -1,5 +1,9 @@
 # Changelog
 
+## Unreleased (English, French, Spanish voices)
+- English, French and Spanish courses can use ElevenLabs voices: clip sets `public/audio/enn/`, `frn/`, `esn/` (`ELEVENLABS_VOICE_ID_EN`, `_FR`, `_ES`), each with its macOS clips as the fallback. No clips yet (needs a voice and credits per language).
+- The ElevenLabs language hint is now per course (it was fixed to Arabic for the flash/turbo models), and an exhausted API-key credit limit now says "out of credits" instead of "the key was refused".
+
 ## Unreleased (Chinese voice)
 - The Chinese course now uses an ElevenLabs Mandarin voice (654 clips): clip set `public/audio/zhn/` (`ELEVENLABS_VOICE_ID_ZH`), with the macOS Chinese clips as the fallback. Hosting cache rules and tests added.
 

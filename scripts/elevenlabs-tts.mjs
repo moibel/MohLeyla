@@ -13,7 +13,7 @@ const VOICE_ID = /^[A-Za-z0-9]{10,40}$/;
 export const MAX_CHARS = 500; // a lesson line is far shorter; a longer text is a mistake, and credits are charged per character
 
 /** The request for one line. The key goes only in a header; the voice id is checked so it cannot change the address. */
-export function buildRequest(text, { key, voiceId, model = DEFAULT_MODEL } = {}) {
+export function buildRequest(text, { key, voiceId, model = DEFAULT_MODEL, languageCode } = {}) {
   if (!key) throw new Error('ELEVENLABS_API_KEY is not set');
   if (!VOICE_ID.test(String(voiceId || ''))) throw new Error('ELEVENLABS_VOICE_ID is not set or not valid (copy it from the voice in ElevenLabs)');
   if (!ALLOWED_MODELS.includes(model)) throw new Error(`unsupported model: ${model}`);
@@ -21,8 +21,8 @@ export function buildRequest(text, { key, voiceId, model = DEFAULT_MODEL } = {})
   if (!clean) throw new Error('empty text');
   if (clean.length > MAX_CHARS) throw new Error(`text too long (${clean.length} characters)`);
   const body = { text: clean, model_id: model, voice_settings: { stability: 0.6, similarity_boost: 0.8, style: 0, use_speaker_boost: true } };
-  // The flash and turbo models can be told the language explicitly; the other models detect it from the text.
-  if (model === 'eleven_flash_v2_5' || model === 'eleven_turbo_v2_5') body.language_code = 'ar';
+  // The flash and turbo models can be told the language explicitly (a two-letter code like 'ar', 'en', 'fr'); the other models detect it from the text.
+  if (model === 'eleven_flash_v2_5' || model === 'eleven_turbo_v2_5') body.language_code = /^[a-z]{2}$/.test(languageCode || '') ? languageCode : 'ar';
   return {
     url: `${HOST}/v1/text-to-speech/${voiceId}?output_format=${OUTPUT_FORMAT}`,
     options: { method: 'POST', headers: { 'xi-api-key': key, 'Content-Type': 'application/json', Accept: 'audio/mpeg' }, body: JSON.stringify(body) },
@@ -34,7 +34,10 @@ export async function synthesize(text, cfg, fetchFn = fetch) {
   const { url, options } = buildRequest(text, cfg);
   const res = await fetchFn(url, options);
   if (!res.ok) {
-    const why = res.status === 401 ? 'the key was refused' : res.status === 402 || res.status === 403 ? 'the plan or credits do not allow this' : res.status === 404 || res.status === 422 ? 'the voice or model was not accepted' : res.status === 429 ? 'rate limited' : `HTTP ${res.status}`;
+    // ElevenLabs reports an exhausted credit limit as 401 too; read its short status word (never echoed back as free text) to say the right thing
+    let status = '';
+    try { status = String(((await res.json()).detail || {}).status || ''); } catch { /* no body */ }
+    const why = status === 'quota_exceeded' ? 'out of credits: the key\'s own credit limit (API Keys > Usage Limits) or your balance is used up' : res.status === 401 ? 'the key was refused' : res.status === 402 || res.status === 403 ? 'the plan or credits do not allow this' : res.status === 404 || res.status === 422 ? 'the voice or model was not accepted' : res.status === 429 ? 'rate limited' : `HTTP ${res.status}`;
     throw new Error(`ElevenLabs: ${why}`);
   }
   const bytes = Buffer.from(await res.arrayBuffer());

@@ -55,6 +55,15 @@
 /audio/zhn/*
   Cache-Control: public, max-age=31536000, immutable
 
+/audio/enn/*
+  Cache-Control: public, max-age=31536000, immutable
+
+/audio/frn/*
+  Cache-Control: public, max-age=31536000, immutable
+
+/audio/esn/*
+  Cache-Control: public, max-age=31536000, immutable
+
 /icons/*
   Cache-Control: public, max-age=604800
 
