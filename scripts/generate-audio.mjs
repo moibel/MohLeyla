@@ -16,7 +16,7 @@ import { promisify } from 'node:util';
 import { fileURLToPath } from 'node:url';
 import { audioKey, normalizeSpeech } from '../src/features/audio/hash.js';
 import { chooseEngine } from './egyptian-tts.mjs';
-import { chooseMsaEngine } from './msa-tts.mjs';
+import { chooseMsaEngine, chooseIdnEngine } from './msa-tts.mjs';
 
 const run = promisify(execFile);
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
@@ -26,15 +26,16 @@ const redoEg = process.argv.includes('--redo-eg');
 const VOICES = {
   ar: { voice: 'Majed', rate: 135 }, en: { voice: 'Samantha', rate: 150 }, id: { voice: 'Damayanti', rate: 150 },
   fr: { voice: 'Thomas', rate: 150 }, es: { voice: 'Mónica', rate: 150 }, zh: { voice: 'Tingting', rate: 140 },
-  eg: { engine: 'cloud' }, msa: { engine: 'cloud' },
+  eg: { engine: 'cloud' }, msa: { engine: 'cloud' }, idn: { engine: 'cloud' },
 };
 // Saudi uses the Standard Arabic recordings; Egyptian is read in BOTH: its own (eg) and, as the fallback, the Standard Arabic ones (ar).
-// The Arabic course ('ar') has its own ElevenLabs set ('msa'); the macOS 'ar' recordings stay as its fallback.
-const speechLangs = (track) => (track === 'sa' ? ['ar'] : track === 'eg' ? ['eg', 'ar'] : track === 'ar' ? ['msa', 'ar'] : [track]);
+// The Arabic course ('ar') has its own ElevenLabs set ('msa') and the Indonesian course ('id') has 'idn'; the macOS recordings stay as their fallback.
+const speechLangs = (track) => (track === 'sa' ? ['ar'] : track === 'eg' ? ['eg', 'ar'] : track === 'ar' ? ['msa', 'ar'] : track === 'id' ? ['idn', 'id'] : [track]);
 const egEngine = chooseEngine(root);
 const msaEngine = chooseMsaEngine(root);
-const engines = { eg: egEngine, msa: msaEngine };
-const WHAT = { eg: 'Egyptian', msa: 'Modern Standard Arabic' };
+const idnEngine = chooseIdnEngine(root);
+const engines = { eg: egEngine, msa: msaEngine, idn: idnEngine };
+const WHAT = { eg: 'Egyptian', msa: 'Modern Standard Arabic', idn: 'Indonesian' };
 
 function collect() {
   const texts = Object.fromEntries(Object.keys(VOICES).map((l) => [l, new Set()]));
@@ -67,7 +68,7 @@ for (const lang of Object.keys(texts)) {
   const viaCloud = VOICES[lang].engine === 'cloud';
   const eng = engines[lang];
   const haveEng = !!eng && eng.name !== 'none';
-  if (viaCloud && !haveEng) console.log(`audio: ${lang}: ${eng.reason}, so no new ${WHAT[lang]} recordings are made (existing ones are kept; the app uses the macOS Standard Arabic recordings for lines without one).`);
+  if (viaCloud && !haveEng) console.log(`audio: ${lang}: ${eng.reason}, so no new ${WHAT[lang]} recordings are made (existing ones are kept; the app uses the macOS recordings for lines without one).`);
   if (viaCloud && haveEng) console.log(`audio: ${lang}: making ${WHAT[lang]} recordings with ${eng.label}`);
   let idx = 0;
   const worker = async () => {
@@ -107,7 +108,7 @@ for (const lang of Object.keys(texts)) {
   await Promise.all(Array.from({ length: viaCloud ? 3 : 4 }, worker));
   manifest[lang].sort();
 }
-fs.writeFileSync(path.join(root, 'public/audio/manifest.json'), JSON.stringify({ version: 1, voices: { ar: 'Majed (macOS, Standard Arabic)', en: 'Samantha (macOS, en-US)', id: 'Damayanti (macOS, id-ID)', fr: 'Thomas (macOS, fr-FR)', es: 'Mónica (macOS, es-ES)', zh: 'Tingting (macOS, zh-CN)', ...(manifest.eg.length ? { eg: `${egEngine.label || 'cloud voice'} (Egyptian Arabic)` } : {}), ...(manifest.msa.length ? { msa: `${msaEngine.label || 'cloud voice'} (Modern Standard Arabic)` } : {}) }, clips: manifest }));
+fs.writeFileSync(path.join(root, 'public/audio/manifest.json'), JSON.stringify({ version: 1, voices: { ar: 'Majed (macOS, Standard Arabic)', en: 'Samantha (macOS, en-US)', id: 'Damayanti (macOS, id-ID)', fr: 'Thomas (macOS, fr-FR)', es: 'Mónica (macOS, es-ES)', zh: 'Tingting (macOS, zh-CN)', ...(manifest.eg.length ? { eg: `${egEngine.label || 'cloud voice'} (Egyptian Arabic)` } : {}), ...(manifest.msa.length ? { msa: `${msaEngine.label || 'cloud voice'} (Modern Standard Arabic)` } : {}), ...(manifest.idn.length ? { idn: `${idnEngine.label || 'cloud voice'} (Indonesian)` } : {}) }, clips: manifest }));
 fs.rmSync(tmp, { recursive: true, force: true });
 console.log(`audio: ${made} generated, ${skipped} existing, ${failed} failed`);
 if (failed) process.exit(1);
