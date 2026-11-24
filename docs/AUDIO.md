@@ -50,3 +50,14 @@ Generate offline, commit the mp3s, keep the key in your shell environment – ne
 ## Licensing
 
 Check the terms of whichever voice produced the files before commercial redistribution (see README).
+
+## Modern Standard Arabic course: ElevenLabs voice (`msa` clips)
+
+The Arabic course ('ar') plays `public/audio/msa/` clips made with ElevenLabs, and falls back to the macOS (Majed) `ar` clips for a line without one (then to the phone's own voice). The Saudi and Egyptian tracks are not affected (Saudi still uses the macOS Arabic clips; Egyptian has its own `eg` set).
+
+1. In ElevenLabs open **Voices > Voice Library**, filter **Language: Arabic**, listen for a clear Modern Standard Arabic voice (calm, good for learners; not an Egyptian or Gulf accent), **Add to My Voices**, copy its **Voice ID**.
+2. Add one line to the git-ignored `.env.local` (the same file that already holds `ELEVENLABS_API_KEY`):
+   `ELEVENLABS_VOICE_ID_AR=<the voice id>`
+3. `npm run generate:audio` makes the `msa` clips (about 14,700 characters of ElevenLabs credit for the 551 lines of the Arabic course). Clips are named from the text and the `msa` set name, so a returning visitor never meets an old cached file.
+
+Every Arabic word in this course already carries vowel marks, which the voice needs to read it correctly.

@@ -1,5 +1,8 @@
 # Changelog
 
+## Unreleased (Modern Standard Arabic voice)
+- The Arabic course can use an ElevenLabs Modern Standard Arabic voice: new clip set `public/audio/msa/` (`ELEVENLABS_VOICE_ID_AR`, `scripts/msa-tts.mjs`), with the macOS Arabic clips as the fallback. Hosting cache rules and tests added.
+
 ## Unreleased (Cairo pronunciation)
 - Egyptian voice: ق is a glottal stop only as the first letter of a word and a real q elsewhere; ج is a hard g (the shown text is unchanged); 196 clips remade. `scripts/eg-pronunciation.mjs`, `npm run generate:audio -- --redo-eg`.
 

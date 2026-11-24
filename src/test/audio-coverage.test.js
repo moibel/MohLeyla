@@ -12,8 +12,8 @@ const have = Object.fromEntries(Object.entries(manifest.clips).map(([l, keys]) =
 describe('audio coverage', () => {
   for (const track of fs.readdirSync(dir)) {
     it(`every word, example, cloze and dialogue line of the ${track} track has a clip (and the file exists)`, () => {
-      // Egyptian lines are covered by their own recording OR, until one exists, by the Standard Arabic recording the app falls back to.
-      const langs = track === 'eg' ? ['eg', 'ar'] : [trackLang(track)];
+      // Egyptian lines are covered by their own recording OR the Standard Arabic recording the app falls back to; the Arabic course likewise (its ElevenLabs set 'msa', then the macOS 'ar' set).
+      const langs = track === 'eg' ? ['eg', 'ar'] : track === 'ar' ? ['msa', 'ar'] : [trackLang(track)];
       const missing = [];
       const has = (lang, text) => { const k = audioKey(normalizeSpeech(text), lang); return have[lang]?.has(k) && fs.existsSync(path.resolve(__dirname, `../../public/audio/${lang}/${k}.mp3`)); };
       const need = (text) => { if (!langs.some((l) => has(l, text))) missing.push(text); };
