@@ -2,7 +2,7 @@ import { describe, it, expect } from 'vitest';
 import os from 'node:os';
 import fs from 'node:fs';
 import path from 'node:path';
-import { chooseMsaEngine } from '../../scripts/msa-tts.mjs';
+import { chooseMsaEngine, chooseIdnEngine } from '../../scripts/msa-tts.mjs';
 import { readConfig } from '../../scripts/elevenlabs-tts.mjs';
 
 const KEY = ['sk', 'b'.repeat(40)].join('_');
@@ -22,6 +22,11 @@ describe('Modern Standard Arabic voice settings', () => {
     fs.writeFileSync(path.join(root, '.env.local'), `ELEVENLABS_API_KEY=${KEY}\nELEVENLABS_VOICE_ID=egyptianvoice0000001\nELEVENLABS_VOICE_ID_AR=arabicvoice00000002\n`);
     expect(readConfig(root, {}, 'ELEVENLABS_VOICE_ID_AR').voiceId).toBe('arabicvoice00000002');
     expect(readConfig(root, {}).voiceId).toBe('egyptianvoice0000001');
+  });
+  it('the Indonesian voice uses its own setting, ELEVENLABS_VOICE_ID_ID', () => {
+    const root = emptyRoot();
+    expect(chooseIdnEngine(root, { ELEVENLABS_API_KEY: KEY, ELEVENLABS_VOICE_ID_AR: 'abcdefghij1234567890' }).name).toBe('none');
+    expect(chooseIdnEngine(root, { ELEVENLABS_API_KEY: KEY, ELEVENLABS_VOICE_ID_ID: 'abcdefghij1234567890' }).name).toBe('elevenlabs');
   });
   it('refuses an unknown voice setting name', () => {
     expect(() => readConfig(emptyRoot(), {}, 'PATH')).toThrow();

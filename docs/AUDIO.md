@@ -61,3 +61,7 @@ The Arabic course ('ar') plays `public/audio/msa/` clips made with ElevenLabs, a
 3. `npm run generate:audio` makes the `msa` clips (about 14,700 characters of ElevenLabs credit for the 551 lines of the Arabic course). Clips are named from the text and the `msa` set name, so a returning visitor never meets an old cached file.
 
 Every Arabic word in this course already carries vowel marks, which the voice needs to read it correctly.
+
+## Indonesian course: ElevenLabs voice (`idn` clips)
+
+Same pattern as the Arabic course: the Indonesian course ('id') plays `public/audio/idn/` clips and falls back to the macOS (Damayanti) `id` clips. In ElevenLabs choose an Indonesian voice (**Voice Library > Language: Indonesian**), add it to My Voices, copy its Voice ID, put `ELEVENLABS_VOICE_ID_ID=<the voice id>` in the git-ignored `.env.local`, then `npm run generate:audio` (about 12,350 characters, 555 lines).

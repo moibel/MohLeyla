@@ -1,5 +1,8 @@
 # Changelog
 
+## Unreleased (Indonesian voice)
+- The Indonesian course can use an ElevenLabs Indonesian voice: clip set `public/audio/idn/` (`ELEVENLABS_VOICE_ID_ID`), with the macOS Indonesian clips as the fallback. Hosting cache rules and tests added.
+
 ## Unreleased (Modern Standard Arabic voice)
 - The Arabic course now uses an ElevenLabs Modern Standard Arabic voice (551 clips): new clip set `public/audio/msa/` (`ELEVENLABS_VOICE_ID_AR`, `scripts/msa-tts.mjs`), with the macOS Arabic clips as the fallback. Hosting cache rules and tests added.
 
