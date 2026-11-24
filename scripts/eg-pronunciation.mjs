@@ -1,14 +1,12 @@
-// What the Egyptian voice is SENT (the lesson text on screen does not change).
-// Cairo says ق as a short glottal stop (hamza) and ج as a hard "g" (gamīl, gaww, ginēh); the lessons' own Latin spelling uses ʾ and g the same way.
-// A text-to-speech voice reads the letters ق and ج the Standard Arabic way (q, j), so for the voice only:
-//   ق  ->  أ   (qahwa -> ʾahwa; a following long ā becomes the single letter آ)
-//   ج  ->  گ   (Persian gaf, which reads as g)
-// Words that Egyptians really do say with "q" keep their ق (KEEP_Q, compared without vowel marks and without the article/prefixes' marks).
+// What the Egyptian voice is SENT (the lesson text on screen does not change). Rules set by the course owner:
+//   ق as the FIRST letter of a word  ->  أ  (a short glottal stop: قوي -> أوي, قهوة -> أهوة, قريب -> أريب)
+//   ق anywhere else                  ->  stays ق, a real q (القاهرة, السوق, دلوقتي, موافق, وقف ...)
+//   ج                                ->  گ  (Persian gaf, which reads as a hard g: جميل -> گميل)
+// A text-to-speech voice reads ج as j, so it needs the changed letter. Text without ق or ج is sent as it is.
+// A "word" is one run of letters (with their vowel marks); a prefix such as ال or و is part of the word, so the ق of القهوة is not first.
 // The clip file name is still made from the lesson text, so nothing else changes.
-const MARKS = /[ً-ْ]/g;
 const WORD = /[ء-يٱً-ْ]+/g;
-export const KEEP_Q = new Set(['القاهرة', 'القاهره', 'والقاهرة', 'بالقاهرة', 'للقاهرة']);
-const soften = (w) => w.replace(/ق/g, 'أ').replace(/أَ?ا/g, 'آ'); // أَا -> آ (hamza + fatha + long a)
+const startQ = (w) => (w[0] === 'ق' ? ('أ' + w.slice(1)).replace(/^أَ?ا/, 'آ') : w); // a following long ā becomes the single letter آ
 export function toCairene(text) {
-  return String(text).replace(WORD, (w) => (KEEP_Q.has(w.replace(MARKS, '')) ? w.replace(/ج/g, 'گ') : soften(w).replace(/ج/g, 'گ')));
+  return String(text).replace(WORD, (w) => startQ(w).replace(/ج/g, 'گ'));
 }

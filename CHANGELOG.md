@@ -1,7 +1,7 @@
 # Changelog
 
 ## Unreleased (Cairo pronunciation)
-- Egyptian voice: ق is sent to the voice as a glottal stop and ج as a hard g (the shown text is unchanged; القاهرة keeps its q); 194 clips remade. `scripts/eg-pronunciation.mjs`, `npm run generate:audio -- --redo-eg`.
+- Egyptian voice: ق is a glottal stop only as the first letter of a word and a real q elsewhere; ج is a hard g (the shown text is unchanged); 196 clips remade. `scripts/eg-pronunciation.mjs`, `npm run generate:audio -- --redo-eg`.
 
 ## Unreleased (Egyptian vowel marks)
 - Egyptian lessons: every spoken word now has vowel marks (Cairene), so the voice reads real Egyptian instead of Standard Arabic; 632 clips regenerated, old ones removed.
