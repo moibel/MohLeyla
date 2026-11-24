@@ -53,3 +53,7 @@ Adding or changing Egyptian text:
 1. Write the lesson text without marks, add each new word to the dictionary (plain word -> marked word, same letters, only marks added), then run `node scripts/apply-eg-diacritics.mjs docs/data/eg-diacritics.json`. Words that are missing are listed.
 2. `npm run generate:audio` makes the new clips (the text changed, so the clip names change); delete clips the manifest no longer lists.
 3. The marks were written by an AI from the lessons' Latin transliterations and are not native-reviewed: a few words (long vowels in الله / ماشاء, loanwords) can only be approximated. Report wrong ones in the review page and fix them in the dictionary.
+
+## Cairo pronunciation (ق and ج)
+
+Cairo says ق as a glottal stop and ج as a hard g, but a text-to-speech voice reads the letters the Standard Arabic way. So the text sent to the voice (not the text shown) is changed in `scripts/eg-pronunciation.mjs`: ق becomes أ (قهوة -> أهوة) and ج becomes گ (جميل -> گميل). Words Egyptians say with a real q stay as they are: add them to `KEEP_Q` (today: القاهرة). After changing the rule run `npm run generate:audio -- --redo-eg`, which remakes only the Egyptian clips whose voice text changed.
