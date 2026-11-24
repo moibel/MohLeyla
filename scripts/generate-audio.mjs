@@ -13,12 +13,15 @@ import path from 'node:path';
 import { execFile } from 'node:child_process';
 import { promisify } from 'node:util';
 import { fileURLToPath } from 'node:url';
+import { toCairene } from './eg-pronunciation.mjs';
 import { audioKey, normalizeSpeech } from '../src/features/audio/hash.js';
 import { chooseEngine } from './egyptian-tts.mjs';
 
 const run = promisify(execFile);
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const force = process.argv.includes('--force');
+// --redo-eg: remake only the Egyptian clips whose voice text changes under the Cairo pronunciation rule (ق -> ʾ, ج -> g)
+const redoEg = process.argv.includes('--redo-eg');
 const VOICES = {
   ar: { voice: 'Majed', rate: 135 }, en: { voice: 'Samantha', rate: 150 }, id: { voice: 'Damayanti', rate: 150 },
   fr: { voice: 'Thomas', rate: 150 }, es: { voice: 'Mónica', rate: 150 }, zh: { voice: 'Tingting', rate: 140 },
@@ -66,7 +69,7 @@ for (const lang of Object.keys(texts)) {
       const text = list[idx++];
       const key = audioKey(text, lang);
       const out = path.join(outDir, key + '.mp3');
-      if (fs.existsSync(out) && !force) { skipped++; manifest[lang].push(key); continue; }
+      if (fs.existsSync(out) && !force && !(redoEg && VOICES[lang].engine === 'cloud' && haveEgEngine && toCairene(text) !== text)) { skipped++; manifest[lang].push(key); continue; }
       if (viaCloud) {
         if (!haveEgEngine) continue;
         try {
