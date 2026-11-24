@@ -1,5 +1,5 @@
-// ElevenLabs-only clip sets ("msa" = Modern Standard Arabic course, "idn" = Indonesian course, "sau" = Saudi course): the key is ELEVENLABS_API_KEY and each set has
-// its own voice id chosen in the Voice Library (ELEVENLABS_VOICE_ID_AR, _ID, _SA), from the environment or the git-ignored .env.local.
+// ElevenLabs-only clip sets ("msa" = Modern Standard Arabic course, "idn" = Indonesian course, "sau" = Saudi course, "zhn" = Chinese course): the key is ELEVENLABS_API_KEY and each set has
+// its own voice id chosen in the Voice Library (ELEVENLABS_VOICE_ID_AR, _ID, _SA, _ZH), from the environment or the git-ignored .env.local.
 // Without them nothing is made and the course keeps using the macOS recordings it already has.
 import * as eleven from './elevenlabs-tts.mjs';
 
@@ -11,3 +11,4 @@ export function chooseVoiceEngine(root, voiceVar, env = process.env) {
 export const chooseMsaEngine = (root, env = process.env) => chooseVoiceEngine(root, 'ELEVENLABS_VOICE_ID_AR', env);
 export const chooseIdnEngine = (root, env = process.env) => chooseVoiceEngine(root, 'ELEVENLABS_VOICE_ID_ID', env);
 export const chooseSauEngine = (root, env = process.env) => chooseVoiceEngine(root, 'ELEVENLABS_VOICE_ID_SA', env);
+export const chooseZhnEngine = (root, env = process.env) => chooseVoiceEngine(root, 'ELEVENLABS_VOICE_ID_ZH', env);

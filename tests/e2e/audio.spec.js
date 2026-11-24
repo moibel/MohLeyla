@@ -45,13 +45,14 @@ for (const [track, lessonId, label] of cases) {
     await page.getByRole('button', { name: 'Listen to the word' }).click();
     await expect.poll(() => page.evaluate(() => window.__media.some((m) => m.ended)), { timeout: 15000 }).toBe(true);
     const rec = await page.evaluate(() => window.__media[0]);
-    expect(rec.src).toMatch(/\/audio\/(ar|msa|sau|en|id|idn|fr|es|zh|eg)\/[0-9a-z]+\.mp3$/);
+    expect(rec.src).toMatch(/\/audio\/(ar|msa|sau|en|id|idn|fr|es|zh|zhn|eg)\/[0-9a-z]+\.mp3$/);
     // Egyptian uses its own recording when there is one, otherwise the Standard Arabic one; the Arabic course uses its ElevenLabs set (msa) when the line has one; Saudi always the macOS Arabic one.
     const egNative = track === 'eg' && manifestClips.eg?.includes(audioKey(lesson.items[0].target, 'eg'));
     const msaNative = track === 'ar' && manifestClips.msa?.includes(audioKey(lesson.items[0].target, 'msa'));
     const idnNative = track === 'id' && manifestClips.idn?.includes(audioKey(lesson.items[0].target, 'idn'));
     const sauNative = track === 'sa' && manifestClips.sau?.includes(audioKey(lesson.items[0].target, 'sau'));
-    expect(rec.src).toContain(egNative ? '/audio/eg/' : msaNative ? '/audio/msa/' : idnNative ? '/audio/idn/' : sauNative ? '/audio/sau/' : track === 'sa' || track === 'eg' ? '/audio/ar/' : `/audio/${track}/`);
+    const zhnNative = track === 'zh' && manifestClips.zhn?.includes(audioKey(lesson.items[0].target, 'zhn'));
+    expect(rec.src).toContain(egNative ? '/audio/eg/' : msaNative ? '/audio/msa/' : idnNative ? '/audio/idn/' : sauNative ? '/audio/sau/' : zhnNative ? '/audio/zhn/' : track === 'sa' || track === 'eg' ? '/audio/ar/' : `/audio/${track}/`);
     expect(rec.error).toBeNull();
     expect(rec.playing).toBe(true);
     expect(rec.duration).toBeGreaterThan(0.3);
@@ -176,7 +177,8 @@ for (const [track, lessonId, label] of [['fr', 'fr-01', 'French'], ['es', 'es-01
     const egNative = track === 'eg' && manifestClips.eg?.includes(audioKey(getLesson(lessonId).items[0].target, 'eg'));
     const msaNative = track === 'ar' && manifestClips.msa?.includes(audioKey(getLesson(lessonId).items[0].target, 'msa'));
     const idnNative = track === 'id' && manifestClips.idn?.includes(audioKey(getLesson(lessonId).items[0].target, 'idn'));
-    expect(rec.src).toContain(egNative ? '/audio/eg/' : msaNative ? '/audio/msa/' : idnNative ? '/audio/idn/' : track === 'eg' ? '/audio/ar/' : `/audio/${track}/`);
+    const zhnNative = track === 'zh' && manifestClips.zhn?.includes(audioKey(getLesson(lessonId).items[0].target, 'zhn'));
+    expect(rec.src).toContain(egNative ? '/audio/eg/' : msaNative ? '/audio/msa/' : idnNative ? '/audio/idn/' : zhnNative ? '/audio/zhn/' : track === 'eg' ? '/audio/ar/' : `/audio/${track}/`);
     expect(rec.error).toBeNull();
     expect(rec.duration).toBeGreaterThan(0.3);
     await expect(page.locator('.toast-error')).toHaveCount(0);

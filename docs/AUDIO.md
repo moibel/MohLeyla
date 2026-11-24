@@ -71,3 +71,7 @@ Same pattern as the Arabic course: the Indonesian course ('id') plays `public/au
 The Saudi course ('sa') has vowel marks on every spoken word (`docs/data/sa-diacritics.json`; add new words there and run `node scripts/apply-eg-diacritics.mjs docs/data/sa-diacritics.json --track sa`; `src/test/eg-diacritics.test.js` guards it). The marks were written by an AI from the lessons' Latin spelling and are not native-reviewed. NO letters are changed for the voice (the Egyptian-only ق/ج rules in `scripts/eg-pronunciation.mjs` do not apply to Saudi).
 
 The Saudi track plays `public/audio/sau/` clips and falls back to the macOS Arabic `ar` clips (never to the Modern Standard Arabic `msa` set). In ElevenLabs choose a Saudi voice (**Voice Library > Language: Arabic**, accent Saudi), put its Voice ID in `.env.local` as `ELEVENLABS_VOICE_ID_SA=<the voice id>`, then `npm run generate:audio` (about 8,500 characters, 493 lines).
+
+## Chinese course: ElevenLabs voice (`zhn` clips)
+
+Same pattern as the other courses: the Chinese course ('zh') plays `public/audio/zhn/` clips and falls back to the macOS (Tingting) `zh` clips. In ElevenLabs choose a Mandarin voice (**Voice Library > Language: Chinese**), add it to My Voices, copy its Voice ID, put `ELEVENLABS_VOICE_ID_ZH=<the voice id>` on its own line in the git-ignored `.env.local` (a different ID from the other voices), then `npm run generate:audio` (about 4,200 characters, 654 lines).
