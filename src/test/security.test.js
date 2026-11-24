@@ -32,6 +32,7 @@ describe('secrets', () => {
       if (f.endsWith('manifest.json') || f.includes('src/data/content')) continue;
       const text = read(f);
       expect(text, f).not.toMatch(/sb_secret_[A-Za-z0-9_-]{10,}/);
+      expect(text, f).not.toMatch(/\bsk_[a-f0-9]{32,}\b/); // ElevenLabs API key
       for (const jwt of text.match(/eyJ[A-Za-z0-9_-]{10,}\.eyJ[A-Za-z0-9_-]{10,}\.[A-Za-z0-9_-]{10,}/g) || []) {
         const payload = JSON.parse(Buffer.from(jwt.split('.')[1], 'base64url').toString('utf8'));
         expect(payload.role, `${f} contains a JWT with role ${payload.role}`).not.toBe('service_role');

@@ -760,7 +760,7 @@ export default {
       failed: 'Audio playback failed. Please try again.',
       noAudioFile: 'There is no recording for this text yet.',
     },
-    voiceLang: { ar: 'Arabic', en: 'English', id: 'Indonesian', fr: 'French', es: 'Spanish', zh: 'Chinese' },
+    voiceLang: { ar: 'Arabic', en: 'English', id: 'Indonesian', fr: 'French', es: 'Spanish', zh: 'Chinese', eg: 'Egyptian Arabic' },
     egNote: 'Audio uses a Standard Arabic voice. It does not reproduce the Egyptian dialect accent.',
   },
   onboarding: {

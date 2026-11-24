@@ -4,6 +4,7 @@ import { useTranslation } from 'react-i18next';
 import { ArrowRight, ArrowLeft, Bookmark, BookmarkCheck, Target, Lightbulb, Globe2, BookOpenText, Trophy, RotateCcw, Flame, Brain, Award } from 'lucide-react';
 import { Button, Bidi, TargetText, ProgressBar, Ring, Flip, Chip } from '../../components/ui.jsx';
 import SpeakButton from '../../components/SpeakButton.jsx';
+import { useHasClip } from '../audio/useAudio.js';
 import SpeakingPractice from '../speaking/SpeakingPractice.jsx';
 import { useProgress } from '../../app/ProgressContext.jsx';
 import { toggleSaved, ACHIEVEMENTS } from '../progress/engine.js';
@@ -50,7 +51,8 @@ export function LearnCards({ lesson, ui, onDone }) {
   const saved = state.saved[it.id] !== undefined;
   const last = i === lesson.items.length - 1;
   const track = lesson.track;
-  const isSa = isDialect(track); // Saudi and Egyptian: read by a Standard Arabic voice
+  const isSa = isDialect(track); // Saudi and Egyptian: read by a Standard Arabic voice, except Egyptian lines that have a real Egyptian recording
+  const egNative = useHasClip(track === 'eg' ? it.target : null, 'eg');
   const showMsa = isSa && ui !== 'ar';
   return (
     <section className="card word-card" aria-live="polite" data-testid="word-card">
@@ -68,7 +70,7 @@ export function LearnCards({ lesson, ui, onDone }) {
         <div className="speak-row">
           <SpeakButton text={it.target} track={track} variant="pill" label={t('lesson.listenWord')} />
         </div>
-        {isSa && <p className="note-small">{t(track === 'eg' ? 'audio.egNote' : 'audio.saNote')}</p>}
+        {isSa && !egNative && <p className="note-small">{t(track === 'eg' ? 'audio.egNote' : 'audio.saNote')}</p>}
       </div>
       <dl className="meaning-block">
         <dt>{t('lesson.meaning')}</dt>

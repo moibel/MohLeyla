@@ -1,5 +1,9 @@
 import { test, expect } from '@playwright/test';
+import fs from 'node:fs';
 import { seed, getLesson } from './helpers.js';
+import { audioKey } from '../../src/features/audio/hash.js';
+
+const manifestClips = JSON.parse(fs.readFileSync(new URL('../../public/audio/manifest.json', import.meta.url), 'utf8')).clips;
 
 // Block the service worker here so page.route() can intercept /audio requests deterministically.
 test.use({ serviceWorkers: 'block' });
@@ -41,8 +45,10 @@ for (const [track, lessonId, label] of cases) {
     await page.getByRole('button', { name: 'Listen to the word' }).click();
     await expect.poll(() => page.evaluate(() => window.__media.some((m) => m.ended)), { timeout: 15000 }).toBe(true);
     const rec = await page.evaluate(() => window.__media[0]);
-    expect(rec.src).toMatch(/\/audio\/(ar|en|id|fr|es|zh)\/[0-9a-z]+\.mp3$/);
-    expect(rec.src).toContain(track === 'sa' || track === 'eg' ? '/audio/ar/' : `/audio/${track}/`);
+    expect(rec.src).toMatch(/\/audio\/(ar|en|id|fr|es|zh|eg)\/[0-9a-z]+\.mp3$/);
+    // Egyptian uses its own recording when there is one, otherwise the Standard Arabic one; Saudi always the Standard Arabic one.
+    const egNative = track === 'eg' && manifestClips.eg?.includes(audioKey(lesson.items[0].target, 'eg'));
+    expect(rec.src).toContain(egNative ? '/audio/eg/' : track === 'sa' || track === 'eg' ? '/audio/ar/' : `/audio/${track}/`);
     expect(rec.error).toBeNull();
     expect(rec.playing).toBe(true);
     expect(rec.duration).toBeGreaterThan(0.3);
@@ -164,7 +170,8 @@ for (const [track, lessonId, label] of [['fr', 'fr-01', 'French'], ['es', 'es-01
     await page.getByRole('button', { name: 'Listen to the word' }).click();
     await expect.poll(() => page.evaluate(() => window.__media.some((m) => m.ended)), { timeout: 15000 }).toBe(true);
     const rec = await page.evaluate(() => window.__media[0]);
-    expect(rec.src).toContain(track === 'eg' ? '/audio/ar/' : `/audio/${track}/`);
+    const egNative = track === 'eg' && manifestClips.eg?.includes(audioKey(getLesson(lessonId).items[0].target, 'eg'));
+    expect(rec.src).toContain(egNative ? '/audio/eg/' : track === 'eg' ? '/audio/ar/' : `/audio/${track}/`);
     expect(rec.error).toBeNull();
     expect(rec.duration).toBeGreaterThan(0.3);
     await expect(page.locator('.toast-error')).toHaveCount(0);

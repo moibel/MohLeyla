@@ -22,7 +22,8 @@
     "build:native": "node scripts/build-native.mjs --sync",
     "ios": "npm run build:native && npx cap open ios",
     "android": "npm run build:native && npx cap open android",
-    "test:security": "vitest run src/test/security.test.js"
+    "test:security": "vitest run src/test/security.test.js",
+    "export:eg-audio-review": "node scripts/export-eg-audio-review.mjs"
   },
   "dependencies": {
     "@capacitor/android": "^8.6.2",

@@ -171,3 +171,37 @@ describe('a stale clip list kept by the browser', () => {
     expect(urls[0]).toMatch(/^https:\/\/example\.test\/audio\/manifest\.json(\?v=[0-9a-f]{10})?$/);
   });
 });
+
+describe('Egyptian Arabic recordings', () => {
+  const eg = 'إزيك يا صاحبي';
+  const urlsOf = (svc) => svc.element?.src;
+  it('plays its own Egyptian recording when there is one', async () => {
+    const { env, els } = makeEnv({ clips: { eg: [audioKey(eg, 'eg')], ar: [audioKey(eg, 'ar')] } });
+    const svc = new AudioService(env);
+    const r = await svc.play({ text: eg, lang: 'eg', track: 'eg' });
+    expect(r).toMatchObject({ ok: true, kind: 'recorded' });
+    expect(els[0].src).toBe(`/audio/eg/${audioKey(eg, 'eg')}.mp3`);
+  });
+  it('until a line has one, uses the Standard Arabic recording of the same text (not the device voice)', async () => {
+    const { env, els, spoken } = makeEnv({ clips: { eg: [], ar: [audioKey(eg, 'ar')] } });
+    const svc = new AudioService(env);
+    const r = await svc.play({ text: eg, lang: 'eg', track: 'eg' });
+    expect(r).toMatchObject({ ok: true, kind: 'recorded' });
+    expect(els[0].src).toBe(`/audio/ar/${audioKey(eg, 'ar')}.mp3`);
+    expect(spoken).toHaveLength(0);
+  });
+  it('with no recording at all, speaks with the device voice and prefers an Egyptian one', async () => {
+    const { env, spoken } = makeEnv({ clips: { eg: [], ar: [] }, voiceList: voices('ar-SA', 'ar-EG', 'en-US') });
+    const svc = new AudioService(env);
+    const r = await svc.play({ text: eg, lang: 'eg', track: 'eg' });
+    expect(r).toMatchObject({ ok: true, kind: 'device' });
+    expect(spoken[0].voice.lang).toBe('ar-EG');
+  });
+  it('a Saudi line never uses an Egyptian recording, and an Egyptian clip key is different from the Arabic one', async () => {
+    expect(audioKey(eg, 'eg')).not.toBe(audioKey(eg, 'ar'));
+    const { env, els } = makeEnv({ clips: { eg: [audioKey(eg, 'eg')], ar: [audioKey(eg, 'ar')] } });
+    const svc = new AudioService(env);
+    await svc.play({ text: eg, lang: 'ar', track: 'sa' });
+    expect(els[0].src).toContain('/audio/ar/');
+  });
+});

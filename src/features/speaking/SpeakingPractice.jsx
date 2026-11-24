@@ -4,7 +4,7 @@ import { Mic, Square, Play, RotateCcw, ThumbsUp, Repeat, Headphones } from 'luci
 import { Button } from '../../components/ui.jsx';
 import SpeakButton from '../../components/SpeakButton.jsx';
 import { audio } from '../audio/audioService.js';
-import { trackLang } from '../../data/content.js';
+import { trackLang, speechLang } from '../../data/content.js';
 import { Recorder, MAX_RECORD_MS } from './recorder.js';
 import { diagnoseMicBlock } from './diagnose.js';
 import { refreshApp } from '../../utils/refreshApp.js';
@@ -28,7 +28,7 @@ export default function SpeakingPractice({ itemId, text, track }) {
   const [errorDetail, setErrorDetail] = useState(null);
   const [rated, setRated] = useState(null);
   const [playing, setPlaying] = useState(false);
-  const lang = trackLang(track);
+  const lang = speechLang(track); // the reference recording the learner listens to; Egyptian has its own
 
   if (!recorderRef.current) recorderRef.current = new Recorder();
   const supported = recorderRef.current.supported;
