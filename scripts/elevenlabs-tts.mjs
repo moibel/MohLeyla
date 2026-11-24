@@ -42,17 +42,21 @@ export async function synthesize(text, cfg, fetchFn = fetch) {
   return bytes;
 }
 
-/** Reads ELEVENLABS_API_KEY / ELEVENLABS_VOICE_ID / ELEVENLABS_MODEL from the environment, then from .env.local in the project root. */
-export function readConfig(root, env = process.env) {
-  const out = { key: env.ELEVENLABS_API_KEY, voiceId: env.ELEVENLABS_VOICE_ID, model: env.ELEVENLABS_MODEL };
+/**
+ * Reads ELEVENLABS_API_KEY / ELEVENLABS_MODEL and a voice id from the environment, then from .env.local in the project root.
+ * The voice id comes from `voiceVar` (default ELEVENLABS_VOICE_ID = the Egyptian voice; ELEVENLABS_VOICE_ID_AR = the Modern Standard Arabic voice).
+ */
+export function readConfig(root, env = process.env, voiceVar = 'ELEVENLABS_VOICE_ID') {
+  if (!/^ELEVENLABS_VOICE_ID(_[A-Z]{2,4})?$/.test(voiceVar)) throw new Error('unknown voice setting');
+  const out = { key: env.ELEVENLABS_API_KEY, voiceId: env[voiceVar], model: env.ELEVENLABS_MODEL };
   const file = path.join(root, '.env.local');
   if (fs.existsSync(file)) {
     for (const line of fs.readFileSync(file, 'utf8').split('\n')) {
-      const m = line.match(/^\s*(ELEVENLABS_API_KEY|ELEVENLABS_VOICE_ID|ELEVENLABS_MODEL)\s*=\s*(.*?)\s*$/);
+      const m = line.match(/^\s*([A-Z_]+)\s*=\s*(.*?)\s*$/);
       if (!m) continue;
       const v = m[2].replace(/^["']|["']$/g, '');
       if (m[1] === 'ELEVENLABS_API_KEY' && !out.key) out.key = v;
-      if (m[1] === 'ELEVENLABS_VOICE_ID' && !out.voiceId) out.voiceId = v;
+      if (m[1] === voiceVar && !out.voiceId) out.voiceId = v;
       if (m[1] === 'ELEVENLABS_MODEL' && !out.model) out.model = v;
     }
   }

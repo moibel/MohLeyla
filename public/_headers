@@ -43,6 +43,9 @@
 /audio/eg/*
   Cache-Control: public, max-age=31536000, immutable
 
+/audio/msa/*
+  Cache-Control: public, max-age=31536000, immutable
+
 /icons/*
   Cache-Control: public, max-age=604800
 

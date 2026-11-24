@@ -205,3 +205,24 @@ describe('Egyptian Arabic recordings', () => {
     expect(els[0].src).toContain('/audio/ar/');
   });
 });
+
+describe('Modern Standard Arabic recordings (ElevenLabs set "msa")', () => {
+  const ar = 'مَرْحَبًا بِكُمْ';
+  it('the Arabic course plays its msa recording when there is one', async () => {
+    const { env, els } = makeEnv({ clips: { msa: [audioKey(ar, 'msa')], ar: [audioKey(ar, 'ar')] } });
+    const svc = new AudioService(env);
+    const r = await svc.play({ text: ar, lang: 'ar', track: 'ar' });
+    expect(r.ok).toBe(true);
+    expect(els[0].src).toBe(`/audio/msa/${audioKey(ar, 'msa')}.mp3`);
+  });
+  it('falls back to the macOS Arabic recording for a line without an msa one', async () => {
+    const { env, els } = makeEnv({ clips: { msa: [], ar: [audioKey(ar, 'ar')] } });
+    const svc = new AudioService(env);
+    const r = await svc.play({ text: ar, lang: 'ar', track: 'ar' });
+    expect(r.ok).toBe(true);
+    expect(els[0].src).toBe(`/audio/ar/${audioKey(ar, 'ar')}.mp3`);
+  });
+  it('an msa clip key differs from the macOS Arabic key (so replacing the voice never meets a stale cached file)', () => {
+    expect(audioKey(ar, 'msa')).not.toBe(audioKey(ar, 'ar'));
+  });
+});
