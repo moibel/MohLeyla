@@ -52,6 +52,9 @@
 /audio/sau/*
   Cache-Control: public, max-age=31536000, immutable
 
+/audio/zhn/*
+  Cache-Control: public, max-age=31536000, immutable
+
 /icons/*
   Cache-Control: public, max-age=604800
 

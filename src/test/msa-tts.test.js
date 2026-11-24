@@ -2,7 +2,7 @@ import { describe, it, expect } from 'vitest';
 import os from 'node:os';
 import fs from 'node:fs';
 import path from 'node:path';
-import { chooseMsaEngine, chooseIdnEngine, chooseSauEngine } from '../../scripts/msa-tts.mjs';
+import { chooseMsaEngine, chooseIdnEngine, chooseSauEngine, chooseZhnEngine } from '../../scripts/msa-tts.mjs';
 import { readConfig } from '../../scripts/elevenlabs-tts.mjs';
 
 const KEY = ['sk', 'b'.repeat(40)].join('_');
@@ -32,6 +32,11 @@ describe('Modern Standard Arabic voice settings', () => {
     const root = emptyRoot();
     expect(chooseSauEngine(root, { ELEVENLABS_API_KEY: KEY, ELEVENLABS_VOICE_ID_AR: 'abcdefghij1234567890' }).name).toBe('none');
     expect(chooseSauEngine(root, { ELEVENLABS_API_KEY: KEY, ELEVENLABS_VOICE_ID_SA: 'abcdefghij1234567890' }).name).toBe('elevenlabs');
+  });
+  it('the Chinese voice uses its own setting, ELEVENLABS_VOICE_ID_ZH', () => {
+    const root = emptyRoot();
+    expect(chooseZhnEngine(root, { ELEVENLABS_API_KEY: KEY, ELEVENLABS_VOICE_ID_SA: 'abcdefghij1234567890' }).name).toBe('none');
+    expect(chooseZhnEngine(root, { ELEVENLABS_API_KEY: KEY, ELEVENLABS_VOICE_ID_ZH: 'abcdefghij1234567890' }).name).toBe('elevenlabs');
   });
   it('refuses an unknown voice setting name', () => {
     expect(() => readConfig(emptyRoot(), {}, 'PATH')).toThrow();

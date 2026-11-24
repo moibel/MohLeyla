@@ -244,3 +244,21 @@ describe('Saudi recordings (ElevenLabs set "sau")', () => {
     expect(els[0].src).toBe(`/audio/ar/${audioKey(sa, 'ar')}.mp3`);
   });
 });
+
+describe('Chinese recordings (ElevenLabs set "zhn")', () => {
+  const zh = '你好，我叫小明。';
+  it('the Chinese course plays its zhn recording when there is one', async () => {
+    const { env, els } = makeEnv({ clips: { zhn: [audioKey(zh, 'zhn')], zh: [audioKey(zh, 'zh')] } });
+    const svc = new AudioService(env);
+    const r = await svc.play({ text: zh, lang: 'zh', track: 'zh' });
+    expect(r.ok).toBe(true);
+    expect(els[0].src).toBe(`/audio/zhn/${audioKey(zh, 'zhn')}.mp3`);
+  });
+  it('falls back to the macOS Chinese recording for a line without a zhn one', async () => {
+    const { env, els } = makeEnv({ clips: { zhn: [], zh: [audioKey(zh, 'zh')] } });
+    const svc = new AudioService(env);
+    const r = await svc.play({ text: zh, lang: 'zh', track: 'zh' });
+    expect(r.ok).toBe(true);
+    expect(els[0].src).toBe(`/audio/zh/${audioKey(zh, 'zh')}.mp3`);
+  });
+});

@@ -20,7 +20,7 @@ const LOCALE_PREFS = {
 
 // Recordings to try, best first. Egyptian Arabic has its own recordings; until a line has one, the Standard Arabic recording of the
 // same text is used (clearly labelled in the lesson), and only after that the device voice.
-const CLIP_LANGS = { eg: ['eg', 'ar'], ar: ['msa', 'ar'], id: ['idn', 'id'] };
+const CLIP_LANGS = { eg: ['eg', 'ar'], ar: ['msa', 'ar'], id: ['idn', 'id'], zh: ['zhn', 'zh'] };
 // The Saudi track speaks 'ar', but has its own recordings ('sau') before the macOS Arabic ones.
 const clipLangs = (lang, track) => (track === 'sa' ? ['sau', 'ar'] : CLIP_LANGS[lang] || [lang]);
 
