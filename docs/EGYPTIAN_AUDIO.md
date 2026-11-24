@@ -43,3 +43,13 @@ AZURE_SPEECH_REGION=westeurope
 - The key is read only from the environment or `.env.local`, sent only in a request header to the service's own host (`api.elevenlabs.io` or `<region>.tts.speech.microsoft.com`), never printed, and never part of an error message. Voice ids, models and regions are validated so they cannot redirect the key. Checked by `src/test/elevenlabs-tts.test.js`, `src/test/azure-tts.test.js` and the secret scan in `src/test/security.test.js`.
 - These are machine voices. They should be much closer to Egyptian than the old Standard Arabic voice, but **no native speaker has listened to them yet**, and the lessons stay Beta until that happens.
 - The lessons are written in everyday Cairene spelling without vowel marks; the voice decides the vowels. A few words may need a spelling tweak, which the listening page is for.
+
+## Vowel marks (tashkeel) are required
+
+The Egyptian voice reads unmarked Arabic like Standard Arabic. Every Egyptian word the learner hears (item words, example sentences, fill-in sentences and their answers, conversation lines) therefore carries vowel marks, written in Cairene pronunciation. The word list used is `docs/data/eg-diacritics.json`; `src/test/eg-diacritics.test.js` fails when a spoken word has no marks.
+
+Adding or changing Egyptian text:
+
+1. Write the lesson text without marks, add each new word to the dictionary (plain word -> marked word, same letters, only marks added), then run `node scripts/apply-eg-diacritics.mjs docs/data/eg-diacritics.json`. Words that are missing are listed.
+2. `npm run generate:audio` makes the new clips (the text changed, so the clip names change); delete clips the manifest no longer lists.
+3. The marks were written by an AI from the lessons' Latin transliterations and are not native-reviewed: a few words (long vowels in الله / ماشاء, loanwords) can only be approximated. Report wrong ones in the review page and fix them in the dictionary.
