@@ -1,5 +1,5 @@
 // Adds Arabic vowel marks (tashkeel) to the SPOKEN Egyptian Arabic text of the lessons, from a word list.
-//   node scripts/apply-eg-diacritics.mjs <dictionary.json> [--check]
+//   node scripts/apply-eg-diacritics.mjs <dictionary.json> [--check] [--track eg|sa]   (default track: eg)
 // The dictionary maps each plain word to its vowelled form. Why: the Egyptian voice reads unmarked Arabic like Standard Arabic; with the
 // marks it reads the Cairene vowels. Only the text the learner hears is changed (item words, example sentences, fill-in sentences and their
 // answers/wrong choices, conversation lines and wrong replies). Titles, explanations and translations stay as they are.
@@ -11,6 +11,8 @@ import { fileURLToPath } from 'node:url';
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const dictFile = process.argv[2];
 const checkOnly = process.argv.includes('--check');
+const track = process.argv.includes('--track') ? process.argv[process.argv.indexOf('--track') + 1] : 'eg';
+if (!['eg', 'sa'].includes(track)) { console.error('--track must be eg or sa'); process.exit(2); }
 if (!dictFile) { console.error('usage: node scripts/apply-eg-diacritics.mjs <dictionary.json> [--check]'); process.exit(2); }
 const dict = JSON.parse(fs.readFileSync(dictFile, 'utf8'));
 const MARKS = /[ً-ْ]/g;
@@ -19,7 +21,7 @@ const WORD = /[ء-يٱً-ْ]+/g;
 const missing = new Set();
 const mark = (s) => String(s).replace(WORD, (w) => { const plain = w.replace(MARKS, ''); const d = dict[plain]; if (!d) { missing.add(plain); return w; } return d; });
 
-const dir = path.join(root, 'src/data/content/eg');
+const dir = path.join(root, 'src/data/content', track);
 let changed = 0;
 for (const f of fs.readdirSync(dir).filter((x) => x.endsWith('.json'))) {
   const file = path.join(dir, f);
