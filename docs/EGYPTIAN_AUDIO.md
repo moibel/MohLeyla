@@ -56,4 +56,10 @@ Adding or changing Egyptian text:
 
 ## Cairo pronunciation (ق and ج)
 
-Cairo says ق as a glottal stop and ج as a hard g, but a text-to-speech voice reads the letters the Standard Arabic way. So the text sent to the voice (not the text shown) is changed in `scripts/eg-pronunciation.mjs`: ق becomes أ (قهوة -> أهوة) and ج becomes گ (جميل -> گميل). Words Egyptians say with a real q stay as they are: add them to `KEEP_Q` (today: القاهرة). After changing the rule run `npm run generate:audio -- --redo-eg`, which remakes only the Egyptian clips whose voice text changed.
+A text-to-speech voice reads ق and ج the Standard Arabic way, so the text sent to the voice (not the text shown) is changed by `scripts/eg-pronunciation.mjs`:
+
+- ق as the FIRST letter of a word becomes أ, a glottal stop (قوي -> أوي, قهوة -> أهوة).
+- ق anywhere else stays a real q (القاهرة, السوق, دلوقتي, موافق). A prefix such as ال or و is part of the word, so the ق of القهوة is not first.
+- ج becomes گ, which the voice reads as a hard g (جميل -> گميل).
+
+After changing the rule run `npm run generate:audio -- --redo-eg`, which remakes every Egyptian clip whose text has ق or ج.
