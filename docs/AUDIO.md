@@ -65,3 +65,9 @@ Every Arabic word in this course already carries vowel marks, which the voice ne
 ## Indonesian course: ElevenLabs voice (`idn` clips)
 
 Same pattern as the Arabic course: the Indonesian course ('id') plays `public/audio/idn/` clips and falls back to the macOS (Damayanti) `id` clips. In ElevenLabs choose an Indonesian voice (**Voice Library > Language: Indonesian**), add it to My Voices, copy its Voice ID, put `ELEVENLABS_VOICE_ID_ID=<the voice id>` in the git-ignored `.env.local`, then `npm run generate:audio` (about 12,350 characters, 555 lines).
+
+## Saudi course: vowel marks and an ElevenLabs voice (`sau` clips)
+
+The Saudi course ('sa') has vowel marks on every spoken word (`docs/data/sa-diacritics.json`; add new words there and run `node scripts/apply-eg-diacritics.mjs docs/data/sa-diacritics.json --track sa`; `src/test/eg-diacritics.test.js` guards it). The marks were written by an AI from the lessons' Latin spelling and are not native-reviewed. NO letters are changed for the voice (the Egyptian-only ق/ج rules in `scripts/eg-pronunciation.mjs` do not apply to Saudi).
+
+The Saudi track plays `public/audio/sau/` clips and falls back to the macOS Arabic `ar` clips (never to the Modern Standard Arabic `msa` set). In ElevenLabs choose a Saudi voice (**Voice Library > Language: Arabic**, accent Saudi), put its Voice ID in `.env.local` as `ELEVENLABS_VOICE_ID_SA=<the voice id>`, then `npm run generate:audio` (about 8,500 characters, 493 lines).

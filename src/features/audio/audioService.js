@@ -21,6 +21,8 @@ const LOCALE_PREFS = {
 // Recordings to try, best first. Egyptian Arabic has its own recordings; until a line has one, the Standard Arabic recording of the
 // same text is used (clearly labelled in the lesson), and only after that the device voice.
 const CLIP_LANGS = { eg: ['eg', 'ar'], ar: ['msa', 'ar'], id: ['idn', 'id'] };
+// The Saudi track speaks 'ar', but has its own recordings ('sau') before the macOS Arabic ones.
+const clipLangs = (lang, track) => (track === 'sa' ? ['sau', 'ar'] : CLIP_LANGS[lang] || [lang]);
 
 const normLang = (l) => String(l || '').replace('_', '-').toLowerCase();
 
@@ -138,7 +140,7 @@ export class AudioService {
     const { source } = this.prefs;
 
     if (source !== 'device') {
-      const r = await this.playRecording(clean, lang, key, token);
+      const r = await this.playRecording(clean, lang, key, token, track);
       if (r.ok || r.superseded) return r;
       if (source === 'recorded' || r.error === 'blocked') return this.fail(r.error, token);
       // auto: fall through to the device voice
@@ -148,11 +150,11 @@ export class AudioService {
     return this.playDevice(clean, lang, track, key, token);
   }
 
-  async playRecording(text, lang, key, token) {
+  async playRecording(text, lang, key, token, track) {
     if (!this.AudioCtor) return { ok: false, error: 'unsupported' };
     let clips = await this.loadManifest();
     if (token !== this.token) return { ok: false, superseded: true };
-    const candidates = CLIP_LANGS[lang] || [lang];
+    const candidates = clipLangs(lang, track);
     const find = (list) => (list ? candidates.find((l) => list[l]?.has(audioKey(text, l))) : undefined);
     let clipLang = find(clips);
     if (clips && !clipLang) {

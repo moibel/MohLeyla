@@ -72,7 +72,7 @@ describe('audio caching', () => {
   const headers = fs.readFileSync(path.resolve(__dirname, '../../public/_headers'), 'utf8');
   const toml = fs.readFileSync(path.resolve(__dirname, '../../netlify.toml'), 'utf8');
   const block = (text, p) => (text.split(/\n(?=\S)/).find((b) => b.startsWith(p + '\n')) || '');
-  const LANGS = ['ar', 'en', 'id', 'fr', 'es', 'zh', 'eg', 'msa', 'idn'];
+  const LANGS = ['ar', 'en', 'id', 'fr', 'es', 'zh', 'eg', 'msa', 'idn', 'sau'];
   it('the list of clips (manifest.json) is always revalidated, never cached forever', () => {
     expect(block(headers, '/audio/manifest.json')).toMatch(/Cache-Control: no-cache/);
     expect(toml).toMatch(/for = "\/audio\/manifest\.json"\s+\[headers\.values\]\s+Cache-Control = "no-cache"/);

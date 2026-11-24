@@ -226,3 +226,21 @@ describe('Modern Standard Arabic recordings (ElevenLabs set "msa")', () => {
     expect(audioKey(ar, 'msa')).not.toBe(audioKey(ar, 'ar'));
   });
 });
+
+describe('Saudi recordings (ElevenLabs set "sau")', () => {
+  const sa = 'شْلُونَك؟';
+  it('the Saudi track plays its sau recording when there is one, never the Arabic-course (msa) one', async () => {
+    const { env, els } = makeEnv({ clips: { sau: [audioKey(sa, 'sau')], msa: [audioKey(sa, 'msa')], ar: [audioKey(sa, 'ar')] } });
+    const svc = new AudioService(env);
+    const r = await svc.play({ text: sa, lang: 'ar', track: 'sa' });
+    expect(r.ok).toBe(true);
+    expect(els[0].src).toBe(`/audio/sau/${audioKey(sa, 'sau')}.mp3`);
+  });
+  it('falls back to the macOS Arabic recording for a Saudi line without a sau one', async () => {
+    const { env, els } = makeEnv({ clips: { sau: [], ar: [audioKey(sa, 'ar')] } });
+    const svc = new AudioService(env);
+    const r = await svc.play({ text: sa, lang: 'ar', track: 'sa' });
+    expect(r.ok).toBe(true);
+    expect(els[0].src).toBe(`/audio/ar/${audioKey(sa, 'ar')}.mp3`);
+  });
+});
