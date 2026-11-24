@@ -1,7 +1,7 @@
 # Changelog
 
 ## Unreleased (Chinese voice)
-- The Chinese course can use an ElevenLabs Mandarin voice: clip set `public/audio/zhn/` (`ELEVENLABS_VOICE_ID_ZH`), with the macOS Chinese clips as the fallback. Hosting cache rules and tests added.
+- The Chinese course now uses an ElevenLabs Mandarin voice (654 clips): clip set `public/audio/zhn/` (`ELEVENLABS_VOICE_ID_ZH`), with the macOS Chinese clips as the fallback. Hosting cache rules and tests added.
 
 ## Unreleased (Saudi vowel marks and voice)
 - Saudi lessons: every spoken word now has vowel marks; the Saudi track now uses an ElevenLabs Saudi voice (492 clips, clip set `public/audio/sau/`, `ELEVENLABS_VOICE_ID_SA`) with the macOS Arabic clips as the fallback. No letter changes for the voice. Hosting rules and tests added.
