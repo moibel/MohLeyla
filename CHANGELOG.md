@@ -1,5 +1,8 @@
 # Changelog
 
+## Unreleased (support email)
+- The public contact address `mohleyla.support@gmail.com` is now on the privacy policy, the terms and the delete-account page (Arabic, English, Indonesian) as a mail link next to the GitHub issues link; private matters go to the email. People who cannot sign in can ask for deletion by email from the address they signed up with.
+
 ## Unreleased (German and Tagalog)
 - Two new Beta courses, 30 lessons each (about 240 words, A1-A2, in Arabic, English and Indonesian): German (`de`) and Tagalog (`tl`). Own colours, names, audio sets (`de`/`den`, `tln`), hosting cache rules, admin-switch migration `013_content_switch_de_tl.sql` (run it in Supabase) and tests. Written by one pass and corrected by an independent reviewer per file; not native-reviewed. ElevenLabs clips: German 516 (`den`) plus macOS Anna 516 (`de`), Tagalog 508 (`tln`). First-screen bundle is now 159.1 of 160 kB, so the next feature must make room first.
 
