@@ -110,3 +110,6 @@
 .profile-card{display:flex;gap:20px;align-items:center;flex-wrap:wrap}
 .profile-id h2{font-size:1.4rem}
 @media (max-width:520px){.topbar-stats .stat-pill:first-child{display:none}}
+.legal-links{font-size:.8rem;color:var(--muted);margin:4px 0 0}
+.legal-links a{color:inherit;text-decoration:underline;text-underline-offset:2px}
+.legal-links a:hover{color:var(--text)}
