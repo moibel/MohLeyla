@@ -1,5 +1,8 @@
 # Changelog
 
+## Unreleased (native review sheets for German and Tagalog)
+- Review sheets for German and Tagalog (`docs/native-review/de.md`, `tl.md`), each starting with a "check these first" list of what the earlier reviewers were least sure of (stress marks, natural phrasing, spelling decisions). `export-review-sheet.mjs` now includes `docs/native-review/priorities/<track>.md` at the top of a sheet, and the Egyptian sheet was regenerated with its vowel marks.
+
 ## Unreleased (support email)
 - The public contact address `mohleyla.support@gmail.com` is now on the privacy policy, the terms and the delete-account page (Arabic, English, Indonesian) as a mail link next to the GitHub issues link; private matters go to the email. People who cannot sign in can ask for deletion by email from the address they signed up with.
 
