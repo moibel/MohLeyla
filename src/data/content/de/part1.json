@@ -1,0 +1,2970 @@
+[
+  {
+    "id": "de-01",
+    "track": "de",
+    "level": "beginner",
+    "order": 1,
+    "topic": "sounds-of-german",
+    "icon": "🔊",
+    "title": {
+      "ar": "أصوات اللغة الألمانية",
+      "en": "The Sounds of German",
+      "id": "Bunyi Bahasa Jerman"
+    },
+    "description": {
+      "ar": "تعرّف على ä وö وü وch وß وحروف z وw.",
+      "en": "Meet ä, ö, ü, ch, ß, z and w.",
+      "id": "Kenali bunyi ä, ö, ü, ch, ß, z, dan w."
+    },
+    "objectives": [
+      {
+        "ar": "أستطيع نطق الحروف ä وö وü.",
+        "en": "I can say the vowels ä, ö and ü.",
+        "id": "Saya bisa mengucapkan vokal ä, ö, dan ü."
+      },
+      {
+        "ar": "أستطيع التفريق بين ch في «ich» وch في «Buch».",
+        "en": "I can tell the ch in ich from the ch in Buch.",
+        "id": "Saya bisa membedakan ch pada ich dan ch pada Buch."
+      },
+      {
+        "ar": "أعرف أن حرف z يُنطق «ts» وحرف w يُنطق «v» وأن الاسم يبدأ بحرف كبير.",
+        "en": "I know that z sounds like ts, w sounds like v, and every noun starts with a capital letter.",
+        "id": "Saya tahu z dibaca ts, w dibaca v, dan setiap kata benda diawali huruf kapital."
+      }
+    ],
+    "intro": {
+      "ar": "الألمانية تُكتب بالحروف اللاتينية، وأغلب الكلمات تُنطق كما تُكتب بعد أن تتعلم القواعد القليلة. لكن فيها أصواتًا جديدة مثل ü وö وصوت ch. في هذا الدرس ثماني كلمات حقيقية تُظهر هذه الأصوات. استمع أولًا ثم كرّر بصوت عالٍ.",
+      "en": "German uses the Latin alphabet, and once you know a few rules most words are said the way they are written. It also has new sounds such as ü, ö and ch. In this lesson eight real words show these sounds. Listen first, then repeat out loud.",
+      "id": "Bahasa Jerman memakai alfabet Latin, dan setelah tahu beberapa aturan, kebanyakan kata dibaca sesuai tulisannya. Namun ada bunyi baru seperti ü, ö, dan ch. Di pelajaran ini delapan kata nyata menunjukkan bunyi tersebut. Dengarkan dulu, lalu ulangi dengan suara keras."
+    },
+    "culture": {
+      "ar": "في الألمانية تبدأ كل الأسماء بحرف كبير، مثل «Buch» و«Wasser»، وهذا يساعدك على التعرّف عليها عند القراءة. كما أن الناس في ألمانيا يقدّرون النطق الواضح، لكنهم يتقبّلون الأخطاء من المتعلمين ويشجّعونهم، فلا تخف من المحاولة.",
+      "en": "In German every noun starts with a capital letter, as in Buch and Wasser, which helps you spot nouns when you read. People in Germany like clear pronunciation, but they are usually patient and encouraging with learners, so do not be afraid to try.",
+      "id": "Dalam bahasa Jerman setiap kata benda diawali huruf kapital, seperti Buch dan Wasser, sehingga mudah dikenali saat membaca. Orang Jerman suka pengucapan yang jelas, tetapi biasanya sabar dan mendukung pelajar, jadi jangan takut mencoba."
+    },
+    "grammar": {
+      "title": {
+        "ar": "الأصوات الخاصة والحروف الكبيرة",
+        "en": "Special sounds and capital letters",
+        "id": "Bunyi khusus dan huruf kapital"
+      },
+      "body": {
+        "ar": "لنطق ü قل «ي» ثم دوّر شفتيك كأنك تقول «و» مع إبقاء اللسان في موضع «ي»، ولنطق ö قل «إيه» ثم دوّر شفتيك بالطريقة نفسها، أما ä فتُنطق مثل «إيه» مفتوحة. الحرف ch بعد e وi يخرج من وسط اللسان بصوت خفيف (ich)، وبعد a وo وu يخرج من الحلق مثل «خ» (Buch). الحرف ß والحرف ss يُنطقان «س»، والحرف z يُنطق «ts»، والحرف w يُنطق «v». وأخيرًا تُكتب كل الأسماء بحرف كبير. في هذه الدروس نكتب النطق بالإنجليزية والمقطع المنبور بحروف كبيرة.",
+        "en": "For ü, say ee with your lips rounded (in these lessons: ew). For ö, say eh with rounded lips (written ur). ä sounds like eh (short or long). The ch after e or i is a soft hiss from the middle of the tongue (ich, written ç), but after a, o or u it comes from the throat like Arabic kh (Buch, written kh). ß and ss both sound like s, z sounds like ts, and w sounds like v. Finally, every noun has a capital letter. In these lessons the stressed syllable is written in capitals.",
+        "id": "Untuk ü, ucapkan i dengan bibir membulat (di pelajaran ini ditulis ew). Untuk ö, ucapkan e dengan bibir membulat (ditulis ur). ä terdengar seperti e (pendek atau panjang). Bunyi ch setelah e atau i adalah desis lembut dari tengah lidah (ich, ditulis ç), tetapi setelah a, o, atau u keluar dari tenggorokan seperti kh (Buch, ditulis kh). ß dan ss dibaca s, z dibaca ts, dan w dibaca v. Terakhir, setiap kata benda diawali huruf kapital. Di pelajaran ini suku kata yang ditekan ditulis dengan huruf besar."
+      }
+    },
+    "items": [
+      {
+        "id": "de01n1",
+        "target": "das Mädchen",
+        "translit": "dass MAYT-çen",
+        "tr": {
+          "ar": "الفتاة",
+          "en": "the girl",
+          "id": "anak perempuan"
+        },
+        "example": {
+          "target": "Das Mädchen ist nett.",
+          "translit": "dass MAYT-çen ist net",
+          "tr": {
+            "ar": "الفتاة لطيفة.",
+            "en": "The girl is nice.",
+            "id": "Anak perempuan itu baik."
+          }
+        },
+        "hint": {
+          "ar": "ä هنا طويلة مثل «إيه» ممدودة. والنهاية -chen تحمل صوت ch الخفيف كما في ich، وليس «خ».",
+          "en": "ä is a long eh here. The ending -chen has the soft ch as in ich, not a throaty kh.",
+          "id": "ä di sini dibaca e panjang. Akhiran -chen memakai ch lembut seperti pada ich, bukan kh."
+        }
+      },
+      {
+        "id": "de01n2",
+        "target": "schön",
+        "translit": "shurn",
+        "tr": {
+          "ar": "جميل",
+          "en": "beautiful, nice",
+          "id": "indah, bagus"
+        },
+        "example": {
+          "target": "Das Wetter ist schön.",
+          "translit": "dass VET-ter ist shurn",
+          "tr": {
+            "ar": "الطقس جميل.",
+            "en": "The weather is nice.",
+            "id": "Cuacanya bagus."
+          }
+        },
+        "hint": {
+          "ar": "ö: قل «إيه» ثم دوّر شفتيك مع إبقاء اللسان في مكانه. و«sch» تُنطق «ش».",
+          "en": "ö: say eh, then round your lips. sch sounds like English sh.",
+          "id": "ö: ucapkan e lalu bulatkan bibir. sch dibaca seperti sy."
+        }
+      },
+      {
+        "id": "de01n3",
+        "target": "die Tür",
+        "translit": "dee tewr",
+        "tr": {
+          "ar": "الباب",
+          "en": "the door",
+          "id": "pintu"
+        },
+        "example": {
+          "target": "Die Tür ist offen.",
+          "translit": "dee tewr ist OF-fen",
+          "tr": {
+            "ar": "الباب مفتوح.",
+            "en": "The door is open.",
+            "id": "Pintunya terbuka."
+          }
+        },
+        "hint": {
+          "ar": "ü: قل «ي» ثم دوّر شفتيك كأنك تقول «و» دون تحريك اللسان. وكلمة Tür مؤنثة: die Tür.",
+          "en": "ü: say ee and round your lips as if saying oo. Tür is feminine: die Tür.",
+          "id": "ü: ucapkan i lalu bulatkan bibir seperti u. Tür berjenis feminin: die Tür."
+        }
+      },
+      {
+        "id": "de01n4",
+        "target": "ich",
+        "translit": "iç",
+        "tr": {
+          "ar": "أنا",
+          "en": "I",
+          "id": "saya, aku"
+        },
+        "example": {
+          "target": "Ich bin müde.",
+          "translit": "iç bin MEW-deh",
+          "tr": {
+            "ar": "أنا متعب.",
+            "en": "I am tired.",
+            "id": "Saya capek."
+          }
+        },
+        "hint": {
+          "ar": "ch بعد i: ضع وسط اللسان قرب سقف الفم وأخرج هواءً خفيفًا. لا تقل «ik». وكلمة ich لا تُكتب بحرف كبير إلا في أول الجملة.",
+          "en": "ch after i: put the middle of your tongue near the roof of your mouth and let a soft hiss out. Do not say ik. Ich has a capital letter only at the start of a sentence.",
+          "id": "ch setelah i: dekatkan tengah lidah ke langit-langit dan hembuskan desis lembut. Jangan baca ik. Ich hanya berhuruf kapital di awal kalimat."
+        }
+      },
+      {
+        "id": "de01n5",
+        "target": "das Buch",
+        "translit": "dass bookh",
+        "tr": {
+          "ar": "الكتاب",
+          "en": "the book",
+          "id": "buku"
+        },
+        "example": {
+          "target": "Das Buch ist neu.",
+          "translit": "dass bookh ist noy",
+          "tr": {
+            "ar": "الكتاب جديد.",
+            "en": "The book is new.",
+            "id": "Bukunya baru."
+          }
+        },
+        "hint": {
+          "ar": "ch بعد u: صوت «خ» من الحلق مثل العربية. وuch تُنطق «ukh».",
+          "en": "ch after u: a throaty kh sound, like in Arabic. So uch is said ukh.",
+          "id": "ch setelah u: bunyi kh dari tenggorokan seperti dalam bahasa Arab. Jadi uch dibaca ukh."
+        }
+      },
+      {
+        "id": "de01n6",
+        "target": "die Straße",
+        "translit": "dee SHTRAH-seh",
+        "tr": {
+          "ar": "الشارع",
+          "en": "the street",
+          "id": "jalan"
+        },
+        "example": {
+          "target": "Die Straße ist lang.",
+          "translit": "dee SHTRAH-seh ist lang",
+          "tr": {
+            "ar": "الشارع طويل.",
+            "en": "The street is long.",
+            "id": "Jalannya panjang."
+          }
+        },
+        "hint": {
+          "ar": "ß تُنطق «س» ولا تُنطق «ز». وفي بداية الكلمة تُنطق st «شت»: Straße = «شتراسه».",
+          "en": "ß is said s, never z. At the start of a word st is said sht: Straße = SHTRAH-seh.",
+          "id": "ß dibaca s, bukan z. Di awal kata st dibaca sht: Straße = SHTRAH-seh."
+        }
+      },
+      {
+        "id": "de01n7",
+        "target": "die Zeit",
+        "translit": "dee tsite",
+        "tr": {
+          "ar": "الوقت",
+          "en": "the time",
+          "id": "waktu"
+        },
+        "example": {
+          "target": "Die Zeit ist kurz.",
+          "translit": "dee tsite ist koorts",
+          "tr": {
+            "ar": "الوقت قصير.",
+            "en": "Time is short.",
+            "id": "Waktunya singkat."
+          }
+        },
+        "hint": {
+          "ar": "z تُنطق «ts» دائمًا. وei تُنطق «آي» (مثل eye) وليس «إي».",
+          "en": "z is always ts. ei sounds like eye, not like ee.",
+          "id": "z selalu dibaca ts. ei dibaca ai (seperti eye), bukan i."
+        }
+      },
+      {
+        "id": "de01n8",
+        "target": "das Wasser",
+        "translit": "dass VAS-ser",
+        "tr": {
+          "ar": "الماء",
+          "en": "the water",
+          "id": "air (minum)"
+        },
+        "example": {
+          "target": "Ein Wasser, bitte.",
+          "translit": "ine VAS-ser BIT-teh",
+          "tr": {
+            "ar": "ماء، من فضلك.",
+            "en": "A water, please.",
+            "id": "Air putih, tolong."
+          }
+        },
+        "hint": {
+          "ar": "w تُنطق «v» مثل حرف الفاء المجهورة، وss تُنطق «س».",
+          "en": "w sounds like v, and ss sounds like s.",
+          "id": "w dibaca v, dan ss dibaca s."
+        }
+      }
+    ],
+    "cloze": [
+      {
+        "sentence": "Ich lese ein ___.",
+        "answer": "Buch",
+        "wrong": [
+          "Wasser",
+          "Straße"
+        ],
+        "tr": {
+          "ar": "أنا أقرأ كتابًا.",
+          "en": "I am reading a book.",
+          "id": "Saya membaca buku."
+        },
+        "why": {
+          "ar": "نقرأ «كتابًا» وليس الماء أو الشارع. وكلمة Buch تُنطق «بوخ» مع صوت ch الحلقي.",
+          "en": "You read a book, not water or a street. Buch is said bookh with the throaty ch.",
+          "id": "Kita membaca buku, bukan air atau jalan. Buch dibaca bookh dengan ch dari tenggorokan."
+        }
+      },
+      {
+        "sentence": "Ich trinke ___.",
+        "answer": "Wasser",
+        "wrong": [
+          "Buch",
+          "Tür"
+        ],
+        "tr": {
+          "ar": "أنا أشرب ماءً.",
+          "en": "I am drinking water.",
+          "id": "Saya minum air."
+        },
+        "why": {
+          "ar": "نشرب الماء ولا نشرب الكتاب أو الباب. وw في Wasser تُنطق «v».",
+          "en": "You drink water, not a book or a door. The w in Wasser is said v.",
+          "id": "Kita minum air, bukan buku atau pintu. Huruf w pada Wasser dibaca v."
+        }
+      }
+    ],
+    "conversation": {
+      "context": {
+        "ar": "صديقان يلتقيان في الشارع.",
+        "en": "Two friends meet on the street.",
+        "id": "Dua teman bertemu di jalan."
+      },
+      "turns": [
+        {
+          "who": "A",
+          "target": "Hallo! Wie geht es dir?",
+          "tr": {
+            "ar": "مرحبًا! كيف حالك؟",
+            "en": "Hello! How are you?",
+            "id": "Halo! Apa kabar?"
+          }
+        },
+        {
+          "who": "B",
+          "target": "Gut, danke. Und dir?",
+          "tr": {
+            "ar": "بخير، شكرًا. وأنت؟",
+            "en": "Fine, thanks. And you?",
+            "id": "Baik, terima kasih. Kamu?"
+          }
+        },
+        {
+          "who": "A",
+          "target": "Auch gut, danke.",
+          "tr": {
+            "ar": "أنا أيضًا بخير، شكرًا.",
+            "en": "Fine too, thanks.",
+            "id": "Saya juga baik, terima kasih."
+          }
+        }
+      ],
+      "gap": 1,
+      "wrong": [
+        "Das ist ein Buch.",
+        "Ich trinke Wasser."
+      ],
+      "why": {
+        "ar": "يسأل A «كيف حالك؟» فنجيب بأننا بخير ونسأله بدورنا. الجملتان الأخريان لا تجيبان عن السؤال.",
+        "en": "A asks how you are, so you say you are fine and ask back. The other two replies do not answer the question.",
+        "id": "A bertanya kabar, jadi kita jawab baik lalu balas bertanya. Dua balasan lain tidak menjawab pertanyaan."
+      }
+    },
+    "summary": {
+      "ar": "تعلّمت ثماني كلمات تُظهر ä وö وü وصوتي ch وß وz وw. تذكّر أن كل اسم يُكتب بحرف كبير.",
+      "en": "You learned eight words that show ä, ö, ü, both ch sounds, ß, z and w. Remember that every noun gets a capital letter.",
+      "id": "Kamu mempelajari delapan kata yang menunjukkan ä, ö, ü, dua bunyi ch, ß, z, dan w. Ingat, setiap kata benda berhuruf kapital."
+    }
+  },
+  {
+    "id": "de-02",
+    "track": "de",
+    "level": "beginner",
+    "order": 2,
+    "topic": "greetings-politeness",
+    "icon": "👋",
+    "title": {
+      "ar": "التحيات واللباقة",
+      "en": "Greetings and Politeness",
+      "id": "Salam dan Sopan Santun"
+    },
+    "description": {
+      "ar": "تعلّم التحية حسب الوقت وكلمات اللباقة الأساسية.",
+      "en": "Learn greetings for the time of day and the basic polite words.",
+      "id": "Pelajari salam menurut waktu dan kata-kata sopan dasar."
+    },
+    "objectives": [
+      {
+        "ar": "أستطيع أن أحيّي الناس صباحًا ونهارًا ومساءً.",
+        "en": "I can greet people in the morning, during the day and in the evening.",
+        "id": "Saya bisa menyapa orang pada pagi, siang, dan malam hari."
+      },
+      {
+        "ar": "أستطيع أن أودّع بقول «Tschüss».",
+        "en": "I can say goodbye with Tschüss.",
+        "id": "Saya bisa berpamitan dengan Tschüss."
+      },
+      {
+        "ar": "أعرف متى أستخدم du ومتى أستخدم Sie، وأقول bitte وdanke.",
+        "en": "I know when to use du and when to use Sie, and I can say bitte and danke.",
+        "id": "Saya tahu kapan memakai du dan kapan Sie, dan bisa mengucapkan bitte dan danke."
+      }
+    ],
+    "intro": {
+      "ar": "في ألمانيا يحيّي الناس بعضهم دائمًا عند الدخول إلى المتجر أو العيادة أو المصعد. في هذا الدرس تتعلم أهم التحيات وكلمتي «من فضلك» و«شكرًا». وتتعرف أيضًا على الفرق بين du للأصدقاء وSie للغرباء.",
+      "en": "In Germany people always greet each other when they enter a shop, a doctor's office or even a lift. In this lesson you learn the main greetings and the words for please and thank you. You also meet the difference between du for friends and Sie for strangers.",
+      "id": "Di Jerman orang selalu saling menyapa saat masuk toko, ruang dokter, bahkan lift. Di pelajaran ini kamu belajar salam utama dan kata tolong serta terima kasih. Kamu juga mengenal perbedaan du untuk teman dan Sie untuk orang asing."
+    },
+    "culture": {
+      "ar": "عند دخول متجر صغير قل «Guten Tag» وعند الخروج «Tschüss» أو «Auf Wiedersehen». مع الأصدقاء والأطفال والشباب يُستخدم du، ومع الغرباء والموظفين وكبار السن يُستخدم Sie. إذا كنت غير متأكد فابدأ بـ Sie، وسيقترح الآخر عادةً أن تستخدما du.",
+      "en": "When you enter a small shop say Guten Tag, and when you leave say Tschüss or Auf Wiedersehen. Friends, children and young people use du, while strangers, staff and older people are addressed with Sie. If you are unsure, start with Sie; the other person will usually offer du.",
+      "id": "Saat masuk toko kecil ucapkan Guten Tag, dan saat keluar ucapkan Tschüss atau Auf Wiedersehen. Teman, anak-anak, dan anak muda disapa dengan du, sedangkan orang asing, petugas, dan orang yang lebih tua dengan Sie. Jika ragu, mulailah dengan Sie; biasanya lawan bicara akan menawarkan du."
+    },
+    "grammar": {
+      "title": {
+        "ar": "du وSie",
+        "en": "du and Sie",
+        "id": "du dan Sie"
+      },
+      "body": {
+        "ar": "في الألمانية كلمتان لمخاطبة شخص واحد: du للمقرّبين وSie للموقف الرسمي. تُكتب Sie الرسمية دائمًا بحرف كبير، وفعلها يأخذ صيغة الجمع: «Wie geht es Ihnen?» (رسمي) و«Wie geht es dir?» (ودّي). والتحيات الزمنية تحمل «Guten» لأن الكلمات مذكّرة: Guten Morgen وGuten Tag وGuten Abend.",
+        "en": "German has two words for you when you talk to one person: du for people close to you and Sie for formal situations. The formal Sie is always written with a capital letter and takes a plural-style verb form: Wie geht es Ihnen? (formal) and Wie geht es dir? (friendly). The time greetings use Guten because Morgen, Tag and Abend are masculine nouns: Guten Morgen, Guten Tag, Guten Abend.",
+        "id": "Bahasa Jerman punya dua kata untuk berbicara dengan satu orang: du untuk orang dekat dan Sie untuk situasi formal. Sie formal selalu ditulis dengan huruf kapital dan kata kerjanya berbentuk jamak: Wie geht es Ihnen? (formal) dan Wie geht es dir? (akrab). Salam menurut waktu memakai Guten karena Morgen, Tag, dan Abend berjenis maskulin: Guten Morgen, Guten Tag, Guten Abend."
+      }
+    },
+    "items": [
+      {
+        "id": "de02n1",
+        "target": "Guten Morgen",
+        "translit": "GOO-ten MOR-gen",
+        "tr": {
+          "ar": "صباح الخير",
+          "en": "good morning",
+          "id": "selamat pagi"
+        },
+        "example": {
+          "target": "Guten Morgen, Frau Müller!",
+          "translit": "GOO-ten MOR-gen frow MEW-ler",
+          "tr": {
+            "ar": "صباح الخير يا سيدة مولر!",
+            "en": "Good morning, Mrs Müller!",
+            "id": "Selamat pagi, Bu Müller!"
+          }
+        },
+        "hint": {
+          "ar": "تُقال حتى نحو الساعة العاشرة صباحًا، وتناسب du وSie معًا. وبعد Frau أو Herr نستخدم Sie.",
+          "en": "Used until about ten in the morning, for both du and Sie. After Frau or Herr you use Sie.",
+          "id": "Dipakai sampai sekitar pukul sepuluh pagi, untuk du maupun Sie. Setelah Frau atau Herr kita memakai Sie."
+        }
+      },
+      {
+        "id": "de02n2",
+        "target": "Guten Tag",
+        "translit": "GOO-ten tahk",
+        "tr": {
+          "ar": "مرحبًا (تحية النهار)",
+          "en": "hello, good day",
+          "id": "selamat siang, halo"
+        },
+        "example": {
+          "target": "Guten Tag! Kann ich Ihnen helfen?",
+          "translit": "GOO-ten tahk kan iç EE-nen HEL-fen",
+          "tr": {
+            "ar": "مرحبًا! هل أستطيع مساعدتك؟",
+            "en": "Hello! Can I help?",
+            "id": "Selamat siang! Ada yang bisa saya bantu?"
+          }
+        },
+        "hint": {
+          "ar": "التحية الأكثر أمانًا في المتاجر والمكاتب (Sie). وحرف g في آخر Tag يُنطق «k».",
+          "en": "The safest greeting in shops and offices (Sie). The final g in Tag is said k.",
+          "id": "Salam paling aman di toko dan kantor (Sie). Huruf g di akhir Tag dibaca k."
+        }
+      },
+      {
+        "id": "de02n3",
+        "target": "Guten Abend",
+        "translit": "GOO-ten AH-bent",
+        "tr": {
+          "ar": "مساء الخير",
+          "en": "good evening",
+          "id": "selamat malam (saat bertemu)"
+        },
+        "example": {
+          "target": "Guten Abend, Herr Weber.",
+          "translit": "GOO-ten AH-bent hair VEH-ber",
+          "tr": {
+            "ar": "مساء الخير يا سيد فيبر.",
+            "en": "Good evening, Mr Weber.",
+            "id": "Selamat malam, Pak Weber."
+          }
+        },
+        "hint": {
+          "ar": "تُقال من بعد الظهر المتأخر عند اللقاء. وللوداع قبل النوم نقول «Gute Nacht». و d في آخر Abend تُنطق «t».",
+          "en": "Used from late afternoon when you meet someone. Before going to bed you say Gute Nacht. The final d in Abend is said t.",
+          "id": "Dipakai sejak sore hari saat bertemu. Sebelum tidur ucapkan Gute Nacht. Huruf d di akhir Abend dibaca t."
+        }
+      },
+      {
+        "id": "de02n4",
+        "target": "Tschüss",
+        "translit": "tchews",
+        "tr": {
+          "ar": "إلى اللقاء (ودّي)",
+          "en": "bye",
+          "id": "dah, sampai jumpa"
+        },
+        "example": {
+          "target": "Tschüss, bis morgen!",
+          "translit": "tchews bis MOR-gen",
+          "tr": {
+            "ar": "إلى اللقاء، حتى الغد!",
+            "en": "Bye, see you tomorrow!",
+            "id": "Dah, sampai besok!"
+          }
+        },
+        "hint": {
+          "ar": "ودّية وتناسب du، وتُقال أيضًا في المتاجر. وللموقف الرسمي استخدم «Auf Wiedersehen».",
+          "en": "Friendly, used with du and also in shops. For formal situations use Auf Wiedersehen.",
+          "id": "Akrab, dipakai dengan du dan juga di toko. Untuk situasi formal pakai Auf Wiedersehen."
+        }
+      },
+      {
+        "id": "de02n5",
+        "target": "bitte",
+        "translit": "BIT-teh",
+        "tr": {
+          "ar": "من فضلك / عفوًا",
+          "en": "please, you are welcome",
+          "id": "tolong, sama-sama"
+        },
+        "example": {
+          "target": "Einen Moment, bitte.",
+          "translit": "EYE-nen moh-MENT BIT-teh",
+          "tr": {
+            "ar": "لحظة من فضلك.",
+            "en": "One moment, please.",
+            "id": "Sebentar, tolong."
+          }
+        },
+        "hint": {
+          "ar": "كلمة bitte لها استعمالان: «من فضلك» و«عفوًا» ردًا على الشكر. وهي مفيدة جدًا.",
+          "en": "Bitte has two jobs: please, and you are welcome after thanks. It is very useful.",
+          "id": "Kata bitte punya dua fungsi: tolong, dan sama-sama setelah ucapan terima kasih. Sangat berguna."
+        }
+      },
+      {
+        "id": "de02n6",
+        "target": "danke",
+        "translit": "DAN-keh",
+        "tr": {
+          "ar": "شكرًا",
+          "en": "thank you",
+          "id": "terima kasih"
+        },
+        "example": {
+          "target": "Danke schön! Bitte schön!",
+          "translit": "DAN-keh shurn BIT-teh shurn",
+          "tr": {
+            "ar": "شكرًا جزيلًا! عفوًا!",
+            "en": "Thank you very much! You are welcome!",
+            "id": "Terima kasih banyak! Sama-sama!"
+          }
+        },
+        "hint": {
+          "ar": "تناسب du وSie. و«Danke schön» أكثر تهذيبًا، و«Vielen Dank» تعني «شكرًا جزيلًا».",
+          "en": "Works with du and Sie. Danke schön is more polite, and Vielen Dank means many thanks.",
+          "id": "Cocok untuk du dan Sie. Danke schön lebih sopan, dan Vielen Dank berarti terima kasih banyak."
+        }
+      }
+    ],
+    "cloze": [
+      {
+        "sentence": "___ Morgen!",
+        "answer": "Guten",
+        "wrong": [
+          "Gute",
+          "Guter"
+        ],
+        "tr": {
+          "ar": "صباح الخير!",
+          "en": "Good morning!",
+          "id": "Selamat pagi!"
+        },
+        "why": {
+          "ar": "Morgen اسم مذكّر لذلك نقول Guten Morgen. أما Gute فهي في Gute Nacht (Nacht مؤنث).",
+          "en": "Morgen is masculine, so it is Guten Morgen. Gute is used in Gute Nacht because Nacht is feminine.",
+          "id": "Morgen berjenis maskulin sehingga Guten Morgen. Gute dipakai pada Gute Nacht karena Nacht feminin."
+        }
+      },
+      {
+        "sentence": "Danke! – ___.",
+        "answer": "Bitte",
+        "wrong": [
+          "Tschüss",
+          "Guten Morgen"
+        ],
+        "tr": {
+          "ar": "شكرًا! – عفوًا.",
+          "en": "Thank you! – You are welcome.",
+          "id": "Terima kasih! – Sama-sama."
+        },
+        "why": {
+          "ar": "ردًّا على الشكر نقول Bitte. أما Tschüss فللوداع وGuten Morgen للتحية الصباحية.",
+          "en": "You answer thanks with Bitte. Tschüss is for goodbye and Guten Morgen is a morning greeting.",
+          "id": "Untuk menjawab terima kasih dipakai Bitte. Tschüss untuk berpisah dan Guten Morgen salam pagi."
+        }
+      }
+    ],
+    "conversation": {
+      "context": {
+        "ar": "تدخل متجرًا صغيرًا في الصباح.",
+        "en": "You walk into a small shop in the morning.",
+        "id": "Kamu masuk ke toko kecil pada pagi hari."
+      },
+      "turns": [
+        {
+          "who": "A",
+          "target": "Guten Morgen! Kann ich Ihnen helfen?",
+          "tr": {
+            "ar": "صباح الخير! هل أستطيع مساعدتك؟",
+            "en": "Good morning! Can I help you?",
+            "id": "Selamat pagi! Ada yang bisa saya bantu?"
+          }
+        },
+        {
+          "who": "B",
+          "target": "Guten Morgen! Ein Brot, bitte.",
+          "tr": {
+            "ar": "صباح الخير! رغيف خبز من فضلك.",
+            "en": "Good morning! A loaf of bread, please.",
+            "id": "Selamat pagi! Satu roti, tolong."
+          }
+        },
+        {
+          "who": "A",
+          "target": "Gern. Bitte schön!",
+          "tr": {
+            "ar": "بكل سرور. تفضّل!",
+            "en": "Gladly. Here you are!",
+            "id": "Dengan senang hati. Silakan!"
+          }
+        }
+      ],
+      "gap": 1,
+      "wrong": [
+        "Tschüss, bis morgen!",
+        "Gute Nacht!"
+      ],
+      "why": {
+        "ar": "نردّ على التحية بتحية مناسبة ثم نطلب شيئًا بلطف مع bitte. Tschüss وGute Nacht للوداع ولا تناسبان بداية الحديث.",
+        "en": "You return the greeting and then ask politely with bitte. Tschüss and Gute Nacht are goodbyes and do not fit the start of a conversation.",
+        "id": "Kita membalas salam lalu meminta dengan sopan memakai bitte. Tschüss dan Gute Nacht adalah salam perpisahan dan tidak cocok di awal percakapan."
+      }
+    },
+    "summary": {
+      "ar": "تعلّمت التحيات الأساسية وكلمتي bitte وdanke. تذكّر: du للأصدقاء وSie للغرباء.",
+      "en": "You learned the basic greetings plus bitte and danke. Remember: du for friends, Sie for strangers.",
+      "id": "Kamu mempelajari salam dasar serta bitte dan danke. Ingat: du untuk teman, Sie untuk orang asing."
+    }
+  },
+  {
+    "id": "de-03",
+    "track": "de",
+    "level": "beginner",
+    "order": 3,
+    "topic": "introducing-yourself",
+    "icon": "🙋",
+    "title": {
+      "ar": "التعريف بنفسك",
+      "en": "Introducing Yourself",
+      "id": "Memperkenalkan Diri"
+    },
+    "description": {
+      "ar": "قل اسمك وبلدك ومهنتك واسأل الآخرين.",
+      "en": "Say your name, country and job, and ask others.",
+      "id": "Sebutkan nama, negara, dan pekerjaanmu, dan tanyakan pada orang lain."
+    },
+    "objectives": [
+      {
+        "ar": "أستطيع أن أقول اسمي بـ «Ich heiße ...».",
+        "en": "I can say my name with Ich heiße ...",
+        "id": "Saya bisa menyebut nama dengan Ich heiße ..."
+      },
+      {
+        "ar": "أستطيع أن أقول من أين أنا.",
+        "en": "I can say where I come from.",
+        "id": "Saya bisa mengatakan dari mana saya berasal."
+      },
+      {
+        "ar": "أستطيع أن أسأل «Wie heißt du?» و«Woher kommst du?».",
+        "en": "I can ask Wie heißt du? and Woher kommst du?",
+        "id": "Saya bisa bertanya Wie heißt du? dan Woher kommst du?"
+      }
+    ],
+    "intro": {
+      "ar": "أول ما يحدث عند لقاء شخص جديد هو التعريف بنفسك. في هذا الدرس تتعلم جمل بسيطة وشائعة. ستلاحظ أن الفعل يأتي في المرتبة الثانية في الجملة دائمًا.",
+      "en": "The first thing you do when you meet someone new is introduce yourself. In this lesson you learn simple, common sentences. You will notice that the verb always comes in second place in the sentence.",
+      "id": "Hal pertama saat bertemu orang baru adalah memperkenalkan diri. Di pelajaran ini kamu belajar kalimat sederhana yang umum. Kamu akan melihat bahwa kata kerja selalu berada di posisi kedua dalam kalimat."
+    },
+    "culture": {
+      "ar": "في ألمانيا يصافح الناس بعضهم عند التعارف وينظرون في العينين. يُقال عادةً الاسم الأول فقط بين الشباب، أما في العمل فيُستخدم اللقب واسم العائلة: «Herr Weber» أو «Frau Schmidt».",
+      "en": "In Germany people shake hands when they meet and look each other in the eye. Young people often use first names only, while at work people use a title and surname, such as Herr Weber or Frau Schmidt.",
+      "id": "Di Jerman orang berjabat tangan saat berkenalan dan saling menatap mata. Anak muda sering memakai nama depan saja, sedangkan di tempat kerja dipakai sapaan dan nama keluarga, seperti Herr Weber atau Frau Schmidt."
+    },
+    "grammar": {
+      "title": {
+        "ar": "الفعل sein ومكان الفعل",
+        "en": "The verb sein and verb position",
+        "id": "Kata kerja sein dan posisi kata kerja"
+      },
+      "body": {
+        "ar": "الفعل sein (يكون) صيغه: ich bin وdu bist وer/sie ist وwir sind وihr seid وsie/Sie sind. في الجملة الخبرية يأتي الفعل المصرّف في المرتبة الثانية: «Ich komme aus Ägypten» و«Aus Ägypten komme ich». أما أفعال مثل heißen وkommen فتأخذ -e مع ich و-st مع du و-t مع er/sie: ich komme وdu kommst وer kommt. أما heißen فبعد ß تأخذ -t فقط: ich heiße وdu heißt وer heißt.",
+        "en": "The verb sein (to be) goes: ich bin, du bist, er/sie ist, wir sind, ihr seid, sie/Sie sind. In a normal statement the conjugated verb is in second place: Ich komme aus Ägypten and Aus Ägypten komme ich. Regular verbs such as heißen and kommen take -e with ich, -st with du and -t with er/sie: ich komme, du kommst, er kommt. After ß, heißen takes only -t: ich heiße, du heißt, er heißt.",
+        "id": "Kata kerja sein (menjadi) berubah: ich bin, du bist, er/sie ist, wir sind, ihr seid, sie/Sie sind. Pada kalimat pernyataan biasa, kata kerja yang sudah dikonjugasi berada di posisi kedua: Ich komme aus Ägypten dan Aus Ägypten komme ich. Kata kerja beraturan seperti heißen dan kommen memakai -e untuk ich, -st untuk du, dan -t untuk er/sie: ich komme, du kommst, er kommt. Setelah ß, heißen hanya memakai -t: ich heiße, du heißt, er heißt."
+      }
+    },
+    "items": [
+      {
+        "id": "de03n1",
+        "target": "Ich heiße Mona.",
+        "translit": "iç HYE-seh MOH-nah",
+        "tr": {
+          "ar": "اسمي منى.",
+          "en": "My name is Mona.",
+          "id": "Nama saya Mona."
+        },
+        "example": {
+          "target": "Ich heiße Tom Berger.",
+          "translit": "iç HYE-seh tom BER-ger",
+          "tr": {
+            "ar": "اسمي توم برغر.",
+            "en": "My name is Tom Berger.",
+            "id": "Nama saya Tom Berger."
+          }
+        },
+        "hint": {
+          "ar": "حرفيًا «أُسمّى منى». وß تُنطق «س». يمكنك أيضًا أن تقول «Mein Name ist Mona».",
+          "en": "Literally I am called Mona. ß is said s. You can also say Mein Name ist Mona.",
+          "id": "Secara harfiah \"Saya disebut Mona\". ß dibaca s. Bisa juga dikatakan Mein Name ist Mona."
+        }
+      },
+      {
+        "id": "de03n2",
+        "target": "Wie heißt du?",
+        "translit": "vee hyeest doo",
+        "tr": {
+          "ar": "ما اسمك؟",
+          "en": "What is your name?",
+          "id": "Siapa namamu?"
+        },
+        "example": {
+          "target": "Hallo! Wie heißt du?",
+          "translit": "HAL-loh vee hyeest doo",
+          "tr": {
+            "ar": "مرحبًا! ما اسمك؟",
+            "en": "Hello! What is your name?",
+            "id": "Halo! Siapa namamu?"
+          }
+        },
+        "hint": {
+          "ar": "للأصدقاء والشباب (du). وفي الموقف الرسمي تقول: «Wie heißen Sie?».",
+          "en": "For friends and young people (du). In formal situations say Wie heißen Sie?",
+          "id": "Untuk teman dan anak muda (du). Dalam situasi formal katakan Wie heißen Sie?"
+        }
+      },
+      {
+        "id": "de03n3",
+        "target": "Ich komme aus Indonesien.",
+        "translit": "iç KOM-meh ows in-doh-NEE-zee-en",
+        "tr": {
+          "ar": "أنا من إندونيسيا.",
+          "en": "I come from Indonesia.",
+          "id": "Saya berasal dari Indonesia."
+        },
+        "example": {
+          "target": "Ich komme aus Ägypten.",
+          "translit": "iç KOM-meh ows eh-GEWP-ten",
+          "tr": {
+            "ar": "أنا من مصر.",
+            "en": "I come from Egypt.",
+            "id": "Saya berasal dari Mesir."
+          }
+        },
+        "hint": {
+          "ar": "بعد aus يأتي اسم البلد بلا أداة تعريف. وللمدينة: «Ich komme aus Kairo».",
+          "en": "After aus the country name comes without an article. For a city: Ich komme aus Kairo.",
+          "id": "Setelah aus nama negara dipakai tanpa kata sandang. Untuk kota: Ich komme aus Kairo."
+        }
+      },
+      {
+        "id": "de03n4",
+        "target": "Woher kommst du?",
+        "translit": "voh-HEHR komst doo",
+        "tr": {
+          "ar": "من أين أنت؟",
+          "en": "Where are you from?",
+          "id": "Kamu berasal dari mana?"
+        },
+        "example": {
+          "target": "Woher kommen Sie?",
+          "translit": "voh-HEHR KOM-men zee",
+          "tr": {
+            "ar": "من أين حضرتك؟",
+            "en": "Where are you from? (formal)",
+            "id": "Anda berasal dari mana? (formal)"
+          }
+        },
+        "hint": {
+          "ar": "du kommst للودّي وSie kommen للرسمي. وكلمة woher تعني «من أين».",
+          "en": "Du kommst is friendly and Sie kommen is formal. Woher means from where.",
+          "id": "Du kommst untuk akrab dan Sie kommen untuk formal. Woher berarti dari mana."
+        }
+      },
+      {
+        "id": "de03n5",
+        "target": "Ich bin Student.",
+        "translit": "iç bin shtoo-DENT",
+        "tr": {
+          "ar": "أنا طالب.",
+          "en": "I am a student.",
+          "id": "Saya mahasiswa."
+        },
+        "example": {
+          "target": "Er ist Lehrer.",
+          "translit": "air ist LEH-rer",
+          "tr": {
+            "ar": "هو معلم.",
+            "en": "He is a teacher.",
+            "id": "Dia seorang guru."
+          }
+        },
+        "hint": {
+          "ar": "عند ذكر المهنة لا نضع أداة تعريف. وللأنثى نضيف -in: تقول المرأة «Ich bin Studentin»، والمعلمة Lehrerin.",
+          "en": "With jobs there is no article. For a woman add -in: a woman says Ich bin Studentin, and a female teacher is a Lehrerin.",
+          "id": "Pada pekerjaan tidak dipakai kata sandang. Untuk perempuan tambahkan -in: perempuan berkata Ich bin Studentin, dan guru perempuan adalah Lehrerin."
+        }
+      },
+      {
+        "id": "de03n6",
+        "target": "Freut mich.",
+        "translit": "froyt miç",
+        "tr": {
+          "ar": "تشرفت بمعرفتك.",
+          "en": "Nice to meet you.",
+          "id": "Senang bertemu denganmu."
+        },
+        "example": {
+          "target": "Freut mich, Frau Weber.",
+          "translit": "froyt miç frow VEH-ber",
+          "tr": {
+            "ar": "تشرفت بمعرفتك يا سيدة فيبر.",
+            "en": "Nice to meet you, Mrs Weber.",
+            "id": "Senang bertemu dengan Anda, Bu Weber."
+          }
+        },
+        "hint": {
+          "ar": "تُقال بعد سماع الاسم، وتناسب du وSie. وeu تُنطق «oy» وch بعد i تُنطق «ç».",
+          "en": "Said after hearing the name, for du and Sie. eu sounds like oy and ch after i is the soft ç.",
+          "id": "Diucapkan setelah mendengar nama, untuk du dan Sie. eu dibaca oy dan ch setelah i adalah ç lembut."
+        }
+      }
+    ],
+    "cloze": [
+      {
+        "sentence": "Ich ___ aus Ägypten.",
+        "answer": "komme",
+        "wrong": [
+          "heiße",
+          "kommst"
+        ],
+        "tr": {
+          "ar": "أنا من مصر.",
+          "en": "I come from Egypt.",
+          "id": "Saya berasal dari Mesir."
+        },
+        "why": {
+          "ar": "مع ich نستخدم komme. كلمة heiße تعني الاسم، وkommst للضمير du.",
+          "en": "With ich you use komme. Heiße is about a name and kommst belongs to du.",
+          "id": "Dengan ich dipakai komme. Heiße berkaitan dengan nama dan kommst untuk du."
+        }
+      },
+      {
+        "sentence": "Wie ___ du?",
+        "answer": "heißt",
+        "wrong": [
+          "heiße",
+          "heißen"
+        ],
+        "tr": {
+          "ar": "ما اسمك؟",
+          "en": "What is your name?",
+          "id": "Siapa namamu?"
+        },
+        "why": {
+          "ar": "مع du نضيف -t: du heißt. أما heiße فلـ ich وheißen للجمع.",
+          "en": "With du you add -t: du heißt. Heiße goes with ich and heißen with plural subjects.",
+          "id": "Dengan du ditambah -t: du heißt. Heiße untuk ich dan heißen untuk subjek jamak."
+        }
+      }
+    ],
+    "conversation": {
+      "context": {
+        "ar": "تتعرف على شخص جديد في حفلة.",
+        "en": "You meet someone new at a party.",
+        "id": "Kamu berkenalan dengan orang baru di sebuah pesta."
+      },
+      "turns": [
+        {
+          "who": "A",
+          "target": "Hallo! Wie heißt du?",
+          "tr": {
+            "ar": "مرحبًا! ما اسمك؟",
+            "en": "Hello! What is your name?",
+            "id": "Halo! Siapa namamu?"
+          }
+        },
+        {
+          "who": "B",
+          "target": "Ich heiße Mona. Und du?",
+          "tr": {
+            "ar": "اسمي منى. وأنت؟",
+            "en": "My name is Mona. And you?",
+            "id": "Nama saya Mona. Kamu?"
+          }
+        },
+        {
+          "who": "A",
+          "target": "Ich bin Tom. Freut mich!",
+          "tr": {
+            "ar": "أنا توم. تشرفت!",
+            "en": "I am Tom. Nice to meet you!",
+            "id": "Saya Tom. Senang bertemu!"
+          }
+        }
+      ],
+      "gap": 1,
+      "wrong": [
+        "Ich komme aus Berlin.",
+        "Gute Nacht."
+      ],
+      "why": {
+        "ar": "سُئلنا عن الاسم فنجيب باسمنا ثم نسأل بدورنا. الردّان الآخران لا يجيبان عن السؤال.",
+        "en": "You were asked your name, so you give your name and ask back. The other two replies do not answer the question.",
+        "id": "Kita ditanya nama, jadi menjawab dengan nama lalu bertanya balik. Dua balasan lain tidak menjawab pertanyaan."
+      }
+    },
+    "summary": {
+      "ar": "تعلّمت أن تقول اسمك وبلدك ومهنتك وأن تسأل «Wie heißt du?» و«Woher kommst du?». والفعل دائمًا في المرتبة الثانية.",
+      "en": "You learned to say your name, country and job and to ask Wie heißt du? and Woher kommst du? The verb always stays in second place.",
+      "id": "Kamu belajar menyebut nama, negara, dan pekerjaan serta bertanya Wie heißt du? dan Woher kommst du? Kata kerja selalu di posisi kedua."
+    }
+  },
+  {
+    "id": "de-04",
+    "track": "de",
+    "level": "beginner",
+    "order": 4,
+    "topic": "numbers-age",
+    "icon": "🔢",
+    "title": {
+      "ar": "الأرقام من 1 إلى 10 والعمر",
+      "en": "Numbers 1 to 10 and Age",
+      "id": "Angka 1 sampai 10 dan Usia"
+    },
+    "description": {
+      "ar": "عُدّ حتى عشرة وقل عمرك ورقم هاتفك.",
+      "en": "Count to ten and say your age and phone number.",
+      "id": "Berhitung sampai sepuluh dan sebutkan usia serta nomor teleponmu."
+    },
+    "objectives": [
+      {
+        "ar": "أستطيع العدّ من eins إلى zehn.",
+        "en": "I can count from eins to zehn.",
+        "id": "Saya bisa berhitung dari eins sampai zehn."
+      },
+      {
+        "ar": "أستطيع أن أقول عمري.",
+        "en": "I can say my age.",
+        "id": "Saya bisa menyebutkan usia saya."
+      },
+      {
+        "ar": "أستطيع أن أسأل «Wie alt bist du?».",
+        "en": "I can ask Wie alt bist du?",
+        "id": "Saya bisa bertanya Wie alt bist du?"
+      }
+    ],
+    "intro": {
+      "ar": "الأرقام ضرورية للعمر ورقم الهاتف والأسعار. في هذا الدرس تتعلم الأرقام من واحد إلى عشرة وتستخدمها في جمل عن العمر.",
+      "en": "Numbers are needed for age, phone numbers and prices. In this lesson you learn the numbers from one to ten and use them in sentences about age.",
+      "id": "Angka diperlukan untuk usia, nomor telepon, dan harga. Di pelajaran ini kamu belajar angka satu sampai sepuluh dan memakainya dalam kalimat tentang usia."
+    },
+    "culture": {
+      "ar": "عند قول رقم الهاتف يقرؤه الألمان رقمًا رقمًا أو رقمين رقمين. ويُقال الصفر «null». وفي الحديث عن العمر يقول الناس «Ich bin 25», ولا يُعدّ سؤال العمر وقحًا بين الشباب لكن لا يُسأل به كبار السن عادةً.",
+      "en": "When Germans give a phone number they read it digit by digit or in pairs, and zero is null. People say Ich bin 25 about their age. Asking age is fine between young people, but it is usually not asked of older people.",
+      "id": "Saat menyebut nomor telepon, orang Jerman membacanya angka demi angka atau dua-dua, dan nol disebut null. Usia disebut dengan Ich bin 25. Menanyakan usia wajar di antara anak muda, tetapi biasanya tidak ditanyakan pada orang yang lebih tua."
+    },
+    "grammar": {
+      "title": {
+        "ar": "العمر بالألمانية",
+        "en": "Saying your age",
+        "id": "Menyatakan usia"
+      },
+      "body": {
+        "ar": "نقول عن العمر: «Ich bin ... Jahre alt» حرفيًا «أنا ... سنوات قديم». كلمة Jahre جمع Jahr ولا تتغير بعد الرقم. ونسأل: «Wie alt bist du?» وللرسمي «Wie alt sind Sie?». الأرقام: 1 eins، 2 zwei، 3 drei، 4 vier، 5 fünf، 6 sechs، 7 sieben، 8 acht، 9 neun، 10 zehn. واحذر: في fünf صوت ü، وفي sechs تُنطق chs «ks».",
+        "en": "To give your age you say Ich bin ... Jahre alt, literally I am ... years old. Jahre is the plural of Jahr and stays the same after any number. You ask Wie alt bist du? or, formally, Wie alt sind Sie? The numbers: 1 eins, 2 zwei, 3 drei, 4 vier, 5 fünf, 6 sechs, 7 sieben, 8 acht, 9 neun, 10 zehn. Careful: sechs is said zeks (chs = ks) and fünf has the ü sound.",
+        "id": "Untuk menyebut usia dikatakan Ich bin ... Jahre alt, secara harfiah \"Saya ... tahun tua\". Jahre adalah bentuk jamak dari Jahr dan tidak berubah setelah angka apa pun. Kita bertanya Wie alt bist du? atau, secara formal, Wie alt sind Sie? Angkanya: 1 eins, 2 zwei, 3 drei, 4 vier, 5 fünf, 6 sechs, 7 sieben, 8 acht, 9 neun, 10 zehn. Hati-hati: sechs dibaca zeks dan fünf memakai bunyi ü."
+      }
+    },
+    "items": [
+      {
+        "id": "de04n1",
+        "target": "eins, zwei, drei",
+        "translit": "eyns, tsvy, dry",
+        "tr": {
+          "ar": "واحد، اثنان، ثلاثة",
+          "en": "one, two, three",
+          "id": "satu, dua, tiga"
+        },
+        "example": {
+          "target": "Eins, zwei, drei, los!",
+          "translit": "eyns tsvy dry lohs",
+          "tr": {
+            "ar": "واحد، اثنان، ثلاثة، هيّا!",
+            "en": "One, two, three, go!",
+            "id": "Satu, dua, tiga, mulai!"
+          }
+        },
+        "hint": {
+          "ar": "eins تُنطق «آينس». وzw في بداية zwei تُنطق «تسڤ»: «tsvy».",
+          "en": "Eins sounds like eyns. In zwei the zw is tsv, so tsvy.",
+          "id": "Eins dibaca ains. Pada zwei, zw dibaca tsv sehingga tsvy."
+        }
+      },
+      {
+        "id": "de04n2",
+        "target": "vier, fünf, sechs",
+        "translit": "feer, fewnf, zeks",
+        "tr": {
+          "ar": "أربعة، خمسة، ستة",
+          "en": "four, five, six",
+          "id": "empat, lima, enam"
+        },
+        "example": {
+          "target": "Ich habe fünf Euro.",
+          "translit": "iç HAH-beh fewnf OY-roh",
+          "tr": {
+            "ar": "معي خمسة يورو.",
+            "en": "I have five euros.",
+            "id": "Saya punya lima euro."
+          }
+        },
+        "hint": {
+          "ar": "v تُنطق «f» في vier، وs في بداية sechs تُنطق «z» مجهورة، وchs تُنطق «ks» هنا.",
+          "en": "The v in vier is f. In sechs the s at the start is z and chs is said ks.",
+          "id": "Huruf v pada vier dibaca f. Pada sechs, s di awal dibaca z dan chs dibaca ks."
+        }
+      },
+      {
+        "id": "de04n3",
+        "target": "sieben, acht, neun, zehn",
+        "translit": "ZEE-ben, akht, noyn, tsehn",
+        "tr": {
+          "ar": "سبعة، ثمانية، تسعة، عشرة",
+          "en": "seven, eight, nine, ten",
+          "id": "tujuh, delapan, sembilan, sepuluh"
+        },
+        "example": {
+          "target": "Es ist acht Uhr.",
+          "translit": "ess ist akht oor",
+          "tr": {
+            "ar": "الساعة الثامنة.",
+            "en": "It is eight o'clock.",
+            "id": "Sekarang pukul delapan."
+          }
+        },
+        "hint": {
+          "ar": "ie تُنطق «ي» طويلة: sieben = «زيبن». وch في acht تُنطق «kh» لأنها بعد a. وeu في neun تُنطق «oy».",
+          "en": "ie is a long ee: sieben = ZEE-ben. The ch in acht is kh because it follows a. The eu in neun is oy.",
+          "id": "ie dibaca i panjang: sieben = ZEE-ben. Huruf ch pada acht dibaca kh karena setelah a. Huruf eu pada neun dibaca oy."
+        }
+      },
+      {
+        "id": "de04n4",
+        "target": "Wie alt bist du?",
+        "translit": "vee alt bist doo",
+        "tr": {
+          "ar": "كم عمرك؟",
+          "en": "How old are you?",
+          "id": "Berapa usiamu?"
+        },
+        "example": {
+          "target": "Wie alt sind Sie?",
+          "translit": "vee alt zint zee",
+          "tr": {
+            "ar": "كم عمر حضرتك؟",
+            "en": "How old are you? (formal)",
+            "id": "Berapa usia Anda? (formal)"
+          }
+        },
+        "hint": {
+          "ar": "للأصدقاء: bist du. وللرسمي: sind Sie. وكلاهما فعل sein.",
+          "en": "For friends: bist du. For formal: sind Sie. Both are the verb sein.",
+          "id": "Untuk teman: bist du. Untuk formal: sind Sie. Keduanya adalah kata kerja sein."
+        }
+      },
+      {
+        "id": "de04n5",
+        "target": "Ich bin zwanzig Jahre alt.",
+        "translit": "iç bin TSVAN-tsiç YAH-reh alt",
+        "tr": {
+          "ar": "عمري عشرون سنة.",
+          "en": "I am twenty years old.",
+          "id": "Usia saya dua puluh tahun."
+        },
+        "example": {
+          "target": "Ich bin sieben Jahre alt.",
+          "translit": "iç bin ZEE-ben YAH-reh alt",
+          "tr": {
+            "ar": "عمري سبع سنوات.",
+            "en": "I am seven years old.",
+            "id": "Usia saya tujuh tahun."
+          }
+        },
+        "hint": {
+          "ar": "zwanzig تعني 20 وهي كلمة جديدة، وستتعلم باقي العشرات لاحقًا. وj في Jahre تُنطق «y».",
+          "en": "Zwanzig means 20 and is a new word; you will learn the other tens later. The j in Jahre is said y.",
+          "id": "Zwanzig berarti 20 dan merupakan kata baru; puluhan lainnya dipelajari nanti. Huruf j pada Jahre dibaca y."
+        }
+      },
+      {
+        "id": "de04n6",
+        "target": "Wie ist deine Nummer?",
+        "translit": "vee ist DY-neh NUM-mer",
+        "tr": {
+          "ar": "ما رقمك؟",
+          "en": "What is your number?",
+          "id": "Berapa nomormu?"
+        },
+        "example": {
+          "target": "Meine Nummer ist null acht neun.",
+          "translit": "MY-neh NUM-mer ist nul akht noyn",
+          "tr": {
+            "ar": "رقمي صفر ثمانية تسعة.",
+            "en": "My number is zero eight nine.",
+            "id": "Nomor saya nol delapan sembilan."
+          }
+        },
+        "hint": {
+          "ar": "Nummer مؤنثة لذلك نقول deine وmeine. والصفر «null».",
+          "en": "Nummer is feminine, so it is deine and meine. Zero is null.",
+          "id": "Nummer berjenis feminin sehingga deine dan meine. Nol adalah null."
+        }
+      }
+    ],
+    "cloze": [
+      {
+        "sentence": "Eins, zwei, ___, vier.",
+        "answer": "drei",
+        "wrong": [
+          "fünf",
+          "sieben"
+        ],
+        "tr": {
+          "ar": "واحد، اثنان، ثلاثة، أربعة.",
+          "en": "One, two, three, four.",
+          "id": "Satu, dua, tiga, empat."
+        },
+        "why": {
+          "ar": "بعد اثنين يأتي ثلاثة ثم أربعة، فالرقم الناقص drei.",
+          "en": "After two comes three, then four, so the missing number is drei.",
+          "id": "Setelah dua datang tiga lalu empat, jadi angka yang hilang adalah drei."
+        }
+      },
+      {
+        "sentence": "Wie ___ bist du?",
+        "answer": "alt",
+        "wrong": [
+          "heißt",
+          "kommst"
+        ],
+        "tr": {
+          "ar": "كم عمرك؟",
+          "en": "How old are you?",
+          "id": "Berapa usiamu?"
+        },
+        "why": {
+          "ar": "السؤال عن العمر هو «Wie alt bist du?». heißt وkommst لا يناسبان bist.",
+          "en": "The age question is Wie alt bist du? Heißt and kommst do not go with bist.",
+          "id": "Pertanyaan usia adalah Wie alt bist du? Heißt dan kommst tidak cocok dengan bist."
+        }
+      }
+    ],
+    "conversation": {
+      "context": {
+        "ar": "شابان يتعارفان في الجامعة.",
+        "en": "Two young people get to know each other at university.",
+        "id": "Dua anak muda berkenalan di kampus."
+      },
+      "turns": [
+        {
+          "who": "A",
+          "target": "Hallo, ich bin Tom. Wie alt bist du?",
+          "tr": {
+            "ar": "مرحبًا، أنا توم. كم عمرك؟",
+            "en": "Hello, I am Tom. How old are you?",
+            "id": "Halo, saya Tom. Berapa usiamu?"
+          }
+        },
+        {
+          "who": "B",
+          "target": "Ich bin zwanzig Jahre alt.",
+          "tr": {
+            "ar": "عمري عشرون سنة.",
+            "en": "I am twenty years old.",
+            "id": "Usia saya dua puluh tahun."
+          }
+        },
+        {
+          "who": "A",
+          "target": "Super! Ich auch.",
+          "tr": {
+            "ar": "رائع! وأنا أيضًا.",
+            "en": "Great! Me too.",
+            "id": "Bagus! Saya juga."
+          }
+        }
+      ],
+      "gap": 1,
+      "wrong": [
+        "Ich heiße Mona.",
+        "Es ist acht Uhr."
+      ],
+      "why": {
+        "ar": "سُئلنا عن العمر فنجيب بالعمر. الاسم والساعة لا يجيبان عن السؤال.",
+        "en": "You were asked your age, so you answer with your age. A name or the time does not answer the question.",
+        "id": "Kita ditanya usia, jadi menjawab dengan usia. Nama atau jam tidak menjawab pertanyaan."
+      }
+    },
+    "summary": {
+      "ar": "تعلّمت الأرقام من 1 إلى 10 وكيف تقول عمرك. تذكّر أن sechs تُنطق «زكس».",
+      "en": "You learned the numbers 1 to 10 and how to say your age. Remember that sechs is said zeks.",
+      "id": "Kamu mempelajari angka 1 sampai 10 dan cara menyebut usia. Ingat, sechs dibaca zeks."
+    }
+  },
+  {
+    "id": "de-05",
+    "track": "de",
+    "level": "beginner",
+    "order": 5,
+    "topic": "family-possession",
+    "icon": "👨‍👩‍👧",
+    "title": {
+      "ar": "العائلة والملكية",
+      "en": "Family and Possession",
+      "id": "Keluarga dan Kepemilikan"
+    },
+    "description": {
+      "ar": "تحدّث عن أفراد عائلتك واستخدم haben وmein وmeine.",
+      "en": "Talk about your family and use haben, mein and meine.",
+      "id": "Bicara tentang keluarga dan pakai haben, mein, dan meine."
+    },
+    "objectives": [
+      {
+        "ar": "أستطيع أن أسمّي أفراد العائلة.",
+        "en": "I can name family members.",
+        "id": "Saya bisa menyebut anggota keluarga."
+      },
+      {
+        "ar": "أستطيع أن أقول «Ich habe ...» عن الأخوة والأبناء.",
+        "en": "I can say Ich habe ... about siblings and children.",
+        "id": "Saya bisa mengatakan Ich habe ... tentang saudara dan anak."
+      },
+      {
+        "ar": "أعرف الفرق بين der وdie وdas وبين mein وmeine.",
+        "en": "I know the difference between der, die and das and between mein and meine.",
+        "id": "Saya tahu perbedaan der, die, dan das serta mein dan meine."
+      }
+    ],
+    "intro": {
+      "ar": "العائلة موضوع محبب في أي حديث. في هذا الدرس تتعلم كلمات العائلة وفعل haben (يملك) وكلمتي mein وmeine. وتتعرف على الأجناس الثلاثة للأسماء الألمانية.",
+      "en": "Family is a favourite topic in any conversation. In this lesson you learn family words, the verb haben (to have), and mein and meine. You also meet the three genders of German nouns.",
+      "id": "Keluarga adalah topik favorit dalam percakapan. Di pelajaran ini kamu belajar kata-kata keluarga, kata kerja haben (memiliki), serta mein dan meine. Kamu juga mengenal tiga jenis kata benda Jerman."
+    },
+    "culture": {
+      "ar": "الأسرة في ألمانيا صغيرة عادةً، وكثيرون يعيشون بعيدًا عن أهلهم. لذلك السؤال «Hast du Geschwister?» عادي جدًا، وقد يسألك أحدهم عن عائلتك دون قصد التدخل.",
+      "en": "Families in Germany are usually small, and many people live far from their parents. So the question Hast du Geschwister? is very ordinary, and people may ask about your family just to be friendly.",
+      "id": "Keluarga di Jerman biasanya kecil, dan banyak orang tinggal jauh dari orang tua. Karena itu pertanyaan Hast du Geschwister? sangat biasa, dan orang bisa menanyakan keluargamu hanya untuk ramah."
+    },
+    "grammar": {
+      "title": {
+        "ar": "haben والأجناس الثلاثة",
+        "en": "haben and the three genders",
+        "id": "haben dan tiga jenis kata benda"
+      },
+      "body": {
+        "ar": "فعل haben: ich habe وdu hast وer/sie hat وwir haben وihr habt وsie/Sie haben. لكل اسم جنس: مذكّر der ومؤنث die ومحايد das، ويجب تعلّم الجنس مع كل كلمة: der Bruder وdie Schwester وdas Kind. وتتبع كلمة الملكية الجنس: mein Vater وmeine Mutter وmein Kind وفي الجمع meine Eltern.",
+        "en": "The verb haben goes: ich habe, du hast, er/sie hat, wir haben, ihr habt, sie/Sie haben. Every noun has a gender: masculine der, feminine die or neuter das, and you must learn the gender with each word: der Bruder, die Schwester, das Kind. The possessive follows the gender: mein Vater, meine Mutter, mein Kind, and in the plural meine Eltern.",
+        "id": "Kata kerja haben: ich habe, du hast, er/sie hat, wir haben, ihr habt, sie/Sie haben. Setiap kata benda punya jenis: maskulin der, feminin die, atau netral das, dan jenisnya harus dihafal bersama kata: der Bruder, die Schwester, das Kind. Kata kepemilikan mengikuti jenis: mein Vater, meine Mutter, mein Kind, dan jamaknya meine Eltern."
+      }
+    },
+    "items": [
+      {
+        "id": "de05n1",
+        "target": "Ich habe eine Schwester.",
+        "translit": "iç HAH-beh EYE-neh SHVES-ter",
+        "tr": {
+          "ar": "عندي أخت.",
+          "en": "I have a sister.",
+          "id": "Saya punya seorang saudara perempuan."
+        },
+        "example": {
+          "target": "Sie hat eine Schwester.",
+          "translit": "zee hat EYE-neh SHVES-ter",
+          "tr": {
+            "ar": "عندها أخت.",
+            "en": "She has a sister.",
+            "id": "Dia punya saudara perempuan."
+          }
+        },
+        "hint": {
+          "ar": "Schwester مؤنثة لذلك نقول eine. وsch تُنطق «ش» وsp وst في البداية تُنطقان «شب» و«شت».",
+          "en": "Schwester is feminine, so it is eine. Sch is sh, and sp and st at the start are shp and sht.",
+          "id": "Schwester berjenis feminin sehingga eine. Sch dibaca sy, dan sp serta st di awal dibaca shp dan sht."
+        }
+      },
+      {
+        "id": "de05n2",
+        "target": "Hast du Geschwister?",
+        "translit": "hast doo geh-SHVIS-ter",
+        "tr": {
+          "ar": "هل عندك إخوة وأخوات؟",
+          "en": "Do you have brothers or sisters?",
+          "id": "Apakah kamu punya saudara?"
+        },
+        "example": {
+          "target": "Haben Sie Kinder?",
+          "translit": "HAH-ben zee KIN-der",
+          "tr": {
+            "ar": "هل عندكم أطفال؟",
+            "en": "Do you have children?",
+            "id": "Apakah Anda punya anak?"
+          }
+        },
+        "hint": {
+          "ar": "كلمة Geschwister تشمل الإخوة والأخوات معًا ولا مفرد لها عمليًا. وللرسمي: Haben Sie ...?",
+          "en": "Geschwister covers brothers and sisters together and has no practical singular. Formal: Haben Sie ...?",
+          "id": "Geschwister mencakup saudara laki-laki dan perempuan sekaligus. Bentuk formal: Haben Sie ...?"
+        }
+      },
+      {
+        "id": "de05n3",
+        "target": "Das ist mein Vater.",
+        "translit": "dass ist mine FAH-ter",
+        "tr": {
+          "ar": "هذا أبي.",
+          "en": "This is my father.",
+          "id": "Ini ayah saya."
+        },
+        "example": {
+          "target": "Mein Bruder heißt Omar.",
+          "translit": "mine BROO-der hyeest OH-mar",
+          "tr": {
+            "ar": "اسم أخي عمر.",
+            "en": "My brother is called Omar.",
+            "id": "Nama kakak/adik laki-laki saya Omar."
+          }
+        },
+        "hint": {
+          "ar": "Vater وBruder مذكّران لذلك نقول mein. وv في Vater تُنطق «f».",
+          "en": "Vater and Bruder are masculine, so it is mein. The v in Vater is f.",
+          "id": "Vater dan Bruder maskulin sehingga mein. Huruf v pada Vater dibaca f."
+        }
+      },
+      {
+        "id": "de05n4",
+        "target": "Das ist meine Mutter.",
+        "translit": "dass ist MY-neh MUT-ter",
+        "tr": {
+          "ar": "هذه أمي.",
+          "en": "This is my mother.",
+          "id": "Ini ibu saya."
+        },
+        "example": {
+          "target": "Meine Schwester ist Ärztin.",
+          "translit": "MY-neh SHVES-ter ist EHRTS-tin",
+          "tr": {
+            "ar": "أختي طبيبة.",
+            "en": "My sister is a doctor.",
+            "id": "Saudara perempuan saya seorang dokter."
+          }
+        },
+        "hint": {
+          "ar": "Mutter وSchwester مؤنثتان لذلك نقول meine (وليس mein). والـ -in للأنثى في Ärztin.",
+          "en": "Mutter and Schwester are feminine, so it is meine, not mein. The -in marks a woman in Ärztin.",
+          "id": "Mutter dan Schwester feminin sehingga meine, bukan mein. Akhiran -in menandai perempuan pada Ärztin."
+        }
+      },
+      {
+        "id": "de05n5",
+        "target": "das Kind",
+        "translit": "dass kint",
+        "tr": {
+          "ar": "الطفل",
+          "en": "the child",
+          "id": "anak"
+        },
+        "example": {
+          "target": "Mein Kind ist drei Jahre alt.",
+          "translit": "mine kint ist dry YAH-reh alt",
+          "tr": {
+            "ar": "عمر طفلي ثلاث سنوات.",
+            "en": "My child is three years old.",
+            "id": "Anak saya berusia tiga tahun."
+          }
+        },
+        "hint": {
+          "ar": "Kind محايدة (das)، لذلك نقول mein Kind. والجمع Kinder: Ich habe zwei Kinder.",
+          "en": "Kind is neuter (das), so it is mein Kind. The plural is Kinder: Ich habe zwei Kinder.",
+          "id": "Kind netral (das) sehingga mein Kind. Jamaknya Kinder: Ich habe zwei Kinder."
+        }
+      },
+      {
+        "id": "de05n6",
+        "target": "Meine Eltern wohnen in Kairo.",
+        "translit": "MY-neh EL-tern VOH-nen in KY-roh",
+        "tr": {
+          "ar": "والداي يسكنان في القاهرة.",
+          "en": "My parents live in Cairo.",
+          "id": "Orang tua saya tinggal di Kairo."
+        },
+        "example": {
+          "target": "Meine Eltern sind nett.",
+          "translit": "MY-neh EL-tern zint net",
+          "tr": {
+            "ar": "والداي لطيفان.",
+            "en": "My parents are nice.",
+            "id": "Orang tua saya baik."
+          }
+        },
+        "hint": {
+          "ar": "Eltern جمع فقط (الوالدان)، وفي الجمع نقول meine. وw تُنطق «v».",
+          "en": "Eltern is plural only (parents), and in the plural it is meine. The w is v.",
+          "id": "Eltern hanya jamak (orang tua), dan untuk jamak dipakai meine. Huruf w dibaca v."
+        }
+      }
+    ],
+    "cloze": [
+      {
+        "sentence": "Das ist ___ Mutter.",
+        "answer": "meine",
+        "wrong": [
+          "mein",
+          "meinen"
+        ],
+        "tr": {
+          "ar": "هذه أمي.",
+          "en": "This is my mother.",
+          "id": "Ini ibu saya."
+        },
+        "why": {
+          "ar": "Mutter مؤنثة، لذلك meine. أما mein فمع الأسماء المذكرة والمحايدة.",
+          "en": "Mutter is feminine, so meine. Mein goes with masculine and neuter nouns.",
+          "id": "Mutter feminin, jadi meine. Mein dipakai dengan kata benda maskulin dan netral."
+        }
+      },
+      {
+        "sentence": "Ich ___ eine Schwester.",
+        "answer": "habe",
+        "wrong": [
+          "bin",
+          "hat"
+        ],
+        "tr": {
+          "ar": "عندي أخت.",
+          "en": "I have a sister.",
+          "id": "Saya punya seorang saudara perempuan."
+        },
+        "why": {
+          "ar": "مع ich نقول habe للتملك. bin تعني «أكون» وhat مع er أو sie.",
+          "en": "With ich you say habe for having. Bin means am, and hat goes with er or sie.",
+          "id": "Dengan ich dipakai habe untuk memiliki. Bin berarti adalah, dan hat dipakai dengan er atau sie."
+        }
+      }
+    ],
+    "conversation": {
+      "context": {
+        "ar": "زميلان في العمل يتحدثان عن عائلتيهما.",
+        "en": "Two colleagues talk about their families.",
+        "id": "Dua rekan kerja membicarakan keluarga mereka."
+      },
+      "turns": [
+        {
+          "who": "A",
+          "target": "Hast du Geschwister?",
+          "tr": {
+            "ar": "هل عندك إخوة؟",
+            "en": "Do you have siblings?",
+            "id": "Apakah kamu punya saudara?"
+          }
+        },
+        {
+          "who": "B",
+          "target": "Ja, ich habe eine Schwester.",
+          "tr": {
+            "ar": "نعم، عندي أخت.",
+            "en": "Yes, I have a sister.",
+            "id": "Ya, saya punya saudara perempuan."
+          }
+        },
+        {
+          "who": "A",
+          "target": "Wie heißt sie?",
+          "tr": {
+            "ar": "ما اسمها؟",
+            "en": "What is her name?",
+            "id": "Siapa namanya?"
+          }
+        }
+      ],
+      "gap": 1,
+      "wrong": [
+        "Ich bin zwanzig Jahre alt.",
+        "Das ist mein Vater."
+      ],
+      "why": {
+        "ar": "سُئلنا إن كان عندنا إخوة، فنجيب بـ «نعم، عندي ...». العمر والتعريف بالأب لا يجيبان عن السؤال.",
+        "en": "You were asked whether you have siblings, so you answer Yes, I have ... An age or an introduction of your father does not answer it.",
+        "id": "Kita ditanya apakah punya saudara, jadi menjawab Ya, saya punya ... Usia atau memperkenalkan ayah tidak menjawab pertanyaan."
+      }
+    },
+    "summary": {
+      "ar": "تعلّمت كلمات العائلة وفعل haben وكيف يتغير mein إلى meine حسب الجنس. تعلّم كل اسم مع أداة التعريف الخاصة به.",
+      "en": "You learned family words, the verb haben, and how mein changes to meine with gender. Learn each noun together with its article.",
+      "id": "Kamu mempelajari kata keluarga, kata kerja haben, dan bagaimana mein berubah menjadi meine menurut jenis. Hafalkan setiap kata benda bersama kata sandangnya."
+    }
+  },
+  {
+    "id": "de-06",
+    "track": "de",
+    "level": "beginner",
+    "order": 6,
+    "topic": "food-cafe-ordering",
+    "icon": "☕",
+    "title": {
+      "ar": "الطعام والمقهى والطلب",
+      "en": "Food, Café and Ordering",
+      "id": "Makanan, Kafe, dan Memesan"
+    },
+    "description": {
+      "ar": "اطلب مشروبًا أو طعامًا بأدب في مقهى.",
+      "en": "Politely order a drink or food in a café.",
+      "id": "Pesan minuman atau makanan dengan sopan di kafe."
+    },
+    "objectives": [
+      {
+        "ar": "أستطيع أن أطلب قهوة أو ماء بأدب.",
+        "en": "I can politely order a coffee or water.",
+        "id": "Saya bisa memesan kopi atau air dengan sopan."
+      },
+      {
+        "ar": "أستطيع أن أستخدم «Ich möchte» و«Ich hätte gern».",
+        "en": "I can use Ich möchte and Ich hätte gern.",
+        "id": "Saya bisa memakai Ich möchte dan Ich hätte gern."
+      },
+      {
+        "ar": "أستطيع أن أطلب الحساب.",
+        "en": "I can ask for the bill.",
+        "id": "Saya bisa meminta bon."
+      }
+    ],
+    "intro": {
+      "ar": "في المقاهي الألمانية تجلس أولًا ثم يأتي النادل. في هذا الدرس تتعلم جملًا مهذبة للطلب. ستتعلم ein وeine وeinen: أداة النكرة التي تتغير حسب الجنس.",
+      "en": "In German cafés you sit down first and then the waiter comes. In this lesson you learn polite sentences for ordering. You also meet ein, eine and einen: the indefinite article that changes with gender.",
+      "id": "Di kafe Jerman kamu duduk dulu lalu pelayan datang. Di pelajaran ini kamu belajar kalimat sopan untuk memesan. Kamu juga mengenal ein, eine, dan einen: kata sandang tak tentu yang berubah menurut jenis."
+    },
+    "culture": {
+      "ar": "يجلس الزبائن عادةً ثم يطلبون من النادل، ويدفعون في النهاية على الطاولة قائلين «Zahlen, bitte» أو «Die Rechnung, bitte». ومن المعتاد ترك بقشيش صغير، وغالبًا بتقريب المبلغ إلى الأعلى.",
+      "en": "Customers usually sit down and order from the waiter, and pay at the end at the table by saying Zahlen, bitte or Die Rechnung, bitte. A small tip is common: people usually round the bill up.",
+      "id": "Pelanggan biasanya duduk dan memesan kepada pelayan, lalu membayar di meja dengan mengatakan Zahlen, bitte atau Die Rechnung, bitte. Tip kecil lazim: orang biasanya membulatkan tagihan ke atas."
+    },
+    "grammar": {
+      "title": {
+        "ar": "Ich möchte وein/eine",
+        "en": "Ich möchte and ein/eine",
+        "id": "Ich möchte dan ein/eine"
+      },
+      "body": {
+        "ar": "للطلب المهذب نقول «Ich möchte ...» أو «Ich hätte gern ...» (حرفيًا «أريد» و«أودّ»). بعدهما تأتي أداة النكرة: ein للمحايد (ein Wasser)، وeine للمؤنث (eine Suppe). أما للمذكّر فتصبح einen في هذا الموضع: «einen Kaffee, einen Tee». في الجملة تأتي الكلمة المطلوبة غالبًا في آخر الجملة.",
+        "en": "To order politely say Ich möchte ... or Ich hätte gern ... (I would like). After them comes the indefinite article: ein for neuter nouns (ein Wasser), eine for feminine (eine Suppe). For masculine nouns in this position it changes to einen: einen Kaffee, einen Tee. The thing you order usually sits at the end of the sentence.",
+        "id": "Untuk memesan dengan sopan katakan Ich möchte ... atau Ich hätte gern ... (saya ingin). Setelahnya datang kata sandang tak tentu: ein untuk netral (ein Wasser), eine untuk feminin (eine Suppe). Untuk kata benda maskulin di posisi ini berubah menjadi einen: einen Kaffee, einen Tee. Benda yang dipesan biasanya berada di akhir kalimat."
+      }
+    },
+    "items": [
+      {
+        "id": "de06n1",
+        "target": "Ich möchte einen Kaffee, bitte.",
+        "translit": "iç MURÇ-teh EYE-nen KAF-fay BIT-teh",
+        "tr": {
+          "ar": "أريد قهوة من فضلك.",
+          "en": "I would like a coffee, please.",
+          "id": "Saya ingin kopi, tolong."
+        },
+        "example": {
+          "target": "Ich möchte einen Tee, bitte.",
+          "translit": "iç MURÇ-teh EYE-nen tay BIT-teh",
+          "tr": {
+            "ar": "أريد شايًا من فضلك.",
+            "en": "I would like a tea, please.",
+            "id": "Saya ingin teh, tolong."
+          }
+        },
+        "hint": {
+          "ar": "Kaffee وTee مذكّران لذلك einen. وö تُنطق «ur» وch بعد ö «ç». الجملة مهذبة وتناسب Sie وdu.",
+          "en": "Kaffee and Tee are masculine, so einen. Ö is ur and the ch after ö is ç. The sentence is polite for both Sie and du.",
+          "id": "Kaffee dan Tee maskulin sehingga einen. Ö dibaca ur dan ch setelah ö adalah ç. Kalimat ini sopan untuk Sie maupun du."
+        }
+      },
+      {
+        "id": "de06n2",
+        "target": "Ich hätte gern ein Brötchen.",
+        "translit": "iç HEH-teh gehrn ine BRURT-çen",
+        "tr": {
+          "ar": "أودّ خبزة صغيرة.",
+          "en": "I would like a bread roll.",
+          "id": "Saya ingin satu roti kecil."
+        },
+        "example": {
+          "target": "Ich hätte gern ein Brot.",
+          "translit": "iç HEH-teh gehrn ine broht",
+          "tr": {
+            "ar": "أودّ خبزًا.",
+            "en": "I would like a loaf of bread.",
+            "id": "Saya ingin roti."
+          }
+        },
+        "hint": {
+          "ar": "طريقة مهذبة أخرى للطلب، شائعة جدًا في المقاهي والمخابز. وBrötchen محايدة لذلك ein. و-chen تعطي «ç» وتصغّر الاسم.",
+          "en": "Another polite way to order, very common in cafés and bakeries. Brötchen is neuter, so ein. The -chen ending is ç and makes a noun small.",
+          "id": "Cara sopan lain untuk memesan, sangat umum di kafe dan toko roti. Brötchen netral sehingga ein. Akhiran -chen dibaca ç dan membuat kata benda menjadi kecil."
+        }
+      },
+      {
+        "id": "de06n3",
+        "target": "Ein Wasser, bitte.",
+        "translit": "ine VAS-ser BIT-teh",
+        "tr": {
+          "ar": "ماء من فضلك.",
+          "en": "A water, please.",
+          "id": "Air putih, tolong."
+        },
+        "example": {
+          "target": "Ein Glas Wasser, bitte.",
+          "translit": "ine glahs VAS-ser BIT-teh",
+          "tr": {
+            "ar": "كأس ماء من فضلك.",
+            "en": "A glass of water, please.",
+            "id": "Segelas air, tolong."
+          }
+        },
+        "hint": {
+          "ar": "يكفي في المقهى أن تذكر الطلب ثم bitte. والماء غالبًا «mit» أو «ohne Kohlensäure» أي بغاز أو بدونه.",
+          "en": "In a café you can just name the item and add bitte. Water often comes with or without bubbles: mit or ohne Kohlensäure.",
+          "id": "Di kafe cukup menyebut pesanan lalu bitte. Air biasanya dengan atau tanpa soda: mit atau ohne Kohlensäure."
+        }
+      },
+      {
+        "id": "de06n4",
+        "target": "Eine Cola, bitte.",
+        "translit": "EYE-neh KOH-lah BIT-teh",
+        "tr": {
+          "ar": "كولا من فضلك.",
+          "en": "A cola, please.",
+          "id": "Satu cola, tolong."
+        },
+        "example": {
+          "target": "Eine Suppe, bitte.",
+          "translit": "EYE-neh ZUP-peh BIT-teh",
+          "tr": {
+            "ar": "حساء من فضلك.",
+            "en": "A soup, please.",
+            "id": "Satu sup, tolong."
+          }
+        },
+        "hint": {
+          "ar": "Cola وSuppe مؤنثتان لذلك eine. وs في بداية Suppe تُنطق «z» مجهورة.",
+          "en": "Cola and Suppe are feminine, so eine. The s at the start of Suppe is a voiced z.",
+          "id": "Cola dan Suppe feminin sehingga eine. Huruf s di awal Suppe dibaca z."
+        }
+      },
+      {
+        "id": "de06n5",
+        "target": "Was möchten Sie trinken?",
+        "translit": "vas MURÇ-ten zee TRING-ken",
+        "tr": {
+          "ar": "ماذا تودّ أن تشرب؟",
+          "en": "What would you like to drink?",
+          "id": "Anda ingin minum apa?"
+        },
+        "example": {
+          "target": "Was möchtest du essen?",
+          "translit": "vas MURÇ-test doo ES-sen",
+          "tr": {
+            "ar": "ماذا تريد أن تأكل؟",
+            "en": "What would you like to eat?",
+            "id": "Kamu mau makan apa?"
+          }
+        },
+        "hint": {
+          "ar": "يقولها النادل بصيغة Sie: möchten Sie. ومع الصديق: möchtest du.",
+          "en": "The waiter says it with Sie: möchten Sie. With a friend it is möchtest du.",
+          "id": "Pelayan mengatakannya dengan Sie: möchten Sie. Dengan teman menjadi möchtest du."
+        }
+      },
+      {
+        "id": "de06n6",
+        "target": "Die Rechnung, bitte.",
+        "translit": "dee REÇ-nung BIT-teh",
+        "tr": {
+          "ar": "الحساب من فضلك.",
+          "en": "The bill, please.",
+          "id": "Minta bonnya, tolong."
+        },
+        "example": {
+          "target": "Zahlen, bitte!",
+          "translit": "TSAH-len BIT-teh",
+          "tr": {
+            "ar": "أريد أن أدفع، من فضلك!",
+            "en": "I would like to pay, please!",
+            "id": "Mau bayar, tolong!"
+          }
+        },
+        "hint": {
+          "ar": "Rechnung مؤنثة لذلك die. وch بعد e تُنطق «ç». وz في Zahlen تُنطق «ts».",
+          "en": "Rechnung is feminine, so die. The ch after e is ç. The z in Zahlen is ts.",
+          "id": "Rechnung feminin sehingga die. Ch setelah e adalah ç. Huruf z pada Zahlen dibaca ts."
+        }
+      }
+    ],
+    "cloze": [
+      {
+        "sentence": "Ich ___ einen Tee, bitte.",
+        "answer": "möchte",
+        "wrong": [
+          "möchtest",
+          "möchten"
+        ],
+        "tr": {
+          "ar": "أريد شايًا من فضلك.",
+          "en": "I would like a tea, please.",
+          "id": "Saya ingin teh, tolong."
+        },
+        "why": {
+          "ar": "مع ich نقول möchte. möchtest لـ du وmöchten لـ wir وSie.",
+          "en": "With ich you say möchte. Möchtest goes with du, möchten with wir and Sie.",
+          "id": "Dengan ich dipakai möchte. Möchtest untuk du, möchten untuk wir dan Sie."
+        }
+      },
+      {
+        "sentence": "___ Suppe, bitte.",
+        "answer": "Eine",
+        "wrong": [
+          "Ein",
+          "Einen"
+        ],
+        "tr": {
+          "ar": "حساء من فضلك.",
+          "en": "A soup, please.",
+          "id": "Satu sup, tolong."
+        },
+        "why": {
+          "ar": "Suppe مؤنثة (die Suppe) لذلك Eine. ein وeinen للمحايد والمذكّر.",
+          "en": "Suppe is feminine (die Suppe), so Eine. Ein and einen belong to neuter and masculine.",
+          "id": "Suppe feminin (die Suppe) sehingga Eine. Ein dan einen untuk netral dan maskulin."
+        }
+      }
+    ],
+    "conversation": {
+      "context": {
+        "ar": "تجلس في مقهى والنادل يأتي إليك.",
+        "en": "You are sitting in a café and the waiter comes to you.",
+        "id": "Kamu duduk di kafe dan pelayan datang menghampirimu."
+      },
+      "turns": [
+        {
+          "who": "A",
+          "target": "Guten Tag! Was möchten Sie trinken?",
+          "tr": {
+            "ar": "مرحبًا! ماذا تودّ أن تشرب؟",
+            "en": "Hello! What would you like to drink?",
+            "id": "Selamat siang! Anda ingin minum apa?"
+          }
+        },
+        {
+          "who": "B",
+          "target": "Ich möchte einen Kaffee, bitte.",
+          "tr": {
+            "ar": "أريد قهوة من فضلك.",
+            "en": "I would like a coffee, please.",
+            "id": "Saya ingin kopi, tolong."
+          }
+        },
+        {
+          "who": "A",
+          "target": "Gern! Einen Moment, bitte.",
+          "tr": {
+            "ar": "بكل سرور! لحظة من فضلك.",
+            "en": "Gladly! One moment, please.",
+            "id": "Dengan senang hati! Sebentar, tolong."
+          }
+        }
+      ],
+      "gap": 1,
+      "wrong": [
+        "Ich bin Student.",
+        "Ich komme aus Ägypten."
+      ],
+      "why": {
+        "ar": "سأل النادل عن المشروب فنطلب مشروبًا بأدب. مهنتنا أو بلدنا لا يجيبان عن السؤال.",
+        "en": "The waiter asked about a drink, so you order a drink politely. Your job or country does not answer the question.",
+        "id": "Pelayan menanyakan minuman, jadi kita memesan minuman dengan sopan. Pekerjaan atau negara tidak menjawab pertanyaan."
+      }
+    },
+    "summary": {
+      "ar": "تعلّمت أن تطلب مشروبًا وطعامًا بـ «Ich möchte» و«Ich hätte gern» وأن تطلب الحساب. تذكّر ein وeine وeinen.",
+      "en": "You learned to order drinks and food with Ich möchte and Ich hätte gern and to ask for the bill. Remember ein, eine and einen.",
+      "id": "Kamu belajar memesan minuman dan makanan dengan Ich möchte dan Ich hätte gern serta meminta bon. Ingat ein, eine, dan einen."
+    }
+  },
+  {
+    "id": "de-07",
+    "track": "de",
+    "level": "elementary",
+    "order": 7,
+    "topic": "shopping-prices",
+    "icon": "🛍️",
+    "title": {
+      "ar": "التسوّق والأسعار",
+      "en": "Shopping and Prices",
+      "id": "Belanja dan Harga"
+    },
+    "description": {
+      "ar": "اسأل عن الأسعار وافهم اليورو والسنت وأعداد حتى المئة.",
+      "en": "Ask prices, understand euros and cents, and use numbers up to 100.",
+      "id": "Tanyakan harga, pahami euro dan sen, dan pakai angka sampai 100."
+    },
+    "objectives": [
+      {
+        "ar": "أستطيع أن أسأل «Was kostet das?».",
+        "en": "I can ask Was kostet das?",
+        "id": "Saya bisa bertanya Was kostet das?"
+      },
+      {
+        "ar": "أستطيع أن أفهم سعرًا مثل «zwölf Euro fünfzig».",
+        "en": "I can understand a price such as zwölf Euro fünfzig.",
+        "id": "Saya bisa memahami harga seperti zwölf Euro fünfzig."
+      },
+      {
+        "ar": "أستطيع أن أقول إن الشيء غالٍ وأن أشتريه.",
+        "en": "I can say something is too expensive or that I will take it.",
+        "id": "Saya bisa mengatakan sesuatu terlalu mahal atau saya akan membelinya."
+      }
+    ],
+    "intro": {
+      "ar": "في المتاجر والأسواق تحتاج إلى سؤال السعر وفهم الجواب. في هذا الدرس تتعلم أعدادًا أكبر مثل zwanzig وhundert وطريقة قول اليورو والسنت.",
+      "en": "In shops and markets you need to ask the price and understand the answer. In this lesson you learn bigger numbers such as zwanzig and hundert and how to say euros and cents.",
+      "id": "Di toko dan pasar kamu perlu menanyakan harga dan memahami jawabannya. Di pelajaran ini kamu belajar angka lebih besar seperti zwanzig dan hundert serta cara menyebut euro dan sen."
+    },
+    "culture": {
+      "ar": "في ألمانيا الأسعار ثابتة في المتاجر ولا يُتفاوض عليها، لكن في الأسواق المفتوحة وعلى الإنترنت قد تجد تخفيضات. ويدفع كثير من الألمان بالبطاقة، لكن بعض المتاجر الصغيرة تفضّل النقد، فاسأل قبل الدفع.",
+      "en": "Prices in German shops are fixed and not negotiated, though you may find sales at markets and online. Many Germans pay by card, but some small shops prefer cash, so ask before you pay.",
+      "id": "Harga di toko Jerman tetap dan tidak ditawar, meski ada diskon di pasar dan daring. Banyak orang Jerman membayar dengan kartu, tetapi beberapa toko kecil lebih suka tunai, jadi tanyakan sebelum membayar."
+    },
+    "grammar": {
+      "title": {
+        "ar": "الأسعار والأرقام",
+        "en": "Prices and numbers",
+        "id": "Harga dan angka"
+      },
+      "body": {
+        "ar": "نسأل «Was kostet das?» (للمفرد) و«Was kosten die Äpfel?» (للجمع). نقول السعر: «Das kostet fünf Euro» أو «Das macht fünf Euro zwanzig» أي 5,20 يورو. اليورو والسنت لا يتغيران في الجمع بعد الرقم: zwei Euro. الأرقام: 11 elf و12 zwölf، ثم العشرات: 20 zwanzig و30 dreißig و50 fünfzig و100 hundert. وفي 50 نقول fünfzig وليس fünfzehn.",
+        "en": "You ask Was kostet das? for one thing and Was kosten die Äpfel? for several. You give a price like this: Das kostet fünf Euro or Das macht fünf Euro zwanzig, meaning 5.20 euros. Euro and Cent do not change in the plural after a number: zwei Euro. Numbers: 11 elf, 12 zwölf, then the tens: 20 zwanzig, 30 dreißig, 50 fünfzig, 100 hundert. Take care: fünfzig is 50, but fünfzehn is 15.",
+        "id": "Kita bertanya Was kostet das? untuk satu benda dan Was kosten die Äpfel? untuk banyak benda. Harga disebut begini: Das kostet fünf Euro atau Das macht fünf Euro zwanzig, artinya 5,20 euro. Euro dan Cent tidak berubah dalam bentuk jamak setelah angka: zwei Euro. Angka: 11 elf, 12 zwölf, lalu puluhan: 20 zwanzig, 30 dreißig, 50 fünfzig, 100 hundert. Hati-hati: fünfzig adalah 50, tetapi fünfzehn adalah 15."
+      }
+    },
+    "items": [
+      {
+        "id": "de07n1",
+        "target": "Was kostet das?",
+        "translit": "vas KOS-tet dass",
+        "tr": {
+          "ar": "كم يكلّف هذا؟",
+          "en": "How much is this?",
+          "id": "Berapa harganya?"
+        },
+        "example": {
+          "target": "Was kostet das Brot?",
+          "translit": "vas KOS-tet dass broht",
+          "tr": {
+            "ar": "كم سعر الخبز؟",
+            "en": "How much is the bread?",
+            "id": "Berapa harga rotinya?"
+          }
+        },
+        "hint": {
+          "ar": "يمكنك أن تشير إلى الشيء وتقول «Was kostet das?». وst في kostet تُنطق «st» لأنها ليست في أول الكلمة.",
+          "en": "You can point at the item and say Was kostet das? The st in kostet is st because it is not at the start of a word.",
+          "id": "Kamu bisa menunjuk barangnya dan bertanya Was kostet das? Huruf st pada kostet dibaca st karena tidak di awal kata."
+        }
+      },
+      {
+        "id": "de07n2",
+        "target": "Das macht zwölf Euro fünfzig.",
+        "translit": "dass makht tsvurlf OY-roh FEWNF-tsiç",
+        "tr": {
+          "ar": "المجموع اثنا عشر يورو وخمسون سنتًا.",
+          "en": "That comes to 12.50 euros.",
+          "id": "Totalnya 12,50 euro."
+        },
+        "example": {
+          "target": "Das macht drei Euro.",
+          "translit": "dass makht dry OY-roh",
+          "tr": {
+            "ar": "المجموع ثلاثة يورو.",
+            "en": "That comes to three euros.",
+            "id": "Totalnya tiga euro."
+          }
+        },
+        "hint": {
+          "ar": "يقولها البائع عند الدفع. نقرأ 12,50 كأنها «zwölf Euro fünfzig» دون كلمة «Cent».",
+          "en": "The seller says this at the till. 12.50 is read zwölf Euro fünfzig, without the word Cent.",
+          "id": "Penjual mengatakan ini di kasir. 12,50 dibaca zwölf Euro fünfzig tanpa kata Cent."
+        }
+      },
+      {
+        "id": "de07n3",
+        "target": "zwanzig, dreißig, fünfzig, hundert",
+        "translit": "TSVAN-tsiç, DRY-siç, FEWNF-tsiç, HUN-dert",
+        "tr": {
+          "ar": "عشرون، ثلاثون، خمسون، مئة",
+          "en": "twenty, thirty, fifty, one hundred",
+          "id": "dua puluh, tiga puluh, lima puluh, seratus"
+        },
+        "example": {
+          "target": "Das kostet hundert Euro.",
+          "translit": "dass KOS-tet HUN-dert OY-roh",
+          "tr": {
+            "ar": "هذا يكلّف مئة يورو.",
+            "en": "That costs one hundred euros.",
+            "id": "Itu harganya seratus euro."
+          }
+        },
+        "hint": {
+          "ar": "-zig تُنطق «تسيش» بصوت ch الخفيف. وdreißig بحرف ß وليس dreizig.",
+          "en": "-zig is said tsiç with the soft ch sound. Dreißig has ß, not z.",
+          "id": "-zig dibaca tsiç dengan bunyi ch lembut. Dreißig memakai ß, bukan z."
+        }
+      },
+      {
+        "id": "de07n4",
+        "target": "Das ist zu teuer.",
+        "translit": "dass ist tsoo TOY-er",
+        "tr": {
+          "ar": "هذا غالٍ جدًا.",
+          "en": "That is too expensive.",
+          "id": "Itu terlalu mahal."
+        },
+        "example": {
+          "target": "Das ist nicht teuer.",
+          "translit": "dass ist niçt TOY-er",
+          "tr": {
+            "ar": "هذا ليس غاليًا.",
+            "en": "That is not expensive.",
+            "id": "Itu tidak mahal."
+          }
+        },
+        "hint": {
+          "ar": "zu قبل الصفة تعني «أكثر من اللازم». وeu تُنطق «oy». ومعنى الضد: günstig أو billig.",
+          "en": "Zu before an adjective means too. Eu is oy. The opposite is günstig or billig.",
+          "id": "Zu sebelum kata sifat berarti terlalu. Eu dibaca oy. Lawan katanya günstig atau billig."
+        }
+      },
+      {
+        "id": "de07n5",
+        "target": "Ich nehme das.",
+        "translit": "iç NEH-meh dass",
+        "tr": {
+          "ar": "سآخذ هذا.",
+          "en": "I will take it.",
+          "id": "Saya ambil yang ini."
+        },
+        "example": {
+          "target": "Ich nehme das Brot.",
+          "translit": "iç NEH-meh dass broht",
+          "tr": {
+            "ar": "سآخذ الخبز.",
+            "en": "I will take the bread.",
+            "id": "Saya ambil rotinya."
+          }
+        },
+        "hint": {
+          "ar": "هذا قرار الشراء. وe في nehme تُنطق كإيه طويلة، لا تُنطق h.",
+          "en": "This is the decision to buy. The e in nehme is a long eh, and the h is silent.",
+          "id": "Ini keputusan membeli. Huruf e pada nehme dibaca panjang, dan h tidak dibunyikan."
+        }
+      },
+      {
+        "id": "de07n6",
+        "target": "Kann ich mit Karte zahlen?",
+        "translit": "kan iç mit KAR-teh TSAH-len",
+        "tr": {
+          "ar": "هل أستطيع الدفع بالبطاقة؟",
+          "en": "Can I pay by card?",
+          "id": "Bisakah saya bayar dengan kartu?"
+        },
+        "example": {
+          "target": "Nur bar, bitte.",
+          "translit": "noor bahr BIT-teh",
+          "tr": {
+            "ar": "نقدًا فقط من فضلك.",
+            "en": "Cash only, please.",
+            "id": "Hanya tunai, tolong."
+          }
+        },
+        "hint": {
+          "ar": "تعلّمها كعبارة جاهزة بمعنى «هل يمكنني». وكلمة bar تعني نقدًا. والعبارة تصلح للموقف الرسمي أيضًا.",
+          "en": "Learn it as a ready phrase meaning may I. Bar means in cash. The phrase works in formal situations too.",
+          "id": "Hafalkan sebagai frasa jadi yang berarti bolehkah saya. Bar berarti tunai. Frasa ini cocok juga untuk situasi formal."
+        }
+      }
+    ],
+    "cloze": [
+      {
+        "sentence": "Was ___ das?",
+        "answer": "kostet",
+        "wrong": [
+          "kosten",
+          "koste"
+        ],
+        "tr": {
+          "ar": "كم سعر هذا؟",
+          "en": "How much is this?",
+          "id": "Berapa harga ini?"
+        },
+        "why": {
+          "ar": "das مفرد لذلك kostet. أما kosten فمع الجمع.",
+          "en": "Das is singular, so kostet. Kosten is for plural things.",
+          "id": "Das tunggal sehingga kostet. Kosten untuk benda jamak."
+        }
+      },
+      {
+        "sentence": "Das macht drei ___ fünfzig.",
+        "answer": "Euro",
+        "wrong": [
+          "teuer",
+          "danke"
+        ],
+        "tr": {
+          "ar": "المجموع ثلاثة يورو وخمسون سنتًا.",
+          "en": "That comes to 3.50 euros.",
+          "id": "Totalnya 3,50 euro."
+        },
+        "why": {
+          "ar": "بعد الرقم نضع العملة: drei Euro. وteuer صفة وdanke تعبير شكر.",
+          "en": "After the number comes the currency: drei Euro. Teuer is an adjective and danke is a thank-you word.",
+          "id": "Setelah angka ditaruh mata uang: drei Euro. Teuer adalah kata sifat dan danke ungkapan terima kasih."
+        }
+      }
+    ],
+    "conversation": {
+      "context": {
+        "ar": "تشتري الخبز من مخبز.",
+        "en": "You buy bread at a bakery.",
+        "id": "Kamu membeli roti di toko roti."
+      },
+      "turns": [
+        {
+          "who": "A",
+          "target": "Guten Tag! Was kostet das Brot?",
+          "tr": {
+            "ar": "مرحبًا! كم سعر الخبز؟",
+            "en": "Hello! How much is the bread?",
+            "id": "Selamat siang! Berapa harga rotinya?"
+          }
+        },
+        {
+          "who": "B",
+          "target": "Das kostet zwei Euro fünfzig.",
+          "tr": {
+            "ar": "يكلّف يورويْن وخمسين سنتًا.",
+            "en": "It costs 2.50 euros.",
+            "id": "Harganya 2,50 euro."
+          }
+        },
+        {
+          "who": "A",
+          "target": "Gut, ich nehme das.",
+          "tr": {
+            "ar": "حسنًا، سآخذه.",
+            "en": "Good, I will take it.",
+            "id": "Baik, saya ambil."
+          }
+        }
+      ],
+      "gap": 1,
+      "wrong": [
+        "Ich bin zwanzig Jahre alt.",
+        "Tschüss, bis morgen!"
+      ],
+      "why": {
+        "ar": "سألنا عن السعر فيجيب البائع بالسعر. العمر أو الوداع لا يجيبان.",
+        "en": "You asked the price, so the seller gives a price. An age or a goodbye does not answer it.",
+        "id": "Kita menanyakan harga, jadi penjual menyebut harga. Usia atau salam perpisahan tidak menjawab."
+      }
+    },
+    "summary": {
+      "ar": "تعلّمت أن تسأل عن السعر وتفهم اليورو والسنت وأعدادًا حتى المئة. وتعلّمت كيف تقول إنك ستأخذ الشيء.",
+      "en": "You learned to ask the price, understand euros and cents and use numbers up to 100. You also learned how to say you will buy it.",
+      "id": "Kamu belajar menanyakan harga, memahami euro dan sen, serta memakai angka sampai 100. Kamu juga belajar mengatakan akan membeli."
+    }
+  },
+  {
+    "id": "de-08",
+    "track": "de",
+    "level": "elementary",
+    "order": 8,
+    "topic": "directions-places",
+    "icon": "🧭",
+    "title": {
+      "ar": "الاتجاهات والأماكن",
+      "en": "Directions and Places",
+      "id": "Arah dan Tempat"
+    },
+    "description": {
+      "ar": "اسأل عن مكان وافهم الاتجاهات.",
+      "en": "Ask where a place is and follow directions.",
+      "id": "Tanyakan lokasi dan pahami petunjuk arah."
+    },
+    "objectives": [
+      {
+        "ar": "أستطيع أن أسأل «Wo ist ...?».",
+        "en": "I can ask Wo ist ...?",
+        "id": "Saya bisa bertanya Wo ist ...?"
+      },
+      {
+        "ar": "أفهم geradeaus وlinks وrechts.",
+        "en": "I understand geradeaus, links and rechts.",
+        "id": "Saya memahami geradeaus, links, dan rechts."
+      },
+      {
+        "ar": "أفهم أمرًا مهذبًا مثل «Gehen Sie ...».",
+        "en": "I understand a polite command such as Gehen Sie ...",
+        "id": "Saya memahami perintah sopan seperti Gehen Sie ..."
+      }
+    ],
+    "intro": {
+      "ar": "عندما تتجول في مدينة ألمانية ستحتاج إلى السؤال عن الطريق. في هذا الدرس تتعلم أن تسأل عن مكان وأن تفهم الإجابة. الغرباء تخاطبهم بـ Sie، لذلك الأوامر هنا بصيغة Sie.",
+      "en": "When you walk around a German city you will need to ask the way. In this lesson you learn to ask where a place is and to understand the answer. You speak to strangers with Sie, so the commands here use the Sie form.",
+      "id": "Saat berjalan di kota Jerman kamu perlu menanyakan jalan. Di pelajaran ini kamu belajar menanyakan lokasi dan memahami jawabannya. Kepada orang asing kita memakai Sie, jadi perintah di sini memakai bentuk Sie."
+    },
+    "culture": {
+      "ar": "الألمان عادةً يجيبون بدقة عن الطريق ويحبون التفاصيل. ابدأ دائمًا بكلمة «Entschuldigung» قبل أن تسأل غريبًا. وإذا لم تفهم الجواب فقل «Langsamer, bitte» أي أبطأ من فضلك.",
+      "en": "Germans usually give precise directions and like details. Always start with Entschuldigung before you ask a stranger. If you do not understand the answer, say Langsamer, bitte, meaning slower, please.",
+      "id": "Orang Jerman biasanya memberi petunjuk arah yang tepat dan suka detail. Selalu mulai dengan Entschuldigung sebelum bertanya kepada orang asing. Jika tidak paham jawabannya, katakan Langsamer, bitte, artinya lebih pelan, tolong."
+    },
+    "grammar": {
+      "title": {
+        "ar": "Wo ist ...? وأمر Sie",
+        "en": "Wo ist ...? and the Sie command",
+        "id": "Wo ist ...? dan perintah Sie"
+      },
+      "body": {
+        "ar": "نسأل «Wo ist der Bahnhof?» وفي المؤنث «Wo ist die Toilette?» وفي المحايد «Wo ist das Hotel?». والأمر المهذب مع Sie يأتي بالفعل أولًا ثم Sie: «Gehen Sie geradeaus». ونقول «nach links» و«nach rechts» لتحديد الجهة.",
+        "en": "You ask Wo ist der Bahnhof? for masculine, Wo ist die Toilette? for feminine and Wo ist das Hotel? for neuter. The polite command with Sie has the verb first and then Sie: Gehen Sie geradeaus. You say nach links and nach rechts to give a direction.",
+        "id": "Kita bertanya Wo ist der Bahnhof? untuk maskulin, Wo ist die Toilette? untuk feminin, dan Wo ist das Hotel? untuk netral. Perintah sopan dengan Sie menaruh kata kerja lebih dulu lalu Sie: Gehen Sie geradeaus. Kita mengatakan nach links dan nach rechts untuk menyebut arah."
+      }
+    },
+    "items": [
+      {
+        "id": "de08n1",
+        "target": "Wo ist der Bahnhof?",
+        "translit": "voh ist dair BAHN-hohf",
+        "tr": {
+          "ar": "أين محطة القطار؟",
+          "en": "Where is the train station?",
+          "id": "Di mana stasiun kereta?"
+        },
+        "example": {
+          "target": "Wo ist das Hotel?",
+          "translit": "voh ist dass hoh-TEL",
+          "tr": {
+            "ar": "أين الفندق؟",
+            "en": "Where is the hotel?",
+            "id": "Di mana hotelnya?"
+          }
+        },
+        "hint": {
+          "ar": "Bahnhof مذكّر (der). وh بعد a لا يُنطق ويطيل الصوت. تذكّر: w في Wo تُنطق «v».",
+          "en": "Bahnhof is masculine (der). The h after a is silent and lengthens the vowel. Remember: w in Wo is v.",
+          "id": "Bahnhof maskulin (der). Huruf h setelah a tidak dibunyikan dan memanjangkan vokal. Ingat: w pada Wo dibaca v."
+        }
+      },
+      {
+        "id": "de08n2",
+        "target": "Gehen Sie geradeaus.",
+        "translit": "GEH-en zee geh-rah-deh-OWS",
+        "tr": {
+          "ar": "اذهبوا مباشرة.",
+          "en": "Go straight ahead.",
+          "id": "Jalan lurus saja."
+        },
+        "example": {
+          "target": "Gehen Sie geradeaus und dann links.",
+          "translit": "GEH-en zee geh-rah-deh-OWS unt dan links",
+          "tr": {
+            "ar": "اذهبوا مباشرة ثم يسارًا.",
+            "en": "Go straight ahead and then left.",
+            "id": "Jalan lurus lalu belok kiri."
+          }
+        },
+        "hint": {
+          "ar": "هذا أمر مهذب بصيغة Sie. و«und dann» تعني «ثم». وau تُنطق «ow».",
+          "en": "This is a polite Sie command. Und dann means and then. Au is ow.",
+          "id": "Ini perintah sopan dengan Sie. Und dann berarti lalu. Au dibaca ow."
+        }
+      },
+      {
+        "id": "de08n3",
+        "target": "Gehen Sie nach links.",
+        "translit": "GEH-en zee nakh links",
+        "tr": {
+          "ar": "اذهبوا إلى اليسار.",
+          "en": "Go left.",
+          "id": "Belok ke kiri."
+        },
+        "example": {
+          "target": "Die Apotheke ist links.",
+          "translit": "dee ah-poh-TAY-keh ist links",
+          "tr": {
+            "ar": "الصيدلية على اليسار.",
+            "en": "The pharmacy is on the left.",
+            "id": "Apotek ada di sebelah kiri."
+          }
+        },
+        "hint": {
+          "ar": "مع الحركة نقول nach links، ولوصف المكان نقول links فقط. وch بعد a تُنطق «kh».",
+          "en": "With movement say nach links; to describe a place just say links. Ch after a is kh.",
+          "id": "Untuk gerakan katakan nach links; untuk menjelaskan tempat cukup links. Ch setelah a dibaca kh."
+        }
+      },
+      {
+        "id": "de08n4",
+        "target": "Gehen Sie nach rechts.",
+        "translit": "GEH-en zee nakh reçts",
+        "tr": {
+          "ar": "اذهبوا إلى اليمين.",
+          "en": "Go right.",
+          "id": "Belok ke kanan."
+        },
+        "example": {
+          "target": "Das Café ist rechts.",
+          "translit": "dass kah-FAY ist reçts",
+          "tr": {
+            "ar": "المقهى على اليمين.",
+            "en": "The café is on the right.",
+            "id": "Kafenya ada di sebelah kanan."
+          }
+        },
+        "hint": {
+          "ar": "في rechts يأتي ch بعد e لذلك يُنطق «ç» (صوت ich)، والحرف e قصير. وفي الآخر ts.",
+          "en": "In rechts the ch follows e, so it is ç. The word sounds roughly like reçts.",
+          "id": "Pada rechts, ch muncul setelah e sehingga dibaca ç. Kata ini dibaca kira-kira reçts."
+        }
+      },
+      {
+        "id": "de08n5",
+        "target": "Entschuldigung, wo ist die Toilette?",
+        "translit": "ent-SHUL-di-gung voh ist dee toy-LET-teh",
+        "tr": {
+          "ar": "المعذرة، أين دورة المياه؟",
+          "en": "Excuse me, where is the toilet?",
+          "id": "Permisi, di mana toilet?"
+        },
+        "example": {
+          "target": "Entschuldigung, wo ist die Bank?",
+          "translit": "ent-SHUL-di-gung voh ist dee bank",
+          "tr": {
+            "ar": "المعذرة، أين البنك؟",
+            "en": "Excuse me, where is the bank?",
+            "id": "Permisi, di mana bank?"
+          }
+        },
+        "hint": {
+          "ar": "Entschuldigung هي بداية مهذبة لأي سؤال لغريب. وToilette مؤنثة لذلك die.",
+          "en": "Entschuldigung is a polite opening for any question to a stranger. Toilette is feminine, so die.",
+          "id": "Entschuldigung adalah pembuka sopan untuk pertanyaan apa pun kepada orang asing. Toilette feminin sehingga die."
+        }
+      },
+      {
+        "id": "de08n6",
+        "target": "Ist es weit von hier?",
+        "translit": "ist ess vite fon heer",
+        "tr": {
+          "ar": "هل هو بعيد من هنا؟",
+          "en": "Is it far from here?",
+          "id": "Apakah jauh dari sini?"
+        },
+        "example": {
+          "target": "Nein, es ist nicht weit.",
+          "translit": "nyne ess ist niçt vite",
+          "tr": {
+            "ar": "لا، ليس بعيدًا.",
+            "en": "No, it is not far.",
+            "id": "Tidak, tidak jauh."
+          }
+        },
+        "hint": {
+          "ar": "weit تعني بعيد. وللقريب نقول «in der Nähe». وw تُنطق «v» وei «آي».",
+          "en": "Weit means far. For nearby, say in der Nähe. W is v and ei is eye.",
+          "id": "Weit berarti jauh. Untuk dekat katakan in der Nähe. W dibaca v dan ei dibaca ai."
+        }
+      }
+    ],
+    "cloze": [
+      {
+        "sentence": "Wo ist ___ Bahnhof?",
+        "answer": "der",
+        "wrong": [
+          "die",
+          "das"
+        ],
+        "tr": {
+          "ar": "أين محطة القطار؟",
+          "en": "Where is the train station?",
+          "id": "Di mana stasiun kereta?"
+        },
+        "why": {
+          "ar": "Bahnhof مذكّر لذلك der Bahnhof. وdie للمؤنث وdas للمحايد.",
+          "en": "Bahnhof is masculine, so der Bahnhof. Die is for feminine and das for neuter.",
+          "id": "Bahnhof maskulin sehingga der Bahnhof. Die untuk feminin dan das untuk netral."
+        }
+      },
+      {
+        "sentence": "Gehen Sie ___, dann links.",
+        "answer": "geradeaus",
+        "wrong": [
+          "Bahnhof",
+          "gern"
+        ],
+        "tr": {
+          "ar": "اذهبوا مباشرة ثم يسارًا.",
+          "en": "Go straight ahead, then left.",
+          "id": "Jalan lurus, lalu kiri."
+        },
+        "why": {
+          "ar": "geradeaus ظرف يعني «مباشرة» ويناسب الأمر. أما Bahnhof فاسم وgern بمعنى «بسرور».",
+          "en": "Geradeaus is an adverb meaning straight ahead and fits the command. Bahnhof is a noun and gern means gladly.",
+          "id": "Geradeaus adalah keterangan yang berarti lurus dan cocok untuk perintah. Bahnhof kata benda dan gern berarti dengan senang hati."
+        }
+      }
+    ],
+    "conversation": {
+      "context": {
+        "ar": "تسأل شخصًا في الشارع عن الطريق.",
+        "en": "You ask a stranger on the street for directions.",
+        "id": "Kamu bertanya arah kepada orang asing di jalan."
+      },
+      "turns": [
+        {
+          "who": "A",
+          "target": "Entschuldigung, wo ist die Toilette?",
+          "tr": {
+            "ar": "المعذرة، أين دورة المياه؟",
+            "en": "Excuse me, where is the toilet?",
+            "id": "Permisi, di mana toilet?"
+          }
+        },
+        {
+          "who": "B",
+          "target": "Gehen Sie geradeaus und dann rechts.",
+          "tr": {
+            "ar": "اذهبوا مباشرة ثم يمينًا.",
+            "en": "Go straight ahead and then right.",
+            "id": "Jalan lurus lalu belok kanan."
+          }
+        },
+        {
+          "who": "A",
+          "target": "Vielen Dank!",
+          "tr": {
+            "ar": "شكرًا جزيلًا!",
+            "en": "Thank you very much!",
+            "id": "Terima kasih banyak!"
+          }
+        }
+      ],
+      "gap": 1,
+      "wrong": [
+        "Ich möchte einen Kaffee, bitte.",
+        "Ich heiße Mona."
+      ],
+      "why": {
+        "ar": "سُئلنا عن الطريق فنردّ بالاتجاه. طلب القهوة أو الاسم لا يجيبان عن السؤال.",
+        "en": "You were asked for directions, so you reply with directions. Ordering coffee or giving a name does not answer.",
+        "id": "Kita ditanya arah, jadi menjawab dengan petunjuk arah. Memesan kopi atau menyebut nama tidak menjawab."
+      }
+    },
+    "summary": {
+      "ar": "تعلّمت أن تسأل «Wo ist ...?» وأن تفهم geradeaus وlinks وrechts مع أمر Sie المهذب.",
+      "en": "You learned to ask Wo ist ...? and to understand geradeaus, links and rechts with the polite Sie command.",
+      "id": "Kamu belajar bertanya Wo ist ...? dan memahami geradeaus, links, dan rechts dengan perintah Sie yang sopan."
+    }
+  },
+  {
+    "id": "de-09",
+    "track": "de",
+    "level": "elementary",
+    "order": 9,
+    "topic": "time-days-routine",
+    "icon": "⏰",
+    "title": {
+      "ar": "الوقت والأيام والروتين",
+      "en": "Time, Days and Daily Routine",
+      "id": "Waktu, Hari, dan Rutinitas"
+    },
+    "description": {
+      "ar": "قل الساعة وأيام الأسبوع وروتينك.",
+      "en": "Tell the time, name the days and describe your routine.",
+      "id": "Sebutkan jam, hari, dan rutinitasmu."
+    },
+    "objectives": [
+      {
+        "ar": "أستطيع أن أسأل وأقول الساعة.",
+        "en": "I can ask and tell the time.",
+        "id": "Saya bisa menanyakan dan menyebutkan jam."
+      },
+      {
+        "ar": "أعرف أيام الأسبوع.",
+        "en": "I know the days of the week.",
+        "id": "Saya tahu nama-nama hari."
+      },
+      {
+        "ar": "أستطيع أن أبدأ الجملة بكلمة زمن وأبقي الفعل ثانيًا.",
+        "en": "I can start a sentence with a time word and keep the verb second.",
+        "id": "Saya bisa memulai kalimat dengan kata waktu dan menjaga kata kerja di posisi kedua."
+      }
+    ],
+    "intro": {
+      "ar": "الالتزام بالمواعيد مهم جدًا في ألمانيا. في هذا الدرس تتعلم أن تقول الساعة، وأن تذكر أيام الأسبوع، وأن تصف يومك. وستلاحظ أن الفعل يبقى في المرتبة الثانية حتى لو بدأت الجملة بكلمة زمن.",
+      "en": "Being on time matters a lot in Germany. In this lesson you learn to tell the time, name the days and describe your day. You will notice that the verb stays in second place even when the sentence starts with a time word.",
+      "id": "Tepat waktu sangat penting di Jerman. Di pelajaran ini kamu belajar menyebutkan jam, nama hari, dan menggambarkan harimu. Kamu akan melihat bahwa kata kerja tetap di posisi kedua meski kalimat dimulai dengan kata waktu."
+    },
+    "culture": {
+      "ar": "الألمان يحترمون المواعيد: الوصول متأخرًا حتى خمس دقائق قد يُعدّ قلة احترام، لذلك يصل كثيرون قبل الموعد بقليل. وأيام الأحد (Sonntag) المتاجر مغلقة عادةً، فخطّط مشترياتك قبل ذلك.",
+      "en": "Germans respect appointments: being even five minutes late can seem rude, so many people arrive a little early. On Sundays (Sonntag) shops are usually closed, so plan your shopping before that.",
+      "id": "Orang Jerman menghargai janji: terlambat lima menit pun bisa dianggap kurang sopan, sehingga banyak yang datang sedikit lebih awal. Pada hari Minggu (Sonntag) toko biasanya tutup, jadi rencanakan belanjamu sebelumnya."
+    },
+    "grammar": {
+      "title": {
+        "ar": "الفعل في المرتبة الثانية بعد كلمة الزمن",
+        "en": "The verb stays second after a time word",
+        "id": "Kata kerja tetap kedua setelah kata waktu"
+      },
+      "body": {
+        "ar": "في الألمانية يأتي الفعل في المرتبة الثانية دائمًا. إذا بدأت بكلمة زمن انتقل الفاعل بعد الفعل: «Am Montag arbeite ich» وليس «Am Montag ich arbeite». والساعة: «Es ist drei Uhr». و«halb vier» تعني 3:30 أي نصف الساعة نحو الرابعة. أيام الأسبوع كلها مذكّرة: der Montag وDienstag وMittwoch وDonnerstag وFreitag وSamstag وSonntag.",
+        "en": "In German the verb is always second. If you start with a time word, the subject moves after the verb: Am Montag arbeite ich, not Am Montag ich arbeite. For clock times: Es ist drei Uhr. Halb vier means 3:30, that is, half an hour towards four. All days are masculine: der Montag, Dienstag, Mittwoch, Donnerstag, Freitag, Samstag, Sonntag.",
+        "id": "Dalam bahasa Jerman kata kerja selalu di posisi kedua. Jika kalimat dimulai dengan kata waktu, subjek pindah setelah kata kerja: Am Montag arbeite ich, bukan Am Montag ich arbeite. Untuk jam: Es ist drei Uhr. Halb vier berarti pukul 3.30, yaitu setengah jam menuju pukul empat. Semua nama hari maskulin: der Montag, Dienstag, Mittwoch, Donnerstag, Freitag, Samstag, Sonntag."
+      }
+    },
+    "items": [
+      {
+        "id": "de09n1",
+        "target": "Wie spät ist es?",
+        "translit": "vee shpayt ist ess",
+        "tr": {
+          "ar": "كم الساعة؟",
+          "en": "What time is it?",
+          "id": "Jam berapa sekarang?"
+        },
+        "example": {
+          "target": "Entschuldigung, wie spät ist es?",
+          "translit": "ent-SHUL-di-gung vee shpayt ist ess",
+          "tr": {
+            "ar": "المعذرة، كم الساعة؟",
+            "en": "Excuse me, what time is it?",
+            "id": "Permisi, jam berapa sekarang?"
+          }
+        },
+        "hint": {
+          "ar": "حرفيًا «كم متأخر هو؟». وsp في بداية spät تُنطق «شب» وä طويلة «إي».",
+          "en": "Literally how late is it. Sp at the start of spät is shp, and ä is a long ay.",
+          "id": "Secara harfiah \"seberapa larut\". Sp di awal spät dibaca shp dan ä dibaca panjang ay."
+        }
+      },
+      {
+        "id": "de09n2",
+        "target": "Es ist drei Uhr.",
+        "translit": "ess ist dry oor",
+        "tr": {
+          "ar": "الساعة الثالثة.",
+          "en": "It is three o'clock.",
+          "id": "Sekarang pukul tiga."
+        },
+        "example": {
+          "target": "Es ist neun Uhr.",
+          "translit": "ess ist noyn oor",
+          "tr": {
+            "ar": "الساعة التاسعة.",
+            "en": "It is nine o'clock.",
+            "id": "Sekarang pukul sembilan."
+          }
+        },
+        "hint": {
+          "ar": "كلمة Uhr تعني «ساعة» ولا تُجمع هنا. وh في Uhr لا تُنطق.",
+          "en": "Uhr means clock or o'clock and does not change here. The h in Uhr is silent.",
+          "id": "Uhr berarti jam dan tidak berubah di sini. Huruf h pada Uhr tidak dibunyikan."
+        }
+      },
+      {
+        "id": "de09n3",
+        "target": "Es ist halb vier.",
+        "translit": "ess ist halp feer",
+        "tr": {
+          "ar": "الساعة الثالثة والنصف.",
+          "en": "It is half past three.",
+          "id": "Sekarang pukul tiga lewat tiga puluh."
+        },
+        "example": {
+          "target": "Um halb acht frühstücke ich.",
+          "translit": "um halp akht FREW-shtew-keh iç",
+          "tr": {
+            "ar": "أتناول الفطور في السابعة والنصف.",
+            "en": "I have breakfast at half past seven.",
+            "id": "Saya sarapan pukul tujuh tiga puluh."
+          }
+        },
+        "hint": {
+          "ar": "انتبه: halb vier هي 3:30 وليست 4:30. نقول النصف قبل الساعة التالية.",
+          "en": "Careful: halb vier is 3:30, not 4:30. Germans name the half hour before the next hour.",
+          "id": "Hati-hati: halb vier adalah 3.30, bukan 4.30. Orang Jerman menyebut setengah jam menuju jam berikutnya."
+        }
+      },
+      {
+        "id": "de09n4",
+        "target": "Montag, Dienstag, Mittwoch",
+        "translit": "MOHN-tahk, DEENS-tahk, MIT-vokh",
+        "tr": {
+          "ar": "الاثنين، الثلاثاء، الأربعاء",
+          "en": "Monday, Tuesday, Wednesday",
+          "id": "Senin, Selasa, Rabu"
+        },
+        "example": {
+          "target": "Heute ist Mittwoch.",
+          "translit": "HOY-teh ist MIT-vokh",
+          "tr": {
+            "ar": "اليوم الأربعاء.",
+            "en": "Today is Wednesday.",
+            "id": "Hari ini Rabu."
+          }
+        },
+        "hint": {
+          "ar": "وبقية الأسبوع: Donnerstag وFreitag وSamstag وSonntag. وg في آخر الأيام تُنطق «k».",
+          "en": "The rest of the week: Donnerstag, Freitag, Samstag, Sonntag. The final g in the day names is k.",
+          "id": "Sisa pekannya: Donnerstag, Freitag, Samstag, Sonntag. Huruf g di akhir nama hari dibaca k."
+        }
+      },
+      {
+        "id": "de09n5",
+        "target": "Am Montag arbeite ich.",
+        "translit": "am MOHN-tahk AR-by-teh iç",
+        "tr": {
+          "ar": "أعمل يوم الاثنين.",
+          "en": "On Monday I work.",
+          "id": "Pada hari Senin saya bekerja."
+        },
+        "example": {
+          "target": "Am Samstag habe ich Zeit.",
+          "translit": "am ZAM-stahk HAH-beh iç tsite",
+          "tr": {
+            "ar": "يوم السبت عندي وقت.",
+            "en": "On Saturday I have time.",
+            "id": "Pada hari Sabtu saya punya waktu."
+          }
+        },
+        "hint": {
+          "ar": "مع اليوم نقول am. والفعل بعد am Montag مباشرة، ثم ich. وs في Samstag تُنطق «z».",
+          "en": "With a day say am. The verb comes right after am Montag, then ich. The s in Samstag is z.",
+          "id": "Dengan hari dipakai am. Kata kerja langsung setelah am Montag, lalu ich. Huruf s pada Samstag dibaca z."
+        }
+      },
+      {
+        "id": "de09n6",
+        "target": "Um acht Uhr frühstücke ich.",
+        "translit": "um akht oor FREW-shtew-keh iç",
+        "tr": {
+          "ar": "أتناول الفطور في الساعة الثامنة.",
+          "en": "At eight o'clock I have breakfast.",
+          "id": "Pukul delapan saya sarapan."
+        },
+        "example": {
+          "target": "Um wie viel Uhr?",
+          "translit": "um vee feel oor",
+          "tr": {
+            "ar": "في أي ساعة؟",
+            "en": "At what time?",
+            "id": "Pukul berapa?"
+          }
+        },
+        "hint": {
+          "ar": "مع الساعة نقول um. و«ü» في frühstücke تُنطق «ew»، وst داخل الكلمة «st».",
+          "en": "With clock times say um. The ü in frühstücke is ew and st inside a word is st.",
+          "id": "Dengan jam dipakai um. Huruf ü pada frühstücke dibaca ew dan st di dalam kata dibaca st."
+        }
+      }
+    ],
+    "cloze": [
+      {
+        "sentence": "Wie ___ ist es?",
+        "answer": "spät",
+        "wrong": [
+          "heißt",
+          "gern"
+        ],
+        "tr": {
+          "ar": "كم الساعة؟",
+          "en": "What time is it?",
+          "id": "Jam berapa sekarang?"
+        },
+        "why": {
+          "ar": "السؤال عن الوقت هو «Wie spät ist es?». أما heißt فللاسم وgern بمعنى «بسرور».",
+          "en": "The question about the time is Wie spät ist es? Heißt is for names and gern means gladly.",
+          "id": "Pertanyaan tentang jam adalah Wie spät ist es? Heißt untuk nama dan gern berarti dengan senang hati."
+        }
+      },
+      {
+        "sentence": "Heute ___ ich Zeit.",
+        "answer": "habe",
+        "wrong": [
+          "bin",
+          "hat"
+        ],
+        "tr": {
+          "ar": "اليوم عندي وقت.",
+          "en": "Today I have time.",
+          "id": "Hari ini saya punya waktu."
+        },
+        "why": {
+          "ar": "الفعل في المرتبة الثانية بعد Heute، والفاعل ich ثم: habe. أما bin فلا يناسب Zeit وhat مع er أو sie.",
+          "en": "The verb is in second place after Heute, then the subject ich: habe. Bin does not fit Zeit, and hat goes with er or sie.",
+          "id": "Kata kerja berada di posisi kedua setelah Heute, lalu subjek ich: habe. Bin tidak cocok dengan Zeit dan hat untuk er atau sie."
+        }
+      }
+    ],
+    "conversation": {
+      "context": {
+        "ar": "تسأل شخصًا عن الوقت في محطة القطار.",
+        "en": "You ask someone the time at the train station.",
+        "id": "Kamu menanyakan jam kepada seseorang di stasiun."
+      },
+      "turns": [
+        {
+          "who": "A",
+          "target": "Entschuldigung, wie spät ist es?",
+          "tr": {
+            "ar": "المعذرة، كم الساعة؟",
+            "en": "Excuse me, what time is it?",
+            "id": "Permisi, jam berapa sekarang?"
+          }
+        },
+        {
+          "who": "B",
+          "target": "Es ist halb vier.",
+          "tr": {
+            "ar": "الساعة الثالثة والنصف.",
+            "en": "It is half past three.",
+            "id": "Pukul tiga lewat tiga puluh."
+          }
+        },
+        {
+          "who": "A",
+          "target": "Danke schön!",
+          "tr": {
+            "ar": "شكرًا جزيلًا!",
+            "en": "Thank you very much!",
+            "id": "Terima kasih banyak!"
+          }
+        }
+      ],
+      "gap": 1,
+      "wrong": [
+        "Heute ist Montag.",
+        "Ich bin zwanzig Jahre alt."
+      ],
+      "why": {
+        "ar": "السؤال عن الساعة فنجيب بالساعة. اليوم أو العمر لا يجيبان عن «wie spät».",
+        "en": "The question is about the hour, so you answer with the time. A day or an age does not answer wie spät.",
+        "id": "Pertanyaannya tentang jam, jadi dijawab dengan jam. Hari atau usia tidak menjawab wie spät."
+      }
+    },
+    "summary": {
+      "ar": "تعلّمت أن تقول الساعة وأيام الأسبوع وأن تُبقي الفعل في المرتبة الثانية. تذكّر أن halb vier هي 3:30.",
+      "en": "You learned to tell the time, name the days and keep the verb second. Remember that halb vier is 3:30.",
+      "id": "Kamu belajar menyebutkan jam, nama hari, dan menjaga kata kerja di posisi kedua. Ingat, halb vier berarti 3.30."
+    }
+  },
+  {
+    "id": "de-10",
+    "track": "de",
+    "level": "elementary",
+    "order": 10,
+    "topic": "health-emergencies",
+    "icon": "🩺",
+    "title": {
+      "ar": "الصحة والمساعدة والطوارئ",
+      "en": "Health, Help and Emergencies",
+      "id": "Kesehatan, Bantuan, dan Darurat"
+    },
+    "description": {
+      "ar": "قل ما تشعر به واطلب المساعدة عند الحاجة.",
+      "en": "Say how you feel and ask for help when you need it.",
+      "id": "Sebutkan keluhanmu dan minta bantuan saat dibutuhkan."
+    },
+    "objectives": [
+      {
+        "ar": "أستطيع أن أقول «Ich habe Kopfschmerzen» و«Mir tut ... weh».",
+        "en": "I can say Ich habe Kopfschmerzen and Mir tut ... weh.",
+        "id": "Saya bisa mengatakan Ich habe Kopfschmerzen dan Mir tut ... weh."
+      },
+      {
+        "ar": "أستطيع أن أطلب المساعدة وطبيبًا.",
+        "en": "I can ask for help and for a doctor.",
+        "id": "Saya bisa meminta bantuan dan dokter."
+      },
+      {
+        "ar": "أستطيع أن أستخدم nicht للنفي.",
+        "en": "I can use nicht to say no.",
+        "id": "Saya bisa memakai nicht untuk menyangkal."
+      }
+    ],
+    "intro": {
+      "ar": "من المهم أن تعرف كيف تطلب المساعدة وأن تصف ما تشعر به. في هذا الدرس تتعلم عبارات للمرض والطوارئ. وتتعلم أيضًا كلمة nicht التي تنفي الجملة.",
+      "en": "It is important to know how to ask for help and describe how you feel. In this lesson you learn phrases for illness and emergencies. You also learn nicht, the word that makes a sentence negative.",
+      "id": "Penting untuk tahu cara meminta bantuan dan menjelaskan keluhan. Di pelajaran ini kamu belajar ungkapan untuk sakit dan keadaan darurat. Kamu juga belajar nicht, kata yang menegasikan kalimat."
+    },
+    "culture": {
+      "ar": "رقم الطوارئ في ألمانيا هو 112 للإسعاف والإطفاء، و110 للشرطة. وفي ألمانيا تذهب أولًا إلى طبيب الأسرة (Hausarzt) الذي يحوّلك إلى الاختصاصي عند الحاجة. وكثير من الصيدليات (Apotheke) تقدّم نصائح مجانية.",
+      "en": "The emergency number in Germany is 112 for ambulance and fire, and 110 for the police. You usually see a family doctor (Hausarzt) first, who sends you to a specialist if needed. Many pharmacies (Apotheke) give free advice.",
+      "id": "Nomor darurat di Jerman adalah 112 untuk ambulans dan pemadam kebakaran, dan 110 untuk polisi. Biasanya kamu ke dokter keluarga (Hausarzt) dulu, yang merujuk ke spesialis bila perlu. Banyak apotek (Apotheke) memberi saran gratis."
+    },
+    "grammar": {
+      "title": {
+        "ar": "Ich habe ... وMir tut ... weh وnicht",
+        "en": "Ich habe ..., Mir tut ... weh and nicht",
+        "id": "Ich habe ..., Mir tut ... weh, dan nicht"
+      },
+      "body": {
+        "ar": "لوصف الألم نقول «Ich habe Kopfschmerzen» أو «Mir tut der Bauch weh» (حرفيًا «البطن يؤلمني»). في الثانية يأتي الاسم مع أداة التعريف: der Bauch وder Kopf وder Rücken. وننفي بوضع nicht بعد الفعل وقبل الصفة: «Ich fühle mich nicht gut». وفي الطوارئ نقول «Hilfe!» ونطلب «Rufen Sie einen Krankenwagen!» (Sie).",
+        "en": "To describe pain you say Ich habe Kopfschmerzen or Mir tut der Bauch weh (literally the stomach hurts me). In the second form the noun comes with its article: der Bauch, der Kopf, der Rücken. You make a sentence negative with nicht, placed after the verb and before the adjective: Ich fühle mich nicht gut. In an emergency you say Hilfe! and ask Rufen Sie einen Krankenwagen! (Sie form).",
+        "id": "Untuk menyebut rasa sakit kita berkata Ich habe Kopfschmerzen atau Mir tut der Bauch weh (secara harfiah perut menyakiti saya). Pada bentuk kedua kata benda memakai kata sandangnya: der Bauch, der Kopf, der Rücken. Kita menegasikan kalimat dengan nicht, ditaruh setelah kata kerja dan sebelum kata sifat: Ich fühle mich nicht gut. Dalam keadaan darurat katakan Hilfe! dan minta Rufen Sie einen Krankenwagen! (bentuk Sie)."
+      }
+    },
+    "items": [
+      {
+        "id": "de10n1",
+        "target": "Ich habe Kopfschmerzen.",
+        "translit": "iç HAH-beh KOPF-shmer-tsen",
+        "tr": {
+          "ar": "عندي صداع.",
+          "en": "I have a headache.",
+          "id": "Saya sakit kepala."
+        },
+        "example": {
+          "target": "Ich habe Halsschmerzen.",
+          "translit": "iç HAH-beh HALS-shmer-tsen",
+          "tr": {
+            "ar": "عندي ألم في الحلق.",
+            "en": "I have a sore throat.",
+            "id": "Saya sakit tenggorokan."
+          }
+        },
+        "hint": {
+          "ar": "Schmerzen جمع ويأتي بعد haben. وz تُنطق «ts» وsch «ش». ويمكنك استبدال Kopf بـ Zahn (سن) أو Rücken.",
+          "en": "Schmerzen is plural and comes after haben. Z is ts and sch is sh. You can replace Kopf with Zahn (tooth) or Rücken.",
+          "id": "Schmerzen berbentuk jamak dan datang setelah haben. Z dibaca ts dan sch dibaca sy. Kopf bisa diganti Zahn (gigi) atau Rücken."
+        }
+      },
+      {
+        "id": "de10n2",
+        "target": "Mir tut der Bauch weh.",
+        "translit": "meer toot dair bowkh vay",
+        "tr": {
+          "ar": "بطني يؤلمني.",
+          "en": "My stomach hurts.",
+          "id": "Perut saya sakit."
+        },
+        "example": {
+          "target": "Mir tut der Rücken weh.",
+          "translit": "meer toot dair REW-ken veh",
+          "tr": {
+            "ar": "ظهري يؤلمني.",
+            "en": "My back hurts.",
+            "id": "Punggung saya sakit."
+          }
+        },
+        "hint": {
+          "ar": "Mir للشخص الذي يتألم. وau تُنطق «ow» وch بعد au «kh». ونقول der Bauch وليس mein Bauch.",
+          "en": "Mir is the person who hurts. Au is ow and ch after au is kh. You say der Bauch, not mein Bauch.",
+          "id": "Mir adalah orang yang merasa sakit. Au dibaca ow dan ch setelah au dibaca kh. Katakan der Bauch, bukan mein Bauch."
+        }
+      },
+      {
+        "id": "de10n3",
+        "target": "Ich brauche einen Arzt.",
+        "translit": "iç BROW-kheh EYE-nen artst",
+        "tr": {
+          "ar": "أحتاج إلى طبيب.",
+          "en": "I need a doctor.",
+          "id": "Saya butuh dokter."
+        },
+        "example": {
+          "target": "Ich brauche eine Ärztin.",
+          "translit": "iç BROW-kheh EYE-neh EHRTS-tin",
+          "tr": {
+            "ar": "أحتاج إلى طبيبة.",
+            "en": "I need a (female) doctor.",
+            "id": "Saya butuh dokter perempuan."
+          }
+        },
+        "hint": {
+          "ar": "Arzt مذكّر لذلك einen. وللطبيبة: Ärztin. وz تُنطق «ts».",
+          "en": "Arzt is masculine, so einen. A woman doctor is Ärztin. Z is ts.",
+          "id": "Arzt maskulin sehingga einen. Dokter perempuan adalah Ärztin. Z dibaca ts."
+        }
+      },
+      {
+        "id": "de10n4",
+        "target": "Hilfe!",
+        "translit": "HIL-feh",
+        "tr": {
+          "ar": "النجدة!",
+          "en": "Help!",
+          "id": "Tolong!"
+        },
+        "example": {
+          "target": "Hilfe! Ich brauche Hilfe!",
+          "translit": "HIL-feh iç BROW-kheh HIL-feh",
+          "tr": {
+            "ar": "النجدة! أحتاج إلى مساعدة!",
+            "en": "Help! I need help!",
+            "id": "Tolong! Saya butuh bantuan!"
+          }
+        },
+        "hint": {
+          "ar": "تُقال في الخطر الحقيقي. وللموقف الأخف: «Können Sie mir helfen?» أي هل تستطيع مساعدتي.",
+          "en": "Used in real danger. For a milder situation: Können Sie mir helfen? meaning can you help me.",
+          "id": "Dipakai saat bahaya nyata. Untuk situasi yang lebih ringan: Können Sie mir helfen? artinya bisakah Anda membantu saya."
+        }
+      },
+      {
+        "id": "de10n5",
+        "target": "Ich fühle mich nicht gut.",
+        "translit": "iç FEW-leh miç niçt goot",
+        "tr": {
+          "ar": "لا أشعر أنني بخير.",
+          "en": "I do not feel well.",
+          "id": "Saya tidak enak badan."
+        },
+        "example": {
+          "target": "Das ist nicht gut.",
+          "translit": "dass ist niçt goot",
+          "tr": {
+            "ar": "هذا ليس جيدًا.",
+            "en": "That is not good.",
+            "id": "Itu tidak baik."
+          }
+        },
+        "hint": {
+          "ar": "nicht تأتي بعد الفعل وقبل الصفة. وü تُنطق «ew» وch بعد i «ç».",
+          "en": "Nicht comes after the verb and before the adjective. Ü is ew and ch after i is ç.",
+          "id": "Nicht datang setelah kata kerja dan sebelum kata sifat. Ü dibaca ew dan ch setelah i dibaca ç."
+        }
+      },
+      {
+        "id": "de10n6",
+        "target": "Rufen Sie bitte einen Krankenwagen!",
+        "translit": "ROO-fen zee BIT-teh EYE-nen KRAN-ken-vah-gen",
+        "tr": {
+          "ar": "اطلبوا سيارة إسعاف من فضلكم!",
+          "en": "Please call an ambulance!",
+          "id": "Tolong panggil ambulans!"
+        },
+        "example": {
+          "target": "Rufen Sie die Polizei!",
+          "translit": "ROO-fen zee dee poh-lee-TSYE",
+          "tr": {
+            "ar": "اتصلوا بالشرطة!",
+            "en": "Call the police!",
+            "id": "Panggil polisi!"
+          }
+        },
+        "hint": {
+          "ar": "أمر مهذب بصيغة Sie. Krankenwagen مذكّر لذلك einen. وw تُنطق «v».",
+          "en": "A polite Sie command. Krankenwagen is masculine, so einen. W is v.",
+          "id": "Perintah sopan dengan Sie. Krankenwagen maskulin sehingga einen. W dibaca v."
+        }
+      }
+    ],
+    "cloze": [
+      {
+        "sentence": "Ich ___ Kopfschmerzen.",
+        "answer": "habe",
+        "wrong": [
+          "bin",
+          "tut"
+        ],
+        "tr": {
+          "ar": "عندي صداع.",
+          "en": "I have a headache.",
+          "id": "Saya sakit kepala."
+        },
+        "why": {
+          "ar": "نقول «Ich habe Kopfschmerzen». أما bin فلا تناسب Schmerzen وtut لا تأتي مع ich.",
+          "en": "You say Ich habe Kopfschmerzen. Bin does not fit Schmerzen, and tut does not go with ich.",
+          "id": "Katakan Ich habe Kopfschmerzen. Bin tidak cocok dengan Schmerzen dan tut tidak dipakai dengan ich."
+        }
+      },
+      {
+        "sentence": "Mir ___ der Rücken weh.",
+        "answer": "tut",
+        "wrong": [
+          "habe",
+          "bin"
+        ],
+        "tr": {
+          "ar": "ظهري يؤلمني.",
+          "en": "My back hurts.",
+          "id": "Punggung saya sakit."
+        },
+        "why": {
+          "ar": "التركيب الثابت هو «Mir tut ... weh». habe وbin لا يدخلان فيه.",
+          "en": "The fixed pattern is Mir tut ... weh. Habe and bin do not belong in it.",
+          "id": "Polanya tetap: Mir tut ... weh. Habe dan bin tidak masuk di dalamnya."
+        }
+      }
+    ],
+    "conversation": {
+      "context": {
+        "ar": "أنت في عيادة الطبيب.",
+        "en": "You are at the doctor's office.",
+        "id": "Kamu berada di ruang dokter."
+      },
+      "turns": [
+        {
+          "who": "A",
+          "target": "Guten Tag! Wie geht es Ihnen?",
+          "tr": {
+            "ar": "مرحبًا! كيف حالكم؟",
+            "en": "Hello! How are you?",
+            "id": "Selamat siang! Bagaimana kabar Anda?"
+          }
+        },
+        {
+          "who": "B",
+          "target": "Nicht gut. Ich habe Kopfschmerzen.",
+          "tr": {
+            "ar": "لست بخير. عندي صداع.",
+            "en": "Not good. I have a headache.",
+            "id": "Kurang baik. Saya sakit kepala."
+          }
+        },
+        {
+          "who": "A",
+          "target": "Gute Besserung!",
+          "tr": {
+            "ar": "الشفاء العاجل!",
+            "en": "Get well soon!",
+            "id": "Semoga lekas sembuh!"
+          }
+        }
+      ],
+      "gap": 1,
+      "wrong": [
+        "Ich möchte einen Kaffee.",
+        "Es ist halb vier."
+      ],
+      "why": {
+        "ar": "سأل الطبيب عن حالنا فنصف الحالة. طلب القهوة أو الساعة لا يجيبان عن السؤال.",
+        "en": "The doctor asked how you are, so you describe your condition. Ordering coffee or the time does not answer.",
+        "id": "Dokter menanyakan keadaan kita, jadi kita menjelaskan keluhan. Memesan kopi atau menyebut jam tidak menjawab."
+      }
+    },
+    "summary": {
+      "ar": "تعلّمت أن تصف الألم وتطلب المساعدة وتستخدم nicht. تذكّر 112 للطوارئ.",
+      "en": "You learned to describe pain, ask for help and use nicht. Remember 112 for emergencies.",
+      "id": "Kamu belajar menjelaskan rasa sakit, meminta bantuan, dan memakai nicht. Ingat 112 untuk darurat."
+    }
+  }
+]

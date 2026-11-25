@@ -1,5 +1,8 @@
 # Changelog
 
+## Unreleased (German and Tagalog)
+- Two new Beta courses, 30 lessons each (about 240 words, A1-A2, in Arabic, English and Indonesian): German (`de`) and Tagalog (`tl`). Own colours, names, audio sets (`de`/`den`, `tln`), hosting cache rules, admin-switch migration `013_content_switch_de_tl.sql` (run it in Supabase) and tests. Written by one pass and corrected by an independent reviewer per file; not native-reviewed. ElevenLabs clips: German 516 (`den`) plus macOS Anna 516 (`de`), Tagalog 508 (`tln`). First-screen bundle is now 159.1 of 160 kB, so the next feature must make room first.
+
 ## Unreleased (English, French, Spanish clips)
 - Generated the ElevenLabs clips for the English (558), French (620) and Spanish (655) courses (`public/audio/enn/`, `frn/`, `esn/`); each course falls back to its macOS clips, then the device voice. 324 unit tests pass.
 

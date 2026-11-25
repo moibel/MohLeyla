@@ -7,7 +7,7 @@ import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
-const NAMES = { eg: 'Egyptian Arabic', fr: 'French', es: 'Spanish', zh: 'Chinese (Mandarin)' };
+const NAMES = { eg: 'Egyptian Arabic', fr: 'French', es: 'Spanish', zh: 'Chinese (Mandarin)', de: 'German', tl: 'Tagalog' };
 const out = path.join(root, 'docs/native-review');
 fs.mkdirSync(out, { recursive: true });
 const cell = (s) => String(s ?? '').replace(/\|/g, '\\|').replace(/\n/g, ' ');

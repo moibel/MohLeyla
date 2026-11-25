@@ -43,7 +43,7 @@ test.describe('learning flow & progress', () => {
     expect(Object.keys((await page.evaluate(state)).saved)).toContain(lesson.items[0].id);
   });
 
-  test('every lesson page loads (all 240)', async ({ page }) => {
+  test('every lesson page loads (all 300)', async ({ page }) => {
     test.setTimeout(600_000);
     test.setTimeout(480_000);
     await seed(page, { lang: 'en' });
@@ -89,7 +89,7 @@ test.describe('legacy progress migration', () => {
     await seed(page, { lang: 'id', legacy: { completed: ['ar-01', 'en-02', 'id-03'], saved: ['a1', 'e5', 'idx031'], xp: 150 } });
     await page.goto('/progress');
     await expect(page.locator('.stat-xp')).toContainText('150');
-    await expect(page.locator('.progress-hero')).toContainText('3 / 240');
+    await expect(page.locator('.progress-hero')).toContainText('3 / 300');
     const s = await page.evaluate(state);
     expect(Object.keys(s.completed).sort()).toEqual(['ar-01', 'en-02', 'id-03']);
     expect(Object.keys(s.saved).sort()).toEqual(['a1', 'e5', 'idx031']);

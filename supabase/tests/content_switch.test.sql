@@ -70,7 +70,7 @@ begin
 
   res := zz_test.try($q$select public.admin_set_content_enabled('course', 'ar', false)$q$);
   perform zz_test.chk('an unknown kind is rejected', res = 'err:22023', res);
-  res := zz_test.try($q$select public.admin_set_content_enabled('track', 'de', false)$q$);
+  res := zz_test.try($q$select public.admin_set_content_enabled('track', 'xx', false)$q$);
   perform zz_test.chk('an unknown path is rejected', res = 'err:22023', res);
   res := zz_test.try($q$select public.admin_set_content_enabled('lesson', 'ar-1', false)$q$);
   perform zz_test.chk('a malformed lesson id is rejected', res = 'err:22023', res);
@@ -92,8 +92,13 @@ begin
   perform public.admin_set_content_enabled('lesson', 'fr-05', true);
   perform public.admin_set_content_enabled('lesson', 'eg-10', true);
   perform public.admin_set_content_enabled('track', 'es', true);
+  perform public.admin_set_content_enabled('track', 'de', false);
+  perform public.admin_set_content_enabled('lesson', 'tl-07', false);
+  perform zz_test.chk('the German and Tagalog paths and lessons can be hidden', (select count(*) from public.content_disabled() where key in ('de', 'tl-07')) = 2);
+  perform public.admin_set_content_enabled('track', 'de', true);
+  perform public.admin_set_content_enabled('lesson', 'tl-07', true);
   perform zz_test.chk('and shown again', (select count(*) from public.content_disabled()) = 2);
-  res := zz_test.try($q$select public.admin_set_content_enabled('track', 'de', false)$q$);
+  res := zz_test.try($q$select public.admin_set_content_enabled('track', 'xx', false)$q$);
   perform zz_test.chk('a path that does not exist is still rejected', res = 'err:22023', res);
 
   execute 'reset role'; perform zz_test.as_user(s1);

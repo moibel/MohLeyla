@@ -1,0 +1,2970 @@
+[
+  {
+    "id": "tl-01",
+    "track": "tl",
+    "level": "beginner",
+    "order": 1,
+    "topic": "sounds-of-tagalog",
+    "icon": "🔊",
+    "title": {
+      "ar": "أصوات اللغة التاغالوغية",
+      "en": "The Sounds of Tagalog",
+      "id": "Bunyi Bahasa Tagalog"
+    },
+    "description": {
+      "ar": "تعرّف على الحروف المتحركة الخمسة وصوت «ng» والوقفة الحنجرية ومكان النبر.",
+      "en": "Meet the five vowels, the ng sound, the glottal stop and word stress.",
+      "id": "Kenali lima vokal, bunyi ng, hentian glotis, dan tekanan kata."
+    },
+    "objectives": [
+      {
+        "ar": "أستطيع نطق الحروف المتحركة الخمسة نطقًا ثابتًا.",
+        "en": "I can say the five vowels the same way every time.",
+        "id": "Saya bisa mengucapkan lima vokal dengan bunyi yang tetap."
+      },
+      {
+        "ar": "أستطيع نطق «ng» في أول الكلمة مثل «ngayon».",
+        "en": "I can say ng at the start of a word, as in ngayon.",
+        "id": "Saya bisa mengucapkan ng di awal kata, seperti pada ngayon."
+      },
+      {
+        "ar": "أعرف أن النبر والوقفة الحنجرية جزء من نطق الكلمة.",
+        "en": "I know that stress and the glottal stop are part of how a word sounds.",
+        "id": "Saya tahu bahwa tekanan dan hentian glotis adalah bagian dari bunyi sebuah kata."
+      }
+    ],
+    "intro": {
+      "ar": "الكتابة في التاغالوغية قريبة جدًا من النطق، وهذا يجعل البداية سهلة. كل حرف متحرك يُنطق دائمًا بالطريقة نفسها، وأغلب الكلمات تُقرأ كما تُكتب. في هذا الدرس نتعلم ثماني كلمات حقيقية تُظهر الأصوات المهمة. استمع أولًا ثم كرّر بصوت عالٍ.",
+      "en": "Tagalog spelling is very close to its sound, which makes it easy to start. Each vowel is always said the same way, and most words are read as they are written. In this lesson eight real words show the important sounds. Listen first, then repeat out loud.",
+      "id": "Ejaan bahasa Tagalog sangat dekat dengan bunyinya, jadi mudah untuk memulai. Setiap vokal selalu diucapkan dengan cara yang sama, dan sebagian besar kata dibaca sesuai tulisannya. Di pelajaran ini delapan kata nyata menunjukkan bunyi-bunyi penting. Dengarkan dulu, lalu ulangi dengan suara keras."
+    },
+    "culture": {
+      "ar": "التاغالوغية هي أساس اللغة الفلبينية (Filipino) وهي اللغة الوطنية، وتُكتب بالحروف اللاتينية. ويخلط الناس في مانيلا الإنجليزية بالتاغالوغية كثيرًا، ويفرحون عندما يحاول الزائر قول بضع كلمات بلغتهم. لا تخف من الخطأ.",
+      "en": "Tagalog is the base of Filipino, the national language, and it is written in the Latin alphabet. People in Manila also mix in a lot of English, and they are delighted when a visitor tries a few words in their language. Do not be afraid of mistakes.",
+      "id": "Tagalog menjadi dasar bahasa Filipino, bahasa nasional, dan ditulis dengan alfabet Latin. Orang di Manila juga sering mencampur bahasa Inggris, dan mereka senang ketika pengunjung mencoba beberapa kata bahasa mereka. Jangan takut salah."
+    },
+    "grammar": {
+      "title": {
+        "ar": "الحروف المتحركة و«ng» والوقفة الحنجرية",
+        "en": "Vowels, ng and the glottal stop",
+        "id": "Vokal, ng, dan hentian glotis"
+      },
+      "body": {
+        "ar": "في التاغالوغية خمسة حروف متحركة: a وe وi وo وu، وتُنطق دائمًا بالطريقة نفسها: a مثل الفتحة الطويلة، وi مثل الكسرة الطويلة، وu مثل الضمة الطويلة. الحرفان «ng» يمثلان صوتًا واحدًا كالنون الأنفية في «sing»، وقد يأتي في أول الكلمة مثل «ngayon». وبعض الكلمات تنتهي بوقفة قصيرة في الحلق تشبه الهمزة، وتُسمع في وسط «oo». أما النبر فيُكتب هنا بحروف كبيرة: «nga-YON».",
+        "en": "Tagalog has five vowels: a, e, i, o, u, and each one is said the same way every time: a as in father, i as in see, u as in too. The letters ng make one sound, like the end of sing, and it can start a word: ngayon. Some words end with a tiny catch in the throat, the glottal stop, which you can hear in the middle of oo. Stress is shown here in capitals: nga-YON.",
+        "id": "Tagalog punya lima vokal: a, e, i, o, u, dan masing-masing selalu diucapkan dengan cara yang sama, seperti dalam bahasa Indonesia. Huruf ng mewakili satu bunyi, seperti ng pada kata nganga, dan bisa berada di awal kata: ngayon. Sebagian kata memiliki hentian kecil di tenggorokan (hentian glotis), yang terdengar di tengah kata oo. Tekanan kata ditulis di sini dengan huruf kapital: nga-YON."
+      }
+    },
+    "items": [
+      {
+        "id": "tl01n1",
+        "target": "ngayon",
+        "translit": "nga-YON",
+        "tr": {
+          "ar": "الآن، اليوم",
+          "en": "now, today",
+          "id": "sekarang, hari ini"
+        },
+        "example": {
+          "target": "Mabuti ako ngayon.",
+          "translit": "ma-BU-ti A-ko nga-YON",
+          "tr": {
+            "ar": "أنا بخير اليوم.",
+            "en": "I am fine today.",
+            "id": "Saya baik-baik saja hari ini."
+          }
+        },
+        "hint": {
+          "ar": "ابدأ بنطق «ng» كما في آخر كلمة «sing» ثم ضع بعده «a». النبر على المقطع الأخير.",
+          "en": "Start with the ng of sing, then add a. The stress is on the last syllable.",
+          "id": "Mulailah dengan bunyi ng seperti di akhir kata sing, lalu tambahkan a. Tekanan ada pada suku kata terakhir."
+        }
+      },
+      {
+        "id": "tl01n2",
+        "target": "oo",
+        "translit": "o-OH",
+        "tr": {
+          "ar": "نعم (بصيغة غير رسمية)",
+          "en": "yes (informal)",
+          "id": "ya (tidak resmi)"
+        },
+        "example": {
+          "target": "Oo, salamat.",
+          "translit": "o-OH sa-la-MAT",
+          "tr": {
+            "ar": "نعم، شكرًا.",
+            "en": "Yes, thank you.",
+            "id": "Ya, terima kasih."
+          }
+        },
+        "hint": {
+          "ar": "بين الحرفين o وقفة حنجرية قصيرة مثل التي في «uh-oh». مع الكبار والغرباء نقول «opo» (الدرس 2).",
+          "en": "There is a tiny glottal stop between the two o sounds, like uh-oh. With elders and strangers say opo (lesson 2).",
+          "id": "Ada hentian glotis pendek di antara dua bunyi o, seperti pada uh-oh. Dengan orang yang lebih tua dan orang asing, katakan opo (pelajaran 2)."
+        }
+      },
+      {
+        "id": "tl01n3",
+        "target": "bahay",
+        "translit": "BA-hay",
+        "tr": {
+          "ar": "بيت",
+          "en": "house, home",
+          "id": "rumah"
+        },
+        "example": {
+          "target": "Maganda ang bahay.",
+          "translit": "ma-GAN-da ang BA-hay",
+          "tr": {
+            "ar": "البيت جميل.",
+            "en": "The house is beautiful.",
+            "id": "Rumahnya bagus."
+          }
+        },
+        "hint": {
+          "ar": "النبر على المقطع الأول. «ay» في النهاية تُنطق مثل «آي» (كما في eye). حرف h يُنطق بوضوح.",
+          "en": "The stress is on the first syllable. The ay at the end sounds like eye. The h is clearly pronounced.",
+          "id": "Tekanan ada pada suku kata pertama. Ay di akhir terdengar seperti ai. Huruf h diucapkan dengan jelas."
+        }
+      },
+      {
+        "id": "tl01n4",
+        "target": "araw",
+        "translit": "A-raw",
+        "tr": {
+          "ar": "يوم، شمس",
+          "en": "day, sun",
+          "id": "hari, matahari"
+        },
+        "example": {
+          "target": "Magandang araw po.",
+          "translit": "ma-gan-DANG A-raw po",
+          "tr": {
+            "ar": "يومٌ سعيد.",
+            "en": "Good day.",
+            "id": "Selamat siang."
+          }
+        },
+        "hint": {
+          "ar": "حرف r يُنطق بنقرة خفيفة من اللسان كما في العربية «ر» المنقورة. و«aw» تُنطق مثل «آو».",
+          "en": "The r is a quick tap of the tongue, like the Arabic ر or the Indonesian r. The aw sounds like ow.",
+          "id": "Huruf r diucapkan dengan satu sentuhan cepat lidah, seperti r dalam bahasa Indonesia. Aw terdengar seperti au."
+        }
+      },
+      {
+        "id": "tl01n5",
+        "target": "salamat",
+        "translit": "sa-la-MAT",
+        "tr": {
+          "ar": "شكرًا",
+          "en": "thank you",
+          "id": "terima kasih"
+        },
+        "example": {
+          "target": "Salamat po.",
+          "translit": "sa-la-MAT po",
+          "tr": {
+            "ar": "شكرًا لك (بأدب).",
+            "en": "Thank you (politely).",
+            "id": "Terima kasih (sopan)."
+          }
+        },
+        "hint": {
+          "ar": "النبر على المقطع الأخير. الكلمة من أصل عربي («سلامة») عبر الملايو، لذلك قد تبدو مألوفة. أضف «po» للاحترام.",
+          "en": "The stress falls on the last syllable. The word comes from Arabic salāma via Malay, so Arabic speakers may find it familiar. Add po for respect.",
+          "id": "Tekanan ada pada suku kata terakhir. Kata ini berasal dari bahasa Arab lewat bahasa Melayu (mirip selamat), tetapi dalam bahasa Tagalog artinya terima kasih. Tambahkan po untuk sopan santun."
+        }
+      },
+      {
+        "id": "tl01n6",
+        "target": "pusa",
+        "translit": "PU-sa",
+        "tr": {
+          "ar": "قطة",
+          "en": "cat",
+          "id": "kucing"
+        },
+        "example": {
+          "target": "Nasa bahay ang pusa.",
+          "translit": "NA-sa BA-hay ang PU-sa",
+          "tr": {
+            "ar": "القطة في البيت.",
+            "en": "The cat is at home.",
+            "id": "Kucing itu ada di rumah."
+          }
+        },
+        "hint": {
+          "ar": "حرف u يُنطق كالضمة الطويلة «و» في «pool». النبر على المقطع الأول.",
+          "en": "The u sounds like oo in pool. The stress is on the first syllable.",
+          "id": "Huruf u diucapkan seperti u dalam kata Indonesia buku. Tekanan ada pada suku kata pertama."
+        }
+      },
+      {
+        "id": "tl01n7",
+        "target": "aso",
+        "translit": "A-so",
+        "tr": {
+          "ar": "كلب",
+          "en": "dog",
+          "id": "anjing"
+        },
+        "example": {
+          "target": "Nasa bahay ang aso.",
+          "translit": "NA-sa BA-hay ang A-so",
+          "tr": {
+            "ar": "الكلب في البيت.",
+            "en": "The dog is at home.",
+            "id": "Anjing itu ada di rumah."
+          }
+        },
+        "hint": {
+          "ar": "الحرف s صافٍ كما في الإنجليزية، والنبر على «A». لا تنطق «o» مثل «ow»، بل مثل «و» قصيرة.",
+          "en": "The s is a clean s and the stress is on A. Say the o as a plain short o, never as ow.",
+          "id": "Huruf s diucapkan bersih dan tekanan ada pada A. Ucapkan o sebagai o pendek yang biasa."
+        }
+      },
+      {
+        "id": "tl01n8",
+        "target": "mabuti",
+        "translit": "ma-BU-ti",
+        "tr": {
+          "ar": "جيد، بخير",
+          "en": "good, fine",
+          "id": "baik"
+        },
+        "example": {
+          "target": "Mabuti po, salamat.",
+          "translit": "ma-BU-ti po sa-la-MAT",
+          "tr": {
+            "ar": "بخير، شكرًا.",
+            "en": "Fine, thank you.",
+            "id": "Baik, terima kasih."
+          }
+        },
+        "hint": {
+          "ar": "النبر على «BU». الحروف المتحركة نقية ومتساوية: لا تمدّ «i» في النهاية.",
+          "en": "The stress is on BU. The vowels stay pure and even, so do not stretch the final i.",
+          "id": "Tekanan ada pada BU. Vokalnya murni dan rata, jadi jangan memanjangkan i di akhir."
+        }
+      }
+    ],
+    "cloze": [
+      {
+        "sentence": "Nasa bahay ang pusa at ang ___.",
+        "answer": "aso",
+        "wrong": [
+          "araw",
+          "mabuti"
+        ],
+        "tr": {
+          "ar": "القطة والكلب في البيت.",
+          "en": "The cat and the dog are at home.",
+          "id": "Kucing dan anjing ada di rumah."
+        },
+        "why": {
+          "ar": "«aso» حيوان مثل «pusa» فيصح أن يكون في البيت. «araw» (يوم/شمس) و«mabuti» (جيد) لا يناسبان الجملة.",
+          "en": "Aso is an animal like pusa, so it can be at home. Araw (day, sun) and mabuti (good) do not fit the sentence.",
+          "id": "Aso adalah hewan seperti pusa, jadi bisa ada di rumah. Araw (hari, matahari) dan mabuti (baik) tidak cocok dalam kalimat ini."
+        }
+      },
+      {
+        "sentence": "___ po.",
+        "answer": "Salamat",
+        "wrong": [
+          "Bahay",
+          "Pusa"
+        ],
+        "tr": {
+          "ar": "شكرًا (بأدب).",
+          "en": "Thank you (politely).",
+          "id": "Terima kasih (sopan)."
+        },
+        "why": {
+          "ar": "«Salamat po» عبارة شكر مهذبة. «Bahay» و«pusa» اسمان ولا يصلحان للشكر.",
+          "en": "Salamat po is the polite way to say thanks. Bahay and pusa are nouns and cannot thank anyone.",
+          "id": "Salamat po adalah cara sopan untuk berterima kasih. Bahay dan pusa adalah kata benda dan tidak bisa dipakai untuk berterima kasih."
+        }
+      }
+    ],
+    "conversation": {
+      "context": {
+        "ar": "في المنزل: ضيف يشكر صاحب البيت.",
+        "en": "At a home: a guest thanks the host.",
+        "id": "Di sebuah rumah: seorang tamu berterima kasih kepada tuan rumah."
+      },
+      "turns": [
+        {
+          "who": "A",
+          "target": "Salamat po!",
+          "tr": {
+            "ar": "شكرًا لك!",
+            "en": "Thank you!",
+            "id": "Terima kasih!"
+          }
+        },
+        {
+          "who": "B",
+          "target": "Walang anuman.",
+          "tr": {
+            "ar": "لا شكر على واجب.",
+            "en": "You are welcome.",
+            "id": "Sama-sama."
+          }
+        },
+        {
+          "who": "A",
+          "target": "Ingat po.",
+          "tr": {
+            "ar": "اعتنِ بنفسك.",
+            "en": "Take care.",
+            "id": "Hati-hati ya."
+          }
+        }
+      ],
+      "gap": 1,
+      "wrong": [
+        "Mabuti po.",
+        "Magandang araw po."
+      ],
+      "why": {
+        "ar": "بعد الشكر نردّ بـ«Walang anuman» أي «لا شكر على واجب». الردّان الآخران لا يردّان على الشكر.",
+        "en": "After thanks we reply Walang anuman, you are welcome. The other replies do not answer the thanks.",
+        "id": "Setelah diberi terima kasih, kita menjawab Walang anuman, sama-sama. Dua jawaban lain tidak menanggapi ucapan terima kasih itu."
+      }
+    },
+    "summary": {
+      "ar": "نطقت ثماني كلمات تُظهر الحروف المتحركة و«ng» والوقفة الحنجرية والنبر. اقرأ كل كلمة بصوت عالٍ مرتين أو ثلاثًا.",
+      "en": "You have said eight words that show the vowels, ng, the glottal stop and stress. Read each word out loud two or three times.",
+      "id": "Anda telah mengucapkan delapan kata yang menunjukkan vokal, ng, hentian glotis, dan tekanan. Bacalah setiap kata dengan suara keras dua atau tiga kali."
+    }
+  },
+  {
+    "id": "tl-02",
+    "track": "tl",
+    "level": "beginner",
+    "order": 2,
+    "topic": "greetings-politeness",
+    "icon": "👋",
+    "title": {
+      "ar": "التحيات والأدب",
+      "en": "Greetings and Politeness",
+      "id": "Salam dan Kesopanan"
+    },
+    "description": {
+      "ar": "حيِّ الناس في أوقات اليوم وأضف «po» و«opo» للاحترام.",
+      "en": "Greet people through the day and add po and opo to show respect.",
+      "id": "Sapa orang sepanjang hari dan tambahkan po dan opo untuk menunjukkan rasa hormat."
+    },
+    "objectives": [
+      {
+        "ar": "أستطيع أن أسأل «Kumusta po kayo?» وأجيب عنه.",
+        "en": "I can ask Kumusta po kayo? and answer it.",
+        "id": "Saya bisa menanyakan Kumusta po kayo? dan menjawabnya."
+      },
+      {
+        "ar": "أستطيع أن أحيّي في الصباح وبعد الظهر والمساء.",
+        "en": "I can greet people in the morning, afternoon and evening.",
+        "id": "Saya bisa menyapa orang pada pagi, sore, dan malam hari."
+      },
+      {
+        "ar": "أستطيع استعمال «po» و«opo» مع الكبار والغرباء.",
+        "en": "I can use po and opo with elders and strangers.",
+        "id": "Saya bisa memakai po dan opo kepada orang yang lebih tua dan orang asing."
+      }
+    ],
+    "intro": {
+      "ar": "في الفلبين الأدب جزء أساسي من كل حديث. تبدأ بتحية مناسبة للوقت، ثم تسأل عن الحال، وتضيف كلمة «po» عند الحديث مع من هو أكبر منك أو لا تعرفه. هذا الدرس يعطيك العبارات اليومية الأساسية.",
+      "en": "In the Philippines politeness is part of almost every conversation. You start with a greeting that fits the time of day, ask how the person is, and add po when you speak to someone older or someone you do not know. This lesson gives you the basic everyday phrases.",
+      "id": "Di Filipina kesopanan adalah bagian dari hampir setiap percakapan. Anda memulai dengan sapaan sesuai waktu, menanyakan kabar, dan menambahkan po ketika berbicara kepada orang yang lebih tua atau yang belum dikenal. Pelajaran ini memberi Anda frasa dasar sehari-hari."
+    },
+    "culture": {
+      "ar": "يُعدّ الفلبينيون الاحترام للكبار قيمة كبيرة، ومن عاداتهم «mano po»: يأخذ الصغير يد الكبير ويضعها على جبهته. استعمال «po» و«opo» يُظهر أنك مهذب حتى لو أخطأت في بقية الجملة.",
+      "en": "Filipinos value respect for elders highly, and a well-known custom is mano po, where a younger person takes an elder hand and touches it to the forehead. Using po and opo shows you are polite even if the rest of your sentence is not perfect.",
+      "id": "Orang Filipina sangat menghargai rasa hormat kepada yang lebih tua, dan ada kebiasaan terkenal bernama mano po: orang yang lebih muda mengambil tangan orang tua dan menempelkannya ke dahi. Memakai po dan opo menunjukkan Anda sopan walaupun bagian kalimat lainnya belum sempurna."
+    },
+    "grammar": {
+      "title": {
+        "ar": "«po» و«opo»",
+        "en": "Po and opo",
+        "id": "Po dan opo"
+      },
+      "body": {
+        "ar": "«Po» كلمة صغيرة تُضاف إلى الجملة لإظهار الاحترام لمن هو أكبر منك أو لغريب أو لشخص ذي منصب، ولا معنى لها غير ذلك: «Salamat po». و«Opo» هي «نعم» المهذبة، أما «oo» فللأصدقاء. ونستعمل «kayo» (أنتم) للشخص المحترم بدل «ka» (أنت).",
+        "en": "Po is a small word added to a sentence to show respect to someone older, a stranger or a person in a position of authority. It has no meaning of its own: Salamat po. Opo is the polite yes, while oo is for friends. For a respected person we also use kayo (you, polite) instead of ka (you).",
+        "id": "Po adalah kata kecil yang ditambahkan ke kalimat untuk menunjukkan rasa hormat kepada orang yang lebih tua, orang asing, atau orang yang berkedudukan. Kata ini tidak punya arti sendiri: Salamat po. Opo adalah ya yang sopan, sedangkan oo untuk teman. Untuk orang yang dihormati kita juga memakai kayo (Anda) sebagai ganti ka (kamu)."
+      }
+    },
+    "items": [
+      {
+        "id": "tl02n1",
+        "target": "Kumusta po kayo?",
+        "translit": "ku-mus-TA po ka-YO",
+        "tr": {
+          "ar": "كيف حالكم؟ (بأدب)",
+          "en": "How are you? (polite)",
+          "id": "Apa kabar? (sopan)"
+        },
+        "example": {
+          "target": "Kumusta po kayo, Lola?",
+          "translit": "ku-mus-TA po ka-YO LO-la",
+          "tr": {
+            "ar": "كيف حالك يا جدتي؟",
+            "en": "How are you, Grandmother?",
+            "id": "Apa kabar, Nenek?"
+          }
+        },
+        "hint": {
+          "ar": "يُكتب أيضًا «Kamusta». الكلمة من الإسبانية «¿cómo está?». للأصدقاء نقول «Kumusta ka?».",
+          "en": "It is also spelled Kamusta; the word comes from Spanish cómo está. To friends say Kumusta ka?",
+          "id": "Juga ditulis Kamusta; kata ini berasal dari bahasa Spanyol cómo está. Kepada teman cukup Kumusta ka?"
+        }
+      },
+      {
+        "id": "tl02n2",
+        "target": "Magandang umaga po.",
+        "translit": "ma-gan-DANG u-MA-ga po",
+        "tr": {
+          "ar": "صباح الخير (بأدب)",
+          "en": "Good morning (polite)",
+          "id": "Selamat pagi (sopan)"
+        },
+        "example": {
+          "target": "Magandang umaga po, Sir.",
+          "translit": "ma-gan-DANG u-MA-ga po SER",
+          "tr": {
+            "ar": "صباح الخير يا سيدي.",
+            "en": "Good morning, sir.",
+            "id": "Selamat pagi, Pak."
+          }
+        },
+        "hint": {
+          "ar": "نستعملها من الفجر حتى قبل الظهر. إذا حذفت «po» أصبحت للأصدقاء.",
+          "en": "Use it from dawn until around noon. Without po it becomes casual, for friends.",
+          "id": "Dipakai dari subuh sampai sekitar tengah hari. Tanpa po, sapaan ini menjadi santai untuk teman."
+        }
+      },
+      {
+        "id": "tl02n3",
+        "target": "Magandang hapon po.",
+        "translit": "ma-gan-DANG HA-pon po",
+        "tr": {
+          "ar": "مساء الخير (بعد الظهر، بأدب)",
+          "en": "Good afternoon (polite)",
+          "id": "Selamat sore (sopan)"
+        },
+        "example": {
+          "target": "Magandang hapon po, Ma'am.",
+          "translit": "ma-gan-DANG HA-pon po MAM",
+          "tr": {
+            "ar": "مساء الخير يا سيدتي.",
+            "en": "Good afternoon, ma'am.",
+            "id": "Selamat sore, Bu."
+          }
+        },
+        "hint": {
+          "ar": "حوالي الظهر نقول أيضًا «Magandang tanghali po». ينتهي النهار تقريبًا عند الغروب.",
+          "en": "Around midday people also say Magandang tanghali po. Hapon lasts until about sunset.",
+          "id": "Sekitar tengah hari orang juga berkata Magandang tanghali po. Hapon berlangsung sampai kira-kira matahari terbenam."
+        }
+      },
+      {
+        "id": "tl02n4",
+        "target": "Magandang gabi po.",
+        "translit": "ma-gan-DANG ga-BI po",
+        "tr": {
+          "ar": "مساء الخير (بعد الغروب، بأدب)",
+          "en": "Good evening (polite)",
+          "id": "Selamat malam (sopan)"
+        },
+        "example": {
+          "target": "Magandang gabi po, Tatay.",
+          "translit": "ma-gan-DANG ga-BI po TA-tay",
+          "tr": {
+            "ar": "مساء الخير يا أبي.",
+            "en": "Good evening, Father.",
+            "id": "Selamat malam, Ayah."
+          }
+        },
+        "hint": {
+          "ar": "نقولها عند اللقاء وعند الوداع في الليل. «Gabi» تعني الليل أو المساء.",
+          "en": "You say it both when meeting and when leaving at night. Gabi means night or evening.",
+          "id": "Dipakai saat bertemu dan saat berpisah di malam hari. Gabi berarti malam."
+        }
+      },
+      {
+        "id": "tl02n5",
+        "target": "Mabuti naman po.",
+        "translit": "ma-BU-ti na-MAN po",
+        "tr": {
+          "ar": "بخير، شكرًا (بأدب)",
+          "en": "I am fine, thanks (polite)",
+          "id": "Baik-baik saja (sopan)"
+        },
+        "example": {
+          "target": "Mabuti naman po, salamat. Kayo po?",
+          "translit": "ma-BU-ti na-MAN po sa-la-MAT ka-YO po",
+          "tr": {
+            "ar": "بخير شكرًا، وأنتم؟",
+            "en": "Fine, thank you. And you?",
+            "id": "Baik, terima kasih. Dan Anda?"
+          }
+        },
+        "hint": {
+          "ar": "«naman» تلطّف الجملة وتجعلها طبيعية. للسؤال عن حال الآخر نقول «Kayo po?».",
+          "en": "Naman makes the sentence sound soft and natural. To ask back, say Kayo po?",
+          "id": "Naman membuat kalimat terdengar lembut dan natural. Untuk bertanya balik, katakan Kayo po?"
+        }
+      },
+      {
+        "id": "tl02n6",
+        "target": "Salamat po.",
+        "translit": "sa-la-MAT po",
+        "tr": {
+          "ar": "شكرًا لك (بأدب)",
+          "en": "Thank you (polite)",
+          "id": "Terima kasih (sopan)"
+        },
+        "example": {
+          "target": "Salamat po sa tulong.",
+          "translit": "sa-la-MAT po sa TU-long",
+          "tr": {
+            "ar": "شكرًا على المساعدة.",
+            "en": "Thank you for the help.",
+            "id": "Terima kasih atas bantuannya."
+          }
+        },
+        "hint": {
+          "ar": "للشكر الكبير: «Maraming salamat po». والرد المعتاد: «Walang anuman po».",
+          "en": "For big thanks say Maraming salamat po. The usual reply is Walang anuman po.",
+          "id": "Untuk terima kasih yang besar: Maraming salamat po. Jawaban yang lazim: Walang anuman po."
+        }
+      }
+    ],
+    "cloze": [
+      {
+        "sentence": "Magandang umaga ___.",
+        "answer": "po",
+        "wrong": [
+          "ang",
+          "ng"
+        ],
+        "tr": {
+          "ar": "صباح الخير (بأدب).",
+          "en": "Good morning (polite).",
+          "id": "Selamat pagi (sopan)."
+        },
+        "why": {
+          "ar": "«po» تُضاف للاحترام. «ang» و«ng» أداتا ربط لا تأتيان في آخر التحية.",
+          "en": "Po is added for respect. Ang and ng are markers that cannot end a greeting.",
+          "id": "Po ditambahkan untuk menghormati. Ang dan ng adalah penanda yang tidak bisa mengakhiri sapaan."
+        }
+      },
+      {
+        "sentence": "Kumusta ___?",
+        "answer": "kayo",
+        "wrong": [
+          "ako",
+          "ko"
+        ],
+        "tr": {
+          "ar": "كيف حالكم؟ (بأدب)",
+          "en": "How are you? (polite)",
+          "id": "Apa kabar? (sopan)"
+        },
+        "why": {
+          "ar": "نسأل المخاطَب بـ«kayo». «ako» و«ko» تعودان للمتكلم.",
+          "en": "We ask the listener with kayo. Ako and ko refer to the speaker.",
+          "id": "Kita bertanya kepada lawan bicara dengan kayo. Ako dan ko merujuk pada pembicara."
+        }
+      }
+    ],
+    "conversation": {
+      "context": {
+        "ar": "في الصباح: شاب يحيّي جارته المسنّة.",
+        "en": "In the morning: a young man greets an older neighbour.",
+        "id": "Pada pagi hari: seorang pemuda menyapa tetangga yang lebih tua."
+      },
+      "turns": [
+        {
+          "who": "A",
+          "target": "Magandang umaga po. Kumusta po kayo?",
+          "tr": {
+            "ar": "صباح الخير. كيف حالكم؟",
+            "en": "Good morning. How are you?",
+            "id": "Selamat pagi. Apa kabar?"
+          }
+        },
+        {
+          "who": "B",
+          "target": "Mabuti naman po, salamat. Kayo po?",
+          "tr": {
+            "ar": "بخير شكرًا، وأنتم؟",
+            "en": "Fine, thank you. And you?",
+            "id": "Baik, terima kasih. Dan Anda?"
+          }
+        },
+        {
+          "who": "A",
+          "target": "Mabuti rin po.",
+          "tr": {
+            "ar": "أنا أيضًا بخير.",
+            "en": "I am fine too.",
+            "id": "Saya juga baik."
+          }
+        }
+      ],
+      "gap": 1,
+      "wrong": [
+        "Magandang hapon po.",
+        "Opo, salamat po."
+      ],
+      "why": {
+        "ar": "سُئلت عن حالك فتجيب «Mabuti naman po» ثم تسأل «Kayo po?». الردّان الآخران لا يجيبان عن السؤال.",
+        "en": "You were asked how you are, so you answer Mabuti naman po and ask back Kayo po? The other replies do not answer the question.",
+        "id": "Anda ditanya kabar, jadi menjawab Mabuti naman po lalu bertanya balik Kayo po? Dua jawaban lain tidak menjawab pertanyaan itu."
+      }
+    },
+    "summary": {
+      "ar": "أصبحت تحيّي الناس في الصباح وبعد الظهر والمساء وتسأل عن حالهم وتشكرهم. اجعل «po» عادة مع كل من هو أكبر منك.",
+      "en": "You can now greet people morning, afternoon and evening, ask how they are and thank them. Make po a habit with anyone older than you.",
+      "id": "Kini Anda bisa menyapa orang pada pagi, sore, dan malam, menanyakan kabar, dan berterima kasih. Biasakan memakai po kepada siapa pun yang lebih tua dari Anda."
+    }
+  },
+  {
+    "id": "tl-03",
+    "track": "tl",
+    "level": "beginner",
+    "order": 3,
+    "topic": "introducing-yourself",
+    "icon": "🙋",
+    "title": {
+      "ar": "التعريف بنفسك",
+      "en": "Introducing Yourself",
+      "id": "Memperkenalkan Diri"
+    },
+    "description": {
+      "ar": "قل اسمك ومن أين أنت واسأل الآخرين عن أسمائهم.",
+      "en": "Say your name and where you are from, and ask others for theirs.",
+      "id": "Sebutkan nama dan asal Anda, lalu tanyakan nama orang lain."
+    },
+    "objectives": [
+      {
+        "ar": "أستطيع أن أقول «Ako si ...» واسمي.",
+        "en": "I can say Ako si ... and my name.",
+        "id": "Saya bisa mengatakan Ako si ... dan nama saya."
+      },
+      {
+        "ar": "أستطيع أن أقول من أين أنا بـ«Taga-...».",
+        "en": "I can say where I am from with Taga-...",
+        "id": "Saya bisa menyebut asal saya dengan Taga-..."
+      },
+      {
+        "ar": "أعرف الضمائر «ako» و«ikaw/ka» و«siya».",
+        "en": "I know the pronouns ako, ikaw/ka and siya.",
+        "id": "Saya tahu kata ganti ako, ikaw/ka, dan siya."
+      }
+    ],
+    "intro": {
+      "ar": "عند اللقاء الأول يقول الناس اسمهم ثم يذكرون مدينتهم أو عملهم. التاغالوغية تحتاج كلمات قليلة جدًا لذلك، ولا يوجد فعل «يكون» في الجملة. في هذا الدرس تتعلم الضمائر الأولى وطريقتين لتقول من أنت.",
+      "en": "At a first meeting people say their name and then their town or job. Tagalog needs very few words for this, and there is no verb to be in the sentence. In this lesson you learn the first pronouns and two ways to say who you are.",
+      "id": "Pada pertemuan pertama orang menyebutkan nama, lalu kota atau pekerjaannya. Bahasa Tagalog hanya butuh sedikit kata untuk ini, dan tidak ada kata kerja to be dalam kalimat. Di pelajaran ini Anda mempelajari kata ganti pertama dan dua cara menyebut siapa Anda."
+    },
+    "culture": {
+      "ar": "عند التعارف يصافح الناس عادة بابتسامة، وكثيرًا ما يسألون سؤالًا بسيطًا مثل «Taga-saan ka?» (من أين أنت؟). ويحب الفلبينيون أن يعرفوا مدينة الآخر وعائلته. ويضيفون «Kuya» أو «Ate» قبل الاسم احترامًا لمن هو أكبر.",
+      "en": "When people meet they usually smile and often ask a simple question like Taga-saan ka? (Where are you from?). Filipinos like to know your town and your family. They also put Kuya or Ate before the name of someone a little older, as a sign of respect.",
+      "id": "Saat bertemu orang biasanya tersenyum dan sering bertanya sederhana seperti Taga-saan ka? (Anda berasal dari mana?). Orang Filipina suka tahu kota dan keluarga Anda. Mereka juga menambahkan Kuya atau Ate sebelum nama orang yang sedikit lebih tua sebagai tanda hormat."
+    },
+    "grammar": {
+      "title": {
+        "ar": "«si» والضمائر «ako» و«ikaw» و«siya»",
+        "en": "Si and the pronouns ako, ikaw and siya",
+        "id": "Si dan kata ganti ako, ikaw, dan siya"
+      },
+      "body": {
+        "ar": "قبل اسم الشخص نضع «si»: «Ako si Maria». الضمائر: «ako» (أنا)، «ikaw» (أنت، وبعد كلمة تصبح «ka»)، «siya» (هو أو هي بلا فرق). ويمكن قلب الجملة بـ«ay»: «Ako ay estudyante» تعني «Estudyante ako»، والصيغتان صحيحتان. «Taga-» تعني «من» وتُكتب مع شرطة قبل اسم المكان.",
+        "en": "Before a person name we put si: Ako si Maria. The pronouns are ako (I), ikaw (you, which becomes ka after another word) and siya (he or she, with no difference). A sentence can be turned around with ay: Ako ay estudyante means the same as Estudyante ako. Taga- means from and is written with a hyphen before the place.",
+        "id": "Sebelum nama orang kita meletakkan si: Ako si Maria. Kata gantinya ialah ako (saya; mirip aku dalam bahasa Indonesia), ikaw (kamu, menjadi ka setelah kata lain), dan siya (dia, tanpa perbedaan laki-laki atau perempuan). Kalimat bisa dibalik dengan ay: Ako ay estudyante sama artinya dengan Estudyante ako. Taga- berarti dari dan ditulis dengan tanda hubung sebelum nama tempat."
+      }
+    },
+    "items": [
+      {
+        "id": "tl03n1",
+        "target": "Ako si Maria.",
+        "translit": "A-ko si ma-RI-a",
+        "tr": {
+          "ar": "أنا ماريا.",
+          "en": "I am Maria.",
+          "id": "Saya Maria."
+        },
+        "example": {
+          "target": "Ako si Ben.",
+          "translit": "A-ko si BEN",
+          "tr": {
+            "ar": "أنا بن.",
+            "en": "I am Ben.",
+            "id": "Saya Ben."
+          }
+        },
+        "hint": {
+          "ar": "ضع اسمك بعد «si». للأسماء فقط نستعمل «si» أما مع الأشياء فلا.",
+          "en": "Put your own name after si. Si is used only before a person name.",
+          "id": "Letakkan nama Anda setelah si. Si hanya dipakai sebelum nama orang."
+        }
+      },
+      {
+        "id": "tl03n2",
+        "target": "Taga-Cebu ako.",
+        "translit": "TA-ga-se-BU A-ko",
+        "tr": {
+          "ar": "أنا من سيبو.",
+          "en": "I am from Cebu.",
+          "id": "Saya berasal dari Cebu."
+        },
+        "example": {
+          "target": "Taga-Maynila siya.",
+          "translit": "TA-ga-may-NI-la si-YA",
+          "tr": {
+            "ar": "هو من مانيلا.",
+            "en": "He is from Manila.",
+            "id": "Dia berasal dari Manila."
+          }
+        },
+        "hint": {
+          "ar": "«Taga-» + المكان. وترد «ako» في آخر الجملة. مثال آخر: «Taga-Davao ako».",
+          "en": "Taga- + place. Ako comes at the end of the sentence. Another example: Taga-Davao ako.",
+          "id": "Taga- + tempat. Ako berada di akhir kalimat. Contoh lain: Taga-Davao ako."
+        }
+      },
+      {
+        "id": "tl03n3",
+        "target": "Ano po ang pangalan ninyo?",
+        "translit": "A-no po ang pa-NGA-lan ni-NYO",
+        "tr": {
+          "ar": "ما اسمكم؟ (بأدب)",
+          "en": "What is your name? (polite)",
+          "id": "Siapa nama Anda? (sopan)"
+        },
+        "example": {
+          "target": "Ano ang pangalan mo?",
+          "translit": "A-no ang pa-NGA-lan mo",
+          "tr": {
+            "ar": "ما اسمك؟",
+            "en": "What is your name?",
+            "id": "Siapa namamu?"
+          }
+        },
+        "hint": {
+          "ar": "«ninyo» للشخص المحترم و«mo» للصديق. «Pangalan» تعني الاسم.",
+          "en": "Ninyo is for a respected person and mo for a friend. Pangalan means name.",
+          "id": "Ninyo untuk orang yang dihormati dan mo untuk teman. Pangalan berarti nama."
+        }
+      },
+      {
+        "id": "tl03n4",
+        "target": "Ikaw ba si Ben?",
+        "translit": "i-KAW ba si BEN",
+        "tr": {
+          "ar": "هل أنت بن؟",
+          "en": "Are you Ben?",
+          "id": "Apakah kamu Ben?"
+        },
+        "example": {
+          "target": "Ikaw ba si Ana?",
+          "translit": "i-KAW ba si A-na",
+          "tr": {
+            "ar": "هل أنتِ آنا؟",
+            "en": "Are you Ana?",
+            "id": "Apakah kamu Ana?"
+          }
+        },
+        "hint": {
+          "ar": "«ba» جزء من السؤال بنعم أو لا. الجواب: «Oo, ako si Ben».",
+          "en": "Ba marks a yes/no question. The answer is Oo, ako si Ben.",
+          "id": "Ba menandai pertanyaan ya atau tidak. Jawabannya: Oo, ako si Ben."
+        }
+      },
+      {
+        "id": "tl03n5",
+        "target": "Siya si Ana.",
+        "translit": "si-YA si A-na",
+        "tr": {
+          "ar": "هي آنا.",
+          "en": "She is Ana.",
+          "id": "Dia Ana."
+        },
+        "example": {
+          "target": "Siya si Ben.",
+          "translit": "si-YA si BEN",
+          "tr": {
+            "ar": "هو بن.",
+            "en": "He is Ben.",
+            "id": "Dia Ben."
+          }
+        },
+        "hint": {
+          "ar": "«siya» تصلح للمذكر والمؤنث، فالسياق يحدد. لا يوجد في التاغالوغية «هو» و«هي» منفصلان.",
+          "en": "Siya works for he and she, and the context tells you which. Tagalog has no separate he and she.",
+          "id": "Siya berlaku untuk laki-laki dan perempuan, dan konteks yang menentukan. Tagalog tidak punya dia laki-laki dan dia perempuan yang terpisah."
+        }
+      },
+      {
+        "id": "tl03n6",
+        "target": "Ako ay estudyante.",
+        "translit": "A-ko ay es-tu-DYAN-te",
+        "tr": {
+          "ar": "أنا طالب (أو طالبة).",
+          "en": "I am a student.",
+          "id": "Saya seorang mahasiswa (atau pelajar)."
+        },
+        "example": {
+          "target": "Ako ay guro.",
+          "translit": "A-ko ay GU-ro",
+          "tr": {
+            "ar": "أنا معلم (أو معلمة).",
+            "en": "I am a teacher.",
+            "id": "Saya seorang guru."
+          }
+        },
+        "hint": {
+          "ar": "«Ako ay estudyante» أكثر رسمية قليلًا من «Estudyante ako». «ay» ليست فعلًا بل أداة ربط.",
+          "en": "Ako ay estudyante is a little more formal than Estudyante ako. Ay is not a verb; it links the two parts.",
+          "id": "Ako ay estudyante sedikit lebih formal daripada Estudyante ako. Ay bukan kata kerja, melainkan penghubung dua bagian."
+        }
+      }
+    ],
+    "cloze": [
+      {
+        "sentence": "Ako ___ Maria.",
+        "answer": "si",
+        "wrong": [
+          "ng",
+          "sa"
+        ],
+        "tr": {
+          "ar": "أنا ماريا.",
+          "en": "I am Maria.",
+          "id": "Saya Maria."
+        },
+        "why": {
+          "ar": "قبل اسم الشخص نقول «si». «ng» و«sa» لا تأتيان مباشرة قبل اسم المتكلم هنا.",
+          "en": "Before a person name we say si. Ng and sa cannot stand directly before a name here.",
+          "id": "Sebelum nama orang kita mengatakan si. Ng dan sa tidak bisa langsung mendahului nama di sini."
+        }
+      },
+      {
+        "sentence": "Ano ang pangalan ___?",
+        "answer": "mo",
+        "wrong": [
+          "ako",
+          "ka"
+        ],
+        "tr": {
+          "ar": "ما اسمك؟",
+          "en": "What is your name?",
+          "id": "Siapa namamu?"
+        },
+        "why": {
+          "ar": "«mo» هي صيغة الملكية لـ«ikaw». «ako» و«ka» لا تأتيان بعد «pangalan» بهذا المعنى.",
+          "en": "Mo is the possessive form of ikaw. Ako and ka do not follow pangalan with this meaning.",
+          "id": "Mo adalah bentuk kepemilikan dari ikaw. Ako dan ka tidak mengikuti pangalan dengan makna ini."
+        }
+      }
+    ],
+    "conversation": {
+      "context": {
+        "ar": "في ورشة عمل: شخصان يتعارفان.",
+        "en": "At a workshop: two people meet.",
+        "id": "Di sebuah lokakarya: dua orang berkenalan."
+      },
+      "turns": [
+        {
+          "who": "A",
+          "target": "Hello! Ako si Ben. Ano ang pangalan mo?",
+          "tr": {
+            "ar": "مرحبًا! أنا بن. ما اسمك؟",
+            "en": "Hello! I am Ben. What is your name?",
+            "id": "Halo! Saya Ben. Siapa namamu?"
+          }
+        },
+        {
+          "who": "B",
+          "target": "Ako si Maria. Masaya akong makilala ka.",
+          "tr": {
+            "ar": "أنا ماريا. سعيدة بمعرفتك.",
+            "en": "I am Maria. Nice to meet you.",
+            "id": "Saya Maria. Senang berkenalan denganmu."
+          }
+        },
+        {
+          "who": "A",
+          "target": "Masaya rin ako, Maria.",
+          "tr": {
+            "ar": "وأنا أيضًا سعيد.",
+            "en": "Me too, Maria.",
+            "id": "Saya juga senang, Maria."
+          }
+        }
+      ],
+      "gap": 1,
+      "wrong": [
+        "Mabuti naman, salamat.",
+        "Siya si Ana."
+      ],
+      "why": {
+        "ar": "سُئلت عن اسمك فتقول «Ako si ...». الردّان الآخران لا يعطيان اسمك.",
+        "en": "You were asked your name, so you say Ako si ... The other replies do not give your name.",
+        "id": "Anda ditanya nama, jadi menjawab Ako si ... Dua jawaban lain tidak menyebut nama Anda."
+      }
+    },
+    "summary": {
+      "ar": "أصبحت تقول اسمك ومدينتك ومهنتك وتسأل عن اسم الآخر. كرّر «Ako si ... Taga-... ako» بمعلوماتك.",
+      "en": "You can now say your name, your town and your job, and ask for someone else name. Repeat Ako si ... Taga-... ako with your own details.",
+      "id": "Kini Anda bisa menyebut nama, kota, dan pekerjaan Anda, serta menanyakan nama orang lain. Ulangi Ako si ... Taga-... ako dengan data Anda sendiri."
+    }
+  },
+  {
+    "id": "tl-04",
+    "track": "tl",
+    "level": "beginner",
+    "order": 4,
+    "topic": "numbers-age",
+    "icon": "🔢",
+    "title": {
+      "ar": "الأعداد من 1 إلى 10 والعمر",
+      "en": "Numbers 1 to 10 and Age",
+      "id": "Angka 1 sampai 10 dan Usia"
+    },
+    "description": {
+      "ar": "عُدّ من واحد إلى عشرة واسأل عن العمر.",
+      "en": "Count from one to ten and ask and say someone age.",
+      "id": "Berhitung dari satu sampai sepuluh dan tanyakan serta sebutkan usia."
+    },
+    "objectives": [
+      {
+        "ar": "أستطيع العدّ من 1 إلى 10 بالتاغالوغية.",
+        "en": "I can count from 1 to 10 in Tagalog.",
+        "id": "Saya bisa berhitung dari 1 sampai 10 dalam bahasa Tagalog."
+      },
+      {
+        "ar": "أستطيع أن أسأل «Ilang taon ka na?».",
+        "en": "I can ask Ilang taon ka na?",
+        "id": "Saya bisa menanyakan Ilang taon ka na?"
+      },
+      {
+        "ar": "أستطيع أن أقول عمر شخص بـ«taong gulang».",
+        "en": "I can say someone age with taong gulang.",
+        "id": "Saya bisa menyebut usia seseorang dengan taong gulang."
+      }
+    ],
+    "intro": {
+      "ar": "الأعداد الأساسية من واحد إلى عشرة قصيرة وسهلة الحفظ. بعضها يشبه الإندونيسية مثل «lima» و«apat». نتعلم أيضًا كيف نسأل عن العمر ونجيب بجملة بسيطة.",
+      "en": "The basic numbers from one to ten are short and easy to memorise. Some resemble Indonesian, such as lima and apat. You also learn how to ask someone age and answer with a simple sentence.",
+      "id": "Angka dasar dari satu sampai sepuluh pendek dan mudah dihafal. Beberapa mirip bahasa Indonesia, seperti lima dan apat (empat). Anda juga belajar menanyakan usia dan menjawab dengan kalimat sederhana."
+    },
+    "culture": {
+      "ar": "في الفلبين يتحدث الناس عن العمر بلا حرج، وقد يسألك شخص تعرفه حديثًا «Ilang taon ka na?». ولأسباب تاريخية يستعمل الناس الأعداد الإسبانية (uno, dos, tres) للوقت والمال أيضًا، لذلك تسمعها كثيرًا في الأسواق.",
+      "en": "In the Philippines people talk about age quite openly, and someone you have just met may ask Ilang taon ka na? For historical reasons Filipinos also use Spanish numbers (uno, dos, tres) for time and money, so you will hear them often in markets.",
+      "id": "Di Filipina orang cukup terbuka membicarakan usia, dan orang yang baru dikenal mungkin bertanya Ilang taon ka na? Karena sejarah, orang Filipina juga memakai angka Spanyol (uno, dos, tres) untuk waktu dan uang, jadi Anda akan sering mendengarnya di pasar."
+    },
+    "grammar": {
+      "title": {
+        "ar": "الأعداد والرابط «-ng/na»",
+        "en": "Numbers and the linker -ng or na",
+        "id": "Angka dan penghubung -ng atau na"
+      },
+      "body": {
+        "ar": "العدد يسبق الاسم ويرتبط به برابط: بعد الحرف المتحرك نضيف «-ng»: «dalawang taon»، وبعد الحرف الساكن نضيف كلمة «na»: «apat na taon». للسؤال عن العدد نقول «ilan» وتصبح «ilang» قبل الاسم: «Ilang taon ka na?». للإجابة: «Sampung taong gulang ako» أو «Sampu na ako».",
+        "en": "A number comes before the noun and is joined to it by a linker: after a vowel add -ng, as in dalawang taon, and after a consonant use the word na, as in apat na taon. To ask how many we say ilan, which becomes ilang before the noun: Ilang taon ka na? To answer: Sampung taong gulang ako or Sampu na ako.",
+        "id": "Angka berada sebelum kata benda dan dihubungkan dengan penghubung: setelah vokal tambahkan -ng, seperti dalawang taon, dan setelah konsonan pakai kata na, seperti apat na taon. Untuk menanyakan jumlah kita memakai ilan, yang menjadi ilang sebelum kata benda: Ilang taon ka na? Untuk menjawab: Sampung taong gulang ako atau Sampu na ako."
+      }
+    },
+    "items": [
+      {
+        "id": "tl04n1",
+        "target": "isa, dalawa, tatlo",
+        "translit": "i-SA, da-LA-wa, TAT-lo",
+        "tr": {
+          "ar": "واحد، اثنان، ثلاثة",
+          "en": "one, two, three",
+          "id": "satu, dua, tiga"
+        },
+        "example": {
+          "target": "Isa, dalawa, tatlo!",
+          "translit": "i-SA da-LA-wa TAT-lo",
+          "tr": {
+            "ar": "واحد، اثنان، ثلاثة!",
+            "en": "One, two, three!",
+            "id": "Satu, dua, tiga!"
+          }
+        },
+        "hint": {
+          "ar": "«dalawa» تشبه «dua» في الإندونيسية. «tatlo» ينتهي بصوت «o» نقي.",
+          "en": "Dalawa is similar to Indonesian dua. Tatlo ends with a pure o.",
+          "id": "Dalawa mirip dengan dua dalam bahasa Indonesia. Tatlo diakhiri dengan o yang murni."
+        }
+      },
+      {
+        "id": "tl04n2",
+        "target": "apat, lima, anim",
+        "translit": "A-pat, LI-ma, A-nim",
+        "tr": {
+          "ar": "أربعة، خمسة، ستة",
+          "en": "four, five, six",
+          "id": "empat, lima, enam"
+        },
+        "example": {
+          "target": "Limang tao.",
+          "translit": "LI-mang TA-o",
+          "tr": {
+            "ar": "خمسة أشخاص.",
+            "en": "Five people.",
+            "id": "Lima orang."
+          }
+        },
+        "hint": {
+          "ar": "«lima» مثل «lima» في الإندونيسية تمامًا. «apat» تشبه «empat». بعد «apat» و«anim» نستعمل «na» لأنهما ينتهيان بحرف ساكن، أما «lima» فتأخذ «-ng»: «limang tao».",
+          "en": "Lima is exactly like Indonesian lima. Apat is close to empat. After apat and anim we use na because they end in a consonant, while lima takes -ng: limang tao.",
+          "id": "Lima sama persis dengan lima dalam bahasa Indonesia. Apat dekat dengan empat. Setelah apat dan anim kita memakai na karena keduanya berakhir dengan konsonan, sedangkan lima memakai -ng: limang tao."
+        }
+      },
+      {
+        "id": "tl04n3",
+        "target": "pito, walo, siyam, sampu",
+        "translit": "PI-to, WA-lo, SI-yam, sam-PU",
+        "tr": {
+          "ar": "سبعة، ثمانية، تسعة، عشرة",
+          "en": "seven, eight, nine, ten",
+          "id": "tujuh, delapan, sembilan, sepuluh"
+        },
+        "example": {
+          "target": "Sampung piso.",
+          "translit": "sam-PUNG PI-so",
+          "tr": {
+            "ar": "عشرة بيزو.",
+            "en": "Ten pesos.",
+            "id": "Sepuluh peso."
+          }
+        },
+        "hint": {
+          "ar": "«sampu» تصبح «sampung» قبل الاسم. النبر على المقطع الأخير في «sampu».",
+          "en": "Sampu becomes sampung before a noun. The stress in sampu is on the last syllable.",
+          "id": "Sampu menjadi sampung sebelum kata benda. Tekanan pada sampu ada di suku kata terakhir."
+        }
+      },
+      {
+        "id": "tl04n4",
+        "target": "Ilang taon ka na?",
+        "translit": "i-LANG ta-ON ka na",
+        "tr": {
+          "ar": "كم عمرك؟",
+          "en": "How old are you?",
+          "id": "Berapa usiamu?"
+        },
+        "example": {
+          "target": "Ilang taon na po kayo?",
+          "translit": "i-LANG ta-ON na po ka-YO",
+          "tr": {
+            "ar": "كم عمركم؟ (بأدب)",
+            "en": "How old are you? (polite)",
+            "id": "Berapa usia Anda? (sopan)"
+          }
+        },
+        "hint": {
+          "ar": "«na» هنا تعني «الآن، حتى الآن». مع الكبار نقول «Ilang taon na po kayo?». السؤال عن العمر عادي بين الفلبينيين.",
+          "en": "Na means by now here. With older people say Ilang taon na po kayo? Asking age is normal among Filipinos.",
+          "id": "Na di sini berarti sudah, sampai sekarang. Kepada orang yang lebih tua katakan Ilang taon na po kayo? Menanyakan usia adalah hal biasa bagi orang Filipina."
+        }
+      },
+      {
+        "id": "tl04n5",
+        "target": "Sampung taong gulang siya.",
+        "translit": "sam-PUNG TA-ong GU-lang si-YA",
+        "tr": {
+          "ar": "عمره (أو عمرها) عشر سنوات.",
+          "en": "He or she is ten years old.",
+          "id": "Dia berusia sepuluh tahun."
+        },
+        "example": {
+          "target": "Walong taong gulang ako.",
+          "translit": "wa-LONG TA-ong GU-lang A-ko",
+          "tr": {
+            "ar": "عمري ثماني سنوات.",
+            "en": "I am eight years old.",
+            "id": "Saya berusia delapan tahun."
+          }
+        },
+        "hint": {
+          "ar": "«taong gulang» تعني «عمر بالسنوات». يمكن أن تقول فقط «Sampu na siya». «walo» تصبح «walong».",
+          "en": "Taong gulang means years of age. You can also just say Sampu na siya. Walo becomes walong.",
+          "id": "Taong gulang berarti usia dalam tahun. Anda juga bisa cukup berkata Sampu na siya. Walo menjadi walong."
+        }
+      },
+      {
+        "id": "tl04n6",
+        "target": "Ilan po kayo?",
+        "translit": "i-LAN po ka-YO",
+        "tr": {
+          "ar": "كم عددكم؟ (بأدب)",
+          "en": "How many of you are there? (polite)",
+          "id": "Berapa orang Anda? (sopan)"
+        },
+        "example": {
+          "target": "Ilan po kayo? Lima po kami.",
+          "translit": "i-LAN po ka-YO LI-ma po ka-MI",
+          "tr": {
+            "ar": "كم عددكم؟ نحن خمسة.",
+            "en": "How many are you? We are five.",
+            "id": "Berapa orang? Kami lima orang."
+          }
+        },
+        "hint": {
+          "ar": "السؤال المعتاد في المطعم. «kami» تعني «نحن» دون المخاطَب. الجواب: العدد + «po kami».",
+          "en": "This is the usual question in a restaurant. Kami means we, not including the listener. Answer with the number plus po kami.",
+          "id": "Ini pertanyaan lazim di restoran. Kami berarti kami (tidak termasuk lawan bicara). Jawab dengan angka plus po kami."
+        }
+      }
+    ],
+    "cloze": [
+      {
+        "sentence": "Ilang taon ___ na?",
+        "answer": "ka",
+        "wrong": [
+          "ako",
+          "kami"
+        ],
+        "tr": {
+          "ar": "كم عمرك؟",
+          "en": "How old are you?",
+          "id": "Berapa usiamu?"
+        },
+        "why": {
+          "ar": "السؤال موجّه للمخاطَب، فنستعمل «ka». «ako» و«kami» تعودان للمتكلم.",
+          "en": "The question is for the listener, so we use ka. Ako and kami refer to the speaker.",
+          "id": "Pertanyaan ini ditujukan kepada lawan bicara, jadi dipakai ka. Ako dan kami merujuk pada pembicara."
+        }
+      },
+      {
+        "sentence": "Tatlo, apat, ___, anim.",
+        "answer": "lima",
+        "wrong": [
+          "pito",
+          "walo"
+        ],
+        "tr": {
+          "ar": "ثلاثة، أربعة، خمسة، ستة.",
+          "en": "Three, four, five, six.",
+          "id": "Tiga, empat, lima, enam."
+        },
+        "why": {
+          "ar": "الترتيب: tatlo، apat، lima، anim. «pito» و«walo» أكبر من «anim».",
+          "en": "The order is tatlo, apat, lima, anim. Pito and walo come after anim.",
+          "id": "Urutannya tatlo, apat, lima, anim. Pito dan walo datang setelah anim."
+        }
+      }
+    ],
+    "conversation": {
+      "context": {
+        "ar": "في حفلة: شخصان يتحدثان عن العمر.",
+        "en": "At a party: two people talk about age.",
+        "id": "Di sebuah pesta: dua orang berbicara tentang usia."
+      },
+      "turns": [
+        {
+          "who": "A",
+          "target": "Ilang taon ka na?",
+          "tr": {
+            "ar": "كم عمرك؟",
+            "en": "How old are you?",
+            "id": "Berapa usiamu?"
+          }
+        },
+        {
+          "who": "B",
+          "target": "Sampung taong gulang na ako.",
+          "tr": {
+            "ar": "عمري عشر سنوات.",
+            "en": "I am ten years old.",
+            "id": "Saya sudah berusia sepuluh tahun."
+          }
+        },
+        {
+          "who": "A",
+          "target": "Walong taong gulang ako.",
+          "tr": {
+            "ar": "عمري ثماني سنوات.",
+            "en": "I am eight years old.",
+            "id": "Saya berusia delapan tahun."
+          }
+        }
+      ],
+      "gap": 1,
+      "wrong": [
+        "Taga-Cebu ako.",
+        "Ako si Ana."
+      ],
+      "why": {
+        "ar": "سُئلت عن عمرك فتجيب بعدد وكلمة «taong gulang». الردّان الآخران يخبران بمكان أو اسم.",
+        "en": "You were asked your age, so you answer with a number and taong gulang. The other replies give a place or a name.",
+        "id": "Anda ditanya usia, jadi menjawab dengan angka dan taong gulang. Dua jawaban lain menyebut tempat atau nama."
+      }
+    },
+    "summary": {
+      "ar": "تعدّ الآن من واحد إلى عشرة، وتسأل عن العمر وتجيب. تذكّر الرابط «-ng» بعد الحرف المتحرك و«na» بعد الساكن.",
+      "en": "You can now count to ten, ask about age and answer. Remember the linker -ng after a vowel and na after a consonant.",
+      "id": "Kini Anda bisa berhitung sampai sepuluh serta menanyakan dan menjawab usia. Ingat penghubung -ng setelah vokal dan na setelah konsonan."
+    }
+  },
+  {
+    "id": "tl-05",
+    "track": "tl",
+    "level": "beginner",
+    "order": 5,
+    "topic": "family-possession",
+    "icon": "👨‍👩‍👧",
+    "title": {
+      "ar": "العائلة والملكية",
+      "en": "Family and Possession",
+      "id": "Keluarga dan Kepemilikan"
+    },
+    "description": {
+      "ar": "تحدّث عن أفراد عائلتك واستعمل «ko» و«mo» و«niya».",
+      "en": "Talk about family members and use ko, mo and niya.",
+      "id": "Bicarakan anggota keluarga dan pakai ko, mo, dan niya."
+    },
+    "objectives": [
+      {
+        "ar": "أستطيع تسمية الأم والأب والأخ والأخت الأكبر.",
+        "en": "I can name mother, father, and older brother and sister.",
+        "id": "Saya bisa menyebut ibu, ayah, serta kakak laki-laki dan perempuan."
+      },
+      {
+        "ar": "أستطيع أن أقول «ko» (لي) و«mo» (لك) و«niya» (له أو لها).",
+        "en": "I can say ko (my), mo (your) and niya (his or her).",
+        "id": "Saya bisa mengatakan ko (milik saya), mo (milikmu), dan niya (miliknya)."
+      },
+      {
+        "ar": "أستطيع أن أسأل «Ilan ang kapatid mo?».",
+        "en": "I can ask Ilan ang kapatid mo?",
+        "id": "Saya bisa menanyakan Ilan ang kapatid mo?"
+      }
+    ],
+    "intro": {
+      "ar": "العائلة محور حياة الفلبينيين، ولذلك هي موضوع أول للحديث. ستتعلم أسماء أفراد العائلة وكيف تقول «لي» و«لك» و«له» بوضع كلمة صغيرة بعد الاسم.",
+      "en": "Family is at the centre of Filipino life, so it is a natural first topic. You learn the family words and how to say my, your and his or her by putting a small word after the noun.",
+      "id": "Keluarga adalah pusat kehidupan orang Filipina, jadi menjadi topik pertama yang wajar. Anda mempelajari kata-kata keluarga dan cara mengatakan milik saya, milikmu, dan miliknya dengan meletakkan kata kecil setelah kata benda."
+    },
+    "culture": {
+      "ar": "في الفلبين تُعدّ العائلة الممتدة قريبة جدًا، وقد يعيش الأجداد والأعمام مع الأسرة. ويقول الناس «Ate» للأخت الكبرى و«Kuya» للأخ الأكبر، وينادون بهما أيضًا من هو أكبر منهم قليلًا ولو لم يكن قريبًا. وللأم «Nanay» أو «Mama» وللأب «Tatay» أو «Papa».",
+      "en": "Filipino families are close and extended; grandparents, aunts and uncles often live in the same home. People say Ate for an older sister and Kuya for an older brother, and also use them for any slightly older person, relative or not. For mother you hear Nanay or Mama, for father Tatay or Papa.",
+      "id": "Keluarga Filipina dekat dan besar; kakek-nenek, bibi, dan paman sering tinggal serumah. Orang memakai Ate untuk kakak perempuan dan Kuya untuk kakak laki-laki, dan juga untuk siapa saja yang sedikit lebih tua, kerabat atau bukan. Untuk ibu terdengar Nanay atau Mama, untuk ayah Tatay atau Papa."
+    },
+    "grammar": {
+      "title": {
+        "ar": "«ko» و«mo» و«niya» بعد الاسم",
+        "en": "Ko, mo and niya after the noun",
+        "id": "Ko, mo, dan niya setelah kata benda"
+      },
+      "body": {
+        "ar": "كلمات الملكية تأتي بعد الاسم: «nanay ko» (أمي)، «tatay mo» (أبوك)، «kuya niya» (أخوه). وأمام الاسم المحدد نضع «ang»: «Ang nanay ko ay guro». تشبه «ko» و«mo» حرفي «ku» و«mu» في الإندونيسية، ولكنها منفصلة وتأتي بعد الاسم أيضًا.",
+        "en": "Possessive words come after the noun: nanay ko (my mother), tatay mo (your father), kuya niya (his or her older brother). Before a specific noun we put ang: Ang nanay ko ay guro. Ko and mo are similar to Indonesian ku and mu, and they also come after the noun.",
+        "id": "Kata kepemilikan berada setelah kata benda: nanay ko (ibu saya), tatay mo (ayahmu), kuya niya (kakak laki-lakinya). Sebelum kata benda tertentu kita menaruh ang: Ang nanay ko ay guro. Ko dan mo mirip ku dan mu dalam bahasa Indonesia, dan juga berada setelah kata benda."
+      }
+    },
+    "items": [
+      {
+        "id": "tl05n1",
+        "target": "Ito ang nanay ko.",
+        "translit": "i-TO ang NA-nay ko",
+        "tr": {
+          "ar": "هذه أمي.",
+          "en": "This is my mother.",
+          "id": "Ini ibu saya."
+        },
+        "example": {
+          "target": "Ito ang nanay at tatay ko.",
+          "translit": "i-TO ang NA-nay at TA-tay ko",
+          "tr": {
+            "ar": "هذان أمي وأبي.",
+            "en": "These are my mother and father.",
+            "id": "Ini ibu dan ayah saya."
+          }
+        },
+        "hint": {
+          "ar": "«nanay» و«tatay» تُستعملان مع «po»: «Nanay po». للتحدث عن الأم والأب بإيجاز استعمل أيضًا «mama» و«papa».",
+          "en": "Nanay and tatay are used with po: Nanay po. Mama and papa are also common, especially in cities.",
+          "id": "Nanay dan tatay dipakai dengan po: Nanay po. Mama dan papa juga umum, terutama di kota."
+        }
+      },
+      {
+        "id": "tl05n2",
+        "target": "Kumusta ang tatay mo?",
+        "translit": "ku-mus-TA ang TA-tay mo",
+        "tr": {
+          "ar": "كيف حال والدك؟",
+          "en": "How is your father?",
+          "id": "Bagaimana kabar ayahmu?"
+        },
+        "example": {
+          "target": "Kumusta po ang nanay ninyo?",
+          "translit": "ku-mus-TA po ang NA-nay ni-NYO",
+          "tr": {
+            "ar": "كيف حال والدتكم؟ (بأدب)",
+            "en": "How is your mother? (polite)",
+            "id": "Bagaimana kabar ibu Anda? (sopan)"
+          }
+        },
+        "hint": {
+          "ar": "«ang» تعني هنا الشيء المسؤول عنه. مع الغرباء نبدّل «mo» بـ«ninyo» ونضيف «po».",
+          "en": "Ang marks what we ask about. With a respected person change mo to ninyo and add po.",
+          "id": "Ang menandai hal yang ditanyakan. Dengan orang yang dihormati ganti mo menjadi ninyo dan tambahkan po."
+        }
+      },
+      {
+        "id": "tl05n3",
+        "target": "Ang ate ko ay guro.",
+        "translit": "ang A-te ko ay GU-ro",
+        "tr": {
+          "ar": "أختي الكبرى معلمة.",
+          "en": "My older sister is a teacher.",
+          "id": "Kakak perempuan saya adalah seorang guru."
+        },
+        "example": {
+          "target": "Guro ang ate ko.",
+          "translit": "GU-ro ang A-te ko",
+          "tr": {
+            "ar": "أختي الكبرى معلمة.",
+            "en": "My older sister is a teacher.",
+            "id": "Kakak perempuan saya seorang guru."
+          }
+        },
+        "hint": {
+          "ar": "«ate» للأخت الكبرى و«kuya» للأخ الأكبر. يمكن قلب الجملة كما في الدرس 3.",
+          "en": "Ate is an older sister and kuya an older brother. The sentence can be turned around as in lesson 3.",
+          "id": "Ate untuk kakak perempuan dan kuya untuk kakak laki-laki. Kalimat bisa dibalik seperti di pelajaran 3."
+        }
+      },
+      {
+        "id": "tl05n4",
+        "target": "Ang kuya niya ay doktor.",
+        "translit": "ang KU-ya ni-YA ay dok-TOR",
+        "tr": {
+          "ar": "أخوه الأكبر طبيب.",
+          "en": "His or her older brother is a doctor.",
+          "id": "Kakak laki-lakinya adalah seorang dokter."
+        },
+        "example": {
+          "target": "Doktor ang kuya niya.",
+          "translit": "dok-TOR ang KU-ya ni-YA",
+          "tr": {
+            "ar": "أخوها الأكبر طبيب.",
+            "en": "Her older brother is a doctor.",
+            "id": "Kakak laki-lakinya seorang dokter."
+          }
+        },
+        "hint": {
+          "ar": "«niya» بعد الاسم تعني «له» أو «لها» دون تمييز بين المذكر والمؤنث.",
+          "en": "Niya after a noun means his or her, with no difference between male and female.",
+          "id": "Niya setelah kata benda berarti miliknya, tanpa membedakan laki-laki dan perempuan."
+        }
+      },
+      {
+        "id": "tl05n5",
+        "target": "Ilan ang kapatid mo?",
+        "translit": "i-LAN ang ka-pa-TID mo",
+        "tr": {
+          "ar": "كم عدد إخوتك؟",
+          "en": "How many brothers and sisters do you have?",
+          "id": "Kamu punya berapa saudara?"
+        },
+        "example": {
+          "target": "Dalawa ang kapatid ko.",
+          "translit": "da-LA-wa ang ka-pa-TID ko",
+          "tr": {
+            "ar": "لي أخوان (أو أختان).",
+            "en": "I have two siblings.",
+            "id": "Saya punya dua saudara."
+          }
+        },
+        "hint": {
+          "ar": "«kapatid» تعني الأخ أو الأخت بلا تمييز. الجواب: العدد + «ang kapatid ko».",
+          "en": "Kapatid means brother or sister with no difference. Answer with the number plus ang kapatid ko.",
+          "id": "Kapatid berarti saudara laki-laki atau perempuan tanpa membedakan. Jawab dengan angka plus ang kapatid ko."
+        }
+      },
+      {
+        "id": "tl05n6",
+        "target": "Ito ang pamilya ko.",
+        "translit": "i-TO ang pa-MIL-ya ko",
+        "tr": {
+          "ar": "هذه عائلتي.",
+          "en": "This is my family.",
+          "id": "Ini keluarga saya."
+        },
+        "example": {
+          "target": "Masaya ang pamilya ko.",
+          "translit": "ma-SA-ya ang pa-MIL-ya ko",
+          "tr": {
+            "ar": "عائلتي سعيدة.",
+            "en": "My family is happy.",
+            "id": "Keluarga saya bahagia."
+          }
+        },
+        "hint": {
+          "ar": "«pamilya» من الإسبانية. تأتي «ko» دائمًا بعد الاسم.",
+          "en": "Pamilya comes from Spanish. Ko always follows the noun.",
+          "id": "Pamilya berasal dari bahasa Spanyol. Ko selalu mengikuti kata benda."
+        }
+      }
+    ],
+    "cloze": [
+      {
+        "sentence": "Ang tatay ___ ay doktor.",
+        "answer": "ko",
+        "wrong": [
+          "ako",
+          "ikaw"
+        ],
+        "tr": {
+          "ar": "أبي طبيب.",
+          "en": "My father is a doctor.",
+          "id": "Ayah saya seorang dokter."
+        },
+        "why": {
+          "ar": "«ko» تأتي بعد الاسم وتعني «لي». «ako» و«ikaw» ضميران لا يصلحان هنا.",
+          "en": "Ko follows the noun and means my. Ako and ikaw are pronouns that do not fit here.",
+          "id": "Ko berada setelah kata benda dan berarti milik saya. Ako dan ikaw adalah kata ganti yang tidak cocok di sini."
+        }
+      },
+      {
+        "sentence": "Ilan ang kapatid ___?",
+        "answer": "mo",
+        "wrong": [
+          "ka",
+          "ako"
+        ],
+        "tr": {
+          "ar": "كم عدد إخوتك؟",
+          "en": "How many siblings do you have?",
+          "id": "Kamu punya berapa saudara?"
+        },
+        "why": {
+          "ar": "بعد الاسم «kapatid» نضع «mo» (لك). «ka» و«ako» لا تأتيان بعد الاسم.",
+          "en": "After the noun kapatid we put mo (your). Ka and ako do not follow the noun.",
+          "id": "Setelah kata benda kapatid kita menaruh mo (milikmu). Ka dan ako tidak berada setelah kata benda."
+        }
+      }
+    ],
+    "conversation": {
+      "context": {
+        "ar": "أمام صورة عائلية: صديقان يتحدثان.",
+        "en": "Looking at a family photo: two friends talk.",
+        "id": "Di depan foto keluarga: dua teman berbincang."
+      },
+      "turns": [
+        {
+          "who": "A",
+          "target": "Ito ang pamilya ko.",
+          "tr": {
+            "ar": "هذه عائلتي.",
+            "en": "This is my family.",
+            "id": "Ini keluarga saya."
+          }
+        },
+        {
+          "who": "B",
+          "target": "Ilan ang kapatid mo?",
+          "tr": {
+            "ar": "كم عدد إخوتك؟",
+            "en": "How many siblings do you have?",
+            "id": "Kamu punya berapa saudara?"
+          }
+        },
+        {
+          "who": "A",
+          "target": "Dalawa. Ang ate ko at ang kuya ko.",
+          "tr": {
+            "ar": "اثنان: أختي الكبرى وأخي الأكبر.",
+            "en": "Two: my older sister and my older brother.",
+            "id": "Dua: kakak perempuan dan kakak laki-laki saya."
+          }
+        }
+      ],
+      "gap": 1,
+      "wrong": [
+        "Ilang taon ka na?",
+        "Magandang gabi po."
+      ],
+      "why": {
+        "ar": "A أجاب «Dalawa» ثم ذكر أخته وأخاه، فالسؤال هو «Ilan ang kapatid mo?». الردّان الآخران لا يناسبان الجواب.",
+        "en": "A answered Dalawa and named a sister and a brother, so the question was Ilan ang kapatid mo? The other replies do not match the answer.",
+        "id": "A menjawab Dalawa lalu menyebut kakak perempuan dan laki-laki, jadi pertanyaannya Ilan ang kapatid mo? Dua jawaban lain tidak cocok dengan jawaban itu."
+      }
+    },
+    "summary": {
+      "ar": "تعرف الآن أن تعرّف بعائلتك: «ang nanay ko»، «ang kuya niya». تذكّر أن «ko» و«mo» و«niya» تأتي بعد الاسم.",
+      "en": "You can now introduce your family: ang nanay ko, ang kuya niya. Remember that ko, mo and niya come after the noun.",
+      "id": "Kini Anda bisa memperkenalkan keluarga: ang nanay ko, ang kuya niya. Ingat bahwa ko, mo, dan niya berada setelah kata benda."
+    }
+  },
+  {
+    "id": "tl-06",
+    "track": "tl",
+    "level": "beginner",
+    "order": 6,
+    "topic": "food-cafe-ordering",
+    "icon": "☕",
+    "title": {
+      "ar": "الطعام والمقهى والطلب",
+      "en": "Food, Café and Ordering",
+      "id": "Makanan, Kafe, dan Memesan"
+    },
+    "description": {
+      "ar": "اطلب قهوة وماء بأدب واسأل عن الدفع.",
+      "en": "Order coffee and water politely and ask about paying.",
+      "id": "Pesan kopi dan air dengan sopan serta tanyakan cara membayar."
+    },
+    "objectives": [
+      {
+        "ar": "أستطيع أن أقول «Gusto ko ng ...» لأطلب شيئًا.",
+        "en": "I can say Gusto ko ng ... to ask for something.",
+        "id": "Saya bisa mengatakan Gusto ko ng ... untuk meminta sesuatu."
+      },
+      {
+        "ar": "أستطيع أن أسأل «Pwede po ba ...?».",
+        "en": "I can ask Pwede po ba ...?",
+        "id": "Saya bisa menanyakan Pwede po ba ...?"
+      },
+      {
+        "ar": "أستطيع أن أطلب القائمة بأدب وأقول إن الطعام لذيذ.",
+        "en": "I can politely ask for the menu and say the food is delicious.",
+        "id": "Saya bisa meminta menu dengan sopan dan mengatakan makanannya enak."
+      }
+    ],
+    "intro": {
+      "ar": "الطعام جزء كبير من الحياة الفلبينية، وطلب شيء في مقهى أو مطعم من أول المواقف التي ستحتاجها. نبدأ بعبارة «Gusto ko ng» (أريد) ونضيف «po» ليكون الطلب مهذبًا.",
+      "en": "Food is a big part of Filipino life, and ordering in a café or restaurant is one of the first situations you will meet. We start with Gusto ko ng (I want) and add po to keep the request polite.",
+      "id": "Makanan adalah bagian besar kehidupan orang Filipina, dan memesan di kafe atau restoran adalah salah satu situasi pertama yang akan Anda hadapi. Kita mulai dengan Gusto ko ng (saya mau) dan menambahkan po agar permintaan sopan."
+    },
+    "culture": {
+      "ar": "في الفلبين يدعو الناس الضيف دائمًا إلى الأكل، فإن زرت بيتًا سمعت «Kain tayo!» (لنأكل). وفي المطاعم يُنادى النادل بكلمة «Miss» أو «Sir» أو بإشارة بسيطة. والدفع بالبطاقة ممكن في الأماكن الكبيرة، أما المحلات الصغيرة فتفضّل النقد.",
+      "en": "In the Philippines people always invite a guest to eat, so if you visit a home you will hear Kain tayo! (Let us eat). In restaurants you call a server with Miss or Sir or a small gesture. Cards work in larger places, while small shops prefer cash.",
+      "id": "Di Filipina orang selalu mengajak tamu makan, jadi jika berkunjung ke rumah Anda akan mendengar Kain tayo! (Ayo makan). Di restoran Anda memanggil pelayan dengan Miss atau Sir atau isyarat kecil. Kartu bisa dipakai di tempat besar, sedangkan toko kecil lebih suka uang tunai."
+    },
+    "grammar": {
+      "title": {
+        "ar": "«Gusto ko ng ...» (أريد ...)",
+        "en": "Gusto ko ng ...",
+        "id": "Gusto ko ng ..."
+      },
+      "body": {
+        "ar": "للتعبير عن الرغبة: «Gusto ko ng + اسم»: «Gusto ko ng kape». الكلمة «ng» تأتي بعد «gusto ko» قبل الشيء المطلوب، وهي ليست «nang». وعند الطلب من نادل نضيف «po»: «Isang tubig po». «Pwede po ba ...?» تعني «هل يمكن ...؟». وتُكتب أيضًا «puwede».",
+        "en": "To say what you want use Gusto ko ng + noun: Gusto ko ng kape. The little word ng comes after gusto ko before the thing you want, and it is not nang. When asking a server add po: Isang tubig po. Pwede po ba ...? means Is it possible ...? It is also spelled puwede.",
+        "id": "Untuk mengatakan apa yang Anda inginkan pakai Gusto ko ng + kata benda: Gusto ko ng kape. Kata kecil ng berada setelah gusto ko sebelum barang yang diinginkan, dan bukan nang. Saat meminta kepada pelayan tambahkan po: Isang tubig po. Pwede po ba ...? berarti Bolehkah ...? Juga ditulis puwede."
+      }
+    },
+    "items": [
+      {
+        "id": "tl06n1",
+        "target": "Gusto ko ng kape.",
+        "translit": "GUS-to ko ng ka-PE",
+        "tr": {
+          "ar": "أريد قهوة.",
+          "en": "I want coffee.",
+          "id": "Saya mau kopi."
+        },
+        "example": {
+          "target": "Gusto ko ng kape po.",
+          "translit": "GUS-to ko ng ka-PE po",
+          "tr": {
+            "ar": "أريد قهوة، من فضلكم.",
+            "en": "I would like a coffee, please.",
+            "id": "Saya mau kopi, tolong."
+          }
+        },
+        "hint": {
+          "ar": "«po» تجعل الطلب لطيفًا مع النادل. «ng» تُلفظ «nang» لكنها تُكتب «ng».",
+          "en": "Po makes the request polite with a server. Ng is said nang but written ng.",
+          "id": "Po membuat permintaan sopan kepada pelayan. Ng dibaca nang tetapi ditulis ng."
+        }
+      },
+      {
+        "id": "tl06n2",
+        "target": "Isang tubig po.",
+        "translit": "i-SANG tu-BIG po",
+        "tr": {
+          "ar": "كأس ماء من فضلكم.",
+          "en": "One water, please.",
+          "id": "Satu air putih, tolong."
+        },
+        "example": {
+          "target": "Isa pang tubig po.",
+          "translit": "i-SA pang tu-BIG po",
+          "tr": {
+            "ar": "كأس ماء آخر من فضلكم.",
+            "en": "Another water, please.",
+            "id": "Satu air lagi, tolong."
+          }
+        },
+        "hint": {
+          "ar": "«isa» تصبح «isang» قبل الاسم. هذا الطلب القصير شائع جدًا.",
+          "en": "Isa becomes isang before a noun. This short order is very common.",
+          "id": "Isa menjadi isang sebelum kata benda. Pesanan singkat ini sangat umum."
+        }
+      },
+      {
+        "id": "tl06n3",
+        "target": "Pakibigay po ng menu.",
+        "translit": "pa-ki-bi-GAY po ng ME-nyu",
+        "tr": {
+          "ar": "من فضلكم أعطوني القائمة.",
+          "en": "Please give me the menu.",
+          "id": "Tolong berikan menunya."
+        },
+        "example": {
+          "target": "Pakibigay po ng bill.",
+          "translit": "pa-ki-bi-GAY po ng BIL",
+          "tr": {
+            "ar": "من فضلكم أعطوني الفاتورة.",
+            "en": "Please give me the bill.",
+            "id": "Tolong berikan tagihannya."
+          }
+        },
+        "hint": {
+          "ar": "البادئة «paki-» تعني «من فضلك» + الفعل. وكلمة «pakiusap» هي الطلب بأدب أو «أرجوك» عند الإلحاح.",
+          "en": "The prefix paki- means please plus the verb. The word pakiusap is a polite request, more like I beg you.",
+          "id": "Awalan paki- berarti tolong + kata kerja. Kata pakiusap adalah permintaan sopan, lebih seperti saya mohon."
+        }
+      },
+      {
+        "id": "tl06n4",
+        "target": "Ano po ang gusto ninyo?",
+        "translit": "A-no po ang GUS-to ni-NYO",
+        "tr": {
+          "ar": "ماذا تريدون؟ (بأدب)",
+          "en": "What would you like? (polite)",
+          "id": "Anda mau apa? (sopan)"
+        },
+        "example": {
+          "target": "Ano ang gusto mo?",
+          "translit": "A-no ang GUS-to mo",
+          "tr": {
+            "ar": "ماذا تريد؟",
+            "en": "What do you want?",
+            "id": "Kamu mau apa?"
+          }
+        },
+        "hint": {
+          "ar": "هذا ما يقوله النادل. الجواب: «Gusto ko ng ...».",
+          "en": "This is what a server says. The answer is Gusto ko ng ...",
+          "id": "Ini yang dikatakan pelayan. Jawabannya: Gusto ko ng ..."
+        }
+      },
+      {
+        "id": "tl06n5",
+        "target": "Masarap po!",
+        "translit": "ma-SA-rap po",
+        "tr": {
+          "ar": "لذيذ!",
+          "en": "It is delicious!",
+          "id": "Enak sekali!"
+        },
+        "example": {
+          "target": "Masarap po ang pagkain.",
+          "translit": "ma-SA-rap po ang pag-KA-in",
+          "tr": {
+            "ar": "الطعام لذيذ.",
+            "en": "The food is delicious.",
+            "id": "Makanannya enak."
+          }
+        },
+        "hint": {
+          "ar": "«masarap» تعني لذيذ. هذه مجاملة جميلة لمن أعدّ الطعام.",
+          "en": "Masarap means delicious. It is a lovely compliment to whoever made the meal.",
+          "id": "Masarap berarti enak. Ini pujian yang indah untuk orang yang memasak."
+        }
+      },
+      {
+        "id": "tl06n6",
+        "target": "Pwede po ba ang card?",
+        "translit": "PWE-de po ba ang KARD",
+        "tr": {
+          "ar": "هل يمكن الدفع بالبطاقة؟",
+          "en": "Can I pay by card?",
+          "id": "Bisa bayar pakai kartu?"
+        },
+        "example": {
+          "target": "Pwede po ba ang cash?",
+          "translit": "PWE-de po ba ang KASH",
+          "tr": {
+            "ar": "هل يمكن الدفع نقدًا؟",
+            "en": "Can I pay in cash?",
+            "id": "Bisa bayar tunai?"
+          }
+        },
+        "hint": {
+          "ar": "تُكتب «pwede» أو «puwede» ومعناهما واحد. «card» و«cash» كلمتان إنجليزيتان شائعتان.",
+          "en": "It is written pwede or puwede with the same meaning. Card and cash are common English words in Tagalog.",
+          "id": "Ditulis pwede atau puwede dengan arti yang sama. Card dan cash adalah kata Inggris yang umum dalam bahasa Tagalog."
+        }
+      }
+    ],
+    "cloze": [
+      {
+        "sentence": "Gusto ko ___ kape.",
+        "answer": "ng",
+        "wrong": [
+          "ay",
+          "si"
+        ],
+        "tr": {
+          "ar": "أريد قهوة.",
+          "en": "I want coffee.",
+          "id": "Saya mau kopi."
+        },
+        "why": {
+          "ar": "بعد «gusto ko» نضع «ng» ثم الشيء المطلوب. «ay» و«si» لا يصلحان هنا.",
+          "en": "After gusto ko we put ng and then the thing wanted. Ay and si do not work here.",
+          "id": "Setelah gusto ko kita menaruh ng lalu barang yang diinginkan. Ay dan si tidak cocok di sini."
+        }
+      },
+      {
+        "sentence": "Pwede po ___ ang card?",
+        "answer": "ba",
+        "wrong": [
+          "ng",
+          "si"
+        ],
+        "tr": {
+          "ar": "هل يمكن الدفع بالبطاقة؟",
+          "en": "Can I pay by card?",
+          "id": "Bisa bayar pakai kartu?"
+        },
+        "why": {
+          "ar": "«ba» تجعل الجملة سؤالًا. «ng» و«si» لا يصلحان في هذا الموضع.",
+          "en": "Ba turns the sentence into a question. Ng and si do not fit in this position.",
+          "id": "Ba mengubah kalimat menjadi pertanyaan. Ng dan si tidak cocok pada posisi ini."
+        }
+      }
+    ],
+    "conversation": {
+      "context": {
+        "ar": "في مقهى: النادل يأخذ الطلب.",
+        "en": "In a café: the server takes the order.",
+        "id": "Di sebuah kafe: pelayan mencatat pesanan."
+      },
+      "turns": [
+        {
+          "who": "A",
+          "target": "Magandang hapon po. Ano po ang gusto ninyo?",
+          "tr": {
+            "ar": "مساء الخير. ماذا تريدون؟",
+            "en": "Good afternoon. What would you like?",
+            "id": "Selamat sore. Anda mau apa?"
+          }
+        },
+        {
+          "who": "B",
+          "target": "Gusto ko ng kape po.",
+          "tr": {
+            "ar": "أريد قهوة من فضلكم.",
+            "en": "I would like a coffee, please.",
+            "id": "Saya mau kopi, tolong."
+          }
+        },
+        {
+          "who": "A",
+          "target": "Opo. Salamat po.",
+          "tr": {
+            "ar": "حاضر. شكرًا.",
+            "en": "Yes. Thank you.",
+            "id": "Baik. Terima kasih."
+          }
+        }
+      ],
+      "gap": 1,
+      "wrong": [
+        "Ako po si Maria.",
+        "Sampung taong gulang po ako."
+      ],
+      "why": {
+        "ar": "النادل سأل ماذا تريد، فتجيب «Gusto ko ng ... po». الردّان الآخران لا يطلبان شيئًا.",
+        "en": "The server asked what you want, so you answer Gusto ko ng ... po. The other replies do not order anything.",
+        "id": "Pelayan bertanya apa yang Anda mau, jadi menjawab Gusto ko ng ... po. Dua jawaban lain tidak memesan apa pun."
+      }
+    },
+    "summary": {
+      "ar": "تستطيع الآن أن تطلب قهوة أو ماءً بأدب وتطلب القائمة وتسأل عن الدفع. ابدأ كل طلب بـ«Gusto ko ng» واختمه بـ«po».",
+      "en": "You can now order coffee or water politely, ask for the menu and ask about paying. Start each request with Gusto ko ng and finish it with po.",
+      "id": "Kini Anda bisa memesan kopi atau air dengan sopan, meminta menu, dan menanyakan pembayaran. Mulai setiap permintaan dengan Gusto ko ng dan akhiri dengan po."
+    }
+  },
+  {
+    "id": "tl-07",
+    "track": "tl",
+    "level": "elementary",
+    "order": 7,
+    "topic": "shopping-prices",
+    "icon": "🛍️",
+    "title": {
+      "ar": "التسوق والأسعار",
+      "en": "Shopping and Prices",
+      "id": "Belanja dan Harga"
+    },
+    "description": {
+      "ar": "اسأل عن السعر وأشر إلى الأشياء بـ«ito» و«iyan» و«iyon».",
+      "en": "Ask prices and point to things with ito, iyan and iyon.",
+      "id": "Tanyakan harga dan tunjuk benda dengan ito, iyan, dan iyon."
+    },
+    "objectives": [
+      {
+        "ar": "أستطيع أن أسأل «Magkano po ito?».",
+        "en": "I can ask Magkano po ito?",
+        "id": "Saya bisa menanyakan Magkano po ito?"
+      },
+      {
+        "ar": "أستطيع أن أفرّق بين «ito» و«iyan» و«iyon».",
+        "en": "I can tell ito, iyan and iyon apart.",
+        "id": "Saya bisa membedakan ito, iyan, dan iyon."
+      },
+      {
+        "ar": "أستطيع أن أطلب خصمًا وأقول إن السعر غالٍ.",
+        "en": "I can ask for a discount and say a price is high.",
+        "id": "Saya bisa meminta potongan harga dan mengatakan harga mahal."
+      }
+    ],
+    "intro": {
+      "ar": "في الأسواق والمحلات الصغيرة يسأل الناس عن السعر ويقدرون المساومة اللطيفة. تحتاج كلمتين مهمتين: «magkano» (بكم؟) وكلمات الإشارة «ito» و«iyan» و«iyon».",
+      "en": "In markets and small shops people ask prices and often enjoy a bit of friendly bargaining. You need two key things: magkano (how much) and the pointing words ito, iyan and iyon.",
+      "id": "Di pasar dan toko kecil orang menanyakan harga dan sering suka tawar-menawar yang ramah. Anda butuh dua hal penting: magkano (berapa harga) dan kata penunjuk ito, iyan, dan iyon."
+    },
+    "culture": {
+      "ar": "في الأسواق الشعبية (palengke) يُقبل التفاوض على السعر بابتسامة، وتُسمّى المساومة «tawad». أما في المراكز التجارية فالأسعار ثابتة. والعملة هي البيزو (piso)، ويقول الناس «piso» للعملة الواحدة و«pesos» للجمع بالإنجليزية.",
+      "en": "In wet markets (palengke) friendly haggling, called tawad, is accepted and often expected. In shopping malls prices are fixed. The currency is the peso, said piso, and many people also say pesos in English.",
+      "id": "Di pasar tradisional (palengke) tawar-menawar yang ramah, disebut tawad, wajar dilakukan. Di mal harga sudah tetap. Mata uangnya peso, disebut piso, dan banyak orang juga mengatakan pesos dalam bahasa Inggris."
+    },
+    "grammar": {
+      "title": {
+        "ar": "«ito» و«iyan» و«iyon»",
+        "en": "Ito, iyan and iyon",
+        "id": "Ito, iyan, dan iyon"
+      },
+      "body": {
+        "ar": "ثلاث كلمات إشارة: «ito» لما هو قريب مني، و«iyan» لما هو قريب منك، و«iyon» لما هو بعيد عنا معًا. تقف هذه الكلمات وحدها كاسم: «Magkano ito?» و«Gusto ko iyon». «Magkano» كلمة سؤال عن الثمن.",
+        "en": "There are three pointing words: ito for something near me, iyan for something near you, and iyon for something far from both of us. They stand alone as nouns: Magkano ito? and Gusto ko iyon. Magkano is the question word for price.",
+        "id": "Ada tiga kata penunjuk: ito untuk yang dekat saya, iyan untuk yang dekat Anda, dan iyon untuk yang jauh dari kita berdua. Kata-kata ini berdiri sendiri sebagai kata benda: Magkano ito? dan Gusto ko iyon. Magkano adalah kata tanya harga."
+      }
+    },
+    "items": [
+      {
+        "id": "tl07n1",
+        "target": "Magkano po ito?",
+        "translit": "mag-KA-no po i-TO",
+        "tr": {
+          "ar": "بكم هذا؟ (بأدب)",
+          "en": "How much is this? (polite)",
+          "id": "Berapa harga ini? (sopan)"
+        },
+        "example": {
+          "target": "Magkano po ang bag na ito?",
+          "translit": "mag-KA-no po ang BAG na i-TO",
+          "tr": {
+            "ar": "بكم هذه الحقيبة؟",
+            "en": "How much is this bag?",
+            "id": "Berapa harga tas ini?"
+          }
+        },
+        "hint": {
+          "ar": "«ito» لما أمسكه أو أراه قريبًا مني. أضف «po» عند التحدث إلى البائع.",
+          "en": "Use ito for what I am holding or what is near me. Add po when you speak to the seller.",
+          "id": "Pakai ito untuk yang saya pegang atau yang dekat dengan saya. Tambahkan po ketika berbicara kepada penjual."
+        }
+      },
+      {
+        "id": "tl07n2",
+        "target": "Magkano po iyan?",
+        "translit": "mag-KA-no po i-YAN",
+        "tr": {
+          "ar": "بكم ذلك الذي عندك؟",
+          "en": "How much is that one near you?",
+          "id": "Berapa harga yang di dekat Anda itu?"
+        },
+        "example": {
+          "target": "Magkano po iyan, ate?",
+          "translit": "mag-KA-no po i-YAN A-te",
+          "tr": {
+            "ar": "بكم هذا الذي عندك يا أختي؟",
+            "en": "How much is that, ate?",
+            "id": "Berapa harga itu, Kak?"
+          }
+        },
+        "hint": {
+          "ar": "«iyan» تعني الشيء القريب من المخاطَب، كأن يشير البائع إلى ما بين يديه.",
+          "en": "Iyan means the thing near the listener, such as what the seller is holding.",
+          "id": "Iyan berarti benda yang dekat dengan lawan bicara, misalnya yang dipegang penjual."
+        }
+      },
+      {
+        "id": "tl07n3",
+        "target": "Gusto ko iyon.",
+        "translit": "GUS-to ko i-YON",
+        "tr": {
+          "ar": "أريد ذلك (البعيد).",
+          "en": "I want that one (over there).",
+          "id": "Saya mau yang itu (di sana)."
+        },
+        "example": {
+          "target": "Gusto ko po iyon.",
+          "translit": "GUS-to ko po i-YON",
+          "tr": {
+            "ar": "أريد ذلك من فضلكم.",
+            "en": "I would like that one, please.",
+            "id": "Saya mau yang itu, tolong."
+          }
+        },
+        "hint": {
+          "ar": "«iyon» لما هو بعيد عن الاثنين. بعد «gusto ko» نضع كلمة الإشارة مباشرة دون «ng».",
+          "en": "Iyon is for what is far from both people. After gusto ko you can put ito, iyan or iyon directly.",
+          "id": "Iyon untuk yang jauh dari kedua orang. Setelah gusto ko Anda bisa langsung menaruh ito, iyan, atau iyon."
+        }
+      },
+      {
+        "id": "tl07n4",
+        "target": "Ang mahal po!",
+        "translit": "ang ma-HAL po",
+        "tr": {
+          "ar": "ما أغلى هذا!",
+          "en": "That is expensive!",
+          "id": "Mahal sekali!"
+        },
+        "example": {
+          "target": "Mahal po ang bag.",
+          "translit": "ma-HAL po ang BAG",
+          "tr": {
+            "ar": "الحقيبة غالية.",
+            "en": "The bag is expensive.",
+            "id": "Tasnya mahal."
+          }
+        },
+        "hint": {
+          "ar": "«mahal» تعني غالٍ، ولها معنى آخر هو «حبيب». ضد «mahal» هو «mura» (رخيص).",
+          "en": "Mahal means expensive; it also means beloved. The opposite is mura (cheap). The word is the same in Indonesian.",
+          "id": "Mahal berarti mahal, dan juga berarti kekasih. Lawannya mura (murah). Kata ini sama dengan bahasa Indonesia."
+        }
+      },
+      {
+        "id": "tl07n5",
+        "target": "Pwede po bang tumawad?",
+        "translit": "PWE-de po bang tu-MA-wad",
+        "tr": {
+          "ar": "هل يمكنني المساومة؟",
+          "en": "Can I bargain?",
+          "id": "Boleh saya menawar?"
+        },
+        "example": {
+          "target": "Pwede po bang tumawad, ate?",
+          "translit": "PWE-de po bang tu-MA-wad A-te",
+          "tr": {
+            "ar": "هل يمكنني المساومة يا أختي؟",
+            "en": "Can I bargain, ate?",
+            "id": "Boleh saya menawar, Kak?"
+          }
+        },
+        "hint": {
+          "ar": "«tumawad» تعني يساوم. ابتسم وكن لطيفًا. «bang» اختصار «ba» + «ang» الرابط.",
+          "en": "Tumawad means to bargain. Smile and stay friendly. Bang is ba joined to the linker.",
+          "id": "Tumawad berarti menawar. Tersenyumlah dan tetap ramah. Bang adalah ba yang digabung dengan penghubung."
+        }
+      },
+      {
+        "id": "tl07n6",
+        "target": "Ito na lang po.",
+        "translit": "i-TO na lang po",
+        "tr": {
+          "ar": "هذا فقط من فضلكم.",
+          "en": "Just this one, please.",
+          "id": "Ini saja, tolong."
+        },
+        "example": {
+          "target": "Ito na lang po, salamat.",
+          "translit": "i-TO na lang po sa-la-MAT",
+          "tr": {
+            "ar": "هذا فقط، شكرًا.",
+            "en": "Just this one, thank you.",
+            "id": "Ini saja, terima kasih."
+          }
+        },
+        "hint": {
+          "ar": "«na lang» تعني «فقط» أو «بس». عبارة مفيدة جدًا عند الحسم.",
+          "en": "Na lang means just or only. It is a very useful phrase when you decide.",
+          "id": "Na lang berarti saja. Frasa yang sangat berguna ketika Anda sudah memutuskan."
+        }
+      }
+    ],
+    "cloze": [
+      {
+        "sentence": "___ po ito? Sampung piso po.",
+        "answer": "Magkano",
+        "wrong": [
+          "Sino",
+          "Ilan"
+        ],
+        "tr": {
+          "ar": "بكم هذا؟ عشرة بيزو.",
+          "en": "How much is this? Ten pesos.",
+          "id": "Berapa harga ini? Sepuluh peso."
+        },
+        "why": {
+          "ar": "الجواب «Sampung piso» يدل على سؤال عن السعر، فنقول «Magkano». «Sino» (من) و«Ilan» (كم عدد) لا يناسبان.",
+          "en": "The answer Sampung piso shows a question about price, so we say Magkano. Sino (who) and Ilan (how many) do not fit.",
+          "id": "Jawaban Sampung piso menunjukkan pertanyaan tentang harga, jadi dipakai Magkano. Sino (siapa) dan Ilan (berapa jumlah) tidak cocok."
+        }
+      },
+      {
+        "sentence": "Hindi ito, ___ ang gusto ko.",
+        "answer": "iyon",
+        "wrong": [
+          "ng",
+          "si"
+        ],
+        "tr": {
+          "ar": "ليس هذا، ذلك هو ما أريده.",
+          "en": "Not this one, that one over there is what I want.",
+          "id": "Bukan ini, yang itu yang saya mau."
+        },
+        "why": {
+          "ar": "«iyon» كلمة إشارة تُقابل «ito». «ng» و«si» أداتان نحويتان لا تقفان وحدهما قبل «ang».",
+          "en": "Iyon is a pointing word that contrasts with ito. Ng and si are markers and cannot stand alone before ang.",
+          "id": "Iyon adalah kata penunjuk yang dikontraskan dengan ito. Ng dan si adalah penanda dan tidak bisa berdiri sendiri sebelum ang."
+        }
+      }
+    ],
+    "conversation": {
+      "context": {
+        "ar": "في متجر صغير: زبون يسأل البائعة.",
+        "en": "In a small shop: a customer asks the seller.",
+        "id": "Di sebuah toko kecil: pembeli bertanya kepada penjual."
+      },
+      "turns": [
+        {
+          "who": "A",
+          "target": "Magandang hapon po. Magkano po ito?",
+          "tr": {
+            "ar": "مساء الخير. بكم هذا؟",
+            "en": "Good afternoon. How much is this?",
+            "id": "Selamat sore. Berapa harga ini?"
+          }
+        },
+        {
+          "who": "B",
+          "target": "Sampung piso lang po.",
+          "tr": {
+            "ar": "عشرة بيزو فقط.",
+            "en": "Only ten pesos.",
+            "id": "Hanya sepuluh peso."
+          }
+        },
+        {
+          "who": "A",
+          "target": "Salamat po. Ito na lang po.",
+          "tr": {
+            "ar": "شكرًا. هذا فقط.",
+            "en": "Thank you. Just this one.",
+            "id": "Terima kasih. Ini saja."
+          }
+        }
+      ],
+      "gap": 1,
+      "wrong": [
+        "Ako po si Maria.",
+        "Magandang umaga po."
+      ],
+      "why": {
+        "ar": "سُئلت عن السعر فتجيب بالمبلغ: «Sampung piso lang po». الردّان الآخران لا يذكران سعرًا.",
+        "en": "You were asked the price, so you answer with the amount: Sampung piso lang po. The other replies do not give a price.",
+        "id": "Anda ditanya harga, jadi menjawab dengan jumlahnya: Sampung piso lang po. Dua jawaban lain tidak menyebut harga."
+      }
+    },
+    "summary": {
+      "ar": "تعرف الآن أن تسأل «Magkano po ito?» وتميّز بين ما هو قريب منك وقريب من الآخر وبعيد. استعمل «na lang po» لتحسم الطلب.",
+      "en": "You can now ask Magkano po ito? and tell apart what is near you, near the other person and far away. Use na lang po to settle your choice.",
+      "id": "Kini Anda bisa menanyakan Magkano po ito? dan membedakan yang dekat dengan Anda, dekat dengan lawan bicara, dan yang jauh. Pakai na lang po untuk memutuskan pilihan."
+    }
+  },
+  {
+    "id": "tl-08",
+    "track": "tl",
+    "level": "elementary",
+    "order": 8,
+    "topic": "directions-places",
+    "icon": "🧭",
+    "title": {
+      "ar": "الاتجاهات والأماكن",
+      "en": "Directions and Places",
+      "id": "Arah dan Tempat"
+    },
+    "description": {
+      "ar": "اسأل عن مكان شيء وافهم يمين ويسار ومستقيم.",
+      "en": "Ask where something is and understand left, right and straight.",
+      "id": "Tanyakan letak sesuatu dan pahami kiri, kanan, dan lurus."
+    },
+    "objectives": [
+      {
+        "ar": "أستطيع أن أسأل «Nasaan po ang ...?».",
+        "en": "I can ask Nasaan po ang ...?",
+        "id": "Saya bisa menanyakan Nasaan po ang ...?"
+      },
+      {
+        "ar": "أستطيع أن أفهم «kaliwa» و«kanan» و«diretso».",
+        "en": "I can understand kaliwa, kanan and diretso.",
+        "id": "Saya bisa memahami kaliwa, kanan, dan diretso."
+      },
+      {
+        "ar": "أستطيع أن أقول «Nasa ...» لأحدد المكان.",
+        "en": "I can say Nasa ... to give a place.",
+        "id": "Saya bisa mengatakan Nasa ... untuk menyebut tempat."
+      }
+    ],
+    "intro": {
+      "ar": "عندما تتجول في مدينة تحتاج أن تسأل عن الحمام أو السوق أو المحطة. في التاغالوغية السؤال قصير: «Nasaan ang ...?». وتتعلم هنا اليمين واليسار والاستقامة.",
+      "en": "When you walk around a city you need to ask for the bathroom, the market or the station. In Tagalog the question is short: Nasaan ang ...? Here you also learn left, right and straight ahead.",
+      "id": "Saat berjalan-jalan di kota Anda perlu menanyakan toilet, pasar, atau stasiun. Dalam bahasa Tagalog pertanyaannya pendek: Nasaan ang ...? Di sini Anda juga belajar kiri, kanan, dan lurus."
+    },
+    "culture": {
+      "ar": "كثيرًا ما يعطي الفلبينيون الاتجاهات بذكر معالم قريبة مثل «sa tabi ng simbahan» (بجانب الكنيسة)، وقد يقولون «malapit lang» (قريب فقط) حتى لو كان المكان بعيدًا بعض الشيء. لذلك اسأل مرتين بلطف.",
+      "en": "Filipinos often give directions with landmarks such as sa tabi ng simbahan (next to the church), and may say malapit lang (just nearby) even when the place is a bit far. So ask politely twice.",
+      "id": "Orang Filipina sering memberi petunjuk dengan patokan seperti sa tabi ng simbahan (di samping gereja), dan mungkin berkata malapit lang (dekat saja) walaupun tempatnya agak jauh. Jadi bertanyalah dua kali dengan sopan."
+    },
+    "grammar": {
+      "title": {
+        "ar": "«Nasaan» و«nasa»",
+        "en": "Nasaan and nasa",
+        "id": "Nasaan dan nasa"
+      },
+      "body": {
+        "ar": "«Nasaan ang ...?» تعني «أين ...؟» وتأتي بعدها «ang» والشيء المسؤول عنه. للجواب نستعمل «nasa» أي «موجود في»: «Nasa kaliwa ang banyo». يتقدّم المكان على الشيء في الجواب، ويمكن قلب الترتيب: «Ang banyo ay nasa kaliwa». بعد «nasa» لا نضيف «sa»: نقول «nasa kaliwa» (إلى اليسار) و«nasa kanan» (إلى اليمين). أما دون «nasa» فنقول «sa kaliwa» و«sa kanan»: «Lumiko po kayo sa kanan» (انعطف يمينًا).",
+        "en": "Nasaan ang ...? means Where is ...? and ang comes before the thing you ask about. To answer we use nasa, which means is located at: Nasa kaliwa ang banyo. The place comes first and the thing follows, though you can turn it around: Ang banyo ay nasa kaliwa. Do not add sa after nasa: say nasa kaliwa (on the left) and nasa kanan (on the right). Without nasa the form is sa kaliwa and sa kanan, as in Lumiko po kayo sa kanan (Turn right).",
+        "id": "Nasaan ang ...? berarti Di mana ...? dan ang mendahului hal yang ditanyakan. Untuk menjawab kita memakai nasa, yang berarti berada di: Nasa kaliwa ang banyo. Tempat disebut lebih dulu lalu bendanya, tetapi bisa dibalik: Ang banyo ay nasa kaliwa. Setelah nasa tidak ditambahkan sa: katakan nasa kaliwa (di kiri) dan nasa kanan (di kanan). Tanpa nasa bentuknya sa kaliwa dan sa kanan, seperti Lumiko po kayo sa kanan (Belok kanan). Kanan sama dengan bahasa Indonesia."
+      }
+    },
+    "items": [
+      {
+        "id": "tl08n1",
+        "target": "Nasaan po ang banyo?",
+        "translit": "na-sa-AN po ang BAN-yo",
+        "tr": {
+          "ar": "أين الحمام؟ (بأدب)",
+          "en": "Where is the bathroom? (polite)",
+          "id": "Di mana toilet? (sopan)"
+        },
+        "example": {
+          "target": "Nasaan po ang palengke?",
+          "translit": "na-sa-AN po ang pa-LENG-ke",
+          "tr": {
+            "ar": "أين السوق؟",
+            "en": "Where is the market?",
+            "id": "Di mana pasarnya?"
+          }
+        },
+        "hint": {
+          "ar": "«banyo» من الإسبانية. تسمع أيضًا «CR» (comfort room) وهو تعبير فلبيني عن الحمام.",
+          "en": "Banyo comes from Spanish. You will also hear CR (comfort room), a very Filipino word for bathroom.",
+          "id": "Banyo berasal dari bahasa Spanyol. Anda juga akan mendengar CR (comfort room), kata khas Filipina untuk toilet."
+        }
+      },
+      {
+        "id": "tl08n2",
+        "target": "Nasa kaliwa po.",
+        "translit": "NA-sa ka-LI-wa po",
+        "tr": {
+          "ar": "إلى اليسار.",
+          "en": "It is on the left.",
+          "id": "Ada di sebelah kiri."
+        },
+        "example": {
+          "target": "Nasa kaliwa ang banyo.",
+          "translit": "NA-sa ka-LI-wa ang BAN-yo",
+          "tr": {
+            "ar": "الحمام إلى اليسار.",
+            "en": "The bathroom is on the left.",
+            "id": "Toiletnya ada di sebelah kiri."
+          }
+        },
+        "hint": {
+          "ar": "«nasa» + مكان. الجواب القصير «Nasa kaliwa po» كافٍ.",
+          "en": "Nasa + place. The short answer Nasa kaliwa po is enough.",
+          "id": "Nasa + tempat. Jawaban singkat Nasa kaliwa po sudah cukup."
+        }
+      },
+      {
+        "id": "tl08n3",
+        "target": "Nasa kanan po.",
+        "translit": "NA-sa ka-NAN po",
+        "tr": {
+          "ar": "إلى اليمين.",
+          "en": "It is on the right.",
+          "id": "Ada di sebelah kanan."
+        },
+        "example": {
+          "target": "Nasa kanan ang tindahan.",
+          "translit": "NA-sa ka-NAN ang tin-DA-han",
+          "tr": {
+            "ar": "المتجر إلى اليمين.",
+            "en": "The shop is on the right.",
+            "id": "Tokonya ada di sebelah kanan."
+          }
+        },
+        "hint": {
+          "ar": "«kanan» نفسها في الإندونيسية. «tindahan» تعني متجرًا صغيرًا.",
+          "en": "Kanan is the same word as in Indonesian. Tindahan means a small shop.",
+          "id": "Kanan sama dengan bahasa Indonesia. Tindahan berarti toko kecil."
+        }
+      },
+      {
+        "id": "tl08n4",
+        "target": "Diretso lang po.",
+        "translit": "di-RET-so lang po",
+        "tr": {
+          "ar": "استمر مستقيمًا فقط.",
+          "en": "Just go straight.",
+          "id": "Lurus saja."
+        },
+        "example": {
+          "target": "Diretso lang po, tapos sa kanan.",
+          "translit": "di-RET-so lang po ta-POS sa ka-NAN",
+          "tr": {
+            "ar": "استمر مستقيمًا ثم إلى اليمين.",
+            "en": "Go straight, then right.",
+            "id": "Lurus saja, lalu ke kanan."
+          }
+        },
+        "hint": {
+          "ar": "«tapos» تعني «ثم». «lang» تعني «فقط» وتلطّف الجملة.",
+          "en": "Tapos means then. Lang means just and softens the sentence.",
+          "id": "Tapos berarti lalu. Lang berarti saja dan melunakkan kalimat."
+        }
+      },
+      {
+        "id": "tl08n5",
+        "target": "Malapit po ba?",
+        "translit": "ma-LA-pit po ba",
+        "tr": {
+          "ar": "هل هو قريب؟",
+          "en": "Is it nearby?",
+          "id": "Apakah dekat?"
+        },
+        "example": {
+          "target": "Malapit po ba ang istasyon?",
+          "translit": "ma-LA-pit po ba ang is-TAS-yon",
+          "tr": {
+            "ar": "هل المحطة قريبة؟",
+            "en": "Is the station nearby?",
+            "id": "Apakah stasiunnya dekat?"
+          }
+        },
+        "hint": {
+          "ar": "الجواب: «Malapit lang po» (قريب) أو «Malayo po» (بعيد). «ba» تجعله سؤالًا.",
+          "en": "The answer is Malapit lang po (close) or Malayo po (far). Ba makes it a question.",
+          "id": "Jawabannya: Malapit lang po (dekat) atau Malayo po (jauh). Ba menjadikannya pertanyaan."
+        }
+      },
+      {
+        "id": "tl08n6",
+        "target": "Salamat po, ate.",
+        "translit": "sa-la-MAT po A-te",
+        "tr": {
+          "ar": "شكرًا يا أختي.",
+          "en": "Thank you, ate.",
+          "id": "Terima kasih, Kak."
+        },
+        "example": {
+          "target": "Salamat po, kuya.",
+          "translit": "sa-la-MAT po KU-ya",
+          "tr": {
+            "ar": "شكرًا يا أخي.",
+            "en": "Thank you, kuya.",
+            "id": "Terima kasih, Kak."
+          }
+        },
+        "hint": {
+          "ar": "بعد أن تأخذ الاتجاهات اشكر الشخص بـ«ate» للمرأة و«kuya» للرجل إن كان أكبر منك قليلًا.",
+          "en": "After you get directions, thank the person with ate for a woman and kuya for a man who is a little older than you.",
+          "id": "Setelah mendapat petunjuk, ucapkan terima kasih dengan ate untuk perempuan dan kuya untuk laki-laki yang sedikit lebih tua dari Anda."
+        }
+      }
+    ],
+    "cloze": [
+      {
+        "sentence": "___ po ang banyo?",
+        "answer": "Nasaan",
+        "wrong": [
+          "Magkano",
+          "Ilan"
+        ],
+        "tr": {
+          "ar": "أين الحمام؟",
+          "en": "Where is the bathroom?",
+          "id": "Di mana toilet?"
+        },
+        "why": {
+          "ar": "«Nasaan» يسأل عن المكان. «Magkano» عن السعر و«Ilan» عن العدد.",
+          "en": "Nasaan asks about a place. Magkano asks about price and ilan about number.",
+          "id": "Nasaan menanyakan tempat. Magkano menanyakan harga dan ilan menanyakan jumlah."
+        }
+      },
+      {
+        "sentence": "___ kaliwa ang palengke.",
+        "answer": "Nasa",
+        "wrong": [
+          "Ang",
+          "Si"
+        ],
+        "tr": {
+          "ar": "السوق إلى اليسار.",
+          "en": "The market is on the left.",
+          "id": "Pasar ada di sebelah kiri."
+        },
+        "why": {
+          "ar": "«Nasa» تعني «موجود في». «Ang» و«Si» أداتان لا تعبّران عن المكان.",
+          "en": "Nasa means is located at. Ang and si are markers that do not express location.",
+          "id": "Nasa berarti berada di. Ang dan si adalah penanda yang tidak menyatakan tempat."
+        }
+      }
+    ],
+    "conversation": {
+      "context": {
+        "ar": "في الشارع: سائح يسأل أحد المارة.",
+        "en": "On the street: a tourist asks a passer-by.",
+        "id": "Di jalan: seorang turis bertanya kepada orang yang lewat."
+      },
+      "turns": [
+        {
+          "who": "A",
+          "target": "Magandang hapon po. Nasaan po ang palengke?",
+          "tr": {
+            "ar": "مساء الخير. أين السوق؟",
+            "en": "Good afternoon. Where is the market?",
+            "id": "Selamat sore. Di mana pasarnya?"
+          }
+        },
+        {
+          "who": "B",
+          "target": "Diretso lang po, tapos nasa kanan.",
+          "tr": {
+            "ar": "استمر مستقيمًا ثم هو إلى اليمين.",
+            "en": "Go straight, then it is on the right.",
+            "id": "Lurus saja, lalu ada di sebelah kanan."
+          }
+        },
+        {
+          "who": "A",
+          "target": "Salamat po!",
+          "tr": {
+            "ar": "شكرًا!",
+            "en": "Thank you!",
+            "id": "Terima kasih!"
+          }
+        }
+      ],
+      "gap": 1,
+      "wrong": [
+        "Sampung piso lang po.",
+        "Ako po si Maria."
+      ],
+      "why": {
+        "ar": "سُئل عن مكان السوق فيجيب بالاتجاه. الردّان الآخران يذكران سعرًا أو اسمًا.",
+        "en": "He was asked where the market is, so he gives directions. The other replies give a price or a name.",
+        "id": "Dia ditanya letak pasar, jadi menjawab dengan arah. Dua jawaban lain menyebut harga atau nama."
+      }
+    },
+    "summary": {
+      "ar": "تعرف الآن أن تسأل «Nasaan po ang ...?» وتفهم «nasa kaliwa» و«nasa kanan» و«diretso lang». لا تنس أن تشكر بلطف.",
+      "en": "You can now ask Nasaan po ang ...? and understand nasa kaliwa, nasa kanan and diretso lang. Remember to say thank you kindly.",
+      "id": "Kini Anda bisa menanyakan Nasaan po ang ...? dan memahami nasa kaliwa, nasa kanan, dan diretso lang. Jangan lupa berterima kasih dengan ramah."
+    }
+  },
+  {
+    "id": "tl-09",
+    "track": "tl",
+    "level": "elementary",
+    "order": 9,
+    "topic": "time-days-routine",
+    "icon": "🕒",
+    "title": {
+      "ar": "الوقت والأيام والروتين",
+      "en": "Time, Days and Daily Routine",
+      "id": "Waktu, Hari, dan Rutinitas"
+    },
+    "description": {
+      "ar": "اسأل عن الساعة وقل أيام الأسبوع واستعمل «ay» لقلب الجملة.",
+      "en": "Ask the time, name the days and use ay to turn a sentence around.",
+      "id": "Tanyakan jam, sebutkan hari, dan pakai ay untuk membalik kalimat."
+    },
+    "objectives": [
+      {
+        "ar": "أستطيع أن أسأل «Anong oras na po?».",
+        "en": "I can ask Anong oras na po?",
+        "id": "Saya bisa menanyakan Anong oras na po?"
+      },
+      {
+        "ar": "أستطيع أن أقول أيام الأسبوع.",
+        "en": "I can say the days of the week.",
+        "id": "Saya bisa menyebut hari dalam seminggu."
+      },
+      {
+        "ar": "أستطيع أن أبني جملة مع «ay» مثل «Ang opisina ay sarado».",
+        "en": "I can build a sentence with ay, such as Ang opisina ay sarado.",
+        "id": "Saya bisa membuat kalimat dengan ay, seperti Ang opisina ay sarado."
+      }
+    ],
+    "intro": {
+      "ar": "الوقت والأيام ضروريان للمواعيد والعمل. في التاغالوغية يُقال الوقت بالعدد الإسباني مع «alas»، وأسماء الأيام مأخوذة من الإسبانية أيضًا. ونتعلم هنا الأداة «ay» التي تقلب ترتيب الجملة.",
+      "en": "Time and days are essential for appointments and work. In Tagalog the time is said with a Spanish number after alas, and the day names also come from Spanish. Here you also meet ay, the little word that turns a sentence around.",
+      "id": "Waktu dan hari penting untuk janji dan pekerjaan. Dalam bahasa Tagalog jam disebut dengan angka Spanyol setelah alas, dan nama hari juga berasal dari bahasa Spanyol. Di sini Anda juga mengenal ay, kata kecil yang membalik urutan kalimat."
+    },
+    "culture": {
+      "ar": "يُعرف عن الفلبينيين «Filipino time» أي أن المواعيد قد تتأخر قليلًا، لكن في العمل والمدرسة يُتوقع الالتزام. وفي المدن الكبيرة تبدأ الحياة مبكرًا، وتغلق بعض المكاتب في أيام العطل الرسمية. أيام الأسبوع تُكتب بحرف كبير: Lunes، Martes.",
+      "en": "Filipinos joke about Filipino time, meaning appointments can run a little late, but at work and school punctuality is expected. In big cities life starts early, and some offices close on public holidays. Day names are capitalised: Lunes, Martes.",
+      "id": "Orang Filipina kadang bercanda tentang Filipino time, yaitu janji bisa sedikit terlambat, tetapi di kantor dan sekolah ketepatan waktu diharapkan. Di kota besar kehidupan mulai pagi, dan beberapa kantor tutup pada hari libur nasional. Nama hari ditulis dengan huruf kapital: Lunes, Martes."
+    },
+    "grammar": {
+      "title": {
+        "ar": "«ay» وقلب الجملة",
+        "en": "Ay and turning a sentence around",
+        "id": "Ay dan membalik kalimat"
+      },
+      "body": {
+        "ar": "الترتيب الطبيعي: المسند أولًا ثم الفاعل: «Sarado ang opisina». ويمكن أن نبدأ بالفاعل ونضع «ay»: «Ang opisina ay sarado». المعنى واحد، والثاني أكثر كتابية. للوقت نقول «Alas-tres na» (الساعة الثالثة الآن)، و«ng umaga» (صباحًا)، و«ng hapon» (بعد الظهر)، و«ng gabi» (مساءً). أيام الأسبوع: Lunes, Martes, Miyerkules, Huwebes, Biyernes, Sabado, Linggo.",
+        "en": "The natural order puts the predicate first: Sarado ang opisina. You can also start with the subject and add ay: Ang opisina ay sarado. The meaning is the same; the second sounds more written. For time we say Alas-tres na (it is three o clock now) with ng umaga, ng hapon or ng gabi. The days are Lunes, Martes, Miyerkules, Huwebes, Biyernes, Sabado, Linggo.",
+        "id": "Urutan alami menaruh predikat lebih dulu: Sarado ang opisina. Anda juga bisa memulai dengan subjek dan menambahkan ay: Ang opisina ay sarado. Artinya sama; yang kedua terdengar lebih tertulis. Untuk jam kita mengatakan Alas-tres na (sekarang pukul tiga) dengan ng umaga, ng hapon, atau ng gabi. Harinya: Lunes, Martes, Miyerkules, Huwebes, Biyernes, Sabado, Linggo."
+      }
+    },
+    "items": [
+      {
+        "id": "tl09n1",
+        "target": "Anong oras na po?",
+        "translit": "A-nong O-ras na po",
+        "tr": {
+          "ar": "كم الساعة الآن؟ (بأدب)",
+          "en": "What time is it? (polite)",
+          "id": "Jam berapa sekarang? (sopan)"
+        },
+        "example": {
+          "target": "Anong oras na, kuya?",
+          "translit": "A-nong O-ras na KU-ya",
+          "tr": {
+            "ar": "كم الساعة يا أخي؟",
+            "en": "What time is it, kuya?",
+            "id": "Jam berapa sekarang, Kak?"
+          }
+        },
+        "hint": {
+          "ar": "«Anong» = «ano» + الرابط «ng». «oras» تعني ساعة أو وقت. «na» هنا تعني «الآن».",
+          "en": "Anong is ano plus the linker ng. Oras means hour or time. Na here means by now.",
+          "id": "Anong adalah ano ditambah penghubung ng. Oras berarti jam atau waktu. Na di sini berarti sekarang."
+        }
+      },
+      {
+        "id": "tl09n2",
+        "target": "Alas-tres na po.",
+        "translit": "A-las TRES na po",
+        "tr": {
+          "ar": "الساعة الثالثة الآن.",
+          "en": "It is three o clock.",
+          "id": "Sekarang pukul tiga."
+        },
+        "example": {
+          "target": "Alas-tres na ng hapon.",
+          "translit": "A-las TRES na ng HA-pon",
+          "tr": {
+            "ar": "الساعة الثالثة بعد الظهر.",
+            "en": "It is three in the afternoon.",
+            "id": "Sekarang pukul tiga sore."
+          }
+        },
+        "hint": {
+          "ar": "نستعمل الأعداد الإسبانية: uno، dos، tres، kuwatro، singko، sais، siyete، otso، nuwebe، diyes. للواحدة نقول «Ala-una».",
+          "en": "We use the Spanish numbers: uno, dos, tres, kuwatro, singko, sais, siyete, otso, nuwebe, diyes. For one o clock say Ala-una.",
+          "id": "Kita memakai angka Spanyol: uno, dos, tres, kuwatro, singko, sais, siyete, otso, nuwebe, diyes. Untuk pukul satu katakan Ala-una."
+        }
+      },
+      {
+        "id": "tl09n3",
+        "target": "Alas-otso ng umaga.",
+        "translit": "A-las-OT-so ng u-MA-ga",
+        "tr": {
+          "ar": "الساعة الثامنة صباحًا.",
+          "en": "Eight in the morning.",
+          "id": "Pukul delapan pagi."
+        },
+        "example": {
+          "target": "Alas-otso ng gabi.",
+          "translit": "A-las-OT-so ng ga-BI",
+          "tr": {
+            "ar": "الساعة الثامنة مساءً.",
+            "en": "Eight at night.",
+            "id": "Pukul delapan malam."
+          }
+        },
+        "hint": {
+          "ar": "أضف «ng umaga» أو «ng hapon» أو «ng gabi» لتحديد الفترة من اليوم.",
+          "en": "Add ng umaga, ng hapon or ng gabi to say which part of the day.",
+          "id": "Tambahkan ng umaga, ng hapon, atau ng gabi untuk menyebut bagian hari."
+        }
+      },
+      {
+        "id": "tl09n4",
+        "target": "Sabado ngayon.",
+        "translit": "sa-BA-do nga-YON",
+        "tr": {
+          "ar": "اليوم السبت.",
+          "en": "Today is Saturday.",
+          "id": "Hari ini hari Sabtu."
+        },
+        "example": {
+          "target": "Lunes ngayon.",
+          "translit": "LU-nes nga-YON",
+          "tr": {
+            "ar": "اليوم الاثنين.",
+            "en": "Today is Monday.",
+            "id": "Hari ini hari Senin."
+          }
+        },
+        "hint": {
+          "ar": "الأيام: Lunes، Martes، Miyerkules، Huwebes، Biyernes، Sabado، Linggo. «Linggo» تعني الأحد والأسبوع.",
+          "en": "The days: Lunes, Martes, Miyerkules, Huwebes, Biyernes, Sabado, Linggo. Linggo means Sunday and also week.",
+          "id": "Hari-hari: Lunes, Martes, Miyerkules, Huwebes, Biyernes, Sabado, Linggo. Linggo berarti hari Minggu dan juga minggu (pekan)."
+        }
+      },
+      {
+        "id": "tl09n5",
+        "target": "Ang opisina ay sarado tuwing Linggo.",
+        "translit": "ang o-pi-SI-na ay sa-RA-do TU-wing LING-go",
+        "tr": {
+          "ar": "المكتب مغلق كل يوم أحد.",
+          "en": "The office is closed every Sunday.",
+          "id": "Kantor tutup setiap hari Minggu."
+        },
+        "example": {
+          "target": "Sarado ang opisina tuwing Linggo.",
+          "translit": "sa-RA-do ang o-pi-SI-na TU-wing LING-go",
+          "tr": {
+            "ar": "المكتب مغلق كل يوم أحد.",
+            "en": "The office is closed every Sunday.",
+            "id": "Kantor tutup setiap hari Minggu."
+          }
+        },
+        "hint": {
+          "ar": "«tuwing» تعني «كل». هنا مثال على «ay» فالجملة الثانية هي الشكل الطبيعي.",
+          "en": "Tuwing means every. This is an example of ay; the second sentence is the natural form.",
+          "id": "Tuwing berarti setiap. Ini contoh ay; kalimat kedua adalah bentuk yang alami."
+        }
+      },
+      {
+        "id": "tl09n6",
+        "target": "Magkita tayo mamaya.",
+        "translit": "mag-KI-ta ta-YO ma-MA-ya",
+        "tr": {
+          "ar": "لنلتقِ لاحقًا.",
+          "en": "Let us meet later.",
+          "id": "Mari bertemu nanti."
+        },
+        "example": {
+          "target": "Magkita tayo mamayang gabi.",
+          "translit": "mag-KI-ta ta-YO ma-MA-yang ga-BI",
+          "tr": {
+            "ar": "لنلتقِ هذا المساء.",
+            "en": "Let us meet tonight.",
+            "id": "Mari bertemu malam nanti."
+          }
+        },
+        "hint": {
+          "ar": "«tayo» تعني «نحن» مع المخاطَب. «mamaya» تعني «بعد قليل» أي في اليوم نفسه.",
+          "en": "Tayo means we including the listener. Mamaya means later the same day.",
+          "id": "Tayo berarti kita (termasuk lawan bicara). Mamaya berarti nanti pada hari yang sama."
+        }
+      }
+    ],
+    "cloze": [
+      {
+        "sentence": "Ang tindahan ___ sarado ngayon.",
+        "answer": "ay",
+        "wrong": [
+          "si",
+          "sa"
+        ],
+        "tr": {
+          "ar": "المتجر مغلق اليوم.",
+          "en": "The shop is closed today.",
+          "id": "Toko itu tutup hari ini."
+        },
+        "why": {
+          "ar": "«ay» تربط الفاعل بالخبر في الجملة المقلوبة. «si» للأسماء الشخصية و«sa» للمكان.",
+          "en": "Ay joins the subject to what is said about it in the turned-around sentence. Si is for names and sa for places.",
+          "id": "Ay menghubungkan subjek dengan keterangannya dalam kalimat terbalik. Si untuk nama orang dan sa untuk tempat."
+        }
+      },
+      {
+        "sentence": "___ oras na po?",
+        "answer": "Anong",
+        "wrong": [
+          "Magkano",
+          "Nasaan"
+        ],
+        "tr": {
+          "ar": "كم الساعة الآن؟",
+          "en": "What time is it?",
+          "id": "Jam berapa sekarang?"
+        },
+        "why": {
+          "ar": "نسأل عن الوقت بـ«Anong oras». «Magkano» عن السعر و«Nasaan» عن المكان.",
+          "en": "We ask the time with Anong oras. Magkano asks price and nasaan asks place.",
+          "id": "Kita menanyakan jam dengan Anong oras. Magkano menanyakan harga dan nasaan menanyakan tempat."
+        }
+      }
+    ],
+    "conversation": {
+      "context": {
+        "ar": "في الشارع: شخص يسأل عن الوقت.",
+        "en": "On the street: someone asks the time.",
+        "id": "Di jalan: seseorang menanyakan jam."
+      },
+      "turns": [
+        {
+          "who": "A",
+          "target": "Anong oras na po?",
+          "tr": {
+            "ar": "كم الساعة الآن؟",
+            "en": "What time is it?",
+            "id": "Jam berapa sekarang?"
+          }
+        },
+        {
+          "who": "B",
+          "target": "Alas-tres na po ng hapon.",
+          "tr": {
+            "ar": "الساعة الثالثة بعد الظهر.",
+            "en": "It is three in the afternoon.",
+            "id": "Sekarang pukul tiga sore."
+          }
+        },
+        {
+          "who": "A",
+          "target": "Salamat po. Magkita tayo mamaya.",
+          "tr": {
+            "ar": "شكرًا. لنلتقِ لاحقًا.",
+            "en": "Thank you. Let us meet later.",
+            "id": "Terima kasih. Mari bertemu nanti."
+          }
+        }
+      ],
+      "gap": 1,
+      "wrong": [
+        "Lunes ngayon.",
+        "Sampung piso lang po."
+      ],
+      "why": {
+        "ar": "السؤال عن الساعة، فالجواب يذكر الساعة: «Alas-tres na po ng hapon». «Lunes ngayon» يجيب عن اليوم لا عن الساعة.",
+        "en": "The question is about the time, so the answer gives the hour: Alas-tres na po ng hapon. Lunes ngayon answers about the day, not the time.",
+        "id": "Pertanyaannya tentang jam, jadi jawabannya menyebut jam: Alas-tres na po ng hapon. Lunes ngayon menjawab tentang hari, bukan jam."
+      }
+    },
+    "summary": {
+      "ar": "تستطيع الآن أن تسأل عن الوقت وتقول اليوم وتستعمل «ay». تذكّر أن الترتيب الطبيعي هو المسند أولًا.",
+      "en": "You can now ask the time, say the day and use ay. Remember that the natural order puts the predicate first.",
+      "id": "Kini Anda bisa menanyakan jam, menyebut hari, dan memakai ay. Ingat bahwa urutan alami menaruh predikat lebih dulu."
+    }
+  },
+  {
+    "id": "tl-10",
+    "track": "tl",
+    "level": "elementary",
+    "order": 10,
+    "topic": "health-emergencies",
+    "icon": "🚑",
+    "title": {
+      "ar": "الصحة والمساعدة والطوارئ",
+      "en": "Health, Help and Emergencies",
+      "id": "Kesehatan, Bantuan, dan Darurat"
+    },
+    "description": {
+      "ar": "قل ما يؤلمك واطلب المساعدة في الطوارئ.",
+      "en": "Say what hurts and ask for help in an emergency.",
+      "id": "Sebutkan apa yang sakit dan minta bantuan saat darurat."
+    },
+    "objectives": [
+      {
+        "ar": "أستطيع أن أقول «Masakit ang ...».",
+        "en": "I can say Masakit ang ...",
+        "id": "Saya bisa mengatakan Masakit ang ..."
+      },
+      {
+        "ar": "أستطيع أن أصرخ «Tulong!» وأقول أحتاج طبيبًا.",
+        "en": "I can shout Tulong! and say I need a doctor.",
+        "id": "Saya bisa berteriak Tulong! dan mengatakan saya butuh dokter."
+      },
+      {
+        "ar": "أستطيع أن أسأل أين المستشفى.",
+        "en": "I can ask where the hospital is.",
+        "id": "Saya bisa menanyakan di mana rumah sakit."
+      }
+    ],
+    "intro": {
+      "ar": "نأمل ألا تحتاج هذه العبارات، لكن من المفيد أن تعرفها. تتعلم كلمة للألم وكلمة للاستغاثة وكيف تطلب طبيبًا. ونرى كيف تعمل «ang» لتشير إلى الشيء الذي نتحدث عنه.",
+      "en": "We hope you never need these phrases, but it is wise to know them. You learn a word for pain, a word to call for help and how to ask for a doctor. You also see how ang marks the thing we are talking about.",
+      "id": "Semoga Anda tidak pernah membutuhkan frasa ini, tetapi sebaiknya Anda mengetahuinya. Anda belajar kata untuk rasa sakit, kata untuk meminta tolong, dan cara meminta dokter. Anda juga melihat bagaimana ang menandai hal yang sedang dibicarakan."
+    },
+    "culture": {
+      "ar": "رقم الطوارئ الوطني في الفلبين هو 911. وفي الصيدليات (botika) يمكن شراء الأدوية الشائعة. وإذا مرضت قد يسألك الناس «Ano po ang masakit?» (ماذا يؤلمك؟). وكلمة «Tulong!» تشبه «tolong» الإندونيسية، وسيفهمها الناس عمومًا في موقف الخطر.",
+      "en": "The national emergency number in the Philippines is 911. In pharmacies (botika) you can buy common medicines. If you feel ill, people may ask Ano po ang masakit? (What hurts?). The word Tulong! is the plain word for help and people will understand it in a moment of danger.",
+      "id": "Nomor darurat nasional di Filipina adalah 911. Di apotek (botika) Anda bisa membeli obat umum. Jika Anda sakit, orang mungkin bertanya Ano po ang masakit? (Apa yang sakit?). Kata Tulong! adalah kata biasa untuk meminta tolong dan akan dipahami orang saat bahaya."
+    },
+    "grammar": {
+      "title": {
+        "ar": "«ang» تشير إلى الموضوع",
+        "en": "Ang marks the topic",
+        "id": "Ang menandai topik"
+      },
+      "body": {
+        "ar": "في «Masakit ang ulo ko» الكلمة «masakit» (مؤلم) هي المسند، و«ang ulo ko» (رأسي) هي ما نتحدث عنه، وتشير إليه «ang». أي «رأسي يؤلمني». نستخدم النمط نفسه: «Masakit ang tiyan ko». «Kailangan ko ng ...» تعني «أحتاج ...» و«ng» تأتي قبل ما نحتاجه. الجذر «sakit» هو نفسه في الإندونيسية (ألم، مرض)، والبادئة «ma-» تجعله وصفًا: «masakit» أي «مؤلم».",
+        "en": "In Masakit ang ulo ko, masakit (painful) comes first and ang ulo ko (my head) is what we are talking about, marked by ang. It means my head hurts. The same pattern works for the stomach: Masakit ang tiyan ko. Kailangan ko ng ... means I need ... and ng comes before what you need. Sakit is the same word as in Indonesian.",
+        "id": "Pada Masakit ang ulo ko, masakit (sakit) datang lebih dulu dan ang ulo ko (kepala saya) adalah hal yang dibicarakan, ditandai oleh ang. Artinya kepala saya sakit. Pola yang sama berlaku untuk perut: Masakit ang tiyan ko. Kailangan ko ng ... berarti saya butuh ... dan ng berada sebelum yang dibutuhkan. Akar sakit sama dengan bahasa Indonesia, dan awalan ma- membuatnya menjadi sifat: masakit berarti terasa sakit."
+      }
+    },
+    "items": [
+      {
+        "id": "tl10n1",
+        "target": "Masakit ang ulo ko.",
+        "translit": "ma-SA-kit ang U-lo ko",
+        "tr": {
+          "ar": "رأسي يؤلمني.",
+          "en": "My head hurts.",
+          "id": "Kepala saya sakit."
+        },
+        "example": {
+          "target": "Masakit po ang ulo ko.",
+          "translit": "ma-SA-kit po ang U-lo ko",
+          "tr": {
+            "ar": "رأسي يؤلمني.",
+            "en": "My head hurts.",
+            "id": "Kepala saya sakit."
+          }
+        },
+        "hint": {
+          "ar": "«masakit» = «ma-» + «sakit» أي «مؤلم»، و«ulo» تعني الرأس. أضف «po» عند الحديث مع الطبيب أو الكبار.",
+          "en": "Masakit is ma- plus sakit, painful; ulo means head. Add po when you speak to a doctor or an elder.",
+          "id": "Masakit adalah ma- + sakit (terasa sakit); ulo berarti kepala. Tambahkan po ketika berbicara kepada dokter atau orang yang lebih tua."
+        }
+      },
+      {
+        "id": "tl10n2",
+        "target": "Masakit ang tiyan ko.",
+        "translit": "ma-SA-kit ang ti-YAN ko",
+        "tr": {
+          "ar": "معدتي (بطني) تؤلمني.",
+          "en": "My stomach hurts.",
+          "id": "Perut saya sakit."
+        },
+        "example": {
+          "target": "Masakit po ang tiyan ko.",
+          "translit": "ma-SA-kit po ang ti-YAN ko",
+          "tr": {
+            "ar": "بطني يؤلمني.",
+            "en": "My stomach hurts.",
+            "id": "Perut saya sakit."
+          }
+        },
+        "hint": {
+          "ar": "«tiyan» تعني البطن أو المعدة. يمكن استبدالها بأي جزء من الجسم.",
+          "en": "Tiyan means belly or stomach. You can replace it with any body part.",
+          "id": "Tiyan berarti perut. Anda bisa menggantinya dengan bagian tubuh apa saja."
+        }
+      },
+      {
+        "id": "tl10n3",
+        "target": "Tulong!",
+        "translit": "TU-long",
+        "tr": {
+          "ar": "النجدة!",
+          "en": "Help!",
+          "id": "Tolong!"
+        },
+        "example": {
+          "target": "Tulong po!",
+          "translit": "TU-long po",
+          "tr": {
+            "ar": "النجدة من فضلكم!",
+            "en": "Help, please!",
+            "id": "Tolong, tolong!"
+          }
+        },
+        "hint": {
+          "ar": "«tulong» تشبه «tolong» الإندونيسية. تُصرخ بها عند الخطر.",
+          "en": "Tulong is like Indonesian tolong. You shout it in danger.",
+          "id": "Tulong mirip dengan tolong dalam bahasa Indonesia. Diteriakkan saat bahaya."
+        }
+      },
+      {
+        "id": "tl10n4",
+        "target": "Kailangan ko ng doktor.",
+        "translit": "ka-i-LA-ngan ko ng dok-TOR",
+        "tr": {
+          "ar": "أحتاج إلى طبيب.",
+          "en": "I need a doctor.",
+          "id": "Saya butuh dokter."
+        },
+        "example": {
+          "target": "Kailangan ko po ng doktor.",
+          "translit": "ka-i-LA-ngan ko po ng dok-TOR",
+          "tr": {
+            "ar": "أحتاج إلى طبيب من فضلكم.",
+            "en": "I need a doctor, please.",
+            "id": "Saya butuh dokter, tolong."
+          }
+        },
+        "hint": {
+          "ar": "«kailangan ko ng» + ما تحتاجه. تُقال أيضًا «Kailangan ko ng tulong».",
+          "en": "Kailangan ko ng + what you need. You can also say Kailangan ko ng tulong.",
+          "id": "Kailangan ko ng + yang dibutuhkan. Bisa juga Kailangan ko ng tulong."
+        }
+      },
+      {
+        "id": "tl10n5",
+        "target": "Masama ang pakiramdam ko.",
+        "translit": "ma-SA-ma ang pa-ki-RAM-dam ko",
+        "tr": {
+          "ar": "لا أشعر أنني بخير.",
+          "en": "I do not feel well.",
+          "id": "Saya merasa tidak enak badan."
+        },
+        "example": {
+          "target": "Masama po ang pakiramdam ko.",
+          "translit": "ma-SA-ma po ang pa-ki-RAM-dam ko",
+          "tr": {
+            "ar": "لا أشعر أنني بخير.",
+            "en": "I do not feel well.",
+            "id": "Saya merasa tidak enak badan."
+          }
+        },
+        "hint": {
+          "ar": "«pakiramdam» تعني الشعور، و«masama» تعني سيئ. تعبير عام يفهمه الجميع.",
+          "en": "Pakiramdam means feeling and masama means bad. It is a general phrase everyone understands.",
+          "id": "Pakiramdam berarti perasaan dan masama berarti buruk. Ini ungkapan umum yang dipahami semua orang."
+        }
+      },
+      {
+        "id": "tl10n6",
+        "target": "Nasaan po ang ospital?",
+        "translit": "na-sa-AN po ang os-pi-TAL",
+        "tr": {
+          "ar": "أين المستشفى؟",
+          "en": "Where is the hospital?",
+          "id": "Di mana rumah sakit?"
+        },
+        "example": {
+          "target": "Nasaan po ang botika?",
+          "translit": "na-sa-AN po ang bo-TI-ka",
+          "tr": {
+            "ar": "أين الصيدلية؟",
+            "en": "Where is the pharmacy?",
+            "id": "Di mana apotek?"
+          }
+        },
+        "hint": {
+          "ar": "«botika» هي الصيدلية. «ospital» من الإسبانية. استخدم ما تعلمته في الدرس 8.",
+          "en": "Botika is the pharmacy and ospital comes from Spanish. This reuses what you learned in lesson 8.",
+          "id": "Botika adalah apotek dan ospital berasal dari bahasa Spanyol. Ini memakai kembali yang Anda pelajari di pelajaran 8."
+        }
+      }
+    ],
+    "cloze": [
+      {
+        "sentence": "Masakit ___ ulo ko.",
+        "answer": "ang",
+        "wrong": [
+          "ng",
+          "sa"
+        ],
+        "tr": {
+          "ar": "رأسي يؤلمني.",
+          "en": "My head hurts.",
+          "id": "Kepala saya sakit."
+        },
+        "why": {
+          "ar": "«ang» تشير إلى ما نتحدث عنه، أي الرأس. «ng» و«sa» لا تصلحان هنا.",
+          "en": "Ang marks what we talk about, the head. Ng and sa do not fit here.",
+          "id": "Ang menandai hal yang dibicarakan, yaitu kepala. Ng dan sa tidak cocok di sini."
+        }
+      },
+      {
+        "sentence": "___! Kailangan ko ng doktor!",
+        "answer": "Tulong",
+        "wrong": [
+          "Salamat",
+          "Magkano"
+        ],
+        "tr": {
+          "ar": "النجدة! أحتاج إلى طبيب!",
+          "en": "Help! I need a doctor!",
+          "id": "Tolong! Saya butuh dokter!"
+        },
+        "why": {
+          "ar": "«Tulong» تُصرخ عند الحاجة. «Salamat» شكر و«Magkano» سؤال عن السعر.",
+          "en": "Tulong is what you shout when you need help. Salamat is thanks and magkano asks a price.",
+          "id": "Tulong diteriakkan saat butuh bantuan. Salamat adalah terima kasih dan magkano menanyakan harga."
+        }
+      }
+    ],
+    "conversation": {
+      "context": {
+        "ar": "في العيادة: الطبيب يسأل المريض.",
+        "en": "At the clinic: the doctor asks the patient.",
+        "id": "Di klinik: dokter bertanya kepada pasien."
+      },
+      "turns": [
+        {
+          "who": "A",
+          "target": "Magandang umaga po. Ano po ang masakit?",
+          "tr": {
+            "ar": "صباح الخير. ماذا يؤلمك؟",
+            "en": "Good morning. What hurts?",
+            "id": "Selamat pagi. Apa yang sakit?"
+          }
+        },
+        {
+          "who": "B",
+          "target": "Masakit po ang tiyan ko.",
+          "tr": {
+            "ar": "بطني يؤلمني.",
+            "en": "My stomach hurts.",
+            "id": "Perut saya sakit."
+          }
+        },
+        {
+          "who": "A",
+          "target": "Sige po, tingnan natin.",
+          "tr": {
+            "ar": "حسنًا، لننظر.",
+            "en": "All right, let us take a look.",
+            "id": "Baik, mari kita lihat."
+          }
+        }
+      ],
+      "gap": 1,
+      "wrong": [
+        "Alas-tres na po.",
+        "Nasa kaliwa po."
+      ],
+      "why": {
+        "ar": "سأله الطبيب ماذا يؤلمه، فيجيب «Masakit po ang ...». الردّان الآخران لا يذكران شيئًا مؤلمًا.",
+        "en": "The doctor asked what hurts, so the patient answers Masakit po ang ... The other replies do not name anything that hurts.",
+        "id": "Dokter bertanya apa yang sakit, jadi pasien menjawab Masakit po ang ... Dua jawaban lain tidak menyebut apa pun yang sakit."
+      }
+    },
+    "summary": {
+      "ar": "تعرف الآن أن تقول ما يؤلمك وتصرخ «Tulong!» وتطلب طبيبًا. تذكّر أن «ang» تشير إلى ما نتحدث عنه.",
+      "en": "You can now say what hurts, call Tulong! and ask for a doctor. Remember that ang marks what we are talking about.",
+      "id": "Kini Anda bisa mengatakan apa yang sakit, berteriak Tulong!, dan meminta dokter. Ingat bahwa ang menandai hal yang dibicarakan."
+    }
+  }
+]
