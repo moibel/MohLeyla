@@ -7,6 +7,7 @@ import { useSync } from './useSync.js';
 import SignInForm from './SignInForm.jsx';
 import { LANG_META } from '../../i18n/index.js';
 import { REQUIRE_SIGN_IN } from '../../services/supabaseClient.js';
+import LegalLinks from '../../components/LegalLinks.jsx';
 
 export default function AccountSection() {
   const { t, i18n } = useTranslation();
@@ -63,6 +64,7 @@ export default function AccountSection() {
             <Button variant="danger" icon={<UserX size={18} aria-hidden="true" />} onClick={() => { sync.set({ error: null }); accountRef.current?.showModal(); }} data-testid="acc-delete-account">{t('account.deleteAccount')}</Button>
           </div>
           <p className="note-small">{REQUIRE_SIGN_IN ? t('account.signOutNoteShared') : t('account.signOutNote')}</p>
+          <LegalLinks />
           {deleted && <p className="ok-text" role="status">{t('account.deleted')}</p>}
         </>
       )}

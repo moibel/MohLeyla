@@ -62,7 +62,7 @@ export default defineConfig(({ mode }) => {
         globPatterns: ['**/*.{js,css,html,svg,png,webp,ico,woff2}'],
         globIgnores: ['icons/app-icon-1024.png', 'icons/og-image.png', 'icons/logo-mark-512.png', 'icons/logo-mark-on-dark-512.png'],
         navigateFallback: '/index.html',
-        navigateFallbackDenylist: [/^\/audio\//, /^\/\.netlify\//],
+        navigateFallbackDenylist: [/^\/audio\//, /^\/\.netlify\//, /^\/(privacy|terms|delete-account)(\.html)?$/],
         cleanupOutdatedCaches: true,
         runtimeCaching: [
           {

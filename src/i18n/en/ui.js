@@ -9,6 +9,8 @@ export default {
     offlineBanner: 'You are offline. Lessons you have opened still work; new audio may not play.',
     footer: 'MohLeyla · Learn with confidence',
     madeBy: 'Made with care by',
+    privacy: 'Privacy policy',
+    terms: 'Terms of use',
     creator: 'Mohamed Ebrahim',
   },
   nav: {
