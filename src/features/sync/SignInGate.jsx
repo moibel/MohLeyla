@@ -2,6 +2,7 @@ import { useTranslation } from 'react-i18next';
 import { Logo, Spinner } from '../../components/ui.jsx';
 import { LangSwitcher } from '../../app/Layout.jsx';
 import SignInForm from './SignInForm.jsx';
+import LegalLinks from '../../components/LegalLinks.jsx';
 import SyncDialogs from './SyncDialogs.jsx';
 import { useSync } from './useSync.js';
 import { REQUIRE_SIGN_IN } from '../../services/supabaseClient.js';
@@ -19,6 +20,7 @@ export function SignInGate() {
         <SignInForm />
         <p className="note-small">{t('gate.firstTime')}</p>
         <p className="note-small">{t('account.privacy')}</p>
+        <LegalLinks />
       </section>
       <p className="gate-credit">{t('app.madeBy')} <bdi>{t('app.creator')}</bdi></p>
       <SyncDialogs />

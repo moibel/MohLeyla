@@ -9,6 +9,8 @@ export default {
     offlineBanner: 'Kamu sedang offline. Pelajaran yang sudah dibuka tetap berfungsi; audio baru mungkin tidak bisa diputar.',
     footer: 'MohLeyla · Belajar dengan percaya diri',
     madeBy: 'Dibuat dengan sepenuh hati oleh',
+    privacy: 'Kebijakan privasi',
+    terms: 'Ketentuan penggunaan',
     creator: 'Mohamed Ebrahim',
   },
   nav: {

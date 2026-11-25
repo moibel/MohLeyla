@@ -3,6 +3,7 @@ import { NavLink, Link, Outlet, useLocation } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 import { Home, GraduationCap, Brain, Bookmark, BarChart3, Settings as Cog, Flame, Star, Users, ClipboardList, ShieldCheck, Heart, Zap, Bell, MessageCircle } from 'lucide-react';
 import { Logo } from '../components/ui.jsx';
+import LegalLinks from '../components/LegalLinks.jsx';
 import { LANG_META, UI_LANGS } from '../i18n/index.js';
 import { useDerived } from '../features/progress/selectors.js';
 import { useProgress } from './ProgressContext.jsx';
@@ -135,6 +136,7 @@ export default function Layout({ pwa }) {
         </main>
         <footer className="footer">
           <span>{t('app.footer')}</span>
+          <LegalLinks className="footer-legal" />
           <Link to="/about" className="made-by" data-testid="made-by"><Heart size={14} aria-hidden="true" /> {t('app.madeBy')} <bdi>{t('app.creator')}</bdi></Link>
         </footer>
       </div>
