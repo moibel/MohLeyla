@@ -2,12 +2,12 @@
 // Pure JS, no DOM: it can run in Node directly.
 
 export const UI_LANGS = ['ar', 'en', 'id'];
-export const TRACKS = ['ar', 'sa', 'eg', 'en', 'id', 'fr', 'es', 'zh'];
+export const TRACKS = ['ar', 'sa', 'eg', 'en', 'id', 'fr', 'es', 'zh', 'de', 'tl'];
 /** Dialect tracks teach a spoken variety of Arabic; their text is Arabic script and their audio is a Standard Arabic voice. */
 export const DIALECT_TRACKS = ['sa', 'eg'];
 /** Tracks not yet reviewed by a native speaker, and how many lessons each is expected to have in this release. */
-export const BETA_TRACKS = ['eg', 'fr', 'es', 'zh'];
-export const TRACK_SIZES = { ar: 30, sa: 30, en: 30, id: 30, eg: 30, fr: 30, es: 30, zh: 30 };
+export const BETA_TRACKS = ['eg', 'fr', 'es', 'zh', 'de', 'tl'];
+export const TRACK_SIZES = { ar: 30, sa: 30, en: 30, id: 30, eg: 30, fr: 30, es: 30, zh: 30, de: 30, tl: 30 };
 export const LEVELS = ['beginner', 'elementary', 'intermediate'];
 const ARABIC = /[؀-ۿ]/;
 const CJK = /[\u3400-\u9fff]/;
@@ -51,7 +51,7 @@ export function validateLesson(lesson, ctx = {}) {
   const errors = [];
   const p = `lesson ${lesson?.id ?? '?'}`;
   if (!lesson || typeof lesson !== 'object') return [`${p}: not an object`];
-  if (!isStr(lesson.id) || !/^(ar|sa|eg|en|id|fr|es|zh)-\d{2}$/.test(lesson.id)) errors.push(`${p}: bad id`);
+  if (!isStr(lesson.id) || !/^(ar|sa|eg|en|id|fr|es|zh|de|tl)-\d{2}$/.test(lesson.id)) errors.push(`${p}: bad id`);
   if (!TRACKS.includes(lesson.track)) errors.push(`${p}: bad track`);
   if (lesson.id && lesson.track && !lesson.id.startsWith(lesson.track + '-')) errors.push(`${p}: id/track mismatch`);
   if (!LEVELS.includes(lesson.level)) errors.push(`${p}: bad level ${lesson.level}`);

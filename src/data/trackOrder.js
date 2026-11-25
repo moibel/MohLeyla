@@ -7,7 +7,7 @@ import { isTrackVisible } from './availability.js';
  * everyone else is most likely here for Arabic, so the Arabic paths come first. Nothing is hidden, only ordered.
  */
 export function trackOrder(uiLang) {
-  return uiLang === 'ar' ? ['en', 'id', 'fr', 'es', 'zh', 'ar', 'sa', 'eg'] : ['ar', 'sa', 'eg', 'en', 'id', 'fr', 'es', 'zh'];
+  return uiLang === 'ar' ? ['en', 'id', 'fr', 'es', 'de', 'tl', 'zh', 'ar', 'sa', 'eg'] : ['ar', 'sa', 'eg', 'en', 'id', 'fr', 'es', 'de', 'tl', 'zh'];
 }
 export const defaultTrack = (uiLang) => orderedTracks(uiLang)[0] || trackOrder(uiLang)[0];
 /** The paths to offer, in order: only the ones the admin has not hidden. */
