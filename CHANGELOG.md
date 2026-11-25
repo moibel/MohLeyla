@@ -1,5 +1,8 @@
 # Changelog
 
+## Unreleased (English, French, Spanish clips)
+- Generated the ElevenLabs clips for the English (558), French (620) and Spanish (655) courses (`public/audio/enn/`, `frn/`, `esn/`); each course falls back to its macOS clips, then the device voice. 324 unit tests pass.
+
 ## Unreleased (privacy policy and terms)
 - Public privacy policy (`/privacy.html`) and terms of use (`/terms.html`) in Arabic, English and Indonesian: static pages that need no sign-in, written from what the app really does (including that administrators can read chats, speaking practice never leaves the device, calls are not recorded, 90-day attachment expiry). Linked from the sign-in screen, the footer and Settings > Account. The service worker leaves them (and the delete-account page) alone. Needed for Google's consent screen and the App Store / Google Play. A contact e-mail is deliberately not published yet (issues link instead).
 
