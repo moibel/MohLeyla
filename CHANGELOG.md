@@ -3,6 +3,10 @@
 ## Unreleased (privacy policy and terms)
 - Public privacy policy (`/privacy.html`) and terms of use (`/terms.html`) in Arabic, English and Indonesian: static pages that need no sign-in, written from what the app really does (including that administrators can read chats, speaking practice never leaves the device, calls are not recorded, 90-day attachment expiry). Linked from the sign-in screen, the footer and Settings > Account. The service worker leaves them (and the delete-account page) alone. Needed for Google's consent screen and the App Store / Google Play. A contact e-mail is deliberately not published yet (issues link instead).
 
+## Unreleased (English, French, Spanish voices)
+- English, French and Spanish courses can use ElevenLabs voices: clip sets `public/audio/enn/`, `frn/`, `esn/` (`ELEVENLABS_VOICE_ID_EN`, `_FR`, `_ES`), each with its macOS clips as the fallback. No clips yet (needs a voice and credits per language).
+- The ElevenLabs language hint is now per course (it was fixed to Arabic for the flash/turbo models), and an exhausted API-key credit limit now says "out of credits" instead of "the key was refused".
+
 ## Unreleased (Chinese voice)
 - The Chinese course now uses an ElevenLabs Mandarin voice (654 clips): clip set `public/audio/zhn/` (`ELEVENLABS_VOICE_ID_ZH`), with the macOS Chinese clips as the fallback. Hosting cache rules and tests added.
 

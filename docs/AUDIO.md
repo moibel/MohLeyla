@@ -75,3 +75,13 @@ The Saudi track plays `public/audio/sau/` clips and falls back to the macOS Arab
 ## Chinese course: ElevenLabs voice (`zhn` clips)
 
 Same pattern as the other courses: the Chinese course ('zh') plays `public/audio/zhn/` clips and falls back to the macOS (Tingting) `zh` clips. In ElevenLabs choose a Mandarin voice (**Voice Library > Language: Chinese**), add it to My Voices, copy its Voice ID, put `ELEVENLABS_VOICE_ID_ZH=<the voice id>` on its own line in the git-ignored `.env.local` (a different ID from the other voices), then `npm run generate:audio` (about 4,200 characters, 654 lines).
+
+## English, French and Spanish courses: ElevenLabs voices (`enn`, `frn`, `esn` clips)
+
+Same pattern as the other courses, one clip set per language, each falling back to its macOS clips (`en` Samantha, `fr` Thomas, `es` Mónica) and then to the device voice. For each language choose a voice in the Voice Library (filter by that language and the accent you want to teach, for example US or UK English, France or Spain Spanish), copy its Voice ID, and put it on its own new line in the git-ignored `.env.local`, always a DIFFERENT ID from the other languages:
+
+- `ELEVENLABS_VOICE_ID_EN=<voice id>` (about 13,500 characters, 558 lines)
+- `ELEVENLABS_VOICE_ID_FR=<voice id>` (about 17,100 characters, 620 lines)
+- `ELEVENLABS_VOICE_ID_ES=<voice id>` (about 17,400 characters, 655 lines)
+
+Then `npm run generate:audio` (only languages with a voice id are made; the credit cost is about 0.4 per character on the Starter plan, measured). If the run stops with "out of credits", check both your balance and the API key's own Usage Limits (API Keys page).

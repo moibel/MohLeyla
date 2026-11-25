@@ -27,6 +27,20 @@ describe('the ElevenLabs request', () => {
     expect(JSON.parse(buildRequest('x', { key: KEY, voiceId: VOICE, model: 'eleven_flash_v2_5' }).options.body).language_code).toBe('ar');
     expect(JSON.parse(buildRequest('x', { key: KEY, voiceId: VOICE, model: 'eleven_turbo_v2_5' }).options.body).language_code).toBe('ar');
   });
+  it('the language code is the one given for the course, and only a two-letter code is accepted', () => {
+    const body = (languageCode) => JSON.parse(buildRequest('x', { key: KEY, voiceId: VOICE, model: 'eleven_flash_v2_5', languageCode }).options.body);
+    expect(body('fr').language_code).toBe('fr');
+    expect(body('zh').language_code).toBe('zh');
+    expect(body('../x').language_code).toBe('ar');
+  });
+  it('an exhausted key credit limit (reported as 401) says so, without echoing anything from the response', async () => {
+    const res = { ok: false, status: 401, json: async () => ({ detail: { status: 'quota_exceeded', message: `limit reached for key ${KEY}` } }) };
+    const err = await synthesize('x', { key: KEY, voiceId: VOICE }, async () => res).catch((e) => e);
+    expect(err.message).toMatch(/out of credits/);
+    expect(err.message).not.toContain(KEY);
+    const plain = await synthesize('x', { key: KEY, voiceId: VOICE }, async () => ({ ok: false, status: 401, json: async () => ({ detail: { status: 'invalid_api_key' } }) })).catch((e) => e);
+    expect(plain.message).toMatch(/key was refused/);
+  });
   it('a voice id or model can never change the address or the account that is billed', () => {
     for (const bad of ['../../v1/user', 'abc', '', undefined, 'a/b' + 'c'.repeat(12), 'x'.repeat(41), 'ok voice id 1234', 'abc?xi=1&' + 'd'.repeat(10)]) expect(() => buildRequest('x', { key: KEY, voiceId: bad }), String(bad)).toThrow(/VOICE_ID/);
     expect(() => buildRequest('x', { key: KEY, voiceId: VOICE, model: 'some_model/../x' })).toThrow(/unsupported model/);

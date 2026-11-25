@@ -16,7 +16,7 @@ import { promisify } from 'node:util';
 import { fileURLToPath } from 'node:url';
 import { audioKey, normalizeSpeech } from '../src/features/audio/hash.js';
 import { chooseEngine } from './egyptian-tts.mjs';
-import { chooseMsaEngine, chooseIdnEngine, chooseSauEngine, chooseZhnEngine } from './msa-tts.mjs';
+import { chooseMsaEngine, chooseIdnEngine, chooseSauEngine, chooseZhnEngine, chooseEnnEngine, chooseFrnEngine, chooseEsnEngine } from './msa-tts.mjs';
 
 const run = promisify(execFile);
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
@@ -27,17 +27,21 @@ const VOICES = {
   ar: { voice: 'Majed', rate: 135 }, en: { voice: 'Samantha', rate: 150 }, id: { voice: 'Damayanti', rate: 150 },
   fr: { voice: 'Thomas', rate: 150 }, es: { voice: 'Mónica', rate: 150 }, zh: { voice: 'Tingting', rate: 140 },
   eg: { engine: 'cloud' }, msa: { engine: 'cloud' }, idn: { engine: 'cloud' }, sau: { engine: 'cloud' }, zhn: { engine: 'cloud' },
+  enn: { engine: 'cloud' }, frn: { engine: 'cloud' }, esn: { engine: 'cloud' },
 };
 // Saudi uses the Standard Arabic recordings; Egyptian is read in BOTH: its own (eg) and, as the fallback, the Standard Arabic ones (ar).
-// The Arabic course ('ar') has its own ElevenLabs set ('msa') and the Indonesian course ('id') has 'idn' the Saudi course ('sa') has 'sau' and the Chinese course ('zh') has 'zhn'; the macOS recordings stay as their fallback.
-const speechLangs = (track) => (track === 'sa' ? ['sau', 'ar'] : track === 'eg' ? ['eg', 'ar'] : track === 'ar' ? ['msa', 'ar'] : track === 'id' ? ['idn', 'id'] : track === 'zh' ? ['zhn', 'zh'] : [track]);
+// The Arabic course ('ar') has its own ElevenLabs set ('msa') and the Indonesian course ('id') has 'idn' the Saudi course ('sa') has 'sau' the Chinese course ('zh') has 'zhn', English 'enn', French 'frn' and Spanish 'esn'; the macOS recordings stay as their fallback.
+const speechLangs = (track) => (track === 'sa' ? ['sau', 'ar'] : track === 'eg' ? ['eg', 'ar'] : track === 'ar' ? ['msa', 'ar'] : track === 'id' ? ['idn', 'id'] : track === 'zh' ? ['zhn', 'zh'] : track === 'en' ? ['enn', 'en'] : track === 'fr' ? ['frn', 'fr'] : track === 'es' ? ['esn', 'es'] : [track]);
 const egEngine = chooseEngine(root);
 const msaEngine = chooseMsaEngine(root);
 const idnEngine = chooseIdnEngine(root);
 const sauEngine = chooseSauEngine(root);
 const zhnEngine = chooseZhnEngine(root);
-const engines = { eg: egEngine, msa: msaEngine, idn: idnEngine, sau: sauEngine, zhn: zhnEngine };
-const WHAT = { eg: 'Egyptian', msa: 'Modern Standard Arabic', idn: 'Indonesian', sau: 'Saudi', zhn: 'Chinese' };
+const ennEngine = chooseEnnEngine(root);
+const frnEngine = chooseFrnEngine(root);
+const esnEngine = chooseEsnEngine(root);
+const engines = { eg: egEngine, msa: msaEngine, idn: idnEngine, sau: sauEngine, zhn: zhnEngine, enn: ennEngine, frn: frnEngine, esn: esnEngine };
+const WHAT = { eg: 'Egyptian', msa: 'Modern Standard Arabic', idn: 'Indonesian', sau: 'Saudi', zhn: 'Chinese', enn: 'English', frn: 'French', esn: 'Spanish' };
 
 function collect() {
   const texts = Object.fromEntries(Object.keys(VOICES).map((l) => [l, new Set()]));
@@ -110,7 +114,7 @@ for (const lang of Object.keys(texts)) {
   await Promise.all(Array.from({ length: viaCloud ? 3 : 4 }, worker));
   manifest[lang].sort();
 }
-fs.writeFileSync(path.join(root, 'public/audio/manifest.json'), JSON.stringify({ version: 1, voices: { ar: 'Majed (macOS, Standard Arabic)', en: 'Samantha (macOS, en-US)', id: 'Damayanti (macOS, id-ID)', fr: 'Thomas (macOS, fr-FR)', es: 'Mónica (macOS, es-ES)', zh: 'Tingting (macOS, zh-CN)', ...(manifest.eg.length ? { eg: `${egEngine.label || 'cloud voice'} (Egyptian Arabic)` } : {}), ...(manifest.msa.length ? { msa: `${msaEngine.label || 'cloud voice'} (Modern Standard Arabic)` } : {}), ...(manifest.idn.length ? { idn: `${idnEngine.label || 'cloud voice'} (Indonesian)` } : {}), ...(manifest.sau.length ? { sau: `${sauEngine.label || 'cloud voice'} (Saudi Arabic)` } : {}), ...(manifest.zhn.length ? { zhn: `${zhnEngine.label || 'cloud voice'} (Chinese)` } : {}) }, clips: manifest }));
+fs.writeFileSync(path.join(root, 'public/audio/manifest.json'), JSON.stringify({ version: 1, voices: { ar: 'Majed (macOS, Standard Arabic)', en: 'Samantha (macOS, en-US)', id: 'Damayanti (macOS, id-ID)', fr: 'Thomas (macOS, fr-FR)', es: 'Mónica (macOS, es-ES)', zh: 'Tingting (macOS, zh-CN)', ...(manifest.eg.length ? { eg: `${egEngine.label || 'cloud voice'} (Egyptian Arabic)` } : {}), ...(manifest.msa.length ? { msa: `${msaEngine.label || 'cloud voice'} (Modern Standard Arabic)` } : {}), ...(manifest.idn.length ? { idn: `${idnEngine.label || 'cloud voice'} (Indonesian)` } : {}), ...(manifest.sau.length ? { sau: `${sauEngine.label || 'cloud voice'} (Saudi Arabic)` } : {}), ...(manifest.zhn.length ? { zhn: `${zhnEngine.label || 'cloud voice'} (Chinese)` } : {}), ...(manifest.enn.length ? { enn: `${ennEngine.label || 'cloud voice'} (English)` } : {}), ...(manifest.frn.length ? { frn: `${frnEngine.label || 'cloud voice'} (French)` } : {}), ...(manifest.esn.length ? { esn: `${esnEngine.label || 'cloud voice'} (Spanish)` } : {}) }, clips: manifest }));
 fs.rmSync(tmp, { recursive: true, force: true });
 console.log(`audio: ${made} generated, ${skipped} existing, ${failed} failed`);
 if (failed) process.exit(1);
