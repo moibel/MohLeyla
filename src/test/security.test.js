@@ -220,12 +220,14 @@ describe('account deletion', () => {
     expect(fn()).not.toMatch(/BEGIN (EC |RSA )?PRIVATE KEY/);
     expect(fn()).not.toMatch(/console\.(log|info)\(/);
   });
-  it('the public privacy policy and terms exist in three languages, have no script, publish no e-mail address, and the service worker leaves them alone', () => {
+  it('the public privacy policy and terms exist in three languages, have no script, publish only the support e-mail address, and the service worker leaves them alone', () => {
     for (const f of ['public/privacy.html', 'public/terms.html']) {
       const page = read(f);
       expect(page, f).not.toMatch(/<script/i);
       for (const l of ['en', 'ar', 'id']) expect(page, `${f} ${l}`).toMatch(new RegExp(`<section id="${l}" lang="${l}"`));
-      expect(page, f).not.toMatch(/mailto:|[\w.+-]+@[\w-]+\.[\w.]+/);
+      // the only address published is the support mailbox (never a personal address)
+      const addresses = [...new Set(page.match(/[\w.+-]+@[\w-]+\.[\w.]+/g) || [])];
+      expect(addresses, f).toEqual(['mohleyla.support@gmail.com']);
     }
     // honesty about what the app really does (see supabase/migrations/007_chat.sql and the chat privacy note)
     expect(read('public/privacy.html')).toMatch(/administrators can also read chats/);

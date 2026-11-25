@@ -25,7 +25,7 @@ supabase secrets set APPLE_TEAM_ID='<Team ID>' APPLE_KEY_ID='<Key ID>' APPLE_CLI
 supabase secrets set APPLE_KEY_P8="$(cat AuthKey_XXXXXXXXXX.p8)"
 ```
 If these are not set the account is still deleted, but the Apple token is **not** revoked (the function reports `appleRevoked: false`). Set them before submitting to the App Store.
-4. Google Play asks for a web link where people can learn how to delete their account: use `https://mohleyla.pages.dev/delete-account.html` (this page is public and needs no sign-in). Add a contact address to it first if you want people who cannot sign in to be able to reach you.
+4. Google Play asks for a web link where people can learn how to delete their account: use `https://mohleyla.pages.dev/delete-account.html` (this page is public and needs no sign-in). It already shows `mohleyla.support@gmail.com`, so people who cannot sign in can reach you.
 
 ## Known limits
 - Not tested against the live Supabase project, a real Apple ID, or a real phone (SQL rules, function logic with real signatures, the app flow with fakes, and the browser flow with a mocked server are tested).

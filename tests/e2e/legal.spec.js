@@ -31,6 +31,13 @@ test.describe('privacy policy and terms', () => {
     });
   }
 
+  test('every legal page and the delete-account page show the support email as a mail link, in each language', async ({ page }) => {
+    for (const path of ['/privacy.html', '/terms.html', '/delete-account.html']) {
+      await page.goto(path);
+      for (const id of ['en', 'ar', 'id']) await expect(page.locator(path === '/delete-account.html' ? `section[lang="${id}"]` : `section#${id}`).locator('a[href="mailto:mohleyla.support@gmail.com"]'), `${path} ${id}`).toHaveCount(1);
+    }
+  });
+
   test('the privacy page says what matters: administrators can read chats, voice practice stays on the device, and how to delete', async ({ page }) => {
     await page.goto('/privacy.html');
     const en = page.locator('section#en');
