@@ -21,8 +21,8 @@ export function buildRequest(text, { key, voiceId, model = DEFAULT_MODEL, langua
   if (!clean) throw new Error('empty text');
   if (clean.length > MAX_CHARS) throw new Error(`text too long (${clean.length} characters)`);
   const body = { text: clean, model_id: model, voice_settings: { stability: 0.6, similarity_boost: 0.8, style: 0, use_speaker_boost: true } };
-  // The flash and turbo models can be told the language explicitly (a two-letter code like 'ar', 'en', 'fr'); the other models detect it from the text.
-  if (model === 'eleven_flash_v2_5' || model === 'eleven_turbo_v2_5') body.language_code = /^[a-z]{2}$/.test(languageCode || '') ? languageCode : 'ar';
+  // The flash and turbo models can be told the language explicitly (a two- or three-letter code like 'ar', 'en', 'fr'); the other models detect it from the text.
+  if (model === 'eleven_flash_v2_5' || model === 'eleven_turbo_v2_5') body.language_code = /^[a-z]{2,3}$/.test(languageCode || '') ? languageCode : 'ar';
   return {
     url: `${HOST}/v1/text-to-speech/${voiceId}?output_format=${OUTPUT_FORMAT}`,
     options: { method: 'POST', headers: { 'xi-api-key': key, 'Content-Type': 'application/json', Accept: 'audio/mpeg' }, body: JSON.stringify(body) },

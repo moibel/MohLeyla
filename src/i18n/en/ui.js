@@ -71,6 +71,8 @@ export default {
     eg: { name: 'Egyptian Arabic', short: 'Egyptian Arabic', desc: 'The everyday spoken Arabic of Egypt, understood across the Arab world through film and TV, with comparisons to Modern Standard Arabic.' },
     fr: { name: 'French', short: 'French', desc: 'Everyday French from the sounds and first greetings to practical conversations.' },
     es: { name: 'Spanish', short: 'Spanish', desc: 'Everyday Spanish from the sounds and first greetings to practical conversations.' },
+    de: { name: 'German', short: 'German', desc: 'Everyday German from the sounds and first greetings to practical conversations.' },
+    tl: { name: 'Tagalog (Filipino)', short: 'Tagalog', desc: 'Everyday Tagalog from the sounds and first greetings to practical conversations, with polite po and opo.' },
     zh: { name: 'Chinese (Mandarin)', short: 'Chinese', desc: 'Mandarin Chinese with simplified characters and pinyin: tones, first words and practical conversations.' },
     betaChip: 'Beta',
     betaNote: 'Beta: these lessons were written carefully but have not yet been reviewed by a native speaker. Tell us if you spot a mistake.',
@@ -762,7 +764,7 @@ export default {
       failed: 'Audio playback failed. Please try again.',
       noAudioFile: 'There is no recording for this text yet.',
     },
-    voiceLang: { ar: 'Arabic', en: 'English', id: 'Indonesian', fr: 'French', es: 'Spanish', zh: 'Chinese', eg: 'Egyptian Arabic' },
+    voiceLang: { ar: 'Arabic', en: 'English', id: 'Indonesian', fr: 'French', es: 'Spanish', zh: 'Chinese', de: 'German', tl: 'Tagalog', eg: 'Egyptian Arabic' },
     egNote: 'Audio uses a Standard Arabic voice. It does not reproduce the Egyptian dialect accent.',
   },
   onboarding: {

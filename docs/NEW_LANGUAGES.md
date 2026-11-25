@@ -1,4 +1,4 @@
-# New learning paths (beta): Egyptian Arabic, French, Spanish, Chinese
+# New learning paths (beta): Egyptian Arabic, French, Spanish, Chinese, German, Tagalog
 
 Four paths were added next to Modern Standard Arabic, Saudi Arabic, English and Indonesian. Each has **30 lessons** (about 240 words and phrases: lessons 1-10 beginner, 11-20 elementary, 21-30 intermediate, roughly CEFR A1 to A2), marked **Beta**. The plans they follow, with sources and the decisions made, are in `docs/curriculum/` (`*-plan.md`), and what the independent review changed is in `*-review.md`. The French, Spanish and Egyptian plans are based on A1-A2 syllabi and coursebook outlines; the Chinese plan reaches HSK 3 grammar but not its full vocabulary, so do not claim HSK 3 coverage.
 
@@ -10,6 +10,9 @@ Four paths were added next to Modern Standard Arabic, Saudi Arabic, English and 
 | Chinese | `zh` | Simplified characters with pinyin (tone marks) | Tingting (zh-CN) |
 
 Every lesson has the same parts as the existing paths: objectives, introduction, culture note, a grammar note, 6-8 words with example sentences and hints, two fill-in-the-blank items and a short conversation, all explained in Arabic, English and Indonesian. The eight exercise types work for the new paths too, except "put the words in order" for Chinese (Chinese has no spaces between words).
+
+## German and Tagalog (added later)
+`de` (standard German, du and Sie) and `tl` (standard Filipino with po and opo) follow the same 30-lesson A1-A2 design, with plans in `docs/curriculum/de-plan.md` and `tl-plan.md`. They were written by one model pass per ten lessons and then corrected by an independent reviewer per file, so the same honest limit applies: **not native-reviewed**, Beta. Voices: German has macOS Anna (`de`) as the fallback plus an ElevenLabs set `den` (`ELEVENLABS_VOICE_ID_DE`); Tagalog has no macOS voice, so it only has the ElevenLabs set `tln` (`ELEVENLABS_VOICE_ID_TL`) and otherwise the device voice. Admin switches for both need `supabase/migrations/013_content_switch_de_tl.sql`.
 
 ## How accurate is it?
 Honestly: **careful, but not native-reviewed.** The lessons were drafted by one model pass, then re-read item by item by a second independent pass that corrected mistakes, then checked by scripts (structure, scripts and alphabets, pinyin tone marks, unique answers). That catches many errors but **cannot replace a native speaker**, especially for Egyptian colloquial forms, pronunciation guides, tone of voice and the Arabic and Indonesian explanations. That is why the paths show a **Beta** label and a note on the course page.

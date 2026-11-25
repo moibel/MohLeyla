@@ -16,11 +16,13 @@ const LOCALE_PREFS = {
   fr: ['fr-FR', 'fr-CA', 'fr-BE', 'fr-CH'],
   es: ['es-ES', 'es-MX', 'es-US', 'es-AR', 'es-CO'],
   zh: ['zh-CN', 'zh-TW', 'zh-HK'],
+  de: ['de-DE', 'de-AT', 'de-CH'],
+  tl: ['fil-PH', 'tl-PH'],
 };
 
 // Recordings to try, best first. Egyptian Arabic has its own recordings; until a line has one, the Standard Arabic recording of the
 // same text is used (clearly labelled in the lesson), and only after that the device voice.
-const CLIP_LANGS = { eg: ['eg', 'ar'], ar: ['msa', 'ar'], id: ['idn', 'id'], zh: ['zhn', 'zh'], en: ['enn', 'en'], fr: ['frn', 'fr'], es: ['esn', 'es'] };
+const CLIP_LANGS = { eg: ['eg', 'ar'], ar: ['msa', 'ar'], id: ['idn', 'id'], zh: ['zhn', 'zh'], en: ['enn', 'en'], fr: ['frn', 'fr'], es: ['esn', 'es'], de: ['den', 'de'], tl: ['tln'] };
 // The Saudi track speaks 'ar', but has its own recordings ('sau') before the macOS Arabic ones.
 const clipLangs = (lang, track) => (track === 'sa' ? ['sau', 'ar'] : CLIP_LANGS[lang] || [lang]);
 
@@ -123,7 +125,7 @@ export class AudioService {
   }
 
   /**
-   * Play `text` spoken in `lang` ('ar' | 'en' | 'id' | 'fr' | 'es' | 'zh'). `track` ('sa' Saudi, 'eg' Egyptian) only influences voice choice and labelling.
+   * Play `text` spoken in `lang` ('ar' | 'en' | 'id' | 'fr' | 'es' | 'zh' | 'de' | 'tl'). `track` ('sa' Saudi, 'eg' Egyptian) only influences voice choice and labelling.
    * Resolves when playback ends. Replaces any clip that is currently playing.
    */
   async play({ text, lang, track, key: keyOverride }) {

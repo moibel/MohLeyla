@@ -2,7 +2,7 @@
 // full lessons are loaded per track on demand (code-split chunks).
 import manifest from './manifest.json';
 
-export const TRACKS = ['ar', 'sa', 'eg', 'en', 'id', 'fr', 'es', 'zh'];
+export const TRACKS = ['ar', 'sa', 'eg', 'en', 'id', 'fr', 'es', 'zh', 'de', 'tl'];
 /** The language a track teaches ('sa' and 'eg' teach Arabic). */
 export const trackLang = (track) => (track === 'sa' || track === 'eg' ? 'ar' : track);
 /** Which recordings a track uses: like trackLang, but Egyptian Arabic has its OWN recordings ('eg'), not the Standard Arabic ones. */
@@ -10,7 +10,7 @@ export const speechLang = (track) => (track === 'sa' ? 'ar' : track);
 /** Dialect tracks: Arabic text, read aloud by a Standard Arabic voice (not a regional accent). */
 export const DIALECT_TRACKS = ['sa', 'eg'];
 /** Tracks whose lessons are not yet reviewed by a native speaker (shown with a Beta label). */
-export const BETA_TRACKS = ['eg', 'fr', 'es', 'zh'];
+export const BETA_TRACKS = ['eg', 'fr', 'es', 'zh', 'de', 'tl'];
 export const isDialect = (track) => DIALECT_TRACKS.includes(track);
 export const isBeta = (track) => BETA_TRACKS.includes(track);
 /** The HTML lang attribute for text taught by a track. */
@@ -24,6 +24,8 @@ export const TRACK_META = {
   fr: { glyph: 'Fr', color: 'var(--c-fr)' },
   es: { glyph: 'Es', color: 'var(--c-es)' },
   zh: { glyph: '中', color: 'var(--c-zh)' },
+  de: { glyph: 'De', color: 'var(--c-de)' },
+  tl: { glyph: 'Tl', color: 'var(--c-tl)' },
 };
 
 export const allLessonMeta = manifest.lessons;

@@ -67,6 +67,8 @@ export default {
     eg: { name: 'Bahasa Arab Mesir', short: 'Arab Mesir', desc: 'Bahasa Arab lisan sehari-hari di Mesir, dikenal di dunia Arab lewat film dan televisi, dengan perbandingan ke Arab Baku.' },
     fr: { name: 'Bahasa Prancis', short: 'Prancis', desc: 'Bahasa Prancis sehari-hari dari bunyi dan salam pertama sampai percakapan praktis.' },
     es: { name: 'Bahasa Spanyol', short: 'Spanyol', desc: 'Bahasa Spanyol sehari-hari dari bunyi dan salam pertama sampai percakapan praktis.' },
+    de: { name: 'Bahasa Jerman', short: 'Jerman', desc: 'Bahasa Jerman sehari-hari, dari bunyi dan salam pertama sampai percakapan praktis.' },
+    tl: { name: 'Bahasa Tagalog (Filipino)', short: 'Tagalog', desc: 'Bahasa Tagalog sehari-hari, dari bunyi dan salam pertama sampai percakapan praktis, dengan po dan opo yang sopan.' },
     zh: { name: 'Bahasa Mandarin', short: 'Mandarin', desc: 'Bahasa Mandarin dengan aksara sederhana dan pinyin: nada, kata pertama, dan percakapan praktis.' },
     betaChip: 'Beta',
     betaNote: 'Beta: pelajaran ini ditulis dengan teliti tetapi belum ditinjau penutur asli. Beri tahu kami jika Anda menemukan kesalahan.',
@@ -754,7 +756,7 @@ export default {
       failed: 'Pemutaran audio gagal. Silakan coba lagi.',
       noAudioFile: 'Belum ada rekaman untuk teks ini.',
     },
-    voiceLang: { ar: 'Arab', en: 'Inggris', id: 'Indonesia', fr: 'Prancis', es: 'Spanyol', zh: 'Mandarin', eg: 'Arab Mesir' },
+    voiceLang: { ar: 'Arab', en: 'Inggris', id: 'Indonesia', fr: 'Prancis', es: 'Spanyol', zh: 'Mandarin', de: 'Jerman', tl: 'Tagalog', eg: 'Arab Mesir' },
     egNote: 'Audio memakai suara Arab Fusha. Suara ini tidak meniru aksen dialek Mesir.',
   },
   onboarding: {

@@ -1,0 +1,2940 @@
+[
+  {
+    "id": "tl-11",
+    "track": "tl",
+    "level": "elementary",
+    "order": 11,
+    "topic": "weekend-plans",
+    "icon": "🏖️",
+    "title": {
+      "ar": "خطط نهاية الأسبوع",
+      "en": "Weekend Plans",
+      "id": "Rencana Akhir Pekan"
+    },
+    "description": {
+      "ar": "تحدّث عمّا ستفعله غدًا وفي نهاية الأسبوع باستخدام صيغة المستقبل.",
+      "en": "Talk about what you will do tomorrow and at the weekend using the future (contemplated) form of the verb.",
+      "id": "Bicarakan apa yang akan kamu lakukan besok dan akhir pekan dengan bentuk futur kata kerja."
+    },
+    "objectives": [
+      {
+        "ar": "أستطيع أن أسأل «ما الذي ستفعله؟» بالتاغالوغية.",
+        "en": "I can ask what someone is going to do.",
+        "id": "Saya bisa menanyakan apa yang akan dilakukan seseorang."
+      },
+      {
+        "ar": "أستطيع قول ما سأفعله باستخدام صيغة المستقبل مثل pupunta وmagpapahinga.",
+        "en": "I can say my plans with future forms such as pupunta and magpapahinga.",
+        "id": "Saya bisa menyatakan rencana dengan bentuk futur seperti pupunta dan magpapahinga."
+      },
+      {
+        "ar": "أستطيع وضع الضمير بعد الفعل مباشرة.",
+        "en": "I can put the pronoun right after the verb.",
+        "id": "Saya bisa meletakkan kata ganti tepat setelah kata kerja."
+      }
+    ],
+    "intro": {
+      "ar": "نحب جميعًا الحديث عن خططنا. في التاغالوغية يتغير شكل الفعل بحسب وقت الحدث. لتقول إن الحدث سيقع لاحقًا تكرّر المقطع الأول من جذر الفعل: punta (الذهاب) تصبح pupunta (سيذهب).",
+      "en": "We all like talking about our plans. In Tagalog the verb itself changes to show when something happens. To say it has not happened yet, you repeat the first syllable of the verb root: punta (go) becomes pupunta (will go).",
+      "id": "Kita semua suka membicarakan rencana. Dalam bahasa Tagalog bentuk kata kerja berubah sesuai waktu kejadian. Untuk menyatakan sesuatu belum terjadi, suku kata pertama akar kata diulang: punta (pergi) menjadi pupunta (akan pergi)."
+    },
+    "culture": {
+      "ar": "في مانيلا يقضي كثير من الناس عطلة نهاية الأسبوع في المراكز التجارية (mall) لأنها مكيّفة، أو يزورون الأقارب. وعطلة الأحد مخصصة غالبًا للعائلة والكنيسة والغداء الكبير معًا.",
+      "en": "In Manila many people spend the weekend in air-conditioned malls or visiting relatives. Sunday is often for family: church, then a big lunch together.",
+      "id": "Di Manila banyak orang menghabiskan akhir pekan di mal ber-AC atau mengunjungi saudara. Hari Minggu sering untuk keluarga: ke gereja, lalu makan siang besar bersama."
+    },
+    "grammar": {
+      "title": {
+        "ar": "صيغة المستقبل (contemplated)",
+        "en": "The future form (contemplated aspect)",
+        "id": "Bentuk futur (aspek contemplated)"
+      },
+      "body": {
+        "ar": "لتكوين المستقبل كرّر المقطع الأول من الجذر: punta ← pupunta، kain ← kakain، gawin ← gagawin. مع الأفعال التي تبدأ بـ mag- كرّر المقطع الأول من الجذر بعد mag-: magpahinga ← magpapahinga. ومع manood (يشاهد) نقول manonood. ويأتي الضمير بعد الفعل مباشرة: Pupunta ako (سأذهب)، Kakain kami (سنأكل).",
+        "en": "To make the future, repeat the first syllable of the root: punta becomes pupunta, kain becomes kakain, gawin becomes gagawin. With mag- verbs, repeat the first syllable of the root after mag-: magpahinga becomes magpapahinga. For manood (watch) we say manonood. The pronoun comes right after the verb: Pupunta ako (I will go), Kakain kami (we will eat).",
+        "id": "Untuk membuat futur, ulangi suku kata pertama akar kata: punta menjadi pupunta, kain menjadi kakain, gawin menjadi gagawin. Pada kata kerja mag- ulangi suku kata pertama akar setelah mag-: magpahinga menjadi magpapahinga. Untuk manood (menonton) bentuknya manonood. Kata ganti langsung mengikuti kata kerja: Pupunta ako (saya akan pergi), Kakain kami (kami akan makan)."
+      }
+    },
+    "items": [
+      {
+        "id": "tl11n1",
+        "target": "Ano ang gagawin mo sa weekend?",
+        "translit": "a-NO ang ga-ga-WIN mo sa WI-kend",
+        "tr": {
+          "ar": "ماذا ستفعل في عطلة نهاية الأسبوع؟",
+          "en": "What are you going to do this weekend?",
+          "id": "Apa yang akan kamu lakukan akhir pekan ini?"
+        },
+        "example": {
+          "target": "Ano ang gagawin mo bukas?",
+          "translit": "a-NO ang ga-ga-WIN mo bu-KAS",
+          "tr": {
+            "ar": "ماذا ستفعل غدًا؟",
+            "en": "What are you going to do tomorrow?",
+            "id": "Apa yang akan kamu lakukan besok?"
+          }
+        },
+        "hint": {
+          "ar": "سؤال بين الأصدقاء. مع شخص أكبر منك قل: Ano po ang gagawin ninyo؟ وهناك صيغة رسمية هي «katapusan ng linggo».",
+          "en": "A question between friends. To someone older say: Ano po ang gagawin ninyo? The formal phrase for weekend is katapusan ng linggo.",
+          "id": "Pertanyaan antarteman. Kepada orang yang lebih tua katakan: Ano po ang gagawin ninyo? Frasa formal untuk akhir pekan adalah katapusan ng linggo."
+        }
+      },
+      {
+        "id": "tl11n2",
+        "target": "Pupunta ako sa mall.",
+        "translit": "pu-PUN-ta a-KO sa mol",
+        "tr": {
+          "ar": "سأذهب إلى المركز التجاري.",
+          "en": "I will go to the mall.",
+          "id": "Saya akan pergi ke mal."
+        },
+        "example": {
+          "target": "Pupunta kami sa Baguio sa Sabado.",
+          "translit": "pu-PUN-ta ka-MI sa ba-GI-o sa sa-BA-do",
+          "tr": {
+            "ar": "سنذهب إلى باغيو يوم السبت.",
+            "en": "We will go to Baguio on Saturday.",
+            "id": "Kami akan pergi ke Baguio hari Sabtu."
+          }
+        },
+        "hint": {
+          "ar": "الفعل punta (الذهاب) والضمير ako يأتي بعده. كلمة kami تعني «نحن» من دون المخاطب.",
+          "en": "The verb is punta (go) and the pronoun ako follows it. Kami means we, not including the person you speak to.",
+          "id": "Kata kerjanya punta (pergi) dan kata ganti ako mengikutinya. Kami berarti kami, tidak termasuk lawan bicara."
+        }
+      },
+      {
+        "id": "tl11n3",
+        "target": "Magpapahinga ako sa bahay.",
+        "translit": "mag-pa-pa-HI-nga a-KO sa BA-hay",
+        "tr": {
+          "ar": "سأرتاح في البيت.",
+          "en": "I will rest at home.",
+          "id": "Saya akan beristirahat di rumah."
+        },
+        "example": {
+          "target": "Magpapahinga kami sa Linggo.",
+          "translit": "mag-pa-pa-HI-nga ka-MI sa LI-ngo",
+          "tr": {
+            "ar": "سنرتاح يوم الأحد.",
+            "en": "We will rest on Sunday.",
+            "id": "Kami akan beristirahat hari Minggu."
+          }
+        },
+        "hint": {
+          "ar": "الجذر pahinga (راحة) ومنه magpahinga (يرتاح). نكرّر المقطع الأول بعد mag-.",
+          "en": "The root is pahinga (rest), and magpahinga means to rest. The first syllable is repeated after mag-.",
+          "id": "Akarnya pahinga (istirahat), dan magpahinga berarti beristirahat. Suku kata pertama diulang setelah mag-."
+        }
+      },
+      {
+        "id": "tl11n4",
+        "target": "Manonood kami ng sine.",
+        "translit": "ma-no-NOOD ka-MI nang SI-ne",
+        "tr": {
+          "ar": "سنشاهد فيلمًا في السينما.",
+          "en": "We will watch a movie.",
+          "id": "Kami akan menonton film."
+        },
+        "example": {
+          "target": "Manonood sila ng sine sa Sabado.",
+          "translit": "ma-no-NOOD si-LA nang SI-ne sa sa-BA-do",
+          "tr": {
+            "ar": "سيشاهدون فيلمًا يوم السبت.",
+            "en": "They will watch a movie on Saturday.",
+            "id": "Mereka akan menonton film hari Sabtu."
+          }
+        },
+        "hint": {
+          "ar": "الحرف ng يُنطق «nang» ويربط الفعل بمفعوله. وقد ترى أيضًا الكتابة القديمة manunuod.",
+          "en": "The word ng is pronounced nang and links the verb to what is watched. You may also see the older spelling manunuod.",
+          "id": "Kata ng dilafalkan nang dan menghubungkan kata kerja dengan objeknya. Ejaan lama manunuod juga kadang terlihat."
+        }
+      },
+      {
+        "id": "tl11n5",
+        "target": "Mamamasyal kami sa parke.",
+        "translit": "ma-ma-mas-YAL ka-MI sa PAR-ke",
+        "tr": {
+          "ar": "سنتنزه في الحديقة.",
+          "en": "We will go for a stroll in the park.",
+          "id": "Kami akan jalan-jalan di taman."
+        },
+        "example": {
+          "target": "Mamamasyal tayo sa Linggo.",
+          "translit": "ma-ma-mas-YAL TA-yo sa LI-ngo",
+          "tr": {
+            "ar": "سنتنزه نحن جميعًا يوم الأحد.",
+            "en": "Let us all go for a stroll on Sunday.",
+            "id": "Kita jalan-jalan hari Minggu."
+          }
+        },
+        "hint": {
+          "ar": "كلمة tayo تعني «نحن» مع المخاطب، أما kami فبدونه.",
+          "en": "Tayo means we including the listener, while kami excludes the listener.",
+          "id": "Tayo berarti kita termasuk lawan bicara, sedangkan kami tidak termasuk."
+        }
+      },
+      {
+        "id": "tl11n6",
+        "target": "Wala akong gagawin.",
+        "translit": "wa-LA a-KONG ga-ga-WIN",
+        "tr": {
+          "ar": "ليس لدي ما أفعله.",
+          "en": "I have nothing to do.",
+          "id": "Saya tidak punya kegiatan."
+        },
+        "example": {
+          "target": "Wala kaming gagawin bukas.",
+          "translit": "wa-LA ka-MING ga-ga-WIN bu-KAS",
+          "tr": {
+            "ar": "ليس لدينا ما نفعله غدًا.",
+            "en": "We have nothing to do tomorrow.",
+            "id": "Kami tidak punya kegiatan besok."
+          }
+        },
+        "hint": {
+          "ar": "كلمة wala تعني «لا يوجد». والنون في akong وkaming أداة ربط سنشرحها في الدرس 15.",
+          "en": "Wala means there is none. The -ng in akong and kaming is a linker we explain in lesson 15.",
+          "id": "Wala berarti tidak ada. Akhiran -ng pada akong dan kaming adalah penghubung yang dijelaskan di pelajaran 15."
+        }
+      }
+    ],
+    "cloze": [
+      {
+        "sentence": "___ ako sa palengke bukas.",
+        "answer": "Pupunta",
+        "wrong": [
+          "Pumunta",
+          "Pumupunta"
+        ],
+        "tr": {
+          "ar": "سأذهب إلى السوق غدًا.",
+          "en": "I will go to the market tomorrow.",
+          "id": "Saya akan pergi ke pasar besok."
+        },
+        "why": {
+          "ar": "«بوكاس» (غدًا) تعني المستقبل، فنحتاج pupunta. أما pumunta وpumupunta فمن صيغ أخرى سنتعلمها لاحقًا.",
+          "en": "Bukas means tomorrow, so we need pupunta. Pumunta and pumupunta belong to other forms that we learn later.",
+          "id": "Bukas berarti besok, jadi kita perlu pupunta. Pumunta dan pumupunta termasuk bentuk lain yang dipelajari nanti."
+        }
+      },
+      {
+        "sentence": "Pupunta kami ___ Baguio sa Sabado.",
+        "answer": "sa",
+        "wrong": [
+          "ng",
+          "ang"
+        ],
+        "tr": {
+          "ar": "سنذهب إلى باغيو يوم السبت.",
+          "en": "We will go to Baguio on Saturday.",
+          "id": "Kami akan pergi ke Baguio hari Sabtu."
+        },
+        "why": {
+          "ar": "بعد فعل الذهاب نستعمل sa للمكان. أما ng وang فلا تصلحان هنا.",
+          "en": "After a verb of going we use sa for the place. Ng and ang do not fit here.",
+          "id": "Setelah kata kerja pergi kita memakai sa untuk tempat. Ng dan ang tidak cocok di sini."
+        }
+      }
+    ],
+    "conversation": {
+      "context": {
+        "ar": "يوم الجمعة، صديقان يتحدثان عن عطلة نهاية الأسبوع.",
+        "en": "Friday: two friends talk about the weekend.",
+        "id": "Hari Jumat: dua teman membicarakan akhir pekan."
+      },
+      "turns": [
+        {
+          "who": "A",
+          "target": "Kumusta! Ano ang gagawin mo sa Sabado?",
+          "tr": {
+            "ar": "مرحبًا! ماذا ستفعل يوم السبت؟",
+            "en": "Hi! What are you going to do on Saturday?",
+            "id": "Hai! Apa yang akan kamu lakukan hari Sabtu?"
+          }
+        },
+        {
+          "who": "B",
+          "target": "Pupunta kami sa Tagaytay. Ikaw?",
+          "tr": {
+            "ar": "سنذهب إلى تاغايتاي. وأنت؟",
+            "en": "We are going to Tagaytay. And you?",
+            "id": "Kami akan pergi ke Tagaytay. Kalau kamu?"
+          }
+        },
+        {
+          "who": "A",
+          "target": "Magpapahinga lang ako sa bahay.",
+          "tr": {
+            "ar": "سأرتاح في البيت فقط.",
+            "en": "I will just rest at home.",
+            "id": "Saya hanya akan beristirahat di rumah."
+          }
+        },
+        {
+          "who": "B",
+          "target": "Sige, mag-enjoy ka!",
+          "tr": {
+            "ar": "حسنًا، استمتع بوقتك!",
+            "en": "Okay, enjoy yourself!",
+            "id": "Baik, selamat bersenang-senang!"
+          }
+        }
+      ],
+      "gap": 1,
+      "wrong": [
+        "Taga-Cebu ako.",
+        "Masakit ang ulo ko."
+      ],
+      "why": {
+        "ar": "سُئل عن خطته يوم السبت، فيجيب بخطة مستقبلية ثم يسأل بالمثل. الردان الآخران يتحدثان عن الأصل والصداع، وليس عن الخطط.",
+        "en": "He was asked about his Saturday plan, so he answers with a future plan and asks back. The other two replies are about origin and a headache, not plans.",
+        "id": "Ia ditanya tentang rencana hari Sabtu, jadi ia menjawab dengan rencana lalu bertanya balik. Dua jawaban lain tentang asal dan sakit kepala, bukan rencana."
+      }
+    },
+    "summary": {
+      "ar": "تعلمت أن تقول ما ستفعله باستخدام صيغة المستقبل: pupunta وkakain وmagpapahinga. جرّب أن تكتب ثلاث جمل عن خططك لهذا الأسبوع.",
+      "en": "You learned to say what you will do with the future form: pupunta, kakain, magpapahinga. Try writing three sentences about your plans this week.",
+      "id": "Kamu belajar menyatakan rencana dengan bentuk futur: pupunta, kakain, magpapahinga. Cobalah menulis tiga kalimat tentang rencanamu minggu ini."
+    }
+  },
+  {
+    "id": "tl-12",
+    "track": "tl",
+    "level": "elementary",
+    "order": 12,
+    "topic": "daily-routine-habits",
+    "icon": "⏰",
+    "title": {
+      "ar": "الروتين اليومي والعادات",
+      "en": "Daily Routine and Habits",
+      "id": "Rutinitas dan Kebiasaan Harian"
+    },
+    "description": {
+      "ar": "تعرّف على أشكال الفعل الأربعة: الأصل والمنتهي والجاري والمستقبل.",
+      "en": "Meet the four forms of the verb: base, completed, ongoing and future.",
+      "id": "Kenali empat bentuk kata kerja: dasar, selesai, sedang berlangsung, dan akan datang."
+    },
+    "objectives": [
+      {
+        "ar": "أستطيع تمييز الأشكال الأربعة للفعل kain: kumain وkumakain وkakain.",
+        "en": "I can tell the four forms of kain apart: kumain, kumakain, kakain.",
+        "id": "Saya bisa membedakan empat bentuk kain: kumain, kumakain, kakain."
+      },
+      {
+        "ar": "أستطيع الكلام عن عاداتي اليومية.",
+        "en": "I can talk about my daily habits.",
+        "id": "Saya bisa membicarakan kebiasaan harian saya."
+      },
+      {
+        "ar": "أستطيع أن أسأل «Kumain ka na ba؟» وأجيب عنه.",
+        "en": "I can ask and answer Kumain ka na ba?",
+        "id": "Saya bisa menanyakan dan menjawab Kumain ka na ba?"
+      }
+    ],
+    "intro": {
+      "ar": "الفعل التاغالوغي لا يتغير بحسب الشخص بل بحسب الوقت: هل انتهى الحدث؟ هل هو جارٍ الآن؟ هل سيقع؟ سنتعلم الأشكال الأربعة مع أفعال شائعة قليلة فقط: kain وluto وtulog وligo وgising.",
+      "en": "A Tagalog verb does not change for the person but for the time: is the action finished, going on now, or still to come? We learn the four forms with a few common verbs only: kain, luto, tulog, ligo and gising.",
+      "id": "Kata kerja Tagalog tidak berubah menurut orang, tetapi menurut waktu: apakah tindakan sudah selesai, sedang berlangsung, atau akan terjadi? Kita pelajari empat bentuknya dengan beberapa kata kerja umum saja: kain, luto, tulog, ligo, dan gising."
+    },
+    "culture": {
+      "ar": "سؤال «Kumain ka na ba؟» (هل أكلت؟) من أكثر ما يقوله الفلبينيون تعبيرًا عن الاهتمام، يشبه «كيف حالك؟». وجبات اليوم الأساسية: almusal وtanghalian وhapunan.",
+      "en": "Kumain ka na ba? (Have you eaten?) is one of the warmest things Filipinos say, a bit like How are you? The main meals are almusal (breakfast), tanghalian (lunch) and hapunan (dinner).",
+      "id": "Kumain ka na ba? (Sudah makan?) adalah ungkapan perhatian yang sangat umum bagi orang Filipina, mirip Apa kabar? Waktu makan utama: almusal (sarapan), tanghalian (makan siang), dan hapunan (makan malam)."
+    },
+    "grammar": {
+      "title": {
+        "ar": "الأشكال الأربعة للفعل",
+        "en": "The four forms of the verb",
+        "id": "Empat bentuk kata kerja"
+      },
+      "body": {
+        "ar": "خذ الفعل kain (أكل) والفعل luto (طبخ). الأصل: kumain / magluto. المنتهي: kumain / nagluto. الجاري: kumakain / nagluluto. المستقبل: kakain / magluluto. في أفعال um- ندخل um قبل أول حرف ساكن، وفي الجاري نكرّر المقطع الأول أيضًا. وفي أفعال mag- تصبح mag- ثم nag- في المنتهي والجاري. الكلمة na تعني «الآن/قد»: Kumain na ako (لقد أكلت).",
+        "en": "Take kain (eat) and luto (cook). Base: kumain / magluto. Completed: kumain / nagluto. Ongoing: kumakain / nagluluto. Future: kakain / magluluto. In um verbs the um goes after the first consonant, and the ongoing form also repeats the first syllable. In mag verbs mag changes to nag for completed and ongoing. The word na means already: Kumain na ako (I have eaten).",
+        "id": "Ambil kain (makan) dan luto (memasak). Dasar: kumain / magluto. Selesai: kumain / nagluto. Sedang: kumakain / nagluluto. Akan: kakain / magluluto. Pada kata kerja um, um disisipkan setelah konsonan pertama, dan bentuk sedang juga mengulang suku kata pertama. Pada kata kerja mag, mag berubah menjadi nag untuk selesai dan sedang. Kata na berarti sudah: Kumain na ako (saya sudah makan)."
+      }
+    },
+    "items": [
+      {
+        "id": "tl12n1",
+        "target": "Kumain ka na ba?",
+        "translit": "ku-MA-in ka na ba",
+        "tr": {
+          "ar": "هل أكلت؟",
+          "en": "Have you eaten yet?",
+          "id": "Sudah makan?"
+        },
+        "example": {
+          "target": "Kumain na ako. Ikaw?",
+          "translit": "ku-MA-in na a-KO i-KAW",
+          "tr": {
+            "ar": "لقد أكلت. وأنت؟",
+            "en": "I have eaten. And you?",
+            "id": "Saya sudah makan. Kamu?"
+          }
+        },
+        "hint": {
+          "ar": "تُقال كتحية ودودة. الجواب: Oo, kumain na ako (نعم) أو Hindi pa (ليس بعد).",
+          "en": "Said as a friendly greeting. Answers: Oo, kumain na ako (yes) or Hindi pa (not yet).",
+          "id": "Diucapkan sebagai sapaan ramah. Jawaban: Oo, kumain na ako (ya) atau Hindi pa (belum)."
+        }
+      },
+      {
+        "id": "tl12n2",
+        "target": "Kumakain ako ngayon.",
+        "translit": "ku-ma-KA-in a-KO nga-YON",
+        "tr": {
+          "ar": "أنا آكل الآن.",
+          "en": "I am eating now.",
+          "id": "Saya sedang makan sekarang."
+        },
+        "example": {
+          "target": "Kumakain sila ng kanin.",
+          "translit": "ku-ma-KA-in si-LA nang ka-NIN",
+          "tr": {
+            "ar": "هم يأكلون الأرز.",
+            "en": "They are eating rice.",
+            "id": "Mereka sedang makan nasi."
+          }
+        },
+        "hint": {
+          "ar": "الصيغة الجارية: um + تكرار المقطع الأول من الجذر (kain ← kumakain).",
+          "en": "The ongoing form: um plus repeating the first syllable of the root (kain gives kumakain).",
+          "id": "Bentuk sedang: um ditambah pengulangan suku kata pertama akar (kain menjadi kumakain)."
+        }
+      },
+      {
+        "id": "tl12n3",
+        "target": "Kakain ako mamaya.",
+        "translit": "ka-KA-in a-KO ma-MA-ya",
+        "tr": {
+          "ar": "سآكل لاحقًا.",
+          "en": "I will eat later.",
+          "id": "Saya akan makan nanti."
+        },
+        "example": {
+          "target": "Kakain kami sa labas bukas.",
+          "translit": "ka-KA-in ka-MI sa LA-bas bu-KAS",
+          "tr": {
+            "ar": "سنأكل خارج البيت غدًا.",
+            "en": "We will eat out tomorrow.",
+            "id": "Kami akan makan di luar besok."
+          }
+        },
+        "hint": {
+          "ar": "صيغة المستقبل من الدرس السابق: kakain. وmamaya تعني «لاحقًا في هذا اليوم».",
+          "en": "The future form from the last lesson: kakain. Mamaya means later today.",
+          "id": "Bentuk futur dari pelajaran lalu: kakain. Mamaya berarti nanti hari ini."
+        }
+      },
+      {
+        "id": "tl12n4",
+        "target": "Gumigising ako tuwing umaga.",
+        "translit": "gu-mi-GI-sing a-KO TU-wing u-MA-ga",
+        "tr": {
+          "ar": "أستيقظ كل صباح.",
+          "en": "I wake up every morning.",
+          "id": "Saya bangun setiap pagi."
+        },
+        "example": {
+          "target": "Gumigising siya nang maaga.",
+          "translit": "gu-mi-GI-sing si-YA nang ma-A-ga",
+          "tr": {
+            "ar": "هو يستيقظ باكرًا.",
+            "en": "He wakes up early.",
+            "id": "Dia bangun pagi-pagi."
+          }
+        },
+        "hint": {
+          "ar": "الصيغة الجارية تدل أيضًا على العادة. كلمة tuwing تعني «كل». وفي nang maaga نكتب nang (لا ng) لأنها تصف الفعل: «باكرًا». وgising وحدها تعني «مستيقظ».",
+          "en": "The ongoing form also shows a habit. Tuwing means every. In nang maaga (early) we write nang, not ng, because it describes the verb. Gising on its own means awake.",
+          "id": "Bentuk sedang juga menunjukkan kebiasaan. Tuwing berarti setiap. Pada nang maaga (pagi-pagi) kita menulis nang, bukan ng, karena menerangkan kata kerja. Gising sendiri berarti terjaga."
+        }
+      },
+      {
+        "id": "tl12n5",
+        "target": "Nagtatrabaho ako sa opisina.",
+        "translit": "nag-ta-tra-BA-ho a-KO sa o-pi-SI-na",
+        "tr": {
+          "ar": "أعمل في مكتب.",
+          "en": "I work in an office.",
+          "id": "Saya bekerja di kantor."
+        },
+        "example": {
+          "target": "Nagtatrabaho siya sa bangko.",
+          "translit": "nag-ta-tra-BA-ho si-YA sa BANG-ko",
+          "tr": {
+            "ar": "هو يعمل في مصرف.",
+            "en": "He works at a bank.",
+            "id": "Dia bekerja di bank."
+          }
+        },
+        "hint": {
+          "ar": "الجذر trabaho (عمل). في أفعال mag- الجاري هو nag- + تكرار المقطع الأول من الجذر.",
+          "en": "The root is trabaho (work). In mag verbs the ongoing form is nag- plus the repeated first syllable of the root.",
+          "id": "Akarnya trabaho (kerja). Pada kata kerja mag, bentuk sedang adalah nag- ditambah suku kata pertama akar yang diulang."
+        }
+      },
+      {
+        "id": "tl12n6",
+        "target": "Nagluluto ako ng hapunan.",
+        "translit": "nag-lu-LU-to a-KO nang ha-PU-nan",
+        "tr": {
+          "ar": "أنا أطبخ العشاء.",
+          "en": "I am cooking dinner.",
+          "id": "Saya sedang memasak makan malam."
+        },
+        "example": {
+          "target": "Magluluto ako ng adobo bukas.",
+          "translit": "mag-lu-LU-to a-KO nang a-DO-bo bu-KAS",
+          "tr": {
+            "ar": "سأطبخ الأدوبو غدًا.",
+            "en": "I will cook adobo tomorrow.",
+            "id": "Saya akan memasak adobo besok."
+          }
+        },
+        "hint": {
+          "ar": "للمقارنة: magluto (طبخ)، nagluto (طبخ فعلًا)، nagluluto (يطبخ الآن)، magluluto (سيطبخ).",
+          "en": "To compare: magluto (to cook), nagluto (cooked), nagluluto (is cooking), magluluto (will cook).",
+          "id": "Sebagai perbandingan: magluto (memasak), nagluto (sudah memasak), nagluluto (sedang memasak), magluluto (akan memasak)."
+        }
+      }
+    ],
+    "cloze": [
+      {
+        "sentence": "Bukas, ___ ako ng hapunan.",
+        "answer": "magluluto",
+        "wrong": [
+          "nagluto",
+          "nagluluto"
+        ],
+        "tr": {
+          "ar": "غدًا سأطبخ العشاء.",
+          "en": "Tomorrow I will cook dinner.",
+          "id": "Besok saya akan memasak makan malam."
+        },
+        "why": {
+          "ar": "«Bukas» تعني غدًا فنحتاج صيغة المستقبل magluluto. nagluto للماضي وnagluluto للجاري.",
+          "en": "Bukas means tomorrow, so we need the future form magluluto. Nagluto is completed and nagluluto is ongoing.",
+          "id": "Bukas berarti besok, jadi kita perlu bentuk futur magluluto. Nagluto sudah selesai dan nagluluto sedang berlangsung."
+        }
+      },
+      {
+        "sentence": "Bukas ng umaga, ___ ako nang maaga.",
+        "answer": "gigising",
+        "wrong": [
+          "gumising",
+          "gumigising"
+        ],
+        "tr": {
+          "ar": "غدًا صباحًا سأستيقظ باكرًا.",
+          "en": "Tomorrow morning I will wake up early.",
+          "id": "Besok pagi saya akan bangun pagi-pagi."
+        },
+        "why": {
+          "ar": "المستقبل من gising هو gigising. gumising وgumigising لا يناسبان كلمة «غدًا».",
+          "en": "The future of gising is gigising. Gumising and gumigising do not fit the word tomorrow.",
+          "id": "Futur dari gising adalah gigising. Gumising dan gumigising tidak cocok dengan kata besok."
+        }
+      }
+    ],
+    "conversation": {
+      "context": {
+        "ar": "وقت الظهر: صديقان يتقابلان.",
+        "en": "Noon: two friends meet.",
+        "id": "Siang hari: dua teman bertemu."
+      },
+      "turns": [
+        {
+          "who": "A",
+          "target": "Kumain ka na ba?",
+          "tr": {
+            "ar": "هل أكلت؟",
+            "en": "Have you eaten yet?",
+            "id": "Sudah makan?"
+          }
+        },
+        {
+          "who": "B",
+          "target": "Oo, kumain na ako. Ikaw?",
+          "tr": {
+            "ar": "نعم، لقد أكلت. وأنت؟",
+            "en": "Yes, I have eaten. And you?",
+            "id": "Ya, saya sudah makan. Kamu?"
+          }
+        },
+        {
+          "who": "A",
+          "target": "Hindi pa. Kakain ako mamaya.",
+          "tr": {
+            "ar": "ليس بعد. سآكل لاحقًا.",
+            "en": "Not yet. I will eat later.",
+            "id": "Belum. Saya akan makan nanti."
+          }
+        }
+      ],
+      "gap": 1,
+      "wrong": [
+        "Taga-Maynila ako.",
+        "Magkano po ito?"
+      ],
+      "why": {
+        "ar": "السؤال هو «هل أكلت؟» والجواب الطبيعي: نعم، لقد أكلت، ثم يسأل بالمثل. الردان الآخران لا يجيبان عن السؤال.",
+        "en": "The question is Have you eaten? and the natural answer is yes, I have eaten, then asking back. The other two replies do not answer it.",
+        "id": "Pertanyaannya Sudah makan? dan jawaban wajar adalah ya, saya sudah makan, lalu bertanya balik. Dua jawaban lain tidak menjawabnya."
+      }
+    },
+    "summary": {
+      "ar": "تعلمت أشكال الفعل الأربعة: الأصل والمنتهي والجاري والمستقبل (kumain, kumakain, kakain). جرّب أن تقول ثلاث جمل عن يومك مع kumakain وmagluluto وgumigising.",
+      "en": "You learned the four forms of the verb: base, completed, ongoing and future (kumain, kumakain, kakain). Try three sentences about your day with kumakain, magluluto and gumigising.",
+      "id": "Kamu belajar empat bentuk kata kerja: dasar, selesai, sedang, dan akan (kumain, kumakain, kakain). Cobalah tiga kalimat tentang harimu dengan kumakain, magluluto, dan gumigising."
+    }
+  },
+  {
+    "id": "tl-13",
+    "track": "tl",
+    "level": "elementary",
+    "order": 13,
+    "topic": "hobbies-sports",
+    "icon": "⚽",
+    "title": {
+      "ar": "الهوايات والرياضة",
+      "en": "Hobbies and Sports",
+      "id": "Hobi dan Olahraga"
+    },
+    "description": {
+      "ar": "تحدّث عمّا تحب وما تجيد فعله باستخدام mahilig وmarunong.",
+      "en": "Talk about what you like doing and what you can do with mahilig and marunong.",
+      "id": "Bicarakan apa yang kamu sukai dan bisa lakukan dengan mahilig dan marunong."
+    },
+    "objectives": [
+      {
+        "ar": "أستطيع أن أسأل عن الهوايات: Ano ang libangan mo؟",
+        "en": "I can ask about hobbies: Ano ang libangan mo?",
+        "id": "Saya bisa menanyakan hobi: Ano ang libangan mo?"
+      },
+      {
+        "ar": "أستطيع قول ما أحبه باستخدام mahilig.",
+        "en": "I can say what I love doing with mahilig.",
+        "id": "Saya bisa menyatakan apa yang saya gemari dengan mahilig."
+      },
+      {
+        "ar": "أستطيع قول ما أجيده باستخدام marunong.",
+        "en": "I can say what I am good at or know how to do with marunong.",
+        "id": "Saya bisa menyatakan apa yang saya kuasai dengan marunong."
+      }
+    ],
+    "intro": {
+      "ar": "الفلبينيون يحبون الغناء واللعب والاجتماع. لنتعلم كيف نقول «أحب أن...» و«أعرف كيف...». بعد الكلمتين mahilig وmarunong يأتي الفعل في صيغته الأصلية: mahilig magluto، marunong tumugtog.",
+      "en": "Filipinos love singing, playing and getting together. Let us learn to say I love to... and I know how to... After mahilig and marunong the verb stays in its base form: mahilig magluto, marunong tumugtog.",
+      "id": "Orang Filipina suka bernyanyi, bermain, dan berkumpul. Mari belajar mengatakan Saya suka... dan Saya bisa... Setelah mahilig dan marunong kata kerja tetap dalam bentuk dasar: mahilig magluto, marunong tumugtog."
+    },
+    "culture": {
+      "ar": "كرة السلة (basketball) هي الرياضة الأشهر في الفلبين، وتجد ملاعبها في كل حي تقريبًا. والغناء بالكاريوكي (videoke) هواية عائلية شائعة في الحفلات والأعياد.",
+      "en": "Basketball is the most popular sport in the Philippines, and you find a court in almost every neighbourhood. Singing on the videoke is a common family pastime at parties and fiestas.",
+      "id": "Bola basket adalah olahraga paling populer di Filipina, dan hampir setiap lingkungan punya lapangan. Bernyanyi dengan videoke adalah hobi keluarga yang umum di pesta dan fiesta."
+    },
+    "grammar": {
+      "title": {
+        "ar": "mahilig وmarunong + الفعل الأصلي",
+        "en": "Mahilig and marunong + the base verb",
+        "id": "Mahilig dan marunong + kata kerja dasar"
+      },
+      "body": {
+        "ar": "mahilig تعني «مولع/يحب كثيرًا» وmarunong تعني «يعرف كيف/يجيد». بعدهما يأتي الفعل الأصلي من دون تغيير: Mahilig akong magluto. ويأتي الضمير بعد الصفة ويحمل ng صغيرة تربطه بالفعل: akong وsiyang وkang وkaming. وفي السؤال: Marunong ka bang maglaro ng chess؟ (هل تجيد لعب الشطرنج؟).",
+        "en": "Mahilig means fond of and marunong means knows how to. After them comes the base verb with no change: Mahilig akong magluto. The pronoun comes after the adjective and carries a small -ng that joins it to the verb: akong, siyang, kang, kaming. In a question: Marunong ka bang maglaro ng chess? (Do you know how to play chess?)",
+        "id": "Mahilig berarti gemar dan marunong berarti bisa. Setelah keduanya datang kata kerja dasar tanpa perubahan: Mahilig akong magluto. Kata ganti mengikuti kata sifat dan membawa -ng kecil yang menyambungnya dengan kata kerja: akong, siyang, kang, kaming. Dalam pertanyaan: Marunong ka bang maglaro ng chess? (Apakah kamu bisa main catur?)"
+      }
+    },
+    "items": [
+      {
+        "id": "tl13n1",
+        "target": "Ano ang libangan mo?",
+        "translit": "a-NO ang li-BA-ngan mo",
+        "tr": {
+          "ar": "ما هي هوايتك؟",
+          "en": "What is your hobby?",
+          "id": "Apa hobimu?"
+        },
+        "example": {
+          "target": "Ano po ang libangan ninyo?",
+          "translit": "a-NO po ang li-BA-ngan nin-YO",
+          "tr": {
+            "ar": "ما هي هوايتكم يا سيدي/سيدتي؟",
+            "en": "What is your hobby, sir or ma'am?",
+            "id": "Apa hobi Bapak atau Ibu?"
+          }
+        },
+        "hint": {
+          "ar": "libangan تعني «هواية». مع الكبار أضف po واستعمل ninyo.",
+          "en": "Libangan means hobby. With older people add po and use ninyo.",
+          "id": "Libangan berarti hobi. Kepada orang yang lebih tua tambahkan po dan pakai ninyo."
+        }
+      },
+      {
+        "id": "tl13n2",
+        "target": "Mahilig akong magluto.",
+        "translit": "ma-HI-lig a-KONG mag-LU-to",
+        "tr": {
+          "ar": "أحب الطبخ.",
+          "en": "I love to cook.",
+          "id": "Saya suka memasak."
+        },
+        "example": {
+          "target": "Mahilig kaming magluto tuwing Linggo.",
+          "translit": "ma-HI-lig ka-MING mag-LU-to TU-wing LI-ngo",
+          "tr": {
+            "ar": "نحب الطبخ كل أحد.",
+            "en": "We love to cook every Sunday.",
+            "id": "Kami suka memasak setiap hari Minggu."
+          }
+        },
+        "hint": {
+          "ar": "الفعل بعد mahilig يبقى أصليًا: magluto. والضمير kami يصبح kaming.",
+          "en": "The verb after mahilig stays in the base form: magluto. The pronoun kami becomes kaming.",
+          "id": "Kata kerja setelah mahilig tetap dasar: magluto. Kata ganti kami menjadi kaming."
+        }
+      },
+      {
+        "id": "tl13n3",
+        "target": "Marunong akong tumugtog ng gitara.",
+        "translit": "ma-ru-NONG a-KONG tu-MUG-tog nang gi-TA-ra",
+        "tr": {
+          "ar": "أجيد العزف على الغيتار.",
+          "en": "I know how to play the guitar.",
+          "id": "Saya bisa bermain gitar."
+        },
+        "example": {
+          "target": "Marunong siyang tumugtog ng piano.",
+          "translit": "ma-ru-NONG si-YANG tu-MUG-tog nang pi-YA-no",
+          "tr": {
+            "ar": "هو يجيد العزف على البيانو.",
+            "en": "He knows how to play the piano.",
+            "id": "Dia bisa bermain piano."
+          }
+        },
+        "hint": {
+          "ar": "للآلة الموسيقية نقول tumugtog (يعزف) وليس maglaro.",
+          "en": "For a musical instrument we say tumugtog (to play music), not maglaro.",
+          "id": "Untuk alat musik kita pakai tumugtog (memainkan musik), bukan maglaro."
+        }
+      },
+      {
+        "id": "tl13n4",
+        "target": "Marunong ka bang maglaro ng basketball?",
+        "translit": "ma-ru-NONG ka bang mag-LA-ro nang BAS-ket-bol",
+        "tr": {
+          "ar": "هل تجيد لعب كرة السلة؟",
+          "en": "Do you know how to play basketball?",
+          "id": "Apakah kamu bisa main bola basket?"
+        },
+        "example": {
+          "target": "Marunong ka bang maglaro ng chess?",
+          "translit": "ma-ru-NONG ka bang mag-LA-ro nang ches",
+          "tr": {
+            "ar": "هل تجيد لعب الشطرنج؟",
+            "en": "Do you know how to play chess?",
+            "id": "Apakah kamu bisa main catur?"
+          }
+        },
+        "hint": {
+          "ar": "ba كلمة السؤال، وتتصل بالضمير ka فتصبح «ka bang». للألعاب والرياضة نقول maglaro.",
+          "en": "Ba marks a yes or no question and joins the pronoun: ka bang. For games and sports we use maglaro.",
+          "id": "Ba menandai pertanyaan ya atau tidak dan terhubung dengan kata ganti: ka bang. Untuk permainan dan olahraga kita pakai maglaro."
+        }
+      },
+      {
+        "id": "tl13n5",
+        "target": "Mahilig siyang magbasa ng libro.",
+        "translit": "ma-HI-lig si-YANG mag-ba-SA nang LI-bro",
+        "tr": {
+          "ar": "هو يحب قراءة الكتب.",
+          "en": "He loves reading books.",
+          "id": "Dia suka membaca buku."
+        },
+        "example": {
+          "target": "Mahilig ka bang magbasa?",
+          "translit": "ma-HI-lig ka bang mag-ba-SA",
+          "tr": {
+            "ar": "هل تحب القراءة؟",
+            "en": "Do you love reading?",
+            "id": "Apakah kamu suka membaca?"
+          }
+        },
+        "hint": {
+          "ar": "siya تعني «هو/هي» ولا تفرّق بين المذكر والمؤنث في التاغالوغية.",
+          "en": "Siya means he or she. Tagalog does not tell masculine from feminine in pronouns.",
+          "id": "Siya berarti dia, laki-laki atau perempuan. Tagalog tidak membedakan keduanya pada kata ganti."
+        }
+      },
+      {
+        "id": "tl13n6",
+        "target": "Kumakanta kami sa videoke tuwing Sabado.",
+        "translit": "ku-ma-KAN-ta ka-MI sa vi-de-O-ke TU-wing sa-BA-do",
+        "tr": {
+          "ar": "نغني الكاريوكي كل سبت.",
+          "en": "We sing on the videoke every Saturday.",
+          "id": "Kami bernyanyi karaoke setiap hari Sabtu."
+        },
+        "example": {
+          "target": "Kumakanta ako sa shower.",
+          "translit": "ku-ma-KAN-ta a-KO sa SHA-wer",
+          "tr": {
+            "ar": "أغني في الحمام.",
+            "en": "I sing in the shower.",
+            "id": "Saya bernyanyi di kamar mandi."
+          }
+        },
+        "hint": {
+          "ar": "الجاري من kanta (غنّى) هو kumakanta وتدل هنا على العادة. videoke هو الكاريوكي بالفلبينية.",
+          "en": "The ongoing form of kanta (sing) is kumakanta, and here it shows a habit. Videoke is the Filipino word for karaoke.",
+          "id": "Bentuk sedang dari kanta (menyanyi) adalah kumakanta dan di sini menunjukkan kebiasaan. Videoke adalah sebutan karaoke di Filipina."
+        }
+      }
+    ],
+    "cloze": [
+      {
+        "sentence": "Mahilig siyang ___ ng libro.",
+        "answer": "magbasa",
+        "wrong": [
+          "magluto",
+          "kumain"
+        ],
+        "tr": {
+          "ar": "هو يحب قراءة الكتب.",
+          "en": "He loves reading books.",
+          "id": "Dia suka membaca buku."
+        },
+        "why": {
+          "ar": "نقرأ الكتب بـ magbasa. magluto للطبخ وkumain للأكل.",
+          "en": "We read books with magbasa. Magluto is for cooking and kumain is for eating.",
+          "id": "Buku dibaca dengan magbasa. Magluto untuk memasak dan kumain untuk makan."
+        }
+      },
+      {
+        "sentence": "Marunong siyang ___ ng gitara.",
+        "answer": "tumugtog",
+        "wrong": [
+          "magluto",
+          "kumain"
+        ],
+        "tr": {
+          "ar": "هو يعرف العزف على الغيتار.",
+          "en": "He knows how to play the guitar.",
+          "id": "Dia bisa bermain gitar."
+        },
+        "why": {
+          "ar": "نعزف على الغيتار بـ tumugtog. magluto وkumain لا يناسبان الغيتار.",
+          "en": "We play the guitar with tumugtog. Magluto and kumain do not fit a guitar.",
+          "id": "Gitar dimainkan dengan tumugtog. Magluto dan kumain tidak cocok dengan gitar."
+        }
+      }
+    ],
+    "conversation": {
+      "context": {
+        "ar": "في استراحة العمل: زميلان يتعارفان أكثر.",
+        "en": "On a work break: two colleagues get to know each other.",
+        "id": "Saat istirahat kerja: dua rekan saling mengenal."
+      },
+      "turns": [
+        {
+          "who": "A",
+          "target": "Ano ang libangan mo?",
+          "tr": {
+            "ar": "ما هي هوايتك؟",
+            "en": "What is your hobby?",
+            "id": "Apa hobimu?"
+          }
+        },
+        {
+          "who": "B",
+          "target": "Mahilig akong magluto. Ikaw?",
+          "tr": {
+            "ar": "أحب الطبخ. وأنت؟",
+            "en": "I love to cook. And you?",
+            "id": "Saya suka memasak. Kamu?"
+          }
+        },
+        {
+          "who": "A",
+          "target": "Mahilig akong maglaro ng basketball.",
+          "tr": {
+            "ar": "أحب لعب كرة السلة.",
+            "en": "I love to play basketball.",
+            "id": "Saya suka main bola basket."
+          }
+        }
+      ],
+      "gap": 1,
+      "wrong": [
+        "Taga-Cebu ako.",
+        "Kumain na ako."
+      ],
+      "why": {
+        "ar": "سُئل عن هوايته فيذكر هواية ثم يسأل بالمثل. «أنا من سيبو» و«لقد أكلت» لا تذكران هواية.",
+        "en": "He was asked about his hobby, so he names one and asks back. I am from Cebu and I have eaten do not name a hobby.",
+        "id": "Ia ditanya tentang hobi, jadi ia menyebut satu hobi dan bertanya balik. Saya dari Cebu dan Saya sudah makan bukan hobi."
+      }
+    },
+    "summary": {
+      "ar": "تعلمت أن تقول ما تحبه وما تجيده باستخدام mahilig وmarunong مع الفعل الأصلي. اكتب جملتين: واحدة بـ mahilig وواحدة بـ marunong.",
+      "en": "You learned to say what you love and what you can do with mahilig and marunong plus the base verb. Write two sentences: one with mahilig and one with marunong.",
+      "id": "Kamu belajar menyatakan apa yang kamu sukai dan bisa dengan mahilig dan marunong plus kata kerja dasar. Tulislah dua kalimat: satu dengan mahilig dan satu dengan marunong."
+    }
+  },
+  {
+    "id": "tl-14",
+    "track": "tl",
+    "level": "elementary",
+    "order": 14,
+    "topic": "meals-quantities",
+    "icon": "🍚",
+    "title": {
+      "ar": "الوجبات والكميات",
+      "en": "Meals and Quantities",
+      "id": "Makanan dan Jumlah"
+    },
+    "description": {
+      "ar": "تعلّم الأدوات ang وng وsa وكلمة mga للجمع عند الحديث عن الطعام.",
+      "en": "Learn the markers ang, ng and sa, and mga for plurals, while talking about food.",
+      "id": "Pelajari penanda ang, ng, dan sa, serta mga untuk jamak, sambil membicarakan makanan."
+    },
+    "objectives": [
+      {
+        "ar": "أستطيع التمييز بين ang وng وsa في جملة بسيطة.",
+        "en": "I can tell ang, ng and sa apart in a simple sentence.",
+        "id": "Saya bisa membedakan ang, ng, dan sa dalam kalimat sederhana."
+      },
+      {
+        "ar": "أستطيع استخدام mga لجمع الأسماء.",
+        "en": "I can use mga to make a plural.",
+        "id": "Saya bisa memakai mga untuk bentuk jamak."
+      },
+      {
+        "ar": "أستطيع طلب كمية من الطعام بأدب.",
+        "en": "I can ask politely for a quantity of food.",
+        "id": "Saya bisa meminta jumlah makanan dengan sopan."
+      }
+    ],
+    "intro": {
+      "ar": "في التاغالوغية لا نضع «ال» بل أداة صغيرة قبل الاسم تبيّن دوره في الجملة. هذه الأدوات هي أهم ما سيجعل جملك صحيحة. سنتدرب عليها بالكلام عن الأكل.",
+      "en": "Tagalog has no word for the or a. Instead a small marker before the noun shows its role in the sentence. These markers make your sentences correct, so we practise them with food.",
+      "id": "Bahasa Tagalog tidak punya kata seperti si atau itu. Sebagai gantinya, penanda kecil sebelum kata benda menunjukkan perannya dalam kalimat. Penanda ini membuat kalimatmu benar, jadi kita latih lewat topik makanan."
+    },
+    "culture": {
+      "ar": "الأرز (kanin) أساس كل وجبة فلبينية، وما يُؤكل معه يسمى ulam (طبق جانبي أو رئيسي مثل الأدوبو أو السينيغانغ). وكثيرون يأكلون بالملعقة والشوكة.",
+      "en": "Rice (kanin) is the base of every Filipino meal, and what you eat with it is called ulam (such as adobo or sinigang). Many people eat with a spoon and fork.",
+      "id": "Nasi (kanin) adalah dasar setiap hidangan Filipina, dan lauknya disebut ulam (misalnya adobo atau sinigang). Banyak orang makan dengan sendok dan garpu."
+    },
+    "grammar": {
+      "title": {
+        "ar": "ang وng وsa وmga",
+        "en": "Ang, ng, sa and mga",
+        "id": "Ang, ng, sa, dan mga"
+      },
+      "body": {
+        "ar": "ang تدل على الشيء المعروف أو موضوع الجملة: Masarap ang adobo. وng (تُنطق nang) تدل على المفعول أو المُلكية: Kumakain ako ng kanin. وsa تدل على المكان والاتجاه: Pupunta ako sa palengke. وmga قبل الاسم تفيد الجمع: ang mga prutas. وللكمية نربط الرقم أو الكلمة بالاسم: isang baso، kaunting kanin، maraming gulay.",
+        "en": "Ang points to the known thing, the topic: Masarap ang adobo. Ng (said nang) marks the object or the owner: Kumakain ako ng kanin. Sa marks place and direction: Pupunta ako sa palengke. Mga before a noun makes it plural: ang mga prutas. For quantities, join the number or word to the noun: isang baso, kaunting kanin, maraming gulay.",
+        "id": "Ang menunjuk benda yang dikenal, topik kalimat: Masarap ang adobo. Ng (dibaca nang) menandai objek atau pemilik: Kumakain ako ng kanin. Sa menandai tempat dan arah: Pupunta ako sa palengke. Mga sebelum kata benda membuatnya jamak: ang mga prutas. Untuk jumlah, sambungkan angka atau kata dengan kata benda: isang baso, kaunting kanin, maraming gulay."
+      }
+    },
+    "items": [
+      {
+        "id": "tl14n1",
+        "target": "Ano ang ulam natin?",
+        "translit": "a-NO ang u-LAM na-TIN",
+        "tr": {
+          "ar": "ما هو الطبق اليوم؟",
+          "en": "What are we having with the rice?",
+          "id": "Apa lauk kita?"
+        },
+        "example": {
+          "target": "Ano ang ulam natin ngayon?",
+          "translit": "a-NO ang u-LAM na-TIN nga-YON",
+          "tr": {
+            "ar": "ما الطبق عندنا اليوم؟",
+            "en": "What is our ulam today?",
+            "id": "Apa lauk kita hari ini?"
+          }
+        },
+        "hint": {
+          "ar": "natin تعني «نحن» مع المخاطب. وulam هو ما يؤكل مع الأرز.",
+          "en": "Natin means our, including the listener. Ulam is what you eat with the rice.",
+          "id": "Natin berarti milik kita, termasuk lawan bicara. Ulam adalah lauk yang dimakan dengan nasi."
+        }
+      },
+      {
+        "id": "tl14n2",
+        "target": "Kumakain ako ng kanin.",
+        "translit": "ku-ma-KA-in a-KO nang ka-NIN",
+        "tr": {
+          "ar": "أنا آكل الأرز.",
+          "en": "I am eating rice.",
+          "id": "Saya sedang makan nasi."
+        },
+        "example": {
+          "target": "Kumakain siya ng isda.",
+          "translit": "ku-ma-KA-in si-YA nang is-DA",
+          "tr": {
+            "ar": "هو يأكل السمك.",
+            "en": "He is eating fish.",
+            "id": "Dia sedang makan ikan."
+          }
+        },
+        "hint": {
+          "ar": "بعد فعل الأكل نضع ng قبل ما يُؤكل. ng تُنطق nang.",
+          "en": "After the verb of eating we put ng before the food. Ng is pronounced nang.",
+          "id": "Setelah kata kerja makan kita menaruh ng sebelum makanan. Ng dibaca nang."
+        }
+      },
+      {
+        "id": "tl14n3",
+        "target": "Masarap ang adobo.",
+        "translit": "ma-SA-rap ang a-DO-bo",
+        "tr": {
+          "ar": "الأدوبو لذيذ.",
+          "en": "The adobo is delicious.",
+          "id": "Adobonya enak."
+        },
+        "example": {
+          "target": "Masarap ang sinigang.",
+          "translit": "ma-SA-rap ang si-ni-GANG",
+          "tr": {
+            "ar": "السينيغانغ لذيذ.",
+            "en": "The sinigang is delicious.",
+            "id": "Sinigangnya enak."
+          }
+        },
+        "hint": {
+          "ar": "الصفة تأتي أولًا ثم ang والاسم. وsinigang حساء حامض شهير.",
+          "en": "The adjective comes first, then ang and the noun. Sinigang is a popular sour soup.",
+          "id": "Kata sifat didahulukan, lalu ang dan kata benda. Sinigang adalah sup asam yang populer."
+        }
+      },
+      {
+        "id": "tl14n4",
+        "target": "Bibili ako ng mga prutas sa palengke.",
+        "translit": "bi-BI-li a-KO nang ma-NGA PRU-tas sa pa-LENG-ke",
+        "tr": {
+          "ar": "سأشتري فاكهة من السوق.",
+          "en": "I will buy some fruit at the market.",
+          "id": "Saya akan membeli buah di pasar."
+        },
+        "example": {
+          "target": "Gusto ko ng mga mangga.",
+          "translit": "gus-TO ko nang ma-NGA mang-GA",
+          "tr": {
+            "ar": "أريد بعض المانجو.",
+            "en": "I want some mangoes.",
+            "id": "Saya mau beberapa mangga."
+          }
+        },
+        "hint": {
+          "ar": "mga تُنطق «manga» وتأتي قبل الاسم للجمع.",
+          "en": "Mga is pronounced manga and goes before the noun for the plural.",
+          "id": "Mga dibaca manga dan diletakkan sebelum kata benda untuk jamak."
+        }
+      },
+      {
+        "id": "tl14n5",
+        "target": "Isang baso ng tubig po.",
+        "translit": "i-SANG BA-so nang tu-BIG po",
+        "tr": {
+          "ar": "كأس ماء من فضلك.",
+          "en": "A glass of water, please.",
+          "id": "Satu gelas air, ya."
+        },
+        "example": {
+          "target": "Dalawang baso ng tubig po.",
+          "translit": "da-la-WANG BA-so nang tu-BIG po",
+          "tr": {
+            "ar": "كأسان من الماء من فضلك.",
+            "en": "Two glasses of water, please.",
+            "id": "Dua gelas air, ya."
+          }
+        },
+        "hint": {
+          "ar": "isa تصبح isang قبل الاسم: الرقم يرتبط بالاسم بحرف ng صغير. ونضيف po للأدب.",
+          "en": "Isa becomes isang before a noun: the number joins the noun with a small -ng. Add po to be polite.",
+          "id": "Isa menjadi isang sebelum kata benda: angka terhubung dengan kata benda lewat -ng kecil. Tambahkan po agar sopan."
+        }
+      },
+      {
+        "id": "tl14n6",
+        "target": "Kaunting kanin lang po.",
+        "translit": "ka-UN-ting ka-NIN lang po",
+        "tr": {
+          "ar": "القليل من الأرز فقط من فضلك.",
+          "en": "Just a little rice, please.",
+          "id": "Sedikit nasi saja, ya."
+        },
+        "example": {
+          "target": "Maraming gulay at kaunting karne.",
+          "translit": "ma-RA-ming gu-LAY at ka-UN-ting KAR-ne",
+          "tr": {
+            "ar": "الكثير من الخضار والقليل من اللحم.",
+            "en": "A lot of vegetables and a little meat.",
+            "id": "Banyak sayur dan sedikit daging."
+          }
+        },
+        "hint": {
+          "ar": "lang تعني «فقط». وكلمتا kaunti (قليل) وmarami (كثير) تأخذان ng قبل الاسم.",
+          "en": "Lang means only. Kaunti (a little) and marami (a lot) take -ng before the noun.",
+          "id": "Lang berarti saja. Kaunti (sedikit) dan marami (banyak) mendapat -ng sebelum kata benda."
+        }
+      }
+    ],
+    "cloze": [
+      {
+        "sentence": "Kumakain ako ___ kanin.",
+        "answer": "ng",
+        "wrong": [
+          "ang",
+          "sa"
+        ],
+        "tr": {
+          "ar": "أنا آكل الأرز.",
+          "en": "I am eating rice.",
+          "id": "Saya sedang makan nasi."
+        },
+        "why": {
+          "ar": "ما يُؤكل (المفعول) يسبقه ng. ang وsa لا تصلحان بعد kumakain ako.",
+          "en": "The thing eaten (the object) takes ng. Ang and sa do not fit after kumakain ako.",
+          "id": "Yang dimakan (objek) memakai ng. Ang dan sa tidak cocok setelah kumakain ako."
+        }
+      },
+      {
+        "sentence": "Masarap ___ mga prutas dito.",
+        "answer": "ang",
+        "wrong": [
+          "ng",
+          "sa"
+        ],
+        "tr": {
+          "ar": "الفاكهة هنا لذيذة.",
+          "en": "The fruit here is delicious.",
+          "id": "Buah di sini enak."
+        },
+        "why": {
+          "ar": "الموضوع المعروف بعد الصفة يأخذ ang: masarap ang mga prutas.",
+          "en": "The known topic after the adjective takes ang: masarap ang mga prutas.",
+          "id": "Topik yang dikenal setelah kata sifat memakai ang: masarap ang mga prutas."
+        }
+      }
+    ],
+    "conversation": {
+      "context": {
+        "ar": "في البيت: ابن يسأل أمه عن الغداء.",
+        "en": "At home: a son asks his mother about lunch.",
+        "id": "Di rumah: seorang anak bertanya kepada ibunya tentang makan siang."
+      },
+      "turns": [
+        {
+          "who": "A",
+          "target": "Nay, ano po ang ulam natin ngayon?",
+          "tr": {
+            "ar": "ماما، ما الطبق اليوم؟",
+            "en": "Mom, what are we having today?",
+            "id": "Bu, apa lauk kita hari ini?"
+          }
+        },
+        {
+          "who": "B",
+          "target": "Adobo at gulay.",
+          "tr": {
+            "ar": "أدوبو وخضار.",
+            "en": "Adobo and vegetables.",
+            "id": "Adobo dan sayur."
+          }
+        },
+        {
+          "who": "A",
+          "target": "Sige po. Gusto ko ng maraming kanin!",
+          "tr": {
+            "ar": "حسنًا. أريد الكثير من الأرز!",
+            "en": "Okay. I want a lot of rice!",
+            "id": "Baiklah. Saya mau banyak nasi!"
+          }
+        }
+      ],
+      "gap": 1,
+      "wrong": [
+        "Pupunta ako sa mall.",
+        "Mahilig akong magluto."
+      ],
+      "why": {
+        "ar": "الابن سأل عن الطبق، فتجيب الأم باسم الطبق. الردان الآخران لا يذكران الطعام.",
+        "en": "The son asked about the dish, so his mother answers with the dish. The other two replies do not mention food.",
+        "id": "Anak bertanya tentang lauk, jadi ibunya menjawab dengan nama lauk. Dua jawaban lain tidak menyebut makanan."
+      }
+    },
+    "summary": {
+      "ar": "تعلمت أن ang للموضوع وng للمفعول وsa للمكان، وأن mga تجمع الاسم. اكتب جملتين عن طعامك المفضل باستخدام ng وang.",
+      "en": "You learned that ang marks the topic, ng the object and sa the place, and that mga makes a plural. Write two sentences about your favourite food using ng and ang.",
+      "id": "Kamu belajar bahwa ang menandai topik, ng objek, dan sa tempat, serta mga membuat jamak. Tulislah dua kalimat tentang makanan favoritmu dengan ng dan ang."
+    }
+  },
+  {
+    "id": "tl-15",
+    "track": "tl",
+    "level": "elementary",
+    "order": 15,
+    "topic": "clothes-colours",
+    "icon": "👕",
+    "title": {
+      "ar": "الملابس والألوان",
+      "en": "Clothes and Colours",
+      "id": "Pakaian dan Warna"
+    },
+    "description": {
+      "ar": "صف الملابس بالألوان والصفات مع أداة الربط na وحرف -ng.",
+      "en": "Describe clothes with colours and adjectives using the linker na or -ng.",
+      "id": "Deskripsikan pakaian dengan warna dan kata sifat memakai penghubung na atau -ng."
+    },
+    "objectives": [
+      {
+        "ar": "أستطيع تسمية ألوان وملابس أساسية.",
+        "en": "I can name basic colours and clothes.",
+        "id": "Saya bisa menyebut warna dan pakaian dasar."
+      },
+      {
+        "ar": "أستطيع الربط بين الصفة والاسم بـ na أو -ng.",
+        "en": "I can join an adjective and a noun with na or -ng.",
+        "id": "Saya bisa menyambung kata sifat dan kata benda dengan na atau -ng."
+      },
+      {
+        "ar": "أستطيع أن أمدح ثيابًا وأقول إنها كبيرة أو صغيرة جدًا.",
+        "en": "I can compliment clothes and say they are too big or too small.",
+        "id": "Saya bisa memuji pakaian dan mengatakan terlalu besar atau kecil."
+      }
+    ],
+    "intro": {
+      "ar": "في المتجر أو مع الأصدقاء تحتاج إلى وصف ما ترتديه. الصفة في التاغالوغية تأتي قبل الاسم عادةً، وتُربط به بأداة صغيرة: pulang damit (فستان أحمر) وasul na pantalon (بنطلون أزرق).",
+      "en": "At a shop or with friends you need to describe what you wear. A Tagalog adjective usually comes before the noun and is joined to it by a small linker: pulang damit (a red dress), asul na pantalon (blue trousers).",
+      "id": "Di toko atau bersama teman, kamu perlu mendeskripsikan pakaian. Kata sifat Tagalog biasanya di depan kata benda dan disambung dengan penghubung kecil: pulang damit (gaun merah), asul na pantalon (celana biru)."
+    },
+    "culture": {
+      "ar": "الفلبينيون يحبون الألوان الزاهية. في الأعياد والمدارس تُلبس أزياء خاصة، مثل قميص «barong Tagalog» الخفيف المطرز الذي يلبسه الرجال في المناسبات الرسمية.",
+      "en": "Filipinos love bright colours. For festivals and school there are special outfits, such as the light embroidered barong Tagalog shirt that men wear at formal events.",
+      "id": "Orang Filipina menyukai warna cerah. Untuk festival dan sekolah ada busana khusus, misalnya kemeja barong Tagalog bersulam tipis yang dipakai pria pada acara resmi."
+    },
+    "grammar": {
+      "title": {
+        "ar": "أداة الربط na وحرف -ng",
+        "en": "The linker na and -ng",
+        "id": "Penghubung na dan -ng"
+      },
+      "body": {
+        "ar": "نربط الصفة بالاسم دائمًا: إن انتهت الكلمة الأولى بحرف علة نضيف -ng: pula + ng = pulang damit، puti = puting kamiseta، maganda = magandang damit. وإن انتهت بحرف ساكن نكتب na بعدها: asul na pantalon، itim na sapatos. ومثال حرف العلة أيضًا: malaking bahay (بيت كبير). الصفات المشتقة بـ ma- مثل maganda وmalaki وmaliit شائعة جدًا.",
+        "en": "We always join the adjective and the noun: after a word that ends in a vowel we add -ng: pula + ng = pulang damit, puti = puting kamiseta, maganda = magandang damit. After a word that ends in a consonant we write na: asul na pantalon, itim na sapatos. Another vowel example: malaking bahay (a big house). Adjectives made with ma- such as maganda, malaki and maliit are very common.",
+        "id": "Kata sifat dan kata benda selalu disambung: setelah kata berakhir vokal kita tambahkan -ng: pula + ng = pulang damit, puti = puting kamiseta, maganda = magandang damit. Setelah kata berakhir konsonan kita tulis na: asul na pantalon, itim na sapatos. Contoh vokal lain: malaking bahay (rumah besar). Kata sifat dengan ma- seperti maganda, malaki, dan maliit sangat umum."
+      }
+    },
+    "items": [
+      {
+        "id": "tl15n1",
+        "target": "Maganda ang damit mo.",
+        "translit": "ma-GAN-da ang DA-mit mo",
+        "tr": {
+          "ar": "ملابسك جميلة.",
+          "en": "Your clothes are nice.",
+          "id": "Bajumu bagus."
+        },
+        "example": {
+          "target": "Maganda ang sapatos mo.",
+          "translit": "ma-GAN-da ang sa-PA-tos mo",
+          "tr": {
+            "ar": "حذاؤك جميل.",
+            "en": "Your shoes are nice.",
+            "id": "Sepatumu bagus."
+          }
+        },
+        "hint": {
+          "ar": "damit تعني «ثوب أو ملابس». ومدح الملابس يُقال هكذا: maganda ang... + mo.",
+          "en": "Damit means clothes or a dress. To compliment clothes say: maganda ang... + mo.",
+          "id": "Damit berarti pakaian atau gaun. Untuk memuji pakaian katakan: maganda ang... + mo."
+        }
+      },
+      {
+        "id": "tl15n2",
+        "target": "Gusto ko ng pulang damit.",
+        "translit": "gus-TO ko nang pu-LANG DA-mit",
+        "tr": {
+          "ar": "أريد فستانًا أحمر.",
+          "en": "I want a red dress.",
+          "id": "Saya mau gaun merah."
+        },
+        "example": {
+          "target": "Gusto niya ng dilaw na damit.",
+          "translit": "gus-TO ni-YA nang di-LAW na DA-mit",
+          "tr": {
+            "ar": "هي تريد فستانًا أصفر.",
+            "en": "She wants a yellow dress.",
+            "id": "Dia mau gaun kuning."
+          }
+        },
+        "hint": {
+          "ar": "pula تنتهي بحرف علة فنكتب pulang. dilaw تنتهي بساكن فنكتب dilaw na.",
+          "en": "Pula ends in a vowel so we write pulang. Dilaw ends in a consonant so we write dilaw na.",
+          "id": "Pula berakhir vokal sehingga ditulis pulang. Dilaw berakhir konsonan sehingga ditulis dilaw na."
+        }
+      },
+      {
+        "id": "tl15n3",
+        "target": "Bumili ako ng asul na pantalon.",
+        "translit": "bu-MI-li a-KO nang a-SUL na pan-ta-LON",
+        "tr": {
+          "ar": "اشتريت بنطلونًا أزرق.",
+          "en": "I bought blue trousers.",
+          "id": "Saya membeli celana biru."
+        },
+        "example": {
+          "target": "Bibili ako ng itim na pantalon.",
+          "translit": "bi-BI-li a-KO nang i-TIM na pan-ta-LON",
+          "tr": {
+            "ar": "سأشتري بنطلونًا أسود.",
+            "en": "I will buy black trousers.",
+            "id": "Saya akan membeli celana hitam."
+          }
+        },
+        "hint": {
+          "ar": "bumili هو المنتهي من bili (يشتري)، ويُكوَّن بـ um مثل kumain.",
+          "en": "Bumili is the completed form of bili (to buy), made with um like kumain.",
+          "id": "Bumili adalah bentuk selesai dari bili (membeli), dibentuk dengan um seperti kumain."
+        }
+      },
+      {
+        "id": "tl15n4",
+        "target": "Puting kamiseta",
+        "translit": "pu-TING ka-mi-SE-ta",
+        "tr": {
+          "ar": "قميص أبيض",
+          "en": "A white shirt",
+          "id": "Kemeja putih"
+        },
+        "example": {
+          "target": "Gusto ko ng puting kamiseta.",
+          "translit": "gus-TO ko nang pu-TING ka-mi-SE-ta",
+          "tr": {
+            "ar": "أريد قميصًا أبيض.",
+            "en": "I want a white shirt.",
+            "id": "Saya mau kemeja putih."
+          }
+        },
+        "hint": {
+          "ar": "puti تنتهي بحرف علة فتصبح puting. وهناك أيضًا كلمة T-shirt المستعملة كثيرًا.",
+          "en": "Puti ends in a vowel so it becomes puting. The English word T-shirt is also widely used.",
+          "id": "Puti berakhir vokal sehingga menjadi puting. Kata T-shirt dari bahasa Inggris juga sering dipakai."
+        }
+      },
+      {
+        "id": "tl15n5",
+        "target": "Masyadong malaki ito.",
+        "translit": "ma-SYA-dong ma-LA-ki i-TO",
+        "tr": {
+          "ar": "هذا كبير جدًا.",
+          "en": "This is too big.",
+          "id": "Ini terlalu besar."
+        },
+        "example": {
+          "target": "Masyadong maliit po ang sapatos.",
+          "translit": "ma-SYA-dong ma-LI-it po ang sa-PA-tos",
+          "tr": {
+            "ar": "الحذاء صغير جدًا.",
+            "en": "The shoes are too small.",
+            "id": "Sepatunya terlalu kecil."
+          }
+        },
+        "hint": {
+          "ar": "masyado تعني «أكثر من اللازم» وتأخذ -ng قبل الصفة. maliit تعني «صغير».",
+          "en": "Masyado means too much and takes -ng before the adjective. Maliit means small.",
+          "id": "Masyado berarti terlalu dan mendapat -ng sebelum kata sifat. Maliit berarti kecil."
+        }
+      },
+      {
+        "id": "tl15n6",
+        "target": "Ano ang kulay ng sapatos mo?",
+        "translit": "a-NO ang ku-LAY nang sa-PA-tos mo",
+        "tr": {
+          "ar": "ما لون حذائك؟",
+          "en": "What colour are your shoes?",
+          "id": "Apa warna sepatumu?"
+        },
+        "example": {
+          "target": "Itim ang sapatos ko.",
+          "translit": "i-TIM ang sa-PA-tos ko",
+          "tr": {
+            "ar": "حذائي أسود.",
+            "en": "My shoes are black.",
+            "id": "Sepatuku hitam."
+          }
+        },
+        "hint": {
+          "ar": "kulay تعني «لون». ونجيب باللون أولًا: Itim ang... (حذائي أسود).",
+          "en": "Kulay means colour. The answer puts the colour first: Itim ang... (my shoes are black).",
+          "id": "Kulay berarti warna. Jawaban menaruh warna dulu: Itim ang... (sepatuku hitam)."
+        }
+      }
+    ],
+    "cloze": [
+      {
+        "sentence": "Gusto ko ng ___ damit.",
+        "answer": "pulang",
+        "wrong": [
+          "pula",
+          "pula na"
+        ],
+        "tr": {
+          "ar": "أريد فستانًا أحمر.",
+          "en": "I want a red dress.",
+          "id": "Saya mau gaun merah."
+        },
+        "why": {
+          "ar": "pula تنتهي بحرف علة، لذلك نضيف -ng مباشرة: pulang. أما pula وحدها أو pula na فلا تربطان صحيحًا.",
+          "en": "Pula ends in a vowel, so we add -ng directly: pulang. Pula alone or pula na does not link correctly.",
+          "id": "Pula berakhir vokal, jadi kita tambahkan -ng langsung: pulang. Pula sendiri atau pula na tidak menyambung dengan benar."
+        }
+      },
+      {
+        "sentence": "Bibili siya ng ___ pantalon.",
+        "answer": "itim na",
+        "wrong": [
+          "itimng",
+          "itim ang"
+        ],
+        "tr": {
+          "ar": "سيشتري بنطلونًا أسود.",
+          "en": "He will buy black trousers.",
+          "id": "Dia akan membeli celana hitam."
+        },
+        "why": {
+          "ar": "itim تنتهي بحرف ساكن، لذلك نكتب na بعدها: itim na pantalon.",
+          "en": "Itim ends in a consonant, so we write na after it: itim na pantalon.",
+          "id": "Itim berakhir konsonan, jadi kita tulis na setelahnya: itim na pantalon."
+        }
+      }
+    ],
+    "conversation": {
+      "context": {
+        "ar": "في حفلة: صديقة تمدح ثوب أخرى.",
+        "en": "At a party: a friend compliments another friend's dress.",
+        "id": "Di sebuah pesta: seorang teman memuji gaun temannya."
+      },
+      "turns": [
+        {
+          "who": "A",
+          "target": "Ang ganda ng pulang damit mo!",
+          "tr": {
+            "ar": "ما أجمل فستانك الأحمر!",
+            "en": "What a beautiful red dress you have!",
+            "id": "Betapa cantiknya gaun merahmu!"
+          }
+        },
+        {
+          "who": "B",
+          "target": "Salamat! Regalo ito ng nanay ko.",
+          "tr": {
+            "ar": "شكرًا! إنه هدية من أمي.",
+            "en": "Thank you! It is a gift from my mother.",
+            "id": "Terima kasih! Ini hadiah dari ibu saya."
+          }
+        },
+        {
+          "who": "A",
+          "target": "Bagay sa iyo!",
+          "tr": {
+            "ar": "يناسبك كثيرًا!",
+            "en": "It suits you!",
+            "id": "Cocok untukmu!"
+          }
+        }
+      ],
+      "gap": 1,
+      "wrong": [
+        "Opo, kumain na po ako.",
+        "Pupunta ako sa Sabado."
+      ],
+      "why": {
+        "ar": "المديح يُرد عليه بالشكر ثم بجملة تخص الثوب. الردان الآخران لا علاقة لهما بالمديح.",
+        "en": "A compliment is answered with thanks and a remark about the dress. The other two replies have nothing to do with the compliment.",
+        "id": "Pujian dibalas dengan terima kasih dan komentar tentang gaun. Dua jawaban lain tidak berkaitan dengan pujian."
+      }
+    },
+    "summary": {
+      "ar": "تعلمت أن تربط الصفة بالاسم بـ -ng بعد حرف العلة وبـ na بعد الحرف الساكن. صف بجملتين ما ترتديه اليوم.",
+      "en": "You learned to join adjective and noun with -ng after a vowel and na after a consonant. Describe what you are wearing today in two sentences.",
+      "id": "Kamu belajar menyambung kata sifat dan kata benda dengan -ng setelah vokal dan na setelah konsonan. Deskripsikan pakaian yang kamu pakai hari ini dalam dua kalimat."
+    }
+  },
+  {
+    "id": "tl-16",
+    "track": "tl",
+    "level": "elementary",
+    "order": 16,
+    "topic": "home-rooms",
+    "icon": "🏠",
+    "title": {
+      "ar": "بيتي",
+      "en": "My Home",
+      "id": "Rumahku"
+    },
+    "description": {
+      "ar": "صف بيتك وغرفه باستخدام may وmayroon وwala وnasa.",
+      "en": "Describe your home and its rooms with may, mayroon, wala and nasa.",
+      "id": "Deskripsikan rumah dan ruangannya dengan may, mayroon, wala, dan nasa."
+    },
+    "objectives": [
+      {
+        "ar": "أستطيع قول ما يوجد في البيت وما لا يوجد.",
+        "en": "I can say what there is and is not in a house.",
+        "id": "Saya bisa menyatakan apa yang ada dan tidak ada di rumah."
+      },
+      {
+        "ar": "أستطيع أن أسأل وأجيب عن مكان الشيء باستخدام nasa.",
+        "en": "I can ask and say where something is with nasa.",
+        "id": "Saya bisa menanyakan dan menyatakan letak sesuatu dengan nasa."
+      },
+      {
+        "ar": "أستطيع تسمية غرف وأثاث أساسي.",
+        "en": "I can name basic rooms and furniture.",
+        "id": "Saya bisa menyebut ruangan dan perabot dasar."
+      }
+    ],
+    "intro": {
+      "ar": "عندما تزور بيت صديق أو تؤجر غرفة تحتاج إلى كلمات البيت. وفي التاغالوغية نستعمل ثلاث كلمات صغيرة مهمة: may (يوجد)، wala (لا يوجد)، وnasa (يقع في).",
+      "en": "When you visit a friend or rent a room you need words for the home. Tagalog uses three small, important words: may (there is), wala (there is none) and nasa (is located at).",
+      "id": "Saat berkunjung ke rumah teman atau menyewa kamar, kamu butuh kosakata rumah. Tagalog memakai tiga kata kecil yang penting: may (ada), wala (tidak ada), dan nasa (berada di)."
+    },
+    "culture": {
+      "ar": "كثير من البيوت الفلبينية صغيرة ويعيش فيها عدة أجيال معًا. وعند دخول البيت يخلع الناس أحذيتهم غالبًا، ويُرحَّب بالضيف بكلمة «Pasok po!» (تفضل بالدخول).",
+      "en": "Many Filipino homes are small and several generations live together. People often take off their shoes at the door, and a guest is welcomed with Pasok po! (please come in).",
+      "id": "Banyak rumah Filipina kecil dan dihuni beberapa generasi. Orang sering melepas sepatu di pintu, dan tamu disambut dengan Pasok po! (silakan masuk)."
+    },
+    "grammar": {
+      "title": {
+        "ar": "may وmayroon وwala وnasa",
+        "en": "May, mayroon, wala and nasa",
+        "id": "May, mayroon, wala, dan nasa"
+      },
+      "body": {
+        "ar": "may تأتي قبل الاسم: May kama sa kwarto. وmayroon لها المعنى نفسه لكنها تأتي قبل الضمير أو في آخر الجملة: Mayroon kaming hardin. وwala عكسها، وتأخذ -ng قبل الاسم: Walang upuan. أما nasa فتدل على المكان: Nasa mesa ang susi. وsa تعني «في/على». وكل ذلك بدون فعل «يكون».",
+        "en": "May comes before a noun: May kama sa kwarto. Mayroon means the same but is used before a pronoun or at the end of a sentence: Mayroon kaming hardin. Wala is the opposite and takes -ng before a noun: Walang upuan. Nasa tells where something is: Nasa mesa ang susi. Sa means in or on. No verb to be is needed.",
+        "id": "May diletakkan sebelum kata benda: May kama sa kwarto. Mayroon artinya sama tetapi dipakai sebelum kata ganti atau di akhir kalimat: Mayroon kaming hardin. Wala adalah lawannya dan mendapat -ng sebelum kata benda: Walang upuan. Nasa menunjukkan letak: Nasa mesa ang susi. Sa berarti di atau pada. Tidak perlu kata kerja be."
+      }
+    },
+    "items": [
+      {
+        "id": "tl16n1",
+        "target": "Nasaan ang kusina?",
+        "translit": "na-sa-AN ang ku-SI-na",
+        "tr": {
+          "ar": "أين المطبخ؟",
+          "en": "Where is the kitchen?",
+          "id": "Di mana dapurnya?"
+        },
+        "example": {
+          "target": "Nasa likod ang kusina.",
+          "translit": "NA-sa li-KOD ang ku-SI-na",
+          "tr": {
+            "ar": "المطبخ في الخلف.",
+            "en": "The kitchen is at the back.",
+            "id": "Dapurnya ada di belakang."
+          }
+        },
+        "hint": {
+          "ar": "الجواب يبدأ بـ nasa ثم المكان. likod تعني «الخلف».",
+          "en": "The answer starts with nasa and then the place. Likod means back.",
+          "id": "Jawaban dimulai dengan nasa lalu tempat. Likod berarti belakang."
+        }
+      },
+      {
+        "id": "tl16n2",
+        "target": "May kama sa kwarto.",
+        "translit": "may KA-ma sa KWAR-to",
+        "tr": {
+          "ar": "يوجد سرير في الغرفة.",
+          "en": "There is a bed in the room.",
+          "id": "Ada tempat tidur di kamar."
+        },
+        "example": {
+          "target": "May mesa sa kusina.",
+          "translit": "may ME-sa sa ku-SI-na",
+          "tr": {
+            "ar": "يوجد طاولة في المطبخ.",
+            "en": "There is a table in the kitchen.",
+            "id": "Ada meja di dapur."
+          }
+        },
+        "hint": {
+          "ar": "may تعني «يوجد» وتأتي قبل الاسم. ويُكتب kwarto أو kuwarto بالمعنى نفسه.",
+          "en": "May means there is and comes before the noun. Kwarto and kuwarto are two spellings of the same word.",
+          "id": "May berarti ada dan diletakkan sebelum kata benda. Kwarto dan kuwarto adalah dua ejaan kata yang sama."
+        }
+      },
+      {
+        "id": "tl16n3",
+        "target": "Mayroon kaming hardin.",
+        "translit": "may-RO-on ka-MING har-DIN",
+        "tr": {
+          "ar": "لدينا حديقة.",
+          "en": "We have a garden.",
+          "id": "Kami punya taman."
+        },
+        "example": {
+          "target": "Mayroon silang aso.",
+          "translit": "may-RO-on si-LANG A-so",
+          "tr": {
+            "ar": "لديهم كلب.",
+            "en": "They have a dog.",
+            "id": "Mereka punya anjing."
+          }
+        },
+        "hint": {
+          "ar": "mayroon بعد الضمير تعني «يملك». والصيغة المختصرة may تأتي هكذا: May hardin kami (الضمير بعد الاسم).",
+          "en": "Mayroon with a pronoun means to have. The short form may works with the pronoun after the noun: May hardin kami.",
+          "id": "Mayroon dengan kata ganti berarti punya. Bentuk pendek may dipakai dengan kata ganti setelah kata benda: May hardin kami."
+        }
+      },
+      {
+        "id": "tl16n4",
+        "target": "Walang upuan dito.",
+        "translit": "wa-LANG u-PU-an di-TO",
+        "tr": {
+          "ar": "لا توجد كراسي هنا.",
+          "en": "There are no chairs here.",
+          "id": "Tidak ada kursi di sini."
+        },
+        "example": {
+          "target": "Walang tubig sa banyo.",
+          "translit": "wa-LANG tu-BIG sa BAN-yo",
+          "tr": {
+            "ar": "لا يوجد ماء في الحمام.",
+            "en": "There is no water in the bathroom.",
+            "id": "Tidak ada air di kamar mandi."
+          }
+        },
+        "hint": {
+          "ar": "wala + ng قبل الاسم. وdito تعني «هنا».",
+          "en": "Wala plus -ng before a noun. Dito means here.",
+          "id": "Wala ditambah -ng sebelum kata benda. Dito berarti di sini."
+        }
+      },
+      {
+        "id": "tl16n5",
+        "target": "Nasa mesa ang susi ko.",
+        "translit": "NA-sa ME-sa ang SU-si ko",
+        "tr": {
+          "ar": "مفتاحي على الطاولة.",
+          "en": "My key is on the table.",
+          "id": "Kunciku ada di meja."
+        },
+        "example": {
+          "target": "Nasa sala ang telebisyon.",
+          "translit": "NA-sa sa-LA ang te-le-bis-YON",
+          "tr": {
+            "ar": "التلفاز في الصالة.",
+            "en": "The television is in the living room.",
+            "id": "Televisinya ada di ruang tamu."
+          }
+        },
+        "hint": {
+          "ar": "nasa تقوم مقام «يوجد في». وsala تعني غرفة الجلوس.",
+          "en": "Nasa stands for is located at. Sala is the living room.",
+          "id": "Nasa berarti berada di. Sala adalah ruang tamu."
+        }
+      },
+      {
+        "id": "tl16n6",
+        "target": "Wala siya sa bahay.",
+        "translit": "wa-LA si-YA sa BA-hay",
+        "tr": {
+          "ar": "هو ليس في البيت.",
+          "en": "He is not at home.",
+          "id": "Dia tidak ada di rumah."
+        },
+        "example": {
+          "target": "Nasa bahay ako ngayon.",
+          "translit": "NA-sa BA-hay a-KO nga-YON",
+          "tr": {
+            "ar": "أنا في البيت الآن.",
+            "en": "I am at home now.",
+            "id": "Saya ada di rumah sekarang."
+          }
+        },
+        "hint": {
+          "ar": "wala تعني أيضًا «غير موجود»: Wala siya = هو غير موجود. وnasa bahay تعني «في البيت».",
+          "en": "Wala also means not present: Wala siya means he is not here. Nasa bahay means at home.",
+          "id": "Wala juga berarti tidak ada: Wala siya berarti dia tidak ada. Nasa bahay berarti di rumah."
+        }
+      }
+    ],
+    "cloze": [
+      {
+        "sentence": "___ mesa ang susi.",
+        "answer": "Nasa",
+        "wrong": [
+          "May",
+          "Wala"
+        ],
+        "tr": {
+          "ar": "المفتاح على الطاولة.",
+          "en": "The key is on the table.",
+          "id": "Kuncinya ada di meja."
+        },
+        "why": {
+          "ar": "نريد قول مكان المفتاح، فنستعمل nasa. may وwala لا تناسبان هذا التركيب.",
+          "en": "We want to say where the key is, so we use nasa. May and wala do not fit this pattern.",
+          "id": "Kita ingin menyatakan letak kunci, jadi memakai nasa. May dan wala tidak cocok dengan pola ini."
+        }
+      },
+      {
+        "sentence": "___ kaming hardin sa likod.",
+        "answer": "Mayroon",
+        "wrong": [
+          "Nasa",
+          "Sa"
+        ],
+        "tr": {
+          "ar": "لدينا حديقة في الخلف.",
+          "en": "We have a garden at the back.",
+          "id": "Kami punya taman di belakang."
+        },
+        "why": {
+          "ar": "بعد الضمير kami نستعمل mayroon للدلالة على الملك. nasa وsa لا تفيدان الملك.",
+          "en": "After the pronoun kami we use mayroon to show possession. Nasa and sa do not show possession.",
+          "id": "Setelah kata ganti kami kita memakai mayroon untuk menyatakan kepemilikan. Nasa dan sa tidak menyatakan kepemilikan."
+        }
+      }
+    ],
+    "conversation": {
+      "context": {
+        "ar": "زيارة: ضيف عند صديقه.",
+        "en": "A visit: a guest at a friend's house.",
+        "id": "Berkunjung: seorang tamu di rumah temannya."
+      },
+      "turns": [
+        {
+          "who": "A",
+          "target": "Magandang hapon po! Nasaan po ang banyo?",
+          "tr": {
+            "ar": "مساء الخير! أين الحمام من فضلك؟",
+            "en": "Good afternoon! Where is the bathroom, please?",
+            "id": "Selamat sore! Di mana kamar mandinya, ya?"
+          }
+        },
+        {
+          "who": "B",
+          "target": "Nasa kaliwa po, sa tabi ng kusina.",
+          "tr": {
+            "ar": "على اليسار بجانب المطبخ.",
+            "en": "It is on the left, next to the kitchen.",
+            "id": "Di sebelah kiri, di samping dapur."
+          }
+        },
+        {
+          "who": "A",
+          "target": "Salamat po!",
+          "tr": {
+            "ar": "شكرًا جزيلًا!",
+            "en": "Thank you very much!",
+            "id": "Terima kasih banyak!"
+          }
+        }
+      ],
+      "gap": 1,
+      "wrong": [
+        "May tatlong kapatid ako.",
+        "Mahilig akong magluto."
+      ],
+      "why": {
+        "ar": "سُئل عن مكان الحمام فيجب أن يُذكر المكان. الردان الآخران لا يذكران مكانًا.",
+        "en": "He was asked where the bathroom is, so a place must be named. The other two replies name no place.",
+        "id": "Ia ditanya letak kamar mandi, jadi harus menyebut tempat. Dua jawaban lain tidak menyebut tempat."
+      }
+    },
+    "summary": {
+      "ar": "تعلمت may وmayroon وwala وnasa لوصف ما في البيت وأين الأشياء. صف غرفتك بثلاث جمل.",
+      "en": "You learned may, mayroon, wala and nasa to say what is in a home and where things are. Describe your room in three sentences.",
+      "id": "Kamu belajar may, mayroon, wala, dan nasa untuk menyatakan isi rumah dan letak benda. Deskripsikan kamarmu dalam tiga kalimat."
+    }
+  },
+  {
+    "id": "tl-17",
+    "track": "tl",
+    "level": "elementary",
+    "order": 17,
+    "topic": "city-transport",
+    "icon": "🚌",
+    "title": {
+      "ar": "المدينة والمواصلات",
+      "en": "City and Transport",
+      "id": "Kota dan Transportasi"
+    },
+    "description": {
+      "ar": "تنقّل في المدينة بالجيبني والتريسكل مع sumakay وbumaba.",
+      "en": "Get around the city by jeepney and tricycle with sumakay and bumaba.",
+      "id": "Berkeliling kota dengan jeepney dan trisikel memakai sumakay dan bumaba."
+    },
+    "objectives": [
+      {
+        "ar": "أستطيع طلب التوقف: Para po!",
+        "en": "I can ask the driver to stop: Para po!",
+        "id": "Saya bisa meminta sopir berhenti: Para po!"
+      },
+      {
+        "ar": "أستطيع سؤال الأجرة: Magkano po hanggang...؟",
+        "en": "I can ask the fare: Magkano po hanggang...?",
+        "id": "Saya bisa menanyakan tarif: Magkano po hanggang...?"
+      },
+      {
+        "ar": "أستطيع قول أنني سأركب أو سأنزل في مكان.",
+        "en": "I can say I will get on or off somewhere.",
+        "id": "Saya bisa menyatakan akan naik atau turun di suatu tempat."
+      }
+    ],
+    "intro": {
+      "ar": "المواصلات في مانيلا مغامرة صغيرة: الجيبني (jeep)، التريسكل (tricycle)، والحافلة (bus) وقطار MRT. نتعلم هنا الجمل التي تحتاجها كل يوم: أين تنزل وكم تدفع وكيف توقف السائق.",
+      "en": "Getting around Manila is a small adventure: the jeepney (jeep), the tricycle, the bus and the MRT train. Here we learn the sentences you need every day: where you get off, how much you pay and how to stop the driver.",
+      "id": "Berkeliling Manila adalah petualangan kecil: jeepney (jeep), trisikel, bus, dan kereta MRT. Di sini kita belajar kalimat yang dibutuhkan sehari-hari: turun di mana, berapa ongkos, dan cara menghentikan sopir."
+    },
+    "culture": {
+      "ar": "في الجيبني يمرّر الركاب الأجرة إلى السائق بقولهم «Bayad po!» ويقول السائق أو الآخرون «Sukli po» عند وجود باقي. والتريسكل دراجة نارية بعربة جانبية مناسبة للمسافات القصيرة. «Para po» تعني «قف من فضلك».",
+      "en": "In a jeepney passengers pass their fare forward saying Bayad po!, and change comes back with Sukli po. A tricycle is a motorbike with a sidecar for short trips. Para po means stop, please.",
+      "id": "Di jeepney penumpang meneruskan ongkos ke depan sambil berkata Bayad po!, dan kembalian datang dengan Sukli po. Trisikel adalah motor dengan gandengan samping untuk jarak dekat. Para po berarti tolong berhenti."
+    },
+    "grammar": {
+      "title": {
+        "ar": "sumakay وbumaba وsa",
+        "en": "Sumakay, bumaba and sa",
+        "id": "Sumakay, bumaba, dan sa"
+      },
+      "body": {
+        "ar": "الفعلان sakay (يركب) وbaba (ينزل) يتصرفان مثل kain: sumakay / sasakay / sumasakay، وbumaba / bababa / bumababa. نقول sumakay ng jeep (بـ ng) وbumaba sa hintuan (بـ sa للمكان). ولتحديد الاتجاه: papunta sa Makati أو papuntang Makati (إلى ماكاتي). وللتنقل اليومي نقول mag-commute، مثل Nagko-commute ako.",
+        "en": "The verbs sakay (get on) and baba (get off) work like kain: sumakay / sasakay / sumasakay, and bumaba / bababa / bumababa. We say sumakay ng jeep (with ng) and bumaba sa hintuan (with sa for the place). For direction: papunta sa Makati or papuntang Makati (to Makati). For daily travel we say mag-commute, as in Nagko-commute ako.",
+        "id": "Kata kerja sakay (naik) dan baba (turun) bekerja seperti kain: sumakay / sasakay / sumasakay, dan bumaba / bababa / bumababa. Kita bilang sumakay ng jeep (dengan ng) dan bumaba sa hintuan (dengan sa untuk tempat). Untuk arah: papunta sa Makati atau papuntang Makati (menuju Makati). Untuk perjalanan harian kita pakai mag-commute, misalnya Nagko-commute ako."
+      }
+    },
+    "items": [
+      {
+        "id": "tl17n1",
+        "target": "Para po!",
+        "translit": "PA-ra po",
+        "tr": {
+          "ar": "قف من فضلك!",
+          "en": "Stop here, please!",
+          "id": "Berhenti di sini, ya!"
+        },
+        "example": {
+          "target": "Para po sa tabi lang.",
+          "translit": "PA-ra po sa TA-bi lang",
+          "tr": {
+            "ar": "قف هنا على الجانب من فضلك.",
+            "en": "Stop just at the side, please.",
+            "id": "Tolong berhenti di pinggir saja."
+          }
+        },
+        "hint": {
+          "ar": "تُقال للسائق بصوت مسموع ومعناها «أوقف هنا». وللكلمة para معنى آخر هو «من أجل».",
+          "en": "Said aloud to the driver, it means let me off. Para can also mean for, but here it is a request to stop.",
+          "id": "Diucapkan keras kepada sopir, artinya turunkan saya. Para juga bisa berarti untuk, tetapi di sini ia permintaan berhenti."
+        }
+      },
+      {
+        "id": "tl17n2",
+        "target": "Sasakay ako ng jeep papuntang Makati.",
+        "translit": "sa-SA-kay a-KO nang jip pa-pun-TANG ma-KA-ti",
+        "tr": {
+          "ar": "سأركب الجيبني إلى ماكاتي.",
+          "en": "I will take a jeepney to Makati.",
+          "id": "Saya akan naik jeepney ke Makati."
+        },
+        "example": {
+          "target": "Sumasakay ako ng tricycle tuwing umaga.",
+          "translit": "su-ma-SA-kay a-KO nang TRAI-si-kel TU-wing u-MA-ga",
+          "tr": {
+            "ar": "أركب التريسكل كل صباح.",
+            "en": "I ride a tricycle every morning.",
+            "id": "Saya naik trisikel setiap pagi."
+          }
+        },
+        "hint": {
+          "ar": "sakay ← sasakay (سأركب) ← sumasakay (أركب عادةً). وتُكتب أيضًا traysikel.",
+          "en": "Sakay gives sasakay (will ride) and sumasakay (ride, as a habit). You may also see the spelling traysikel.",
+          "id": "Sakay menjadi sasakay (akan naik) dan sumasakay (naik, sebagai kebiasaan). Ejaan lain: traysikel."
+        }
+      },
+      {
+        "id": "tl17n3",
+        "target": "Magkano po hanggang Cubao?",
+        "translit": "mag-KA-no po hang-GANG ku-BA-o",
+        "tr": {
+          "ar": "كم الأجرة إلى كوباو؟",
+          "en": "How much is the fare to Cubao?",
+          "id": "Berapa ongkos sampai Cubao?"
+        },
+        "example": {
+          "target": "Magkano po hanggang Quiapo?",
+          "translit": "mag-KA-no po hang-GANG ki-YA-po",
+          "tr": {
+            "ar": "كم الأجرة إلى كيابو؟",
+            "en": "How much is the fare to Quiapo?",
+            "id": "Berapa ongkos sampai Quiapo?"
+          }
+        },
+        "hint": {
+          "ar": "hanggang تعني «حتى». كوباو وكيابو من أحياء مانيلا المعروفة.",
+          "en": "Hanggang means up to. Cubao and Quiapo are well-known districts of Manila.",
+          "id": "Hanggang berarti sampai. Cubao dan Quiapo adalah kawasan terkenal di Manila."
+        }
+      },
+      {
+        "id": "tl17n4",
+        "target": "Saan po kayo bababa?",
+        "translit": "sa-AN po ka-YO ba-BA-ba",
+        "tr": {
+          "ar": "أين ستنزل؟",
+          "en": "Where will you get off?",
+          "id": "Anda akan turun di mana?"
+        },
+        "example": {
+          "target": "Bababa ako sa Ayala.",
+          "translit": "ba-BA-ba a-KO sa a-YA-la",
+          "tr": {
+            "ar": "سأنزل في أيالا.",
+            "en": "I will get off at Ayala.",
+            "id": "Saya akan turun di Ayala."
+          }
+        },
+        "hint": {
+          "ar": "kayo تعني «أنتم» وهي صيغة الاحترام للمفرد أيضًا. وbababa هي المستقبل من bumaba.",
+          "en": "Kayo means you (plural) and is also the polite singular. Bababa is the future of bumaba.",
+          "id": "Kayo berarti kalian dan juga bentuk sopan untuk satu orang. Bababa adalah futur dari bumaba."
+        }
+      },
+      {
+        "id": "tl17n5",
+        "target": "Bababa ako sa susunod na hintuan.",
+        "translit": "ba-BA-ba a-KO sa su-SU-nod na hin-TU-an",
+        "tr": {
+          "ar": "سأنزل في المحطة التالية.",
+          "en": "I will get off at the next stop.",
+          "id": "Saya akan turun di perhentian berikutnya."
+        },
+        "example": {
+          "target": "Bumaba ako sa Cubao.",
+          "translit": "bu-MA-ba a-KO sa ku-BA-o",
+          "tr": {
+            "ar": "نزلت في كوباو.",
+            "en": "I got off at Cubao.",
+            "id": "Saya turun di Cubao."
+          }
+        },
+        "hint": {
+          "ar": "susunod تعني «التالي» وتُربط بـ na مع الاسم. وbumaba هي الصيغة المنتهية.",
+          "en": "Susunod means next and is linked to the noun with na. Bumaba is the completed form.",
+          "id": "Susunod berarti berikutnya dan dihubungkan dengan na ke kata benda. Bumaba adalah bentuk selesai."
+        }
+      },
+      {
+        "id": "tl17n6",
+        "target": "Nagko-commute ako papunta sa opisina.",
+        "translit": "nag-ko-ko-MYUT a-KO pa-pun-TA sa o-pi-SI-na",
+        "tr": {
+          "ar": "أتنقل إلى المكتب كل يوم.",
+          "en": "I commute to the office.",
+          "id": "Saya pulang-pergi ke kantor."
+        },
+        "example": {
+          "target": "Nagko-commute siya araw-araw.",
+          "translit": "nag-ko-ko-MYUT si-YA a-RAW a-RAW",
+          "tr": {
+            "ar": "هو يتنقل كل يوم.",
+            "en": "He commutes every day.",
+            "id": "Dia pulang-pergi setiap hari."
+          }
+        },
+        "hint": {
+          "ar": "mag-commute كلمة إنجليزية دخلت التاغالوغية ولها صيغ الفعل نفسها: nagko-commute وmagko-commute.",
+          "en": "Mag-commute is an English word that takes Tagalog verb forms: nagko-commute, magko-commute.",
+          "id": "Mag-commute adalah kata Inggris yang memakai bentuk kata kerja Tagalog: nagko-commute, magko-commute."
+        }
+      }
+    ],
+    "cloze": [
+      {
+        "sentence": "Bababa ako ___ susunod na hintuan.",
+        "answer": "sa",
+        "wrong": [
+          "ang",
+          "at"
+        ],
+        "tr": {
+          "ar": "سأنزل في المحطة التالية.",
+          "en": "I will get off at the next stop.",
+          "id": "Saya akan turun di perhentian berikutnya."
+        },
+        "why": {
+          "ar": "المكان الذي ننزل فيه يسبقه sa. أما ang وat فلا تدلان على المكان هنا.",
+          "en": "The place where we get off takes sa. Ang and at do not show a place here.",
+          "id": "Tempat turun memakai sa. Ang dan at tidak menunjukkan tempat di sini."
+        }
+      },
+      {
+        "sentence": "___ po! Dito na po ako.",
+        "answer": "Para",
+        "wrong": [
+          "Magkano",
+          "Nasaan"
+        ],
+        "tr": {
+          "ar": "قف من فضلك! سأنزل هنا.",
+          "en": "Stop, please! I get off here.",
+          "id": "Berhenti, ya! Saya turun di sini."
+        },
+        "why": {
+          "ar": "نقول للسائق Para po لنطلب التوقف. magkano للسؤال عن السعر وnasaan للسؤال عن المكان.",
+          "en": "We say Para po to ask the driver to stop. Magkano asks for a price and nasaan asks where something is.",
+          "id": "Kita mengatakan Para po untuk meminta sopir berhenti. Magkano menanyakan harga dan nasaan menanyakan letak."
+        }
+      }
+    ],
+    "conversation": {
+      "context": {
+        "ar": "في جيبني متجه إلى كوباو.",
+        "en": "On a jeepney heading to Cubao.",
+        "id": "Di jeepney menuju Cubao."
+      },
+      "turns": [
+        {
+          "who": "A",
+          "target": "Magandang umaga po. Magkano po hanggang Cubao?",
+          "tr": {
+            "ar": "صباح الخير. كم الأجرة إلى كوباو؟",
+            "en": "Good morning. How much is the fare to Cubao?",
+            "id": "Selamat pagi. Berapa ongkos sampai Cubao?"
+          }
+        },
+        {
+          "who": "B",
+          "target": "Dalawampung piso.",
+          "tr": {
+            "ar": "عشرون بيزو.",
+            "en": "Twenty pesos.",
+            "id": "Dua puluh peso."
+          }
+        },
+        {
+          "who": "A",
+          "target": "Heto po. Salamat po!",
+          "tr": {
+            "ar": "تفضل. شكرًا!",
+            "en": "Here you are. Thank you!",
+            "id": "Ini, ya. Terima kasih!"
+          }
+        }
+      ],
+      "gap": 1,
+      "wrong": [
+        "Nasa kusina po.",
+        "Kumain na po ako."
+      ],
+      "why": {
+        "ar": "سأل عن الأجرة فيُذكر السعر. الردان الآخران لا يذكران مبلغًا.",
+        "en": "He asked for the fare, so a price is given. The other two replies give no amount.",
+        "id": "Ia menanyakan ongkos, jadi harga disebutkan. Dua jawaban lain tidak menyebut jumlah."
+      }
+    },
+    "summary": {
+      "ar": "تعلمت جمل المواصلات: Para po وMagkano po hanggang... وBababa ako sa... وsumakay ng. اكتب كيف تذهب من بيتك إلى عملك بجملتين.",
+      "en": "You learned transport sentences: Para po, Magkano po hanggang..., Bababa ako sa... and sumakay ng. Write in two sentences how you go from home to work.",
+      "id": "Kamu belajar kalimat transportasi: Para po, Magkano po hanggang..., Bababa ako sa..., dan sumakay ng. Tulislah dalam dua kalimat bagaimana kamu pergi dari rumah ke tempat kerja."
+    }
+  },
+  {
+    "id": "tl-18",
+    "track": "tl",
+    "level": "elementary",
+    "order": 18,
+    "topic": "phone-invitations",
+    "icon": "📞",
+    "title": {
+      "ar": "المكالمات والدعوات",
+      "en": "Phone Calls and Invitations",
+      "id": "Telepon dan Undangan"
+    },
+    "description": {
+      "ar": "اتصل بصديق وادعه واقبل أو اعتذر باستخدام pwede وgusto وdapat وtara na.",
+      "en": "Phone a friend, invite them and accept or decline with pwede, gusto, dapat and tara na.",
+      "id": "Telepon teman, ajak dia, lalu terima atau tolak dengan pwede, gusto, dapat, dan tara na."
+    },
+    "objectives": [
+      {
+        "ar": "أستطيع بدء مكالمة وطلب التحدث إلى شخص.",
+        "en": "I can start a call and ask to speak to someone.",
+        "id": "Saya bisa memulai telepon dan meminta bicara dengan seseorang."
+      },
+      {
+        "ar": "أستطيع توجيه دعوة بـ Gusto mo bang sumama؟",
+        "en": "I can invite someone with Gusto mo bang sumama?",
+        "id": "Saya bisa mengajak seseorang dengan Gusto mo bang sumama?"
+      },
+      {
+        "ar": "أستطيع الرد بـ Pwede ako أو Tara na.",
+        "en": "I can reply with Pwede ako or Tara na.",
+        "id": "Saya bisa menjawab dengan Pwede ako atau Tara na."
+      }
+    ],
+    "intro": {
+      "ar": "الدعوة جزء كبير من الحياة الاجتماعية الفلبينية. نتعلم كلمات المكالمة وجمل الدعوة، وأفعالًا مساعدة مثل pwede (يمكن)، gusto (يريد)، dapat (ينبغي)، kaya (قادر). وهي تُستعمل مع الفعل الأصلي.",
+      "en": "Invitations are a big part of Filipino social life. We learn call words and invitation sentences, plus helper words such as pwede (can, may), gusto (want), dapat (should) and kaya (able to). They go with the base verb.",
+      "id": "Undangan adalah bagian besar kehidupan sosial Filipina. Kita belajar kata untuk telepon dan kalimat undangan, serta kata bantu seperti pwede (boleh, bisa), gusto (mau), dapat (sebaiknya), dan kaya (mampu). Semuanya dipakai dengan kata kerja dasar."
+    },
+    "culture": {
+      "ar": "الفلبينيون ودودون ويقولون كثيرًا «Tara na!» (هيا بنا) و«Sama ka!» (تعال معنا). وفي المكالمة يقول المتصل Hello ثم يعرّف بنفسه: Hello, si Ana ito (هنا آنا). ويقال بإيجاز «Sige!» للموافقة.",
+      "en": "Filipinos are friendly and often say Tara na! (let us go) and Sama ka! (come along). On the phone the caller says Hello and names themselves: Hello, si Ana ito (this is Ana). Sige! means okay or all right.",
+      "id": "Orang Filipina ramah dan sering berkata Tara na! (ayo pergi) dan Sama ka! (ikut). Di telepon penelepon berkata Hello lalu menyebut diri: Hello, si Ana ito (ini Ana). Sige! berarti baik atau oke."
+    },
+    "grammar": {
+      "title": {
+        "ar": "pwede وgusto وdapat وkaya",
+        "en": "Pwede, gusto, dapat and kaya",
+        "id": "Pwede, gusto, dapat, dan kaya"
+      },
+      "body": {
+        "ar": "بعد هذه الكلمات يأتي الفعل الأصلي. pwede = يمكن (مسموح أو متاح): Pwede ako sa Sabado. gusto = أريد: Gusto kong sumama. dapat = ينبغي: Dapat akong magpahinga. kaya = أستطيع (قدرة): Kaya ko! وtara na = هيا بنا، وتُقال للأصدقاء. ولأدب أكثر نقول Pwede po ba?",
+        "en": "After these words comes the base verb. Pwede means can or may: Pwede ako sa Sabado. Gusto means want: Gusto kong sumama. Dapat means should: Dapat akong magpahinga. Kaya means able to: Kaya ko! Tara na means let us go and is used with friends. For extra politeness say Pwede po ba?",
+        "id": "Setelah kata-kata ini datang kata kerja dasar. Pwede berarti boleh atau bisa: Pwede ako sa Sabado. Gusto berarti mau: Gusto kong sumama. Dapat berarti sebaiknya: Dapat akong magpahinga. Kaya berarti mampu: Kaya ko! Tara na berarti ayo pergi dan dipakai dengan teman. Agar lebih sopan katakan Pwede po ba?"
+      }
+    },
+    "items": [
+      {
+        "id": "tl18n1",
+        "target": "Hello, si Ana ito.",
+        "translit": "he-LOW si A-na i-TO",
+        "tr": {
+          "ar": "مرحبًا، أنا آنا.",
+          "en": "Hello, this is Ana.",
+          "id": "Halo, ini Ana."
+        },
+        "example": {
+          "target": "Hello po, si Ben ito.",
+          "translit": "he-LOW po si ben i-TO",
+          "tr": {
+            "ar": "مرحبًا، أنا بين.",
+            "en": "Hello, this is Ben.",
+            "id": "Halo, ini Ben."
+          }
+        },
+        "hint": {
+          "ar": "si تسبق الأسماء الشخصية. وito تعني «هذا».",
+          "en": "Si goes before a person's name. Ito means this.",
+          "id": "Si diletakkan sebelum nama orang. Ito berarti ini."
+        }
+      },
+      {
+        "id": "tl18n2",
+        "target": "Pwede ko bang makausap si Ben?",
+        "translit": "PWE-de ko bang ma-ka-U-sap si ben",
+        "tr": {
+          "ar": "هل يمكنني التحدث إلى بين؟",
+          "en": "May I speak to Ben?",
+          "id": "Bolehkah saya bicara dengan Ben?"
+        },
+        "example": {
+          "target": "Pwede ko po bang makausap si Ana?",
+          "translit": "PWE-de ko po bang ma-ka-U-sap si A-na",
+          "tr": {
+            "ar": "هل يمكنني التحدث إلى آنا من فضلك؟",
+            "en": "May I please speak to Ana?",
+            "id": "Bolehkah saya bicara dengan Ana?"
+          }
+        },
+        "hint": {
+          "ar": "makausap تعني «يتمكن من الحديث إلى». وتُكتب أيضًا puwede. ونضيف po للأدب.",
+          "en": "Makausap means to be able to talk to. The other spelling is puwede. Add po for politeness.",
+          "id": "Makausap berarti dapat berbicara dengan. Ejaan lain: puwede. Tambahkan po agar sopan."
+        }
+      },
+      {
+        "id": "tl18n3",
+        "target": "Gusto mo bang sumama?",
+        "translit": "gus-TO mo bang su-MA-ma",
+        "tr": {
+          "ar": "هل تريد أن تأتي معنا؟",
+          "en": "Do you want to come along?",
+          "id": "Maukah kamu ikut?"
+        },
+        "example": {
+          "target": "Gusto mo bang sumama sa mall?",
+          "translit": "gus-TO mo bang su-MA-ma sa mol",
+          "tr": {
+            "ar": "هل تريد أن تأتي معنا إلى المركز التجاري؟",
+            "en": "Do you want to come along to the mall?",
+            "id": "Maukah kamu ikut ke mal?"
+          }
+        },
+        "hint": {
+          "ar": "sumama تعني «ينضم/يرافق». والرد المعتاد: Sige! (حسنًا) أو Pwede ako.",
+          "en": "Sumama means to join or go along. A usual reply: Sige! (okay) or Pwede ako.",
+          "id": "Sumama berarti ikut. Jawaban umum: Sige! (oke) atau Pwede ako."
+        }
+      },
+      {
+        "id": "tl18n4",
+        "target": "Tara na!",
+        "translit": "TA-ra na",
+        "tr": {
+          "ar": "هيا بنا!",
+          "en": "Let us go!",
+          "id": "Ayo pergi!"
+        },
+        "example": {
+          "target": "Tara, kain tayo!",
+          "translit": "TA-ra KA-in TA-yo",
+          "tr": {
+            "ar": "هيا بنا نأكل!",
+            "en": "Come on, let us eat!",
+            "id": "Ayo, kita makan!"
+          }
+        },
+        "hint": {
+          "ar": "للأصدقاء والعائلة فقط. وtayo تعني «نحن» مع المخاطب.",
+          "en": "For friends and family only. Tayo means we, including the listener.",
+          "id": "Hanya untuk teman dan keluarga. Tayo berarti kita, termasuk lawan bicara."
+        }
+      },
+      {
+        "id": "tl18n5",
+        "target": "Pwede ako sa Sabado.",
+        "translit": "PWE-de a-KO sa sa-BA-do",
+        "tr": {
+          "ar": "أنا متفرغ يوم السبت.",
+          "en": "I am free on Saturday.",
+          "id": "Saya bisa hari Sabtu."
+        },
+        "example": {
+          "target": "Pwede ka ba sa Linggo?",
+          "translit": "PWE-de ka ba sa LI-ngo",
+          "tr": {
+            "ar": "هل أنت متفرغ يوم الأحد؟",
+            "en": "Are you free on Sunday?",
+            "id": "Apakah kamu bisa hari Minggu?"
+          }
+        },
+        "hint": {
+          "ar": "pwede ako تعني «أنا متاح». وللرفض اللطيف نقول Hindi ako pwede.",
+          "en": "Pwede ako means I am available. To decline gently say Hindi ako pwede.",
+          "id": "Pwede ako berarti saya bisa. Untuk menolak dengan halus katakan Hindi ako pwede."
+        }
+      },
+      {
+        "id": "tl18n6",
+        "target": "Dapat akong magpahinga.",
+        "translit": "DA-pat a-KONG mag-pa-HI-nga",
+        "tr": {
+          "ar": "ينبغي أن أرتاح.",
+          "en": "I should rest.",
+          "id": "Saya sebaiknya beristirahat."
+        },
+        "example": {
+          "target": "Dapat kang kumain.",
+          "translit": "DA-pat kang ku-MA-in",
+          "tr": {
+            "ar": "ينبغي أن تأكل.",
+            "en": "You should eat.",
+            "id": "Kamu sebaiknya makan."
+          }
+        },
+        "hint": {
+          "ar": "dapat + الضمير + -ng + الفعل الأصلي. وkaya ko تعني «أستطيع»، مثل: Kaya ko ito!",
+          "en": "Dapat + pronoun + -ng + base verb. Kaya ko means I can do it, for example Kaya ko ito!",
+          "id": "Dapat + kata ganti + -ng + kata kerja dasar. Kaya ko berarti saya mampu, misalnya Kaya ko ito!"
+        }
+      }
+    ],
+    "cloze": [
+      {
+        "sentence": "___ kong sumama sa mall sa Sabado.",
+        "answer": "Gusto",
+        "wrong": [
+          "Salamat",
+          "Nasa"
+        ],
+        "tr": {
+          "ar": "أريد أن أذهب معكم إلى المركز التجاري يوم السبت.",
+          "en": "I want to come along to the mall on Saturday.",
+          "id": "Saya mau ikut ke mal hari Sabtu."
+        },
+        "why": {
+          "ar": "نعبّر عن الرغبة بـ gusto + ضمير + ng + الفعل الأصلي: gusto kong sumama. أما salamat فتعني «شكرًا» وnasa تدل على المكان.",
+          "en": "We say want with gusto + pronoun + -ng + base verb: gusto kong sumama. Salamat means thank you and nasa shows a place.",
+          "id": "Keinginan dinyatakan dengan gusto + kata ganti + -ng + kata kerja dasar: gusto kong sumama. Salamat berarti terima kasih dan nasa menunjukkan tempat."
+        }
+      },
+      {
+        "sentence": "___ na! Late na tayo.",
+        "answer": "Tara",
+        "wrong": [
+          "Salamat",
+          "Magkano"
+        ],
+        "tr": {
+          "ar": "هيا بنا! لقد تأخرنا.",
+          "en": "Let us go! We are already late.",
+          "id": "Ayo pergi! Kita sudah terlambat."
+        },
+        "why": {
+          "ar": "tara na تعني «هيا بنا». salamat للشكر وmagkano للسعر.",
+          "en": "Tara na means let us go. Salamat is thanks and magkano asks a price.",
+          "id": "Tara na berarti ayo pergi. Salamat berarti terima kasih dan magkano menanyakan harga."
+        }
+      }
+    ],
+    "conversation": {
+      "context": {
+        "ar": "مكالمة هاتفية بين صديقين.",
+        "en": "A phone call between two friends.",
+        "id": "Telepon antara dua teman."
+      },
+      "turns": [
+        {
+          "who": "A",
+          "target": "Hello, si Ana ito. Pwede ko bang makausap si Ben?",
+          "tr": {
+            "ar": "مرحبًا، أنا آنا. هل يمكنني التحدث إلى بين؟",
+            "en": "Hello, this is Ana. May I speak to Ben?",
+            "id": "Halo, ini Ana. Bolehkah saya bicara dengan Ben?"
+          }
+        },
+        {
+          "who": "B",
+          "target": "Ako ito. Kumusta, Ana!",
+          "tr": {
+            "ar": "أنا بين. كيف حالك يا آنا!",
+            "en": "This is Ben. How are you, Ana!",
+            "id": "Ini Ben. Apa kabar, Ana!"
+          }
+        },
+        {
+          "who": "A",
+          "target": "Gusto mo bang sumama sa mall sa Sabado?",
+          "tr": {
+            "ar": "هل تريد أن تأتي معنا إلى المركز التجاري يوم السبت؟",
+            "en": "Do you want to come along to the mall on Saturday?",
+            "id": "Maukah kamu ikut ke mal hari Sabtu?"
+          }
+        },
+        {
+          "who": "B",
+          "target": "Sige! Pwede ako sa Sabado.",
+          "tr": {
+            "ar": "حسنًا! أنا متفرغ يوم السبت.",
+            "en": "Okay! I am free on Saturday.",
+            "id": "Oke! Saya bisa hari Sabtu."
+          }
+        }
+      ],
+      "gap": 3,
+      "wrong": [
+        "Magkano po hanggang Cubao?",
+        "Nasa kusina ang susi."
+      ],
+      "why": {
+        "ar": "وُجّهت دعوة فيجب القبول أو الرفض. «Sige! Pwede ako» قبول طبيعي. الردان الآخران لا علاقة لهما بالدعوة.",
+        "en": "An invitation was made, so the reply should accept or decline. Sige! Pwede ako is a natural acceptance. The other two replies are unrelated.",
+        "id": "Sebuah undangan diajukan, jadi jawaban harus menerima atau menolak. Sige! Pwede ako adalah penerimaan yang wajar. Dua jawaban lain tidak berkaitan."
+      }
+    },
+    "summary": {
+      "ar": "تعلمت جمل المكالمة والدعوة مع pwede وgusto وdapat وTara na. دعُ صديقًا إلى نشاط يوم السبت بجملة واحدة.",
+      "en": "You learned call and invitation sentences with pwede, gusto, dapat and Tara na. Invite a friend to something on Saturday in one sentence.",
+      "id": "Kamu belajar kalimat telepon dan undangan dengan pwede, gusto, dapat, dan Tara na. Ajaklah teman untuk kegiatan hari Sabtu dalam satu kalimat."
+    }
+  },
+  {
+    "id": "tl-19",
+    "track": "tl",
+    "level": "elementary",
+    "order": 19,
+    "topic": "weather-seasons",
+    "icon": "🌦️",
+    "title": {
+      "ar": "الطقس والفصول والتواريخ",
+      "en": "Weather, Seasons and Dates",
+      "id": "Cuaca, Musim, dan Tanggal"
+    },
+    "description": {
+      "ar": "صف الطقس وقل الأشهر والتواريخ بالتاغالوغية.",
+      "en": "Describe the weather and say months and dates in Tagalog.",
+      "id": "Deskripsikan cuaca dan sebutkan bulan serta tanggal dalam bahasa Tagalog."
+    },
+    "objectives": [
+      {
+        "ar": "أستطيع وصف الطقس: mainit وmalamig وumuulan.",
+        "en": "I can describe the weather: mainit, malamig, umuulan.",
+        "id": "Saya bisa mendeskripsikan cuaca: mainit, malamig, umuulan."
+      },
+      {
+        "ar": "أستطيع قول أسماء الأشهر.",
+        "en": "I can say the months.",
+        "id": "Saya bisa menyebut nama bulan."
+      },
+      {
+        "ar": "أستطيع أن أسأل «Anong petsa ngayon؟» وأقول تاريخًا.",
+        "en": "I can ask Anong petsa ngayon? and say a date.",
+        "id": "Saya bisa menanyakan Anong petsa ngayon? dan menyebut tanggal."
+      }
+    ],
+    "intro": {
+      "ar": "في الفلبين فصلان رئيسيان: tag-init (الحار والجاف) وtag-ulan (الممطر). وأسماء الأشهر مأخوذة من الإسبانية فهي سهلة التعلم: Enero وPebrero وMarso... نتعلم أيضًا أن نذكر التاريخ.",
+      "en": "The Philippines has two main seasons: tag-init (hot and dry) and tag-ulan (rainy). The month names come from Spanish, so they are easy to learn: Enero, Pebrero, Marso and so on. We also learn to say the date.",
+      "id": "Filipina punya dua musim utama: tag-init (panas dan kering) dan tag-ulan (hujan). Nama bulan berasal dari bahasa Spanyol sehingga mudah dipelajari: Enero, Pebrero, Marso, dan seterusnya. Kita juga belajar menyebut tanggal."
+    },
+    "culture": {
+      "ar": "الفلبين تتعرض لأعاصير (bagyo) في موسم الأمطار، وتسمى كل عاصفة باسم. وعيد الميلاد يبدأ احتفاله مبكرًا من سبتمبر، وتسمى الأشهر التي تنتهي بـ «ber» أشهر العيد.",
+      "en": "The Philippines gets typhoons (bagyo) in the rainy season, and each storm gets a name. Christmas starts very early here, in September, and people call the months ending in ber the ber months.",
+      "id": "Filipina mengalami topan (bagyo) pada musim hujan dan setiap badai diberi nama. Perayaan Natal dimulai sangat awal, sejak September, dan bulan berakhiran ber disebut bulan ber."
+    },
+    "grammar": {
+      "title": {
+        "ar": "الطقس والأشهر والتواريخ",
+        "en": "Weather, months and dates",
+        "id": "Cuaca, bulan, dan tanggal"
+      },
+      "body": {
+        "ar": "الطقس: صفة وحدها (Mainit. Malamig.) أو فعل ulan: umuulan (تمطر الآن)، uulan (ستمطر). الأشهر: Enero, Pebrero, Marso, Abril, Mayo, Hunyo, Hulyo, Agosto, Setyembre, Oktubre, Nobyembre, Disyembre، وقبلها sa: sa Mayo. التاريخ: ika + الرقم الترتيبي + ng + الشهر: ikalima ng Mayo (أو ika-5 ng Mayo). والسؤال: Anong petsa ngayon؟ وKailan ang...؟ (متى...؟).",
+        "en": "Weather: an adjective alone (Mainit. Malamig.) or the verb ulan: umuulan (it is raining), uulan (it will rain). Months: Enero, Pebrero, Marso, Abril, Mayo, Hunyo, Hulyo, Agosto, Setyembre, Oktubre, Nobyembre, Disyembre, with sa before them: sa Mayo. Date: ika + ordinal + ng + month: ikalima ng Mayo (or ika-5 ng Mayo). Questions: Anong petsa ngayon? and Kailan ang...? (When is...?)",
+        "id": "Cuaca: kata sifat sendiri (Mainit. Malamig.) atau kata kerja ulan: umuulan (sedang hujan), uulan (akan hujan). Bulan: Enero, Pebrero, Marso, Abril, Mayo, Hunyo, Hulyo, Agosto, Setyembre, Oktubre, Nobyembre, Disyembre, dengan sa di depannya: sa Mayo. Tanggal: ika + angka urut + ng + bulan: ikalima ng Mayo (atau ika-5 ng Mayo). Pertanyaan: Anong petsa ngayon? dan Kailan ang...? (Kapan...?)"
+      }
+    },
+    "items": [
+      {
+        "id": "tl19n1",
+        "target": "Mainit ngayon.",
+        "translit": "ma-I-nit nga-YON",
+        "tr": {
+          "ar": "الجو حار اليوم.",
+          "en": "It is hot today.",
+          "id": "Hari ini panas."
+        },
+        "example": {
+          "target": "Mainit sa Maynila tuwing Abril.",
+          "translit": "ma-I-nit sa may-NI-la TU-wing a-BRIL",
+          "tr": {
+            "ar": "الجو حار في مانيلا كل أبريل.",
+            "en": "It is hot in Manila every April.",
+            "id": "Di Manila panas setiap April."
+          }
+        },
+        "hint": {
+          "ar": "لا نحتاج فعل «يكون». ngayon تعني «اليوم/الآن».",
+          "en": "No verb to be is needed. Ngayon means today or now.",
+          "id": "Tidak perlu kata kerja be. Ngayon berarti hari ini atau sekarang."
+        }
+      },
+      {
+        "id": "tl19n2",
+        "target": "Umuulan ngayon.",
+        "translit": "u-mu-U-lan nga-YON",
+        "tr": {
+          "ar": "تمطر الآن.",
+          "en": "It is raining now.",
+          "id": "Sekarang sedang hujan."
+        },
+        "example": {
+          "target": "Umuulan sa labas.",
+          "translit": "u-mu-U-lan sa LA-bas",
+          "tr": {
+            "ar": "تمطر في الخارج.",
+            "en": "It is raining outside.",
+            "id": "Di luar sedang hujan."
+          }
+        },
+        "hint": {
+          "ar": "ulan (مطر) ← umuulan (تمطر الآن). والاسم ulan يعني المطر.",
+          "en": "Ulan (rain) gives umuulan (it is raining). Ulan itself is the noun rain.",
+          "id": "Ulan (hujan) menjadi umuulan (sedang hujan). Ulan sendiri adalah kata benda hujan."
+        }
+      },
+      {
+        "id": "tl19n3",
+        "target": "Malamig sa Baguio.",
+        "translit": "ma-LA-mig sa ba-GI-o",
+        "tr": {
+          "ar": "الجو بارد في باغيو.",
+          "en": "It is cold in Baguio.",
+          "id": "Di Baguio dingin."
+        },
+        "example": {
+          "target": "Malamig ang tubig.",
+          "translit": "ma-LA-mig ang tu-BIG",
+          "tr": {
+            "ar": "الماء بارد.",
+            "en": "The water is cold.",
+            "id": "Airnya dingin."
+          }
+        },
+        "hint": {
+          "ar": "باغيو مدينة جبلية باردة يزورها الناس هربًا من حر مانيلا.",
+          "en": "Baguio is a cool mountain city that people visit to escape Manila's heat.",
+          "id": "Baguio adalah kota pegunungan sejuk yang dikunjungi orang untuk menghindari panas Manila."
+        }
+      },
+      {
+        "id": "tl19n4",
+        "target": "Tag-ulan na.",
+        "translit": "tag-U-lan na",
+        "tr": {
+          "ar": "بدأ موسم الأمطار.",
+          "en": "The rainy season has begun.",
+          "id": "Musim hujan sudah tiba."
+        },
+        "example": {
+          "target": "Tag-init sa Abril.",
+          "translit": "tag-I-nit sa a-BRIL",
+          "tr": {
+            "ar": "أبريل في موسم الحر.",
+            "en": "April is in the hot season.",
+            "id": "April termasuk musim panas."
+          }
+        },
+        "hint": {
+          "ar": "na هنا تعني «الآن/صار». وtag-init يعني «موسم الحر».",
+          "en": "Na here means now or already. Tag-init means the hot season.",
+          "id": "Na di sini berarti sekarang atau sudah. Tag-init berarti musim panas."
+        }
+      },
+      {
+        "id": "tl19n5",
+        "target": "Anong petsa ngayon?",
+        "translit": "a-NONG PET-sa nga-YON",
+        "tr": {
+          "ar": "ما تاريخ اليوم؟",
+          "en": "What is the date today?",
+          "id": "Tanggal berapa hari ini?"
+        },
+        "example": {
+          "target": "Ikalima ng Mayo ngayon.",
+          "translit": "i-ka-LI-ma nang MA-yo nga-YON",
+          "tr": {
+            "ar": "اليوم الخامس من مايو.",
+            "en": "Today is the fifth of May.",
+            "id": "Hari ini tanggal lima Mei."
+          }
+        },
+        "hint": {
+          "ar": "anong هي ano + ng. وpetsa تعني «التاريخ». وتُسمع أيضًا الأرقام الإسبانية: Mayo singko.",
+          "en": "Anong is ano plus -ng. Petsa means date. You will also hear Spanish numbers: Mayo singko.",
+          "id": "Anong adalah ano + ng. Petsa berarti tanggal. Kamu juga akan mendengar angka Spanyol: Mayo singko."
+        }
+      },
+      {
+        "id": "tl19n6",
+        "target": "Kailan ang kaarawan mo?",
+        "translit": "ka-i-LAN ang ka-a-RA-wan mo",
+        "tr": {
+          "ar": "متى عيد ميلادك؟",
+          "en": "When is your birthday?",
+          "id": "Kapan ulang tahunmu?"
+        },
+        "example": {
+          "target": "Sa Hulyo ang kaarawan ko.",
+          "translit": "sa HUL-yo ang ka-a-RA-wan ko",
+          "tr": {
+            "ar": "عيد ميلادي في يوليو.",
+            "en": "My birthday is in July.",
+            "id": "Ulang tahunku bulan Juli."
+          }
+        },
+        "hint": {
+          "ar": "kailan تعني «متى». وkaarawan مشتقة من araw (يوم).",
+          "en": "Kailan means when. Kaarawan comes from araw (day).",
+          "id": "Kailan berarti kapan. Kaarawan berasal dari araw (hari)."
+        }
+      }
+    ],
+    "cloze": [
+      {
+        "sentence": "Ang tag-init ay ___.",
+        "answer": "mainit",
+        "wrong": [
+          "malamig",
+          "umuulan"
+        ],
+        "tr": {
+          "ar": "موسم الحر حار.",
+          "en": "The hot season is hot.",
+          "id": "Musim panas itu panas."
+        },
+        "why": {
+          "ar": "tag-init هو موسم الحر، فالوصف الصحيح mainit. malamig تعني بارد وumuulan تعني تمطر.",
+          "en": "Tag-init is the hot season, so the right word is mainit. Malamig means cold and umuulan means raining.",
+          "id": "Tag-init adalah musim panas, jadi kata yang benar mainit. Malamig berarti dingin dan umuulan berarti sedang hujan."
+        }
+      },
+      {
+        "sentence": "Ang kaarawan ko ay ___ Disyembre.",
+        "answer": "sa",
+        "wrong": [
+          "ng",
+          "ang"
+        ],
+        "tr": {
+          "ar": "عيد ميلادي في ديسمبر.",
+          "en": "My birthday is in December.",
+          "id": "Ulang tahunku bulan Desember."
+        },
+        "why": {
+          "ar": "قبل الشهر نضع sa: sa Disyembre. ng وang لا تناسبان هنا.",
+          "en": "Before a month we put sa: sa Disyembre. Ng and ang do not fit here.",
+          "id": "Sebelum nama bulan kita memakai sa: sa Disyembre. Ng dan ang tidak cocok di sini."
+        }
+      }
+    ],
+    "conversation": {
+      "context": {
+        "ar": "اتصال بين صديقين في مدينتين مختلفتين.",
+        "en": "A call between two friends in different cities.",
+        "id": "Telepon antara dua teman di kota berbeda."
+      },
+      "turns": [
+        {
+          "who": "A",
+          "target": "Kumusta ang panahon diyan?",
+          "tr": {
+            "ar": "كيف الطقس عندك؟",
+            "en": "How is the weather over there?",
+            "id": "Bagaimana cuaca di sana?"
+          }
+        },
+        {
+          "who": "B",
+          "target": "Mainit at maaraw.",
+          "tr": {
+            "ar": "حار ومشمس.",
+            "en": "Hot and sunny.",
+            "id": "Panas dan cerah."
+          }
+        },
+        {
+          "who": "A",
+          "target": "Dito sa Baguio, malamig at umuulan.",
+          "tr": {
+            "ar": "هنا في باغيو بارد وتمطر.",
+            "en": "Here in Baguio, it is cold and raining.",
+            "id": "Di sini di Baguio, dingin dan hujan."
+          }
+        }
+      ],
+      "gap": 1,
+      "wrong": [
+        "Sa Hulyo.",
+        "Dalawampung piso."
+      ],
+      "why": {
+        "ar": "سُئل عن الطقس فيصف الطقس. الردان الآخران يذكران شهرًا وسعرًا.",
+        "en": "He was asked about the weather, so he describes the weather. The other two replies give a month and a price.",
+        "id": "Ia ditanya tentang cuaca, jadi ia menjelaskan cuaca. Dua jawaban lain menyebut bulan dan harga."
+      }
+    },
+    "summary": {
+      "ar": "تعلمت وصف الطقس وأسماء الأشهر وكيف تذكر التاريخ. اكتب جملتين عن الطقس في مدينتك ومتى عيد ميلادك.",
+      "en": "You learned to describe the weather, the months and how to say a date. Write two sentences about the weather in your city and when your birthday is.",
+      "id": "Kamu belajar mendeskripsikan cuaca, bulan, dan cara menyebut tanggal. Tulislah dua kalimat tentang cuaca di kotamu dan kapan ulang tahunmu."
+    }
+  },
+  {
+    "id": "tl-20",
+    "track": "tl",
+    "level": "elementary",
+    "order": 20,
+    "topic": "questions-negation",
+    "icon": "❓",
+    "title": {
+      "ar": "الأسئلة والنفي",
+      "en": "Questions and Negation",
+      "id": "Pertanyaan dan Penyangkalan"
+    },
+    "description": {
+      "ar": "اسأل أسئلة كاملة وانفِ بـ hindi وwala وayaw.",
+      "en": "Ask full questions and say no with hindi, wala and ayaw.",
+      "id": "Ajukan pertanyaan lengkap dan menyangkal dengan hindi, wala, dan ayaw."
+    },
+    "objectives": [
+      {
+        "ar": "أستطيع طرح أسئلة نعم أو لا بـ ba.",
+        "en": "I can ask yes or no questions with ba.",
+        "id": "Saya bisa mengajukan pertanyaan ya atau tidak dengan ba."
+      },
+      {
+        "ar": "أستطيع استخدام ano وsino وsaan وkailan وbakit.",
+        "en": "I can use ano, sino, saan, kailan and bakit.",
+        "id": "Saya bisa memakai ano, sino, saan, kailan, dan bakit."
+      },
+      {
+        "ar": "أستطيع النفي بـ hindi وwala وayaw.",
+        "en": "I can say no with hindi, wala and ayaw.",
+        "id": "Saya bisa menyangkal dengan hindi, wala, dan ayaw."
+      }
+    ],
+    "intro": {
+      "ar": "هذا الدرس يجمع أدوات ستستعملها في كل محادثة: كلمات السؤال وكلمات النفي الثلاث. اختيار كلمة النفي الصحيحة هو أهم ما نتعلمه هنا، لأن التاغالوغية تفرّق بين «ليس» و«لا يوجد» و«لا أريد».",
+      "en": "This lesson gathers tools you will use in every conversation: the question words and the three negation words. Choosing the right negation word is the key skill here, because Tagalog separates not, there is none and do not want.",
+      "id": "Pelajaran ini mengumpulkan alat yang kamu pakai di setiap percakapan: kata tanya dan tiga kata penyangkal. Memilih kata penyangkal yang tepat adalah kunci, karena Tagalog membedakan tidak, tidak ada, dan tidak mau."
+    },
+    "culture": {
+      "ar": "الفلبينيون لا يحبون الرفض الصريح فيخففونه بكلمة po أو بـ «Sige, mamaya na lang» (حسنًا، لاحقًا). وعندما تُسأل Gutom ka ba؟ (هل أنت جائع؟) فالإجابة المعتادة Oo أو Hindi، ومع الكبار Opo أو Hindi po.",
+      "en": "Filipinos do not like blunt refusals, so they soften them with po or with Sige, mamaya na lang (okay, maybe later). When asked Gutom ka ba? (Are you hungry?) the usual answer is Oo or Hindi, and with elders Opo or Hindi po.",
+      "id": "Orang Filipina tidak suka penolakan blak-blakan, jadi dilembutkan dengan po atau Sige, mamaya na lang (baik, mungkin nanti). Ketika ditanya Gutom ka ba? (Apakah kamu lapar?) jawaban biasanya Oo atau Hindi, dan kepada orang tua Opo atau Hindi po."
+    },
+    "grammar": {
+      "title": {
+        "ar": "ba وhindi وwala وayaw وكلمات السؤال",
+        "en": "Ba, hindi, wala, ayaw and question words",
+        "id": "Ba, hindi, wala, ayaw, dan kata tanya"
+      },
+      "body": {
+        "ar": "ba بعد الكلمة الأولى تجعل الجملة سؤال نعم/لا: Gutom ka ba؟ ونجيب Oo أو Hindi. hindi تنفي الأفعال والصفات والأسماء: Hindi ako gutom. wala تنفي الوجود والملك: Wala akong pera. ayaw ضد gusto: Ayaw ko ng kape. وكلمات السؤال: ano (ماذا)، sino (من)، saan (أين)، kailan (متى)، bakit (لماذا).",
+        "en": "Ba after the first word makes a yes or no question: Gutom ka ba? We answer Oo or Hindi. Hindi negates verbs, adjectives and statements: Hindi ako gutom. Wala negates existence and possession: Wala akong pera. Ayaw is the opposite of gusto: Ayaw ko ng kape. Question words: ano (what), sino (who), saan (where), kailan (when), bakit (why).",
+        "id": "Ba setelah kata pertama membuat kalimat tanya ya atau tidak: Gutom ka ba? Dijawab Oo atau Hindi. Hindi menyangkal kata kerja, kata sifat, dan pernyataan: Hindi ako gutom. Wala menyangkal keberadaan dan kepemilikan: Wala akong pera. Ayaw adalah lawan gusto: Ayaw ko ng kape. Kata tanya: ano (apa), sino (siapa), saan (di mana), kailan (kapan), bakit (mengapa)."
+      }
+    },
+    "items": [
+      {
+        "id": "tl20n1",
+        "target": "Taga-Maynila ka ba?",
+        "translit": "ta-GA may-NI-la ka ba",
+        "tr": {
+          "ar": "هل أنت من مانيلا؟",
+          "en": "Are you from Manila?",
+          "id": "Apakah kamu dari Manila?"
+        },
+        "example": {
+          "target": "Gutom ka ba?",
+          "translit": "gu-TOM ka ba",
+          "tr": {
+            "ar": "هل أنت جائع؟",
+            "en": "Are you hungry?",
+            "id": "Apakah kamu lapar?"
+          }
+        },
+        "hint": {
+          "ar": "ba تأتي بعد الكلمة الأولى وبعد الضمير ka. والجواب: Oo أو Hindi. ومع الكبار: Opo أو Hindi po.",
+          "en": "Ba comes after the first word, and after the pronoun ka. Answer Oo or Hindi. With elders: Opo or Hindi po.",
+          "id": "Ba datang setelah kata pertama dan setelah kata ganti ka. Jawab Oo atau Hindi. Kepada orang tua: Opo atau Hindi po."
+        }
+      },
+      {
+        "id": "tl20n2",
+        "target": "Sino siya?",
+        "translit": "si-NO si-YA",
+        "tr": {
+          "ar": "من هو؟",
+          "en": "Who is he or she?",
+          "id": "Siapa dia?"
+        },
+        "example": {
+          "target": "Sino ang kasama mo?",
+          "translit": "si-NO ang ka-SA-ma mo",
+          "tr": {
+            "ar": "من معك؟",
+            "en": "Who is with you?",
+            "id": "Siapa yang bersamamu?"
+          }
+        },
+        "hint": {
+          "ar": "sino تسأل عن الشخص. وkasama تعني «رفيق/مع».",
+          "en": "Sino asks about a person. Kasama means companion or with.",
+          "id": "Sino menanyakan orang. Kasama berarti teman atau bersama."
+        }
+      },
+      {
+        "id": "tl20n3",
+        "target": "Saan ka pupunta?",
+        "translit": "sa-AN ka pu-PUN-ta",
+        "tr": {
+          "ar": "إلى أين أنت ذاهب؟",
+          "en": "Where are you going?",
+          "id": "Kamu mau pergi ke mana?"
+        },
+        "example": {
+          "target": "Saan ka nakatira?",
+          "translit": "sa-AN ka na-ka-ti-RA",
+          "tr": {
+            "ar": "أين تسكن؟",
+            "en": "Where do you live?",
+            "id": "Kamu tinggal di mana?"
+          }
+        },
+        "hint": {
+          "ar": "saan تسأل عن المكان، وتستعمل مع الضمير ka. وnakatira تعني «يسكن».",
+          "en": "Saan asks about place and goes with the pronoun ka. Nakatira means lives.",
+          "id": "Saan menanyakan tempat dan dipakai dengan kata ganti ka. Nakatira berarti tinggal."
+        }
+      },
+      {
+        "id": "tl20n4",
+        "target": "Bakit hindi ka kumain?",
+        "translit": "ba-KIT hin-DI ka ku-MA-in",
+        "tr": {
+          "ar": "لماذا لم تأكل؟",
+          "en": "Why did you not eat?",
+          "id": "Mengapa kamu tidak makan?"
+        },
+        "example": {
+          "target": "Bakit ka late?",
+          "translit": "ba-KIT ka leyt",
+          "tr": {
+            "ar": "لماذا تأخرت؟",
+            "en": "Why are you late?",
+            "id": "Mengapa kamu terlambat?"
+          }
+        },
+        "hint": {
+          "ar": "bakit تعني «لماذا». وhindi تأتي قبل ما تنفيه: Hindi ka kumain.",
+          "en": "Bakit means why. Hindi comes before what it negates: Hindi ka kumain.",
+          "id": "Bakit berarti mengapa. Hindi datang sebelum yang disangkal: Hindi ka kumain."
+        }
+      },
+      {
+        "id": "tl20n5",
+        "target": "Wala akong pera.",
+        "translit": "wa-LA a-KONG PE-ra",
+        "tr": {
+          "ar": "ليس معي نقود.",
+          "en": "I have no money.",
+          "id": "Saya tidak punya uang."
+        },
+        "example": {
+          "target": "Wala siyang kapatid.",
+          "translit": "wa-LA si-YANG ka-PA-tid",
+          "tr": {
+            "ar": "ليس له إخوة.",
+            "en": "He or she has no siblings.",
+            "id": "Dia tidak punya saudara."
+          }
+        },
+        "hint": {
+          "ar": "wala تنفي الوجود أو الملك. وpera تعني «مال». وkapatid تعني «أخ أو أخت».",
+          "en": "Wala negates existence or possession. Pera means money. Kapatid means sibling.",
+          "id": "Wala menyangkal keberadaan atau kepemilikan. Pera berarti uang. Kapatid berarti saudara kandung."
+        }
+      },
+      {
+        "id": "tl20n6",
+        "target": "Ayaw ko ng kape.",
+        "translit": "a-YAW ko nang ka-PE",
+        "tr": {
+          "ar": "لا أريد القهوة.",
+          "en": "I do not want coffee.",
+          "id": "Saya tidak mau kopi."
+        },
+        "example": {
+          "target": "Ayaw niya ng gulay.",
+          "translit": "a-YAW ni-YA nang gu-LAY",
+          "tr": {
+            "ar": "هو لا يريد الخضار.",
+            "en": "He or she does not want vegetables.",
+            "id": "Dia tidak mau sayur."
+          }
+        },
+        "hint": {
+          "ar": "ayaw عكس gusto وتأتي بصيغة Ayaw ko ng... ولا نضيف معها hindi.",
+          "en": "Ayaw is the opposite of gusto and is used as Ayaw ko ng... Do not add hindi.",
+          "id": "Ayaw adalah lawan gusto dan dipakai sebagai Ayaw ko ng... Jangan menambahkan hindi."
+        }
+      }
+    ],
+    "cloze": [
+      {
+        "sentence": "___ ka pupunta bukas?",
+        "answer": "Saan",
+        "wrong": [
+          "Sino",
+          "Ano"
+        ],
+        "tr": {
+          "ar": "إلى أين ستذهب غدًا؟",
+          "en": "Where are you going tomorrow?",
+          "id": "Kamu akan pergi ke mana besok?"
+        },
+        "why": {
+          "ar": "نسأل عن المكان بـ saan. sino للأشخاص وano للأشياء ولا تركّبان مع pupunta.",
+          "en": "We ask about place with saan. Sino is for people and ano for things, and neither fits with pupunta.",
+          "id": "Kita menanyakan tempat dengan saan. Sino untuk orang dan ano untuk benda, dan keduanya tidak cocok dengan pupunta."
+        }
+      },
+      {
+        "sentence": "___ akong pera.",
+        "answer": "Wala",
+        "wrong": [
+          "Hindi",
+          "Ayaw"
+        ],
+        "tr": {
+          "ar": "ليس معي نقود.",
+          "en": "I have no money.",
+          "id": "Saya tidak punya uang."
+        },
+        "why": {
+          "ar": "لنفي الملك نستعمل wala: Wala akong pera. hindi وayaw لا تُستعملان مع ما نملكه.",
+          "en": "To deny possession we use wala: Wala akong pera. Hindi and ayaw are not used for what we own.",
+          "id": "Untuk menyangkal kepemilikan kita pakai wala: Wala akong pera. Hindi dan ayaw tidak dipakai untuk apa yang kita miliki."
+        }
+      }
+    ],
+    "conversation": {
+      "context": {
+        "ar": "في حفلة: شخصان يتعارفان.",
+        "en": "At a party: two people get to know each other.",
+        "id": "Di sebuah pesta: dua orang berkenalan."
+      },
+      "turns": [
+        {
+          "who": "A",
+          "target": "Taga-Maynila ka ba?",
+          "tr": {
+            "ar": "هل أنت من مانيلا؟",
+            "en": "Are you from Manila?",
+            "id": "Apakah kamu dari Manila?"
+          }
+        },
+        {
+          "who": "B",
+          "target": "Hindi, taga-Cebu ako. Ikaw?",
+          "tr": {
+            "ar": "لا، أنا من سيبو. وأنت؟",
+            "en": "No, I am from Cebu. And you?",
+            "id": "Bukan, saya dari Cebu. Kamu?"
+          }
+        },
+        {
+          "who": "A",
+          "target": "Ah, ganoon ba? Ako, taga-Quezon City.",
+          "tr": {
+            "ar": "آه، فهمت! أنا من كيزون سيتي.",
+            "en": "Oh, I see! I am from Quezon City.",
+            "id": "Oh, begitu! Saya dari Quezon City."
+          }
+        }
+      ],
+      "gap": 1,
+      "wrong": [
+        "Oo, gutom ako.",
+        "Wala akong pera."
+      ],
+      "why": {
+        "ar": "هذا سؤال نعم أو لا عن الأصل، والجواب الصحيح Hindi مع ذكر الأصل ثم السؤال بالمثل. الردان الآخران لا يجيبان عن السؤال.",
+        "en": "It is a yes or no question about origin, so the right answer is Hindi plus the real origin, then asking back. The other two replies do not answer the question.",
+        "id": "Ini pertanyaan ya atau tidak tentang asal, jadi jawaban yang benar adalah Hindi dan asal sebenarnya, lalu bertanya balik. Dua jawaban lain tidak menjawab pertanyaan."
+      }
+    },
+    "summary": {
+      "ar": "تعلمت أدوات السؤال وكلمات النفي الثلاث: hindi وwala وayaw. اطرح على نفسك ثلاثة أسئلة بـ saan وbakit وba وأجب عنها.",
+      "en": "You learned the question tools and the three negation words: hindi, wala and ayaw. Ask yourself three questions with saan, bakit and ba and answer them.",
+      "id": "Kamu belajar alat pertanyaan dan tiga kata penyangkal: hindi, wala, dan ayaw. Ajukan tiga pertanyaan pada dirimu dengan saan, bakit, dan ba lalu jawablah."
+    }
+  }
+]

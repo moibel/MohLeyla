@@ -3,14 +3,14 @@ import AxeBuilder from '@axe-core/playwright';
 import { seed, getLesson, playThrough } from './helpers.js';
 
 test.use({ serviceWorkers: 'block' });
-const NEW = ['eg', 'fr', 'es', 'zh'];
+const NEW = ['eg', 'fr', 'es', 'zh', 'de', 'tl'];
 
-test.describe('new beta languages: Egyptian Arabic, French, Spanish, Chinese', () => {
+test.describe('new beta languages: Egyptian Arabic, French, Spanish, Chinese, German, Tagalog', () => {
   for (const lang of ['en', 'ar', 'id']) {
-    test(`${lang}: the home page offers all eight paths and marks exactly the four new ones Beta`, async ({ page }) => {
+    test(`${lang}: the home page offers all ten paths and marks exactly the six new ones Beta`, async ({ page }) => {
       await seed(page, { lang });
       await page.goto('/');
-      await expect(page.locator('.track-grid .track-card')).toHaveCount(8);
+      await expect(page.locator('.track-grid .track-card')).toHaveCount(10);
       for (const t of NEW) await expect(page.locator(`[data-testid="beta-${t}"]`)).toBeVisible();
       for (const t of ['ar', 'sa', 'en', 'id']) await expect(page.locator(`[data-testid="beta-${t}"]`)).toHaveCount(0);
       const axe = await new AxeBuilder({ page }).withTags(['wcag2a', 'wcag2aa']).analyze();
@@ -60,6 +60,6 @@ test.describe('new beta languages: Egyptian Arabic, French, Spanish, Chinese', (
     await page.goto('/learn');
     await page.locator('[role="tab"]').first().waitFor();
     const order = await page.locator('[role="tab"]').evaluateAll((els) => els.map((e) => e.dataset.testid.replace('track-', '')));
-    expect(order).toEqual(['en', 'id', 'fr', 'es', 'zh', 'ar', 'sa', 'eg']);
+    expect(order).toEqual(['en', 'id', 'fr', 'es', 'de', 'tl', 'zh', 'ar', 'sa', 'eg']);
   });
 });

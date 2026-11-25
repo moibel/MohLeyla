@@ -8,17 +8,17 @@ test.describe('learning paths are ordered by interface language', () => {
   test('Arabic interface: English and Indonesian first, Arabic paths last; default path is English', async ({ page }) => {
     await seed(page, { lang: 'ar' });
     await page.goto('/learn');
-    expect(await order(page)).toEqual(['en', 'id', 'fr', 'es', 'zh', 'ar', 'sa', 'eg']);
+    expect(await order(page)).toEqual(['en', 'id', 'fr', 'es', 'de', 'tl', 'zh', 'ar', 'sa', 'eg']);
     await expect(page.locator('[data-testid="track-en"]')).toHaveAttribute('aria-selected', 'true');
     await page.goto('/');
     const cards = await page.locator('.track-grid .track-card').evaluateAll((els) => els.map((e) => e.getAttribute('href')));
-    expect(cards.map((h) => h.split('=')[1])).toEqual(['en', 'id', 'fr', 'es', 'zh', 'ar', 'sa', 'eg']);
+    expect(cards.map((h) => h.split('=')[1])).toEqual(['en', 'id', 'fr', 'es', 'de', 'tl', 'zh', 'ar', 'sa', 'eg']);
   });
   for (const lang of ['en', 'id']) {
     test(`${lang} interface: Arabic paths first; default path is Arabic`, async ({ page }) => {
       await seed(page, { lang });
       await page.goto('/learn');
-      expect(await order(page)).toEqual(['ar', 'sa', 'eg', 'en', 'id', 'fr', 'es', 'zh']);
+      expect(await order(page)).toEqual(['ar', 'sa', 'eg', 'en', 'id', 'fr', 'es', 'de', 'tl', 'zh']);
       await expect(page.locator('[data-testid="track-ar"]')).toHaveAttribute('aria-selected', 'true');
     });
   }

@@ -1,0 +1,2922 @@
+[
+  {
+    "id": "de-21",
+    "track": "de",
+    "level": "intermediate",
+    "order": 21,
+    "topic": "past-haben",
+    "icon": "📅",
+    "title": {
+      "ar": "ماذا فعلتُ أمس؟",
+      "en": "What I Did Yesterday",
+      "id": "Apa yang Saya Lakukan Kemarin"
+    },
+    "description": {
+      "ar": "تعلّم الماضي التام (Perfekt) مع «haben» لتحكي ما فعلتَه أمس وفي نهاية الأسبوع.",
+      "en": "Learn the Perfekt with haben to tell what you did yesterday and at the weekend.",
+      "id": "Pelajari Perfekt dengan haben untuk menceritakan apa yang Anda lakukan kemarin dan akhir pekan."
+    },
+    "objectives": [
+      {
+        "ar": "أستطيع تكوين الماضي بـ«haben» واسم المفعول: «ich habe gearbeitet».",
+        "en": "I can form the past with haben and a Partizip II: ich habe gearbeitet.",
+        "id": "Saya bisa membentuk kala lampau dengan haben dan Partizip II: ich habe gearbeitet."
+      },
+      {
+        "ar": "أعرف أسماء المفعول الشائعة: gemacht وgegessen وgesehen وgetrunken.",
+        "en": "I know common participles: gemacht, gegessen, gesehen, getrunken.",
+        "id": "Saya tahu Partizip II yang umum: gemacht, gegessen, gesehen, getrunken."
+      },
+      {
+        "ar": "أستطيع نفي الماضي وذكر الزمن: «nicht geschlafen» و«gestern».",
+        "en": "I can make the past negative and give time words such as gestern.",
+        "id": "Saya bisa membuat kalimat lampau negatif dan menyebut penanda waktu seperti gestern."
+      }
+    ],
+    "intro": {
+      "ar": "في الألمانية اليومية نحكي ما حدث بالـPerfekt. يتكوّن من فعل مساعد (هنا «haben» في الموضع الثاني) واسم مفعول في آخر الجملة. في هذا الدرس تتعلم أن تقول ما عملتَه وما أكلتَه وما شاهدتَه، وكيف تنفي.",
+      "en": "In everyday German we tell what happened with the Perfekt. It has an auxiliary verb (here haben, in second place) and a Partizip II at the end of the sentence. In this lesson you learn to say what you did, ate and saw, and how to make it negative.",
+      "id": "Dalam bahasa Jerman sehari-hari kita menceritakan kejadian dengan Perfekt. Bentuknya terdiri dari kata kerja bantu (di sini haben, di posisi kedua) dan Partizip II di akhir kalimat. Di pelajaran ini Anda belajar menyebut apa yang dikerjakan, dimakan, dan ditonton, serta cara membuatnya negatif."
+    },
+    "culture": {
+      "ar": "يسأل الألمان بعضهم يوم الاثنين غالبًا: «Was hast du am Wochenende gemacht؟» أي ماذا فعلتَ في عطلة نهاية الأسبوع؟ وهو افتتاح ودّي للحديث بين الزملاء. أما الـPräteritum فتكاد تقتصر في الكلام على «war» و«hatte».",
+      "en": "On Monday Germans often ask each other Was hast du am Wochenende gemacht?, what did you do at the weekend? It is a friendly way to open a chat with colleagues. In speech, the Präteritum is mostly limited to war and hatte.",
+      "id": "Pada hari Senin orang Jerman sering bertanya Was hast du am Wochenende gemacht?, apa yang kamu lakukan akhir pekan? Itu cara ramah membuka obrolan dengan rekan kerja. Dalam percakapan, Präteritum hampir hanya dipakai untuk war dan hatte."
+    },
+    "grammar": {
+      "title": {
+        "ar": "الماضي التام مع «haben»",
+        "en": "The Perfekt with haben",
+        "id": "Perfekt dengan haben"
+      },
+      "body": {
+        "ar": "نضع «haben» في المضارع في الموضع الثاني (ich habe, du hast, er hat, wir haben, ihr habt, sie haben) ونضع اسم المفعول (Partizip II) في آخر الجملة. في الأفعال المنتظمة: ge + جذر + t، مثل machen ← gemacht وarbeiten ← gearbeitet (نضيف e قبل t إذا انتهى الجذر بـ d أو t). وبعض الأفعال قويّة: essen ← gegessen، sehen ← gesehen، trinken ← getrunken، schlafen ← geschlafen. وفي النفي تأتي «nicht» قبل اسم المفعول: «Ich habe nicht geschlafen».",
+        "en": "Put haben in the present in second place (ich habe, du hast, er hat, wir haben, ihr habt, sie haben) and the Partizip II at the end. Regular verbs use ge + stem + t: machen becomes gemacht; arbeiten becomes gearbeitet (an extra e after d or t). Strong verbs must be learned: essen is gegessen, sehen is gesehen, trinken is getrunken, schlafen is geschlafen. In the negative, nicht comes before the participle: Ich habe nicht geschlafen.",
+        "id": "Letakkan haben dalam kala sekarang di posisi kedua (ich habe, du hast, er hat, wir haben, ihr habt, sie haben) dan Partizip II di akhir kalimat. Kata kerja beraturan memakai ge + akar + t: machen menjadi gemacht; arbeiten menjadi gearbeitet (ada e tambahan setelah d atau t). Kata kerja kuat harus dihafal: essen menjadi gegessen, sehen menjadi gesehen, trinken menjadi getrunken, schlafen menjadi geschlafen. Pada kalimat negatif, nicht diletakkan sebelum participle: Ich habe nicht geschlafen."
+      }
+    },
+    "items": [
+      {
+        "id": "de21n1",
+        "target": "Gestern habe ich gearbeitet.",
+        "translit": "GEHS-tern HAH-buh iç guh-AR-bye-tet",
+        "tr": {
+          "ar": "أمس عملتُ.",
+          "en": "Yesterday I worked.",
+          "id": "Kemarin saya bekerja."
+        },
+        "example": {
+          "target": "Gestern habe ich im Büro gearbeitet.",
+          "translit": "GEHS-tern HAH-buh iç im BEW-roh guh-AR-bye-tet",
+          "tr": {
+            "ar": "أمس عملتُ في المكتب.",
+            "en": "Yesterday I worked in the office.",
+            "id": "Kemarin saya bekerja di kantor."
+          }
+        },
+        "hint": {
+          "ar": "بعد «gestern» يأتي الفعل ثانيًا ثم الفاعل: habe ich. وتُنطق ch بعد i صوتًا هامسًا ناعمًا (ç).",
+          "en": "After gestern the verb comes second, so the subject follows: habe ich. The ch after i is the soft ç sound.",
+          "id": "Setelah gestern, kata kerja berada di posisi kedua, jadi subjek menyusul: habe ich. Ch setelah i dibaca ç, bunyi lembut."
+        }
+      },
+      {
+        "id": "de21n2",
+        "target": "Was hast du gemacht?",
+        "translit": "vahs hahst doo guh-MAKHT",
+        "tr": {
+          "ar": "ماذا فعلتَ؟",
+          "en": "What did you do?",
+          "id": "Apa yang kamu lakukan?"
+        },
+        "example": {
+          "target": "Was hast du am Wochenende gemacht?",
+          "translit": "vahs hahst doo ahm VO-khen-en-duh guh-MAKHT",
+          "tr": {
+            "ar": "ماذا فعلتَ في عطلة نهاية الأسبوع؟",
+            "en": "What did you do at the weekend?",
+            "id": "Apa yang kamu lakukan akhir pekan?"
+          }
+        },
+        "hint": {
+          "ar": "هذا سؤال بصيغة «du» بين الأصدقاء. ومع شخص لا تعرفه قل: «Was haben Sie gemacht؟». وch في gemacht بعد a فتُنطق kh.",
+          "en": "This is the du form for friends. With someone you do not know say Was haben Sie gemacht? The ch after a is kh.",
+          "id": "Ini bentuk du untuk teman. Untuk orang yang tidak dikenal katakan Was haben Sie gemacht? Ch setelah a dibaca kh."
+        }
+      },
+      {
+        "id": "de21n3",
+        "target": "Ich habe im Restaurant gegessen.",
+        "translit": "iç HAH-buh im res-to-RAHNG guh-GEH-sen",
+        "tr": {
+          "ar": "أكلتُ في المطعم.",
+          "en": "I ate at a restaurant.",
+          "id": "Saya makan di restoran."
+        },
+        "example": {
+          "target": "Am Samstag habe ich mit Lisa im Restaurant gegessen.",
+          "translit": "ahm ZAHMS-tahk HAH-buh iç mit LEE-zah im res-to-RAHNG guh-GEH-sen",
+          "tr": {
+            "ar": "يوم السبت أكلتُ مع ليزا في المطعم.",
+            "en": "On Saturday I ate at a restaurant with Lisa.",
+            "id": "Hari Sabtu saya makan di restoran bersama Lisa."
+          }
+        },
+        "hint": {
+          "ar": "اسم المفعول من «essen» هو «gegessen» (غير منتظم). وفي الجملة الرئيسية يبقى دائمًا في آخرها.",
+          "en": "The participle of essen is gegessen (irregular). In a main clause it always stays at the end.",
+          "id": "Partizip dari essen adalah gegessen (tak beraturan). Dalam kalimat utama ia selalu berada di akhir."
+        }
+      },
+      {
+        "id": "de21n4",
+        "target": "Wir haben einen Film gesehen.",
+        "translit": "veer HAH-ben EYE-nen film guh-ZAY-en",
+        "tr": {
+          "ar": "شاهدنا فيلمًا.",
+          "en": "We saw a film.",
+          "id": "Kami menonton sebuah film."
+        },
+        "example": {
+          "target": "Gestern Abend haben wir einen lustigen Film gesehen.",
+          "translit": "GEHS-tern AH-bent HAH-ben veer EYE-nen LOOS-tee-gen film guh-ZAY-en",
+          "tr": {
+            "ar": "مساء أمس شاهدنا فيلمًا مضحكًا.",
+            "en": "Last night we saw a funny film.",
+            "id": "Tadi malam kami menonton film yang lucu."
+          }
+        },
+        "hint": {
+          "ar": "«sehen» ← «gesehen». ونقول «einen Film» لأن Film مذكّر ومفعول به (حالة النصب).",
+          "en": "Sehen becomes gesehen. We say einen Film because Film is masculine and the direct object (accusative).",
+          "id": "Sehen menjadi gesehen. Kita bilang einen Film karena Film maskulin dan menjadi objek langsung (akusatif)."
+        }
+      },
+      {
+        "id": "de21n5",
+        "target": "Ich habe nicht geschlafen.",
+        "translit": "iç HAH-buh niçt guh-SHLAH-fen",
+        "tr": {
+          "ar": "لم أنم.",
+          "en": "I did not sleep.",
+          "id": "Saya tidak tidur."
+        },
+        "example": {
+          "target": "Ich habe letzte Nacht nicht geschlafen.",
+          "translit": "iç HAH-buh LETS-tuh nakht niçt guh-SHLAH-fen",
+          "tr": {
+            "ar": "لم أنم الليلة الماضية.",
+            "en": "I did not sleep last night.",
+            "id": "Saya tidak tidur semalam."
+          }
+        },
+        "hint": {
+          "ar": "تأتي «nicht» قبل اسم المفعول مباشرة. وتُنطق sch «sh» وch في Nacht «kh».",
+          "en": "Nicht comes right before the participle. Sch is said sh, and ch in Nacht is kh.",
+          "id": "Nicht diletakkan tepat sebelum participle. Sch dibaca sh, dan ch dalam Nacht dibaca kh."
+        }
+      },
+      {
+        "id": "de21n6",
+        "target": "Hast du schon gefrühstückt?",
+        "translit": "hahst doo shohn guh-FREW-shtewkt",
+        "tr": {
+          "ar": "هل تناولتَ الفطور بعد؟",
+          "en": "Have you had breakfast yet?",
+          "id": "Sudahkah kamu sarapan?"
+        },
+        "example": {
+          "target": "Nein, ich habe noch nicht gefrühstückt.",
+          "translit": "nine iç HAH-buh nokh niçt guh-FREW-shtewkt",
+          "tr": {
+            "ar": "لا، لم أتناول الفطور بعد.",
+            "en": "No, I have not had breakfast yet.",
+            "id": "Belum, saya belum sarapan."
+          }
+        },
+        "hint": {
+          "ar": "«schon» تعني «بالفعل» و«noch nicht» تعني «ليس بعد»، وهما شائعتان مع الـPerfekt. و«frühstücken» منتظم: gefrühstückt. هذه صيغة du؛ ومع شخص غريب قل: Haben Sie schon gefrühstückt؟",
+          "en": "Schon (already) and noch nicht (not yet) are very common with the Perfekt. Frühstücken is regular: gefrühstückt. This is the du form; to a stranger say Haben Sie schon gefrühstückt?",
+          "id": "Schon (sudah) dan noch nicht (belum) sangat umum dengan Perfekt. Frühstücken beraturan: gefrühstückt. Ini bentuk du; kepada orang asing katakan Haben Sie schon gefrühstückt?"
+        }
+      }
+    ],
+    "cloze": [
+      {
+        "sentence": "Gestern ___ ich Pizza gegessen.",
+        "answer": "habe",
+        "wrong": [
+          "bin",
+          "hat"
+        ],
+        "tr": {
+          "ar": "أمس أكلتُ بيتزا.",
+          "en": "Yesterday I ate pizza.",
+          "id": "Kemarin saya makan pizza."
+        },
+        "why": {
+          "ar": "مع «ich» نقول «habe» والفعل «essen» يأخذ «haben». «bin» غير مناسب، و«hat» للغائب.",
+          "en": "With ich we say habe, and essen takes haben. Bin is the wrong auxiliary and hat belongs to er/sie/es.",
+          "id": "Dengan ich dipakai habe, dan essen memakai haben. Bin salah sebagai kata kerja bantu dan hat untuk er/sie/es."
+        }
+      },
+      {
+        "sentence": "Wir haben einen Film ___.",
+        "answer": "gesehen",
+        "wrong": [
+          "sehen",
+          "siehst"
+        ],
+        "tr": {
+          "ar": "شاهدنا فيلمًا.",
+          "en": "We saw a film.",
+          "id": "Kami menonton sebuah film."
+        },
+        "why": {
+          "ar": "بعد «haben» يأتي اسم المفعول في آخر الجملة: gesehen. أما «sehen» فمصدر و«siehst» مضارع.",
+          "en": "After haben the Partizip II stands at the end: gesehen. Sehen is the infinitive and siehst is a present form.",
+          "id": "Setelah haben, Partizip II ada di akhir: gesehen. Sehen adalah infinitif dan siehst adalah bentuk sekarang."
+        }
+      }
+    ],
+    "conversation": {
+      "context": {
+        "ar": "صديقان يتحدثان صباح الاثنين (du).",
+        "en": "Two friends talk on Monday morning (du).",
+        "id": "Dua teman mengobrol pada Senin pagi (du)."
+      },
+      "turns": [
+        {
+          "who": "A",
+          "target": "Was hast du am Wochenende gemacht?",
+          "tr": {
+            "ar": "ماذا فعلتَ في عطلة نهاية الأسبوع؟",
+            "en": "What did you do at the weekend?",
+            "id": "Apa yang kamu lakukan akhir pekan?"
+          }
+        },
+        {
+          "who": "B",
+          "target": "Ich habe Fußball gespielt.",
+          "tr": {
+            "ar": "لعبتُ كرة القدم.",
+            "en": "I played football.",
+            "id": "Saya bermain sepak bola."
+          }
+        },
+        {
+          "who": "A",
+          "target": "Super! Und am Sonntag?",
+          "tr": {
+            "ar": "رائع! وماذا عن يوم الأحد؟",
+            "en": "Great! And on Sunday?",
+            "id": "Hebat! Dan hari Minggu?"
+          }
+        }
+      ],
+      "gap": 1,
+      "wrong": [
+        "Ich spiele jetzt Fußball.",
+        "Du hast gearbeitet."
+      ],
+      "why": {
+        "ar": "السؤال في الماضي (hast du gemacht)، فالجواب الصحيح في الماضي أيضًا: «Ich habe Fußball gespielt». «Ich spiele jetzt» مضارع، و«Du hast gearbeitet» يتحدث عن المخاطَب لا عن المتحدث.",
+        "en": "The question is in the past, so the answer is too: Ich habe Fußball gespielt. Ich spiele jetzt is present, and Du hast gearbeitet talks about the other person, not the speaker.",
+        "id": "Pertanyaannya dalam kala lampau, jadi jawabannya juga: Ich habe Fußball gespielt. Ich spiele jetzt adalah kala sekarang, dan Du hast gearbeitet membicarakan lawan bicara, bukan pembicara."
+      }
+    },
+    "summary": {
+      "ar": "تعلّمتَ تكوين الـPerfekt مع «haben»: فعل مساعد ثانيًا واسم مفعول في الآخر. وتعرف gemacht وgegessen وgesehen وgeschlafen وتنفي بـ«nicht».",
+      "en": "You learned to build the Perfekt with haben: the auxiliary in second place and the Partizip II at the end. You know gemacht, gegessen, gesehen, geschlafen and how to negate with nicht.",
+      "id": "Anda belajar membentuk Perfekt dengan haben: kata kerja bantu di posisi kedua dan Partizip II di akhir. Anda tahu gemacht, gegessen, gesehen, geschlafen dan cara menegasi dengan nicht."
+    }
+  },
+  {
+    "id": "de-22",
+    "track": "de",
+    "level": "intermediate",
+    "order": 22,
+    "topic": "past-sein-trip",
+    "icon": "🚆",
+    "title": {
+      "ar": "رحلة ليوم واحد",
+      "en": "A Day Trip",
+      "id": "Perjalanan Sehari"
+    },
+    "description": {
+      "ar": "تعلّم الماضي التام مع «sein» لتحكي عن رحلة وعن أماكن ذهبتَ إليها.",
+      "en": "Learn the Perfekt with sein to tell about a trip and the places you went to.",
+      "id": "Pelajari Perfekt dengan sein untuk menceritakan perjalanan dan tempat yang Anda kunjungi."
+    },
+    "objectives": [
+      {
+        "ar": "أعرف أن أفعال الحركة تأخذ «sein»: «ich bin gefahren».",
+        "en": "I know that verbs of movement take sein: ich bin gefahren.",
+        "id": "Saya tahu kata kerja gerakan memakai sein: ich bin gefahren."
+      },
+      {
+        "ar": "أستطيع استعمال gefahren وgegangen وgekommen وgeblieben.",
+        "en": "I can use gefahren, gegangen, gekommen and geblieben.",
+        "id": "Saya bisa memakai gefahren, gegangen, gekommen, dan geblieben."
+      },
+      {
+        "ar": "أستطيع أن أسأل «Bist du ... gefahren؟» وأحكي عن رحلتي.",
+        "en": "I can ask Bist du ... gefahren? and tell about my own trip.",
+        "id": "Saya bisa bertanya Bist du ... gefahren? dan menceritakan perjalanan saya."
+      }
+    ],
+    "intro": {
+      "ar": "بعض الأفعال لا تأخذ «haben» في الماضي بل «sein»، خاصة الأفعال التي تعبّر عن الانتقال من مكان إلى آخر. ستحكي هنا عن رحلة بالقطار وعن يوم قضيتَه في المدينة.",
+      "en": "Some verbs do not take haben in the Perfekt but sein, especially verbs that show moving from one place to another. Here you will talk about a train trip and a day in the city.",
+      "id": "Beberapa kata kerja tidak memakai haben dalam Perfekt, tetapi sein, terutama yang menunjukkan perpindahan tempat. Di sini Anda akan bercerita tentang perjalanan dengan kereta dan sehari di kota."
+    },
+    "culture": {
+      "ar": "في ألمانيا كثيرون يسافرون في نهاية الأسبوع بتذكرة «Deutschlandticket» الشهرية إلى مدن قريبة. وسؤال «Wohin bist du gefahren؟» أي إلى أين سافرتَ، سؤال طبيعي بعد العطلة.",
+      "en": "Many people in Germany take short weekend trips to nearby towns with the monthly Deutschlandticket. Wohin bist du gefahren?, where did you go, is a natural question after a holiday.",
+      "id": "Banyak orang di Jerman bepergian singkat akhir pekan ke kota terdekat dengan tiket bulanan Deutschlandticket. Wohin bist du gefahren?, ke mana kamu pergi, adalah pertanyaan wajar setelah liburan."
+    },
+    "grammar": {
+      "title": {
+        "ar": "الماضي التام مع «sein»",
+        "en": "The Perfekt with sein",
+        "id": "Perfekt dengan sein"
+      },
+      "body": {
+        "ar": "أفعال الحركة وتغيّر الحال تأخذ «sein» (ich bin, du bist, er ist, wir sind, ihr seid, sie sind) مع اسم المفعول: fahren ← gefahren، gehen ← gegangen، kommen ← gekommen، aufstehen ← aufgestanden. ويأخذ «bleiben» أيضًا «sein»: «ich bin geblieben». أما «machen» و«essen» فتبقى مع «haben». وفي الأفعال المنفصلة يقع ge بين البادئة والجذر: auf-ge-standen، an-ge-kommen.",
+        "en": "Verbs of movement and change of state take sein (ich bin, du bist, er ist, wir sind, ihr seid, sie sind) with the participle: fahren becomes gefahren, gehen becomes gegangen, kommen becomes gekommen, aufstehen becomes aufgestanden. Bleiben also takes sein: ich bin geblieben. Machen and essen stay with haben. In separable verbs ge goes between prefix and stem: auf-ge-standen, an-ge-kommen.",
+        "id": "Kata kerja gerakan dan perubahan keadaan memakai sein (ich bin, du bist, er ist, wir sind, ihr seid, sie sind) dengan participle: fahren menjadi gefahren, gehen menjadi gegangen, kommen menjadi gekommen, aufstehen menjadi aufgestanden. Bleiben juga memakai sein: ich bin geblieben. Machen dan essen tetap dengan haben. Pada kata kerja terpisah, ge berada di antara awalan dan akar: auf-ge-standen, an-ge-kommen."
+      }
+    },
+    "items": [
+      {
+        "id": "de22n1",
+        "target": "Ich bin nach Hamburg gefahren.",
+        "translit": "iç bin nahkh HAHM-boork guh-FAH-ren",
+        "tr": {
+          "ar": "سافرتُ إلى هامبورغ.",
+          "en": "I went to Hamburg.",
+          "id": "Saya pergi ke Hamburg."
+        },
+        "example": {
+          "target": "Am Sonntag bin ich nach Hamburg gefahren.",
+          "translit": "ahm ZON-tahk bin iç nahkh HAHM-boork guh-FAH-ren",
+          "tr": {
+            "ar": "يوم الأحد سافرتُ إلى هامبورغ.",
+            "en": "On Sunday I went to Hamburg.",
+            "id": "Hari Minggu saya pergi ke Hamburg."
+          }
+        },
+        "hint": {
+          "ar": "«fahren» ← «gefahren» وتُستعمل مع «sein» لأنها حركة. والحرف g الأخير في Hamburg يُنطق قريبًا من k.",
+          "en": "Fahren becomes gefahren and takes sein because it is movement. The final g of Hamburg sounds close to k.",
+          "id": "Fahren menjadi gefahren dan memakai sein karena gerakan. Huruf g terakhir pada Hamburg terdengar mendekati k."
+        }
+      },
+      {
+        "id": "de22n2",
+        "target": "Wir sind früh aufgestanden.",
+        "translit": "veer zint frew OWF-guh-shtahn-den",
+        "tr": {
+          "ar": "استيقظنا مبكرًا.",
+          "en": "We got up early.",
+          "id": "Kami bangun pagi-pagi."
+        },
+        "example": {
+          "target": "Wir sind um sechs Uhr aufgestanden.",
+          "translit": "veer zint oom zeks oor OWF-guh-shtahn-den",
+          "tr": {
+            "ar": "استيقظنا في الساعة السادسة.",
+            "en": "We got up at six o'clock.",
+            "id": "Kami bangun pukul enam."
+          }
+        },
+        "hint": {
+          "ar": "«aufstehen» فعل منفصل، لذا تدخل ge في الوسط: aufgestanden. وهو يأخذ «sein» لأنه تغيّر في الحال.",
+          "en": "Aufstehen is separable, so ge goes in the middle: aufgestanden. It takes sein because it is a change of state.",
+          "id": "Aufstehen adalah kata kerja terpisah, jadi ge masuk di tengah: aufgestanden. Ia memakai sein karena perubahan keadaan."
+        }
+      },
+      {
+        "id": "de22n3",
+        "target": "Sie ist zum Strand gegangen.",
+        "translit": "zee ist tsoom shtrahnt guh-GAHN-gen",
+        "tr": {
+          "ar": "ذهبت إلى الشاطئ.",
+          "en": "She went to the beach.",
+          "id": "Dia pergi ke pantai."
+        },
+        "example": {
+          "target": "Meine Freundin ist zum Strand gegangen.",
+          "translit": "MY-nuh FROYN-din ist tsoom shtrahnt guh-GAHN-gen",
+          "tr": {
+            "ar": "ذهبت صديقتي إلى الشاطئ.",
+            "en": "My friend went to the beach.",
+            "id": "Teman perempuan saya pergi ke pantai."
+          }
+        },
+        "hint": {
+          "ar": "«gehen» ← «gegangen». ونقول «zum Strand» للدلالة على الاتجاه. و«st» في بداية الكلمة تُنطق «sht».",
+          "en": "Gehen becomes gegangen. Zum Strand shows the direction. St at the start of a word is said sht.",
+          "id": "Gehen menjadi gegangen. Zum Strand menunjukkan arah. St di awal kata dibaca sht."
+        }
+      },
+      {
+        "id": "de22n4",
+        "target": "Bist du mit dem Zug gekommen?",
+        "translit": "bist doo mit dem tsook guh-KO-men",
+        "tr": {
+          "ar": "هل جئتَ بالقطار؟",
+          "en": "Did you come by train?",
+          "id": "Apakah kamu datang naik kereta?"
+        },
+        "example": {
+          "target": "Ja, ich bin mit dem Zug gekommen.",
+          "translit": "yah iç bin mit dem tsook guh-KO-men",
+          "tr": {
+            "ar": "نعم، جئتُ بالقطار.",
+            "en": "Yes, I came by train.",
+            "id": "Ya, saya datang naik kereta."
+          }
+        },
+        "hint": {
+          "ar": "هذا سؤال بصيغة «du». ومع شخص غريب: «Sind Sie mit dem Zug gekommen؟». وحرف g الأخير في Zug يُنطق k.",
+          "en": "This is the du form. To a stranger say Sind Sie mit dem Zug gekommen? The final g in Zug is said k.",
+          "id": "Ini bentuk du. Kepada orang asing katakan Sind Sie mit dem Zug gekommen? Huruf g di akhir Zug dibaca k."
+        }
+      },
+      {
+        "id": "de22n5",
+        "target": "Ich bin zu Hause geblieben.",
+        "translit": "iç bin tsoo HOW-zuh guh-BLEE-ben",
+        "tr": {
+          "ar": "بقيتُ في البيت.",
+          "en": "I stayed at home.",
+          "id": "Saya tinggal di rumah."
+        },
+        "example": {
+          "target": "Am Sonntag bin ich zu Hause geblieben.",
+          "translit": "ahm ZON-tahk bin iç tsoo HOW-zuh guh-BLEE-ben",
+          "tr": {
+            "ar": "يوم الأحد بقيتُ في البيت.",
+            "en": "On Sunday I stayed at home.",
+            "id": "Hari Minggu saya tinggal di rumah."
+          }
+        },
+        "hint": {
+          "ar": "«bleiben» ← «geblieben» ويأخذ «sein» رغم أنه لا يعبّر عن حركة؛ احفظه كاستثناء.",
+          "en": "Bleiben becomes geblieben and takes sein even though it is not movement. Learn it as an exception.",
+          "id": "Bleiben menjadi geblieben dan memakai sein walau bukan gerakan. Hafalkan sebagai pengecualian."
+        }
+      },
+      {
+        "id": "de22n6",
+        "target": "Wir sind um acht Uhr angekommen.",
+        "translit": "veer zint oom akht oor AHN-guh-ko-men",
+        "tr": {
+          "ar": "وصلنا في الساعة الثامنة.",
+          "en": "We arrived at eight o'clock.",
+          "id": "Kami tiba pukul delapan."
+        },
+        "example": {
+          "target": "Der Zug ist pünktlich angekommen.",
+          "translit": "dair tsook ist PEWNKT-liç AHN-guh-ko-men",
+          "tr": {
+            "ar": "وصل القطار في موعده.",
+            "en": "The train arrived on time.",
+            "id": "Kereta tiba tepat waktu."
+          }
+        },
+        "hint": {
+          "ar": "«ankommen» منفصل: angekommen، ويأخذ «sein». لاحظ أن «acht» تُنطق بـ kh.",
+          "en": "Ankommen is separable: angekommen, with sein. Note that acht has a kh sound.",
+          "id": "Ankommen terpisah: angekommen, dengan sein. Perhatikan bunyi kh pada acht."
+        }
+      }
+    ],
+    "cloze": [
+      {
+        "sentence": "Gestern ___ wir nach Berlin gefahren.",
+        "answer": "sind",
+        "wrong": [
+          "haben",
+          "ist"
+        ],
+        "tr": {
+          "ar": "أمس سافرنا إلى برلين.",
+          "en": "Yesterday we went to Berlin.",
+          "id": "Kemarin kami pergi ke Berlin."
+        },
+        "why": {
+          "ar": "«fahren» فعل حركة فيأخذ «sein»، ومع «wir» نقول «sind». «haben» خطأ و«ist» للمفرد.",
+          "en": "Fahren is a movement verb and takes sein; with wir we say sind. Haben is wrong and ist is singular.",
+          "id": "Fahren adalah kata kerja gerakan dan memakai sein; dengan wir dipakai sind. Haben salah dan ist untuk tunggal."
+        }
+      },
+      {
+        "sentence": "Ich ___ zu Hause geblieben.",
+        "answer": "bin",
+        "wrong": [
+          "habe",
+          "ist"
+        ],
+        "tr": {
+          "ar": "بقيتُ في البيت.",
+          "en": "I stayed at home.",
+          "id": "Saya tinggal di rumah."
+        },
+        "why": {
+          "ar": "«bleiben» يأخذ «sein»، ومع «ich» نقول «bin». «habe» خطأ و«ist» لا يناسب «ich».",
+          "en": "Bleiben takes sein, and with ich we say bin. Habe is wrong and ist does not fit ich.",
+          "id": "Bleiben memakai sein, dan dengan ich dipakai bin. Habe salah dan ist tidak cocok dengan ich."
+        }
+      }
+    ],
+    "conversation": {
+      "context": {
+        "ar": "زميلان يتحدثان بعد عطلة نهاية الأسبوع (du).",
+        "en": "Two colleagues talk after the weekend (du).",
+        "id": "Dua rekan kerja mengobrol setelah akhir pekan (du)."
+      },
+      "turns": [
+        {
+          "who": "A",
+          "target": "Wohin bist du am Wochenende gefahren?",
+          "tr": {
+            "ar": "إلى أين سافرتَ في عطلة نهاية الأسبوع؟",
+            "en": "Where did you go at the weekend?",
+            "id": "Ke mana kamu pergi akhir pekan?"
+          }
+        },
+        {
+          "who": "B",
+          "target": "Ich bin nach München gefahren.",
+          "tr": {
+            "ar": "سافرتُ إلى ميونخ.",
+            "en": "I went to Munich.",
+            "id": "Saya pergi ke München."
+          }
+        },
+        {
+          "who": "A",
+          "target": "Mit dem Zug?",
+          "tr": {
+            "ar": "بالقطار؟",
+            "en": "By train?",
+            "id": "Naik kereta?"
+          }
+        }
+      ],
+      "gap": 1,
+      "wrong": [
+        "Ich fahre morgen nach München.",
+        "Ich wohne in Köln."
+      ],
+      "why": {
+        "ar": "سؤال «wohin» في الماضي يُجاب عنه بالماضي: «Ich bin nach München gefahren». «Ich fahre morgen» عن المستقبل، و«Ich wohne in Köln» لا يذكر وجهة.",
+        "en": "A wohin question in the past is answered in the past: Ich bin nach München gefahren. Ich fahre morgen is about the future, and Ich wohne in Köln does not name a destination.",
+        "id": "Pertanyaan wohin dalam kala lampau dijawab dalam kala lampau: Ich bin nach München gefahren. Ich fahre morgen tentang masa depan, dan Ich wohne in Köln tidak menyebut tujuan."
+      }
+    },
+    "summary": {
+      "ar": "تعلّمتَ أن أفعال الحركة وتغيّر الحال وbleiben تأخذ «sein» في الـPerfekt. وتعرف gefahren وgegangen وgekommen وgeblieben وaufgestanden وangekommen.",
+      "en": "You learned that verbs of movement, change of state and bleiben take sein in the Perfekt. You know gefahren, gegangen, gekommen, geblieben, aufgestanden and angekommen.",
+      "id": "Anda belajar bahwa kata kerja gerakan, perubahan keadaan, dan bleiben memakai sein dalam Perfekt. Anda tahu gefahren, gegangen, gekommen, geblieben, aufgestanden, dan angekommen."
+    }
+  },
+  {
+    "id": "de-23",
+    "track": "de",
+    "level": "intermediate",
+    "order": 23,
+    "topic": "childhood-memories",
+    "icon": "🧒",
+    "title": {
+      "ar": "عندما كنتُ صغيرًا",
+      "en": "When I Was Young",
+      "id": "Ketika Saya Kecil"
+    },
+    "description": {
+      "ar": "تعلّم «war» و«hatte» لتصف الماضي والطفولة والأشخاص الذين عرفتَهم.",
+      "en": "Learn war and hatte to describe the past, childhood and people you knew.",
+      "id": "Pelajari war dan hatte untuk menggambarkan masa lalu, masa kecil, dan orang yang Anda kenal."
+    },
+    "objectives": [
+      {
+        "ar": "أستطيع استعمال «war» و«waren» لأصف الماضي.",
+        "en": "I can use war and waren to describe the past.",
+        "id": "Saya bisa memakai war dan waren untuk menggambarkan masa lalu."
+      },
+      {
+        "ar": "أستطيع استعمال «hatte» و«hatten» لأقول ما كان عندي.",
+        "en": "I can use hatte and hatten to say what I had.",
+        "id": "Saya bisa memakai hatte dan hatten untuk menyatakan apa yang dulu saya punya."
+      },
+      {
+        "ar": "أستطيع أن أسأل «Wo warst du؟» وأحكي عن ذكريات الطفولة.",
+        "en": "I can ask Wo warst du? and tell childhood memories.",
+        "id": "Saya bisa bertanya Wo warst du? dan menceritakan kenangan masa kecil."
+      }
+    ],
+    "intro": {
+      "ar": "مع «sein» و«haben» لا نستعمل الـPerfekt غالبًا، بل نقول «war» و«hatte» (الـPräteritum). هما أهم شكلين من الماضي البسيط في الكلام، وبهما تصف طفولتك وعائلتك وأمس.",
+      "en": "With sein and haben we usually do not use the Perfekt but say war and hatte (the Präteritum). They are the two most important simple past forms in speech, and with them you describe childhood, family and yesterday.",
+      "id": "Dengan sein dan haben kita biasanya tidak memakai Perfekt, tetapi war dan hatte (Präteritum). Keduanya adalah bentuk lampau sederhana terpenting dalam percakapan, dan dengannya Anda menggambarkan masa kecil, keluarga, dan kemarin."
+    },
+    "culture": {
+      "ar": "يحب الألمان الحديث عن «früher» أي «قديمًا» في اللقاءات العائلية، وعن الجدّ والجدّة وحياتهم. والسؤال «Wie war das؟» أي كيف كان ذلك، طريقة جيدة لتشجيع الآخر على الكلام.",
+      "en": "Germans like to talk about früher, in the old days, at family gatherings, about grandparents and their lives. Wie war das?, what was that like, is a good way to encourage someone to keep talking.",
+      "id": "Orang Jerman suka membicarakan früher, zaman dulu, pada pertemuan keluarga, tentang kakek-nenek dan kehidupan mereka. Wie war das?, bagaimana dulu, adalah cara baik untuk mendorong orang lain bercerita."
+    },
+    "grammar": {
+      "title": {
+        "ar": "«war» و«hatte»",
+        "en": "War and hatte",
+        "id": "War dan hatte"
+      },
+      "body": {
+        "ar": "«sein» ← war: ich war, du warst, er/sie war, wir waren, ihr wart, sie waren. «haben» ← hatte: ich hatte, du hattest, er/sie hatte, wir hatten, ihr hattet, sie hatten. لاحظ أن ich وer لهما الشكل نفسه. نستعمل هذين الشكلين بدل الـPerfekt مع هذين الفعلين تقريبًا دائمًا: «Ich war müde» بدلًا من «Ich bin müde gewesen». ومن كلمات الزمن: früher وals Kind وgestern وletztes Jahr.",
+        "en": "Sein becomes war: ich war, du warst, er/sie war, wir waren, ihr wart, sie waren. Haben becomes hatte: ich hatte, du hattest, er/sie hatte, wir hatten, ihr hattet, sie hatten. Note that ich and er have the same form. With these two verbs in speech we almost always use these forms instead of the Perfekt: Ich war müde, rather than Ich bin müde gewesen. Useful time words: früher, als Kind, gestern, letztes Jahr.",
+        "id": "Sein menjadi war: ich war, du warst, er/sie war, wir waren, ihr wart, sie waren. Haben menjadi hatte: ich hatte, du hattest, er/sie hatte, wir hatten, ihr hattet, sie hatten. Perhatikan bahwa ich dan er berbentuk sama. Dengan dua kata kerja ini kita hampir selalu memakai bentuk tersebut, bukan Perfekt: Ich war müde, lebih lazim daripada Ich bin müde gewesen. Penanda waktu yang berguna: früher, als Kind, gestern, letztes Jahr."
+      }
+    },
+    "items": [
+      {
+        "id": "de23n1",
+        "target": "Als Kind war ich sehr laut.",
+        "translit": "ahls kint var iç zair lowt",
+        "tr": {
+          "ar": "عندما كنتُ طفلًا كنتُ صاخبًا جدًا.",
+          "en": "As a child I was very loud.",
+          "id": "Waktu kecil saya sangat berisik."
+        },
+        "example": {
+          "target": "Meine Schwester war ruhig.",
+          "translit": "MY-nuh SHVES-ter var ROO-iç",
+          "tr": {
+            "ar": "كانت أختي هادئة.",
+            "en": "My sister was quiet.",
+            "id": "Saudari saya pendiam."
+          }
+        },
+        "hint": {
+          "ar": "«war» لـich وer/sie. وتُنطق w في war مثل v، وau في laut مثل «ow».",
+          "en": "War is used for ich and er/sie. The w in war sounds like v, and au in laut is like ow.",
+          "id": "War dipakai untuk ich dan er/sie. W pada war dibaca v, dan au pada laut seperti ow."
+        }
+      },
+      {
+        "id": "de23n2",
+        "target": "Wir hatten einen Hund.",
+        "translit": "veer HAH-ten EYE-nen hoont",
+        "tr": {
+          "ar": "كان عندنا كلب.",
+          "en": "We had a dog.",
+          "id": "Kami dulu punya anjing."
+        },
+        "example": {
+          "target": "Als Kind hatten wir auch eine Katze.",
+          "translit": "ahls kint HAH-ten veer owkh EYE-nuh KAH-tsuh",
+          "tr": {
+            "ar": "عندما كنتُ طفلًا كان عندنا قطة أيضًا.",
+            "en": "As a child we also had a cat.",
+            "id": "Waktu kecil kami juga punya kucing."
+          }
+        },
+        "hint": {
+          "ar": "«hatten» مع wir وsie (جمع). ونقول «einen Hund» لأن Hund مذكّر ومفعول به.",
+          "en": "Hatten goes with wir and sie (plural). We say einen Hund because Hund is masculine and the direct object.",
+          "id": "Hatten dipakai dengan wir dan sie (jamak). Kita bilang einen Hund karena Hund maskulin dan objek langsung."
+        }
+      },
+      {
+        "id": "de23n3",
+        "target": "Wo warst du gestern?",
+        "translit": "voh vahrst doo GEHS-tern",
+        "tr": {
+          "ar": "أين كنتَ أمس؟",
+          "en": "Where were you yesterday?",
+          "id": "Di mana kamu kemarin?"
+        },
+        "example": {
+          "target": "Wo warst du letzte Woche?",
+          "translit": "voh vahrst doo LETS-tuh VO-khuh",
+          "tr": {
+            "ar": "أين كنتَ الأسبوع الماضي؟",
+            "en": "Where were you last week?",
+            "id": "Di mana kamu minggu lalu?"
+          }
+        },
+        "hint": {
+          "ar": "سؤال بصيغة «du». ومع شخص تخاطبه بـSie: «Wo waren Sie gestern؟».",
+          "en": "This is the du form. With Sie say Wo waren Sie gestern?",
+          "id": "Ini bentuk du. Dengan Sie katakan Wo waren Sie gestern?"
+        }
+      },
+      {
+        "id": "de23n4",
+        "target": "Gestern hatte ich keine Zeit.",
+        "translit": "GEHS-tern HAH-tuh iç KY-nuh tsite",
+        "tr": {
+          "ar": "أمس لم يكن عندي وقت.",
+          "en": "Yesterday I had no time.",
+          "id": "Kemarin saya tidak punya waktu."
+        },
+        "example": {
+          "target": "Letzte Woche hatte ich viel Arbeit.",
+          "translit": "LETS-tuh VO-khuh HAH-tuh iç feel AR-bite",
+          "tr": {
+            "ar": "الأسبوع الماضي كان عندي عمل كثير.",
+            "en": "Last week I had a lot of work.",
+            "id": "Minggu lalu saya punya banyak pekerjaan."
+          }
+        },
+        "hint": {
+          "ar": "«hatte» لـich وer/sie. وبعد Gestern في بداية الجملة يأتي الفعل ثانيًا: hatte ich.",
+          "en": "Hatte is used for ich and er/sie. After Gestern at the start, the verb stays second: hatte ich.",
+          "id": "Hatte dipakai untuk ich dan er/sie. Setelah Gestern di awal, kata kerja tetap di posisi kedua: hatte ich."
+        }
+      },
+      {
+        "id": "de23n5",
+        "target": "Die Ferien waren schön.",
+        "translit": "dee FAY-ree-en VAH-ren shurn",
+        "tr": {
+          "ar": "كانت العطلة جميلة.",
+          "en": "The holidays were nice.",
+          "id": "Liburannya menyenangkan."
+        },
+        "example": {
+          "target": "Das Wetter war sehr gut.",
+          "translit": "dahs VET-er var zair goot",
+          "tr": {
+            "ar": "كان الطقس جيدًا جدًا.",
+            "en": "The weather was very good.",
+            "id": "Cuacanya sangat bagus."
+          }
+        },
+        "hint": {
+          "ar": "«Ferien» جمع، لذا «waren». وكلمة schön تعني جميل أو لطيف.",
+          "en": "Ferien is plural, so waren. Schön means nice or beautiful.",
+          "id": "Ferien adalah jamak, jadi waren. Schön berarti indah atau menyenangkan."
+        }
+      },
+      {
+        "id": "de23n6",
+        "target": "Mein Opa war Bäcker.",
+        "translit": "mine OH-pah var BEK-er",
+        "tr": {
+          "ar": "كان جدّي خبّازًا.",
+          "en": "My grandpa was a baker.",
+          "id": "Kakek saya dulu tukang roti."
+        },
+        "example": {
+          "target": "Er hatte eine kleine Bäckerei.",
+          "translit": "air HAH-tuh EYE-nuh KLY-nuh bek-uh-RYE",
+          "tr": {
+            "ar": "كان عنده مخبز صغير.",
+            "en": "He had a small bakery.",
+            "id": "Dia punya toko roti kecil."
+          }
+        },
+        "hint": {
+          "ar": "لا نضع أداة التنكير قبل المهنة: «war Bäcker». ويُنطق ä القصير في Bäcker مثل e.",
+          "en": "We use no article before a job: war Bäcker. The short ä in Bäcker sounds like e.",
+          "id": "Tidak ada artikel sebelum nama profesi: war Bäcker. Ä pendek pada Bäcker dibaca seperti e."
+        }
+      }
+    ],
+    "cloze": [
+      {
+        "sentence": "Als Kind ___ ich einen Hund.",
+        "answer": "hatte",
+        "wrong": [
+          "war",
+          "hat"
+        ],
+        "tr": {
+          "ar": "عندما كنتُ طفلًا كان عندي كلب.",
+          "en": "As a child I had a dog.",
+          "id": "Waktu kecil saya punya anjing."
+        },
+        "why": {
+          "ar": "«einen Hund» يحتاج فعل «haben» أي «hatte». «war» تعني «كنتُ» ولا تناسب، و«hat» للغائب في المضارع.",
+          "en": "Einen Hund needs the verb haben, so hatte. War means was and does not fit, and hat is present tense for er/sie.",
+          "id": "Einen Hund membutuhkan kata kerja haben, yaitu hatte. War berarti adalah/dulu dan tidak cocok, dan hat adalah kala sekarang untuk er/sie."
+        }
+      },
+      {
+        "sentence": "Gestern ___ wir im Kino.",
+        "answer": "waren",
+        "wrong": [
+          "hatten",
+          "war"
+        ],
+        "tr": {
+          "ar": "أمس كنا في السينما.",
+          "en": "Yesterday we were at the cinema.",
+          "id": "Kemarin kami ada di bioskop."
+        },
+        "why": {
+          "ar": "نتحدث عن مكان الوجود فنستعمل «sein»، ومع wir «waren». «hatten» تعني «كان عندنا»، و«war» لا تناسب wir.",
+          "en": "We talk about where we were, so sein: with wir it is waren. Hatten means we had, and war does not fit wir.",
+          "id": "Kita membicarakan tempat berada, jadi sein: dengan wir menjadi waren. Hatten berarti kami punya, dan war tidak cocok dengan wir."
+        }
+      }
+    ],
+    "conversation": {
+      "context": {
+        "ar": "صديقان يتحدثان عن مساء أمس (du).",
+        "en": "Two friends talk about last night (du).",
+        "id": "Dua teman membicarakan tadi malam (du)."
+      },
+      "turns": [
+        {
+          "who": "A",
+          "target": "Wo warst du gestern?",
+          "tr": {
+            "ar": "أين كنتَ أمس؟",
+            "en": "Where were you yesterday?",
+            "id": "Di mana kamu kemarin?"
+          }
+        },
+        {
+          "who": "B",
+          "target": "Ich war zu Hause.",
+          "tr": {
+            "ar": "كنتُ في البيت.",
+            "en": "I was at home.",
+            "id": "Saya di rumah."
+          }
+        },
+        {
+          "who": "A",
+          "target": "Hattest du Besuch?",
+          "tr": {
+            "ar": "هل كان عندك زوّار؟",
+            "en": "Did you have visitors?",
+            "id": "Apakah kamu kedatangan tamu?"
+          }
+        }
+      ],
+      "gap": 1,
+      "wrong": [
+        "Ich bin morgen im Büro.",
+        "Ich habe einen Hund."
+      ],
+      "why": {
+        "ar": "سؤال «Wo warst du؟» عن مكان في الماضي، فنجيب «Ich war zu Hause». «Ich bin morgen» عن المستقبل، و«Ich habe einen Hund» لا يذكر المكان.",
+        "en": "Wo warst du? asks about a place in the past, so we answer Ich war zu Hause. Ich bin morgen is about the future, and Ich habe einen Hund does not name a place.",
+        "id": "Wo warst du? menanyakan tempat di masa lalu, jadi jawabannya Ich war zu Hause. Ich bin morgen tentang masa depan, dan Ich habe einen Hund tidak menyebut tempat."
+      }
+    },
+    "summary": {
+      "ar": "تعلّمتَ «war» و«hatte» وتصريفهما وأن الـPräteritum يُستعمل مع هذين الفعلين في الكلام. وصرتَ قادرًا على وصف الطفولة وأمس.",
+      "en": "You learned war and hatte, their forms, and that the Präteritum is used with these two verbs in speech. You can now describe childhood and yesterday.",
+      "id": "Anda belajar war dan hatte, bentuknya, dan bahwa Präteritum dipakai untuk dua kata kerja ini dalam percakapan. Kini Anda bisa menggambarkan masa kecil dan kemarin."
+    }
+  },
+  {
+    "id": "de-24",
+    "track": "de",
+    "level": "intermediate",
+    "order": 24,
+    "topic": "health-advice",
+    "icon": "💊",
+    "title": {
+      "ar": "عند الطبيب والصيدلية",
+      "en": "At the Doctor and Pharmacy",
+      "id": "Di Dokter dan Apotek"
+    },
+    "description": {
+      "ar": "تعلّم أن تعطي النصيحة بـ«sollen» وبالأمر، وأن تطلب دواءً في الصيدلية.",
+      "en": "Learn to give advice with sollen and the imperative, and to ask for medicine at the pharmacy.",
+      "id": "Pelajari cara memberi saran dengan sollen dan imperatif, serta meminta obat di apotek."
+    },
+    "objectives": [
+      {
+        "ar": "أستطيع استعمال «sollen» و«Sie sollten» للنصيحة.",
+        "en": "I can use sollen and Sie sollten for advice.",
+        "id": "Saya bisa memakai sollen dan Sie sollten untuk memberi saran."
+      },
+      {
+        "ar": "أستطيع تكوين الأمر لـdu وihr: «Nimm!» و«Trinkt!».",
+        "en": "I can form the imperative for du and ihr: Nimm! and Trinkt!",
+        "id": "Saya bisa membentuk imperatif untuk du dan ihr: Nimm! dan Trinkt!"
+      },
+      {
+        "ar": "أستطيع أن أطلب دواءً: «etwas gegen Husten».",
+        "en": "I can ask for medicine: etwas gegen Husten.",
+        "id": "Saya bisa meminta obat: etwas gegen Husten."
+      }
+    ],
+    "intro": {
+      "ar": "عندما تذهب إلى الطبيب أو الصيدلية تسمع نصائح كثيرة: «Sie sollten ...» أو أوامر قصيرة. في هذا الدرس تتعلم أن تفهمها وأن تعطيها لأصدقائك وأولادك.",
+      "en": "At the doctor or pharmacy you hear a lot of advice: Sie sollten ... or short commands. In this lesson you learn to understand them and to give them to friends and children.",
+      "id": "Di dokter atau apotek Anda mendengar banyak saran: Sie sollten ... atau perintah singkat. Di pelajaran ini Anda belajar memahaminya dan memberikannya kepada teman dan anak-anak."
+    },
+    "culture": {
+      "ar": "في ألمانيا تحصل على الدواء من «Apotheke» وعلامتها حرف A أحمر. بعض الأدوية تُصرف دون وصفة، وبعضها لا يُصرف إلا بوصفة (Rezept) من الطبيب. وقبل زيارة الطبيب غالبًا يجب حجز موعد (Termin).",
+      "en": "In Germany you get medicine at an Apotheke, marked with a red letter A. Some medicines are sold without a prescription and others need a Rezept from the doctor. Before seeing a doctor you usually need to book an appointment (Termin).",
+      "id": "Di Jerman obat diperoleh di Apotheke, yang ditandai huruf A merah. Sebagian obat dijual tanpa resep dan sebagian lain memerlukan Rezept dari dokter. Sebelum ke dokter biasanya Anda perlu membuat janji (Termin)."
+    },
+    "grammar": {
+      "title": {
+        "ar": "«sollen» والأمر",
+        "en": "Sollen and the imperative",
+        "id": "Sollen dan imperatif"
+      },
+      "body": {
+        "ar": "«sollen» فعل مساعد (Modalverb) معناه أن شخصًا آخر يقول إنه ينبغي عليك أن تفعل شيئًا: ich soll, du sollst, er soll, wir sollen, ihr sollt, Sie sollen، ومع مصدر في آخر الجملة. وللنصيحة المهذّبة نقول «Sie sollten» (Konjunktiv II). أمر du: الجذر دون نهاية: Mach! Bleib! Trink! وبعض الأفعال تغيّر الحرف: nehmen ← Nimm! وأمر ihr: الجذر + t: Trinkt! Bleibt! أما مع Sie: Nehmen Sie!",
+        "en": "Sollen is a modal verb meaning someone says you should: ich soll, du sollst, er soll, wir sollen, ihr sollt, Sie sollen, with an infinitive at the end. For polite advice we say Sie sollten (Konjunktiv II). The du imperative is the stem: Mach! Bleib! Trink! A few verbs change the vowel: nehmen becomes Nimm! The ihr imperative is stem + t: Trinkt! Bleibt! With Sie: Nehmen Sie!",
+        "id": "Sollen adalah kata kerja modal yang berarti seseorang mengatakan Anda sebaiknya: ich soll, du sollst, er soll, wir sollen, ihr sollt, Sie sollen, dengan infinitif di akhir. Untuk saran sopan kita bilang Sie sollten (Konjunktiv II). Imperatif du adalah akar kata: Mach! Bleib! Trink! Beberapa kata kerja mengubah vokal: nehmen menjadi Nimm! Imperatif ihr adalah akar + t: Trinkt! Bleibt! Dengan Sie: Nehmen Sie!"
+      }
+    },
+    "items": [
+      {
+        "id": "de24n1",
+        "target": "Du sollst viel Wasser trinken.",
+        "translit": "doo zolst feel VAH-ser TRING-ken",
+        "tr": {
+          "ar": "عليك أن تشرب ماءً كثيرًا.",
+          "en": "You should drink a lot of water.",
+          "id": "Kamu sebaiknya minum banyak air."
+        },
+        "example": {
+          "target": "Der Arzt sagt: Du sollst im Bett bleiben.",
+          "translit": "dair artst zahkt doo zolst im bet BLY-ben",
+          "tr": {
+            "ar": "يقول الطبيب: عليك أن تبقى في السرير.",
+            "en": "The doctor says: you should stay in bed.",
+            "id": "Dokter berkata: kamu harus tinggal di tempat tidur."
+          }
+        },
+        "hint": {
+          "ar": "هذه صيغة du. «trinken» في آخر الجملة كمصدر. وحرف s قبل حرف علة يُنطق z.",
+          "en": "This is the du form. Trinken stands at the end as an infinitive. An s before a vowel is said z.",
+          "id": "Ini bentuk du. Trinken ada di akhir sebagai infinitif. S sebelum vokal dibaca z."
+        }
+      },
+      {
+        "id": "de24n2",
+        "target": "Sie sollten zu Hause bleiben.",
+        "translit": "zee ZOL-ten tsoo HOW-zuh BLY-ben",
+        "tr": {
+          "ar": "ينبغي أن تبقى في البيت.",
+          "en": "You should stay at home.",
+          "id": "Sebaiknya Anda tinggal di rumah."
+        },
+        "example": {
+          "target": "Sie sollten heute nicht arbeiten.",
+          "translit": "zee ZOL-ten HOY-tuh niçt AR-bye-ten",
+          "tr": {
+            "ar": "ينبغي ألا تعمل اليوم.",
+            "en": "You should not work today.",
+            "id": "Sebaiknya Anda tidak bekerja hari ini."
+          }
+        },
+        "hint": {
+          "ar": "هذه صيغة Sie الرسمية (مع طبيب أو غريب). «sollten» أنعم من «sollen» وهي نصيحة لا أمر.",
+          "en": "This is the formal Sie form (doctor, stranger). Sollten is softer than sollen: advice, not an order.",
+          "id": "Ini bentuk Sie formal (dokter, orang asing). Sollten lebih lembut dari sollen: saran, bukan perintah."
+        }
+      },
+      {
+        "id": "de24n3",
+        "target": "Nimm die Tabletten dreimal am Tag.",
+        "translit": "nim dee tah-BLEH-ten DRY-mahl ahm tahk",
+        "tr": {
+          "ar": "خذ الأقراص ثلاث مرات في اليوم.",
+          "en": "Take the tablets three times a day.",
+          "id": "Minum tablet tiga kali sehari."
+        },
+        "example": {
+          "target": "Nimm bitte eine Tablette nach dem Essen.",
+          "translit": "nim BIT-uh EYE-nuh tah-BLEH-tuh nahkh dem ES-en",
+          "tr": {
+            "ar": "خذ من فضلك قرصًا بعد الأكل.",
+            "en": "Please take one tablet after eating.",
+            "id": "Tolong minum satu tablet setelah makan."
+          }
+        },
+        "hint": {
+          "ar": "أمر du من «nehmen» هو «Nimm» (يتغيّر الحرف). ومع الصيدلي أو الطبيب (Sie) تسمع: «Nehmen Sie ...».",
+          "en": "The du imperative of nehmen is Nimm (vowel change). A pharmacist using Sie would say Nehmen Sie ...",
+          "id": "Imperatif du dari nehmen adalah Nimm (vokal berubah). Apoteker yang memakai Sie akan berkata Nehmen Sie ..."
+        }
+      },
+      {
+        "id": "de24n4",
+        "target": "Trinkt viel Tee und schlaft gut!",
+        "translit": "trinkt feel tay unt shlahft goot",
+        "tr": {
+          "ar": "اشربوا شايًا كثيرًا ونوموا جيدًا!",
+          "en": "Drink lots of tea and sleep well!",
+          "id": "Minumlah banyak teh dan tidur yang nyenyak!"
+        },
+        "example": {
+          "target": "Kinder, bleibt bitte im Bett!",
+          "translit": "KIN-der blybt BIT-uh im bet",
+          "tr": {
+            "ar": "يا أولاد، ابقوا في السرير من فضلكم!",
+            "en": "Children, please stay in bed!",
+            "id": "Anak-anak, tolong tetap di tempat tidur!"
+          }
+        },
+        "hint": {
+          "ar": "أمر ihr (لجماعة تخاطبها بـ«du»): الجذر + t. وفي الأمر يبدأ الفعل الجملة دون فاعل.",
+          "en": "The ihr imperative (for a group you address as du) is stem + t. In an imperative the verb comes first, with no subject.",
+          "id": "Imperatif ihr (untuk kelompok yang disapa dengan du) adalah akar + t. Dalam imperatif kata kerja berada di depan tanpa subjek."
+        }
+      },
+      {
+        "id": "de24n5",
+        "target": "Ich brauche etwas gegen Kopfschmerzen.",
+        "translit": "iç BROW-khuh ET-vahs GAY-gen KOPF-shmer-tsen",
+        "tr": {
+          "ar": "أحتاج شيئًا ضد الصداع.",
+          "en": "I need something for a headache.",
+          "id": "Saya butuh sesuatu untuk sakit kepala."
+        },
+        "example": {
+          "target": "Haben Sie etwas gegen Husten?",
+          "translit": "HAH-ben zee ET-vahs GAY-gen HOO-sten",
+          "tr": {
+            "ar": "هل عندكم شيء ضد السعال؟",
+            "en": "Do you have something for a cough?",
+            "id": "Apakah Anda punya sesuatu untuk batuk?"
+          }
+        },
+        "hint": {
+          "ar": "هذه صيغة تصلح في الصيدلية مع Sie. و«gegen» تعني «ضد»، وهي الطريقة المعتادة لطلب دواء لمرض.",
+          "en": "This works at a pharmacy with Sie. Gegen means against, the normal way to ask for medicine for a problem.",
+          "id": "Ini cocok di apotek dengan Sie. Gegen berarti melawan, cara umum meminta obat untuk suatu keluhan."
+        }
+      },
+      {
+        "id": "de24n6",
+        "target": "Mach heute noch einen Termin!",
+        "translit": "mahkh HOY-tuh nokh EYE-nen ter-MEEN",
+        "tr": {
+          "ar": "احجز موعدًا اليوم!",
+          "en": "Make an appointment today!",
+          "id": "Buat janji hari ini juga!"
+        },
+        "example": {
+          "target": "Ruf den Arzt an und mach einen Termin.",
+          "translit": "roof dane ARTST ahn unt mahkh EYE-nen ter-MEEN",
+          "tr": {
+            "ar": "اتصل بالطبيب واحجز موعدًا.",
+            "en": "Call the doctor and make an appointment.",
+            "id": "Telepon dokter dan buat janji."
+          }
+        },
+        "hint": {
+          "ar": "أمر du: «Mach!». و«anrufen» منفصل فيصبح «Ruf ... an!». ونقول «einen Termin» لأن Termin مذكّر.",
+          "en": "The du imperative is Mach! Anrufen is separable, so Ruf ... an! We say einen Termin because Termin is masculine.",
+          "id": "Imperatif du adalah Mach! Anrufen terpisah, jadi Ruf ... an! Kita bilang einen Termin karena Termin maskulin."
+        }
+      }
+    ],
+    "cloze": [
+      {
+        "sentence": "Du ___ viel Wasser trinken.",
+        "answer": "sollst",
+        "wrong": [
+          "sollt",
+          "soll"
+        ],
+        "tr": {
+          "ar": "عليك أن تشرب ماءً كثيرًا.",
+          "en": "You should drink a lot of water.",
+          "id": "Kamu sebaiknya minum banyak air."
+        },
+        "why": {
+          "ar": "مع «du» نقول «sollst». «sollt» مع ihr و«soll» مع er/sie/es وich.",
+          "en": "With du we say sollst. Sollt goes with ihr, and soll with er/sie/es and ich.",
+          "id": "Dengan du dipakai sollst. Sollt untuk ihr, dan soll untuk er/sie/es dan ich."
+        }
+      },
+      {
+        "sentence": "___ bitte die Tablette, Anna!",
+        "answer": "Nimm",
+        "wrong": [
+          "Nehmt",
+          "Nehme"
+        ],
+        "tr": {
+          "ar": "خذي القرص من فضلكِ يا آنا!",
+          "en": "Take the tablet, please, Anna!",
+          "id": "Minum tabletnya, Anna!"
+        },
+        "why": {
+          "ar": "نخاطب شخصًا واحدًا بـ«du» فنقول «Nimm». «Nehmt» لجماعة، و«Nehme» ليس أمرًا صحيحًا.",
+          "en": "We address one person with du, so Nimm. Nehmt is for a group, and Nehme is not a correct imperative.",
+          "id": "Kita menyapa satu orang dengan du, jadi Nimm. Nehmt untuk kelompok, dan Nehme bukan imperatif yang benar."
+        }
+      }
+    ],
+    "conversation": {
+      "context": {
+        "ar": "عند الطبيب. الطبيب يخاطب المريض بـSie.",
+        "en": "At the doctor's. The doctor uses Sie.",
+        "id": "Di tempat dokter. Dokter memakai Sie."
+      },
+      "turns": [
+        {
+          "who": "A",
+          "target": "Guten Tag. Haben Sie Schmerzen?",
+          "tr": {
+            "ar": "مرحبًا. هل عندك آلام؟",
+            "en": "Hello. Do you have any pain?",
+            "id": "Selamat siang. Apakah Anda merasa sakit?"
+          }
+        },
+        {
+          "who": "B",
+          "target": "Ja, mein Kopf tut weh.",
+          "tr": {
+            "ar": "نعم، رأسي يؤلمني.",
+            "en": "Yes, my head hurts.",
+            "id": "Ya, kepala saya sakit."
+          }
+        },
+        {
+          "who": "A",
+          "target": "Sie sollten im Bett bleiben und viel trinken.",
+          "tr": {
+            "ar": "ينبغي أن تبقى في السرير وتشرب كثيرًا.",
+            "en": "You should stay in bed and drink a lot.",
+            "id": "Sebaiknya Anda tinggal di tempat tidur dan banyak minum."
+          }
+        }
+      ],
+      "gap": 1,
+      "wrong": [
+        "Ja, ich habe gestern gearbeitet.",
+        "Nein, das Wetter ist schön."
+      ],
+      "why": {
+        "ar": "الطبيب سأل عن الألم، فالجواب «Ja, mein Kopf tut weh». أما العمل أمس أو الطقس فلا يجيبان عن السؤال.",
+        "en": "The doctor asked about pain, so the answer is Ja, mein Kopf tut weh. Working yesterday and the weather do not answer the question.",
+        "id": "Dokter menanyakan rasa sakit, jadi jawabannya Ja, mein Kopf tut weh. Bekerja kemarin dan cuaca tidak menjawab pertanyaan."
+      }
+    },
+    "summary": {
+      "ar": "تعلّمتَ «sollen» و«Sie sollten» للنصيحة، وأمر du وihr (Nimm! Trinkt!)، وعبارة «etwas gegen» في الصيدلية.",
+      "en": "You learned sollen and Sie sollten for advice, the du and ihr imperatives (Nimm! Trinkt!), and the phrase etwas gegen at the pharmacy.",
+      "id": "Anda belajar sollen dan Sie sollten untuk saran, imperatif du dan ihr (Nimm! Trinkt!), dan frasa etwas gegen di apotek."
+    }
+  },
+  {
+    "id": "de-25",
+    "track": "de",
+    "level": "intermediate",
+    "order": 25,
+    "topic": "work-studies",
+    "icon": "💼",
+    "title": {
+      "ar": "العمل والدراسة",
+      "en": "Work and Studies",
+      "id": "Pekerjaan dan Studi"
+    },
+    "description": {
+      "ar": "تعلّم أن تتحدث عن مهنتك ودراستك ومنذ متى تعمل.",
+      "en": "Learn to talk about your job, your studies and how long you have been working.",
+      "id": "Pelajari cara membicarakan pekerjaan, studi, dan sudah berapa lama Anda bekerja."
+    },
+    "objectives": [
+      {
+        "ar": "أستطيع أن أقول «Ich arbeite als Lehrer» وأسأل «Wo arbeitest du؟».",
+        "en": "I can say Ich arbeite als Lehrer and ask Wo arbeitest du?",
+        "id": "Saya bisa mengatakan Ich arbeite als Lehrer dan bertanya Wo arbeitest du?"
+      },
+      {
+        "ar": "أستطيع استعمال «seit» للمدة مع المضارع.",
+        "en": "I can use seit for duration with the present tense.",
+        "id": "Saya bisa memakai seit untuk durasi dengan kala sekarang."
+      },
+      {
+        "ar": "أستطيع استعمال «vor» لأقول «منذ كذا» في الماضي.",
+        "en": "I can use vor to say how long ago something happened.",
+        "id": "Saya bisa memakai vor untuk menyatakan sudah berapa lama sesuatu terjadi."
+      }
+    ],
+    "intro": {
+      "ar": "بعد أن تتعرّف على أحد يسألك الألمان غالبًا عن عمله. في هذا الدرس تتعلم أن تقول مهنتك ومكان عملك أو دراستك، ومنذ متى، وما حدث قبل مدة.",
+      "en": "After meeting someone, Germans often ask about their work. In this lesson you learn to say your job, where you work or study, since when, and what happened a while ago.",
+      "id": "Setelah berkenalan, orang Jerman sering bertanya tentang pekerjaan. Di pelajaran ini Anda belajar menyebut profesi, tempat kerja atau kuliah, sejak kapan, dan apa yang terjadi beberapa waktu lalu."
+    },
+    "culture": {
+      "ar": "في ألمانيا يسأل الناس «Was machst du beruflich؟» أي ما عملك، بعد التعارف. وللمهن أشكال مؤنثة غالبًا مع -in: Lehrer ← Lehrerin. ومن النظام المميز التدريب المهني (Ausbildung) الذي يختاره كثير من الشباب بدل الجامعة.",
+      "en": "In Germany people ask Was machst du beruflich?, what do you do for a living, after meeting. Many jobs have a feminine form with -in: Lehrer becomes Lehrerin. A typical part of the system is the Ausbildung, vocational training that many young people choose instead of university.",
+      "id": "Di Jerman orang bertanya Was machst du beruflich?, apa pekerjaanmu, setelah berkenalan. Banyak profesi punya bentuk perempuan dengan -in: Lehrer menjadi Lehrerin. Bagian khas sistemnya adalah Ausbildung, pelatihan kejuruan yang dipilih banyak anak muda alih-alih universitas."
+    },
+    "grammar": {
+      "title": {
+        "ar": "المهنة و«seit» و«vor»",
+        "en": "Jobs, seit and vor",
+        "id": "Profesi, seit dan vor"
+      },
+      "body": {
+        "ar": "نقول «Ich bin Lehrer» أو «Ich arbeite als Lehrer» بدون أداة تنكير قبل المهنة. و«seit» تعني «منذ» وتُستعمل مع المضارع وحالة الـDativ: «Ich arbeite seit zwei Jahren hier». و«vor» تعني «قبل» وتُستعمل غالبًا مع الماضي: «Vor einem Jahr habe ich in Hamburg gearbeitet». بعد seit وvor نستعمل الـDativ: einem Jahr، zwei Jahren (نضيف n في الجمع)، einer Woche.",
+        "en": "We say Ich bin Lehrer or Ich arbeite als Lehrer with no article before the job. Seit means since or for and goes with the present tense and the dative: Ich arbeite seit zwei Jahren hier. Vor means ago and usually goes with a past tense: Vor einem Jahr habe ich in Hamburg gearbeitet. After seit and vor we use the dative: einem Jahr, zwei Jahren (extra n in the plural), einer Woche.",
+        "id": "Kita bilang Ich bin Lehrer atau Ich arbeite als Lehrer tanpa artikel sebelum profesi. Seit berarti sejak atau selama dan dipakai dengan kala sekarang dan dativ: Ich arbeite seit zwei Jahren hier. Vor berarti yang lalu dan biasanya dengan kala lampau: Vor einem Jahr habe ich in Hamburg gearbeitet. Setelah seit dan vor dipakai dativ: einem Jahr, zwei Jahren (n tambahan pada jamak), einer Woche."
+      }
+    },
+    "items": [
+      {
+        "id": "de25n1",
+        "target": "Ich arbeite als Lehrer.",
+        "translit": "iç AR-bye-tuh ahls LAY-rer",
+        "tr": {
+          "ar": "أعمل معلّمًا.",
+          "en": "I work as a teacher.",
+          "id": "Saya bekerja sebagai guru."
+        },
+        "example": {
+          "target": "Meine Schwester arbeitet als Ärztin.",
+          "translit": "MY-nuh SHVES-ter AR-bye-tet ahls EHRTS-tin",
+          "tr": {
+            "ar": "تعمل أختي طبيبة.",
+            "en": "My sister works as a doctor.",
+            "id": "Saudari saya bekerja sebagai dokter."
+          }
+        },
+        "hint": {
+          "ar": "لا نضع أداة تنكير بعد «als». والمرأة: Lehrerin، Ärztin. هذه العبارة تصلح مع du ومع Sie.",
+          "en": "No article after als. A woman is Lehrerin, Ärztin. This phrase works with du and Sie.",
+          "id": "Tidak ada artikel setelah als. Perempuan: Lehrerin, Ärztin. Frasa ini cocok dengan du maupun Sie."
+        }
+      },
+      {
+        "id": "de25n2",
+        "target": "Ich studiere Medizin.",
+        "translit": "iç shtoo-DEE-ruh may-dee-TSEEN",
+        "tr": {
+          "ar": "أدرس الطب.",
+          "en": "I study medicine.",
+          "id": "Saya belajar kedokteran."
+        },
+        "example": {
+          "target": "Mein Bruder studiert Informatik.",
+          "translit": "mine BROO-der shtoo-DEERT in-for-MAH-tik",
+          "tr": {
+            "ar": "يدرس أخي علوم الحاسوب.",
+            "en": "My brother studies computer science.",
+            "id": "Saudara saya kuliah informatika."
+          }
+        },
+        "hint": {
+          "ar": "«studieren» تعني الدراسة في الجامعة. وللمدرسة نقول «Ich gehe zur Schule».",
+          "en": "Studieren means studying at university. For school we say Ich gehe zur Schule.",
+          "id": "Studieren berarti kuliah di universitas. Untuk sekolah kita bilang Ich gehe zur Schule."
+        }
+      },
+      {
+        "id": "de25n3",
+        "target": "Ich arbeite seit zwei Jahren hier.",
+        "translit": "iç AR-bye-tuh zite tsvy YAH-ren heer",
+        "tr": {
+          "ar": "أعمل هنا منذ سنتين.",
+          "en": "I have worked here for two years.",
+          "id": "Saya sudah bekerja di sini selama dua tahun."
+        },
+        "example": {
+          "target": "Er wohnt seit einem Monat in Berlin.",
+          "translit": "air vohnt zite EYE-nem MOH-nat in ber-LEEN",
+          "tr": {
+            "ar": "يسكن في برلين منذ شهر.",
+            "en": "He has lived in Berlin for a month.",
+            "id": "Dia sudah tinggal di Berlin selama sebulan."
+          }
+        },
+        "hint": {
+          "ar": "نستعمل المضارع مع seit رغم أن الحدث بدأ في الماضي. وبعد seit الـDativ: «zwei Jahren».",
+          "en": "We use the present tense with seit even though it started in the past. After seit the dative: zwei Jahren.",
+          "id": "Kita memakai kala sekarang dengan seit walau dimulai di masa lalu. Setelah seit dipakai dativ: zwei Jahren."
+        }
+      },
+      {
+        "id": "de25n4",
+        "target": "Vor einem Jahr war ich noch Student.",
+        "translit": "for EYE-nem yahr var iç nokh shtoo-DENT",
+        "tr": {
+          "ar": "قبل سنة كنتُ لا أزال طالبًا.",
+          "en": "A year ago I was still a student.",
+          "id": "Setahun lalu saya masih mahasiswa."
+        },
+        "example": {
+          "target": "Vor einem Jahr habe ich in Hamburg gearbeitet.",
+          "translit": "for EYE-nem yahr HAH-buh iç in HAHM-boork guh-AR-bye-tet",
+          "tr": {
+            "ar": "قبل سنة عملتُ في هامبورغ.",
+            "en": "A year ago I worked in Hamburg.",
+            "id": "Setahun lalu saya bekerja di Hamburg."
+          }
+        },
+        "hint": {
+          "ar": "«vor» + Dativ تعني «قبل مدة». وتُنطق v في vor مثل f.",
+          "en": "Vor plus dative means ago. The v in vor is said f.",
+          "id": "Vor + dativ berarti yang lalu. V pada vor dibaca f."
+        }
+      },
+      {
+        "id": "de25n5",
+        "target": "Wo arbeitest du?",
+        "translit": "voh AR-bye-test doo",
+        "tr": {
+          "ar": "أين تعمل؟",
+          "en": "Where do you work?",
+          "id": "Di mana kamu bekerja?"
+        },
+        "example": {
+          "target": "Ich arbeite in einer Bank.",
+          "translit": "iç AR-bye-tuh in EYE-ner bahnk",
+          "tr": {
+            "ar": "أعمل في بنك.",
+            "en": "I work in a bank.",
+            "id": "Saya bekerja di sebuah bank."
+          }
+        },
+        "hint": {
+          "ar": "هذا السؤال بصيغة «du». ومع Sie: «Wo arbeiten Sie؟». ونضيف e في arbeitest لتسهيل النطق.",
+          "en": "This is the du form. With Sie: Wo arbeiten Sie? An extra e in arbeitest makes it easier to say.",
+          "id": "Ini bentuk du. Dengan Sie: Wo arbeiten Sie? Tambahan e pada arbeitest memudahkan pengucapan."
+        }
+      },
+      {
+        "id": "de25n6",
+        "target": "Ich suche eine Stelle.",
+        "translit": "iç ZOO-khuh EYE-nuh SHTEL-uh",
+        "tr": {
+          "ar": "أبحث عن وظيفة.",
+          "en": "I am looking for a job.",
+          "id": "Saya sedang mencari pekerjaan."
+        },
+        "example": {
+          "target": "Ich suche eine Stelle als Verkäufer.",
+          "translit": "iç ZOO-khuh EYE-nuh SHTEL-uh ahls fer-KOY-fer",
+          "tr": {
+            "ar": "أبحث عن وظيفة بائع.",
+            "en": "I am looking for a job as a salesman.",
+            "id": "Saya mencari pekerjaan sebagai penjual."
+          }
+        },
+        "hint": {
+          "ar": "«Stelle» مؤنث فنقول «eine Stelle». وst في بداية الكلمة تُنطق sht. وتصلح العبارة مع Sie في مقابلة.",
+          "en": "Stelle is feminine, so eine Stelle. St at the start is sht. The phrase works with Sie in an interview.",
+          "id": "Stelle feminin, jadi eine Stelle. St di awal dibaca sht. Frasa ini cocok dengan Sie saat wawancara."
+        }
+      }
+    ],
+    "cloze": [
+      {
+        "sentence": "Ich arbeite ___ Lehrerin.",
+        "answer": "als",
+        "wrong": [
+          "seit",
+          "vor"
+        ],
+        "tr": {
+          "ar": "أعمل معلّمة.",
+          "en": "I work as a teacher.",
+          "id": "Saya bekerja sebagai guru."
+        },
+        "why": {
+          "ar": "«als» تفيد الصفة أو المهنة: «arbeite als Lehrerin». أما «seit» و«vor» فللزمن.",
+          "en": "Als shows a role or job: arbeite als Lehrerin. Seit and vor are for time.",
+          "id": "Als menunjukkan peran atau profesi: arbeite als Lehrerin. Seit dan vor untuk waktu."
+        }
+      },
+      {
+        "sentence": "___ einem Jahr habe ich in Hamburg gearbeitet.",
+        "answer": "Vor",
+        "wrong": [
+          "Als",
+          "Wie"
+        ],
+        "tr": {
+          "ar": "قبل سنة عملتُ في هامبورغ.",
+          "en": "A year ago I worked in Hamburg.",
+          "id": "Setahun lalu saya bekerja di Hamburg."
+        },
+        "why": {
+          "ar": "«Vor einem Jahr» تعني «قبل سنة». ولا يناسب «Als» ولا «Wie» هنا.",
+          "en": "Vor einem Jahr means a year ago. Als and Wie do not fit here.",
+          "id": "Vor einem Jahr berarti setahun lalu. Als dan Wie tidak cocok di sini."
+        }
+      }
+    ],
+    "conversation": {
+      "context": {
+        "ar": "شخصان يتعارفان في حفلة (du).",
+        "en": "Two people get to know each other at a party (du).",
+        "id": "Dua orang berkenalan di sebuah pesta (du)."
+      },
+      "turns": [
+        {
+          "who": "A",
+          "target": "Arbeitest du oder studierst du?",
+          "tr": {
+            "ar": "هل تعمل أم تدرس؟",
+            "en": "Do you work or do you study?",
+            "id": "Apakah kamu bekerja atau kuliah?"
+          }
+        },
+        {
+          "who": "B",
+          "target": "Ich studiere Medizin, seit zwei Jahren.",
+          "tr": {
+            "ar": "أدرس الطب منذ سنتين.",
+            "en": "I study medicine, for two years now.",
+            "id": "Saya kuliah kedokteran, sudah dua tahun."
+          }
+        },
+        {
+          "who": "A",
+          "target": "Das klingt interessant!",
+          "tr": {
+            "ar": "هذا يبدو مثيرًا للاهتمام!",
+            "en": "That sounds interesting!",
+            "id": "Kedengarannya menarik!"
+          }
+        }
+      ],
+      "gap": 1,
+      "wrong": [
+        "Ja, ich fahre morgen nach Berlin.",
+        "Mir tut der Kopf weh."
+      ],
+      "why": {
+        "ar": "السؤال عن العمل أو الدراسة، فالجواب «Ich studiere Medizin, seit zwei Jahren». السفر إلى برلين والصداع لا يجيبان عن السؤال.",
+        "en": "The question is about work or study, so the answer is Ich studiere Medizin, seit zwei Jahren. Travelling to Berlin and a headache do not answer it.",
+        "id": "Pertanyaannya tentang kerja atau kuliah, jadi jawabannya Ich studiere Medizin, seit zwei Jahren. Pergi ke Berlin dan sakit kepala tidak menjawab."
+      }
+    },
+    "summary": {
+      "ar": "تعلّمتَ أن تقول مهنتك بـ«als» وأن تتحدث عن دراستك، وأن تستعمل «seit» مع المضارع و«vor» مع الماضي بعد Dativ.",
+      "en": "You learned to say your job with als, to talk about your studies, and to use seit with the present and vor with the past, followed by the dative.",
+      "id": "Anda belajar menyebut profesi dengan als, membicarakan studi, serta memakai seit dengan kala sekarang dan vor dengan kala lampau, diikuti dativ."
+    }
+  },
+  {
+    "id": "de-26",
+    "track": "de",
+    "level": "intermediate",
+    "order": 26,
+    "topic": "comparing-choices",
+    "icon": "⚖️",
+    "title": {
+      "ar": "المقارنة والاختيار",
+      "en": "Comparing and Choosing",
+      "id": "Membandingkan dan Memilih"
+    },
+    "description": {
+      "ar": "تعلّم أن تقارن بين الأشياء وتقول ما تفضّله باستعمال صيغ التفضيل في الألمانية.",
+      "en": "Learn to compare things and say what you prefer using German comparatives and superlatives.",
+      "id": "Pelajari cara membandingkan sesuatu dan menyatakan preferensi dengan komparatif dan superlatif bahasa Jerman."
+    },
+    "objectives": [
+      {
+        "ar": "أستطيع استعمال الصفة المقارِنة مع «als»: «größer als».",
+        "en": "I can use the comparative with als: größer als.",
+        "id": "Saya bisa memakai komparatif dengan als: größer als."
+      },
+      {
+        "ar": "أستطيع قول «so ... wie» للتساوي.",
+        "en": "I can say so ... wie for equality.",
+        "id": "Saya bisa mengatakan so ... wie untuk kesetaraan."
+      },
+      {
+        "ar": "أستطيع استعمال «lieber» و«am liebsten» لأقول ما أفضّل.",
+        "en": "I can use lieber and am liebsten to say what I prefer.",
+        "id": "Saya bisa memakai lieber dan am liebsten untuk menyatakan preferensi."
+      }
+    ],
+    "intro": {
+      "ar": "عندما تتسوق أو تختار مطعمًا أو فندقًا تحتاج إلى المقارنة: هذا أكبر، وذاك أرخص، وهذا الأفضل. ستتعلم هنا الصيغ الأساسية ومنها بعض الأشكال غير المنتظمة مثل «besser» و«lieber».",
+      "en": "When you shop or choose a restaurant or hotel you need to compare: this one is bigger, that one is cheaper, this one is the best. Here you learn the basic forms, including irregular ones such as besser and lieber.",
+      "id": "Ketika berbelanja atau memilih restoran atau hotel Anda perlu membandingkan: ini lebih besar, itu lebih murah, ini yang terbaik. Di sini Anda belajar bentuk dasarnya, termasuk yang tak beraturan seperti besser dan lieber."
+    },
+    "culture": {
+      "ar": "الألمان يقارنون الأسعار كثيرًا ويحبون التقييمات قبل الشراء. وسؤال «Was ist besser?» أو «Was ist günstiger?» شائع في المتاجر. وكلمة «günstig» تعني رخيصًا بمعنى جيد القيمة، وهي أكثر لطفًا من «billig».",
+      "en": "Germans compare prices a lot and like reading reviews before buying. Questions like Was ist besser? or Was ist günstiger? are common in shops. Günstig means good value, and it sounds nicer than billig, which can mean cheap in quality.",
+      "id": "Orang Jerman sering membandingkan harga dan suka membaca ulasan sebelum membeli. Pertanyaan seperti Was ist besser? atau Was ist günstiger? umum di toko. Günstig berarti harga bagus, terdengar lebih baik daripada billig yang bisa berarti murahan."
+    },
+    "grammar": {
+      "title": {
+        "ar": "الصفة المقارِنة والتفضيل",
+        "en": "Comparative and superlative",
+        "id": "Komparatif dan superlatif"
+      },
+      "body": {
+        "ar": "المقارنة: نضيف -er إلى الصفة: klein ← kleiner، schnell ← schneller، groß ← größer (مع تغيير a/o/u إلى umlaut في بعض الصفات)، ثم نستعمل «als»: «Berlin ist größer als Hamburg». وللتساوي: «so ... wie»: «so alt wie du». وهناك أشكال غير منتظمة: gut ← besser ← am besten، gern ← lieber ← am liebsten، viel ← mehr ← am meisten. والتفضيل بعد «ist»: am + صفة + -sten: am größten، am billigsten. وteuer ← teurer (يسقط e).",
+        "en": "The comparative adds -er: klein becomes kleiner, schnell becomes schneller, groß becomes größer (some adjectives add an umlaut), then we use als: Berlin ist größer als Hamburg. For equality: so ... wie: so alt wie du. Some forms are irregular: gut, besser, am besten; gern, lieber, am liebsten; viel, mehr, am meisten. The superlative after ist is am + adjective + -sten: am größten, am billigsten. Teuer becomes teurer (the e drops).",
+        "id": "Komparatif menambahkan -er: klein menjadi kleiner, schnell menjadi schneller, groß menjadi größer (beberapa adjektiva mendapat umlaut), lalu dipakai als: Berlin ist größer als Hamburg. Untuk kesetaraan: so ... wie: so alt wie du. Beberapa bentuk tak beraturan: gut, besser, am besten; gern, lieber, am liebsten; viel, mehr, am meisten. Superlatif setelah ist adalah am + adjektiva + -sten: am größten, am billigsten. Teuer menjadi teurer (e hilang)."
+      }
+    },
+    "items": [
+      {
+        "id": "de26n1",
+        "target": "Berlin ist größer als Hamburg.",
+        "translit": "ber-LEEN ist GRUR-ser ahls HAHM-boork",
+        "tr": {
+          "ar": "برلين أكبر من هامبورغ.",
+          "en": "Berlin is bigger than Hamburg.",
+          "id": "Berlin lebih besar daripada Hamburg."
+        },
+        "example": {
+          "target": "Mein Bruder ist größer als ich.",
+          "translit": "mine BROO-der ist GRUR-ser ahls iç",
+          "tr": {
+            "ar": "أخي أطول مني.",
+            "en": "My brother is taller than I am.",
+            "id": "Saudara saya lebih tinggi daripada saya."
+          }
+        },
+        "hint": {
+          "ar": "«groß» ← «größer» (يضيف umlaut). وبعد المقارنة نستعمل «als»، لا «wie». وتُنطق ö مثل «ur» الإنجليزية الطويلة.",
+          "en": "Groß becomes größer (with an umlaut). After a comparative we use als, not wie. The ö is said like the ur of English fur.",
+          "id": "Groß menjadi größer (dengan umlaut). Setelah komparatif dipakai als, bukan wie. Ö dibaca seperti ur pada kata Inggris fur."
+        }
+      },
+      {
+        "id": "de26n2",
+        "target": "Der Kaffee hier ist besser.",
+        "translit": "dair KAH-fay heer ist BES-er",
+        "tr": {
+          "ar": "القهوة هنا أفضل.",
+          "en": "The coffee here is better.",
+          "id": "Kopi di sini lebih enak."
+        },
+        "example": {
+          "target": "Ist das Wetter heute besser als gestern?",
+          "translit": "ist dahs VET-er HOY-tuh BES-er ahls GEHS-tern",
+          "tr": {
+            "ar": "هل الطقس اليوم أفضل من أمس؟",
+            "en": "Is the weather better today than yesterday?",
+            "id": "Apakah cuaca hari ini lebih baik daripada kemarin?"
+          }
+        },
+        "hint": {
+          "ar": "«gut» ← «besser» (غير منتظم)، وهو يعني أيضًا «أطيب» عن الطعام. وss في besser تُنطق s قصيرة.",
+          "en": "Gut becomes besser (irregular); for food it means tastier. The ss in besser is a short s.",
+          "id": "Gut menjadi besser (tak beraturan); untuk makanan berarti lebih enak. Ss pada besser adalah s pendek."
+        }
+      },
+      {
+        "id": "de26n3",
+        "target": "Ich esse lieber Reis als Brot.",
+        "translit": "iç ES-uh LEE-ber rice ahls broht",
+        "tr": {
+          "ar": "أفضّل أكل الأرز على الخبز.",
+          "en": "I prefer eating rice to bread.",
+          "id": "Saya lebih suka makan nasi daripada roti."
+        },
+        "example": {
+          "target": "Er trinkt lieber Tee als Kaffee.",
+          "translit": "air trinkt LEE-ber tay ahls KAH-fay",
+          "tr": {
+            "ar": "هو يفضّل شرب الشاي على القهوة.",
+            "en": "He prefers tea to coffee.",
+            "id": "Dia lebih suka minum teh daripada kopi."
+          }
+        },
+        "hint": {
+          "ar": "«lieber» هي مقارنة «gern». ونستعمل «als» لذكر الشيء المقابل. وie تُنطق «ee».",
+          "en": "Lieber is the comparative of gern. We use als for the thing we like less. Ie is said ee.",
+          "id": "Lieber adalah komparatif dari gern. Als dipakai untuk hal yang kurang disukai. Ie dibaca ee."
+        }
+      },
+      {
+        "id": "de26n4",
+        "target": "Die Jacke ist teurer als die Hose.",
+        "translit": "dee YAH-kuh ist TOY-rer ahls dee HOH-zuh",
+        "tr": {
+          "ar": "السترة أغلى من البنطال.",
+          "en": "The jacket is more expensive than the trousers.",
+          "id": "Jaket lebih mahal daripada celana."
+        },
+        "example": {
+          "target": "Das Hotel ist teurer, aber viel besser.",
+          "translit": "dahs hoh-TEL ist TOY-rer AH-ber feel BES-er",
+          "tr": {
+            "ar": "الفندق أغلى لكنه أفضل بكثير.",
+            "en": "The hotel is more expensive but much better.",
+            "id": "Hotelnya lebih mahal tetapi jauh lebih bagus."
+          }
+        },
+        "hint": {
+          "ar": "«teuer» ← «teurer» (يسقط e). و«eu» تُنطق «oy». ونقول «viel besser» أي أفضل بكثير.",
+          "en": "Teuer becomes teurer (the e drops). Eu is said oy. Viel besser means much better.",
+          "id": "Teuer menjadi teurer (e hilang). Eu dibaca oy. Viel besser berarti jauh lebih baik."
+        }
+      },
+      {
+        "id": "de26n5",
+        "target": "Er ist so groß wie sein Vater.",
+        "translit": "air ist zoh grohs vee zine FAH-ter",
+        "tr": {
+          "ar": "هو بطول أبيه.",
+          "en": "He is as tall as his father.",
+          "id": "Dia setinggi ayahnya."
+        },
+        "example": {
+          "target": "Ich bin so alt wie du.",
+          "translit": "iç bin zoh ahlt vee doo",
+          "tr": {
+            "ar": "أنا في عمرك.",
+            "en": "I am as old as you.",
+            "id": "Saya seumur kamu."
+          }
+        },
+        "hint": {
+          "ar": "للتساوي نستعمل «so ... wie» والصفة تبقى دون نهاية. ونقول «wie» لا «als».",
+          "en": "For equality we use so ... wie and the adjective stays unchanged. We say wie, not als.",
+          "id": "Untuk kesetaraan dipakai so ... wie dan adjektiva tidak berubah. Dipakai wie, bukan als."
+        }
+      },
+      {
+        "id": "de26n6",
+        "target": "Am liebsten esse ich Pizza.",
+        "translit": "ahm LEEP-sten ES-uh iç PIT-sah",
+        "tr": {
+          "ar": "أحب أكل البيتزا أكثر من أي شيء.",
+          "en": "Most of all I like to eat pizza.",
+          "id": "Yang paling saya suka adalah makan pizza."
+        },
+        "example": {
+          "target": "Am liebsten fahre ich mit dem Zug.",
+          "translit": "ahm LEEP-sten FAH-ruh iç mit dem tsook",
+          "tr": {
+            "ar": "أحب أكثر شيء أن أسافر بالقطار.",
+            "en": "Most of all I like travelling by train.",
+            "id": "Yang paling saya suka adalah bepergian naik kereta."
+          }
+        },
+        "hint": {
+          "ar": "«am liebsten» هي صيغة التفضيل من «gern». وعند وضعها في البداية يأتي الفعل بعدها مباشرة: esse ich.",
+          "en": "Am liebsten is the superlative of gern. At the start of a sentence the verb follows at once: esse ich.",
+          "id": "Am liebsten adalah superlatif dari gern. Di awal kalimat kata kerja langsung mengikuti: esse ich."
+        }
+      }
+    ],
+    "cloze": [
+      {
+        "sentence": "Ich bin größer ___ mein Bruder.",
+        "answer": "als",
+        "wrong": [
+          "wie",
+          "am"
+        ],
+        "tr": {
+          "ar": "أنا أطول من أخي.",
+          "en": "I am taller than my brother.",
+          "id": "Saya lebih tinggi daripada saudara saya."
+        },
+        "why": {
+          "ar": "بعد صيغة المقارنة (größer) نقول «als». «wie» تُستعمل مع «so» للتساوي، و«am» للتفضيل.",
+          "en": "After a comparative (größer) we say als. Wie goes with so for equality, and am is for the superlative.",
+          "id": "Setelah komparatif (größer) dipakai als. Wie dipakai dengan so untuk kesetaraan, dan am untuk superlatif."
+        }
+      },
+      {
+        "sentence": "Er ist so alt ___ ich.",
+        "answer": "wie",
+        "wrong": [
+          "als",
+          "am"
+        ],
+        "tr": {
+          "ar": "هو في عمري.",
+          "en": "He is as old as I am.",
+          "id": "Dia seumur saya."
+        },
+        "why": {
+          "ar": "مع «so ... » نستعمل «wie» للتساوي. «als» تأتي بعد صيغة المقارنة، و«am» للتفضيل.",
+          "en": "With so ... we use wie for equality. Als follows a comparative, and am is for the superlative.",
+          "id": "Dengan so ... dipakai wie untuk kesetaraan. Als mengikuti komparatif, dan am untuk superlatif."
+        }
+      }
+    ],
+    "conversation": {
+      "context": {
+        "ar": "في متجر إلكترونيات. زبون وبائع (Sie).",
+        "en": "In an electronics shop. A customer and a seller (Sie).",
+        "id": "Di toko elektronik. Pelanggan dan penjual (Sie)."
+      },
+      "turns": [
+        {
+          "who": "A",
+          "target": "Welches Handy ist besser?",
+          "tr": {
+            "ar": "أي هاتف هو الأفضل؟",
+            "en": "Which phone is better?",
+            "id": "Ponsel mana yang lebih bagus?"
+          }
+        },
+        {
+          "who": "B",
+          "target": "Dieses hier ist besser, aber es ist auch teurer.",
+          "tr": {
+            "ar": "هذا أفضل لكنه أغلى أيضًا.",
+            "en": "This one is better, but it is also more expensive.",
+            "id": "Yang ini lebih bagus, tetapi juga lebih mahal."
+          }
+        },
+        {
+          "who": "A",
+          "target": "Dann nehme ich das andere.",
+          "tr": {
+            "ar": "إذن آخذ الآخر.",
+            "en": "Then I will take the other one.",
+            "id": "Kalau begitu saya ambil yang lain."
+          }
+        }
+      ],
+      "gap": 1,
+      "wrong": [
+        "Ich habe gestern ein Handy gekauft.",
+        "Ich fahre am liebsten mit dem Zug."
+      ],
+      "why": {
+        "ar": "الزبون سأل أيّ هاتف أفضل، فالجواب مقارنة بين الهاتفين. الجملتان الأخريان لا تجيبان عن السؤال.",
+        "en": "The customer asked which phone is better, so the answer compares the two phones. The other two sentences do not answer the question.",
+        "id": "Pelanggan bertanya ponsel mana yang lebih bagus, jadi jawabannya membandingkan kedua ponsel. Dua kalimat lain tidak menjawab pertanyaan."
+      }
+    },
+    "summary": {
+      "ar": "تعلّمتَ أن تقارن بـ«-er ... als» وتتساوى بـ«so ... wie» وتفضّل بـ«lieber» و«am liebsten». وتعرف أن gut ← besser وteuer ← teurer.",
+      "en": "You learned to compare with -er ... als, to say equality with so ... wie, and to prefer with lieber and am liebsten. You know that gut becomes besser and teuer becomes teurer.",
+      "id": "Anda belajar membandingkan dengan -er ... als, menyatakan kesetaraan dengan so ... wie, dan menyatakan preferensi dengan lieber dan am liebsten. Anda tahu gut menjadi besser dan teuer menjadi teurer."
+    }
+  },
+  {
+    "id": "de-27",
+    "track": "de",
+    "level": "intermediate",
+    "order": 27,
+    "topic": "favours-gifts",
+    "icon": "🎁",
+    "title": {
+      "ar": "خدمات وهدايا",
+      "en": "Favours and Gifts",
+      "id": "Bantuan dan Hadiah"
+    },
+    "description": {
+      "ar": "تعلّم ضمائر حالة الجرّ مثل «mir» و«dir» وأفعال مثل helfen وschenken وgeben.",
+      "en": "Learn dative pronouns such as mir and dir and verbs like helfen, schenken and geben.",
+      "id": "Pelajari kata ganti dativ seperti mir dan dir serta kata kerja seperti helfen, schenken, dan geben."
+    },
+    "objectives": [
+      {
+        "ar": "أستطيع أن أطلب مساعدة: «Kannst du mir helfen؟».",
+        "en": "I can ask for help: Kannst du mir helfen?",
+        "id": "Saya bisa meminta bantuan: Kannst du mir helfen?"
+      },
+      {
+        "ar": "أعرف ضمائر الـDativ: mir وdir وihm وihr وuns.",
+        "en": "I know the dative pronouns mir, dir, ihm, ihr and uns.",
+        "id": "Saya tahu kata ganti dativ mir, dir, ihm, ihr, dan uns."
+      },
+      {
+        "ar": "أستطيع أن أقول لمن أعطي شيئًا: «Ich schenke ihr ein Buch».",
+        "en": "I can say who I give something to: Ich schenke ihr ein Buch.",
+        "id": "Saya bisa menyatakan kepada siapa saya memberi sesuatu: Ich schenke ihr ein Buch."
+      }
+    ],
+    "intro": {
+      "ar": "في الألمانية بعض الأفعال تحتاج شخصًا يتلقى الشيء أو الفائدة، وهذا الشخص يأتي في حالة الـDativ: «Ich helfe dir» أي أساعدك. في هذا الدرس تتعلم أن تطلب خدمة وتهدي وتشكر.",
+      "en": "In German some verbs need a person who receives something or benefits, and that person is in the dative: Ich helfe dir, I help you. In this lesson you learn to ask for a favour, give a present and say thank you.",
+      "id": "Dalam bahasa Jerman beberapa kata kerja memerlukan orang yang menerima sesuatu atau mendapat manfaat, dan orang itu berada dalam dativ: Ich helfe dir, saya membantumu. Di pelajaran ini Anda belajar meminta bantuan, memberi hadiah, dan berterima kasih."
+    },
+    "culture": {
+      "ar": "عند زيارة صديق في ألمانيا من اللطيف أن تحضر هدية صغيرة مثل الزهور أو الشوكولاتة. والورود الحمراء تدلّ على الحب، لذا يختار الناس زهورًا أخرى للأصدقاء. وغالبًا يقول المضيف: «Danke, das ist lieb von dir!».",
+      "en": "When visiting a friend in Germany it is nice to bring a small gift such as flowers or chocolate. Red roses mean romance, so people choose other flowers for friends. The host then often says Danke, das ist lieb von dir!",
+      "id": "Saat mengunjungi teman di Jerman, membawa hadiah kecil seperti bunga atau cokelat itu menyenangkan. Mawar merah berarti romantis, jadi untuk teman orang memilih bunga lain. Tuan rumah biasanya berkata Danke, das ist lieb von dir!"
+    },
+    "grammar": {
+      "title": {
+        "ar": "ضمائر حالة الجرّ",
+        "en": "Dative pronouns",
+        "id": "Kata ganti dativ"
+      },
+      "body": {
+        "ar": "ضمائر الـDativ: ich ← mir، du ← dir، er/es ← ihm، sie ← ihr، wir ← uns، ihr ← euch، sie/Sie ← ihnen/Ihnen. أفعال تأخذ Dativ: helfen (ich helfe dir)، geben وschenken وzeigen (الشخص بالـDativ والشيء بالـAkkusativ): «Ich schenke ihr ein Buch». وفي الـPerfekt: «Ich habe dir ein Geschenk gekauft». و«mich» هي Akkusativ بينما «mir» هي Dativ.",
+        "en": "The dative pronouns are: ich becomes mir, du becomes dir, er/es becomes ihm, sie becomes ihr, wir becomes uns, ihr becomes euch, sie/Sie becomes ihnen/Ihnen. Verbs that take the dative: helfen (ich helfe dir); geben, schenken and zeigen take the person in the dative and the thing in the accusative: Ich schenke ihr ein Buch. In the Perfekt: Ich habe dir ein Geschenk gekauft. Mich is accusative and mir is dative.",
+        "id": "Kata ganti dativ: ich menjadi mir, du menjadi dir, er/es menjadi ihm, sie menjadi ihr, wir menjadi uns, ihr menjadi euch, sie/Sie menjadi ihnen/Ihnen. Kata kerja dengan dativ: helfen (ich helfe dir); geben, schenken, dan zeigen memakai dativ untuk orang dan akusatif untuk benda: Ich schenke ihr ein Buch. Dalam Perfekt: Ich habe dir ein Geschenk gekauft. Mich adalah akusatif dan mir adalah dativ."
+      }
+    },
+    "items": [
+      {
+        "id": "de27n1",
+        "target": "Kannst du mir helfen?",
+        "translit": "kahnst doo meer HEL-fen",
+        "tr": {
+          "ar": "هل تستطيع مساعدتي؟",
+          "en": "Can you help me?",
+          "id": "Bisakah kamu membantu saya?"
+        },
+        "example": {
+          "target": "Kannst du mir bitte mit dem Koffer helfen?",
+          "translit": "kahnst doo meer BIT-uh mit dem KOF-er HEL-fen",
+          "tr": {
+            "ar": "هل تستطيع مساعدتي في حمل الحقيبة؟",
+            "en": "Can you help me with the suitcase, please?",
+            "id": "Bisakah kamu membantu saya dengan kopernya?"
+          }
+        },
+        "hint": {
+          "ar": "هذه صيغة «du» لصديق. ومع غريب: «Können Sie mir helfen؟». و«helfen» يأخذ Dativ دائمًا: mir.",
+          "en": "This is du for a friend. With a stranger: Können Sie mir helfen? Helfen always takes the dative: mir.",
+          "id": "Ini du untuk teman. Dengan orang asing: Können Sie mir helfen? Helfen selalu memakai dativ: mir."
+        }
+      },
+      {
+        "id": "de27n2",
+        "target": "Ich helfe dir gern.",
+        "translit": "iç HEL-fuh deer gairn",
+        "tr": {
+          "ar": "يسعدني أن أساعدك.",
+          "en": "I am happy to help you.",
+          "id": "Saya senang membantumu."
+        },
+        "example": {
+          "target": "Ich helfe dir am Samstag beim Umzug.",
+          "translit": "iç HEL-fuh deer ahm ZAHMS-tahk bime OOM-tsook",
+          "tr": {
+            "ar": "سأساعدك يوم السبت في الانتقال.",
+            "en": "I will help you with the move on Saturday.",
+            "id": "Saya akan membantumu pindahan hari Sabtu."
+          }
+        },
+        "hint": {
+          "ar": "«dir» هو Dativ لـ«du». و«beim» اختصار «bei dem». ويُنطق g في Umzug مثل k.",
+          "en": "Dir is the dative of du. Beim is short for bei dem. The g in Umzug sounds like k.",
+          "id": "Dir adalah dativ dari du. Beim singkatan bei dem. G pada Umzug dibaca seperti k."
+        }
+      },
+      {
+        "id": "de27n3",
+        "target": "Ich schenke ihm ein Buch.",
+        "translit": "iç SHEN-kuh eem ine bookh",
+        "tr": {
+          "ar": "أهديه كتابًا.",
+          "en": "I am giving him a book as a present.",
+          "id": "Saya memberinya buku sebagai hadiah."
+        },
+        "example": {
+          "target": "Wir schenken ihr Blumen.",
+          "translit": "veer SHEN-ken eer BLOO-men",
+          "tr": {
+            "ar": "نهديها زهورًا.",
+            "en": "We are giving her flowers.",
+            "id": "Kami memberinya bunga."
+          }
+        },
+        "hint": {
+          "ar": "«ihm» لمذكر وهو Dativ، و«ihr» لمؤنث. والشيء الذي يُهدى (ein Buch) في الـAkkusativ.",
+          "en": "Ihm is for a man (dative) and ihr for a woman. The thing given (ein Buch) is in the accusative.",
+          "id": "Ihm untuk laki-laki (dativ) dan ihr untuk perempuan. Benda yang diberikan (ein Buch) dalam akusatif."
+        }
+      },
+      {
+        "id": "de27n4",
+        "target": "Gibst du mir bitte das Salz?",
+        "translit": "gipst doo meer BIT-uh dahs zahlts",
+        "tr": {
+          "ar": "هل تناولني الملح من فضلك؟",
+          "en": "Could you pass me the salt, please?",
+          "id": "Bisa tolong berikan garamnya?"
+        },
+        "example": {
+          "target": "Gibst du ihm den Schlüssel?",
+          "translit": "gipst doo eem dane SHLEW-sel",
+          "tr": {
+            "ar": "هل تعطيه المفتاح؟",
+            "en": "Are you giving him the key?",
+            "id": "Apakah kamu memberinya kunci?"
+          }
+        },
+        "hint": {
+          "ar": "«geben» ← «du gibst» (يتغيّر الحرف). والشخص بالـDativ (mir/ihm) والشيء بالـAkkusativ (das Salz، den Schlüssel).",
+          "en": "Geben becomes du gibst (vowel change). The person is dative (mir/ihm) and the thing is accusative (das Salz, den Schlüssel).",
+          "id": "Geben menjadi du gibst (vokal berubah). Orangnya dativ (mir/ihm) dan bendanya akusatif (das Salz, den Schlüssel)."
+        }
+      },
+      {
+        "id": "de27n5",
+        "target": "Ich habe dir ein Geschenk gekauft.",
+        "translit": "iç HAH-buh deer ine guh-SHENK guh-KOWFT",
+        "tr": {
+          "ar": "اشتريتُ لك هدية.",
+          "en": "I bought you a present.",
+          "id": "Saya membelikanmu hadiah."
+        },
+        "example": {
+          "target": "Meine Eltern haben mir ein Fahrrad geschenkt.",
+          "translit": "MY-nuh EL-tern HAH-ben meer ine FAR-raht guh-SHENKT",
+          "tr": {
+            "ar": "أهداني والداي دراجة.",
+            "en": "My parents gave me a bicycle.",
+            "id": "Orang tua saya memberi saya sepeda."
+          }
+        },
+        "hint": {
+          "ar": "في الـPerfekt الشخص بالـDativ قبل اسم المفعول: «dir ... gekauft». واسم المفعول من schenken هو geschenkt.",
+          "en": "In the Perfekt the dative person comes before the participle: dir ... gekauft. The participle of schenken is geschenkt.",
+          "id": "Dalam Perfekt orang dativ berada sebelum participle: dir ... gekauft. Participle dari schenken adalah geschenkt."
+        }
+      },
+      {
+        "id": "de27n6",
+        "target": "Ich zeige dir die Stadt.",
+        "translit": "iç TSY-guh deer dee shtaht",
+        "tr": {
+          "ar": "سأريك المدينة.",
+          "en": "I will show you the city.",
+          "id": "Saya akan menunjukkan kota kepadamu."
+        },
+        "example": {
+          "target": "Er zeigt uns das Hotel.",
+          "translit": "air tsykt oons dahs hoh-TEL",
+          "tr": {
+            "ar": "هو يرينا الفندق.",
+            "en": "He shows us the hotel.",
+            "id": "Dia menunjukkan hotel kepada kami."
+          }
+        },
+        "hint": {
+          "ar": "«uns» للجمع المتكلم في Dativ وAkkusativ بالشكل نفسه. وzeigen يأخذ الشخص بـDativ والشيء بـAkkusativ.",
+          "en": "Uns is the same in dative and accusative. Zeigen takes the person in the dative and the thing in the accusative.",
+          "id": "Uns sama dalam dativ dan akusatif. Zeigen memakai orang dalam dativ dan benda dalam akusatif."
+        }
+      }
+    ],
+    "cloze": [
+      {
+        "sentence": "Kannst du ___ helfen?",
+        "answer": "mir",
+        "wrong": [
+          "mich",
+          "ich"
+        ],
+        "tr": {
+          "ar": "هل تستطيع مساعدتي؟",
+          "en": "Can you help me?",
+          "id": "Bisakah kamu membantu saya?"
+        },
+        "why": {
+          "ar": "«helfen» يأخذ Dativ فنقول «mir». «mich» هي Akkusativ و«ich» فاعل.",
+          "en": "Helfen takes the dative, so mir. Mich is accusative and ich is the subject.",
+          "id": "Helfen memakai dativ, jadi mir. Mich adalah akusatif dan ich adalah subjek."
+        }
+      },
+      {
+        "sentence": "Ich schenke ___ ein Buch.",
+        "answer": "ihm",
+        "wrong": [
+          "er",
+          "ihn"
+        ],
+        "tr": {
+          "ar": "أهديه كتابًا.",
+          "en": "I am giving him a book.",
+          "id": "Saya memberinya buku."
+        },
+        "why": {
+          "ar": "الترجمة تحدّد المعنى: الكتاب يُعطى له، فالمتلقّي بالـDativ: «ihm». «er» فاعل، و«ihn» Akkusativ وهو للمفعول به المباشر لا للمتلقّي.",
+          "en": "The translation fixes the meaning: the book goes to him, so the receiving person is in the dative: ihm. Er is the subject (he) and ihn is accusative, which would be the thing, not the receiver.",
+          "id": "Terjemahannya menentukan maknanya: buku diberikan kepada dia, jadi penerimanya dalam dativ: ihm. Er adalah subjek (dia) dan ihn adalah akusatif, yaitu untuk benda, bukan penerima."
+        }
+      }
+    ],
+    "conversation": {
+      "context": {
+        "ar": "صديقان يتحدثان عن عيد ميلاد آنا (du).",
+        "en": "Two friends talk about Anna's birthday (du).",
+        "id": "Dua teman membicarakan ulang tahun Anna (du)."
+      },
+      "turns": [
+        {
+          "who": "A",
+          "target": "Morgen hat Anna Geburtstag. Was schenkst du ihr?",
+          "tr": {
+            "ar": "غدًا عيد ميلاد آنا. ماذا ستهديها؟",
+            "en": "Tomorrow is Anna's birthday. What will you give her?",
+            "id": "Besok Anna berulang tahun. Apa yang akan kamu berikan padanya?"
+          }
+        },
+        {
+          "who": "B",
+          "target": "Ich schenke ihr ein Buch.",
+          "tr": {
+            "ar": "سأهديها كتابًا.",
+            "en": "I will give her a book.",
+            "id": "Saya akan memberinya buku."
+          }
+        },
+        {
+          "who": "A",
+          "target": "Gute Idee! Das gefällt ihr bestimmt.",
+          "tr": {
+            "ar": "فكرة جيدة! أكيد ستعجبها.",
+            "en": "Good idea! She will surely like it.",
+            "id": "Ide bagus! Dia pasti suka."
+          }
+        }
+      ],
+      "gap": 1,
+      "wrong": [
+        "Ich schenke ihm ein Buch.",
+        "Sie schenkt mir Blumen."
+      ],
+      "why": {
+        "ar": "آنا امرأة، فالجواب الصحيح «ihr» وعن الهدية «ein Buch». «ihm» للمذكر، وفي الجملة الثانية الفاعل شخص آخر ولا تجيب عن السؤال.",
+        "en": "Anna is a woman, so the answer uses ihr and the gift ein Buch. Ihm is for a man, and in the second sentence someone else is the giver, so it does not answer.",
+        "id": "Anna adalah perempuan, jadi jawabannya memakai ihr dan hadiahnya ein Buch. Ihm untuk laki-laki, dan pada kalimat kedua pemberinya orang lain sehingga tidak menjawab."
+      }
+    },
+    "summary": {
+      "ar": "تعلّمتَ ضمائر الـDativ mir وdir وihm وihr وuns، وأفعال helfen وgeben وschenken وzeigen، وطلب المساعدة بأدب.",
+      "en": "You learned the dative pronouns mir, dir, ihm, ihr and uns, the verbs helfen, geben, schenken and zeigen, and how to ask for help politely.",
+      "id": "Anda belajar kata ganti dativ mir, dir, ihm, ihr, dan uns, kata kerja helfen, geben, schenken, dan zeigen, serta cara meminta bantuan dengan sopan."
+    }
+  },
+  {
+    "id": "de-28",
+    "track": "de",
+    "level": "intermediate",
+    "order": 28,
+    "topic": "travel-hotel",
+    "icon": "🏨",
+    "title": {
+      "ar": "السفر والفندق",
+      "en": "Travel and Hotel",
+      "id": "Perjalanan dan Hotel"
+    },
+    "description": {
+      "ar": "تعلّم أن تطلب بأدب في الفندق ومحطة القطار، وأن تتحدث عن خططك بـ«werden».",
+      "en": "Learn to ask politely at a hotel and a station, and to talk about your plans with werden.",
+      "id": "Pelajari cara meminta dengan sopan di hotel dan stasiun, serta membicarakan rencana dengan werden."
+    },
+    "objectives": [
+      {
+        "ar": "أستطيع طلب غرفة بأدب: «Ich hätte gern ein Zimmer».",
+        "en": "I can ask for a room politely: Ich hätte gern ein Zimmer.",
+        "id": "Saya bisa meminta kamar dengan sopan: Ich hätte gern ein Zimmer."
+      },
+      {
+        "ar": "أستطيع استعمال «Könnten Sie ...؟» لأطلب مساعدة.",
+        "en": "I can use Könnten Sie ...? to ask for help.",
+        "id": "Saya bisa memakai Könnten Sie ...? untuk meminta bantuan."
+      },
+      {
+        "ar": "أستطيع الحديث عن المستقبل بـ«werden».",
+        "en": "I can talk about the future with werden.",
+        "id": "Saya bisa membicarakan masa depan dengan werden."
+      }
+    ],
+    "intro": {
+      "ar": "في الفنادق ومحطات القطار نستعمل صيغًا مهذّبة (Konjunktiv II) مثل «Ich hätte gern» و«Könnten Sie». وللمستقبل نستعمل غالبًا المضارع مع كلمة زمن أو الفعل «werden». ستحجز هنا غرفة وتسأل عن القطار.",
+      "en": "At hotels and stations we use polite forms (Konjunktiv II) such as Ich hätte gern and Könnten Sie. For the future we often use the present with a time word, or the verb werden. Here you will book a room and ask about a train.",
+      "id": "Di hotel dan stasiun kita memakai bentuk sopan (Konjunktiv II) seperti Ich hätte gern dan Könnten Sie. Untuk masa depan kita sering memakai kala sekarang dengan kata waktu, atau kata kerja werden. Di sini Anda akan memesan kamar dan menanyakan kereta."
+    },
+    "culture": {
+      "ar": "في الفنادق الألمانية يُقدَّم الفطور غالبًا في السعر أو يُدفع بشكل منفصل، لذا اسأل «Ist das Frühstück inklusive؟». وفي القطارات تحجز عبر تطبيق «DB Navigator» أو من الآلة في المحطة، وقد تتأخر القطارات، فتسمع «Der Zug hat Verspätung».",
+      "en": "In German hotels breakfast is either included or paid separately, so ask Ist das Frühstück inklusive? For trains you can book in the DB Navigator app or at a machine in the station, and trains can be late, so you may hear Der Zug hat Verspätung.",
+      "id": "Di hotel Jerman sarapan kadang termasuk dalam harga atau dibayar terpisah, jadi tanyakan Ist das Frühstück inklusive? Untuk kereta Anda bisa memesan lewat aplikasi DB Navigator atau mesin di stasiun, dan kereta bisa terlambat, sehingga Anda mungkin mendengar Der Zug hat Verspätung."
+    },
+    "grammar": {
+      "title": {
+        "ar": "الأدب بـKonjunktiv II و«werden»",
+        "en": "Politeness with Konjunktiv II and werden",
+        "id": "Kesopanan dengan Konjunktiv II dan werden"
+      },
+      "body": {
+        "ar": "«Ich hätte gern ...» أنعم من «Ich habe ...»، و«Könnten Sie ...؟» أنعم من «Können Sie ...؟» وهما صيغتان من Konjunktiv II. ومع Könnten يأتي المصدر في آخر الجملة: «Könnten Sie mir helfen؟». وللمستقبل: werden (ich werde, du wirst, er wird, wir werden, ihr werdet, sie werden) + مصدر في آخر الجملة: «Ich werde nach Wien fahren». ويُستعمل المضارع أيضًا مع كلمة زمن: «Morgen fahre ich nach Wien».",
+        "en": "Ich hätte gern ... is softer than Ich habe ..., and Könnten Sie ...? is softer than Können Sie ...? Both are Konjunktiv II forms. After Könnten the infinitive goes to the end: Könnten Sie mir helfen? For the future: werden (ich werde, du wirst, er wird, wir werden, ihr werdet, sie werden) + infinitive at the end: Ich werde nach Wien fahren. The present with a time word also works: Morgen fahre ich nach Wien.",
+        "id": "Ich hätte gern ... lebih halus daripada Ich habe ..., dan Könnten Sie ...? lebih halus daripada Können Sie ...? Keduanya bentuk Konjunktiv II. Setelah Könnten, infinitif berada di akhir: Könnten Sie mir helfen? Untuk masa depan: werden (ich werde, du wirst, er wird, wir werden, ihr werdet, sie werden) + infinitif di akhir: Ich werde nach Wien fahren. Kala sekarang dengan kata waktu juga bisa: Morgen fahre ich nach Wien."
+      }
+    },
+    "items": [
+      {
+        "id": "de28n1",
+        "target": "Ich hätte gern ein Zimmer für zwei Nächte.",
+        "translit": "iç HET-uh gairn ine TSIM-er fewr tsvy NEÇ-tuh",
+        "tr": {
+          "ar": "أود غرفة لليلتين.",
+          "en": "I would like a room for two nights.",
+          "id": "Saya ingin kamar untuk dua malam."
+        },
+        "example": {
+          "target": "Ich hätte gern ein Doppelzimmer mit Frühstück.",
+          "translit": "iç HET-uh gairn ine DOP-el-tsim-er mit FREW-shtewk",
+          "tr": {
+            "ar": "أود غرفة مزدوجة مع الفطور.",
+            "en": "I would like a double room with breakfast.",
+            "id": "Saya ingin kamar ganda dengan sarapan."
+          }
+        },
+        "hint": {
+          "ar": "عبارة مهذّبة في الاستقبال مع Sie. وتُنطق ä في hätte مثل e، وch في Nächte مثل ç.",
+          "en": "A polite phrase at reception, with Sie. The ä in hätte is said e, and ch in Nächte is ç.",
+          "id": "Frasa sopan di resepsionis, dengan Sie. Ä pada hätte dibaca e, dan ch pada Nächte dibaca ç."
+        }
+      },
+      {
+        "id": "de28n2",
+        "target": "Könnten Sie mir bitte helfen?",
+        "translit": "KURN-ten zee meer BIT-uh HEL-fen",
+        "tr": {
+          "ar": "هل تستطيع مساعدتي من فضلك؟",
+          "en": "Could you help me, please?",
+          "id": "Bisakah Anda membantu saya?"
+        },
+        "example": {
+          "target": "Könnten Sie mir ein Taxi rufen?",
+          "translit": "KURN-ten zee meer ine TAHK-see ROO-fen",
+          "tr": {
+            "ar": "هل تستطيع أن تطلب لي سيارة أجرة؟",
+            "en": "Could you call me a taxi?",
+            "id": "Bisakah Anda memanggilkan saya taksi?"
+          }
+        },
+        "hint": {
+          "ar": "هذه صيغة Sie المهذّبة، مثالية للفندق والمحطة. ويُنطق ö مثل «ur». والمصدر في آخر الجملة.",
+          "en": "This is the polite Sie form, ideal for hotels and stations. The ö sounds like ur. The infinitive is at the end.",
+          "id": "Ini bentuk Sie yang sopan, cocok untuk hotel dan stasiun. Ö dibaca seperti ur. Infinitif berada di akhir."
+        }
+      },
+      {
+        "id": "de28n3",
+        "target": "Ist das Frühstück inklusive?",
+        "translit": "ist dahs FREW-shtewk in-kloo-ZEE-vuh",
+        "tr": {
+          "ar": "هل الفطور مشمول؟",
+          "en": "Is breakfast included?",
+          "id": "Apakah sarapan sudah termasuk?"
+        },
+        "example": {
+          "target": "Ist das Frühstück im Preis inklusive?",
+          "translit": "ist dahs FREW-shtewk im price in-kloo-ZEE-vuh",
+          "tr": {
+            "ar": "هل الفطور مشمول في السعر؟",
+            "en": "Is breakfast included in the price?",
+            "id": "Apakah sarapan sudah termasuk dalam harga?"
+          }
+        },
+        "hint": {
+          "ar": "سؤال نعم أو لا: يبدأ بالفعل «ist». وتُنطق ü في Frühstück مثل «ew» وst «sht».",
+          "en": "A yes/no question starts with the verb ist. The ü in Frühstück is ew and st is sht.",
+          "id": "Pertanyaan ya/tidak dimulai dengan kata kerja ist. Ü pada Frühstück dibaca ew dan st dibaca sht."
+        }
+      },
+      {
+        "id": "de28n4",
+        "target": "Ich werde nächste Woche nach Wien fahren.",
+        "translit": "iç VER-duh NEÇ-stuh VO-khuh nahkh veen FAH-ren",
+        "tr": {
+          "ar": "سأسافر الأسبوع القادم إلى فيينا.",
+          "en": "I will travel to Vienna next week.",
+          "id": "Saya akan pergi ke Wina minggu depan."
+        },
+        "example": {
+          "target": "Wir werden im Sommer nach Italien reisen.",
+          "translit": "veer VER-den im ZOM-er nahkh ee-TAH-lee-en RY-zen",
+          "tr": {
+            "ar": "سنسافر في الصيف إلى إيطاليا.",
+            "en": "We will travel to Italy in the summer.",
+            "id": "Kami akan bepergian ke Italia pada musim panas."
+          }
+        },
+        "hint": {
+          "ar": "«werden» في الموضع الثاني والمصدر (fahren) في الآخر. وتُنطق w في Wien مثل v، وie «ee».",
+          "en": "Werden stands in second place and the infinitive (fahren) at the end. The w in Wien is v and ie is ee.",
+          "id": "Werden berada di posisi kedua dan infinitif (fahren) di akhir. W pada Wien dibaca v dan ie dibaca ee."
+        }
+      },
+      {
+        "id": "de28n5",
+        "target": "Wann fährt der nächste Zug nach München?",
+        "translit": "vahn fairt dair NEÇ-stuh tsook nahkh MEWN-çen",
+        "tr": {
+          "ar": "متى يغادر القطار القادم إلى ميونخ؟",
+          "en": "When does the next train to Munich leave?",
+          "id": "Kapan kereta berikutnya ke München berangkat?"
+        },
+        "example": {
+          "target": "Der nächste Zug fährt um zehn Uhr.",
+          "translit": "dair NEÇ-stuh tsook fairt oom tsane oor",
+          "tr": {
+            "ar": "القطار القادم يغادر في الساعة العاشرة.",
+            "en": "The next train leaves at ten o'clock.",
+            "id": "Kereta berikutnya berangkat pukul sepuluh."
+          }
+        },
+        "hint": {
+          "ar": "«fahren» ← «er fährt» (يتغيّر الحرف). وسؤال W يضع الفعل ثانيًا. وتُنطق z في Zug مثل ts.",
+          "en": "Fahren becomes er fährt (vowel change). A W-question keeps the verb second. The z in Zug is ts.",
+          "id": "Fahren menjadi er fährt (vokal berubah). Pertanyaan W menempatkan kata kerja di posisi kedua. Z pada Zug dibaca ts."
+        }
+      },
+      {
+        "id": "de28n6",
+        "target": "Ich habe ein Zimmer reserviert.",
+        "translit": "iç HAH-buh ine TSIM-er rez-er-VEERT",
+        "tr": {
+          "ar": "لقد حجزتُ غرفة.",
+          "en": "I have booked a room.",
+          "id": "Saya sudah memesan kamar."
+        },
+        "example": {
+          "target": "Ich habe ein Zimmer auf den Namen Ali reserviert.",
+          "translit": "iç HAH-buh ine TSIM-er owf dane NAH-men AH-lee rez-er-VEERT",
+          "tr": {
+            "ar": "حجزتُ غرفة باسم علي.",
+            "en": "I booked a room in the name of Ali.",
+            "id": "Saya memesan kamar atas nama Ali."
+          }
+        },
+        "hint": {
+          "ar": "«reservieren» ينتهي بـ -ieren فلا يأخذ ge-: reserviert. وهذه جملة مفيدة عند الوصول إلى الفندق.",
+          "en": "Verbs ending in -ieren take no ge-: reserviert. A useful sentence when you arrive at a hotel.",
+          "id": "Kata kerja berakhiran -ieren tidak memakai ge-: reserviert. Kalimat yang berguna saat tiba di hotel."
+        }
+      }
+    ],
+    "cloze": [
+      {
+        "sentence": "Ich ___ gern ein Zimmer.",
+        "answer": "hätte",
+        "wrong": [
+          "hat",
+          "bin"
+        ],
+        "tr": {
+          "ar": "أود غرفة.",
+          "en": "I would like a room.",
+          "id": "Saya ingin kamar."
+        },
+        "why": {
+          "ar": "«Ich hätte gern» هي الصيغة المهذّبة لطلب شيء. «hat» للغائب، و«bin» لا تناسب.",
+          "en": "Ich hätte gern is the polite form for asking for something. Hat is for er/sie/es, and bin does not fit.",
+          "id": "Ich hätte gern adalah bentuk sopan untuk meminta sesuatu. Hat untuk er/sie/es, dan bin tidak cocok."
+        }
+      },
+      {
+        "sentence": "Wir ___ im Sommer nach Italien fahren.",
+        "answer": "werden",
+        "wrong": [
+          "sind",
+          "haben"
+        ],
+        "tr": {
+          "ar": "سنسافر في الصيف إلى إيطاليا.",
+          "en": "We will travel to Italy in the summer.",
+          "id": "Kami akan pergi ke Italia pada musim panas."
+        },
+        "why": {
+          "ar": "المستقبل: werden + مصدر في الآخر، ومع wir «werden». «sind» و«haben» لا يكوّنان المستقبل مع «fahren».",
+          "en": "The future is werden + infinitive at the end, and with wir it is werden. Sind and haben do not form the future with fahren.",
+          "id": "Masa depan: werden + infinitif di akhir, dan dengan wir menjadi werden. Sind dan haben tidak membentuk masa depan dengan fahren."
+        }
+      }
+    ],
+    "conversation": {
+      "context": {
+        "ar": "في استقبال فندق. الموظف والضيف يستعملان Sie.",
+        "en": "At a hotel reception. The clerk and the guest use Sie.",
+        "id": "Di resepsionis hotel. Petugas dan tamu memakai Sie."
+      },
+      "turns": [
+        {
+          "who": "A",
+          "target": "Guten Abend. Was kann ich für Sie tun?",
+          "tr": {
+            "ar": "مساء الخير. كيف يمكنني مساعدتك؟",
+            "en": "Good evening. How can I help you?",
+            "id": "Selamat malam. Apa yang bisa saya bantu?"
+          }
+        },
+        {
+          "who": "B",
+          "target": "Ich hätte gern ein Zimmer für zwei Nächte.",
+          "tr": {
+            "ar": "أود غرفة لليلتين.",
+            "en": "I would like a room for two nights.",
+            "id": "Saya ingin kamar untuk dua malam."
+          }
+        },
+        {
+          "who": "A",
+          "target": "Gern. Das macht hundertzwanzig Euro.",
+          "tr": {
+            "ar": "بكل سرور. المجموع مئة وعشرون يورو.",
+            "en": "Gladly. That comes to one hundred and twenty euros.",
+            "id": "Dengan senang hati. Totalnya seratus dua puluh euro."
+          }
+        }
+      ],
+      "gap": 1,
+      "wrong": [
+        "Ich bin gestern nach Wien gefahren.",
+        "Das Zimmer war sehr schön."
+      ],
+      "why": {
+        "ar": "الموظف سأل ماذا يريد الضيف، فالجواب هو طلب الغرفة بصيغة مهذّبة. الجملتان الأخريان عن الماضي ولا تطلبان شيئًا.",
+        "en": "The clerk asked what the guest wants, so the answer is a polite request for a room. The other two sentences are about the past and ask for nothing.",
+        "id": "Petugas menanyakan apa yang diinginkan tamu, jadi jawabannya adalah permintaan kamar yang sopan. Dua kalimat lain tentang masa lalu dan tidak meminta apa pun."
+      }
+    },
+    "summary": {
+      "ar": "تعلّمتَ الطلب المهذّب بـ«Ich hätte gern» و«Könnten Sie» وتحجز الغرفة وتسأل عن القطار، وتتحدث عن خططك بـ«werden».",
+      "en": "You learned to ask politely with Ich hätte gern and Könnten Sie, to book a room and ask about a train, and to talk about your plans with werden.",
+      "id": "Anda belajar meminta dengan sopan memakai Ich hätte gern dan Könnten Sie, memesan kamar dan menanyakan kereta, serta membicarakan rencana dengan werden."
+    }
+  },
+  {
+    "id": "de-29",
+    "track": "de",
+    "level": "intermediate",
+    "order": 29,
+    "topic": "writing-messages",
+    "icon": "✉️",
+    "title": {
+      "ar": "كتابة رسالة قصيرة",
+      "en": "Writing a Short Message",
+      "id": "Menulis Pesan Singkat"
+    },
+    "description": {
+      "ar": "تعلّم أن تربط الجمل بـ«weil» و«dass» و«aber» و«denn» وأن تكتب رسالة قصيرة.",
+      "en": "Learn to join sentences with weil, dass, aber and denn and write a short message.",
+      "id": "Pelajari cara menghubungkan kalimat dengan weil, dass, aber, dan denn serta menulis pesan singkat."
+    },
+    "objectives": [
+      {
+        "ar": "أستطيع استعمال «weil» ووضع الفعل في آخر الجملة.",
+        "en": "I can use weil and put the verb at the end.",
+        "id": "Saya bisa memakai weil dan menaruh kata kerja di akhir."
+      },
+      {
+        "ar": "أستطيع استعمال «dass» بعد «ich glaube» و«ich hoffe».",
+        "en": "I can use dass after ich glaube and ich hoffe.",
+        "id": "Saya bisa memakai dass setelah ich glaube dan ich hoffe."
+      },
+      {
+        "ar": "أستطيع كتابة رسالة قصيرة بتحية وخاتمة.",
+        "en": "I can write a short message with a greeting and a closing.",
+        "id": "Saya bisa menulis pesan singkat dengan salam dan penutup."
+      }
+    ],
+    "intro": {
+      "ar": "عندما تكتب رسالة لصديق أو زميل تحتاج إلى أن تعلّل وتعبّر عن رأيك. في الألمانية بعض الروابط تغيّر ترتيب الكلمات: بعد «weil» و«dass» يذهب الفعل إلى آخر الجملة الفرعية. أما «aber» و«denn» فلا تغيّران الترتيب.",
+      "en": "When you write to a friend or colleague you need to give reasons and say what you think. In German some connectors change the word order: after weil and dass the verb goes to the end of the clause. Aber and denn do not change the order.",
+      "id": "Saat menulis kepada teman atau rekan kerja Anda perlu memberi alasan dan menyatakan pendapat. Dalam bahasa Jerman beberapa kata penghubung mengubah urutan kata: setelah weil dan dass kata kerja pindah ke akhir klausa. Aber dan denn tidak mengubah urutan."
+    },
+    "culture": {
+      "ar": "في ألمانيا تُرسل الرسائل القصيرة عبر واتساب أو البريد الإلكتروني. بين الأصدقاء نبدأ بـ«Hallo Anna» ونختم بـ«Liebe Grüße». وفي الرسائل الرسمية نكتب «Sehr geehrte Frau Müller» ونختم بـ«Mit freundlichen Grüßen».",
+      "en": "In Germany short messages go by WhatsApp or e-mail. Between friends we start with Hallo Anna and close with Liebe Grüße. In formal letters we write Sehr geehrte Frau Müller and close with Mit freundlichen Grüßen.",
+      "id": "Di Jerman pesan singkat dikirim lewat WhatsApp atau e-mail. Antarteman kita memulai dengan Hallo Anna dan menutup dengan Liebe Grüße. Dalam surat resmi ditulis Sehr geehrte Frau Müller dan ditutup dengan Mit freundlichen Grüßen."
+    },
+    "grammar": {
+      "title": {
+        "ar": "الروابط weil وdass وaber وdenn",
+        "en": "The connectors weil, dass, aber and denn",
+        "id": "Kata penghubung weil, dass, aber dan denn"
+      },
+      "body": {
+        "ar": "«weil» (لأن) و«dass» (أنّ) تُرسلان الفعل إلى آخر الجملة الفرعية: «Ich komme nicht, weil ich krank bin». «Ich hoffe, dass du Zeit hast». وبعد الفاصلة نضع الفاعل ثم باقي الكلمات ثم الفعل. أما «aber» (لكن) و«denn» (لأن، في الكتابة) فتبقى بعدهما الجملة العادية: «Ich bin müde, aber ich komme». «Ich bleibe zu Hause, denn ich habe Fieber». وقبل weil وdass وaber وdenn نضع فاصلة.",
+        "en": "Weil (because) and dass (that) send the verb to the end of the clause: Ich komme nicht, weil ich krank bin. Ich hoffe, dass du Zeit hast. After the comma comes the subject, the other words, then the verb. Aber (but) and denn (because, more written) keep normal word order: Ich bin müde, aber ich komme. Ich bleibe zu Hause, denn ich habe Fieber. A comma comes before weil, dass, aber and denn.",
+        "id": "Weil (karena) dan dass (bahwa) mengirim kata kerja ke akhir klausa: Ich komme nicht, weil ich krank bin. Ich hoffe, dass du Zeit hast. Setelah koma datang subjek, kata lain, lalu kata kerja. Aber (tetapi) dan denn (karena, lebih sering dalam tulisan) mempertahankan urutan biasa: Ich bin müde, aber ich komme. Ich bleibe zu Hause, denn ich habe Fieber. Sebelum weil, dass, aber, dan denn dipasang koma."
+      }
+    },
+    "items": [
+      {
+        "id": "de29n1",
+        "target": "Ich komme nicht, weil ich krank bin.",
+        "translit": "iç KO-muh niçt vile iç krahnk bin",
+        "tr": {
+          "ar": "لن آتي لأني مريض.",
+          "en": "I am not coming because I am ill.",
+          "id": "Saya tidak datang karena saya sakit."
+        },
+        "example": {
+          "target": "Ich bleibe zu Hause, weil es regnet.",
+          "translit": "iç BLY-buh tsoo HOW-zuh vile ess RAYG-net",
+          "tr": {
+            "ar": "سأبقى في البيت لأن السماء تمطر.",
+            "en": "I am staying at home because it is raining.",
+            "id": "Saya tinggal di rumah karena hujan."
+          }
+        },
+        "hint": {
+          "ar": "بعد «weil» الفعل في الآخر: «krank bin». وتُنطق w في weil مثل v، وei «eye».",
+          "en": "After weil the verb goes last: krank bin. The w in weil is v and ei is eye.",
+          "id": "Setelah weil kata kerja di akhir: krank bin. W pada weil dibaca v dan ei dibaca eye."
+        }
+      },
+      {
+        "id": "de29n2",
+        "target": "Ich glaube, dass er pünktlich kommt.",
+        "translit": "iç GLOW-buh dahs air PEWNKT-liç komt",
+        "tr": {
+          "ar": "أظن أنه سيأتي في الموعد.",
+          "en": "I think that he will come on time.",
+          "id": "Saya kira dia akan datang tepat waktu."
+        },
+        "example": {
+          "target": "Ich hoffe, dass du morgen Zeit hast.",
+          "translit": "iç HO-fuh dahs doo MOR-gen tsite hahst",
+          "tr": {
+            "ar": "آمل أن يكون عندك وقت غدًا.",
+            "en": "I hope that you have time tomorrow.",
+            "id": "Saya harap kamu punya waktu besok."
+          }
+        },
+        "hint": {
+          "ar": "بعد «dass» الفعل في الآخر. ولاحظ الفرق بين «das» (أداة التعريف أو اسم الإشارة) و«dass» (أنّ) في الكتابة. وهذه صيغة تصلح للأصدقاء (du).",
+          "en": "After dass the verb goes last. Note the spelling difference between das (the/that) and dass (conjunction). This example is for friends (du).",
+          "id": "Setelah dass kata kerja di akhir. Perhatikan beda ejaan das (itu/yang) dan dass (kata sambung). Contoh ini untuk teman (du)."
+        }
+      },
+      {
+        "id": "de29n3",
+        "target": "Ich bin müde, aber ich komme.",
+        "translit": "iç bin MEW-duh AH-ber iç KO-muh",
+        "tr": {
+          "ar": "أنا متعب لكنني سآتي.",
+          "en": "I am tired, but I am coming.",
+          "id": "Saya capek, tetapi saya datang."
+        },
+        "example": {
+          "target": "Das Hotel ist klein, aber sauber.",
+          "translit": "dahs hoh-TEL ist kline AH-ber ZOW-ber",
+          "tr": {
+            "ar": "الفندق صغير لكنه نظيف.",
+            "en": "The hotel is small but clean.",
+            "id": "Hotelnya kecil tetapi bersih."
+          }
+        },
+        "hint": {
+          "ar": "بعد «aber» تبقى الجملة عادية: الفاعل ثم الفعل. وتُنطق ü في müde مثل «ew».",
+          "en": "After aber the sentence is normal: subject then verb. The ü in müde is ew.",
+          "id": "Setelah aber kalimat tetap biasa: subjek lalu kata kerja. Ü pada müde dibaca ew."
+        }
+      },
+      {
+        "id": "de29n4",
+        "target": "Ich bleibe zu Hause, denn ich habe Fieber.",
+        "translit": "iç BLY-buh tsoo HOW-zuh den iç HAH-buh FEE-ber",
+        "tr": {
+          "ar": "أبقى في البيت لأن عندي حمّى.",
+          "en": "I am staying at home because I have a fever.",
+          "id": "Saya tinggal di rumah karena demam."
+        },
+        "example": {
+          "target": "Wir gehen nicht, denn es ist zu kalt.",
+          "translit": "veer GAY-en niçt den ess ist tsoo kahlt",
+          "tr": {
+            "ar": "لن نذهب لأن الجو بارد جدًا.",
+            "en": "We are not going because it is too cold.",
+            "id": "Kami tidak pergi karena terlalu dingin."
+          }
+        },
+        "hint": {
+          "ar": "بعد «denn» تبقى الجملة عادية: «ich habe Fieber». وهي شائعة في الكتابة أكثر من الكلام.",
+          "en": "After denn the word order stays normal: ich habe Fieber. It is more common in writing than in speech.",
+          "id": "Setelah denn urutan kata tetap biasa: ich habe Fieber. Lebih umum dalam tulisan daripada percakapan."
+        }
+      },
+      {
+        "id": "de29n5",
+        "target": "Liebe Anna, danke für deine Nachricht!",
+        "translit": "LEE-buh AH-nah DAHN-kuh fewr DY-nuh NAKH-riçt",
+        "tr": {
+          "ar": "عزيزتي آنا، شكرًا على رسالتك!",
+          "en": "Dear Anna, thank you for your message!",
+          "id": "Anna yang baik, terima kasih atas pesanmu!"
+        },
+        "example": {
+          "target": "Lieber Tom, danke für deine E-Mail!",
+          "translit": "LEE-ber tom DAHN-kuh fewr DY-nuh EE-mayl",
+          "tr": {
+            "ar": "عزيزي توم، شكرًا على بريدك!",
+            "en": "Dear Tom, thank you for your e-mail!",
+            "id": "Tom yang baik, terima kasih atas e-mailmu!"
+          }
+        },
+        "hint": {
+          "ar": "لخطاب صديق نكتب «Liebe» لامرأة و«Lieber» لرجل. وللرسالة الرسمية: «Sehr geehrte Frau ...».",
+          "en": "For a friend we write Liebe for a woman and Lieber for a man. For a formal letter: Sehr geehrte Frau ...",
+          "id": "Untuk teman kita menulis Liebe untuk perempuan dan Lieber untuk laki-laki. Untuk surat resmi: Sehr geehrte Frau ..."
+        }
+      },
+      {
+        "id": "de29n6",
+        "target": "Viele Grüße und bis bald!",
+        "translit": "FEE-luh GREW-suh unt bis bahlt",
+        "tr": {
+          "ar": "تحياتي الكثيرة وإلى اللقاء قريبًا!",
+          "en": "Best wishes and see you soon!",
+          "id": "Salam hangat dan sampai jumpa!"
+        },
+        "example": {
+          "target": "Viele Grüße aus München!",
+          "translit": "FEE-luh GREW-suh ows MEWN-çen",
+          "tr": {
+            "ar": "تحياتي الكثيرة من ميونخ!",
+            "en": "Best wishes from Munich!",
+            "id": "Salam hangat dari München!"
+          }
+        },
+        "hint": {
+          "ar": "خاتمة ودّية بين الأصدقاء. وفي الرسائل الرسمية نكتب «Mit freundlichen Grüßen». وتُنطق ß مثل s.",
+          "en": "A friendly closing between friends. In formal letters write Mit freundlichen Grüßen. The ß is said s.",
+          "id": "Penutup ramah antarteman. Dalam surat resmi tulis Mit freundlichen Grüßen. ß dibaca s."
+        }
+      }
+    ],
+    "cloze": [
+      {
+        "sentence": "Ich bleibe zu Hause, ___ ich krank bin.",
+        "answer": "weil",
+        "wrong": [
+          "denn",
+          "aber"
+        ],
+        "tr": {
+          "ar": "أبقى في البيت لأني مريض.",
+          "en": "I am staying at home because I am ill.",
+          "id": "Saya tinggal di rumah karena saya sakit."
+        },
+        "why": {
+          "ar": "الفعل «bin» جاء في آخر الجملة الفرعية، وهذا لا يحدث إلا مع «weil» (لأن). «denn» تعني «لأن» أيضًا لكن الفعل يبقى بعدها في الموضع الثاني (denn ich bin krank). و«aber» تعني «لكن» ولا تعطي سببًا.",
+          "en": "The verb bin stands at the end of the clause, and only weil (because) does that. Denn also means because, but then the verb stays in second place (denn ich bin krank). Aber means but and does not give a reason.",
+          "id": "Kata kerja bin berada di akhir klausa, dan hanya weil (karena) yang menyebabkan itu. Denn juga berarti karena, tetapi kata kerjanya tetap di posisi kedua (denn ich bin krank). Aber berarti tetapi dan tidak memberi alasan."
+        }
+      },
+      {
+        "sentence": "Ich hoffe, ___ du morgen Zeit hast.",
+        "answer": "dass",
+        "wrong": [
+          "aber",
+          "denn"
+        ],
+        "tr": {
+          "ar": "آمل أن يكون عندك وقت غدًا.",
+          "en": "I hope that you have time tomorrow.",
+          "id": "Saya harap kamu punya waktu besok."
+        },
+        "why": {
+          "ar": "الترجمة تعني «أنّ»: بعد «ich hoffe» نحتاج «dass» والفعل في الآخر (Zeit hast). «aber» (لكن) و«denn» (لأن) لا تفيدان معنى «أنّ»، ويبقى الفعل بعدهما في الموضع الثاني (du hast) لا في الآخر.",
+          "en": "The translation says that: after ich hoffe we need dass, and the verb goes last (Zeit hast). Aber (but) and denn (because) do not mean that, and after them the verb would stay in second place (du hast), not at the end.",
+          "id": "Terjemahannya berarti bahwa: setelah ich hoffe diperlukan dass, dan kata kerja di akhir (Zeit hast). Aber (tetapi) dan denn (karena) tidak berarti bahwa, dan setelahnya kata kerja tetap di posisi kedua (du hast), bukan di akhir."
+        }
+      }
+    ],
+    "conversation": {
+      "context": {
+        "ar": "صديقان يتبادلان رسائل (du).",
+        "en": "Two friends exchange messages (du).",
+        "id": "Dua teman bertukar pesan (du)."
+      },
+      "turns": [
+        {
+          "who": "A",
+          "target": "Kommst du heute Abend?",
+          "tr": {
+            "ar": "هل ستأتي هذا المساء؟",
+            "en": "Are you coming tonight?",
+            "id": "Apakah kamu datang malam ini?"
+          }
+        },
+        {
+          "who": "B",
+          "target": "Nein, ich bleibe zu Hause, weil ich müde bin.",
+          "tr": {
+            "ar": "لا، سأبقى في البيت لأني متعب.",
+            "en": "No, I am staying at home because I am tired.",
+            "id": "Tidak, saya tinggal di rumah karena capek."
+          }
+        },
+        {
+          "who": "A",
+          "target": "Schade! Schlaf gut!",
+          "tr": {
+            "ar": "يا للأسف! نم جيدًا!",
+            "en": "Too bad! Sleep well!",
+            "id": "Sayang sekali! Tidur yang nyenyak ya!"
+          }
+        }
+      ],
+      "gap": 1,
+      "wrong": [
+        "Ja, ich war gestern zu Hause.",
+        "Nein, ich hätte gern ein Zimmer."
+      ],
+      "why": {
+        "ar": "السؤال «Kommst du heute Abend؟» يُجاب عنه بنعم أو لا مع سبب: «weil ich müde bin». الجملتان الأخريان لا تجيبان عن الحضور هذا المساء.",
+        "en": "The question Kommst du heute Abend? is answered with yes or no and a reason: weil ich müde bin. The other two do not answer about coming tonight.",
+        "id": "Pertanyaan Kommst du heute Abend? dijawab dengan ya atau tidak dan alasan: weil ich müde bin. Dua kalimat lain tidak menjawab soal datang malam ini."
+      }
+    },
+    "summary": {
+      "ar": "تعلّمتَ «weil» و«dass» (الفعل في الآخر) و«aber» و«denn» (الترتيب العادي)، وتحية الرسالة وخاتمتها.",
+      "en": "You learned weil and dass (verb at the end), aber and denn (normal order), and the greeting and closing of a message.",
+      "id": "Anda belajar weil dan dass (kata kerja di akhir), aber dan denn (urutan biasa), serta salam dan penutup pesan."
+    }
+  },
+  {
+    "id": "de-30",
+    "track": "de",
+    "level": "intermediate",
+    "order": 30,
+    "topic": "review-final",
+    "icon": "🇩🇪",
+    "title": {
+      "ar": "مراجعة: رحلة إلى ألمانيا",
+      "en": "Review: A Trip to Germany",
+      "id": "Ulasan: Perjalanan ke Jerman"
+    },
+    "description": {
+      "ar": "راجع كل ما تعلّمته: الماضي والمستقبل والأدب والمقارنة والروابط في رحلة إلى ألمانيا.",
+      "en": "Review everything you learned: past, future, politeness, comparison and connectors on a trip to Germany.",
+      "id": "Ulangi semua yang telah dipelajari: lampau, masa depan, kesopanan, perbandingan, dan kata penghubung dalam perjalanan ke Jerman."
+    },
+    "objectives": [
+      {
+        "ar": "أعرف متى أستعمل Perfekt مع haben أو sein ومتى war وhatte.",
+        "en": "I know when to use the Perfekt with haben or sein and when war and hatte.",
+        "id": "Saya tahu kapan memakai Perfekt dengan haben atau sein dan kapan war dan hatte."
+      },
+      {
+        "ar": "أستطيع الطلب بأدب والتعبير عن التفضيل والتعليل.",
+        "en": "I can ask politely, express preference and give reasons.",
+        "id": "Saya bisa meminta dengan sopan, menyatakan preferensi, dan memberi alasan."
+      },
+      {
+        "ar": "أستطيع الحديث عن رحلتي في الماضي والمستقبل.",
+        "en": "I can talk about my trip in the past and the future.",
+        "id": "Saya bisa membicarakan perjalanan saya di masa lalu dan masa depan."
+      }
+    ],
+    "intro": {
+      "ar": "هذا الدرس الأخير يجمع كل ما درستَه في عبارات من رحلة إلى ألمانيا. وفي كل جملة اسأل نفسك: أي زمن أحتاج؟ ومن المخاطَب؟ وهل يأتي الفعل ثانيًا أم في آخر الجملة؟",
+      "en": "This final lesson brings together everything you studied in phrases from a trip to Germany. For each sentence ask yourself: which tense do I need? Who am I talking to? Is the verb second or at the end?",
+      "id": "Pelajaran terakhir ini menggabungkan semua yang telah dipelajari dalam frasa dari perjalanan ke Jerman. Untuk setiap kalimat tanyakan: kala apa yang saya perlukan? Siapa lawan bicara saya? Apakah kata kerja di posisi kedua atau di akhir?"
+    },
+    "culture": {
+      "ar": "بعد ثلاثين درسًا صرتَ تستطيع التواصل في مواقف يومية في ألمانيا. استمر في الكلام مع الناس، فاللغة تُتعلَّم بالاستعمال. وتذكّر أن هذه الدورة تصل إلى مستوى A1 وجزء من A2 فقط.",
+      "en": "After thirty lessons you can communicate in everyday situations in Germany. Keep talking to people, because a language is learned by using it. Remember that this course reaches A1 and part of A2 only.",
+      "id": "Setelah tiga puluh pelajaran Anda bisa berkomunikasi dalam situasi sehari-hari di Jerman. Teruslah berbicara dengan orang lain, karena bahasa dipelajari dengan memakainya. Ingat bahwa kursus ini hanya mencapai A1 dan sebagian A2."
+    },
+    "grammar": {
+      "title": {
+        "ar": "أي زمن أو تركيب أستعمل؟",
+        "en": "Which tense or structure do I use?",
+        "id": "Kala atau struktur apa yang saya pakai?"
+      },
+      "body": {
+        "ar": "للماضي: haben + Partizip II (gearbeitet) أو sein + Partizip II للحركة (gefahren)، ومع sein وhaben نفسيهما: war وhatte. للمستقبل: werden + مصدر أو المضارع مع كلمة زمن. للأدب: Ich hätte gern وKönnten Sie. للمقارنة: größer als وso ... wie وam liebsten. للتعليل: weil مع الفعل في الآخر، أو denn وaber مع الترتيب العادي. وللشخص المتلقّي: mir وdir وihm وihr (Dativ).",
+        "en": "For the past: haben + Partizip II (gearbeitet), or sein + Partizip II for movement (gefahren); for sein and haben themselves: war and hatte. For the future: werden + infinitive or the present with a time word. For politeness: Ich hätte gern and Könnten Sie. For comparison: größer als, so ... wie, am liebsten. For reasons: weil with the verb at the end, or denn and aber with normal order. For the receiving person: mir, dir, ihm, ihr (dative).",
+        "id": "Untuk lampau: haben + Partizip II (gearbeitet), atau sein + Partizip II untuk gerakan (gefahren); untuk sein dan haben sendiri: war dan hatte. Untuk masa depan: werden + infinitif atau kala sekarang dengan kata waktu. Untuk kesopanan: Ich hätte gern dan Könnten Sie. Untuk perbandingan: größer als, so ... wie, am liebsten. Untuk alasan: weil dengan kata kerja di akhir, atau denn dan aber dengan urutan biasa. Untuk penerima: mir, dir, ihm, ihr (dativ)."
+      }
+    },
+    "items": [
+      {
+        "id": "de30n1",
+        "target": "Gestern bin ich in Berlin angekommen.",
+        "translit": "GEHS-tern bin iç in ber-LEEN AHN-guh-ko-men",
+        "tr": {
+          "ar": "وصلتُ أمس إلى برلين.",
+          "en": "Yesterday I arrived in Berlin.",
+          "id": "Kemarin saya tiba di Berlin."
+        },
+        "example": {
+          "target": "Wir sind mit dem Zug nach Berlin gefahren.",
+          "translit": "veer zint mit dem tsook nahkh ber-LEEN guh-FAH-ren",
+          "tr": {
+            "ar": "سافرنا إلى برلين بالقطار.",
+            "en": "We went to Berlin by train.",
+            "id": "Kami pergi ke Berlin naik kereta."
+          }
+        },
+        "hint": {
+          "ar": "حركة وانتقال: Perfekt مع «sein». والفاعل ich يأتي بعد bin لأن «Gestern» في المقدمة.",
+          "en": "Movement uses the Perfekt with sein. The subject ich follows bin because Gestern is first.",
+          "id": "Gerakan memakai Perfekt dengan sein. Subjek ich mengikuti bin karena Gestern di depan."
+        }
+      },
+      {
+        "id": "de30n2",
+        "target": "Ich habe ein Zimmer reserviert, weil ich zwei Nächte bleibe.",
+        "translit": "iç HAH-buh ine TSIM-er rez-er-VEERT vile iç tsvy NEÇ-tuh BLY-buh",
+        "tr": {
+          "ar": "حجزتُ غرفة لأني سأبقى ليلتين.",
+          "en": "I booked a room because I am staying two nights.",
+          "id": "Saya memesan kamar karena saya menginap dua malam."
+        },
+        "example": {
+          "target": "Er hat ein Hotel gebucht, weil es billiger ist.",
+          "translit": "air haht ine hoh-TEL guh-BOOKHT vile ess BIL-iç-er ist",
+          "tr": {
+            "ar": "حجز فندقًا لأنه أرخص.",
+            "en": "He booked a hotel because it is cheaper.",
+            "id": "Dia memesan hotel karena lebih murah."
+          }
+        },
+        "hint": {
+          "ar": "Perfekt مع haben + weil والفعل في الآخر (bleibe). مراجعة للدرسين 21 و29.",
+          "en": "Perfekt with haben plus weil with the verb at the end (bleibe). A review of lessons 21 and 29.",
+          "id": "Perfekt dengan haben ditambah weil dengan kata kerja di akhir (bleibe). Ulasan pelajaran 21 dan 29."
+        }
+      },
+      {
+        "id": "de30n3",
+        "target": "Könnten Sie mir den Weg zeigen?",
+        "translit": "KURN-ten zee meer dane vayk TSY-gen",
+        "tr": {
+          "ar": "هل تستطيع أن تريني الطريق؟",
+          "en": "Could you show me the way?",
+          "id": "Bisakah Anda menunjukkan jalan kepada saya?"
+        },
+        "example": {
+          "target": "Könnten Sie mir bitte den Bahnhof zeigen?",
+          "translit": "KURN-ten zee meer BIT-uh dane BAHN-hohf TSY-gen",
+          "tr": {
+            "ar": "هل تستطيع أن تريني المحطة من فضلك؟",
+            "en": "Could you show me the station, please?",
+            "id": "Bisakah Anda menunjukkan stasiun kepada saya?"
+          }
+        },
+        "hint": {
+          "ar": "مراجعة للأدب (Könnten Sie) وضمير الـDativ (mir) والمفعول بـAkkusativ (den Weg). وهي صيغة Sie للغرباء.",
+          "en": "A review of politeness (Könnten Sie), the dative pronoun (mir) and the accusative object (den Weg). Sie form for strangers.",
+          "id": "Ulasan kesopanan (Könnten Sie), kata ganti dativ (mir), dan objek akusatif (den Weg). Bentuk Sie untuk orang asing."
+        }
+      },
+      {
+        "id": "de30n4",
+        "target": "Ich fahre lieber mit dem Zug, weil es billiger ist.",
+        "translit": "iç FAH-ruh LEE-ber mit dem tsook vile ess BIL-iç-er ist",
+        "tr": {
+          "ar": "أفضّل السفر بالقطار لأنه أرخص.",
+          "en": "I prefer to go by train because it is cheaper.",
+          "id": "Saya lebih suka naik kereta karena lebih murah."
+        },
+        "example": {
+          "target": "Das Taxi ist teurer als der Bus.",
+          "translit": "dahs TAHK-see ist TOY-rer ahls dair boos",
+          "tr": {
+            "ar": "سيارة الأجرة أغلى من الحافلة.",
+            "en": "The taxi is more expensive than the bus.",
+            "id": "Taksi lebih mahal daripada bus."
+          }
+        },
+        "hint": {
+          "ar": "تجمع هذه الجملة lieber وmit dem (Dativ) وweil مع الفعل في الآخر. ولاحظ أن «billiger» مقارنة من billig.",
+          "en": "This sentence combines lieber, mit dem (dative) and weil with the verb last. Note billiger, the comparative of billig.",
+          "id": "Kalimat ini menggabungkan lieber, mit dem (dativ), dan weil dengan kata kerja di akhir. Perhatikan billiger, komparatif dari billig."
+        }
+      },
+      {
+        "id": "de30n5",
+        "target": "Früher hatte ich keine Zeit, aber jetzt habe ich Urlaub.",
+        "translit": "FREW-er HAH-tuh iç KY-nuh tsite AH-ber yetst HAH-buh iç OOR-lowp",
+        "tr": {
+          "ar": "قبل ذلك لم يكن عندي وقت لكن الآن عندي إجازة.",
+          "en": "Before, I had no time, but now I am on holiday.",
+          "id": "Dulu saya tidak punya waktu, tetapi sekarang saya sedang libur."
+        },
+        "example": {
+          "target": "Letztes Jahr war ich in Deutschland.",
+          "translit": "LETS-tuh yahr var iç in DOYTCH-lahnt",
+          "tr": {
+            "ar": "في العام الماضي كنتُ في ألمانيا.",
+            "en": "Last year I was in Germany.",
+            "id": "Tahun lalu saya ada di Jerman."
+          }
+        },
+        "hint": {
+          "ar": "مراجعة للـPräteritum: hatte وwar. و«aber» يحتفظ بترتيب الجملة العادي. و«Urlaub» تعني إجازة العمل.",
+          "en": "A review of the Präteritum: hatte and war. Aber keeps normal word order. Urlaub is holiday from work.",
+          "id": "Ulasan Präteritum: hatte dan war. Aber mempertahankan urutan biasa. Urlaub adalah libur dari kerja."
+        }
+      },
+      {
+        "id": "de30n6",
+        "target": "Ich werde dir eine Karte schreiben.",
+        "translit": "iç VER-duh deer EYE-nuh KAR-tuh SHRY-ben",
+        "tr": {
+          "ar": "سأكتب لك بطاقة.",
+          "en": "I will write you a card.",
+          "id": "Saya akan menulis kartu untukmu."
+        },
+        "example": {
+          "target": "Wir werden euch aus Berlin anrufen.",
+          "translit": "veer VER-den oyç ows ber-LEEN AHN-roo-fen",
+          "tr": {
+            "ar": "سنتصل بكم من برلين.",
+            "en": "We will call you from Berlin.",
+            "id": "Kami akan menelepon kalian dari Berlin."
+          }
+        },
+        "hint": {
+          "ar": "مراجعة للمستقبل: werden + مصدر في آخر الجملة، مع ضمير Dativ (dir). و«euch» هو Akkusativ لـihr، وهو هنا مفعول به مباشر لأن anrufen يأخذ Akkusativ.",
+          "en": "A review of the future: werden + infinitive at the end, with a dative pronoun (dir). Euch is accusative here because anrufen takes the accusative.",
+          "id": "Ulasan masa depan: werden + infinitif di akhir, dengan kata ganti dativ (dir). Euch di sini akusatif karena anrufen memakai akusatif."
+        }
+      }
+    ],
+    "cloze": [
+      {
+        "sentence": "Gestern ___ ich zu Hause geblieben.",
+        "answer": "bin",
+        "wrong": [
+          "habe",
+          "ist"
+        ],
+        "tr": {
+          "ar": "أمس بقيتُ في البيت.",
+          "en": "Yesterday I stayed at home.",
+          "id": "Kemarin saya tinggal di rumah."
+        },
+        "why": {
+          "ar": "«bleiben» يأخذ «sein» في الـPerfekt: «bin ... geblieben». «habe» فعل مساعد خاطئ، و«ist» لا يناسب «ich».",
+          "en": "Bleiben takes sein in the Perfekt: bin ... geblieben. Habe is the wrong auxiliary, and ist does not fit ich.",
+          "id": "Bleiben memakai sein dalam Perfekt: bin ... geblieben. Habe adalah kata kerja bantu yang salah, dan ist tidak cocok dengan ich."
+        }
+      },
+      {
+        "sentence": "Ich fahre lieber mit dem Zug, ___ es billiger ist.",
+        "answer": "weil",
+        "wrong": [
+          "aber",
+          "denn"
+        ],
+        "tr": {
+          "ar": "أفضّل السفر بالقطار لأنه أرخص.",
+          "en": "I prefer to go by train because it is cheaper.",
+          "id": "Saya lebih suka naik kereta karena lebih murah."
+        },
+        "why": {
+          "ar": "«ist» في آخر الجملة، وهذا شأن «weil». «aber» تعني «لكن» و«denn» تحتاج ترتيب الجملة العادي.",
+          "en": "Ist is at the end, as after weil. Aber means but, and denn needs normal word order.",
+          "id": "Ist ada di akhir, seperti setelah weil. Aber berarti tetapi, dan denn memerlukan urutan kata biasa."
+        }
+      }
+    ],
+    "conversation": {
+      "context": {
+        "ar": "بعد الرحلة. صديقان يتحدثان (du).",
+        "en": "After the trip. Two friends talk (du).",
+        "id": "Setelah perjalanan. Dua teman mengobrol (du)."
+      },
+      "turns": [
+        {
+          "who": "A",
+          "target": "Wie war deine Reise nach Deutschland?",
+          "tr": {
+            "ar": "كيف كانت رحلتك إلى ألمانيا؟",
+            "en": "How was your trip to Germany?",
+            "id": "Bagaimana perjalananmu ke Jerman?"
+          }
+        },
+        {
+          "who": "B",
+          "target": "Sehr schön! Ich bin mit dem Zug gefahren und habe viel gesehen.",
+          "tr": {
+            "ar": "جميلة جدًا! سافرتُ بالقطار ورأيتُ الكثير.",
+            "en": "Very nice! I went by train and saw a lot.",
+            "id": "Sangat menyenangkan! Saya naik kereta dan melihat banyak hal."
+          }
+        },
+        {
+          "who": "A",
+          "target": "Super! Wirst du wieder hinfahren?",
+          "tr": {
+            "ar": "رائع! هل ستعود إليها؟",
+            "en": "Great! Will you go again?",
+            "id": "Hebat! Apakah kamu akan pergi lagi?"
+          }
+        }
+      ],
+      "gap": 1,
+      "wrong": [
+        "Ich möchte eine Tasse Kaffee, bitte.",
+        "Du sollst viel Wasser trinken."
+      ],
+      "why": {
+        "ar": "السؤال عن الرحلة بصيغة الماضي، فنجيب «Sehr schön! Ich bin ... gefahren und habe ... gesehen». طلب القهوة والنصيحة الطبية لا يجيبان عن السؤال.",
+        "en": "The question is about the trip in the past, so we answer Sehr schön! Ich bin ... gefahren und habe ... gesehen. Ordering coffee and medical advice do not answer it.",
+        "id": "Pertanyaannya tentang perjalanan di masa lalu, jadi jawabannya Sehr schön! Ich bin ... gefahren und habe ... gesehen. Memesan kopi dan saran medis tidak menjawab."
+      }
+    },
+    "summary": {
+      "ar": "أنهيتَ المسار! راجعتَ Perfekt مع haben وsein وwar وhatte وwerden والأدب والمقارنة والروابط. استمر في التدرّب كل يوم.",
+      "en": "You finished the course! You reviewed the Perfekt with haben and sein, war and hatte, werden, politeness, comparison and connectors. Keep practising every day.",
+      "id": "Anda menyelesaikan kursus! Anda mengulang Perfekt dengan haben dan sein, war dan hatte, werden, kesopanan, perbandingan, dan kata penghubung. Teruslah berlatih setiap hari."
+    }
+  }
+]

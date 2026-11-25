@@ -64,6 +64,15 @@
 /audio/esn/*
   Cache-Control: public, max-age=31536000, immutable
 
+/audio/de/*
+  Cache-Control: public, max-age=31536000, immutable
+
+/audio/den/*
+  Cache-Control: public, max-age=31536000, immutable
+
+/audio/tln/*
+  Cache-Control: public, max-age=31536000, immutable
+
 /icons/*
   Cache-Control: public, max-age=604800
 
