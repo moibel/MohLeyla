@@ -21,7 +21,7 @@ Multilingual language-learning app: **Modern Standard Arabic**, **Saudi Arabic**
 
 ## Documentation
 - Rules and risk: [security](docs/SECURITY_RULES.md), [login](docs/LOGIN_RULES.md), [data](docs/DATA_RULES.md), [threat map](docs/THREAT_MAP.md)
-- Release: [launch checklist](docs/LAUNCH_CHECKLIST.md), [iOS and Android](docs/MOBILE_APP.md), [hosting](docs/HOSTING.md), [testing](docs/TESTING.md)
+- Release: [launch checklist](docs/LAUNCH_CHECKLIST.md), [reviewer access](docs/REVIEW_ACCESS.md), [iOS and Android](docs/MOBILE_APP.md), [hosting](docs/HOSTING.md), [testing](docs/TESTING.md)
 - Sign-in needs an account (13+); first sign-in asks for languages, levels and a daily goal.
 
 ## Quick start

@@ -360,7 +360,13 @@ export default {
     choiceMerge: 'Gabungkan keduanya (disarankan)',
     choiceReplace: 'Pakai progres akun dan buang progres perangkat ini',
     choiceCancel: 'Batal dan keluar',
+    passwordToggle: 'Peninjau aplikasi? Masuk dengan kata sandi',
+    passwordHelp: 'Hanya untuk akun uji yang diberikan kepada peninjau toko aplikasi. Yang lain: pakai Google, Apple, atau kode email.',
+    password: 'Kata sandi',
+    passwordSubmit: 'Masuk',
+    passwordBack: 'Kembali ke pilihan masuk lain',
     errors: {
+      badLogin: 'Email dan kata sandi tidak cocok. Periksa lalu coba lagi.',
       notConfigured: 'Akun tidak tersedia di versi ini.',
       invalidEmail: 'Masukkan alamat email yang valid.',
       sendFailed: 'Kode tidak dapat dikirim. Silakan coba lagi.',

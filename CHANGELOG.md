@@ -1,5 +1,9 @@
 # Changelog
 
+## Unreleased (sign-in for app store reviewers)
+- A password sign-in behind its own button, only for the review accounts the owner creates in Supabase (the app creates no password accounts and contains no credentials). `supabase/seed/review_accounts.sql` prepares a review teacher and student with a class and a chat; `docs/REVIEW_ACCESS.md` has the steps and the text for the store forms.
+- Android: first build, installed and signed in on a real phone; checklist updated.
+
 ## Unreleased (chat word filter)
 - Chat messages and captions with a blocked word or phrase are refused and not stored (`015_chat_word_filter.sql`, **must be run in Supabase**). Starter list in English, Arabic, Indonesian, Tagalog, German, French and Spanish; admins can add and remove words under Admin → Reports. Whole words only; photos and voice notes are not checked. None of the 45,735 lesson texts is blocked.
 

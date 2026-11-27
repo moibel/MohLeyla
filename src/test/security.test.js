@@ -102,6 +102,19 @@ describe('risky code patterns', () => {
   });
 });
 
+describe('reviewer password sign-in', () => {
+  it('has no built-in account or password anywhere in the app, and the app never creates password accounts', () => {
+    for (const f of sourceFiles) {
+      const code = read(f);
+      expect(code, f).not.toMatch(/auth\.signUp\(/);
+      // translations contain the word "Password" as a label; everywhere else a quoted password value would be a leak
+      if (!/[\\/]i18n[\\/]|strings\.js$/.test(f)) expect(code, f).not.toMatch(/password\s*[:=]\s*['"`][^'"`{}]{4,}['"`]/i);
+      expect(code, f).not.toMatch(/review[\w.+-]*@/i);
+    }
+    expect(read('supabase/seed/review_accounts.sql')).not.toMatch(/encrypted_password|crypt\(|insert into auth\./i);
+  });
+});
+
 describe('the sign-in link of the app', () => {
   const good = `${NATIVE_AUTH_REDIRECT}#access_token=aaa&refresh_token=bbb&type=bearer`;
   it('accepts only the app\'s own link', () => {

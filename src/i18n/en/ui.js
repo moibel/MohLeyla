@@ -366,7 +366,13 @@ export default {
     choiceMerge: 'Combine both (recommended)',
     choiceReplace: 'Use the account’s progress and discard this device’s',
     choiceCancel: 'Cancel and sign out',
+    passwordToggle: 'App reviewer? Sign in with a password',
+    passwordHelp: 'Only for the test accounts given to app store reviewers. Everyone else: use Google, Apple or an email code.',
+    password: 'Password',
+    passwordSubmit: 'Sign in',
+    passwordBack: 'Back to the other sign-in options',
     errors: {
+      badLogin: 'That email and password do not match. Check them and try again.',
       notConfigured: 'Accounts are not available in this version.',
       invalidEmail: 'Please enter a valid email address.',
       sendFailed: 'We could not send the code. Please try again.',
