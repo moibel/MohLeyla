@@ -225,3 +225,43 @@ test.describe('safety in chat: report, block and suspend (the real rules are in 
     });
   }
 });
+
+test.describe('chat word filter (the real matching is in supabase/tests/word_filter.test.sql)', () => {
+  for (const [lang, said] of [['en', 'not allowed'], ['ar', 'غير مسموح'], ['id', 'tidak diperbolehkan']]) {
+    test(`${lang}: a refused message is explained, stays in the box to be changed, and is not sent`, async ({ page, browser }) => {
+      const backend = createMockBackend({ admins: ['boss@example.com'] });
+      backend.addUser('sara@example.com', { display_name: 'Sara' });
+      await backend.install(page);
+      await signIn(page, 'boss@example.com');
+      await adminWritesTo(page, backend, 'sara@example.com', 'hello');
+      const sara = await newDevice(browser, backend, 'sara@example.com', lang);
+      await sara.page.goto('/chat');
+      await sara.page.locator('[data-testid="chat-row"]').click();
+      await sara.page.locator('[data-testid="chat-input"]').fill('you badword');
+      await sara.page.locator('[data-testid="chat-send"]').click();
+      await expect(sara.page.locator('[data-testid="chat-error"]')).toContainText(said);
+      await expect(sara.page.locator('[data-testid="chat-input"]')).toHaveValue('you badword');
+      await expect(sara.page.locator('[data-testid="chat-msg"]')).toHaveCount(1);
+      await axeOk(sara.page);
+      await sara.ctx.close();
+    });
+  }
+
+  test('the admin adds and removes a word; the list stays closed until asked for, and fits a phone', async ({ page }) => {
+    const backend = createMockBackend({ admins: ['boss@example.com'] });
+    await backend.install(page);
+    await signIn(page, 'boss@example.com');
+    await page.setViewportSize({ width: 360, height: 740 });
+    await page.goto('/admin?tab=reports');
+    await expect(page.locator('[data-testid="word-row"]')).toHaveCount(0);
+    await page.locator('[data-testid="word-input"]').fill('Rude Phrase');
+    await page.locator('[data-testid="word-add"]').click();
+    await expect(page.locator('[data-testid="words-msg"]')).toContainText('Done');
+    await page.locator('[data-testid="words-show"]').click();
+    await expect(page.locator('[data-testid="word-row"]')).toHaveCount(2);
+    await axeOk(page);
+    expect(await page.evaluate(() => document.documentElement.scrollWidth <= window.innerWidth)).toBe(true);
+    await page.getByRole('button', { name: 'Remove: rude phrase' }).click();
+    await expect(page.locator('[data-testid="word-row"]')).toHaveCount(1);
+  });
+});

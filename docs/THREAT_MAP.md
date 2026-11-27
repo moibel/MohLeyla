@@ -18,7 +18,7 @@ Likelihood and impact: L / M / H.
 | T3 | Stolen or phished admin mailbox | M | H | email codes only, few admins | no second factor inside the app: protect the mailbox with 2-step verification |
 | T4 | Crafted sign-in link puts someone into the attacker's account | M | M | PKCE, no tokens from links (L1-L2) | no verified App Links yet; another Android app can claim the custom link but cannot use the code |
 | T5 | Next user of a shared device gets the previous account or progress | M | H | offline-safe sign-out, progress ownership (L4-L7) | set-aside progress is readable with technical access to the device |
-| T6 | Abuse, grooming or harassment in chat or calls | M | H | teacher/admin start chats, block, report, suspend, admin review, 13+, terms | no automatic filter for text, photos or voice; nobody is alerted to new reports; age is self-declared |
+| T6 | Abuse, grooming or harassment in chat or calls | M | H | teacher/admin start chats, word filter for text (S13a), block, report, suspend, admin review, 13+, terms | the filter is easy to get around and misses context; photos and voice are not filtered; nobody is alerted to new reports; age is self-declared |
 | T7 | Guessing or sharing class codes to reach a teacher | M | M | secure codes, hidden from students, attempt limit, bans, new code | many accounts could still try slowly |
 | T8 | Spam or filling storage | M | M | rate limits and quotas (S11-S12) | quota can be exceeded slightly by parallel uploads (not verified on real Supabase) |
 | T9 | Removed or old files still downloadable | M | M | read rules and daily purge | an already-issued file link works up to 1 hour; **the purge must be deployed** |

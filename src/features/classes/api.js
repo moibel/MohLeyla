@@ -5,7 +5,7 @@ import { sync } from '../sync/index.js';
 export class ClassError extends Error {
   constructor(code) { super(code); this.code = code; }
 }
-const CODES = { 42501: 'notAllowed', P0002: 'invalidCode', 22023: 'invalidInput', 55000: 'lastAdmin', 54000: 'slowDown', ML001: 'termsRequired', ML002: 'blocked', ML003: 'suspended' };
+const CODES = { 42501: 'notAllowed', P0002: 'invalidCode', 22023: 'invalidInput', 55000: 'lastAdmin', 54000: 'slowDown', ML001: 'termsRequired', ML002: 'blocked', ML003: 'suspended', ML004: 'filtered' };
 function fail(error) {
   const offline = typeof navigator !== 'undefined' && navigator.onLine === false;
   throw new ClassError(CODES[error && error.code] || (offline ? 'network' : 'failed'));
@@ -72,6 +72,9 @@ export const unblockChat = (conv) => rpc('unblock_chat', { p_conversation: conv 
 export const adminListReports = () => rpc('admin_list_reports');
 export const adminResolveReport = (id, status) => rpc('admin_resolve_report', { p_id: id, p_status: status });
 export const adminSetSuspended = (userId, suspended, reason) => rpc('admin_set_suspended', { p_user: userId, p_suspended: suspended, p_reason: reason || '' });
+export const adminListBlockedWords = () => rpc('admin_list_blocked_words');
+export const adminAddBlockedWord = (word) => rpc('admin_add_blocked_word', { p_word: word });
+export const adminRemoveBlockedWord = (id) => rpc('admin_remove_blocked_word', { p_id: id });
 export const rotateClassCode = (classId) => rpc('rotate_class_code', { p_class: classId });
 export const classBans = (classId) => rpc('teacher_class_bans', { p_class: classId });
 export const unbanStudent = (classId, studentId) => rpc('teacher_unban', { p_class: classId, p_student: studentId });

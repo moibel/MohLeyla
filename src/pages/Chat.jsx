@@ -21,6 +21,7 @@ import { refreshChatUnread } from '../features/chat/unread.js';
 import { LANG_META } from '../i18n/index.js';
 
 const MAX = 1000;
+const REFUSALS = ['blocked', 'suspended', 'termsRequired', 'filtered']; // reasons the database gives for refusing a message or call
 const useVisibleInterval = (fn, ms, deps) => {
   useEffect(() => {
     fn();
@@ -112,7 +113,7 @@ function Thread({ id }) {
   const clearPending = () => { if (pending?.url) URL.revokeObjectURL(pending.url); setPending(null); };
   useEffect(() => () => { recRef.current?.cancel(); }, []);
   useEffect(() => { if (!recording) return undefined; const iv = setInterval(() => setSecs(Math.floor((Date.now() - recording.startedAt) / 1000)), 250); return () => clearInterval(iv); }, [recording]);
-  const refused = (ex) => ['blocked', 'suspended', 'termsRequired'].includes(ex.code);
+  const refused = (ex) => REFUSALS.includes(ex.code);
   // the database does not know yet that the terms were accepted (for example it was updated after the set-up): record it again
   const reRecordTerms = () => { try { localStorage.removeItem(TERMS_SENT_KEY); } catch { /* storage blocked */ } return sync.recordTerms(); };
   const failWith = (ex) => setErr(refused(ex) ? ex.code : ex.code === 'slowDown' ? 'slowDown' : ex.code === 'network' ? 'network' : ex.code === 'tooBig' ? 'tooBig' : ex.code === 'badType' ? 'badType' : ex.code === 'denied' ? 'micDenied' : ex.code === 'noMic' ? 'noMic' : ex.code === 'unsupported' ? 'micUnsupported' : ex.code === 'tooShort' ? 'tooShort' : ex.code === 'upload' ? 'upload' : 'send');
@@ -238,7 +239,7 @@ function Thread({ id }) {
       <p className="note-small"><span data-testid="chat-count">{text.length}/{pending ? 200 : MAX}</span> · {t('chat.enterHint')} · {t('chat.attachNote')}</p>
       </>
       )}
-      {err && <p className="err-text" role="alert" data-testid="chat-error">{t(['blocked', 'suspended', 'termsRequired'].includes(err) ? `safety.errors.${err}` : `chat.errors.${err}`)}</p>}
+      {err && <p className="err-text" role="alert" data-testid="chat-error">{t(REFUSALS.includes(err) ? `safety.errors.${err}` : `chat.errors.${err}`)}</p>}
     </div>
   );
 }

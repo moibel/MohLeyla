@@ -7,7 +7,7 @@
 #   sh supabase/tests/run-dry.sh chat          -> chat (007)
 #   sh supabase/tests/run-dry.sh rewards    -> rewards
 #   sh supabase/tests/run-dry.sh hardening  -> security hardening, block / report / suspend / terms (014); LOCAL ONLY (uses the stand-ins)
-# Every suite runs against the FINAL state: all migrations 002-014 (needs 001 applied), then its tests.
+# Every suite runs against the FINAL state: all migrations 002-015 (needs 001 applied), then its tests.
 cd "$(dirname "$0")/.." || exit 1
 case "${1:-roles}" in
   announcements) suite=announcements ;;
@@ -19,6 +19,7 @@ case "${1:-roles}" in
   chat) suite=chat ;;
   rewards) suite=rewards ;;
   hardening) suite=security_hardening ;;
+  filter) suite=word_filter ;;
   *) suite=roles_classes ;;
 esac
-cat migrations/00[2-9]_*.sql migrations/01[0-4]_*.sql "tests/$suite.test.sql"
+cat migrations/00[2-9]_*.sql migrations/01[0-9]_*.sql "tests/$suite.test.sql"

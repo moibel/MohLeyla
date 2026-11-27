@@ -440,3 +440,6 @@ tr.is-open{background:var(--brand-soft)}
 .bubble-report{position:relative;display:inline-grid;place-items:center;width:32px;height:32px;margin-inline-start:6px;border:0;background:transparent;color:inherit;opacity:.65;cursor:pointer;vertical-align:middle;border-radius:8px}
 .bubble-report::after{content:'';position:absolute;inset:-6px}
 .bubble-report:hover,.bubble-report:focus-visible{opacity:1}
+.word-list{list-style:none;padding:0;display:flex;flex-wrap:wrap;gap:8px}
+.word-list li{display:flex;align-items:center;gap:6px;border:1px solid var(--border);border-radius:12px;padding-inline-start:12px}
+[data-testid="words-show"]{min-height:44px;display:flex;align-items:center;cursor:pointer;font-weight:600}

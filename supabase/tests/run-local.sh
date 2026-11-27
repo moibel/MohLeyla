@@ -1,5 +1,5 @@
 #!/bin/sh
-# Runs a permission test on a scratch local Postgres (no Supabase needed): sh supabase/tests/run-local.sh [roles|rewards|announcements|switch|chat|attachments|calls|push|deletion|hardening]
+# Runs a permission test on a scratch local Postgres (no Supabase needed): sh supabase/tests/run-local.sh [roles|rewards|announcements|switch|chat|attachments|calls|push|deletion|hardening|filter]
 # Creates and drops a throwaway database named mohleyla_dryrun. Everything inside also rolls back by design.
 cd "$(dirname "$0")/.." || exit 1
 DB=mohleyla_dryrun

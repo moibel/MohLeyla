@@ -4,8 +4,9 @@
 
 ## A. Right after merging (website)
 - [ ] **Owner:** back up the database (Supabase → Database → Backups or an export).
-- [ ] **Owner:** run `supabase/migrations/014_security_hardening.sql` once in the SQL editor (013 is already applied). Do it right after the new website is live.
-- [ ] **Owner:** deploy the file clean-up: set the secret `PURGE_SECRET` (24+ random characters), deploy `supabase/functions/purge-files` (with "Verify JWT" off), enable `pg_cron` and `pg_net`, and run the commented schedule at the end of migration 014. **Until this is done, old chat files are not deleted and the privacy policy is not yet true.** The first run permanently deletes the backlog.
+- [x] `supabase/migrations/014_security_hardening.sql` applied to the live project (27 November 2026)
+- [ ] Run `supabase/migrations/015_chat_word_filter.sql` once in the SQL editor. Until then nothing is filtered and the privacy page is ahead of the database.
+- [x] File clean-up deployed (`purge-files`, "Verify JWT" off), scheduled daily at 03:17 UTC and test run successful (27 November 2026)
 - [ ] **Owner:** check the Supabase settings in `LOGIN_RULES.md` (Confirm email ON, redirect list, templates).
 - [ ] **Owner:** check that real users have a confirmed email (Authentication → Users); others stop seeing rewards and personal announcements.
 - [ ] Test live: sign in with a new email, finish the set-up, send a chat message, report it, resolve it.
@@ -26,7 +27,8 @@
 - [x] MohLeyla icons and splash screens; signing files git-ignored
 - [x] In-app account deletion and a public deletion page
 - [x] Report, block, terms acceptance, 13+, published support email
-- [ ] **Decide:** content filtering. Apple guideline 1.2 asks for a way to filter objectionable content; today there is moderation by report and admin review only. A basic word filter for chat is the next thing to build before submitting.
+- [x] Word filter for chat text and captions (015). Photos and voice notes are moderated by report and admin review only; a reviewer may ask about that.
+- [ ] **Owner + native speakers:** review the blocked-word list (Admin → Reports → Blocked words) in each language
 - [ ] **Owner + developer:** a way for store reviewers to sign in (they cannot receive your email codes). Prepare a test student and teacher with an existing chat and written review notes.
 - [ ] **Owner:** test on a real iPhone and Android phone: email code, Google, Apple, microphone, camera, voice notes, calls, notifications, deletion, Arabic right-to-left
 - [ ] **Owner:** screenshots, descriptions, age rating (declare chat and user content), privacy forms (use `DATA_RULES.md`)

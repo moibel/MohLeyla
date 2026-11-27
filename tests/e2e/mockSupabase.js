@@ -41,6 +41,7 @@ export function createMockBackend(opts = {}) {
   }
   const blocks = []; // { conv, by } (mirrors 014_security_hardening.sql)
   const reports = [];
+  const words = [{ id: 'word-0', term: 'badword', created_at: new Date().toISOString() }]; // mirrors 015_chat_word_filter.sql (the real matching is tested in SQL)
   const stats = { upserts: 0, selects: 0, deletes: 0, otps: 0 };
   const state = { rateLimit: false, failSelect: false, failNameUpdate: false };
   const cors = { 'access-control-allow-origin': '*', 'access-control-allow-headers': '*', 'access-control-allow-methods': '*', 'access-control-expose-headers': '*' };
@@ -267,6 +268,13 @@ export function createMockBackend(opts = {}) {
         reports.push(r);
         return json(200, r.id);
       }
+      if (fn.endsWith('_blocked_word') || fn === 'admin_list_blocked_words') {
+        if (me.role !== 'admin') return deny();
+        if (fn === 'admin_list_blocked_words') return json(200, words);
+        if (fn === 'admin_add_blocked_word') { const w = { id: 'word-' + (words.length + 1), term: String(args.p_word).trim().toLowerCase(), created_at: new Date().toISOString() }; words.unshift(w); return json(200, w.id); }
+        words.splice(words.findIndex((w) => w.id === args.p_id), 1);
+        return json(200, null);
+      }
       if (fn === 'admin_list_reports') return me.role === 'admin' ? json(200, reports) : deny();
       if (fn === 'admin_resolve_report') {
         if (me.role !== 'admin') return deny();
@@ -283,6 +291,7 @@ export function createMockBackend(opts = {}) {
         if (!memberOf(c)) return deny();
         if (me.suspended) return json(400, { code: 'ML003', message: 'suspended' });
         if (blocks.some((b) => b.conv === c.id)) return json(400, { code: 'ML002', message: 'blocked' });
+        if (words.some((w) => ` ${String(args.p_body || '').toLowerCase()} `.includes(` ${w.term} `))) return json(400, { code: 'ML004', message: 'filtered' });
         const body = String(args.p_body || '').trim();
         if (!body || body.length > 1000) return json(400, { code: '22023', message: 'bad body' });
         if (chatMsgs.filter((m) => m.sender === me.id && Date.now() - new Date(m.created_at).getTime() < 60000).length >= 20) return json(400, { code: '54000', message: 'slow down' });

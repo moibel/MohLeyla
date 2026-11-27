@@ -1,5 +1,8 @@
 # Changelog
 
+## Unreleased (chat word filter)
+- Chat messages and captions with a blocked word or phrase are refused and not stored (`015_chat_word_filter.sql`, **must be run in Supabase**). Starter list in English, Arabic, Indonesian, Tagalog, German, French and Spanish; admins can add and remove words under Admin → Reports. Whole words only; photos and voice notes are not checked. None of the 45,735 lesson texts is blocked.
+
 ## Unreleased (security, login, data rules and store preparation)
 - Fixed: offline sign-out left the session on the device; another account could inherit local progress; a sync in flight could restore data after sign-out; sign-in links could carry someone else's tokens (now PKCE); notifications could continue after sign-out; "reset progress" reported success when the cloud copy survived.
 - Added: first sign-in set-up (13+, terms, languages, levels, daily goal) with level-based lesson suggestions; report, block, admin report queue and suspension; new class code and removed-students list.
