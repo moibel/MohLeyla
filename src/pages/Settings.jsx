@@ -4,6 +4,7 @@ import { Download, Upload, Trash2, Smartphone } from 'lucide-react';
 import { PageHeading, Button } from '../components/ui.jsx';
 import SpeakButton from '../components/SpeakButton.jsx';
 import AccountSection from '../features/sync/AccountSection.jsx';
+import PlanSection from '../features/welcome/PlanSection.jsx';
 import PushCard from '../features/push/PushCard.jsx';
 import { sync } from '../features/sync/index.js';
 import { LANG_META, UI_LANGS } from '../i18n/index.js';
@@ -81,6 +82,7 @@ export default function Settings({ pwa }) {
           options={[['system', t('settings.themeSystem')], ['light', t('settings.themeLight')], ['dark', t('settings.themeDark')]]} />
       </section>
       <AccountSection />
+      <PlanSection />
       <PushCard />
       <section className="card stack-sm">
         <h2 className="h-sm">{t('settings.data')}</h2>
@@ -105,7 +107,7 @@ export default function Settings({ pwa }) {
         <p>{t('settings.resetConfirmText')}</p>
         <div className="btn-row">
           <Button variant="ghost" onClick={() => dlg.current?.close()}>{t('common.cancel')}</Button>
-          <Button variant="danger" onClick={async () => { if (sync.getSnapshot().userId) await sync.deleteCloudData(); resetAll(); dlg.current?.close(); setMsg({ ok: true, text: t('settings.resetDone') }); }}>{t('settings.reset')}</Button>
+          <Button variant="danger" onClick={async () => { if (sync.getSnapshot().userId && !(await sync.deleteCloudData())) { dlg.current?.close(); return setMsg({ ok: false, text: t('account.errors.syncFailed') }); } resetAll(); dlg.current?.close(); setMsg({ ok: true, text: t('settings.resetDone') }); }}>{t('settings.reset')}</Button>
         </div>
       </dialog>
     </div>

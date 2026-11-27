@@ -33,24 +33,31 @@ test.describe('accounts & sync (mocked Supabase API)', () => {
     expect((await page.evaluate(state)).xp).toBe(150);
   });
 
-  test('after sending, the screen offers the code box and the link; following the emailed link signs in and syncs', async ({ page }) => {
+  test('after sending, the screen offers the code box; a link carrying tokens signs nobody in, the emailed code does', async ({ page }) => {
     const backend = createMockBackend();
     await backend.install(page);
     await seed(page, { lang: 'en', state: { xp: 70, xpLedger: { d: 70 }, completed: { 'ar-01': { best: 100, attempts: 1 } } } });
     await page.goto('/settings');
     await page.locator('[data-testid="acc-email"]').fill('amina@example.com');
     await page.locator('[data-testid="acc-send"]').click();
-    await expect(page.locator('[data-testid="acc-sent"]')).toContainText('open the link in it on this device');
+    await expect(page.locator('[data-testid="acc-sent"]')).toContainText('Enter it below');
     await expect(page.locator('[data-testid="acc-code"]')).toBeVisible();
-    await page.locator('[data-testid="acc-resend"]').click();
-    await expect.poll(() => backend.stats.otps).toBe(2);
-    // the user opens the link from the email: Supabase redirects to /settings with the session in the URL hash
-    const s = makeSession('amina@example.com', 'user-amina');
-    await page.goto('about:blank'); // an emailed link opens as a fresh page load, not a same-page hash change
+    await expect(page.locator('[data-testid="acc-resend"]')).toBeDisabled(); // one minute between emails
+    expect(backend.stats.otps).toBe(1);
+    // a link that carries ready-made tokens (anyone can craft one) signs nobody in
+    const s = makeSession('mallory@example.com', 'user-mallory');
+    await page.goto('about:blank');
     await page.goto(`/settings#access_token=${s.access_token}&refresh_token=${s.refresh_token}&expires_in=3600&expires_at=${s.expires_at}&token_type=bearer&type=magiclink`);
+    await expect(page.locator('[data-testid="acc-email"]')).toBeVisible();
+    expect(backend.rows.has('user-mallory')).toBe(false);
+    // the code from the email does
+    await page.locator('[data-testid="acc-email"]').fill('amina@example.com');
+    await page.locator('[data-testid="acc-send"]').click();
+    await page.locator('[data-testid="acc-code"]').fill('123456');
+    await page.locator('[data-testid="acc-verify"]').click();
     await dismissNamePrompt(page);
     await expect(page.locator('[data-testid="sync-status"]')).toContainText('Up to date');
-    expect(backend.rows.has('user-amina')).toBe(true);
+    expect(backend.rows.size).toBe(1);
     expect([...backend.rows.values()][0].xp).toBe(70);
     await page.reload();
     await expect(page.locator('[data-testid="sync-status"]')).toBeVisible(); // session persisted
@@ -123,12 +130,25 @@ test.describe('accounts & sync (mocked Supabase API)', () => {
     expect([...backend.rows.values()][0].xp).toBe(70);
   });
 
-  test('a different account on a shared device asks before mixing progress', async ({ page }) => {
+  test('progress that belongs to another account is never offered to the next one: it is set aside for its owner', async ({ page }) => {
     const backend = createMockBackend({ users: { 'kid@example.com': 'user-kid' } });
     backend.rows.set('user-kid', { schema: 6, xp: 300, xpLedger: { tablet: 300 }, completed: { 'id-01': { best: 90, attempts: 1 } }, saved: {}, unsaved: {}, srs: {}, speaking: {}, stats: {}, days: {}, streak: { current: 0, best: 0, last: null } });
     await backend.install(page);
     await seed(page, { lang: 'en', state: { xp: 70, xpLedger: { me: 70 }, completed: { 'ar-01': { best: 100, attempts: 1 } } } });
     await page.addInitScript(() => localStorage.setItem('mohleyla-sync-link', 'someone-else'));
+    await signIn(page, 'kid@example.com');
+    await expect(page.locator('[data-testid="sync-status"]')).toContainText('Up to date');
+    await expect(page.locator('[data-testid="acc-choice"][open]')).toHaveCount(0);
+    expect((await page.evaluate(state)).xp).toBe(300); // only their own
+    expect([...backend.rows.values()][0].xp).toBe(300);
+    expect(await page.evaluate(() => localStorage.getItem('mohleyla-progress-of:someone-else'))).toContain('ar-01');
+  });
+
+  test('progress made without an account, joining an account that has progress, asks before mixing', async ({ page }) => {
+    const backend = createMockBackend({ users: { 'kid@example.com': 'user-kid' } });
+    backend.rows.set('user-kid', { schema: 6, xp: 300, xpLedger: { tablet: 300 }, completed: { 'id-01': { best: 90, attempts: 1 } }, saved: {}, unsaved: {}, srs: {}, speaking: {}, stats: {}, days: {}, streak: { current: 0, best: 0, last: null } });
+    await backend.install(page);
+    await seed(page, { lang: 'en', state: { xp: 70, xpLedger: { me: 70 }, completed: { 'ar-01': { best: 100, attempts: 1 } } } });
     await signIn(page, 'kid@example.com');
     await expect(page.locator('[data-testid="acc-choice"]')).toBeVisible();
     expect((await page.evaluate(state)).xp).toBe(70); // untouched until a choice is made

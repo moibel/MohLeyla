@@ -36,6 +36,10 @@ insert into public.progress (user_id, state) values
   ('00000000-0000-0000-0000-0000000000c1', '{"xp":120,"completed":{"ar-01":{},"en-01":{}},"streak":{"current":3,"best":4,"last":"2026-11-20"},"stats":{"answered":10,"correct":8},"days":{"2026-11-19":{"xp":50},"2026-11-20":{"xp":70}},"secretNote":"raw document"}'),
   ('00000000-0000-0000-0000-0000000000c2', '{"xp":5}');
 
+-- 014: e-mail keyed features need a confirmed address, and writing in chat needs accepted terms
+update auth.users set email_confirmed_at = now() where email ilike '%@test.local';
+insert into public.terms_acceptances (user_id, version) select id, 'test' from auth.users where email ilike '%@test.local';
+
 do $t$
 declare
   a  constant uuid := '00000000-0000-0000-0000-0000000000a1';
@@ -85,7 +89,7 @@ begin
   execute 'reset role'; perform zz_test.as_user(t1);
   select * into v_class from public.create_class('  Arabic 101  ');
   v_code := v_class.code;
-  perform zz_test.chk('teacher creates a class with a trimmed name and an 8-character code', v_class.name = 'Arabic 101' and char_length(v_code) = 8, v_class::text);
+  perform zz_test.chk('teacher creates a class with a trimmed name and a 12-character code', v_class.name = 'Arabic 101' and v_code ~ '^[0-9A-F]{12}$', v_class::text);
   res := zz_test.try($q$select * from public.create_class('')$q$);
   perform zz_test.chk('empty class names are rejected', res = 'err:22023', res);
   perform zz_test.chk('teacher_classes lists the class', (select count(*) from public.teacher_classes()) = 1);
@@ -94,8 +98,7 @@ begin
   perform public.join_class(lower(v_code)); -- lowercase / spaces tolerated
   perform public.join_class(' ' || v_code || ' '); -- idempotent
   perform zz_test.chk('student joins with the code (case-insensitive, idempotent)', (select count(*) from public.my_memberships()) = 1);
-  res := zz_test.try($q$select * from public.join_class('NOPE1234')$q$);
-  perform zz_test.chk('an invalid code is rejected', res = 'err:P0002', res);
+  perform zz_test.chk('an invalid code returns no rows (so the attempt can be counted)', zz_test.cnt($q$select * from public.join_class('NOPE1234')$q$) = 0);
   perform zz_test.chk('student sees the class they joined', zz_test.cnt('select 1 from public.classes') = 1);
   perform zz_test.chk('student cannot see other members of the class', zz_test.cnt('select 1 from public.class_members') = 1);
   perform zz_test.chk('student can read their own progress', zz_test.cnt('select 1 from public.progress') = 1);

@@ -1,0 +1,36 @@
+// Texts of the set-up screens. Loaded together with them (not in the first-screen bundle).
+export default {
+  en: {
+    title: 'Set up your learning', step: 'Step {{n}} of {{total}}', back: 'Back', next: 'Continue', cancel: 'Cancel', finish: 'Start learning', save: 'Save my plan', signOut: 'Sign out',
+    termsTitle: 'Before you start', name: 'What should we call you? (optional)',
+    age: 'I am 13 years old or older.', accept: 'I accept the terms of use and the privacy policy. I understand that abuse, harassment and unsafe content are not allowed in chats and can get my account suspended.',
+    terms: 'Read the terms of use', privacy: 'Read the privacy policy', underAge: 'MohLeyla accounts are for people aged 13 and older.',
+    langTitle: 'Which languages do you want to learn?', langHint: 'Choose one or more. You can change this later in Settings.',
+    levelTitle: 'What is your level?', levelHint: 'We will start each language at the right place. Every lesson stays open.',
+    beginner: 'New to it', beginnerHint: 'I know nothing or only a few words', elementary: 'I know the basics', elementaryHint: 'I can handle simple everyday phrases', intermediate: 'I can hold a conversation', intermediateHint: 'I want to improve and use past and future',
+    goalTitle: 'How much do you want to do each day?', failed: 'Your choices could not be saved. Check your connection and try again.',
+    planTitle: 'My learning plan', planText: 'Change the languages you are learning and your level.', planButton: 'Change my plan',
+  },
+  ar: {
+    title: 'جهّز تعلّمك', step: 'الخطوة {{n}} من {{total}}', back: 'رجوع', next: 'متابعة', cancel: 'إلغاء', finish: 'ابدأ التعلّم', save: 'احفظ خطتي', signOut: 'تسجيل الخروج',
+    termsTitle: 'قبل أن تبدأ', name: 'ماذا تحب أن نناديك؟ (اختياري)',
+    age: 'عمري 13 سنة أو أكثر.', accept: 'أوافق على شروط الاستخدام وسياسة الخصوصية، وأفهم أن الإساءة والمضايقة والمحتوى غير الآمن ممنوعة في المحادثات وقد تؤدي إلى إيقاف حسابي.',
+    terms: 'اقرأ شروط الاستخدام', privacy: 'اقرأ سياسة الخصوصية', underAge: 'الحسابات مخصصة لمن عمرهم 13 سنة فأكثر.',
+    langTitle: 'ما اللغات التي تريد تعلّمها؟', langHint: 'اختر لغة أو أكثر، ويمكنك تغيير ذلك لاحقًا من الإعدادات.',
+    levelTitle: 'ما مستواك؟', levelHint: 'سنبدأ كل لغة من المكان المناسب، وتبقى جميع الدروس مفتوحة.',
+    beginner: 'جديد عليّ', beginnerHint: 'لا أعرف شيئًا أو أعرف كلمات قليلة', elementary: 'أعرف الأساسيات', elementaryHint: 'أستطيع استخدام عبارات يومية بسيطة', intermediate: 'أستطيع إجراء محادثة', intermediateHint: 'أريد التحسّن واستخدام الماضي والمستقبل',
+    goalTitle: 'كم تريد أن تنجز كل يوم؟', failed: 'تعذّر حفظ اختياراتك. تحقق من الاتصال وحاول مرة أخرى.',
+    planTitle: 'خطة تعلّمي', planText: 'غيّر اللغات التي تتعلّمها ومستواك.', planButton: 'غيّر خطتي',
+  },
+  id: {
+    title: 'Atur cara belajarmu', step: 'Langkah {{n}} dari {{total}}', back: 'Kembali', next: 'Lanjut', cancel: 'Batal', finish: 'Mulai belajar', save: 'Simpan rencanaku', signOut: 'Keluar',
+    termsTitle: 'Sebelum mulai', name: 'Kami panggil kamu siapa? (opsional)',
+    age: 'Usia saya 13 tahun atau lebih.', accept: 'Saya menyetujui ketentuan penggunaan dan kebijakan privasi. Saya paham bahwa pelecehan dan konten yang tidak aman dilarang di obrolan dan dapat membuat akun saya ditangguhkan.',
+    terms: 'Baca ketentuan penggunaan', privacy: 'Baca kebijakan privasi', underAge: 'Akun MohLeyla untuk usia 13 tahun ke atas.',
+    langTitle: 'Bahasa apa yang ingin kamu pelajari?', langHint: 'Pilih satu atau lebih. Bisa diubah nanti di Pengaturan.',
+    levelTitle: 'Seberapa jauh kemampuanmu?', levelHint: 'Setiap bahasa dimulai dari tempat yang sesuai. Semua pelajaran tetap terbuka.',
+    beginner: 'Masih baru', beginnerHint: 'Belum tahu apa-apa atau hanya beberapa kata', elementary: 'Tahu dasar-dasarnya', elementaryHint: 'Bisa memakai ungkapan sehari-hari yang sederhana', intermediate: 'Bisa bercakap-cakap', intermediateHint: 'Ingin lebih lancar, termasuk bentuk lampau dan akan datang',
+    goalTitle: 'Seberapa banyak yang ingin kamu lakukan tiap hari?', failed: 'Pilihanmu belum tersimpan. Periksa koneksi lalu coba lagi.',
+    planTitle: 'Rencana belajarku', planText: 'Ubah bahasa yang kamu pelajari dan levelmu.', planButton: 'Ubah rencanaku',
+  },
+};

@@ -435,3 +435,8 @@ tr.is-open{background:var(--brand-soft)}
 :lang(zh){font-family:'PingFang SC','Hiragino Sans GB','Microsoft YaHei','Noto Sans SC','Noto Sans CJK SC',var(--font-latin)}
 .target-text:lang(zh),.word-target:lang(zh){line-height:1.5;letter-spacing:.04em}
 .word-target:lang(zh){font-size:clamp(2.6rem,9vw,3.6rem)}
+
+.chat-safety{display:flex;flex-direction:column;gap:6px;align-items:flex-start}
+.bubble-report{position:relative;display:inline-grid;place-items:center;width:32px;height:32px;margin-inline-start:6px;border:0;background:transparent;color:inherit;opacity:.65;cursor:pointer;vertical-align:middle;border-radius:8px}
+.bubble-report::after{content:'';position:absolute;inset:-6px}
+.bubble-report:hover,.bubble-report:focus-visible{opacity:1}

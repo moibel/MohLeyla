@@ -1,6 +1,6 @@
 import { createContext, useCallback, useContext, useEffect, useMemo, useRef, useState } from 'react';
 import { loadState, saveState } from '../features/progress/storage.js';
-import { emptyState, migrate } from '../features/progress/engine.js';
+import { emptyState, migrate, STORAGE_KEY } from '../features/progress/engine.js';
 import { audio } from '../features/audio/audioService.js';
 import { SPEEDS } from '../features/audio/audioService.js';
 import { sync } from '../features/sync/index.js';
@@ -36,7 +36,8 @@ export function ProgressProvider({ children }) {
       getState: () => ref.current,
       apply: (s) => commit(() => ({ state: s })),
       // a NEW device id: XP counters restart from zero, so they must not collide with the old id's counters in the cloud
-      clearLocal: () => commit((cur) => ({ state: { ...emptyState(), settings: { ...cur.settings, onboarded: true } } })),
+      // the device's look and sound settings stay; the person's own choices (last language, daily goal) do not
+      clearLocal: () => commit((cur) => ({ state: { ...emptyState(), settings: { ...cur.settings, onboarded: true, lastTrack: null, goal: emptyState().settings.goal } } })),
     });
     const snap = sync.getSnapshot();
     if (snap.configured && (snap.restoring || shouldConnectAtStartup())) sync.init();
@@ -49,6 +50,16 @@ export function ProgressProvider({ children }) {
       document.removeEventListener('visibilitychange', onVisible);
     };
   }, [commit]);
+
+  // Another tab changed the stored progress (for example it signed out or switched account): use its version, never ours.
+  useEffect(() => {
+    const onStorage = (e) => {
+      if (e.key !== STORAGE_KEY || !e.newValue || e.newValue === JSON.stringify(ref.current)) return;
+      try { const next = migrate(JSON.parse(e.newValue)); ref.current = next; setState(next); } catch { /* ignore */ }
+    };
+    window.addEventListener('storage', onStorage);
+    return () => window.removeEventListener('storage', onStorage);
+  }, []);
 
   useEffect(() => {
     audio.setPrefs({ speed: SPEEDS[state.settings.speed] ?? 1, source: state.settings.source });

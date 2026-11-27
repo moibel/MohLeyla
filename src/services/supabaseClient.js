@@ -17,7 +17,9 @@ export const authInUrl = () => typeof location !== 'undefined' && /access_token=
 export async function createSupabase() {
   const { createClient } = await import('@supabase/supabase-js');
   return createClient(SUPABASE_URL, SUPABASE_ANON_KEY, {
-    auth: { persistSession: true, autoRefreshToken: true, detectSessionInUrl: true, storageKey: AUTH_STORAGE_KEY },
+    // PKCE: sign-in returns a one-time code that only works with the secret this browser or app kept, so a crafted link
+    // carrying someone else's tokens cannot sign anyone in.
+    auth: { flowType: 'pkce', persistSession: true, autoRefreshToken: true, detectSessionInUrl: true, storageKey: AUTH_STORAGE_KEY },
   });
 }
 

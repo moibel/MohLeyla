@@ -13,7 +13,7 @@ export default function PushCard() {
   const [state, setState] = useState('idle'); // idle | busy | denied | error
   useEffect(() => {
     if (!isNativeApp()) return;
-    import('./pushService.js').then(async ({ getPushService }) => { const p = await getPushService(); setSvc(p); setOn(p.isOn()); });
+    import('./pushService.js').then(async ({ getPushService }) => { const p = await getPushService(); if (!(await p.available())) return; setSvc(p); setOn(p.isOn()); });
   }, []);
   if (!isNativeApp() || !s.userId || !svc) return null;
 

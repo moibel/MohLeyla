@@ -10,6 +10,14 @@ import { appleNativeAuthorize, appleAuthorizationCode, canUseNativeApple } from 
 export const LINK_KEY = 'mohleyla-sync-link'; // user id whose cloud data this device has already merged
 export const HINT_KEY = 'mohleyla-session-hint'; // { userId, email, profile } of the last signed-in user, so reopening offline stays signed in
 export const NAME_ASKED_KEY = 'mohleyla-name-asked'; // user ids that were already asked for a display name
+// Whose progress is on this device. Progress is never merged into a different account: it is set aside for its owner and restored when they return.
+export const TERMS_SENT_KEY = 'mohleyla-terms-sent'; // userId:version already recorded in the database
+export const OWNER_KEY = 'mohleyla-progress-owner';
+export const ASIDE_PREFIX = 'mohleyla-progress-of:';
+// supabase-js keeps the session under these keys (storageKey in services/supabaseClient.js). Sign-out removes them itself too.
+export const AUTH_KEYS = ['mohleyla-auth', 'mohleyla-auth-user', 'mohleyla-auth-code-verifier'];
+const ACCOUNT_CACHES = ['mohleyla-news-v1', 'mohleyla-rewards-v1']; // personal announcements and rewards of the signed-in person
+const NATIVE_SIGN_IN_MS = 5 * 60 * 1000;
 const DEBOUNCE_MS = 2500;
 // After a failed sync while online (server hiccup, flaky network) try again by itself, waiting longer each time, then every 5 minutes.
 export const RETRY_MS = [5000, 15000, 45000, 120000, 300000];
@@ -39,11 +47,13 @@ export class SyncManager {
     this.retryTimer = null;
     this.retryIdx = 0;
     this.chain = Promise.resolve();
+    this.gen = 0; // bumped whenever the signed-in person changes, so a sync already in flight cannot write the old person's data
+    this.nativeListener = null;
     const hint = this.readHint();
     // `restoring` is true until we know whether a stored session is still valid, so the UI never flashes a sign-in screen.
     this.snapshot = {
       configured: !!configured, status: hint ? 'idle' : 'signedOut', userId: hint?.userId ?? null, email: hint?.email ?? null, profile: hint?.profile ?? null, role: hint?.role ?? null,
-      lastSyncedAt: null, error: null, pendingChoice: false, codeSentTo: null, errorId: 0, nameAskedAt: 0,
+      lastSyncedAt: null, error: null, pendingChoice: false, codeSentTo: null, errorId: 0, nameAskedAt: 0, editPlan: false,
       restoring: !!configured && (!!hint || !!authInUrl),
     };
   }
@@ -52,12 +62,16 @@ export class SyncManager {
     try { const h = JSON.parse(this.storage.getItem(HINT_KEY) || 'null'); return h && h.userId ? h : null; } catch { return null; }
   }
   setUser(user, extra = {}) {
+    if (this.snapshot.userId !== user.id) this.gen++;
+    // progress made from now on belongs to this person (only claim an empty device here; existing progress is handled by the sync)
+    if (this.api && !this.storage.getItem(OWNER_KEY) && !this.storage.getItem(LINK_KEY) && !hasProgress(this.api.getState())) this.storage.setItem(OWNER_KEY, user.id);
     const profile = profileFromUser(user);
     const role = this.snapshot.userId === user.id ? this.snapshot.role : null; // keep the known role while the same user refreshes
     this.storage.setItem(HINT_KEY, JSON.stringify({ userId: user.id, email: user.email || null, profile, role }));
     this.set({ userId: user.id, email: user.email || null, profile, role, ...extra });
   }
   clearUser(extra = {}) {
+    this.gen++;
     this.stopRetry();
     this.storage.removeItem(HINT_KEY);
     this.set({ status: 'signedOut', userId: null, email: null, profile: null, role: null, pendingChoice: false, restoring: false, ...extra });
@@ -106,6 +120,32 @@ export class SyncManager {
     }
   }
 
+  /** Save the set-up answers (13+, accepted terms, languages, levels) and optionally the display name, in the account. */
+  async saveLearning(plan, name = '') {
+    const clean = cleanName(name);
+    try {
+      const c = await this.ensureClient();
+      const { data, error } = await c.auth.updateUser({ data: { learning: plan, ...(clean ? { display_name: clean } : {}) } });
+      if (error || !data?.user) return this.fail(this.getOnline() ? 'nameFailed' : 'network');
+      this.setUser(data.user, { error: null });
+      this.skipNamePrompt();
+      await this.recordTerms();
+      return true;
+    } catch {
+      return this.fail(this.getOnline() ? 'nameFailed' : 'network');
+    }
+  }
+
+  /** The database also keeps who accepted which terms (it refuses chat messages without it). Retried after each sync until it succeeds. */
+  async recordTerms() {
+    const { userId, profile } = this.snapshot;
+    const version = profile?.learning?.terms;
+    if (!userId || !version || !this.client?.rpc) return;
+    const mark = `${userId}:${version}`;
+    if (this.storage.getItem(TERMS_SENT_KEY) === mark) return;
+    try { if (!(await this.client.rpc('accept_terms', { p_version: version }))?.error) this.storage.setItem(TERMS_SENT_KEY, mark); } catch { /* offline: next time */ }
+  }
+
   subscribe = (fn) => { this.listeners.add(fn); return () => this.listeners.delete(fn); };
   getSnapshot = () => this.snapshot;
   set(patch) { this.snapshot = { ...this.snapshot, ...patch }; this.listeners.forEach((l) => l()); }
@@ -121,6 +161,7 @@ export class SyncManager {
       this.clientPromise = this.createClient().then((c) => {
         this.client = c;
         c.auth.onAuthStateChange((event, session) => {
+          if (this.client !== c) return; // a client that was thrown away by sign-out must not bring its session back
           if (event === 'SIGNED_OUT') this.clearUser();
           else if (session?.user) {
             const first = this.snapshot.userId !== session.user.id || this.snapshot.status === 'signedOut';
@@ -196,14 +237,19 @@ export class SyncManager {
     const [{ Browser }, { App }] = await Promise.all([import('@capacitor/browser'), import('@capacitor/app')]);
     const { data, error } = await c.auth.signInWithOAuth({ provider, options: { redirectTo: NATIVE_AUTH_REDIRECT, skipBrowserRedirect: true } });
     if (error || !data?.url) return this.fail('oauthFailed');
+    // one listener at a time, only while a sign-in is pending. The link carries a one-time code that is useless without the
+    // secret this app kept when it started the sign-in (PKCE), so a link made by someone else cannot sign this phone in.
+    this.stopNativeListener();
     const handle = await App.addListener('appUrlOpen', async ({ url }) => {
       const result = parseNativeAuthUrl(url);
       if (!result) return; // not our link: ignore it
-      handle.remove();
+      this.stopNativeListener();
       await Browser.close().catch(() => {});
-      const done = result.code ? await c.auth.exchangeCodeForSession(result.code) : await c.auth.setSession(result);
+      const done = await c.auth.exchangeCodeForSession(result.code);
       if (done.error) this.fail('oauthFailed');
     });
+    const timer = setTimeout(() => this.stopNativeListener(), NATIVE_SIGN_IN_MS);
+    this.nativeListener = () => { clearTimeout(timer); handle.remove?.(); };
     await Browser.open({ url: data.url });
     return true;
   }
@@ -235,6 +281,8 @@ export class SyncManager {
     }
   }
 
+  stopNativeListener() { const stop = this.nativeListener; this.nativeListener = null; stop?.(); }
+
   stopRetry() { clearTimeout(this.retryTimer); this.retryTimer = null; this.retryIdx = 0; }
   scheduleRetry() {
     clearTimeout(this.retryTimer);
@@ -247,7 +295,17 @@ export class SyncManager {
     clearTimeout(this.timer);
     // the phone must stop getting this person's notifications (only in the phone apps; the code is not loaded on the web)
     if (isNativeApp()) { try { await (await (await import('../push/pushService.js')).getPushService()).forgetToken(); } catch { /* ignore */ } }
-    try { if (this.client) await this.client.auth.signOut(); } catch { /* ignore: local sign-out below */ }
+    this.stopNativeListener();
+    // 'local' = this device only. If the server cannot be reached the library KEEPS the session, so it is removed here as well.
+    const c = this.client;
+    let removed = !c;
+    try { if (c) removed = !(await c.auth.signOut({ scope: 'local' }))?.error; } catch { removed = false; }
+    if (!removed) {
+      try { await c.auth.stopAutoRefresh?.(); } catch { /* ignore */ }
+      this.client = null;
+      this.clientPromise = null;
+    }
+    for (const k of [...AUTH_KEYS, ...ACCOUNT_CACHES]) this.storage.removeItem(k);
     this.storage.removeItem(LINK_KEY);
     this.clearUser({ lastSyncedAt: null, error: null });
   }
@@ -264,6 +322,7 @@ export class SyncManager {
     }
     await this.signOut();
     this.api?.clearLocal?.();
+    this.storage.removeItem(OWNER_KEY);
     return { ok: true };
   }
 
@@ -279,14 +338,36 @@ export class SyncManager {
     return this.chain;
   }
 
+  /** Before syncing: set another person's progress aside, and bring back this person's own if it was set aside earlier. */
+  separateOwners(userId) {
+    const owner = this.storage.getItem(OWNER_KEY) || this.storage.getItem(LINK_KEY);
+    if (owner && owner !== userId) {
+      const theirs = this.api.getState();
+      if (hasProgress(theirs)) this.storage.setItem(ASIDE_PREFIX + owner, JSON.stringify(theirs));
+      this.api.clearLocal?.();
+      this.storage.removeItem(LINK_KEY);
+      this.storage.setItem(OWNER_KEY, userId);
+    }
+    const aside = this.storage.getItem(ASIDE_PREFIX + userId);
+    if (aside) {
+      try { this.api.apply(mergeStates(this.api.getState(), migrate(JSON.parse(aside)))); } catch { /* unreadable copy: drop it */ }
+      this.storage.removeItem(ASIDE_PREFIX + userId);
+      this.storage.setItem(OWNER_KEY, userId);
+    }
+  }
+
   async _sync(choice) {
     const { userId } = this.snapshot;
     if (!userId || !this.client || !this.api) return;
+    const gen = this.gen;
+    const stale = () => gen !== this.gen || this.snapshot.userId !== userId;
+    this.separateOwners(userId);
     if (!this.getOnline()) return this.set({ status: 'offline' });
     if (this.snapshot.pendingChoice && !choice) return;
     this.set({ status: 'syncing', error: null });
     try {
       const { data, error } = await this.client.from('progress').select('state').eq('user_id', userId).maybeSingle();
+      if (stale()) return;
       if (error) throw error;
       const local = this.api.getState();
       const remote = data?.state ? migrate(data.state) : null;
@@ -302,13 +383,17 @@ export class SyncManager {
       // Never create an empty cloud row for a learner with no progress (fresh sign-in, or right after a reset).
       if ((remote && !sameSynced(merged, remote)) || (!remote && hasProgress(merged))) {
         const { error: upErr } = await this.client.from('progress').upsert({ user_id: userId, state: toRemote(merged), updated_at: new Date().toISOString() });
+        if (stale()) return;
         if (upErr) throw upErr;
       }
       this.storage.setItem(LINK_KEY, userId);
+      this.storage.setItem(OWNER_KEY, userId);
       this.stopRetry();
       this.set({ status: 'synced', lastSyncedAt: Date.now(), pendingChoice: false });
       this.refreshRole();
+      this.recordTerms();
     } catch (e) {
+      if (stale()) return;
       const online = this.getOnline();
       this.set({ status: online ? 'error' : 'offline', error: online ? 'syncFailed' : null, errorId: this.snapshot.errorId + 1 });
       if (online && this.snapshot.userId) this.scheduleRetry(); // offline: the 'online' event triggers the next try instead
@@ -358,6 +443,8 @@ export class SyncManager {
   async deleteCloudData() {
     const { userId } = this.snapshot;
     if (!userId || !this.client) return false;
+    clearTimeout(this.timer);
+    await this.chain; // let a running sync finish first, or its upload could recreate the row after the delete
     const { error } = await this.client.from('progress').delete().eq('user_id', userId);
     if (error) return this.fail('syncFailed');
     this.storage.removeItem(LINK_KEY);

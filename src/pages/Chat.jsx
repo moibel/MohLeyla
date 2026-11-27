@@ -1,3 +1,4 @@
+import '../i18n/pages.js';
 import { useCallback, useEffect, useRef, useState } from 'react';
 import { Link, useNavigate, useParams } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
@@ -9,6 +10,10 @@ import { myChats, chatMessages, sendMessage, markChatRead, sendAttachment, start
 import { useSync } from '../features/sync/useSync.js';
 import { openCall } from '../features/calls/useCalls.js';
 import { callText } from '../features/calls/format.js';
+import ChatSafety from '../features/chat/ChatSafety.jsx';
+import { Flag } from 'lucide-react';
+import { TERMS_SENT_KEY } from '../features/sync/syncManager.js';
+import { sync } from '../features/sync/index.js';
 import ChatFile, { fmtDuration } from '../features/chat/ChatFile.jsx';
 import { uploadChatFile, shrinkImage, audioFormat, MAX_VOICE_MS, FileError } from '../features/chat/files.js';
 import { Recorder } from '../features/speaking/recorder.js';
@@ -98,14 +103,19 @@ function Thread({ id }) {
     } catch (e) { if (e.code === 'notAllowed') navigate('/chat', { replace: true }); else { setMsgs((m) => m || []); setErr('load'); } }
   }, [id, navigate]);
   useVisibleInterval(load, 4000, [id]);
-  useEffect(() => { myChats().then((cs) => setOther(cs.find((c) => c.conversation_id === id) || null)).catch(() => {}); }, [id]);
+  const safety = useRef(null);
+  const loadOther = useCallback(() => myChats().then((cs) => setOther(cs.find((c) => c.conversation_id === id) || null)).catch(() => {}), [id]);
+  useVisibleInterval(loadOther, 15000, [id]); // also notices when the other person blocks or unblocks
   useEffect(() => { if (nearBottom.current) endRef.current?.scrollIntoView({ block: 'end' }); }, [msgs]);
 
   const onScroll = () => { const el = listRef.current; if (el) nearBottom.current = el.scrollHeight - el.scrollTop - el.clientHeight < 80; };
   const clearPending = () => { if (pending?.url) URL.revokeObjectURL(pending.url); setPending(null); };
   useEffect(() => () => { recRef.current?.cancel(); }, []);
   useEffect(() => { if (!recording) return undefined; const iv = setInterval(() => setSecs(Math.floor((Date.now() - recording.startedAt) / 1000)), 250); return () => clearInterval(iv); }, [recording]);
-  const failWith = (ex) => setErr(ex.code === 'slowDown' ? 'slowDown' : ex.code === 'network' ? 'network' : ex.code === 'tooBig' ? 'tooBig' : ex.code === 'badType' ? 'badType' : ex.code === 'denied' ? 'micDenied' : ex.code === 'noMic' ? 'noMic' : ex.code === 'unsupported' ? 'micUnsupported' : ex.code === 'tooShort' ? 'tooShort' : ex.code === 'upload' ? 'upload' : 'send');
+  const refused = (ex) => ['blocked', 'suspended', 'termsRequired'].includes(ex.code);
+  // the database does not know yet that the terms were accepted (for example it was updated after the set-up): record it again
+  const reRecordTerms = () => { try { localStorage.removeItem(TERMS_SENT_KEY); } catch { /* storage blocked */ } return sync.recordTerms(); };
+  const failWith = (ex) => setErr(refused(ex) ? ex.code : ex.code === 'slowDown' ? 'slowDown' : ex.code === 'network' ? 'network' : ex.code === 'tooBig' ? 'tooBig' : ex.code === 'badType' ? 'badType' : ex.code === 'denied' ? 'micDenied' : ex.code === 'noMic' ? 'noMic' : ex.code === 'unsupported' ? 'micUnsupported' : ex.code === 'tooShort' ? 'tooShort' : ex.code === 'upload' ? 'upload' : 'send');
 
   const startRecording = async () => {
     setErr(null);
@@ -143,8 +153,8 @@ function Thread({ id }) {
   const call = async (media) => {
     if (calling) return;
     setCalling(true); setErr(null);
-    try { const callId = await startCall(id, media); openCall({ callId, media, isCaller: true, name: other?.other_name || '', otherId: other?.other_id, conversationId: id }); }
-    catch (ex) { setErr(ex.code === 'notAllowed' ? 'callNotAllowed' : ex.code === 'slowDown' ? 'slowDown' : 'callFailed'); }
+    try { await sync.recordTerms(); const callId = await startCall(id, media); openCall({ callId, media, isCaller: true, name: other?.other_name || '', otherId: other?.other_id, conversationId: id }); }
+    catch (ex) { if (ex.code === 'termsRequired') await reRecordTerms(); setErr(refused(ex) ? ex.code : ex.code === 'notAllowed' ? 'callNotAllowed' : ex.code === 'slowDown' ? 'slowDown' : 'callFailed'); }
     setCalling(false);
   };
   const send = async (e) => {
@@ -153,6 +163,7 @@ function Thread({ id }) {
     if ((!body && !pending) || busy) return;
     setBusy(true); setErr(null);
     try {
+      await sync.recordTerms();
       if (pending) {
         const path = await uploadChatFile(id, pending.blob, pending);
         await sendAttachment({ conv: id, kind: pending.kind, path, mime: pending.mime, size: pending.blob.size, durationMs: pending.durationMs, caption: body });
@@ -161,7 +172,7 @@ function Thread({ id }) {
         await sendMessage(id, body);
       }
       setText(''); nearBottom.current = true; await load();
-    } catch (ex) { failWith(ex); }
+    } catch (ex) { if (ex.code === 'termsRequired') await reRecordTerms(); failWith(ex); loadOther(); }
     setBusy(false);
   };
   const time = (d) => new Intl.DateTimeFormat(LANG_META[i18n.language].locale, { timeStyle: 'short' }).format(new Date(d));
@@ -173,7 +184,7 @@ function Thread({ id }) {
       <header className="chat-head">
         {other && <Avatar profile={{ name: other.other_name, email: other.other_id }} size={44} />}
         <div className="chat-head-main"><h1 className="chat-name"><bdi>{other?.other_name || '…'}</bdi></h1>{other && <Chip>{t(`admin.roles.${other.other_role}`)}</Chip>}</div>
-        {canCall && other && (
+        {canCall && other && !other.blocked && (
           <div className="chat-call-btns">
             <button type="button" className="icon-btn" onClick={() => call('audio')} disabled={calling} aria-label={t('calls.startVoice')} title={t('calls.startVoice')} data-testid="start-voice-call"><Phone size={22} aria-hidden="true" /></button>
             <button type="button" className="icon-btn" onClick={() => call('video')} disabled={calling} aria-label={t('calls.startVideo')} title={t('calls.startVideo')} data-testid="start-video-call"><Video size={22} aria-hidden="true" /></button>
@@ -181,6 +192,7 @@ function Thread({ id }) {
         )}
       </header>
       <PrivacyNote />
+      <ChatSafety ref={safety} conv={id} other={other} onChanged={loadOther} />
       <div className="chat-scroll card" ref={listRef} onScroll={onScroll} role="log" aria-live="polite" aria-label={t('chat.messages')} data-testid="chat-log">
         {msgs === null && <p className="muted">{t('app.loading')}</p>}
         {msgs && msgs.length === 0 && <p className="muted center">{t('chat.noMessages')}</p>}
@@ -191,11 +203,14 @@ function Thread({ id }) {
               {!m.removed && m.kind && m.kind !== 'text' && <ChatFile m={m} />}
               {(m.removed || m.body) && <p className="bubble-text">{m.removed ? <em>{t('chat.removed')}</em> : <bdi>{m.body}</bdi>}</p>}
               <small className="bubble-time">{time(m.created_at)}</small>
+              {!m.mine && !m.removed && <button type="button" className="bubble-report" onClick={() => safety.current?.report(m)} aria-label={t('safety.reportMessage')} title={t('safety.reportMessage')} data-testid="msg-report"><Flag size={14} aria-hidden="true" /></button>}
             </div>}
           </div>
         ))}
         <div ref={endRef} />
       </div>
+      {other?.blocked ? null : (
+      <>
       {recording && (
         <div className="rec-bar" role="status" data-testid="rec-bar">
           <span className="rec-dot" aria-hidden="true" /> <strong>{t('chat.recording')}</strong> <span data-testid="rec-time">{fmtDuration(secs * 1000)}</span>
@@ -221,7 +236,9 @@ function Thread({ id }) {
         <Button type="submit" disabled={busy || !!recording || (!text.trim() && !pending)} icon={<Send size={18} aria-hidden="true" />} data-testid="chat-send">{t('chat.send')}</Button>
       </form>
       <p className="note-small"><span data-testid="chat-count">{text.length}/{pending ? 200 : MAX}</span> · {t('chat.enterHint')} · {t('chat.attachNote')}</p>
-      {err && <p className="err-text" role="alert" data-testid="chat-error">{t(`chat.errors.${err}`)}</p>}
+      </>
+      )}
+      {err && <p className="err-text" role="alert" data-testid="chat-error">{t(['blocked', 'suspended', 'termsRequired'].includes(err) ? `safety.errors.${err}` : `chat.errors.${err}`)}</p>}
     </div>
   );
 }

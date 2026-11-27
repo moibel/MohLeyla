@@ -1,20 +1,24 @@
 #!/bin/sh
 # Builds a combined "migration(s) + permission tests" script. Paste it into the Supabase SQL editor and Run:
 # it ends with a deliberate error that rolls EVERYTHING back; the error text is the pass/fail report.
-#   sh supabase/tests/run-dry.sh            -> roles and classes (002)
+#   sh supabase/tests/run-dry.sh            -> roles and classes 
 #   sh supabase/tests/run-dry.sh announcements -> announcements (004)
 #   sh supabase/tests/run-dry.sh switch        -> content switches (005)
 #   sh supabase/tests/run-dry.sh chat          -> chat (007)
-#   sh supabase/tests/run-dry.sh rewards    -> rewards (needs 002 applied; this script includes it so it also works on an empty copy)
+#   sh supabase/tests/run-dry.sh rewards    -> rewards
+#   sh supabase/tests/run-dry.sh hardening  -> security hardening, block / report / suspend / terms (014); LOCAL ONLY (uses the stand-ins)
+# Every suite runs against the FINAL state: all migrations 002-014 (needs 001 applied), then its tests.
 cd "$(dirname "$0")/.." || exit 1
 case "${1:-roles}" in
-  announcements) cat migrations/002_roles_classes.sql migrations/003_rewards.sql migrations/004_announcements.sql migrations/006_announcements_pro.sql tests/announcements.test.sql ;;
-  calls) cat migrations/002_roles_classes.sql migrations/007_chat.sql migrations/008_chat_attachments.sql migrations/010_calls.sql tests/calls.test.sql ;;
-  switch) cat migrations/002_roles_classes.sql migrations/005_content_switch.sql migrations/009_content_switch_languages.sql migrations/013_content_switch_de_tl.sql tests/content_switch.test.sql ;;
-  deletion) cat migrations/002_roles_classes.sql migrations/003_rewards.sql migrations/004_announcements.sql migrations/006_announcements_pro.sql migrations/007_chat.sql migrations/008_chat_attachments.sql migrations/010_calls.sql migrations/011_push.sql migrations/012_account_deletion.sql tests/account_deletion.test.sql ;;
-  push) cat migrations/002_roles_classes.sql migrations/003_rewards.sql migrations/004_announcements.sql migrations/006_announcements_pro.sql migrations/007_chat.sql migrations/008_chat_attachments.sql migrations/010_calls.sql migrations/011_push.sql tests/push.test.sql ;;
-  attachments) cat migrations/002_roles_classes.sql migrations/007_chat.sql migrations/008_chat_attachments.sql tests/chat_attachments.test.sql ;;
-  chat) cat migrations/002_roles_classes.sql migrations/007_chat.sql tests/chat.test.sql ;;
-  rewards) cat migrations/002_roles_classes.sql migrations/003_rewards.sql tests/rewards.test.sql ;;
-  *) cat migrations/002_roles_classes.sql tests/roles_classes.test.sql ;;
+  announcements) suite=announcements ;;
+  calls) suite=calls ;;
+  switch) suite=content_switch ;;
+  deletion) suite=account_deletion ;;
+  push) suite=push ;;
+  attachments) suite=chat_attachments ;;
+  chat) suite=chat ;;
+  rewards) suite=rewards ;;
+  hardening) suite=security_hardening ;;
+  *) suite=roles_classes ;;
 esac
+cat migrations/00[2-9]_*.sql migrations/01[0-4]_*.sql "tests/$suite.test.sql"

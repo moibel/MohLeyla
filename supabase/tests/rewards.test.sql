@@ -27,6 +27,10 @@ insert into auth.users (id, aud, role, email, raw_user_meta_data) values
   ('00000000-0000-0000-0000-0000000000c1', 'authenticated', 'authenticated', 'Student1@Test.local','{"display_name":"Sara Student"}'),
   ('00000000-0000-0000-0000-0000000000c2', 'authenticated', 'authenticated', 'student2@test.local','{}');
 
+-- 014: e-mail keyed features need a confirmed address, and writing in chat needs accepted terms
+update auth.users set email_confirmed_at = now() where email ilike '%@test.local';
+insert into public.terms_acceptances (user_id, version) select id, 'test' from auth.users where email ilike '%@test.local';
+
 do $t$
 declare
   a  constant uuid := '00000000-0000-0000-0000-0000000000a1';
@@ -103,7 +107,7 @@ begin
 
   -- the waiting reward appears at first sign-in
   execute 'reset role';
-  insert into auth.users (id, aud, role, email, raw_user_meta_data) values ('00000000-0000-0000-0000-0000000000d1', 'authenticated', 'authenticated', 'Newcomer@test.local', '{}');
+  insert into auth.users (id, aud, role, email_confirmed_at, email, raw_user_meta_data) values ('00000000-0000-0000-0000-0000000000d1', 'authenticated', 'authenticated', now(), 'Newcomer@test.local', '{}');
   perform zz_test.as_user('00000000-0000-0000-0000-0000000000d1');
   perform zz_test.chk('a reward given before sign-up appears once the person signs up with that address', (select count(*) from public.my_rewards()) = 1);
 

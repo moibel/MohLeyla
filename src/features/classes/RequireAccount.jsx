@@ -1,3 +1,4 @@
+import '../../i18n/pages.js';
 import { useTranslation } from 'react-i18next';
 import { PageHeading } from '../../components/ui.jsx';
 import SignInForm from '../sync/SignInForm.jsx';

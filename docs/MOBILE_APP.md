@@ -6,7 +6,7 @@ The store apps are the same React app inside a native shell ([Capacitor](https:/
 ```bash
 npm run build:native   # builds dist-native/ (no service worker, audio not bundled) and copies it into ios/ and android/
 npm run ios            # build + open Xcode (pick a simulator or your iPhone, press Run)
-npm run android        # build + open Android Studio (needs JDK 17+ and the Android SDK)
+npm run android        # build + open Android Studio (needs JDK 21 and the Android SDK)
 ```
 - **Audio** (about 50 MB) is not inside the app: clips are fetched on demand from `https://mohleyla.pages.dev` (set `NATIVE_AUDIO_BASE` to use another host). Without internet the app falls back to the phone's own voices.
 - **Sign-in:** the email code works as on the web. "Continue with Google" opens the system browser (Google refuses embedded web views) and returns through the app's own link `com.mohleyla.app://auth`. **Before it works you must add `com.mohleyla.app://auth` to Supabase -> Authentication -> URL Configuration -> Redirect URLs.**
@@ -19,9 +19,12 @@ npm run android        # build + open Android Studio (needs JDK 17+ and the Andr
 | Same code in a browser: all 223 browser tests, 198 unit tests | `npm test`, `npm run test:e2e` |
 | **Not yet tested**: Android build (this Mac has no JDK or Android SDK), a real iPhone/Android phone, Google sign-in through the system browser, voice notes, camera and calls inside the apps, store review | needs your devices and accounts |
 
+## Prepared for the stores
+- **Icons and splash:** `npm run generate:native-assets` (only when `assets-src/logo-master.png` changes; commit the output). Play listing icon: `android/store-assets/play-icon-512.png`.
+- **iOS:** privacy manifest `ios/App/App/PrivacyInfo.xcprivacy` (no tracking; keep it and the store forms in step with `DATA_RULES.md`); permission texts and app languages in en, ar, id; no background modes (notifications are visible alerts only).
+- **Android signing:** copy `android/keystore.properties.example` to `android/keystore.properties`, or set `MOHLEYLA_KEYSTORE_FILE`, `MOHLEYLA_KEYSTORE_PASSWORD`, `MOHLEYLA_KEY_ALIAS`, `MOHLEYLA_KEY_PASSWORD`. Without them the release build is unsigned. Keys are git-ignored; never commit them.
+- **Android notifications** need `android/app/google-services.json` (git-ignored). Without it the app hides the notification switch. Not yet tried on an Android device.
+- **Sign-in, set-up, safety:** the apps require sign-in, then the 13+ and terms set-up; chat has report and block; accounts can be deleted in the app.
+
 ## Still to do before a store release
-1. Test on a real iPhone and a real Android phone (microphone, camera, calls, voice notes, Google sign-in return).
-2. Apple: Developer account ($99/year), App Store Connect record, **in-app account deletion** (built: `docs/ACCOUNT_DELETION.md`; set the Apple secrets there before submitting) and Sign in with Apple (built, see `docs/PUSH_NOTIFICATIONS.md`) (required by Apple and Google Play), privacy "nutrition label", screenshots, review notes with a test account.
-3. Google Play: developer account ($25 once), Data safety form, release keystore (keep it out of git; `.gitignore` already excludes it).
-4. Push notifications and Sign in with Apple are built; they need your accounts and keys before they work: follow `docs/PUSH_NOTIFICATIONS.md`. CallKit (a native phone-call screen for incoming calls) is a separate piece of work.
-5. Native-speaker review of the beta languages; a decision on the Apple system-voice licence for the audio clips (see README).
+Follow [LAUNCH_CHECKLIST.md](LAUNCH_CHECKLIST.md): content filter decision, reviewer sign-in, Android build, accounts and keys, tests on real phones, store forms, native-speaker review and audio licences.

@@ -1,5 +1,6 @@
 import fs from 'node:fs';
 import path from 'node:path';
+import { expect } from '@playwright/test';
 
 export const lessonsOf = (track) => {
   const dir = path.resolve('src/data/content', track);
@@ -70,6 +71,24 @@ export async function playThrough(page, lesson, ui, { wrongFirst = false } = {})
  * After an email sign-in the app asks "What should we call you?". Tests that are not about names skip it.
  * Waits for a definite signal (the signed-in avatar is rendered, which happens in the same render as the prompt) instead of a timer.
  */
+/** The first-sign-in set-up (13+, terms, languages, levels, daily goal). Does nothing for someone who already finished it. */
+export async function completeSetup(page, { tracks = ['ar'], level } = {}) {
+  const welcome = page.locator('[data-testid="welcome"]');
+  const app = page.locator('[data-testid="avatar-link"]').first();
+  await expect(welcome.or(app).first()).toBeAttached({ timeout: 15000 });
+  if (!(await welcome.count())) return false;
+  await page.locator('[data-testid="wl-age"]').check();
+  await page.locator('[data-testid="wl-terms"]').check();
+  await page.locator('[data-testid="wl-next"]').click();
+  for (const k of tracks) await page.locator(`[data-testid="wl-track-${k}"]`).check();
+  await page.locator('[data-testid="wl-next"]').click();
+  if (level) for (const k of tracks) await page.locator(`[data-testid="wl-level-${k}-${level}"]`).check();
+  await page.locator('[data-testid="wl-next"]').click();
+  await page.locator('[data-testid="wl-finish"]').click();
+  await expect(welcome).toHaveCount(0);
+  return true;
+}
+
 export async function dismissNamePrompt(page) {
   await page.locator('[data-testid="avatar-link"]').waitFor({ state: 'visible', timeout: 15000 }).catch(() => {});
   await page.waitForTimeout(400); // the dialog opens in an effect right after that render

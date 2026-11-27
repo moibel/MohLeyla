@@ -21,3 +21,15 @@ dist-gate
 dist-native
 ios/App/build
 ios/DerivedData
+
+# signing keys and service credentials: never commit (android/keystore.properties.example is the placeholder)
+*.jks
+*.keystore
+keystore.properties
+android/app/google-services.json
+**/GoogleService-Info.plist
+service-account*.json
+*.p8
+*.p12
+*.mobileprovision
+.env.local

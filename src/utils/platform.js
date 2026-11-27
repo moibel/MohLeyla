@@ -6,17 +6,14 @@ export const isNativeApp = () => typeof window !== 'undefined' && !!window.Capac
 export const NATIVE_AUTH_REDIRECT = 'com.mohleyla.app://auth';
 
 /**
- * Pull the sign-in result out of the address the app was opened with (com.mohleyla.app://auth#access_token=...&refresh_token=...).
- * Only an exact match on the app's own scheme and host is accepted; anything else returns null.
+ * Pull the one-time sign-in code out of the address the app was opened with (com.mohleyla.app://auth?code=...).
+ * Only an exact match on the app's own scheme and host is accepted; ready-made tokens in a link are never accepted.
  */
 export function parseNativeAuthUrl(url) {
   try {
     const u = new URL(String(url));
     if (`${u.protocol}//${u.host}` !== NATIVE_AUTH_REDIRECT || u.username || u.password || u.port) return null;
     const p = new URLSearchParams(u.hash.replace(/^#/, '') || u.search);
-    const access_token = p.get('access_token');
-    const refresh_token = p.get('refresh_token');
-    if (access_token && refresh_token) return { access_token, refresh_token };
     const code = p.get('code');
     return code ? { code } : null;
   } catch {

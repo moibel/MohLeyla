@@ -1,5 +1,28 @@
 apply plugin: 'com.android.application'
 
+// Release signing: read from android/keystore.properties (ignored by git; see keystore.properties.example) or from
+// environment variables. With neither, release builds are simply left unsigned and debug builds are unaffected.
+def keystoreProperties = new Properties()
+def keystorePropertiesFile = rootProject.file('keystore.properties')
+if (keystorePropertiesFile.exists()) {
+    keystorePropertiesFile.withInputStream { keystoreProperties.load(it) }
+}
+def signingValue = { String property, String variable -> keystoreProperties.getProperty(property) ?: System.getenv(variable) }
+def releaseSigning = [
+    storeFile    : signingValue('storeFile', 'MOHLEYLA_KEYSTORE_FILE'),
+    storePassword: signingValue('storePassword', 'MOHLEYLA_KEYSTORE_PASSWORD'),
+    keyAlias     : signingValue('keyAlias', 'MOHLEYLA_KEY_ALIAS'),
+    keyPassword  : signingValue('keyPassword', 'MOHLEYLA_KEY_PASSWORD')
+]
+def hasReleaseSigning = releaseSigning.values().every { it }
+if (!hasReleaseSigning && releaseSigning.values().any { it }) {
+    logger.warn('Release signing is only partly configured (storeFile, storePassword, keyAlias, keyPassword are all needed): the release build will not be signed.')
+}
+
+// Push notifications need Firebase, which is configured by google-services.json (ignored by git).
+def googleServicesFile = file('google-services.json')
+def pushConfigured = googleServicesFile.exists() && !googleServicesFile.text.trim().isEmpty()
+
 android {
     namespace = "com.mohleyla.app"
     compileSdk = rootProject.ext.compileSdkVersion
@@ -10,14 +33,31 @@ android {
         versionCode 1
         versionName "1.0"
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+        buildConfigField "boolean", "PUSH_CONFIGURED", "${pushConfigured}"
         aaptOptions {
              // Files and dirs to omit from the packaged assets dir, modified to accommodate modern web apps.
              // Default: https://android.googlesource.com/platform/frameworks/base/+/282e181b58cf72b6ca770dc7ca5f91f135444502/tools/aapt/AaptAssets.cpp#61
             ignoreAssetsPattern = '!.svn:!.git:!.ds_store:!*.scc:.*:!CVS:!thumbs.db:!picasa.ini:!*~'
         }
     }
+    buildFeatures {
+        buildConfig = true
+    }
+    signingConfigs {
+        if (hasReleaseSigning) {
+            release {
+                storeFile rootProject.file(releaseSigning.storeFile) // absolute, or relative to android/
+                storePassword releaseSigning.storePassword
+                keyAlias releaseSigning.keyAlias
+                keyPassword releaseSigning.keyPassword
+            }
+        }
+    }
     buildTypes {
         release {
+            if (hasReleaseSigning) {
+                signingConfig signingConfigs.release
+            }
             minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
@@ -44,11 +84,8 @@ dependencies {
 
 apply from: 'capacitor.build.gradle'
 
-try {
-    def servicesJSON = file('google-services.json')
-    if (servicesJSON.text) {
-        apply plugin: 'com.google.gms.google-services'
-    }
-} catch(Exception e) {
-    logger.info("google-services.json not found, google-services plugin not applied. Push Notifications won't work")
+if (pushConfigured) {
+    apply plugin: 'com.google.gms.google-services'
+} else {
+    logger.lifecycle("google-services.json not found: google-services plugin not applied; push notifications are switched off in this build.")
 }

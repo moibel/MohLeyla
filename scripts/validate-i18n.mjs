@@ -1,7 +1,15 @@
 // Checks that ar/en/id UI resources have identical keys (modulo plural suffixes), placeholders, and script rules.
-import ar from '../src/i18n/ar/ui.js';
-import en from '../src/i18n/en/ui.js';
-import id from '../src/i18n/id/ui.js';
+import arUi from '../src/i18n/ar/ui.js';
+import enUi from '../src/i18n/en/ui.js';
+import idUi from '../src/i18n/id/ui.js';
+import arPages from '../src/i18n/ar/pages.js';
+import enPages from '../src/i18n/en/pages.js';
+import idPages from '../src/i18n/id/pages.js';
+import welcome from '../src/features/welcome/strings.js';
+
+const ar = { ...arUi, ...arPages, welcome: welcome.ar };
+const en = { ...enUi, ...enPages, welcome: welcome.en };
+const id = { ...idUi, ...idPages, welcome: welcome.id };
 
 const PLURAL = /_(zero|one|two|few|many|other)$/;
 const errors = [];

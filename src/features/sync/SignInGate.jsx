@@ -1,3 +1,4 @@
+import { lazy, Suspense } from 'react';
 import { useTranslation } from 'react-i18next';
 import { Logo, Spinner } from '../../components/ui.jsx';
 import { LangSwitcher } from '../../app/Layout.jsx';
@@ -6,6 +7,9 @@ import LegalLinks from '../../components/LegalLinks.jsx';
 import SyncDialogs from './SyncDialogs.jsx';
 import { useSync } from './useSync.js';
 import { REQUIRE_SIGN_IN } from '../../services/supabaseClient.js';
+import { needsSetup } from '../welcome/plan.js';
+
+const Welcome = lazy(() => import('../welcome/Welcome.jsx'));
 
 /** When the build sets VITE_REQUIRE_SIGN_IN=true, nothing in the app is shown until the learner has signed in. */
 export function SignInGate() {
@@ -34,5 +38,9 @@ export default function Gate({ children }) {
   if (!REQUIRE_SIGN_IN) return children;
   if (s.restoring) return <div className="gate" data-testid="gate-restoring"><Spinner label={t('gate.checking')} /></div>;
   if (!s.userId) return <SignInGate />;
+  // First time (or after the terms change): 13+, terms, languages and levels. Offline, a remembered person is not locked out.
+  const offline = typeof navigator !== 'undefined' && navigator.onLine === false;
+  const setup = needsSetup(s.profile) && !offline;
+  if (setup || s.editPlan) return <Suspense fallback={<div className="gate"><Spinner label={t('app.loading')} /></div>}><Welcome editing={!setup} /></Suspense>;
   return children;
 }

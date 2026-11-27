@@ -1,3 +1,4 @@
+import '../i18n/pages.js';
 import { useTranslation } from 'react-i18next';
 import { GraduationCap, Mic, Brain, Users, Languages, Github, Heart } from 'lucide-react';
 import { PageHeading, Logo } from '../components/ui.jsx';

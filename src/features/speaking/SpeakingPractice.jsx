@@ -1,3 +1,4 @@
+import '../../i18n/pages.js';
 import { useCallback, useEffect, useRef, useState } from 'react';
 import { useTranslation } from 'react-i18next';
 import { Mic, Square, Play, RotateCcw, ThumbsUp, Repeat, Headphones } from 'lucide-react';

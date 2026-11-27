@@ -105,7 +105,9 @@ describe('risky code patterns', () => {
 describe('the sign-in link of the app', () => {
   const good = `${NATIVE_AUTH_REDIRECT}#access_token=aaa&refresh_token=bbb&type=bearer`;
   it('accepts only the app\'s own link', () => {
-    expect(parseNativeAuthUrl(good)).toEqual({ access_token: 'aaa', refresh_token: 'bbb' });
+    // ready-made tokens in a link are never accepted (anyone can craft one): only the one-time PKCE code is
+    expect(parseNativeAuthUrl(good)).toBeNull();
+    expect(read('src/services/supabaseClient.js')).toMatch(/flowType: 'pkce'/);
     expect(parseNativeAuthUrl(`${NATIVE_AUTH_REDIRECT}?code=abc123`)).toEqual({ code: 'abc123' });
   });
   it('rejects lookalikes, other schemes and tricks', () => {
@@ -161,13 +163,21 @@ describe('iOS project', () => {
 });
 
 describe('push notifications and Sign in with Apple', () => {
-  it('iOS has the push and Sign in with Apple capabilities, and only the background mode push needs', () => {
+  it('iOS has the push and Sign in with Apple capabilities, and asks for no background mode (pushes are visible alerts only)', () => {
     const ent = read('ios/App/App/App.entitlements');
     expect(ent).toContain('aps-environment');
     expect(ent).toContain('com.apple.developer.applesignin');
     expect(read('ios/App/App.xcodeproj/project.pbxproj').match(/CODE_SIGN_ENTITLEMENTS = App\/App\.entitlements;/g)).toHaveLength(2);
     const modes = [...read('ios/App/App/Info.plist').matchAll(/UIBackgroundModes<\/key>\s*<array>([\s\S]*?)<\/array>/g)].flatMap((m) => [...m[1].matchAll(/<string>([^<]+)<\/string>/g)].map((x) => x[1]));
-    expect(modes).toEqual(['remote-notification']);
+    expect(modes).toEqual([]);
+    expect(read('supabase/functions/push/lib.js')).not.toMatch(/content-available/);
+  });
+  it('signing keys and service files can never be committed, and the apps carry what the stores check', () => {
+    const ignore = read('.gitignore');
+    for (const p of ['*.jks', '*.keystore', 'keystore.properties', 'google-services.json', 'GoogleService-Info.plist', 'service-account', '*.p8', '*.p12', '*.mobileprovision']) expect(ignore, p).toContain(p);
+    expect(read('ios/App/App/PrivacyInfo.xcprivacy')).toMatch(/NSPrivacyTracking<\/key>\s*<false\/>/);
+    for (const l of ['en', 'ar', 'id']) expect(read(`ios/App/App/${l}.lproj/InfoPlist.strings`)).toContain('NSMicrophoneUsageDescription');
+    expect(read('ios/App/App/Info.plist')).not.toContain('armv7');
   });
   it('the Apple sign-in plugin always sends a nonce to Apple and never logs tokens', () => {
     const swift = read('ios/App/App/AppleSignInPlugin.swift');

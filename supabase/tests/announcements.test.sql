@@ -27,6 +27,10 @@ insert into auth.users (id, aud, role, email, raw_user_meta_data) values
   ('00000000-0000-0000-0000-0000000000c1', 'authenticated', 'authenticated', 'student1@test.local','{}'),
   ('00000000-0000-0000-0000-0000000000c2', 'authenticated', 'authenticated', 'student2@test.local','{}');
 
+-- 014: e-mail keyed features need a confirmed address, and writing in chat needs accepted terms
+update auth.users set email_confirmed_at = now() where email ilike '%@test.local';
+insert into public.terms_acceptances (user_id, version) select id, 'test' from auth.users where email ilike '%@test.local';
+
 do $t$
 declare
   a  constant uuid := '00000000-0000-0000-0000-0000000000a1';
@@ -149,7 +153,7 @@ begin
   perform zz_test.chk('the table itself refuses a person message without an address', res like 'err:%', res);
   perform public.admin_create_announcement('{"en":"Hello"}', '{"en":"future person"}', null, null, 'newcomer@test.local', 'celebrate');
   execute 'reset role';
-  insert into auth.users (id, aud, role, email, raw_user_meta_data) values ('00000000-0000-0000-0000-0000000000d1', 'authenticated', 'authenticated', 'Newcomer@Test.local', '{}');
+  insert into auth.users (id, aud, role, email_confirmed_at, email, raw_user_meta_data) values ('00000000-0000-0000-0000-0000000000d1', 'authenticated', 'authenticated', now(), 'Newcomer@Test.local', '{}');
   perform zz_test.as_user('00000000-0000-0000-0000-0000000000d1');
   perform zz_test.chk('a message for someone who had not signed up yet appears at their first sign-in', (select count(*) from public.my_announcements() where audience = 'user') = 1);
 
