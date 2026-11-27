@@ -133,7 +133,18 @@ export default {
       removed: 'Removed students',
       allow: 'Allow back',
     },
+    words: {
+      title: 'Blocked words',
+      text: 'Chat messages and captions containing these words or phrases are not sent. It matches whole words only, and cannot check photos or voice notes.',
+      label: 'Add a word or phrase',
+      add: 'Add',
+      show: 'Show the list (contains offensive words)',
+      empty: 'The list is empty, so nothing is filtered.',
+      remove: 'Remove',
+      invalid: 'Use a word or short phrase of 2 to 60 characters.',
+    },
     errors: {
+      filtered: 'Your message was not sent because it contains a word that is not allowed. Please change it and try again.',
       blocked: 'This chat is blocked.',
       suspended: 'Your account is suspended. Contact mohleyla.support@gmail.com.',
       termsRequired: 'Please finish the set-up and accept the terms first.',

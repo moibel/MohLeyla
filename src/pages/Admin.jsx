@@ -7,6 +7,7 @@ import AdminContent from '../features/availability/AdminContent.jsx';
 import AdminRewards from '../features/rewards/AdminRewards.jsx';
 import AdminChats from '../features/chat/AdminChats.jsx';
 import AdminReports from '../features/chat/AdminReports.jsx';
+import AdminWords from '../features/chat/AdminWords.jsx';
 import MessageButton from '../features/chat/MessageButton.jsx';
 import AdminAnnouncements from '../features/announcements/AdminAnnouncements.jsx';
 import { PageHeading, Button, Chip } from '../components/ui.jsx';
@@ -128,7 +129,7 @@ function AdminInner() {
           </>
         )}
         {tab === 'chats' && <AdminChats />}
-        {tab === 'reports' && <AdminReports />}
+        {tab === 'reports' && <><AdminReports /><AdminWords /></>}
         {tab === 'content' && <AdminContent />}
         {tab === 'news' && <AdminAnnouncements />}
         {tab === 'rewards' && <AdminRewards email={giveTo} />}

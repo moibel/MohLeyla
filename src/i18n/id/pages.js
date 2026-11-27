@@ -133,7 +133,18 @@ export default {
       removed: 'Siswa yang dikeluarkan',
       allow: 'Izinkan kembali',
     },
+    words: {
+      title: 'Kata yang diblokir',
+      text: 'Pesan obrolan dan keterangan lampiran yang berisi kata atau frasa ini tidak dikirim. Yang dicocokkan hanya kata utuh, dan tidak bisa memeriksa foto atau pesan suara.',
+      label: 'Tambah kata atau frasa',
+      add: 'Tambah',
+      show: 'Tampilkan daftar (berisi kata kasar)',
+      empty: 'Daftar kosong, jadi tidak ada yang disaring.',
+      remove: 'Hapus',
+      invalid: 'Gunakan kata atau frasa pendek, 2 sampai 60 karakter.',
+    },
     errors: {
+      filtered: 'Pesanmu tidak terkirim karena berisi kata yang tidak diperbolehkan. Ubah lalu coba lagi.',
       blocked: 'Obrolan ini diblokir.',
       suspended: 'Akunmu ditangguhkan. Hubungi mohleyla.support@gmail.com.',
       termsRequired: 'Selesaikan pengaturan dan setujui ketentuan dulu.',

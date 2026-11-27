@@ -21,6 +21,7 @@ These are the rules the app and the database follow. Each says where it is enfor
 | S10 | A **suspended** account cannot send messages or files, start chats or calls, or create or join classes. Admins cannot be suspended. |
 | S11 | Chat files: private storage, 5 MB, images and audio only, exact file names, 60 uploads an hour and 200 MB per person. A removed message's file is unreadable at once; files older than 90 days are unreadable and are deleted by the daily `purge-files` job. |
 | S12 | Rate limits (per person): 20 messages a minute, 10 calls per 10 minutes, 10 reports an hour. |
+| S13a | **Word filter:** chat text and captions with a blocked word or phrase are refused by a database trigger and never stored (015). Whole words only; Arabic marks and letter forms, stretched or spaced letters and number swaps are handled. Only admins can see or change the list. It must block no lesson sentence (`sh supabase/tests/lessons-not-blocked.sh`). It does not check photos or voice. |
 | S13 | Calls are not recorded. Connection details are deleted when the call ends or within about a day. |
 
 ## App and hosting
