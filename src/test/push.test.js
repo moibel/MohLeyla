@@ -73,9 +73,19 @@ describe('turning notifications on', () => {
   });
   it('creates the Android channels for messages and calls', async () => {
     const plugin = fakePlugin();
-    const { svc } = make(plugin, { platform: () => 'android' });
+    const { svc } = make(plugin, { platform: () => 'android', checkConfigured: async () => true });
     await svc.enable();
     expect(plugin.channels.sort()).toEqual(['calls', 'messages']);
+  });
+  it('an Android build without Firebase offers no notifications and never calls the phone plugin (it would crash)', async () => {
+    const plugin = fakePlugin();
+    const { svc, rpc } = make(plugin, { platform: () => 'android', checkConfigured: async () => false });
+    expect(await svc.available()).toBe(false);
+    expect(await svc.enable()).toBe('unsupported');
+    svc.setPref(true);
+    expect(await svc.refresh()).toBe('off');
+    expect(plugin.registered).toBe(0);
+    expect(rpc).not.toHaveBeenCalled();
   });
 });
 

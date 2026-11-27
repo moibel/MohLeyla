@@ -20,6 +20,7 @@
     "predev": "node scripts/build-manifest.mjs",
     "pretest": "node scripts/build-manifest.mjs",
     "build:native": "node scripts/build-native.mjs --sync",
+    "generate:native-assets": "node scripts/generate-native-assets.mjs",
     "ios": "npm run build:native && npx cap open ios",
     "android": "npm run build:native && npx cap open android",
     "test:security": "vitest run src/test/security.test.js",

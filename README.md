@@ -1,6 +1,6 @@
 # MohLeyla v6
 
-Multilingual language-learning app: **Modern Standard Arabic**, **Saudi Arabic**, **English** and **Indonesian** (30 lessons each) plus four **beta** paths, **Egyptian Arabic**, **French**, **Spanish** and **Chinese** (30 lessons each, see [docs/NEW_LANGUAGES.md](docs/NEW_LANGUAGES.md)), with the interface in **Arabic, English or Indonesian**.
+Multilingual language-learning app: **Modern Standard Arabic**, **Saudi Arabic**, **English** and **Indonesian** (30 lessons each) plus six **beta** paths, **Egyptian Arabic**, **French**, **Spanish**, **Chinese**, **German** and **Tagalog** (30 lessons each, see [docs/NEW_LANGUAGES.md](docs/NEW_LANGUAGES.md)), with the interface in **Arabic, English or Indonesian**.
 
 - Live site: https://mohleyla.pages.dev
 - Repository: https://github.com/moibel/MohLeyla
@@ -11,13 +11,18 @@ Multilingual language-learning app: **Modern Standard Arabic**, **Saudi Arabic**
 
 | Area | Status |
 | --- | --- |
-| Courses | **240 lessons** (30 per track, eight tracks), 1,669 vocabulary items, each lesson with objectives, intro, real-world context, grammar note, 6 words + examples, 2 cloze items and 1 conversation |
+| Courses | **300 lessons** (30 per track, ten tracks), 2,033 vocabulary items, each lesson with objectives, intro, real-world context, grammar note, 6 words + examples, 2 cloze items and 1 conversation |
 | Exercises | multiple choice, match, fill in the blank, arrange words, listening, translation, conversation completion, spaced-repetition vocabulary review |
 | Interface languages | Arabic (RTL), English, Indonesian – every string is translated; no fallback to another language |
 | Audio | 4,700 pre-generated mp3 clips (content-addressed, cached) + Web Speech API fallback with explicit voice selection |
 | Progress | XP, streak, daily goal, accuracy, words learned/mastered, achievements, Leitner spaced repetition, backup/restore |
 | Existing users | v1–v5 progress (`mohleyla-v1`) is migrated automatically, never deleted, and never re-awards XP |
 | PWA | manifest, icons, maskable icons, service worker, update prompt, install button |
+
+## Documentation
+- Rules and risk: [security](docs/SECURITY_RULES.md), [login](docs/LOGIN_RULES.md), [data](docs/DATA_RULES.md), [threat map](docs/THREAT_MAP.md)
+- Release: [launch checklist](docs/LAUNCH_CHECKLIST.md), [iOS and Android](docs/MOBILE_APP.md), [hosting](docs/HOSTING.md), [testing](docs/TESTING.md)
+- Sign-in needs an account (13+); first sign-in asks for languages, levels and a daily goal.
 
 ## Quick start
 

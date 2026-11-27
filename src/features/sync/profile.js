@@ -1,5 +1,7 @@
 // Display profile derived from the auth user. Google supplies full_name/name and avatar_url/picture; email sign-ins can
 // store a display_name in the account's user metadata (set from the app). Nothing here is read from the progress document.
+import { cleanPlan } from '../welcome/plan.js';
+
 export const MAX_NAME = 40;
 
 /** Strip control characters and angle brackets, collapse spaces, limit length. React escapes output anyway. */
@@ -13,6 +15,7 @@ export function profileFromUser(user) {
     email: (user && user.email) || '',
     avatarUrl: typeof avatar === 'string' && /^https:\/\//i.test(avatar) ? avatar : null, // never render non-https image URLs
     createdAt: (user && user.created_at) || null,
+    learning: cleanPlan(m.learning),
   };
 }
 

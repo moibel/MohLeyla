@@ -129,7 +129,7 @@ test.describe('chat attachments: voice notes and photos (mocked Supabase API; ru
     await sara.ctx.close();
   });
 
-  test('after 90 days an attachment shows as expired for both people and the admin clean-up deletes the file; the admin can also remove a file with its message', async ({ page, browser }) => {
+  test('after 90 days an attachment shows as expired; the admin can remove a message (files are deleted by the daily server clean-up)', async ({ page, browser }) => {
     const { backend, conv, boss, sara } = setup();
     const old = new Date(Date.now() - 100 * 864e5).toISOString();
     const oldPath = `${conv}/aaaaaaaa-aaaa-4aaa-8aaa-aaaaaaaaaaaa.webm`;
@@ -146,14 +146,13 @@ test.describe('chat attachments: voice notes and photos (mocked Supabase API; ru
 
     const admin = await newDevice(browser, backend, 'boss@example.com');
     await admin.page.goto('/admin?tab=chats');
-    await expect(admin.page.locator('[data-testid="chats-msg"]')).toContainText('Deleted 1 expired file');
-    expect(backend.files.has(oldPath)).toBe(false); // gone for good
-    expect(backend.files.has(newPath)).toBe(true);
     await admin.page.locator('[data-testid="admin-chat-read"]').click();
     await expect(admin.page.locator('[data-testid="admin-transcript"] [data-testid="photo-img"]')).toBeVisible();
     await admin.page.locator('[data-testid="admin-msg-row"]', { hasText: 'fresh photo' }).locator('[data-testid="admin-msg-remove"]').click();
     await admin.page.locator('[data-testid="chat-remove-yes"]').click();
-    await expect.poll(() => backend.files.has(newPath)).toBe(false); // removing the message deletes its file
+    await expect(admin.page.locator('[data-testid="chats-msg"]')).toBeVisible();
+    // the browser no longer deletes files: access is refused by the database and the purge-files function removes them
+    expect(backend.files.has(newPath)).toBe(true);
     await admin.ctx.close();
   });
 

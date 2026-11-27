@@ -45,6 +45,7 @@ test.describe('chat and notifications (mocked Supabase API; the real rules are i
     await signIn(page, 'boss@example.com');
     await adminWritesTo(page, backend, 'sara@example.com', 'Welcome to MohLeyla, Sara!');
     await expect(page.locator('[data-testid="chat-privacy"]')).toContainText('admins can also read');
+    await page.goto('/settings'); // leave the chat: while it is open, new replies are marked read at once
 
     const sara = await newDevice(browser, backend, 'sara@example.com');
     await expect(sara.page.locator('[data-testid="bell-count"]')).toHaveText('1');
@@ -162,6 +163,65 @@ test.describe('chat and notifications (mocked Supabase API; the real rules are i
       }
       await page.goto('/chat/conv-1');
       await expect(page.locator('[data-testid="chat-privacy"]')).not.toContainText('admins can also read');
+    });
+  }
+});
+
+test.describe('safety in chat: report, block and suspend (the real rules are in supabase/tests/security_hardening.test.sql)', () => {
+  test('a learner reports a message and blocks the sender; the admin sees the report, suspends and resolves it', async ({ page, browser }) => {
+    const backend = createMockBackend({ admins: ['boss@example.com'] });
+    backend.addUser('sara@example.com', { display_name: 'Sara' });
+    await backend.install(page);
+    await signIn(page, 'boss@example.com');
+    await adminWritesTo(page, backend, 'sara@example.com', 'a rude message');
+
+    const sara = await newDevice(browser, backend, 'sara@example.com');
+    await sara.page.goto('/chat');
+    await sara.page.locator('[data-testid="chat-row"]').click();
+    await sara.page.locator('[data-testid="msg-report"]').click();
+    await expect(sara.page.locator('[data-testid="report-dialog"]')).toContainText('a rude message');
+    await expect(sara.page.locator('[data-testid="report-dialog"] a[href="mailto:mohleyla.support@gmail.com"]')).toBeVisible();
+    await sara.page.waitForTimeout(500); // the window fades in; measure its final colours
+    await axeOk(sara.page);
+    await sara.page.locator('[data-testid="report-reason"]').selectOption('hate');
+    await sara.page.locator('[data-testid="report-details"]').fill('please look');
+    await sara.page.locator('[data-testid="report-send"]').click();
+    await expect(sara.page.locator('[data-testid="safety-note"]')).toContainText('review your report');
+    await sara.page.locator('[data-testid="chat-block"]').click();
+    await sara.page.locator('[data-testid="block-yes"]').click();
+    await expect(sara.page.locator('[data-testid="chat-blocked"]')).toContainText('You blocked this person');
+    await expect(sara.page.locator('[data-testid="chat-input"]')).toHaveCount(0);
+    await sara.page.locator('[data-testid="chat-unblock"]').click();
+    await expect(sara.page.locator('[data-testid="chat-input"]')).toBeVisible();
+
+    await page.goto('/admin?tab=reports');
+    const row = page.locator('[data-testid="report-row"]');
+    await expect(row).toContainText('Hate speech');
+    await expect(row).toContainText('a rude message');
+    await expect(row).toContainText('please look');
+    await axeOk(page);
+    await page.locator('[data-testid="report-resolve"]').click();
+    await expect(row).toContainText('Resolved');
+    await sara.ctx.close();
+  });
+
+  for (const lang of ['ar', 'id']) {
+    test(`${lang}: the report window is translated and accessible on a phone`, async ({ page, browser }) => {
+      const backend = createMockBackend({ admins: ['boss@example.com'] });
+      backend.addUser('sara@example.com', { display_name: 'Sara' });
+      await backend.install(page);
+      await signIn(page, 'boss@example.com');
+      await adminWritesTo(page, backend, 'sara@example.com', 'hi');
+      const sara = await newDevice(browser, backend, 'sara@example.com', lang);
+      await sara.page.setViewportSize({ width: 360, height: 740 });
+      await sara.page.goto('/chat');
+      await sara.page.locator('[data-testid="chat-row"]').click();
+      await sara.page.locator('[data-testid="chat-report"]').click();
+      await expect(sara.page.locator('[data-testid="report-dialog"]')).toBeVisible();
+      await sara.page.waitForTimeout(500); // the window fades in; measure its final colours
+      await axeOk(sara.page);
+      expect(await sara.page.evaluate(() => document.documentElement.scrollWidth <= window.innerWidth)).toBe(true);
+      await sara.ctx.close();
     });
   }
 });

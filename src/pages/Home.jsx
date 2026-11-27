@@ -10,6 +10,7 @@ import { useProgress } from '../app/ProgressContext.jsx';
 import { nextLessonOf, useDerived } from '../features/progress/selectors.js';
 import { useSync } from '../features/sync/useSync.js';
 import { displayName } from '../features/sync/profile.js';
+import { planOrder, startLessonFor } from '../features/welcome/plan.js';
 import AnnouncementCards from '../features/announcements/AnnouncementCards.jsx';
 
 export default function Home() {
@@ -23,8 +24,12 @@ export default function Home() {
   const Arrow = rtl ? ArrowLeft : ArrowRight;
   const goal = state.settings.goal;
   const hasStarted = state.xp > 0 || d.completedCount > 0;
-  const focusTrack = state.settings.lastTrack || defaultTrack(i18n.language);
-  const next = nextLessonOf(state, focusTrack) || orderedTracks(i18n.language).map((k) => nextLessonOf(state, k)).find(Boolean);
+  const plan = sy.profile?.learning || null;
+  const tracks = planOrder(orderedTracks(i18n.language), plan); // the languages chosen in the set-up come first
+  const mine = tracks.filter((k) => plan?.tracks.includes(k));
+  const suggest = (k) => (plan ? startLessonFor(state, k, plan.levels[k]) : nextLessonOf(state, k));
+  const focusTrack = state.settings.lastTrack || mine[0] || defaultTrack(i18n.language);
+  const next = (tracks.includes(focusTrack) && suggest(focusTrack)) || tracks.map(suggest).find(Boolean);
   const pct = Math.min(100, Math.round((d.todayXp / goal) * 100));
 
   return (
@@ -84,7 +89,7 @@ export default function Home() {
           <p className="muted">{t('home.chooseTrackSub')}</p>
         </div>
         <div className="track-grid">
-          {orderedTracks(i18n.language).map((k) => {
+          {tracks.map((k) => {
             const list = visibleLessonsOfTrack(k);
             const done = list.filter((l) => state.completed[l.id]).length;
             return (
@@ -109,7 +114,7 @@ export default function Home() {
           <Link className="link-strong" to="/learn">{t('common.seeAll')}</Link>
         </div>
         <div className="lesson-grid">
-          {orderedTracks(i18n.language).map((k) => nextLessonOf(state, k)).filter(Boolean).map((m) => (
+          {(mine.length ? mine : tracks).map(suggest).filter(Boolean).map((m) => (
             <LessonCard key={m.id} meta={m} completed={false} recommended={m.id === next?.id} />
           ))}
         </div>

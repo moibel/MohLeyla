@@ -1,0 +1,3 @@
+"NSMicrophoneUsageDescription" = "يستخدم MohLeyla الميكروفون للتدرّب على التحدث والرسائل الصوتية والمكالمات. تبقى تسجيلات التدريب على جهازك.";
+"NSCameraUsageDescription" = "يستخدم MohLeyla الكاميرا لمكالمات الفيديو وللصور التي تختار إرسالها في المحادثة.";
+"NSPhotoLibraryUsageDescription" = "يتيح لك MohLeyla اختيار صورة لإرسالها في المحادثة.";

@@ -22,6 +22,9 @@
 | `migrations/012_account_deletion.sql` | Helpers for deleting an account (service role only): list chat files, refuse the last admin, remove data stored by e-mail. Needs 002-011. Setup in `docs/ACCOUNT_DELETION.md`. |
 | `functions/delete-account/` | The Edge Function behind Settings -> Delete my account (also revokes the Apple token). |
 | `tests/account_deletion.test.sql` | 25 checks: only the service role can call the helpers, last-admin guard, the file list, and exactly what the cascade removes and keeps. |
+| `migrations/014_security_hardening.sql` | Security update: safe handling of user data, demoted teachers, confirmed email, class codes and bans, file rules and quotas, block, report, suspend, terms acceptance, expired-file list. Needs 001-013; safe to run again. |
+| `functions/purge-files/` | Daily clean-up of expired, removed and unused chat files. Needs 014 and the secret `PURGE_SECRET`; schedule at the end of 014. |
+| `tests/security_hardening.test.sql` | 129 checks for 014 (local only). |
 | `tests/roles_classes.test.sql` | 39 permission checks run as real database users (student, teacher, admin, signed-out). |
 | `tests/rewards.test.sql` | 29 permission checks for the rewards (who can grant / list / revoke, validation, matching by email, revoke). |
 | `tests/run-dry.sh [roles\|rewards\|announcements\|switch\|chat\|attachments\|calls\|push]` | Builds `migration + tests` into one script. |

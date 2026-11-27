@@ -5,7 +5,7 @@ import { sync } from '../sync/index.js';
 export class ClassError extends Error {
   constructor(code) { super(code); this.code = code; }
 }
-const CODES = { 42501: 'notAllowed', P0002: 'invalidCode', 22023: 'invalidInput', 55000: 'lastAdmin', 54000: 'slowDown' };
+const CODES = { 42501: 'notAllowed', P0002: 'invalidCode', 22023: 'invalidInput', 55000: 'lastAdmin', 54000: 'slowDown', ML001: 'termsRequired', ML002: 'blocked', ML003: 'suspended' };
 function fail(error) {
   const offline = typeof navigator !== 'undefined' && navigator.onLine === false;
   throw new ClassError(CODES[error && error.code] || (offline ? 'network' : 'failed'));
@@ -21,7 +21,9 @@ async function rpc(name, args) {
 export const createClass = (name) => rpc('create_class', { p_name: name });
 export async function joinClass(code) {
   const rows = await rpc('join_class', { p_code: code });
-  return Array.isArray(rows) ? rows[0] : rows;
+  const row = Array.isArray(rows) ? rows[0] : rows;
+  if (!row) throw new ClassError('invalidCode'); // a wrong or banned code returns nothing (so the attempt is counted)
+  return row;
 }
 export const myMemberships = () => rpc('my_memberships');
 export const teacherClasses = () => rpc('teacher_classes');
@@ -63,7 +65,16 @@ export const chatMessages = (conv) => rpc('chat_messages_of', { p_conv: conv });
 export const markChatRead = (conv) => rpc('mark_chat_read', { p_conv: conv });
 export const chatUnreadTotal = () => rpc('chat_unread_total');
 export const sendAttachment = ({ conv, kind, path, mime, size, durationMs, caption }) => rpc('send_attachment', { p_conv: conv, p_kind: kind, p_path: path, p_mime: mime, p_size: size, p_duration_ms: durationMs ?? null, p_caption: caption || null });
-export const adminExpiredFiles = () => rpc('admin_expired_files');
+// Safety (supabase/migrations/014_security_hardening.sql): report and block, the admins' report queue, suspension, class codes.
+export const reportChat = ({ conv, message, reason, details }) => rpc('report_chat', { p_conversation: conv, p_message: message || null, p_reason: reason, p_details: details || '' });
+export const blockChat = (conv) => rpc('block_chat', { p_conversation: conv });
+export const unblockChat = (conv) => rpc('unblock_chat', { p_conversation: conv });
+export const adminListReports = () => rpc('admin_list_reports');
+export const adminResolveReport = (id, status) => rpc('admin_resolve_report', { p_id: id, p_status: status });
+export const adminSetSuspended = (userId, suspended, reason) => rpc('admin_set_suspended', { p_user: userId, p_suspended: suspended, p_reason: reason || '' });
+export const rotateClassCode = (classId) => rpc('rotate_class_code', { p_class: classId });
+export const classBans = (classId) => rpc('teacher_class_bans', { p_class: classId });
+export const unbanStudent = (classId, studentId) => rpc('teacher_unban', { p_class: classId, p_student: studentId });
 // Calls (supabase/migrations/010_calls.sql): the media goes directly between the two browsers; the database only keeps the call state
 // and passes the small connection messages. Admins and teachers (for their own students) can start calls; everyone in the chat can answer.
 export const startCall = (conv, media) => rpc('start_call', { p_conv: conv, p_media: media });

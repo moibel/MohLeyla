@@ -1,0 +1,3 @@
+"NSMicrophoneUsageDescription" = "MohLeyla uses the microphone for speaking practice, voice notes and calls. Recordings of practice stay on your device.";
+"NSCameraUsageDescription" = "MohLeyla uses the camera for video calls and for photos you choose to send in a chat.";
+"NSPhotoLibraryUsageDescription" = "MohLeyla lets you pick a photo to send in a chat.";

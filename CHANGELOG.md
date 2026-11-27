@@ -1,5 +1,13 @@
 # Changelog
 
+## Unreleased (security, login, data rules and store preparation)
+- Fixed: offline sign-out left the session on the device; another account could inherit local progress; a sync in flight could restore data after sign-out; sign-in links could carry someone else's tokens (now PKCE); notifications could continue after sign-out; "reset progress" reported success when the cloud copy survived.
+- Added: first sign-in set-up (13+, terms, languages, levels, daily goal) with level-based lesson suggestions; report, block, admin report queue and suspension; new class code and removed-students list.
+- Database migration `014_security_hardening.sql` and the `purge-files` function (**must be applied and deployed**, see `docs/LAUNCH_CHECKLIST.md`).
+- iOS and Android: MohLeyla icons and splash, signing-key ignore rules, iOS privacy manifest and ar/id permission texts, Android release signing config, safe push without Firebase.
+- Privacy policy, terms and delete-account page rewritten to match the code (ages 13+). New documents: security, login and data rules, threat map, launch checklist.
+- Texts of the speaking, About and Teaching screens load with those screens (first screen 155.7 of 160 kB).
+
 ## Unreleased (native review sheets for German and Tagalog)
 - Review sheets for German and Tagalog (`docs/native-review/de.md`, `tl.md`), each starting with a "check these first" list of what the earlier reviewers were least sure of (stress marks, natural phrasing, spelling decisions). `export-review-sheet.mjs` now includes `docs/native-review/priorities/<track>.md` at the top of a sheet, and the Egyptian sheet was regenerated with its vowel marks.
 

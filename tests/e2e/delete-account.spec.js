@@ -1,6 +1,6 @@
 import { test, expect } from '@playwright/test';
 import AxeBuilder from '@axe-core/playwright';
-import { seed, dismissNamePrompt } from './helpers.js';
+import { seed, dismissNamePrompt, completeSetup } from './helpers.js';
 import { createMockBackend } from './mockSupabase.js';
 
 // Account deletion from Settings (mocked Supabase API; the deletion rules are tested in supabase/tests/account_deletion.test.sql).

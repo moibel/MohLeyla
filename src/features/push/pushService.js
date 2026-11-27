@@ -4,6 +4,7 @@
 import { isNativeApp, nativePlatform } from '../../utils/platform.js';
 
 export const PUSH_PREF_KEY = 'mohleyla-push'; // 'on' when this device should receive notifications
+export const PUSH_TOKEN_KEY = 'mohleyla-push-token'; // remembered so sign-out can unregister even after a restart
 
 /** Only these in-app paths may be opened from a notification (a tap can never navigate anywhere else). */
 export function safeAppPath(url) {
@@ -18,6 +19,11 @@ export class PushService {
     this.loadPlugin = env.loadPlugin ?? (async () => (await import('@capacitor/push-notifications')).PushNotifications);
     this.storage = env.storage ?? (typeof localStorage !== 'undefined' ? localStorage : { getItem: () => null, setItem() {}, removeItem() {} });
     this.rpc = env.rpc; // async (name, args) => { error? }
+    // Android needs a Firebase file at build time; without it the phone cannot do notifications at all.
+    this.checkConfigured = env.checkConfigured ?? (async () => {
+      const { registerPlugin } = await import('@capacitor/core');
+      return !!(await registerPlugin('PushConfig').isAvailable())?.available;
+    });
     this.getLang = env.getLang ?? (() => 'en');
     this.token = null;
     this.listenersReady = false;
@@ -26,6 +32,12 @@ export class PushService {
   }
 
   supported() { return !!this.isNative(); }
+  /** Can this build receive notifications? (Always on iPhone; on Android only when the app was built with Firebase.) */
+  async available() {
+    if (!this.supported()) return false;
+    if (this.platform() !== 'android') return true;
+    try { return await this.checkConfigured(); } catch { return false; }
+  }
   isOn() { try { return this.storage.getItem(PUSH_PREF_KEY) === 'on'; } catch { return false; } }
   setPref(on) { try { on ? this.storage.setItem(PUSH_PREF_KEY, 'on') : this.storage.removeItem(PUSH_PREF_KEY); } catch { /* storage blocked */ } }
   /** Called with an in-app path when the person taps a notification. Returns an unsubscribe function. */
@@ -59,7 +71,7 @@ export class PushService {
 
   /** Ask permission (first time), get the token, store it. Returns 'enabled' | 'denied' | 'unsupported' | 'error'. */
   async enable() {
-    if (!this.supported()) return 'unsupported';
+    if (!(await this.available())) return 'unsupported';
     try {
       const plugin = await this.loadPlugin();
       await this.setupListeners(plugin);
@@ -83,6 +95,7 @@ export class PushService {
       const res = await this.rpc('register_push_token', { p_token: token, p_platform: this.platform() === 'ios' ? 'ios' : 'android', p_lang: this.getLang() });
       if (res?.error) return false;
       this.token = token;
+      try { this.storage.setItem(PUSH_TOKEN_KEY, token); } catch { /* storage blocked */ }
       return true;
     })().finally(() => { this.registering = null; });
     return this.registering;
@@ -90,7 +103,7 @@ export class PushService {
 
   /** On every start / sign-in / language change: if notifications are on, quietly refresh the token (phones change them now and then). */
   async refresh() {
-    if (!this.supported() || !this.isOn()) return 'off';
+    if (!this.isOn() || !(await this.available())) return 'off';
     try {
       const plugin = await this.loadPlugin();
       await this.setupListeners(plugin);
@@ -110,10 +123,15 @@ export class PushService {
 
   /** Sign-out: this phone must stop receiving the signed-out person's notifications (the preference stays for the next sign-in). */
   async forgetToken() {
-    const token = this.token;
+    let token = this.token;
+    try { token = token || this.storage.getItem(PUSH_TOKEN_KEY); } catch { /* storage blocked */ }
     this.token = null;
     if (!token || !this.rpc) return;
-    try { await this.rpc('unregister_push_token', { p_token: token }); } catch { /* offline: the server also drops tokens the phone rejects */ }
+    let ok = false;
+    try { ok = !(await this.rpc('unregister_push_token', { p_token: token }))?.error; } catch { /* offline */ }
+    // the server could not be told: switch the phone's own registration off, so the old token stops receiving anything
+    if (!ok && this.supported()) { try { await (await this.loadPlugin()).unregister?.(); } catch { /* ignore */ } }
+    try { this.storage.removeItem(PUSH_TOKEN_KEY); } catch { /* storage blocked */ }
   }
 }
 

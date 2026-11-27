@@ -2,10 +2,9 @@ import { useCallback, useEffect, useRef, useState } from 'react';
 import { useTranslation } from 'react-i18next';
 import { Eye, Trash2 } from 'lucide-react';
 import { Button, Chip } from '../../components/ui.jsx';
-import { adminListChats, adminChatMessages, adminRemoveMessage, adminExpiredFiles } from '../classes/api.js';
+import { adminListChats, adminChatMessages, adminRemoveMessage } from '../classes/api.js';
 import ChatFile from './ChatFile.jsx';
 import { callText } from '../calls/format.js';
-import { removeFiles } from './files.js';
 import { LANG_META } from '../../i18n/index.js';
 
 /** Admin: read every conversation (read-only) and remove a message. Admins cannot write inside other people's chats. */
@@ -23,8 +22,6 @@ export default function AdminChats() {
     try { setChats(await adminListChats()); } catch (e) { setChats([]); setMsg({ ok: false, text: t(`classes.errors.${e.code}`) }); }
   }, [t]);
   useEffect(() => { loadList(); }, [loadList]);
-  // Files older than 90 days can no longer be read; delete them for good whenever an admin opens this tab.
-  useEffect(() => { adminExpiredFiles().then((rows) => (rows.length ? removeFiles(rows.map((r) => r.name)).then(() => setMsg({ ok: true, text: t('chat.admin.cleaned', { count: rows.length }) })) : null)).catch(() => {}); }, [t]);
   const loadMsgs = useCallback(async (c) => {
     try { setMsgs(await adminChatMessages(c.conversation_id)); } catch (e) { setMsgs([]); setMsg({ ok: false, text: t(`classes.errors.${e.code}`) }); }
   }, [t]);
@@ -34,7 +31,7 @@ export default function AdminChats() {
     dlg.current?.close();
     try {
       await adminRemoveMessage(p.id);
-      if (p.file_path) await removeFiles([p.file_path]).catch(() => {}); // the file goes too
+      // people can no longer open its file; the daily server clean-up (purge-files) deletes it
       setMsg({ ok: true, text: t('chat.admin.removedMsg') }); } catch (e) { setMsg({ ok: false, text: t(`classes.errors.${e.code}`) }); }
     await loadMsgs(open); await loadList();
   };

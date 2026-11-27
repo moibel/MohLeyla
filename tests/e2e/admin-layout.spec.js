@@ -64,6 +64,8 @@ test.describe('admin page layout (it must not jump, overflow sideways, or show b
     await expect(page.locator('[data-testid="admin-panel-chats"]')).toBeVisible();
     await expect(page).toHaveURL(/tab=chats/);
     await page.keyboard.press('ArrowRight');
+    await expect(page.locator('[data-testid="admin-panel-reports"]')).toBeVisible();
+    await page.keyboard.press('ArrowRight');
     await expect(page.locator('[data-testid="admin-panel-content"]')).toBeVisible();
     await page.keyboard.press('ArrowRight');
     await page.keyboard.press('ArrowRight');

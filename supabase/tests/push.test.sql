@@ -28,6 +28,10 @@ insert into auth.users (id, aud, role, email, raw_user_meta_data) values
   ('00000000-0000-0000-0000-0000000000c2', 'authenticated', 'authenticated', 'student2@test.local','{"display_name":"Sami Student"}'),
   ('00000000-0000-0000-0000-0000000000c3', 'authenticated', 'authenticated', 'student3@test.local','{"display_name":"Omar Outsider"}');
 
+-- 014: e-mail keyed features need a confirmed address, and writing in chat needs accepted terms
+update auth.users set email_confirmed_at = now() where email ilike '%@test.local';
+insert into public.terms_acceptances (user_id, version) select id, 'test' from auth.users where email ilike '%@test.local';
+
 do $t$
 declare
   a  constant uuid := '00000000-0000-0000-0000-0000000000a1';

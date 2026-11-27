@@ -1,5 +1,5 @@
 import { describe, it, expect, vi } from 'vitest';
-import { SyncManager, LINK_KEY } from '../features/sync/syncManager.js';
+import { SyncManager, LINK_KEY, OWNER_KEY, ASIDE_PREFIX, AUTH_KEYS } from '../features/sync/syncManager.js';
 import { emptyState, applyLessonResult, toggleSaved, migrate } from '../features/progress/engine.js';
 import { mergeStates } from '../features/progress/merge.js';
 
@@ -386,5 +386,76 @@ describe('automatic retry after a failed sync', () => {
       await vi.advanceTimersByTimeAsync(600000);
       expect(server.calls.select).toBe(after); // sign-out cancelled the pending retry
     } finally { vi.useRealTimers(); }
+  });
+});
+
+describe('shared devices and sign-out safety', () => {
+  const full = (server, opts, state, storage) => {
+    let s = state;
+    const mgr = new SyncManager({ createClient: async () => fakeClient(server, opts), configured: true, storage });
+    mgr.attach({ getState: () => s, apply: (n) => { s = n; }, clearLocal: () => { s = emptyState('fresh'); } });
+    return { mgr, get state() { return s; } };
+  };
+
+  it('sign-out removes the stored session even when the server cannot be reached', async () => {
+    const server = makeServer();
+    const storage = memStorage();
+    const d = full(server, {}, emptyState('a'), storage);
+    await signIn(d);
+    for (const k of AUTH_KEYS) storage.setItem(k, 'secret');
+    let scope;
+    d.mgr.client.auth.signOut = async (o) => { scope = o?.scope; return { error: { message: 'Failed to fetch' } }; };
+    const old = d.mgr.client;
+    await d.mgr.signOut();
+    expect(scope).toBe('local');
+    for (const k of AUTH_KEYS) expect(storage.getItem(k), k).toBeNull();
+    expect(d.mgr.client).not.toBe(old); // the client that still holds the session is thrown away
+    expect(d.mgr.getSnapshot().userId).toBeNull();
+  });
+
+  it('a new account never receives the previous person\'s progress, and the owner gets it back', async () => {
+    const server = makeServer();
+    const storage = memStorage();
+    const d = full(server, { user: 'alice', email: 'alice@b.co' }, emptyState('a'), storage);
+    await signIn(d, 'alice@b.co');
+    d.mgr.attach({ getState: () => d.state, apply: () => {}, clearLocal: () => {} });
+    // Alice made progress on this device that is not in the cloud yet, then her session simply ended
+    let local = win('a', 'ar-01');
+    const api = { getState: () => local, apply: (n) => { local = n; }, clearLocal: () => { local = emptyState('fresh'); } };
+    d.mgr.attach(api);
+    d.mgr.clearUser();
+    // Bob (no cloud row yet) signs in on the same device
+    const bob = new SyncManager({ createClient: async () => fakeClient(server, { user: 'bob', email: 'bob@b.co' }), configured: true, storage });
+    bob.attach(api);
+    await signIn({ mgr: bob }, 'bob@b.co');
+    expect(local.completed['ar-01']).toBeUndefined();
+    expect(server.rows.get('bob')?.completed?.['ar-01']).toBeUndefined();
+    expect(storage.getItem(ASIDE_PREFIX + 'alice')).toContain('ar-01');
+    expect(storage.getItem(OWNER_KEY)).toBe('bob');
+    await bob.signOut();
+    const again = new SyncManager({ createClient: async () => fakeClient(server, { user: 'alice', email: 'alice@b.co' }), configured: true, storage });
+    again.attach(api);
+    await signIn({ mgr: again }, 'alice@b.co');
+    expect(local.completed['ar-01']).toBeDefined();
+    expect(server.rows.get('alice').completed['ar-01']).toBeDefined();
+    expect(storage.getItem(ASIDE_PREFIX + 'alice')).toBeNull();
+  });
+
+  it('a sync that is still running when the person signs out writes nothing back', async () => {
+    const server = makeServer();
+    server.rows.set('u1', win('b', 'ar-02'));
+    const storage = memStorage();
+    const d = full(server, {}, emptyState('a'), storage);
+    await signIn(d);
+    let release;
+    d.mgr.client.from = () => ({ select: () => ({ eq: () => ({ maybeSingle: () => new Promise((r) => { release = () => r({ data: { state: win('b', 'ar-03') }, error: null }); }) }) }) });
+    const running = d.mgr.syncNow();
+    await new Promise((r) => setTimeout(r, 0));
+    await d.mgr.signOutAndClear({ force: true });
+    release();
+    await running;
+    expect(d.state.completed).toEqual({});
+    expect(d.mgr.getSnapshot().status).toBe('signedOut');
+    expect(storage.getItem(LINK_KEY)).toBeNull();
   });
 });

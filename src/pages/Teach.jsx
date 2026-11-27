@@ -1,10 +1,11 @@
+import '../i18n/pages.js';
 import { useCallback, useEffect, useRef, useState } from 'react';
 import { useTranslation } from 'react-i18next';
 import { Plus, Copy, Trash2, ChevronDown, ChevronUp, UserMinus } from 'lucide-react';
 import { PageHeading, Button, EmptyState } from '../components/ui.jsx';
 import RequireAccount from '../features/classes/RequireAccount.jsx';
 import MessageButton from '../features/chat/MessageButton.jsx';
-import { createClass, teacherClasses, classRoster, deleteClass, removeMember, liveStreak } from '../features/classes/api.js';
+import { createClass, teacherClasses, classRoster, deleteClass, removeMember, liveStreak, rotateClassCode, classBans, unbanStudent } from '../features/classes/api.js';
 import { localDay } from '../utils/dates.js';
 import { LANG_META } from '../i18n/index.js';
 
@@ -15,6 +16,7 @@ function TeachInner() {
   const [name, setName] = useState('');
   const [open, setOpen] = useState(null);
   const [roster, setRoster] = useState(null);
+  const [bans, setBans] = useState([]);
   const [msg, setMsg] = useState(null);
   const [busy, setBusy] = useState(false);
   const [target, setTarget] = useState(null); // { kind: 'remove' | 'delete', ... }
@@ -29,7 +31,8 @@ function TeachInner() {
   useEffect(() => { load(); }, [load]);
 
   const loadRoster = async (id) => {
-    setOpen(id); setRoster(null);
+    setOpen(id); setRoster(null); setBans([]);
+    classBans(id).then((r) => setBans(r || [])).catch(() => {}); // needs the latest database update
     try { setRoster(await classRoster(id)); } catch (e) { setRoster([]); err(e); }
   };
   const create = async (e) => {
@@ -38,6 +41,13 @@ function TeachInner() {
     try { const c = await createClass(name); setName(''); await load(); setMsg({ ok: true, text: t('teach.created', { name: c.name, code: c.code }) }); }
     catch (e2) { err(e2); }
     setBusy(false);
+  };
+  const newCode = async (classId) => {
+    setMsg(null);
+    try { const code = await rotateClassCode(classId); await load(); setMsg({ ok: true, text: t('safety.teacher.newCodeDone', { code }) }); } catch (e) { err(e); }
+  };
+  const allowBack = async (classId, studentId) => {
+    try { await unbanStudent(classId, studentId); setBans((b) => b.filter((x) => x.student_id !== studentId)); } catch (e) { err(e); }
   };
   const copy = async (code) => {
     try { await navigator.clipboard.writeText(code); setMsg({ ok: true, text: t('teach.copied', { code }) }); } catch { setMsg({ ok: false, text: t('teach.copyFailed') }); }
@@ -80,6 +90,7 @@ function TeachInner() {
           <div className="btn-row">
             <Button variant="secondary" size="sm" icon={open === c.class_id ? <ChevronUp size={16} aria-hidden="true" /> : <ChevronDown size={16} aria-hidden="true" />}
               onClick={() => (open === c.class_id ? (setOpen(null), setRoster(null)) : loadRoster(c.class_id))} data-testid="view-students">{open === c.class_id ? t('teach.hide') : t('teach.view')}</Button>
+            <Button variant="ghost" size="sm" onClick={() => newCode(c.class_id)} data-testid="new-code">{t('safety.teacher.newCode')}</Button>
             <Button variant="ghost" size="sm" icon={<Trash2 size={16} aria-hidden="true" />} onClick={() => { setTarget({ kind: 'delete', classId: c.class_id, name: c.class_name }); dlg.current?.showModal(); }} data-testid="delete-class">{t('teach.deleteClass')}</Button>
           </div>
           {open === c.class_id && (
@@ -112,6 +123,11 @@ function TeachInner() {
                     ))}
                   </tbody>
                 </table>
+              )}
+              {bans.length > 0 && (
+                <div data-testid="class-bans"><h3 className="h-xs">{t('safety.teacher.removed')}</h3>
+                  <ul className="transcript">{bans.map((b) => <li key={b.student_id}><bdi>{b.display_name || b.email}</bdi> <Button variant="ghost" size="sm" onClick={() => allowBack(c.class_id, b.student_id)}>{t('safety.teacher.allow')}</Button></li>)}</ul>
+                </div>
               )}
               <p className="note-small">{t('teach.privacy')}</p>
             </div>

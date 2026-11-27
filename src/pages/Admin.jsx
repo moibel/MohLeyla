@@ -1,3 +1,4 @@
+import '../i18n/pages.js';
 import { useCallback, useEffect, useMemo, useRef, useState } from 'react';
 import { useTranslation } from 'react-i18next';
 import { useSearchParams } from 'react-router-dom';
@@ -5,16 +6,17 @@ import { Search, Gift } from 'lucide-react';
 import AdminContent from '../features/availability/AdminContent.jsx';
 import AdminRewards from '../features/rewards/AdminRewards.jsx';
 import AdminChats from '../features/chat/AdminChats.jsx';
+import AdminReports from '../features/chat/AdminReports.jsx';
 import MessageButton from '../features/chat/MessageButton.jsx';
 import AdminAnnouncements from '../features/announcements/AdminAnnouncements.jsx';
 import { PageHeading, Button, Chip } from '../components/ui.jsx';
 import RequireAccount from '../features/classes/RequireAccount.jsx';
-import { adminListUsers, adminSetRole } from '../features/classes/api.js';
+import { adminListUsers, adminSetRole, adminSetSuspended } from '../features/classes/api.js';
 import { useSync } from '../features/sync/useSync.js';
 import { LANG_META } from '../i18n/index.js';
 
 const ROLES = ['student', 'teacher', 'admin'];
-const TABS = ['users', 'chats', 'content', 'news', 'rewards'];
+const TABS = ['users', 'chats', 'reports', 'content', 'news', 'rewards'];
 
 /** Admin view: every user, their sign-in method, activity summary and role. Role changes are checked by the database. */
 function AdminInner() {
@@ -104,7 +106,8 @@ function AdminInner() {
                     <tbody>
                       {shown.map((u) => (
                         <tr key={u.user_id} data-testid="user-row">
-                          <th scope="row"><bdi>{u.display_name || u.email}</bdi>{u.display_name && <small className="muted" dir="ltr"><br />{u.email}</small>}{u.user_id === me.userId && <Chip tone="brand">{t('admin.you')}</Chip>}</th>
+                          <th scope="row"><bdi>{u.display_name || u.email}</bdi>{u.display_name && <small className="muted" dir="ltr"><br />{u.email}</small>}{u.user_id === me.userId && <Chip tone="brand">{t('admin.you')}</Chip>}
+                            {u.suspended && <><Chip>{t('safety.admin.suspended')}</Chip> <Button variant="ghost" size="sm" onClick={async () => { try { await adminSetSuspended(u.user_id, false); await load(); } catch { setMsg({ ok: false, text: t('safety.admin.failed') }); } }} data-testid="unsuspend">{t('safety.admin.unsuspend')}</Button></>}</th>
                           <td>
                             <label><span className="sr-only">{t('admin.colRole')}: {u.display_name || u.email}</span>
                               <select value={u.role} onChange={(e) => { setPending({ user: u, role: e.target.value }); dlg.current?.showModal(); }} data-testid="role-select" className="role-select">
@@ -125,6 +128,7 @@ function AdminInner() {
           </>
         )}
         {tab === 'chats' && <AdminChats />}
+        {tab === 'reports' && <AdminReports />}
         {tab === 'content' && <AdminContent />}
         {tab === 'news' && <AdminAnnouncements />}
         {tab === 'rewards' && <AdminRewards email={giveTo} />}

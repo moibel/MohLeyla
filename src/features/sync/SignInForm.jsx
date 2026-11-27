@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 import { useTranslation } from 'react-i18next';
 import { Mail, KeyRound } from 'lucide-react';
 import { Button } from '../../components/ui.jsx';
@@ -29,6 +29,13 @@ export default function SignInForm() {
   const [email, setEmail] = useState('');
   const [code, setCode] = useState('');
   const [busy, setBusy] = useState(false);
+  const [wait, setWait] = useState(0); // seconds before "send again": stops repeated taps from sending many emails
+  useEffect(() => {
+    if (!wait) return undefined;
+    const id = setTimeout(() => setWait(wait - 1), 1000);
+    return () => clearTimeout(id);
+  }, [wait]);
+  const send = async (address) => { if (await run(() => sync.sendCode(address))) setWait(60); };
   const run = async (fn) => { setBusy(true); try { return await fn(); } finally { setBusy(false); } };
 
   const showApple = !s.codeSentTo && isSyncConfigured() && (nativePlatform() === 'ios' || APPLE_SIGN_IN_WEB);
@@ -44,7 +51,7 @@ export default function SignInForm() {
         </>
       )}
       {!s.codeSentTo ? (
-        <form className="stack-sm" onSubmit={(e) => { e.preventDefault(); run(() => sync.sendCode(email)); }}>
+        <form className="stack-sm" onSubmit={(e) => { e.preventDefault(); send(email); }}>
           <label className="field">
             <span>{t('account.email')}</span>
             <input type="email" inputMode="email" autoComplete="email" required value={email} onChange={(e) => setEmail(e.target.value)} dir="ltr" data-testid="acc-email" />
@@ -63,7 +70,7 @@ export default function SignInForm() {
             <Button type="submit" icon={<KeyRound size={18} aria-hidden="true" />} disabled={busy || code.replace(/\s/g, '').length < 6} data-testid="acc-verify">{t('account.verify')}</Button>
           </form>
           <div className="btn-row">
-            <Button variant="secondary" icon={<Mail size={18} aria-hidden="true" />} disabled={busy} onClick={() => run(() => sync.sendCode(s.codeSentTo))} data-testid="acc-resend">{t('account.resend')}</Button>
+            <Button variant="secondary" icon={<Mail size={18} aria-hidden="true" />} disabled={busy || wait > 0} onClick={() => send(s.codeSentTo)} data-testid="acc-resend">{wait > 0 ? `${t('account.resend')} (${wait})` : t('account.resend')}</Button>
             <Button variant="ghost" onClick={() => { sync.set({ codeSentTo: null, error: null }); setCode(''); }}>{t('account.changeEmail')}</Button>
           </div>
         </div>

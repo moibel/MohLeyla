@@ -39,6 +39,8 @@ export function createMockBackend(opts = {}) {
     known.set(id, u);
     return u;
   }
+  const blocks = []; // { conv, by } (mirrors 014_security_hardening.sql)
+  const reports = [];
   const stats = { upserts: 0, selects: 0, deletes: 0, otps: 0 };
   const state = { rateLimit: false, failSelect: false, failNameUpdate: false };
   const cors = { 'access-control-allow-origin': '*', 'access-control-allow-headers': '*', 'access-control-allow-methods': '*', 'access-control-expose-headers': '*' };
@@ -75,14 +77,18 @@ export function createMockBackend(opts = {}) {
       return json(200, makeSession(claims.email, claims.sub, { ...(isGoogle ? googleMeta : {}), ...(profiles[claims.email] || {}) }).user);
     }
     if (url.pathname === '/auth/v1/authorize') {
-      // Google OAuth: Supabase would send the user to Google, then back to redirect_to with a session in the URL hash.
+      // Google OAuth (PKCE): Supabase would send the user to Google, then back to redirect_to with a one-time code.
       stats.oauth = (stats.oauth || 0) + 1;
       const redirect = url.searchParams.get('redirect_to') || '/';
       const email = googleEmail;
       know(email, 'google');
-      const s = makeSession(email, users[email] || 'user-google', { ...googleMeta, ...(profiles[email] || {}) });
-      const hash = `access_token=${s.access_token}&refresh_token=${s.refresh_token}&expires_in=3600&expires_at=${s.expires_at}&token_type=bearer&provider_token=google-token`;
-      return route.fulfill({ status: 302, headers: { ...cors, location: `${redirect}#${hash}` }, body: '' });
+      stats.challenge = url.searchParams.get('code_challenge') || null;
+      return route.fulfill({ status: 302, headers: { ...cors, location: `${redirect}${redirect.includes('?') ? '&' : '?'}code=mock-oauth-code` }, body: '' });
+    }
+    if (url.pathname === '/auth/v1/token' && url.searchParams.get('grant_type') === 'pkce') {
+      const body = JSON.parse(req.postData() || '{}');
+      if (body.auth_code !== 'mock-oauth-code' || !body.code_verifier) return json(400, { message: 'invalid flow state' });
+      return json(200, makeSession(googleEmail, users[googleEmail] || 'user-google', { ...googleMeta, ...(profiles[googleEmail] || {}) }));
     }
     if (url.pathname === '/functions/v1/delete-account') {
       if (req.method() !== 'POST') return route.fulfill({ status: 204, headers: cors });
@@ -197,7 +203,7 @@ export function createMockBackend(opts = {}) {
       }
       if (fn === 'admin_list_users') {
         if (me.role !== 'admin') return deny();
-        return json(200, [...known.values()].map((u) => ({ user_id: u.id, email: u.email, display_name: nameOf(u) || (profiles[u.email]?.display_name || ''), role: u.role, providers: [...u.providers].sort().join(','), created_at: '2026-11-01T10:00:00Z', last_sign_in_at: '2026-11-21T09:00:00Z', xp: u.summary?.xp ?? 0, lessons_done: u.summary?.lessons_done ?? 0, last_active: u.summary?.last_active ?? null })));
+        return json(200, [...known.values()].map((u) => ({ user_id: u.id, email: u.email, display_name: nameOf(u) || (profiles[u.email]?.display_name || ''), role: u.role, suspended: !!u.suspended, providers: [...u.providers].sort().join(','), created_at: '2026-11-01T10:00:00Z', last_sign_in_at: '2026-11-21T09:00:00Z', xp: u.summary?.xp ?? 0, lessons_done: u.summary?.lessons_done ?? 0, last_active: u.summary?.last_active ?? null })));
       }
       if (fn === 'admin_set_role') {
         if (me.role !== 'admin') return deny();
@@ -243,9 +249,40 @@ export function createMockBackend(opts = {}) {
         if (!c) { c = { id: 'conv-' + (conversations.length + 1), a: me.id, b: other, last_at: tick() }; conversations.push(c); }
         return json(200, c.id);
       }
+      if (fn === 'accept_terms') return json(200, null);
+      if (fn === 'block_chat' || fn === 'unblock_chat') {
+        const c = conversations.find((x) => x.id === args.p_conversation);
+        if (!memberOf(c)) return deny();
+        const i = blocks.findIndex((b) => b.conv === c.id && b.by === me.id);
+        if (fn === 'block_chat' && i < 0) blocks.push({ conv: c.id, by: me.id });
+        if (fn === 'unblock_chat' && i >= 0) blocks.splice(i, 1);
+        return json(200, null);
+      }
+      if (fn === 'report_chat') {
+        const c = conversations.find((x) => x.id === args.p_conversation);
+        if (!memberOf(c)) return deny();
+        const other = c.a === me.id ? c.b : c.a;
+        const msg = chatMsgs.find((x) => x.id === args.p_message);
+        const r = { id: 'report-' + (reports.length + 1), created_at: new Date().toISOString(), reporter_name: nameFor(me.id), reporter_email: me.email, reported_id: other, reported_name: nameFor(other), reported_email: known.get(other)?.email, conversation_id: c.id, message_id: msg?.id || null, message_body: msg?.body || null, reason: args.p_reason, details: args.p_details, status: 'open' };
+        reports.push(r);
+        return json(200, r.id);
+      }
+      if (fn === 'admin_list_reports') return me.role === 'admin' ? json(200, reports) : deny();
+      if (fn === 'admin_resolve_report') {
+        if (me.role !== 'admin') return deny();
+        reports.find((r) => r.id === args.p_id).status = args.p_status;
+        return json(200, null);
+      }
+      if (fn === 'admin_set_suspended') {
+        if (me.role !== 'admin') return deny();
+        known.get(args.p_user).suspended = !!args.p_suspended;
+        return json(200, null);
+      }
       if (fn === 'send_message') {
         const c = conversations.find((x) => x.id === args.p_conv);
         if (!memberOf(c)) return deny();
+        if (me.suspended) return json(400, { code: 'ML003', message: 'suspended' });
+        if (blocks.some((b) => b.conv === c.id)) return json(400, { code: 'ML002', message: 'blocked' });
         const body = String(args.p_body || '').trim();
         if (!body || body.length > 1000) return json(400, { code: '22023', message: 'bad body' });
         if (chatMsgs.filter((m) => m.sender === me.id && Date.now() - new Date(m.created_at).getTime() < 60000).length >= 20) return json(400, { code: '54000', message: 'slow down' });
@@ -257,7 +294,7 @@ export function createMockBackend(opts = {}) {
       const unreadOf = (c) => chatMsgs.filter((m) => m.conv === c.id && m.sender !== me.id && !m.removed_at && m.created_at > (chatReads.get(`${c.id}:${me.id}`) || '')).length;
       if (fn === 'my_chats') {
         return json(200, myConvs().map((c) => { const oid = c.a === me.id ? c.b : c.a; const last = [...chatMsgs].reverse().find((m) => m.conv === c.id);
-          return { conversation_id: c.id, other_id: oid, other_name: nameFor(oid), other_role: known.get(oid)?.role || 'student', last_body: last ? (last.removed_at ? '' : last.body.slice(0, 120)) : null, last_kind: last && !last.removed_at ? last.kind || 'text' : 'text', last_at: c.last_at, last_is_mine: !!last && last.sender === me.id, unread: unreadOf(c) }; }));
+          return { conversation_id: c.id, blocked_by_me: blocks.some((b) => b.conv === c.id && b.by === me.id), blocked: blocks.some((b) => b.conv === c.id), other_id: oid, other_name: nameFor(oid), other_role: known.get(oid)?.role || 'student', last_body: last ? (last.removed_at ? '' : last.body.slice(0, 120)) : null, last_kind: last && !last.removed_at ? last.kind || 'text' : 'text', last_at: c.last_at, last_is_mine: !!last && last.sender === me.id, unread: unreadOf(c) }; }));
       }
       if (fn === 'chat_unread_total') return json(200, myConvs().reduce((n, c) => n + unreadOf(c), 0));
       if (fn === 'chat_messages_of') {
