@@ -459,3 +459,40 @@ describe('shared devices and sign-out safety', () => {
     expect(storage.getItem(LINK_KEY)).toBeNull();
   });
 });
+
+describe('password sign-in (app store reviewers only)', () => {
+  const make = (signInWithPassword, getOnline) => {
+    const server = makeServer();
+    const calls = [];
+    const mgr = new SyncManager({ configured: true, storage: memStorage(), getOnline, createClient: async () => {
+      const c = fakeClient(server);
+      c.auth.signInWithPassword = async (a) => { calls.push(a); return signInWithPassword(a); };
+      c.auth.signUp = vi.fn();
+      return c;
+    } });
+    mgr.attach({ getState: () => emptyState('r'), apply: () => {}, clearLocal: () => {} });
+    return { mgr, calls };
+  };
+  it('signs in with the right password and keeps no copy of it', async () => {
+    const storage = memStorage();
+    const { mgr } = make(async () => ({ data: { session: { user: { id: 'rev', email: 'a+review@b.co' } } }, error: null }));
+    mgr.storage = storage;
+    const set = vi.spyOn(storage, 'setItem');
+    expect(await mgr.signInWithPassword(' a+review@b.co ', 'S3cret-long-pass')).toBe(true);
+    expect(mgr.getSnapshot().userId).toBe('rev');
+    expect(JSON.stringify(set.mock.calls) + JSON.stringify(mgr.getSnapshot())).not.toContain('S3cret-long-pass');
+    expect(mgr.client.auth.signUp).not.toHaveBeenCalled(); // it can never create an account
+  });
+  it('says the same thing for a wrong password and an unknown address, and reports rate limits', async () => {
+    const wrong = make(async () => ({ data: {}, error: { status: 400, message: 'Invalid login credentials' } }));
+    expect(await wrong.mgr.signInWithPassword('x@y.co', 'nope')).toBe(false);
+    expect(wrong.mgr.getSnapshot().error).toBe('badLogin');
+    const limited = make(async () => ({ data: {}, error: { status: 429, message: 'rate limit' } }));
+    await limited.mgr.signInWithPassword('x@y.co', 'nope');
+    expect(limited.mgr.getSnapshot().error).toBe('rateLimited');
+    const bad = make(async () => ({}));
+    await bad.mgr.signInWithPassword('not-an-email', 'x');
+    expect(bad.mgr.getSnapshot().error).toBe('invalidEmail');
+    expect(bad.calls).toHaveLength(0);
+  });
+});

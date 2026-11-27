@@ -86,6 +86,16 @@ export function createMockBackend(opts = {}) {
       stats.challenge = url.searchParams.get('code_challenge') || null;
       return route.fulfill({ status: 302, headers: { ...cors, location: `${redirect}${redirect.includes('?') ? '&' : '?'}code=mock-oauth-code` }, body: '' });
     }
+    if (url.pathname === '/auth/v1/token' && url.searchParams.get('grant_type') === 'password') {
+      const body = JSON.parse(req.postData() || '{}');
+      stats.passwordTries = (stats.passwordTries || 0) + 1;
+      if (state.rateLimit) return json(429, { code: 'over_request_rate_limit', message: 'rate limit' });
+      const want = (opts.passwords || {})[body.email]; // only accounts that were given a password can use one
+      if (!want || want !== body.password) return json(400, { error: 'invalid_grant', error_description: 'Invalid login credentials', message: 'Invalid login credentials' });
+      const id = idFor(body.email);
+      know(body.email, 'email');
+      return json(200, makeSession(body.email, id, profiles[body.email] || {}));
+    }
     if (url.pathname === '/auth/v1/token' && url.searchParams.get('grant_type') === 'pkce') {
       const body = JSON.parse(req.postData() || '{}');
       if (body.auth_code !== 'mock-oauth-code' || !body.code_verifier) return json(400, { message: 'invalid flow state' });

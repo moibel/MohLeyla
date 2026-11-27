@@ -28,6 +28,8 @@ export default function SignInForm() {
   const s = useSync();
   const [email, setEmail] = useState('');
   const [code, setCode] = useState('');
+  const [withPassword, setWithPassword] = useState(false); // only for the app stores' reviewers
+  const [password, setPassword] = useState('');
   const [busy, setBusy] = useState(false);
   const [wait, setWait] = useState(0); // seconds before "send again": stops repeated taps from sending many emails
   useEffect(() => {
@@ -38,19 +40,34 @@ export default function SignInForm() {
   const send = async (address) => { if (await run(() => sync.sendCode(address))) setWait(60); };
   const run = async (fn) => { setBusy(true); try { return await fn(); } finally { setBusy(false); } };
 
-  const showApple = !s.codeSentTo && isSyncConfigured() && (nativePlatform() === 'ios' || APPLE_SIGN_IN_WEB);
+  const showApple = !withPassword && !s.codeSentTo && isSyncConfigured() && (nativePlatform() === 'ios' || APPLE_SIGN_IN_WEB);
+  const switchMode = (on) => { setWithPassword(on); setPassword(''); sync.set({ error: null }); };
   return (
     <div className="stack-sm">
       {showApple && (
         <Button variant="secondary" size="lg" icon={<AppleLogo />} disabled={busy} onClick={() => run(() => sync.signInWithApple())} data-testid="acc-apple">{t('account.apple')}</Button>
       )}
-      {(GOOGLE_SIGN_IN || showApple) && !s.codeSentTo && (
+      {!withPassword && (GOOGLE_SIGN_IN || showApple) && !s.codeSentTo && (
         <>
           {GOOGLE_SIGN_IN && <Button variant="secondary" size="lg" icon={<GoogleG />} disabled={busy} onClick={() => run(() => sync.signInWithGoogle())} data-testid="acc-google">{t('account.google')}</Button>}
           <p className="or-divider" aria-hidden="true"><span>{t('account.orEmail')}</span></p>
         </>
       )}
-      {!s.codeSentTo ? (
+      {withPassword ? (
+        <form className="stack-sm" data-testid="acc-pw-form" onSubmit={async (e) => { e.preventDefault(); if (await run(() => sync.signInWithPassword(email, password))) setPassword(''); }}>
+          <p className="note-small">{t('account.passwordHelp')}</p>
+          <label className="field">
+            <span>{t('account.email')}</span>
+            <input type="email" inputMode="email" autoComplete="username" required value={email} onChange={(e) => setEmail(e.target.value)} dir="ltr" data-testid="acc-pw-email" />
+          </label>
+          <label className="field">
+            <span>{t('account.password')}</span>
+            <input type="password" autoComplete="current-password" required maxLength={200} value={password} onChange={(e) => setPassword(e.target.value)} dir="ltr" data-testid="acc-pw-password" />
+          </label>
+          <Button type="submit" icon={<KeyRound size={18} aria-hidden="true" />} disabled={busy || !email || !password} data-testid="acc-pw-submit">{t('account.passwordSubmit')}</Button>
+          <Button variant="ghost" onClick={() => switchMode(false)} data-testid="acc-pw-back">{t('account.passwordBack')}</Button>
+        </form>
+      ) : !s.codeSentTo ? (
         <form className="stack-sm" onSubmit={(e) => { e.preventDefault(); send(email); }}>
           <label className="field">
             <span>{t('account.email')}</span>
@@ -75,6 +92,7 @@ export default function SignInForm() {
           </div>
         </div>
       )}
+      {!withPassword && !s.codeSentTo && <Button variant="ghost" size="sm" onClick={() => switchMode(true)} data-testid="acc-pw-toggle">{t('account.passwordToggle')}</Button>}
       {s.error && <p className="err-text" role="alert" data-testid="acc-error">{t(`account.errors.${s.error}`)}</p>}
     </div>
   );

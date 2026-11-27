@@ -5,7 +5,7 @@
 ## A. Right after merging (website)
 - [ ] **Owner:** back up the database (Supabase → Database → Backups or an export).
 - [x] `supabase/migrations/014_security_hardening.sql` applied to the live project (27 November 2026)
-- [ ] Run `supabase/migrations/015_chat_word_filter.sql` once in the SQL editor. Until then nothing is filtered and the privacy page is ahead of the database.
+- [x] `supabase/migrations/015_chat_word_filter.sql` applied and checked on the live project (27 November 2026)
 - [x] File clean-up deployed (`purge-files`, "Verify JWT" off), scheduled daily at 03:17 UTC and test run successful (27 November 2026)
 - [ ] **Owner:** check the Supabase settings in `LOGIN_RULES.md` (Confirm email ON, redirect list, templates).
 - [ ] **Owner:** check that real users have a confirmed email (Authentication → Users); others stop seeing rewards and personal announcements.
@@ -29,10 +29,11 @@
 - [x] Report, block, terms acceptance, 13+, published support email
 - [x] Word filter for chat text and captions (015). Photos and voice notes are moderated by report and admin review only; a reviewer may ask about that.
 - [ ] **Owner + native speakers:** review the blocked-word list (Admin → Reports → Blocked words) in each language
-- [ ] **Owner + developer:** a way for store reviewers to sign in (they cannot receive your email codes). Prepare a test student and teacher with an existing chat and written review notes.
+- [x] Reviewer sign-in built (password button on the sign-in screen, seed script)
+- [ ] **Owner:** create the two review accounts and run the seed script, then put the passwords only in the store forms: follow `REVIEW_ACCESS.md`
 - [ ] **Owner:** test on a real iPhone and Android phone: email code, Google, Apple, microphone, camera, voice notes, calls, notifications, deletion, Arabic right-to-left
 - [ ] **Owner:** screenshots, descriptions, age rating (declare chat and user content), privacy forms (use `DATA_RULES.md`)
-- [ ] **Owner:** add `com.mohleyla.app://auth` to Supabase redirect URLs
+- [x] `com.mohleyla.app://auth` added to the Supabase redirect URLs (27 November 2026)
 
 ## D. Apple
 - [x] Privacy manifest, permission texts in en/ar/id, Sign in with Apple, iOS simulator build succeeds
@@ -43,7 +44,9 @@
 
 ## E. Google Play
 - [x] Target API 36, release signing configuration, safe behaviour without Firebase (not yet run on Android)
-- [ ] **Owner:** install Android Studio and JDK 21; build the app bundle and test it (**Android has never been built**)
+- [x] Debug build works (Android Studio, `openjdk@21`: Android Studio's own Java is too new for the build tool). Installed on a Galaxy S21 Ultra (Android 15): email and Google sign-in work; the owner reported the app all good
+- [ ] Bluetooth earphones in calls: the app does not request `BLUETOOTH_CONNECT`; test it
+- [ ] Build the signed release app bundle and test it
 - [ ] **Owner:** create and back up the upload keystore (`android/keystore.properties.example`)
 - [ ] **Owner:** Firebase project and `google-services.json`, FCM secret (for notifications)
 - [ ] **Owner:** Play Console account (25 USD). New personal accounts need 12 testers for 14 days before public release: start early

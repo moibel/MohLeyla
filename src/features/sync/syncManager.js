@@ -281,6 +281,28 @@ export class SyncManager {
     }
   }
 
+  /**
+   * Password sign-in, only for the store reviewers' test accounts (they cannot receive our email codes). It never creates an
+   * account: it works only for accounts the owner made with a password in Supabase. The password is not kept anywhere.
+   */
+  async signInWithPassword(email, password) {
+    const clean = String(email).trim();
+    if (!isEmail(clean)) return this.fail('invalidEmail');
+    try {
+      const c = await this.ensureClient();
+      const { data, error } = await c.auth.signInWithPassword({ email: clean, password: String(password) });
+      if (error || !data?.session) {
+        const why = mapAuthError(error, 'badLogin');
+        return this.fail(why === 'rateLimited' || why === 'network' ? why : 'badLogin');
+      }
+      this.setUser(data.session.user, { status: 'idle', codeSentTo: null, error: null, restoring: false });
+      await this.syncNow();
+      return true;
+    } catch (e) {
+      return this.fail(e.code === 'notConfigured' ? 'notConfigured' : this.getOnline() ? 'badLogin' : 'network');
+    }
+  }
+
   stopNativeListener() { const stop = this.nativeListener; this.nativeListener = null; stop?.(); }
 
   stopRetry() { clearTimeout(this.retryTimer); this.retryTimer = null; this.retryIdx = 0; }

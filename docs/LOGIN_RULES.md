@@ -2,7 +2,7 @@
 
 ## How sign-in works
 - **Required:** the website and the phone apps open only after sign-in (`VITE_REQUIRE_SIGN_IN=true`). This screen is a convenience; the database is what protects data.
-- **Methods:** email one-time code (the email has the code, no link), Google, and Sign in with Apple (always on iPhone). There are no passwords in the app.
+- **Methods:** email one-time code (the email has the code, no link), Google, and Sign in with Apple (always on iPhone). Learners have no passwords. The one exception is the app stores' review accounts (see `REVIEW_ACCESS.md`).
 - **New accounts** are created by the first successful sign-in.
 - **First sign-in set-up** (before any lesson): confirm 13 or older and accept the terms (both required), choose languages, level for each, and daily goal. Saved in the account and recorded in the database (`accept_terms`). Asked again only if the terms version changes (`TERMS_VERSION` in `src/features/welcome/plan.js`). Languages and levels can be changed in Settings. A remembered person who is offline is not locked out.
 
@@ -18,6 +18,7 @@
 | L7 | A sync that is running when the person signs out writes nothing back. |
 | L8 | Signing out removes the person's cached announcements and rewards, and the phone stops receiving their notifications (if the server cannot be reached, the phone's registration is switched off). |
 | L9 | Deleting an account needs the person's own sign-in token; the last admin cannot be deleted. See `ACCOUNT_DELETION.md`. |
+| L10 | Password sign-in is only for the review accounts: it never creates an account, no password is built in or stored, a wrong password and an unknown address get the same answer, and admin or real-user accounts must never be given a password. |
 
 Checks: `src/test/sync.test.js`, `security.test.js`, `push.test.js`, `tests/e2e/gate.spec.js`, `welcome.spec.js`, `accounts.spec.js`.
 
